@@ -1,0 +1,45 @@
+name: collect-slow
+
+# L1 수집 (지표): FRED · ECOS · [선택] 시세 — 1시간 주기 (설계서 §02)
+on:
+  schedule:
+    - cron: '7 * * * *'    # 정시 오프셋 — fast(*/30)와 시작 겹침 완화
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-commit
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install requests pyyaml
+      - name: Collect (slow group)
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          ECOS_API_KEY: ${{ secrets.ECOS_API_KEY }}
+          DATA_GO_KR_API_KEY: ${{ secrets.DATA_GO_KR_API_KEY }}
+          ONION_USER_AGENT: 'onion-backend/1.2 (github actions; contact via repo)'
+        run: python -m engine.run_collect --group slow
+      - name: Commit data
+        run: |
+          git config user.name "onion-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "no new data"; exit 0; fi
+          git commit -m "l1: slow collect $(date -u +%FT%TZ)"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            echo "push retry $i"; sleep $((i*5))
+          done
+          exit 1

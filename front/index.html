@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Onion — 이슈 피드</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<style>
+:root{--ink:#0E1A2B;--paper:#F5F6F8;--line:#E3E8EF;--signal:#E8A33D;--slate:#5A6B82;--ok:#2E7D52}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Pretendard',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;
+     background:var(--paper);color:var(--ink);line-height:1.6;font-size:15px}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px 60px}
+header{background:var(--ink);color:#fff;padding:20px 0;margin-bottom:16px}
+header .wrap{padding-bottom:0}
+header h1{font-size:20px;letter-spacing:-.3px}
+header h1 span{color:var(--signal)}
+header p{font-size:12px;color:#AEBCCC}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:10px;
+      cursor:pointer;transition:box-shadow .15s}
+.card:hover{box-shadow:0 2px 10px rgba(14,26,43,.08)}
+.chip{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px;
+      background:#EAEEF4;color:var(--slate);margin-right:6px}
+.chip.RATE{background:#FBEEDC;color:#9A6A12}.chip.EARNINGS{background:#E7F2EA;color:var(--ok)}
+.chip.MACRO{background:#E6ECF6;color:#3F66A0}.chip.FX{background:#F3E8FB;color:#7B3FA0}
+.chip.MARKET{background:#E0F0F4;color:#1F6E7E}.chip.POLICY{background:#FBE7E3;color:#C0402F}
+.chip.GEO{background:#EEE;color:#555}
+.card h2{font-size:17px;margin:6px 0 4px;letter-spacing:-.3px}
+.meta{font-size:12px;color:var(--slate)}
+.detail{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px;margin-bottom:12px}
+.detail h2{font-size:21px;margin:8px 0 12px;letter-spacing:-.4px}
+.detail ul{margin:8px 0 8px 20px}
+.detail li{margin:6px 0}
+h3{font-size:13px;color:var(--slate);margin:18px 0 6px;letter-spacing:.05em}
+.effects li{color:#1F6E7E}
+.disclaimer{font-size:11.5px;color:#98A5B5;border-top:1px dashed var(--line);margin-top:10px;padding-top:8px}
+.back{display:inline-block;margin:4px 0 12px;color:var(--slate);cursor:pointer;font-size:13px}
+.timeline{font-size:13px}
+.timeline li{margin:5px 0}
+.timeline .src{color:var(--slate);font-size:11.5px}
+.timeline a{color:#3F66A0;text-decoration:none}
+canvas{max-height:260px}
+.chart-src{font-size:11px;color:#98A5B5;text-align:right;margin-top:4px}
+.empty{text-align:center;color:var(--slate);padding:60px 0}
+footer{font-size:11px;color:#98A5B5;text-align:center;margin-top:30px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>Onion <span>이슈 피드</span></h1>
+  <p>이슈 단위로 다시 묶은 경제 뉴스 — 수치는 공식 출처(FRED·ECOS·DART·EDGAR)에서 직접 가져옵니다</p>
+</div></header>
+<div class="wrap"><div id="app"><p class="empty">불러오는 중…</p></div>
+<footer>News metadata: GDELT Project · Data: FRED, 한국은행 ECOS, DART, SEC EDGAR</footer>
+</div>
+
+<script>
+const app = document.getElementById('app');
+const CAT_LABEL = {RATE:'금리', EARNINGS:'실적', MACRO:'경제지표', FX:'환율·원자재',
+                   MARKET:'증시', POLICY:'정책', GEO:'지정학', ETC:'기타'};
+let chart = null;
+
+function fmtDate(s){ if(!s) return ''; const d = new Date(s);
+  return isNaN(d) ? '' : `${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`; }
+
+async function fetchJson(path){
+  const res = await fetch(path, {cache:'no-store'});
+  if(!res.ok) throw new Error(`${path}: ${res.status}`);
+  return res.json();
+}
+
+async function renderFeed(){
+  if(chart){ chart.destroy(); chart = null; }
+  try{
+    const idx = await fetchJson('./out/index.json');
+    if(!idx.issues || !idx.issues.length){
+      app.innerHTML = '<p class="empty">아직 발행된 이슈가 없습니다. 파이프라인이 곧 채워요.</p>'; return; }
+    app.innerHTML = idx.issues.map(i => `
+      <div class="card" onclick="location.hash='#/issue/${i.id}'">
+        <span class="chip ${i.category}">${CAT_LABEL[i.category]||i.category}</span>
+        ${i.origin==='official_event' ? '<span class="chip">공식발표</span>' : ''}
+        <h2>${esc(i.one_liner)}</h2>
+        <div class="meta">출처 ${i.sources}곳 · ${fmtDate(i.last_update)}${i.has_visual ? ' · 📊' : ''}</div>
+      </div>`).join('');
+  }catch(e){ app.innerHTML = `<p class="empty">피드를 불러오지 못했어요 (${esc(e.message)})</p>`; }
+}
+
+async function renderIssue(id){
+  if(chart){ chart.destroy(); chart = null; }
+  try{
+    const d = await fetchJson(`./out/issues/${encodeURIComponent(id)}.json`);
+    app.innerHTML = `
+      <span class="back" onclick="location.hash=''">&larr; 피드로</span>
+      <div class="detail">
+        <span class="chip ${d.category}">${CAT_LABEL[d.category]||d.category}</span>
+        ${d.origin==='official_event' ? '<span class="chip">공식발표</span>' : ''}
+        <h2>${esc(d.one_liner)}</h2>
+        ${d.details.length ? `<h3>어떤 일이 있었나요</h3><ul>${d.details.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>` : ''}
+        ${d.visual ? `<h3>${esc(d.visual.title)}</h3><canvas id="chart"></canvas>
+                      <div class="chart-src">출처: ${esc(d.visual.source)}</div>` : ''}
+        ${d.effects.length ? `<h3>보통 이런 흐름이 따라와요</h3>
+          <ul class="effects">${d.effects.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>` : ''}
+        <p class="disclaimer">본 내용은 일반적 경향 설명이며 투자 판단의 근거가 아닙니다.</p>
+      </div>
+      ${d.timeline.length ? `<div class="detail"><h3>타임라인</h3><ul class="timeline">
+        ${d.timeline.map(t=>`<li>${t.kind==='official'?'🏛️ ':''}<a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.title)}</a>
+          <span class="src">— ${esc(t.source)} ${fmtDate(t.at)}</span></li>`).join('')}</ul></div>` : ''}`;
+    if(d.visual) drawChart(d.visual);
+  }catch(e){ app.innerHTML = `<p class="empty">이슈를 불러오지 못했어요 (${esc(e.message)})</p>`; }
+}
+
+function drawChart(v){
+  const ctx = document.getElementById('chart');
+  if(!ctx || typeof Chart === 'undefined') return;
+  const common = {responsive:true, plugins:{legend:{display:!!v.groups}},
+    scales:{y:{title:{display:!!v.unit, text:v.unit}}}};
+  if(v.groups){  // earnings_quarterly — 묶은 막대
+    const labels = [...new Set(v.groups.flatMap(g=>g.series.map(p=>p.t)))].sort();
+    chart = new Chart(ctx, {type:'bar',
+      data:{labels, datasets:v.groups.map((g,i)=>({label:g.name,
+        data:labels.map(t=>{const p=g.series.find(x=>x.t===t); return p?p.v:null;}),
+        backgroundColor:['#E8A33D','#23405E','#2E7D52'][i%3]}))},
+      options:common});
+  }else{
+    chart = new Chart(ctx, {type:'line',
+      data:{labels:v.series.map(p=>p.t),
+        datasets:[{data:v.series.map(p=>p.v), borderColor:'#E8A33D',
+          backgroundColor:'rgba(232,163,61,.12)', pointRadius:0, borderWidth:2,
+          stepped:v.chart==='step', fill:true}]},
+      options:common});
+  }
+}
+
+function esc(s){ return String(s??'').replace(/[&<>"']/g,
+  c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+function route(){
+  const m = location.hash.match(/^#\/issue\/(.+)$/);
+  if(m) renderIssue(m[1]); else renderFeed();
+}
+window.addEventListener('hashchange', route);
+route();
+</script>
+</body>
+</html>

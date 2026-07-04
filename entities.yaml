@@ -1,0 +1,126 @@
+# ============================================================================
+# 개체 사전 — 티커·기관 매칭용 (설계서 §04-① entity_keys)
+# key: 정규화된 entity_key / aliases: 제목·리드에서 찾을 표기들 (대소문자 무시)
+# 초안: KR 주요 상장사 + S&P100 핵심 + 기관. 확장은 이 파일에 추가만 하면 됨.
+# ============================================================================
+
+institutions:
+  - { key: BOK,  aliases: [한국은행, 한은, Bank of Korea] }
+  - { key: FED,  aliases: [Fed, Federal Reserve, 연준, 연방준비제도, FOMC] }
+  - { key: MOEF, aliases: [기획재정부, 기재부] }
+  - { key: FSC,  aliases: [금융위원회, 금융위] }
+  - { key: MOTIE, aliases: [산업통상자원부, 산업부] }
+  - { key: ECB,  aliases: [ECB, European Central Bank, 유럽중앙은행] }
+  - { key: BOJ,  aliases: [일본은행, Bank of Japan, BOJ] }
+  - { key: IMF,  aliases: [IMF, 국제통화기금] }
+  - { key: SEC,  aliases: [SEC, 미 증권거래위원회] }
+
+kr_companies:
+  - { key: "KRX:005930", aliases: [삼성전자, Samsung Electronics] }
+  - { key: "KRX:000660", aliases: [SK하이닉스, SK Hynix] }
+  - { key: "KRX:373220", aliases: [LG에너지솔루션, LG Energy Solution] }
+  - { key: "KRX:207940", aliases: [삼성바이오로직스, Samsung Biologics] }
+  - { key: "KRX:005380", aliases: [현대차, 현대자동차, Hyundai Motor] }
+  - { key: "KRX:000270", aliases: [기아, Kia] }
+  - { key: "KRX:068270", aliases: [셀트리온, Celltrion] }
+  - { key: "KRX:005490", aliases: [포스코홀딩스, POSCO홀딩스, POSCO Holdings] }
+  - { key: "KRX:035420", aliases: [네이버, NAVER] }
+  - { key: "KRX:035720", aliases: [카카오, Kakao] }
+  - { key: "KRX:051910", aliases: [LG화학, LG Chem] }
+  - { key: "KRX:006400", aliases: [삼성SDI, Samsung SDI] }
+  - { key: "KRX:028260", aliases: [삼성물산, Samsung C&T] }
+  - { key: "KRX:105560", aliases: [KB금융, KB Financial] }
+  - { key: "KRX:055550", aliases: [신한지주, Shinhan Financial] }
+  - { key: "KRX:086790", aliases: [하나금융지주, Hana Financial] }
+  - { key: "KRX:316140", aliases: [우리금융지주, Woori Financial] }
+  - { key: "KRX:032830", aliases: [삼성생명, Samsung Life] }
+  - { key: "KRX:015760", aliases: [한국전력, 한전, KEPCO] }
+  - { key: "KRX:034020", aliases: [두산에너빌리티, Doosan Enerbility] }
+  - { key: "KRX:042660", aliases: [한화오션, Hanwha Ocean] }
+  - { key: "KRX:009540", aliases: [HD한국조선해양, HD Korea Shipbuilding] }
+  - { key: "KRX:012450", aliases: [한화에어로스페이스, Hanwha Aerospace] }
+  - { key: "KRX:047810", aliases: [한국항공우주, KAI] }
+  - { key: "KRX:066570", aliases: [LG전자, LG Electronics] }
+  - { key: "KRX:003670", aliases: [포스코퓨처엠, POSCO Future M] }
+  - { key: "KRX:096770", aliases: [SK이노베이션, SK Innovation] }
+  - { key: "KRX:034730", aliases: [SK, SK주식회사] }
+  - { key: "KRX:017670", aliases: [SK텔레콤, SK Telecom] }
+  - { key: "KRX:030200", aliases: [KT] }
+  - { key: "KRX:009150", aliases: [삼성전기, Samsung Electro-Mechanics] }
+  - { key: "KRX:018260", aliases: [삼성에스디에스, 삼성SDS, Samsung SDS] }
+  - { key: "KRX:010130", aliases: [고려아연, Korea Zinc] }
+  - { key: "KRX:011200", aliases: [HMM] }
+  - { key: "KRX:086280", aliases: [현대글로비스, Hyundai Glovis] }
+  - { key: "KRX:012330", aliases: [현대모비스, Hyundai Mobis] }
+  - { key: "KRX:090430", aliases: [아모레퍼시픽, Amorepacific] }
+  - { key: "KRX:097950", aliases: [CJ제일제당, CJ CheilJedang] }
+  - { key: "KRX:035760", aliases: [CJ ENM] }
+  - { key: "KRX:352820", aliases: [하이브, HYBE] }
+  - { key: "KRX:259960", aliases: [크래프톤, Krafton] }
+  - { key: "KRX:036570", aliases: [엔씨소프트, NCSOFT] }
+  - { key: "KRX:251270", aliases: [넷마블, Netmarble] }
+  - { key: "KRX:293490", aliases: [카카오게임즈, Kakao Games] }
+  - { key: "KRX:247540", aliases: [에코프로비엠, EcoPro BM] }
+  - { key: "KRX:086520", aliases: [에코프로, EcoPro] }
+  - { key: "KRX:028300", aliases: [HLB] }
+  - { key: "KRX:196170", aliases: [알테오젠, Alteogen] }
+  - { key: "KRX:263750", aliases: [펄어비스, Pearl Abyss] }
+  - { key: "KRX:112040", aliases: [위메이드, Wemade] }
+
+us_companies:
+  - { key: AAPL,  aliases: [Apple, 애플, AAPL] }
+  - { key: MSFT,  aliases: [Microsoft, 마이크로소프트, MSFT] }
+  - { key: GOOGL, aliases: [Google, Alphabet, 구글, 알파벳, GOOGL] }
+  - { key: AMZN,  aliases: [Amazon, 아마존, AMZN] }
+  - { key: NVDA,  aliases: [Nvidia, NVIDIA, 엔비디아, NVDA] }
+  - { key: META,  aliases: [Meta, 메타, Facebook, 페이스북, META] }
+  - { key: TSLA,  aliases: [Tesla, 테슬라, TSLA] }
+  - { key: AVGO,  aliases: [Broadcom, 브로드컴, AVGO] }
+  - { key: BRK,   aliases: [Berkshire Hathaway, 버크셔] }
+  - { key: JPM,   aliases: [JPMorgan, JP모건, 제이피모건] }
+  - { key: V,     aliases: [Visa, 비자] }
+  - { key: MA,    aliases: [Mastercard, 마스터카드] }
+  - { key: JNJ,   aliases: [Johnson & Johnson, 존슨앤드존슨] }
+  - { key: WMT,   aliases: [Walmart, 월마트] }
+  - { key: XOM,   aliases: [Exxon, ExxonMobil, 엑슨모빌] }
+  - { key: CVX,   aliases: [Chevron, 셰브런] }
+  - { key: PG,    aliases: [Procter & Gamble, P&G] }
+  - { key: UNH,   aliases: [UnitedHealth, 유나이티드헬스] }
+  - { key: HD,    aliases: [Home Depot, 홈디포] }
+  - { key: KO,    aliases: [Coca-Cola, 코카콜라] }
+  - { key: PEP,   aliases: [Pepsi, PepsiCo, 펩시] }
+  - { key: BAC,   aliases: [Bank of America, 뱅크오브아메리카] }
+  - { key: GS,    aliases: [Goldman Sachs, 골드만삭스] }
+  - { key: MS,    aliases: [Morgan Stanley, 모건스탠리] }
+  - { key: C,     aliases: [Citigroup, 씨티그룹] }
+  - { key: WFC,   aliases: [Wells Fargo, 웰스파고] }
+  - { key: INTC,  aliases: [Intel, 인텔] }
+  - { key: AMD,   aliases: [AMD] }
+  - { key: QCOM,  aliases: [Qualcomm, 퀄컴] }
+  - { key: TXN,   aliases: [Texas Instruments, 텍사스인스트루먼트] }
+  - { key: MU,    aliases: [Micron, 마이크론] }
+  - { key: CRM,   aliases: [Salesforce, 세일즈포스] }
+  - { key: ORCL,  aliases: [Oracle, 오라클] }
+  - { key: ADBE,  aliases: [Adobe, 어도비] }
+  - { key: NFLX,  aliases: [Netflix, 넷플릭스] }
+  - { key: DIS,   aliases: [Disney, 디즈니] }
+  - { key: BA,    aliases: [Boeing, 보잉] }
+  - { key: CAT,   aliases: [Caterpillar, 캐터필러] }
+  - { key: GE,    aliases: [General Electric, 제너럴일렉트릭] }
+  - { key: F,     aliases: [Ford, 포드] }
+  - { key: GM,    aliases: [General Motors, 제너럴모터스] }
+  - { key: PFE,   aliases: [Pfizer, 화이자] }
+  - { key: MRK,   aliases: [Merck, 머크] }
+  - { key: LLY,   aliases: [Eli Lilly, 일라이릴리] }
+  - { key: ABBV,  aliases: [AbbVie, 애브비] }
+  - { key: TMO,   aliases: [Thermo Fisher, 서모피셔] }
+  - { key: COST,  aliases: [Costco, 코스트코] }
+  - { key: MCD,   aliases: [McDonald's, 맥도날드] }
+  - { key: NKE,   aliases: [Nike, 나이키] }
+  - { key: SBUX,  aliases: [Starbucks, 스타벅스] }
+  - { key: UBER,  aliases: [Uber, 우버] }
+  - { key: PYPL,  aliases: [PayPal, 페이팔] }
+  - { key: IBM,   aliases: [IBM] }
+  - { key: CSCO,  aliases: [Cisco, 시스코] }
+  - { key: T,     aliases: [AT&T] }
+  - { key: VZ,    aliases: [Verizon, 버라이즌] }

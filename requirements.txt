@@ -1,0 +1,11 @@
+# 런타임 (수집·처리 공통)
+requests>=2.31
+PyYAML>=6.0
+numpy>=1.26
+
+# 임베딩 (L2 실제 실행에만 필요 — 테스트/dry-run 은 불필요)
+# CPU 로 충분: intfloat/multilingual-e5-small (384d, 118M)
+sentence-transformers>=3.0
+
+# 개발/테스트
+pytest>=8.0

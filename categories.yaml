@@ -1,0 +1,76 @@
+# ============================================================================
+# 카테고리 8종 (설계서 §04-⑦) — 분류 3단 폴백의 ②키워드 ③프로토타입 정의
+# keywords: 제목 우선 매칭(부분 문자열, 대소문자 무시). 먼저 걸리는 카테고리 승.
+# prototypes: 카테고리별 대표 문장 3개 — 평균 임베딩과 cos argmax ≥ proto_min.
+# ============================================================================
+
+RATE:
+  label: 금리·통화정책
+  keywords: [기준금리, 금리 인상, 금리 인하, 금리인상, 금리인하, 통화정책, 통방, FOMC,
+             rate hike, rate cut, interest rate, monetary policy, federal funds, 양적긴축, 양적완화]
+  prototypes:
+    - 중앙은행이 기준금리를 조정했다
+    - The central bank raised its benchmark interest rate
+    - 통화정책방향 결정회의에서 금리 동결이 결정됐다
+
+EARNINGS:
+  label: 실적·공시
+  keywords: [실적, 잠정실적, 영업이익, 순이익, 분기보고서, 사업보고서, 어닝,
+             earnings, quarterly results, revenue, profit, guidance, 매출액, 공시]
+  prototypes:
+    - 기업이 분기 실적을 발표했다
+    - The company reported quarterly earnings and revenue
+    - 상장사가 잠정 영업실적을 공시했다
+
+MACRO:
+  label: 물가·고용·성장
+  keywords: [물가, 소비자물가, CPI, 인플레이션, 고용, 실업률, 성장률, GDP, 경기침체,
+             inflation, unemployment, jobs report, recession, economic growth, PCE]
+  prototypes:
+    - 소비자물가 상승률이 발표됐다
+    - Inflation data showed consumer prices rising
+    - 고용 지표와 경제 성장률이 발표됐다
+
+FX:
+  label: 환율·원자재
+  keywords: [환율, 원달러, 원/달러, 달러 강세, 달러 약세, 유가, 원유, 금값, 원자재,
+             exchange rate, dollar, crude oil, gold price, commodity, WTI, 브렌트]
+  prototypes:
+    - 원달러 환율이 급등했다
+    - The dollar strengthened against major currencies
+    - 국제 유가와 원자재 가격이 변동했다
+
+MARKET:
+  label: 증시·수급
+  keywords: [코스피, 코스닥, 증시, 주가, 급등, 급락, 외국인 순매수, 나스닥, 다우, S&P,
+             stock market, stocks, rally, selloff, Nasdaq, Dow, bond yield, 국채 금리]
+  prototypes:
+    - 코스피 지수가 상승 마감했다
+    - Stocks rallied on Wall Street as tech shares gained
+    - 외국인 투자자가 국내 주식을 순매수했다
+
+POLICY:
+  label: 정책·규제
+  keywords: [정책, 규제, 법안, 세제, 감세, 증세, 보조금, 부동산 대책, 관세,
+             regulation, policy, legislation, tariff, subsidy, antitrust, 공정위]
+  prototypes:
+    - 정부가 새로운 경제 정책을 발표했다
+    - Regulators announced new rules for the industry
+    - 국회가 관련 법안을 통과시켰다
+
+GEO:
+  label: 지정학
+  keywords: [전쟁, 분쟁, 제재, 미사일, 휴전, 파병, 북한, 중동, 우크라이나,
+             war, conflict, sanctions, missile, ceasefire, geopolitical, military]
+  prototypes:
+    - 지역 분쟁이 격화되며 긴장이 고조됐다
+    - The conflict escalated after military strikes
+    - 주요국이 새로운 제재를 발표했다
+
+ETC:
+  label: 기타
+  keywords: []
+  prototypes:
+    - 기타 일반 뉴스
+    - General news about various topics
+    - 분류되지 않은 소식
