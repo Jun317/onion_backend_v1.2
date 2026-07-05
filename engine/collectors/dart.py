@@ -8,6 +8,7 @@ import re
 from datetime import datetime, timedelta, timezone
 
 from ..config import cfg, env
+from ..normalize import extract_entity_keys
 from ..util.http import get_json
 from .base import write_express
 
@@ -69,12 +70,17 @@ def collect() -> int:
         return 0
 
     n = 0
+    skipped_minor = 0
     for item in data.get("list", []):
         report_nm = item.get("report_nm", "")
         if not earnings_re.search(report_nm):
             continue
         rcept_no = item["rcept_no"]
         corp = item.get("corp_name", "")
+        # 주요 기업 화이트리스트 (entities.yaml) — 미등재 중소기업 공시는 급행 제외
+        if c.get("express_major_only") and not extract_entity_keys(corp):
+            skipped_minor += 1
+            continue
         period = report_period(report_nm, item.get("rcept_dt", ""))
         anchors = [{"entity": corp, **a} for a in
                    fetch_earnings_anchors(api_key, item.get("corp_code", ""), period[:4])]
@@ -87,4 +93,6 @@ def collect() -> int:
         }
         if write_express(f"dart_{rcept_no}", event):
             n += 1
+    if skipped_minor:
+        print(f"[dart] 미등재 기업 공시 {skipped_minor}건 급행 제외 (express_major_only)")
     return n

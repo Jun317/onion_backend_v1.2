@@ -1,142 +1,375 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Onion — 이슈 피드</title>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>onion backend — 파이프라인 모니터</title>
 <style>
-:root{--ink:#0E1A2B;--paper:#F5F6F8;--line:#E3E8EF;--signal:#E8A33D;--slate:#5A6B82;--ok:#2E7D52}
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Pretendard',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;
-     background:var(--paper);color:var(--ink);line-height:1.6;font-size:15px}
-.wrap{max-width:720px;margin:0 auto;padding:0 16px 60px}
-header{background:var(--ink);color:#fff;padding:20px 0;margin-bottom:16px}
-header .wrap{padding-bottom:0}
-header h1{font-size:20px;letter-spacing:-.3px}
-header h1 span{color:var(--signal)}
-header p{font-size:12px;color:#AEBCCC}
-.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:10px;
-      cursor:pointer;transition:box-shadow .15s}
-.card:hover{box-shadow:0 2px 10px rgba(14,26,43,.08)}
-.chip{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px;
-      background:#EAEEF4;color:var(--slate);margin-right:6px}
-.chip.RATE{background:#FBEEDC;color:#9A6A12}.chip.EARNINGS{background:#E7F2EA;color:var(--ok)}
-.chip.MACRO{background:#E6ECF6;color:#3F66A0}.chip.FX{background:#F3E8FB;color:#7B3FA0}
-.chip.MARKET{background:#E0F0F4;color:#1F6E7E}.chip.POLICY{background:#FBE7E3;color:#C0402F}
-.chip.GEO{background:#EEE;color:#555}
-.card h2{font-size:17px;margin:6px 0 4px;letter-spacing:-.3px}
-.meta{font-size:12px;color:var(--slate)}
-.detail{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px;margin-bottom:12px}
-.detail h2{font-size:21px;margin:8px 0 12px;letter-spacing:-.4px}
-.detail ul{margin:8px 0 8px 20px}
-.detail li{margin:6px 0}
-h3{font-size:13px;color:var(--slate);margin:18px 0 6px;letter-spacing:.05em}
-.effects li{color:#1F6E7E}
-.disclaimer{font-size:11.5px;color:#98A5B5;border-top:1px dashed var(--line);margin-top:10px;padding-top:8px}
-.back{display:inline-block;margin:4px 0 12px;color:var(--slate);cursor:pointer;font-size:13px}
-.timeline{font-size:13px}
-.timeline li{margin:5px 0}
-.timeline .src{color:var(--slate);font-size:11.5px}
-.timeline a{color:#3F66A0;text-decoration:none}
-canvas{max-height:260px}
-.chart-src{font-size:11px;color:#98A5B5;text-align:right;margin-top:4px}
-.empty{text-align:center;color:var(--slate);padding:60px 0}
-footer{font-size:11px;color:#98A5B5;text-align:center;margin-top:30px}
+  /* 백엔드 모니터링 대시보드 — 단순·가독성 우선, 빌드 도구·외부 의존 없음 */
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", "Malgun Gothic", sans-serif;
+         background: #f6f7f9; color: #1a1d21; font-size: 14px; }
+  a { color: #2456d6; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  header { background: #1a1d21; color: #fff; padding: 10px 20px;
+           display: flex; gap: 18px; align-items: baseline; flex-wrap: wrap; }
+  header .logo { font-weight: 700; font-size: 16px; color: #ffd166; }
+  header nav a { color: #cfd6e0; margin-right: 14px; }
+  header nav a.on { color: #fff; font-weight: 700; border-bottom: 2px solid #ffd166; }
+  header .gen { margin-left: auto; color: #8a93a3; font-size: 12px; }
+  main { max-width: 1280px; margin: 0 auto; padding: 18px 20px 60px; }
+  h2 { font-size: 17px; margin: 22px 0 10px; }
+  h3 { font-size: 14px; margin: 16px 0 6px; color: #444; }
+  .muted { color: #6b7383; }
+  .small { font-size: 12px; }
+  .err { background: #fff3f3; border: 1px solid #e7b3b3; padding: 12px 14px;
+         border-radius: 6px; color: #8a2525; }
+
+  /* 흐름도 */
+  .flow { display: flex; flex-wrap: wrap; gap: 6px; align-items: stretch; }
+  .stage { background: #fff; border: 1px solid #d9dee6; border-radius: 8px;
+           padding: 8px 10px; min-width: 108px; flex: 1 1 108px; }
+  .stage .nm { font-weight: 700; font-size: 12px; color: #333; }
+  .stage .val { font-size: 18px; font-weight: 700; margin-top: 2px; }
+  .stage .sub { font-size: 11px; color: #6b7383; line-height: 1.5; }
+  .stage.l1 { border-top: 3px solid #4c9f70; }
+  .stage.l2 { border-top: 3px solid #2456d6; }
+  .stage.llm { border-top: 3px solid #b3532e; }
+  .stage.out { border-top: 3px solid #7b4cc4; }
+  .arrow { align-self: center; color: #9aa3b2; font-weight: 700; }
+
+  /* 카드·표 */
+  .cards { display: flex; gap: 10px; flex-wrap: wrap; margin: 10px 0; }
+  .card { background: #fff; border: 1px solid #d9dee6; border-radius: 8px;
+          padding: 10px 14px; min-width: 130px; }
+  .card .k { font-size: 12px; color: #6b7383; }
+  .card .v { font-size: 20px; font-weight: 700; }
+  table { border-collapse: collapse; width: 100%; background: #fff;
+          border: 1px solid #d9dee6; }
+  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid #edf0f4;
+           vertical-align: top; }
+  th { background: #eef1f5; font-size: 12px; color: #444; white-space: nowrap; }
+  tr:hover td { background: #fafbfd; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .wrap-table { overflow-x: auto; }
+
+  /* 배지 */
+  .b { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px;
+       font-weight: 700; white-space: nowrap; }
+  .b.active { background: #e3f4e9; color: #1e7a41; }
+  .b.candidate { background: #fff4d6; color: #8a6d00; }
+  .b.stale { background: #eceff3; color: #5c6570; }
+  .b.archived { background: #f3e3e3; color: #8a2525; }
+  .b.express { background: #fde8dc; color: #b3532e; }
+  .b.cluster { background: #e2eafc; color: #2456d6; }
+  .b.cat { background: #efe6fb; color: #6a35b5; }
+  .b.review { background: #ffe0e0; color: #b32e2e; }
+  .b.state { background: #eceff3; color: #444; }
+
+  /* 필터 버튼 */
+  .filters { margin: 10px 0; display: flex; gap: 6px; flex-wrap: wrap; }
+  .filters button { border: 1px solid #c9d0da; background: #fff; border-radius: 14px;
+                    padding: 4px 12px; cursor: pointer; font-size: 12px; }
+  .filters button.on { background: #1a1d21; color: #fff; border-color: #1a1d21; }
+
+  /* 상세 2단 + 코드 */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 980px) { .two-col { grid-template-columns: 1fr; } }
+  .panel { background: #fff; border: 1px solid #d9dee6; border-radius: 8px; padding: 12px 14px; }
+  .panel h3 { margin-top: 4px; }
+  pre { background: #22262b; color: #dbe2ea; padding: 10px 12px; border-radius: 6px;
+        overflow-x: auto; font-size: 12px; line-height: 1.55; white-space: pre-wrap;
+        word-break: break-word; }
+  details { margin: 6px 0; }
+  summary { cursor: pointer; font-weight: 700; font-size: 13px; color: #333; }
+  .kv { display: grid; grid-template-columns: 110px 1fr; gap: 2px 10px; font-size: 13px; }
+  .kv dt { color: #6b7383; } .kv dd { margin: 0; }
+  .fail { color: #b32e2e; } .ok { color: #1e7a41; }
 </style>
 </head>
 <body>
-<header><div class="wrap">
-  <h1>Onion <span>이슈 피드</span></h1>
-  <p>이슈 단위로 다시 묶은 경제 뉴스 — 수치는 공식 출처(FRED·ECOS·DART·EDGAR)에서 직접 가져옵니다</p>
-</div></header>
-<div class="wrap"><div id="app"><p class="empty">불러오는 중…</p></div>
-<footer>News metadata: GDELT Project · Data: FRED, 한국은행 ECOS, DART, SEC EDGAR</footer>
-</div>
+<header>
+  <span class="logo">onion 파이프라인 모니터</span>
+  <nav id="nav">
+    <a href="#/" data-v="overview">개요</a>
+    <a href="#/articles" data-v="articles">기사 (클러스터링 전)</a>
+    <a href="#/issues" data-v="issues">이슈 (군집·발행)</a>
+    <a href="#/llm" data-v="llm">LLM·검수</a>
+  </nav>
+  <span class="gen" id="gen"></span>
+</header>
+<main id="app">불러오는 중…</main>
 
 <script>
-const app = document.getElementById('app');
-const CAT_LABEL = {RATE:'금리', EARNINGS:'실적', MACRO:'경제지표', FX:'환율·원자재',
-                   MARKET:'증시', POLICY:'정책', GEO:'지정학', ETC:'기타'};
-let chart = null;
+'use strict';
+const $app = document.getElementById('app');
+const esc = s => String(s ?? '').replace(/[&<>"]/g,
+  c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmtT = t => t ? String(t).replace('T', ' ').slice(0, 16) : '—';
+const J = o => esc(JSON.stringify(o, null, 1));
 
-function fmtDate(s){ if(!s) return ''; const d = new Date(s);
-  return isNaN(d) ? '' : `${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`; }
-
-async function fetchJson(path){
-  const res = await fetch(path, {cache:'no-store'});
-  if(!res.ok) throw new Error(`${path}: ${res.status}`);
+async function fetchJson(path) {
+  const res = await fetch(path, {cache: 'no-store'});
+  if (!res.ok) throw new Error(`${path} → HTTP ${res.status}`);
   return res.json();
 }
-
-async function renderFeed(){
-  if(chart){ chart.destroy(); chart = null; }
-  try{
-    const idx = await fetchJson('./out/index.json');
-    if(!idx.issues || !idx.issues.length){
-      app.innerHTML = '<p class="empty">아직 발행된 이슈가 없습니다. 파이프라인이 곧 채워요.</p>'; return; }
-    app.innerHTML = idx.issues.map(i => `
-      <div class="card" onclick="location.hash='#/issue/${i.id}'">
-        <span class="chip ${i.category}">${CAT_LABEL[i.category]||i.category}</span>
-        ${i.origin==='official_event' ? '<span class="chip">공식발표</span>' : ''}
-        <h2>${esc(i.one_liner)}</h2>
-        <div class="meta">출처 ${i.sources}곳 · ${fmtDate(i.last_update)}${i.has_visual ? ' · 📊' : ''}</div>
-      </div>`).join('');
-  }catch(e){ app.innerHTML = `<p class="empty">피드를 불러오지 못했어요 (${esc(e.message)})</p>`; }
+function fail(e) {
+  $app.innerHTML = `<div class="err"><b>진단 데이터를 불러오지 못했습니다.</b><br>
+    ${esc(e.message)}<br><br>
+    새 코드 배포 후 <b>pipeline 워크플로가 한 번 실행되어야</b> out/debug/ 가 생성됩니다.
+    Actions 탭에서 pipeline 을 수동 실행하고 몇 분 뒤 새로고침하세요.</div>`;
 }
 
-async function renderIssue(id){
-  if(chart){ chart.destroy(); chart = null; }
-  try{
-    const d = await fetchJson(`./out/issues/${encodeURIComponent(id)}.json`);
-    app.innerHTML = `
-      <span class="back" onclick="location.hash=''">&larr; 피드로</span>
-      <div class="detail">
-        <span class="chip ${d.category}">${CAT_LABEL[d.category]||d.category}</span>
-        ${d.origin==='official_event' ? '<span class="chip">공식발표</span>' : ''}
-        <h2>${esc(d.one_liner)}</h2>
-        ${d.details.length ? `<h3>어떤 일이 있었나요</h3><ul>${d.details.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>` : ''}
-        ${d.visual ? `<h3>${esc(d.visual.title)}</h3><canvas id="chart"></canvas>
-                      <div class="chart-src">출처: ${esc(d.visual.source)}</div>` : ''}
-        ${d.effects.length ? `<h3>보통 이런 흐름이 따라와요</h3>
-          <ul class="effects">${d.effects.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>` : ''}
-        <p class="disclaimer">본 내용은 일반적 경향 설명이며 투자 판단의 근거가 아닙니다.</p>
+const originBadge = o => o === 'official_event'
+  ? '<span class="b express">급행(공식)</span>' : '<span class="b cluster">군집</span>';
+const statusBadge = s => `<span class="b ${esc(s)}">${esc(s)}</span>`;
+
+/* ---------- 개요 ---------- */
+async function viewOverview() {
+  const s = await fetchJson('./out/debug/summary.json');
+  document.getElementById('gen').textContent = '생성: ' + fmtT(s.generated_at) + ' UTC';
+  const runs = s.run_history || [];
+  const last = runs.find(r => r.kind === 'pipeline' && r.ok) || runs[0] || {stats: {}};
+  const st = last.stats || {};
+  const g = (o, ...ks) => { let v = o; for (const k of ks) v = (v ?? {})[k]; return v ?? '—'; };
+
+  const stages = [
+    ['l1', '① 수집 raw', g(st,'raw_loaded'), 'lookback 창에서 읽은 기사'],
+    ['l2', '② 신규 반영', g(st,'inserted'), `근접중복 ${g(st,'near_dups')}건 표시`],
+    ['l2', '③ 급행 이벤트', g(st,'express'), '공식 이벤트 → 즉시 이슈'],
+    ['l2', '④ 임베딩', g(st,'embedded'), 'e5-small 384d'],
+    ['l2', '⑤ 배정', g(st,'assign','joined'), `보류 ${g(st,'assign','held')} · 풀 ${g(st,'assign','pooled')}`],
+    ['l2', '⑥ 신규 군집', g(st,'seeded'), '풀 내 그리디 페어링'],
+    ['l2', '⑦ 발행', g(st,'promoted'), `출처 ≥ ${s.config.min_publish} 이면 active`],
+    ['l2', '⑧ 분류/병합', `${g(st,'classified')}/${g(st,'merged')}`, '카테고리 / 이슈 병합'],
+    ['llm', '⑨ LLM 가공', g(st,'llm','generated'), `캐시 ${g(st,'llm','cached')} · 템플릿(실패) ${g(st,'llm','template')} · 이월 ${g(st,'llm','deferred')}`],
+    ['out', '⑩ export', g(st,'export','issues'), '정적 JSON → gh-pages'],
+  ];
+  const flow = stages.map(([cls, nm, val, sub]) =>
+    `<div class="stage ${cls}"><div class="nm">${nm}</div>
+     <div class="val">${esc(val)}</div><div class="sub">${sub}</div></div>`
+  ).join('<span class="arrow">→</span>');
+
+  const ic = s.issue_counts || {}, ac = s.article_counts || {};
+  const cards = `
+    <div class="card"><div class="k">발행(active)</div><div class="v">${ic.active||0}</div></div>
+    <div class="card"><div class="k">후보(candidate) — 미발행</div><div class="v">${ic.candidate||0}</div></div>
+    <div class="card"><div class="k">stale / archived</div><div class="v">${ic.stale||0} / ${ic.archived||0}</div></div>
+    <div class="card"><div class="k">기사: 배정/미배정/보류/중복</div>
+      <div class="v">${ac.assigned||0}<span class="muted small"> /${ac.unassigned||0}/${ac.held||0}/${ac.dup||0}</span></div></div>
+    <div class="card"><div class="k">LLM 호출 (오늘/캡)</div><div class="v">${s.llm_calls_today}<span class="muted small"> /${s.config.llm_daily_cap}</span></div></div>
+    <div class="card"><div class="k">검수 큐</div><div class="v">${s.review_queue}</div></div>`;
+
+  const hist = runs.map(r => `<tr>
+    <td>${fmtT(r.at)}</td><td>${esc(r.kind)}</td>
+    <td>${r.ok ? '<span class="ok">OK</span>' : `<span class="fail">FAIL</span> ${esc(r.error||'')}`}</td>
+    <td class="small"><code>${esc(JSON.stringify(r.stats))}</code></td></tr>`).join('');
+
+  $app.innerHTML = `
+    <h2>파이프라인 최근 실행 흐름 <span class="muted small">(${fmtT(last.at)} · ${last.ok?'성공':'실패'})</span></h2>
+    <div class="flow">${flow}</div>
+    <h2>현재 상태</h2><div class="cards">${cards}</div>
+    <h2>판정 임계값 (config.yaml)</h2>
+    <div class="cards">
+      <div class="card"><div class="k">tau_join (편입)</div><div class="v">${s.config.tau_join}</div></div>
+      <div class="card"><div class="k">tau_hold (보류)</div><div class="v">${s.config.tau_hold}</div></div>
+      <div class="card"><div class="k">merge_sim (병합)</div><div class="v">${s.config.merge_sim}</div></div>
+      <div class="card"><div class="k">min_publish (발행 최소 출처)</div><div class="v">${s.config.min_publish}</div></div>
+      <div class="card"><div class="k">DART 주요기업만 급행</div><div class="v">${s.config.dart_express_major_only ? 'ON' : 'OFF'}</div></div>
+    </div>
+    <details><summary>중요도 가중치 (importance)</summary><pre>${J(s.config.importance)}</pre></details>
+    <h2>실행 이력 (최근 ${runs.length}건)</h2>
+    <div class="wrap-table"><table><tr><th>시각(UTC)</th><th>종류</th><th>결과</th><th>단계별 통계</th></tr>${hist}</table></div>`;
+}
+
+/* ---------- 기사 ---------- */
+let artFilter = '전체';
+async function viewArticles() {
+  const data = await fetchJson('./out/debug/articles.json');
+  document.getElementById('gen').textContent = '생성: ' + fmtT(data.generated_at) + ' UTC';
+  const arts = data.articles || [];
+  const states = ['전체', '미배정', '보류', '배정', '중복'];
+  const counts = {전체: arts.length};
+  states.slice(1).forEach(st => counts[st] = arts.filter(a => a.state === st).length);
+  const list = artFilter === '전체' ? arts : arts.filter(a => a.state === artFilter);
+
+  const rows = list.slice(0, 500).map(a => `<tr>
+    <td class="small">${fmtT(a.collected_at)}</td>
+    <td><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></td>
+    <td class="small">${esc(a.source)}<br><span class="muted">${esc(a.tier)} · ${esc(a.lang)}</span></td>
+    <td class="small">${(a.entity_keys||[]).map(esc).join(', ') || '<span class="muted">—</span>'}</td>
+    <td class="num small">${a.last_sim != null
+        ? `${a.last_sim}<br><a href="#/issue/${esc(a.last_sim_issue)}">→ 최근접 이슈</a>` : '—'}</td>
+    <td>${a.issue_id ? `<a href="#/issue/${esc(a.issue_id)}"><span class="b active">배정</span></a>`
+        : `<span class="b state">${esc(a.state)}</span>`}</td></tr>`).join('');
+
+  $app.innerHTML = `
+    <h2>기사 — 클러스터링 전/후 원료 <span class="muted small">(최근 72시간, ${arts.length}건)</span></h2>
+    <p class="muted small">「최근접 유사도」= 마지막 배정 시도에서 가장 가까웠던 이슈와의 코사인.
+      tau_join 미만이면 편입되지 않음 → 왜 안 묶였는지 여기서 확인.</p>
+    <div class="filters">${states.map(st =>
+      `<button class="${st===artFilter?'on':''}" data-f="${st}">${st} (${counts[st]})</button>`).join('')}</div>
+    <div class="wrap-table"><table><tr><th>수집(UTC)</th><th>제목</th><th>출처</th>
+      <th>개체</th><th>최근접 유사도</th><th>상태</th></tr>${rows}</table></div>
+    ${list.length > 500 ? '<p class="muted">최근 500건만 표시</p>' : ''}`;
+  $app.querySelectorAll('.filters button').forEach(b =>
+    b.onclick = () => { artFilter = b.dataset.f; viewArticles(); });
+}
+
+/* ---------- 이슈 목록 ---------- */
+let issFilter = '전체';
+async function viewIssues() {
+  const data = await fetchJson('./out/debug/issues.json');
+  document.getElementById('gen').textContent = '생성: ' + fmtT(data.generated_at) + ' UTC';
+  const issues = data.issues || [];
+  const states = ['전체', 'active', 'candidate', 'stale', 'archived'];
+  const counts = {전체: issues.length};
+  states.slice(1).forEach(st => counts[st] = issues.filter(i => i.status === st).length);
+  const list = issFilter === '전체' ? issues : issues.filter(i => i.status === issFilter);
+
+  const rows = list.map(i => `<tr>
+    <td class="num"><b>${i.importance}</b></td>
+    <td>${statusBadge(i.status)}</td>
+    <td>${originBadge(i.origin)}</td>
+    <td><span class="b cat">${esc(i.category)}</span></td>
+    <td><a href="#/issue/${esc(i.id)}">${esc(i.title)}</a>
+      ${i.in_review ? ' <span class="b review">검수</span>' : ''}</td>
+    <td class="num">${i.seen_sources}</td>
+    <td class="num">${i.members}</td>
+    <td class="small">${esc(i.llm_model || '—')}</td>
+    <td class="small">${fmtT(i.last_update)}</td></tr>`).join('');
+
+  $app.innerHTML = `
+    <h2>이슈 — 전 상태 <span class="muted small">(candidate = 발행 관문 미통과로 프런트에 안 나가는 군집)</span></h2>
+    <div class="filters">${states.map(st =>
+      `<button class="${st===issFilter?'on':''}" data-f="${st}">${st} (${counts[st]})</button>`).join('')}</div>
+    <div class="wrap-table"><table><tr><th>중요도</th><th>상태</th><th>경로</th><th>분류</th>
+      <th>제목</th><th>출처수</th><th>멤버</th><th>LLM 모델</th><th>갱신(UTC)</th></tr>${rows}</table></div>`;
+  $app.querySelectorAll('.filters button').forEach(b =>
+    b.onclick = () => { issFilter = b.dataset.f; viewIssues(); });
+}
+
+/* ---------- 이슈 상세 ---------- */
+async function viewIssue(id) {
+  const d = await fetchJson(`./out/debug/issues/${encodeURIComponent(id)}.json`);
+  const members = (d.members || []).map(m => `<tr>
+    <td class="num small">${m.sim_to_centroid ?? '—'}</td>
+    <td><a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.title)}</a>
+      ${m.is_dup ? ' <span class="b state">중복</span>' : ''}</td>
+    <td class="small">${esc(m.source)} · ${esc(m.tier)}</td>
+    <td class="small">${fmtT(m.published_at)}</td></tr>`).join('');
+  const anchors = (d.anchors || []).map(a => `<tr>
+    <td>${esc(a.entity)}</td><td>${esc(a.metric)}</td>
+    <td class="num"><b>${esc(a.value)}</b>${esc(a.unit||'')}</td>
+    <td class="num">${a.prev != null ? esc(a.prev)+esc(a.unit||'') : '—'}</td>
+    <td class="small">${esc(a.period||'')}</td><td class="small">${esc(a.source)}</td></tr>`).join('');
+  const timeline = (d.timeline || []).map(t => `<tr>
+    <td class="small">${fmtT(t.at)}</td>
+    <td><span class="b ${t.kind==='official'?'express':'cluster'}">${esc(t.kind)}</span></td>
+    <td><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.title)}</a>
+      <span class="muted small">${esc(t.source)}</span></td></tr>`).join('');
+
+  let llmHtml = '<p class="muted">LLM 가공 전 (발행 안 됐거나 다음 사이클 대기)</p>';
+  if (d.llm) {
+    const att = (d.llm.attempts || []).map((a, i) =>
+      `<li>시도 ${i+1} <b>${esc(a.model)}</b> — ${a.errors && a.errors.length
+        ? `<span class="fail">실패: ${a.errors.map(esc).join(' / ')}</span>`
+        : '<span class="ok">검증 통과</span>'}</li>`).join('');
+    llmHtml = `
+      <div class="kv">
+        <dt>최종 모델</dt><dd><b>${esc(d.llm.model)}</b>${d.llm.model==='template'
+          ? ' <span class="fail">(LLM 실패 → 기계 조립 폴백)</span>' : ''}</dd>
+        <dt>가공 시각</dt><dd>${fmtT(d.llm.created_at)}</dd>
+        <dt>fact_hash</dt><dd class="small"><code>${esc((d.llm.fact_hash||'').slice(0,16))}…</code>
+          <span class="muted small">(입력 불변이면 재호출 안 함)</span></dd>
       </div>
-      ${d.timeline.length ? `<div class="detail"><h3>타임라인</h3><ul class="timeline">
-        ${d.timeline.map(t=>`<li>${t.kind==='official'?'🏛️ ':''}<a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.title)}</a>
-          <span class="src">— ${esc(t.source)} ${fmtDate(t.at)}</span></li>`).join('')}</ul></div>` : ''}`;
-    if(d.visual) drawChart(d.visual);
-  }catch(e){ app.innerHTML = `<p class="empty">이슈를 불러오지 못했어요 (${esc(e.message)})</p>`; }
-}
-
-function drawChart(v){
-  const ctx = document.getElementById('chart');
-  if(!ctx || typeof Chart === 'undefined') return;
-  const common = {responsive:true, plugins:{legend:{display:!!v.groups}},
-    scales:{y:{title:{display:!!v.unit, text:v.unit}}}};
-  if(v.groups){  // earnings_quarterly — 묶은 막대
-    const labels = [...new Set(v.groups.flatMap(g=>g.series.map(p=>p.t)))].sort();
-    chart = new Chart(ctx, {type:'bar',
-      data:{labels, datasets:v.groups.map((g,i)=>({label:g.name,
-        data:labels.map(t=>{const p=g.series.find(x=>x.t===t); return p?p.v:null;}),
-        backgroundColor:['#E8A33D','#23405E','#2E7D52'][i%3]}))},
-      options:common});
-  }else{
-    chart = new Chart(ctx, {type:'line',
-      data:{labels:v.series.map(p=>p.t),
-        datasets:[{data:v.series.map(p=>p.v), borderColor:'#E8A33D',
-          backgroundColor:'rgba(232,163,61,.12)', pointRadius:0, borderWidth:2,
-          stepped:v.chart==='step', fill:true}]},
-      options:common});
+      <h3>① 입력 페이로드 (anchors + headlines → LLM)</h3><pre>${J(d.llm.payload)}</pre>
+      <h3>② 시스템 프롬프트</h3>
+      <p class="small muted">이 이슈는 <b>${esc(d.category)}</b> 카테고리 프롬프트로 가공됨 —
+        <a href="#/llm">LLM·검수 탭에서 전문 보기</a></p>
+      <h3>③ 원시 응답</h3><pre>${esc(d.llm.raw_response || '(기록 없음 — 신규 코드 배포 전 가공분)')}</pre>
+      <h3>④ 검증 (어미·글자수·숫자대조·금지어)</h3><ul>${att || '<li class="muted">기록 없음</li>'}</ul>
+      <h3>⑤ 최종 출력 (프런트로 나가는 데이터)</h3><pre>${J(d.llm.output)}</pre>`;
   }
+  const review = d.review ? `<div class="err"><b>검수 큐 등재</b> (${fmtT(d.review.at)})
+    <pre>${typeof d.review.reason === 'string' ? esc(d.review.reason) : J(d.review.reason)}</pre></div>` : '';
+
+  $app.innerHTML = `
+    <p><a href="#/issues">← 이슈 목록</a></p>
+    <h2>${esc(d.title)}</h2>
+    <p>${statusBadge(d.status)} ${originBadge(d.origin)}
+      <span class="b cat">${esc(d.category)}</span>
+      중요도 <b>${d.importance}</b> · 출처 ${d.seen_sources} · frozen ${d.frozen}
+      ${d.anchor_key ? `· anchor_key <code class="small">${esc(d.anchor_key)}</code>` : ''}<br>
+      <span class="muted small">개체: ${(d.entity_keys||[]).map(esc).join(', ') || '—'} ·
+      생성 ${fmtT(d.created_at)} · 갱신 ${fmtT(d.last_update)}</span></p>
+    ${review}
+    <div class="two-col">
+      <div class="panel">
+        <h3>🧩 군집 원본 — 멤버 기사 (${(d.members||[]).length})</h3>
+        <p class="muted small">유사도 = 이슈 centroid 와의 코사인. 급행 이슈는 개체 일치로 편입.</p>
+        <div class="wrap-table"><table><tr><th>유사도</th><th>제목</th><th>출처</th><th>발행</th></tr>
+          ${members || '<tr><td colspan="4" class="muted">멤버 없음 (급행 단독 이슈)</td></tr>'}</table></div>
+        <h3>📊 수치 앵커 — 공식 데이터 (LLM 환각 차단 기준값)</h3>
+        <div class="wrap-table"><table><tr><th>개체</th><th>지표</th><th>값</th><th>직전</th><th>기간</th><th>출처</th></tr>
+          ${anchors || '<tr><td colspan="6" class="muted">없음</td></tr>'}</table></div>
+        <h3>🕒 타임라인</h3>
+        <div class="wrap-table"><table><tr><th>시각</th><th>종류</th><th>항목</th></tr>
+          ${timeline || '<tr><td colspan="3" class="muted">없음</td></tr>'}</table></div>
+      </div>
+      <div class="panel">
+        <h3>🤖 LLM 가공 — 입력 → 프롬프트 → 응답 → 검증 → 출력</h3>
+        ${llmHtml}
+      </div>
+    </div>`;
 }
 
-function esc(s){ return String(s??'').replace(/[&<>"']/g,
-  c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+/* ---------- LLM·검수 ---------- */
+async function viewLlm() {
+  const [l, r] = await Promise.all([
+    fetchJson('./out/debug/llm.json'), fetchJson('./out/debug/review.json')]);
+  document.getElementById('gen').textContent = '생성: ' + fmtT(l.generated_at) + ' UTC';
+  const prompts = Object.entries(l.system_prompts || {}).map(([cat, p]) =>
+    `<details><summary>${esc(cat)} 카테고리 시스템 프롬프트</summary><pre>${esc(p)}</pre></details>`).join('');
+  const queue = (r.queue || []).map(q => `<tr>
+    <td><a href="#/issue/${esc(q.issue_id)}">${esc(q.issue_id)}</a></td>
+    <td class="small">${fmtT(q.at)}</td>
+    <td><pre style="margin:0">${typeof q.reason === 'string' ? esc(q.reason) : J(q.reason)}</pre></td></tr>`).join('');
 
-function route(){
-  const m = location.hash.match(/^#\/issue\/(.+)$/);
-  if(m) renderIssue(m[1]); else renderFeed();
+  $app.innerHTML = `
+    <h2>LLM 가공 프로토콜</h2>
+    <div class="cards">
+      <div class="card"><div class="k">오늘 호출 / 일일 캡</div><div class="v">${l.calls_today}<span class="muted small"> /${l.daily_cap}</span></div></div>
+      <div class="card"><div class="k">1순위</div><div class="v" style="font-size:14px">${esc(l.models.gemini)}</div></div>
+      <div class="card"><div class="k">폴백</div><div class="v" style="font-size:14px">${esc(l.models.groq)}</div></div>
+      <div class="card"><div class="k">최종 폴백</div><div class="v" style="font-size:14px">${esc(l.models.fallback)}</div></div>
+    </div>
+    <p class="small muted">체인: Gemini → (실패) Groq → (검증 2회 실패) 템플릿 + 검수 큐.
+      검증 = JSON 스키마 → 어미(음슴체/어요체) → 글자수 → 숫자 대조(입력에 없는 숫자 금지) → 금지어.</p>
+    <h3>카테고리별 시스템 프롬프트 (가공에 쓰인 그대로 · few-shot 포함)</h3>
+    ${prompts}
+    <details><summary>금지어 목록</summary><pre>${J(l.banned_phrases)}</pre></details>
+    <h2>검수 큐 — LLM 검증 최종 실패 (${(r.queue||[]).length}건)</h2>
+    <div class="wrap-table"><table><tr><th>이슈</th><th>시각</th><th>실패 사유 (시도별)</th></tr>
+      ${queue || '<tr><td colspan="3" class="muted">비어 있음 🎉</td></tr>'}</table></div>`;
+}
+
+/* ---------- 라우터 ---------- */
+async function route() {
+  const h = location.hash || '#/';
+  const m = h.match(/^#\/issue\/(.+)$/);
+  const view = m ? 'issues' : ({'#/': 'overview', '#/articles': 'articles',
+    '#/issues': 'issues', '#/llm': 'llm'}[h] || 'overview');
+  document.querySelectorAll('#nav a').forEach(a =>
+    a.classList.toggle('on', a.dataset.v === view));
+  $app.innerHTML = '불러오는 중…';
+  try {
+    if (m) await viewIssue(decodeURIComponent(m[1]));
+    else if (view === 'articles') await viewArticles();
+    else if (view === 'issues') await viewIssues();
+    else if (view === 'llm') await viewLlm();
+    else await viewOverview();
+  } catch (e) { fail(e); }
 }
 window.addEventListener('hashchange', route);
 route();

@@ -44,6 +44,17 @@ def entities() -> list[dict]:
 
 
 @lru_cache(maxsize=1)
+def entity_groups() -> dict[str, str]:
+    """entity_key → 그룹명(institutions|kr_companies|us_companies) — 중요도 보너스 구분용."""
+    data = yaml.safe_load((ROOT / "entities.yaml").read_text(encoding="utf-8"))
+    out: dict[str, str] = {}
+    for group, items in data.items():
+        for ent in items or []:
+            out[str(ent["key"])] = group
+    return out
+
+
+@lru_cache(maxsize=1)
 def categories() -> dict:
     return yaml.safe_load((ROOT / "categories.yaml").read_text(encoding="utf-8"))
 

@@ -1,0 +1,47 @@
+name: backfill
+
+# 과거 굵직한 뉴스 1회성 주입 (검증용) — Actions 탭에서 Run workflow 버튼으로만 실행
+on:
+  workflow_dispatch:
+    inputs:
+      months:
+        description: 'FRED·ECOS 조회 개월 수'
+        required: false
+        default: '12'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-commit
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install requests pyyaml   # 수집 계열 경량 설치 (numpy 불필요)
+      - name: Run backfill
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          ECOS_API_KEY: ${{ secrets.ECOS_API_KEY }}
+          ONION_USER_AGENT: 'onion-backend/1.2 (github actions; contact via repo)'
+        run: python -m engine.backfill --months "${{ github.event.inputs.months || '12' }}"
+      - name: Commit data
+        run: |
+          git config user.name "onion-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "no new data"; exit 0; fi
+          git commit -m "backfill: seed + historical events $(date -u +%FT%TZ)"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            echo "push retry $i"; sleep $((i*5))
+          done
+          exit 1

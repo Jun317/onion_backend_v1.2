@@ -36,6 +36,35 @@ def fetch_series(api_key: str, stat: str, item: str, cycle: str, count: int = 60
     return out
 
 
+def make_rate_event(spec: dict, latest: dict, prev: dict) -> dict:
+    period = latest["time"][:4] + "-" + latest["time"][4:6]
+    delta = round(latest["value"] - prev["value"], 4)
+    return {
+        "category": "RATE", "entity": spec.get("entity", "한국은행"), "period": period,
+        "title": f"한국은행 기준금리 {'인하' if delta < 0 else '인상'} ({latest['value']:.2f}%)",
+        "anchors": [
+            {"entity": "한국은행", "metric": "기준금리", "value": latest["value"],
+             "unit": "%", "prev": prev["value"], "period": period, "source": "ECOS"},
+            {"entity": "한국은행", "metric": "변동폭", "value": abs(delta),
+             "unit": "%p", "prev": None, "period": period, "source": "ECOS"}],
+        "timeline": {"kind": "official",
+                     "title": f"한국은행 기준금리 {latest['value']:.2f}% ({period})",
+                     "source": "ECOS", "url": "https://ecos.bok.or.kr"},
+    }
+
+
+def make_macro_event(spec: dict, latest: dict, prev: dict) -> dict:
+    period = latest["time"][:4] + "-" + latest["time"][4:6]
+    return {
+        "category": "MACRO", "entity": spec.get("entity", "KR"), "period": period,
+        "title": f"한국 소비자물가 {period} 발표",
+        "anchors": [{"entity": "KR", "metric": "소비자물가지수", "value": latest["value"],
+                     "unit": "", "prev": prev["value"], "period": period, "source": "ECOS"}],
+        "timeline": {"kind": "official", "title": f"ECOS 소비자물가 {latest['time']} 신규 관측",
+                     "source": "ECOS", "url": "https://ecos.bok.or.kr"},
+    }
+
+
 def collect() -> int:
     api_key = env("ECOS_API_KEY")
     if not api_key:
@@ -55,30 +84,9 @@ def collect() -> int:
             continue
         event = None
         if spec["express"] == "RATE" and latest["value"] != prev["value"]:
-            period = latest["time"][:4] + "-" + latest["time"][4:6]
-            delta = round(latest["value"] - prev["value"], 4)
-            event = {
-                "category": "RATE", "entity": spec.get("entity", "한국은행"), "period": period,
-                "title": f"한국은행 기준금리 {'인하' if delta < 0 else '인상'} ({latest['value']:.2f}%)",
-                "anchors": [
-                    {"entity": "한국은행", "metric": "기준금리", "value": latest["value"],
-                     "unit": "%", "prev": prev["value"], "period": period, "source": "ECOS"},
-                    {"entity": "한국은행", "metric": "변동폭", "value": abs(delta),
-                     "unit": "%p", "prev": None, "period": period, "source": "ECOS"}],
-                "timeline": {"kind": "official",
-                             "title": f"한국은행 기준금리 {latest['value']:.2f}% ({period})",
-                             "source": "ECOS", "url": "https://ecos.bok.or.kr"},
-            }
+            event = make_rate_event(spec, latest, prev)
         elif spec["express"] == "MACRO" and latest["time"] != prev["time"]:
-            period = latest["time"][:4] + "-" + latest["time"][4:6]
-            event = {
-                "category": "MACRO", "entity": spec.get("entity", "KR"), "period": period,
-                "title": f"한국 소비자물가 {period} 발표",
-                "anchors": [{"entity": "KR", "metric": "소비자물가지수", "value": latest["value"],
-                             "unit": "", "prev": prev["value"], "period": period, "source": "ECOS"}],
-                "timeline": {"kind": "official", "title": f"ECOS 소비자물가 {latest['time']} 신규 관측",
-                             "source": "ECOS", "url": "https://ecos.bok.or.kr"},
-            }
+            event = make_macro_event(spec, latest, prev)
         if event and write_express(f"ecos_{name}_{latest['time']}", event):
             n += 1
     save_state("ecos", state)

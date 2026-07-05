@@ -43,12 +43,37 @@ llm:
   retry_per_provider: 3
   banned_phrases: ["급등 확실", "급락 확실", "무조건", "전량 매수", "전량 매도", "반드시 오", "반드시 내"]
 
+importance:
+  # 이슈 중요도 = 카테고리 가중치 + 개체 보너스 + 출처 보너스 + 공식 보너스.
+  # export 정렬(index.json)과 LLM 일일 캡 소비 순서에 사용. 튜닝 대상.
+  category_weights:
+    RATE: 100           # 금리·통화정책
+    MACRO: 80           # 물가·고용·성장
+    POLICY: 70          # 금융·재정 정책
+    FX: 60              # 환율·원자재
+    GEO: 60             # 지정학·국제
+    MARKET: 55          # 증시 급등락
+    EARNINGS: 40        # 실적·공시
+    ETC: 10
+  institution_bonus: 30 # 중앙은행·부처 등 기관 개체 포함
+  company_bonus: 25     # 주요 상장사(entities.yaml 등재) 포함
+  source_per: 5         # distinct 원출처당 가산
+  source_cap: 25
+  official_bonus: 10    # 공식 데이터(급행 origin 또는 official tier 멤버) 포함
+
 viz:
   cache_h: 6            # 같은 visual_type 시리즈 캐시 (이슈 간 공유)
 
 pipeline:
   max_articles_per_run: 400   # 1사이클 임베딩 상한 (Actions 시간 보호)
   raw_lookback_h: 26          # L2 가 다시 읽는 raw JSONL 시간 창 (중복은 url_hash 로 걸러짐)
+
+backfill:                     # 과거 뉴스 주입 (engine/backfill.py, Actions backfill 수동 실행)
+  months: 12                  # FRED·ECOS 조회 창
+  rate_min_delta: 0.05        # RATE 급행 최소 변동 %p — 일중 미세변동(DFF) 노이즈 차단
+  macro_months: 3             # CPI 등 MACRO 급행은 최근 N개월만 (월별 이슈 홍수 방지)
+  gdelt_per_event: 25         # 시드 이벤트당 GDELT 과거 기사 상한
+  window_days: 3              # 이벤트 날짜 ± 조회 창
 
 collect:
   gdelt:
@@ -65,6 +90,8 @@ collect:
   dart:
     # report_nm 이 이 패턴과 일치하면 급행 EARNINGS
     earnings_regex: "(잠정실적|영업(잠정)?실적|분기보고서|반기보고서|사업보고서)"
+    # true: entities.yaml 등재 기업(주요 상장사)의 공시만 급행 발행 — 중소기업 공시 노이즈 차단
+    express_major_only: true
   fred:
     series:
       DFF:      { express: RATE,  entity: Fed }   # 연방기금 실효금리 — 변동 시 급행

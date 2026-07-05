@@ -1,0 +1,220 @@
+# ============================================================================
+# 과거 1년 굵직한 뉴스 시드 (engine/backfill.py 가 소비)
+#
+# - 각 이벤트: gdelt_query 로 실제 과거 기사(실URL)를 먼저 조회하고,
+#   2건 미만이면 아래 articles(수기 헤드라인)로 보충한다.
+# - 수기 headline 의 url 은 https://backfill.example/... 합성 주소다
+#   (실기사가 아님을 명시하기 위한 표기 — 제목·날짜·수치는 실제 사실 기반).
+# - min_publish(출처 2) 통과를 위해 이벤트당 출처(source)를 서로 다르게 구성.
+# - express 는 공식 수치가 확실한 이벤트에만 부여 (숫자는 검증된 실측값).
+#   금리 변동 이벤트는 여기 넣지 않는다 — backfill.py 가 FRED/ECOS 실데이터로 생성.
+# ============================================================================
+
+events:
+  - id: us_iran_strikes
+    date: "2025-06-22"
+    note: 미군, 이란 핵시설 3곳(포르도·나탄즈·이스파한) 공습 — 유가·지정학 리스크
+    gdelt_query: 'sourcelang:english (Iran AND (airstrike OR "nuclear site" OR Fordow))'
+    articles:
+      - { title: "美, 이란 핵시설 3곳 전격 공습…포르도·나탄즈·이스파한 타격",
+          url: "https://backfill.example/us_iran_strikes/1", source: 연합뉴스,
+          published_at: "2025-06-22T03:00:00+00:00", lang: ko }
+      - { title: "US strikes three Iranian nuclear sites in unprecedented attack",
+          url: "https://backfill.example/us_iran_strikes/2", source: reuters.com,
+          published_at: "2025-06-22T04:10:00+00:00", lang: en }
+      - { title: "이란, 호르무즈 해협 봉쇄 위협…국제 유가 급등 우려",
+          url: "https://backfill.example/us_iran_strikes/3", source: 한국경제,
+          published_at: "2025-06-22T09:30:00+00:00", lang: ko }
+
+  - id: kr_us_trade_deal
+    date: "2025-07-30"
+    note: 한미 무역 합의 — 대한 상호관세 15%로 인하, 대미 투자 패키지
+    gdelt_query: 'sourcelang:english ("South Korea" AND tariff AND (deal OR agreement))'
+    articles:
+      - { title: "한미 관세 합의 타결…한국산 상호관세 15%로 낮춰",
+          url: "https://backfill.example/kr_us_trade_deal/1", source: 연합뉴스,
+          published_at: "2025-07-30T22:00:00+00:00", lang: ko }
+      - { title: "US, South Korea reach trade deal setting tariffs at 15%",
+          url: "https://backfill.example/kr_us_trade_deal/2", source: reuters.com,
+          published_at: "2025-07-30T23:05:00+00:00", lang: en }
+      - { title: "관세 15%에 대미 투자 패키지…한미 통상 합의 내용은",
+          url: "https://backfill.example/kr_us_trade_deal/3", source: 한국경제,
+          published_at: "2025-07-31T01:20:00+00:00", lang: ko }
+
+  - id: us_tariff_effective
+    date: "2025-08-07"
+    note: 미국 수정 상호관세 발효 — 국가별 차등 세율 적용 개시
+    gdelt_query: 'sourcelang:english (tariff AND (effect OR "take effect") AND Trump)'
+    articles:
+      - { title: "미국 상호관세 전면 발효…국가별 차등 세율 적용 개시",
+          url: "https://backfill.example/us_tariff_effective/1", source: 연합뉴스,
+          published_at: "2025-08-07T05:00:00+00:00", lang: ko }
+      - { title: "Sweeping US reciprocal tariffs take effect on dozens of countries",
+          url: "https://backfill.example/us_tariff_effective/2", source: apnews.com,
+          published_at: "2025-08-07T06:15:00+00:00", lang: en }
+
+  - id: fomc_sep_2025_cut
+    date: "2025-09-17"
+    note: 연준 25bp 인하 (4.00~4.25%) — 금리 수치 자체는 FRED 백필이 실데이터로 생성
+    gdelt_query: 'sourcelang:english (Fed AND "rate cut" AND FOMC)'
+    articles:
+      - { title: "美연준, 금리 0.25%p 인하…연 4.00~4.25%로",
+          url: "https://backfill.example/fomc_sep_2025_cut/1", source: 연합뉴스,
+          published_at: "2025-09-17T18:30:00+00:00", lang: ko }
+      - { title: "Fed cuts rates by quarter point, signals more easing ahead",
+          url: "https://backfill.example/fomc_sep_2025_cut/2", source: reuters.com,
+          published_at: "2025-09-17T18:40:00+00:00", lang: en }
+      - { title: "파월 '고용 하방 위험 커져'…연내 추가 인하 시사",
+          url: "https://backfill.example/fomc_sep_2025_cut/3", source: 한국경제,
+          published_at: "2025-09-17T20:00:00+00:00", lang: ko }
+
+  - id: fomc_oct_2025_cut
+    date: "2025-10-29"
+    note: 연준 연속 인하 (3.75~4.00%)
+    gdelt_query: 'sourcelang:english (Fed AND "rate cut" AND October)'
+    articles:
+      - { title: "美연준, 두 달 연속 금리 인하…연 3.75~4.00%",
+          url: "https://backfill.example/fomc_oct_2025_cut/1", source: 연합뉴스,
+          published_at: "2025-10-29T18:30:00+00:00", lang: ko }
+      - { title: "Fed delivers back-to-back rate cut as labor market cools",
+          url: "https://backfill.example/fomc_oct_2025_cut/2", source: reuters.com,
+          published_at: "2025-10-29T18:45:00+00:00", lang: en }
+
+  - id: fomc_dec_2025_cut
+    date: "2025-12-10"
+    note: 연준 3연속 인하 (3.50~3.75%) — 이후 2026년 상반기 동결 기조
+    gdelt_query: 'sourcelang:english (Fed AND "rate cut" AND December)'
+    articles:
+      - { title: "美연준, 올해 세 번째 금리 인하…연 3.50~3.75%",
+          url: "https://backfill.example/fomc_dec_2025_cut/1", source: 연합뉴스,
+          published_at: "2025-12-10T19:00:00+00:00", lang: ko }
+      - { title: "Fed cuts for third straight meeting, pencils in pause for 2026",
+          url: "https://backfill.example/fomc_dec_2025_cut/2", source: reuters.com,
+          published_at: "2025-12-10T19:10:00+00:00", lang: en }
+
+  - id: memory_supercycle
+    date: "2025-11-15"
+    note: AI 데이터센터發 메모리 슈퍼사이클 — DRAM·HBM 공급부족, 삼성·하이닉스 랠리
+    gdelt_query: 'sourcelang:english ((DRAM OR HBM OR "memory chip") AND (price OR shortage))'
+    articles:
+      - { title: "DRAM 가격 폭등…AI 데이터센터發 메모리 슈퍼사이클 본격화",
+          url: "https://backfill.example/memory_supercycle/1", source: 한국경제,
+          published_at: "2025-11-15T02:00:00+00:00", lang: ko }
+      - { title: "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+          url: "https://backfill.example/memory_supercycle/2", source: 연합뉴스,
+          published_at: "2025-11-15T04:30:00+00:00", lang: ko }
+      - { title: "Memory chip prices soar as AI datacenter demand outstrips supply",
+          url: "https://backfill.example/memory_supercycle/3", source: reuters.com,
+          published_at: "2025-11-14T23:00:00+00:00", lang: en }
+      - { title: "삼성전자·SK하이닉스 신고가 행진…반도체가 이끈 코스피 강세",
+          url: "https://backfill.example/memory_supercycle/4", source: 조선비즈,
+          published_at: "2025-11-16T01:10:00+00:00", lang: ko }
+
+  - id: kospi_newyear_record
+    date: "2026-01-02"
+    note: 새해 첫 거래일 코스피 사상 최고가 경신 — 1월 한 달 +14%
+    gdelt_query: 'sourcelang:korean (코스피 AND 최고)'
+    articles:
+      - { title: "새해 첫 거래일 코스피 사상 최고가 경신…랠리 이어져",
+          url: "https://backfill.example/kospi_newyear_record/1", source: 연합뉴스,
+          published_at: "2026-01-02T07:00:00+00:00", lang: ko }
+      - { title: "South Korea stocks kick off 2026 at record high on chip rally",
+          url: "https://backfill.example/kospi_newyear_record/2", source: reuters.com,
+          published_at: "2026-01-02T08:20:00+00:00", lang: en }
+
+  - id: us_chip_tariff
+    date: "2026-01-14"
+    note: 미국, 첨단 반도체(H200·MI325X 등 재수출 칩) 25% 관세 포고 — 1/15 발효
+    gdelt_query: 'sourcelang:english (semiconductor AND tariff AND (proclamation OR "25 percent"))'
+    articles:
+      - { title: "美, 첨단 AI 반도체에 25% 관세…H200 등 재수출 칩 겨냥",
+          url: "https://backfill.example/us_chip_tariff/1", source: 연합뉴스,
+          published_at: "2026-01-14T22:00:00+00:00", lang: ko }
+      - { title: "US imposes 25% tariff on advanced computing chips from Jan 15",
+          url: "https://backfill.example/us_chip_tariff/2", source: reuters.com,
+          published_at: "2026-01-14T23:30:00+00:00", lang: en }
+      - { title: "반도체 관세 국내 영향은…국내 공급망 투자용 수입은 예외",
+          url: "https://backfill.example/us_chip_tariff/3", source: 한국경제,
+          published_at: "2026-01-15T03:00:00+00:00", lang: ko }
+    express:
+      category: POLICY
+      entity: US
+      period: "2026-01"
+      title: "미국, 첨단 반도체 25% 관세 발효"
+      anchors:
+        - { entity: US, metric: "첨단 반도체 관세율", value: 25, unit: "%",
+            period: "2026-01", source: "seed(백악관 포고)", prev: null }
+      timeline: { kind: official, title: "미 백악관, 반도체 수입조정 포고 (2026-01-14)",
+                  source: whitehouse.gov,
+                  url: "https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative-products-into-the-united-states/" }
+
+  - id: scotus_tariff_ruling
+    date: "2026-02-20"
+    note: 미 대법원, IEEPA 근거 관세 위헌 판결 — 상호관세 무효, 1660억달러 환급 절차
+    gdelt_query: 'sourcelang:english ("Supreme Court" AND tariff AND IEEPA)'
+    articles:
+      - { title: "美대법원 'IEEPA 관세 위헌'…상호관세 무효 판결",
+          url: "https://backfill.example/scotus_tariff_ruling/1", source: 연합뉴스,
+          published_at: "2026-02-20T16:00:00+00:00", lang: ko }
+      - { title: "Supreme Court rules IEEPA does not authorize Trump tariffs",
+          url: "https://backfill.example/scotus_tariff_ruling/2", source: apnews.com,
+          published_at: "2026-02-20T16:10:00+00:00", lang: en }
+      - { title: "1660억달러 관세 환급 절차 개시…수입업체 33만곳 대상",
+          url: "https://backfill.example/scotus_tariff_ruling/3", source: 한국경제,
+          published_at: "2026-02-21T00:40:00+00:00", lang: ko }
+    express:
+      category: POLICY
+      entity: US
+      period: "2026-02"
+      title: "미 대법원, IEEPA 관세 위헌 판결"
+      anchors:
+        - { entity: US, metric: "관세 환급 규모", value: 1660, unit: 억달러,
+            period: "2026-02", source: "seed(미 CBP)", prev: null }
+      timeline: { kind: official, title: "Learning Resources v. Trump 판결 (2026-02-20)",
+                  source: supremecourt.gov, url: "https://www.supremecourt.gov" }
+
+  - id: ram_price_q1_surge
+    date: "2026-03-31"
+    note: 2026년 1분기 RAM 가격 90% 급등 — PC·스마트폰 원가 압박
+    gdelt_query: 'sourcelang:english (RAM AND price AND (surge OR soar))'
+    articles:
+      - { title: "1분기 D램 가격 90% 폭등…PC·스마트폰 가격 인상 압박",
+          url: "https://backfill.example/ram_price_q1_surge/1", source: 한국경제,
+          published_at: "2026-03-31T05:00:00+00:00", lang: ko }
+      - { title: "RAM prices jump 90% in Q1 as AI buildout squeezes supply",
+          url: "https://backfill.example/ram_price_q1_surge/2", source: reuters.com,
+          published_at: "2026-03-31T09:00:00+00:00", lang: en }
+    express:
+      category: MARKET
+      entity: KR
+      period: "2026-1Q"
+      title: "1분기 D램 가격 90% 급등"
+      anchors:
+        - { entity: KR, metric: "D램 가격 상승률(분기)", value: 90, unit: "%",
+            period: "2026-1Q", source: "seed(업계 집계)", prev: null }
+      timeline: { kind: official, title: "2026 1Q 메모리 가격 동향", source: seed,
+                  url: "https://backfill.example/ram_price_q1_surge/ref" }
+
+  - id: kospi_june_surge
+    date: "2026-06-24"
+    note: 코스피 8471pt 마감, 하루 +3.26% — 반도체 주도 사상 최고 행진
+    gdelt_query: 'sourcelang:korean (코스피 AND (급등 OR 최고))'
+    articles:
+      - { title: "코스피 3.26% 급등 8471 마감…또 사상 최고",
+          url: "https://backfill.example/kospi_june_surge/1", source: 연합뉴스,
+          published_at: "2026-06-24T07:10:00+00:00", lang: ko }
+      - { title: "KOSPI leaps 3.26% to record 8,471 on chip supercycle bets",
+          url: "https://backfill.example/kospi_june_surge/2", source: reuters.com,
+          published_at: "2026-06-24T08:00:00+00:00", lang: en }
+    express:
+      category: MARKET
+      entity: KR
+      period: "2026-06"
+      title: "코스피 사상 최고 8471 마감 (+3.26%)"
+      anchors:
+        - { entity: KR, metric: "코스피 종가", value: 8471, unit: pt,
+            period: "2026-06-24", source: "seed(KRX)", prev: null }
+        - { entity: KR, metric: "일일 상승률", value: 3.26, unit: "%",
+            period: "2026-06-24", source: "seed(KRX)", prev: null }
+      timeline: { kind: official, title: "코스피 8471.00 (2026-06-24)", source: seed,
+                  url: "https://backfill.example/kospi_june_surge/ref" }

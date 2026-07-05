@@ -44,23 +44,31 @@ def template_output(payload: dict) -> dict:
 
 def _issues_needing_llm(conn: sqlite3.Connection) -> list[sqlite3.Row]:
     """발행된(active/stale) 이슈 전부 — fact_hash 변경 여부는 페이로드로 재계산해 판정.
-    (멤버 추가로 headlines 가 바뀌면 재가공해야 하므로 저장된 해시만으론 감지 불가)"""
+    (멤버 추가로 headlines 가 바뀌면 재가공해야 하므로 저장된 해시만으론 감지 불가)
+    중요도 내림차순 — 일일 캡을 굵직한 이슈에 먼저 소비."""
     return conn.execute(
         "SELECT * FROM issue WHERE status IN ('active','stale') "
-        "ORDER BY last_update DESC").fetchall()
+        "ORDER BY importance DESC, last_update DESC").fetchall()
 
 
-def _save(conn: sqlite3.Connection, issue_id: str, fh: str, out: dict, model: str) -> None:
+def _save(conn: sqlite3.Connection, issue_id: str, fh: str, out: dict, model: str,
+          payload: dict | None = None, raw: str | None = None,
+          attempts: list | None = None) -> None:
     conn.execute(
         "INSERT INTO llm_output(issue_id,fact_hash,one_liner,details_json,visual_type,"
-        "effects_json,model,created_at) VALUES(?,?,?,?,?,?,?,?) "
+        "effects_json,model,created_at,payload_json,raw_response,validation_json) "
+        "VALUES(?,?,?,?,?,?,?,?,?,?,?) "
         "ON CONFLICT(issue_id) DO UPDATE SET fact_hash=excluded.fact_hash, "
         "one_liner=excluded.one_liner, details_json=excluded.details_json, "
         "visual_type=excluded.visual_type, effects_json=excluded.effects_json, "
-        "model=excluded.model, created_at=excluded.created_at",
+        "model=excluded.model, created_at=excluded.created_at, "
+        "payload_json=excluded.payload_json, raw_response=excluded.raw_response, "
+        "validation_json=excluded.validation_json",
         (issue_id, fh, out["one_liner"], json.dumps(out["details"], ensure_ascii=False),
          out.get("visual_type", "none"), json.dumps(out.get("effects", []), ensure_ascii=False),
-         model, now_iso()))
+         model, now_iso(),
+         json.dumps(payload or {}, ensure_ascii=False), raw or "",
+         json.dumps(attempts or [], ensure_ascii=False)))
     conn.execute("UPDATE issue SET fact_hash=? WHERE id=?", (fh, issue_id))
 
 
@@ -84,14 +92,18 @@ def process_all(conn: sqlite3.Connection, client: LlmClient) -> dict:
 
         allowed = allowed_for_category(issue["category"])
         sysp = system_prompt(issue["category"])
-        out, model = None, ""
+        out, model, last_raw = None, "", None
+        attempts: list[dict] = []  # 시도별 (model, errors) — 진단·검수 큐용
         for _ in range(2):  # 최초 1회 + 재생성 1회
             bump_daily_counter(conn, "llm_calls")
             text, model = client.generate(sysp, payload)
             if text is None:
+                attempts.append({"model": model, "errors": ["전 프로바이더 응답 실패"]})
                 break  # 전 프로바이더 실패 → 템플릿
+            last_raw = text
             parsed = parse_output(text)
             errors = validate(parsed, payload, allowed) if parsed else ["JSON 파스 실패"]
+            attempts.append({"model": model, "errors": errors})
             if not errors:
                 out = parsed
                 break
@@ -99,13 +111,15 @@ def process_all(conn: sqlite3.Connection, client: LlmClient) -> dict:
 
         if out is None:
             out, model = template_output(payload), "template"
+            reason = json.dumps({"summary": "LLM 검증 실패 → 템플릿 폴백",
+                                 "attempts": attempts}, ensure_ascii=False)
             conn.execute("INSERT INTO review_queue(issue_id,reason,at) VALUES(?,?,?) "
                          "ON CONFLICT(issue_id) DO UPDATE SET reason=excluded.reason, "
                          "at=excluded.at",
-                         (issue["id"], "LLM 검증 실패 → 템플릿 폴백", now_iso()))
+                         (issue["id"], reason, now_iso()))
             stats["template"] += 1
         else:
             stats["generated"] += 1
-        _save(conn, issue["id"], fh, out, model)
+        _save(conn, issue["id"], fh, out, model, payload, last_raw, attempts)
 
     return stats

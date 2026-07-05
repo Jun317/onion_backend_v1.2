@@ -112,6 +112,11 @@ def assign(conn: sqlite3.Connection) -> dict:
                 best_i, best_sim = int(idx), float(sims[idx])
                 break
 
+        # 진단: 게이트 무관 전체 best 를 기록 — "왜 편입 안 됐나" 추적 (모니터링)
+        raw_best = int(np.argmax(sims))
+        conn.execute("UPDATE article SET last_sim=?, last_sim_issue=? WHERE id=?",
+                     (round(float(sims[raw_best]), 4), issues[raw_best]["id"], art["id"]))
+
         if best_i >= 0 and best_sim >= c["tau_join"]:
             issue_row = conn.execute("SELECT * FROM issue WHERE id=?",
                                      (issues[best_i]["id"],)).fetchone()

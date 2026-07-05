@@ -22,7 +22,9 @@ CREATE TABLE IF NOT EXISTS article(
   entity_keys TEXT DEFAULT '[]',    -- json array
   num_tags TEXT DEFAULT '[]',       -- 제목·리드 숫자+단위 후보
   hold_count INTEGER DEFAULT 0,     -- 보류 큐 재평가 횟수 (§04-④)
-  collected_at TEXT
+  collected_at TEXT,
+  last_sim REAL,                    -- 마지막 assign 의 best 코사인 (진단)
+  last_sim_issue TEXT               -- 그 best 이슈 id (진단)
 );
 CREATE INDEX IF NOT EXISTS idx_article_issue ON article(issue_id);
 CREATE INDEX IF NOT EXISTS idx_article_pub ON article(published_at);
@@ -39,7 +41,8 @@ CREATE TABLE IF NOT EXISTS issue(
   created_at TEXT, last_update TEXT,
   fact_hash TEXT DEFAULT '',
   frozen INTEGER DEFAULT 0,         -- 발행 동결: 멤버 제거·재배정 금지 (추가·centroid 갱신은 허용)
-  anchor_key TEXT                   -- 급행 이슈 병합 키 (entity|category|period)
+  anchor_key TEXT,                  -- 급행 이슈 병합 키 (entity|category|period)
+  importance INTEGER DEFAULT 0      -- 중요도 점수 (importance.py, export 정렬·LLM 우선순위)
 );
 CREATE INDEX IF NOT EXISTS idx_issue_status ON issue(status, last_update);
 CREATE INDEX IF NOT EXISTS idx_issue_anchor ON issue(anchor_key);
@@ -64,7 +67,10 @@ CREATE TABLE IF NOT EXISTS llm_output(
   issue_id TEXT PRIMARY KEY,
   fact_hash TEXT,                   -- 캐시 키: 불변이면 재호출 0 (§6-4)
   one_liner TEXT, details_json TEXT, visual_type TEXT, effects_json TEXT,
-  model TEXT, created_at TEXT
+  model TEXT, created_at TEXT,
+  payload_json TEXT,                -- LLM 입력 페이로드 (진단)
+  raw_response TEXT,                -- LLM 원시 응답 (진단)
+  validation_json TEXT              -- 시도별 검증 오류 이력 (진단, [] = 1회 통과)
 );
 
 -- 운영 보조 (설계서 DDL 외 최소 추가) --------------------------------------
@@ -87,11 +93,31 @@ def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
+# 기존 DB 에 없을 수 있는 컬럼 (테이블, 컬럼 정의) — CREATE 는 신규 DB 만 커버
+_MIGRATIONS = [
+    ("article", "last_sim REAL"),
+    ("article", "last_sim_issue TEXT"),
+    ("issue", "importance INTEGER DEFAULT 0"),
+    ("llm_output", "payload_json TEXT"),
+    ("llm_output", "raw_response TEXT"),
+    ("llm_output", "validation_json TEXT"),
+]
+
+
+def _migrate(conn: sqlite3.Connection) -> None:
+    for table, coldef in _MIGRATIONS:
+        col = coldef.split()[0]
+        cols = {r["name"] for r in conn.execute(f"PRAGMA table_info({table})")}
+        if col not in cols:
+            conn.execute(f"ALTER TABLE {table} ADD COLUMN {coldef}")
+
+
 def connect(path: str | Path | None = None) -> sqlite3.Connection:
     p = Path(path) if path else ROOT / "engine.db"
     conn = sqlite3.connect(p)
     conn.row_factory = sqlite3.Row
     conn.executescript(DDL)
+    _migrate(conn)
     return conn
 
 
