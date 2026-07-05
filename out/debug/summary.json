@@ -1,9 +1,46 @@
 {
- "generated_at": "2026-07-05T20:35:09.091076+00:00",
+ "generated_at": "2026-07-05T22:28:42.349840+00:00",
  "run_history": [
   {
    "kind": "pipeline",
-   "at": "2026-07-05T20:35:09.091067+00:00",
+   "at": "2026-07-05T22:28:42.349832+00:00",
+   "ok": true,
+   "stats": {
+    "raw_loaded": 102,
+    "inserted": 0,
+    "near_dups": 0,
+    "express": 0,
+    "embedded": 0,
+    "express_centroids": 0,
+    "assign": {
+     "joined": 0,
+     "held": 0,
+     "pooled": 6
+    },
+    "seeded": 0,
+    "promoted": 0,
+    "classified": 0,
+    "merged": 0,
+    "lifecycle": {
+     "stale": 0,
+     "archived": 0
+    },
+    "importance": 44,
+    "llm": {
+     "generated": 0,
+     "cached": 23,
+     "template": 0,
+     "deferred": 0
+    },
+    "export": {
+     "issues": 23,
+     "removed": 0
+    }
+   }
+  },
+  {
+   "kind": "pipeline",
+   "at": "2026-07-05T20:35:09.124082+00:00",
    "ok": true,
    "stats": {
     "raw_loaded": 192,
@@ -35,8 +72,15 @@
     "export": {
      "issues": 23,
      "removed": 0
-    }
-   }
+    },
+    "export_debug": {
+     "issues": 52,
+     "removed": 0,
+     "reviews": 7
+    },
+    "pruned": 0
+   },
+   "error": ""
   },
   {
    "kind": "pipeline",
