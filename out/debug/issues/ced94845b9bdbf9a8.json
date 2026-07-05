@@ -2,169 +2,21 @@
  "id": "ced94845b9bdbf9a8",
  "title": "Federal Reserve issues FOMC statement",
  "category": "RATE",
- "status": "active",
+ "status": "archived",
  "origin": "cluster",
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "FED"
  ],
- "seen_sources": 2,
+ "seen_sources": 5,
  "importance": 150,
  "created_at": "2026-07-04T21:17:48.836343+00:00",
- "last_update": "2026-07-05T10:38:44.895617+00:00",
- "members": [
-  {
-   "id": "e0d1fc977c434af56c2b486f6b24be581a7c045f",
-   "source": "Federal Reserve",
-   "tier": "official",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
-   "title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
-   "published_at": "2026-07-01T18:30:00+00:00",
-   "is_dup": 0,
-   "sim_to_centroid": 0.9675
-  },
-  {
-   "id": "0d1c7e586adb0c5404c0e033ed28948cca7c4e86",
-   "source": "Federal Reserve",
-   "tier": "official",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260622a.htm",
-   "title": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
-   "published_at": "2026-06-22T12:45:00+00:00",
-   "is_dup": 0,
-   "sim_to_centroid": 0.9133
-  },
-  {
-   "id": "f8bf223b4a4b507fc2b8a857bda65348b92d4ed2",
-   "source": "Federal Reserve",
-   "tier": "official",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-   "title": "Federal Reserve issues FOMC statement",
-   "published_at": "2026-06-17T18:00:00+00:00",
-   "is_dup": 0,
-   "sim_to_centroid": 0.9715
-  },
-  {
-   "id": "e948b7d7c8559b390f9f1193f3b36b4137fe6a82",
-   "source": "reuters.com",
-   "tier": "wire",
-   "url": "https://backfill.example/fomc_dec_2025_cut/2",
-   "title": "Fed cuts for third straight meeting, pencils in pause for 2026",
-   "published_at": "2025-12-10T19:10:00+00:00",
-   "is_dup": 0,
-   "sim_to_centroid": 0.9216
-  },
-  {
-   "id": "3ac6080fc3148b2469e310df7047952cfcaf1462",
-   "source": "reuters.com",
-   "tier": "wire",
-   "url": "https://backfill.example/fomc_oct_2025_cut/2",
-   "title": "Fed delivers back-to-back rate cut as labor market cools",
-   "published_at": "2025-10-29T18:45:00+00:00",
-   "is_dup": 0,
-   "sim_to_centroid": 0.9104
-  },
-  {
-   "id": "b59e82e52c9cde6b07e7dfb2a7236082036060b8",
-   "source": "reuters.com",
-   "tier": "wire",
-   "url": "https://backfill.example/fomc_sep_2025_cut/2",
-   "title": "Fed cuts rates by quarter point, signals more easing ahead",
-   "published_at": "2025-09-17T18:40:00+00:00",
-   "is_dup": 0,
-   "sim_to_centroid": 0.9081
-  }
- ],
+ "last_update": "2026-07-05T14:56:31.826894+00:00",
+ "members": [],
  "anchors": [],
- "timeline": [
-  {
-   "kind": "official",
-   "title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
-   "source": "Federal Reserve",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
-   "at": "2026-07-01T18:30:00+00:00"
-  },
-  {
-   "kind": "official",
-   "title": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
-   "source": "Federal Reserve",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260622a.htm",
-   "at": "2026-06-22T12:45:00+00:00"
-  },
-  {
-   "kind": "official",
-   "title": "Federal Reserve issues FOMC statement",
-   "source": "Federal Reserve",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-   "at": "2026-06-17T18:00:00+00:00"
-  },
-  {
-   "kind": "headline",
-   "title": "Fed cuts for third straight meeting, pencils in pause for 2026",
-   "source": "reuters.com",
-   "url": "https://backfill.example/fomc_dec_2025_cut/2",
-   "at": "2025-12-10T19:10:00+00:00"
-  },
-  {
-   "kind": "headline",
-   "title": "Fed delivers back-to-back rate cut as labor market cools",
-   "source": "reuters.com",
-   "url": "https://backfill.example/fomc_oct_2025_cut/2",
-   "at": "2025-10-29T18:45:00+00:00"
-  },
-  {
-   "kind": "headline",
-   "title": "Fed cuts rates by quarter point, signals more easing ahead",
-   "source": "reuters.com",
-   "url": "https://backfill.example/fomc_sep_2025_cut/2",
-   "at": "2025-09-17T18:40:00+00:00"
-  }
- ],
- "llm": {
-  "model": "template",
-  "created_at": "2026-07-05T10:39:03.572940+00:00",
-  "payload": {
-   "category": "RATE",
-   "anchors": [],
-   "headlines": [
-    "Federal Reserve issues initial findings from its 2025 triennial payments study",
-    "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
-    "Federal Reserve issues FOMC statement",
-    "Fed cuts for third straight meeting, pencils in pause for 2026",
-    "Fed delivers back-to-back rate cut as labor market cools"
-   ],
-   "official_lines": [
-    "Federal Reserve issues initial findings from its 2025 triennial payments study",
-    "Federal Reserve notes with deep sadness the passing of Alan Greenspan"
-   ]
-  },
-  "raw_response": "{\"one_liner\": \"미국 연준이 금리를 인하했어요.\", \"details\": [\"미국 연준은 세 차례 연속 금리를 내렸어요.\", \"노동 시장이 둔화되는 것을 확인했어요.\", \"2026년에는 금리 인하를 잠시 멈출 것으로 예상돼요.\"], \"visual_type\": \"us_policy_rate\", \"effects\": [\"대출 이자 부담이 줄어들 수 있어요!\", \"주식 시장에 긍정적인 영향을 줄 수 있어요!\"]}",
-  "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 음슴체(함/됨/임) 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 음슴체(함/됨/임) 아님"
-    ]
-   }
-  ],
-  "output": {
-   "one_liner": "Federal Reserve issues initial",
-   "details": [
-    "Federal Reserve issues initial findings from its 2025 triennial payments study",
-    "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
-    "Federal Reserve issues FOMC statement"
-   ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
-  },
-  "fact_hash": "6696f88ae2574b52b3887cb9a63f9701c623ba39"
- },
+ "timeline": [],
+ "llm": null,
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}]}",
   "at": "2026-07-05T10:39:03.572805+00:00"
