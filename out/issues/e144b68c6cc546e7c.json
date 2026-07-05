@@ -1,0 +1,77 @@
+{
+ "id": "e144b68c6cc546e7c",
+ "one_liner": "인베니아 2025-4Q 실적 공시",
+ "title": "인베니아 2025-4Q 실적 공시",
+ "category": "EARNINGS",
+ "status": "active",
+ "origin": "official_event",
+ "sources": 0,
+ "last_update": "2026-07-05T09:16:12.197034+00:00",
+ "has_visual": true,
+ "details": [
+  "인베니아 매출액: 24.3억원",
+  "인베니아 영업이익: -26.2억원"
+ ],
+ "effects": [],
+ "model": "template",
+ "visual": {
+  "type": "earnings_quarterly",
+  "chart": "bar",
+  "title": "분기 실적",
+  "unit": "억원",
+  "source": "DART/EDGAR",
+  "groups": [
+   {
+    "name": "매출액",
+    "series": [
+     {
+      "t": "2025-11013",
+      "v": 24.3
+     }
+    ],
+    "unit": "억원"
+   },
+   {
+    "name": "영업이익",
+    "series": [
+     {
+      "t": "2025-11013",
+      "v": -26.2
+     }
+    ],
+    "unit": "억원"
+   }
+  ]
+ },
+ "anchors": [
+  {
+   "entity": "인베니아",
+   "metric": "매출액",
+   "value": 24.3,
+   "unit": "억원",
+   "prev": null,
+   "period": "2025-11013",
+   "source": "DART"
+  },
+  {
+   "entity": "인베니아",
+   "metric": "영업이익",
+   "value": -26.2,
+   "unit": "억원",
+   "prev": null,
+   "period": "2025-11013",
+   "source": "DART"
+  }
+ ],
+ "headlines": [],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "인베니아 [기재정정]사업보고서 (2025.12)",
+   "source": "DART",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000398",
+   "at": "2026-07-05T09:12:35.384174+00:00"
+  }
+ ],
+ "created_at": "2026-07-05T09:16:12.197034+00:00"
+}

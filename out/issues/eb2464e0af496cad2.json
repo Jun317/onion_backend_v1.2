@@ -1,0 +1,80 @@
+{
+ "id": "eb2464e0af496cad2",
+ "one_liner": "넥스트아이 영업이익 적자 전환됨",
+ "title": "넥스트아이 2025-4Q 실적 공시",
+ "category": "EARNINGS",
+ "status": "active",
+ "origin": "official_event",
+ "sources": 0,
+ "last_update": "2026-07-05T09:16:12.197714+00:00",
+ "has_visual": true,
+ "details": [
+  "넥스트아이의 2025년 4분기 매출액은 57.7억원이에요.",
+  "같은 기간 영업이익은 17.8억원 적자를 기록했어요.",
+  "이는 전년 동기 대비 적자 전환한 수치예요."
+ ],
+ "effects": [
+  "향후 실적 개선 여부에 대한 시장의 관심이 높아질 수 있어요!"
+ ],
+ "model": "gemini-2.5-flash-lite",
+ "visual": {
+  "type": "earnings_quarterly",
+  "chart": "bar",
+  "title": "분기 실적",
+  "unit": "억원",
+  "source": "DART/EDGAR",
+  "groups": [
+   {
+    "name": "매출액",
+    "series": [
+     {
+      "t": "2025-11013",
+      "v": 57.7
+     }
+    ],
+    "unit": "억원"
+   },
+   {
+    "name": "영업이익",
+    "series": [
+     {
+      "t": "2025-11013",
+      "v": -17.8
+     }
+    ],
+    "unit": "억원"
+   }
+  ]
+ },
+ "anchors": [
+  {
+   "entity": "넥스트아이",
+   "metric": "매출액",
+   "value": 57.7,
+   "unit": "억원",
+   "prev": null,
+   "period": "2025-11013",
+   "source": "DART"
+  },
+  {
+   "entity": "넥스트아이",
+   "metric": "영업이익",
+   "value": -17.8,
+   "unit": "억원",
+   "prev": null,
+   "period": "2025-11013",
+   "source": "DART"
+  }
+ ],
+ "headlines": [],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "넥스트아이 [기재정정]사업보고서 (2025.12)",
+   "source": "DART",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000467",
+   "at": "2026-07-05T09:12:31.545991+00:00"
+  }
+ ],
+ "created_at": "2026-07-05T09:16:12.197714+00:00"
+}
