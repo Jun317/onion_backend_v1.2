@@ -1,0 +1,92 @@
+{
+ "id": "c88e0e9224f4c05cc",
+ "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+ "category": "MARKET",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "KRX:000660",
+  "KRX:005930",
+  "KRX:034730"
+ ],
+ "seen_sources": 2,
+ "importance": 90,
+ "created_at": "2026-07-05T10:38:44.895085+00:00",
+ "last_update": "2026-07-05T10:38:44.895685+00:00",
+ "members": [
+  {
+   "id": "b5d6f5917bab55033e7fea183237a735b443b7f6",
+   "source": "조선비즈",
+   "tier": "wire",
+   "url": "https://backfill.example/memory_supercycle/4",
+   "title": "삼성전자·SK하이닉스 신고가 행진…반도체가 이끈 코스피 강세",
+   "published_at": "2025-11-16T01:10:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9619
+  },
+  {
+   "id": "721e6e2f9ee5ce03b3ecb82334fd7efad1eff500",
+   "source": "연합뉴스",
+   "tier": "wire",
+   "url": "https://backfill.example/memory_supercycle/2",
+   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+   "published_at": "2025-11-15T04:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.962
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "삼성전자·SK하이닉스 신고가 행진…반도체가 이끈 코스피 강세",
+   "source": "조선비즈",
+   "url": "https://backfill.example/memory_supercycle/4",
+   "at": "2025-11-16T01:10:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+   "source": "연합뉴스",
+   "url": "https://backfill.example/memory_supercycle/2",
+   "at": "2025-11-15T04:30:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-05T10:42:04.964134+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "삼성전자·SK하이닉스 신고가 행진…반도체가 이끈 코스피 강세",
+    "SK하이닉스, 내년 HBM 공급 물량 사실상 완판"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"one_liner\": \"코스피가 올라감\",\n   \"details\": [\n       \"삼성전자와 SK하이닉스의 주가가 신고가를 기록했어요.\",\n       \"반도체 업종이 코스피 상승을 이끌었어요.\",\n       \"SK하이닉스의 내년 HBM 공급 물량이 사실상 완판되었어요.\"\n   ],\n   \"visual_type\": \"kospi_close\",\n   \"effects\": [\n       \"반도체 관련 주가가 더 오를 수 있어요!\",\n       \"코스피 상승으로 투자자 심리가 좋아질 것으로 예상돼요!\"\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "one_liner": "코스피가 올라감",
+   "details": [
+    "삼성전자와 SK하이닉스의 주가가 신고가를 기록했어요.",
+    "반도체 업종이 코스피 상승을 이끌었어요.",
+    "SK하이닉스의 내년 HBM 공급 물량이 사실상 완판되었어요."
+   ],
+   "effects": [
+    "반도체 관련 주가가 더 오를 수 있어요!",
+    "코스피 상승으로 투자자 심리가 좋아질 것으로 예상돼요!"
+   ],
+   "visual_type": "kospi_close"
+  },
+  "fact_hash": "33ca398dd7d42c1591c58d7d19aa85de94568864"
+ },
+ "review": null
+}

@@ -1,75 +1,19 @@
 {
  "id": "e3892f7ce92b8b73a",
- "one_liner": "이큐셀 2025-2Q 실적 공시",
  "title": "이큐셀 2025-2Q 실적 공시",
  "category": "EARNINGS",
  "status": "active",
  "origin": "official_event",
- "sources": 0,
- "importance": 50,
- "last_update": "2026-07-05T09:16:20.569701+00:00",
- "has_visual": true,
- "details": [
-  "이큐셀 매출액: 105.5억원",
-  "이큐셀 영업이익: -36.2억원",
-  "이큐셀 매출액: 302.3억원",
-  "이큐셀 영업이익: 10.4억원"
+ "frozen": 1,
+ "anchor_key": "이큐셀|EARNINGS|2025-2Q",
+ "entity_keys": [
+  "이큐셀"
  ],
- "effects": [],
- "model": "template",
- "visual": {
-  "type": "earnings_quarterly",
-  "chart": "bar",
-  "title": "분기 실적",
-  "unit": "억원",
-  "source": "DART/EDGAR",
-  "groups": [
-   {
-    "name": "매출액",
-    "series": [
-     {
-      "t": "2025-11013",
-      "v": 302.3
-     },
-     {
-      "t": "2025-11013",
-      "v": 302.3
-     },
-     {
-      "t": "2025-11013",
-      "v": 302.3
-     },
-     {
-      "t": "2026-11013",
-      "v": 105.5
-     }
-    ],
-    "unit": "억원"
-   },
-   {
-    "name": "영업이익",
-    "series": [
-     {
-      "t": "2025-11013",
-      "v": 10.4
-     },
-     {
-      "t": "2025-11013",
-      "v": 10.4
-     },
-     {
-      "t": "2025-11013",
-      "v": 10.4
-     },
-     {
-      "t": "2026-11013",
-      "v": -36.2
-     }
-    ],
-    "unit": "억원"
-   }
-  ]
- },
+ "seen_sources": 0,
+ "importance": 50,
+ "created_at": "2026-07-05T09:16:12.197191+00:00",
+ "last_update": "2026-07-05T09:16:20.569701+00:00",
+ "members": [],
  "anchors": [
   {
    "entity": "이큐셀",
@@ -78,7 +22,9 @@
    "unit": "억원",
    "prev": null,
    "period": "2026-11013",
-   "source": "DART"
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-07-05T09:16:12.197564+00:00"
   },
   {
    "entity": "이큐셀",
@@ -87,7 +33,9 @@
    "unit": "억원",
    "prev": null,
    "period": "2026-11013",
-   "source": "DART"
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-07-05T09:16:12.197564+00:00"
   },
   {
    "entity": "이큐셀",
@@ -96,7 +44,9 @@
    "unit": "억원",
    "prev": null,
    "period": "2025-11013",
-   "source": "DART"
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-07-05T09:16:12.197446+00:00"
   },
   {
    "entity": "이큐셀",
@@ -105,7 +55,9 @@
    "unit": "억원",
    "prev": null,
    "period": "2025-11013",
-   "source": "DART"
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-07-05T09:16:12.197446+00:00"
   },
   {
    "entity": "이큐셀",
@@ -114,7 +66,9 @@
    "unit": "억원",
    "prev": null,
    "period": "2025-11013",
-   "source": "DART"
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-07-05T09:16:12.197325+00:00"
   },
   {
    "entity": "이큐셀",
@@ -123,7 +77,9 @@
    "unit": "억원",
    "prev": null,
    "period": "2025-11013",
-   "source": "DART"
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-07-05T09:16:12.197325+00:00"
   },
   {
    "entity": "이큐셀",
@@ -132,7 +88,9 @@
    "unit": "억원",
    "prev": null,
    "period": "2025-11013",
-   "source": "DART"
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-07-05T09:16:12.197191+00:00"
   },
   {
    "entity": "이큐셀",
@@ -141,10 +99,11 @@
    "unit": "억원",
    "prev": null,
    "period": "2025-11013",
-   "source": "DART"
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-07-05T09:16:12.197191+00:00"
   }
  ],
- "headlines": [],
  "timeline": [
   {
    "kind": "official",
@@ -175,5 +134,27 @@
    "at": "2026-07-05T09:12:32.277618+00:00"
   }
  ],
- "created_at": "2026-07-05T09:16:12.197191+00:00"
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-05T09:16:34.349197+00:00",
+  "payload": {},
+  "raw_response": null,
+  "attempts": [],
+  "output": {
+   "one_liner": "이큐셀 2025-2Q 실적 공시",
+   "details": [
+    "이큐셀 매출액: 105.5억원",
+    "이큐셀 영업이익: -36.2억원",
+    "이큐셀 매출액: 302.3억원",
+    "이큐셀 영업이익: 10.4억원"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "47cef86202a483ee7023b26b273e1b6c1a898de3"
+ },
+ "review": {
+  "reason": "LLM 검증 실패 → 템플릿 폴백",
+  "at": "2026-07-05T09:16:34.349011+00:00"
+ }
 }

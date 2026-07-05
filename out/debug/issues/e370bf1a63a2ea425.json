@@ -1,0 +1,137 @@
+{
+ "id": "e370bf1a63a2ea425",
+ "title": "한국 소비자물가 2026-04 발표",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "KR|MACRO|2026-04",
+ "entity_keys": [
+  "V"
+ ],
+ "seen_sources": 0,
+ "importance": 115,
+ "created_at": "2026-07-05T10:38:34.867309+00:00",
+ "last_update": "2026-07-05T10:38:44.902820+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "KR",
+   "metric": "소비자물가지수",
+   "value": 119.99,
+   "unit": "",
+   "prev": 119.92,
+   "period": "2026-06",
+   "source": "ECOS",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.867825+00:00"
+  },
+  {
+   "entity": "KR",
+   "metric": "소비자물가지수",
+   "value": 119.92,
+   "unit": "",
+   "prev": 119.37,
+   "period": "2026-05",
+   "source": "ECOS",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.867672+00:00"
+  },
+  {
+   "entity": "KR",
+   "metric": "소비자물가지수",
+   "value": 119.37,
+   "unit": "",
+   "prev": 118.8,
+   "period": "2026-04",
+   "source": "ECOS",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.867309+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "ECOS 소비자물가 202606 신규 관측",
+   "source": "ECOS",
+   "url": "https://ecos.bok.or.kr",
+   "at": "2026-06-01T00:00:00+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "ECOS 소비자물가 202605 신규 관측",
+   "source": "ECOS",
+   "url": "https://ecos.bok.or.kr",
+   "at": "2026-05-01T00:00:00+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "ECOS 소비자물가 202604 신규 관측",
+   "source": "ECOS",
+   "url": "https://ecos.bok.or.kr",
+   "at": "2026-04-01T00:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-05T10:39:52.623990+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [
+    {
+     "entity": "KR",
+     "metric": "소비자물가지수",
+     "value": 119.99,
+     "unit": "",
+     "prev": 119.92,
+     "period": "2026-06",
+     "source": "ECOS"
+    },
+    {
+     "entity": "KR",
+     "metric": "소비자물가지수",
+     "value": 119.92,
+     "unit": "",
+     "prev": 119.37,
+     "period": "2026-05",
+     "source": "ECOS"
+    },
+    {
+     "entity": "KR",
+     "metric": "소비자물가지수",
+     "value": 119.37,
+     "unit": "",
+     "prev": 118.8,
+     "period": "2026-04",
+     "source": "ECOS"
+    }
+   ],
+   "headlines": [
+    "한국 소비자물가 2026-04 발표"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"one_liner\": \"한국 물가가 올라감\",\n   \"details\": [\n       \"한국의 최근 소비자물가지수는 119.99예요.\",\n       \"이전 달보다 0.07 높아요.\",\n       \"전년 동기 대비 물가 상승률은 계산할 수 있어요.\"\n   ],\n   \"visual_type\": \"kr_cpi_yoy\",\n   \"effects\": [\n       \"물가 상승에 따라 소비자 물가지수 상승이 예상돼요!\",\n       \"인플레이션 우려로 금리 인상이 있을 수 있어요!\"\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "one_liner": "한국 물가가 올라감",
+   "details": [
+    "한국의 최근 소비자물가지수는 119.99예요.",
+    "이전 달보다 0.07 높아요.",
+    "전년 동기 대비 물가 상승률은 계산할 수 있어요."
+   ],
+   "effects": [
+    "물가 상승에 따라 소비자 물가지수 상승이 예상돼요!",
+    "인플레이션 우려로 금리 인상이 있을 수 있어요!"
+   ],
+   "visual_type": "kr_cpi_yoy"
+  },
+  "fact_hash": "854b8c82f843ae2b0a76d0e79bc88a91376551c1"
+ },
+ "review": null
+}

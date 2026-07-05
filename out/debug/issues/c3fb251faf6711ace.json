@@ -1,0 +1,106 @@
+{
+ "id": "c3fb251faf6711ace",
+ "title": "'26.5월 산업활동동향 및 평가",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 100,
+ "created_at": "2026-07-04T21:17:48.838519+00:00",
+ "last_update": "2026-07-05T10:38:44.895601+00:00",
+ "members": [
+  {
+   "id": "ec8dcea49f9bd0880f1b16cc1fc3341b9232b02f",
+   "source": "기획재정부",
+   "tier": "official",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078410",
+   "title": "'26.5월 국세수입 동향",
+   "published_at": "2026-06-30T11:05:38+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9786
+  },
+  {
+   "id": "ade4e9f3033f82546b02076aa52a3cb86e063711",
+   "source": "기획재정부",
+   "tier": "official",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078392",
+   "title": "'26.5월 산업활동동향 및 평가",
+   "published_at": "2026-06-30T08:31:21+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9779
+  },
+  {
+   "id": "5acc94f1f47d053fb734af21154b34e91d3a3391",
+   "source": "한국경제",
+   "tier": "wire",
+   "url": "https://backfill.example/fomc_sep_2025_cut/3",
+   "title": "파월 '고용 하방 위험 커져'…연내 추가 인하 시사",
+   "published_at": "2025-09-17T20:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8803
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "'26.5월 국세수입 동향",
+   "source": "기획재정부",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078410",
+   "at": "2026-06-30T11:05:38+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "'26.5월 산업활동동향 및 평가",
+   "source": "기획재정부",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078392",
+   "at": "2026-06-30T08:31:21+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "파월 '고용 하방 위험 커져'…연내 추가 인하 시사",
+   "source": "한국경제",
+   "url": "https://backfill.example/fomc_sep_2025_cut/3",
+   "at": "2025-09-17T20:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-05T10:40:36.742926+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [],
+   "headlines": [
+    "'26.5월 국세수입 동향",
+    "'26.5월 산업활동동향 및 평가",
+    "파월 '고용 하방 위험 커져'…연내 추가 인하 시사"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"one_liner\":\"미국 금리 추가 인하 가능성 나옴\",\n   \"details\":[\n      \"미국에서 고용 하방 위험이 커졌어요.\",\n      \"연내 추가 금리 인하가 가능할 수 있어요.\",\n      \"미국 경제 상황이 변하고 있어요.\"\n   ],\n   \"visual_type\":\"none\",\n   \"effects\":[\n      \"미국 경제에 긍정적 영향을 줄 수 있어요!\",\n      \"금리 인하로 금융 시장에 변동이 생길 수 있어요!\"\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "one_liner": "미국 금리 추가 인하 가능성 나옴",
+   "details": [
+    "미국에서 고용 하방 위험이 커졌어요.",
+    "연내 추가 금리 인하가 가능할 수 있어요.",
+    "미국 경제 상황이 변하고 있어요."
+   ],
+   "effects": [
+    "미국 경제에 긍정적 영향을 줄 수 있어요!",
+    "금리 인하로 금융 시장에 변동이 생길 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "3a236d7d8878475a96231f8cd68e3a28503c0741"
+ },
+ "review": null
+}

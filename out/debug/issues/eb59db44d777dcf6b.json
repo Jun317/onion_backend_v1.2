@@ -1,0 +1,83 @@
+{
+ "id": "eb59db44d777dcf6b",
+ "title": "미 대법원, IEEPA 관세 위헌 판결",
+ "category": "POLICY",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "US|POLICY|2026-02",
+ "entity_keys": [
+  "US"
+ ],
+ "seen_sources": 0,
+ "importance": 80,
+ "created_at": "2026-07-05T10:38:34.868868+00:00",
+ "last_update": "2026-07-05T10:38:34.868868+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "US",
+   "metric": "관세 환급 규모",
+   "value": 1660.0,
+   "unit": "억달러",
+   "prev": null,
+   "period": "2026-02",
+   "source": "seed(미 CBP)",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.868868+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "Learning Resources v. Trump 판결 (2026-02-20)",
+   "source": "supremecourt.gov",
+   "url": "https://www.supremecourt.gov",
+   "at": "2026-02-20T00:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-05T10:44:17.487577+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [
+    {
+     "entity": "US",
+     "metric": "관세 환급 규모",
+     "value": 1660.0,
+     "unit": "억달러",
+     "prev": null,
+     "period": "2026-02",
+     "source": "seed(미 CBP)"
+    }
+   ],
+   "headlines": [
+    "미 대법원, IEEPA 관세 위헌 판결"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"one_liner\": \"미국 대법원이 관세 위헌 판결함\",\n   \"details\": [\n       \"미국 대법원이 IEEPA 관세 위헌 판결을 내렸어요.\",\n       \"이번 판결에 따라 관세 환급 규모는 1660억 달러예요.\",\n       \"미국 수입업계에 긍정적 영향을 미칠 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국 수입업계에 긍정적 영향을 미칠 수 있어요!\",\n       \"미국 수출업계에 부정적 영향을 미칠 수 있어요!\"\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "one_liner": "미국 대법원이 관세 위헌 판결함",
+   "details": [
+    "미국 대법원이 IEEPA 관세 위헌 판결을 내렸어요.",
+    "이번 판결에 따라 관세 환급 규모는 1660억 달러예요.",
+    "미국 수입업계에 긍정적 영향을 미칠 수 있어요."
+   ],
+   "effects": [
+    "미국 수입업계에 긍정적 영향을 미칠 수 있어요!",
+    "미국 수출업계에 부정적 영향을 미칠 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "a4817910a0d8e87acf4b67a8486170e6637e1cc6"
+ },
+ "review": null
+}

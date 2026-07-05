@@ -1,0 +1,83 @@
+{
+ "id": "e76a31562c5cb5183",
+ "title": "1분기 D램 가격 90% 급등",
+ "category": "MARKET",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "KR|MARKET|2026-1Q",
+ "entity_keys": [
+  "KR"
+ ],
+ "seen_sources": 0,
+ "importance": 65,
+ "created_at": "2026-07-05T10:38:34.868726+00:00",
+ "last_update": "2026-07-05T10:38:34.868726+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "KR",
+   "metric": "D램 가격 상승률(분기)",
+   "value": 90.0,
+   "unit": "%",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "seed(업계 집계)",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.868726+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "2026 1Q 메모리 가격 동향",
+   "source": "seed",
+   "url": "https://backfill.example/ram_price_q1_surge/ref",
+   "at": "2026-03-31T00:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-05T10:44:39.604814+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [
+    {
+     "entity": "KR",
+     "metric": "D램 가격 상승률(분기)",
+     "value": 90.0,
+     "unit": "%",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "seed(업계 집계)"
+    }
+   ],
+   "headlines": [
+    "1분기 D램 가격 90% 급등"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"one_liner\":\"D램 가격이 많이 올랐음\",\n   \"details\":[\n      \"1분기 D램 가격이 90% 올랐어요.\",\n      \"이번 분기 가격 상승률이 매우 높았어요.\",\n      \"업계에서 집계한 자료에 따르면 이런 현상이 나타났어요.\"\n   ],\n   \"visual_type\":\"none\",\n   \"effects\":[\n      \"반도체 수요가 증가할 것으로 예상돼요!\",\n      \"전자제품 가격에도 영향을 줄 수 있어요!\"\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "one_liner": "D램 가격이 많이 올랐음",
+   "details": [
+    "1분기 D램 가격이 90% 올랐어요.",
+    "이번 분기 가격 상승률이 매우 높았어요.",
+    "업계에서 집계한 자료에 따르면 이런 현상이 나타났어요."
+   ],
+   "effects": [
+    "반도체 수요가 증가할 것으로 예상돼요!",
+    "전자제품 가격에도 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "55bc115d60b994e1a228277b1e46310ab6a20372"
+ },
+ "review": null
+}

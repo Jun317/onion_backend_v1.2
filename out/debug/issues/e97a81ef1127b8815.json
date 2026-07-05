@@ -1,0 +1,257 @@
+{
+ "id": "e97a81ef1127b8815",
+ "title": "미 연준 기준금리 변동 (4.08%)",
+ "category": "RATE",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "Fed|RATE|2025-09",
+ "entity_keys": [
+  "FED"
+ ],
+ "seen_sources": 1,
+ "importance": 145,
+ "created_at": "2026-07-05T10:38:34.868125+00:00",
+ "last_update": "2026-07-05T10:38:44.902995+00:00",
+ "members": [
+  {
+   "id": "14c0ab358d885d0bd5cb2759caceda9c6f7ef651",
+   "source": "연합뉴스",
+   "tier": "wire",
+   "url": "https://backfill.example/fomc_dec_2025_cut/1",
+   "title": "美연준, 올해 세 번째 금리 인하…연 3.50~3.75%",
+   "published_at": "2025-12-10T19:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9207
+  },
+  {
+   "id": "35da0678ed87ff902070ee48988bbe22810a2d6d",
+   "source": "연합뉴스",
+   "tier": "wire",
+   "url": "https://backfill.example/fomc_oct_2025_cut/1",
+   "title": "美연준, 두 달 연속 금리 인하…연 3.75~4.00%",
+   "published_at": "2025-10-29T18:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9376
+  },
+  {
+   "id": "84e1588b5557873cedcde9dc72cd20f9c54e88c9",
+   "source": "연합뉴스",
+   "tier": "wire",
+   "url": "https://backfill.example/fomc_sep_2025_cut/1",
+   "title": "美연준, 금리 0.25%p 인하…연 4.00~4.25%로",
+   "published_at": "2025-09-17T18:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9499
+  }
+ ],
+ "anchors": [
+  {
+   "entity": "Fed",
+   "metric": "기준금리",
+   "value": 3.64,
+   "unit": "%",
+   "prev": 3.89,
+   "period": "2025-12",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.868411+00:00"
+  },
+  {
+   "entity": "Fed",
+   "metric": "변동폭",
+   "value": -25.0,
+   "unit": "bp",
+   "prev": null,
+   "period": "2025-12",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.868411+00:00"
+  },
+  {
+   "entity": "Fed",
+   "metric": "기준금리",
+   "value": 3.87,
+   "unit": "%",
+   "prev": 4.12,
+   "period": "2025-10",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.868271+00:00"
+  },
+  {
+   "entity": "Fed",
+   "metric": "변동폭",
+   "value": -25.0,
+   "unit": "bp",
+   "prev": null,
+   "period": "2025-10",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.868271+00:00"
+  },
+  {
+   "entity": "Fed",
+   "metric": "기준금리",
+   "value": 4.08,
+   "unit": "%",
+   "prev": 4.33,
+   "period": "2025-09",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.868125+00:00"
+  },
+  {
+   "entity": "Fed",
+   "metric": "변동폭",
+   "value": -25.0,
+   "unit": "bp",
+   "prev": null,
+   "period": "2025-09",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.868125+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "FRED DFF 2025-12-11 = 3.64",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/DFF",
+   "at": "2025-12-11T00:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "美연준, 올해 세 번째 금리 인하…연 3.50~3.75%",
+   "source": "연합뉴스",
+   "url": "https://backfill.example/fomc_dec_2025_cut/1",
+   "at": "2025-12-10T19:00:00+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "FRED DFF 2025-10-30 = 3.87",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/DFF",
+   "at": "2025-10-30T00:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "美연준, 두 달 연속 금리 인하…연 3.75~4.00%",
+   "source": "연합뉴스",
+   "url": "https://backfill.example/fomc_oct_2025_cut/1",
+   "at": "2025-10-29T18:30:00+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "FRED DFF 2025-09-18 = 4.08",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/DFF",
+   "at": "2025-09-18T00:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "美연준, 금리 0.25%p 인하…연 4.00~4.25%로",
+   "source": "연합뉴스",
+   "url": "https://backfill.example/fomc_sep_2025_cut/1",
+   "at": "2025-09-17T18:30:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-05T10:39:30.638409+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [
+    {
+     "entity": "Fed",
+     "metric": "기준금리",
+     "value": 3.64,
+     "unit": "%",
+     "prev": 3.89,
+     "period": "2025-12",
+     "source": "FRED"
+    },
+    {
+     "entity": "Fed",
+     "metric": "변동폭",
+     "value": -25.0,
+     "unit": "bp",
+     "prev": null,
+     "period": "2025-12",
+     "source": "FRED"
+    },
+    {
+     "entity": "Fed",
+     "metric": "기준금리",
+     "value": 3.87,
+     "unit": "%",
+     "prev": 4.12,
+     "period": "2025-10",
+     "source": "FRED"
+    },
+    {
+     "entity": "Fed",
+     "metric": "변동폭",
+     "value": -25.0,
+     "unit": "bp",
+     "prev": null,
+     "period": "2025-10",
+     "source": "FRED"
+    },
+    {
+     "entity": "Fed",
+     "metric": "기준금리",
+     "value": 4.08,
+     "unit": "%",
+     "prev": 4.33,
+     "period": "2025-09",
+     "source": "FRED"
+    },
+    {
+     "entity": "Fed",
+     "metric": "변동폭",
+     "value": -25.0,
+     "unit": "bp",
+     "prev": null,
+     "period": "2025-09",
+     "source": "FRED"
+    }
+   ],
+   "headlines": [
+    "美연준, 올해 세 번째 금리 인하…연 3.50~3.75%",
+    "美연준, 두 달 연속 금리 인하…연 3.75~4.00%",
+    "美연준, 금리 0.25%p 인하…연 4.00~4.25%로"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"one_liner\": \"미국 기준금리가 내려감\",\n   \"details\": [\n       \"미 연방준비제도(Fed)가 기준금리를 0.25%p 내렸어요.\",\n       \"새 기준금리는 연 3.64%예요.\",\n       \"미국은 올해 세 번째 금리 인하를 했어요.\"\n   ],\n   \"visual_type\": \"us_policy_rate\",\n   \"effects\": [\n       \"대출 이자 부담이 줄어들 것으로 예상돼요!\",\n       \"채권 가격 상승 요인이 될 수 있어요!\"\n   ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "JSON 파스 실패"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "one_liner": "미국 기준금리가 내려감",
+   "details": [
+    "미 연방준비제도(Fed)가 기준금리를 0.25%p 내렸어요.",
+    "새 기준금리는 연 3.64%예요.",
+    "미국은 올해 세 번째 금리 인하를 했어요."
+   ],
+   "effects": [
+    "대출 이자 부담이 줄어들 것으로 예상돼요!",
+    "채권 가격 상승 요인이 될 수 있어요!"
+   ],
+   "visual_type": "us_policy_rate"
+  },
+  "fact_hash": "9cb108a1aa3e408aa6e0da00822bc157b55cce3a"
+ },
+ "review": null
+}

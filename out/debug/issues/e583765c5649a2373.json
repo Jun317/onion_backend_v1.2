@@ -1,0 +1,103 @@
+{
+ "id": "e583765c5649a2373",
+ "title": "코스피 사상 최고 8471 마감 (+3.26%)",
+ "category": "MARKET",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "KR|MARKET|2026-06",
+ "entity_keys": [
+  "KR"
+ ],
+ "seen_sources": 0,
+ "importance": 65,
+ "created_at": "2026-07-05T10:38:34.868574+00:00",
+ "last_update": "2026-07-05T10:38:34.868574+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "KR",
+   "metric": "코스피 종가",
+   "value": 8471.0,
+   "unit": "pt",
+   "prev": null,
+   "period": "2026-06-24",
+   "source": "seed(KRX)",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.868574+00:00"
+  },
+  {
+   "entity": "KR",
+   "metric": "일일 상승률",
+   "value": 3.26,
+   "unit": "%",
+   "prev": null,
+   "period": "2026-06-24",
+   "source": "seed(KRX)",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.868574+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "코스피 8471.00 (2026-06-24)",
+   "source": "seed",
+   "url": "https://backfill.example/kospi_june_surge/ref",
+   "at": "2026-06-24T00:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-05T10:45:02.268088+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [
+    {
+     "entity": "KR",
+     "metric": "코스피 종가",
+     "value": 8471.0,
+     "unit": "pt",
+     "prev": null,
+     "period": "2026-06-24",
+     "source": "seed(KRX)"
+    },
+    {
+     "entity": "KR",
+     "metric": "일일 상승률",
+     "value": 3.26,
+     "unit": "%",
+     "prev": null,
+     "period": "2026-06-24",
+     "source": "seed(KRX)"
+    }
+   ],
+   "headlines": [
+    "코스피 사상 최고 8471 마감 (+3.26%)"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"one_liner\": \"코스피가 최고치로 올랐음\",\n   \"details\": [\n       \"코스피 종가는 8471pt로 마감했어요.\",\n       \"코스피는 3.26% 상승했어요.\",\n       \"코스피가 사상 최고치를 기록했어요.\"\n   ],\n   \"visual_type\": \"kospi_close\",\n   \"effects\": [\n       \"투자자들의 기대가 높아질 수 있어요!\",\n       \"시장 전반적인 분위기가 좋을 것으로 예상돼요!\"\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "one_liner": "코스피가 최고치로 올랐음",
+   "details": [
+    "코스피 종가는 8471pt로 마감했어요.",
+    "코스피는 3.26% 상승했어요.",
+    "코스피가 사상 최고치를 기록했어요."
+   ],
+   "effects": [
+    "투자자들의 기대가 높아질 수 있어요!",
+    "시장 전반적인 분위기가 좋을 것으로 예상돼요!"
+   ],
+   "visual_type": "kospi_close"
+  },
+  "fact_hash": "d10ae8ff5ead17e99a94a41bb1c1e007714fccd6"
+ },
+ "review": null
+}
