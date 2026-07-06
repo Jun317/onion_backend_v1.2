@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-06T05:44:04.991404+00:00",
+ "generated_at": "2026-07-06T11:12:12.771303+00:00",
  "issues": [
   {
    "id": "c811d33e8ed33762d",
@@ -43,7 +43,7 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 15,
+   "seen_sources": 19,
    "importance": 160,
    "entity_keys": [
     "FED",
@@ -54,8 +54,8 @@
     "SEC"
    ],
    "created_at": "2026-07-04T21:17:48.835973+00:00",
-   "last_update": "2026-07-06T05:42:23.359029+00:00",
-   "members": 33,
+   "last_update": "2026-07-06T11:10:24.770180+00:00",
+   "members": 37,
    "llm_model": "template",
    "in_review": true
   },
@@ -200,6 +200,21 @@
    "in_review": false
   },
   {
+   "id": "cec0d2a76e6deff83",
+   "title": "26.7월 국고채, 재정증권, 원화표시 외평채 발행 계획",
+   "category": "RATE",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 115,
+   "entity_keys": [],
+   "created_at": "2026-07-04T21:17:48.839003+00:00",
+   "last_update": "2026-07-06T11:10:24.770380+00:00",
+   "members": 3,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
    "id": "e370bf1a63a2ea425",
    "title": "한국 소비자물가 2026-04 발표",
    "category": "MACRO",
@@ -230,21 +245,6 @@
    "created_at": "2026-07-04T21:17:48.836940+00:00",
    "last_update": "2026-07-04T22:17:30.485941+00:00",
    "members": 3,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
-   "id": "cec0d2a76e6deff83",
-   "title": "26.7월 국고채, 재정증권, 원화표시 외평채 발행 계획",
-   "category": "RATE",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 115,
-   "entity_keys": [],
-   "created_at": "2026-07-04T21:17:48.839003+00:00",
-   "last_update": "2026-07-04T21:17:48.839003+00:00",
-   "members": 2,
    "llm_model": null,
    "in_review": false
   },
@@ -600,9 +600,9 @@
    "importance": 80,
    "entity_keys": [],
    "created_at": "2026-07-04T21:17:48.838133+00:00",
-   "last_update": "2026-07-05T10:38:44.895490+00:00",
-   "members": 6,
-   "llm_model": "llama-3.3-70b-versatile",
+   "last_update": "2026-07-06T11:10:24.770273+00:00",
+   "members": 7,
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": false
   },
   {
@@ -638,6 +638,23 @@
    "members": 0,
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": false
+  },
+  {
+   "id": "e3c65cb22764c5ab1",
+   "title": "LG전자 2025-4Q 실적 공시",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "official_event",
+   "seen_sources": 0,
+   "importance": 75,
+   "entity_keys": [
+    "KRX:066570"
+   ],
+   "created_at": "2026-07-06T11:10:17.220376+00:00",
+   "last_update": "2026-07-06T11:10:17.220376+00:00",
+   "members": 0,
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "cf571b4bb63a4b69d",

@@ -1,0 +1,112 @@
+{
+ "id": "e3c65cb22764c5ab1",
+ "title": "LG전자 2025-4Q 실적 공시",
+ "category": "EARNINGS",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "LG전자|EARNINGS|2025-4Q",
+ "entity_keys": [
+  "KRX:066570"
+ ],
+ "seen_sources": 0,
+ "importance": 75,
+ "created_at": "2026-07-06T11:10:17.220376+00:00",
+ "last_update": "2026-07-06T11:10:17.220376+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "LG전자",
+   "metric": "매출액",
+   "value": 227398.1,
+   "unit": "억원",
+   "prev": null,
+   "period": "2025-11013",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-07-06T11:10:17.220376+00:00"
+  },
+  {
+   "entity": "LG전자",
+   "metric": "영업이익",
+   "value": 12590.6,
+   "unit": "억원",
+   "prev": null,
+   "period": "2025-11013",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-07-06T11:10:17.220376+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "LG전자 [기재정정]사업보고서 (2025.12)",
+   "source": "DART",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260706000276",
+   "at": "2026-07-06T09:02:36.025292+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-06T11:12:09.775342+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [
+    {
+     "entity": "LG전자",
+     "metric": "매출액",
+     "value": 227398.1,
+     "unit": "억원",
+     "prev": null,
+     "period": "2025-11013",
+     "source": "DART"
+    },
+    {
+     "entity": "LG전자",
+     "metric": "영업이익",
+     "value": 12590.6,
+     "unit": "억원",
+     "prev": null,
+     "period": "2025-11013",
+     "source": "DART"
+    }
+   ],
+   "headlines": [
+    "LG전자 2025-4Q 실적 공시"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"one_liner\": \"LG전자 4분기 실적이 발표됐어요.\", \"details\": [\"LG전자의 2025년 4분기 매출액은 227,398.1억원이에요.\", \"영업이익은 12,590.6억원이에요.\"], \"visual_type\": \"earnings_quarterly\", \"effects\": [\"투자자들의 관심이 집중될 수 있어요!\"]}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님",
+     "details 3~5문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님",
+     "details 3~5문장 아님"
+    ]
+   }
+  ],
+  "output": {
+   "one_liner": "LG전자 2025-4Q 실적 공시",
+   "details": [
+    "LG전자 매출액: 227398.1억원",
+    "LG전자 영업이익: 12590.6억원"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "96e29b763cf27752a5f8054f7d903c72467ea745"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}]}",
+  "at": "2026-07-06T11:12:09.775248+00:00"
+ }
+}
