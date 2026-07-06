@@ -1,6 +1,49 @@
 {
- "generated_at": "2026-07-05T22:28:42.380965+00:00",
+ "generated_at": "2026-07-06T01:17:59.382674+00:00",
  "queue": [
+  {
+   "issue_id": "cc03d3614fcf4e84d",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "details[2] 45자 초과",
+       "입력에 없는 숫자: [1500.0]"
+      ]
+     },
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-06T01:17:34.651882+00:00"
+  },
+  {
+   "issue_id": "c2a2335ebb21b242f",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "details[1] 45자 초과"
+      ]
+     },
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "details[0] 45자 초과"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-06T01:15:42.520304+00:00"
+  },
   {
    "issue_id": "ca1d719d5b855f7a7",
    "reason": {

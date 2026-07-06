@@ -7,15 +7,26 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
+  "BOK",
   "KRX:000660",
   "KRX:005930",
   "KRX:034730"
  ],
- "seen_sources": 2,
- "importance": 90,
+ "seen_sources": 3,
+ "importance": 125,
  "created_at": "2026-07-05T10:38:44.895085+00:00",
- "last_update": "2026-07-05T10:38:44.895685+00:00",
+ "last_update": "2026-07-06T01:13:49.582487+00:00",
  "members": [
+  {
+   "id": "7fd820ce249833f0656dcfaebb0efa0108fb0fe8",
+   "source": "investinglive.com",
+   "tier": "wire",
+   "url": "https://investinglive.com:443/centralbank/bank-of-korea-warns-samsung-sk-hynix-leveraged-etfs-risk-volatility-20260705/",
+   "title": "Bank of Korea warns Samsung , SK Hynix leveraged ETFs risk volatility",
+   "published_at": "2026-07-05T22:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8668
+  },
   {
    "id": "b5d6f5917bab55033e7fea183237a735b443b7f6",
    "source": "조선비즈",
@@ -24,7 +35,7 @@
    "title": "삼성전자·SK하이닉스 신고가 행진…반도체가 이끈 코스피 강세",
    "published_at": "2025-11-16T01:10:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9619
+   "sim_to_centroid": 0.9618
   },
   {
    "id": "721e6e2f9ee5ce03b3ecb82334fd7efad1eff500",
@@ -34,11 +45,18 @@
    "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
    "published_at": "2025-11-15T04:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.962
+   "sim_to_centroid": 0.9591
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Bank of Korea warns Samsung , SK Hynix leveraged ETFs risk volatility",
+   "source": "investinglive.com",
+   "url": "https://investinglive.com:443/centralbank/bank-of-korea-warns-samsung-sk-hynix-leveraged-etfs-risk-volatility-20260705/",
+   "at": "2026-07-05T22:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "삼성전자·SK하이닉스 신고가 행진…반도체가 이끈 코스피 강세",
@@ -56,37 +74,44 @@
  ],
  "llm": {
   "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-05T10:42:04.964134+00:00",
+  "created_at": "2026-07-06T01:14:58.134531+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Bank of Korea warns Samsung , SK Hynix leveraged ETFs risk volatility",
     "삼성전자·SK하이닉스 신고가 행진…반도체가 이끈 코스피 강세",
     "SK하이닉스, 내년 HBM 공급 물량 사실상 완판"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"one_liner\": \"코스피가 올라감\",\n   \"details\": [\n       \"삼성전자와 SK하이닉스의 주가가 신고가를 기록했어요.\",\n       \"반도체 업종이 코스피 상승을 이끌었어요.\",\n       \"SK하이닉스의 내년 HBM 공급 물량이 사실상 완판되었어요.\"\n   ],\n   \"visual_type\": \"kospi_close\",\n   \"effects\": [\n       \"반도체 관련 주가가 더 오를 수 있어요!\",\n       \"코스피 상승으로 투자자 심리가 좋아질 것으로 예상돼요!\"\n   ]\n}",
+  "raw_response": "{\n  \"one_liner\": \"반도체 주가가 오름\",\n   \"details\": [\n       \"삼성전자와 SK하이닉스의 주가가 신고가를 기록했어요.\",\n       \"반도체 업황이 좋아요.\",\n       \"코스피 지수가 강세를 보이고 있어요.\"\n   ],\n   \"visual_type\": \"kospi_close\",\n   \"effects\": [\n       \"반도체 관련 주식의 수요가 증가할 수 있어요!\",\n       \"코스피 지수가 더 오를 수 있어요!\"\n   ]\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님"
+    ]
+   },
    {
     "model": "llama-3.3-70b-versatile",
     "errors": []
    }
   ],
   "output": {
-   "one_liner": "코스피가 올라감",
+   "one_liner": "반도체 주가가 오름",
    "details": [
     "삼성전자와 SK하이닉스의 주가가 신고가를 기록했어요.",
-    "반도체 업종이 코스피 상승을 이끌었어요.",
-    "SK하이닉스의 내년 HBM 공급 물량이 사실상 완판되었어요."
+    "반도체 업황이 좋아요.",
+    "코스피 지수가 강세를 보이고 있어요."
    ],
    "effects": [
-    "반도체 관련 주가가 더 오를 수 있어요!",
-    "코스피 상승으로 투자자 심리가 좋아질 것으로 예상돼요!"
+    "반도체 관련 주식의 수요가 증가할 수 있어요!",
+    "코스피 지수가 더 오를 수 있어요!"
    ],
    "visual_type": "kospi_close"
   },
-  "fact_hash": "33ca398dd7d42c1591c58d7d19aa85de94568864"
+  "fact_hash": "d2601635e6736c7102750b389855dc4a8cd79286"
  },
  "review": null
 }

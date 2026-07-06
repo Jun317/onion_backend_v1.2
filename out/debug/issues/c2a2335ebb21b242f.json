@@ -1,0 +1,99 @@
+{
+ "id": "c2a2335ebb21b242f",
+ "title": "Meta Cloud Ambitions Could Challenge AWS , Azure , and Google Cloud , Says Morgan Stanley",
+ "category": "POLICY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "GOOGL",
+  "META",
+  "MS"
+ ],
+ "seen_sources": 2,
+ "importance": 105,
+ "created_at": "2026-07-06T01:13:49.601067+00:00",
+ "last_update": "2026-07-06T01:13:49.601500+00:00",
+ "members": [
+  {
+   "id": "804de24d3c2e4bd357b17b75fd691844f5f0c076",
+   "source": "econotimes.com",
+   "tier": "wire",
+   "url": "http://www.econotimes.com/Meta-Cloud-Ambitions-Could-Challenge-AWS-Azure-and-Google-Cloud-Says-Morgan-Stanley-1745948",
+   "title": "Meta Cloud Ambitions Could Challenge AWS , Azure , and Google Cloud , Says Morgan Stanley",
+   "published_at": "2026-07-06T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9625
+  },
+  {
+   "id": "d9ca42e5d515883f56c08e84adcaef49a067addc",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/technology/ai/articles/why-meta-platforms-inc-meta-224947515.html",
+   "title": "Here Why Meta Platforms , Inc . ( META ) is Restricting Engineers from Using Anthropic Claude",
+   "published_at": "2026-07-06T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9625
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Meta Cloud Ambitions Could Challenge AWS , Azure , and Google Cloud , Says Morgan Stanley",
+   "source": "econotimes.com",
+   "url": "http://www.econotimes.com/Meta-Cloud-Ambitions-Could-Challenge-AWS-Azure-and-Google-Cloud-Says-Morgan-Stanley-1745948",
+   "at": "2026-07-06T00:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Here Why Meta Platforms , Inc . ( META ) is Restricting Engineers from Using Anthropic Claude",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/technology/ai/articles/why-meta-platforms-inc-meta-224947515.html",
+   "at": "2026-07-06T00:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-06T01:15:42.520453+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Meta Cloud Ambitions Could Challenge AWS , Azure , and Google Cloud , Says Morgan Stanley",
+    "Here Why Meta Platforms , Inc . ( META ) is Restricting Engineers from Using Anthropic Claude"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"one_liner\": \"메타가 클라우드 사업 확장할 것임\",\n   \"details\": [\n       \"메타의 클라우드 사업이 AWS, Azure, Google Cloud에 도전할 수 있을 거라고 모건 스탠리는 말해요.\",\n       \"메타 플랫폼즈가 엔지니어들이 안쏠릭 클라우드 사용을 제한했어요.\",\n       \"메타의 클라우드 사업 확장은 경쟁사에 영향을 줄 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"클라우드 시장 경쟁이 심해질 수 있어요!\",\n       \"메타의 클라우드 사업 확장이 성공할 수 있어요!\"\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details[1] 45자 초과"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details[0] 45자 초과"
+    ]
+   }
+  ],
+  "output": {
+   "one_liner": "Meta Cloud Ambitions Could Cha",
+   "details": [
+    "Meta Cloud Ambitions Could Challenge AWS , Azure , and Google Cloud , Says Morgan Stanley",
+    "Here Why Meta Platforms , Inc . ( META ) is Restricting Engineers from Using Anthropic Claude"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "b378f880b301ac00539d85689d7112c39302a593"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details[1] 45자 초과\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details[0] 45자 초과\"]}]}",
+  "at": "2026-07-06T01:15:42.520304+00:00"
+ }
+}

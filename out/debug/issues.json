@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-05T22:28:42.373132+00:00",
+ "generated_at": "2026-07-06T01:17:59.381311+00:00",
  "issues": [
   {
    "id": "c811d33e8ed33762d",
@@ -35,6 +35,25 @@
    "last_update": "2026-07-04T21:17:48.839692+00:00",
    "members": 2,
    "llm_model": null,
+   "in_review": false
+  },
+  {
+   "id": "ca047e091cbb5946c",
+   "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 8,
+   "importance": 160,
+   "entity_keys": [
+    "FED",
+    "NVDA",
+    "SEC"
+   ],
+   "created_at": "2026-07-04T21:17:48.835973+00:00",
+   "last_update": "2026-07-06T01:13:49.599778+00:00",
+   "members": 17,
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": false
   },
   {
@@ -89,21 +108,20 @@
    "in_review": false
   },
   {
-   "id": "ca047e091cbb5946c",
-   "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
-   "category": "POLICY",
-   "status": "active",
+   "id": "cbb312bcdece1ad0e",
+   "title": "ICYMI - ECB Nagel says bank must stay vigilant but too early to call rate hikes",
+   "category": "RATE",
+   "status": "candidate",
    "origin": "cluster",
-   "seen_sources": 6,
+   "seen_sources": 1,
    "importance": 135,
    "entity_keys": [
-    "FED",
-    "SEC"
+    "ECB"
    ],
-   "created_at": "2026-07-04T21:17:48.835973+00:00",
-   "last_update": "2026-07-05T14:56:31.826864+00:00",
-   "members": 12,
-   "llm_model": "gemini-2.5-flash-lite",
+   "created_at": "2026-07-06T01:13:49.600760+00:00",
+   "last_update": "2026-07-06T01:13:49.600760+00:00",
+   "members": 2,
+   "llm_model": null,
    "in_review": false
   },
   {
@@ -122,6 +140,26 @@
    "last_update": "2026-07-04T21:17:48.839572+00:00",
    "members": 2,
    "llm_model": null,
+   "in_review": false
+  },
+  {
+   "id": "c88e0e9224f4c05cc",
+   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 125,
+   "entity_keys": [
+    "BOK",
+    "KRX:000660",
+    "KRX:005930",
+    "KRX:034730"
+   ],
+   "created_at": "2026-07-05T10:38:44.895085+00:00",
+   "last_update": "2026-07-06T01:13:49.582487+00:00",
+   "members": 3,
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": false
   },
   {
@@ -259,17 +297,21 @@
    "in_review": false
   },
   {
-   "id": "ca1d719d5b855f7a7",
-   "title": "[보도참고] 경제협력개발기구(OECD) 2026 한국경제보고서 발표",
+   "id": "c2a2335ebb21b242f",
+   "title": "Meta Cloud Ambitions Could Challenge AWS , Azure , and Google Cloud , Says Morgan Stanley",
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 33,
+   "seen_sources": 2,
    "importance": 105,
-   "entity_keys": [],
-   "created_at": "2026-07-04T21:17:48.837723+00:00",
-   "last_update": "2026-07-05T20:34:39.545878+00:00",
-   "members": 50,
+   "entity_keys": [
+    "GOOGL",
+    "META",
+    "MS"
+   ],
+   "created_at": "2026-07-06T01:13:49.601067+00:00",
+   "last_update": "2026-07-06T01:13:49.601500+00:00",
+   "members": 2,
    "llm_model": "template",
    "in_review": true
   },
@@ -279,14 +321,29 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 12,
+   "seen_sources": 35,
    "importance": 105,
    "entity_keys": [],
    "created_at": "2026-07-04T21:17:48.836493+00:00",
-   "last_update": "2026-07-05T20:34:39.545745+00:00",
-   "members": 23,
+   "last_update": "2026-07-06T01:13:49.599908+00:00",
+   "members": 50,
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": false
+  },
+  {
+   "id": "ca1d719d5b855f7a7",
+   "title": "[보도참고] 경제협력개발기구(OECD) 2026 한국경제보고서 발표",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 68,
+   "importance": 105,
+   "entity_keys": [],
+   "created_at": "2026-07-04T21:17:48.837723+00:00",
+   "last_update": "2026-07-06T01:13:49.599485+00:00",
+   "members": 50,
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
   },
   {
    "id": "c6de7c9fb5935bf83",
@@ -294,12 +351,12 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 100,
+   "seen_sources": 5,
+   "importance": 105,
    "entity_keys": [],
    "created_at": "2026-07-04T21:17:48.838713+00:00",
-   "last_update": "2026-07-05T11:17:30.600268+00:00",
-   "members": 7,
+   "last_update": "2026-07-06T01:13:49.588894+00:00",
+   "members": 8,
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": false
   },
@@ -420,6 +477,23 @@
    "in_review": false
   },
   {
+   "id": "cc03d3614fcf4e84d",
+   "title": "Is Micron Technology Stock Going to $1 , 500 ? The Bull Case Is Stronger Than You Think .",
+   "category": "FX",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 95,
+   "entity_keys": [
+    "MU"
+   ],
+   "created_at": "2026-07-06T01:13:49.600876+00:00",
+   "last_update": "2026-07-06T01:13:49.601481+00:00",
+   "members": 2,
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "cc201cf94031ec01f",
    "title": "[보도자료] 한미전략투자공사 및 정책금융기관-조선3사간 한미 조선협력투자 업무협약 체결",
    "category": "POLICY",
@@ -450,20 +524,18 @@
    "in_review": false
   },
   {
-   "id": "c88e0e9224f4c05cc",
-   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+   "id": "c71789cc0a036a1dd",
+   "title": "Raleigh Capital Management Inc . Purchases 15 , 730 Shares of Verizon Communications Inc . $VZ",
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
    "seen_sources": 2,
    "importance": 90,
    "entity_keys": [
-    "KRX:000660",
-    "KRX:005930",
-    "KRX:034730"
+    "VZ"
    ],
-   "created_at": "2026-07-05T10:38:44.895085+00:00",
-   "last_update": "2026-07-05T10:38:44.895685+00:00",
+   "created_at": "2026-07-06T01:13:49.600546+00:00",
+   "last_update": "2026-07-06T01:13:49.601429+00:00",
    "members": 2,
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": false
