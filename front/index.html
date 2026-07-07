@@ -270,7 +270,8 @@ async function viewIssue(id) {
     <td><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.title)}</a>
       <span class="muted small">${esc(t.source)}</span></td></tr>`).join('');
   const glossary = (d.glossary || []).map(g =>
-    `<tr><td><b>${esc(g.term)}</b></td><td>${esc(g.def)}</td></tr>`).join('');
+    `<tr><td><b>${esc(g.term)}</b></td><td>${esc(g.easy || g.def || '')}
+      ${g.example ? `<br><span class="muted small">${esc(g.example)}</span>` : ''}</td></tr>`).join('');
   const related = (d.related || []).map(r =>
     `<li><a href="#/issue/${esc(r.id)}">${esc(r.title)}</a> <span class="b cat">${esc(r.category)}</span>
       ${r.shared && r.shared.length ? `<span class="muted small">공유 개체: ${r.shared.map(esc).join(', ')}</span>` : ''}</li>`).join('');
