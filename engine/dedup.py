@@ -1,7 +1,7 @@
 """중복 제거 (설계서 §04-②).
 
 ① url_hash 일치 → DB UNIQUE 로 자동 폐기 (insert OR IGNORE)
-② 제목 simhash64 해밍 ≤ k AND 발행시각 차 ≤ 48h → 근접중복:
+② 제목+리드 simhash64 해밍 ≤ k AND 발행시각 차 ≤ 48h → 근접중복:
    저장은 하되 is_dup=1 — 이슈 출처 수 집계에서 제외 (와이어 전재 = 1표)
 """
 from __future__ import annotations

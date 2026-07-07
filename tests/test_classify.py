@@ -12,6 +12,15 @@ def test_keyword_category_title_first():
     assert keyword_category("아무 관련 없는 제목", []) is None
 
 
+def test_keyword_weighted_scoring():
+    # '환율'(FX)·'급등'(MARKET) 둘 다 걸리지만 FX 키워드가 더 많이 매칭 → FX
+    assert keyword_category("원달러 환율 급등, 달러 강세", []) == "FX"
+    # 제목 우선: 제목이 RATE 를 맞추면, 멤버에 MACRO 키워드가 여러 개여도 RATE 유지
+    assert keyword_category("기준금리 결정", ["소비자물가 상승", "인플레이션 우려"]) == "RATE"
+    # 제목이 아무것도 못 맞추면 멤버로 폴백
+    assert keyword_category("속보 정리", ["코스피 급등 마감"]) == "MARKET"
+
+
 def test_prototype_fallback():
     e = FakeEmbedder()
     proto = PrototypeClassifier(e)

@@ -54,7 +54,9 @@ def normalize_record(raw: dict) -> dict | None:
         "url": url, "url_hash": raw["id"], "title": title, "lead": lead,
         "published_at": raw.get("published_at") or raw.get("collected_at"),
         "lang": raw.get("lang", "en"),
-        "simhash": simhash64(title),
+        # 제목+리드로 simhash — 전재 기사(제목·리드 동일)를 더 확실히 근접중복으로 잡아
+        # 가짜 2출처(같은 와이어를 여러 도메인이 転載)를 걸러낸다. 리드 없으면 제목만.
+        "simhash": simhash64(text),
         "entity_keys": json.dumps(extract_entity_keys(text), ensure_ascii=False),
         "num_tags": json.dumps(tag_numbers(text), ensure_ascii=False),
         "collected_at": raw.get("collected_at"),

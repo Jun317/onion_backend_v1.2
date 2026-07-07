@@ -269,6 +269,11 @@ async function viewIssue(id) {
     <td><span class="b ${t.kind==='official'?'express':'cluster'}">${esc(t.kind)}</span></td>
     <td><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.title)}</a>
       <span class="muted small">${esc(t.source)}</span></td></tr>`).join('');
+  const glossary = (d.glossary || []).map(g =>
+    `<tr><td><b>${esc(g.term)}</b></td><td>${esc(g.def)}</td></tr>`).join('');
+  const related = (d.related || []).map(r =>
+    `<li><a href="#/issue/${esc(r.id)}">${esc(r.title)}</a> <span class="b cat">${esc(r.category)}</span>
+      ${r.shared && r.shared.length ? `<span class="muted small">공유 개체: ${r.shared.map(esc).join(', ')}</span>` : ''}</li>`).join('');
 
   let llmHtml = '<p class="muted">LLM 가공 전 (발행 안 됐거나 다음 사이클 대기)</p>';
   if (d.llm) {
@@ -322,6 +327,11 @@ async function viewIssue(id) {
         <h3>🕒 타임라인</h3>
         <div class="wrap-table"><table><tr><th>시각</th><th>종류</th><th>항목</th></tr>
           ${timeline || '<tr><td colspan="3" class="muted">없음</td></tr>'}</table></div>
+        <h3>📖 용어 설명 (표시 텍스트에 등장한 어려운 말)</h3>
+        <div class="wrap-table"><table><tr><th>용어</th><th>쉬운 설명</th></tr>
+          ${glossary || '<tr><td colspan="2" class="muted">감지된 용어 없음</td></tr>'}</table></div>
+        <h3>🔗 관련 이슈 (공유 개체·같은 분류)</h3>
+        <ul>${related || '<li class="muted">없음</li>'}</ul>
       </div>
       <div class="panel">
         <h3>🤖 LLM 가공 — 입력 → 프롬프트 → 응답 → 검증 → 출력</h3>

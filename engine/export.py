@@ -13,9 +13,27 @@ from pathlib import Path
 from .config import ROOT, cfg, categories
 from .db import daily_counter, meta_get, now_iso
 from .embed import from_blob
+from .glossary import terms_in_parts
 from .viz import build_visual
 
 OUT = ROOT / "out"
+
+
+def _related_issues(conn: sqlite3.Connection, issue: sqlite3.Row, limit: int = 5) -> list[dict]:
+    """공유 개체 또는 같은 카테고리의 다른 발행 이슈 — 맥락 링크용 (중요도 순)."""
+    kset = set(json.loads(issue["entity_keys"] or "[]"))
+    out = []
+    for r in conn.execute(
+            "SELECT id, canonical_title, category, entity_keys FROM issue "
+            "WHERE id != ? AND status IN ('active','stale') "
+            "ORDER BY importance DESC, last_update DESC LIMIT 60", (issue["id"],)):
+        shared = kset & set(json.loads(r["entity_keys"] or "[]"))
+        if shared or r["category"] == issue["category"]:
+            out.append({"id": r["id"], "title": r["canonical_title"],
+                        "category": r["category"], "shared": sorted(shared)})
+        if len(out) >= limit:
+            break
+    return out
 
 
 def _issue_card(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
@@ -53,15 +71,21 @@ def _issue_detail(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
     if o and o["visual_type"] and o["visual_type"] != "none":
         visual = build_visual(conn, o["visual_type"], issue["category"], issue["id"])
 
+    details = json.loads(o["details_json"]) if o else []
+    card = _issue_card(conn, issue)
+    glossary = terms_in_parts(card["title"], card["one_liner"], card.get("why_now") or "",
+                              *details)
     return {
-        **_issue_card(conn, issue),
-        "details": json.loads(o["details_json"]) if o else [],
+        **card,
+        "details": details,
         "effects": json.loads(o["effects_json"]) if o else [],
         "model": o["model"] if o else None,
         "visual": visual,
         "anchors": anchors,
         "headlines": headlines,
         "timeline": timeline,
+        "glossary": glossary,
+        "related": _related_issues(conn, issue),
         "created_at": issue["created_at"],
     }
 
@@ -198,6 +222,14 @@ def _debug_issue_detail(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
     review = conn.execute("SELECT reason, at FROM review_queue WHERE issue_id=?",
                           (issue["id"],)).fetchone()
 
+    gloss_src = []
+    if llm:
+        o2 = llm["output"]
+        gloss_src = [o2.get("title") or "", o2.get("one_liner") or "",
+                     o2.get("why_now") or "", *(o2.get("details") or [])]
+    else:
+        gloss_src = [issue["canonical_title"] or ""]
+
     return {"id": issue["id"], "title": issue["canonical_title"],
             "category": issue["category"], "status": issue["status"],
             "origin": issue["origin"], "frozen": issue["frozen"],
@@ -206,7 +238,9 @@ def _debug_issue_detail(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
             "seen_sources": issue["seen_sources"], "importance": issue["importance"],
             "created_at": issue["created_at"], "last_update": issue["last_update"],
             "members": members, "anchors": anchors, "timeline": timeline,
-            "llm": llm, "review": dict(review) if review else None}
+            "llm": llm, "review": dict(review) if review else None,
+            "glossary": terms_in_parts(*gloss_src),
+            "related": _related_issues(conn, issue)}
 
 
 def export_debug(conn: sqlite3.Connection, out_dir: Path | None = None,

@@ -14,16 +14,31 @@ from .config import categories, cfg
 from .embed import build_input, from_blob
 
 
-def keyword_category(title: str, member_titles: list[str]) -> str | None:
-    cats = categories()
-    texts = [title.lower()] + [t.lower() for t in member_titles]
+def _score(cats: dict, texts: list[str]) -> dict[str, int]:
+    scores: dict[str, int] = {}
     for cat, spec in cats.items():
         if cat == "ETC":
             continue
-        for kw in spec.get("keywords", []):
-            k = str(kw).lower()
-            if k and any(k in t for t in texts):
-                return cat
+        s = sum(1 for kw in spec.get("keywords", []) if str(kw).lower()
+                for t in texts if str(kw).lower() in t)
+        if s:
+            scores[cat] = s
+    return scores
+
+
+def keyword_category(title: str, member_titles: list[str]) -> str | None:
+    """제목 우선 + 다중 키워드 점수제 (설계서 §04-⑦ 'canonical_title 우선, 멤버 보조').
+
+    제목이 하나라도 매칭되면 제목 안에서 최고점 카테고리로 확정한다 — 멤버에 다른
+    카테고리 키워드가 많아도 제목 주제가 밀리지 않게. (첫 매칭 승 방식은 카테고리 정의
+    순서에 편향돼, 제목에 여러 카테고리가 걸릴 때 오분류가 났음 — 점수제로 해소.)
+    제목이 아무것도 못 맞추면 멤버 제목으로 폴백. 동점은 카테고리 정의 순서."""
+    cats = categories()
+    order = list(cats)
+    for texts in ([(title or "").lower()], [t.lower() for t in member_titles]):
+        scores = _score(cats, texts)
+        if scores:
+            return max(scores, key=lambda c: (scores[c], -order.index(c)))
     return None
 
 
