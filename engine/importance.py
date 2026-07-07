@@ -8,8 +8,42 @@ from __future__ import annotations
 
 import json
 import sqlite3
+from datetime import datetime, timezone
 
 from .config import cfg, entity_groups
+
+
+def _magnitude_bonus(conn: sqlite3.Connection, issue_id: str, c: dict) -> int:
+    """사건 규모 가산 — 앵커의 변동폭·상승률 절대값에 지표별 계수(config)를 곱해 상한.
+    '1bp 미동'이 '증시 급등'보다 위로 오는 문제를 완화한다."""
+    mc = c.get("magnitude", {})
+    scale = mc.get("metric_scale", {})
+    if not scale:
+        return 0
+    best = 0.0
+    for a in conn.execute(
+            "SELECT metric, value FROM numeric_anchor WHERE issue_id=?", (issue_id,)):
+        if a["value"] is None:
+            continue
+        for kw, k in scale.items():
+            if kw in (a["metric"] or ""):
+                best = max(best, abs(float(a["value"])) * float(k))
+                break
+    return min(int(mc.get("cap", 40)), int(round(best)))
+
+
+def _recency_penalty(issue: sqlite3.Row, c: dict) -> int:
+    """최신성 감쇠 — 오래된 이슈는 감점(굵직해도 지난 뉴스는 뒤로)."""
+    rc = c.get("recency", {})
+    decay_h = float(rc.get("decay_hours", 24)) or 24
+    try:
+        lu = datetime.fromisoformat(issue["last_update"])
+    except (ValueError, TypeError):
+        return 0
+    if lu.tzinfo is None:
+        lu = lu.replace(tzinfo=timezone.utc)
+    age_h = max(0.0, (datetime.now(timezone.utc) - lu).total_seconds() / 3600)
+    return min(int(rc.get("cap", 30)), int(age_h // decay_h) * int(rc.get("step", 5)))
 
 
 def score_issue(conn: sqlite3.Connection, issue: sqlite3.Row) -> int:
@@ -32,7 +66,10 @@ def score_issue(conn: sqlite3.Connection, issue: sqlite3.Row) -> int:
         (issue["id"],)).fetchone() is not None
     if official:
         score += int(c.get("official_bonus", 10))
-    return score
+
+    score += _magnitude_bonus(conn, issue["id"], c)
+    score -= _recency_penalty(issue, c)
+    return max(0, score)
 
 
 def recompute_all(conn: sqlite3.Connection) -> int:

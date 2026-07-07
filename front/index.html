@@ -232,8 +232,9 @@ async function viewIssues() {
     <td>${statusBadge(i.status)}</td>
     <td>${originBadge(i.origin)}</td>
     <td><span class="b cat">${esc(i.category)}</span></td>
-    <td><a href="#/issue/${esc(i.id)}">${esc(i.title)}</a>
-      ${i.in_review ? ' <span class="b review">검수</span>' : ''}</td>
+    <td><a href="#/issue/${esc(i.id)}">${esc(i.llm_title || i.title)}</a>
+      ${i.in_review ? ' <span class="b review">검수</span>' : ''}
+      ${i.one_liner ? `<br><span class="muted small">${esc(i.one_liner)}</span>` : ''}</td>
     <td class="num">${i.seen_sources}</td>
     <td class="num">${i.members}</td>
     <td class="small">${esc(i.llm_model || '—')}</td>
@@ -277,6 +278,11 @@ async function viewIssue(id) {
         : '<span class="ok">검증 통과</span>'}</li>`).join('');
     llmHtml = `
       <div class="kv">
+        <dt>제목 (title)</dt><dd><b>${esc(d.llm.output.title || '—')}</b>
+          <span class="muted small">짧고 직관적</span></dd>
+        <dt>한줄 요약</dt><dd>${esc(d.llm.output.one_liner || '—')}
+          <span class="muted small">더 길고 정보 있게</span></dd>
+        <dt>왜 중요한지</dt><dd>${esc(d.llm.output.why_now || '—')}</dd>
         <dt>최종 모델</dt><dd><b>${esc(d.llm.model)}</b>${d.llm.model==='template'
           ? ' <span class="fail">(LLM 실패 → 기계 조립 폴백)</span>' : ''}</dd>
         <dt>가공 시각</dt><dd>${fmtT(d.llm.created_at)}</dd>

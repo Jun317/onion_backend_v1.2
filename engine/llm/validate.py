@@ -62,15 +62,31 @@ def validate(out: dict, payload: dict, allowed_viz: list[str]) -> list[str]:
     if not isinstance(out, dict):
         return ["출력이 JSON 객체가 아님"]
 
+    title = out.get("title")
+    if not isinstance(title, str) or not title.strip():
+        errors.append("title 누락")
+    elif len(title.strip()) > 22:
+        errors.append(f"title 22자 초과({len(title.strip())})")
+
     ol = out.get("one_liner")
     if not isinstance(ol, str) or not ol.strip():
         errors.append("one_liner 누락")
     else:
         ol = ol.strip()
-        if len(ol) > 30:
-            errors.append(f"one_liner 30자 초과({len(ol)})")
+        if len(ol) > 45:
+            errors.append(f"one_liner 45자 초과({len(ol)})")
         if not is_eumseumche(ol):
             errors.append("one_liner 음슴체(함/됨/임) 아님")
+
+    why = out.get("why_now")
+    if not isinstance(why, str) or not why.strip():
+        errors.append("why_now 누락")
+    else:
+        why = why.strip()
+        if len(why) > 55:
+            errors.append(f"why_now 55자 초과({len(why)})")
+        if not DETAIL_RE.search(why):
+            errors.append("why_now 어요체 아님")
 
     details = out.get("details")
     if not isinstance(details, list) or not (3 <= len(details) <= 5):
@@ -99,7 +115,8 @@ def validate(out: dict, payload: dict, allowed_viz: list[str]) -> list[str]:
 
     # 숫자 대조 — 출력의 모든 수치가 입력(+파생값)에 존재해야 함
     allowed = allowed_numbers(payload)
-    out_text = " ".join([str(out.get("one_liner", ""))]
+    out_text = " ".join([str(out.get("title", "")), str(out.get("one_liner", "")),
+                         str(out.get("why_now", ""))]
                         + [str(d) for d in (details or [])]
                         + [str(e) for e in (effects or [])])
     extra = extract_numbers(out_text) - allowed

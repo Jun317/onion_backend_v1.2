@@ -22,8 +22,11 @@ def _issue_card(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
     o = conn.execute("SELECT * FROM llm_output WHERE issue_id=?", (issue["id"],)).fetchone()
     return {
         "id": issue["id"],
-        "one_liner": o["one_liner"] if o else issue["canonical_title"],
-        "title": issue["canonical_title"],
+        # title = 짧고 직관적인 제목(LLM), one_liner = 더 길고 정보 있는 한 줄, why_now = 왜 중요한지
+        "title": (o["title"] if o and o["title"] else issue["canonical_title"]),
+        "one_liner": (o["one_liner"] if o and o["one_liner"] else issue["canonical_title"]),
+        "why_now": o["why_now"] if o else None,
+        "raw_title": issue["canonical_title"],   # 원 기사 제목 (참고)
         "category": issue["category"],
         "status": issue["status"],
         "origin": issue["origin"],
@@ -185,7 +188,9 @@ def _debug_issue_detail(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
                "payload": json.loads(o["payload_json"] or "{}"),
                "raw_response": o["raw_response"],
                "attempts": json.loads(o["validation_json"] or "[]"),
-               "output": {"one_liner": o["one_liner"],
+               "output": {"title": o["title"],
+                          "one_liner": o["one_liner"],
+                          "why_now": o["why_now"],
                           "details": json.loads(o["details_json"] or "[]"),
                           "effects": json.loads(o["effects_json"] or "[]"),
                           "visual_type": o["visual_type"]},
@@ -226,10 +231,13 @@ def export_debug(conn: sqlite3.Connection, out_dir: Path | None = None,
         live_ids.add(i["id"])
         detail = _debug_issue_detail(conn, i)
         _write(out / "issues" / f"{i['id']}.json", detail)
+        out_o = detail["llm"]["output"] if detail["llm"] else {}
         index.append({k: detail[k] for k in
                       ("id", "title", "category", "status", "origin", "seen_sources",
                        "importance", "entity_keys", "created_at", "last_update")}
                      | {"members": len(detail["members"]),
+                        "llm_title": out_o.get("title"),      # 정제된 직관 제목
+                        "one_liner": out_o.get("one_liner"),  # 정보 있는 한 줄
                         "llm_model": detail["llm"]["model"] if detail["llm"] else None,
                         "in_review": detail["review"] is not None})
     _write(out / "issues.json", {"generated_at": now_iso(), "issues": index})

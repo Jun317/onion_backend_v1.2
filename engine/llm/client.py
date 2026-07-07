@@ -116,7 +116,9 @@ class FakeLlm(LlmClient):
         from ..viz import allowed_for_category
         allowed = allowed_for_category(payload.get("category", "ETC"))
         out = {
+            "title": "핵심 이슈 정리",
             "one_liner": "핵심 소식이 발표됨",
+            "why_now": "시장에 영향을 줄 수 있어요.",
             "details": details[:5] if len(details) >= 3 else details + ["관련 소식이 이어지고 있어요."] * (3 - len(details)),
             "visual_type": allowed[0] if allowed else "none",
             "effects": ["시장 변동성이 커질 수 있어요!"],

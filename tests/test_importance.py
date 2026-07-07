@@ -48,3 +48,21 @@ def test_recompute_all_writes_and_skips_archived(conn):
     assert n == 1
     assert _issue(conn, "a")["importance"] > 0
     assert _issue(conn, "b")["importance"] == 0
+
+
+def test_magnitude_bonus_from_anchor(conn):
+    insert_issue(conn, "m", category="MARKET", status="active")   # base 55
+    base = score_issue(conn, _issue(conn, "m"))
+    conn.execute("INSERT INTO numeric_anchor(issue_id,metric,value,unit,observed_at) "
+                 "VALUES('m','일일 상승률',90,'%','2026-07-04')")
+    boosted = score_issue(conn, _issue(conn, "m"))
+    assert boosted - base == 40   # 90×1.2=108 → cap 40
+
+
+def test_recency_penalty_lowers_old_issue(conn):
+    from datetime import datetime, timedelta, timezone
+    old = (datetime.now(timezone.utc) - timedelta(days=3)).isoformat()
+    insert_issue(conn, "old", category="RATE", status="active", last_update=old)
+    insert_issue(conn, "fresh", category="RATE", status="active")
+    # 3일 경과 → (72//24)×5 = 15점 감점
+    assert score_issue(conn, _issue(conn, "fresh")) - score_issue(conn, _issue(conn, "old")) == 15

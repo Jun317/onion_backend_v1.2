@@ -8,7 +8,9 @@ PAYLOAD = {
     "official_lines": [],
 }
 GOOD = {
-    "one_liner": "한국 기준금리가 내려감",
+    "title": "한국 기준금리 인하",
+    "one_liner": "한국은행이 기준금리를 0.25%p 내려 연 3.0%가 됨",
+    "why_now": "금리가 내리면 대출 이자가 줄어 가계 부담이 낮아져요.",
     "details": ["한국은행이 기준금리를 0.25%p 내렸어요.", "새 기준금리는 연 3.00%예요.",
                 "지난 금리는 3.25%였어요."],
     "visual_type": "kr_base_rate",
@@ -24,8 +26,25 @@ def test_good_output_passes():
 def test_one_liner_rules():
     bad = {**GOOD, "one_liner": "한국 기준금리가 내려갔다"}   # 음슴체 아님
     assert any("음슴체" in e for e in validate(bad, PAYLOAD, ALLOWED_VIZ))
-    long = {**GOOD, "one_liner": "가" * 31 + "됨"}
-    assert any("30자" in e for e in validate(long, PAYLOAD, ALLOWED_VIZ))
+    long = {**GOOD, "one_liner": "가" * 46 + "됨"}
+    assert any("45자" in e for e in validate(long, PAYLOAD, ALLOWED_VIZ))
+
+
+def test_title_rules():
+    missing = {k: v for k, v in GOOD.items() if k != "title"}
+    assert any("title 누락" in e for e in validate(missing, PAYLOAD, ALLOWED_VIZ))
+    long = {**GOOD, "title": "가" * 23}
+    assert any("title 22자 초과" in e for e in validate(long, PAYLOAD, ALLOWED_VIZ))
+
+
+def test_why_now_rules():
+    missing = {k: v for k, v in GOOD.items() if k != "why_now"}
+    assert any("why_now 누락" in e for e in validate(missing, PAYLOAD, ALLOWED_VIZ))
+    bad = {**GOOD, "why_now": "금리가 내리면 부담이 낮아진다"}   # 어요체 아님
+    assert any("why_now 어요체" in e for e in validate(bad, PAYLOAD, ALLOWED_VIZ))
+    # title/why_now 의 숫자도 환각 검사 대상
+    halluc = {**GOOD, "title": "금리 7.77% 인하"}
+    assert any("입력에 없는 숫자" in e for e in validate(halluc, PAYLOAD, ALLOWED_VIZ))
 
 
 def test_details_count_and_ending():

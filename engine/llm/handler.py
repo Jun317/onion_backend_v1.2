@@ -38,7 +38,8 @@ def template_output(payload: dict) -> dict:
         details = [h for h in payload.get("headlines", [])[:3]]
     head = (payload.get("headlines") or ["새 소식"])[0]
     allowed = allowed_for_category(payload.get("category", "ETC"))
-    return {"one_liner": head[:30], "details": details[:5],
+    return {"title": head[:22], "one_liner": head[:45],
+            "why_now": "공식 발표 내용을 정리했어요.", "details": details[:5],
             "visual_type": allowed[0] if allowed else "none", "effects": []}
 
 
@@ -56,19 +57,21 @@ def _save(conn: sqlite3.Connection, issue_id: str, fh: str, out: dict, model: st
           attempts: list | None = None) -> None:
     conn.execute(
         "INSERT INTO llm_output(issue_id,fact_hash,one_liner,details_json,visual_type,"
-        "effects_json,model,created_at,payload_json,raw_response,validation_json) "
-        "VALUES(?,?,?,?,?,?,?,?,?,?,?) "
+        "effects_json,model,created_at,payload_json,raw_response,validation_json,title,why_now) "
+        "VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?) "
         "ON CONFLICT(issue_id) DO UPDATE SET fact_hash=excluded.fact_hash, "
         "one_liner=excluded.one_liner, details_json=excluded.details_json, "
         "visual_type=excluded.visual_type, effects_json=excluded.effects_json, "
         "model=excluded.model, created_at=excluded.created_at, "
         "payload_json=excluded.payload_json, raw_response=excluded.raw_response, "
-        "validation_json=excluded.validation_json",
+        "validation_json=excluded.validation_json, title=excluded.title, "
+        "why_now=excluded.why_now",
         (issue_id, fh, out["one_liner"], json.dumps(out["details"], ensure_ascii=False),
          out.get("visual_type", "none"), json.dumps(out.get("effects", []), ensure_ascii=False),
          model, now_iso(),
          json.dumps(payload or {}, ensure_ascii=False), raw or "",
-         json.dumps(attempts or [], ensure_ascii=False)))
+         json.dumps(attempts or [], ensure_ascii=False),
+         out.get("title", ""), out.get("why_now", "")))
     conn.execute("UPDATE issue SET fact_hash=? WHERE id=?", (fh, issue_id))
 
 

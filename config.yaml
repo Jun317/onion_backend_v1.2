@@ -60,6 +60,17 @@ importance:
   source_per: 5         # distinct 원출처당 가산
   source_cap: 25
   official_bonus: 10    # 공식 데이터(급행 origin 또는 official tier 멤버) 포함
+  magnitude:            # 사건 규모 가산 — 앵커 변동폭·상승률 절대값 × 계수 (상한)
+    cap: 40
+    metric_scale:       # 지표명 부분매칭 → 계수 (단위가 섞여 있어 지표별로 보정)
+      변동폭: 0.4        # 연준 25bp→10 / 한은 0.25%p→0.1
+      상승률: 1.2        # 일일 +3.26%→~4 / 분기 +90%→상한
+      급등: 1.2
+      변동: 0.4
+  recency:              # 최신성 감쇠 — 오래된 이슈 감점
+    decay_hours: 24     # 하루 경과마다
+    step: 5             # 5점 감점
+    cap: 30             # 최대 감점
 
 viz:
   cache_h: 6            # 같은 visual_type 시리즈 캐시 (이슈 간 공유)
