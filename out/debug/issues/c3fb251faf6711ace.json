@@ -8,10 +8,20 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 2,
- "importance": 90,
+ "importance": 100,
  "created_at": "2026-07-04T21:17:48.838519+00:00",
- "last_update": "2026-07-05T10:38:44.895601+00:00",
+ "last_update": "2026-07-07T18:26:10.969472+00:00",
  "members": [
+  {
+   "id": "1392fecc638dd7b56e91dcf215871ff7ad83c5da",
+   "source": "기획재정부",
+   "tier": "official",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078501",
+   "title": "(보도설명) '26년 하반기 경제성장전략 등의 구체적 내용에 대해서는 결정된 바 없습니다.",
+   "published_at": "2026-07-07T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9132
+  },
   {
    "id": "ec8dcea49f9bd0880f1b16cc1fc3341b9232b02f",
    "source": "기획재정부",
@@ -20,7 +30,7 @@
    "title": "'26.5월 국세수입 동향",
    "published_at": "2026-06-30T11:05:38+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9786
+   "sim_to_centroid": 0.9773
   },
   {
    "id": "ade4e9f3033f82546b02076aa52a3cb86e063711",
@@ -30,7 +40,7 @@
    "title": "'26.5월 산업활동동향 및 평가",
    "published_at": "2026-06-30T08:31:21+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9779
+   "sim_to_centroid": 0.9762
   },
   {
    "id": "5acc94f1f47d053fb734af21154b34e91d3a3391",
@@ -40,11 +50,18 @@
    "title": "파월 '고용 하방 위험 커져'…연내 추가 인하 시사",
    "published_at": "2025-09-17T20:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8803
+   "sim_to_centroid": 0.8842
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "official",
+   "title": "(보도설명) '26년 하반기 경제성장전략 등의 구체적 내용에 대해서는 결정된 바 없습니다.",
+   "source": "기획재정부",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078501",
+   "at": "2026-07-07T00:00:00+00:00"
+  },
   {
    "kind": "official",
    "title": "'26.5월 국세수입 동향",
@@ -68,55 +85,54 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-05T10:40:36.742926+00:00",
+  "model": "template",
+  "created_at": "2026-07-07T18:26:59.296769+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
+    "(보도설명) '26년 하반기 경제성장전략 등의 구체적 내용에 대해서는 결정된 바 없습니다.",
     "'26.5월 국세수입 동향",
     "'26.5월 산업활동동향 및 평가",
     "파월 '고용 하방 위험 커져'…연내 추가 인하 시사"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"one_liner\":\"미국 금리 추가 인하 가능성 나옴\",\n   \"details\":[\n      \"미국에서 고용 하방 위험이 커졌어요.\",\n      \"연내 추가 금리 인하가 가능할 수 있어요.\",\n      \"미국 경제 상황이 변하고 있어요.\"\n   ],\n   \"visual_type\":\"none\",\n   \"effects\":[\n      \"미국 경제에 긍정적 영향을 줄 수 있어요!\",\n      \"금리 인하로 금융 시장에 변동이 생길 수 있어요!\"\n   ]\n}",
+  "raw_response": "{\"title\": \"미국 금리 인하 가능성 시사\", \"one_liner\": \"미국 연준 의장이 금리 인하 가능성을 시사했어요.\", \"why_now\": \"미국 금리가 바뀌면 한국 경제에도 영향을 줄 수 있어요.\", \"details\": [\"미국 연준 의장이 고용 시장의 하방 위험이 커졌다고 언급했어요.\", \"이는 연내 금리를 추가로 내릴 수 있다는 뜻으로 해석돼요.\"], \"visual_type\": \"none\", \"effects\": [\"미국 금리가 내리면 한국에서도 금리가 내려갈 수 있어요!\", \"국제 금융 시장 변동성이 커질 수 있어요!\"]}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님",
+     "details 3~5문장 아님"
+    ]
    }
   ],
   "output": {
-   "title": null,
-   "one_liner": "미국 금리 추가 인하 가능성 나옴",
-   "why_now": null,
+   "title": "(보도설명) '26년 하반기 경제성장전략",
+   "one_liner": "(보도설명) '26년 하반기 경제성장전략 등의 구체적 내용에 대해서는 결정된 바 ",
+   "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
-    "미국에서 고용 하방 위험이 커졌어요.",
-    "연내 추가 금리 인하가 가능할 수 있어요.",
-    "미국 경제 상황이 변하고 있어요."
+    "(보도설명) '26년 하반기 경제성장전략 등의 구체적 내용에 대해서는 결정된 바 없습니다.",
+    "'26.5월 국세수입 동향",
+    "'26.5월 산업활동동향 및 평가"
    ],
-   "effects": [
-    "미국 경제에 긍정적 영향을 줄 수 있어요!",
-    "금리 인하로 금융 시장에 변동이 생길 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "3a236d7d8878475a96231f8cd68e3a28503c0741"
+  "fact_hash": "64175b2b5915f662d3592ff747f73c5a020018c5"
  },
- "review": null,
- "glossary": [
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  },
-  {
-   "term": "금리 인하",
-   "easy": "이자의 기준을 낮추는 거예요.",
-   "example": "대출 이자가 줄어 돈 쓰기가 조금 수월해져요."
-  }
- ],
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}]}",
+  "at": "2026-07-07T18:26:59.296672+00:00"
+ },
+ "glossary": [],
  "related": [
   {
    "id": "e370bf1a63a2ea425",
