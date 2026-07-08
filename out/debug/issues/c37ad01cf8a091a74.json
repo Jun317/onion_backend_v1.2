@@ -2,17 +2,17 @@
  "id": "c37ad01cf8a091a74",
  "title": "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions",
  "category": "FX",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "IMF"
  ],
- "seen_sources": 1,
- "importance": 95,
+ "seen_sources": 2,
+ "importance": 100,
  "created_at": "2026-07-08T00:19:07.470838+00:00",
- "last_update": "2026-07-08T00:19:07.470838+00:00",
+ "last_update": "2026-07-08T03:53:06.527346+00:00",
  "members": [
   {
    "id": "10b386ba41fadceb971631763705af9672656c9c",
@@ -22,7 +22,17 @@
    "title": "IMF appoints Silvana Tenreyro as chief economist , head of research",
    "published_at": "2026-07-07T22:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9587
+   "sim_to_centroid": 0.9664
+  },
+  {
+   "id": "aa70b24c3c8d62ab694af60d56d2ca3625813644",
+   "source": "yahoo.com",
+   "tier": "wire",
+   "url": "https://www.yahoo.com/news/articles/imf-appoints-silvana-tenreyro-chief-210404475.html",
+   "title": "IMF appoints Silvana Tenreyro as chief economist , head of research",
+   "published_at": "2026-07-07T22:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9664
   },
   {
    "id": "6fc79898fd6b884e25f2d78ec4dbe50c3a7de201",
@@ -32,7 +42,7 @@
    "title": "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions",
    "published_at": "2026-07-06T20:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9587
+   "sim_to_centroid": 0.9502
   }
  ],
  "anchors": [],
@@ -46,14 +56,63 @@
   },
   {
    "kind": "headline",
+   "title": "IMF appoints Silvana Tenreyro as chief economist , head of research",
+   "source": "yahoo.com",
+   "url": "https://www.yahoo.com/news/articles/imf-appoints-silvana-tenreyro-chief-210404475.html",
+   "at": "2026-07-07T22:00:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions",
    "source": "naija247news.com",
    "url": "https://naija247news.com/imf-says-tokenization-will-reshape-financial-markets-not-replace-traditional-institutions/",
    "at": "2026-07-06T20:30:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-08T03:53:08.975156+00:00",
+  "payload": {
+   "category": "FX",
+   "anchors": [],
+   "headlines": [
+    "IMF appoints Silvana Tenreyro as chief economist , head of research",
+    "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"IMF, 새로운 수석 이코노미스트 임명\", \"one_liner\": \"IMF가 실바나 텐레이로를 신임 수석 이코노미스트로 임명함\", \"why_now\": \"IMF의 수석 이코노미스트는 세계 경제 동향에 큰 영향을 미칠 수 있어요.\", \"details\": [\"실바나 텐레이로가 IMF 수석 이코노미스트로 임명되었어요.\", \"그는 IMF 연구 부문도 이끌게 돼요.\"], \"visual_type\": \"none\", \"effects\": [\"IMF의 향후 경제 전망에 변화가 있을 수 있어요!\"]}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3~5문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3~5문장 아님"
+    ]
+   }
+  ],
+  "output": {
+   "title": "IMF appoints Silvana T",
+   "one_liner": "IMF appoints Silvana Tenreyro as chief econom",
+   "why_now": "공식 발표 내용을 정리했어요.",
+   "details": [
+    "IMF appoints Silvana Tenreyro as chief economist , head of research",
+    "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions"
+   ],
+   "effects": [],
+   "visual_type": "usdkrw"
+  },
+  "fact_hash": "f62740b02893318383b95b17786d2c933cf8b044"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3~5문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3~5문장 아님\"]}]}",
+  "at": "2026-07-08T03:53:08.975034+00:00"
+ },
  "glossary": [],
  "related": []
 }

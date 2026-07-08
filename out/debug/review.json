@@ -1,6 +1,27 @@
 {
- "generated_at": "2026-07-08T00:22:41.974291+00:00",
+ "generated_at": "2026-07-08T03:53:11.591968+00:00",
  "queue": [
+  {
+   "issue_id": "c37ad01cf8a091a74",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "details 3~5문장 아님"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "details 3~5문장 아님"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-08T03:53:08.975034+00:00"
+  },
   {
    "issue_id": "c545401b96cf0a200",
    "reason": {
