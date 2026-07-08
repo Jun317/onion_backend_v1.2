@@ -10,11 +10,21 @@
   "CVX",
   "XOM"
  ],
- "seen_sources": 2,
- "importance": 90,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-07-08T00:19:07.471145+00:00",
- "last_update": "2026-07-08T00:19:07.471895+00:00",
+ "last_update": "2026-07-08T14:45:56.512560+00:00",
  "members": [
+  {
+   "id": "aefc06284c52f11a9c3f22567a6363628b261351",
+   "source": "upstreamonline.com",
+   "tier": "wire",
+   "url": "https://www.upstreamonline.com/finance/exxonmobil-expects-quarterly-earnings-boost/2-1-2014473",
+   "title": "ExxonMobil expects quarterly earnings boost",
+   "published_at": "2026-07-08T12:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8962
+  },
   {
    "id": "3ee85c23ddd4642806bf326efc08576ad52944d2",
    "source": "tickerreport.com",
@@ -23,7 +33,7 @@
    "title": "ExxonMobil ( NYSE : XOM ) Trading 3 . 8 % Higher – Here Why",
    "published_at": "2026-07-07T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9691
+   "sim_to_centroid": 0.9678
   },
   {
    "id": "6928ab61c764abf66d37dc865e7a5707a4012aea",
@@ -33,11 +43,18 @@
    "title": "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know",
    "published_at": "2026-07-07T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9691
+   "sim_to_centroid": 0.9681
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "ExxonMobil expects quarterly earnings boost",
+   "source": "upstreamonline.com",
+   "url": "https://www.upstreamonline.com/finance/exxonmobil-expects-quarterly-earnings-boost/2-1-2014473",
+   "at": "2026-07-08T12:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "ExxonMobil ( NYSE : XOM ) Trading 3 . 8 % Higher – Here Why",
@@ -54,21 +71,22 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-08T00:21:57.424228+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-08T14:48:32.752747+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "ExxonMobil expects quarterly earnings boost",
     "ExxonMobil ( NYSE : XOM ) Trading 3 . 8 % Higher – Here Why",
     "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"엑손모빌 주가 상승\",\n   \"one_liner\": \"엑손모빌 주가가 3.8% 올랐어요.\",\n   \"why_now\": \"주가가 오르면 투자자들이 돈을 벌 수 있어요.\",\n   \"details\": [\n       \"엑손모빌 주가가 3.8% 상승했어요.\",\n       \"체버론 주가도 같이 올랐어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"에너지株에 긍정적 영향을 줄 수 있어요!\",\n       \"투자자들의 기대감이 높아질 수 있어요!\"\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"엑손모빌 수익 증가\",\n   \"one_liner\": \"엑손모빌의 분기 수익이 증가할 것으로 예상됨\",\n   \"why_now\": \"석유 회사 수익이 증가하면 주가에 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"엑손모빌의 분기 수익이 증가할 것으로 예상돼요.\",\n       \"엑손모빌의 주가가 상승했어요.\",\n       \"석유 회사 주가에 영향을 줄 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"석유 회사 주가에 긍정적 영향을 줄 수 있어요!\",\n       \"에너지 관련 주식 시장에 영향을 줄 수 있어요!\"\n   ]\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
      "one_liner 음슴체(함/됨/임) 아님",
      "입력에 없는 숫자: [3.8]"
@@ -76,25 +94,25 @@
    },
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 음슴체(함/됨/임) 아님",
-     "details 3~5문장 아님",
-     "입력에 없는 숫자: [3.8]"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "ExxonMobil ( NYSE : XO",
-   "one_liner": "ExxonMobil ( NYSE : XOM ) Trading 3 . 8 % Hig",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "엑손모빌 수익 증가",
+   "one_liner": "엑손모빌의 분기 수익이 증가할 것으로 예상됨",
+   "why_now": "석유 회사 수익이 증가하면 주가에 영향을 줄 수 있어요.",
    "details": [
-    "ExxonMobil ( NYSE : XOM ) Trading 3 . 8 % Higher – Here Why",
-    "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know"
+    "엑손모빌의 분기 수익이 증가할 것으로 예상돼요.",
+    "엑손모빌의 주가가 상승했어요.",
+    "석유 회사 주가에 영향을 줄 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "석유 회사 주가에 긍정적 영향을 줄 수 있어요!",
+    "에너지 관련 주식 시장에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "b0e34ac2285109b40928d23e7afba3e5de3ba4c7"
+  "fact_hash": "f6ae9dbfd7c8f999f22b6e50ccdd7175e38631bb"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"입력에 없는 숫자: [3.8]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\", \"입력에 없는 숫자: [3.8]\"]}]}",

@@ -9,11 +9,31 @@
  "entity_keys": [
   "IMF"
  ],
- "seen_sources": 2,
- "importance": 100,
+ "seen_sources": 4,
+ "importance": 120,
  "created_at": "2026-07-08T00:19:07.470838+00:00",
- "last_update": "2026-07-08T03:53:06.527346+00:00",
+ "last_update": "2026-07-08T14:45:56.529524+00:00",
  "members": [
+  {
+   "id": "e9e1c6de3930fc56baafbfb79e25f4c17437d088",
+   "source": "기획재정부",
+   "tier": "official",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078520",
+   "title": "[보도참고] 2026년 국제통화기금(IMF) 7월 세계경제전망(WEO) 업데이트",
+   "published_at": "2026-07-08T22:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8638
+  },
+  {
+   "id": "f558ae275da40beab219beada0a7d13503771047",
+   "source": "engineeringevil.com",
+   "tier": "wire",
+   "url": "https://engineeringevil.com/2012/10/21/imfs-epic-plan-to-conjure-away-debt-and-dethrone-bankers/",
+   "title": "IMF epic plan to conjure away debt and dethrone bankers – Engineering Evil",
+   "published_at": "2026-07-08T12:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8938
+  },
   {
    "id": "10b386ba41fadceb971631763705af9672656c9c",
    "source": "whbl.com",
@@ -22,7 +42,7 @@
    "title": "IMF appoints Silvana Tenreyro as chief economist , head of research",
    "published_at": "2026-07-07T22:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9664
+   "sim_to_centroid": 0.9605
   },
   {
    "id": "aa70b24c3c8d62ab694af60d56d2ca3625813644",
@@ -32,7 +52,7 @@
    "title": "IMF appoints Silvana Tenreyro as chief economist , head of research",
    "published_at": "2026-07-07T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9664
+   "sim_to_centroid": 0.9605
   },
   {
    "id": "6fc79898fd6b884e25f2d78ec4dbe50c3a7de201",
@@ -47,6 +67,20 @@
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "official",
+   "title": "[보도참고] 2026년 국제통화기금(IMF) 7월 세계경제전망(WEO) 업데이트",
+   "source": "기획재정부",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078520",
+   "at": "2026-07-08T22:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "IMF epic plan to conjure away debt and dethrone bankers – Engineering Evil",
+   "source": "engineeringevil.com",
+   "url": "https://engineeringevil.com/2012/10/21/imfs-epic-plan-to-conjure-away-debt-and-dethrone-bankers/",
+   "at": "2026-07-08T12:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "IMF appoints Silvana Tenreyro as chief economist , head of research",
@@ -71,17 +105,19 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-08T03:53:08.975156+00:00",
+  "created_at": "2026-07-08T14:46:37.704220+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
    "headlines": [
+    "[보도참고] 2026년 국제통화기금(IMF) 7월 세계경제전망(WEO) 업데이트",
+    "IMF epic plan to conjure away debt and dethrone bankers – Engineering Evil",
     "IMF appoints Silvana Tenreyro as chief economist , head of research",
     "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"IMF, 새로운 수석 이코노미스트 임명\", \"one_liner\": \"IMF가 실바나 텐레이로를 신임 수석 이코노미스트로 임명함\", \"why_now\": \"IMF의 수석 이코노미스트는 세계 경제 동향에 큰 영향을 미칠 수 있어요.\", \"details\": [\"실바나 텐레이로가 IMF 수석 이코노미스트로 임명되었어요.\", \"그는 IMF 연구 부문도 이끌게 돼요.\"], \"visual_type\": \"none\", \"effects\": [\"IMF의 향후 경제 전망에 변화가 있을 수 있어요!\"]}",
+  "raw_response": "{\"title\": \"IMF, 세계 경제 전망 발표\", \"one_liner\": \"IMF가 7월 세계 경제 전망을 발표함.\", \"why_now\": \"IMF의 전망은 세계 경제가 앞으로 어떻게 흘러갈지 보여주는 중요한 지표예요.\", \"details\": [\"IMF가 7월 세계 경제 전망을 업데이트했어요.\"], \"visual_type\": \"none\", \"effects\": [\"세계 경제 흐름을 파악하는 데 도움이 될 수 있어요!\"]}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
@@ -97,21 +133,22 @@
    }
   ],
   "output": {
-   "title": "IMF appoints Silvana T",
-   "one_liner": "IMF appoints Silvana Tenreyro as chief econom",
+   "title": "[보도참고] 2026년 국제통화기금(IM",
+   "one_liner": "[보도참고] 2026년 국제통화기금(IMF) 7월 세계경제전망(WEO) 업데이트",
    "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
-    "IMF appoints Silvana Tenreyro as chief economist , head of research",
-    "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions"
+    "[보도참고] 2026년 국제통화기금(IMF) 7월 세계경제전망(WEO) 업데이트",
+    "IMF epic plan to conjure away debt and dethrone bankers – Engineering Evil",
+    "IMF appoints Silvana Tenreyro as chief economist , head of research"
    ],
    "effects": [],
    "visual_type": "usdkrw"
   },
-  "fact_hash": "f62740b02893318383b95b17786d2c933cf8b044"
+  "fact_hash": "8dd51cac5ce0524f0f2dfdb8672a26e080010b15"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3~5문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3~5문장 아님\"]}]}",
-  "at": "2026-07-08T03:53:08.975034+00:00"
+  "at": "2026-07-08T14:46:37.704098+00:00"
  },
  "glossary": [],
  "related": []
