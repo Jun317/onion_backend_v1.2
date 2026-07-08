@@ -9,11 +9,21 @@
  "entity_keys": [
   "BOJ"
  ],
- "seen_sources": 2,
- "importance": 140,
+ "seen_sources": 3,
+ "importance": 145,
  "created_at": "2026-07-08T00:19:07.471272+00:00",
- "last_update": "2026-07-08T00:19:07.471911+00:00",
+ "last_update": "2026-07-08T16:54:37.753268+00:00",
  "members": [
+  {
+   "id": "821da73542e71f94f9452c7bbd975abebb859020",
+   "source": "mvariety.com",
+   "tier": "wire",
+   "url": "https://www.mvariety.com/business/business_news/stocks-rise-as-spacex-fever-lifts-tech-yen-flat-after-boj-hikes-rates/article_43de53a9-956d-5931-be51-414cf94c99e6.html",
+   "title": "Stocks rise as SpaceX fever lifts tech ; yen flat after BOJ hikes rates",
+   "published_at": "2026-07-08T15:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.869
+  },
   {
    "id": "0b9d6331d31a08d0449f117a3ae10c23845d8105",
    "source": "investinglive.com",
@@ -22,7 +32,7 @@
    "title": "BOJ dissenter Asada sets bar for supporting next rate hike , wants demand - driven inflation",
    "published_at": "2026-07-07T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9911
+   "sim_to_centroid": 0.9889
   },
   {
    "id": "3ff926773a19166326a3d611d405147c22d56bde",
@@ -32,11 +42,18 @@
    "title": "BOJ dissenter Asada needs demand - driven inflation before backing rate hike",
    "published_at": "2026-07-07T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9911
+   "sim_to_centroid": 0.9905
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Stocks rise as SpaceX fever lifts tech ; yen flat after BOJ hikes rates",
+   "source": "mvariety.com",
+   "url": "https://www.mvariety.com/business/business_news/stocks-rise-as-spacex-fever-lifts-tech-yen-flat-after-boj-hikes-rates/article_43de53a9-956d-5931-be51-414cf94c99e6.html",
+   "at": "2026-07-08T15:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "BOJ dissenter Asada sets bar for supporting next rate hike , wants demand - driven inflation",
@@ -53,47 +70,54 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-08T00:19:10.929430+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-08T16:55:50.605843+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
    "headlines": [
+    "Stocks rise as SpaceX fever lifts tech ; yen flat after BOJ hikes rates",
     "BOJ dissenter Asada sets bar for supporting next rate hike , wants demand - driven inflation",
     "BOJ dissenter Asada needs demand - driven inflation before backing rate hike"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\":\"일본 금리 인상 조건\",\"one_liner\":\"일본은행 금리 인상 반대 위원이 금리 인상 지지 조건을 제시함\",\"why_now\":\"금리가 오르면 돈을 빌리는 데 드는 비용이 늘어날 수 있어요.\",\"details\":[\"일본은행의 한 위원이 금리 인상 지지 조건을 제시했어요.\",\"이 위원은 수요가 이끄는 물가 상승을 원해요.\",\"그래야 금리 인상을 지지할 수 있다고 밝혔어요.\"],\"visual_type\":\"none\",\"effects\":[\"기업들의 투자 비용이 늘어날 수 있어요!\",\"가계의 대출 이자 부담이 커질 수 있어요!\"]}",
+  "raw_response": "{\n  \"title\": \"일본 기준금리 인상\",\n   \"one_liner\": \"일본은행이 기준금리를 올렸음\",\n   \"why_now\": \"금리가 오르면 물가 상승률이 높아질 수 있어요.\",\n   \"details\": [\n       \"일본은행이 기준금리를 올렸어요.\",\n       \"일본은행의 결정이 세계 경제에 영향을 줄 수 있어요.\",\n       \"일본은행의 금리 결정은 향후 경제 방향을 결정할 수 있어요.\"\n   ],\n   \"visual_type\": \"us_policy_rate\",\n   \"effects\": [\n       \"일본 경제에 영향을 줄 수 있어요!\",\n       \"세계 금리 흐름에 영향을 줄 수 있어요!\"\n   ]\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
     "errors": []
    }
   ],
   "output": {
-   "title": "일본 금리 인상 조건",
-   "one_liner": "일본은행 금리 인상 반대 위원이 금리 인상 지지 조건을 제시함",
-   "why_now": "금리가 오르면 돈을 빌리는 데 드는 비용이 늘어날 수 있어요.",
+   "title": "일본 기준금리 인상",
+   "one_liner": "일본은행이 기준금리를 올렸음",
+   "why_now": "금리가 오르면 물가 상승률이 높아질 수 있어요.",
    "details": [
-    "일본은행의 한 위원이 금리 인상 지지 조건을 제시했어요.",
-    "이 위원은 수요가 이끄는 물가 상승을 원해요.",
-    "그래야 금리 인상을 지지할 수 있다고 밝혔어요."
+    "일본은행이 기준금리를 올렸어요.",
+    "일본은행의 결정이 세계 경제에 영향을 줄 수 있어요.",
+    "일본은행의 금리 결정은 향후 경제 방향을 결정할 수 있어요."
    ],
    "effects": [
-    "기업들의 투자 비용이 늘어날 수 있어요!",
-    "가계의 대출 이자 부담이 커질 수 있어요!"
+    "일본 경제에 영향을 줄 수 있어요!",
+    "세계 금리 흐름에 영향을 줄 수 있어요!"
    ],
-   "visual_type": "none"
+   "visual_type": "us_policy_rate"
   },
-  "fact_hash": "c8b1af4df3b60a0a57d8fc74ff07a5a2d09dbafd"
+  "fact_hash": "154c4a7b96b7914c645ac036ef7c41bc51a85d56"
  },
  "review": null,
  "glossary": [
   {
-   "term": "금리 인상",
-   "easy": "이자의 기준을 올리는 거예요.",
-   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
+   "term": "기준금리",
+   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
+   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
   },
   {
    "term": "금리",
