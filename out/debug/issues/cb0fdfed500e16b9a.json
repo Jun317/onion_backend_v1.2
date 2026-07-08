@@ -1,0 +1,136 @@
+{
+ "id": "cb0fdfed500e16b9a",
+ "title": "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know",
+ "category": "MARKET",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "CVX",
+  "XOM"
+ ],
+ "seen_sources": 2,
+ "importance": 90,
+ "created_at": "2026-07-08T00:19:07.471145+00:00",
+ "last_update": "2026-07-08T00:19:07.471895+00:00",
+ "members": [
+  {
+   "id": "3ee85c23ddd4642806bf326efc08576ad52944d2",
+   "source": "tickerreport.com",
+   "tier": "wire",
+   "url": "https://www.tickerreport.com/banking-finance/13497406/exxonmobil-nysexom-trading-3-8-higher-heres-why.html",
+   "title": "ExxonMobil ( NYSE : XOM ) Trading 3 . 8 % Higher – Here Why",
+   "published_at": "2026-07-07T22:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9691
+  },
+  {
+   "id": "6928ab61c764abf66d37dc865e7a5707a4012aea",
+   "source": "markets.financialcontent.com",
+   "tier": "wire",
+   "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-7-exxonmobil-and-chevron-shares-skyrocket-what-you-need-to-know",
+   "title": "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know",
+   "published_at": "2026-07-07T20:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9691
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "ExxonMobil ( NYSE : XOM ) Trading 3 . 8 % Higher – Here Why",
+   "source": "tickerreport.com",
+   "url": "https://www.tickerreport.com/banking-finance/13497406/exxonmobil-nysexom-trading-3-8-higher-heres-why.html",
+   "at": "2026-07-07T22:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know",
+   "source": "markets.financialcontent.com",
+   "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-7-exxonmobil-and-chevron-shares-skyrocket-what-you-need-to-know",
+   "at": "2026-07-07T20:45:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-08T00:21:57.424228+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "ExxonMobil ( NYSE : XOM ) Trading 3 . 8 % Higher – Here Why",
+    "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"엑손모빌 주가 상승\",\n   \"one_liner\": \"엑손모빌 주가가 3.8% 올랐어요.\",\n   \"why_now\": \"주가가 오르면 투자자들이 돈을 벌 수 있어요.\",\n   \"details\": [\n       \"엑손모빌 주가가 3.8% 상승했어요.\",\n       \"체버론 주가도 같이 올랐어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"에너지株에 긍정적 영향을 줄 수 있어요!\",\n       \"투자자들의 기대감이 높아질 수 있어요!\"\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님",
+     "입력에 없는 숫자: [3.8]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님",
+     "details 3~5문장 아님",
+     "입력에 없는 숫자: [3.8]"
+    ]
+   }
+  ],
+  "output": {
+   "title": "ExxonMobil ( NYSE : XO",
+   "one_liner": "ExxonMobil ( NYSE : XOM ) Trading 3 . 8 % Hig",
+   "why_now": "공식 발표 내용을 정리했어요.",
+   "details": [
+    "ExxonMobil ( NYSE : XOM ) Trading 3 . 8 % Higher – Here Why",
+    "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "b0e34ac2285109b40928d23e7afba3e5de3ba4c7"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"입력에 없는 숫자: [3.8]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\", \"입력에 없는 숫자: [3.8]\"]}]}",
+  "at": "2026-07-08T00:21:57.424131+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c88e0e9224f4c05cc",
+   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "e76a31562c5cb5183",
+   "title": "1분기 D램 가격 90% 급등",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c545401b96cf0a200",
+   "title": "Is QUALCOMM , Inc . ( QCOM ) A Top AI Stock to Buy According to Billionaire Philippe Laffont ?",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c71789cc0a036a1dd",
+   "title": "Raleigh Capital Management Inc . Purchases 15 , 730 Shares of Verizon Communications Inc . $VZ",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "e583765c5649a2373",
+   "title": "코스피 사상 최고 8471 마감 (+3.26%)",
+   "category": "MARKET",
+   "shared": []
+  }
+ ]
+}
