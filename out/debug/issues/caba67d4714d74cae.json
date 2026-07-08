@@ -10,7 +10,7 @@
  "seen_sources": 2,
  "importance": 100,
  "created_at": "2026-07-04T21:17:48.837883+00:00",
- "last_update": "2026-07-08T06:46:08.588016+00:00",
+ "last_update": "2026-07-08T12:00:52.314225+00:00",
  "members": [
   {
    "id": "a47430be562a9df0368d6f03afa48660c474c5b5",
@@ -20,7 +20,17 @@
    "title": "시장상황점검회의 개최",
    "published_at": "2026-07-08T00:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9258
+   "sim_to_centroid": 0.9285
+  },
+  {
+   "id": "4e54b41b0fb430c4d3d829c57e33bc1782b010b7",
+   "source": "기획재정부",
+   "tier": "official",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078506",
+   "title": "민생안정지원단, 먹거리 물가 점검을 위해 제과제빵 및 식자재 유통급식 업체 방문",
+   "published_at": "2026-07-08T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8902
   },
   {
    "id": "65dd3fe165598a803516460b5bcbdf0824d97319",
@@ -30,7 +40,7 @@
    "title": "물가관계차관회의 개최",
    "published_at": "2026-07-02T00:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9827
+   "sim_to_centroid": 0.9801
   },
   {
    "id": "cdbc6999780d343573587f4b1827396648b3b4f6",
@@ -40,7 +50,7 @@
    "title": "물가 관계기관 간담회 개최",
    "published_at": "2026-06-25T00:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9802
+   "sim_to_centroid": 0.9784
   },
   {
    "id": "e66be357df7f7593c687f0fbddbbbc5ce5c4bf80",
@@ -50,7 +60,7 @@
    "title": "국가경쟁력 정책협의회 개최",
    "published_at": "2026-06-24T15:02:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9029
+   "sim_to_centroid": 0.9036
   },
   {
    "id": "2fd01717144aaa720fdd65824ff9465507078567",
@@ -60,7 +70,7 @@
    "title": "미국 상호관세 전면 발효…국가별 차등 세율 적용 개시",
    "published_at": "2025-08-07T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8805
+   "sim_to_centroid": 0.8815
   }
  ],
  "anchors": [],
@@ -70,6 +80,13 @@
    "title": "시장상황점검회의 개최",
    "source": "기획재정부",
    "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078504",
+   "at": "2026-07-08T00:00:00+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "민생안정지원단, 먹거리 물가 점검을 위해 제과제빵 및 식자재 유통급식 업체 방문",
+   "source": "기획재정부",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078506",
    "at": "2026-07-08T00:00:00+00:00"
   },
   {
@@ -102,50 +119,49 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-08T06:49:33.253515+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-08T12:02:15.667573+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
     "시장상황점검회의 개최",
+    "민생안정지원단, 먹거리 물가 점검을 위해 제과제빵 및 식자재 유통급식 업체 방문",
     "물가관계차관회의 개최",
     "물가 관계기관 간담회 개최",
-    "국가경쟁력 정책협의회 개최",
-    "미국 상호관세 전면 발효…국가별 차등 세율 적용 개시"
+    "국가경쟁력 정책협의회 개최"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 상호관세\",\n   \"one_liner\": \"미국이 상호관세를 전면 발효했어요.\",\n   \"why_now\": \"관세가 붙으면 물건 값이 오르는 게 보통이에요.\",\n   \"details\": [\n      \"미국이 상호관세를 전면 발효했어요.\",\n      \"국가별로 차등 세율을 적용하기 시작했어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"국제 무역이 줄어들 것으로 예상돼요!\",\n      \"물가 상승压力이 커질 수 있어요!\"\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"물가 안정 대책\",\n   \"one_liner\": \"정부가 물가 안정 대책을 논의함\",\n   \"why_now\": \"물가가 안정되면 생활이 편해져요.\",\n   \"details\": [\n      \"정부가 물가 안정을 위해 회의를 열었어요.\",\n      \"민생안정지원단이 물가 점검을 위해 업체를 방문했어요.\",\n      \"정부가 국가 경쟁력 정책을 협의했어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"물가가 안정되면 소비자들이 더 편해질 수 있어요!\",\n      \"경제가 안정되면 기업들이 더 잘할 수 있어요!\"\n   ]\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님",
-     "details 3~5문장 아님"
+     "one_liner 음슴체(함/됨/임) 아님"
     ]
    },
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 음슴체(함/됨/임) 아님",
-     "details 3~5문장 아님"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "시장상황점검회의 개최",
-   "one_liner": "시장상황점검회의 개최",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "물가 안정 대책",
+   "one_liner": "정부가 물가 안정 대책을 논의함",
+   "why_now": "물가가 안정되면 생활이 편해져요.",
    "details": [
-    "시장상황점검회의 개최",
-    "물가관계차관회의 개최",
-    "물가 관계기관 간담회 개최"
+    "정부가 물가 안정을 위해 회의를 열었어요.",
+    "민생안정지원단이 물가 점검을 위해 업체를 방문했어요.",
+    "정부가 국가 경쟁력 정책을 협의했어요."
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "물가가 안정되면 소비자들이 더 편해질 수 있어요!",
+    "경제가 안정되면 기업들이 더 잘할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "603509aafae53e23121518962d31b1f94be00125"
+  "fact_hash": "96c30f4e344f6ed88f993574ce3c42c2f35f5441"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}]}",
@@ -160,14 +176,14 @@
    "shared": []
   },
   {
-   "id": "e370bf1a63a2ea425",
-   "title": "한국 소비자물가 2026-04 발표",
+   "id": "c3fb251faf6711ace",
+   "title": "'26.5월 산업활동동향 및 평가",
    "category": "MACRO",
    "shared": []
   },
   {
-   "id": "c3fb251faf6711ace",
-   "title": "'26.5월 산업활동동향 및 평가",
+   "id": "e370bf1a63a2ea425",
+   "title": "한국 소비자물가 2026-04 발표",
    "category": "MACRO",
    "shared": []
   },
