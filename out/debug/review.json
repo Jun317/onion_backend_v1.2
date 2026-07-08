@@ -1,6 +1,73 @@
 {
- "generated_at": "2026-07-08T03:53:11.591968+00:00",
+ "generated_at": "2026-07-08T06:50:17.937361+00:00",
  "queue": [
+  {
+   "issue_id": "c1aa80f01e32a17b0",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님"
+      ]
+     },
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-08T06:50:17.531598+00:00"
+  },
+  {
+   "issue_id": "caba67d4714d74cae",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님",
+       "details 3~5문장 아님"
+      ]
+     },
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님",
+       "details 3~5문장 아님"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-08T06:49:33.253406+00:00"
+  },
+  {
+   "issue_id": "c6de7c9fb5935bf83",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님",
+       "입력에 없는 숫자: [3.0]"
+      ]
+     },
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님",
+       "입력에 없는 숫자: [3.0]"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-08T06:48:04.617502+00:00"
+  },
   {
    "issue_id": "c37ad01cf8a091a74",
    "reason": {
@@ -70,27 +137,6 @@
     ]
    },
    "at": "2026-07-08T00:21:57.424131+00:00"
-  },
-  {
-   "issue_id": "c6de7c9fb5935bf83",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "one_liner 음슴체(함/됨/임) 아님"
-      ]
-     },
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "one_liner 음슴체(함/됨/임) 아님"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-08T00:21:13.051361+00:00"
   },
   {
    "issue_id": "ca1d719d5b855f7a7",
