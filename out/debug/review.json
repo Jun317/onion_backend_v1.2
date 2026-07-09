@@ -1,6 +1,27 @@
 {
- "generated_at": "2026-07-09T08:51:16.379158+00:00",
+ "generated_at": "2026-07-09T12:21:55.399830+00:00",
  "queue": [
+  {
+   "issue_id": "c3fb251faf6711ace",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "JSON 파스 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-09T12:20:47.902174+00:00"
+  },
   {
    "issue_id": "c29662e359a9421cc",
    "reason": {
@@ -268,28 +289,6 @@
     ]
    },
    "at": "2026-07-08T00:22:41.565806+00:00"
-  },
-  {
-   "issue_id": "c3fb251faf6711ace",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "one_liner 음슴체(함/됨/임) 아님"
-      ]
-     },
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "one_liner 음슴체(함/됨/임) 아님",
-       "details 3~5문장 아님"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-07T18:26:59.296672+00:00"
   },
   {
    "issue_id": "e3c65cb22764c5ab1",

@@ -8,10 +8,30 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 2,
- "importance": 95,
+ "importance": 100,
  "created_at": "2026-07-04T21:17:48.838519+00:00",
- "last_update": "2026-07-07T18:26:10.969472+00:00",
+ "last_update": "2026-07-09T12:20:05.964454+00:00",
  "members": [
+  {
+   "id": "1d67e0f200f8506fff42880a9ca0c20677d02784",
+   "source": "기획재정부",
+   "tier": "official",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078522",
+   "title": "유로화 표시 외국환평형기금채권(외평채) 발행 결과",
+   "published_at": "2026-07-09T11:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8784
+  },
+  {
+   "id": "d6440fdce0fa60f9a18a523d4df51c31ef1277e3",
+   "source": "기획재정부",
+   "tier": "official",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078525",
+   "title": "아시아개발은행(ADB), 2026년 7월 아시아경제전망(ADO) 발표",
+   "published_at": "2026-07-09T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9066
+  },
   {
    "id": "1392fecc638dd7b56e91dcf215871ff7ad83c5da",
    "source": "기획재정부",
@@ -20,7 +40,7 @@
    "title": "(보도설명) '26년 하반기 경제성장전략 등의 구체적 내용에 대해서는 결정된 바 없습니다.",
    "published_at": "2026-07-07T00:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9132
+   "sim_to_centroid": 0.9206
   },
   {
    "id": "ec8dcea49f9bd0880f1b16cc1fc3341b9232b02f",
@@ -30,7 +50,7 @@
    "title": "'26.5월 국세수입 동향",
    "published_at": "2026-06-30T11:05:38+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9773
+   "sim_to_centroid": 0.9742
   },
   {
    "id": "ade4e9f3033f82546b02076aa52a3cb86e063711",
@@ -40,7 +60,7 @@
    "title": "'26.5월 산업활동동향 및 평가",
    "published_at": "2026-06-30T08:31:21+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9762
+   "sim_to_centroid": 0.97
   },
   {
    "id": "5acc94f1f47d053fb734af21154b34e91d3a3391",
@@ -50,11 +70,25 @@
    "title": "파월 '고용 하방 위험 커져'…연내 추가 인하 시사",
    "published_at": "2025-09-17T20:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8842
+   "sim_to_centroid": 0.8858
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "official",
+   "title": "유로화 표시 외국환평형기금채권(외평채) 발행 결과",
+   "source": "기획재정부",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078522",
+   "at": "2026-07-09T11:00:00+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "아시아개발은행(ADB), 2026년 7월 아시아경제전망(ADO) 발표",
+   "source": "기획재정부",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078525",
+   "at": "2026-07-09T00:00:00+00:00"
+  },
   {
    "kind": "official",
    "title": "(보도설명) '26년 하반기 경제성장전략 등의 구체적 내용에 대해서는 결정된 바 없습니다.",
@@ -86,19 +120,20 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-07T18:26:59.296769+00:00",
+  "created_at": "2026-07-09T12:20:47.902329+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
+    "유로화 표시 외국환평형기금채권(외평채) 발행 결과",
+    "아시아개발은행(ADB), 2026년 7월 아시아경제전망(ADO) 발표",
     "(보도설명) '26년 하반기 경제성장전략 등의 구체적 내용에 대해서는 결정된 바 없습니다.",
     "'26.5월 국세수입 동향",
-    "'26.5월 산업활동동향 및 평가",
-    "파월 '고용 하방 위험 커져'…연내 추가 인하 시사"
+    "'26.5월 산업활동동향 및 평가"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"미국 금리 인하 가능성 시사\", \"one_liner\": \"미국 연준 의장이 금리 인하 가능성을 시사했어요.\", \"why_now\": \"미국 금리가 바뀌면 한국 경제에도 영향을 줄 수 있어요.\", \"details\": [\"미국 연준 의장이 고용 시장의 하방 위험이 커졌다고 언급했어요.\", \"이는 연내 금리를 추가로 내릴 수 있다는 뜻으로 해석돼요.\"], \"visual_type\": \"none\", \"effects\": [\"미국 금리가 내리면 한국에서도 금리가 내려갈 수 있어요!\", \"국제 금융 시장 변동성이 커질 수 있어요!\"]}",
+  "raw_response": "{\"title\": \"경제 지표 발표 예정\", \"one_liner\": \"5월 산업활동동향과 국세수입 동향이 발표돼요.\", \"why_now\": \"경제 상황을 파악하는 데 중요한 지표들이 발표되는 시점이에요.\", \"details\": [\"5월 산업활동동향이 발표돼요.\", \"5월 국세수입 동향도 함께 발표돼요.\"], \"visual_type\": \"none\", \"effects\": [\"경제 성장률 전망치 변동에 영향을 줄 수 있어요!\"]}\n있어요!\"]}\n\"]}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
@@ -109,30 +144,35 @@
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님",
-     "details 3~5문장 아님"
+     "JSON 파스 실패"
     ]
    }
   ],
   "output": {
-   "title": "(보도설명) '26년 하반기 경제성장전략",
-   "one_liner": "(보도설명) '26년 하반기 경제성장전략 등의 구체적 내용에 대해서는 결정된 바 ",
+   "title": "유로화 표시 외국환평형기금채권(외평채) ",
+   "one_liner": "유로화 표시 외국환평형기금채권(외평채) 발행 결과",
    "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
-    "(보도설명) '26년 하반기 경제성장전략 등의 구체적 내용에 대해서는 결정된 바 없습니다.",
-    "'26.5월 국세수입 동향",
-    "'26.5월 산업활동동향 및 평가"
+    "유로화 표시 외국환평형기금채권(외평채) 발행 결과",
+    "아시아개발은행(ADB), 2026년 7월 아시아경제전망(ADO) 발표",
+    "(보도설명) '26년 하반기 경제성장전략 등의 구체적 내용에 대해서는 결정된 바 없습니다."
    ],
    "effects": [],
    "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "64175b2b5915f662d3592ff747f73c5a020018c5"
+  "fact_hash": "0a8d2b35ea9d77810b3fc2df171cc26abd42a2cb"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}]}",
-  "at": "2026-07-07T18:26:59.296672+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"JSON 파스 실패\"]}]}",
+  "at": "2026-07-09T12:20:47.902174+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "채권",
+   "easy": "돈을 빌리면서 '언제까지 갚겠다'고 써주는 증서예요.",
+   "example": "정부나 기업이 돈을 모을 때 발행해요."
+  }
+ ],
  "related": [
   {
    "id": "c48db748fde00c8f7",
