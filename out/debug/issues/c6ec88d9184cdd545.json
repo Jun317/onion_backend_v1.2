@@ -1,0 +1,134 @@
+{
+ "id": "c6ec88d9184cdd545",
+ "title": "Insider Selling : Starbucks ( NASDAQ : SBUX ) CEO Sells $231 , 816 . 00 in Stock",
+ "category": "MARKET",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "SBUX"
+ ],
+ "seen_sources": 2,
+ "importance": 90,
+ "created_at": "2026-07-09T01:07:50.843067+00:00",
+ "last_update": "2026-07-09T01:07:50.843583+00:00",
+ "members": [
+  {
+   "id": "c578e90335dc4bf012128317a3bcd65b7adf7944",
+   "source": "tickerreport.com",
+   "tier": "wire",
+   "url": "https://www.tickerreport.com/banking-finance/13498328/insider-selling-starbucks-nasdaqsbux-ceo-sells-231816-00-in-stock.html",
+   "title": "Insider Selling : Starbucks ( NASDAQ : SBUX ) CEO Sells $231 , 816 . 00 in Stock",
+   "published_at": "2026-07-08T23:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9837
+  },
+  {
+   "id": "9593cf7be915c4c8474c10a773ebe5bcc3fc4479",
+   "source": "dailypolitical.com",
+   "tier": "wire",
+   "url": "https://www.dailypolitical.com/2026/07/08/starbucks-nasdaqsbux-ceo-brady-brewer-sells-2229-shares.html",
+   "title": "Starbucks ( NASDAQ : SBUX ) CEO Brady Brewer Sells 2 , 229 Shares",
+   "published_at": "2026-07-08T23:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9837
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Insider Selling : Starbucks ( NASDAQ : SBUX ) CEO Sells $231 , 816 . 00 in Stock",
+   "source": "tickerreport.com",
+   "url": "https://www.tickerreport.com/banking-finance/13498328/insider-selling-starbucks-nasdaqsbux-ceo-sells-231816-00-in-stock.html",
+   "at": "2026-07-08T23:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Starbucks ( NASDAQ : SBUX ) CEO Brady Brewer Sells 2 , 229 Shares",
+   "source": "dailypolitical.com",
+   "url": "https://www.dailypolitical.com/2026/07/08/starbucks-nasdaqsbux-ceo-brady-brewer-sells-2229-shares.html",
+   "at": "2026-07-08T23:45:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-09T01:10:31.288624+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Insider Selling : Starbucks ( NASDAQ : SBUX ) CEO Sells $231 , 816 . 00 in Stock",
+    "Starbucks ( NASDAQ : SBUX ) CEO Brady Brewer Sells 2 , 229 Shares"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"스타벅스 최고경영자 주식 매도\",\n   \"one_liner\": \"스타벅스 최고경영자가 2,229주를 매도했어요.\",\n   \"why_now\": \"최고경영자의 주식 매도는 회사에 대한 신뢰를 나타내는 지표예요.\",\n   \"details\": [\n      \"스타벅스 최고경영자는 2,229주를 매도했어요.\",\n      \"매도 금액은 231,816.00 달러예요.\",\n      \"최고경영자의 이름은 브래디 브루어예요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"회사에 대한 투자자 신뢰가 떨어질 수 있어요!\",\n      \"주가에 영향을 줄 수 있어요!\"\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님",
+     "입력에 없는 숫자: [2229.0, 231816.0]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님",
+     "입력에 없는 숫자: [2229.0, 231816.0]"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Insider Selling : Star",
+   "one_liner": "Insider Selling : Starbucks ( NASDAQ : SBUX )",
+   "why_now": "공식 발표 내용을 정리했어요.",
+   "details": [
+    "Insider Selling : Starbucks ( NASDAQ : SBUX ) CEO Sells $231 , 816 . 00 in Stock",
+    "Starbucks ( NASDAQ : SBUX ) CEO Brady Brewer Sells 2 , 229 Shares"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "0b63e0e5e434b7d18dd938d553362bcec30e12fd"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"입력에 없는 숫자: [2229.0, 231816.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"입력에 없는 숫자: [2229.0, 231816.0]\"]}]}",
+  "at": "2026-07-09T01:10:31.288525+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c88e0e9224f4c05cc",
+   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cb0fdfed500e16b9a",
+   "title": "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "e76a31562c5cb5183",
+   "title": "1분기 D램 가격 90% 급등",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c545401b96cf0a200",
+   "title": "Is QUALCOMM , Inc . ( QCOM ) A Top AI Stock to Buy According to Billionaire Philippe Laffont ?",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c71789cc0a036a1dd",
+   "title": "Raleigh Capital Management Inc . Purchases 15 , 730 Shares of Verizon Communications Inc . $VZ",
+   "category": "MARKET",
+   "shared": []
+  }
+ ]
+}
