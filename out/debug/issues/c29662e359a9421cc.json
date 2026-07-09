@@ -2,19 +2,29 @@
  "id": "c29662e359a9421cc",
  "title": "S & P 500 , Nasdaq close sharply higher as Broadcom rallies",
  "category": "MARKET",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "AAPL",
   "AVGO"
  ],
- "seen_sources": 1,
- "importance": 85,
+ "seen_sources": 4,
+ "importance": 100,
  "created_at": "2026-07-09T05:14:42.813249+00:00",
- "last_update": "2026-07-09T05:14:42.813249+00:00",
+ "last_update": "2026-07-09T08:51:10.295098+00:00",
  "members": [
+  {
+   "id": "d3360a4741824017fd2796d76e5cf5062bcc0f57",
+   "source": "indianexpress.com",
+   "tier": "wire",
+   "url": "https://indianexpress.com/shorts/technology/artificial-intelligence/apple-broadcom-30-billion-chip-deal-us-manufacturing-10778212/",
+   "title": "Apple inks over $30 billion Broadcom deal to make billions of US - made chips",
+   "published_at": "2026-07-09T04:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9697
+  },
   {
    "id": "f3cda83f9e7e1f3372bc18affce470411926e0cd",
    "source": "indianexpress.com",
@@ -23,7 +33,17 @@
    "title": "Apple inks over $30 billion Broadcom deal to make billions of US - made chips",
    "published_at": "2026-07-09T04:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9567
+   "sim_to_centroid": 0.9697
+  },
+  {
+   "id": "7a248e13141c0ccab393b0323879cbb1eb0f96fa",
+   "source": "shacknews.com",
+   "tier": "wire",
+   "url": "https://www.shacknews.com/article/149934/apple-aapl-30-billion-broadcom-deal",
+   "title": "Apple ( AAPL ) announces new $30 billion deal with Broadcom ( AVGO ) to build more U . S . chips",
+   "published_at": "2026-07-08T19:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9275
   },
   {
    "id": "01242cae4a28e8727e85740fb12ddbf900ca21ac",
@@ -33,7 +53,17 @@
    "title": "S & P 500 , Nasdaq close sharply higher as Broadcom rallies",
    "published_at": "2026-07-06T20:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9567
+   "sim_to_centroid": 0.9371
+  },
+  {
+   "id": "a8d8f3dd245b4ebe7ef3b65adb7642d66461653d",
+   "source": "macdailynews.com",
+   "tier": "wire",
+   "url": "https://macdailynews.com/2026/07/06/apple-could-have-purchased-any-of-487-sp-500-companies-but-ceo-tim-cook-chose-853-billion-in-buybacks-instead/",
+   "title": "Apple could have purchased any of 487 S & P 500 companies , but CEO Tim Cook chose $853 billion in buybacks instead",
+   "published_at": "2026-07-06T20:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8667
   }
  ],
  "anchors": [],
@@ -47,14 +77,83 @@
   },
   {
    "kind": "headline",
+   "title": "Apple inks over $30 billion Broadcom deal to make billions of US - made chips",
+   "source": "indianexpress.com",
+   "url": "https://indianexpress.com/shorts/technology/artificial-intelligence/apple-broadcom-30-billion-chip-deal-us-manufacturing-10778212/",
+   "at": "2026-07-09T04:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Apple ( AAPL ) announces new $30 billion deal with Broadcom ( AVGO ) to build more U . S . chips",
+   "source": "shacknews.com",
+   "url": "https://www.shacknews.com/article/149934/apple-aapl-30-billion-broadcom-deal",
+   "at": "2026-07-08T19:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "S & P 500 , Nasdaq close sharply higher as Broadcom rallies",
    "source": "finance.yahoo.com",
    "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-chip-shares-101116841.html",
    "at": "2026-07-06T20:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Apple could have purchased any of 487 S & P 500 companies , but CEO Tim Cook chose $853 billion in buybacks instead",
+   "source": "macdailynews.com",
+   "url": "https://macdailynews.com/2026/07/06/apple-could-have-purchased-any-of-487-sp-500-companies-but-ceo-tim-cook-chose-853-billion-in-buybacks-instead/",
+   "at": "2026-07-06T20:30:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-09T08:51:13.567655+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Apple inks over $30 billion Broadcom deal to make billions of US - made chips",
+    "Apple ( AAPL ) announces new $30 billion deal with Broadcom ( AVGO ) to build more U . S . chips",
+    "S & P 500 , Nasdaq close sharply higher as Broadcom rallies",
+    "Apple could have purchased any of 487 S & P 500 companies , but CEO Tim Cook chose $853 billion in buybacks instead"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"애플, 브로드컴과 300억 달러 규모 계약\", \"one_liner\": \"애플이 브로드컴과 300억 달러 규모의 계약을 맺음\", \"why_now\": \"미국에서 칩을 더 많이 만들기로 한 결정은 경제에 영향을 줄 수 있어요.\", \"details\": [\"애플은 브로드컴과 300억 달러 이상 규모의 계약을 체결했어요.\", \"이 계약을 통해 미국에서 사용할 칩을 만들 예정이에요.\"], \"visual_type\": \"none\", \"effects\": [\"미국 내 칩 생산이 늘어날 수 있어요!\", \"관련 기업들의 주가에 영향을 줄 수 있어요!\"]}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "title 22자 초과(23)",
+     "입력에 없는 숫자: [300.0, 8530.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "title 22자 초과(23)",
+     "details 3~5문장 아님",
+     "입력에 없는 숫자: [300.0]"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Apple inks over $30 bi",
+   "one_liner": "Apple inks over $30 billion Broadcom deal to ",
+   "why_now": "공식 발표 내용을 정리했어요.",
+   "details": [
+    "Apple inks over $30 billion Broadcom deal to make billions of US - made chips",
+    "Apple ( AAPL ) announces new $30 billion deal with Broadcom ( AVGO ) to build more U . S . chips",
+    "S & P 500 , Nasdaq close sharply higher as Broadcom rallies"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "82b0b52ff88593a94ce9384dfa089cb83c62cf38"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(23)\", \"입력에 없는 숫자: [300.0, 8530.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(23)\", \"details 3~5문장 아님\", \"입력에 없는 숫자: [300.0]\"]}]}",
+  "at": "2026-07-09T08:51:13.567489+00:00"
+ },
  "glossary": [],
  "related": [
   {

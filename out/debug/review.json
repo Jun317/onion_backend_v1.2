@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-07-09T05:16:51.031360+00:00",
+ "generated_at": "2026-07-09T08:51:16.379158+00:00",
  "queue": [
+  {
+   "issue_id": "c29662e359a9421cc",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "title 22자 초과(23)",
+       "입력에 없는 숫자: [300.0, 8530.0]"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "title 22자 초과(23)",
+       "details 3~5문장 아님",
+       "입력에 없는 숫자: [300.0]"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-09T08:51:13.567489+00:00"
+  },
   {
    "issue_id": "cdbb797962c9a092e",
    "reason": {
