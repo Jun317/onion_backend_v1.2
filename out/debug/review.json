@@ -1,6 +1,70 @@
 {
- "generated_at": "2026-07-09T01:10:34.111465+00:00",
+ "generated_at": "2026-07-09T05:16:51.031360+00:00",
  "queue": [
+  {
+   "issue_id": "cdbb797962c9a092e",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님"
+      ]
+     },
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-09T05:16:28.505178+00:00"
+  },
+  {
+   "issue_id": "c6de7c9fb5935bf83",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-09T05:15:22.187455+00:00"
+  },
+  {
+   "issue_id": "ca047e091cbb5946c",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님",
+       "details 3~5문장 아님"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-09T05:14:49.698900+00:00"
+  },
   {
    "issue_id": "c6ec88d9184cdd545",
    "reason": {
@@ -25,28 +89,6 @@
    "at": "2026-07-09T01:10:31.288525+00:00"
   },
   {
-   "issue_id": "c6de7c9fb5935bf83",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "one_liner 음슴체(함/됨/임) 아님"
-      ]
-     },
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "one_liner 음슴체(함/됨/임) 아님",
-       "입력에 없는 숫자: [1.5]"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-09T01:09:02.710228+00:00"
-  },
-  {
    "issue_id": "ca1d719d5b855f7a7",
    "reason": {
     "summary": "LLM 검증 실패 → 템플릿 폴백",
@@ -66,29 +108,6 @@
     ]
    },
    "at": "2026-07-09T01:08:18.185829+00:00"
-  },
-  {
-   "issue_id": "ca047e091cbb5946c",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "one_liner 음슴체(함/됨/임) 아님",
-       "details 3~5문장 아님"
-      ]
-     },
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "one_liner 음슴체(함/됨/임) 아님",
-       "details 3~5문장 아님"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-09T01:07:53.791616+00:00"
   },
   {
    "issue_id": "cb0fdfed500e16b9a",
@@ -225,30 +244,6 @@
     ]
    },
    "at": "2026-07-08T00:22:41.565806+00:00"
-  },
-  {
-   "issue_id": "cdbb797962c9a092e",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "details[0] 어요체 아님",
-       "details[1] 어요체 아님",
-       "details[2] 어요체 아님",
-       "입력에 없는 숫자: [3.0]"
-      ]
-     },
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "details 3~5문장 아님"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-07T22:37:19.161159+00:00"
   },
   {
    "issue_id": "c3fb251faf6711ace",

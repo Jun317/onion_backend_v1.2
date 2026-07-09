@@ -2,18 +2,28 @@
  "id": "c4dcd140d8a86ccd9",
  "title": "Amazon Stock Is Historically Cheap . Now Is Your Perfect Buying Opportunity",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "AMZN"
  ],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 2,
+ "importance": 75,
  "created_at": "2026-07-08T00:19:07.471383+00:00",
- "last_update": "2026-07-08T00:19:07.471383+00:00",
+ "last_update": "2026-07-09T05:14:42.813794+00:00",
  "members": [
+  {
+   "id": "fc8c44185ab4c43cbba130b11188d84ca9cd7a83",
+   "source": "thisdaylive.com",
+   "tier": "wire",
+   "url": "https://www.thisdaylive.com/2026/07/09/emem-usoro-the-quiet-banking-amazon-at-nigerias-central-bank/",
+   "title": "Emem Usoro : The Quiet Banking Amazon at Nigeria Central Bank – THISDAYLIVE",
+   "published_at": "2026-07-09T04:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8535
+  },
   {
    "id": "a060fba3037af4b848c91d5971954dbdb2e58a8c",
    "source": "finance.yahoo.com",
@@ -22,7 +32,7 @@
    "title": "Amazon Stock Is Historically Cheap . Now Is Your Perfect Buying Opportunity",
    "published_at": "2026-07-07T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9983
   },
   {
    "id": "14ba2e1eef45ce511f73dbb7a2134a942c1eccf3",
@@ -32,11 +42,18 @@
    "title": "Amazon Stock Is Historically Cheap . Now Is Your Perfect Buying Opportunity",
    "published_at": "2026-07-07T22:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9983
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Emem Usoro : The Quiet Banking Amazon at Nigeria Central Bank – THISDAYLIVE",
+   "source": "thisdaylive.com",
+   "url": "https://www.thisdaylive.com/2026/07/09/emem-usoro-the-quiet-banking-amazon-at-nigerias-central-bank/",
+   "at": "2026-07-09T04:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Amazon Stock Is Historically Cheap . Now Is Your Perfect Buying Opportunity",
@@ -52,7 +69,42 @@
    "at": "2026-07-07T22:00:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-09T05:16:50.542744+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Emem Usoro : The Quiet Banking Amazon at Nigeria Central Bank – THISDAYLIVE",
+    "Amazon Stock Is Historically Cheap . Now Is Your Perfect Buying Opportunity"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"아마존 주가\",\n   \"one_liner\": \"아마존 주가가 역사적으로 저렴하다고 평가됨\",\n   \"why_now\": \"저렴한 주가는 투자 기회를 제공할 수 있어요.\",\n   \"details\": [\n       \"아마존 주가가 역사적으로 저렴하다고 평가되고 있어요.\",\n       \"이러한 상황은 투자자들에게 기회를 제공할 수 있어요.\",\n       \"아마존의 금융 실적이 주가에 영향을 줄 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"투자자들에게 매수 기회를 제공할 수 있어요!\",\n       \"아마존의 주가가 상승할 가능성이 있을 수 있어요!\"\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "아마존 주가",
+   "one_liner": "아마존 주가가 역사적으로 저렴하다고 평가됨",
+   "why_now": "저렴한 주가는 투자 기회를 제공할 수 있어요.",
+   "details": [
+    "아마존 주가가 역사적으로 저렴하다고 평가되고 있어요.",
+    "이러한 상황은 투자자들에게 기회를 제공할 수 있어요.",
+    "아마존의 금융 실적이 주가에 영향을 줄 수 있어요."
+   ],
+   "effects": [
+    "투자자들에게 매수 기회를 제공할 수 있어요!",
+    "아마존의 주가가 상승할 가능성이 있을 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "56ca9b41a2875c69addfdc84c6789847de9ea70f"
+ },
  "review": null,
  "glossary": [],
  "related": [
