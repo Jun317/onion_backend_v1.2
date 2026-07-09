@@ -10,8 +10,18 @@
  "seen_sources": 2,
  "importance": 100,
  "created_at": "2026-07-04T21:17:48.838519+00:00",
- "last_update": "2026-07-09T12:20:05.964454+00:00",
+ "last_update": "2026-07-09T23:42:39.034018+00:00",
  "members": [
+  {
+   "id": "5c42741a29b4c7ecf5c9332aa18998a4547aba89",
+   "source": "기획재정부",
+   "tier": "official",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078523",
+   "title": "유럽산 PVC 페이스트 수지에 덤핑방지관세가 부과된다",
+   "published_at": "2026-07-10T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8908
+  },
   {
    "id": "1d67e0f200f8506fff42880a9ca0c20677d02784",
    "source": "기획재정부",
@@ -20,7 +30,7 @@
    "title": "유로화 표시 외국환평형기금채권(외평채) 발행 결과",
    "published_at": "2026-07-09T11:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8784
+   "sim_to_centroid": 0.8841
   },
   {
    "id": "d6440fdce0fa60f9a18a523d4df51c31ef1277e3",
@@ -30,7 +40,7 @@
    "title": "아시아개발은행(ADB), 2026년 7월 아시아경제전망(ADO) 발표",
    "published_at": "2026-07-09T00:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9066
+   "sim_to_centroid": 0.9074
   },
   {
    "id": "1392fecc638dd7b56e91dcf215871ff7ad83c5da",
@@ -40,7 +50,7 @@
    "title": "(보도설명) '26년 하반기 경제성장전략 등의 구체적 내용에 대해서는 결정된 바 없습니다.",
    "published_at": "2026-07-07T00:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9206
+   "sim_to_centroid": 0.9191
   },
   {
    "id": "ec8dcea49f9bd0880f1b16cc1fc3341b9232b02f",
@@ -50,7 +60,7 @@
    "title": "'26.5월 국세수입 동향",
    "published_at": "2026-06-30T11:05:38+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9742
+   "sim_to_centroid": 0.9728
   },
   {
    "id": "ade4e9f3033f82546b02076aa52a3cb86e063711",
@@ -60,7 +70,7 @@
    "title": "'26.5월 산업활동동향 및 평가",
    "published_at": "2026-06-30T08:31:21+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.97
+   "sim_to_centroid": 0.9655
   },
   {
    "id": "5acc94f1f47d053fb734af21154b34e91d3a3391",
@@ -70,11 +80,18 @@
    "title": "파월 '고용 하방 위험 커져'…연내 추가 인하 시사",
    "published_at": "2025-09-17T20:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8858
+   "sim_to_centroid": 0.8897
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "official",
+   "title": "유럽산 PVC 페이스트 수지에 덤핑방지관세가 부과된다",
+   "source": "기획재정부",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000078523",
+   "at": "2026-07-10T00:00:00+00:00"
+  },
   {
    "kind": "official",
    "title": "유로화 표시 외국환평형기금채권(외평채) 발행 결과",
@@ -119,48 +136,49 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-09T12:20:47.902329+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-09T23:45:20.492445+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
+    "유럽산 PVC 페이스트 수지에 덤핑방지관세가 부과된다",
     "유로화 표시 외국환평형기금채권(외평채) 발행 결과",
     "아시아개발은행(ADB), 2026년 7월 아시아경제전망(ADO) 발표",
     "(보도설명) '26년 하반기 경제성장전략 등의 구체적 내용에 대해서는 결정된 바 없습니다.",
-    "'26.5월 국세수입 동향",
-    "'26.5월 산업활동동향 및 평가"
+    "'26.5월 국세수입 동향"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"경제 지표 발표 예정\", \"one_liner\": \"5월 산업활동동향과 국세수입 동향이 발표돼요.\", \"why_now\": \"경제 상황을 파악하는 데 중요한 지표들이 발표되는 시점이에요.\", \"details\": [\"5월 산업활동동향이 발표돼요.\", \"5월 국세수입 동향도 함께 발표돼요.\"], \"visual_type\": \"none\", \"effects\": [\"경제 성장률 전망치 변동에 영향을 줄 수 있어요!\"]}\n있어요!\"]}\n\"]}",
+  "raw_response": "{\n  \"title\": \"유럽산 PVC 수지 관세\",\n   \"one_liner\": \"유럽산 PVC 페이스트 수지에 덤핑방지관세가 부과됨\",\n   \"why_now\": \"수입품에 관세가 부과되면 국내 산업을 보호할 수 있어요.\",\n   \"details\": [\n       \"유럽산 PVC 페이스트 수지에 덤핑방지관세가 부과돼요.\",\n       \"이로 인해 관련 산업에 영향이 있을 수 있어요.\",\n       \"수입품 가격이 올라 국내 산업에 도움이 될 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"국내 PVC 산업이 보호받을 수 있어요!\",\n       \"수입품 가격이 올라 소비자 부담이 늘 수 있어요!\"\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님"
+     "details[0] 어요체 아님"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "JSON 파스 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "유로화 표시 외국환평형기금채권(외평채) ",
-   "one_liner": "유로화 표시 외국환평형기금채권(외평채) 발행 결과",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "유럽산 PVC 수지 관세",
+   "one_liner": "유럽산 PVC 페이스트 수지에 덤핑방지관세가 부과됨",
+   "why_now": "수입품에 관세가 부과되면 국내 산업을 보호할 수 있어요.",
    "details": [
-    "유로화 표시 외국환평형기금채권(외평채) 발행 결과",
-    "아시아개발은행(ADB), 2026년 7월 아시아경제전망(ADO) 발표",
-    "(보도설명) '26년 하반기 경제성장전략 등의 구체적 내용에 대해서는 결정된 바 없습니다."
+    "유럽산 PVC 페이스트 수지에 덤핑방지관세가 부과돼요.",
+    "이로 인해 관련 산업에 영향이 있을 수 있어요.",
+    "수입품 가격이 올라 국내 산업에 도움이 될 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "국내 PVC 산업이 보호받을 수 있어요!",
+    "수입품 가격이 올라 소비자 부담이 늘 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "0a8d2b35ea9d77810b3fc2df171cc26abd42a2cb"
+  "fact_hash": "414fb69f0453a9d11ac956d9bda253eb1a8b00f6"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"JSON 파스 실패\"]}]}",
@@ -168,9 +186,9 @@
  },
  "glossary": [
   {
-   "term": "채권",
-   "easy": "돈을 빌리면서 '언제까지 갚겠다'고 써주는 증서예요.",
-   "example": "정부나 기업이 돈을 모을 때 발행해요."
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
   }
  ],
  "related": [
