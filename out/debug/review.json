@@ -1,6 +1,27 @@
 {
- "generated_at": "2026-07-10T04:30:31.953603+00:00",
+ "generated_at": "2026-07-10T08:47:14.356751+00:00",
  "queue": [
+  {
+   "issue_id": "c1aa80f01e32a17b0",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "details 3~5문장 아님"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "details 3~5문장 아님"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-10T08:47:14.233941+00:00"
+  },
   {
    "issue_id": "c29662e359a9421cc",
    "reason": {
@@ -224,27 +245,6 @@
     ]
    },
    "at": "2026-07-08T16:57:20.448139+00:00"
-  },
-  {
-   "issue_id": "c1aa80f01e32a17b0",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "one_liner 음슴체(함/됨/임) 아님"
-      ]
-     },
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "one_liner 음슴체(함/됨/임) 아님"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-08T06:50:17.531598+00:00"
   },
   {
    "issue_id": "caba67d4714d74cae",
