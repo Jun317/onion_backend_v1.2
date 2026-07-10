@@ -10,10 +10,10 @@
   "KRX:000660",
   "KRX:034730"
  ],
- "seen_sources": 2,
- "importance": 90,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-07-10T17:14:55.425301+00:00",
- "last_update": "2026-07-10T17:14:55.425969+00:00",
+ "last_update": "2026-07-10T18:54:03.294721+00:00",
  "members": [
   {
    "id": "f60986a04e49d446e7b93caeeba910a08255d3a9",
@@ -23,7 +23,17 @@
    "title": "SK Hynix hits the U . S . stock market as demand for memory chips soars amid AI frenzy",
    "published_at": "2026-07-10T14:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.989
+   "sim_to_centroid": 0.9903
+  },
+  {
+   "id": "ba04c56d38e29e1942339794f399edb0de5094be",
+   "source": "thereporteronline.com",
+   "tier": "wire",
+   "url": "https://www.thereporteronline.com/2026/07/10/sk-hynix-stock-market-chips-ai/",
+   "title": "SK Hynix hits US stock market as demand for memory chips soars with AI",
+   "published_at": "2026-07-10T14:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9694
   },
   {
    "id": "471e4d4475919d183133965d656cc7baf687c04a",
@@ -33,7 +43,7 @@
    "title": "SK Hynix prices U . S . listing as AI chip demand surges",
    "published_at": "2026-07-10T09:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.989
+   "sim_to_centroid": 0.9871
   }
  ],
  "anchors": [],
@@ -47,6 +57,13 @@
   },
   {
    "kind": "headline",
+   "title": "SK Hynix hits US stock market as demand for memory chips soars with AI",
+   "source": "thereporteronline.com",
+   "url": "https://www.thereporteronline.com/2026/07/10/sk-hynix-stock-market-chips-ai/",
+   "at": "2026-07-10T14:45:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "SK Hynix prices U . S . listing as AI chip demand surges",
    "source": "greekherald.com",
    "url": "http://www.greekherald.com/news/279177720/sk-hynix-prices-u-s-listing-as-ai-chip-demand-surges",
@@ -55,27 +72,27 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-10T17:16:58.918707+00:00",
+  "created_at": "2026-07-10T18:54:05.477907+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "SK Hynix hits the U . S . stock market as demand for memory chips soars amid AI frenzy",
+    "SK Hynix hits US stock market as demand for memory chips soars with AI",
     "SK Hynix prices U . S . listing as AI chip demand surges"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"SK하이닉스 미국 상장\",\n   \"one_liner\": \"SK하이닉스가 미국 주식시장에 상장했어요\",\n   \"why_now\": \"인공지능 관련 메모리 칩 수요가 많아지면서 중요해요\",\n   \"details\": [\n      \"SK하이닉스가 미국에 상장했어요\",\n      \"인공지능 칩 수요가 많아지면서 메모리 칩 수요가 증가했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"메모리 칩 수요가 더 증가할 것으로 예상돼요!\",\n      \"한국 기업의 글로벌 경쟁력이 높아질 수 있어요!\"\n   ]\n}",
+  "raw_response": "{\"title\": \"SK하이닉스 미국 상장\", \"one_liner\": \"SK하이닉스가 미국 주식 시장에 상장했어요.\", \"why_now\": \"인공지능(AI) 관련 반도체 수요가 크게 늘면서 SK하이닉스의 미국 상장이 주목받고 있어요.\", \"details\": [\"SK하이닉스가 미국 주식 시장에 상장했어요.\", \"AI 반도체 수요가 급증하는 가운데 이루어졌어요.\"], \"visual_type\": \"none\", \"effects\": [\"AI 반도체 관련 기업들의 주가에 긍정적인 영향을 줄 수 있어요!\"]}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님",
-     "details 3~5문장 아님"
+     "one_liner 음슴체(함/됨/임) 아님"
     ]
    },
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
      "one_liner 음슴체(함/됨/임) 아님",
      "details 3~5문장 아님"
@@ -88,16 +105,17 @@
    "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
     "SK Hynix hits the U . S . stock market as demand for memory chips soars amid AI frenzy",
+    "SK Hynix hits US stock market as demand for memory chips soars with AI",
     "SK Hynix prices U . S . listing as AI chip demand surges"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "f68c8f747063831c376803b1f53b9efb5599ff0d"
+  "fact_hash": "54233d0d10e02f845627b0f35864b72c9f575dbf"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}]}",
-  "at": "2026-07-10T17:16:58.918607+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}]}",
+  "at": "2026-07-10T18:54:05.477763+00:00"
  },
  "glossary": [],
  "related": [
