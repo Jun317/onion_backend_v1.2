@@ -1,9 +1,46 @@
 {
- "generated_at": "2026-07-10T18:54:07.947010+00:00",
+ "generated_at": "2026-07-10T20:47:44.731982+00:00",
  "run_history": [
   {
    "kind": "pipeline",
-   "at": "2026-07-10T18:54:07.947001+00:00",
+   "at": "2026-07-10T20:47:44.731967+00:00",
+   "ok": true,
+   "stats": {
+    "raw_loaded": 266,
+    "inserted": 0,
+    "near_dups": 0,
+    "express": 0,
+    "embedded": 0,
+    "express_centroids": 0,
+    "assign": {
+     "joined": 0,
+     "held": 0,
+     "pooled": 7
+    },
+    "seeded": 0,
+    "promoted": 0,
+    "classified": 0,
+    "merged": 0,
+    "lifecycle": {
+     "stale": 0,
+     "archived": 0
+    },
+    "importance": 59,
+    "llm": {
+     "generated": 0,
+     "cached": 35,
+     "template": 0,
+     "deferred": 0
+    },
+    "export": {
+     "issues": 35,
+     "removed": 0
+    }
+   }
+  },
+  {
+   "kind": "pipeline",
+   "at": "2026-07-10T18:54:08.040896+00:00",
    "ok": true,
    "stats": {
     "raw_loaded": 266,
@@ -35,8 +72,15 @@
     "export": {
      "issues": 35,
      "removed": 0
-    }
-   }
+    },
+    "export_debug": {
+     "issues": 70,
+     "removed": 0,
+     "reviews": 23
+    },
+    "pruned": 0
+   },
+   "error": ""
   },
   {
    "kind": "pipeline",
@@ -859,50 +903,6 @@
      "generated": 2,
      "cached": 25,
      "template": 3,
-     "deferred": 0
-    },
-    "export": {
-     "issues": 30,
-     "removed": 0
-    },
-    "export_debug": {
-     "issues": 64,
-     "removed": 0,
-     "reviews": 19
-    },
-    "pruned": 0
-   },
-   "error": ""
-  },
-  {
-   "kind": "pipeline",
-   "at": "2026-07-08T12:02:25.425886+00:00",
-   "ok": true,
-   "stats": {
-    "raw_loaded": 458,
-    "inserted": 1,
-    "near_dups": 0,
-    "express": 0,
-    "embedded": 1,
-    "express_centroids": 0,
-    "assign": {
-     "joined": 1,
-     "held": 0,
-     "pooled": 15
-    },
-    "seeded": 0,
-    "promoted": 0,
-    "classified": 0,
-    "merged": 0,
-    "lifecycle": {
-     "stale": 8,
-     "archived": 0
-    },
-    "importance": 54,
-    "llm": {
-     "generated": 1,
-     "cached": 29,
-     "template": 0,
      "deferred": 0
     },
     "export": {
