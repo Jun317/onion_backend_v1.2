@@ -10,10 +10,20 @@
   "AMZN"
  ],
  "seen_sources": 2,
- "importance": 70,
+ "importance": 75,
  "created_at": "2026-07-08T00:19:07.471383+00:00",
- "last_update": "2026-07-09T05:14:42.813794+00:00",
+ "last_update": "2026-07-10T12:12:12.474860+00:00",
  "members": [
+  {
+   "id": "fd7a3df989af0ddfe4088f60e56f76717fc95c51",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-top-ai-220003592.html",
+   "title": "Amazon . com ( AMZN ) A Top AI Stock on Wall Street Radar Pursuing Broadband Service Opportunities",
+   "published_at": "2026-07-10T09:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9045
+  },
   {
    "id": "fc8c44185ab4c43cbba130b11188d84ca9cd7a83",
    "source": "thisdaylive.com",
@@ -22,7 +32,7 @@
    "title": "Emem Usoro : The Quiet Banking Amazon at Nigeria Central Bank – THISDAYLIVE",
    "published_at": "2026-07-09T04:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8535
+   "sim_to_centroid": 0.8597
   },
   {
    "id": "a060fba3037af4b848c91d5971954dbdb2e58a8c",
@@ -32,7 +42,7 @@
    "title": "Amazon Stock Is Historically Cheap . Now Is Your Perfect Buying Opportunity",
    "published_at": "2026-07-07T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9983
+   "sim_to_centroid": 0.9965
   },
   {
    "id": "14ba2e1eef45ce511f73dbb7a2134a942c1eccf3",
@@ -42,11 +52,18 @@
    "title": "Amazon Stock Is Historically Cheap . Now Is Your Perfect Buying Opportunity",
    "published_at": "2026-07-07T22:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9983
+   "sim_to_centroid": 0.9965
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Amazon . com ( AMZN ) A Top AI Stock on Wall Street Radar Pursuing Broadband Service Opportunities",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-top-ai-220003592.html",
+   "at": "2026-07-10T09:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Emem Usoro : The Quiet Banking Amazon at Nigeria Central Bank – THISDAYLIVE",
@@ -70,40 +87,41 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-09T05:16:50.542744+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-10T12:13:15.539414+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Amazon . com ( AMZN ) A Top AI Stock on Wall Street Radar Pursuing Broadband Service Opportunities",
     "Emem Usoro : The Quiet Banking Amazon at Nigeria Central Bank – THISDAYLIVE",
     "Amazon Stock Is Historically Cheap . Now Is Your Perfect Buying Opportunity"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"아마존 주가\",\n   \"one_liner\": \"아마존 주가가 역사적으로 저렴하다고 평가됨\",\n   \"why_now\": \"저렴한 주가는 투자 기회를 제공할 수 있어요.\",\n   \"details\": [\n       \"아마존 주가가 역사적으로 저렴하다고 평가되고 있어요.\",\n       \"이러한 상황은 투자자들에게 기회를 제공할 수 있어요.\",\n       \"아마존의 금융 실적이 주가에 영향을 줄 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"투자자들에게 매수 기회를 제공할 수 있어요!\",\n       \"아마존의 주가가 상승할 가능성이 있을 수 있어요!\"\n   ]\n}",
+  "raw_response": "{\"title\": \"아마존, AI 관련주 부상\", \"one_liner\": \"아마존이 AI 관련주로 주목받으며 주가 상승 기회를 잡음\", \"why_now\": \"AI 기술 발전으로 관련 기업들의 성장 가능성이 커지고 있기 때문이에요.\", \"details\": [\"아마존이 AI 관련주로 월스트리트의 주목을 받고 있어요.\", \"특히 초고속 인터넷 서비스 사업 기회를 노리고 있어요.\", \"일부에서는 현재 아마존 주가가 저렴하다고 평가하고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"AI 기술 발전 수혜를 받을 수 있어요!\", \"주가 상승 가능성이 점쳐지고 있어요!\"]}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": []
    }
   ],
   "output": {
-   "title": "아마존 주가",
-   "one_liner": "아마존 주가가 역사적으로 저렴하다고 평가됨",
-   "why_now": "저렴한 주가는 투자 기회를 제공할 수 있어요.",
+   "title": "아마존, AI 관련주 부상",
+   "one_liner": "아마존이 AI 관련주로 주목받으며 주가 상승 기회를 잡음",
+   "why_now": "AI 기술 발전으로 관련 기업들의 성장 가능성이 커지고 있기 때문이에요.",
    "details": [
-    "아마존 주가가 역사적으로 저렴하다고 평가되고 있어요.",
-    "이러한 상황은 투자자들에게 기회를 제공할 수 있어요.",
-    "아마존의 금융 실적이 주가에 영향을 줄 수 있어요."
+    "아마존이 AI 관련주로 월스트리트의 주목을 받고 있어요.",
+    "특히 초고속 인터넷 서비스 사업 기회를 노리고 있어요.",
+    "일부에서는 현재 아마존 주가가 저렴하다고 평가하고 있어요."
    ],
    "effects": [
-    "투자자들에게 매수 기회를 제공할 수 있어요!",
-    "아마존의 주가가 상승할 가능성이 있을 수 있어요!"
+    "AI 기술 발전 수혜를 받을 수 있어요!",
+    "주가 상승 가능성이 점쳐지고 있어요!"
    ],
    "visual_type": "none"
   },
-  "fact_hash": "56ca9b41a2875c69addfdc84c6789847de9ea70f"
+  "fact_hash": "5065a0e885d6e343cf80cfb7e81516d5468bd843"
  },
  "review": null,
  "glossary": [],
