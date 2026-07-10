@@ -10,11 +10,21 @@
   "CVX",
   "XOM"
  ],
- "seen_sources": 4,
- "importance": 90,
+ "seen_sources": 5,
+ "importance": 105,
  "created_at": "2026-07-08T00:19:07.471145+00:00",
- "last_update": "2026-07-08T18:52:44.985582+00:00",
+ "last_update": "2026-07-10T22:30:23.811141+00:00",
  "members": [
+  {
+   "id": "2b26c56dff85d5e9d699f26338e72dc709ecc001",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/iran-tensions-heating-again-chevron-140551893.html",
+   "title": "With Iran Tensions Heating Up Again , Chevron Stock Looks Enticing",
+   "published_at": "2026-07-10T21:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9102
+  },
   {
    "id": "d8e1773fa26c7cefae5844d6a973182b143d4f92",
    "source": "benzinga.com",
@@ -23,7 +33,7 @@
    "title": "Ceasefire Cracks , Oil Bounces : Why Exxon , Chevron Stocks Are Hot Again - ExxonMobil Holdings ( NYSE : XOM ),",
    "published_at": "2026-07-08T17:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9298
+   "sim_to_centroid": 0.9358
   },
   {
    "id": "aefc06284c52f11a9c3f22567a6363628b261351",
@@ -33,7 +43,7 @@
    "title": "ExxonMobil expects quarterly earnings boost",
    "published_at": "2026-07-08T12:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8956
+   "sim_to_centroid": 0.8978
   },
   {
    "id": "3ee85c23ddd4642806bf326efc08576ad52944d2",
@@ -43,7 +53,7 @@
    "title": "ExxonMobil ( NYSE : XOM ) Trading 3 . 8 % Higher – Here Why",
    "published_at": "2026-07-07T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9667
+   "sim_to_centroid": 0.9621
   },
   {
    "id": "6928ab61c764abf66d37dc865e7a5707a4012aea",
@@ -53,11 +63,18 @@
    "title": "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know",
    "published_at": "2026-07-07T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9676
+   "sim_to_centroid": 0.9678
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "With Iran Tensions Heating Up Again , Chevron Stock Looks Enticing",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/iran-tensions-heating-again-chevron-140551893.html",
+   "at": "2026-07-10T21:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Ceasefire Cracks , Oil Bounces : Why Exxon , Chevron Stocks Are Hot Again - ExxonMobil Holdings ( NYSE : XOM ),",
@@ -89,11 +106,12 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-08T18:56:03.304871+00:00",
+  "created_at": "2026-07-10T22:34:17.113658+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "With Iran Tensions Heating Up Again , Chevron Stock Looks Enticing",
     "Ceasefire Cracks , Oil Bounces : Why Exxon , Chevron Stocks Are Hot Again - ExxonMobil Holdings ( NYSE : XOM ),",
     "ExxonMobil expects quarterly earnings boost",
     "ExxonMobil ( NYSE : XOM ) Trading 3 . 8 % Higher – Here Why",
@@ -101,43 +119,47 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"엑슨모빌 주가 상승\",\n   \"one_liner\": \"엑슨모빌 주가가 3.8% 상승했어요.\",\n   \"why_now\": \"석유 회사 주가가 오르면 투자자들이 관심을 가질 수 있어요.\",\n   \"details\": [\n       \"엑슨모빌의 주가가 3.8% 상승했어요.\",\n       \"엑슨모빌의 수익이 증가할 것으로 예상돼요.\",\n       \"엑슨모빌과 체번의 주가가 급등했어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"에너지 관련 주식에 투자자들이 관심을 가질 수 있어요!\",\n       \"석유 가격이 영향을 받을 것으로 예상돼요!\"\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"원유 가격 상승\",\n   \"one_liner\": \"이란과 관련한 긴장으로 원유 가격이 올랐어요.\",\n   \"why_now\": \"원유 가격이 오르면 에너지 회사에 좋은 영향을 줄 수 있어요.\",\n   \"details\": [\n      \"이란과 관련한 긴장으로 원유 가격이 올랐어요.\",\n      \"에너지 회사 주가에 긍정적인 영향을 줄 수 있어요.\",\n      \"체번과 엑슨모빌 같은 회사 주가가 오르는 중이에요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"에너지 회사 주가가 더 오를 수 있어요!\",\n      \"에너지 수입에 영향을 받는 산업에 영향을 줄 수 있어요!\"\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님",
-     "입력에 없는 숫자: [3.8]"
+     "one_liner 음슴체(함/됨/임) 아님"
     ]
    },
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님",
-     "입력에 없는 숫자: [3.8]"
+     "one_liner 음슴체(함/됨/임) 아님"
     ]
    }
   ],
   "output": {
-   "title": "Ceasefire Cracks , Oil",
-   "one_liner": "Ceasefire Cracks , Oil Bounces : Why Exxon , ",
+   "title": "With Iran Tensions Hea",
+   "one_liner": "With Iran Tensions Heating Up Again , Chevron",
    "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
+    "With Iran Tensions Heating Up Again , Chevron Stock Looks Enticing",
     "Ceasefire Cracks , Oil Bounces : Why Exxon , Chevron Stocks Are Hot Again - ExxonMobil Holdings ( NYSE : XOM ),",
-    "ExxonMobil expects quarterly earnings boost",
-    "ExxonMobil ( NYSE : XOM ) Trading 3 . 8 % Higher – Here Why"
+    "ExxonMobil expects quarterly earnings boost"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "2974091d72dde5b437a91b9e8d2b1040de055dc8"
+  "fact_hash": "a9221b3f8592f4bbcffaf610802677a5fc1e971a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"입력에 없는 숫자: [3.8]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"입력에 없는 숫자: [3.8]\"]}]}",
-  "at": "2026-07-08T18:56:03.304813+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}]}",
+  "at": "2026-07-10T22:34:17.113601+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c055a4bbdbb9c931a",
+   "title": "SK Hynix prices U . S . listing as AI chip demand surges",
+   "category": "MARKET",
+   "shared": []
+  },
   {
    "id": "c29662e359a9421cc",
    "title": "S & P 500 , Nasdaq close sharply higher as Broadcom rallies",
@@ -147,12 +169,6 @@
   {
    "id": "c88e0e9224f4c05cc",
    "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c055a4bbdbb9c931a",
-   "title": "SK Hynix prices U . S . listing as AI chip demand surges",
    "category": "MARKET",
    "shared": []
   },
