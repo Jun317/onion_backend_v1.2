@@ -9,11 +9,21 @@
  "entity_keys": [
   "AMZN"
  ],
- "seen_sources": 2,
- "importance": 75,
+ "seen_sources": 3,
+ "importance": 80,
  "created_at": "2026-07-08T00:19:07.471383+00:00",
- "last_update": "2026-07-10T22:30:23.799411+00:00",
+ "last_update": "2026-07-11T15:28:39.906473+00:00",
  "members": [
+  {
+   "id": "65171722a5736bae73888193c957b3c2c3942244",
+   "source": "insidermonkey.com",
+   "tier": "wire",
+   "url": "https://www.insidermonkey.com/blog/jim-cramer-reveals-reason-behind-amazon-com-inc-amzns-share-price-movement-1799798/",
+   "title": "Jim Cramer Reveals Reason Behind Amazon . com , Inc . ( AMZN ) Share Price Movement",
+   "published_at": "2026-07-11T13:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.915
+  },
   {
    "id": "83ed811ac9535e6f151311d02b91b35ad6bc0278",
    "source": "finance.yahoo.com",
@@ -22,7 +32,7 @@
    "title": "Here What to Expect From Amazon . com Next Earnings Report",
    "published_at": "2026-07-10T21:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.917
+   "sim_to_centroid": 0.922
   },
   {
    "id": "fd7a3df989af0ddfe4088f60e56f76717fc95c51",
@@ -32,7 +42,7 @@
    "title": "Amazon . com ( AMZN ) A Top AI Stock on Wall Street Radar Pursuing Broadband Service Opportunities",
    "published_at": "2026-07-10T09:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.91
+   "sim_to_centroid": 0.9161
   },
   {
    "id": "fc8c44185ab4c43cbba130b11188d84ca9cd7a83",
@@ -42,7 +52,7 @@
    "title": "Emem Usoro : The Quiet Banking Amazon at Nigeria Central Bank – THISDAYLIVE",
    "published_at": "2026-07-09T04:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8656
+   "sim_to_centroid": 0.8695
   },
   {
    "id": "a060fba3037af4b848c91d5971954dbdb2e58a8c",
@@ -52,7 +62,7 @@
    "title": "Amazon Stock Is Historically Cheap . Now Is Your Perfect Buying Opportunity",
    "published_at": "2026-07-07T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9939
+   "sim_to_centroid": 0.9907
   },
   {
    "id": "14ba2e1eef45ce511f73dbb7a2134a942c1eccf3",
@@ -62,11 +72,18 @@
    "title": "Amazon Stock Is Historically Cheap . Now Is Your Perfect Buying Opportunity",
    "published_at": "2026-07-07T22:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9939
+   "sim_to_centroid": 0.9907
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Jim Cramer Reveals Reason Behind Amazon . com , Inc . ( AMZN ) Share Price Movement",
+   "source": "insidermonkey.com",
+   "url": "https://www.insidermonkey.com/blog/jim-cramer-reveals-reason-behind-amazon-com-inc-amzns-share-price-movement-1799798/",
+   "at": "2026-07-11T13:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Here What to Expect From Amazon . com Next Earnings Report",
@@ -105,11 +122,12 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-10T22:35:46.763918+00:00",
+  "created_at": "2026-07-11T15:32:36.382009+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Jim Cramer Reveals Reason Behind Amazon . com , Inc . ( AMZN ) Share Price Movement",
     "Here What to Expect From Amazon . com Next Earnings Report",
     "Amazon . com ( AMZN ) A Top AI Stock on Wall Street Radar Pursuing Broadband Service Opportunities",
     "Emem Usoro : The Quiet Banking Amazon at Nigeria Central Bank – THISDAYLIVE",
@@ -117,12 +135,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"아마존 실적 발표\",\n   \"one_liner\": \"아마존의 다음 실적 발표가 임박했어요\",\n   \"why_now\": \"실적 발표는 회사 성과를 알 수 있어요\",\n   \"details\": [\n      \"아마존의 실적 발표가 곧 나올 예정이에요\",\n      \"아마존의 주가가 저렴하다고 평가받고 있어요\",\n      \"아마존의 주가는 역사적으로 저렴한 수준이에요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"아마존의 주가가 변동할 수 있어요!\",\n      \"투자자들의 관심이 집중될 것으로 예상돼요!\"\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"아마존 실적\",\n   \"one_liner\": \"아마존의 주가 움직임과 향후 실적에 대한 기대감이 높아지고 있어요.\",\n   \"why_now\": \"아마존의 실적은 기술 산업과 투자자들에게 중요한 영향을 미치기 때문에 주목받고 있어요.\",\n   \"details\": [\n      \"아마존의 주가 움직임에 대한 분석이 이뤄지고 있어요.\",\n      \"아마존의 향후 실적 보고서에 대한 기대감이 높아지고 있어요.\",\n      \"아마존이 인공지능과 광대역 서비스 분야에서 기회를 추구하고 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"아마존의 실적이 좋지 않으면 기술 산업에 부정적인 영향을 미칠 수 있어요!\",\n      \"아마존의 주가가 저렴하다고 판단되면 투자자들에게 매력적인 기회가 될 수 있어요!\"\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님"
+     "details[1] 어요체 아님"
     ]
    },
    {
@@ -133,22 +151,22 @@
    }
   ],
   "output": {
-   "title": "Here What to Expect Fr",
-   "one_liner": "Here What to Expect From Amazon . com Next Ea",
+   "title": "Jim Cramer Reveals…",
+   "one_liner": "Jim Cramer Reveals Reason Behind Amazon .…",
    "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
+    "Jim Cramer Reveals Reason Behind Amazon . com , Inc . ( AMZN ) Share Price Movement",
     "Here What to Expect From Amazon . com Next Earnings Report",
-    "Amazon . com ( AMZN ) A Top AI Stock on Wall Street Radar Pursuing Broadband Service Opportunities",
-    "Emem Usoro : The Quiet Banking Amazon at Nigeria Central Bank – THISDAYLIVE"
+    "Amazon . com ( AMZN ) A Top AI Stock on Wall Street Radar Pursuing Broadband Service Opportunities"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "a38fb862c1c42342763d39b60da3598031301357"
+  "fact_hash": "bcb1dabed8c010d2d0b435271474433ad9816d4a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}]}",
-  "at": "2026-07-10T22:35:46.763770+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details[1] 어요체 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}]}",
+  "at": "2026-07-11T15:32:36.381951+00:00"
  },
  "glossary": [],
  "related": [
