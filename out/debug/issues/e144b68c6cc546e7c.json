@@ -21,7 +21,7 @@
    "value": 24.3,
    "unit": "억원",
    "prev": null,
-   "period": "2025-11013",
+   "period": "2025-1Q",
    "source": "DART",
    "trust": "official",
    "observed_at": "2026-07-05T09:16:12.197034+00:00"
@@ -32,7 +32,7 @@
    "value": -26.2,
    "unit": "억원",
    "prev": null,
-   "period": "2025-11013",
+   "period": "2025-1Q",
    "source": "DART",
    "trust": "official",
    "observed_at": "2026-07-05T09:16:12.197034+00:00"
@@ -49,14 +49,56 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-05T09:17:09.209915+00:00",
-  "payload": {},
-  "raw_response": null,
-  "attempts": [],
+  "created_at": "2026-07-11T14:03:45.144646+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [
+    {
+     "entity": "인베니아",
+     "metric": "매출액",
+     "value": 24.3,
+     "unit": "억원",
+     "prev": null,
+     "period": "2025-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "인베니아",
+     "metric": "영업이익",
+     "value": -26.2,
+     "unit": "억원",
+     "prev": null,
+     "period": "2025-1Q",
+     "source": "DART"
+    }
+   ],
+   "headlines": [
+    "인베니아 2025-4Q 실적 공시"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"인베니아 실적\",\n   \"one_liner\": \"인베니아 1분기 매출액 243억원, 영업이익 -26.2억원\",\n   \"why_now\": \"기업 실적은 투자자에게 중요한 정보예요.\",\n   \"details\": [\n      \"인베니아 1분기 매출액은 243억원이에요.\",\n      \"인베니아 1분기 영업이익은 -26.2억원이에요.\",\n      \"인베니아는 최근 실적을 공시했어요.\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n      \"투자자들의 인베니아에 대한 평가가 달라질 수 있어요!\",\n      \"주가에 영향을 줄 수 있어요!\"\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님",
+     "details 3~5문장 아님",
+     "입력에 없는 숫자: [243.0]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님",
+     "입력에 없는 숫자: [243.0]"
+    ]
+   }
+  ],
   "output": {
-   "title": null,
+   "title": "인베니아 2025-4Q 실적 공시",
    "one_liner": "인베니아 2025-4Q 실적 공시",
-   "why_now": null,
+   "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
     "인베니아 매출액: 24.3억원",
     "인베니아 영업이익: -26.2억원"
@@ -64,11 +106,11 @@
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "041ffc8b460c81137b92cdafedfc099771d5ecba"
+  "fact_hash": "87b72e39758109f4963c48bf5a9d0d981272cdb9"
  },
  "review": {
-  "reason": "LLM 검증 실패 → 템플릿 폴백",
-  "at": "2026-07-05T09:17:09.209859+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\", \"입력에 없는 숫자: [243.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"입력에 없는 숫자: [243.0]\"]}]}",
+  "at": "2026-07-11T14:03:45.144586+00:00"
  },
  "glossary": [
   {

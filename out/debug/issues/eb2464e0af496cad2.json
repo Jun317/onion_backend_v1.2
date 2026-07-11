@@ -21,7 +21,7 @@
    "value": 57.7,
    "unit": "억원",
    "prev": null,
-   "period": "2025-11013",
+   "period": "2025-1Q",
    "source": "DART",
    "trust": "official",
    "observed_at": "2026-07-05T09:16:12.197714+00:00"
@@ -32,7 +32,7 @@
    "value": -17.8,
    "unit": "억원",
    "prev": null,
-   "period": "2025-11013",
+   "period": "2025-1Q",
    "source": "DART",
    "trust": "official",
    "observed_at": "2026-07-05T09:16:12.197714+00:00"
@@ -48,28 +48,68 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-05T09:17:07.394521+00:00",
-  "payload": {},
-  "raw_response": null,
-  "attempts": [],
+  "model": "template",
+  "created_at": "2026-07-11T14:03:00.727632+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [
+    {
+     "entity": "넥스트아이",
+     "metric": "매출액",
+     "value": 57.7,
+     "unit": "억원",
+     "prev": null,
+     "period": "2025-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "넥스트아이",
+     "metric": "영업이익",
+     "value": -17.8,
+     "unit": "억원",
+     "prev": null,
+     "period": "2025-1Q",
+     "source": "DART"
+    }
+   ],
+   "headlines": [
+    "넥스트아이 2025-4Q 실적 공시"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"넥스트아이 실적\",\n   \"one_liner\": \"넥스트아이의 2025년 1분기 매출액은 57.7억원이었어요.\",\n   \"why_now\": \"기업의 실적은 투자자들에게 중요한 정보예요.\",\n   \"details\": [\n       \"넥스트아이의 2025년 1분기 매출액은 57.7억원이었어요.\",\n       \"넥스트아이의 2025년 1분기 영업이익은 -17.8억원이었어요.\",\n       \"이 실적은 2025년 1분기에 발표되었어요.\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n       \"투자자들의 넥스트아이에 대한 평가가 달라질 수 있어요!\",\n       \"기업의 미래 전략에 영향을 줄 수 있어요!\"\n   ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 45자 초과(46)",
+     "details 3~5문장 아님"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님"
+    ]
+   }
+  ],
   "output": {
-   "title": null,
-   "one_liner": "넥스트아이 영업이익 적자 전환됨",
-   "why_now": null,
+   "title": "넥스트아이 2025-4Q 실적 공시",
+   "one_liner": "넥스트아이 2025-4Q 실적 공시",
+   "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
-    "넥스트아이의 2025년 4분기 매출액은 57.7억원이에요.",
-    "같은 기간 영업이익은 17.8억원 적자를 기록했어요.",
-    "이는 전년 동기 대비 적자 전환한 수치예요."
+    "넥스트아이 매출액: 57.7억원",
+    "넥스트아이 영업이익: -17.8억원"
    ],
-   "effects": [
-    "향후 실적 개선 여부에 대한 시장의 관심이 높아질 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "98bfcdb3492a20471609324b0d6fe31a41198a73"
+  "fact_hash": "28634507d049066d433eb8cf31f01adeb808a746"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 45자 초과(46)\", \"details 3~5문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}]}",
+  "at": "2026-07-11T14:03:00.727542+00:00"
+ },
  "glossary": [
   {
    "term": "영업이익",

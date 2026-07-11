@@ -21,7 +21,7 @@
    "value": 227398.1,
    "unit": "억원",
    "prev": null,
-   "period": "2025-11013",
+   "period": "2025-1Q",
    "source": "DART",
    "trust": "official",
    "observed_at": "2026-07-06T11:10:17.220376+00:00"
@@ -32,7 +32,7 @@
    "value": 12590.6,
    "unit": "억원",
    "prev": null,
-   "period": "2025-11013",
+   "period": "2025-1Q",
    "source": "DART",
    "trust": "official",
    "observed_at": "2026-07-06T11:10:17.220376+00:00"
@@ -49,7 +49,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-06T11:12:09.775342+00:00",
+  "created_at": "2026-07-11T14:01:21.047681+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -59,7 +59,7 @@
      "value": 227398.1,
      "unit": "억원",
      "prev": null,
-     "period": "2025-11013",
+     "period": "2025-1Q",
      "source": "DART"
     },
     {
@@ -68,7 +68,7 @@
      "value": 12590.6,
      "unit": "억원",
      "prev": null,
-     "period": "2025-11013",
+     "period": "2025-1Q",
      "source": "DART"
     }
    ],
@@ -77,27 +77,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"one_liner\": \"LG전자 4분기 실적이 발표됐어요.\", \"details\": [\"LG전자의 2025년 4분기 매출액은 227,398.1억원이에요.\", \"영업이익은 12,590.6억원이에요.\"], \"visual_type\": \"earnings_quarterly\", \"effects\": [\"투자자들의 관심이 집중될 수 있어요!\"]}",
+  "raw_response": "{\n  \"title\": \"LG전자 실적\",\n   \"one_liner\": \"LG전자가 2025년 1분기 매출액 227398.1억원, 영업이익 12590.6억원을 기록했어요.\",\n   \"why_now\": \"기업 실적은 투자자와 소비자에게 중요한 정보에요.\",\n   \"details\": [\n       \"LG전자가 2025년 1분기 실적을 발표했어요.\",\n       \"매출액은 227398.1억원이었어요.\",\n       \"영업이익은 12590.6억원이었어요.\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n       \"주가에 영향을 줄 수 있어요!\",\n       \"투자자들의 관심을 끌 수 있어요!\"\n   ]\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님",
-     "details 3~5문장 아님"
+     "one_liner 음슴체(함/됨/임) 아님"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님",
-     "details 3~5문장 아님"
+     "one_liner 45자 초과(54)",
+     "one_liner 음슴체(함/됨/임) 아님"
     ]
    }
   ],
   "output": {
-   "title": null,
+   "title": "LG전자 2025-4Q 실적 공시",
    "one_liner": "LG전자 2025-4Q 실적 공시",
-   "why_now": null,
+   "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
     "LG전자 매출액: 227398.1억원",
     "LG전자 영업이익: 12590.6억원"
@@ -105,11 +104,11 @@
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "96e29b763cf27752a5f8054f7d903c72467ea745"
+  "fact_hash": "ecfaf8756597e188b16d713607decbc35821ad82"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}]}",
-  "at": "2026-07-06T11:12:09.775248+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 45자 초과(54)\", \"one_liner 음슴체(함/됨/임) 아님\"]}]}",
+  "at": "2026-07-11T14:01:21.047630+00:00"
  },
  "glossary": [
   {

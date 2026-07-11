@@ -21,7 +21,7 @@
    "value": 276.8,
    "unit": "억원",
    "prev": null,
-   "period": "2025-11013",
+   "period": "2025-1Q",
    "source": "DART",
    "trust": "official",
    "observed_at": "2026-07-05T09:16:12.197963+00:00"
@@ -32,7 +32,7 @@
    "value": 11.4,
    "unit": "억원",
    "prev": null,
-   "period": "2025-11013",
+   "period": "2025-1Q",
    "source": "DART",
    "trust": "official",
    "observed_at": "2026-07-05T09:16:12.197963+00:00"
@@ -49,14 +49,55 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-05T09:16:38.702362+00:00",
-  "payload": {},
-  "raw_response": null,
-  "attempts": [],
+  "created_at": "2026-07-11T14:01:43.262616+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [
+    {
+     "entity": "빅솔론",
+     "metric": "매출액",
+     "value": 276.8,
+     "unit": "억원",
+     "prev": null,
+     "period": "2025-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "빅솔론",
+     "metric": "영업이익",
+     "value": 11.4,
+     "unit": "억원",
+     "prev": null,
+     "period": "2025-1Q",
+     "source": "DART"
+    }
+   ],
+   "headlines": [
+    "빅솔론 2025-4Q 실적 공시"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"빅솔론 1분기 실적\", \"one_liner\": \"빅솔론의 2025년 1분기 매출액은 276.8억원, 영업이익은 11.4억원을 기록했어요.\", \"why_now\": \"기업의 실적은 주가에 직접적인 영향을 미치기 때문에 투자자들이 중요하게 봐요.\", \"details\": [\"빅솔론의 2025년 1분기 매출액은 276.8억원이에요.\", \"영업이익은 11.4억원을 기록했어요.\"], \"visual_type\": \"earnings_quarterly\", \"effects\": [\"향후 주가 흐름에 영향을 줄 수 있어요!\"]}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3~5문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 45자 초과(49)",
+     "one_liner 음슴체(함/됨/임) 아님",
+     "details 3~5문장 아님"
+    ]
+   }
+  ],
   "output": {
-   "title": null,
+   "title": "빅솔론 2025-4Q 실적 공시",
    "one_liner": "빅솔론 2025-4Q 실적 공시",
-   "why_now": null,
+   "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
     "빅솔론 매출액: 276.8억원",
     "빅솔론 영업이익: 11.4억원"
@@ -64,11 +105,11 @@
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "a7dbea675e0977d6a7e03cf6ddf25da124ecf8a8"
+  "fact_hash": "0bfdfe8187cad20c276373a213ecbc51c89d2fe6"
  },
  "review": {
-  "reason": "LLM 검증 실패 → 템플릿 폴백",
-  "at": "2026-07-05T09:16:38.702304+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3~5문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 45자 초과(49)\", \"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}]}",
+  "at": "2026-07-11T14:01:43.262559+00:00"
  },
  "glossary": [
   {

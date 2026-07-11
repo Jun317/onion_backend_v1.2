@@ -21,7 +21,7 @@
    "value": 1531.0,
    "unit": "억원",
    "prev": null,
-   "period": "2025-11013",
+   "period": "2025-1Q",
    "source": "DART",
    "trust": "official",
    "observed_at": "2026-07-05T09:16:12.196789+00:00"
@@ -32,32 +32,10 @@
    "value": 163.7,
    "unit": "억원",
    "prev": null,
-   "period": "2025-11013",
+   "period": "2025-1Q",
    "source": "DART",
    "trust": "official",
    "observed_at": "2026-07-05T09:16:12.196789+00:00"
-  },
-  {
-   "entity": "서한",
-   "metric": "매출액",
-   "value": 1531.0,
-   "unit": "억원",
-   "prev": null,
-   "period": "2025-11013",
-   "source": "DART",
-   "trust": "official",
-   "observed_at": "2026-07-05T09:16:12.196334+00:00"
-  },
-  {
-   "entity": "서한",
-   "metric": "영업이익",
-   "value": 163.7,
-   "unit": "억원",
-   "prev": null,
-   "period": "2025-11013",
-   "source": "DART",
-   "trust": "official",
-   "observed_at": "2026-07-05T09:16:12.196334+00:00"
   }
  ],
  "timeline": [
@@ -77,28 +55,68 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-05T09:17:25.015226+00:00",
-  "payload": {},
-  "raw_response": null,
-  "attempts": [],
+  "model": "template",
+  "created_at": "2026-07-11T14:04:29.541292+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [
+    {
+     "entity": "서한",
+     "metric": "매출액",
+     "value": 1531.0,
+     "unit": "억원",
+     "prev": null,
+     "period": "2025-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "서한",
+     "metric": "영업이익",
+     "value": 163.7,
+     "unit": "억원",
+     "prev": null,
+     "period": "2025-1Q",
+     "source": "DART"
+    }
+   ],
+   "headlines": [
+    "서한 2025-4Q 실적 공시"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"서한 실적\",\n   \"one_liner\": \"서한의 2025년 1분기 매출액은 1531.0억원이었어요.\",\n   \"why_now\": \"회사의 실적은 투자자에게 중요한 정보예요.\",\n   \"details\": [\n       \"서한의 2025년 1분기 매출액은 1531.0억원이었어요.\",\n       \"서한의 2025년 1분기 영업이익은 163.7억원이었어요.\",\n       \"서한은 2025년 4분기 실적을 공시했어요.\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n       \"서한의 주가에 영향을 줄 수 있어요!\",\n       \"서한의 투자자들에게 중요한 정보가 될 수 있어요!\"\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님",
+     "details 3~5문장 아님"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 음슴체(함/됨/임) 아님"
+    ]
+   }
+  ],
   "output": {
-   "title": null,
-   "one_liner": "서한의 4분기 실적이 공개됨",
-   "why_now": null,
+   "title": "서한 2025-4Q 실적 공시",
+   "one_liner": "서한 2025-4Q 실적 공시",
+   "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
-    "서한의 2025년 4분기 매출액은 1531억원이에요.",
-    "영업이익은 163.7억원이에요.",
-    "이는 직전 분기 대비 변동 사항이 없는 수치예요."
+    "서한 매출액: 1531.0억원",
+    "서한 영업이익: 163.7억원"
    ],
-   "effects": [
-    "실적 발표 후 주가 변동 가능성이 있어요!"
-   ],
+   "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "b95ef9f1c96e702068808560289f49b13d999efd"
+  "fact_hash": "20a150fc4807feae8f254aa6e3d2af42f84c0514"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}]}",
+  "at": "2026-07-11T14:04:29.541245+00:00"
+ },
  "glossary": [
   {
    "term": "영업이익",
