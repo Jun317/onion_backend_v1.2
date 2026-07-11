@@ -1,6 +1,51 @@
 {
- "generated_at": "2026-07-11T22:13:38.032704+00:00",
+ "generated_at": "2026-07-11T23:16:59.547951+00:00",
  "queue": [
+  {
+   "issue_id": "c6de7c9fb5935bf83",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님",
+       "입력에 없는 숫자: [65000.0]"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "title 22자 초과(26)",
+       "details 3~5문장 아님",
+       "입력에 없는 숫자: [6.0]"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-11T23:16:14.828824+00:00"
+  },
+  {
+   "issue_id": "ca047e091cbb5946c",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "details 3~5문장 아님"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "details 3~5문장 아님"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-11T23:15:51.396529+00:00"
+  },
   {
    "issue_id": "cdbb797962c9a092e",
    "reason": {
@@ -66,29 +111,6 @@
    "at": "2026-07-11T19:41:03.023567+00:00"
   },
   {
-   "issue_id": "ca047e091cbb5946c",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "one_liner 음슴체(함/됨/임) 아님",
-       "details 3~5문장 아님"
-      ]
-     },
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "one_liner 음슴체(함/됨/임) 아님",
-       "details[2] 45자 초과"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-11T19:38:50.640849+00:00"
-  },
-  {
    "issue_id": "c4dcd140d8a86ccd9",
    "reason": {
     "summary": "LLM 검증 실패 → 템플릿 폴백",
@@ -108,29 +130,6 @@
     ]
    },
    "at": "2026-07-11T17:30:35.405096+00:00"
-  },
-  {
-   "issue_id": "c6de7c9fb5935bf83",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "details[4] 45자 초과",
-       "입력에 없는 숫자: [7.0, 10.0, 2000.0]"
-      ]
-     },
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "one_liner 음슴체(함/됨/임) 아님",
-       "입력에 없는 숫자: [10.0]"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-11T17:28:20.908905+00:00"
   },
   {
    "issue_id": "c055a4bbdbb9c931a",
