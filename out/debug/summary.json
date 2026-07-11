@@ -1,9 +1,46 @@
 {
- "generated_at": "2026-07-11T10:38:38.990978+00:00",
+ "generated_at": "2026-07-11T12:11:48.022647+00:00",
  "run_history": [
   {
    "kind": "pipeline",
-   "at": "2026-07-11T10:38:38.990969+00:00",
+   "at": "2026-07-11T12:11:48.022633+00:00",
+   "ok": true,
+   "stats": {
+    "raw_loaded": 310,
+    "inserted": 0,
+    "near_dups": 0,
+    "express": 0,
+    "embedded": 0,
+    "express_centroids": 0,
+    "assign": {
+     "joined": 0,
+     "held": 0,
+     "pooled": 6
+    },
+    "seeded": 0,
+    "promoted": 0,
+    "classified": 0,
+    "merged": 0,
+    "lifecycle": {
+     "stale": 1,
+     "archived": 0
+    },
+    "importance": 59,
+    "llm": {
+     "generated": 0,
+     "cached": 35,
+     "template": 0,
+     "deferred": 0
+    },
+    "export": {
+     "issues": 35,
+     "removed": 0
+    }
+   }
+  },
+  {
+   "kind": "pipeline",
+   "at": "2026-07-11T10:38:39.080608+00:00",
    "ok": true,
    "stats": {
     "raw_loaded": 338,
@@ -35,8 +72,15 @@
     "export": {
      "issues": 35,
      "removed": 0
-    }
-   }
+    },
+    "export_debug": {
+     "issues": 70,
+     "removed": 0,
+     "reviews": 24
+    },
+    "pruned": 0
+   },
+   "error": ""
   },
   {
    "kind": "pipeline",
@@ -873,57 +917,13 @@
     "pruned": 0
    },
    "error": ""
-  },
-  {
-   "kind": "pipeline",
-   "at": "2026-07-09T05:16:51.031921+00:00",
-   "ok": true,
-   "stats": {
-    "raw_loaded": 668,
-    "inserted": 65,
-    "near_dups": 7,
-    "express": 0,
-    "embedded": 65,
-    "express_centroids": 0,
-    "assign": {
-     "joined": 63,
-     "held": 0,
-     "pooled": 14
-    },
-    "seeded": 1,
-    "promoted": 1,
-    "classified": 1,
-    "merged": 0,
-    "lifecycle": {
-     "stale": 2,
-     "archived": 0
-    },
-    "importance": 55,
-    "llm": {
-     "generated": 2,
-     "cached": 27,
-     "template": 3,
-     "deferred": 0
-    },
-    "export": {
-     "issues": 32,
-     "removed": 0
-    },
-    "export_debug": {
-     "issues": 66,
-     "removed": 0,
-     "reviews": 21
-    },
-    "pruned": 0
-   },
-   "error": ""
   }
  ],
  "issue_counts": {
-  "active": 16,
+  "active": 15,
   "archived": 11,
   "candidate": 24,
-  "stale": 19
+  "stale": 20
  },
  "article_counts": {
   "total": 2029,
