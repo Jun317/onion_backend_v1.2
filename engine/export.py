@@ -10,13 +10,74 @@ import sqlite3
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+import yaml
+
 from .config import ROOT, cfg, categories
 from .db import daily_counter, meta_get, now_iso
 from .embed import from_blob
 from .glossary import terms_in_parts
-from .viz import build_visual
+from .viz import REGISTRY, build_visual
 
 OUT = ROOT / "out"
+
+# out/index.json 스키마 버전 — 필드 추가·형태 변경 시 올린다 (프런트 호환성 협상용)
+SCHEMA_VERSION = 2
+
+
+def _fmt_num(v: float) -> str:
+    """표기용 숫자 — 정수면 천단위 콤마, 소수는 2자리까지 (뒤 0 제거)."""
+    if v == int(v):
+        return f"{int(v):,}"
+    return f"{round(v, 2):,}".rstrip("0").rstrip(".")
+
+
+def _headline_stat(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict | None:
+    """카드/히어로 핵심 숫자 — 최신 anchor 1건. 표기 문자열까지 여기서 완성한다
+    (단위·자릿수 통일을 위해 프런트 계산 금지, redesignspec §5)."""
+    # '변동폭' 은 본 지표의 보조값 — 대표 숫자로 부적합 (viz._earnings_groups 와 동일 제외)
+    a = conn.execute(
+        "SELECT entity, metric, value, unit, prev FROM numeric_anchor "
+        "WHERE issue_id=? AND value IS NOT NULL AND metric != '변동폭' "
+        "ORDER BY observed_at DESC, id DESC LIMIT 1", (issue["id"],)).fetchone()
+    if not a:
+        return None
+    unit = a["unit"] or ""
+    stat = {
+        "label": f"{a['entity']} {a['metric']}".strip(),
+        "value": _fmt_num(a["value"]),
+        "unit": unit,
+        "delta_text": None,
+        "direction": "flat",
+        "prev_text": None,
+    }
+    if a["prev"] is not None:
+        delta = a["value"] - a["prev"]
+        stat["direction"] = "up" if delta > 0 else "down" if delta < 0 else "flat"
+        sign = "+" if delta > 0 else "-" if delta < 0 else "±"
+        delta_unit = "%p" if unit == "%" else unit  # 퍼센트 지표의 차이는 %p 로 표기
+        stat["delta_text"] = f"{sign}{_fmt_num(abs(delta))}{delta_unit}"
+        stat["prev_text"] = f"직전 {_fmt_num(a['prev'])}{unit}"
+    return stat
+
+
+def _spark(visual: dict | None) -> list[float] | None:
+    """visual.series 의 v 값 최근 5–8개 — 카드 스파크라인 소스. 없으면 None."""
+    series = (visual or {}).get("series") or []
+    vals = [p["v"] for p in series if isinstance(p.get("v"), (int, float))]
+    if len(vals) < 2:
+        return None
+    return vals[-8:]
+
+
+def _issue_icon(issue: sqlite3.Row) -> str:
+    """이슈 아이콘 이모지 1개 — config.yaml icons: 개체 우선, 카테고리 폴백 (저작권 프리)."""
+    icons = cfg().get("icons", {}) or {}
+    entity_map = icons.get("entities") or {}
+    for key in json.loads(issue["entity_keys"] or "[]"):
+        if key in entity_map:
+            return entity_map[key]
+    by_category = icons.get("categories") or {}
+    return by_category.get(issue["category"]) or icons.get("default", "📰")
 
 
 def _related_issues(conn: sqlite3.Connection, issue: sqlite3.Row, limit: int = 5) -> list[dict]:
@@ -38,6 +99,10 @@ def _related_issues(conn: sqlite3.Connection, issue: sqlite3.Row, limit: int = 5
 
 def _issue_card(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
     o = conn.execute("SELECT * FROM llm_output WHERE issue_id=?", (issue["id"],)).fetchone()
+    has_visual = bool(o and o["visual_type"] and o["visual_type"] != "none")
+    # spark 용 시리즈 — build_visual 은 viz_cache(6h) 를 타므로 카드 단위 호출 부담 없음
+    visual = build_visual(conn, o["visual_type"], issue["category"], issue["id"]) \
+        if has_visual else None
     return {
         "id": issue["id"],
         # title = 짧고 직관적인 제목(LLM), one_liner = 더 길고 정보 있는 한 줄, why_now = 왜 중요한지
@@ -51,7 +116,11 @@ def _issue_card(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
         "sources": issue["seen_sources"],
         "importance": issue["importance"],
         "last_update": issue["last_update"],
-        "has_visual": bool(o and o["visual_type"] and o["visual_type"] != "none"),
+        "has_visual": has_visual,
+        # v2 (redesignspec §5): 핵심 숫자 · 스파크 시리즈 · 이슈 아이콘
+        "headline_stat": _headline_stat(conn, issue),
+        "spark": _spark(visual),
+        "icon": _issue_icon(issue),
     }
 
 
@@ -63,9 +132,12 @@ def _issue_detail(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
     headlines = [dict(r) for r in conn.execute(
         "SELECT title, source, url, published_at FROM article WHERE issue_id=? AND is_dup=0 "
         "ORDER BY published_at DESC LIMIT 10", (issue["id"],))]
+    # 같은 (entity, metric, period) 는 최신 1건만 — 과거 중복 누적분 방어 (db._migrate 참고)
     anchors = [dict(r) for r in conn.execute(
         "SELECT entity, metric, value, unit, prev, period, source FROM numeric_anchor "
-        "WHERE issue_id=? ORDER BY observed_at DESC LIMIT 12", (issue["id"],))]
+        "WHERE issue_id=? AND id IN (SELECT MAX(id) FROM numeric_anchor WHERE issue_id=? "
+        "GROUP BY entity, metric, period) "
+        "ORDER BY observed_at DESC LIMIT 12", (issue["id"], issue["id"]))]
 
     visual = None
     if o and o["visual_type"] and o["visual_type"] != "none":
@@ -90,6 +162,60 @@ def _issue_detail(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
     }
 
 
+def _load_steady(conn: sqlite3.Connection) -> list[dict]:
+    """steady.yaml (수동 큐레이션) → index.json 최상위 steady 배열.
+
+    검증 규칙:
+      - refs.phrase 는 문단 text 에 반드시 포함 (아니면 ref 제거)
+      - refs 는 issue_id 또는 anchor_key 로 참조 — 발행 중(active/stale)이 아니면 링크만 제거
+      - visual_type 은 viz.REGISTRY 재사용 (실패 시 차트 없이 발행)
+    """
+    path = ROOT / "steady.yaml"
+    if not path.exists():
+        return []
+    try:
+        raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    except yaml.YAMLError as e:
+        print(f"[export] steady.yaml 파싱 실패 — steady 생략: {e}")
+        return []
+
+    live = {r["id"] for r in conn.execute(
+        "SELECT id FROM issue WHERE status IN ('active','stale')")}
+    by_anchor = {r["anchor_key"]: r["id"] for r in conn.execute(
+        "SELECT anchor_key, id FROM issue WHERE anchor_key IS NOT NULL "
+        "AND status IN ('active','stale')")}
+
+    out = []
+    for item in raw.get("items", []):
+        if not item.get("id") or not item.get("title"):
+            continue
+        visual = None
+        vtype = item.get("visual_type")
+        if vtype in REGISTRY:
+            visual = build_visual(conn, vtype, REGISTRY[vtype]["cats"][0],
+                                  f"steady:{item['id']}")
+        detail = []
+        for para in item.get("detail", []):
+            text = str(para.get("text") or "")
+            if not text:
+                continue
+            refs = []
+            for ref in para.get("refs") or []:
+                phrase = str(ref.get("phrase") or "")
+                iid = ref.get("issue_id") or by_anchor.get(ref.get("anchor_key", ""))
+                if phrase and phrase in text and iid in live:
+                    refs.append({"phrase": phrase, "issue_id": iid})
+            entry = {"text": text}
+            if refs:
+                entry["refs"] = refs
+            detail.append(entry)
+        out.append({"id": str(item["id"]), "icon": item.get("icon"),
+                    "title": item["title"], "one_liner": item.get("one_liner", ""),
+                    "status_note": item.get("status_note"), "visual": visual,
+                    "detail": detail})
+    return out
+
+
 def export_all(conn: sqlite3.Connection, out_dir: Path | None = None) -> dict:
     out = out_dir or OUT
     (out / "issues").mkdir(parents=True, exist_ok=True)
@@ -99,10 +225,12 @@ def export_all(conn: sqlite3.Connection, out_dir: Path | None = None) -> dict:
         "ORDER BY CASE status WHEN 'active' THEN 0 ELSE 1 END, "
         "importance DESC, last_update DESC LIMIT 200").fetchall()
 
-    index = {"generated_at": now_iso(),
+    index = {"schema_version": SCHEMA_VERSION,
+             "generated_at": now_iso(),
              "attribution": "News metadata via GDELT (gdeltproject.org) · "
                             "Data: FRED, 한국은행 ECOS, DART, SEC EDGAR",
-             "issues": [_issue_card(conn, i) for i in issues]}
+             "issues": [_issue_card(conn, i) for i in issues],
+             "steady": _load_steady(conn)}
     (out / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1),
                                     encoding="utf-8")
 
