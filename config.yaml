@@ -132,3 +132,27 @@ collect:
   bigkinds:    # 선택 소스 #7 — 신청·심사 필요. 승인 전 스텁.
     enabled: false
     # 주의: 활성화 시 200자 스니펫은 임베딩 입력 후 즉시 폐기(DB 저장 금지) — 약관 준수
+
+icons:
+  # 이슈 아이콘 이모지 (redesignspec §5) — 카드·히어로 배경의 유일한 시각자료.
+  # 우선순위: entities(개체 키) → categories(카테고리) → default. 저작권 프리(유니코드 이모지).
+  default: "📰"
+  categories:
+    RATE: "🏦"
+    MACRO: "🌡️"
+    POLICY: "🏛️"
+    FX: "💱"
+    GEO: "🌍"
+    MARKET: "📈"
+    EARNINGS: "🧾"
+    ETC: "📰"
+  entities:
+    # entities.yaml 의 key 기준 오버라이드 — 필요할 때 추가만 하면 됨
+    FED: "🇺🇸"
+    BOK: "🏦"
+    BOJ: "🇯🇵"
+    ECB: "🇪🇺"
+    "KRX:005930": "📱"   # 삼성전자
+    "KRX:000660": "💾"   # SK하이닉스
+    "KRX:005380": "🚗"   # 현대차
+    "KRX:000270": "🚗"   # 기아

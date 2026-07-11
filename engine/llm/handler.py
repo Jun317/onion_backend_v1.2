@@ -24,6 +24,21 @@ def fact_hash(payload: dict) -> str:
     return hashlib.sha1(basis.encode("utf-8")).hexdigest()
 
 
+def _clip(text: str, limit: int) -> str:
+    """길이 제한 절단 — 가능하면 단어 경계에서 자르고 말줄임표를 붙인다.
+    ("Walmart Debunks 3 Myth" 처럼 어중간하게 잘린 제목 노출 방지)"""
+    text = (text or "").strip()
+    if len(text) <= limit:
+        return text
+    cut = text[: limit - 1]
+    if " " in cut:
+        at_word = cut.rsplit(" ", 1)[0].rstrip()
+        # 너무 짧아지면(절반 미만) 단어 경계 포기 — 정보량 우선
+        if len(at_word) >= limit // 2:
+            cut = at_word
+    return cut.rstrip() + "…"
+
+
 def template_output(payload: dict) -> dict:
     """최종 폴백 — anchor 값 기계 조립 (LLM 문체 규칙 비적용, model='template')."""
     details = []
@@ -38,7 +53,7 @@ def template_output(payload: dict) -> dict:
         details = [h for h in payload.get("headlines", [])[:3]]
     head = (payload.get("headlines") or ["새 소식"])[0]
     allowed = allowed_for_category(payload.get("category", "ETC"))
-    return {"title": head[:22], "one_liner": head[:45],
+    return {"title": _clip(head, 22), "one_liner": _clip(head, 45),
             "why_now": "공식 발표 내용을 정리했어요.", "details": details[:5],
             "visual_type": allowed[0] if allowed else "none", "effects": []}
 

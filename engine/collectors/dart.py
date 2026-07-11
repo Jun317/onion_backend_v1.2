@@ -15,6 +15,10 @@ from .base import write_express
 LIST_URL = "https://opendart.fss.or.kr/api/list.json"
 FNLTT_URL = "https://opendart.fss.or.kr/api/fnlttSinglAcnt.json"
 
+# 보고서 코드 → 분기 버킷. 앵커 period 는 이벤트 period 와 같은 "YYYY-nQ" 형식이어야
+# 프런트 차트 X축이 깨지지 않는다 ("2025-11013" 같은 코드 노출 버그 수정).
+REPORT_QUARTER = {"11013": "1Q", "11012": "2Q", "11014": "3Q", "11011": "4Q"}
+
 
 def report_period(report_nm: str, rcept_dt: str) -> str:
     """공시명에서 기간 버킷 추출 — anchor_key 용. 예: '분기보고서 (2026.03)' → 2026-1Q."""
@@ -45,7 +49,8 @@ def fetch_earnings_anchors(api_key: str, corp_code: str, year: str) -> list[dict
                 except (KeyError, ValueError):
                     continue
                 anchors.append({"metric": nm, "value": round(val / 1e8, 1), "unit": "억원",
-                                "period": f"{year}-{code}", "source": "DART", "prev": None})
+                                "period": f"{year}-{REPORT_QUARTER[code]}", "source": "DART",
+                                "prev": None})
         if anchors:
             break
     return anchors[:4]

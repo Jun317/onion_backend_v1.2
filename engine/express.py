@@ -55,11 +55,25 @@ def process_event(conn: sqlite3.Connection, event: dict) -> str | None:
              now, now, ak))
 
     for a in event.get("anchors", []):
-        conn.execute(
-            "INSERT INTO numeric_anchor(issue_id,entity,metric,value,unit,period,source,"
-            "trust,prev,observed_at) VALUES(?,?,?,?,?,?,?,?,?,?)",
-            (iid, a.get("entity", ""), a.get("metric", ""), a.get("value"), a.get("unit", ""),
-             a.get("period", ""), a.get("source", ""), "official", a.get("prev"), now))
+        # 같은 (entity|metric|period) 앵커는 UPSERT — 정정 공시([기재정정] 등)가 별도
+        # rcept_no 로 와도 중복 누적하지 않고 최신 값으로 갱신한다.
+        existing = conn.execute(
+            "SELECT id FROM numeric_anchor WHERE issue_id=? AND entity=? AND metric=? "
+            "AND period=?",
+            (iid, a.get("entity", ""), a.get("metric", ""), a.get("period", ""))).fetchone()
+        if existing:
+            conn.execute(
+                "UPDATE numeric_anchor SET value=?, unit=?, source=?, prev=?, observed_at=? "
+                "WHERE id=?",
+                (a.get("value"), a.get("unit", ""), a.get("source", ""), a.get("prev"), now,
+                 existing["id"]))
+        else:
+            conn.execute(
+                "INSERT INTO numeric_anchor(issue_id,entity,metric,value,unit,period,source,"
+                "trust,prev,observed_at) VALUES(?,?,?,?,?,?,?,?,?,?)",
+                (iid, a.get("entity", ""), a.get("metric", ""), a.get("value"),
+                 a.get("unit", ""), a.get("period", ""), a.get("source", ""), "official",
+                 a.get("prev"), now))
 
     tl = event.get("timeline")
     if tl:

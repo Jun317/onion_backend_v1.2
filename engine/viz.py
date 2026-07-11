@@ -117,15 +117,17 @@ def _kospi_series(months: int) -> list[dict]:
 def _earnings_groups(conn: sqlite3.Connection, issue_id: str) -> list[dict]:
     rows = conn.execute(
         "SELECT metric, value, unit, period FROM numeric_anchor WHERE issue_id=? "
-        "ORDER BY period", (issue_id,)).fetchall()
-    groups: dict[str, list[dict]] = {}
+        "ORDER BY period, id", (issue_id,)).fetchall()
+    # 같은 (metric, period) 중복은 마지막(최신 id) 값만 — 정정 공시 잔재 방어
+    points: dict[str, dict[str, float]] = {}
     unit = ""
     for r in rows:
         if r["metric"] in ("변동폭",):
             continue
-        groups.setdefault(r["metric"], []).append({"t": r["period"], "v": r["value"]})
+        points.setdefault(r["metric"], {})[r["period"]] = r["value"]
         unit = r["unit"] or unit
-    return [{"name": m, "series": s[-4:], "unit": unit} for m, s in groups.items()]
+    return [{"name": m, "series": [{"t": t, "v": v} for t, v in list(s.items())[-4:]],
+             "unit": unit} for m, s in points.items()]
 
 
 # --- 메인 --------------------------------------------------------------------

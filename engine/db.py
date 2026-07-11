@@ -115,6 +115,23 @@ def _migrate(conn: sqlite3.Connection) -> None:
         if col not in cols:
             conn.execute(f"ALTER TABLE {table} ADD COLUMN {coldef}")
 
+    # 일회성 데이터 정리 (dart.py period 버그 + express.py 중복 append 시절의 잔재)
+    if not conn.execute("SELECT 1 FROM meta WHERE key='migr_anchor_dedup'").fetchone():
+        # ① 보고서 코드가 섞인 period 정규화: "2025-11013" → "2025-1Q" (collectors/dart.py 참고)
+        conn.execute(
+            "UPDATE numeric_anchor SET period = substr(period,1,4) || '-' || "
+            "CASE substr(period,6) WHEN '11013' THEN '1Q' WHEN '11012' THEN '2Q' "
+            "WHEN '11014' THEN '3Q' WHEN '11011' THEN '4Q' END "
+            "WHERE length(period)=10 AND substr(period,5,1)='-' "
+            "AND substr(period,6) IN ('11013','11012','11014','11011')")
+        # ② 같은 (issue, entity, metric, period) 는 마지막(최신) 1건만 — 정정 공시 중복 제거
+        conn.execute(
+            "DELETE FROM numeric_anchor WHERE id NOT IN ("
+            " SELECT MAX(id) FROM numeric_anchor GROUP BY issue_id, entity, metric, period)")
+        # ③ 중복점·비정형 period 가 이미 구워진 실적 차트 캐시 무효화
+        conn.execute("DELETE FROM viz_cache WHERE cache_key LIKE 'earnings_quarterly:%'")
+        conn.execute("INSERT INTO meta(key,value) VALUES('migr_anchor_dedup','1')")
+
 
 def connect(path: str | Path | None = None) -> sqlite3.Connection:
     p = Path(path) if path else ROOT / "engine.db"
