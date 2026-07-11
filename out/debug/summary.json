@@ -1,9 +1,46 @@
 {
- "generated_at": "2026-07-11T19:41:03.060059+00:00",
+ "generated_at": "2026-07-11T21:11:46.231933+00:00",
  "run_history": [
   {
    "kind": "pipeline",
-   "at": "2026-07-11T19:41:03.060035+00:00",
+   "at": "2026-07-11T21:11:46.231922+00:00",
+   "ok": true,
+   "stats": {
+    "raw_loaded": 414,
+    "inserted": 0,
+    "near_dups": 0,
+    "express": 0,
+    "embedded": 0,
+    "express_centroids": 0,
+    "assign": {
+     "joined": 0,
+     "held": 0,
+     "pooled": 8
+    },
+    "seeded": 0,
+    "promoted": 0,
+    "classified": 0,
+    "merged": 0,
+    "lifecycle": {
+     "stale": 0,
+     "archived": 0
+    },
+    "importance": 60,
+    "llm": {
+     "generated": 0,
+     "cached": 35,
+     "template": 0,
+     "deferred": 0
+    },
+    "export": {
+     "issues": 35,
+     "removed": 0
+    }
+   }
+  },
+  {
+   "kind": "pipeline",
+   "at": "2026-07-11T19:41:03.125968+00:00",
    "ok": true,
    "stats": {
     "raw_loaded": 414,
@@ -35,8 +72,15 @@
     "export": {
      "issues": 35,
      "removed": 0
-    }
-   }
+    },
+    "export_debug": {
+     "issues": 71,
+     "removed": 0,
+     "reviews": 26
+    },
+    "pruned": 0
+   },
+   "error": ""
   },
   {
    "kind": "pipeline",
@@ -867,50 +911,6 @@
     },
     "export_debug": {
      "issues": 67,
-     "removed": 0,
-     "reviews": 22
-    },
-    "pruned": 0
-   },
-   "error": ""
-  },
-  {
-   "kind": "pipeline",
-   "at": "2026-07-09T20:14:42.378618+00:00",
-   "ok": true,
-   "stats": {
-    "raw_loaded": 332,
-    "inserted": 65,
-    "near_dups": 5,
-    "express": 0,
-    "embedded": 65,
-    "express_centroids": 0,
-    "assign": {
-     "joined": 65,
-     "held": 0,
-     "pooled": 9
-    },
-    "seeded": 0,
-    "promoted": 0,
-    "classified": 0,
-    "merged": 0,
-    "lifecycle": {
-     "stale": 0,
-     "archived": 0
-    },
-    "importance": 55,
-    "llm": {
-     "generated": 1,
-     "cached": 28,
-     "template": 4,
-     "deferred": 0
-    },
-    "export": {
-     "issues": 33,
-     "removed": 0
-    },
-    "export_debug": {
-     "issues": 66,
      "removed": 0,
      "reviews": 22
     },
