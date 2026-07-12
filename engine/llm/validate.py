@@ -1,6 +1,7 @@
 """LLM 출력 검증 체인 (설계서 §6-4).
 
 JSON 파스 → 스키마·길이·어미 정규식 → 숫자 대조(환각 차단) → 금지어 → 실패 목록 반환.
+glossary 는 소프트 검증: 위반 항목만 조용히 드롭하고 재생성 사유로 삼지 않는다.
 """
 from __future__ import annotations
 
@@ -12,18 +13,8 @@ from ..util.textnum import extract_numbers
 
 DETAIL_RE = re.compile(r"(요|에요|예요)\s*[.!]?\s*$")
 EFFECT_RE = re.compile(r"!\s*$")
-_TRAIL_RE = re.compile(r"[\s.!?…'\"]+$")
 
-
-def is_eumseumche(text: str) -> bool:
-    """음슴체 판정 — 마지막 음절의 종성이 ㅁ (함/됨/임/감/옴 …. 설계서 예시 '내려감' 허용)."""
-    t = _TRAIL_RE.sub("", text or "")
-    if not t:
-        return False
-    ch = ord(t[-1])
-    if not (0xAC00 <= ch <= 0xD7A3):
-        return False
-    return (ch - 0xAC00) % 28 == 16  # 종성 인덱스 16 = ㅁ
+GLOSSARY_MAX = 4
 
 
 def allowed_numbers(payload: dict) -> set[float]:
@@ -56,6 +47,47 @@ def parse_output(text: str) -> dict | None:
     return None
 
 
+def clean_glossary(out: dict) -> None:
+    """glossary 소프트 검증 — 형식·환각 위반 항목만 드롭하고 out 을 제자리 정리.
+
+    유지 기준: term 이 본문(title/one_liner/why_now/details)에 실제 등장,
+    easy 필수(≤50자·해요체·하드워드 금지), example ≤50자(초과 시 비움).
+    숫자환각·금지어 검사 대상이 아니므로 "1bp는 0.01%예요" 같은 환산 해설도 허용된다.
+    """
+    raw = out.get("glossary") if isinstance(out, dict) else None
+    if not isinstance(raw, list):
+        out["glossary"] = []
+        return
+    body = " ".join(
+        [str(out.get("title", "")), str(out.get("one_liner", "")), str(out.get("why_now", ""))]
+        + [str(d) for d in out.get("details") or []]).lower()
+    hard = cfg().get("glossary_hard_words", []) or []
+    cleaned: list[dict] = []
+    seen: set[str] = set()
+    for g in raw:
+        if not isinstance(g, dict):
+            continue
+        term = str(g.get("term") or "").strip()
+        easy = str(g.get("easy") or "").strip()
+        example = str(g.get("example") or "").strip()
+        key = term.lower()
+        if not term or not easy or key in seen:
+            continue
+        if key not in body:  # 본문에 없는 용어 = 환각 → 드롭
+            continue
+        if len(easy) > 50 or not DETAIL_RE.search(easy):
+            continue
+        if any(h in easy for h in hard):  # 해설 안에 또 다른 전문용어 금지
+            continue
+        if len(example) > 50:
+            example = ""
+        cleaned.append({"term": term, "easy": easy, "example": example})
+        seen.add(key)
+        if len(cleaned) >= GLOSSARY_MAX:
+            break
+    out["glossary"] = cleaned
+
+
 def validate(out: dict, payload: dict, allowed_viz: list[str]) -> list[str]:
     """검증 실패 사유 목록 (빈 리스트 = 통과)."""
     errors: list[str] = []
@@ -73,10 +105,10 @@ def validate(out: dict, payload: dict, allowed_viz: list[str]) -> list[str]:
         errors.append("one_liner 누락")
     else:
         ol = ol.strip()
-        if len(ol) > 45:
-            errors.append(f"one_liner 45자 초과({len(ol)})")
-        if not is_eumseumche(ol):
-            errors.append("one_liner 음슴체(함/됨/임) 아님")
+        if len(ol) > 50:
+            errors.append(f"one_liner 50자 초과({len(ol)})")
+        if not DETAIL_RE.search(ol):
+            errors.append("one_liner 해요체 아님")
 
     why = out.get("why_now")
     if not isinstance(why, str) or not why.strip():
@@ -89,15 +121,15 @@ def validate(out: dict, payload: dict, allowed_viz: list[str]) -> list[str]:
             errors.append("why_now 어요체 아님")
 
     details = out.get("details")
-    if not isinstance(details, list) or not (3 <= len(details) <= 5):
-        errors.append("details 3~5문장 아님")
+    if not isinstance(details, list) or not (4 <= len(details) <= 6):
+        errors.append("details 4~6문장 아님")
     else:
         for i, d in enumerate(details):
             if not isinstance(d, str):
                 errors.append(f"details[{i}] 문자열 아님")
                 continue
-            if len(d.strip()) > 45:
-                errors.append(f"details[{i}] 45자 초과")
+            if len(d.strip()) > 55:
+                errors.append(f"details[{i}] 55자 초과")
             if not DETAIL_RE.search(d.strip()):
                 errors.append(f"details[{i}] 어요체 아님")
 
@@ -113,7 +145,8 @@ def validate(out: dict, payload: dict, allowed_viz: list[str]) -> list[str]:
             if not isinstance(e, str) or not EFFECT_RE.search(e.strip()):
                 errors.append(f"effects[{i}] 느낌표 종결 아님")
 
-    # 숫자 대조 — 출력의 모든 수치가 입력(+파생값)에 존재해야 함
+    # 숫자 대조 — 출력의 모든 수치가 입력(+파생값)에 존재해야 함.
+    # glossary 는 제외: 해설 특성상 환산·비유 숫자("1bp는 0.01%예요")가 필요하다.
     allowed = allowed_numbers(payload)
     out_text = " ".join([str(out.get("title", "")), str(out.get("one_liner", "")),
                          str(out.get("why_now", ""))]
@@ -126,5 +159,8 @@ def validate(out: dict, payload: dict, allowed_viz: list[str]) -> list[str]:
     for phrase in cfg()["llm"]["banned_phrases"]:
         if phrase in out_text:
             errors.append(f"금지어: {phrase}")
+
+    # glossary 는 소프트 정리 — 통과/실패와 무관하게 저장 전 형태를 보증
+    clean_glossary(out)
 
     return errors

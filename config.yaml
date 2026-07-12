@@ -120,6 +120,9 @@ collect:
       usdkrw:    { stat: "731Y001", item: "0000001", cycle: D, express: null }
       cpi:       { stat: "901Y009", item: "0",       cycle: M, express: MACRO, entity: KR }
   gov_rss:
+    # 공지성 글(행사·인사·모집 등) 수집 차단 — 읽어서 얻을 게 없는 이슈의 원료를 차단.
+    # 제목이 이 패턴과 일치하면 수집 단계에서 제외한다.
+    exclude_regex: "(개최|행사|안내|모집|공모|채용|시상|수상|기념식|기념행사|포럼|세미나|간담회|워크숍|설명회|박람회|축사|기고|말씀|인사말|담화문|임명|위촉|인사발령|MOU|업무협약|캠페인|봉사|체험|공휴일|휴무)"
     # ★ 사이트 개편으로 자주 바뀜 — 사용자가 실제 URL 확인 필요 (README §사용자작업)
     feeds:
       - { source: 기획재정부,   url: "https://www.moef.go.kr/com/detailRssTagService.do?bbsId=MOSFBBS_000000000028", lang: ko }

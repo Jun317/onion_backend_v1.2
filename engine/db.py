@@ -72,7 +72,8 @@ CREATE TABLE IF NOT EXISTS llm_output(
   raw_response TEXT,                -- LLM 원시 응답 (진단)
   validation_json TEXT,             -- 시도별 검증 오류 이력 (진단, [] = 1회 통과)
   title TEXT,                       -- 짧고 직관적인 이슈 제목 (one_liner 와 구분)
-  why_now TEXT                      -- 왜 지금 중요한지 (배경지식 없는 사용자용)
+  why_now TEXT,                     -- 왜 지금 중요한지 (배경지식 없는 사용자용)
+  glossary_json TEXT                -- LLM 생성 용어 해설 [{term,easy,example}] (정적 사전 보완)
 );
 
 -- 운영 보조 (설계서 DDL 외 최소 추가) --------------------------------------
@@ -105,6 +106,7 @@ _MIGRATIONS = [
     ("llm_output", "validation_json TEXT"),
     ("llm_output", "title TEXT"),
     ("llm_output", "why_now TEXT"),
+    ("llm_output", "glossary_json TEXT"),
 ]
 
 
