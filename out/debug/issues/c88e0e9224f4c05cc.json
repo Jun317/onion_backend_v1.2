@@ -73,8 +73,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-12T21:17:38.895569+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-12T22:16:28.096067+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -85,26 +85,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"반도체 관련 상품 위험 경고\",\n  \"one_liner\": \"한국은행이 삼성전자와 SK하이닉스 관련 상품의 위험성을 경고했어요.\",\n  \"why_now\": \"반도체 관련 상품은 가격 변동이 커서 투자에 주의가 필요해요.\",\n  \"details\": [\n    \"삼성전자와 SK하이닉스가 최근 주가가 크게 올랐어요.\",\n    \"이들 기업의 주가를 따라 움직이는 상품(ETF)의 위험성이 커졌어요.\",\n    \"SK하이닉스는 내년도 고성능 메모리(HBM) 물량이 거의 다 팔렸어요.\",\n    \"반도체 업황 개선 기대감으로 코스피 지수도 올랐어요.\"\n  ],\n  \"visual_type\": \"kospi_close\",\n  \"effects\": [\n    \"반도체 관련 상품 투자 시 신중해야 할 수 있어요!\",\n    \"주가 변동성이 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"ETF\",\n      \"easy\": \"여러 주식을 모아 하나의 상품으로 만든 것이에요. 주식처럼 사고팔 수 있어요.\",\n      \"example\": \"반도체 ETF를 사면 여러 반도체 회사 주식을 한 번에 사는 효과가 있어요.\"\n    },\n    {\n      \"term\": \"HBM\",\n      \"easy\": \"인공지능(AI) 연산에 필요한 고성능 메모리 반도체예요.\",\n      \"example\": \"AI 성능을 높이려면 HBM 같은 고성능 메모리가 필수적이에요.\"\n    },\n    {\n      \"term\": \"코스피\",\n      \"easy\": \"한국 증권거래소에 상장된 회사들의 주가를 종합적으로 나타내는 지수예요.\",\n      \"example\": \"코스피 지수가 오르면 한국 경제 전반이 좋다고 볼 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Bank of Korea warns…",
-   "one_liner": "Bank of Korea warns Samsung , SK Hynix leveraged…",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "반도체 관련 상품 위험 경고",
+   "one_liner": "한국은행이 삼성전자와 SK하이닉스 관련 상품의 위험성을 경고했어요.",
+   "why_now": "반도체 관련 상품은 가격 변동이 커서 투자에 주의가 필요해요.",
    "details": [
-    "Bank of Korea warns Samsung , SK Hynix leveraged ETFs risk volatility",
-    "삼성전자·SK하이닉스 신고가 행진…반도체가 이끈 코스피 강세",
-    "SK하이닉스, 내년 HBM 공급 물량 사실상 완판"
+    "삼성전자와 SK하이닉스가 최근 주가가 크게 올랐어요.",
+    "이들 기업의 주가를 따라 움직이는 상품(ETF)의 위험성이 커졌어요.",
+    "SK하이닉스는 내년도 고성능 메모리(HBM) 물량이 거의 다 팔렸어요.",
+    "반도체 업황 개선 기대감으로 코스피 지수도 올랐어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "반도체 관련 상품 투자 시 신중해야 할 수 있어요!",
+    "주가 변동성이 커질 수 있어요!"
+   ],
+   "visual_type": "kospi_close"
   },
   "fact_hash": "055769d8b4a05a19ba8230f94d360c36cc6586c2"
  },
@@ -114,14 +116,19 @@
  },
  "glossary": [
   {
-   "term": "코스피",
-   "easy": "한국 대표 기업들의 주가를 묶어 보여주는 값이에요.",
-   "example": "오르면 큰 기업 주가가 대체로 올랐다는 뜻이에요."
+   "term": "한국은행",
+   "easy": "우리나라 돈을 관리하는 중앙은행이에요.",
+   "example": "한국 기준금리를 여기서 정해요."
   },
   {
    "term": "HBM",
    "easy": "AI에 쓰이는 아주 빠른 고급 메모리 반도체예요.",
    "example": "삼성전자·SK하이닉스가 주력으로 만들어요."
+  },
+  {
+   "term": "코스피",
+   "easy": "한국 대표 기업들의 주가를 묶어 보여주는 값이에요.",
+   "example": "오르면 큰 기업 주가가 대체로 올랐다는 뜻이에요."
   }
  ],
  "related": [
