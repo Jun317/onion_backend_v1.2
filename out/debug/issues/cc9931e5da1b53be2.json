@@ -71,7 +71,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-12T17:31:50.643119+00:00",
+  "created_at": "2026-07-12T19:38:17.221762+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -82,18 +82,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"일본 중앙은행 금리 동결\",\n\"one_liner\": \"일본 중앙은행이 금리를 동결하며 0.1%를 유지했어요.\",\n\"why_now\": \"금리가 오르면 돈을 빌리는 비용이 늘어나 기업 투자나 가계 소비가 줄어들 수 있어요.\",\n\"details\": [\n\"일본 중앙은행이 금리를 동결했어요.\",\n\"현재 기준금리는 0.1%예요.\",\n\"이번 결정은 시장 예상과 같았어요.\",\n\"일부 위원들은 금리 인상을 지지했지만, 더 많은 근거를 원했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"엔화 가치가 약세를 보일 수 있어요!\",\n\"주식 시장은 기술주 중심으로 상승할 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"BOJ\",\n\"easy\": \"일본 중앙은행을 뜻하는 약어예요.\",\n\"example\": \"BOJ의 결정은 일본 경제에 큰 영향을 미쳐요.\"\n},\n{\n\"term\": \"엔화\",\n\"easy\": \"일본의 공식 화폐 단위예요.\",\n\"example\": \"엔화 가치가 떨어지면 일본에서 물건을 사기가 더 비싸져요.\"\n}\n]\n}",
+  "raw_response": "{\n  \"title\": \"일본 금리 인상\",\n   \"one_liner\": \"일본 중앙은행이 금리를 올렸어요\",\n   \"why_now\": \"금리를 올리면 물가가 오르는 걸 막을 수 있어요\",\n   \"details\": [\n       \"일본 중앙은행이 금리를 인상했어요\",\n       \"일본은행의 금리 결정에 일부 위원들이 반대했어요\",\n       \"반대하는 위원들은 물가 상승이 더 필요하다고 생각해요\"\n   ],\n   \"visual_type\": \"us_policy_rate\",\n   \"effects\": [\n       \"일본의 금리 인상이 세계 금융 시장에 영향을 줄 수 있어요!\",\n       \"일본 경제에 미칠 영향은 아직 불투명해요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"금리 인상\",\n           \"easy\": \"은행이 돈을 빌려줄 때 받는 이자율을 올리는 거예요\",\n           \"example\": \"금리 인상하면 대출이 더 어려워질 수 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
      "details 4~6문장 아님"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "입력에 없는 숫자: [0.1]"
+     "details 4~6문장 아님"
     ]
    }
   ],
@@ -112,8 +112,8 @@
   "fact_hash": "69788663639e64c266a5babef8ab2fbcaa8c1782"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [0.1]\"]}]}",
-  "at": "2026-07-12T17:31:50.643018+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
+  "at": "2026-07-12T19:38:17.221625+00:00"
  },
  "glossary": [],
  "related": [
