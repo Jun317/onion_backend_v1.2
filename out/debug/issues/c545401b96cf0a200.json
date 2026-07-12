@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-12T15:44:20.103378+00:00",
+  "created_at": "2026-07-12T17:36:57.625284+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,20 +64,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"퀄컴 주가 하락\",\n   \"one_liner\": \"퀄컴 주가가 1.9% 내렸어요\",\n   \"why_now\": \"주가가 떨어지면 투자자들이 손해를 볼 수 있어요\",\n   \"details\": [\n       \"퀄컴 주가가 1.9% 하락했어요\",\n       \"퀄컴은 미국의 반도체 회사예요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"투자자들의 관심이 줄어들 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "details 4~6문장 아님",
-     "입력에 없는 숫자: [1.9]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 4~6문장 아님",
-     "입력에 없는 숫자: [1.9]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -95,8 +87,8 @@
   "fact_hash": "e158eb51eb667e5d4f140a5607a5f1253dcaaa84"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\", \"입력에 없는 숫자: [1.9]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\", \"입력에 없는 숫자: [1.9]\"]}]}",
-  "at": "2026-07-12T15:44:20.103325+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-12T17:36:57.625218+00:00"
  },
  "glossary": [],
  "related": [

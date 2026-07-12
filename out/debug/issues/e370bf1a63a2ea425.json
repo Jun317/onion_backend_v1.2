@@ -74,7 +74,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-12T15:40:57.060274+00:00",
+  "created_at": "2026-07-12T17:34:49.922407+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [
@@ -111,18 +111,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"한국 물가\",\n   \"one_liner\": \"한국의 물가가 조금 올랐어요\",\n   \"why_now\": \"물가가 오르면 물건을 살 때 더 많은 돈을 내야 해요\",\n   \"details\": [\n      \"한국의 물가는 조금 올랐어요\",\n      \"이전보다 조금 높아요\",\n      \"계속 오르는 중이에요\"\n   ],\n   \"visual_type\": \"kr_cpi_yoy\",\n   \"effects\": [\n      \"물건을 살 때 더 많은 돈을 내야 할 수 있어요!\",\n      \"생활비가 부담이 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "details 4~6문장 아님"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 4~6문장 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -141,8 +135,8 @@
   "fact_hash": "f319983aef04d244b90040b38722983af2b1e884"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
-  "at": "2026-07-12T15:40:57.060228+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-12T17:34:49.922342+00:00"
  },
  "glossary": [
   {

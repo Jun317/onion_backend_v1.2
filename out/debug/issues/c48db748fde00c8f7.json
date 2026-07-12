@@ -10,7 +10,7 @@
   "WMT"
  ],
  "seen_sources": 5,
- "importance": 125,
+ "importance": 120,
  "created_at": "2026-07-08T00:19:07.470951+00:00",
  "last_update": "2026-07-10T17:14:55.424623+00:00",
  "members": [
@@ -105,7 +105,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-12T15:33:19.440271+00:00",
+  "created_at": "2026-07-12T17:32:15.191341+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -118,10 +118,10 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"월마트 가격 인하\",\n   \"one_liner\": \"월마트가 수천 가지 물건의 가격을 내렸어요\",\n   \"why_now\": \"가격이 내리면 소비자들이 더 많이 खरीद을 수 있어요\",\n   \"details\": [\n       \"월마트가 식료품과 가구용품 가격을 내렸어요\",\n       \"가격 인하는 소비자들에게 도움이 될 수 있어요\",\n       \"월마트는 더 많은 고객을 끌어들이고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"소비자들이 더 많이 खरीद을 수 있을 것으로 예상돼요!\",\n       \"他の 소매업체들이 가격을 내릴 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"월마트 가격 인하\",\n   \"one_liner\": \"월마트가 수천 가지 상품 가격을 내렸어요\",\n   \"why_now\": \"가격이 내리면 소비자가 물건을 더 많이 살 수 있어요\",\n   \"details\": [\n       \"월마트가 쇠고기, 소다, 생활용품 등 가격을 내렸어요\",\n       \"월마트의 가격 인하는 수천 가지 상품에 영향을 미쳤어요\",\n       \"월마트의 결정은 소비자에게 도움이 될 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"소비자 물가 부담이 줄어들 것으로 예상돼요!\",\n       \"他の 소매 업체도 가격을 내릴 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
      "details 4~6문장 아님"
     ]
@@ -148,8 +148,8 @@
   "fact_hash": "d8e3b270f52f0557b21b68ef656ada051f58f181"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
-  "at": "2026-07-12T15:33:19.440174+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
+  "at": "2026-07-12T17:32:15.191242+00:00"
  },
  "glossary": [],
  "related": [

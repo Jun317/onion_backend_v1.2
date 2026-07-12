@@ -38,7 +38,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-12T15:47:21.996672+00:00",
+  "created_at": "2026-07-12T17:39:48.058138+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [
@@ -57,20 +57,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 첨단 반도체 관세\",\n   \"one_liner\": \"미국이 첨단 반도체에 25%의 관세를 부과했어요\",\n   \"why_now\": \"이런 정책이เศรษฐ성에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"미국이 첨단 반도체에 25%의 관세를 부과했어요\",\n       \"첨단 반도체에 대한 관세가 발효되었어요\",\n       \"미국이 이 정책을 시행한 이유는 경제 보호를 위해서예요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국과 다른 나라의 경제 관계에 영향을 줄 수 있어요\",\n       \"첨단 기술 산업에 변화가 생길 수 있어요\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"관세\",\n           \"easy\": \"외국에서 들어오는 물건에 부과하는 세예요\",\n           \"example\": \"외국에서 수입한 물건의 가격이 관세 때문에 올라갈 수 있어요\"\n       }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "details 4~6문장 아님"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 4~6문장 아님",
-     "effects[0] 느낌표 종결 아님",
-     "effects[1] 느낌표 종결 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -87,8 +79,8 @@
   "fact_hash": "1bbf5fd67302e01529d1f7e2a4f05449d2badac7"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\", \"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\"]}]}",
-  "at": "2026-07-12T15:47:21.996599+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-12T17:39:48.058078+00:00"
  },
  "glossary": [
   {
