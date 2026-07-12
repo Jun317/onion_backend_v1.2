@@ -51,9 +51,23 @@ def template_output(payload: dict) -> dict:
         details.append(line.strip())
     if not details:
         details = [h for h in payload.get("headlines", [])[:3]]
+    # 제목: 영어 헤드라인 절단 대신 anchor 기반 한국어 조립 우선 (번역 안 된 제목 방지).
+    # 헤드라인 절단은 anchor 가 없을 때의 최후 수단.
     head = (payload.get("headlines") or ["새 소식"])[0]
+    usable = [a for a in payload.get("anchors", [])
+              if a.get("value") is not None and a.get("metric") != "변동폭"]
+    if usable:
+        a = usable[0]
+        ent, met, unit = a.get("entity", ""), a.get("metric", ""), a.get("unit", "")
+        title = _clip(f"{ent} {met} {a['value']}{unit}".strip(), 22)
+        if a.get("prev") is not None:
+            one_liner = _clip(f"{ent} {met} {a['prev']}{unit} → {a['value']}{unit}".strip(), 45)
+        else:
+            one_liner = _clip(f"{ent} {met} {a['value']}{unit} 발표됨".strip(), 45)
+    else:
+        title, one_liner = _clip(head, 22), _clip(head, 45)
     allowed = allowed_for_category(payload.get("category", "ETC"))
-    return {"title": _clip(head, 22), "one_liner": _clip(head, 45),
+    return {"title": title, "one_liner": one_liner,
             "why_now": "공식 발표 내용을 정리했어요.", "details": details[:5],
             "visual_type": allowed[0] if allowed else "none", "effects": []}
 
@@ -97,9 +111,11 @@ def process_all(conn: sqlite3.Connection, client: LlmClient) -> dict:
     for issue in _issues_needing_llm(conn):
         payload = build_payload(conn, issue)
         fh = fact_hash(payload)
-        existing = conn.execute("SELECT fact_hash FROM llm_output WHERE issue_id=?",
+        existing = conn.execute("SELECT fact_hash, model FROM llm_output WHERE issue_id=?",
                                 (issue["id"],)).fetchone()
-        if existing and existing["fact_hash"] == fh:
+        # 템플릿 폴백은 캐시로 인정하지 않는다 — 사실관계가 안 바뀌어도 매 사이클 LLM 재시도.
+        # (영어/잘린 제목이 fact_hash 캐시에 갇혀 영구 잔존하던 문제 해결. 일일 캡이 비용 상한)
+        if existing and existing["fact_hash"] == fh and existing["model"] != "template":
             conn.execute("UPDATE issue SET fact_hash=? WHERE id=?", (fh, issue["id"]))
             stats["cached"] += 1
             continue

@@ -46,6 +46,26 @@ def test_validation_failure_falls_back_to_template(conn):
     assert conn.execute("SELECT COUNT(*) FROM review_queue").fetchone()[0] == 1
 
 
+def test_template_is_retried_next_cycle(conn):
+    """템플릿 폴백은 캐시로 안 잡힘 — 다음 사이클에 LLM 이 성공하면 교체된다."""
+    _published_issue(conn)
+    process_all(conn, FakeLlm(mode="invalid_json"))   # → template
+    s = process_all(conn, FakeLlm())                  # 사실관계 불변이어도 재시도
+    assert s["generated"] == 1 and s["cached"] == 0
+    row = conn.execute("SELECT model FROM llm_output WHERE issue_id='i1'").fetchone()
+    assert row["model"] == "fake"
+
+
+def test_template_title_assembled_in_korean():
+    """anchor 가 있으면 영어 헤드라인 절단 대신 한국어 기계 조립."""
+    out = template_output({"category": "RATE",
+                           "anchors": [{"entity": "한국은행", "metric": "기준금리",
+                                        "value": 3.0, "unit": "%", "prev": 3.25}],
+                           "headlines": ["BOK cuts rates by 25bp in surprise move"]})
+    assert out["title"] == "한국은행 기준금리 3.0%"
+    assert out["one_liner"] == "한국은행 기준금리 3.25% → 3.0%"
+
+
 def test_daily_cap_defers(conn):
     _published_issue(conn)
     from datetime import datetime, timezone
