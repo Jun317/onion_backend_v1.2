@@ -48,8 +48,8 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-05T10:45:02.268088+00:00",
+  "model": "template",
+  "created_at": "2026-07-12T15:49:35.166446+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [
@@ -77,31 +77,32 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"one_liner\": \"코스피가 최고치로 올랐음\",\n   \"details\": [\n       \"코스피 종가는 8471pt로 마감했어요.\",\n       \"코스피는 3.26% 상승했어요.\",\n       \"코스피가 사상 최고치를 기록했어요.\"\n   ],\n   \"visual_type\": \"kospi_close\",\n   \"effects\": [\n       \"투자자들의 기대가 높아질 수 있어요!\",\n       \"시장 전반적인 분위기가 좋을 것으로 예상돼요!\"\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": null,
-   "one_liner": "코스피가 최고치로 올랐음",
-   "why_now": null,
+   "title": "KR 코스피 종가 8471.0pt",
+   "one_liner": "KR 코스피 종가 8471.0pt로 발표됐어요",
+   "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
-    "코스피 종가는 8471pt로 마감했어요.",
-    "코스피는 3.26% 상승했어요.",
-    "코스피가 사상 최고치를 기록했어요."
+    "KR 코스피 종가: 8471.0pt",
+    "KR 일일 상승률: 3.26%"
    ],
-   "effects": [
-    "투자자들의 기대가 높아질 수 있어요!",
-    "시장 전반적인 분위기가 좋을 것으로 예상돼요!"
-   ],
-   "visual_type": "kospi_close"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "d10ae8ff5ead17e99a94a41bb1c1e007714fccd6"
+  "fact_hash": "cecf852d7fff62a67b5093b9df52f26c0bb2c4dc"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-12T15:49:35.166385+00:00"
+ },
  "glossary": [
   {
    "term": "코스피",

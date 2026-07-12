@@ -106,7 +106,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-10T22:34:17.113658+00:00",
+  "created_at": "2026-07-12T15:38:40.494167+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -119,24 +119,24 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"원유 가격 상승\",\n   \"one_liner\": \"이란과 관련한 긴장으로 원유 가격이 올랐어요.\",\n   \"why_now\": \"원유 가격이 오르면 에너지 회사에 좋은 영향을 줄 수 있어요.\",\n   \"details\": [\n      \"이란과 관련한 긴장으로 원유 가격이 올랐어요.\",\n      \"에너지 회사 주가에 긍정적인 영향을 줄 수 있어요.\",\n      \"체번과 엑슨모빌 같은 회사 주가가 오르는 중이에요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"에너지 회사 주가가 더 오를 수 있어요!\",\n      \"에너지 수입에 영향을 받는 산업에 영향을 줄 수 있어요!\"\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"석유株 상승\",\n   \"one_liner\": \"이란과 관련한 긴장이 높아지면서 석유 주가가 올랐어요\",\n   \"why_now\": \"석유값이 오르면 석유株도 따라 오르는 게 보통이에요\",\n   \"details\": [\n       \"이란과 관련한 긴장이 다시 높아지고 있어요\",\n       \"체버론과 엑손모빌 주가가 상승하고 있어요\",\n       \"엑손모빌은 이번 분기 실적이 좋을 것으로 기대돼요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"석유값이 더 오를 가능성이 있어요!\",\n       \"관련 주가가 더 상승할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님"
+     "details 4~6문장 아님"
     ]
    },
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님"
+     "details 4~6문장 아님"
     ]
    }
   ],
   "output": {
-   "title": "With Iran Tensions Hea",
-   "one_liner": "With Iran Tensions Heating Up Again , Chevron",
+   "title": "With Iran Tensions…",
+   "one_liner": "With Iran Tensions Heating Up Again , Chevron…",
    "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
     "With Iran Tensions Heating Up Again , Chevron Stock Looks Enticing",
@@ -146,11 +146,11 @@
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "a9221b3f8592f4bbcffaf610802677a5fc1e971a"
+  "fact_hash": "c97a6472852a62ad19dab4aca51456fb49c23073"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}]}",
-  "at": "2026-07-10T22:34:17.113601+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
+  "at": "2026-07-12T15:38:40.494114+00:00"
  },
  "glossary": [],
  "related": [

@@ -410,8 +410,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-10T22:30:33.090627+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-12T15:34:26.832053+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -424,35 +424,30 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"IMF, 세계 경제 성장 전망 하향\", \"one_liner\": \"IMF가 2026년 세계 경제 성장 전망치를 3%로 낮췄어요.\", \"why_now\": \"세계 경제 성장 전망 하향은 경기 침체 가능성을 높여 투자와 소비에 영향을 줄 수 있어요.\", \"details\": [\"IMF는 중동 지역의 불안정한 상황을 주요 원인으로 꼽았어요.\", \"IMF는 파키스탄의 성장 전망치를 3.5~3.7%로 낮췄어요.\", \"IMF는 호주 경제 성장 전망도 낮췄어요.\"], \"visual_type\": \"none\", \"effects\": [\"세계 경제 성장 둔화 우려가 커질 수 있어요!\", \"국제 유가 등 원자재 가격 변동성이 커질 수 있어요!\"]}",
+  "raw_response": "{\n  \"title\": \"국제통화기금 성장률 전망 하향\",\n   \"one_liner\": \"국제통화기금이 세계 경제 성장률 전망을 내렸어요.\",\n   \"why_now\": \"성장률이 낮아지면 경제가 더 느리게 발전하는 거예요.\",\n   \"details\": [\n      \"국제통화기금은 2026년 세계 성장률을 3%로 낮췄어요.\",\n      \"이전보다 성장률이 낮아졌어요.\",\n      \"중동의 위험으로 성장률이 낮아진 거예요.\",\n      \"각국 성장률도 낮췄어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"경제 성장 속도가 더 느려질 것으로 예상돼요!\",\n      \"기업의 수익도 영향을 받을 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 음슴체(함/됨/임) 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 음슴체(함/됨/임) 아님",
-     "입력에 없는 숫자: [3.5, 3.7]"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "ADB , IMF Cut Pakistan",
-   "one_liner": "ADB , IMF Cut Pakistan Growth Forecasts to 3 ",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "국제통화기금 성장률 전망 하향",
+   "one_liner": "국제통화기금이 세계 경제 성장률 전망을 내렸어요.",
+   "why_now": "성장률이 낮아지면 경제가 더 느리게 발전하는 거예요.",
    "details": [
-    "ADB , IMF Cut Pakistan Growth Forecasts to 3 . 5 – 3 . 7 %",
-    "[보도참고] 2026년 국제통화기금(IMF) 7월 세계경제전망(WEO) 업데이트",
-    "IMF economic forecast downgrades Australia growth as RBA warns of potential interest rate rises and higher unemployment"
+    "국제통화기금은 2026년 세계 성장률을 3%로 낮췄어요.",
+    "이전보다 성장률이 낮아졌어요.",
+    "중동의 위험으로 성장률이 낮아진 거예요.",
+    "각국 성장률도 낮췄어요."
    ],
-   "effects": [],
-   "visual_type": "usdkrw"
+   "effects": [
+    "경제 성장 속도가 더 느려질 것으로 예상돼요!",
+    "기업의 수익도 영향을 받을 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "b2fd84d49d8073bf1a7292af71280d5d90ad2d49"
+  "fact_hash": "aaa21b2386ba5cd77f600327c54effee0c0ac985"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"입력에 없는 숫자: [3.5, 3.7]\"]}]}",

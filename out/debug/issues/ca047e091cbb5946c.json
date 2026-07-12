@@ -883,7 +883,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-12T14:02:14.543690+00:00",
+  "created_at": "2026-07-12T15:31:18.192215+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -899,26 +899,24 @@
     "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc."
    ]
   },
-  "raw_response": "{\n  \"title\": \"미국 금리 정책\",\n   \"one_liner\": \"미 연방준비제도이 금리 정책을 위한 태스크포스 구성했어요\",\n   \"why_now\": \"금리 정책이 어떻게 바뀌는지 알려져서 금융 시장에 영향이 커요\",\n   \"details\": [\n       \"미 연방준비제도이 태스크포스 구성했어요\",\n       \"태스크포스의 목표는 금리 정책을 잘 수행하는 거예요\",\n       \"금리 정책은 경제에 큰 영향을 미치니까 중요해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국 경제에 영향을 줄 것으로 예상돼요!\",\n       \"금융 시장의 금리 변동에 따라 투자자들의 결정이 달라질 수 있어요!\"\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"미 연방준비제도\",\n   \"one_liner\": \"미 연방준비제도가 금융 정책을 진행할 태스크포스를 발표했어요\",\n   \"why_now\": \"미국 경제에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"미 연방준비제도가 태스크포스 구성과 목표를 발표했어요\",\n       \"미 연방준비제도는 금융 정책을 진행할 계획이에요\",\n       \"미 연방준비제도는 금융 기관에 대한 조치를 발표했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국 경제에 영향을 줄 수 있어요!\",\n       \"금융 기관에 대한 규제가 강화될 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"태스크포스\",\n           \"easy\": \"특정 업무를 진행하기 위해 구성된 팀이에요\",\n           \"example\": \"태스크포스를 구성해 새로운 프로젝트를 진행할 수 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "title 22자 초과(24)",
-     "one_liner 음슴체(함/됨/임) 아님",
-     "details 3~5문장 아님"
+     "details 4~6문장 아님"
     ]
    },
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님"
+     "details 4~6문장 아님"
     ]
    }
   ],
   "output": {
    "title": "Here is Why Micron (…",
-   "one_liner": "Here is Why Micron ( MU ) is One of the…",
+   "one_liner": "Here is Why Micron ( MU ) is One of the Stocks…",
    "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
     "Here is Why Micron ( MU ) is One of the Stocks Set to Explode in the Next 2 Years",
@@ -928,11 +926,11 @@
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "8804e4ec43f3f736caacbbf87844cdde85fd6e22"
+  "fact_hash": "624f98d6cdb1111a25afdccecba10ac9ac6db00b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(24)\", \"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}]}",
-  "at": "2026-07-12T14:02:14.543536+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
+  "at": "2026-07-12T15:31:18.192071+00:00"
  },
  "glossary": [],
  "related": [

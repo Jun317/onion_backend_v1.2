@@ -48,8 +48,8 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-09T21:55:16.048243+00:00",
+  "model": "template",
+  "created_at": "2026-07-12T15:31:45.625453+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [
@@ -77,31 +77,38 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 기준금리 인하\",\n   \"one_liner\": \"미 연준이 기준금리를 1bp 내리며 3.62%가 됨\",\n   \"why_now\": \"금리가 내리면 대출 이자가 줄어 가계 부담이 낮아지는 게 보통이에요.\",\n   \"details\": [\n      \"미 연준이 기준금리를 1bp 내렸어요.\",\n      \"새 기준금리는 연 3.62%예요.\",\n      \"이 결정은 미 연준의 금리 조정 정책의 일부예요.\"\n   ],\n   \"visual_type\": \"us_policy_rate\",\n   \"effects\": [\n      \"대출 이자 부담이 줄어들 것으로 예상돼요!\",\n      \"경기 활성화에 긍정적 영향을 줄 수 있어요!\"\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"미국 기준금리 인하\",\n   \"one_liner\": \"미 연방준비제도이 기준금리를 내렸어요\",\n   \"why_now\": \"금리가 내리면 대출 이자가 줄어 가계 부담이 낮아지는 게 보통이에요\",\n   \"details\": [\n       \"미 연방준비제도이 기준금리를 내렸어요\",\n       \"새 기준금리는 연 3.62%예요\",\n       \"기준금리가 1bp 내렸어요\"\n   ],\n   \"visual_type\": \"us_policy_rate\",\n   \"effects\": [\n       \"대출 이자 부담이 줄어들 것으로 예상돼요!\",\n       \"채권 가격 상승 요인이 될 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"기준금리\",\n           \"easy\": \"중앙은행이 정하는 나라의 기본 이자율이에요\",\n           \"example\": \"기준금리가 내리면 대출 이자도 보통 따라 내려요\"\n       }\n   ]\n}",
   "attempts": [
    {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 4~6문장 아님"
+    ]
+   },
+   {
     "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "errors": [
+     "details 4~6문장 아님"
+    ]
    }
   ],
   "output": {
-   "title": "미국 기준금리 인하",
-   "one_liner": "미 연준이 기준금리를 1bp 내리며 3.62%가 됨",
-   "why_now": "금리가 내리면 대출 이자가 줄어 가계 부담이 낮아지는 게 보통이에요.",
+   "title": "Fed 기준금리 3.62%",
+   "one_liner": "Fed 기준금리가 3.63%에서 3.62%로 바뀌었어요",
+   "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
-    "미 연준이 기준금리를 1bp 내렸어요.",
-    "새 기준금리는 연 3.62%예요.",
-    "이 결정은 미 연준의 금리 조정 정책의 일부예요."
+    "Fed 기준금리: 3.62% (직전 3.63%)",
+    "Fed 변동폭: -1.0bp"
    ],
-   "effects": [
-    "대출 이자 부담이 줄어들 것으로 예상돼요!",
-    "경기 활성화에 긍정적 영향을 줄 수 있어요!"
-   ],
-   "visual_type": "us_policy_rate"
+   "effects": [],
+   "visual_type": "kr_base_rate"
   },
-  "fact_hash": "6203002afd4664f8f4fd499be9bf95606cbeb617"
+  "fact_hash": "8f2e4f92c424712fc84676f386ca63315aea2a2f"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
+  "at": "2026-07-12T15:31:45.625356+00:00"
+ },
  "glossary": [
   {
    "term": "기준금리",
@@ -109,19 +116,9 @@
    "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
   },
   {
-   "term": "연준",
-   "easy": "미국의 돈을 관리하는 중앙은행(Fed)이에요.",
-   "example": "미국의 이자를 여기서 정해요."
-  },
-  {
    "term": "bp",
    "easy": "이자를 재는 아주 작은 단위예요. 1bp는 0.01%예요.",
    "example": "25bp면 0.25%를 뜻해요."
-  },
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
   }
  ],
  "related": [

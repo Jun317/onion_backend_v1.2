@@ -119,8 +119,8 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-05T10:41:42.739936+00:00",
+  "model": "template",
+  "created_at": "2026-07-12T15:45:05.268106+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -133,38 +133,40 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"one_liner\": \"한미전략투자 운영위원회가 열렸음\",\n   \"details\": [\n      \"제1차 한미전략투자 운영위원회가 개최되었어요.\",\n      \"한미전략투자공사와 조선3사가 업무협약을 체결했어요.\",\n      \"새해 첫 거래일 코스피가 사상 최고가로 경신되었어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"한미 간의 경제 협력과 투자가 늘어날 것으로 예상돼요!\",\n      \"국내 기업에 대한 투자 유치가 활성화될 수 있어요!\"\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"한미 투자 협력\",\n   \"one_liner\": \"한국과 미국이 투자 협력을 강화하기로 했어요\",\n   \"why_now\": \"투자 협력이 강화되면 경제 성장에 도움이 되요\",\n   \"details\": [\n       \"한국과 미국이 투자 협력을 강화하기로 했어요\",\n       \"투자 협력으로 경제 성장에 도움이 될 수 있어요\",\n       \"새해 첫 거래일 코스피가 사상 최고가로 올라 랠리가 이어졌어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"한국과 미국의 경제 협력이 더 강화될 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "errors": [
+     "details 4~6문장 아님"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 4~6문장 아님"
+    ]
    }
   ],
   "output": {
-   "title": null,
-   "one_liner": "한미전략투자 운영위원회가 열렸음",
-   "why_now": null,
+   "title": "제1차 한미전략투자 운영위원회 개최",
+   "one_liner": "제1차 한미전략투자 운영위원회 개최",
+   "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
-    "제1차 한미전략투자 운영위원회가 개최되었어요.",
-    "한미전략투자공사와 조선3사가 업무협약을 체결했어요.",
-    "새해 첫 거래일 코스피가 사상 최고가로 경신되었어요."
+    "제1차 한미전략투자 운영위원회 개최",
+    "WGBI 상시점검 및 투자유치 추진단 제8차 회의 개최",
+    "[보도자료] 한미전략투자공사 및 정책금융기관-조선3사간 한미 조선협력투자 업무협약 체결"
    ],
-   "effects": [
-    "한미 간의 경제 협력과 투자가 늘어날 것으로 예상돼요!",
-    "국내 기업에 대한 투자 유치가 활성화될 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "64c1f7d0b0013a9be6a43dbf1facd2958abdc607"
+  "fact_hash": "3f42e8a094c897992da5ff01866b18bda3cf8d2c"
  },
- "review": null,
- "glossary": [
-  {
-   "term": "코스피",
-   "easy": "한국 대표 기업들의 주가를 묶어 보여주는 값이에요.",
-   "example": "오르면 큰 기업 주가가 대체로 올랐다는 뜻이에요."
-  }
- ],
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
+  "at": "2026-07-12T15:45:05.268058+00:00"
+ },
+ "glossary": [],
  "related": [
   {
    "id": "ca047e091cbb5946c",

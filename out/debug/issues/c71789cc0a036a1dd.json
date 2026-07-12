@@ -53,8 +53,8 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-06T01:17:56.806193+00:00",
+  "model": "template",
+  "created_at": "2026-07-12T15:45:50.919833+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,31 +64,40 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"one_liner\": \"헤지펀드가 버라이즌에 관심을 보임\",\n   \"details\": [\n       \"버라이즌 커뮤니케이션즈가 헤지펀드의 관심을 받고 있어요.\",\n       \"레이들리 캐피탈 매니지먼트가 버라이즌 주식을 매수했어요.\",\n       \"버라이즌의 배당금이 매력적이라고 평가받고 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"버라이즌의 주가가 상승할 수 있어요!\",\n       \"버라이즌의 배당금에 대한 투자자 관심이 높아질 수 있어요!\"\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"버라이즌 주식\",\n   \"one_liner\": \"버라이즌 주식을 사는 게 좋을지 물어보는 기사가 나왔어요\",\n   \"why_now\": \"버라이즌 주식이 좋은 투자처인지 궁금해질 때 이런 기사가 도움이 돼요\",\n   \"details\": [\n       \"버라이즌 주식이 좋은 배당금 주식인지 물어보는 기사가 나왔어요\",\n       \"헷지 펀드가 버라이즌 주식을 사는 게 좋을지 고민하는 기사가 있어요\",\n       \"레이틀 캐피탈 매니지먼트가 버라이즌 주식을 15,730주 샀어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"버라이즌 주식에 대한 투자 관심이 높아질 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"배당금\",\n           \"easy\": \"회사에서 이익을 나눠주는 돈이에요\",\n           \"example\": \"배당금이 높은 주식을 사면 수익을 얻을 수 있어요\"\n       },\n       {\n           \"term\": \"헷지 펀드\",\n           \"easy\": \"다양한 자산에 투자하는 투자 회사예요\",\n           \"example\": \"헷지 펀드는 주식이나 채권에 투자해요\"\n       }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "errors": [
+     "details 4~6문장 아님",
+     "입력에 없는 숫자: [15730.0]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 4~6문장 아님",
+     "입력에 없는 숫자: [15730.0]"
+    ]
    }
   ],
   "output": {
-   "title": null,
-   "one_liner": "헤지펀드가 버라이즌에 관심을 보임",
-   "why_now": null,
+   "title": "Is Verizon Communicat…",
+   "one_liner": "Is Verizon Communications Inc . ( VZ ) The Best…",
+   "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
-    "버라이즌 커뮤니케이션즈가 헤지펀드의 관심을 받고 있어요.",
-    "레이들리 캐피탈 매니지먼트가 버라이즌 주식을 매수했어요.",
-    "버라이즌의 배당금이 매력적이라고 평가받고 있어요."
+    "Is Verizon Communications Inc . ( VZ ) The Best Dividend Stock to Buy According to Hedge Funds ?",
+    "Raleigh Capital Management Inc . Purchases 15 , 730 Shares of Verizon Communications Inc . $VZ"
    ],
-   "effects": [
-    "버라이즌의 주가가 상승할 수 있어요!",
-    "버라이즌의 배당금에 대한 투자자 관심이 높아질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "8f7db6ea91af71058d850070143e5bbdb40627ed"
+  "fact_hash": "898d8574aa55fed2a37a9285a63779697da86d5e"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\", \"입력에 없는 숫자: [15730.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\", \"입력에 없는 숫자: [15730.0]\"]}]}",
+  "at": "2026-07-12T15:45:50.919784+00:00"
+ },
  "glossary": [],
  "related": [
   {

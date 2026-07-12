@@ -225,7 +225,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-11T19:41:03.023671+00:00",
+  "created_at": "2026-07-12T15:37:06.141142+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -238,24 +238,24 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"애플 주가 전망\",\n   \"one_liner\": \"애플 주가가 400달러까지 올라갈 수 있다는 전망이 나왔어요.\",\n   \"why_now\": \"애플 주가가 올라가면 투자자들에게 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"애플 주가가 400달러까지 올라갈 수 있다는 전망이 나왔어요.\",\n       \"애플 주가는 여러 가지 요인에 의해 영향을 받아요.\",\n       \"애플 주가에 대한 전망은 전문가마다 다를 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"애플 주가가 올라가면 투자자들에게 영향을 줄 수 있어요!\",\n       \"애플 주가에 대한 전망은 투자 결정에 참고할 수 있어요!\"\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"애플 주가 전망\",\n   \"one_liner\": \"애플 주가가 올해 400달러까지 갈 수 있을지에 대해 논의가 되고 있어요.\",\n   \"why_now\": \"애플 주가가 오르면 투자자들에게 좋은 소식이 될 수 있어요.\",\n   \"details\": [\n       \"애플 주가가 400달러까지 갈 수 있는 이유를 분석하고 있어요.\",\n       \"애플의 주가 전망에 대해 전문가들이 의견을 나누고 있어요.\",\n       \"애플 주가에 영향을 줄 수 있는 요소들이 논의되고 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"애플 주가가 오르면 관련 주식 투자자들에게 기회가 될 수 있어요!\",\n       \"애플 주가의 변동이 다른 기술 주식에影響을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "why_now 어요체 아님"
+     "details 4~6문장 아님"
     ]
    },
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님"
+     "details 4~6문장 아님"
     ]
    }
   ],
   "output": {
    "title": "Prediction : Apple…",
-   "one_liner": "Prediction : Apple Will Be Worth $5…",
+   "one_liner": "Prediction : Apple Will Be Worth $5 Trillion (…",
    "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
     "Prediction : Apple Will Be Worth $5 Trillion ( or More ) by the End of 2026",
@@ -265,11 +265,11 @@
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "b38dc35ccf8635fc3d94c3c45d2c5b23ba03362e"
+  "fact_hash": "1888a9c4007de44e1f2fd3f2d3e5c20f186a6e4c"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"why_now 어요체 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}]}",
-  "at": "2026-07-11T19:41:03.023567+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
+  "at": "2026-07-12T15:37:06.141076+00:00"
  },
  "glossary": [],
  "related": [

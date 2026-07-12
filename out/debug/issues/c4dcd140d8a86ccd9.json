@@ -138,8 +138,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-11T17:30:35.405205+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-12T15:41:19.608765+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -152,34 +152,30 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"아마존 실적 발표\",\n   \"one_liner\": \"아마존의 다음 실적 발표가 임박했어요.\",\n   \"why_now\": \"대기업의 실적은 주가에 영향을 미치고요.\",\n   \"details\": [\n      \"아마존의 실적 발표가 곧 나올 예정이에요.\",\n      \"아마존의 주가에 영향을 줄 수 있어요.\",\n      \"아마존의 미래 계획도 발표할 수 있어요.\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n      \"아마존의 주가에 영향을 줄 것으로 예상돼요!\",\n      \"기술 산업에 대한 투자자들의 관심이 높아질 수 있어요!\"\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"아마존 실적\",\n   \"one_liner\": \"아마존의 다음 실적 보고서가 관심을 모으고 있어요.\",\n   \"why_now\": \"아마존은 큰 기업이라서 그들의 실적은 많은 사람들에게 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"아마존의 시장 가치가 2조 달러에 달해요.\",\n       \"아마존의 주가 움직임에 대한 이유가 공개되었어요.\",\n       \"아마존의 다음 실적 보고서가 곧 나올 예정이에요.\",\n       \"아마존이 인공지능과 광대역 서비스 기회를 추구하고 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"아마존의 실적이 다른 기업에 영향을 줄 수 있어요!\",\n       \"아마존의 주가에 변동이 생길 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 음슴체(함/됨/임) 아님"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 음슴체(함/됨/임) 아님"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Amazon $2 Trillion…",
-   "one_liner": "Amazon $2 Trillion Empire Faces a Critical…",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "아마존 실적",
+   "one_liner": "아마존의 다음 실적 보고서가 관심을 모으고 있어요.",
+   "why_now": "아마존은 큰 기업이라서 그들의 실적은 많은 사람들에게 영향을 줄 수 있어요.",
    "details": [
-    "Amazon $2 Trillion Empire Faces a Critical Turning Point",
-    "Jim Cramer Reveals Reason Behind Amazon . com , Inc . ( AMZN ) Share Price Movement",
-    "Here What to Expect From Amazon . com Next Earnings Report"
+    "아마존의 시장 가치가 2조 달러에 달해요.",
+    "아마존의 주가 움직임에 대한 이유가 공개되었어요.",
+    "아마존의 다음 실적 보고서가 곧 나올 예정이에요.",
+    "아마존이 인공지능과 광대역 서비스 기회를 추구하고 있어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "아마존의 실적이 다른 기업에 영향을 줄 수 있어요!",
+    "아마존의 주가에 변동이 생길 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "15401538004a04e10c5480e3085c11c6b96356c4"
+  "fact_hash": "4b2be26bf7ffc76f7c9e88eefb13b94ff8c5cd7b"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}]}",

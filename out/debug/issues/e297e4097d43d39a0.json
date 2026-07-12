@@ -49,7 +49,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-11T14:02:27.911423+00:00",
+  "created_at": "2026-07-12T15:51:43.868497+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -77,24 +77,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"파수AI 실적 발표\",\n   \"one_liner\": \"파수AI가 2025년 1분기 실적을 발표했어요.\",\n   \"why_now\": \"기업 실적이 좋으면 주가가 오를 수 있어요.\",\n   \"details\": [\n      \"파수AI의 2025년 1분기 매출액은 84.3억원이에요.\",\n      \"파수AI의 2025년 1분기 영업이익은 -27.1억원이에요.\",\n      \"파수AI의 실적은 투자자들에게 관심을 끌 수 있어요.\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n      \"파수AI의 주가에 영향을 줄 수 있어요!\",\n      \"투자자들의 관심을 끌어 추가 투자 유치에 도움이 될 수 있어요!\"\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 음슴체(함/됨/임) 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
   "output": {
-   "title": "파수AI 2025-4Q 실적 공시",
-   "one_liner": "파수AI 2025-4Q 실적 공시",
+   "title": "파수AI 매출액 84.3억원",
+   "one_liner": "파수AI 매출액 84.3억원으로 발표됐어요",
    "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
     "파수AI 매출액: 84.3억원",
@@ -103,11 +97,11 @@
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "ef996932cb3ff18484967d6dd5343f9bcb32e50b"
+  "fact_hash": "3befe7c49018a95a36b775dc7965b6f0d55de0b0"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}]}",
-  "at": "2026-07-11T14:02:27.911320+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-12T15:51:43.868433+00:00"
  },
  "glossary": [
   {

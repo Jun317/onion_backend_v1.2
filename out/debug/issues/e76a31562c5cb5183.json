@@ -37,8 +37,8 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-05T10:44:39.604814+00:00",
+  "model": "template",
+  "created_at": "2026-07-12T15:43:12.765250+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [
@@ -57,31 +57,37 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"one_liner\":\"D램 가격이 많이 올랐음\",\n   \"details\":[\n      \"1분기 D램 가격이 90% 올랐어요.\",\n      \"이번 분기 가격 상승률이 매우 높았어요.\",\n      \"업계에서 집계한 자료에 따르면 이런 현상이 나타났어요.\"\n   ],\n   \"visual_type\":\"none\",\n   \"effects\":[\n      \"반도체 수요가 증가할 것으로 예상돼요!\",\n      \"전자제품 가격에도 영향을 줄 수 있어요!\"\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"D램 가격 급등\",\n   \"one_liner\": \"한국의 D램 가격이 1분기에 90% 올랐어요\",\n   \"why_now\": \"D램 가격이 오르면 전자제품 가격도 따라 오를 수 있어요\",\n   \"details\": [\n       \"D램 가격이 1분기에 90% 올랐어요\",\n       \"이번 분기 가격 상승률은 90%예요\",\n       \"전자제품에 많이 쓰이는 D램 가격이 급등했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"전자제품 가격이 오를 수 있어요!\",\n       \"컴퓨터나 스마트폰 가격에도 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"D램\",\n           \"easy\": \"컴퓨터나 스마트폰에서 데이터를 저장하는 기억장치예요\",\n           \"example\": \"컴퓨터 성능에 중요한 역할을 해요\"\n       }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "errors": [
+     "details 4~6문장 아님"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 4~6문장 아님"
+    ]
    }
   ],
   "output": {
-   "title": null,
-   "one_liner": "D램 가격이 많이 올랐음",
-   "why_now": null,
+   "title": "KR D램 가격 상승률(분기) 90.0%",
+   "one_liner": "KR D램 가격 상승률(분기) 90.0%로 발표됐어요",
+   "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
-    "1분기 D램 가격이 90% 올랐어요.",
-    "이번 분기 가격 상승률이 매우 높았어요.",
-    "업계에서 집계한 자료에 따르면 이런 현상이 나타났어요."
+    "KR D램 가격 상승률(분기): 90.0%"
    ],
-   "effects": [
-    "반도체 수요가 증가할 것으로 예상돼요!",
-    "전자제품 가격에도 영향을 줄 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "55bc115d60b994e1a228277b1e46310ab6a20372"
+  "fact_hash": "6c8e050fa0e4b75887cf94da00070cda9d69554e"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
+  "at": "2026-07-12T15:43:12.765204+00:00"
+ },
  "glossary": [],
  "related": [
   {

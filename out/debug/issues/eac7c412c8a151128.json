@@ -26,25 +26,45 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-05T09:17:23.208778+00:00",
-  "payload": {},
-  "raw_response": null,
-  "attempts": [],
+  "created_at": "2026-07-12T15:54:17.854964+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "져스텍 2026-1Q 실적 공시"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"져스텍 실적 발표\",\n   \"one_liner\": \"져스텍이 2026년 1분기 실적을 발표했어요\",\n   \"why_now\": \"기업 실적은 투자자에게 중요한 정보예요\",\n   \"details\": [\n      \"져스텍이 2026년 1분기 실적을 공시했어요\",\n      \"실적 내용은 따로 알려지지 않았어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"투자자들이 주가에 반영할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 4~6문장 아님"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
   "output": {
-   "title": null,
+   "title": "져스텍 2026-1Q 실적 공시",
    "one_liner": "져스텍 2026-1Q 실적 공시",
-   "why_now": null,
+   "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
     "져스텍 2026-1Q 실적 공시"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "a55f06824531a38bb112b06d05cde480a8744e88"
+  "fact_hash": "742131427564874874972a606af0b0b79846d1d0"
  },
  "review": {
-  "reason": "LLM 검증 실패 → 템플릿 폴백",
-  "at": "2026-07-05T09:17:23.208721+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-12T15:54:17.854901+00:00"
  },
  "glossary": [],
  "related": [

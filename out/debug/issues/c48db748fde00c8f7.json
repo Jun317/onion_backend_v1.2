@@ -105,7 +105,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-10T17:15:01.576137+00:00",
+  "created_at": "2026-07-12T15:33:19.440271+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -118,26 +118,24 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"월마트, 가격 인하 단행\", \"one_liner\": \"월마트가 수천 개 상품 가격을 내렸어요.\", \"why_now\": \"물가가 오르는 상황에서 소비자의 장바구니 부담을 덜어줄 수 있어요.\", \"details\": [\"월마트가 소고기, 음료, 생활용품 등 수천 개 상품 가격을 낮췄어요.\", \"월마트는 더 많은 소비자를 끌어들이기 위해 노력하고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"다른 유통업체들도 가격 인하 경쟁에 나설 수 있어요!\", \"소비자들의 구매력이 높아질 수 있어요!\"]}",
+  "raw_response": "{\n  \"title\": \"월마트 가격 인하\",\n   \"one_liner\": \"월마트가 수천 가지 물건의 가격을 내렸어요\",\n   \"why_now\": \"가격이 내리면 소비자들이 더 많이 खरीद을 수 있어요\",\n   \"details\": [\n       \"월마트가 식료품과 가구용품 가격을 내렸어요\",\n       \"가격 인하는 소비자들에게 도움이 될 수 있어요\",\n       \"월마트는 더 많은 고객을 끌어들이고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"소비자들이 더 많이 खरीद을 수 있을 것으로 예상돼요!\",\n       \"他の 소매업체들이 가격을 내릴 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님",
-     "details 3~5문장 아님"
+     "details 4~6문장 아님"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 음슴체(함/됨/임) 아님",
-     "details 3~5문장 아님"
+     "details 4~6문장 아님"
     ]
    }
   ],
   "output": {
-   "title": "Walmart Debunks 3 Myth",
-   "one_liner": "Walmart Debunks 3 Myths for Emerging CPG Bran",
+   "title": "Walmart Debunks 3…",
+   "one_liner": "Walmart Debunks 3 Myths for Emerging CPG Brands",
    "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
     "Walmart Debunks 3 Myths for Emerging CPG Brands",
@@ -147,11 +145,11 @@
    "effects": [],
    "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "e7dcedca4a28f074691ead9ad8afb6b0999ba0a9"
+  "fact_hash": "d8e3b270f52f0557b21b68ef656ada051f58f181"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\", \"details 3~5문장 아님\"]}]}",
-  "at": "2026-07-10T17:15:01.576019+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
+  "at": "2026-07-12T15:33:19.440174+00:00"
  },
  "glossary": [],
  "related": [

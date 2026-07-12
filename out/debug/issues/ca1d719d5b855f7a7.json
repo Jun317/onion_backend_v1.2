@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-12T14:03:03.115314+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-12T15:35:11.769786+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -883,34 +883,38 @@
     "&lt;p style=&quot;margin: 0px 0px 10px 26px; text-align: justify; line-height: 107%; font-size: 10pt; font-family: &#39;맑은 고딕&#39;;&quot;&gt;Geonwon Jungbo, Korea&#39;s first legal coin and the oldest"
    ]
   },
-  "raw_response": "{\n  \"title\": \"캐나다 기업 이탈 우려\",\n   \"one_liner\": \"트럼프 관세로 캐나다 기업이 더 많이 떠날 수 있어\",\n   \"why_now\": \"기업이 떠나면 일자리가 줄어들 수 있어요\",\n   \"details\": [\n       \"미국이 캐나다에 관세를 부과했어요\",\n       \"캐나다 기업이 미국으로 떠날 수 있어요\",\n       \"이로 인해 캐나다 경제에 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"캐나다의 일자리 시장에 영향을 줄 수 있어요!\",\n       \"캐나다 경제 성장에 부정적인 영향을 줄 수 있어요!\"\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"경제 소식\",\n   \"one_liner\": \"여러 나라의 경제와 정치 소식이 나왔어요\",\n   \"why_now\": \"이 소식은 각 나라의 경제와 정치에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"포스코가 미국 유타에서 새로운 사업을 시작했어요\",\n       \"이란의 카페 문화가 정치와 경제적 압력에 직면했어요\",\n       \"영국 경제가 느리게 성장했어요\",\n       \"캐나다에서 더 많은 기업이 떠날 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"각 나라의 경제에 영향을 줄 수 있어요!\",\n       \"기업과 소비자에게 다양한 영향을 미칠 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "details 3~5문장 아님"
+     "details 4~6문장 아님",
+     "effects[0] 느낌표 종결 아님",
+     "effects[1] 느낌표 종결 아님"
     ]
    },
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 음슴체(함/됨/임) 아님"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump tariffs : Will…",
-   "one_liner": "Trump tariffs : Will more businesses leave…",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "경제 소식",
+   "one_liner": "여러 나라의 경제와 정치 소식이 나왔어요",
+   "why_now": "이 소식은 각 나라의 경제와 정치에 영향을 줄 수 있어요",
    "details": [
-    "Trump tariffs : Will more businesses leave Canada ?",
-    "POSCO ( PKX ), Anson Resources Partner for DLE Demonstration Plant in Utah",
-    "Iran Cafe Culture Faces Political And Economic Pressure"
+    "포스코가 미국 유타에서 새로운 사업을 시작했어요",
+    "이란의 카페 문화가 정치와 경제적 압력에 직면했어요",
+    "영국 경제가 느리게 성장했어요",
+    "캐나다에서 더 많은 기업이 떠날 수 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "각 나라의 경제에 영향을 줄 수 있어요!",
+    "기업과 소비자에게 다양한 영향을 미칠 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "71f3519c3324a3682de21a28ba312285d463bb6d"
+  "fact_hash": "4b87cd702c9752a1e0c577f6cf370147e5920e66"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3~5문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 음슴체(함/됨/임) 아님\"]}]}",

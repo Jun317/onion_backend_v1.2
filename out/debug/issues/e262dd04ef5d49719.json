@@ -37,8 +37,8 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-05T10:42:49.358241+00:00",
+  "model": "template",
+  "created_at": "2026-07-12T15:46:36.480200+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [
@@ -57,32 +57,48 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"one_liner\": \"미국 물가 상승률이 나옴\",\n   \"details\": [\n       \"미국 물가 상승률은 4.16661%예요.\",\n       \"이번에는 전년 동기 대비로 측정했어요.\",\n       \"미국 경제 상황을 알 수 있어요.\"\n   ],\n   \"visual_type\": \"us_cpi_yoy\",\n   \"effects\": [\n       \"미국 물가 상승률에 따라 금리 결정할 수 있어요!\",\n       \"미국 경제에 영향을 줄 것으로 예상돼요!\"\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"미국 물가상승률\",\n   \"one_liner\": \"미국의 물가상승률이 4.17%로 나왔어요\",\n   \"why_now\": \"물가상승률이 높으면 물건 값이 오르는 게 보통이에요\",\n   \"details\": [\n      \"미국의 물가상승률이 4.17%로 발표되었어요\",\n      \"이번에 발표된 물가상승률은 최근 몇 달간의 추이를 보여줘요\",\n      \"미국 물가상승률은 경제 상황을 파악하는 중요한 지표예요\"\n   ],\n   \"visual_type\": \"us_cpi_yoy\",\n   \"effects\": [\n      \"물건 값이 더 오를 가능성이 있어요!\",\n      \"미국 경제에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"CPI\",\n         \"easy\": \"소비자 물가지수, 즉 물건 값의 평균 상승률을 뜻해요\",\n         \"example\": \"CPI가 높으면 물건 값이 많이 오른 거예요\"\n      }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "errors": [
+     "details 4~6문장 아님",
+     "effects[0] 느낌표 종결 아님",
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [4.17]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 4~6문장 아님",
+     "입력에 없는 숫자: [4.17]"
+    ]
    }
   ],
   "output": {
-   "title": null,
-   "one_liner": "미국 물가 상승률이 나옴",
-   "why_now": null,
+   "title": "US CPI(YoY%) 4.16661%",
+   "one_liner": "US CPI(YoY%) 4.16661%로 발표됐어요",
+   "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
-    "미국 물가 상승률은 4.16661%예요.",
-    "이번에는 전년 동기 대비로 측정했어요.",
-    "미국 경제 상황을 알 수 있어요."
+    "US CPI(YoY%): 4.16661%"
    ],
-   "effects": [
-    "미국 물가 상승률에 따라 금리 결정할 수 있어요!",
-    "미국 경제에 영향을 줄 것으로 예상돼요!"
-   ],
+   "effects": [],
    "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "d90d6ccffb648366e91cf1f0c4822a13891c6eab"
+  "fact_hash": "a646b28bee37a1be2fb12778c0e94825c8535128"
  },
- "review": null,
- "glossary": [],
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\", \"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [4.17]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\", \"입력에 없는 숫자: [4.17]\"]}]}",
+  "at": "2026-07-12T15:46:36.480089+00:00"
+ },
+ "glossary": [
+  {
+   "term": "CPI",
+   "easy": "물가가 얼마나 올랐는지 보여주는 대표 성적표예요.",
+   "example": "높으면 생활비 부담이 커진 거예요."
+  }
+ ],
  "related": [
   {
    "id": "c48db748fde00c8f7",
