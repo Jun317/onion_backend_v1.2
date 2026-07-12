@@ -1,6 +1,29 @@
 {
- "generated_at": "2026-07-12T11:36:18.563193+00:00",
+ "generated_at": "2026-07-12T14:04:20.395638+00:00",
  "queue": [
+  {
+   "issue_id": "cdbb797962c9a092e",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님"
+      ]
+     },
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 음슴체(함/됨/임) 아님",
+       "details[1] 45자 초과",
+       "details[2] 45자 초과"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-12T14:03:52.588687+00:00"
+  },
   {
    "issue_id": "ca1d719d5b855f7a7",
    "reason": {
@@ -13,38 +36,37 @@
       ]
      },
      {
-      "model": "gemini-2.5-flash-lite",
+      "model": "llama-3.3-70b-versatile",
       "errors": [
-       "details 3~5문장 아님",
-       "effects 1~2문장 아님"
+       "one_liner 음슴체(함/됨/임) 아님"
       ]
      }
     ]
    },
-   "at": "2026-07-12T07:07:12.641784+00:00"
+   "at": "2026-07-12T14:03:03.115251+00:00"
   },
   {
-   "issue_id": "cdbb797962c9a092e",
+   "issue_id": "ca047e091cbb5946c",
    "reason": {
     "summary": "LLM 검증 실패 → 템플릿 폴백",
     "attempts": [
      {
       "model": "gemini-2.5-flash-lite",
       "errors": [
+       "title 22자 초과(24)",
        "one_liner 음슴체(함/됨/임) 아님",
        "details 3~5문장 아님"
       ]
      },
      {
-      "model": "gemini-2.5-flash-lite",
+      "model": "llama-3.3-70b-versatile",
       "errors": [
-       "one_liner 음슴체(함/됨/임) 아님",
-       "details 3~5문장 아님"
+       "one_liner 음슴체(함/됨/임) 아님"
       ]
      }
     ]
    },
-   "at": "2026-07-12T07:07:10.508506+00:00"
+   "at": "2026-07-12T14:02:14.543536+00:00"
   },
   {
    "issue_id": "c6de7c9fb5935bf83",
@@ -68,30 +90,6 @@
     ]
    },
    "at": "2026-07-12T07:07:08.447346+00:00"
-  },
-  {
-   "issue_id": "ca047e091cbb5946c",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "one_liner 음슴체(함/됨/임) 아님",
-       "details 3~5문장 아님"
-      ]
-     },
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "title 22자 초과(23)",
-       "one_liner 음슴체(함/됨/임) 아님",
-       "details 3~5문장 아님"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-12T07:06:41.810715+00:00"
   },
   {
    "issue_id": "c29662e359a9421cc",
