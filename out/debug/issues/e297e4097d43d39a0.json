@@ -49,7 +49,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-12T19:53:12.325236+00:00",
+  "created_at": "2026-07-12T21:29:59.416887+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -77,8 +77,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"파수AI 실적 발표\",\n  \"one_liner\": \"파수AI의 2025년 1분기 매출액은 84.3억원, 영업이익은 -27.1억원이었어요.\",\n  \"why_now\": \"기업의 실적 발표는 앞으로의 성장 가능성을 보여주는 중요한 지표가 될 수 있어요.\",\n  \"details\": [\n    \"파수AI의 2025년 1분기 매출액은 84.3억원이에요.\",\n    \"파수AI의 2025년 1분기 영업이익은 -27.1억원이에요.\",\n    \"이전 분기 실적은 공개되지 않았어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"향후 파수AI의 주가에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"매출액\",\n      \"easy\": \"기업이 물건을 팔거나 서비스를 제공해서 벌어들인 돈이에요.\",\n      \"example\": \"이번 달 매출액이 지난달보다 늘었어요.\"\n    },\n    {\n      \"term\": \"영업이익\",\n      \"easy\": \"기업이 핵심 사업으로 벌어들인 돈에서 관련 비용을 뺀 금액이에요.\",\n      \"example\": \"영업이익이 늘면 회사가 더 잘 운영되고 있다는 뜻이에요.\"\n    }\n  ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 4~6문장 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -100,8 +106,8 @@
   "fact_hash": "3befe7c49018a95a36b775dc7965b6f0d55de0b0"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-12T19:53:12.325163+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-12T21:29:59.416792+00:00"
  },
  "glossary": [
   {
@@ -111,6 +117,12 @@
   }
  ],
  "related": [
+  {
+   "id": "c763582d47a3e8b63",
+   "title": "Netflix Looks To Buy Major Social Network With Over 30M Users",
+   "category": "EARNINGS",
+   "shared": []
+  },
   {
    "id": "c4dcd140d8a86ccd9",
    "title": "Amazon Stock Is Historically Cheap . Now Is Your Perfect Buying Opportunity",
@@ -132,12 +144,6 @@
   {
    "id": "eadc3fe28694e58f8",
    "title": "빅솔론 2025-4Q 실적 공시",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "eb2464e0af496cad2",
-   "title": "넥스트아이 2025-4Q 실적 공시",
    "category": "EARNINGS",
    "shared": []
   }
