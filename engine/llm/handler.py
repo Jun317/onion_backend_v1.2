@@ -18,10 +18,21 @@ from .validate import parse_output, validate
 
 
 def fact_hash(payload: dict) -> str:
-    basis = json.dumps({"a": payload.get("anchors", []),
+    # "v": 2 — 출력 스키마/문체 개편(해요체·glossary) 시 솔트를 올려 전 이슈 1회 재가공 유도
+    basis = json.dumps({"v": 2,
+                        "a": payload.get("anchors", []),
                         "h": payload.get("headlines", [])},
                        ensure_ascii=False, sort_keys=True)
     return hashlib.sha1(basis.encode("utf-8")).hexdigest()
+
+
+def _josa(word: str, with_final: str, without_final: str) -> str:
+    """마지막 한글 음절의 받침 유무로 조사 선택. 비한글로 끝나면 받침 없음 취급."""
+    for ch in reversed(word or ""):
+        if 0xAC00 <= ord(ch) <= 0xD7A3:
+            return with_final if (ord(ch) - 0xAC00) % 28 else without_final
+        break
+    return without_final
 
 
 def _clip(text: str, limit: int) -> str:
@@ -60,16 +71,20 @@ def template_output(payload: dict) -> dict:
         a = usable[0]
         ent, met, unit = a.get("entity", ""), a.get("metric", ""), a.get("unit", "")
         title = _clip(f"{ent} {met} {a['value']}{unit}".strip(), 22)
+        # one_liner 는 사용자에게 그대로 보이므로 해요체 문장으로 조립 (UX 라이팅 규칙)
         if a.get("prev") is not None:
-            one_liner = _clip(f"{ent} {met} {a['prev']}{unit} → {a['value']}{unit}".strip(), 45)
+            one_liner = _clip(
+                f"{ent} {met}{_josa(met, '이', '가')} {a['prev']}{unit}에서 "
+                f"{a['value']}{unit}{_josa(unit, '으로', '로')} 바뀌었어요".strip(), 50)
         else:
-            one_liner = _clip(f"{ent} {met} {a['value']}{unit} 발표됨".strip(), 45)
+            one_liner = _clip(
+                f"{ent} {met} {a['value']}{unit}{_josa(unit, '으로', '로')} 발표됐어요".strip(), 50)
     else:
-        title, one_liner = _clip(head, 22), _clip(head, 45)
+        title, one_liner = _clip(head, 22), _clip(head, 50)
     allowed = allowed_for_category(payload.get("category", "ETC"))
     return {"title": title, "one_liner": one_liner,
             "why_now": "공식 발표 내용을 정리했어요.", "details": details[:5],
-            "visual_type": allowed[0] if allowed else "none", "effects": []}
+            "visual_type": allowed[0] if allowed else "none", "effects": [], "glossary": []}
 
 
 def _issues_needing_llm(conn: sqlite3.Connection) -> list[sqlite3.Row]:
@@ -86,21 +101,23 @@ def _save(conn: sqlite3.Connection, issue_id: str, fh: str, out: dict, model: st
           attempts: list | None = None) -> None:
     conn.execute(
         "INSERT INTO llm_output(issue_id,fact_hash,one_liner,details_json,visual_type,"
-        "effects_json,model,created_at,payload_json,raw_response,validation_json,title,why_now) "
-        "VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?) "
+        "effects_json,model,created_at,payload_json,raw_response,validation_json,title,why_now,"
+        "glossary_json) "
+        "VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?) "
         "ON CONFLICT(issue_id) DO UPDATE SET fact_hash=excluded.fact_hash, "
         "one_liner=excluded.one_liner, details_json=excluded.details_json, "
         "visual_type=excluded.visual_type, effects_json=excluded.effects_json, "
         "model=excluded.model, created_at=excluded.created_at, "
         "payload_json=excluded.payload_json, raw_response=excluded.raw_response, "
         "validation_json=excluded.validation_json, title=excluded.title, "
-        "why_now=excluded.why_now",
+        "why_now=excluded.why_now, glossary_json=excluded.glossary_json",
         (issue_id, fh, out["one_liner"], json.dumps(out["details"], ensure_ascii=False),
          out.get("visual_type", "none"), json.dumps(out.get("effects", []), ensure_ascii=False),
          model, now_iso(),
          json.dumps(payload or {}, ensure_ascii=False), raw or "",
          json.dumps(attempts or [], ensure_ascii=False),
-         out.get("title", ""), out.get("why_now", "")))
+         out.get("title", ""), out.get("why_now", ""),
+         json.dumps(out.get("glossary", []), ensure_ascii=False)))
     conn.execute("UPDATE issue SET fact_hash=? WHERE id=?", (fh, issue_id))
 
 

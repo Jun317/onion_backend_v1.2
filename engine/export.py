@@ -145,8 +145,21 @@ def _issue_detail(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
 
     details = json.loads(o["details_json"]) if o else []
     card = _issue_card(conn, issue)
+    # 용어 해설 = 정적 사전(사람 검수, glossary.yaml) ∪ LLM 생성(glossary_json).
+    # 같은 용어가 겹치면 정적 사전이 우선한다.
     glossary = terms_in_parts(card["title"], card["one_liner"], card.get("why_now") or "",
                               *details)
+    seen_terms = {g["term"].strip().lower() for g in glossary}
+    try:
+        llm_glossary = json.loads(o["glossary_json"] or "[]") if o else []
+    except (ValueError, TypeError):
+        llm_glossary = []
+    for g in llm_glossary:
+        term = str(g.get("term") or "").strip()
+        if term and term.lower() not in seen_terms:
+            glossary.append({"term": term, "easy": str(g.get("easy") or ""),
+                             "example": str(g.get("example") or "")})
+            seen_terms.add(term.lower())
     return {
         **card,
         "details": details,
@@ -216,14 +229,34 @@ def _load_steady(conn: sqlite3.Connection) -> list[dict]:
     return out
 
 
+def _is_substantial(conn: sqlite3.Connection, issue: sqlite3.Row) -> bool:
+    """빈약 이슈 게이트 — '수치 0 + 실기사 2건 미만 + LLM 가공 실패(또는 부재)'가
+    동시에 참이면 발행 제외. 읽어서 얻을 게 없는 텅 빈 페이지를 피드에서 없앤다.
+    이후 기사·수치가 보강되거나 LLM 가공이 성공하면 자동으로 다시 노출된다."""
+    o = conn.execute("SELECT model FROM llm_output WHERE issue_id=?",
+                     (issue["id"],)).fetchone()
+    if o and o["model"] and o["model"] != "template":
+        return True  # LLM 정상 가공 이슈는 유지
+    anchors = conn.execute("SELECT COUNT(*) AS n FROM numeric_anchor WHERE issue_id=?",
+                           (issue["id"],)).fetchone()["n"]
+    if anchors > 0:
+        return True
+    sources = conn.execute(
+        "SELECT COUNT(DISTINCT source) AS n FROM article WHERE issue_id=? AND is_dup=0",
+        (issue["id"],)).fetchone()["n"]
+    return sources >= 2
+
+
 def export_all(conn: sqlite3.Connection, out_dir: Path | None = None) -> dict:
     out = out_dir or OUT
     (out / "issues").mkdir(parents=True, exist_ok=True)
 
-    issues = conn.execute(
+    rows = conn.execute(
         "SELECT * FROM issue WHERE status IN ('active','stale') "
         "ORDER BY CASE status WHEN 'active' THEN 0 ELSE 1 END, "
         "importance DESC, last_update DESC LIMIT 200").fetchall()
+    issues = [r for r in rows if _is_substantial(conn, r)]
+    thin = len(rows) - len(issues)
 
     index = {"schema_version": SCHEMA_VERSION,
              "generated_at": now_iso(),
@@ -241,13 +274,13 @@ def export_all(conn: sqlite3.Connection, out_dir: Path | None = None) -> dict:
         (out / "issues" / f"{i['id']}.json").write_text(
             json.dumps(detail, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    # archived 이슈 상세 파일 정리
+    # archived·빈약 이슈 상세 파일 정리
     removed = 0
     for f in (out / "issues").glob("*.json"):
         if f.stem not in live_ids:
             f.unlink()
             removed += 1
-    return {"issues": len(issues), "removed": removed}
+    return {"issues": len(issues), "removed": removed, "thin_skipped": thin}
 
 
 # ============================================================================

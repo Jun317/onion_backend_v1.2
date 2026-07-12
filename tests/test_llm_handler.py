@@ -21,6 +21,10 @@ def test_generate_and_cache(conn):
     assert s1["generated"] == 1
     row = conn.execute("SELECT * FROM llm_output WHERE issue_id='i1'").fetchone()
     assert row["one_liner"] and row["model"] == "fake"
+    # LLM 생성 용어 해설이 저장된다 (본문 등장 용어만)
+    import json as _json
+    glossary = _json.loads(row["glossary_json"])
+    assert glossary and glossary[0]["term"] == "이슈" and glossary[0]["easy"]
     calls_after_first = daily_counter(conn, "llm_calls")
     # 팩트 불변 → 재호출 0 (캐시 히트)
     s2 = process_all(conn, FakeLlm())
@@ -57,13 +61,14 @@ def test_template_is_retried_next_cycle(conn):
 
 
 def test_template_title_assembled_in_korean():
-    """anchor 가 있으면 영어 헤드라인 절단 대신 한국어 기계 조립."""
+    """anchor 가 있으면 영어 헤드라인 절단 대신 한국어 기계 조립 (one_liner 는 해요체)."""
     out = template_output({"category": "RATE",
                            "anchors": [{"entity": "한국은행", "metric": "기준금리",
                                         "value": 3.0, "unit": "%", "prev": 3.25}],
                            "headlines": ["BOK cuts rates by 25bp in surprise move"]})
     assert out["title"] == "한국은행 기준금리 3.0%"
-    assert out["one_liner"] == "한국은행 기준금리 3.25% → 3.0%"
+    assert out["one_liner"] == "한국은행 기준금리가 3.25%에서 3.0%로 바뀌었어요"
+    assert out["glossary"] == []
 
 
 def test_daily_cap_defers(conn):

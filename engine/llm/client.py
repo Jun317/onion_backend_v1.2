@@ -113,15 +113,19 @@ class FakeLlm(LlmClient):
             details.append("자세한 흐름은 차트에서 볼 수 있어요.")
         else:
             details = ["공식 발표가 나왔어요.", "핵심 내용을 정리했어요.", "출처 링크를 확인할 수 있어요."]
+        while len(details) < 4:  # details 규칙 4~6문장 충족
+            details.append("관련 소식이 이어지고 있어요.")
         from ..viz import allowed_for_category
         allowed = allowed_for_category(payload.get("category", "ETC"))
         out = {
             "title": "핵심 이슈 정리",
-            "one_liner": "핵심 소식이 발표됨",
+            "one_liner": "핵심 소식이 발표됐어요",
             "why_now": "시장에 영향을 줄 수 있어요.",
-            "details": details[:5] if len(details) >= 3 else details + ["관련 소식이 이어지고 있어요."] * (3 - len(details)),
+            "details": details[:6],
             "visual_type": allowed[0] if allowed else "none",
             "effects": ["시장 변동성이 커질 수 있어요!"],
+            "glossary": [{"term": "이슈", "easy": "사람들이 주목하는 소식이나 사건이에요.",
+                          "example": "오늘 뉴스에서 가장 큰 이슈로 다뤄졌어요."}],
         }
         return json.dumps(out, ensure_ascii=False), "fake"
 
