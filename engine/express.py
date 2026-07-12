@@ -13,7 +13,7 @@ import json
 import sqlite3
 from pathlib import Path
 
-from .collectors.base import DATA
+from .collectors.base import DATA, norm_url
 from .db import now_iso
 from .embed import build_input, to_blob
 from .normalize import extract_entity_keys
@@ -52,7 +52,25 @@ def process_event(conn: sqlite3.Connection, event: dict) -> str | None:
             "VALUES(?,?,?,?,?,?,?,?,1,?)",
             (iid, event.get("title", ak), event.get("category", "ETC"), "active",
              "official_event", json.dumps(_issue_entity_keys(event), ensure_ascii=False),
-             now, now, ak))
+             event.get("created_at") or now, now, ak))
+
+    # 수기 헤드라인 → article 행 직접 연결 (선택 필드).
+    # 급행 이슈는 기사 편입이 개체 게이트·유사도에 좌우돼 headlines 가 비기 쉬운데,
+    # 큐레이션 이벤트(seed)는 실기사 제목+URL 을 직접 지정해 확정적으로 붙인다.
+    # 저작권 방화벽 준수: 제목·URL·출처만 저장 (본문 없음).
+    for h in event.get("headlines", []):
+        url = norm_url((h.get("url") or "").strip())
+        title = (h.get("title") or "").strip()
+        if not url or not title:
+            continue
+        aid = hashlib.sha1(url.encode("utf-8")).hexdigest()
+        conn.execute(
+            "INSERT OR IGNORE INTO article(id,source,tier,url,url_hash,title,lead,"
+            "published_at,lang,issue_id,is_dup,entity_keys,collected_at) "
+            "VALUES(?,?,?,?,?,?,?,?,?,?,0,?,?)",
+            (aid, h.get("source", ""), h.get("tier", "wire"), url, aid, title, "",
+             h.get("published_at") or now, h.get("lang", "ko"), iid,
+             json.dumps(extract_entity_keys(title), ensure_ascii=False), now))
 
     for a in event.get("anchors", []):
         # 같은 (entity|metric|period) 앵커는 UPSERT — 정정 공시([기재정정] 등)가 별도

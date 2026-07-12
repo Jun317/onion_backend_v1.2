@@ -175,6 +175,66 @@ def _issue_detail(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
     }
 
 
+def _resolve_latest_issue(conn: sqlite3.Connection, match: dict,
+                          by_anchor: dict[str, str]) -> dict | None:
+    """latest_match 규칙 → 가장 최근(last_update) 발행 이슈 1건.
+
+    조건은 지정된 것만 AND 로 적용, 리스트 안은 OR:
+      categories — 이슈 카테고리 포함 / keywords — 제목(원제+LLM 제목)에 부분 포함
+      entities — entity_keys 교집합 / issue_id·anchor_key — 수동 고정 지정
+    매칭 실패 시 None (프런트는 섹션 숨김). 새 하위 이슈가 주제에 편입되면 자동 최신화.
+    """
+    manual = match.get("issue_id") or by_anchor.get(match.get("anchor_key", ""))
+    categories = [str(c) for c in match.get("categories") or []]
+    keywords = [str(k).lower() for k in match.get("keywords") or []]
+    entities = {str(e) for e in match.get("entities") or []}
+
+    best = None
+    for r in conn.execute(
+            # "가장 최근" = 실제 사건이 가장 최근에 일어난 이슈 — 타임라인 최신 시각 기준.
+            # (처리 시각 last_update 는 시드 일괄 주입 시 사건 순서와 어긋난다)
+            "SELECT i.*, o.title AS llm_title, o.one_liner AS llm_one_liner, "
+            " COALESCE((SELECT MAX(at) FROM timeline_entry t WHERE t.issue_id = i.id), "
+            "          i.last_update) AS event_at "
+            "FROM issue i LEFT JOIN llm_output o ON o.issue_id = i.id "
+            "WHERE i.status IN ('active','stale') "
+            "ORDER BY event_at DESC, i.last_update DESC"):
+        if manual:
+            if r["id"] != manual:
+                continue
+        else:
+            if categories and r["category"] not in categories:
+                continue
+            if keywords:
+                haystack = f"{r['canonical_title']} {r['llm_title'] or ''}".lower()
+                if not any(k in haystack for k in keywords):
+                    continue
+            if entities and not (entities & set(json.loads(r["entity_keys"] or "[]"))):
+                continue
+        best = r
+        break  # last_update DESC — 첫 매칭이 최신
+    if best is None:
+        return None
+    return {"id": best["id"],
+            "title": best["llm_title"] or best["canonical_title"],
+            "one_liner": best["llm_one_liner"] or "",
+            "icon": _issue_icon(best),
+            "last_update": best["last_update"]}
+
+
+def _steady_table(raw: dict | None) -> dict | None:
+    """핵심 수치 표 — 문자열로 강제 변환해 그대로 export (열 수는 큐레이션 몫)."""
+    if not isinstance(raw, dict):
+        return None
+    columns = [str(c) for c in raw.get("columns") or []]
+    rows = [[str(c) for c in row] for row in raw.get("rows") or [] if isinstance(row, list)]
+    rows = [r for r in rows if len(r) == len(columns)]  # 열 수 불일치 행은 드롭
+    if not columns or not rows:
+        return None
+    return {"title": str(raw.get("title") or ""), "columns": columns, "rows": rows,
+            "source": str(raw.get("source") or "")}
+
+
 def _load_steady(conn: sqlite3.Connection) -> list[dict]:
     """steady.yaml (수동 큐레이션) → index.json 최상위 steady 배열.
 
@@ -182,6 +242,8 @@ def _load_steady(conn: sqlite3.Connection) -> list[dict]:
       - refs.phrase 는 문단 text 에 반드시 포함 (아니면 ref 제거)
       - refs 는 issue_id 또는 anchor_key 로 참조 — 발행 중(active/stale)이 아니면 링크만 제거
       - visual_type 은 viz.REGISTRY 재사용 (실패 시 차트 없이 발행)
+      - latest_match → latest_issue 자동 해석 (주제의 가장 최근 하위 이슈)
+      - impact(경제 영향)·table(핵심 수치 표)은 형식 검증 후 그대로 전달
     """
     path = ROOT / "steady.yaml"
     if not path.exists():
@@ -207,6 +269,10 @@ def _load_steady(conn: sqlite3.Connection) -> list[dict]:
         if vtype in REGISTRY:
             visual = build_visual(conn, vtype, REGISTRY[vtype]["cats"][0],
                                   f"steady:{item['id']}")
+        latest = None
+        if isinstance(item.get("latest_match"), dict):
+            latest = _resolve_latest_issue(conn, item["latest_match"], by_anchor)
+        impact = [str(s) for s in item.get("impact") or [] if str(s).strip()]
         detail = []
         for para in item.get("detail", []):
             text = str(para.get("text") or "")
@@ -225,6 +291,8 @@ def _load_steady(conn: sqlite3.Connection) -> list[dict]:
         out.append({"id": str(item["id"]), "icon": item.get("icon"),
                     "title": item["title"], "one_liner": item.get("one_liner", ""),
                     "status_note": item.get("status_note"), "visual": visual,
+                    "latest_issue": latest, "impact": impact,
+                    "table": _steady_table(item.get("table")),
                     "detail": detail})
     return out
 

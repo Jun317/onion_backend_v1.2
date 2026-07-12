@@ -67,3 +67,24 @@ def test_gov_rss_exclude_regex_blocks_notices():
                    "유럽산 플라스틱 원료 반덤핑 관세 부과", "외환시장 변동성 대응 방안 발표"]
     assert all(rx.search(t) for t in noise)
     assert not any(rx.search(t) for t in substantive)
+
+
+def test_steady_v2_latest_match_and_table(conn, tmp_path):
+    """steady latest_match 자동 해석 + impact·table 전달 (steady.yaml 실파일 기반)."""
+    # 코스피 매칭용 발행 이슈 (최신)
+    insert_issue(conn, "k1", title="코스피 사상 최고 경신", category="MARKET",
+                 status="active", last_update="2026-07-01T00:00:00+00:00")
+    _insert_llm(conn, "k1")
+    insert_issue(conn, "k2", title="코스피 8,400 돌파", category="MARKET",
+                 status="stale", last_update="2026-05-27T00:00:00+00:00")
+    _insert_llm(conn, "k2")
+    export_all(conn, tmp_path / "out")
+    idx = json.loads((tmp_path / "out" / "index.json").read_text("utf-8"))
+    steady = {s["id"]: s for s in idx["steady"]}
+    rally = steady["kospi-rally"]
+    assert rally["latest_issue"]["id"] == "k1"          # 최신(last_update) 우선
+    assert rally["impact"] and all(isinstance(s, str) for s in rally["impact"])
+    assert rally["table"]["columns"] and rally["table"]["rows"]
+    assert rally["table"]["source"]                      # 수치 출처 표기
+    # 매칭 이슈가 없는 주제는 latest_issue null (섹션 숨김)
+    assert steady["china-taiwan"]["latest_issue"] is None
