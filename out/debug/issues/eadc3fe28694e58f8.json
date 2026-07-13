@@ -49,7 +49,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-12T23:31:29.394933+00:00",
+  "created_at": "2026-07-13T00:32:25.826233+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -77,8 +77,16 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"빅솔론 실적\",\n   \"one_liner\": \"빅솔론의 매출액과 영업이익이 나왔어요\",\n   \"why_now\": \"기업 실적은 투자자들이 관심을 가질 수 있어요\",\n   \"details\": [\n       \"빅솔론의 매출액은 276.8억원이에요\",\n       \"영업이익은 11.4억원이에요\",\n       \"이 실적은 2025년 1분기에요\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n       \"빅솔론의 주가에 영향을 줄 수 있어요\",\n       \"투자자들의 관심을 끌 수 있어요\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 4~6문장 아님",
+     "effects[0] 느낌표 종결 아님",
+     "effects[1] 느낌표 종결 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -100,8 +108,8 @@
   "fact_hash": "d9bf40f40a7b32d2175e5c1886b4f016e0453db3"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-12T23:31:29.394872+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\", \"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-13T00:32:25.826159+00:00"
  },
  "glossary": [
   {
