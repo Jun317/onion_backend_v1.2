@@ -67,3 +67,49 @@ def test_gov_rss_exclude_regex_blocks_notices():
                    "유럽산 플라스틱 원료 반덤핑 관세 부과", "외환시장 변동성 대응 방안 발표"]
     assert all(rx.search(t) for t in noise)
     assert not any(rx.search(t) for t in substantive)
+
+
+def test_steady_v2_latest_match_and_table(conn, tmp_path):
+    """steady latest_match 자동 해석 + impact·table 전달 (steady.yaml 실파일 기반)."""
+    # 코스피 매칭용 발행 이슈 (최신)
+    insert_issue(conn, "k1", title="코스피 사상 최고 경신", category="MARKET",
+                 status="active", last_update="2026-07-01T00:00:00+00:00")
+    _insert_llm(conn, "k1")
+    insert_issue(conn, "k2", title="코스피 8,400 돌파", category="MARKET",
+                 status="stale", last_update="2026-05-27T00:00:00+00:00")
+    _insert_llm(conn, "k2")
+    export_all(conn, tmp_path / "out")
+    idx = json.loads((tmp_path / "out" / "index.json").read_text("utf-8"))
+    steady = {s["id"]: s for s in idx["steady"]}
+    rally = steady["kospi-rally"]
+    assert rally["latest_issue"]["id"] == "k1"          # 최신(last_update) 우선
+    assert rally["impact"] and all(isinstance(s, str) for s in rally["impact"])
+    assert rally["table"]["columns"] and rally["table"]["rows"]
+    assert rally["table"]["source"]                      # 수치 출처 표기
+    # 매칭 이슈가 없는 주제는 latest_issue null (섹션 숨김)
+    assert steady["china-taiwan"]["latest_issue"] is None
+
+
+def test_english_untranslated_hidden(conn, tmp_path):
+    """template 폴백 + 영어 제목 이슈는 피드에서 숨김 (번역되면 재노출)."""
+    insert_issue(conn, "eng", title="Insider Selling : Qualcomm", category="MARKET",
+                 status="active", entity_keys='["QCOM"]')
+    conn.execute("INSERT INTO llm_output(issue_id,model,title) VALUES('eng','template','Insider Selling : Qualcomm')")
+    # 같은 이슈가 한국어로 가공되면 유지
+    insert_issue(conn, "kor", title="퀄컴 실적 발표", category="EARNINGS",
+                 status="active", entity_keys='["QCOM"]')
+    conn.execute("INSERT INTO llm_output(issue_id,model,title,one_liner,why_now,details_json,effects_json,visual_type,glossary_json)"
+                 " VALUES('kor','llama','퀄컴 실적','퀄컴이 실적을 발표했어요','중요해요.','[]','[]','none','[]')")
+    export_all(conn, tmp_path / "out")
+    ids = {c["id"] for c in json.loads((tmp_path / "out" / "index.json").read_text("utf-8"))["issues"]}
+    assert "eng" not in ids and "kor" in ids
+
+
+def test_offtopic_etc_excluded(conn, tmp_path):
+    """개체·앵커 없는 ETC 이슈는 경제 무관으로 보고 제외."""
+    insert_issue(conn, "off", title="여행 성수기 항공권 안내", category="ETC",
+                 status="active", entity_keys='[]')
+    conn.execute("INSERT INTO llm_output(issue_id,model,title) VALUES('off','template','여행 성수기 항공권 안내')")
+    stats = export_all(conn, tmp_path / "out")
+    ids = {c["id"] for c in json.loads((tmp_path / "out" / "index.json").read_text("utf-8"))["issues"]}
+    assert "off" not in ids

@@ -50,14 +50,21 @@ def test_validation_failure_falls_back_to_template(conn):
     assert conn.execute("SELECT COUNT(*) FROM review_queue").fetchone()[0] == 1
 
 
-def test_template_is_retried_next_cycle(conn):
-    """템플릿 폴백은 캐시로 안 잡힘 — 다음 사이클에 LLM 이 성공하면 교체된다."""
+def test_template_backoff_then_retry(conn):
+    """템플릿 폴백은 백오프 간격 전엔 재시도 안 함, 경과 후엔 재시도해 교체된다."""
     _published_issue(conn)
     process_all(conn, FakeLlm(mode="invalid_json"))   # → template
-    s = process_all(conn, FakeLlm())                  # 사실관계 불변이어도 재시도
-    assert s["generated"] == 1 and s["cached"] == 0
-    row = conn.execute("SELECT model FROM llm_output WHERE issue_id='i1'").fetchone()
-    assert row["model"] == "fake"
+    # 방금 만든 template 은 백오프에 걸려 재시도 안 됨
+    s1 = process_all(conn, FakeLlm())
+    assert s1["generated"] == 0 and s1["backoff"] == 1
+    assert conn.execute("SELECT model FROM llm_output WHERE issue_id='i1'").fetchone()["model"] == "template"
+    # created_at 을 4시간 전으로 낮추면(백오프 경과) 재시도 → 성공 교체
+    from datetime import datetime, timedelta, timezone
+    old = (datetime.now(timezone.utc) - timedelta(hours=4)).isoformat()
+    conn.execute("UPDATE llm_output SET created_at=? WHERE issue_id='i1'", (old,))
+    s2 = process_all(conn, FakeLlm())
+    assert s2["generated"] == 1
+    assert conn.execute("SELECT model FROM llm_output WHERE issue_id='i1'").fetchone()["model"] == "fake"
 
 
 def test_template_title_assembled_in_korean():

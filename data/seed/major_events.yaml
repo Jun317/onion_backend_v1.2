@@ -218,3 +218,178 @@ events:
             period: "2026-06-24", source: "seed(KRX)", prev: null }
       timeline: { kind: official, title: "코스피 8471.00 (2026-06-24)", source: seed,
                   url: "https://backfill.example/kospi_june_surge/ref" }
+
+  # ==========================================================================
+  # v2.3 스테디 이슈 시드 — 2026 상반기 실사건 (웹 조사 기반, 실기사 URL)
+  # headlines 는 express.process_event 가 article 행으로 직접 연결한다.
+  # 수치 anchors 는 언론 보도로 확인된 실측값만 사용, 출처 병기.
+  # ==========================================================================
+
+  # ── 주제 1: 미국-이란 전쟁 ──────────────────────────────────────────────
+  - id: iran_war_outbreak
+    date: "2026-02-28"
+    note: 미국·이스라엘 합동 공습으로 전쟁 발발 — 하메네이 등 이란 수뇌부 사망
+    express:
+      category: GEO
+      entity: 이란
+      period: "2026-02"
+      title: "미국·이스라엘, 이란 공습으로 전쟁 시작"
+      anchors: []
+      timeline: { kind: headline,
+                  title: "미·이스라엘 합동 공습 개시…이란 최고지도자 하메네이 등 수뇌부 사망 (2026-02-28)",
+                  source: 위키백과,
+                  url: "https://ko.wikipedia.org/wiki/2026%EB%85%84_%EC%9D%B4%EB%9E%80_%EC%A0%84%EC%9F%81" }
+      headlines:
+        - { title: "2026년 이란 전쟁 — 미국·이스라엘 선제 타격과 이란의 보복",
+            url: "https://ko.wikipedia.org/wiki/2026%EB%85%84_%EC%9D%B4%EB%9E%80_%EC%A0%84%EC%9F%81",
+            source: 위키백과, published_at: "2026-02-28T06:00:00+00:00", lang: ko }
+        - { title: "미·이란 전쟁에서 종전 합의까지 주요 일지",
+            url: "https://news.sbs.co.kr/amp/news.amp?news_id=N1008609988",
+            source: SBS, published_at: "2026-06-14T10:00:00+00:00", lang: ko }
+
+  - id: iran_hormuz_oil
+    date: "2026-03-09"
+    note: 이란 호르무즈 해협 봉쇄 → 유가 40%+ 급등, WTI 3/9 배럴당 111.24달러
+    express:
+      category: FX
+      entity: 이란
+      period: "2026-03"
+      title: "호르무즈 봉쇄에 국제 유가 급등"
+      anchors:
+        - { entity: WTI, metric: 국제 유가, value: 111.24, unit: 달러,
+            period: "2026-03", source: "WTI 선물 (언론 보도, 2026-03-09)", prev: null }
+      timeline: { kind: headline,
+                  title: "이란, 호르무즈 해협 봉쇄 — 전 세계 석유·가스 선적 차질, 유가 40% 이상 급등",
+                  source: 위키백과,
+                  url: "https://ko.wikipedia.org/wiki/2026%EB%85%84_%EC%9D%B4%EB%9E%80_%EC%A0%84%EC%9F%81" }
+      headlines:
+        - { title: "미-이란 전쟁이 남긴 건 결국 '호르무즈 통행료'? 불안감 속 유가 일단 하락",
+            url: "https://www.pressian.com/pages/articles/2026061518542969874",
+            source: 프레시안, published_at: "2026-06-15T09:00:00+00:00", lang: ko }
+        - { title: "유가 떨어지자 도발한 이란, 트럼프도 안 참았다…다시 시작된 호르무즈 악순환",
+            url: "https://www.hankookilbo.com/news/article/A2026070909180004893",
+            source: 한국일보, published_at: "2026-07-09T09:18:00+00:00", lang: ko }
+
+  - id: iran_ceasefire_mou
+    date: "2026-06-14"
+    note: 전쟁 106일 만에 종전 협상 타결 — 60일 최종 합의 협상 개시 (핵·제재·동결자산)
+    express:
+      category: GEO
+      entity: 이란
+      period: "2026-06"
+      title: "미국-이란 종전 협상 타결"
+      anchors:
+        - { entity: 미국·이란, metric: 최종 합의 협상 시한, value: 60, unit: 일,
+            period: "2026-06", source: "양국 공동성명 (언론 보도)", prev: null }
+      timeline: { kind: headline,
+                  title: "미-이란, 우여곡절 끝 공동성명 발표…\"호르무즈·레바논 관리한다\" (2026-06-14)",
+                  source: MBC,
+                  url: "https://imnews.imbc.com/replay/2026/nwdesk/article/6832037_37004.html" }
+      headlines:
+        - { title: "미-이란, 우여곡절 끝 공동성명 발표…\"호르무즈, 레바논 관리한다\"",
+            url: "https://imnews.imbc.com/replay/2026/nwdesk/article/6832037_37004.html",
+            source: MBC, published_at: "2026-06-14T11:00:00+00:00", lang: ko }
+        - { title: "미국 \"60일 협상 개시\"…협상 착수 늦어질 듯",
+            url: "https://imnews.imbc.com/replay/2026/nwtoday/article/6831300_37012.html",
+            source: MBC뉴스투데이, published_at: "2026-06-15T00:30:00+00:00", lang: ko }
+        - { title: "\"미국·이란 협상 11일 파키스탄 재개 전망\"",
+            url: "https://imnews.imbc.com/replay/2026/nwtoday/article/6835044_37012.html",
+            source: MBC뉴스투데이, published_at: "2026-07-10T00:30:00+00:00", lang: ko }
+
+  # ── 주제 2: 코스피 급등 랠리 ────────────────────────────────────────────
+  - id: kospi_8400_break
+    date: "2026-05-27"
+    note: 코스피 사상 첫 8,400 돌파 (+4.97%, 장중 8,447.69) — HBM4E·종전 기대
+    express:
+      category: MARKET
+      entity: 코스피
+      period: "2026-05"
+      title: "코스피, 사상 첫 8,400 돌파"
+      anchors:
+        - { entity: 코스피, metric: 장중 최고 지수, value: 8447.69, unit: pt,
+            period: "2026-05", source: "한국거래소 (언론 보도, 2026-05-27)", prev: null }
+      timeline: { kind: headline,
+                  title: "[속보] 코스피, 4%대 급등 첫 8400선 돌파…사상 최고 경신 (2026-05-27)",
+                  source: 디지털타임스,
+                  url: "https://www.dt.co.kr/article/12064437" }
+      headlines:
+        - { title: "[속보] 코스피, 4%대 급등 첫 8400선 돌파…사상 최고 경신",
+            url: "https://www.dt.co.kr/article/12064437",
+            source: 디지털타임스, published_at: "2026-05-27T00:10:00+00:00", lang: ko }
+        - { title: "코스피, 사상 최고치 8476선 마감…삼전 강세·중동 훈풍",
+            url: "https://www.dailian.co.kr/news/view/1650351",
+            source: 데일리안, published_at: "2026-05-29T07:00:00+00:00", lang: ko }
+        - { title: "종전·삼전 기대감에 젠슨 황까지…코스피 또 사상 최고",
+            url: "https://biz.sbs.co.kr/article/20000313489",
+            source: SBS Biz, published_at: "2026-05-29T08:00:00+00:00", lang: ko }
+
+  - id: kospi_h1_double
+    date: "2026-06-30"
+    note: 상반기 코스피 4,214.17 → 8,476.48 (+101.14%) — 1999년 IT버블(+56.99%) 경신
+    express:
+      category: MARKET
+      entity: 코스피
+      period: "2026-06"
+      title: "코스피, 상반기에 두 배로"
+      anchors:
+        - { entity: 코스피, metric: 종가 지수, value: 8476.48, unit: pt,
+            period: "2026-06", source: "한국거래소 (언론 보도, 2026-06-30)", prev: 4214.17 }
+        - { entity: 코스피, metric: 상반기 상승률, value: 101.14, unit: "%",
+            period: "2026-06", source: "뉴시스 (한국거래소 집계)", prev: null }
+      timeline: { kind: headline,
+                  title: "역대 가장 뜨거웠던 상반기…코스피 4200→8400 수직 상승 (2026-06-30)",
+                  source: 뉴시스,
+                  url: "https://www.newsis.com/view/NISX20260630_0003690120" }
+      headlines:
+        - { title: "역대 가장 뜨거웠던 상반기…코스피 4200→8400 수직 상승",
+            url: "https://www.newsis.com/view/NISX20260630_0003690120",
+            source: 뉴시스, published_at: "2026-06-30T07:00:00+00:00", lang: ko }
+        - { title: "코스피, 역대급 폭락 딛고 하루 만에 반등…8400선 회복",
+            url: "https://www.hankyung.com/article/2026062455646",
+            source: 한국경제, published_at: "2026-06-24T07:00:00+00:00", lang: ko }
+
+  # ── 주제 3: 중국의 대만 침공 준비 ───────────────────────────────────────
+  - id: china_taiwan_drill
+    date: "2026-03-16"
+    note: 중국 CCTV, 육해공·로켓군 대규모 상륙훈련 공개 (075형 하이난함) — 2027 침공설
+    express:
+      category: GEO
+      entity: 중국
+      period: "2026-03"
+      title: "중국, 대만 겨냥 대규모 상륙훈련"
+      anchors: []
+      timeline: { kind: headline,
+                  title: "중국 CCTV, 육해공·로켓군 동원 대규모 상륙훈련 공개 (2026-03-16)",
+                  source: 코스미안뉴스,
+                  url: "https://www.cosmiannews.com/news/446450" }
+      headlines:
+        - { title: "중국의 대만 침공 준비는 현실인가? 대규모 상륙훈련이 던진 경고",
+            url: "https://www.cosmiannews.com/news/446450",
+            source: 코스미안뉴스, published_at: "2026-03-17T02:00:00+00:00", lang: ko }
+        - { title: "美 인태사령관 \"중국, 2027년까지 대만 침공 준비 완료\"",
+            url: "https://www.sedaily.com/News/NewsView/PhotoViewer?Nid=2D6Q0WGM5N",
+            source: 서울경제, published_at: "2026-03-18T01:00:00+00:00", lang: ko }
+
+  - id: taiwan_defense_drill
+    date: "2026-06-29"
+    note: 대만, 중국 군함 출몰 속 즉각 대비태세 훈련 + 8/5 한광 42호 훈련 (9박 10일)
+    express:
+      category: GEO
+      entity: 대만
+      period: "2026-06"
+      title: "대만, 중국 침공 대비 훈련 확대"
+      anchors: []
+      timeline: { kind: headline,
+                  title: "대만군, 中 침공 대비 '즉각 대비태세 훈련' 돌입 (2026-06-22)",
+                  source: 뉴시스,
+                  url: "https://www.newsis.com/view/NISX20260622_0003678703" }
+      headlines:
+        - { title: "주변 해역에 중국 군함 출몰한 대만, 8월에 '침공 대비 훈련'",
+            url: "https://www.khan.co.kr/article/202606291457001/",
+            source: 경향신문, published_at: "2026-06-29T05:57:00+00:00", lang: ko }
+        - { title: "대만군, 中 침공 대비 '즉각 대비태세 훈련' 돌입",
+            url: "https://www.fnnews.com/news/202606221722308100",
+            source: 파이낸셜뉴스, published_at: "2026-06-22T08:22:00+00:00", lang: ko }
+        - { title: "대만, 中 기습 공격 전환 대비 훈련…\"中 침공 경고 시간 짧아져\"",
+            url: "https://www.newscj.com/news/articleView.html?idxno=3411712",
+            source: 천지일보, published_at: "2026-06-23T03:00:00+00:00", lang: ko }

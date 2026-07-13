@@ -48,3 +48,35 @@ def test_ensure_centroids(conn):
     n = ensure_centroids(conn, FakeEmbedder())
     assert n == 1
     assert conn.execute("SELECT centroid FROM issue WHERE id=?", (iid,)).fetchone()[0] is not None
+
+
+def test_express_headlines_create_articles(conn):
+    """headlines 필드 → article 행 직접 연결 (큐레이션 이벤트용, 멱등)."""
+    event = {**EVENT, "key": "seed_headline_test", "period": "2026-08",
+             "headlines": [
+                 {"title": "첫 기사 제목", "url": "https://a.example/1", "source": "매체A",
+                  "published_at": "2026-08-01T00:00:00+00:00"},
+                 {"title": "둘째 기사 제목", "url": "https://b.example/2", "source": "매체B",
+                  "published_at": "2026-08-02T00:00:00+00:00"},
+                 {"title": "", "url": "https://c.example/3", "source": "매체C"},  # 제목 없음 → skip
+             ]}
+    iid = process_event(conn, event)
+    rows = conn.execute(
+        "SELECT source, title FROM article WHERE issue_id=? AND is_dup=0 ORDER BY source",
+        (iid,)).fetchall()
+    assert [(r["source"], r["title"]) for r in rows] == [
+        ("매체A", "첫 기사 제목"), ("매체B", "둘째 기사 제목")]
+    # 같은 URL 재처리해도 중복 생성 없음 (다른 key 로 재실행)
+    event2 = {**event, "key": "seed_headline_test_2"}
+    process_event(conn, event2)
+    n = conn.execute("SELECT COUNT(*) FROM article WHERE issue_id=?", (iid,)).fetchone()[0]
+    assert n == 2
+
+
+def test_express_uses_event_created_at(conn):
+    """이벤트 created_at(과거 실날짜)이 이슈 created_at 에 반영된다."""
+    event = {**EVENT, "key": "seed_created_test", "period": "2026-03",
+             "created_at": "2026-03-01T00:00:00+00:00"}
+    iid = process_event(conn, event)
+    issue = conn.execute("SELECT created_at FROM issue WHERE id=?", (iid,)).fetchone()
+    assert issue["created_at"] == "2026-03-01T00:00:00+00:00"

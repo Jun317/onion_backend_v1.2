@@ -8,10 +8,21 @@ from pathlib import Path
 
 from .config import cfg, entities
 from .collectors.base import DATA
+from .util.lang import is_foreign_title
 from .util.simhash import simhash64
 from .util.textnum import tag_numbers
 
 _alias_index: list[tuple[str, str]] | None = None  # (lowercase alias, key)
+_noise_re: re.Pattern | None = None
+
+
+def _noise_pattern() -> re.Pattern | None:
+    """경제와 무관하거나 저가치 노이즈 기사 제목 패턴 (config.collect.noise_regex)."""
+    global _noise_re
+    if _noise_re is None:
+        rx = cfg().get("collect", {}).get("noise_regex")
+        _noise_re = re.compile(rx, re.IGNORECASE) if rx else re.compile(r"(?!x)x")
+    return _noise_re
 
 
 def _aliases() -> list[tuple[str, str]]:
@@ -46,6 +57,13 @@ def normalize_record(raw: dict) -> dict | None:
     title = (raw.get("title") or "").strip()
     url = (raw.get("url") or "").strip()
     if not title or not url or not raw.get("id"):
+        return None
+    # 외국어(중국어·일본어 등) 기사 드롭 — GDELT lang 오라벨로 유입된 노이즈 차단.
+    # 부처 보도자료(official)는 한국어라 통과하므로 안전.
+    if is_foreign_title(title):
+        return None
+    # 경제 무관·저가치 노이즈(insider selling, 개별종목 등급, 여행 등) 드롭
+    if _noise_pattern().search(title):
         return None
     lead = (raw.get("lead") or "").strip()[:200]
     text = f"{title} {lead}"

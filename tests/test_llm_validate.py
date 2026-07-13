@@ -52,11 +52,36 @@ def test_why_now_rules():
 
 
 def test_details_count_and_ending():
-    bad = {**GOOD, "details": ["짧아요.", "둘째 문장이에요.", "셋째 문장이에요."]}   # 4개 미만
-    assert any("4~6" in e for e in validate(bad, PAYLOAD, ALLOWED_VIZ))
+    # 3개는 이제 허용(하한 완화) — 2개는 리젝트
+    ok3 = {**GOOD, "details": ["첫 문장이에요.", "둘째 문장이에요.", "셋째 문장이에요."]}
+    assert validate(dict(ok3), PAYLOAD, ALLOWED_VIZ) == []
+    few = {**GOOD, "details": ["짧아요.", "둘째 문장이에요."]}
+    assert any("3문장 미만" in e for e in validate(few, PAYLOAD, ALLOWED_VIZ))
     bad2 = {**GOOD, "details": ["금리를 내렸다.", "둘째 문장이에요.", "셋째 문장이에요.",
                                 "넷째 문장이에요."]}
     assert any("어요체" in e for e in validate(bad2, PAYLOAD, ALLOWED_VIZ))
+
+
+def test_details_auto_repair_clips_long_sentence():
+    """55자 초과 details 는 리젝트 대신 문장 경계에서 자동 절단된다."""
+    longd = "한국은행이 기준금리를 내렸는데 이것은 아주 길고 긴 설명이라서 오십오자를 넘어가게 되는 문장이에요"
+    out = {**GOOD, "details": ["첫 문장이에요.", "둘째 문장이에요.", longd]}
+    assert validate(out, PAYLOAD, ALLOWED_VIZ) == []
+    assert all(len(d) <= 55 for d in out["details"])
+
+
+def test_cjk_in_title_rejected():
+    bad = {**GOOD, "title": "美 기준금리 인하"}
+    assert any("한자/가나" in e for e in validate(bad, PAYLOAD, ALLOWED_VIZ))
+    bad2 = {**GOOD, "one_liner": "美 연준이 금리를 내렸어요"}
+    assert any("한자/가나" in e for e in validate(bad2, PAYLOAD, ALLOWED_VIZ))
+
+
+def test_free_numbers_allowed():
+    """연도·작은 카운트는 환각으로 보지 않는다."""
+    out = {**GOOD, "details": ["2024년부터 이어진 흐름이에요.", "둘째 문장이에요.",
+                               "셋째 문장이에요."]}
+    assert validate(out, PAYLOAD, ALLOWED_VIZ) == []
 
 
 def test_number_hallucination_blocked():

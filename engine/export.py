@@ -16,6 +16,7 @@ from .config import ROOT, cfg, categories
 from .db import daily_counter, meta_get, now_iso
 from .embed import from_blob
 from .glossary import terms_in_parts
+from .util.lang import is_foreign_title, normalize_hanja
 from .viz import REGISTRY, build_visual
 
 OUT = ROOT / "out"
@@ -90,7 +91,7 @@ def _related_issues(conn: sqlite3.Connection, issue: sqlite3.Row, limit: int = 5
             "ORDER BY importance DESC, last_update DESC LIMIT 60", (issue["id"],)):
         shared = kset & set(json.loads(r["entity_keys"] or "[]"))
         if shared or r["category"] == issue["category"]:
-            out.append({"id": r["id"], "title": r["canonical_title"],
+            out.append({"id": r["id"], "title": normalize_hanja(r["canonical_title"]),
                         "category": r["category"], "shared": sorted(shared)})
         if len(out) >= limit:
             break
@@ -103,13 +104,15 @@ def _issue_card(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
     # spark 용 시리즈 — build_visual 은 viz_cache(6h) 를 타므로 카드 단위 호출 부담 없음
     visual = build_visual(conn, o["visual_type"], issue["category"], issue["id"]) \
         if has_visual else None
+    # LLM 미가공 시 원제목이 노출되므로 한자 약자 치환 (가공 성공분은 C2 검증이 CJK 차단)
+    fallback_title = normalize_hanja(issue["canonical_title"])
     return {
         "id": issue["id"],
         # title = 짧고 직관적인 제목(LLM), one_liner = 더 길고 정보 있는 한 줄, why_now = 왜 중요한지
-        "title": (o["title"] if o and o["title"] else issue["canonical_title"]),
-        "one_liner": (o["one_liner"] if o and o["one_liner"] else issue["canonical_title"]),
+        "title": (o["title"] if o and o["title"] else fallback_title),
+        "one_liner": (o["one_liner"] if o and o["one_liner"] else fallback_title),
         "why_now": o["why_now"] if o else None,
-        "raw_title": issue["canonical_title"],   # 원 기사 제목 (참고)
+        "raw_title": fallback_title,   # 원 기사 제목 (참고)
         "category": issue["category"],
         "status": issue["status"],
         "origin": issue["origin"],
@@ -126,12 +129,31 @@ def _issue_card(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
 
 def _issue_detail(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
     o = conn.execute("SELECT * FROM llm_output WHERE issue_id=?", (issue["id"],)).fetchone()
-    timeline = [dict(r) for r in conn.execute(
-        "SELECT kind, title, source, url, at FROM timeline_entry WHERE issue_id=? "
-        "ORDER BY at DESC LIMIT 30", (issue["id"],))]
-    headlines = [dict(r) for r in conn.execute(
-        "SELECT title, source, url, published_at FROM article WHERE issue_id=? AND is_dup=0 "
-        "ORDER BY published_at DESC LIMIT 10", (issue["id"],))]
+    # 기사 원제목은 언론 관용 한자 약자(美·中 …)를 한국어로 치환해 표시 (한자 노출 방지)
+    # 한자 약자는 한국어로 치환, 외국어(중국어 등) 제목은 표시에서 제외
+    # (DB 에 이미 쌓인 외국어 기사 방어 — 신규 유입은 normalize 에서 차단됨)
+    timeline = []
+    for r in conn.execute(
+            "SELECT kind, title, source, url, at FROM timeline_entry WHERE issue_id=? "
+            "ORDER BY at DESC LIMIT 40", (issue["id"],)):
+        d = dict(r)
+        d["title"] = normalize_hanja(d["title"])
+        if is_foreign_title(d["title"]):
+            continue
+        timeline.append(d)
+        if len(timeline) >= 30:
+            break
+    headlines = []
+    for r in conn.execute(
+            "SELECT title, source, url, published_at FROM article WHERE issue_id=? AND is_dup=0 "
+            "ORDER BY published_at DESC LIMIT 20", (issue["id"],)):
+        d = dict(r)
+        d["title"] = normalize_hanja(d["title"])
+        if is_foreign_title(d["title"]):
+            continue
+        headlines.append(d)
+        if len(headlines) >= 10:
+            break
     # 같은 (entity, metric, period) 는 최신 1건만 — 과거 중복 누적분 방어 (db._migrate 참고)
     anchors = [dict(r) for r in conn.execute(
         "SELECT entity, metric, value, unit, prev, period, source FROM numeric_anchor "
@@ -175,6 +197,66 @@ def _issue_detail(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
     }
 
 
+def _resolve_latest_issue(conn: sqlite3.Connection, match: dict,
+                          by_anchor: dict[str, str]) -> dict | None:
+    """latest_match 규칙 → 가장 최근(last_update) 발행 이슈 1건.
+
+    조건은 지정된 것만 AND 로 적용, 리스트 안은 OR:
+      categories — 이슈 카테고리 포함 / keywords — 제목(원제+LLM 제목)에 부분 포함
+      entities — entity_keys 교집합 / issue_id·anchor_key — 수동 고정 지정
+    매칭 실패 시 None (프런트는 섹션 숨김). 새 하위 이슈가 주제에 편입되면 자동 최신화.
+    """
+    manual = match.get("issue_id") or by_anchor.get(match.get("anchor_key", ""))
+    categories = [str(c) for c in match.get("categories") or []]
+    keywords = [str(k).lower() for k in match.get("keywords") or []]
+    entities = {str(e) for e in match.get("entities") or []}
+
+    best = None
+    for r in conn.execute(
+            # "가장 최근" = 실제 사건이 가장 최근에 일어난 이슈 — 타임라인 최신 시각 기준.
+            # (처리 시각 last_update 는 시드 일괄 주입 시 사건 순서와 어긋난다)
+            "SELECT i.*, o.title AS llm_title, o.one_liner AS llm_one_liner, "
+            " COALESCE((SELECT MAX(at) FROM timeline_entry t WHERE t.issue_id = i.id), "
+            "          i.last_update) AS event_at "
+            "FROM issue i LEFT JOIN llm_output o ON o.issue_id = i.id "
+            "WHERE i.status IN ('active','stale') "
+            "ORDER BY event_at DESC, i.last_update DESC"):
+        if manual:
+            if r["id"] != manual:
+                continue
+        else:
+            if categories and r["category"] not in categories:
+                continue
+            if keywords:
+                haystack = f"{r['canonical_title']} {r['llm_title'] or ''}".lower()
+                if not any(k in haystack for k in keywords):
+                    continue
+            if entities and not (entities & set(json.loads(r["entity_keys"] or "[]"))):
+                continue
+        best = r
+        break  # last_update DESC — 첫 매칭이 최신
+    if best is None:
+        return None
+    return {"id": best["id"],
+            "title": best["llm_title"] or best["canonical_title"],
+            "one_liner": best["llm_one_liner"] or "",
+            "icon": _issue_icon(best),
+            "last_update": best["last_update"]}
+
+
+def _steady_table(raw: dict | None) -> dict | None:
+    """핵심 수치 표 — 문자열로 강제 변환해 그대로 export (열 수는 큐레이션 몫)."""
+    if not isinstance(raw, dict):
+        return None
+    columns = [str(c) for c in raw.get("columns") or []]
+    rows = [[str(c) for c in row] for row in raw.get("rows") or [] if isinstance(row, list)]
+    rows = [r for r in rows if len(r) == len(columns)]  # 열 수 불일치 행은 드롭
+    if not columns or not rows:
+        return None
+    return {"title": str(raw.get("title") or ""), "columns": columns, "rows": rows,
+            "source": str(raw.get("source") or "")}
+
+
 def _load_steady(conn: sqlite3.Connection) -> list[dict]:
     """steady.yaml (수동 큐레이션) → index.json 최상위 steady 배열.
 
@@ -182,6 +264,8 @@ def _load_steady(conn: sqlite3.Connection) -> list[dict]:
       - refs.phrase 는 문단 text 에 반드시 포함 (아니면 ref 제거)
       - refs 는 issue_id 또는 anchor_key 로 참조 — 발행 중(active/stale)이 아니면 링크만 제거
       - visual_type 은 viz.REGISTRY 재사용 (실패 시 차트 없이 발행)
+      - latest_match → latest_issue 자동 해석 (주제의 가장 최근 하위 이슈)
+      - impact(경제 영향)·table(핵심 수치 표)은 형식 검증 후 그대로 전달
     """
     path = ROOT / "steady.yaml"
     if not path.exists():
@@ -207,6 +291,10 @@ def _load_steady(conn: sqlite3.Connection) -> list[dict]:
         if vtype in REGISTRY:
             visual = build_visual(conn, vtype, REGISTRY[vtype]["cats"][0],
                                   f"steady:{item['id']}")
+        latest = None
+        if isinstance(item.get("latest_match"), dict):
+            latest = _resolve_latest_issue(conn, item["latest_match"], by_anchor)
+        impact = [str(s) for s in item.get("impact") or [] if str(s).strip()]
         detail = []
         for para in item.get("detail", []):
             text = str(para.get("text") or "")
@@ -225,20 +313,46 @@ def _load_steady(conn: sqlite3.Connection) -> list[dict]:
         out.append({"id": str(item["id"]), "icon": item.get("icon"),
                     "title": item["title"], "one_liner": item.get("one_liner", ""),
                     "status_note": item.get("status_note"), "visual": visual,
+                    "latest_issue": latest, "impact": impact,
+                    "table": _steady_table(item.get("table")),
                     "detail": detail})
     return out
 
 
+def _korean_ratio(text: str) -> float:
+    """글자 중 한글 비율 (공백·기호 제외 분모). 영어/미번역 판별용."""
+    letters = [c for c in (text or "") if c.strip() and not c.isspace()]
+    if not letters:
+        return 0.0
+    hangul = sum(1 for c in letters if "가" <= c <= "힣")
+    return hangul / len(letters)
+
+
 def _is_substantial(conn: sqlite3.Connection, issue: sqlite3.Row) -> bool:
-    """빈약 이슈 게이트 — '수치 0 + 실기사 2건 미만 + LLM 가공 실패(또는 부재)'가
-    동시에 참이면 발행 제외. 읽어서 얻을 게 없는 텅 빈 페이지를 피드에서 없앤다.
-    이후 기사·수치가 보강되거나 LLM 가공이 성공하면 자동으로 다시 노출된다."""
-    o = conn.execute("SELECT model FROM llm_output WHERE issue_id=?",
+    """발행 게이트 (v2.4 확장). 다음 이슈는 피드에서 제외한다:
+      ① 빈약: 수치 0 + 실기사 2건 미만 + LLM 가공 실패(또는 부재)
+      ② 미번역: 아직 template 폴백이고 제목이 영어(한글 비율 낮음) — 번역되면 자동 재노출
+      ③ 무관: 개체키 0 + 앵커 0 + 카테고리 ETC (경제 신호 없음)
+    수치·개체가 있거나 LLM 정상 가공된 이슈는 항상 유지한다."""
+    o = conn.execute("SELECT model, title FROM llm_output WHERE issue_id=?",
                      (issue["id"],)).fetchone()
     if o and o["model"] and o["model"] != "template":
         return True  # LLM 정상 가공 이슈는 유지
+
     anchors = conn.execute("SELECT COUNT(*) AS n FROM numeric_anchor WHERE issue_id=?",
                            (issue["id"],)).fetchone()["n"]
+    entity_keys = json.loads(issue["entity_keys"] or "[]")
+
+    # ② 미번역 영어 제목 숨김 (번역 성공 시 위 분기에서 유지됨)
+    shown_title = (o["title"] if o and o["title"] else issue["canonical_title"]) or ""
+    if _korean_ratio(shown_title) < 0.3:
+        return False
+
+    # ③ 경제 무관: 개체·앵커·ETC 모두 신호 없음
+    if anchors == 0 and not entity_keys and issue["category"] == "ETC":
+        return False
+
+    # ① 빈약
     if anchors > 0:
         return True
     sources = conn.execute(
