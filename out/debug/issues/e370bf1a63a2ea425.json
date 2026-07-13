@@ -74,7 +74,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-13T07:49:06.696547+00:00",
+  "created_at": "2026-07-13T15:23:50.608067+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [
@@ -111,18 +111,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"한국 소비자물가 소폭 상승\",\n  \"one_liner\": \"지난 6월 한국의 소비자물가지수가 119.99를 기록하며 조금 올랐어요.\",\n  \"why_now\": \"물가가 오르면 우리가 사는 물건들의 가격이 올라서 부담이 될 수 있어요.\",\n  \"details\": [\n    \"지난 6월 소비자물가지수는 119.99였어요.\",\n    \"이는 전달인 5월의 119.92보다 소폭 오른 수치예요.\",\n    \"또한 4월의 119.37보다도 오른 결과예요.\"\n  ],\n  \"visual_type\": \"kr_cpi_yoy\",\n  \"effects\": [\n    \"물건 가격이 더 오를 수 있어요!\",\n    \"가계의 소비 부담이 늘어날 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"소비자물가지수\",\n      \"easy\": \"우리 생활과 관련된 여러 가지 물건과 서비스의 평균 가격 수준을 나타내는 지수예요.\",\n      \"example\": \"소비자물가지수가 오르면 장바구니 물가가 올라서 부담스러워요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "details 4~6문장 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 4~6문장 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -141,8 +135,8 @@
   "fact_hash": "f319983aef04d244b90040b38722983af2b1e884"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}]}",
-  "at": "2026-07-13T07:49:06.696495+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-13T15:23:50.607981+00:00"
  },
  "glossary": [
   {

@@ -38,7 +38,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-13T07:50:56.696308+00:00",
+  "created_at": "2026-07-13T15:26:41.568523+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [
@@ -57,14 +57,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"D램 가격 급등\",\n   \"one_liner\": \"한국의 D램 가격이 1분기에 90% 올랐어요\",\n   \"why_now\": \"D램 가격이 오르면 전자제품 가격도 따라 오를 수 있어요\",\n   \"details\": [\n      \"D램 가격이 1분기에 90% 급등했어요\",\n      \"이번 분기 가격 상승률은 90%예요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"전자제품 가격이 오를 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"D램\",\n         \"easy\": \"컴퓨터 기억장치의 한 종류예요\",\n         \"example\": \"스마트폰이나 컴퓨터에 들어가는 기억장치예요\"\n      }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 4~6문장 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -85,8 +79,8 @@
   "fact_hash": "6c8e050fa0e4b75887cf94da00070cda9d69554e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-13T07:50:56.696245+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-13T15:26:41.568457+00:00"
  },
  "glossary": [],
  "related": [
@@ -103,6 +97,12 @@
    "shared": []
   },
   {
+   "id": "eb742211d6b920cb4",
+   "title": "코스피, 상반기에 두 배로",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
    "id": "c88e0e9224f4c05cc",
    "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
    "category": "MARKET",
@@ -111,12 +111,6 @@
   {
    "id": "cb96012b716dd06a1",
    "title": "Sequoia Financial Advisors LLC Sells 3 , 663 Shares of Qualcomm Incorporated $QCOM",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c499660e9dfd764df",
-   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
    "category": "MARKET",
    "shared": []
   }

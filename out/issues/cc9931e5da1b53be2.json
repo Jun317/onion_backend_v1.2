@@ -1,8 +1,8 @@
 {
  "id": "cc9931e5da1b53be2",
- "title": "Stocks rise as…",
- "one_liner": "Stocks rise as SpaceX fever lifts tech ; yen…",
- "why_now": "공식 발표 내용을 정리했어요.",
+ "title": "일본 금리 인상",
+ "one_liner": "일본 중앙은행이 금리를 올렸어요",
+ "why_now": "금리 인상은 물가 상승을 막는 데 도움이 될 수 있어요",
  "raw_title": "BOJ dissenter Asada sets bar for supporting next rate hike , wants demand - driven inflation",
  "category": "RATE",
  "status": "stale",
@@ -10,87 +10,21 @@
  "sources": 3,
  "importance": 125,
  "last_update": "2026-07-08T16:54:37.753268+00:00",
- "has_visual": true,
+ "has_visual": false,
  "headline_stat": null,
- "spark": [
-  2.5,
-  2.5,
-  2.5,
-  2.5,
-  2.5,
-  2.5,
-  2.5,
-  2.5
- ],
+ "spark": null,
  "icon": "🇯🇵",
  "details": [
-  "Stocks rise as SpaceX fever lifts tech ; yen flat after BOJ hikes rates",
-  "BOJ dissenter Asada sets bar for supporting next rate hike , wants demand - driven inflation",
-  "BOJ dissenter Asada needs demand - driven inflation before backing rate hike"
+  "일본 중앙은행이 금리를 인상했어요",
+  "일본은행의 금리 인상 결정에 일부 반대가 있었어요",
+  "반대하는 의견은 물가 상승이 소비자需求에 의해 이뤄져야 한다고 주장해요"
  ],
- "effects": [],
- "model": "template",
- "visual": {
-  "type": "kr_base_rate",
-  "chart": "step",
-  "title": "한국은행 기준금리 (최근 3년)",
-  "unit": "%",
-  "source": "한국은행 ECOS",
-  "series": [
-   {
-    "t": "2025-06",
-    "v": 2.5
-   },
-   {
-    "t": "2025-07",
-    "v": 2.5
-   },
-   {
-    "t": "2025-08",
-    "v": 2.5
-   },
-   {
-    "t": "2025-09",
-    "v": 2.5
-   },
-   {
-    "t": "2025-10",
-    "v": 2.5
-   },
-   {
-    "t": "2025-11",
-    "v": 2.5
-   },
-   {
-    "t": "2025-12",
-    "v": 2.5
-   },
-   {
-    "t": "2026-01",
-    "v": 2.5
-   },
-   {
-    "t": "2026-02",
-    "v": 2.5
-   },
-   {
-    "t": "2026-03",
-    "v": 2.5
-   },
-   {
-    "t": "2026-04",
-    "v": 2.5
-   },
-   {
-    "t": "2026-05",
-    "v": 2.5
-   },
-   {
-    "t": "2026-06",
-    "v": 2.5
-   }
-  ]
- },
+ "effects": [
+  "일본 경제에 미칠 영향이 있을 것으로 예상돼요!",
+  "일본 주식 시장에 긍정적 영향을 줄 수 있어요!"
+ ],
+ "model": "llama-3.3-70b-versatile",
+ "visual": null,
  "anchors": [],
  "headlines": [
   {
@@ -135,7 +69,23 @@
    "at": "2026-07-07T22:15:00+00:00"
   }
  ],
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리 인상",
+   "easy": "이자의 기준을 올리는 거예요.",
+   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "e77a7b1c911ca1d26",

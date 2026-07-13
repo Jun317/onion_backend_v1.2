@@ -12,8 +12,18 @@
  "seen_sources": 2,
  "importance": 90,
  "created_at": "2026-07-12T21:11:31.396657+00:00",
- "last_update": "2026-07-12T21:11:31.397139+00:00",
+ "last_update": "2026-07-13T15:18:16.400262+00:00",
  "members": [
+  {
+   "id": "e454acc09999ebcdc496829c1443f7aa750e5c6e",
+   "source": "tickerreport.com",
+   "tier": "wire",
+   "url": "https://www.tickerreport.com/banking-finance/13502348/paradiem-llc-sells-55867-shares-of-qualcomm-incorporated-qcom.html",
+   "title": "Paradiem LLC Sells 55 , 867 Shares of Qualcomm Incorporated $QCOM",
+   "published_at": "2026-07-13T10:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9383
+  },
   {
    "id": "fe978c52b01d7e11d41090580c3df8618ed5f2b6",
    "source": "tickerreport.com",
@@ -22,7 +32,7 @@
    "title": "LGT Fund Management Co Ltd . Purchases 22 , 663 Shares of Qualcomm Incorporated $QCOM",
    "published_at": "2026-07-12T20:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9768
+   "sim_to_centroid": 0.9753
   },
   {
    "id": "76d338cab07b1cdc1135da305853b97edc116ca3",
@@ -37,6 +47,13 @@
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Paradiem LLC Sells 55 , 867 Shares of Qualcomm Incorporated $QCOM",
+   "source": "tickerreport.com",
+   "url": "https://www.tickerreport.com/banking-finance/13502348/paradiem-llc-sells-55867-shares-of-qualcomm-incorporated-qcom.html",
+   "at": "2026-07-13T10:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "LGT Fund Management Co Ltd . Purchases 22 , 663 Shares of Qualcomm Incorporated $QCOM",
@@ -54,50 +71,43 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-13T07:48:02.114445+00:00",
+  "created_at": "2026-07-13T15:22:18.808733+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Paradiem LLC Sells 55 , 867 Shares of Qualcomm Incorporated $QCOM",
     "LGT Fund Management Co Ltd . Purchases 22 , 663 Shares of Qualcomm Incorporated $QCOM",
     "Sequoia Financial Advisors LLC Sells 3 , 663 Shares of Qualcomm Incorporated $QCOM"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"퀄컴 주식 거래\",\n   \"one_liner\": \"LGT 펀드 매니지먼트가 퀄컴 주식을 더 샀고, 시퀘오이아 파이낸셜 어드바이저스가 퀄컴 주식을 팔았어요.\",\n   \"why_now\": \"이 소식은 퀄컴의 주가에 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"LGT 펀드 매니지먼트가 퀄컴 주식 22,663개를 샀어요.\",\n       \"시퀘오이아 파이낸셜 어드바이저스가 퀄컴 주식 3,663개를 팔았어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"퀄컴 주가에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 4~6문장 아님",
-     "입력에 없는 숫자: [3663.0, 22663.0]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 50자 초과(58)",
-     "details 4~6문장 아님",
-     "입력에 없는 숫자: [3663.0, 22663.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
   "output": {
-   "title": "LGT Fund Management…",
-   "one_liner": "LGT Fund Management Co Ltd . Purchases 22 , 663…",
+   "title": "Paradiem LLC Sells…",
+   "one_liner": "Paradiem LLC Sells 55 , 867 Shares of Qualcomm…",
    "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
+    "Paradiem LLC Sells 55 , 867 Shares of Qualcomm Incorporated $QCOM",
     "LGT Fund Management Co Ltd . Purchases 22 , 663 Shares of Qualcomm Incorporated $QCOM",
     "Sequoia Financial Advisors LLC Sells 3 , 663 Shares of Qualcomm Incorporated $QCOM"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "f17b1f5a8bff72c2eb376b8a8aaf2f7ab4cce405"
+  "fact_hash": "cdd4e05f269c15f5b66fc1b128cb4421fadc3ecd"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\", \"입력에 없는 숫자: [3663.0, 22663.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 50자 초과(58)\", \"details 4~6문장 아님\", \"입력에 없는 숫자: [3663.0, 22663.0]\"]}]}",
-  "at": "2026-07-13T07:48:02.114351+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-13T15:22:18.808665+00:00"
  },
  "glossary": [],
  "related": [
@@ -114,6 +124,12 @@
    "shared": []
   },
   {
+   "id": "eb742211d6b920cb4",
+   "title": "코스피, 상반기에 두 배로",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
    "id": "c88e0e9224f4c05cc",
    "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
    "category": "MARKET",
@@ -122,12 +138,6 @@
   {
    "id": "c499660e9dfd764df",
    "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "e76a31562c5cb5183",
-   "title": "1분기 D램 가격 90% 급등",
    "category": "MARKET",
    "shared": []
   }

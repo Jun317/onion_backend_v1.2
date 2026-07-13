@@ -1,0 +1,159 @@
+{
+ "id": "e382db26d7ba873bd",
+ "title": "코스피, 사상 첫 8,400 돌파",
+ "category": "MARKET",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "코스피|MARKET|2026-05",
+ "entity_keys": [
+  "KOSPI"
+ ],
+ "seen_sources": 0,
+ "importance": 65,
+ "created_at": "2026-05-27T00:00:00+00:00",
+ "last_update": "2026-07-13T15:18:02.962241+00:00",
+ "members": [
+  {
+   "id": "bc43a7ba6c3ebae56e8209f6bbfd8bc78ba7261f",
+   "source": "SBS Biz",
+   "tier": "wire",
+   "url": "https://biz.sbs.co.kr/article/20000313489",
+   "title": "종전·삼전 기대감에 젠슨 황까지…코스피 또 사상 최고",
+   "published_at": "2026-05-29T08:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8833
+  },
+  {
+   "id": "ee5ee85437d49848aa706b48fea360e8c2ca3fb3",
+   "source": "데일리안",
+   "tier": "wire",
+   "url": "https://www.dailian.co.kr/news/view/1650351",
+   "title": "코스피, 사상 최고치 8476선 마감…삼전 강세·중동 훈풍",
+   "published_at": "2026-05-29T07:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9134
+  },
+  {
+   "id": "c2a135da5e2be73a6f82ddecacc5858cdaf73410",
+   "source": "디지털타임스",
+   "tier": "wire",
+   "url": "https://www.dt.co.kr/article/12064437",
+   "title": "[속보] 코스피, 4%대 급등 첫 8400선 돌파…사상 최고 경신",
+   "published_at": "2026-05-27T00:10:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9312
+  }
+ ],
+ "anchors": [
+  {
+   "entity": "코스피",
+   "metric": "장중 최고 지수",
+   "value": 8447.69,
+   "unit": "pt",
+   "prev": null,
+   "period": "2026-05",
+   "source": "한국거래소 (언론 보도, 2026-05-27)",
+   "trust": "official",
+   "observed_at": "2026-07-13T15:18:02.962241+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "[속보] 코스피, 4%대 급등 첫 8400선 돌파…사상 최고 경신 (2026-05-27)",
+   "source": "디지털타임스",
+   "url": "https://www.dt.co.kr/article/12064437",
+   "at": "2026-05-27T00:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-13T15:28:49.657839+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [
+    {
+     "entity": "코스피",
+     "metric": "장중 최고 지수",
+     "value": 8447.69,
+     "unit": "pt",
+     "prev": null,
+     "period": "2026-05",
+     "source": "한국거래소 (언론 보도, 2026-05-27)"
+    }
+   ],
+   "headlines": [
+    "종전·삼전 기대감에 젠슨 황까지…코스피 또 사상 최고",
+    "코스피, 사상 최고치 8476선 마감…삼전 강세·중동 훈풍",
+    "[속보] 코스피, 4%대 급등 첫 8400선 돌파…사상 최고 경신"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "코스피 장중 최고 지수 8447.69pt",
+   "one_liner": "코스피 장중 최고 지수 8447.69pt로 발표됐어요",
+   "why_now": "공식 발표 내용을 정리했어요.",
+   "details": [
+    "코스피 장중 최고 지수: 8447.69pt"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "a3954c929d0af537f887c7f1ab63822dc8e833ed"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-13T15:28:49.657784+00:00"
+ },
+ "glossary": [
+  {
+   "term": "코스피",
+   "easy": "한국 대표 기업들의 주가를 묶어 보여주는 값이에요.",
+   "example": "오르면 큰 기업 주가가 대체로 올랐다는 뜻이에요."
+  }
+ ],
+ "related": [
+  {
+   "id": "c055a4bbdbb9c931a",
+   "title": "SK Hynix prices U . S . listing as AI chip demand surges",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cb0fdfed500e16b9a",
+   "title": "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "eb742211d6b920cb4",
+   "title": "코스피, 상반기에 두 배로",
+   "category": "MARKET",
+   "shared": [
+    "KOSPI"
+   ]
+  },
+  {
+   "id": "c88e0e9224f4c05cc",
+   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cb96012b716dd06a1",
+   "title": "Sequoia Financial Advisors LLC Sells 3 , 663 Shares of Qualcomm Incorporated $QCOM",
+   "category": "MARKET",
+   "shared": []
+  }
+ ]
+}

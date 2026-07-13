@@ -1,0 +1,126 @@
+{
+ "id": "c234d1ab555de608e",
+ "title": "Johnson & Johnson $JNJ Shares Acquired by Main Street Research LLC",
+ "category": "EARNINGS",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "JNJ"
+ ],
+ "seen_sources": 2,
+ "importance": 75,
+ "created_at": "2026-07-13T15:18:16.439613+00:00",
+ "last_update": "2026-07-13T15:18:16.440293+00:00",
+ "members": [
+  {
+   "id": "64deeeb92bf31975b9e11fc3e1fda80f7f640424",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/real-case-buying-johnson-johnson-123017665.html",
+   "title": "The Real Case for Buying Johnson & Johnson ( JNJ ) Before July 15",
+   "published_at": "2026-07-13T13:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9722
+  },
+  {
+   "id": "896fcf393307f596969d3b0e290eba50f4ac362b",
+   "source": "dailypolitical.com",
+   "tier": "wire",
+   "url": "https://www.dailypolitical.com/2026/07/12/johnson-johnson-jnj-shares-acquired-by-main-street-research-llc.html",
+   "title": "Johnson & Johnson $JNJ Shares Acquired by Main Street Research LLC",
+   "published_at": "2026-07-12T20:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9722
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "The Real Case for Buying Johnson & Johnson ( JNJ ) Before July 15",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/real-case-buying-johnson-johnson-123017665.html",
+   "at": "2026-07-13T13:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Johnson & Johnson $JNJ Shares Acquired by Main Street Research LLC",
+   "source": "dailypolitical.com",
+   "url": "https://www.dailypolitical.com/2026/07/12/johnson-johnson-jnj-shares-acquired-by-main-street-research-llc.html",
+   "at": "2026-07-12T20:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-13T15:25:16.115353+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "The Real Case for Buying Johnson & Johnson ( JNJ ) Before July 15",
+    "Johnson & Johnson $JNJ Shares Acquired by Main Street Research LLC"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "The Real Case for…",
+   "one_liner": "The Real Case for Buying Johnson & Johnson ( JNJ…",
+   "why_now": "공식 발표 내용을 정리했어요.",
+   "details": [
+    "The Real Case for Buying Johnson & Johnson ( JNJ ) Before July 15",
+    "Johnson & Johnson $JNJ Shares Acquired by Main Street Research LLC"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "d3a121951bd96c729e7b9c23a939c06d99edd87c"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-13T15:25:16.115295+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c06a429173969cd1e",
+   "title": "Merck & Co ., Inc . $MRK Shares Acquired by Teachers Retirement System of The State of Kentucky",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c763582d47a3e8b63",
+   "title": "Netflix Looks To Buy Major Social Network With Over 30M Users",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c4dcd140d8a86ccd9",
+   "title": "Amazon Stock Is Historically Cheap . Now Is Your Perfect Buying Opportunity",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "e3c65cb22764c5ab1",
+   "title": "LG전자 2025-4Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "e3892f7ce92b8b73a",
+   "title": "이큐셀 2025-2Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  }
+ ]
+}
