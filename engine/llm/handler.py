@@ -8,6 +8,7 @@ from __future__ import annotations
 import hashlib
 import json
 import sqlite3
+from datetime import datetime, timedelta, timezone
 
 from ..config import cfg
 from ..db import bump_daily_counter, daily_counter, now_iso
@@ -88,12 +89,15 @@ def template_output(payload: dict) -> dict:
 
 
 def _issues_needing_llm(conn: sqlite3.Connection) -> list[sqlite3.Row]:
-    """발행된(active/stale) 이슈 전부 — fact_hash 변경 여부는 페이로드로 재계산해 판정.
-    (멤버 추가로 headlines 가 바뀌면 재가공해야 하므로 저장된 해시만으론 감지 불가)
-    중요도 내림차순 — 일일 캡을 굵직한 이슈에 먼저 소비."""
+    """발행된(active/stale) 이슈 — 가공이 필요한 순서로.
+
+    우선순위(번역 병목 완화): ① 아직 가공 안 된/템플릿 폴백 이슈(미번역) 먼저,
+    ② 그다음 중요도. Groq 분당 한도 안에서 미번역부터 처리해 영어 잔존을 빨리 줄인다."""
     return conn.execute(
-        "SELECT * FROM issue WHERE status IN ('active','stale') "
-        "ORDER BY importance DESC, last_update DESC").fetchall()
+        "SELECT i.* FROM issue i LEFT JOIN llm_output o ON o.issue_id = i.id "
+        "WHERE i.status IN ('active','stale') "
+        "ORDER BY (o.model IS NULL OR o.model='template') DESC, "
+        "i.importance DESC, i.last_update DESC").fetchall()
 
 
 def _save(conn: sqlite3.Connection, issue_id: str, fh: str, out: dict, model: str,
@@ -121,20 +125,38 @@ def _save(conn: sqlite3.Connection, issue_id: str, fh: str, out: dict, model: st
     conn.execute("UPDATE issue SET fact_hash=? WHERE id=?", (fh, issue_id))
 
 
+def _template_backoff_ok(created_at: str | None, hours: float) -> bool:
+    """template 폴백 이슈를 재시도해도 되는 시점인지 (마지막 시도 후 hours 경과)."""
+    if not created_at:
+        return True
+    try:
+        last = datetime.fromisoformat(created_at)
+    except ValueError:
+        return True
+    return datetime.now(timezone.utc) - last >= timedelta(hours=hours)
+
+
 def process_all(conn: sqlite3.Connection, client: LlmClient) -> dict:
     c = cfg()["llm"]
-    stats = {"generated": 0, "cached": 0, "template": 0, "deferred": 0}
+    retry_h = float(c.get("template_retry_h", 3))
+    stats = {"generated": 0, "cached": 0, "template": 0, "deferred": 0, "backoff": 0}
 
     for issue in _issues_needing_llm(conn):
         payload = build_payload(conn, issue)
         fh = fact_hash(payload)
-        existing = conn.execute("SELECT fact_hash, model FROM llm_output WHERE issue_id=?",
-                                (issue["id"],)).fetchone()
-        # 템플릿 폴백은 캐시로 인정하지 않는다 — 사실관계가 안 바뀌어도 매 사이클 LLM 재시도.
-        # (영어/잘린 제목이 fact_hash 캐시에 갇혀 영구 잔존하던 문제 해결. 일일 캡이 비용 상한)
+        existing = conn.execute(
+            "SELECT fact_hash, model, created_at FROM llm_output WHERE issue_id=?",
+            (issue["id"],)).fetchone()
+        # 정상 가공분은 사실관계 불변이면 캐시 히트 (재호출 0).
         if existing and existing["fact_hash"] == fh and existing["model"] != "template":
             conn.execute("UPDATE issue SET fact_hash=? WHERE id=?", (fh, issue["id"]))
             stats["cached"] += 1
+            continue
+        # 템플릿 폴백은 재시도하되 매 주기가 아니라 template_retry_h 간격으로 (백오프).
+        # 미번역 신규 이슈에 우선순위를 양보하고 Groq 분당 한도 낭비를 막는다.
+        if (existing and existing["model"] == "template"
+                and not _template_backoff_ok(existing["created_at"], retry_h)):
+            stats["backoff"] += 1
             continue
 
         if daily_counter(conn, "llm_calls") >= c["daily_cap"]:

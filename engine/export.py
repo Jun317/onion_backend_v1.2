@@ -16,6 +16,7 @@ from .config import ROOT, cfg, categories
 from .db import daily_counter, meta_get, now_iso
 from .embed import from_blob
 from .glossary import terms_in_parts
+from .util.lang import is_foreign_title, normalize_hanja
 from .viz import REGISTRY, build_visual
 
 OUT = ROOT / "out"
@@ -90,7 +91,7 @@ def _related_issues(conn: sqlite3.Connection, issue: sqlite3.Row, limit: int = 5
             "ORDER BY importance DESC, last_update DESC LIMIT 60", (issue["id"],)):
         shared = kset & set(json.loads(r["entity_keys"] or "[]"))
         if shared or r["category"] == issue["category"]:
-            out.append({"id": r["id"], "title": r["canonical_title"],
+            out.append({"id": r["id"], "title": normalize_hanja(r["canonical_title"]),
                         "category": r["category"], "shared": sorted(shared)})
         if len(out) >= limit:
             break
@@ -103,13 +104,15 @@ def _issue_card(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
     # spark 용 시리즈 — build_visual 은 viz_cache(6h) 를 타므로 카드 단위 호출 부담 없음
     visual = build_visual(conn, o["visual_type"], issue["category"], issue["id"]) \
         if has_visual else None
+    # LLM 미가공 시 원제목이 노출되므로 한자 약자 치환 (가공 성공분은 C2 검증이 CJK 차단)
+    fallback_title = normalize_hanja(issue["canonical_title"])
     return {
         "id": issue["id"],
         # title = 짧고 직관적인 제목(LLM), one_liner = 더 길고 정보 있는 한 줄, why_now = 왜 중요한지
-        "title": (o["title"] if o and o["title"] else issue["canonical_title"]),
-        "one_liner": (o["one_liner"] if o and o["one_liner"] else issue["canonical_title"]),
+        "title": (o["title"] if o and o["title"] else fallback_title),
+        "one_liner": (o["one_liner"] if o and o["one_liner"] else fallback_title),
         "why_now": o["why_now"] if o else None,
-        "raw_title": issue["canonical_title"],   # 원 기사 제목 (참고)
+        "raw_title": fallback_title,   # 원 기사 제목 (참고)
         "category": issue["category"],
         "status": issue["status"],
         "origin": issue["origin"],
@@ -126,12 +129,31 @@ def _issue_card(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
 
 def _issue_detail(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
     o = conn.execute("SELECT * FROM llm_output WHERE issue_id=?", (issue["id"],)).fetchone()
-    timeline = [dict(r) for r in conn.execute(
-        "SELECT kind, title, source, url, at FROM timeline_entry WHERE issue_id=? "
-        "ORDER BY at DESC LIMIT 30", (issue["id"],))]
-    headlines = [dict(r) for r in conn.execute(
-        "SELECT title, source, url, published_at FROM article WHERE issue_id=? AND is_dup=0 "
-        "ORDER BY published_at DESC LIMIT 10", (issue["id"],))]
+    # 기사 원제목은 언론 관용 한자 약자(美·中 …)를 한국어로 치환해 표시 (한자 노출 방지)
+    # 한자 약자는 한국어로 치환, 외국어(중국어 등) 제목은 표시에서 제외
+    # (DB 에 이미 쌓인 외국어 기사 방어 — 신규 유입은 normalize 에서 차단됨)
+    timeline = []
+    for r in conn.execute(
+            "SELECT kind, title, source, url, at FROM timeline_entry WHERE issue_id=? "
+            "ORDER BY at DESC LIMIT 40", (issue["id"],)):
+        d = dict(r)
+        d["title"] = normalize_hanja(d["title"])
+        if is_foreign_title(d["title"]):
+            continue
+        timeline.append(d)
+        if len(timeline) >= 30:
+            break
+    headlines = []
+    for r in conn.execute(
+            "SELECT title, source, url, published_at FROM article WHERE issue_id=? AND is_dup=0 "
+            "ORDER BY published_at DESC LIMIT 20", (issue["id"],)):
+        d = dict(r)
+        d["title"] = normalize_hanja(d["title"])
+        if is_foreign_title(d["title"]):
+            continue
+        headlines.append(d)
+        if len(headlines) >= 10:
+            break
     # 같은 (entity, metric, period) 는 최신 1건만 — 과거 중복 누적분 방어 (db._migrate 참고)
     anchors = [dict(r) for r in conn.execute(
         "SELECT entity, metric, value, unit, prev, period, source FROM numeric_anchor "
@@ -297,16 +319,40 @@ def _load_steady(conn: sqlite3.Connection) -> list[dict]:
     return out
 
 
+def _korean_ratio(text: str) -> float:
+    """글자 중 한글 비율 (공백·기호 제외 분모). 영어/미번역 판별용."""
+    letters = [c for c in (text or "") if c.strip() and not c.isspace()]
+    if not letters:
+        return 0.0
+    hangul = sum(1 for c in letters if "가" <= c <= "힣")
+    return hangul / len(letters)
+
+
 def _is_substantial(conn: sqlite3.Connection, issue: sqlite3.Row) -> bool:
-    """빈약 이슈 게이트 — '수치 0 + 실기사 2건 미만 + LLM 가공 실패(또는 부재)'가
-    동시에 참이면 발행 제외. 읽어서 얻을 게 없는 텅 빈 페이지를 피드에서 없앤다.
-    이후 기사·수치가 보강되거나 LLM 가공이 성공하면 자동으로 다시 노출된다."""
-    o = conn.execute("SELECT model FROM llm_output WHERE issue_id=?",
+    """발행 게이트 (v2.4 확장). 다음 이슈는 피드에서 제외한다:
+      ① 빈약: 수치 0 + 실기사 2건 미만 + LLM 가공 실패(또는 부재)
+      ② 미번역: 아직 template 폴백이고 제목이 영어(한글 비율 낮음) — 번역되면 자동 재노출
+      ③ 무관: 개체키 0 + 앵커 0 + 카테고리 ETC (경제 신호 없음)
+    수치·개체가 있거나 LLM 정상 가공된 이슈는 항상 유지한다."""
+    o = conn.execute("SELECT model, title FROM llm_output WHERE issue_id=?",
                      (issue["id"],)).fetchone()
     if o and o["model"] and o["model"] != "template":
         return True  # LLM 정상 가공 이슈는 유지
+
     anchors = conn.execute("SELECT COUNT(*) AS n FROM numeric_anchor WHERE issue_id=?",
                            (issue["id"],)).fetchone()["n"]
+    entity_keys = json.loads(issue["entity_keys"] or "[]")
+
+    # ② 미번역 영어 제목 숨김 (번역 성공 시 위 분기에서 유지됨)
+    shown_title = (o["title"] if o and o["title"] else issue["canonical_title"]) or ""
+    if _korean_ratio(shown_title) < 0.3:
+        return False
+
+    # ③ 경제 무관: 개체·앵커·ETC 모두 신호 없음
+    if anchors == 0 and not entity_keys and issue["category"] == "ETC":
+        return False
+
+    # ① 빈약
     if anchors > 0:
         return True
     sources = conn.execute(

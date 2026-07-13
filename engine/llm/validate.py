@@ -9,28 +9,54 @@ import json
 import re
 
 from ..config import cfg
+from ..util.lang import has_cjk
 from ..util.textnum import extract_numbers
 
-DETAIL_RE = re.compile(r"(요|에요|예요)\s*[.!]?\s*$")
+# 문장 말미 어미: 마침표·느낌표·물결·따옴표·이모지 등이 뒤에 붙어도 인정 (관대화)
+DETAIL_RE = re.compile(r"(요|에요|예요)[\s.!~…'\"”’)]*$")
 EFFECT_RE = re.compile(r"!\s*$")
 
 GLOSSARY_MAX = 4
+DETAIL_MAX_LEN = 55
+
+# details 자동 보정: 55자 초과 문장을 문장부호/공백 경계에서 자른다
+_CLIP_BOUND = re.compile(r"[\s,·。.、]")
+
+
+def _clip_sentence(text: str, limit: int = DETAIL_MAX_LEN) -> str:
+    """어미(요/에요/예요)를 유지하며 길이 제한에 맞춰 자른다 — 자동 보정용."""
+    t = (text or "").strip()
+    if len(t) <= limit:
+        return t
+    cut = t[:limit]
+    m = list(_CLIP_BOUND.finditer(cut))
+    if m and m[-1].start() >= limit // 2:
+        cut = cut[:m[-1].start()]
+    cut = cut.rstrip(" ,·、")
+    return cut + ("요." if not DETAIL_RE.search(cut) else "")
 
 
 def allowed_numbers(payload: dict) -> set[float]:
-    """입력 페이로드의 모든 수치 + 파생값(변동폭, 절대값, bp 환산)."""
+    """입력 페이로드의 모든 수치 + 파생값(변동폭, 절대값, bp 환산, 반올림)."""
     nums = extract_numbers(json.dumps(payload, ensure_ascii=False))
     derived: set[float] = set()
     for n in nums:
         derived.add(abs(n))
+        derived.update({round(n), round(n, 1)})  # 반올림 표기 허용 (3.62 → 3.6)
     for a in payload.get("anchors", []):
         v, p = a.get("value"), a.get("prev")
         if isinstance(v, (int, float)) and isinstance(p, (int, float)):
             d = round(abs(v - p), 6)
-            derived.update({d, round(d * 100, 6)})  # %p ↔ bp
+            derived.update({d, round(d * 100, 6), round(d)})  # %p ↔ bp
         if isinstance(v, (int, float)):
-            derived.update({round(float(v), 6), round(float(v) * 100, 6)})
+            derived.update({round(float(v), 6), round(float(v) * 100, 6),
+                            round(float(v)), round(float(v), 1)})
     return nums | derived
+
+
+def _is_free_number(n: float) -> bool:
+    """환각으로 보지 않는 값 — 연도(1900~2100)·작은 정수 카운트(0~12)."""
+    return (1900 <= n <= 2100 and n == int(n)) or (0 <= n <= 12 and n == int(n))
 
 
 def parse_output(text: str) -> dict | None:
@@ -89,7 +115,11 @@ def clean_glossary(out: dict) -> None:
 
 
 def validate(out: dict, payload: dict, allowed_viz: list[str]) -> list[str]:
-    """검증 실패 사유 목록 (빈 리스트 = 통과)."""
+    """검증 실패 사유 목록 (빈 리스트 = 통과).
+
+    사소한 위반은 저장 전 자동 보정(auto-repair)해 통과율을 높인다 — 번역 병목 완화.
+    보정 불가한 위반(누락·문체·환각·금지어)만 실패로 남긴다.
+    """
     errors: list[str] = []
     if not isinstance(out, dict):
         return ["출력이 JSON 객체가 아님"]
@@ -97,18 +127,26 @@ def validate(out: dict, payload: dict, allowed_viz: list[str]) -> list[str]:
     title = out.get("title")
     if not isinstance(title, str) or not title.strip():
         errors.append("title 누락")
-    elif len(title.strip()) > 22:
-        errors.append(f"title 22자 초과({len(title.strip())})")
+    else:
+        title = title.strip()
+        out["title"] = title
+        if len(title) > 22:
+            errors.append(f"title 22자 초과({len(title)})")
+        if has_cjk(title):
+            errors.append("title 에 한자/가나 포함")
 
     ol = out.get("one_liner")
     if not isinstance(ol, str) or not ol.strip():
         errors.append("one_liner 누락")
     else:
         ol = ol.strip()
+        out["one_liner"] = ol
         if len(ol) > 50:
             errors.append(f"one_liner 50자 초과({len(ol)})")
         if not DETAIL_RE.search(ol):
             errors.append("one_liner 해요체 아님")
+        if has_cjk(ol):
+            errors.append("one_liner 에 한자/가나 포함")
 
     why = out.get("why_now")
     if not isinstance(why, str) or not why.strip():
@@ -120,18 +158,28 @@ def validate(out: dict, payload: dict, allowed_viz: list[str]) -> list[str]:
         if not DETAIL_RE.search(why):
             errors.append("why_now 어요체 아님")
 
+    # details 자동 보정: 3~6개 허용(하한 완화), 55자 초과분은 문장 경계에서 절단.
+    # 6개 초과는 앞 6개만, 3개 미만은 보정 불가(리젝트).
     details = out.get("details")
-    if not isinstance(details, list) or not (4 <= len(details) <= 6):
-        errors.append("details 4~6문장 아님")
+    if not isinstance(details, list) or len(details) < 3:
+        errors.append("details 3문장 미만")
     else:
-        for i, d in enumerate(details):
-            if not isinstance(d, str):
-                errors.append(f"details[{i}] 문자열 아님")
+        repaired = []
+        for d in details[:6]:
+            if not isinstance(d, str) or not d.strip():
                 continue
-            if len(d.strip()) > 55:
-                errors.append(f"details[{i}] 55자 초과")
-            if not DETAIL_RE.search(d.strip()):
-                errors.append(f"details[{i}] 어요체 아님")
+            s = d.strip()
+            if len(s) > DETAIL_MAX_LEN:
+                s = _clip_sentence(s)
+            repaired.append(s)
+        out["details"] = repaired
+        if len(repaired) < 3:
+            errors.append("details 3문장 미만")
+        else:
+            for i, d in enumerate(repaired):
+                if not DETAIL_RE.search(d):
+                    errors.append(f"details[{i}] 어요체 아님")
+        details = repaired
 
     vt = out.get("visual_type", "none")
     if vt not in (allowed_viz + ["none"]):
@@ -152,7 +200,7 @@ def validate(out: dict, payload: dict, allowed_viz: list[str]) -> list[str]:
                          str(out.get("why_now", ""))]
                         + [str(d) for d in (details or [])]
                         + [str(e) for e in (effects or [])])
-    extra = extract_numbers(out_text) - allowed
+    extra = {n for n in (extract_numbers(out_text) - allowed) if not _is_free_number(n)}
     if extra:
         errors.append(f"입력에 없는 숫자: {sorted(extra)[:5]}")
 

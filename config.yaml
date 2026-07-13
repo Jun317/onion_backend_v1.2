@@ -41,6 +41,10 @@ llm:
   gemini_model: gemini-2.5-flash-lite
   groq_model: llama-3.3-70b-versatile
   retry_per_provider: 3
+  # 프로바이더 시도 순서 — Groq 우선(현장 성공률 기준). Gemini 키 정상화 시 폴백으로 활용.
+  provider_order: [groq, gemini]
+  # template 폴백 이슈 재시도 최소 간격(시간) — 매 주기 무한 재시도 방지, 미번역 우선.
+  template_retry_h: 3
   banned_phrases: ["급등 확실", "급락 확실", "무조건", "전량 매수", "전량 매도", "반드시 오", "반드시 내"]
 
 importance:
@@ -92,6 +96,9 @@ backfill:                     # 과거 뉴스 주입 (engine/backfill.py, Action
   window_days: 3              # 이벤트 날짜 ± 조회 창
 
 collect:
+  # 경제 무관·저가치 노이즈 기사 제목 차단 (수집 단계, normalize_record).
+  # insider selling, 13F/기관보유, 애널리스트 등급·목표가, 개인 포트폴리오, 여행·관광 등.
+  noise_regex: "(insider (selling|buying|trade|transaction)|13F|form 4|analyst (rating|estimate)|price target|(raises|lowers|cuts|boosts) (price )?target|buy rating|sell rating|hold rating|overweight|underweight|reiterat|initiates coverage|shares (bought|sold)|stake in|position in|holdings in|acquires shares|short interest|dividend (increase|announcement)|ex-dividend|여행|관광|호텔 예약|항공권|맛집|레시피|스포츠|연예|날씨)"
   gdelt:
     # DOC 2.0 artlist. 군집 원료 — 투자·경제 중심 키워드. 튜닝 대상.
     queries:

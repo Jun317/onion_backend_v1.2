@@ -26,12 +26,18 @@ class RealLlm(LlmClient):
     def generate(self, system: str, payload: dict) -> tuple[str | None, str]:
         c = cfg()["llm"]
         user = "[입력]\n" + json.dumps(payload, ensure_ascii=False)
-        text = self._gemini(system, user, c)
-        if text:
-            return text, env("GEMINI_MODEL", c["gemini_model"])
-        text = self._groq(system, user, c)
-        if text:
-            return text, env("GROQ_MODEL", c["groq_model"])
+        # Groq 우선 (v2.4): 현장에서 실제로 성공하는 프로바이더가 Groq. Gemini 키가
+        # 정상화되면 아래 폴백으로 자동 활용된다. 순서는 config.llm.provider_order 로 조정 가능.
+        order = c.get("provider_order", ["groq", "gemini"])
+        for prov in order:
+            if prov == "gemini":
+                text = self._gemini(system, user, c)
+                if text:
+                    return text, env("GEMINI_MODEL", c["gemini_model"])
+            elif prov == "groq":
+                text = self._groq(system, user, c)
+                if text:
+                    return text, env("GROQ_MODEL", c["groq_model"])
         return None, ""
 
     def _gemini(self, system: str, user: str, c: dict) -> str | None:
