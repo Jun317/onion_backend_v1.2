@@ -80,3 +80,14 @@ def test_express_uses_event_created_at(conn):
     iid = process_event(conn, event)
     issue = conn.execute("SELECT created_at FROM issue WHERE id=?", (iid,)).fetchone()
     assert issue["created_at"] == "2026-03-01T00:00:00+00:00"
+
+
+def test_express_headlines_set_simhash(conn):
+    """헤드라인 기사에 simhash 가 설정된다 (NULL 이면 dedup 크래시 — 반드시 비-NULL)."""
+    event = {**EVENT, "key": "seed_simhash_test", "period": "2026-09",
+             "headlines": [{"title": "코스피 사상 최고 경신", "url": "https://a.example/sh1",
+                            "source": "매체", "published_at": "2026-09-01T00:00:00+00:00"}]}
+    iid = process_event(conn, event)
+    row = conn.execute("SELECT simhash FROM article WHERE issue_id=? AND is_dup=0",
+                       (iid,)).fetchone()
+    assert row["simhash"] is not None

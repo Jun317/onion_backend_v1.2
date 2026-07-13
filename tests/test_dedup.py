@@ -32,3 +32,19 @@ def test_near_duplicate_marked(conn):
     assert marked == 1
     assert conn.execute("SELECT is_dup FROM article WHERE id='copy'").fetchone()[0] == 1
     assert conn.execute("SELECT is_dup FROM article WHERE id='other'").fetchone()[0] == 0
+
+
+def test_null_simhash_in_pool_does_not_crash(conn):
+    """simhash 가 NULL 인 기사(큐레이션 express 기사 등)가 창 안에 있어도 크래시하지 않는다.
+    (CI 파이프라인 dedup TypeError 재발 방지 — 회귀 테스트)"""
+    # 정상 신규 기사
+    n = insert_articles(conn, [_rec("n1", "한국은행 기준금리 인하")])
+    # NULL simhash 기사를 직접 주입 (express 헤드라인이 과거에 이렇게 저장됨)
+    conn.execute(
+        "INSERT INTO article(id,source,tier,url,url_hash,title,lead,simhash,published_at,"
+        "lang,issue_id,is_dup,entity_keys,collected_at) "
+        "VALUES('bad','s','wire','https://x.com/bad','bad','제목',''  ,NULL,?,?,'i',0,'[]',?)",
+        (now_iso(), "ko", now_iso()))
+    # 크래시 없이 정상 반환되어야 한다
+    marked = mark_near_duplicates(conn, ["n1"])
+    assert isinstance(marked, int)

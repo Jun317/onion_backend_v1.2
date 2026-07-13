@@ -17,6 +17,7 @@ from .collectors.base import DATA, norm_url
 from .db import now_iso
 from .embed import build_input, to_blob
 from .normalize import extract_entity_keys
+from .util.simhash import simhash64
 
 
 def anchor_key(event: dict) -> str:
@@ -65,10 +66,11 @@ def process_event(conn: sqlite3.Connection, event: dict) -> str | None:
             continue
         aid = hashlib.sha1(url.encode("utf-8")).hexdigest()
         conn.execute(
-            "INSERT OR IGNORE INTO article(id,source,tier,url,url_hash,title,lead,"
+            "INSERT OR IGNORE INTO article(id,source,tier,url,url_hash,title,lead,simhash,"
             "published_at,lang,issue_id,is_dup,entity_keys,collected_at) "
-            "VALUES(?,?,?,?,?,?,?,?,?,?,0,?,?)",
+            "VALUES(?,?,?,?,?,?,?,?,?,?,?,0,?,?)",
             (aid, h.get("source", ""), h.get("tier", "wire"), url, aid, title, "",
+             simhash64(title),  # NULL simhash 는 dedup(hamming) 크래시 유발 — 반드시 설정
              h.get("published_at") or now, h.get("lang", "ko"), iid,
              json.dumps(extract_entity_keys(title), ensure_ascii=False), now))
 
