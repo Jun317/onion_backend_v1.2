@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-13T04:14:31.233097+00:00",
+  "created_at": "2026-07-13T07:49:51.477907+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,12 +64,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"넷플릭스 소식\",\n   \"one_liner\": \"넷플릭스가 큰 소셜 네트워크를 खरीद으려고 해요.\",\n   \"why_now\": \"이 소식이 중요한 이유는 넷플릭스의 사업 확장이 될 수 있어요.\",\n   \"details\": [\n       \"넷플릭스가 3000만 명이 넘는 사용자를 가진 큰 소셜 네트워크를 खरीद으려고 해요.\",\n       \"웰치 & 포브스 LLC가 넷플릭스 주식 1139만 달러를 가지고 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"넷플릭스의 사용자 수가 늘어나게 될 수 있어요!\",\n       \"소셜 네트워크 사용자들에게 새로운 서비스가 제공될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 4~6문장 아님",
+     "입력에 없는 숫자: [1139.0, 3000.0]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 4~6문장 아님",
+     "입력에 없는 숫자: [1139.0, 3000.0]"
     ]
    }
   ],
@@ -87,8 +95,8 @@
   "fact_hash": "1b883a4bfbee21c15287844d81a165d22394a02d"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-13T04:14:31.233029+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\", \"입력에 없는 숫자: [1139.0, 3000.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\", \"입력에 없는 숫자: [1139.0, 3000.0]\"]}]}",
+  "at": "2026-07-13T07:49:51.477855+00:00"
  },
  "glossary": [],
  "related": [

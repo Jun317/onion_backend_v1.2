@@ -106,7 +106,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-13T04:11:40.536548+00:00",
+  "created_at": "2026-07-13T07:47:34.595066+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -119,12 +119,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"국제 유가 상승\",\n    \"one_liner\": \"국제 유가가 오르면서 엑손모빌과 셰브론 주가가 올랐어요.\",\n    \"why_now\": \"국제 유가가 오르면 에너지 기업들의 실적이 좋아지는 경향이 있어요.\",\n    \"details\": [\n        \"엑손모빌의 분기별 이익이 늘어날 것으로 예상돼요.\",\n        \"엑손모빌 주가는 3.8% 상승했어요.\",\n        \"이란 관련 긴장이 고조되면서 유가가 올랐어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"에너지 기업들의 실적이 더 좋아질 수 있어요!\",\n        \"국제 유가 관련 기업들의 주가 상승이 이어질 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"국제 유가\",\n            \"easy\": \"전 세계에서 거래되는 석유 가격이에요.\",\n            \"example\": \"국제 유가가 오르면 주유소의 휘발유 가격도 보통 올라요.\"\n        },\n        {\n            \"term\": \"주가\",\n            \"easy\": \"회사의 가치를 나타내는 주식의 가격이에요.\",\n            \"example\": \"회사의 실적이 좋아지면 주가가 오르는 경우가 많아요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 4~6문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 4~6문장 아님",
+     "입력에 없는 숫자: [3.8]"
     ]
    }
   ],
@@ -143,8 +150,8 @@
   "fact_hash": "c97a6472852a62ad19dab4aca51456fb49c23073"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-13T04:11:40.536474+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\", \"입력에 없는 숫자: [3.8]\"]}]}",
+  "at": "2026-07-13T07:47:34.595012+00:00"
  },
  "glossary": [],
  "related": [

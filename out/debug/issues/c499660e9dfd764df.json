@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-13T04:13:05.823419+00:00",
+  "created_at": "2026-07-13T07:48:37.486740+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,12 +64,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"보잉 주가 상승\",\n    \"one_liner\": \"보잉 주가가 오르면서 투자자들의 관심이 높아지고 있어요.\",\n    \"why_now\": \"주가가 오르면 해당 회사에 투자한 사람들의 이익이 늘어나는 효과가 있어요.\",\n    \"details\": [\n        \"보잉의 주가가 최근 상승세를 보이고 있어요.\",\n        \"한 투자 회사가 보잉에 48만 7천 달러를 새로 투자했어요.\",\n        \"전문가도 보잉 주가의 최근 흐름에 긍정적인 반응을 보였어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"보잉 주가가 더 오를 수 있다는 기대감이 생길 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"보잉\",\n            \"easy\": \"미국의 대표적인 항공기 제조 회사예요.\",\n            \"example\": \"보잉은 비행기뿐만 아니라 우주선도 만들어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 4~6문장 아님",
+     "입력에 없는 숫자: [487000.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 4~6문장 아님",
+     "입력에 없는 숫자: [7.0, 48.0]"
     ]
    }
   ],
@@ -87,8 +95,8 @@
   "fact_hash": "41240283360004b7da8b3940694331b076e0ed09"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-13T04:13:05.823349+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\", \"입력에 없는 숫자: [487000.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\", \"입력에 없는 숫자: [7.0, 48.0]\"]}]}",
+  "at": "2026-07-13T07:48:37.486687+00:00"
  },
  "glossary": [],
  "related": [
