@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-13T00:18:29.495039+00:00",
+  "created_at": "2026-07-13T04:09:50.772640+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -883,12 +883,18 @@
     "&lt;p style=&quot;margin: 0px 0px 10px 26px; text-align: justify; line-height: 107%; font-size: 10pt; font-family: &#39;맑은 고딕&#39;;&quot;&gt;Geonwon Jungbo, Korea&#39;s first legal coin and the oldest"
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"경제 소식\",\n   \"one_liner\": \"여러 나라의 경제 소식이 나오고 있어요.\",\n   \"why_now\": \"각 나라의 경제 상황이 다르기 때문에 관심이 가는 거죠.\",\n   \"details\": [\n       \"마케도니아의 인플레이션율이 지역에서 가장 낮은 편이에요.\",\n       \"미국의 오리건 주에서 영업을 접는 기업이 새로 생기는 기업보다 많아지고 있어요.\",\n       \"이란의 위기가 시작된 거예요.\",\n       \"한국의 첫 법정 화폐인 근원정보에 관한 언급이 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"각 나라의 경제 상황이 다르기 때문에 투자 전략이 달라질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 4~6문장 아님"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "why_now 어요체 아님"
     ]
    }
   ],
@@ -907,8 +913,8 @@
   "fact_hash": "ac876807c4e65078f085492adaf126c28a07c38e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-13T00:18:29.494930+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"why_now 어요체 아님\"]}]}",
+  "at": "2026-07-13T04:09:50.772568+00:00"
  },
  "glossary": [],
  "related": [

@@ -885,7 +885,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-13T00:16:20.556707+00:00",
+  "created_at": "2026-07-13T04:07:59.349479+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -901,7 +901,7 @@
     "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc."
    ]
   },
-  "raw_response": "{\n  \"title\": \"미 연방준비제도 이사회\",\n   \"one_liner\": \"미 연방준비제도 이사회가 금융 정책을 강화하기 위한 태스크 포스를 발표했어요.\",\n   \"why_now\": \"미국 중앙은행이 금융 정책을 강화하면 경제에 영향을 줄 수 있어요.\",\n   \"details\": [\n      \"미 연방준비제도 이사회가 태스크 포스의 리더와 목표를 발표했어요.\",\n      \"미 연방준비제도 이사회가 TS Banking Group과 TS Contrarian Bancshares에 대한 집행 조치를 발표했어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"미국 경제에 긍정적인 영향을 줄 수 있어요!\",\n      \"금융 정책이 강화되면 금리나 통화 공급에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n\"title\": \"미 연준, 통화 정책 논의 시작\",\n\"one_liner\": \"미국 중앙은행이 통화 정책을 논의할 태스크포스를 구성했어요.\",\n\"why_now\": \"미국 중앙은행의 정책 결정은 전 세계 금융 시장에 큰 영향을 미쳐요.\",\n\"details\": [\n\"미국 중앙은행이 통화 정책을 논의할 태스크포스를 구성했어요.\",\n\"태스크포스의 리더십과 목표를 발표했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"새로운 통화 정책 방향이 나올 수 있어요!\",\n\"금융 시장 변동성이 커질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"통화 정책\",\n\"easy\": \"나라의 돈의 양이나 이자율을 조절해서 경제를 안정시키는 정책이에요.\",\n\"example\": \"중앙은행이 통화 정책을 통해 물가를 안정시키려고 노력해요.\"\n},\n{\n\"term\": \"태스크포스\",\n\"easy\": \"특정한 문제를 해결하기 위해 임시로 만들어진 특별 팀이에요.\",\n\"example\": \"신제품 개발을 위해 태스크포스가 꾸려졌어요.\"\n}\n]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
@@ -910,7 +910,7 @@
     ]
    },
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
      "details 4~6문장 아님"
     ]
@@ -931,8 +931,8 @@
   "fact_hash": "4f85d662f4ce929210ef85b8fc6d388713114dd4"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
-  "at": "2026-07-13T00:16:20.556566+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}]}",
+  "at": "2026-07-13T04:07:59.349326+00:00"
  },
  "glossary": [],
  "related": [

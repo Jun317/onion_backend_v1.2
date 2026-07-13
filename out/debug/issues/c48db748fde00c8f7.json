@@ -105,7 +105,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-13T00:17:46.765561+00:00",
+  "created_at": "2026-07-13T04:09:05.606793+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -118,12 +118,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"월마트 할인\",\n   \"one_liner\": \"월마트가 여러 가지 물건 가격을 내렸어요\",\n   \"why_now\": \"가격이 내리면 소비자가 물건을 더 많이 살 수 있어요\",\n   \"details\": [\n       \"월마트가 여러 가지 물건 가격을 내렸어요\",\n       \"가격을 내린 물건에는 음식과 생활용품이 있어요\",\n       \"월마트가 더 많은 고객을 유치하려고 하는 거예요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"소비자들이 물건을 더 많이 살 수 있을 것으로 예상돼요!\",\n       \"다른 회사들도 가격을 내릴 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 4~6문장 아님"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 4~6문장 아님"
     ]
    }
   ],
@@ -142,8 +148,8 @@
   "fact_hash": "d8e3b270f52f0557b21b68ef656ada051f58f181"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-13T00:17:46.765456+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
+  "at": "2026-07-13T04:09:05.606679+00:00"
  },
  "glossary": [],
  "related": [

@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-13T00:19:12.242158+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-13T04:10:13.506085+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -884,25 +884,27 @@
     "Agencies remove additional references to reputation risk"
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"여행 및 경제 소식\",\n   \"one_liner\": \"여러 나라의 여행과 경제 관련 소식이 나왔어요.\",\n   \"why_now\": \"여행과 경제는 우리의 일상과 밀접하게 관련돼요.\",\n   \"details\": [\n       \"가이아나는 카리브해 지역에서 큰 관광 명소로 부상하고 있어요.\",\n       \"도미니카 공화국의 주요 관광지인 바야히베가 새로운 관광 계획을 수립 중이에요.\",\n       \"인도 정부는 스페인, 벨기에, 핀란드에 고위급 경제 사절단을派遣할 예정이에요.\",\n       \"미국 정부 기관은 어려운 지역의 목록을 발표했어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"여행 산업의 성장으로 지역 경제가 활성화될 수 있어요!\",\n       \"국제 경제 협력의 강화로 글로벌 경제에 긍정적인 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Petrol drivers doing…",
-   "one_liner": "Petrol drivers doing 1 , 000 miles risk paying…",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "여행 및 경제 소식",
+   "one_liner": "여러 나라의 여행과 경제 관련 소식이 나왔어요.",
+   "why_now": "여행과 경제는 우리의 일상과 밀접하게 관련돼요.",
    "details": [
-    "Petrol drivers doing 1 , 000 miles risk paying £188 to stay on road",
-    "America next 250 years will be decided at sea * WorldNetDaily * by Chris Servello , Real Clear Wire",
-    "Far South of the Caribbean , Guyana Is Becoming One of the Region Biggest Tourism Stories"
+    "가이아나는 카리브해 지역에서 큰 관광 명소로 부상하고 있어요.",
+    "도미니카 공화국의 주요 관광지인 바야히베가 새로운 관광 계획을 수립 중이에요.",
+    "인도 정부는 스페인, 벨기에, 핀란드에 고위급 경제 사절단을派遣할 예정이에요.",
+    "미국 정부 기관은 어려운 지역의 목록을 발표했어요."
    ],
-   "effects": [],
+   "effects": [
+    "여행 산업의 성장으로 지역 경제가 활성화될 수 있어요!",
+    "국제 경제 협력의 강화로 글로벌 경제에 긍정적인 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "98039ef16e7dce12ce0b2ad7e441f65fbd46ee94"
