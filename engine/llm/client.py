@@ -16,19 +16,47 @@ GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:ge
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 
+def retry_plan(status: int, attempt: int, rl_used: int, c: dict) -> tuple[bool, float, bool]:
+    """HTTP 상태 → (재시도 여부, 대기 초, 429 소비 여부).
+
+    - 429(분당 한도): 고정 rate_limit_wait_s 대기, rate_limit_retries 회로 상한 (60초 창을 넘김)
+    - 5xx(서버): 짧은 지수 백오프로 재시도
+    - 그 외(400/403/404 등): 재시도 없이 즉시 실패
+    순수 함수 — 테스트에서 실제 sleep 없이 검증 가능.
+    """
+    if status == 429:
+        if rl_used >= int(c.get("rate_limit_retries", 2)):
+            return False, 0.0, True
+        return True, float(c.get("rate_limit_wait_s", 20)), True
+    if status >= 500:
+        return True, 3 * (2 ** attempt), False
+    return False, 0.0, False
+
+
 class LlmClient:
+    network = False  # 실제 외부 호출 여부 (handler 의 호출 간격 스로틀 판단용)
+
     def generate(self, system: str, payload: dict) -> tuple[str | None, str]:
         """반환: (JSON 문자열 or None, 사용 모델명)."""
         raise NotImplementedError
 
 
 class RealLlm(LlmClient):
+    network = True
+
+    def __init__(self):
+        self._turn = 0  # 이슈별 provider 교대 카운터
+
     def generate(self, system: str, payload: dict) -> tuple[str | None, str]:
         c = cfg()["llm"]
         user = "[입력]\n" + json.dumps(payload, ensure_ascii=False)
-        # Groq 우선 (v2.4): 현장에서 실제로 성공하는 프로바이더가 Groq. Gemini 키가
-        # 정상화되면 아래 폴백으로 자동 활용된다. 순서는 config.llm.provider_order 로 조정 가능.
-        order = c.get("provider_order", ["groq", "gemini"])
+        # provider_order 기본 순서. alternate_providers 면 이슈마다 회전시켜 두 API 가
+        # 부하를 나눠 갖는다(실질 RPM 2배). Groq 우선이 기본(현장 성공률).
+        order = list(c.get("provider_order", ["groq", "gemini"]))
+        if c.get("alternate_providers") and order:
+            shift = self._turn % len(order)
+            order = order[shift:] + order[:shift]
+            self._turn += 1
         for prov in order:
             if prov == "gemini":
                 text = self._gemini(system, user, c)
@@ -52,6 +80,7 @@ class RealLlm(LlmClient):
                                  "maxOutputTokens": c["max_output_tokens"],
                                  "responseMimeType": "application/json"},
         }
+        rl_used = 0
         for attempt in range(c["retry_per_provider"]):
             try:
                 res = requests.post(GEMINI_URL.format(model=model),
@@ -59,8 +88,13 @@ class RealLlm(LlmClient):
                 if res.status_code == 200:
                     data = res.json()
                     return data["candidates"][0]["content"]["parts"][0]["text"]
-                if res.status_code in (429,) or res.status_code >= 500:
-                    time.sleep(3 * (2 ** attempt))
+                retry, wait, is_rl = retry_plan(res.status_code, attempt, rl_used, c)
+                if is_rl:
+                    rl_used += 1
+                if retry:
+                    if res.status_code == 429:
+                        print(f"[llm] gemini 429 rate limit — {wait:.0f}s 대기 후 재시도")
+                    time.sleep(wait)
                     continue
                 print(f"[llm] gemini HTTP {res.status_code}: {res.text[:200]}")
                 return None
@@ -80,14 +114,20 @@ class RealLlm(LlmClient):
             "temperature": c["temperature"], "max_tokens": c["max_output_tokens"],
             "response_format": {"type": "json_object"},
         }
+        rl_used = 0
         for attempt in range(c["retry_per_provider"]):
             try:
                 res = requests.post(GROQ_URL, json=body, timeout=60,
                                     headers={"Authorization": f"Bearer {key}"})
                 if res.status_code == 200:
                     return res.json()["choices"][0]["message"]["content"]
-                if res.status_code == 429 or res.status_code >= 500:
-                    time.sleep(3 * (2 ** attempt))
+                retry, wait, is_rl = retry_plan(res.status_code, attempt, rl_used, c)
+                if is_rl:
+                    rl_used += 1
+                if retry:
+                    if res.status_code == 429:
+                        print(f"[llm] groq 429 rate limit — {wait:.0f}s 대기 후 재시도")
+                    time.sleep(wait)
                     continue
                 print(f"[llm] groq HTTP {res.status_code}: {res.text[:200]}")
                 return None
