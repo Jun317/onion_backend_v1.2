@@ -786,42 +786,45 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-14T06:40:39.960615+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-14T11:51:00.007924+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
-    "Sensex falls 280 pts , Nifty gives up 24 , 150 as US Iran attacks continue",
-    "Falling gas prices likely cut inflation last month but renewal of Iran war could undo progress",
-    "Iran IRGC claims to shoot down US MQ - 1 drone over Strait of Hormuz",
-    "Mojtaba Khamenei is 90 % gone : Trump makes big claim as US - Iran conflict spirals out of control",
-    "Oil Prices Surge Amid US - Iran Tensions in Strait of Hormuz | Business"
+    "Mojtaba is  90 % gone : Trump big claim as US intensifies Iran strikes amid failed peace hopes",
+    "War and economic crisis complicate efforts to protect Iran rich but endangered wildlife | World News",
+    "Oil hits one - month high as US , Iran step up",
+    "Trump relentless series of attacks on Iran compared to Civil War - era military strategy :  Were going to grind them down",
+    "Sensex falls 280 pts , Nifty gives up 24 , 150 as US Iran attacks continue"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미·이란 긴장\",\n   \"one_liner\": \"미국과 이란의 충돌이 계속되고 있어요.\",\n   \"why_now\": \"미·이란 간의 충돌이 세계 경제에 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"미국과 이란의 충돌이 격화되고 있어요.\",\n       \"이란의 동물들이 위험에 처해 있어요.\",\n       \"유가가 한 달 만에 최고치에 달했어요.\",\n       \"미국이 이란에 대한 공격을 강화하고 있어요.\",\n       \"인도 주식시장이 하락했어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"유가가 더 오를 수 있어요!\",\n       \"글로벌 경제에 부정적인 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Sensex falls 280 pts…",
-   "one_liner": "Sensex falls 280 pts , Nifty gives up 24 , 150…",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "미·이란 긴장",
+   "one_liner": "미국과 이란의 충돌이 계속되고 있어요.",
+   "why_now": "미·이란 간의 충돌이 세계 경제에 영향을 줄 수 있어요.",
    "details": [
-    "Sensex falls 280 pts , Nifty gives up 24 , 150 as US Iran attacks continue",
-    "Falling gas prices likely cut inflation last month but renewal of Iran war could undo progress",
-    "Iran IRGC claims to shoot down US MQ - 1 drone over Strait of Hormuz"
+    "미국과 이란의 충돌이 격화되고 있어요.",
+    "이란의 동물들이 위험에 처해 있어요.",
+    "유가가 한 달 만에 최고치에 달했어요.",
+    "미국이 이란에 대한 공격을 강화하고 있어요.",
+    "인도 주식시장이 하락했어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "유가가 더 오를 수 있어요!",
+    "글로벌 경제에 부정적인 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "5686281f8ee4fbb9d00d7a025caec6f826cacaaa"
+  "fact_hash": "58401da692a6683d088c4dea021b96bd9027d86b"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

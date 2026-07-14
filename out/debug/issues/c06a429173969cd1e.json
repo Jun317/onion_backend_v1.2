@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-14T06:34:31.312389+00:00",
+  "created_at": "2026-07-14T11:51:56.105819+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,8 +64,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"머크 주식 매수\",\n    \"one_liner\": \"켄터키주 교원 연금 기금이 머크앤컴퍼니 주식을 사들였어요.\",\n    \"why_now\": \"기관 투자자의 주식 매수는 해당 기업의 미래 성장 가능성을 긍정적으로 본다는 신호일 수 있어요.\",\n    \"details\": [\n        \"켄터키주 교원 연금 기금이 머크앤컴퍼니 주식을 매수했어요.\",\n        \"머크앤컴퍼니의 티커 심볼은 MRK예요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"머크앤컴퍼니의 주가에 긍정적인 영향을 줄 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"기관 투자자\",\n            \"easy\": \"연기금, 보험사, 자산운용사 등 큰 규모의 자금을 운용하는 투자 주체를 말해요.\",\n            \"example\": \"기관 투자자가 특정 회사 주식을 대량 매수하면 주가가 오르기도 해요.\"\n        },\n        {\n            \"term\": \"티커 심볼\",\n            \"easy\": \"주식 시장에서 특정 회사를 나타내는 짧은 영문자 조합이에요.\",\n            \"example\": \"삼성전자의 티커 심볼은 '005930'이에요.\"\n        }\n    ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -87,8 +93,8 @@
   "fact_hash": "712c08610bd5f6920c6bc2ffbdfdd24db9df67f1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-14T06:34:31.312328+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-14T11:51:56.105525+00:00"
  },
  "glossary": [],
  "related": [

@@ -70,8 +70,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-14T06:34:12.898082+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-14T11:51:18.204332+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -82,26 +82,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"넷플릭스 매출\",\n   \"one_liner\": \"넷플릭스의 매출이 좋아질 것이라고 예상해요\",\n   \"why_now\": \"넷플릭스의 매출이 좋아지면 주가가 오를 수 있어요\",\n   \"details\": [\n       \"투자자들이 넷플릭스의 매출이 좋아질 것으로 예상해요\",\n       \"투자자들이 넷플릭스 주식을 많이 사고 있어요\",\n       \"넷플릭스가 큰 소셜 네트워크를買う 계획이에요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"넷플릭스 주가가 오를 수 있어요!\",\n       \"넷플릭스 사용자들이 더 많이 늘어날 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [1139.0]"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Traders are betting…",
-   "one_liner": "Traders are betting on a comeback quarter for…",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "넷플릭스 매출",
+   "one_liner": "넷플릭스의 매출이 좋아질 것이라고 예상해요",
+   "why_now": "넷플릭스의 매출이 좋아지면 주가가 오를 수 있어요",
    "details": [
-    "Traders are betting on a comeback quarter for Netflix",
-    "Welch & Forbes LLC Has $11 . 39 Million Holdings in Netflix , Inc . $NFLX",
-    "Netflix Looks To Buy Major Social Network With Over 30M Users"
+    "투자자들이 넷플릭스의 매출이 좋아질 것으로 예상해요",
+    "투자자들이 넷플릭스 주식을 많이 사고 있어요",
+    "넷플릭스가 큰 소셜 네트워크를買う 계획이에요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "넷플릭스 주가가 오를 수 있어요!",
+    "넷플릭스 사용자들이 더 많이 늘어날 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "f82579153c3053563026ac0114bfe3ee2b4cb374"
  },
