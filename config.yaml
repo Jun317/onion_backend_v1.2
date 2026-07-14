@@ -44,9 +44,11 @@ llm:
   # 프로바이더 시도 순서 — Groq 우선(현장 성공률 기준). Gemini 키 정상화 시 폴백으로 활용.
   provider_order: [groq, gemini]
   alternate_providers: true   # 이슈마다 provider_order 를 회전 → 두 API 가 부하 분담 (실질 RPM 2배)
-  call_interval_s: 4          # 이슈 처리 간 간격(초) — 무료 티어 분당 한도(RPM) 회피. FakeLlm/dry-run 은 미적용
-  rate_limit_wait_s: 20       # 429(분당 한도) 시 고정 대기(초) — 60초 창을 넘겨 재시도
-  rate_limit_retries: 2       # 429 재시도 상한 (과도한 지연 방지)
+  call_interval_s: 2          # 이슈 처리 간 간격(초) — RPM 회피 (30분 예산과 균형). FakeLlm/dry-run 미적용
+  rate_limit_wait_s: 8        # 429(분당 한도) 시 고정 대기(초) — 과도 지연 방지 (Actions 30분 예산)
+  rate_limit_retries: 1       # 429 재시도 상한 (1회만 — 타임아웃 방지)
+  max_seconds_per_run: 1000   # LLM 가공 런타임 예산(초) — 초과분은 다음 주기 이월 (Actions 타임아웃 보호)
+  max_per_run: 40             # 1주기 최대 가공 이슈 수 (0=무제한) — 런타임 상한
   # template 폴백 이슈 재시도 최소 간격(시간) — 매 주기 무한 재시도 방지, 미번역 우선.
   template_retry_h: 3
   banned_phrases: ["급등 확실", "급락 확실", "무조건", "전량 매수", "전량 매도", "반드시 오", "반드시 내"]

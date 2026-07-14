@@ -93,3 +93,28 @@ def test_template_output_uses_anchors_only():
                                         "value": 3.0, "unit": "%", "prev": 3.25}],
                            "headlines": ["한은 금리 인하"]})
     assert "3.0" in out["details"][0] and out["effects"] == []
+
+
+def test_max_per_run_defers_rest(conn, monkeypatch):
+    """실호출(network=True) 경로는 max_per_run 을 넘는 이슈를 다음 주기로 이월 — 타임아웃 방지."""
+    import engine.llm.handler as h
+    base = h.cfg()
+    over = {**base, "llm": {**base["llm"], "max_per_run": 1,
+                            "call_interval_s": 0, "max_seconds_per_run": 0}}
+    monkeypatch.setattr(h, "cfg", lambda: over)
+    _published_issue(conn, "i1")
+    _published_issue(conn, "i2")
+
+    class NetFake(FakeLlm):
+        network = True
+
+    s = process_all(conn, NetFake())
+    assert s["generated"] == 1 and s["deferred"] == 1   # 1개만 처리, 나머지 이월
+
+
+def test_fake_client_has_no_runtime_budget(conn):
+    """FakeLlm(network=False)은 예산 제한이 없어 테스트·dry-run 이 그대로 전량 처리된다."""
+    _published_issue(conn, "i1")
+    _published_issue(conn, "i2")
+    s = process_all(conn, FakeLlm())
+    assert s["generated"] == 2 and s["deferred"] == 0
