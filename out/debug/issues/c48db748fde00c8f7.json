@@ -9,11 +9,21 @@
  "entity_keys": [
   "WMT"
  ],
- "seen_sources": 6,
+ "seen_sources": 7,
  "importance": 130,
  "created_at": "2026-07-08T00:19:07.470951+00:00",
- "last_update": "2026-07-13T15:18:16.382797+00:00",
+ "last_update": "2026-07-14T14:20:57.966762+00:00",
  "members": [
+  {
+   "id": "81799bf02e6c367c5b02df9b2e424fcde736d32c",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/07/14/where-will-walmart-stock-be-in-5-years/?source=iedfolrf0000001",
+   "title": "Where Will Walmart Stock Be in 5 Years ?",
+   "published_at": "2026-07-14T11:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9041
+  },
   {
    "id": "4aebc5f25eaffab4b2e4466bdc053377e0187b66",
    "source": "slate.com",
@@ -22,7 +32,7 @@
    "title": "Walmart and Target are watching you . I saw the  lab  for myself .",
    "published_at": "2026-07-13T10:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8657
+   "sim_to_centroid": 0.8675
   },
   {
    "id": "265ebeba7131226514732e24f8a90a108621e06c",
@@ -32,7 +42,7 @@
    "title": "Walmart Debunks 3 Myths for Emerging CPG Brands",
    "published_at": "2026-07-10T14:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8955
+   "sim_to_centroid": 0.899
   },
   {
    "id": "58445c72f10e60cdef954feb3434b79610a8bb3f",
@@ -42,7 +52,7 @@
    "title": "Walmart cuts prices on groceries and other goods",
    "published_at": "2026-07-08T17:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9553
+   "sim_to_centroid": 0.9538
   },
   {
    "id": "71744e827a4ba20decf1b0714726c3c060d8bf0d",
@@ -52,7 +62,7 @@
    "title": "Why Walmart Is Chasing Wealthier Shoppers",
    "published_at": "2026-07-08T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.914
+   "sim_to_centroid": 0.9177
   },
   {
    "id": "e90b4329cbd384a8fa8e3e98602dd34db1dc7d97",
@@ -62,7 +72,7 @@
    "title": "Walmart announces price cuts ; Trump claims White House influence | The Arkansas Democrat - Gazette",
    "published_at": "2026-07-07T23:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9554
+   "sim_to_centroid": 0.9532
   },
   {
    "id": "75f391d700acdb8f2efe963d1d5e213fc2f4170c",
@@ -72,11 +82,18 @@
    "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
    "published_at": "2026-07-07T13:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9583
+   "sim_to_centroid": 0.9554
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Where Will Walmart Stock Be in 5 Years ?",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/07/14/where-will-walmart-stock-be-in-5-years/?source=iedfolrf0000001",
+   "at": "2026-07-14T11:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Walmart and Target are watching you . I saw the  lab  for myself .",
@@ -121,47 +138,46 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-13T15:18:19.823246+00:00",
+  "model": "template",
+  "created_at": "2026-07-14T14:22:38.471109+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
+    "Where Will Walmart Stock Be in 5 Years ?",
     "Walmart and Target are watching you . I saw the  lab  for myself .",
     "Walmart Debunks 3 Myths for Emerging CPG Brands",
     "Walmart cuts prices on groceries and other goods",
-    "Why Walmart Is Chasing Wealthier Shoppers",
-    "Walmart announces price cuts ; Trump claims White House influence | The Arkansas Democrat - Gazette"
+    "Why Walmart Is Chasing Wealthier Shoppers"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"월마트 가격 인하\",\n   \"one_liner\": \"월마트가 식료품과 기타 상품 가격을 내렸어요\",\n   \"why_now\": \"가격이 내리면 소비자가 물건을 더 많이 살 수 있어요\",\n   \"details\": [\n       \"월마트가 가격을 내렸어요\",\n       \"가격 인하는 식료품과 기타 상품에 영향을 미쳤어요\",\n       \"월마트의 결정이 소비자에게 미치는 영향이 클 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"소비자들이 물건을 더 많이 살 수 있을 것으로 예상돼요!\",\n       \"他の 소매 업체들이 가격을 내릴 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "월마트 가격 인하",
-   "one_liner": "월마트가 식료품과 기타 상품 가격을 내렸어요",
-   "why_now": "가격이 내리면 소비자가 물건을 더 많이 살 수 있어요",
+   "title": "Where Will Walmart…",
+   "one_liner": "Where Will Walmart Stock Be in 5 Years ?",
+   "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
-    "월마트가 가격을 내렸어요",
-    "가격 인하는 식료품과 기타 상품에 영향을 미쳤어요",
-    "월마트의 결정이 소비자에게 미치는 영향이 클 수 있어요"
+    "Where Will Walmart Stock Be in 5 Years ?",
+    "Walmart and Target are watching you . I saw the  lab  for myself .",
+    "Walmart Debunks 3 Myths for Emerging CPG Brands"
    ],
-   "effects": [
-    "소비자들이 물건을 더 많이 살 수 있을 것으로 예상돼요!",
-    "他の 소매 업체들이 가격을 내릴 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "85d737bda23dae64c8c539e2b6cab225322f6cea"
+  "fact_hash": "d155166c8f19f76eafb0e22de4cf9a92b7745fa7"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}]}",
-  "at": "2026-07-13T07:46:55.173904+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-14T14:22:38.471014+00:00"
  },
  "glossary": [],
  "related": [
