@@ -1,8 +1,8 @@
 {
  "id": "eb2464e0af496cad2",
- "title": "넥스트아이 매출액 57.7억원",
- "one_liner": "넥스트아이 매출액 57.7억원으로 발표됐어요",
- "why_now": "공식 발표 내용을 정리했어요.",
+ "title": "넥스트아이 실적",
+ "one_liner": "넥스트아이의 매출과 영업이익이 줄었어요",
+ "why_now": "기업 실적이 나빠지면 주가에 영향을 줄 수 있어요",
  "raw_title": "넥스트아이 2025-4Q 실적 공시",
  "category": "EARNINGS",
  "status": "stale",
@@ -22,11 +22,15 @@
  "spark": null,
  "icon": "🧾",
  "details": [
-  "넥스트아이 매출액: 57.7억원",
-  "넥스트아이 영업이익: -17.8억원"
+  "넥스트아이의 매출액은 57.7억원이었어요",
+  "영업이익은 -17.8억원으로 적자를 보았어요",
+  "이번 실적은 2025년 1분기에요"
  ],
- "effects": [],
- "model": "template",
+ "effects": [
+  "주가가 하락할 수 있어요!",
+  "투자자들의 관심이 높아질 수 있어요!"
+ ],
+ "model": "llama-3.3-70b-versatile",
  "visual": {
   "type": "earnings_quarterly",
   "chart": "bar",

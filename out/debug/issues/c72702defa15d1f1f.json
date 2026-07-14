@@ -105,8 +105,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-14T16:05:05.825716+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-14T19:50:51.256778+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -119,26 +119,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"비자·마스터카드\",\n   \"one_liner\": \"비자와 마스터카드 중 어떤 주식을 사야 할지 비교하고 있어요.\",\n   \"why_now\": \"이 두 회사가 경쟁하고 있는 결제 시장은 점점 더 중요해지고 있어요.\",\n   \"details\": [\n       \"비자와 마스터카드가 결제 시장에서 경쟁하고 있어요.\",\n       \"비자와 마스터카드 중 어떤 주식을 사야 할지比較하고 있어요.\",\n       \"한국은 디지털 노마드 비자를 출시했어요.\",\n       \"유럽의 결제 시장에서 비자와 마스터카드의 지위가 흔들리고 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"결제 시장의 경쟁이 더 심해질 것으로 예상돼요!\",\n       \"새로운 결제 방식이 등장할 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"디지털 노마드 비자\",\n           \"easy\": \"원격으로 일할 수 있는 비자예요.\",\n           \"example\": \"한국에서 디지털 노마드 비자를 받으면 3년간 원격으로 일할 수 있어요.\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Which Stock Is a…",
-   "one_liner": "Which Stock Is a Better Buy ? Visa or Mastercard ?",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "비자·마스터카드",
+   "one_liner": "비자와 마스터카드 중 어떤 주식을 사야 할지 비교하고 있어요.",
+   "why_now": "이 두 회사가 경쟁하고 있는 결제 시장은 점점 더 중요해지고 있어요.",
    "details": [
-    "Which Stock Is a Better Buy ? Visa or Mastercard ?",
-    "Visa ( V ): Among the Most Promising Fintech Stocks to Invest In",
-    "South Korea launches digital nomad visa : 3 year stay , relaxed income requirements ; Here who qualifies"
+    "비자와 마스터카드가 결제 시장에서 경쟁하고 있어요.",
+    "비자와 마스터카드 중 어떤 주식을 사야 할지比較하고 있어요.",
+    "한국은 디지털 노마드 비자를 출시했어요.",
+    "유럽의 결제 시장에서 비자와 마스터카드의 지위가 흔들리고 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "결제 시장의 경쟁이 더 심해질 것으로 예상돼요!",
+    "새로운 결제 방식이 등장할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "a532d42f0e32d786837309436e343f02599dd929"
  },
