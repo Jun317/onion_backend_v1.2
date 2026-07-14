@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-14T21:28:34.257651+00:00",
+ "generated_at": "2026-07-14T23:25:08.411256+00:00",
  "issues": [
   {
    "id": "ca047e091cbb5946c",
@@ -7,7 +7,7 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 216,
+   "seen_sources": 218,
    "importance": 160,
    "entity_keys": [
     "AAPL",
@@ -37,11 +37,11 @@
     "XOM"
    ],
    "created_at": "2026-07-04T21:17:48.835973+00:00",
-   "last_update": "2026-07-14T21:28:25.721555+00:00",
+   "last_update": "2026-07-14T23:17:43.091094+00:00",
    "members": 50,
-   "llm_title": "미국 금리",
-   "one_liner": "미국 중앙은행이 높은 인플레이션을 허용하지 않겠다고 했어요",
-   "llm_model": "llama-3.3-70b-versatile",
+   "llm_title": "U . S . CPI slowdown…",
+   "one_liner": "U . S . CPI slowdown lowers odds of July Fed hike",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -136,9 +136,9 @@
    "created_at": "2026-07-08T00:19:07.470838+00:00",
    "last_update": "2026-07-14T02:47:34.287778+00:00",
    "members": 25,
-   "llm_title": "Reforms under IMF…",
-   "one_liner": "Reforms under IMF programme to be phased in -…",
-   "llm_model": "template",
+   "llm_title": "IMF, 세계 경제 전망 하향",
+   "one_liner": "국제통화기금(IMF)이 세계 경제 성장 전망치를 낮췄어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -167,7 +167,7 @@
    "status": "stale",
    "origin": "official_event",
    "seen_sources": 0,
-   "importance": 120,
+   "importance": 115,
    "entity_keys": [
     "FED"
    ],
@@ -242,14 +242,31 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 377,
+   "seen_sources": 384,
    "importance": 105,
    "entity_keys": [],
    "created_at": "2026-07-04T21:17:48.836493+00:00",
-   "last_update": "2026-07-14T21:28:25.723548+00:00",
+   "last_update": "2026-07-14T23:17:43.108107+00:00",
    "members": 50,
-   "llm_title": "Analyst hails govt…",
-   "one_liner": "Analyst hails govt vision to promote cashless…",
+   "llm_title": "금융 정책",
+   "one_liner": "영국은행 총재 베일리가 은행 이익 규제 방안을 언급했어요.",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "c6de7c9fb5935bf83",
+   "title": "공공기관 AI 대전환 현장, 혁신 더하기",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 473,
+   "importance": 105,
+   "entity_keys": [],
+   "created_at": "2026-07-04T21:17:48.838713+00:00",
+   "last_update": "2026-07-14T23:17:43.098669+00:00",
+   "members": 50,
+   "llm_title": "Nasdaq surges 0 . 9…",
+   "one_liner": "Nasdaq surges 0 . 9 % Tuesday as technology…",
    "llm_model": "template",
    "in_review": true
   },
@@ -263,28 +280,11 @@
    "importance": 105,
    "entity_keys": [],
    "created_at": "2026-07-04T21:17:48.837723+00:00",
-   "last_update": "2026-07-14T21:28:25.720099+00:00",
+   "last_update": "2026-07-14T23:17:43.081478+00:00",
    "members": 50,
-   "llm_title": "Global crude oil…",
-   "one_liner": "Global crude oil prices reach highest in a month…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c6de7c9fb5935bf83",
-   "title": "공공기관 AI 대전환 현장, 혁신 더하기",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 471,
-   "importance": 105,
-   "entity_keys": [],
-   "created_at": "2026-07-04T21:17:48.838713+00:00",
-   "last_update": "2026-07-14T21:28:25.701595+00:00",
-   "members": 50,
-   "llm_title": "Earnings Face a High…",
-   "one_liner": "Earnings Face a High Bar , but BofA Says the…",
-   "llm_model": "template",
+   "llm_title": "트럼프의 정책",
+   "one_liner": "트럼프 대통령이 호르무즈 해협 통행료 계획을 취소했어요.",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -293,17 +293,17 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 10,
+   "seen_sources": 11,
    "importance": 105,
    "entity_keys": [
     "IBM"
    ],
    "created_at": "2026-07-14T14:20:58.036576+00:00",
-   "last_update": "2026-07-14T21:28:25.594846+00:00",
-   "members": 13,
-   "llm_title": "미국 증시 혼조세, IBM 급락",
-   "one_liner": "미국 증시가 물가 지표 발표 후 혼조세를 보였고, IBM 주가는 크게 떨어졌어요.",
-   "llm_model": "gemini-2.5-flash-lite",
+   "last_update": "2026-07-14T23:17:43.059663+00:00",
+   "members": 14,
+   "llm_title": "Markets today : U .…",
+   "one_liner": "Markets today : U . S . stocks rise after…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -425,27 +425,6 @@
    "llm_title": "코스피 지수 8400선 회복",
    "one_liner": "코스피 지수가 8476.48까지 올라 역대급 상승률을 기록했어요.",
    "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c2a2335ebb21b242f",
-   "title": "Meta Cloud Ambitions Could Challenge AWS , Azure , and Google Cloud , Says Morgan Stanley",
-   "category": "POLICY",
-   "status": "archived",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 100,
-   "entity_keys": [
-    "GOOGL",
-    "META",
-    "MS"
-   ],
-   "created_at": "2026-07-06T01:13:49.601067+00:00",
-   "last_update": "2026-07-07T22:36:37.006927+00:00",
-   "members": 0,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
    "in_review": true
   },
   {
@@ -737,25 +716,6 @@
    "in_review": true
   },
   {
-   "id": "c4e8e497777eba176",
-   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
-   "category": "MARKET",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 80,
-   "entity_keys": [
-    "LLY"
-   ],
-   "created_at": "2026-07-12T22:12:02.226969+00:00",
-   "last_update": "2026-07-12T22:12:02.226969+00:00",
-   "members": 2,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
    "id": "c499660e9dfd764df",
    "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
    "category": "MARKET",
@@ -829,6 +789,25 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": true
+  },
+  {
+   "id": "c4e8e497777eba176",
+   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
+   "category": "MARKET",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 75,
+   "entity_keys": [
+    "LLY"
+   ],
+   "created_at": "2026-07-12T22:12:02.226969+00:00",
+   "last_update": "2026-07-12T22:12:02.226969+00:00",
+   "members": 2,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
   },
   {
    "id": "e76a31562c5cb5183",
@@ -1130,25 +1109,6 @@
    "in_review": true
   },
   {
-   "id": "ca195a55a0c691ef4",
-   "title": "Home Depot vs . Lowe : A Look at Recent Revenue Trends for These Home Improvement Giants",
-   "category": "EARNINGS",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 60,
-   "entity_keys": [
-    "HD"
-   ],
-   "created_at": "2026-07-11T23:15:38.866618+00:00",
-   "last_update": "2026-07-11T23:15:38.866618+00:00",
-   "members": 2,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
    "id": "c1aa80f01e32a17b0",
    "title": "허장 재경부 제2차관, 「중동 인프라 협력 TF 겸 해외수주 협의회」 개최",
    "category": "GEO",
@@ -1221,6 +1181,25 @@
    "one_liner": "US CPI(YoY%) 4.16661%로 발표됐어요",
    "llm_model": "template",
    "in_review": true
+  },
+  {
+   "id": "ca195a55a0c691ef4",
+   "title": "Home Depot vs . Lowe : A Look at Recent Revenue Trends for These Home Improvement Giants",
+   "category": "EARNINGS",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 55,
+   "entity_keys": [
+    "HD"
+   ],
+   "created_at": "2026-07-11T23:15:38.866618+00:00",
+   "last_update": "2026-07-11T23:15:38.866618+00:00",
+   "members": 2,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
   },
   {
    "id": "cf2377d5f6ffa72de",
