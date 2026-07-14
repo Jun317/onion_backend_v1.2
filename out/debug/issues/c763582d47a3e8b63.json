@@ -9,11 +9,21 @@
  "entity_keys": [
   "NFLX"
  ],
- "seen_sources": 2,
- "importance": 75,
+ "seen_sources": 3,
+ "importance": 80,
  "created_at": "2026-07-12T21:11:31.396416+00:00",
- "last_update": "2026-07-12T21:11:31.397046+00:00",
+ "last_update": "2026-07-14T02:47:34.192308+00:00",
  "members": [
+  {
+   "id": "276fb6c1a454a5a2d4724e3671c44e15c1d7c278",
+   "source": "cnbc.com",
+   "tier": "wire",
+   "url": "https://www.cnbc.com/2026/07/13/traders-are-betting-on-a-comeback-quarter-for-netflix.html",
+   "title": "Traders are betting on a comeback quarter for Netflix",
+   "published_at": "2026-07-13T18:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9022
+  },
   {
    "id": "b20205d4bb29127b8b8ade09c254eeba076bc9b9",
    "source": "themarketsdaily.com",
@@ -22,7 +32,7 @@
    "title": "Welch & Forbes LLC Has $11 . 39 Million Holdings in Netflix , Inc . $NFLX",
    "published_at": "2026-07-12T20:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9597
+   "sim_to_centroid": 0.9566
   },
   {
    "id": "ec1f025c9f558c71171bdc8f94c63e79d06ec9db",
@@ -32,11 +42,18 @@
    "title": "Netflix Looks To Buy Major Social Network With Over 30M Users",
    "published_at": "2026-07-10T20:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9597
+   "sim_to_centroid": 0.9604
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Traders are betting on a comeback quarter for Netflix",
+   "source": "cnbc.com",
+   "url": "https://www.cnbc.com/2026/07/13/traders-are-betting-on-a-comeback-quarter-for-netflix.html",
+   "at": "2026-07-13T18:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Welch & Forbes LLC Has $11 . 39 Million Holdings in Netflix , Inc . $NFLX",
@@ -54,11 +71,12 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-13T15:25:58.859182+00:00",
+  "created_at": "2026-07-14T02:49:56.087204+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Traders are betting on a comeback quarter for Netflix",
     "Welch & Forbes LLC Has $11 . 39 Million Holdings in Netflix , Inc . $NFLX",
     "Netflix Looks To Buy Major Social Network With Over 30M Users"
    ],
@@ -74,21 +92,22 @@
    }
   ],
   "output": {
-   "title": "Welch & Forbes LLC…",
-   "one_liner": "Welch & Forbes LLC Has $11 . 39 Million Holdings…",
+   "title": "Traders are betting…",
+   "one_liner": "Traders are betting on a comeback quarter for…",
    "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
+    "Traders are betting on a comeback quarter for Netflix",
     "Welch & Forbes LLC Has $11 . 39 Million Holdings in Netflix , Inc . $NFLX",
     "Netflix Looks To Buy Major Social Network With Over 30M Users"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "1b883a4bfbee21c15287844d81a165d22394a02d"
+  "fact_hash": "f82579153c3053563026ac0114bfe3ee2b4cb374"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-13T15:25:58.859122+00:00"
+  "at": "2026-07-14T02:49:56.087146+00:00"
  },
  "glossary": [],
  "related": [
@@ -105,12 +124,6 @@
    "shared": []
   },
   {
-   "id": "c4dcd140d8a86ccd9",
-   "title": "Amazon Stock Is Historically Cheap . Now Is Your Perfect Buying Opportunity",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
    "id": "e3c65cb22764c5ab1",
    "title": "LG전자 2025-4Q 실적 공시",
    "category": "EARNINGS",
@@ -119,6 +132,12 @@
   {
    "id": "e3892f7ce92b8b73a",
    "title": "이큐셀 2025-2Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "eadc3fe28694e58f8",
+   "title": "빅솔론 2025-4Q 실적 공시",
    "category": "EARNINGS",
    "shared": []
   }
