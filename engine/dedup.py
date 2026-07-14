@@ -48,6 +48,9 @@ def mark_near_duplicates(conn: sqlite3.Connection, new_ids: list[str]) -> int:
     pool = conn.execute(
         "SELECT id, simhash, published_at FROM article "
         "WHERE (published_at >= ? OR published_at IS NULL)", (cutoff,)).fetchall()
+    # simhash 가 NULL 인 기사(큐레이션 express 기사 등)는 근접중복 비교에서 제외 —
+    # hamming(XOR) 이 None 에서 크래시하는 것을 방지. 이런 기사는 dup 판정 대상 아님.
+    pool = [r for r in pool if r["simhash"] is not None]
     new_set = set(new_ids)
     olds = [r for r in pool if r["id"] not in new_set]
     news = [r for r in pool if r["id"] in new_set]

@@ -36,13 +36,17 @@ classify:
 llm:
   daily_cap: 300        # 일일 가공 상한 (초과분 다음 사이클 이월)
   temperature: 0.3
-  max_output_tokens: 512
+  max_output_tokens: 1024   # 상세 3~6문장+용어해설 스키마에 여유 (잘림·MAX_TOKENS 방지)
   max_headlines: 5      # 입력 대표 제목 수
   gemini_model: gemini-2.5-flash-lite
   groq_model: llama-3.3-70b-versatile
   retry_per_provider: 3
   # 프로바이더 시도 순서 — Groq 우선(현장 성공률 기준). Gemini 키 정상화 시 폴백으로 활용.
   provider_order: [groq, gemini]
+  alternate_providers: true   # 이슈마다 provider_order 를 회전 → 두 API 가 부하 분담 (실질 RPM 2배)
+  call_interval_s: 4          # 이슈 처리 간 간격(초) — 무료 티어 분당 한도(RPM) 회피. FakeLlm/dry-run 은 미적용
+  rate_limit_wait_s: 20       # 429(분당 한도) 시 고정 대기(초) — 60초 창을 넘겨 재시도
+  rate_limit_retries: 2       # 429 재시도 상한 (과도한 지연 방지)
   # template 폴백 이슈 재시도 최소 간격(시간) — 매 주기 무한 재시도 방지, 미번역 우선.
   template_retry_h: 3
   banned_phrases: ["급등 확실", "급락 확실", "무조건", "전량 매수", "전량 매도", "반드시 오", "반드시 내"]

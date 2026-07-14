@@ -8,6 +8,7 @@ from __future__ import annotations
 import hashlib
 import json
 import sqlite3
+import time
 from datetime import datetime, timedelta, timezone
 
 from ..config import cfg
@@ -139,6 +140,7 @@ def _template_backoff_ok(created_at: str | None, hours: float) -> bool:
 def process_all(conn: sqlite3.Connection, client: LlmClient) -> dict:
     c = cfg()["llm"]
     retry_h = float(c.get("template_retry_h", 3))
+    interval = float(c.get("call_interval_s", 0))
     stats = {"generated": 0, "cached": 0, "template": 0, "deferred": 0, "backoff": 0}
 
     for issue in _issues_needing_llm(conn):
@@ -194,5 +196,10 @@ def process_all(conn: sqlite3.Connection, client: LlmClient) -> dict:
         else:
             stats["generated"] += 1
         _save(conn, issue["id"], fh, out, model, payload, last_raw, attempts)
+
+        # 호출 간 간격 — 무료 티어 분당 한도(RPM) 회피. 실제 네트워크 호출한 이슈만,
+        # FakeLlm(테스트·dry-run)은 network=False 라 잠들지 않는다.
+        if getattr(client, "network", False) and interval > 0:
+            time.sleep(interval)
 
     return stats
