@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-14T11:53:13.957737+00:00",
+  "created_at": "2026-07-14T15:58:10.527129+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,14 +64,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"스타벅스 CEO 주식 매도\",\n  \"one_liner\": \"스타벅스 CEO가 2억 3천만 원 상당의 주식을 팔았어요.\",\n  \"why_now\": \"회사를 이끄는 최고 경영자가 주식을 팔면 회사 전망에 대한 우려가 생길 수 있어요.\",\n  \"details\": [\n    \"스타벅스 CEO 브래디 브루어는 2,229주를 매도했어요.\",\n    \"매도 금액은 약 2억 3천만 원이에요.\",\n    \"스타벅스는 나스닥에 상장된 회사예요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"주가에 부정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"CEO\",\n      \"easy\": \"회사의 최고 경영자를 뜻하는 말이에요.\",\n      \"example\": \"CEO는 회사의 중요한 결정을 내리는 역할을 해요.\"\n    },\n    {\n      \"term\": \"나스닥\",\n      \"easy\": \"미국에서 가장 큰 기술주 중심의 주식 시장이에요.\",\n      \"example\": \"나스닥에 상장된 회사들은 보통 기술 관련 기업들이 많아요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [2229.0]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -93,20 +87,20 @@
   "fact_hash": "13af7e311e3448d56ce9f7f15f7c96183d17040a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [2229.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-14T11:53:13.957653+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-14T15:58:10.527032+00:00"
  },
  "glossary": [],
  "related": [
   {
-   "id": "cb0fdfed500e16b9a",
-   "title": "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know",
+   "id": "c273684a49f5f6fb2",
+   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "eb742211d6b920cb4",
-   "title": "코스피, 상반기에 두 배로",
+   "id": "cb0fdfed500e16b9a",
+   "title": "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know",
    "category": "MARKET",
    "shared": []
   },
@@ -117,14 +111,14 @@
    "shared": []
   },
   {
-   "id": "c88e0e9224f4c05cc",
-   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+   "id": "eb742211d6b920cb4",
+   "title": "코스피, 상반기에 두 배로",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c273684a49f5f6fb2",
-   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
+   "id": "c88e0e9224f4c05cc",
+   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
    "category": "MARKET",
    "shared": []
   }

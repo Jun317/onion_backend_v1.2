@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-14T11:51:11.042319+00:00",
+  "created_at": "2026-07-14T15:57:11.365570+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,19 +64,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"보잉에 투자\",\n   \"one_liner\": \"벤처 投資회사인 밴테지 투자 파트너스가 보잉에 487,000달러를 투자했어요\",\n   \"why_now\": \"대형 기업에 투자하면 경제 성장에 따른 수익을 기대할 수 있어요\",\n   \"details\": [\n       \"벤처 投資회사인 밴테지 투자 파트너스가 보잉에 새로운 투자를 했어요\",\n       \"투자 금액은 487,000달러예요\",\n       \"보잉의 주가가 올라 투자자들이 주목을 받고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"보잉의 주가가 더 오를 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [487000.0]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 에 한자/가나 포함",
-     "입력에 없는 숫자: [487000.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -94,20 +87,20 @@
   "fact_hash": "41240283360004b7da8b3940694331b076e0ed09"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [487000.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"입력에 없는 숫자: [487000.0]\"]}]}",
-  "at": "2026-07-14T11:51:11.042280+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-14T15:57:11.365507+00:00"
  },
  "glossary": [],
  "related": [
   {
-   "id": "cb0fdfed500e16b9a",
-   "title": "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know",
+   "id": "c273684a49f5f6fb2",
+   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "eb742211d6b920cb4",
-   "title": "코스피, 상반기에 두 배로",
+   "id": "cb0fdfed500e16b9a",
+   "title": "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know",
    "category": "MARKET",
    "shared": []
   },
@@ -118,14 +111,14 @@
    "shared": []
   },
   {
-   "id": "c88e0e9224f4c05cc",
-   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+   "id": "eb742211d6b920cb4",
+   "title": "코스피, 상반기에 두 배로",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c273684a49f5f6fb2",
-   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
+   "id": "c88e0e9224f4c05cc",
+   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
    "category": "MARKET",
    "shared": []
   }
