@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-14T16:05:11.122494+00:00",
+ "generated_at": "2026-07-14T17:39:15.985525+00:00",
  "issues": [
   {
    "id": "ca047e091cbb5946c",
@@ -7,7 +7,7 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 180,
+   "seen_sources": 204,
    "importance": 160,
    "entity_keys": [
     "AAPL",
@@ -16,10 +16,12 @@
     "AVGO",
     "BAC",
     "CHINA",
+    "CVX",
     "F",
     "FED",
     "GOOGL",
     "INTC",
+    "IRAN",
     "JPM",
     "KRX:000660",
     "KRX:034730",
@@ -31,10 +33,11 @@
     "NVDA",
     "SEC",
     "TAIWAN",
-    "TSLA"
+    "TSLA",
+    "XOM"
    ],
    "created_at": "2026-07-04T21:17:48.835973+00:00",
-   "last_update": "2026-07-14T15:55:49.499392+00:00",
+   "last_update": "2026-07-14T17:38:58.543656+00:00",
    "members": 50,
    "llm_title": "Cineplex Inc .…",
    "one_liner": "Cineplex Inc . Announces Details of Second…",
@@ -114,9 +117,9 @@
    "created_at": "2026-07-08T00:19:07.470951+00:00",
    "last_update": "2026-07-14T14:20:57.966762+00:00",
    "members": 7,
-   "llm_title": "Where Will Walmart…",
-   "one_liner": "Where Will Walmart Stock Be in 5 Years ?",
-   "llm_model": "template",
+   "llm_title": "월마트 소식",
+   "one_liner": "월마트가 물건 가격을 내렸어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -183,7 +186,7 @@
    "status": "stale",
    "origin": "cluster",
    "seen_sources": 3,
-   "importance": 120,
+   "importance": 115,
    "entity_keys": [
     "BOJ"
    ],
@@ -234,20 +237,42 @@
    "in_review": false
   },
   {
+   "id": "cb0fdfed500e16b9a",
+   "title": "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know",
+   "category": "MARKET",
+   "status": "archived",
+   "origin": "cluster",
+   "seen_sources": 38,
+   "importance": 105,
+   "entity_keys": [
+    "CVX",
+    "FED",
+    "IRAN",
+    "XOM"
+   ],
+   "created_at": "2026-07-08T00:19:07.471145+00:00",
+   "last_update": "2026-07-14T17:38:58.543690+00:00",
+   "members": 0,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": true
+  },
+  {
    "id": "ca1d719d5b855f7a7",
    "title": "[보도참고] 경제협력개발기구(OECD) 2026 한국경제보고서 발표",
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 441,
+   "seen_sources": 449,
    "importance": 105,
    "entity_keys": [],
    "created_at": "2026-07-04T21:17:48.837723+00:00",
-   "last_update": "2026-07-14T15:55:49.496558+00:00",
+   "last_update": "2026-07-14T17:38:58.539726+00:00",
    "members": 50,
-   "llm_title": "Massive AI spending…",
-   "one_liner": "Massive AI spending has unexpected effect on U .…",
-   "llm_model": "template",
+   "llm_title": "소비자 물가 상승세 둔화",
+   "one_liner": "소비자 물가 상승률이 2020년 이후 처음으로 떨어졌어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -256,11 +281,11 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 334,
+   "seen_sources": 346,
    "importance": 105,
    "entity_keys": [],
    "created_at": "2026-07-04T21:17:48.836493+00:00",
-   "last_update": "2026-07-14T15:55:49.495553+00:00",
+   "last_update": "2026-07-14T17:38:58.537709+00:00",
    "members": 50,
    "llm_title": "India - UK CETA to…",
    "one_liner": "India - UK CETA to come into effect from July 15",
@@ -273,15 +298,15 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 460,
+   "seen_sources": 462,
    "importance": 105,
    "entity_keys": [],
    "created_at": "2026-07-04T21:17:48.838713+00:00",
-   "last_update": "2026-07-14T15:55:49.488058+00:00",
+   "last_update": "2026-07-14T17:38:58.522645+00:00",
    "members": 50,
-   "llm_title": "2 Reasons Why Higher…",
-   "one_liner": "2 Reasons Why Higher Oil Prices Are Good for…",
-   "llm_model": "template",
+   "llm_title": "금융 뉴스",
+   "one_liner": "여러 나라의 금융 소식이 나왔어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -290,37 +315,16 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 7,
+   "seen_sources": 8,
    "importance": 105,
    "entity_keys": [
     "IBM"
    ],
    "created_at": "2026-07-14T14:20:58.036576+00:00",
-   "last_update": "2026-07-14T15:55:49.472756+00:00",
-   "members": 9,
+   "last_update": "2026-07-14T17:38:58.498825+00:00",
+   "members": 11,
    "llm_title": "IBM warns AI boom…",
    "one_liner": "IBM warns AI boom hurting software firms ,…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cb0fdfed500e16b9a",
-   "title": "FinancialContent - ExxonMobil and Chevron Shares Skyrocket , What You Need To Know",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 33,
-   "importance": 105,
-   "entity_keys": [
-    "CVX",
-    "IRAN",
-    "XOM"
-   ],
-   "created_at": "2026-07-08T00:19:07.471145+00:00",
-   "last_update": "2026-07-14T15:55:49.430851+00:00",
-   "members": 48,
-   "llm_title": "Oil prices surge on…",
-   "one_liner": "Oil prices surge on US - Iran attacks ; tech…",
    "llm_model": "template",
    "in_review": true
   },
@@ -727,9 +731,9 @@
    "created_at": "2026-07-14T14:20:58.037126+00:00",
    "last_update": "2026-07-14T15:55:49.482249+00:00",
    "members": 4,
-   "llm_title": "Wells Fargo & Co…",
-   "one_liner": "Wells Fargo & Co Bottom Line Climbs In Q2",
-   "llm_model": "template",
+   "llm_title": "웰스파고 이익 증가",
+   "one_liner": "웰스파고의 2분기 이익이 예상치를 웃돌며 크게 늘었어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -1219,25 +1223,6 @@
    "in_review": true
   },
   {
-   "id": "cdc2b6b90e58d54ed",
-   "title": "Victor Marx projected to win Colorado GOP gubernatorial primary",
-   "category": "EARNINGS",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 55,
-   "entity_keys": [
-    "UBER"
-   ],
-   "created_at": "2026-07-10T17:14:55.425517+00:00",
-   "last_update": "2026-07-10T17:14:55.425517+00:00",
-   "members": 2,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
    "id": "cf2377d5f6ffa72de",
    "title": "관계부처 합동 6월 일자리전담반(TF) 개최",
    "category": "POLICY",
@@ -1266,6 +1251,25 @@
    "created_at": "2026-07-04T21:17:48.838378+00:00",
    "last_update": "2026-07-04T22:17:30.486233+00:00",
    "members": 3,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
+   "id": "cdc2b6b90e58d54ed",
+   "title": "Victor Marx projected to win Colorado GOP gubernatorial primary",
+   "category": "EARNINGS",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 50,
+   "entity_keys": [
+    "UBER"
+   ],
+   "created_at": "2026-07-10T17:14:55.425517+00:00",
+   "last_update": "2026-07-10T17:14:55.425517+00:00",
+   "members": 2,
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,

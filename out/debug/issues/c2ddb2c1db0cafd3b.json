@@ -87,38 +87,41 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-14T14:22:01.129134+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-14T17:39:13.804874+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Wells Fargo profit jumps as fee income , credit quality beat estimates",
     "Wells Fargo & Co Bottom Line Climbs In Q2",
     "Wells Fargo bounces off 52 - week lows . What it must do to get out of the penalty box"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"웰스파고 이익 증가\",\n    \"one_liner\": \"웰스파고의 2분기 이익이 예상치를 웃돌며 크게 늘었어요.\",\n    \"why_now\": \"기업의 이익은 회사의 성장 가능성을 보여주는 중요한 지표예요.\",\n    \"details\": [\n        \"웰스파고의 2분기 이익이 예상보다 좋았어요.\",\n        \"수수료 수입과 신용 품질이 예상치를 넘어섰어요.\",\n        \"주가는 52주 최저치에서 반등했어요.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"주가 상승 요인이 될 수 있어요!\",\n        \"향후 실적 개선 기대감을 높일 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"이익\",\n            \"easy\": \"회사가 벌어들인 돈에서 쓴 돈을 빼고 남은 돈이에요.\",\n            \"example\": \"이번 달 이익이 많이 나서 직원들에게 보너스를 줄 수 있었어요.\"\n        },\n        {\n            \"term\": \"수수료 수입\",\n            \"easy\": \"은행이 고객에게 서비스를 제공하고 받는 돈이에요.\",\n            \"example\": \"ATM 이용 수수료나 계좌 이체 수수료 등이 있어요.\"\n        },\n        {\n            \"term\": \"신용 품질\",\n            \"easy\": \"돈을 빌린 사람이 돈을 잘 갚을 수 있는 능력을 말해요.\",\n            \"example\": \"신용 품질이 좋으면 은행에서 돈을 빌리기 쉬워요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Wells Fargo & Co…",
-   "one_liner": "Wells Fargo & Co Bottom Line Climbs In Q2",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "웰스파고 이익 증가",
+   "one_liner": "웰스파고의 2분기 이익이 예상치를 웃돌며 크게 늘었어요.",
+   "why_now": "기업의 이익은 회사의 성장 가능성을 보여주는 중요한 지표예요.",
    "details": [
-    "Wells Fargo & Co Bottom Line Climbs In Q2",
-    "Wells Fargo bounces off 52 - week lows . What it must do to get out of the penalty box"
+    "웰스파고의 2분기 이익이 예상보다 좋았어요.",
+    "수수료 수입과 신용 품질이 예상치를 넘어섰어요.",
+    "주가는 52주 최저치에서 반등했어요."
    ],
-   "effects": [],
+   "effects": [
+    "주가 상승 요인이 될 수 있어요!",
+    "향후 실적 개선 기대감을 높일 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "e78d0acb440d1ba95f83188fa18c4d1974c9b425"
+  "fact_hash": "60860be270d91073daac6dc7dcd23067b170d0d3"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
