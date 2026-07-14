@@ -1,33 +1,114 @@
 {
  "id": "c273684a49f5f6fb2",
- "title": "IBM 주가 폭락",
- "one_liner": "IBM 주가가 1960년대 이후 가장 큰 폭으로 떨어졌어요.",
- "why_now": "기업의 실적이 예상보다 나쁘면 주가가 크게 떨어져 투자자들에게 손실을 줄 수 있어요.",
+ "title": "미국 증시 혼조세, IBM 급락",
+ "one_liner": "미국 증시가 물가 지표 발표 후 혼조세를 보였고, IBM 주가는 크게 떨어졌어요.",
+ "why_now": "물가 상승세가 둔화되면 금리 인하 기대감이 커져 증시에 긍정적일 수 있어요.",
  "raw_title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
  "category": "MARKET",
  "status": "active",
  "origin": "cluster",
- "sources": 8,
+ "sources": 10,
  "importance": 105,
- "last_update": "2026-07-14T17:38:58.498825+00:00",
- "has_visual": false,
+ "last_update": "2026-07-14T21:28:25.594846+00:00",
+ "has_visual": true,
  "headline_stat": null,
- "spark": null,
+ "spark": [
+  4.18,
+  4.26,
+  3.97,
+  4.3,
+  4.4,
+  4.45,
+  4.44,
+  4.56
+ ],
  "icon": "📈",
  "details": [
-  "IBM은 인공지능(AI) 성장에도 불구하고 소프트웨어 부문의 부진으로 실망스러운 매출을 기록했어요.",
-  "이로 인해 IBM 주가는 1960년대 이후 가장 큰 폭으로 하락했어요.",
-  "하지만 미국 소비자물가지수(CPI)가 예상보다 낮게 나오고 일부 은행 실적이 좋으면서 다른 주식요.",
-  "이러한 소식은 IBM의 주가에 큰 영향을 미쳤어요."
+  "미국 증시가 물가 지표 발표 후 혼조세를 보였어요.",
+  "IBM 주가는 크게 하락하며 역대 최악의 날을 맞을 것으로 보여요.",
+  "IBM은 인공지능(AI) 열풍이 소프트웨어 기업에 타격을 주고 있다고 경고했어요.",
+  "다우 지수는 물가 상승 둔화와 은행 실적 호조로 IBM 충격을 상쇄하며 상승 출발했어요."
  ],
  "effects": [
-  "IBM의 주가 하락은 기술주 전반에 대한 투자 심리에 영향을 줄 수 있어요!",
-  "다른 기업들의 실적 발표에 대한 경계감이 높아질 수 있어요!"
+  "물가 상승 둔화는 금리 인하 기대감을 높여 증시에 긍정적일 수 있어요!",
+  "IBM의 급락은 기술주 전반에 영향을 줄 수 있어요!"
  ],
  "model": "gemini-2.5-flash-lite",
- "visual": null,
+ "visual": {
+  "type": "us_10y",
+  "chart": "line",
+  "title": "미 국채 10년물 금리 (최근 1년)",
+  "unit": "%",
+  "source": "FRED",
+  "series": [
+   {
+    "t": "2025-07",
+    "v": 4.37
+   },
+   {
+    "t": "2025-08",
+    "v": 4.23
+   },
+   {
+    "t": "2025-09",
+    "v": 4.16
+   },
+   {
+    "t": "2025-10",
+    "v": 4.11
+   },
+   {
+    "t": "2025-11",
+    "v": 4.02
+   },
+   {
+    "t": "2025-12",
+    "v": 4.18
+   },
+   {
+    "t": "2026-01",
+    "v": 4.26
+   },
+   {
+    "t": "2026-02",
+    "v": 3.97
+   },
+   {
+    "t": "2026-03",
+    "v": 4.3
+   },
+   {
+    "t": "2026-04",
+    "v": 4.4
+   },
+   {
+    "t": "2026-05",
+    "v": 4.45
+   },
+   {
+    "t": "2026-06",
+    "v": 4.44
+   },
+   {
+    "t": "2026-07",
+    "v": 4.56
+   }
+  ]
+ },
  "anchors": [],
  "headlines": [
+  {
+   "title": "Markets today : Wall Street steady after inflation data , IBM plunges , ASX set to rise",
+   "source": "smh.com.au",
+   "url": "https://www.smh.com.au/business/markets/asx-set-to-rise-wall-street-steady-after-inflation-data-ibm-plunges-20260715-p60fcn.html",
+   "published_at": "2026-07-14T19:45:00+00:00"
+  },
+  {
+   "title": "US stocks tick higher after data shows slowing inflation , even as IBM plunges",
+   "source": "goskagit.com",
+   "url": "http://www.goskagit.com/news/world/us-stocks-tick-higher-after-data-shows-slowing-inflation-even-as-ibm-plunges/article_907f5736-7995-5aa7-b5f7-74b2576826ab.html",
+   "published_at": "2026-07-14T19:45:00+00:00"
+  },
   {
    "title": "IBM is on pace for its worst day ever",
    "source": "wpsdlocal6.com",
@@ -75,15 +156,23 @@
    "source": "prnewswire.com",
    "url": "https://www.prnewswire.com/news-releases/arvind-krishnas-letter-to-ibm-investors-302824952.html",
    "published_at": "2026-07-14T11:30:00+00:00"
-  },
-  {
-   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
-   "source": "insidermonkey.com",
-   "url": "https://www.insidermonkey.com/blog/jim-cramer-is-still-recommending-international-business-machines-corporation-ibms-shares-1799795/",
-   "published_at": "2026-07-11T13:45:00+00:00"
   }
  ],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Markets today : Wall Street steady after inflation data , IBM plunges , ASX set to rise",
+   "source": "smh.com.au",
+   "url": "https://www.smh.com.au/business/markets/asx-set-to-rise-wall-street-steady-after-inflation-data-ibm-plunges-20260715-p60fcn.html",
+   "at": "2026-07-14T19:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US stocks tick higher after data shows slowing inflation , even as IBM plunges",
+   "source": "goskagit.com",
+   "url": "http://www.goskagit.com/news/world/us-stocks-tick-higher-after-data-shows-slowing-inflation-even-as-ibm-plunges/article_907f5736-7995-5aa7-b5f7-74b2576826ab.html",
+   "at": "2026-07-14T19:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Dow opens higher after soft CPI and good bank earnings offset IBM shocker",
@@ -164,14 +253,9 @@
  ],
  "glossary": [
   {
-   "term": "소비자물가",
-   "easy": "우리가 사는 물건·서비스 값이 오른 정도예요.",
-   "example": "오르면 같은 돈으로 살 수 있는 게 줄어요."
-  },
-  {
-   "term": "CPI",
-   "easy": "물가가 얼마나 올랐는지 보여주는 대표 성적표예요.",
-   "example": "높으면 생활비 부담이 커진 거예요."
+   "term": "금리 인하",
+   "easy": "이자의 기준을 낮추는 거예요.",
+   "example": "대출 이자가 줄어 돈 쓰기가 조금 수월해져요."
   },
   {
    "term": "IBM",
@@ -179,14 +263,19 @@
    "example": "IBM은 컴퓨터 하드웨어, 소프트웨어, IT 서비스 등을 제공해요."
   },
   {
-   "term": "AI",
-   "easy": "인공지능을 뜻하는 말로, 컴퓨터가 사람처럼 생각하고 학습하는 기술이에요.",
-   "example": "최근 AI 기술 발전으로 많은 분야에서 혁신이 일어나고 있어요."
+   "term": "인공지능(AI)",
+   "easy": "컴퓨터가 사람처럼 생각하고 배우는 기술이에요.",
+   "example": "인공지능 스피커는 사람의 말을 알아듣고 대답해줘요."
   },
   {
-   "term": "소비자물가지수(CPI)",
-   "easy": "소비자들이 자주 사는 상품과 서비스의 가격 변화를 나타내는 지표예요.",
-   "example": "CPI가 오르면 물가가 올랐다는 뜻이고, 내리면 물가가 내렸다는 뜻이에요."
+   "term": "소프트웨어",
+   "easy": "컴퓨터 프로그램이나 앱처럼 컴퓨터를 작동시키는 명령어들의 모음이에요.",
+   "example": "스마트폰으로 게임을 하려면 게임 소프트웨어가 필요해요."
+  },
+  {
+   "term": "다우 지수",
+   "easy": "미국을 대표하는 30개 우량 기업의 주가를 평균 내어 나타낸 지수예요.",
+   "example": "다우 지수가 오르면 미국 경제가 좋다고 볼 수 있어요."
   }
  ],
  "related": [
