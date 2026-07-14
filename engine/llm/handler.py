@@ -141,6 +141,12 @@ def process_all(conn: sqlite3.Connection, client: LlmClient) -> dict:
     c = cfg()["llm"]
     retry_h = float(c.get("template_retry_h", 3))
     interval = float(c.get("call_interval_s", 0))
+    # 실호출(RealLlm)일 때만 시간·건수 예산으로 런타임을 제한 — Actions 30분 타임아웃 보호.
+    # 남은 이슈는 다음 주기로 이월(deferred)되므로 매 주기 조금씩 소진된다.
+    budget_s = float(c.get("max_seconds_per_run", 0)) if getattr(client, "network", False) else 0
+    max_per_run = int(c.get("max_per_run", 0)) if getattr(client, "network", False) else 0
+    start = time.monotonic()
+    done = 0
     stats = {"generated": 0, "cached": 0, "template": 0, "deferred": 0, "backoff": 0}
 
     for issue in _issues_needing_llm(conn):
@@ -164,6 +170,12 @@ def process_all(conn: sqlite3.Connection, client: LlmClient) -> dict:
         if daily_counter(conn, "llm_calls") >= c["daily_cap"]:
             stats["deferred"] += 1  # 초과분 다음 사이클 이월 (§6-4)
             continue
+
+        # 런타임 예산 초과 시 남은 이슈는 이월 (실호출 경로만) — 타임아웃 방지
+        if (budget_s and time.monotonic() - start >= budget_s) or (max_per_run and done >= max_per_run):
+            stats["deferred"] += 1
+            continue
+        done += 1
 
         allowed = allowed_for_category(issue["category"])
         sysp = system_prompt(issue["category"])
