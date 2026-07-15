@@ -291,8 +291,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-15T17:44:17.745965+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-15T21:28:09.170480+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -305,32 +305,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"IBM 주가 폭락\",\n  \"one_liner\": \"IBM 주가가 하루 만에 25% 폭락하며 약 700억 달러의 시가총액이 사라졌어요.\",\n  \"why_now\": \"기업의 주가가 크게 떨어지면 해당 기업뿐 아니라 관련 산업 전반에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"IBM 주가가 하루 만에 25% 하락했어요.\",\n    \"이로 인해 시가총액이 약 700억 달러 감소했어요.\",\n    \"미국 증시는 물가 상승세가 둔화했다는 소식에 상승했어요.\",\n    \"하지만 IBM 주가 폭락으로 시장의 관심이 쏠렸어요.\"\n  ],\n  \"visual_type\": \"us_10y\",\n  \"effects\": [\n    \"IBM 관련 산업의 주가도 영향을 받을 수 있어요!\",\n    \"투자자들의 불안 심리가 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"시가총액\",\n      \"easy\": \"기업이 발행한 주식의 총 가격을 말해요.\",\n      \"example\": \"삼성전자 시가총액은 약 400조 원이에요.\"\n    },\n    {\n      \"term\": \"물가 상승세\",\n      \"easy\": \"상품이나 서비스 가격이 전반적으로 오르는 현상을 말해요.\",\n      \"example\": \"물가 상승세가 둔화하면 소비자들이 느끼는 부담이 줄어들어요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"IBM 주가 대폭락\",\n   \"one_liner\": \"IBM의 주가가 하루에 거의 25% 떨어졌어요\",\n   \"why_now\": \"주가가 떨어지면 투자자들이 돈을 잃을 수 있어요\",\n   \"details\": [\n       \"IBM의 주가가 하루에 거의 25% 떨어졌어요\",\n       \"미국 주식 시장은 물가 상승이 느려지는 것으로 나타나서 상승했어요\",\n       \"IBM의 주가가 떨어진 이유는 아직 정확히 알려지지 않았어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"투자자들이 주식시장에 대한 신뢰가 떨어질 수 있어요!\",\n       \"미국 경제에 대한 우려가 증가할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [700.0]"
-    ]
-   },
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
      "입력에 없는 숫자: [700.0]"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "IBM Loses Nearly $70…",
-   "one_liner": "IBM Loses Nearly $70 Billion In A Day , Here…",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "IBM 주가 대폭락",
+   "one_liner": "IBM의 주가가 하루에 거의 25% 떨어졌어요",
+   "why_now": "주가가 떨어지면 투자자들이 돈을 잃을 수 있어요",
    "details": [
-    "IBM Loses Nearly $70 Billion In A Day , Here What Triggered The 25 % Share Crash",
-    "THE CLOSING BELL : US stocks rise after data shows slowing inflation , even as IBM plunges",
-    "Markets today : U . S . stocks rise after slowing inflation , IBM plunges"
+    "IBM의 주가가 하루에 거의 25% 떨어졌어요",
+    "미국 주식 시장은 물가 상승이 느려지는 것으로 나타나서 상승했어요",
+    "IBM의 주가가 떨어진 이유는 아직 정확히 알려지지 않았어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "투자자들이 주식시장에 대한 신뢰가 떨어질 수 있어요!",
+    "미국 경제에 대한 우려가 증가할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "4476592fcfda561750442aa37d6c1510e5c4731a"
  },

@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-15T17:45:38.043865+00:00",
+  "created_at": "2026-07-15T21:28:43.803207+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,12 +64,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"메르크 주식 매수\",\n   \"one_liner\": \"켄터키 주립 교사 연금 시스템이 메르크 주식을 샀어요.\",\n   \"why_now\": \"주식을 사면 그 회사의 이익에 따라 주가가 올라서 돈을 벌 수 있어요.\",\n   \"details\": [\n       \"켄터키 주립 교사 연금 시스템이 메르크 주식을 매수했어요.\",\n       \"메르크는 제약 회사예요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"메르크 주식의 가치가 올라갈 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -87,8 +93,8 @@
   "fact_hash": "712c08610bd5f6920c6bc2ffbdfdd24db9df67f1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-15T17:45:38.043795+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-07-15T21:28:43.803148+00:00"
  },
  "glossary": [],
  "related": [
