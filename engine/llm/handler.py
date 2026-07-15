@@ -20,8 +20,9 @@ from .validate import parse_output, validate
 
 
 def fact_hash(payload: dict) -> str:
-    # "v": 2 — 출력 스키마/문체 개편(해요체·glossary) 시 솔트를 올려 전 이슈 1회 재가공 유도
-    basis = json.dumps({"v": 2,
+    # "v": 3 — impact_line 필드·effects 3요소 규칙 도입 (스키마/문체 개편 시 솔트 증가
+    # → 전 이슈 1회 재가공 유도. daily_cap 대비 이슈 수가 적어 1~2 사이클에 소화됨)
+    basis = json.dumps({"v": 3,
                         "a": payload.get("anchors", []),
                         "h": payload.get("headlines", [])},
                        ensure_ascii=False, sort_keys=True)
@@ -84,8 +85,10 @@ def template_output(payload: dict) -> dict:
     else:
         title, one_liner = _clip(head, 22), _clip(head, 50)
     allowed = allowed_for_category(payload.get("category", "ETC"))
+    # why_now / impact_line 은 None — "공식 발표 내용을 정리했어요" 류 폴백 문구를
+    # 사용자에게 노출하지 않는다. 프런트는 null 이면 해당 섹션 자체를 숨긴다.
     return {"title": title, "one_liner": one_liner,
-            "why_now": "공식 발표 내용을 정리했어요.", "details": details[:5],
+            "why_now": None, "impact_line": None, "details": details[:5],
             "visual_type": allowed[0] if allowed else "none", "effects": [], "glossary": []}
 
 
@@ -107,22 +110,24 @@ def _save(conn: sqlite3.Connection, issue_id: str, fh: str, out: dict, model: st
     conn.execute(
         "INSERT INTO llm_output(issue_id,fact_hash,one_liner,details_json,visual_type,"
         "effects_json,model,created_at,payload_json,raw_response,validation_json,title,why_now,"
-        "glossary_json) "
-        "VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?) "
+        "glossary_json,impact_line) "
+        "VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) "
         "ON CONFLICT(issue_id) DO UPDATE SET fact_hash=excluded.fact_hash, "
         "one_liner=excluded.one_liner, details_json=excluded.details_json, "
         "visual_type=excluded.visual_type, effects_json=excluded.effects_json, "
         "model=excluded.model, created_at=excluded.created_at, "
         "payload_json=excluded.payload_json, raw_response=excluded.raw_response, "
         "validation_json=excluded.validation_json, title=excluded.title, "
-        "why_now=excluded.why_now, glossary_json=excluded.glossary_json",
+        "why_now=excluded.why_now, glossary_json=excluded.glossary_json, "
+        "impact_line=excluded.impact_line",
         (issue_id, fh, out["one_liner"], json.dumps(out["details"], ensure_ascii=False),
          out.get("visual_type", "none"), json.dumps(out.get("effects", []), ensure_ascii=False),
          model, now_iso(),
          json.dumps(payload or {}, ensure_ascii=False), raw or "",
          json.dumps(attempts or [], ensure_ascii=False),
-         out.get("title", ""), out.get("why_now", ""),
-         json.dumps(out.get("glossary", []), ensure_ascii=False)))
+         out.get("title", ""), out.get("why_now"),
+         json.dumps(out.get("glossary", []), ensure_ascii=False),
+         out.get("impact_line")))
     conn.execute("UPDATE issue SET fact_hash=? WHERE id=?", (fh, issue_id))
 
 

@@ -5,6 +5,7 @@ glossary 는 소프트 검증: 위반 항목만 조용히 드롭하고 재생성
 """
 from __future__ import annotations
 
+import difflib
 import json
 import re
 
@@ -34,6 +35,25 @@ def _clip_sentence(text: str, limit: int = DETAIL_MAX_LEN) -> str:
         cut = cut[:m[-1].start()]
     cut = cut.rstrip(" ,·、")
     return cut + ("요." if not DETAIL_RE.search(cut) else "")
+
+
+# 문자 단위 유사도 임계 — 짧은 한국어 문장은 조사·어미가 겹쳐 기본 비율이 높다.
+# 0.9 미만으로 낮추면 "코스피가 올랐어요/코스닥이 올랐어요" 같은 별개 정보를 오탐한다.
+_DUP_THRESHOLD = 0.93
+
+
+def _similar(a: str, b: str, threshold: float = _DUP_THRESHOLD) -> bool:
+    return difflib.SequenceMatcher(None, a, b).ratio() >= threshold
+
+
+def dedupe_similar(items: list[str], threshold: float = _DUP_THRESHOLD) -> list[str]:
+    """근접 중복 문장 제거 (동어반복 게이트) — 먼저 온 문장을 남긴다."""
+    kept: list[str] = []
+    for s in items:
+        if any(_similar(s, k, threshold) for k in kept):
+            continue
+        kept.append(s)
+    return kept
 
 
 def allowed_numbers(payload: dict) -> set[float]:
@@ -172,6 +192,8 @@ def validate(out: dict, payload: dict, allowed_viz: list[str]) -> list[str]:
             if len(s) > DETAIL_MAX_LEN:
                 s = _clip_sentence(s)
             repaired.append(s)
+        # 동어반복 게이트 — 사실상 같은 불릿은 자동 제거 (제거 후에도 3문장은 있어야 통과)
+        repaired = dedupe_similar(repaired)
         out["details"] = repaired
         if len(repaired) < 3:
             errors.append("details 3문장 미만")
@@ -192,12 +214,29 @@ def validate(out: dict, payload: dict, allowed_viz: list[str]) -> list[str]:
         for i, e in enumerate(effects):
             if not isinstance(e, str) or not EFFECT_RE.search(e.strip()):
                 errors.append(f"effects[{i}] 느낌표 종결 아님")
+        # "그래서" 섹션이 본문을 반복하면 새 정보가 없다 — 반복 문장은 자동 드롭,
+        # 전부 반복이면 실패(재생성 사유)
+        fresh = [e for e in effects if isinstance(e, str)
+                 and not any(_similar(e.strip(), d) for d in (details or []))]
+        if effects and not fresh:
+            errors.append("effects 가 details 반복 (새 정보 없음)")
+        else:
+            out["effects"] = fresh
+            effects = fresh
+
+    # impact_line("나에게는?") — 소프트 검증: 위반 시 조용히 제거 (재생성 사유 아님)
+    imp = out.get("impact_line")
+    if isinstance(imp, str) and imp.strip():
+        imp = imp.strip()
+        out["impact_line"] = imp if (len(imp) <= 45 and DETAIL_RE.search(imp)) else None
+    else:
+        out["impact_line"] = None
 
     # 숫자 대조 — 출력의 모든 수치가 입력(+파생값)에 존재해야 함.
     # glossary 는 제외: 해설 특성상 환산·비유 숫자("1bp는 0.01%예요")가 필요하다.
     allowed = allowed_numbers(payload)
     out_text = " ".join([str(out.get("title", "")), str(out.get("one_liner", "")),
-                         str(out.get("why_now", ""))]
+                         str(out.get("why_now", "")), str(out.get("impact_line") or "")]
                         + [str(d) for d in (details or [])]
                         + [str(e) for e in (effects or [])])
     extra = {n for n in (extract_numbers(out_text) - allowed) if not _is_free_number(n)}

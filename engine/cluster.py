@@ -46,13 +46,23 @@ def recount_sources(conn: sqlite3.Connection, issue_id: str) -> int:
     return n
 
 
+def member_count(conn: sqlite3.Connection, issue_id: str) -> int:
+    return conn.execute(
+        "SELECT COUNT(*) AS n FROM article WHERE issue_id=? AND is_dup=0",
+        (issue_id,)).fetchone()["n"]
+
+
 def _add_member(conn: sqlite3.Connection, issue_row, article_row, alpha: float) -> None:
-    """기사를 이슈에 편입: issue_id, centroid EMA, entity 합집합, 타임라인."""
+    """기사를 이슈에 편입: issue_id, centroid EMA, entity 합집합, 타임라인.
+    멤버 ≥ centroid_freeze_members 면 centroid 를 고정 — 대형 이슈의 주제 드리프트 방지."""
+    freeze_at = cfg()["cluster"].get("centroid_freeze_members", 20)
+    frozen_centroid = (issue_row["centroid"] is not None
+                       and member_count(conn, issue_row["id"]) >= freeze_at)
     conn.execute("UPDATE article SET issue_id=?, hold_count=0 WHERE id=?",
                  (issue_row["id"], article_row["id"]))
     v = from_blob(article_row["embedding"])
     c = from_blob(issue_row["centroid"]) if issue_row["centroid"] else v
-    new_c = _l2((1 - alpha) * c + alpha * v)
+    new_c = c if frozen_centroid else _l2((1 - alpha) * c + alpha * v)
     keys = sorted(set(json.loads(issue_row["entity_keys"] or "[]"))
                   | set(json.loads(article_row["entity_keys"] or "[]")))
     conn.execute("UPDATE issue SET centroid=?, entity_keys=?, last_update=? WHERE id=?",
@@ -67,11 +77,15 @@ def _add_member(conn: sqlite3.Connection, issue_row, article_row, alpha: float) 
 
 
 def _active_issues(conn: sqlite3.Connection) -> list[sqlite3.Row]:
-    window_h = cfg()["cluster"]["active_window_h"]
-    cutoff = (datetime.now(timezone.utc) - timedelta(hours=window_h)).isoformat()
+    c = cfg()["cluster"]
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=c["active_window_h"])).isoformat()
+    max_members = c.get("max_members", 40)
+    # 정원 초과 이슈는 배정 후보에서 제외 — 메가 클러스터 성장 차단
     return conn.execute(
         "SELECT * FROM issue WHERE status IN ('candidate','active') AND last_update > ? "
-        "AND centroid IS NOT NULL", (cutoff,)).fetchall()
+        "AND centroid IS NOT NULL "
+        "AND (SELECT COUNT(*) FROM article a WHERE a.issue_id = issue.id AND a.is_dup = 0) < ?",
+        (cutoff, max_members)).fetchall()
 
 
 def _unassigned(conn: sqlite3.Connection) -> list[sqlite3.Row]:
@@ -232,6 +246,10 @@ def merge(conn: sqlite3.Connection) -> int:
             if sims[i][j] < c["merge_sim"] or not (keys[i] & keys[j]):
                 continue
             a, b = issues[i], issues[j]
+            # 병합 결과가 정원을 넘으면 스킵 — 체인 머지로 인한 메가 클러스터 방지
+            if (member_count(conn, a["id"]) + member_count(conn, b["id"])
+                    > c.get("max_members", 40)):
+                continue
             if a["origin"] == "official_event" and b["origin"] != "official_event":
                 win, lose, lose_idx = a, b, j
             elif b["origin"] == "official_event" and a["origin"] != "official_event":

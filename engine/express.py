@@ -75,6 +75,9 @@ def process_event(conn: sqlite3.Connection, event: dict) -> str | None:
              json.dumps(extract_entity_keys(title), ensure_ascii=False), now))
 
     for a in event.get("anchors", []):
+        # observed_at 은 실제 관측/사건 시각 — 처리 시각(now)으로 덮어쓰면
+        # 오래된 지표가 새 데이터처럼 보이는 "신선도 위장"이 생긴다.
+        observed = a.get("observed_at") or event.get("created_at") or now
         # 같은 (entity|metric|period) 앵커는 UPSERT — 정정 공시([기재정정] 등)가 별도
         # rcept_no 로 와도 중복 누적하지 않고 최신 값으로 갱신한다.
         existing = conn.execute(
@@ -85,15 +88,15 @@ def process_event(conn: sqlite3.Connection, event: dict) -> str | None:
             conn.execute(
                 "UPDATE numeric_anchor SET value=?, unit=?, source=?, prev=?, observed_at=? "
                 "WHERE id=?",
-                (a.get("value"), a.get("unit", ""), a.get("source", ""), a.get("prev"), now,
-                 existing["id"]))
+                (a.get("value"), a.get("unit", ""), a.get("source", ""), a.get("prev"),
+                 observed, existing["id"]))
         else:
             conn.execute(
                 "INSERT INTO numeric_anchor(issue_id,entity,metric,value,unit,period,source,"
                 "trust,prev,observed_at) VALUES(?,?,?,?,?,?,?,?,?,?)",
                 (iid, a.get("entity", ""), a.get("metric", ""), a.get("value"),
                  a.get("unit", ""), a.get("period", ""), a.get("source", ""), "official",
-                 a.get("prev"), now))
+                 a.get("prev"), observed))
 
     tl = event.get("timeline")
     if tl:

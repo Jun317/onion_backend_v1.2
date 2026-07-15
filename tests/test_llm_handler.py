@@ -118,3 +118,13 @@ def test_fake_client_has_no_runtime_budget(conn):
     _published_issue(conn, "i2")
     s = process_all(conn, FakeLlm())
     assert s["generated"] == 2 and s["deferred"] == 0
+
+
+def test_template_output_hides_fallback_copy():
+    """템플릿 폴백은 노출용 문구 대신 None — 프런트가 섹션을 숨긴다 (P0-4)."""
+    out = template_output({"category": "RATE",
+                           "anchors": [{"entity": "한국은행", "metric": "기준금리",
+                                        "value": 3.0, "unit": "%", "prev": 3.25}],
+                           "headlines": ["한은 금리 인하"]})
+    assert out["why_now"] is None
+    assert out["impact_line"] is None

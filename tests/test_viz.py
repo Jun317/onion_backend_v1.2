@@ -43,3 +43,21 @@ def test_earnings_from_anchors(conn):
     names = {g["name"] for g in got["groups"]}
     assert names == {"매출액", "영업이익"}
     assert all(REGISTRY["earnings_quarterly"]["cats"] == ["EARNINGS"] for _ in [0])
+
+
+def test_commodity_whitelist_and_fx_isolation():
+    """COMMODITY 는 wti 차트만, FX 는 usdkrw 만 — 유가 기사에 환율 차트 금지 (P0-1)."""
+    assert allowed_for_category("COMMODITY") == ["wti"]
+    assert allowed_for_category("FX") == ["usdkrw"]
+    # 교차 요청은 화이트리스트에서 차단
+    assert build_visual(None, "usdkrw", "COMMODITY", "i1") is None
+    assert build_visual(None, "wti", "FX", "i1") is None
+
+
+def test_wti_uses_fred_series_cache(conn):
+    payload = {"type": "wti", "chart": "line", "title": "WTI 국제 유가 (최근 1년)",
+               "unit": "달러", "source": "FRED",
+               "series": [{"t": "2026-06", "v": 75.0}, {"t": "2026-07", "v": 78.0}]}
+    conn.execute("INSERT INTO viz_cache(cache_key,payload,fetched_at) VALUES(?,?,?)",
+                 ("wti", json.dumps(payload, ensure_ascii=False), now_iso()))
+    assert build_visual(conn, "wti", "COMMODITY", "i1") == payload

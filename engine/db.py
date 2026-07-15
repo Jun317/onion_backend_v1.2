@@ -107,6 +107,7 @@ _MIGRATIONS = [
     ("llm_output", "title TEXT"),
     ("llm_output", "why_now TEXT"),
     ("llm_output", "glossary_json TEXT"),
+    ("llm_output", "impact_line TEXT"),
 ]
 
 
@@ -133,6 +134,23 @@ def _migrate(conn: sqlite3.Connection) -> None:
         # ③ 중복점·비정형 period 가 이미 구워진 실적 차트 캐시 무효화
         conn.execute("DELETE FROM viz_cache WHERE cache_key LIKE 'earnings_quarterly:%'")
         conn.execute("INSERT INTO meta(key,value) VALUES('migr_anchor_dedup','1')")
+
+    # 일회성 데이터 정리 v3 (품질 고도화 — 검증 보고서 P0 대응)
+    if not conn.execute("SELECT 1 FROM meta WHERE key='migr_v3_quality'").fetchone():
+        # ① 템플릿 폴백의 노출용 문구("공식 발표 내용을 정리했어요") 제거 —
+        #    프런트는 NULL 이면 "왜 중요할까요" 카드를 숨긴다
+        conn.execute("UPDATE llm_output SET why_now=NULL WHERE model='template'")
+        # ② 메가 클러스터 아카이브 — 무관 기사 과병합으로 제목↔요약이 어긋난 이슈.
+        #    정원(cluster.max_members=40)을 크게 넘긴 cluster 이슈는 회수 불가로 판단.
+        conn.execute(
+            "UPDATE issue SET status='archived' WHERE origin='cluster' "
+            "AND (SELECT COUNT(*) FROM article a WHERE a.issue_id=issue.id AND a.is_dup=0) > 80")
+        # ③ 원자재 이슈 재분류 — FX(환율)로 잘못 분류돼 원/달러 차트가 붙던 유가 이슈
+        conn.execute(
+            "UPDATE issue SET category='COMMODITY' WHERE category='FX' AND id IN ("
+            " SELECT DISTINCT issue_id FROM numeric_anchor "
+            " WHERE entity IN ('WTI','브렌트유') OR metric LIKE '%유가%')")
+        conn.execute("INSERT INTO meta(key,value) VALUES('migr_v3_quality','1')")
 
 
 def connect(path: str | Path | None = None) -> sqlite3.Connection:

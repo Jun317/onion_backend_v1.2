@@ -160,3 +160,45 @@ def test_glossary_capped_at_four():
     out = {**GOOD, "glossary": entries}
     clean_glossary(out)
     assert len(out["glossary"]) == 4
+
+
+def test_details_dedupe_near_duplicates():
+    """사실상 같은 불릿(문장부호 차이 수준)은 자동 제거 — 동어반복 게이트."""
+    dup = {**GOOD, "details": ["한국은행이 기준금리를 0.25%p 내렸어요.",
+                               "한국은행이 기준금리를 0.25%p 내렸어요!",
+                               "새 기준금리는 연 3.00%예요.",
+                               "직전 기준금리는 연 3.25%였어요."]}
+    assert validate(dup, PAYLOAD, ALLOWED_VIZ) == []
+    assert len(dup["details"]) == 3
+
+
+def test_details_dedupe_keeps_distinct_short_sentences():
+    """한 단어만 다른 짧은 문장(별개 정보)은 오탐하지 않는다."""
+    ok = {**GOOD, "details": ["첫 문장이에요.", "둘째 문장이에요.", "셋째 문장이에요."]}
+    assert validate(ok, PAYLOAD, ALLOWED_VIZ) == []
+    assert len(ok["details"]) == 3
+
+
+def test_effects_repeating_details_rejected():
+    """effects 가 details 문장을 그대로 반복하면 새 정보가 없다 → 실패(재생성 사유)."""
+    bad = {**GOOD, "effects": ["한국은행이 기준금리를 0.25%p 내렸어요!"]}
+    assert any("반복" in e for e in validate(bad, PAYLOAD, ALLOWED_VIZ))
+
+
+def test_impact_line_soft_validation():
+    """impact_line 은 소프트 필드 — 위반 시 None 처리하고 리젝트하지 않는다."""
+    ok = {**GOOD, "impact_line": "대출 이자 부담이 가벼워질 수 있어요"}
+    assert validate(ok, PAYLOAD, ALLOWED_VIZ) == []
+    assert ok["impact_line"] == "대출 이자 부담이 가벼워질 수 있어요"
+
+    too_long = {**GOOD, "impact_line": "가" * 46 + "요"}
+    assert validate(too_long, PAYLOAD, ALLOWED_VIZ) == []
+    assert too_long["impact_line"] is None
+
+    missing = dict(GOOD)
+    missing.pop("impact_line", None)
+    assert validate(missing, PAYLOAD, ALLOWED_VIZ) == []
+    assert missing["impact_line"] is None
+
+    halluc = {**GOOD, "impact_line": "장바구니 물가가 7.77% 올라요"}
+    assert any("입력에 없는 숫자" in e for e in validate(halluc, PAYLOAD, ALLOWED_VIZ))

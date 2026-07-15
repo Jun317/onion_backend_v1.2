@@ -1,6 +1,7 @@
 """시각자료 레지스트리 (설계서 §07) — LLM 은 타입만 고르고 데이터는 코드가 채운다.
 
-visual_type 9종 화이트리스트. 카테고리 밖 타입은 생성 자체를 막는다 (환각·불필요 차트 방지).
+visual_type 화이트리스트. 카테고리 밖 타입은 생성 자체를 막는다 (환각·불필요 차트 방지).
+consistency: 헤드라인 앵커와 차트 최신값의 교차 검증 스펙 (export 단계에서 사용).
 시리즈는 viz_cache 6h 캐시 (같은 타입 이슈끼리 공유).
 """
 from __future__ import annotations
@@ -25,11 +26,16 @@ REGISTRY: dict[str, dict] = {
     "kr_cpi_yoy": {"cats": ["MACRO"], "chart": "line",
                    "title": "한국 소비자물가 상승률 YoY (최근 3년)", "unit": "%", "source": "한국은행 ECOS"},
     "usdkrw": {"cats": ["FX"], "chart": "line",
-               "title": "원/달러 환율 (최근 6개월)", "unit": "원", "source": "한국은행 ECOS"},
+               "title": "원/달러 환율 (최근 6개월)", "unit": "원", "source": "한국은행 ECOS",
+               "consistency": {"metric_keywords": ["환율", "원/달러", "원달러"], "rel_tol": 0.05}},
+    "wti": {"cats": ["COMMODITY"], "chart": "line",
+            "title": "WTI 국제 유가 (최근 1년)", "unit": "달러", "source": "FRED",
+            "consistency": {"metric_keywords": ["유가", "원유", "WTI"], "rel_tol": 0.12}},
     "earnings_quarterly": {"cats": ["EARNINGS"], "chart": "bar",
                            "title": "분기 실적", "unit": "", "source": "DART/EDGAR"},
     "kospi_close": {"cats": ["MARKET"], "chart": "line",
-                    "title": "KOSPI 종가 (최근 3개월)", "unit": "pt", "source": "금융위 시세정보"},
+                    "title": "KOSPI 종가 (최근 3개월)", "unit": "pt", "source": "금융위 시세정보",
+                    "consistency": {"metric_keywords": ["코스피", "KOSPI"], "rel_tol": 0.10}},
 }
 
 
@@ -158,6 +164,8 @@ def build_visual(conn: sqlite3.Connection, vtype: str, category: str,
         base["series"] = _ecos_series("cpi", 36, yoy=True)
     elif vtype == "usdkrw":
         base["series"] = _ecos_series("usdkrw", 6)
+    elif vtype == "wti":
+        base["series"] = _fred_series("DCOILWTICO", 1)
     elif vtype == "kospi_close":
         base["series"] = _kospi_series(3)
     elif vtype == "earnings_quarterly":

@@ -113,3 +113,66 @@ def test_offtopic_etc_excluded(conn, tmp_path):
     stats = export_all(conn, tmp_path / "out")
     ids = {c["id"] for c in json.loads((tmp_path / "out" / "index.json").read_text("utf-8"))["issues"]}
     assert "off" not in ids
+
+
+def test_event_at_from_timeline(conn, tmp_path):
+    """v3: 카드의 event_at 은 타임라인 최신 사건 시각 — 처리 시각과 분리 (P0-3)."""
+    insert_issue(conn, "ev", title="금리 이슈", category="RATE", status="active")
+    conn.execute(
+        "INSERT INTO numeric_anchor(issue_id,entity,metric,value,unit,period,source,"
+        "observed_at) VALUES('ev','한국은행','기준금리',3.0,'%','2026-07','ECOS',"
+        "'2026-07-10T09:00:00+00:00')")
+    conn.execute(
+        "INSERT INTO timeline_entry(issue_id,kind,title,source,url,at) "
+        "VALUES('ev','official','기준금리 발표','ECOS','','2026-07-10T09:00:00+00:00')")
+    export_all(conn, tmp_path / "out")
+    index = json.loads((tmp_path / "out" / "index.json").read_text("utf-8"))
+    card = next(c for c in index["issues"] if c["id"] == "ev")
+    assert card["event_at"] == "2026-07-10T09:00:00+00:00"
+    assert card["event_at"] != card["last_update"]
+    assert index["schema_version"] == 3
+
+
+def _kospi_issue(conn, iid: str, anchor_value: float):
+    from engine.db import now_iso
+    insert_issue(conn, iid, title="코스피 이슈", category="MARKET", status="active")
+    conn.execute(
+        "INSERT INTO llm_output(issue_id,model,title,one_liner,why_now,details_json,"
+        "effects_json,visual_type,glossary_json) VALUES(?,?,?,?,?,?,?,?,?)",
+        (iid, "fake", "코스피 소식", "코스피가 움직였어요", "중요해요.",
+         '["첫 문장이에요.","둘째 문장이에요.","셋째 문장이에요."]', '[]',
+         "kospi_close", '[]'))
+    conn.execute(
+        "INSERT INTO numeric_anchor(issue_id,entity,metric,value,unit,period,source,trust,"
+        "observed_at) VALUES(?,?,?,?,?,?,?,?,?)",
+        (iid, "코스피", "코스피 지수", anchor_value, "pt", "2026-07", "KRX", "official",
+         "2026-07-14T00:00:00+00:00"))
+    series = [{"t": f"2026-07-{d:02d}", "v": 6800.0} for d in range(1, 8)]
+    conn.execute(
+        "INSERT INTO viz_cache(cache_key,payload,fetched_at) VALUES('kospi_close',?,?) "
+        "ON CONFLICT(cache_key) DO UPDATE SET payload=excluded.payload",
+        (json.dumps({"type": "kospi_close", "chart": "line", "title": "KOSPI 종가",
+                     "unit": "pt", "source": "금융위 시세정보", "series": series},
+                    ensure_ascii=False), now_iso()))
+
+
+def test_visual_consistency_gate_drops_conflicting_chart(conn, tmp_path):
+    """헤드라인 수치(8,476)와 차트 최신값(6,800)이 모순 → 차트만 숨기고 이슈는 발행 (P0-5)."""
+    _kospi_issue(conn, "bad", anchor_value=8476.48)
+    export_all(conn, tmp_path / "out")
+    index = json.loads((tmp_path / "out" / "index.json").read_text("utf-8"))
+    card = next(c for c in index["issues"] if c["id"] == "bad")
+    assert card["has_visual"] is False and card["spark"] is None
+    detail = json.loads((tmp_path / "out" / "issues" / "bad.json").read_text("utf-8"))
+    assert detail["visual"] is None
+
+
+def test_visual_consistency_gate_keeps_matching_chart(conn, tmp_path):
+    """앵커와 차트 최신값이 허용오차 안 → 차트 유지."""
+    _kospi_issue(conn, "good", anchor_value=6806.93)
+    export_all(conn, tmp_path / "out")
+    index = json.loads((tmp_path / "out" / "index.json").read_text("utf-8"))
+    card = next(c for c in index["issues"] if c["id"] == "good")
+    assert card["has_visual"] is True
+    detail = json.loads((tmp_path / "out" / "issues" / "good.json").read_text("utf-8"))
+    assert detail["visual"] is not None
