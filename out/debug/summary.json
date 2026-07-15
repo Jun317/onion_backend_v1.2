@@ -1,9 +1,48 @@
 {
- "generated_at": "2026-07-15T17:50:16.411324+00:00",
+ "generated_at": "2026-07-15T19:43:01.752935+00:00",
  "run_history": [
   {
    "kind": "pipeline",
-   "at": "2026-07-15T17:50:16.411313+00:00",
+   "at": "2026-07-15T19:43:01.752916+00:00",
+   "ok": true,
+   "stats": {
+    "raw_loaded": 420,
+    "inserted": 0,
+    "near_dups": 0,
+    "express": 0,
+    "embedded": 0,
+    "express_centroids": 0,
+    "assign": {
+     "joined": 0,
+     "held": 0,
+     "pooled": 15
+    },
+    "seeded": 0,
+    "promoted": 0,
+    "classified": 0,
+    "merged": 0,
+    "lifecycle": {
+     "stale": 0,
+     "archived": 0
+    },
+    "importance": 74,
+    "llm": {
+     "generated": 0,
+     "cached": 26,
+     "template": 0,
+     "deferred": 0,
+     "backoff": 21
+    },
+    "export": {
+     "issues": 36,
+     "removed": 0,
+     "thin_skipped": 11
+    }
+   }
+  },
+  {
+   "kind": "pipeline",
+   "at": "2026-07-15T17:50:16.520598+00:00",
    "ok": true,
    "stats": {
     "raw_loaded": 480,
@@ -37,8 +76,15 @@
      "issues": 36,
      "removed": 0,
      "thin_skipped": 11
-    }
-   }
+    },
+    "export_debug": {
+     "issues": 82,
+     "removed": 0,
+     "reviews": 53
+    },
+    "pruned": 0
+   },
+   "error": ""
   },
   {
    "kind": "pipeline",
@@ -903,52 +949,6 @@
     "export": {
      "issues": 30,
      "removed": 0,
-     "thin_skipped": 14
-    },
-    "export_debug": {
-     "issues": 77,
-     "removed": 0,
-     "reviews": 47
-    },
-    "pruned": 0
-   },
-   "error": ""
-  },
-  {
-   "kind": "pipeline",
-   "at": "2026-07-13T15:41:41.442802+00:00",
-   "ok": true,
-   "stats": {
-    "raw_loaded": 307,
-    "inserted": 118,
-    "near_dups": 5,
-    "express": 7,
-    "embedded": 135,
-    "express_centroids": 7,
-    "assign": {
-     "joined": 105,
-     "held": 7,
-     "pooled": 18
-    },
-    "seeded": 2,
-    "promoted": 2,
-    "classified": 2,
-    "merged": 2,
-    "lifecycle": {
-     "stale": 1,
-     "archived": 0
-    },
-    "importance": 71,
-    "llm": {
-     "generated": 5,
-     "cached": 7,
-     "template": 32,
-     "deferred": 0,
-     "backoff": 0
-    },
-    "export": {
-     "issues": 30,
-     "removed": 11,
      "thin_skipped": 14
     },
     "export_debug": {
