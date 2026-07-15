@@ -1,0 +1,135 @@
+{
+ "id": "cde343d4cab397faf",
+ "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
+ "category": "POLICY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "BOJ",
+  "KRX:047810"
+ ],
+ "seen_sources": 2,
+ "importance": 135,
+ "created_at": "2026-07-15T09:26:00.579933+00:00",
+ "last_update": "2026-07-15T09:26:00.580648+00:00",
+ "members": [
+  {
+   "id": "37d864ad461b34bbe2c87af85034a9d40b486ac6",
+   "source": "economictimes.indiatimes.com",
+   "tier": "wire",
+   "url": "https://economictimes.indiatimes.com/markets/bonds/japan-pm-takaichi-says-draft-economic-blueprint-not-cause-of-bond-market-rout/articleshow/132409488.cms",
+   "title": "Japan PM Takaichi says draft economic blueprint not cause of bond market rout",
+   "published_at": "2026-07-15T08:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9636
+  },
+  {
+   "id": "5fa2377b286c7df4d51799721eaac5e35e68c579",
+   "source": "newsonjapan.com",
+   "tier": "wire",
+   "url": "https://newsonjapan.com/article/149974.php",
+   "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
+   "published_at": "2026-07-14T05:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9636
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Japan PM Takaichi says draft economic blueprint not cause of bond market rout",
+   "source": "economictimes.indiatimes.com",
+   "url": "https://economictimes.indiatimes.com/markets/bonds/japan-pm-takaichi-says-draft-economic-blueprint-not-cause-of-bond-market-rout/articleshow/132409488.cms",
+   "at": "2026-07-15T08:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
+   "source": "newsonjapan.com",
+   "url": "https://newsonjapan.com/article/149974.php",
+   "at": "2026-07-14T05:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-15T09:26:07.403848+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Japan PM Takaichi says draft economic blueprint not cause of bond market rout",
+    "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"일본 총리, 경제 계획 논란 부인\", \"one_liner\": \"일본 총리가 경제 계획이 채권 시장 혼란의 원인이 아니라고 말했어요.\", \"why_now\": \"정부 정책 발표는 시장에 큰 영향을 줄 수 있어 주목받고 있어요.\", \"details\": [\"일본 총리가 경제 계획이 채권 시장 혼란의 원인이 아니라고 밝혔어요.\"], \"visual_type\": \"none\", \"effects\": [\"채권 시장의 변동성이 커질 수 있어요!\"], \"glossary\": [{\"term\": \"채권 시장\", \"easy\": \"나라나 회사가 돈을 빌리고 발행하는 증서인 채권이 거래되는 시장이에요.\", \"example\": \"채권 가격이 오르면 이자율은 보통 내려가요.\"}]}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Japan PM Takaichi…",
+   "one_liner": "Japan PM Takaichi says draft economic blueprint…",
+   "why_now": "공식 발표 내용을 정리했어요.",
+   "details": [
+    "Japan PM Takaichi says draft economic blueprint not cause of bond market rout",
+    "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "b3da3ed57fb290903943bb81f67fe983d69e801f"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-07-15T09:26:07.403700+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "ca047e091cbb5946c",
+   "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "cc9931e5da1b53be2",
+   "title": "BOJ dissenter Asada sets bar for supporting next rate hike , wants demand - driven inflation",
+   "category": "RATE",
+   "shared": [
+    "BOJ"
+   ]
+  },
+  {
+   "id": "cdbb797962c9a092e",
+   "title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "ca1d719d5b855f7a7",
+   "title": "[보도참고] 경제협력개발기구(OECD) 2026 한국경제보고서 발표",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c6de7c9fb5935bf83",
+   "title": "공공기관 AI 대전환 현장, 혁신 더하기",
+   "category": "POLICY",
+   "shared": []
+  }
+ ]
+}

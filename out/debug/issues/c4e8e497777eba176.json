@@ -2,18 +2,28 @@
  "id": "c4e8e497777eba176",
  "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
  "category": "MARKET",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "LLY"
  ],
- "seen_sources": 1,
- "importance": 75,
+ "seen_sources": 2,
+ "importance": 90,
  "created_at": "2026-07-12T22:12:02.226969+00:00",
- "last_update": "2026-07-12T22:12:02.226969+00:00",
+ "last_update": "2026-07-15T09:26:00.580599+00:00",
  "members": [
+  {
+   "id": "c1dfa4a25395ba1cbfed0ac20d05ae787efdf15c",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/07/14/is-this-disturbing-trend-bad-news-for-eli-lilly-in/",
+   "title": "Is This Disturbing Trend Bad News for Eli Lilly in the Billion - Dollar Obesity Drug Market ?",
+   "published_at": "2026-07-15T08:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8856
+  },
   {
    "id": "2818f0fb1e10cfe08186c67f9bcab852ac3edea6",
    "source": "dailypolitical.com",
@@ -22,7 +32,7 @@
    "title": "Eli Lilly and Company ( NYSE : LLY ) Receives Consensus Recommendation of  Moderate Buy  from Brokerages",
    "published_at": "2026-07-12T21:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9686
+   "sim_to_centroid": 0.9669
   },
   {
    "id": "0b165779add8447c9fd9fff7dbe0bc42cd1e281e",
@@ -32,11 +42,18 @@
    "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "published_at": "2026-07-12T20:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9686
+   "sim_to_centroid": 0.9678
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Is This Disturbing Trend Bad News for Eli Lilly in the Billion - Dollar Obesity Drug Market ?",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/07/14/is-this-disturbing-trend-bad-news-for-eli-lilly-in/",
+   "at": "2026-07-15T08:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Eli Lilly and Company ( NYSE : LLY ) Receives Consensus Recommendation of  Moderate Buy  from Brokerages",
@@ -52,7 +69,42 @@
    "at": "2026-07-12T20:15:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-15T09:26:38.749065+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Is This Disturbing Trend Bad News for Eli Lilly in the Billion - Dollar Obesity Drug Market ?",
+    "Eli Lilly and Company ( NYSE : LLY ) Receives Consensus Recommendation of  Moderate Buy  from Brokerages",
+    "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"엘리 릴리 주식\",\n   \"one_liner\": \"엘리 릴리 주식에 대한 분석이 나왔어요\",\n   \"why_now\": \"의료 관련 기업의 주식은 시장에서 많이 주목받아요\",\n   \"details\": [\n       \"엘리 릴리 주식에 대한 분석이 나왔어요\",\n       \"엘리 릴리에는 비만 치료제 시장에서 경쟁이 있을 수 있어요\",\n       \"엘리 릴리 주식을 사야 한다는 권유가 나왔어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"의료 관련 주식에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "엘리 릴리 주식",
+   "one_liner": "엘리 릴리 주식에 대한 분석이 나왔어요",
+   "why_now": "의료 관련 기업의 주식은 시장에서 많이 주목받아요",
+   "details": [
+    "엘리 릴리 주식에 대한 분석이 나왔어요",
+    "엘리 릴리에는 비만 치료제 시장에서 경쟁이 있을 수 있어요",
+    "엘리 릴리 주식을 사야 한다는 권유가 나왔어요"
+   ],
+   "effects": [
+    "의료 관련 주식에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "03af1a89fb4424a1a7f2c2df0e13db04c8b055f2"
+ },
  "review": null,
  "glossary": [],
  "related": [

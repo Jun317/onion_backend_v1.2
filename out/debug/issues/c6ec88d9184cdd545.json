@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-15T03:44:04.293475+00:00",
+  "created_at": "2026-07-15T09:28:53.215619+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,12 +64,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"스타벅스 최고경영자 주식 매도\",\n   \"one_liner\": \"스타벅스의 최고경영자가 2,229개의 자기 회사 주식을 팔았어요.\",\n   \"why_now\": \"최고경영자의 주식 매도는 투자자에게 중요한 신호가 될 수 있어요.\",\n   \"details\": [\n       \"스타벅스 최고경영자는 자기 회사 주식 2,229개를 팔았어요.\",\n       \"판매 금액은 231,816.00 달러예요.\",\n       \"최고경영자의 이름은 브래디 브루어예요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"스타벅스 주식 가격에 영향을 줄 수 있어요!\",\n       \"투자자들의 신뢰에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"Insider Selling\",\n           \"easy\": \"회사 내부人の 주식 매도예요.\",\n           \"example\": \"최고경영자가 자기 회사 주식을 팔면 투자자들이 주목해요.\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "입력에 없는 숫자: [2229.0, 3181.0]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [2229.0, 231816.0]"
     ]
    }
   ],
@@ -87,8 +94,8 @@
   "fact_hash": "13af7e311e3448d56ce9f7f15f7c96183d17040a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-15T03:44:04.293420+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [2229.0, 3181.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2229.0, 231816.0]\"]}]}",
+  "at": "2026-07-15T09:28:53.215522+00:00"
  },
  "glossary": [],
  "related": [

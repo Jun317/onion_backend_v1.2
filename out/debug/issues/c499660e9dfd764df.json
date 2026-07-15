@@ -71,49 +71,49 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-15T03:42:56.412345+00:00",
+  "created_at": "2026-07-15T09:26:35.905702+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Air New Zealand reveals new cabin upgrades for Boeing 777 aircraft",
     "Vantage Investment Partners LLC Makes New $487 , 000 Investment in The Boeing Company $BA",
     "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"보잉 주가 상승\",\n    \"one_liner\": \"보잉 주가가 오르고 있어요.\",\n    \"why_now\": \"주가가 오르면 회사의 가치가 높아지고 투자자들의 관심도 커질 수 있어요.\",\n    \"details\": [\n        \"보잉 주가가 최근 상승세를 보이고 있어요.\",\n        \"투자 회사인 Vantage Investment Partners LLC가 보잉에 48만 7천 달러를 투자했어요.\",\n        \"전문가인 짐 크레이머도 보잉 주가 상승에 주목하고 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"보잉 주가가 더 오를 수 있어요!\",\n        \"보잉 관련 투자에 대한 관심이 높아질 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"보잉\",\n            \"easy\": \"미국의 유명한 항공기 제작 회사예요.\",\n            \"example\": \"보잉은 비행기뿐 아니라 우주선도 만들어요.\"\n        },\n        {\n            \"term\": \"주가\",\n            \"easy\": \"회사의 가치를 나타내는 가격이에요.\",\n            \"example\": \"회사가 잘 되면 주가가 오르고, 못 되면 주가가 내려요.\"\n        }\n    ]\n}",
+  "raw_response": "{\n  \"title\": \"보잉 관련 뉴스\",\n   \"one_liner\": \"보잉에 대한 투자와 호평이 있었어요.\",\n   \"why_now\": \"보잉은 중요한 항공기 제조업체라서 관련 뉴스가 중요해요.\",\n   \"details\": [\n       \"에어 뉴질랜드가 보잉 777 항공기에 새로운 객실 업그레이드를 발표했어요.\",\n       \"밴티지 인베스트먼트 파트너스 LLC가 보잉에 487,000 달러를 투자했어요.\",\n       \"ジム 크레이머가 보잉의 주가 상승에 감명을 받았어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"보잉의 주가에 긍정적인 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 에 한자/가나 포함",
-     "details 3문장 미만",
      "입력에 없는 숫자: [487000.0]"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "입력에 없는 숫자: [48.0]"
+     "입력에 없는 숫자: [487000.0]"
     ]
    }
   ],
   "output": {
-   "title": "Vantage Investment…",
-   "one_liner": "Vantage Investment Partners LLC Makes New $487 ,…",
+   "title": "Air New Zealand…",
+   "one_liner": "Air New Zealand reveals new cabin upgrades for…",
    "why_now": "공식 발표 내용을 정리했어요.",
    "details": [
+    "Air New Zealand reveals new cabin upgrades for Boeing 777 aircraft",
     "Vantage Investment Partners LLC Makes New $487 , 000 Investment in The Boeing Company $BA",
     "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "41240283360004b7da8b3940694331b076e0ed09"
+  "fact_hash": "8b06e21bf883ffe28bb3a03424e29712647b5477"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"details 3문장 미만\", \"입력에 없는 숫자: [487000.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [48.0]\"]}]}",
-  "at": "2026-07-15T03:42:56.412265+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [487000.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [487000.0]\"]}]}",
+  "at": "2026-07-15T09:26:35.905595+00:00"
  },
  "glossary": [],
  "related": [
@@ -142,8 +142,8 @@
    "shared": []
   },
   {
-   "id": "cb96012b716dd06a1",
-   "title": "Sequoia Financial Advisors LLC Sells 3 , 663 Shares of Qualcomm Incorporated $QCOM",
+   "id": "c4e8e497777eba176",
+   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "category": "MARKET",
    "shared": []
   }

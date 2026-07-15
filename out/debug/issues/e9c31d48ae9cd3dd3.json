@@ -38,7 +38,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-15T03:42:39.424204+00:00",
+  "created_at": "2026-07-15T09:26:55.695083+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [
@@ -57,19 +57,21 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"미국 물가 상승률 발표\",\n\"one_liner\": \"미국의 6월 물가 상승률이 3.46%로 발표됐어요.\",\n\"why_now\": \"물가 상승률은 금리 결정에 중요한 영향을 미치기 때문에 주목받아요.\",\n\"details\": [\n\"미국의 6월 소비자물가지수(CPI) 상승률이 나왔어요.\",\n\"지난달 물가 상승률은 3.46%였어요.\"\n],\n\"visual_type\": \"us_cpi_yoy\",\n\"effects\": [\n\"금리 인하 기대감이 커질 수 있어요!\",\n\"주식 시장에 긍정적인 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"CPI(YoY%)\",\n\"easy\": \"소비자물가지수 상승률을 말해요. 1년 전과 비교한 물가 변화를 보여줘요.\",\n\"example\": \"지난달 CPI 상승률이 3%를 넘어서 걱정이에요.\"\n}\n]\n}",
+  "raw_response": "{\n  \"title\": \"미국 물가상승률\",\n   \"one_liner\": \"미국의 물가상승률이 3.46%로 나왔어요\",\n   \"why_now\": \"물가상승률이 높으면 물건값이 오르는 게 보통이에요\",\n   \"details\": [\n       \"미국의 물가상승률이 3.46%로 발표되었어요\",\n       \"이번에 발표된 물가상승률은 최근 몇 달간의 추이에요\"\n   ],\n   \"visual_type\": \"us_cpi_yoy\",\n   \"effects\": [\n       \"미국 물가상승률이 높으면 금리 인상할 수 있어요\",\n       \"물건값이 오르면 소비자들이 부담을 느낄 수 있어요\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"CPI\",\n           \"easy\": \"소비자 물가지수예요, 즉 물건값이 얼마나 오르거나 내렸는지 보여주는 지표에요\",\n           \"example\": \"CPI가 높으면 물건값이 많이 오른 거예요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
      "details 3문장 미만",
      "입력에 없는 숫자: [3.46]"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
      "details 3문장 미만",
+     "effects[0] 느낌표 종결 아님",
+     "effects[1] 느낌표 종결 아님",
      "입력에 없는 숫자: [3.46]"
     ]
    }
@@ -87,8 +89,8 @@
   "fact_hash": "34192b82ec12fc2838f4b86f910c51168c2d0a04"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [3.46]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [3.46]\"]}]}",
-  "at": "2026-07-15T03:42:39.424061+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [3.46]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\", \"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [3.46]\"]}]}",
+  "at": "2026-07-15T09:26:55.695030+00:00"
  },
  "glossary": [
   {
