@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-15T09:34:09.195680+00:00",
+  "created_at": "2026-07-15T14:18:13.655618+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -883,12 +883,20 @@
     "&lt;p style=&quot;margin: 0px 0px 10px 26px; text-align: justify; line-height: 107%; font-size: 10pt; font-family: &#39;맑은 고딕&#39;;&quot;&gt;Geonwon Jungbo, Korea&#39;s first legal coin and the oldest"
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국과 이라크의石油 협상\",\n   \"one_liner\": \"미국이 이라크와 큰 石油 거래를 할 수 있을 거라고 말했어요.\",\n   \"why_now\": \"이 거래가 이뤄지면 에너지 가격에 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"트럼프 대통령이 이라크의 새 총리를 백악관에迎接했어요.\",\n       \"미국이 호르무즈 해협에 관세를 부과하는 계획을 변경했어요.\",\n       \"미국의 소비자 물가가 6월에 떨어졌어요.\",\n       \"에너지 비용이 떨어진 것이 이유였어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"에너지 가격이 더 떨어질 수 있어요!\",\n       \"미국과 이라크의 경제 관계가 좋아질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "title 에 한자/가나 포함",
+     "one_liner 에 한자/가나 포함"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "title 에 한자/가나 포함",
+     "one_liner 에 한자/가나 포함"
     ]
    }
   ],
@@ -907,8 +915,8 @@
   "fact_hash": "2edc13aa6df5e35d05f853e7648f592f9de361b6"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-15T09:34:09.195613+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"title 에 한자/가나 포함\", \"one_liner 에 한자/가나 포함\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"title 에 한자/가나 포함\", \"one_liner 에 한자/가나 포함\"]}]}",
+  "at": "2026-07-15T14:18:13.655451+00:00"
  },
  "glossary": [],
  "related": [
@@ -925,14 +933,14 @@
    "shared": []
   },
   {
-   "id": "c6de7c9fb5935bf83",
-   "title": "공공기관 AI 대전환 현장, 혁신 더하기",
+   "id": "cdbb797962c9a092e",
+   "title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "cdbb797962c9a092e",
-   "title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
+   "id": "c6de7c9fb5935bf83",
+   "title": "공공기관 AI 대전환 현장, 혁신 더하기",
    "category": "POLICY",
    "shared": []
   },

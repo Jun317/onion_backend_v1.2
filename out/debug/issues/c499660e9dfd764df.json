@@ -71,7 +71,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-15T09:26:35.905702+00:00",
+  "created_at": "2026-07-15T14:18:52.364226+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -82,18 +82,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"보잉 관련 뉴스\",\n   \"one_liner\": \"보잉에 대한 투자와 호평이 있었어요.\",\n   \"why_now\": \"보잉은 중요한 항공기 제조업체라서 관련 뉴스가 중요해요.\",\n   \"details\": [\n       \"에어 뉴질랜드가 보잉 777 항공기에 새로운 객실 업그레이드를 발표했어요.\",\n       \"밴티지 인베스트먼트 파트너스 LLC가 보잉에 487,000 달러를 투자했어요.\",\n       \"ジム 크레이머가 보잉의 주가 상승에 감명을 받았어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"보잉의 주가에 긍정적인 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [487000.0]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [487000.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -112,8 +106,8 @@
   "fact_hash": "8b06e21bf883ffe28bb3a03424e29712647b5477"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [487000.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [487000.0]\"]}]}",
-  "at": "2026-07-15T09:26:35.905595+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-15T14:18:52.364103+00:00"
  },
  "glossary": [],
  "related": [

@@ -292,7 +292,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-15T09:34:27.657703+00:00",
+  "created_at": "2026-07-15T14:18:33.889781+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -305,8 +305,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"IBM 주가 급락\",\n   \"one_liner\": \"IBM 주가가 25% 급락했어요\",\n   \"why_now\": \"주가가 떨어지면 투자자들이 손해를 볼 수 있어요\",\n   \"details\": [\n      \"IBM 주가가 하루에 거의 700억 달러가 떨어졌어요\",\n      \"미국 주식 시장은 물가 상승이 느려지는 것으로 나타나면서 상승했어요\",\n      \"IBM 주가는 25%가 떨어졌어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"투자자들이 손해를 볼 수 있어요!\",\n      \"주식 시장에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [700.0]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -329,8 +335,8 @@
   "fact_hash": "4476592fcfda561750442aa37d6c1510e5c4731a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-15T09:34:27.657643+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [700.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-15T14:18:33.889667+00:00"
  },
  "glossary": [],
  "related": [

@@ -88,50 +88,69 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-15T09:26:07.403848+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-15T14:17:36.772878+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
     "Japan PM Takaichi says draft economic blueprint not cause of bond market rout",
+    "Kuroda negative rate surprise shocked his own BOJ board , minutes show",
     "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"일본 총리, 경제 계획 논란 부인\", \"one_liner\": \"일본 총리가 경제 계획이 채권 시장 혼란의 원인이 아니라고 말했어요.\", \"why_now\": \"정부 정책 발표는 시장에 큰 영향을 줄 수 있어 주목받고 있어요.\", \"details\": [\"일본 총리가 경제 계획이 채권 시장 혼란의 원인이 아니라고 밝혔어요.\"], \"visual_type\": \"none\", \"effects\": [\"채권 시장의 변동성이 커질 수 있어요!\"], \"glossary\": [{\"term\": \"채권 시장\", \"easy\": \"나라나 회사가 돈을 빌리고 발행하는 증서인 채권이 거래되는 시장이에요.\", \"example\": \"채권 가격이 오르면 이자율은 보통 내려가요.\"}]}",
+  "raw_response": "{\n  \"title\": \"일본 경제 정책\",\n   \"one_liner\": \"일본 총리가 경제 계획 초안이 채권 시장 혼란의 원인이 아니라고 했어요\",\n   \"why_now\": \"일본의 경제 정책이 세계 금융 시장에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"일본 총리 타카이치가 경제 계획 초안이 채권 시장 혼란의 원인이 아니라고 말했어요\",\n       \"일본 중앙은행 총재 구로다가 내린 마이너스 금리 결정이 예상 밖이었어요\",\n       \"일본 총리는 여러 경제 및 정치 이슈로 어려움을 겪고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"일본의 경제 정책이 세계 금융 시장에 영향을 줄 수 있어요!\",\n       \"일본의 채권 시장 혼란이 다른 나라에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
      "details 3문장 미만"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Japan PM Takaichi…",
-   "one_liner": "Japan PM Takaichi says draft economic blueprint…",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "일본 경제 정책",
+   "one_liner": "일본 총리가 경제 계획 초안이 채권 시장 혼란의 원인이 아니라고 했어요",
+   "why_now": "일본의 경제 정책이 세계 금융 시장에 영향을 줄 수 있어요",
    "details": [
-    "Japan PM Takaichi says draft economic blueprint not cause of bond market rout",
-    "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge"
+    "일본 총리 타카이치가 경제 계획 초안이 채권 시장 혼란의 원인이 아니라고 말했어요",
+    "일본 중앙은행 총재 구로다가 내린 마이너스 금리 결정이 예상 밖이었어요",
+    "일본 총리는 여러 경제 및 정치 이슈로 어려움을 겪고 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "일본의 경제 정책이 세계 금융 시장에 영향을 줄 수 있어요!",
+    "일본의 채권 시장 혼란이 다른 나라에 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "b3da3ed57fb290903943bb81f67fe983d69e801f"
+  "fact_hash": "81d07700ced95d31c09de87e0438dbe614c67315"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
   "at": "2026-07-15T09:26:07.403700+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "채권",
+   "easy": "돈을 빌리면서 '언제까지 갚겠다'고 써주는 증서예요.",
+   "example": "정부나 기업이 돈을 모을 때 발행해요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "ca047e091cbb5946c",
@@ -148,14 +167,14 @@
    ]
   },
   {
-   "id": "c6de7c9fb5935bf83",
-   "title": "공공기관 AI 대전환 현장, 혁신 더하기",
+   "id": "cdbb797962c9a092e",
+   "title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "cdbb797962c9a092e",
-   "title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
+   "id": "c6de7c9fb5935bf83",
+   "title": "공공기관 AI 대전환 현장, 혁신 더하기",
    "category": "POLICY",
    "shared": []
   },

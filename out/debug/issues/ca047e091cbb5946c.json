@@ -894,51 +894,68 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-15T09:33:32.256827+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-15T14:17:24.411393+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "China new home prices decline at slower pace in June amid improvement in key cities",
+    "Which Indian sectors stand to gain as India - UK FTA takes effect",
+    "Idahoans , make your voices heard on federal land management",
     "Govt bonds gain as soft US inflation cools Fed rate hike bets",
-    "Philippine real estate sector still resilient mid - year despite ongoing headwinds Lobien",
-    "Jacobs secures three strategic united kingdom National Highways contracts",
-    "Raw rubber exports : A costly trade Ghana can no longer afford",
-    "US Expands Sanctions Targeting Iran Oil , Cryptocurrency Sectors"
+    "Philippine real estate sector still resilient mid - year despite ongoing headwinds Lobien"
    ],
    "official_lines": [
     "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
     "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc."
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 금리 인상 우려 완화\",\n   \"one_liner\": \"미국에서 물가 상승 속도가 느려져 금리 인상 우려가 완화했어요\",\n   \"why_now\": \"금리 인상 우려가 완화하면 대출 이자가 낮아져 가계 부담이 줄어드는 게 보통이에요\",\n   \"details\": [\n       \"미국의 물가 상승 속도가 느려졌어요\",\n       \"미국 중앙은행이 금리 인상 우려를 완화시켰어요\",\n       \"미국 정부 채권이 상승했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"대출 이자 부담이 줄어들 것으로 예상돼요!\",\n       \"채권 가격 상승이 지속될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Govt bonds gain as…",
-   "one_liner": "Govt bonds gain as soft US inflation cools Fed…",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "미국 금리 인상 우려 완화",
+   "one_liner": "미국에서 물가 상승 속도가 느려져 금리 인상 우려가 완화했어요",
+   "why_now": "금리 인상 우려가 완화하면 대출 이자가 낮아져 가계 부담이 줄어드는 게 보통이에요",
    "details": [
-    "Govt bonds gain as soft US inflation cools Fed rate hike bets",
-    "Philippine real estate sector still resilient mid - year despite ongoing headwinds Lobien",
-    "Jacobs secures three strategic united kingdom National Highways contracts"
+    "미국의 물가 상승 속도가 느려졌어요",
+    "미국 중앙은행이 금리 인상 우려를 완화시켰어요",
+    "미국 정부 채권이 상승했어요"
    ],
-   "effects": [],
+   "effects": [
+    "대출 이자 부담이 줄어들 것으로 예상돼요!",
+    "채권 가격 상승이 지속될 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "c6a3c86ec2560ea24fa6c4be34ef2da12c74171f"
+  "fact_hash": "1297a9aea68a0447529f9c5ab4f0e1b47746fe05"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-15T09:33:32.256758+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리 인상",
+   "easy": "이자의 기준을 올리는 거예요.",
+   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "채권",
+   "easy": "돈을 빌리면서 '언제까지 갚겠다'고 써주는 증서예요.",
+   "example": "정부나 기업이 돈을 모을 때 발행해요."
+  }
+ ],
  "related": [
   {
    "id": "cde343d4cab397faf",
@@ -963,14 +980,14 @@
    ]
   },
   {
-   "id": "c6de7c9fb5935bf83",
-   "title": "공공기관 AI 대전환 현장, 혁신 더하기",
+   "id": "cdbb797962c9a092e",
+   "title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "cdbb797962c9a092e",
-   "title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
+   "id": "c6de7c9fb5935bf83",
+   "title": "공공기관 AI 대전환 현장, 혁신 더하기",
    "category": "POLICY",
    "shared": []
   }
