@@ -38,7 +38,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-15T14:19:10.793486+00:00",
+  "created_at": "2026-07-15T17:44:54.414160+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [
@@ -57,12 +57,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 물가상승률\",\n   \"one_liner\": \"미국의 물가상승률이 3.46%로 나왔어요\",\n   \"why_now\": \"물가상승률이 높으면 물건값이 오르는 게 보통이에요\",\n   \"details\": [\n       \"미국의 최근 물가상승률이 발표되었어요\",\n       \"미국 물가상승률은 3.46%로 나왔어요\",\n       \"미국 물가상승률은 최근에 발표되었어요\"\n   ],\n   \"visual_type\": \"us_cpi_yoy\",\n   \"effects\": [\n       \"미국 물가상승률이 높으면 물건값이 오를 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"CPI\",\n           \"easy\": \"소비자 물가지수, 즉 물건이나 서비스의 평균 가격을 나타내는 지표예요\",\n           \"example\": \"CPI가 높으면 물건값이 많이 오른다는 뜻이에요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "입력에 없는 숫자: [3.46]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [3.46]"
     ]
    }
   ],
@@ -79,8 +86,8 @@
   "fact_hash": "34192b82ec12fc2838f4b86f910c51168c2d0a04"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-15T14:19:10.793418+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [3.46]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [3.46]\"]}]}",
+  "at": "2026-07-15T17:44:54.414107+00:00"
  },
  "glossary": [
   {
