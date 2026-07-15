@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-15T03:48:07.636136+00:00",
+ "generated_at": "2026-07-15T06:34:34.304804+00:00",
  "issues": [
   {
    "id": "ca047e091cbb5946c",
@@ -7,7 +7,7 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 218,
+   "seen_sources": 226,
    "importance": 160,
    "entity_keys": [
     "AAPL",
@@ -23,6 +23,7 @@
     "INTC",
     "IRAN",
     "JPM",
+    "KOSPI",
     "KRX:000660",
     "KRX:034730",
     "META",
@@ -37,10 +38,10 @@
     "XOM"
    ],
    "created_at": "2026-07-04T21:17:48.835973+00:00",
-   "last_update": "2026-07-14T23:17:43.091094+00:00",
+   "last_update": "2026-07-15T06:34:15.971429+00:00",
    "members": 50,
-   "llm_title": "미국 물가 상승률 하락",
-   "one_liner": "미국 물가 상승률이 낮아져서 금리 인상할 가능성이 낮아졌어요",
+   "llm_title": "아시아 주식시장 상승",
+   "one_liner": "미국 물가 상승률이 예상보다 낮아 아시아 주식시장이 올랐어요.",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
@@ -237,36 +238,55 @@
    "in_review": false
   },
   {
-   "id": "c6de7c9fb5935bf83",
-   "title": "공공기관 AI 대전환 현장, 혁신 더하기",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 473,
-   "importance": 105,
-   "entity_keys": [],
-   "created_at": "2026-07-04T21:17:48.838713+00:00",
-   "last_update": "2026-07-15T00:12:04.069839+00:00",
-   "members": 50,
-   "llm_title": "고용동향 평가",
-   "one_liner": "고용동향을 평가했어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
    "id": "cdbb797962c9a092e",
    "title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 384,
+   "seen_sources": 396,
    "importance": 105,
    "entity_keys": [],
    "created_at": "2026-07-04T21:17:48.836493+00:00",
-   "last_update": "2026-07-14T23:17:43.108107+00:00",
+   "last_update": "2026-07-15T06:34:15.976507+00:00",
    "members": 50,
-   "llm_title": "금융 정책",
-   "one_liner": "영국은행 총재 베일리가 은행 이익 규제 방안을 언급했어요.",
+   "llm_title": "강제 노동 상품 수입 금지",
+   "one_liner": "미국이 강제 노동으로 만든 상품의 수입을 금지하고 무역 규정을 강화했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "c6de7c9fb5935bf83",
+   "title": "공공기관 AI 대전환 현장, 혁신 더하기",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 480,
+   "importance": 105,
+   "entity_keys": [],
+   "created_at": "2026-07-04T21:17:48.838713+00:00",
+   "last_update": "2026-07-15T06:34:15.974461+00:00",
+   "members": 50,
+   "llm_title": "Nifty today : D - St…",
+   "one_liner": "Nifty today : D - St set for a positive opening…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c273684a49f5f6fb2",
+   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 12,
+   "importance": 105,
+   "entity_keys": [
+    "IBM"
+   ],
+   "created_at": "2026-07-14T14:20:58.036576+00:00",
+   "last_update": "2026-07-15T06:34:15.887818+00:00",
+   "members": 15,
+   "llm_title": "미국 주식시장 상승",
+   "one_liner": "미국이 물가가 오르지 않는다는 소식에 주식시장이 올랐어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
@@ -285,25 +305,6 @@
    "llm_title": "트럼프의 정책",
    "one_liner": "트럼프 대통령이 호르무즈 해협 통행료 계획을 취소했어요.",
    "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "c273684a49f5f6fb2",
-   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 11,
-   "importance": 105,
-   "entity_keys": [
-    "IBM"
-   ],
-   "created_at": "2026-07-14T14:20:58.036576+00:00",
-   "last_update": "2026-07-14T23:17:43.059663+00:00",
-   "members": 14,
-   "llm_title": "미국 증시 상승, IBM 급락",
-   "one_liner": "미국 증시가 물가 상승세가 둔화했다는 소식에 올랐지만, IBM 주가는 크게 떨어졌어요.",
-   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -446,6 +447,25 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "c499660e9dfd764df",
+   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 95,
+   "entity_keys": [
+    "BA"
+   ],
+   "created_at": "2026-07-12T21:11:31.396580+00:00",
+   "last_update": "2026-07-15T06:34:15.947963+00:00",
+   "members": 3,
+   "llm_title": "Vantage Investment…",
+   "one_liner": "Vantage Investment Partners LLC Makes New $487 ,…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "cd405cd1f4b6295e9",
@@ -694,25 +714,6 @@
    "llm_title": "웰스파고 이익 증가",
    "one_liner": "웰스파고의 2분기 이익이 예상치를 웃돌며 크게 늘었어요.",
    "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c499660e9dfd764df",
-   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 80,
-   "entity_keys": [
-    "BA"
-   ],
-   "created_at": "2026-07-12T21:11:31.396580+00:00",
-   "last_update": "2026-07-12T21:11:31.397125+00:00",
-   "members": 2,
-   "llm_title": "Vantage Investment…",
-   "one_liner": "Vantage Investment Partners LLC Makes New $487 ,…",
-   "llm_model": "template",
    "in_review": true
   },
   {

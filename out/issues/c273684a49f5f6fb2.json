@@ -1,15 +1,15 @@
 {
  "id": "c273684a49f5f6fb2",
- "title": "미국 증시 상승, IBM 급락",
- "one_liner": "미국 증시가 물가 상승세가 둔화했다는 소식에 올랐지만, IBM 주가는 크게 떨어졌어요.",
- "why_now": "물가 상승세가 둔화하면 소비자의 구매력이 높아져 경제에 긍정적인 영향을 줄 수 있어요.",
+ "title": "미국 주식시장 상승",
+ "one_liner": "미국이 물가가 오르지 않는다는 소식에 주식시장이 올랐어요",
+ "why_now": "물가가 오르지 않으면 물건을 사는 사람이 더 많아져서 주식시장이 좋아질 수 있어요",
  "raw_title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
  "category": "MARKET",
  "status": "active",
  "origin": "cluster",
- "sources": 11,
+ "sources": 12,
  "importance": 105,
- "last_update": "2026-07-14T23:17:43.059663+00:00",
+ "last_update": "2026-07-15T06:34:15.887818+00:00",
  "has_visual": true,
  "headline_stat": null,
  "spark": [
@@ -24,15 +24,15 @@
  ],
  "icon": "📈",
  "details": [
-  "미국 증시가 물가 상승세 둔화 소식에 상승했어요.",
-  "IBM 주가는 역대 최악의 하락폭을 기록할 것으로 보여요.",
-  "IBM은 인공지능(AI) 호황이 소프트웨어 사업에 타격을 주고 있다고 밝혔어요."
+  "미국 물가가 오르지 않는다는 소식이 나왔어요",
+  "이 소식에 미국 주식시장이 올랐어요",
+  "하지만 IBM 주가는 많이 내렸어요"
  ],
  "effects": [
-  "물가 상승세 둔화는 금리 인하 기대감을 높일 수 있어요!",
-  "IBM과 같은 개별 기업의 실적 발표는 시장 전체에 영향을 줄 수 있어요!"
+  "주식시장이 더 좋아질 수 있어요!",
+  "물건을 사는 사람이 더 많아질 수 있어요!"
  ],
- "model": "gemini-2.5-flash-lite",
+ "model": "llama-3.3-70b-versatile",
  "visual": {
   "type": "us_10y",
   "chart": "line",
@@ -97,6 +97,12 @@
  "anchors": [],
  "headlines": [
   {
+   "title": "THE CLOSING BELL : US stocks rise after data shows slowing inflation , even as IBM plunges",
+   "source": "wptf.com",
+   "url": "https://www.wptf.com/2026/07/14/16052/",
+   "published_at": "2026-07-15T03:15:00+00:00"
+  },
+  {
    "title": "Markets today : U . S . stocks rise after slowing inflation , IBM plunges",
    "source": "bnnbloomberg.ca",
    "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/07/14/us-stocks-hold-steadier-after-inflation-data-even-as-ibm-plunges/",
@@ -149,15 +155,16 @@
    "source": "finance.yahoo.com",
    "url": "https://finance.yahoo.com/markets/stocks/article/ibm-stock-crashes-after-major-warning--heres-what-wall-street-is-doing-next-114235587.html",
    "published_at": "2026-07-14T15:00:00+00:00"
-  },
-  {
-   "title": "IBM posts earnings miss , shares slide in premarket trading",
-   "source": "foxbusiness.com",
-   "url": "https://www.foxbusiness.com/technology/ibm-sends-shockwave-through-tech-industry-ai-warning",
-   "published_at": "2026-07-14T15:00:00+00:00"
   }
  ],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "THE CLOSING BELL : US stocks rise after data shows slowing inflation , even as IBM plunges",
+   "source": "wptf.com",
+   "url": "https://www.wptf.com/2026/07/14/16052/",
+   "at": "2026-07-15T03:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Markets today : U . S . stocks rise after slowing inflation , IBM plunges",
@@ -257,18 +264,7 @@
    "at": "2026-07-11T13:45:00+00:00"
   }
  ],
- "glossary": [
-  {
-   "term": "인공지능(AI)",
-   "easy": "컴퓨터가 사람처럼 생각하고 배우는 기술이에요.",
-   "example": "요즘 인공지능 스피커로 음악을 틀거나 날씨를 물어볼 수 있어요."
-  },
-  {
-   "term": "소프트웨어",
-   "easy": "컴퓨터 프로그램이나 앱처럼 눈에 보이지 않는 컴퓨터의 작동 방식을 말해요.",
-   "example": "스마트폰으로 게임을 하거나 인터넷을 할 때 소프트웨어를 사용해요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "c72702defa15d1f1f",
@@ -283,6 +279,12 @@
    "shared": []
   },
   {
+   "id": "c499660e9dfd764df",
+   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
    "id": "c88e0e9224f4c05cc",
    "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
    "category": "MARKET",
@@ -291,12 +293,6 @@
   {
    "id": "cb96012b716dd06a1",
    "title": "Sequoia Financial Advisors LLC Sells 3 , 663 Shares of Qualcomm Incorporated $QCOM",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c499660e9dfd764df",
-   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
    "category": "MARKET",
    "shared": []
   }
