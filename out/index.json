@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-07-15T21:34:21.794411+00:00",
+ "generated_at": "2026-07-15T23:26:38.393317+00:00",
  "attribution": "News metadata via GDELT (gdeltproject.org) · Data: FRED, 한국은행 ECOS, DART, SEC EDGAR",
  "issues": [
   {
@@ -305,6 +305,39 @@
    "icon": "🇰🇷"
   },
   {
+   "id": "e77a7b1c911ca1d26",
+   "title": "미국 기준금리 인상",
+   "one_liner": "미 연방준비제도이 기준금리를 올려 연 3.63%가 됐어요",
+   "why_now": "금리가 오르면 대출 이자가 늘어나 가계 부담이 커지는 게 보통이에요",
+   "raw_title": "미 연준 기준금리 변동 (3.62%)",
+   "category": "RATE",
+   "status": "stale",
+   "origin": "official_event",
+   "sources": 0,
+   "importance": 140,
+   "last_update": "2026-07-15T23:26:26.518619+00:00",
+   "has_visual": true,
+   "headline_stat": {
+    "label": "Fed 기준금리",
+    "value": "3.63",
+    "unit": "%",
+    "delta_text": "+0.01%p",
+    "direction": "up",
+    "prev_text": "직전 3.62%"
+   },
+   "spark": [
+    3.64,
+    3.64,
+    3.64,
+    3.64,
+    3.64,
+    3.62,
+    3.63,
+    3.63
+   ],
+   "icon": "🇺🇸"
+  },
+  {
    "id": "e97a81ef1127b8815",
    "title": "미국 기준금리 인하",
    "one_liner": "미국 연방준비제도이 기준금리를 내려 연 3.64%가 됐어요",
@@ -324,39 +357,6 @@
     "delta_text": "-0.25%p",
     "direction": "down",
     "prev_text": "직전 3.89%"
-   },
-   "spark": [
-    3.64,
-    3.64,
-    3.64,
-    3.64,
-    3.64,
-    3.62,
-    3.63,
-    3.63
-   ],
-   "icon": "🇺🇸"
-  },
-  {
-   "id": "e77a7b1c911ca1d26",
-   "title": "미국 기준금리 인하",
-   "one_liner": "미국 연방준비제도이 기준금리를 내려 연 3.62%가 됐어요",
-   "why_now": "금리가 내리면 대출 이자가 줄어 가계 부담이 낮아지는 게 보통이에요.",
-   "raw_title": "미 연준 기준금리 변동 (3.62%)",
-   "category": "RATE",
-   "status": "stale",
-   "origin": "official_event",
-   "sources": 0,
-   "importance": 115,
-   "last_update": "2026-07-09T21:54:19.988949+00:00",
-   "has_visual": true,
-   "headline_stat": {
-    "label": "Fed 기준금리",
-    "value": "3.62",
-    "unit": "%",
-    "delta_text": "-0.01%p",
-    "direction": "down",
-    "prev_text": "직전 3.63%"
    },
    "spark": [
     3.64,
@@ -1423,10 +1423,10 @@
    },
    "latest_issue": {
     "id": "e77a7b1c911ca1d26",
-    "title": "미국 기준금리 인하",
-    "one_liner": "미국 연방준비제도이 기준금리를 내려 연 3.62%가 됐어요",
+    "title": "미국 기준금리 인상",
+    "one_liner": "미 연방준비제도이 기준금리를 올려 연 3.63%가 됐어요",
     "icon": "🇺🇸",
-    "last_update": "2026-07-09T21:54:19.988949+00:00"
+    "last_update": "2026-07-15T23:26:26.518619+00:00"
    },
    "impact": [
     "금리가 내리면 대출 이자 부담이 줄어요.",
