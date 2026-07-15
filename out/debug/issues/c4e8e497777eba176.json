@@ -9,11 +9,21 @@
  "entity_keys": [
   "LLY"
  ],
- "seen_sources": 2,
- "importance": 90,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-07-12T22:12:02.226969+00:00",
- "last_update": "2026-07-15T09:26:00.580599+00:00",
+ "last_update": "2026-07-15T11:55:37.281914+00:00",
  "members": [
+  {
+   "id": "45a851ba419f2fdd90ba46340034a01d00230bc6",
+   "source": "tickerreport.com",
+   "tier": "wire",
+   "url": "https://www.tickerreport.com/banking-finance/13504109/bryn-mawr-trust-advisors-llc-sells-1049-shares-of-eli-lilly-and-company-lly.html",
+   "title": "Bryn Mawr Trust Advisors LLC Sells 1 , 049 Shares of Eli Lilly and Company $LLY",
+   "published_at": "2026-07-15T10:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9212
+  },
   {
    "id": "c1dfa4a25395ba1cbfed0ac20d05ae787efdf15c",
    "source": "fool.com",
@@ -22,7 +32,7 @@
    "title": "Is This Disturbing Trend Bad News for Eli Lilly in the Billion - Dollar Obesity Drug Market ?",
    "published_at": "2026-07-15T08:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8856
+   "sim_to_centroid": 0.8881
   },
   {
    "id": "2818f0fb1e10cfe08186c67f9bcab852ac3edea6",
@@ -32,7 +42,7 @@
    "title": "Eli Lilly and Company ( NYSE : LLY ) Receives Consensus Recommendation of  Moderate Buy  from Brokerages",
    "published_at": "2026-07-12T21:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9669
+   "sim_to_centroid": 0.9647
   },
   {
    "id": "0b165779add8447c9fd9fff7dbe0bc42cd1e281e",
@@ -42,11 +52,18 @@
    "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "published_at": "2026-07-12T20:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9678
+   "sim_to_centroid": 0.9675
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Bryn Mawr Trust Advisors LLC Sells 1 , 049 Shares of Eli Lilly and Company $LLY",
+   "source": "tickerreport.com",
+   "url": "https://www.tickerreport.com/banking-finance/13504109/bryn-mawr-trust-advisors-llc-sells-1049-shares-of-eli-lilly-and-company-lly.html",
+   "at": "2026-07-15T10:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Is This Disturbing Trend Bad News for Eli Lilly in the Billion - Dollar Obesity Drug Market ?",
@@ -70,40 +87,43 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-15T09:26:38.749065+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-15T11:55:42.698206+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Bryn Mawr Trust Advisors LLC Sells 1 , 049 Shares of Eli Lilly and Company $LLY",
     "Is This Disturbing Trend Bad News for Eli Lilly in the Billion - Dollar Obesity Drug Market ?",
     "Eli Lilly and Company ( NYSE : LLY ) Receives Consensus Recommendation of  Moderate Buy  from Brokerages",
     "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"엘리 릴리 주식\",\n   \"one_liner\": \"엘리 릴리 주식에 대한 분석이 나왔어요\",\n   \"why_now\": \"의료 관련 기업의 주식은 시장에서 많이 주목받아요\",\n   \"details\": [\n       \"엘리 릴리 주식에 대한 분석이 나왔어요\",\n       \"엘리 릴리에는 비만 치료제 시장에서 경쟁이 있을 수 있어요\",\n       \"엘리 릴리 주식을 사야 한다는 권유가 나왔어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"의료 관련 주식에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\"title\": \"릴리 주가 동향\", \"one_liner\": \"릴리 주가에 대한 긍정적 전망과 매수 의견이 나오고 있어요.\", \"why_now\": \"비만 치료제 시장에서의 경쟁력과 투자자들의 관심이 주가에 영향을 미치고 있어요.\", \"details\": [\"릴리의 비만 치료제 시장에서의 입지에 대한 분석이 나왔어요.\", \"일부 투자 기관은 릴리 주식을 매수하며 비중을 늘리고 있어요.\", \"다른 투자 기관은 릴리 주식을 일부 매도했어요.\", \"증권사들은 릴리에 대해 '적정 매수' 의견을 내고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"비만 치료제 시장에서의 성과에 따라 주가 변동성이 나타날 수 있어요!\", \"증권사들의 목표 주가 상향 조정이 이어질 수 있어요!\"], \"glossary\": [{\"term\": \"비만 치료제\", \"easy\": \"체중 감량을 돕는 약을 말해요.\", \"example\": \"의사의 처방에 따라 비만 치료제를 복용할 수 있어요.\"}, {\"term\": \"매수 의견\", \"easy\": \"증권사 등이 특정 주식을 사라고 권하는 것을 말해요.\", \"example\": \"증권사 리포트에서 A기업에 대한 매수 의견을 봤어요.\"}, {\"term\": \"적정 매수\", \"easy\": \"주가가 현재 가치보다 조금 더 오를 것으로 예상될 때 내리는 투자 의견이에요.\", \"example\": \"적정 매수 의견이 나온 주식은 조금 더 지켜볼 수 있어요.\"}]}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": []
    }
   ],
   "output": {
-   "title": "엘리 릴리 주식",
-   "one_liner": "엘리 릴리 주식에 대한 분석이 나왔어요",
-   "why_now": "의료 관련 기업의 주식은 시장에서 많이 주목받아요",
+   "title": "릴리 주가 동향",
+   "one_liner": "릴리 주가에 대한 긍정적 전망과 매수 의견이 나오고 있어요.",
+   "why_now": "비만 치료제 시장에서의 경쟁력과 투자자들의 관심이 주가에 영향을 미치고 있어요.",
    "details": [
-    "엘리 릴리 주식에 대한 분석이 나왔어요",
-    "엘리 릴리에는 비만 치료제 시장에서 경쟁이 있을 수 있어요",
-    "엘리 릴리 주식을 사야 한다는 권유가 나왔어요"
+    "릴리의 비만 치료제 시장에서의 입지에 대한 분석이 나왔어요.",
+    "일부 투자 기관은 릴리 주식을 매수하며 비중을 늘리고 있어요.",
+    "다른 투자 기관은 릴리 주식을 일부 매도했어요.",
+    "증권사들은 릴리에 대해 '적정 매수' 의견을 내고 있어요."
    ],
    "effects": [
-    "의료 관련 주식에 영향을 줄 수 있어요!"
+    "비만 치료제 시장에서의 성과에 따라 주가 변동성이 나타날 수 있어요!",
+    "증권사들의 목표 주가 상향 조정이 이어질 수 있어요!"
    ],
    "visual_type": "none"
   },
-  "fact_hash": "03af1a89fb4424a1a7f2c2df0e13db04c8b055f2"
+  "fact_hash": "d8c196373053ee534bb5696938a6f7988ad28fa2"
  },
  "review": null,
  "glossary": [],
