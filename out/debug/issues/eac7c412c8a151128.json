@@ -26,7 +26,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-14T23:24:07.730092+00:00",
+  "created_at": "2026-07-15T03:47:46.856097+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -35,14 +35,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"져스텍 2026년 1분기 실적\", \"one_liner\": \"져스텍이 2026년 1분기 실적을 발표했어요.\", \"why_now\": \"기업의 실적 발표는 앞으로의 주가 흐름을 예측하는 데 중요한 정보가 돼요.\", \"details\": [], \"visual_type\": \"earnings_quarterly\", \"effects\": [\"향후 져스텍의 주가 흐름에 영향을 줄 수 있어요!\"], \"glossary\": []}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -63,8 +57,8 @@
   "fact_hash": "742131427564874874972a606af0b0b79846d1d0"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-14T23:24:07.730030+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-15T03:47:46.856040+00:00"
  },
  "glossary": [],
  "related": [

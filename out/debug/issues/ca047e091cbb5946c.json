@@ -893,8 +893,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-14T23:24:44.642949+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-15T03:42:26.896626+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -910,25 +910,26 @@
     "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc."
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 물가 상승률 하락\",\n   \"one_liner\": \"미국 물가 상승률이 낮아져서 금리 인상할 가능성이 낮아졌어요\",\n   \"why_now\": \"물가 상승률이 낮으면 물건 값이 오르지 않아 생활이 편해져요\",\n   \"details\": [\n       \"미국 물가 상승률이 낮아졌어요\",\n       \"미국 중앙은행이 금리 인상을 할 가능성이 낮아졌어요\",\n       \"미국 중앙은행은 금리 인상을 결정하기 전에 물가 상승률을 고려해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국 경제에 긍정적인 영향을 줄 수 있어요!\",\n       \"금리 인상이 없으면 대출이 더 쉬워질 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"물가 상승률\",\n           \"easy\": \"물건 값이 오르는 속도예요\",\n           \"example\": \"물가 상승률이 높으면 물건 값이 많이 오르어요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "U . S . CPI slowdown…",
-   "one_liner": "U . S . CPI slowdown lowers odds of July Fed hike",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "미국 물가 상승률 하락",
+   "one_liner": "미국 물가 상승률이 낮아져서 금리 인상할 가능성이 낮아졌어요",
+   "why_now": "물가 상승률이 낮으면 물건 값이 오르지 않아 생활이 편해져요",
    "details": [
-    "U . S . CPI slowdown lowers odds of July Fed hike",
-    "Ecommerce earnings could provide catalyst for sector gains , Jefferies says",
-    "Critical Survey : iQIYI ( NASDAQ : IQ ) and Alphabet ( NASDAQ : GOOG )"
+    "미국 물가 상승률이 낮아졌어요",
+    "미국 중앙은행이 금리 인상을 할 가능성이 낮아졌어요",
+    "미국 중앙은행은 금리 인상을 결정하기 전에 물가 상승률을 고려해요"
    ],
-   "effects": [],
+   "effects": [
+    "미국 경제에 긍정적인 영향을 줄 수 있어요!",
+    "금리 인상이 없으면 대출이 더 쉬워질 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "f30a662e0c601cd011ab9a4c2b5865a1c04f2bad"
@@ -939,9 +940,14 @@
  },
  "glossary": [
   {
-   "term": "CPI",
-   "easy": "물가가 얼마나 올랐는지 보여주는 대표 성적표예요.",
-   "example": "높으면 생활비 부담이 커진 거예요."
+   "term": "금리 인상",
+   "easy": "이자의 기준을 올리는 거예요.",
+   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
   }
  ],
  "related": [

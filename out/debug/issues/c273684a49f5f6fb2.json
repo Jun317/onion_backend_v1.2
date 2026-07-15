@@ -257,8 +257,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-14T23:25:03.217860+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-15T03:42:34.657815+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -271,25 +271,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 증시 상승, IBM 급락\",\n  \"one_liner\": \"미국 증시가 물가 상승세가 둔화했다는 소식에 올랐지만, IBM 주가는 크게 떨어졌어요.\",\n  \"why_now\": \"물가 상승세가 둔화하면 소비자의 구매력이 높아져 경제에 긍정적인 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"미국 증시가 물가 상승세 둔화 소식에 상승했어요.\",\n    \"IBM 주가는 역대 최악의 하락폭을 기록할 것으로 보여요.\",\n    \"IBM은 인공지능(AI) 호황이 소프트웨어 사업에 타격을 주고 있다고 밝혔어요.\"\n  ],\n  \"visual_type\": \"us_10y\",\n  \"effects\": [\n    \"물가 상승세 둔화는 금리 인하 기대감을 높일 수 있어요!\",\n    \"IBM과 같은 개별 기업의 실적 발표는 시장 전체에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"인공지능(AI)\",\n      \"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n      \"example\": \"요즘 인공지능 스피커로 음악을 틀거나 날씨를 물어볼 수 있어요.\"\n    },\n    {\n      \"term\": \"소프트웨어\",\n      \"easy\": \"컴퓨터 프로그램이나 앱처럼 눈에 보이지 않는 컴퓨터의 작동 방식을 말해요.\",\n      \"example\": \"스마트폰으로 게임을 하거나 인터넷을 할 때 소프트웨어를 사용해요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Markets today : U .…",
-   "one_liner": "Markets today : U . S . stocks rise after…",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "미국 증시 상승, IBM 급락",
+   "one_liner": "미국 증시가 물가 상승세가 둔화했다는 소식에 올랐지만, IBM 주가는 크게 떨어졌어요.",
+   "why_now": "물가 상승세가 둔화하면 소비자의 구매력이 높아져 경제에 긍정적인 영향을 줄 수 있어요.",
    "details": [
-    "Markets today : U . S . stocks rise after slowing inflation , IBM plunges",
-    "Markets today : Wall Street steady after inflation data , IBM plunges , ASX set to rise",
-    "US stocks tick higher after data shows slowing inflation , even as IBM plunges"
+    "미국 증시가 물가 상승세 둔화 소식에 상승했어요.",
+    "IBM 주가는 역대 최악의 하락폭을 기록할 것으로 보여요.",
+    "IBM은 인공지능(AI) 호황이 소프트웨어 사업에 타격을 주고 있다고 밝혔어요."
    ],
-   "effects": [],
+   "effects": [
+    "물가 상승세 둔화는 금리 인하 기대감을 높일 수 있어요!",
+    "IBM과 같은 개별 기업의 실적 발표는 시장 전체에 영향을 줄 수 있어요!"
+   ],
    "visual_type": "us_10y"
   },
   "fact_hash": "4da883daa927635b57f1ed79ed48ebcadf29bc7b"

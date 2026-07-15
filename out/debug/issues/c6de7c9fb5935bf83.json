@@ -867,54 +867,60 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-14T23:17:53.143094+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-15T03:42:30.456648+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "[보도참고] '26.6월 고용동향 및 평가",
     "Nasdaq surges 0 . 9 % Tuesday as technology leads ; Dow flatlines",
     "Interest rate announcement : Higher gas prices are already acting like a rate",
     "Contrasting Red Rock Resorts ( NASDAQ : RRR ) & Accel Entertainment ( NYSE : ACEL )",
-    "FMC ( NYSE : FMC ) versus Adecoagro ( NYSE : AGRO ) Financial Analysis",
-    "Era of Change Launches Era Global Risk Index , Introducing a New Framework for Measuring Financial Risk"
+    "FMC ( NYSE : FMC ) versus Adecoagro ( NYSE : AGRO ) Financial Analysis"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"나스닥 상승\",\n   \"one_liner\": \"나스닥 지수가 기술 주를 이끌어 0.9% 상승했어요\",\n   \"why_now\": \"주가가 오르면 투자자들에게 좋은 신호가 될 수 있어요\",\n   \"details\": [\n       \"나스닥 지수가 0.9% 상승했어요\",\n       \"기술 주가 주도했어요\",\n       \"다우 지수는 변동이 없어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"투자자들에게 긍정적인 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"고용동향 평가\",\n   \"one_liner\": \"고용동향을 평가했어요\",\n   \"why_now\": \"고용동향이เศรษฐ성을 이해하는 데 중요해요\",\n   \"details\": [\n       \"고용동향을 평가하는 보고서가 나왔어요\",\n       \"기술 분야가 주도하는 Nasdaq이 오르했어요\",\n       \"가스 가격이 이미 금리처럼 작용하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"경제에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "입력에 없는 숫자: [0.9]"
+     "details 3문장 미만"
     ]
    },
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [0.9]"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Nasdaq surges 0 . 9…",
-   "one_liner": "Nasdaq surges 0 . 9 % Tuesday as technology…",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "고용동향 평가",
+   "one_liner": "고용동향을 평가했어요",
+   "why_now": "고용동향이เศรษฐ성을 이해하는 데 중요해요",
    "details": [
-    "Nasdaq surges 0 . 9 % Tuesday as technology leads ; Dow flatlines",
-    "Interest rate announcement : Higher gas prices are already acting like a rate",
-    "Contrasting Red Rock Resorts ( NASDAQ : RRR ) & Accel Entertainment ( NYSE : ACEL )"
+    "고용동향을 평가하는 보고서가 나왔어요",
+    "기술 분야가 주도하는 Nasdaq이 오르했어요",
+    "가스 가격이 이미 금리처럼 작용하고 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "경제에 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "2d94848a5ff6ff47dce6b6328afe172f072437bc"
+  "fact_hash": "edc8f6d1a49f3f509c503df489b27c1e178e2016"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [0.9]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [0.9]\"]}]}",
   "at": "2026-07-14T23:17:53.142964+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "ca047e091cbb5946c",
