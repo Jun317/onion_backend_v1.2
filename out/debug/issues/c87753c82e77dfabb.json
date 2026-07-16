@@ -69,7 +69,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-16T11:58:16.601024+00:00",
+  "created_at": "2026-07-16T16:49:00.208759+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -80,8 +80,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"경제 성장 계획 경쟁\",\n  \"one_liner\": \"미시간 주지사 후보들이 주의 경제 성장을 위한 경쟁력 있는 계획을 제시했어요.\",\n  \"why_now\": \"경제 성장은 일자리와 소득에 직접적인 영향을 미쳐 주민들의 삶의 질을 높이는 데 중요해요.\",\n  \"impact_line\": null,\n  \"details\": [\n    \"미시간 주지사 후보들이 주의 경제 성장을 위한 경쟁력 있는 계획을 제시했어요.\",\n    \"이 계획들은 주의 경제 발전을 위한 다양한 방안을 담고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [],\n  \"glossary\": [],\n  \"impact_line\": null\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -104,8 +111,8 @@
   "fact_hash": "2ac0d078ee19c1583145b71290488ab13288bc97"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-16T11:58:16.600951+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T16:49:00.208694+00:00"
  },
  "glossary": [],
  "related": [
@@ -128,14 +135,14 @@
    "shared": []
   },
   {
-   "id": "e9c31d48ae9cd3dd3",
-   "title": "미국 CPI 2026-06 발표",
+   "id": "e370bf1a63a2ea425",
+   "title": "한국 소비자물가 2026-04 발표",
    "category": "MACRO",
    "shared": []
   },
   {
-   "id": "e370bf1a63a2ea425",
-   "title": "한국 소비자물가 2026-04 발표",
+   "id": "e9c31d48ae9cd3dd3",
+   "title": "미국 CPI 2026-06 발표",
    "category": "MACRO",
    "shared": []
   }

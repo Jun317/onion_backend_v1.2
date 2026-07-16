@@ -9,11 +9,21 @@
  "entity_keys": [
   "F"
  ],
- "seen_sources": 2,
- "importance": 95,
+ "seen_sources": 3,
+ "importance": 100,
  "created_at": "2026-07-16T06:38:34.932120+00:00",
- "last_update": "2026-07-16T06:38:34.934647+00:00",
+ "last_update": "2026-07-16T16:47:58.901817+00:00",
  "members": [
+  {
+   "id": "92b3424449e06aedbb423f8dda34fdf8ed398d5d",
+   "source": "newser.com",
+   "tier": "wire",
+   "url": "https://www.newser.com/story/392957/two-thirds-of-americans-now-say-groceries-are-unaffordable.html",
+   "title": "Two - Thirds of Americans Now Say Groceries Are Unaffordable",
+   "published_at": "2026-07-16T15:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8858
+  },
   {
    "id": "6b560f03a7ab2addb7be30e7e6ee7c76572c2173",
    "source": "unionleader.com",
@@ -22,7 +32,7 @@
    "title": "Left - leaning group says state faces affordability crisis",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9619
+   "sim_to_centroid": 0.9631
   },
   {
    "id": "26087587513a3eeb2af67ce2cabf8e7941d0cff6",
@@ -32,11 +42,18 @@
    "title": "Supervisors back Lurie plan to cut affordable housing fees | Politics",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9619
+   "sim_to_centroid": 0.9581
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Two - Thirds of Americans Now Say Groceries Are Unaffordable",
+   "source": "newser.com",
+   "url": "https://www.newser.com/story/392957/two-thirds-of-americans-now-say-groceries-are-unaffordable.html",
+   "at": "2026-07-16T15:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Left - leaning group says state faces affordability crisis",
@@ -53,50 +70,45 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-16T06:38:38.466611+00:00",
+  "model": "template",
+  "created_at": "2026-07-16T16:56:55.722476+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "Two - Thirds of Americans Now Say Groceries Are Unaffordable",
     "Left - leaning group says state faces affordability crisis",
     "Supervisors back Lurie plan to cut affordable housing fees | Politics"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"주택 문제 해결 노력\",\n  \"one_liner\": \"지역 의회가 저렴한 주택 공급을 늘리기 위한 계획을 지지했어요.\",\n  \"why_now\": \"집값이 너무 올라서 많은 사람들이 살 곳을 찾기 어려워하는 상황이에요.\",\n  \"impact_line\": \"집값 안정화에 도움이 될 수 있을 것으로 기대돼요.\",\n  \"details\": [\n    \"지역 의회가 주택 공급을 늘리는 계획에 찬성했어요.\",\n    \"이 계획은 저렴한 주택을 더 많이 공급하는 것을 목표로 해요.\",\n    \"주택 가격 상승으로 인한 어려움을 해결하기 위한 노력의 일환이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"주택 공급이 늘어나면 집값 상승세가 둔화될 수 있어요!\",\n    \"더 많은 사람들이 저렴한 가격으로 집을 구할 수 있게 될 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"affordability crisis\",\n      \"easy\": \"집값이 너무 올라서 사람들이 살 곳을 구하기 어려운 심각한 상황을 말해요.\",\n      \"example\": \"집값 상승으로 인한 주거비 부담이 심각한 문제로 떠올랐어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "details 3문장 미만",
-     "effects[0] 느낌표 종결 아님",
-     "effects[1] 느낌표 종결 아님"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
    }
   ],
   "output": {
-   "title": "주택 문제 해결 노력",
-   "one_liner": "지역 의회가 저렴한 주택 공급을 늘리기 위한 계획을 지지했어요.",
-   "why_now": "집값이 너무 올라서 많은 사람들이 살 곳을 찾기 어려워하는 상황이에요.",
+   "title": "Two - Thirds of…",
+   "one_liner": "Two - Thirds of Americans Now Say Groceries Are…",
+   "why_now": null,
    "details": [
-    "지역 의회가 주택 공급을 늘리는 계획에 찬성했어요.",
-    "이 계획은 저렴한 주택을 더 많이 공급하는 것을 목표로 해요.",
-    "주택 가격 상승으로 인한 어려움을 해결하기 위한 노력의 일환이에요."
+    "Two - Thirds of Americans Now Say Groceries Are Unaffordable",
+    "Left - leaning group says state faces affordability crisis",
+    "Supervisors back Lurie plan to cut affordable housing fees | Politics"
    ],
-   "effects": [
-    "주택 공급이 늘어나면 집값 상승세가 둔화될 수 있어요!",
-    "더 많은 사람들이 저렴한 가격으로 집을 구할 수 있게 될 것으로 예상돼요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "b8118b5c95dd4ed63b29b5e75429fd3439a92933"
+  "fact_hash": "ff314bd29214751f14002b480b935378c2c089f5"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T16:56:55.722423+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -112,14 +124,14 @@
    "shared": []
   },
   {
-   "id": "ec247238ef99e4f49",
-   "title": "미국·이스라엘, 이란 공습으로 전쟁 시작",
+   "id": "c3f616975ed4f3095",
+   "title": "Letter : Time to see the light on DST",
    "category": "GEO",
    "shared": []
   },
   {
-   "id": "c3f616975ed4f3095",
-   "title": "Letter : Time to see the light on DST",
+   "id": "ec247238ef99e4f49",
+   "title": "미국·이스라엘, 이란 공습으로 전쟁 시작",
    "category": "GEO",
    "shared": []
   },
