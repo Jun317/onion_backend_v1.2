@@ -1,0 +1,131 @@
+{
+ "id": "c87753c82e77dfabb",
+ "title": "Michigan governor candidates offer competing plans to improve economic growth in the state",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 90,
+ "created_at": "2026-07-16T06:38:34.932905+00:00",
+ "last_update": "2026-07-16T06:38:34.934772+00:00",
+ "members": [
+  {
+   "id": "f4588b47b025e08ae2a557e6e4cfa215bb2ab5fc",
+   "source": "clickondetroit.com",
+   "tier": "wire",
+   "url": "https://www.clickondetroit.com/news/local/2026/07/16/michigan-governor-candidates-offer-competing-plans-to-improve-economic-growth-in-the-state/",
+   "title": "Michigan governor candidates offer competing plans to improve economic growth in the state",
+   "published_at": "2026-07-16T05:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9558
+  },
+  {
+   "id": "736806fc105975c5ae3c5c8507a4c7c36a2530d0",
+   "source": "investmentexecutive.com",
+   "tier": "wire",
+   "url": "https://www.investmentexecutive.com/soundbites/dividend-growers-offer-resilience-in-uncertain-markets/",
+   "title": "Dividend growers offer resilience in uncertain markets",
+   "published_at": "2026-07-16T05:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9558
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Michigan governor candidates offer competing plans to improve economic growth in the state",
+   "source": "clickondetroit.com",
+   "url": "https://www.clickondetroit.com/news/local/2026/07/16/michigan-governor-candidates-offer-competing-plans-to-improve-economic-growth-in-the-state/",
+   "at": "2026-07-16T05:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Dividend growers offer resilience in uncertain markets",
+   "source": "investmentexecutive.com",
+   "url": "https://www.investmentexecutive.com/soundbites/dividend-growers-offer-resilience-in-uncertain-markets/",
+   "at": "2026-07-16T05:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-16T06:38:44.011482+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [],
+   "headlines": [
+    "Michigan governor candidates offer competing plans to improve economic growth in the state",
+    "Dividend growers offer resilience in uncertain markets"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"미국 주식 시장 변동성\", \"one_liner\": \"미국 주식 시장이 불확실한 상황에서도 배당금을 늘리는 기업들이 주목받고 있어요.\", \"why_now\": \"경제가 불안정할 때 배당금을 꾸준히 주는 회사는 투자자들에게 안정적인 수익을 줄 수 있기 때문이에요.\", \"impact_line\": \"배당금을 주는 기업의 주가가 상대적으로 안정적일 수 있어요.\", \"details\": [\"미국 주식 시장의 불확실성이 커지고 있어요.\", \"이런 상황에서 배당금을 꾸준히 늘리는 기업들이 투자자들에게 좋은 선택지가 될 수 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"배당금을 늘리는 기업들은 시장 상황이 좋지 않을 때도 주가 하락폭이 상대적으로 작을 수 있어요!\", \"안정적인 현금 흐름을 제공하는 기업에 대한 관심이 높아질 것으로 예상돼요!\"], \"glossary\": [{\"term\": \"배당금\", \"easy\": \"회사가 이익의 일부를 주주들에게 나눠주는 돈이에요.\", \"example\": \"주식 투자를 하면 회사가 번 돈의 일부를 배당금으로 받을 수 있어요.\"}], \"market_cap\": \"none\"}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(56)",
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Michigan governor…",
+   "one_liner": "Michigan governor candidates offer competing…",
+   "why_now": null,
+   "details": [
+    "Michigan governor candidates offer competing plans to improve economic growth in the state",
+    "Dividend growers offer resilience in uncertain markets"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "9ea7d0c1d838c2d641c55f4d26f3794347903646"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(56)\", \"details 3문장 미만\"]}]}",
+  "at": "2026-07-16T06:38:44.011337+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c48db748fde00c8f7",
+   "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c14016c7f068ead39",
+   "title": "Trade deficit hits decade - high $39 . 4b",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "e9c31d48ae9cd3dd3",
+   "title": "미국 CPI 2026-06 발표",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "e370bf1a63a2ea425",
+   "title": "한국 소비자물가 2026-04 발표",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c3fb251faf6711ace",
+   "title": "'26.5월 산업활동동향 및 평가",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}
