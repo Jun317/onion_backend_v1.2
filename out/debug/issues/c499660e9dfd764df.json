@@ -87,40 +87,42 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-16T14:31:07.473475+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-16T18:37:31.237368+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Air New Zealand Unveils New Boeing 777 Business and Economy Cabins",
     "Air New Zealand reveals new cabin upgrades for Boeing 777 aircraft",
     "Vantage Investment Partners LLC Makes New $487 , 000 Investment in The Boeing Company $BA",
     "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"보잉 777기 개조\",\n   \"one_liner\": \"뉴질랜드 항공이 보잉 777기 비즈니스·이코노미석을 새로했어요\",\n   \"why_now\": \"항공사가 기내 시설을 업그레이드하면 승객이 더 편하게 여행할 수 있어요\",\n   \"impact_line\": \"뉴질랜드 항공을 타는 승객이 더 편해질 수 있어요\",\n   \"details\": [\n      \"뉴질랜드 항공이 보잉 777기 비즈니스·이코노미석을 새로했어요\",\n      \"보잉의 주가가 오르는 데 지장이 없었어요\",\n      \"투자 전문가가 보잉에 돈을 넣었어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"뉴질랜드 항공이 더 많은 승객을 유치할 수 있어요!\",\n      \"보잉의 수익이 늘어날 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Air New Zealand…",
-   "one_liner": "Air New Zealand reveals new cabin upgrades for…",
-   "why_now": null,
+   "title": "보잉 777기 개조",
+   "one_liner": "뉴질랜드 항공이 보잉 777기 비즈니스·이코노미석을 새로했어요",
+   "why_now": "항공사가 기내 시설을 업그레이드하면 승객이 더 편하게 여행할 수 있어요",
    "details": [
-    "Air New Zealand reveals new cabin upgrades for Boeing 777 aircraft",
-    "Vantage Investment Partners LLC Makes New $487 , 000 Investment in The Boeing Company $BA",
-    "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares"
+    "뉴질랜드 항공이 보잉 777기 비즈니스·이코노미석을 새로했어요",
+    "보잉의 주가가 오르는 데 지장이 없었어요",
+    "투자 전문가가 보잉에 돈을 넣었어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "뉴질랜드 항공이 더 많은 승객을 유치할 수 있어요!",
+    "보잉의 수익이 늘어날 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "655e64eac328641e25a22259958f382dea731f85"
+  "fact_hash": "881f3baca162bf5bb214550e1aeb60df4ff42033"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
