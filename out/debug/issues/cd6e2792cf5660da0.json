@@ -2,16 +2,36 @@
  "id": "cd6e2792cf5660da0",
  "title": "Standard Chartered Warns Of Slower Nigerian Rate Cuts As Inflation Risks Linger",
  "category": "RATE",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 105,
+ "seen_sources": 4,
+ "importance": 120,
  "created_at": "2026-07-16T06:38:34.930024+00:00",
- "last_update": "2026-07-16T06:38:34.930024+00:00",
+ "last_update": "2026-07-16T09:34:35.605924+00:00",
  "members": [
+  {
+   "id": "2dc8ce02349e7f15e50efc6a36f02b5548c1d9ee",
+   "source": "bssnews.net",
+   "tier": "wire",
+   "url": "https://www.bssnews.net/business/406099",
+   "title": "South Korea central bank hikes rates amid chip boom",
+   "published_at": "2026-07-16T05:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8874
+  },
+  {
+   "id": "fc1d019e62eeebaeb177582790024eff62bde3a6",
+   "source": "thenational.com.pg",
+   "tier": "wire",
+   "url": "https://www.thenational.com.pg/businesses-warned-on-unfair-prices-during-el-nino/",
+   "title": "Businesses warned on unfair prices during El - Nino",
+   "published_at": "2026-07-16T05:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9014
+  },
   {
    "id": "dafa83de727eb1e2cb499d704b990245d4d835e4",
    "source": "naija247news.com",
@@ -20,7 +40,7 @@
    "title": "Standard Chartered Warns Of Slower Nigerian Rate Cuts As Inflation Risks Linger",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9664
+   "sim_to_centroid": 0.965
   },
   {
    "id": "0cdc1ee2c1d15678a8b4dbc3f5de67699a90f2fb",
@@ -30,11 +50,35 @@
    "title": "Nigerian Businesses Stay Upbeat Despite High Taxes , Rates Squeeze",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9664
+   "sim_to_centroid": 0.9598
+  },
+  {
+   "id": "506fd48db93463bd5bac10d936fada9cbd2f9ca7",
+   "source": "punchng.com",
+   "tier": "wire",
+   "url": "https://punchng.com/poverty-threatens-79-of-nigerians-despite-reforms-world-bank/",
+   "title": "Nigerian Poverty Threatens 79 % Despite Reforms – World Bank",
+   "published_at": "2026-07-16T05:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8978
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "South Korea central bank hikes rates amid chip boom",
+   "source": "bssnews.net",
+   "url": "https://www.bssnews.net/business/406099",
+   "at": "2026-07-16T05:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Businesses warned on unfair prices during El - Nino",
+   "source": "thenational.com.pg",
+   "url": "https://www.thenational.com.pg/businesses-warned-on-unfair-prices-during-el-nino/",
+   "at": "2026-07-16T05:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Standard Chartered Warns Of Slower Nigerian Rate Cuts As Inflation Risks Linger",
@@ -48,11 +92,77 @@
    "source": "naija247news.com",
    "url": "https://naija247news.com/nigerian-businesses-stay-upbeat-despite-high-taxes-rates-squeeze/",
    "at": "2026-07-16T05:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Nigerian Poverty Threatens 79 % Despite Reforms – World Bank",
+   "source": "punchng.com",
+   "url": "https://punchng.com/poverty-threatens-79-of-nigerians-despite-reforms-world-bank/",
+   "at": "2026-07-16T05:00:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-16T09:34:53.003868+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [],
+   "headlines": [
+    "South Korea central bank hikes rates amid chip boom",
+    "Businesses warned on unfair prices during El - Nino",
+    "Standard Chartered Warns Of Slower Nigerian Rate Cuts As Inflation Risks Linger",
+    "Nigerian Businesses Stay Upbeat Despite High Taxes , Rates Squeeze",
+    "Nigerian Poverty Threatens 79 % Despite Reforms – World Bank"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"금리 인상\",\n   \"one_liner\": \"한국은행이 기준금리를 올렸어요\",\n   \"why_now\": \"금리를 올리면 물가가 안정되는 게 보통이에요\",\n   \"impact_line\": \"대출금리와 소비자 물가가 오를 수 있어요\",\n   \"details\": [\n       \"한국은행이 기준금리를 올렸어요\",\n       \"반도체 호황이 계속되고 있어요\",\n       \"기업들이 부당한 가격을 책정하지 않도록 주의해야 해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"대출금리가 오르면 소비자들이 물건을 사는 것이 어려워질 수 있어요!\",\n       \"물가가 안정되면 경제가 더 안정적으로 돌아갈 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "금리 인상",
+   "one_liner": "한국은행이 기준금리를 올렸어요",
+   "why_now": "금리를 올리면 물가가 안정되는 게 보통이에요",
+   "details": [
+    "한국은행이 기준금리를 올렸어요",
+    "반도체 호황이 계속되고 있어요",
+    "기업들이 부당한 가격을 책정하지 않도록 주의해야 해요"
+   ],
+   "effects": [
+    "대출금리가 오르면 소비자들이 물건을 사는 것이 어려워질 수 있어요!",
+    "물가가 안정되면 경제가 더 안정적으로 돌아갈 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "5db1899a379e2e4f4f3c010c42db103d2dc34547"
+ },
  "review": null,
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리 인상",
+   "easy": "이자의 기준을 올리는 거예요.",
+   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
+  },
+  {
+   "term": "한국은행",
+   "easy": "우리나라 돈을 관리하는 중앙은행이에요.",
+   "example": "한국 기준금리를 여기서 정해요."
+  },
+  {
+   "term": "기준금리",
+   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
+   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "e77a7b1c911ca1d26",

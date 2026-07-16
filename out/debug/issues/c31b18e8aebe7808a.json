@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 50,
+ "seen_sources": 3,
+ "importance": 55,
  "created_at": "2026-07-16T06:38:34.931867+00:00",
- "last_update": "2026-07-16T06:38:34.934599+00:00",
+ "last_update": "2026-07-16T09:34:35.602907+00:00",
  "members": [
+  {
+   "id": "78403ce5179fff79d177d4781a3240e93ec27b57",
+   "source": "urbanmilwaukee.com",
+   "tier": "wire",
+   "url": "https://urbanmilwaukee.com/pressrelease/gov-evers-wedc-announce-realta-fusion-to-relocate-corporate-headquarters-to-former-oscar-mayer-plant-in-madison-boosting-states-carbon-free-electricity-efforts/",
+   "title": "Gov . Evers , WEDC Announce Realta Fusion to Relocate Corporate Headquarters to Former Oscar Mayer Plant in Madison , Boosting State Carbon - Free Electricity Efforts » Urban Milwaukee",
+   "published_at": "2026-07-16T05:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8556
+  },
   {
    "id": "bf95c99a357fd133da93fcd09c2b862e4e1cf087",
    "source": "prnewswire.com",
@@ -20,7 +30,7 @@
    "title": "Csquare , Inc . Announces Pricing of Initial Public Offering",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9544
+   "sim_to_centroid": 0.9518
   },
   {
    "id": "c621204ffc939a20b9472e4c3093407e30893628",
@@ -30,7 +40,7 @@
    "title": "PhotonPay Officially Opens São Paulo Office , Accelerating Strategic Expansion into Latin America",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9543
+   "sim_to_centroid": 0.9538
   }
  ],
  "anchors": [],
@@ -44,6 +54,13 @@
   },
   {
    "kind": "headline",
+   "title": "Gov . Evers , WEDC Announce Realta Fusion to Relocate Corporate Headquarters to Former Oscar Mayer Plant in Madison , Boosting State Carbon - Free Electricity Efforts » Urban Milwaukee",
+   "source": "urbanmilwaukee.com",
+   "url": "https://urbanmilwaukee.com/pressrelease/gov-evers-wedc-announce-realta-fusion-to-relocate-corporate-headquarters-to-former-oscar-mayer-plant-in-madison-boosting-states-carbon-free-electricity-efforts/",
+   "at": "2026-07-16T05:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "PhotonPay Officially Opens São Paulo Office , Accelerating Strategic Expansion into Latin America",
    "source": "manilatimes.net",
    "url": "https://www.manilatimes.net/2026/07/16/tmt-newswire/pr-newswire/photonpay-officially-opens-so-paulo-office-accelerating-strategic-expansion-into-latin-america/2385558",
@@ -52,11 +69,12 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-16T06:43:28.845176+00:00",
+  "created_at": "2026-07-16T09:45:50.241184+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Gov . Evers , WEDC Announce Realta Fusion to Relocate Corporate Headquarters to Former Oscar Mayer Plant in Madison , Boosting State Carbon - Free Electricity Efforts » Urban Milwaukee",
     "Csquare , Inc . Announces Pricing of Initial Public Offering",
     "PhotonPay Officially Opens São Paulo Office , Accelerating Strategic Expansion into Latin America"
    ],
@@ -72,24 +90,31 @@
    }
   ],
   "output": {
-   "title": "Csquare , Inc .…",
-   "one_liner": "Csquare , Inc . Announces Pricing of Initial…",
+   "title": "Gov . Evers , WEDC…",
+   "one_liner": "Gov . Evers , WEDC Announce Realta Fusion to…",
    "why_now": null,
    "details": [
+    "Gov . Evers , WEDC Announce Realta Fusion to Relocate Corporate Headquarters to Former Oscar Mayer Plant in Madison , Boosting State Carbon - Free Electricity Efforts » Urban Milwaukee",
     "Csquare , Inc . Announces Pricing of Initial Public Offering",
     "PhotonPay Officially Opens São Paulo Office , Accelerating Strategic Expansion into Latin America"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "cc303a9343d7dc9494fef0d03f35b77919cf8fa4"
+  "fact_hash": "35aae7349c648fb4d3de8daf776e76190d5d086d"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-16T06:43:28.845126+00:00"
+  "at": "2026-07-16T09:45:50.241123+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c2fe47d2110ccdaa3",
+   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "category": "EARNINGS",
+   "shared": []
+  },
   {
    "id": "c2ddb2c1db0cafd3b",
    "title": "Wells Fargo bounces off 52 - week lows . What it must do to get out of the penalty box",
@@ -111,12 +136,6 @@
   {
    "id": "c234d1ab555de608e",
    "title": "Johnson & Johnson $JNJ Shares Acquired by Main Street Research LLC",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c0ce91eaf69284897",
-   "title": "DWS Group GmbH & Co . KGaA ( ETR : DWS ) Stock Price Up 0 . 7 % – Still a Buy ?",
    "category": "EARNINGS",
    "shared": []
   }

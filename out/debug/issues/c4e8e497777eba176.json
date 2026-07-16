@@ -87,8 +87,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-16T04:45:01.121481+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-16T09:36:42.322662+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -100,26 +100,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"릴리 주식 거래 소식\",\n  \"one_liner\": \"여러 기관에서 릴리 주식을 사고팔고 있다는 소식이 있어요.\",\n  \"why_now\": \"회사의 주가가 오르내리는 데는 기관의 거래가 큰 영향을 줄 수 있어요.\",\n  \"impact_line\": \"주가 변동에 따라 투자에 영향을 받을 수 있어요.\",\n  \"details\": [\n    \"릴리 회사 주식을 일부 기관이 팔았어요.\",\n    \"다른 기관은 릴리 회사 주식을 더 많이 사들였어요.\",\n    \"증권사들은 릴리 회사에 대해 '사도 괜찮다'는 의견을 내고 있어요.\",\n    \"회사가 비만 치료제 시장에서 어떤 흐름을 보일지 주목하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"회사의 비만 치료제 관련 소식이 주가에 영향을 줄 수 있어요!\",\n    \"기관의 매수·매도 움직임에 따라 주가가 오르내릴 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"비만 치료제\",\n      \"easy\": \"체중 감량을 돕는 약을 말해요.\",\n      \"example\": \"비만 치료제는 건강 관리에 관심 있는 사람들이 많이 찾아요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects[1] 느낌표 종결 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Bryn Mawr Trust…",
-   "one_liner": "Bryn Mawr Trust Advisors LLC Sells 1 , 049…",
-   "why_now": null,
+   "title": "릴리 주식 거래 소식",
+   "one_liner": "여러 기관에서 릴리 주식을 사고팔고 있다는 소식이 있어요.",
+   "why_now": "회사의 주가가 오르내리는 데는 기관의 거래가 큰 영향을 줄 수 있어요.",
    "details": [
-    "Bryn Mawr Trust Advisors LLC Sells 1 , 049 Shares of Eli Lilly and Company $LLY",
-    "Is This Disturbing Trend Bad News for Eli Lilly in the Billion - Dollar Obesity Drug Market ?",
-    "Eli Lilly and Company ( NYSE : LLY ) Receives Consensus Recommendation of  Moderate Buy  from Brokerages"
+    "릴리 회사 주식을 일부 기관이 팔았어요.",
+    "다른 기관은 릴리 회사 주식을 더 많이 사들였어요.",
+    "증권사들은 릴리 회사에 대해 '사도 괜찮다'는 의견을 내고 있어요.",
+    "회사가 비만 치료제 시장에서 어떤 흐름을 보일지 주목하고 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "회사의 비만 치료제 관련 소식이 주가에 영향을 줄 수 있어요!",
+    "기관의 매수·매도 움직임에 따라 주가가 오르내릴 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "7719a540579f9d2b2cd7a47a24092678cd8ea7fc"
  },

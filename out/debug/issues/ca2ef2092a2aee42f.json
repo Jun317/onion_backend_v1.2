@@ -2,16 +2,26 @@
  "id": "ca2ef2092a2aee42f",
  "title": "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices",
  "category": "POLICY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 75,
+ "seen_sources": 2,
+ "importance": 80,
  "created_at": "2026-07-16T06:38:34.931582+00:00",
- "last_update": "2026-07-16T06:38:34.931582+00:00",
+ "last_update": "2026-07-16T09:34:35.605884+00:00",
  "members": [
+  {
+   "id": "04e81d7ef26216d20a35b44b9b7b381f9b2199a3",
+   "source": "clickondetroit.com",
+   "tier": "wire",
+   "url": "https://www.clickondetroit.com/business/2026/07/16/us-imposing-a-25-tariff-on-some-brazilian-imports-starting-july-22-citing-unfair-trade-practices/",
+   "title": "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices",
+   "published_at": "2026-07-16T05:15:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.9994
+  },
   {
    "id": "e7378812a84fc78b661ee21c52daf8548f4059e5",
    "source": "clickorlando.com",
@@ -20,7 +30,17 @@
    "title": "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9994
+  },
+  {
+   "id": "ff28bed08eb83d5801f53b0232f9de66087fd9ac",
+   "source": "aninews.in",
+   "tier": "wire",
+   "url": "https://aninews.in/news/business/us-imposes-25-pc-tarrif-on-brazil-lamentable-milestone-violation-of-trade-rules-says-brazil20260716095338/",
+   "title": "US imposes 25 pc tarrif on Brazil ;  lamentable milestone , violation of trade rules , says Brazil",
+   "published_at": "2026-07-16T05:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9459
   },
   {
    "id": "d55070b3318e3b9968f1da4302a63c6096bfdc3b",
@@ -30,7 +50,7 @@
    "title": "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9994
   }
  ],
  "anchors": [],
@@ -45,18 +65,74 @@
   {
    "kind": "headline",
    "title": "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices",
+   "source": "clickondetroit.com",
+   "url": "https://www.clickondetroit.com/business/2026/07/16/us-imposing-a-25-tariff-on-some-brazilian-imports-starting-july-22-citing-unfair-trade-practices/",
+   "at": "2026-07-16T05:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US imposes 25 pc tarrif on Brazil ;  lamentable milestone , violation of trade rules , says Brazil",
+   "source": "aninews.in",
+   "url": "https://aninews.in/news/business/us-imposes-25-pc-tarrif-on-brazil-lamentable-milestone-violation-of-trade-rules-says-brazil20260716095338/",
+   "at": "2026-07-16T05:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices",
    "source": "mynorthwest.com",
    "url": "https://mynorthwest.com/national/us-imposing-a-25-tariff-on-some-brazilian-imports-starting-july-22-citing-unfair-trade-practices/4257341",
    "at": "2026-07-16T05:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-16T09:39:36.196223+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "US imposes 25 pc tarrif on Brazil ;  lamentable milestone , violation of trade rules , says Brazil",
+    "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US imposes 25 pc…",
+   "one_liner": "US imposes 25 pc tarrif on Brazil ;  lamentable…",
+   "why_now": null,
+   "details": [
+    "US imposes 25 pc tarrif on Brazil ;  lamentable milestone , violation of trade rules , says Brazil",
+    "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "d137f8fa33d870800fea5e470d95fee120ca65cf"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T09:39:36.196172+00:00"
+ },
  "glossary": [],
  "related": [
   {
    "id": "cde343d4cab397faf",
    "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c0dce797f417a7342",
+   "title": "First Solar ( FSLR ) Stock Sees Modest Fair Value Lift As Analysts Weigh Tariffs And Tax Credits",
    "category": "POLICY",
    "shared": []
   },
@@ -67,20 +143,14 @@
    "shared": []
   },
   {
-   "id": "cf38973aa7e2574f7",
-   "title": "US Senate Bill Could Hit India With Up To 100 % Tariffs Over Russian Oil Imports",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
    "id": "ccd46c7722590bf65",
    "title": "EXPLAINER - What changes under the united kingdom - EU Gibraltar agreement ?",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "cc201cf94031ec01f",
-   "title": "[보도자료] 한미전략투자공사 및 정책금융기관-조선3사간 한미 조선협력투자 업무협약 체결",
+   "id": "cf38973aa7e2574f7",
+   "title": "US Senate Bill Could Hit India With Up To 100 % Tariffs Over Russian Oil Imports",
    "category": "POLICY",
    "shared": []
   }

@@ -7,10 +7,10 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 50,
+ "seen_sources": 3,
+ "importance": 55,
  "created_at": "2026-07-16T06:38:34.931194+00:00",
- "last_update": "2026-07-16T06:38:34.934482+00:00",
+ "last_update": "2026-07-16T09:34:35.600717+00:00",
  "members": [
   {
    "id": "5676acef94dd4ca247e1d0eb3c057ff7781f44d6",
@@ -20,7 +20,17 @@
    "title": "Why Sandisk Stock Popped Today",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9547
+   "sim_to_centroid": 0.9537
+  },
+  {
+   "id": "a8d4ee885dd9717bd9e651bfc1e182651feb7197",
+   "source": "newswithviews.com",
+   "tier": "wire",
+   "url": "https://newswithviews.com/fake-news-and-tds-at-cnbc/",
+   "title": "Fake News and TDS at CNBC",
+   "published_at": "2026-07-16T05:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8798
   },
   {
    "id": "db45b321874ebf49c191c5f3e417c0e7471283c3",
@@ -30,7 +40,7 @@
    "title": "Big Pharma Just Started Buying Up Psychedelic Companies",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9547
+   "sim_to_centroid": 0.9531
   }
  ],
  "anchors": [],
@@ -44,6 +54,13 @@
   },
   {
    "kind": "headline",
+   "title": "Fake News and TDS at CNBC",
+   "source": "newswithviews.com",
+   "url": "https://newswithviews.com/fake-news-and-tds-at-cnbc/",
+   "at": "2026-07-16T05:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Big Pharma Just Started Buying Up Psychedelic Companies",
    "source": "zerohedge.com",
    "url": "https://www.zerohedge.com/news/2026-07-15/big-pharma-just-started-buying-psychedelic-companies",
@@ -52,12 +69,13 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-16T06:43:47.387593+00:00",
+  "created_at": "2026-07-16T09:46:09.014772+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
     "Why Sandisk Stock Popped Today",
+    "Fake News and TDS at CNBC",
     "Big Pharma Just Started Buying Up Psychedelic Companies"
    ],
    "official_lines": []
@@ -77,19 +95,26 @@
    "why_now": null,
    "details": [
     "Why Sandisk Stock Popped Today",
+    "Fake News and TDS at CNBC",
     "Big Pharma Just Started Buying Up Psychedelic Companies"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "1d13a1553cef0bd8ed7b2e2e7f9b1b18ecba639e"
+  "fact_hash": "a7f7dd9db0456890d094050dcce70153a51bba71"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-16T06:43:47.387536+00:00"
+  "at": "2026-07-16T09:46:09.014714+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c2fe47d2110ccdaa3",
+   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "category": "EARNINGS",
+   "shared": []
+  },
   {
    "id": "c2ddb2c1db0cafd3b",
    "title": "Wells Fargo bounces off 52 - week lows . What it must do to get out of the penalty box",
@@ -111,12 +136,6 @@
   {
    "id": "c234d1ab555de608e",
    "title": "Johnson & Johnson $JNJ Shares Acquired by Main Street Research LLC",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c0ce91eaf69284897",
-   "title": "DWS Group GmbH & Co . KGaA ( ETR : DWS ) Stock Price Up 0 . 7 % – Still a Buy ?",
    "category": "EARNINGS",
    "shared": []
   }

@@ -10,7 +10,7 @@
   "IBM"
  ],
  "seen_sources": 13,
- "importance": 105,
+ "importance": 100,
  "created_at": "2026-07-14T14:20:58.036576+00:00",
  "last_update": "2026-07-15T09:26:00.495243+00:00",
  "members": [
@@ -291,8 +291,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-16T04:44:24.401352+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-16T09:36:17.838800+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -305,25 +305,32 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 주식 소폭 상승\",\n  \"one_liner\": \"미국 주식 시장이 물가 상승세 둔화 소식에 소폭 올랐어요.\",\n  \"why_now\": \"물가 상승이 둔화하면 금리가 오르지 않아 경제에 긍정적인 영향을 줄 수 있어요.\",\n  \"impact_line\": \"주식 시장이 안정되면 투자 심리가 좋아질 수 있어요.\",\n  \"details\": [\n    \"미국의 물가 상승세가 둔화했다는 발표가 나왔어요.\",\n    \"이 발표 이후 미국 주식 시장이 상승세를 보였어요.\",\n    \"하지만 IBM 주가는 실적 경고로 크게 떨어졌어요.\"\n  ],\n  \"visual_type\": \"us_10y\",\n  \"effects\": [\n    \"물가 상승이 둔화하면 금리 인상 가능성이 낮아져 주식 시장에 긍정적인 영향을 줄 수 있어요!\",\n    \"기업 실적 발표에 따라 개별 종목의 주가 변동성이 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"물가 상승세 둔화\",\n      \"easy\": \"물건이나 서비스 가격이 오르는 속도가 느려지는 것을 말해요.\",\n      \"example\": \"지난달보다 과자 가격이 덜 올랐어요.\"\n    },\n    {\n      \"term\": \"실적 경고\",\n      \"easy\": \"회사가 앞으로 벌어들일 돈(이익)이 예상보다 적을 것이라고 미리 알리는 것을 말해요.\",\n      \"example\": \"회사가 올해 이익이 줄 것 같다고 미리 알려줬어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects[1] 느낌표 종결 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "US stocks tick…",
-   "one_liner": "US stocks tick higher after data shows slowing…",
-   "why_now": null,
+   "title": "미국 주식 소폭 상승",
+   "one_liner": "미국 주식 시장이 물가 상승세 둔화 소식에 소폭 올랐어요.",
+   "why_now": "물가 상승이 둔화하면 금리가 오르지 않아 경제에 긍정적인 영향을 줄 수 있어요.",
    "details": [
-    "US stocks tick higher after data shows slowing inflation , even as IBM plunges",
-    "Markets today : U . S . stocks rise after slowing inflation , IBM plunges",
-    "THE CLOSING BELL : US stocks rise after data shows slowing inflation , even as IBM plunges"
+    "미국의 물가 상승세가 둔화했다는 발표가 나왔어요.",
+    "이 발표 이후 미국 주식 시장이 상승세를 보였어요.",
+    "하지만 IBM 주가는 실적 경고로 크게 떨어졌어요."
    ],
-   "effects": [],
+   "effects": [
+    "물가 상승이 둔화하면 금리 인상 가능성이 낮아져 주식 시장에 긍정적인 영향을 줄 수 있어요!",
+    "기업 실적 발표에 따라 개별 종목의 주가 변동성이 커질 수 있어요!"
+   ],
    "visual_type": "us_10y"
   },
   "fact_hash": "c159a382bf3b4e33bae405905cdde88f1b9f4569"
@@ -332,7 +339,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-16T04:44:24.401298+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "c72702defa15d1f1f",

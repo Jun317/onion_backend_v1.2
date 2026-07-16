@@ -38,7 +38,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-16T03:46:36.284887+00:00",
+  "created_at": "2026-07-16T09:38:40.091152+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [
@@ -57,19 +57,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"미국 소비자물가 상승률\",\n\"one_liner\": \"미국 소비자물가 상승률이 3.46%를 기록했어요.\",\n\"why_now\": \"소비자물가는 전반적인 물가 수준을 보여주며 경제 상황을 파악하는 데 중요해요.\",\n\"details\": [\n\"미국 소비자물가 상승률이 3.46%로 집계됐어요.\",\n\"이는 2026년 6월 수치예요.\"\n],\n\"visual_type\": \"us_cpi_yoy\",\n\"effects\": [\n\"물가 상승이 지속되면 금리 인상 가능성이 높아질 수 있어요!\",\n\"소비자들의 구매력이 약화될 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"CPI(YoY%)\",\n\"easy\": \"소비자물가지수가 작년 같은 기간보다 얼마나 올랐는지 보여주는 수치예요.\",\n\"example\": \"작년보다 물건값이 3% 올랐다는 뜻이에요.\"\n}\n]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [3.46]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "입력에 없는 숫자: [3.46]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -83,11 +76,11 @@
    "effects": [],
    "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "34192b82ec12fc2838f4b86f910c51168c2d0a04"
+  "fact_hash": "23ab769aaa6b03d73c1331c879427daacca343b7"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [3.46]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [3.46]\"]}]}",
-  "at": "2026-07-16T03:46:36.284792+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T09:38:40.091100+00:00"
  },
  "glossary": [
   {
@@ -98,14 +91,14 @@
  ],
  "related": [
   {
-   "id": "c48db748fde00c8f7",
-   "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
    "category": "MACRO",
    "shared": []
   },
   {
-   "id": "c87753c82e77dfabb",
-   "title": "Michigan governor candidates offer competing plans to improve economic growth in the state",
+   "id": "c48db748fde00c8f7",
+   "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
    "category": "MACRO",
    "shared": []
   },
@@ -116,14 +109,14 @@
    "shared": []
   },
   {
-   "id": "e370bf1a63a2ea425",
-   "title": "한국 소비자물가 2026-04 발표",
+   "id": "c87753c82e77dfabb",
+   "title": "Michigan governor candidates offer competing plans to improve economic growth in the state",
    "category": "MACRO",
    "shared": []
   },
   {
-   "id": "c3fb251faf6711ace",
-   "title": "'26.5월 산업활동동향 및 평가",
+   "id": "e370bf1a63a2ea425",
+   "title": "한국 소비자물가 2026-04 발표",
    "category": "MACRO",
    "shared": []
   }

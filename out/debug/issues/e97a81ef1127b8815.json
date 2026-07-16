@@ -158,8 +158,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-16T04:43:28.946024+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-16T09:34:49.719068+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [
@@ -225,27 +225,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 기준금리 인하\",\n  \"one_liner\": \"미국 중앙은행(Fed)이 기준금리를 내려 연 3.50~3.75%가 됐어요.\",\n  \"why_now\": \"금리가 내리면 돈을 빌리는 비용이 줄어 경제 활동이 활발해질 수 있어요.\",\n  \"impact_line\": \"미국 금리 인하는 한국 금리에도 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"미국 중앙은행(Fed)이 기준금리를 0.25%p 인하했어요.\",\n    \"이번 결정으로 기준금리는 연 3.50~3.75% 범위가 됐어요.\",\n    \"이는 올해 들어 세 번째 금리 인하예요.\",\n    \"이전에도 두 차례 연속 금리가 인하된 바 있어요.\"\n  ],\n  \"visual_type\": \"us_policy_rate\",\n  \"effects\": [\n    \"한국은행도 미국 금리 인하에 맞춰 기준금리를 내릴 가능성이 있어요!\",\n    \"금리가 내리면 국내 대출 이자 부담이 줄어들 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"Fed\",\n      \"easy\": \"미국 중앙은행을 말해요. 나라의 돈을 관리하고 금리를 결정해요.\",\n      \"example\": \"Fed가 금리를 올리면 미국 주식 시장이 흔들릴 수 있어요.\"\n    },\n    {\n      \"term\": \"기준금리\",\n      \"easy\": \"한국은행이 정하는 나라의 기본 이자율이에요.\",\n      \"example\": \"기준금리가 내리면 대출 이자도 보통 따라 내려요.\"\n    },\n    {\n      \"term\": \"bp\",\n      \"easy\": \"금리나 수익률의 아주 작은 변화 단위를 말해요. 1bp는 0.01%예요.\",\n      \"example\": \"금리가 25bp 오르면 0.25%p 오르는 거예요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Fed 기준금리 3.64%",
-   "one_liner": "Fed 기준금리가 3.89%에서 3.64%로 바뀌었어요",
-   "why_now": null,
+   "title": "미국 기준금리 인하",
+   "one_liner": "미국 중앙은행(Fed)이 기준금리를 내려 연 3.50~3.75%가 됐어요.",
+   "why_now": "금리가 내리면 돈을 빌리는 비용이 줄어 경제 활동이 활발해질 수 있어요.",
    "details": [
-    "Fed 기준금리: 3.64% (직전 3.89%)",
-    "Fed 변동폭: -25.0bp",
-    "Fed 기준금리: 3.87% (직전 4.12%)",
-    "Fed 변동폭: -25.0bp"
+    "미국 중앙은행(Fed)이 기준금리를 0.25%p 인하했어요.",
+    "이번 결정으로 기준금리는 연 3.50~3.75% 범위가 됐어요.",
+    "이는 올해 들어 세 번째 금리 인하예요.",
+    "이전에도 두 차례 연속 금리가 인하된 바 있어요."
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "한국은행도 미국 금리 인하에 맞춰 기준금리를 내릴 가능성이 있어요!",
+    "금리가 내리면 국내 대출 이자 부담이 줄어들 수 있어요!"
+   ],
+   "visual_type": "us_policy_rate"
   },
   "fact_hash": "e9c5aeeb1ced815375c79012812bd590ddf3cc4f"
  },
@@ -260,9 +261,19 @@
    "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
   },
   {
-   "term": "bp",
-   "easy": "이자를 재는 아주 작은 단위예요. 1bp는 0.01%예요.",
-   "example": "25bp면 0.25%를 뜻해요."
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "금리 인하",
+   "easy": "이자의 기준을 낮추는 거예요.",
+   "example": "대출 이자가 줄어 돈 쓰기가 조금 수월해져요."
   }
  ],
  "related": [
@@ -273,6 +284,20 @@
    "shared": [
     "FED"
    ]
+  },
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": [
+    "FED"
+   ]
+  },
+  {
+   "id": "cd6e2792cf5660da0",
+   "title": "Standard Chartered Warns Of Slower Nigerian Rate Cuts As Inflation Risks Linger",
+   "category": "RATE",
+   "shared": []
   },
   {
    "id": "cc9931e5da1b53be2",

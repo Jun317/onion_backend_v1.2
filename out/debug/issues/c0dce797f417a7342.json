@@ -2,15 +2,15 @@
  "id": "c0dce797f417a7342",
  "title": "First Solar ( FSLR ) Stock Sees Modest Fair Value Lift As Analysts Weigh Tariffs And Tax Credits",
  "category": "POLICY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 75,
+ "seen_sources": 4,
+ "importance": 90,
  "created_at": "2026-07-16T06:38:34.930551+00:00",
- "last_update": "2026-07-16T06:38:34.930551+00:00",
+ "last_update": "2026-07-16T09:34:35.605906+00:00",
  "members": [
   {
    "id": "4a54d8b30cb9554f62d3f5502c1a4b58e092ef40",
@@ -20,7 +20,7 @@
    "title": "First Solar ( FSLR ) Stock Sees Modest Fair Value Lift As Analysts Weigh Tariffs And Tax Credits",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9621
+   "sim_to_centroid": 0.9556
   },
   {
    "id": "08d51372f28e0898b80bdde96118695a1cd311a2",
@@ -30,7 +30,37 @@
    "title": "Skyworks Solutions ( SWKS ) Prepares For Earnings , Is It Still Below Fair Value ?",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.962
+   "sim_to_centroid": 0.9587
+  },
+  {
+   "id": "05af2fd61b036a368d464ea5781c8ce2f9183a86",
+   "source": "businesstimes.com.sg",
+   "tier": "wire",
+   "url": "https://www.businesstimes.com.sg/international/global/spacex-shares-briefly-slip-below-ipo-price-first-time-blistering-rally-unravels",
+   "title": "SpaceX shares briefly slip below IPO price for first time as blistering rally unravels",
+   "published_at": "2026-07-16T05:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8795
+  },
+  {
+   "id": "e32363ee7fb5c2c726edb6aee75249072094745d",
+   "source": "tradersmagazine.com",
+   "tier": "wire",
+   "url": "https://www.tradersmagazine.com/am/the-great-equity-rotation-earnings-geopolitics-and-rates-test-market-leadership/",
+   "title": "The Great Equity Rotation : Earnings , Geopolitics and Rates Test Market Leadership",
+   "published_at": "2026-07-16T05:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8846
+  },
+  {
+   "id": "0184ba08f2c5810f099a36c9fa64678602713018",
+   "source": "timesofindia.indiatimes.com",
+   "tier": "wire",
+   "url": "https://timesofindia.indiatimes.com/technology/tech-news/analysts-calling-it-a-great-year-to-be-michael-dell-as-his-net-worth-has-jumped-over-80-billion-dells-shares-up-by-240-and-the-us-president-telling-americans-go-out-and-/articleshow/132428617.cms",
+   "title": "Analysts calling it a  great year  to be Michael Dell as his net worth has jumped over $80 billion , Dell shares up by 240 % and the US President telling Americans : Go out and ...",
+   "published_at": "2026-07-16T05:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8799
   }
  ],
  "anchors": [],
@@ -48,10 +78,71 @@
    "source": "finance.yahoo.com",
    "url": "https://finance.yahoo.com/markets/stocks/articles/skyworks-solutions-swks-prepares-earnings-043413033.html",
    "at": "2026-07-16T05:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "SpaceX shares briefly slip below IPO price for first time as blistering rally unravels",
+   "source": "businesstimes.com.sg",
+   "url": "https://www.businesstimes.com.sg/international/global/spacex-shares-briefly-slip-below-ipo-price-first-time-blistering-rally-unravels",
+   "at": "2026-07-16T05:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "The Great Equity Rotation : Earnings , Geopolitics and Rates Test Market Leadership",
+   "source": "tradersmagazine.com",
+   "url": "https://www.tradersmagazine.com/am/the-great-equity-rotation-earnings-geopolitics-and-rates-test-market-leadership/",
+   "at": "2026-07-16T05:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Analysts calling it a  great year  to be Michael Dell as his net worth has jumped over $80 billion , Dell shares up by 240 % and the US President telling Americans : Go out and ...",
+   "source": "timesofindia.indiatimes.com",
+   "url": "https://timesofindia.indiatimes.com/technology/tech-news/analysts-calling-it-a-great-year-to-be-michael-dell-as-his-net-worth-has-jumped-over-80-billion-dells-shares-up-by-240-and-the-us-president-telling-americans-go-out-and-/articleshow/132428617.cms",
+   "at": "2026-07-16T05:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-16T09:38:02.774998+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "First Solar ( FSLR ) Stock Sees Modest Fair Value Lift As Analysts Weigh Tariffs And Tax Credits",
+    "Skyworks Solutions ( SWKS ) Prepares For Earnings , Is It Still Below Fair Value ?",
+    "SpaceX shares briefly slip below IPO price for first time as blistering rally unravels",
+    "The Great Equity Rotation : Earnings , Geopolitics and Rates Test Market Leadership",
+    "Analysts calling it a  great year  to be Michael Dell as his net worth has jumped over $80 billion , Dell shares up by 240 % and the US President telling Americans : Go out and ..."
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "First Solar ( FSLR )…",
+   "one_liner": "First Solar ( FSLR ) Stock Sees Modest Fair…",
+   "why_now": null,
+   "details": [
+    "First Solar ( FSLR ) Stock Sees Modest Fair Value Lift As Analysts Weigh Tariffs And Tax Credits",
+    "Skyworks Solutions ( SWKS ) Prepares For Earnings , Is It Still Below Fair Value ?",
+    "SpaceX shares briefly slip below IPO price for first time as blistering rally unravels"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "b9595cffc26a1f7e8678194e98981622288c11fe"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T09:38:02.774912+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -67,20 +158,20 @@
    "shared": []
   },
   {
-   "id": "cf38973aa7e2574f7",
-   "title": "US Senate Bill Could Hit India With Up To 100 % Tariffs Over Russian Oil Imports",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
    "id": "ccd46c7722590bf65",
    "title": "EXPLAINER - What changes under the united kingdom - EU Gibraltar agreement ?",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "cc201cf94031ec01f",
-   "title": "[보도자료] 한미전략투자공사 및 정책금융기관-조선3사간 한미 조선협력투자 업무협약 체결",
+   "id": "ca2ef2092a2aee42f",
+   "title": "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "cf38973aa7e2574f7",
+   "title": "US Senate Bill Could Hit India With Up To 100 % Tariffs Over Russian Oil Imports",
    "category": "POLICY",
    "shared": []
   }

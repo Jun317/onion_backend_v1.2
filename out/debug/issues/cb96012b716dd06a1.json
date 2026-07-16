@@ -71,7 +71,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-16T03:46:48.226919+00:00",
+  "created_at": "2026-07-16T09:40:13.612923+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -82,19 +82,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"퀄컴 주식 거래\",\n   \"one_liner\": \"퀄컴 주식을 사고파는 거래가 있었어요\",\n   \"why_now\": \"대형 투자자들의 주식 거래는 시장에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"Paradiem LLC가 퀄컴 주식 55,867개를 팔았어요\",\n       \"LGT Fund Management Co Ltd.가 퀄컴 주식 22,663개를 샀어요\",\n       \"Sequoia Financial Advisors LLC가 퀄컴 주식 3,663개를 팔았어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"퀄컴 주가에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "one_liner 에 한자/가나 포함",
-     "입력에 없는 숫자: [3663.0, 22663.0, 55867.0]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [3663.0, 22663.0, 55867.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -110,11 +103,11 @@
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "cdd4e05f269c15f5b66fc1b128cb4421fadc3ecd"
+  "fact_hash": "b9973497afc08baadf4706c82058f1adf5b56880"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"입력에 없는 숫자: [3663.0, 22663.0, 55867.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [3663.0, 22663.0, 55867.0]\"]}]}",
-  "at": "2026-07-16T03:46:48.226860+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T09:40:13.612867+00:00"
  },
  "glossary": [],
  "related": [
