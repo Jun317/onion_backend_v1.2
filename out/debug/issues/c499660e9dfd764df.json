@@ -9,11 +9,21 @@
  "entity_keys": [
   "BA"
  ],
- "seen_sources": 4,
- "importance": 100,
+ "seen_sources": 5,
+ "importance": 105,
  "created_at": "2026-07-12T21:11:31.396580+00:00",
- "last_update": "2026-07-16T16:47:58.893283+00:00",
+ "last_update": "2026-07-16T20:16:46.125783+00:00",
  "members": [
+  {
+   "id": "78f5c083ae37d2a42e41ff2bf4df69aa1a110e73",
+   "source": "flightglobal.com",
+   "tier": "wire",
+   "url": "https://www.flightglobal.com/airframers/2026/07/boeing-reveals-final-steps-toward-737-max-7-certification-and-outlines-progress-on-max-10-and-777-9/",
+   "title": "Boeing builds momentum with 737 Max , 777 - 9 and production advances ahead of Farnborough",
+   "published_at": "2026-07-16T18:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9075
+  },
   {
    "id": "d5db2410de37c76a72209b166b32f87f98e59898",
    "source": "rustourismnews.com",
@@ -22,7 +32,7 @@
    "title": "Air New Zealand Unveils New Boeing 777 Business and Economy Cabins",
    "published_at": "2026-07-16T14:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.895
+   "sim_to_centroid": 0.8986
   },
   {
    "id": "ab3f6d7533270a59f95899bb15ba1a1a788c2286",
@@ -32,7 +42,7 @@
    "title": "Air New Zealand reveals new cabin upgrades for Boeing 777 aircraft",
    "published_at": "2026-07-15T03:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8907
+   "sim_to_centroid": 0.8952
   },
   {
    "id": "bd7bb802a71e6499b3d45a5edba165817d250fdb",
@@ -42,7 +52,7 @@
    "title": "Vantage Investment Partners LLC Makes New $487 , 000 Investment in The Boeing Company $BA",
    "published_at": "2026-07-12T20:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9636
+   "sim_to_centroid": 0.9601
   },
   {
    "id": "4781a1d30083387d14bb6eac899c91aa7c7500a0",
@@ -52,11 +62,18 @@
    "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
    "published_at": "2026-07-11T13:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9572
+   "sim_to_centroid": 0.9565
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Boeing builds momentum with 737 Max , 777 - 9 and production advances ahead of Farnborough",
+   "source": "flightglobal.com",
+   "url": "https://www.flightglobal.com/airframers/2026/07/boeing-reveals-final-steps-toward-737-max-7-certification-and-outlines-progress-on-max-10-and-777-9/",
+   "at": "2026-07-16T18:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Air New Zealand Unveils New Boeing 777 Business and Economy Cabins",
@@ -87,12 +104,13 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-16T18:37:31.237368+00:00",
+  "model": "template",
+  "created_at": "2026-07-16T20:26:11.141848+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Boeing builds momentum with 737 Max , 777 - 9 and production advances ahead of Farnborough",
     "Air New Zealand Unveils New Boeing 777 Business and Economy Cabins",
     "Air New Zealand reveals new cabin upgrades for Boeing 777 aircraft",
     "Vantage Investment Partners LLC Makes New $487 , 000 Investment in The Boeing Company $BA",
@@ -100,33 +118,32 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"보잉 777기 개조\",\n   \"one_liner\": \"뉴질랜드 항공이 보잉 777기 비즈니스·이코노미석을 새로했어요\",\n   \"why_now\": \"항공사가 기내 시설을 업그레이드하면 승객이 더 편하게 여행할 수 있어요\",\n   \"impact_line\": \"뉴질랜드 항공을 타는 승객이 더 편해질 수 있어요\",\n   \"details\": [\n      \"뉴질랜드 항공이 보잉 777기 비즈니스·이코노미석을 새로했어요\",\n      \"보잉의 주가가 오르는 데 지장이 없었어요\",\n      \"투자 전문가가 보잉에 돈을 넣었어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"뉴질랜드 항공이 더 많은 승객을 유치할 수 있어요!\",\n      \"보잉의 수익이 늘어날 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "보잉 777기 개조",
-   "one_liner": "뉴질랜드 항공이 보잉 777기 비즈니스·이코노미석을 새로했어요",
-   "why_now": "항공사가 기내 시설을 업그레이드하면 승객이 더 편하게 여행할 수 있어요",
+   "title": "Boeing builds…",
+   "one_liner": "Boeing builds momentum with 737 Max , 777 - 9…",
+   "why_now": null,
    "details": [
-    "뉴질랜드 항공이 보잉 777기 비즈니스·이코노미석을 새로했어요",
-    "보잉의 주가가 오르는 데 지장이 없었어요",
-    "투자 전문가가 보잉에 돈을 넣었어요"
+    "Boeing builds momentum with 737 Max , 777 - 9 and production advances ahead of Farnborough",
+    "Air New Zealand Unveils New Boeing 777 Business and Economy Cabins",
+    "Air New Zealand reveals new cabin upgrades for Boeing 777 aircraft"
    ],
-   "effects": [
-    "뉴질랜드 항공이 더 많은 승객을 유치할 수 있어요!",
-    "보잉의 수익이 늘어날 것으로 예상돼요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "881f3baca162bf5bb214550e1aeb60df4ff42033"
+  "fact_hash": "90619ef522732dcb74143079bf1e350addc301c6"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-16T14:31:07.473407+00:00"
+  "at": "2026-07-16T20:26:11.141777+00:00"
  },
  "glossary": [],
  "related": [

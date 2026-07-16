@@ -156,8 +156,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-16T16:56:37.260912+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-16T20:17:46.996362+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -170,26 +170,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"비자·마스터카드 주가 관심\",\n  \"one_liner\": \"비자·마스터카드 주식에 대한 투자자들의 관심이 높아요.\",\n  \"why_now\": \"두 회사는 전 세계에서 돈을 주고받는 결제 시스템을 운영하고 있어 경제 전반에 영향을 미쳐요.\",\n  \"impact_line\": \"결제 수수료 변동은 소비자와 기업 모두에게 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"일부 투자 기관이 비자 주식을 사들였어요.\",\n    \"다른 투자 기관은 마스터카드 주식을 매수했어요.\",\n    \"비자는 유망한 금융 기술 관련 주식으로 꼽히고 있어요.\",\n    \"유럽 시장에서 비자와 마스터카드의 지배력에 대한 논의가 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"결제 시스템 경쟁이 치열해지면 수수료가 낮아질 가능성이 있어요!\",\n    \"새로운 결제 기술이 등장하면 두 회사의 수익성에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"비자\",\n      \"easy\": \"전 세계에서 신용카드, 직불카드 등으로 돈을 주고받을 수 있게 하는 결제망을 운영하는 회사예요.\",\n      \"example\": \"해외여행 가서 비자 카드로 물건을 샀어요.\"\n    },\n    {\n      \"term\": \"마스터카드\",\n      \"easy\": \"비자와 비슷하게 전 세계에서 카드 결제를 가능하게 하는 결제망을 운영하는 회사예요.\",\n      \"example\": \"마스터카드로 결제하면 포인트 적립 혜택이 있어요.\"\n    },\n    {\n      \"term\": \"핀테크\",\n      \"easy\": \"금융(Finance)과 기술(Technology)을 합친 말로, 정보통신 기술을 활용해 편리한 금융 서비스를 제공하는 것을 뜻해요.\",\n      \"example\": \"휴대폰으로 간편하게 송금하는 서비스가 핀테크의 한 예예요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Which Stock Is a…",
-   "one_liner": "Which Stock Is a Better Buy ? Visa or Mastercard ?",
-   "why_now": null,
+   "title": "비자·마스터카드 주가 관심",
+   "one_liner": "비자·마스터카드 주식에 대한 투자자들의 관심이 높아요.",
+   "why_now": "두 회사는 전 세계에서 돈을 주고받는 결제 시스템을 운영하고 있어 경제 전반에 영향을 미쳐요.",
    "details": [
-    "Which Stock Is a Better Buy ? Visa or Mastercard ?",
-    "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
-    "Noesis Capital Mangement Corp Buys 1 , 684 Shares of Visa Inc . $V"
+    "일부 투자 기관이 비자 주식을 사들였어요.",
+    "다른 투자 기관은 마스터카드 주식을 매수했어요.",
+    "비자는 유망한 금융 기술 관련 주식으로 꼽히고 있어요.",
+    "유럽 시장에서 비자와 마스터카드의 지배력에 대한 논의가 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "결제 시스템 경쟁이 치열해지면 수수료가 낮아질 가능성이 있어요!",
+    "새로운 결제 기술이 등장하면 두 회사의 수익성에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "773e6214799af11a09d517cb6acfc5dad4cb8a8b"
  },

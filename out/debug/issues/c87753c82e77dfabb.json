@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 3,
- "importance": 95,
+ "seen_sources": 4,
+ "importance": 100,
  "created_at": "2026-07-16T06:38:34.932905+00:00",
- "last_update": "2026-07-16T09:34:35.603052+00:00",
+ "last_update": "2026-07-16T20:16:46.127205+00:00",
  "members": [
+  {
+   "id": "dabad6f95d159f1a5816693d6ffc02826a9032f0",
+   "source": "fhtimes.com",
+   "tier": "wire",
+   "url": "http://www.fhtimes.com/stories/fountain-hills-council-candidates-talk-qualifications-future-of-community,704981",
+   "title": "Fountain Hills council candidates talk qualifications , future of community",
+   "published_at": "2026-07-16T18:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8733
+  },
   {
    "id": "f4588b47b025e08ae2a557e6e4cfa215bb2ab5fc",
    "source": "clickondetroit.com",
@@ -20,7 +30,7 @@
    "title": "Michigan governor candidates offer competing plans to improve economic growth in the state",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.955
+   "sim_to_centroid": 0.9546
   },
   {
    "id": "736806fc105975c5ae3c5c8507a4c7c36a2530d0",
@@ -30,7 +40,7 @@
    "title": "Dividend growers offer resilience in uncertain markets",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9537
+   "sim_to_centroid": 0.95
   },
   {
    "id": "bb9acc43c3c2e863347a17fa7068994407e7a65c",
@@ -40,11 +50,18 @@
    "title": "Indonesia urges BRICS members to strengthen future skills forecasting",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8662
+   "sim_to_centroid": 0.8707
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Fountain Hills council candidates talk qualifications , future of community",
+   "source": "fhtimes.com",
+   "url": "http://www.fhtimes.com/stories/fountain-hills-council-candidates-talk-qualifications-future-of-community,704981",
+   "at": "2026-07-16T18:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Michigan governor candidates offer competing plans to improve economic growth in the state",
@@ -69,26 +86,20 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-16T16:49:00.208759+00:00",
+  "created_at": "2026-07-16T20:18:05.526459+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
+    "Fountain Hills council candidates talk qualifications , future of community",
     "Michigan governor candidates offer competing plans to improve economic growth in the state",
     "Dividend growers offer resilience in uncertain markets",
     "Indonesia urges BRICS members to strengthen future skills forecasting"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"경제 성장 계획 경쟁\",\n  \"one_liner\": \"미시간 주지사 후보들이 주의 경제 성장을 위한 경쟁력 있는 계획을 제시했어요.\",\n  \"why_now\": \"경제 성장은 일자리와 소득에 직접적인 영향을 미쳐 주민들의 삶의 질을 높이는 데 중요해요.\",\n  \"impact_line\": null,\n  \"details\": [\n    \"미시간 주지사 후보들이 주의 경제 성장을 위한 경쟁력 있는 계획을 제시했어요.\",\n    \"이 계획들은 주의 경제 발전을 위한 다양한 방안을 담고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [],\n  \"glossary\": [],\n  \"impact_line\": null\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -97,22 +108,22 @@
    }
   ],
   "output": {
-   "title": "Michigan governor…",
-   "one_liner": "Michigan governor candidates offer competing…",
+   "title": "Fountain Hills…",
+   "one_liner": "Fountain Hills council candidates talk…",
    "why_now": null,
    "details": [
+    "Fountain Hills council candidates talk qualifications , future of community",
     "Michigan governor candidates offer competing plans to improve economic growth in the state",
-    "Dividend growers offer resilience in uncertain markets",
-    "Indonesia urges BRICS members to strengthen future skills forecasting"
+    "Dividend growers offer resilience in uncertain markets"
    ],
    "effects": [],
    "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "2ac0d078ee19c1583145b71290488ab13288bc97"
+  "fact_hash": "ae113d313b5c34fc674abdb13148786664ad91e3"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-16T16:49:00.208694+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T20:18:05.526387+00:00"
  },
  "glossary": [],
  "related": [
@@ -135,14 +146,14 @@
    "shared": []
   },
   {
-   "id": "e370bf1a63a2ea425",
-   "title": "한국 소비자물가 2026-04 발표",
+   "id": "cb90498f932b05b10",
+   "title": "ISCB vs . SCHA : Which Small - Cap ETF Should You Buy in 2026 ?",
    "category": "MACRO",
    "shared": []
   },
   {
-   "id": "e9c31d48ae9cd3dd3",
-   "title": "미국 CPI 2026-06 발표",
+   "id": "e370bf1a63a2ea425",
+   "title": "한국 소비자물가 2026-04 발표",
    "category": "MACRO",
    "shared": []
   }
