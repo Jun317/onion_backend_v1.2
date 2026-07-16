@@ -87,8 +87,8 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-15T11:55:42.698206+00:00",
+  "model": "template",
+  "created_at": "2026-07-16T04:45:01.121481+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -100,32 +100,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"릴리 주가 동향\", \"one_liner\": \"릴리 주가에 대한 긍정적 전망과 매수 의견이 나오고 있어요.\", \"why_now\": \"비만 치료제 시장에서의 경쟁력과 투자자들의 관심이 주가에 영향을 미치고 있어요.\", \"details\": [\"릴리의 비만 치료제 시장에서의 입지에 대한 분석이 나왔어요.\", \"일부 투자 기관은 릴리 주식을 매수하며 비중을 늘리고 있어요.\", \"다른 투자 기관은 릴리 주식을 일부 매도했어요.\", \"증권사들은 릴리에 대해 '적정 매수' 의견을 내고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"비만 치료제 시장에서의 성과에 따라 주가 변동성이 나타날 수 있어요!\", \"증권사들의 목표 주가 상향 조정이 이어질 수 있어요!\"], \"glossary\": [{\"term\": \"비만 치료제\", \"easy\": \"체중 감량을 돕는 약을 말해요.\", \"example\": \"의사의 처방에 따라 비만 치료제를 복용할 수 있어요.\"}, {\"term\": \"매수 의견\", \"easy\": \"증권사 등이 특정 주식을 사라고 권하는 것을 말해요.\", \"example\": \"증권사 리포트에서 A기업에 대한 매수 의견을 봤어요.\"}, {\"term\": \"적정 매수\", \"easy\": \"주가가 현재 가치보다 조금 더 오를 것으로 예상될 때 내리는 투자 의견이에요.\", \"example\": \"적정 매수 의견이 나온 주식은 조금 더 지켜볼 수 있어요.\"}]}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "릴리 주가 동향",
-   "one_liner": "릴리 주가에 대한 긍정적 전망과 매수 의견이 나오고 있어요.",
-   "why_now": "비만 치료제 시장에서의 경쟁력과 투자자들의 관심이 주가에 영향을 미치고 있어요.",
+   "title": "Bryn Mawr Trust…",
+   "one_liner": "Bryn Mawr Trust Advisors LLC Sells 1 , 049…",
+   "why_now": null,
    "details": [
-    "릴리의 비만 치료제 시장에서의 입지에 대한 분석이 나왔어요.",
-    "일부 투자 기관은 릴리 주식을 매수하며 비중을 늘리고 있어요.",
-    "다른 투자 기관은 릴리 주식을 일부 매도했어요.",
-    "증권사들은 릴리에 대해 '적정 매수' 의견을 내고 있어요."
+    "Bryn Mawr Trust Advisors LLC Sells 1 , 049 Shares of Eli Lilly and Company $LLY",
+    "Is This Disturbing Trend Bad News for Eli Lilly in the Billion - Dollar Obesity Drug Market ?",
+    "Eli Lilly and Company ( NYSE : LLY ) Receives Consensus Recommendation of  Moderate Buy  from Brokerages"
    ],
-   "effects": [
-    "비만 치료제 시장에서의 성과에 따라 주가 변동성이 나타날 수 있어요!",
-    "증권사들의 목표 주가 상향 조정이 이어질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "d8c196373053ee534bb5696938a6f7988ad28fa2"
+  "fact_hash": "7719a540579f9d2b2cd7a47a24092678cd8ea7fc"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T04:45:01.121427+00:00"
+ },
  "glossary": [],
  "related": [
   {

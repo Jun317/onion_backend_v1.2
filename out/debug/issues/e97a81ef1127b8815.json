@@ -158,8 +158,8 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-12T15:34:04.374232+00:00",
+  "model": "template",
+  "created_at": "2026-07-16T04:43:28.946024+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [
@@ -225,38 +225,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 기준금리 인하\",\n   \"one_liner\": \"미국 연방준비제도이 기준금리를 내려 연 3.64%가 됐어요\",\n   \"why_now\": \"금리가 내리면 대출 이자가 줄어 가계 부담이 낮아지는 게 보통이에요\",\n   \"details\": [\n       \"미국 연방준비제도이 기준금리를 0.25%p 내렸어요\",\n       \"새 기준금리는 연 3.64%예요\",\n       \"직전 기준금리는 연 3.89%였어요\",\n       \"미국 연방준비제도는 최근 세 번 연속으로 기준금리를 낮추었어요\"\n   ],\n   \"visual_type\": \"us_policy_rate\",\n   \"effects\": [\n       \"대출 이자 부담이 줄어들 것으로 예상돼요!\",\n       \"채권 가격 상승 요인이 될 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"기준금리\",\n           \"easy\": \"미국 연방준비제도가 정하는 나라의 기본 이자율이에요\",\n           \"example\": \"기준금리가 내리면 대출 이자도 보통 따라 내려요\"\n       }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "details 4~6문장 아님"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
    }
   ],
   "output": {
-   "title": "미국 기준금리 인하",
-   "one_liner": "미국 연방준비제도이 기준금리를 내려 연 3.64%가 됐어요",
-   "why_now": "금리가 내리면 대출 이자가 줄어 가계 부담이 낮아지는 게 보통이에요",
+   "title": "Fed 기준금리 3.64%",
+   "one_liner": "Fed 기준금리가 3.89%에서 3.64%로 바뀌었어요",
+   "why_now": null,
    "details": [
-    "미국 연방준비제도이 기준금리를 0.25%p 내렸어요",
-    "새 기준금리는 연 3.64%예요",
-    "직전 기준금리는 연 3.89%였어요",
-    "미국 연방준비제도는 최근 세 번 연속으로 기준금리를 낮추었어요"
+    "Fed 기준금리: 3.64% (직전 3.89%)",
+    "Fed 변동폭: -25.0bp",
+    "Fed 기준금리: 3.87% (직전 4.12%)",
+    "Fed 변동폭: -25.0bp"
    ],
-   "effects": [
-    "대출 이자 부담이 줄어들 것으로 예상돼요!",
-    "채권 가격 상승 요인이 될 수 있어요!"
-   ],
-   "visual_type": "us_policy_rate"
+   "effects": [],
+   "visual_type": "kr_base_rate"
   },
-  "fact_hash": "228e57215d36537161b6cd54705488f61e642f6a"
+  "fact_hash": "e9c5aeeb1ced815375c79012812bd590ddf3cc4f"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T04:43:28.945918+00:00"
+ },
  "glossary": [
   {
    "term": "기준금리",
@@ -264,20 +260,12 @@
    "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
   },
   {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
+   "term": "bp",
+   "easy": "이자를 재는 아주 작은 단위예요. 1bp는 0.01%예요.",
+   "example": "25bp면 0.25%를 뜻해요."
   }
  ],
  "related": [
-  {
-   "id": "ca047e091cbb5946c",
-   "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
-   "category": "POLICY",
-   "shared": [
-    "FED"
-   ]
-  },
   {
    "id": "e77a7b1c911ca1d26",
    "title": "미 연준 기준금리 변동 (3.62%)",

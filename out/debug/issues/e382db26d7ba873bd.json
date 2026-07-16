@@ -68,8 +68,8 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-14T02:51:22.527263+00:00",
+  "model": "template",
+  "created_at": "2026-07-16T04:49:37.522205+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [
@@ -90,34 +90,30 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"코스피, 사상 최고치 경신\",\n  \"one_liner\": \"코스피 지수가 8447.69까지 오르며 사상 최고치를 기록했어요.\",\n  \"why_now\": \"주식 시장이 크게 오르면 투자자들의 자산 가치가 늘어나는 효과가 있어요.\",\n  \"details\": [\n    \"코스피 지수가 8447.69까지 올랐어요.\",\n    \"이는 역대 최고 기록이에요.\",\n    \"이전 최고 기록은 따로 언급되지 않았어요.\",\n    \"한국거래소는 2026년 5월 27일에 이 소식을 보도했어요.\"\n  ],\n  \"visual_type\": \"kospi_close\",\n  \"effects\": [\n    \"주가 상승으로 투자자들의 자산이 늘어날 수 있어요!\",\n    \"향후 시장 흐름에 대한 기대감이 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"코스피\",\n      \"easy\": \"한국 주식 시장의 대표적인 지수예요. 이 지수가 오르면 한국 주식 시장 전체가 좋다고 볼 수 있어요.\",\n      \"example\": \"코스피 지수가 오르면 많은 사람들이 투자한 주식의 가치가 올라가요.\"\n    },\n    {\n      \"term\": \"지수\",\n      \"easy\": \"여러 주식의 평균적인 가격 움직임을 보여주는 숫자예요.\",\n      \"example\": \"주식 시장 지수가 오르면 전반적으로 주식 가격이 오른 것으로 봐요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "코스피, 사상 최고치 경신",
-   "one_liner": "코스피 지수가 8447.69까지 오르며 사상 최고치를 기록했어요.",
-   "why_now": "주식 시장이 크게 오르면 투자자들의 자산 가치가 늘어나는 효과가 있어요.",
+   "title": "코스피 장중 최고 지수 8447.69pt",
+   "one_liner": "코스피 장중 최고 지수 8447.69pt로 발표됐어요",
+   "why_now": null,
    "details": [
-    "코스피 지수가 8447.69까지 올랐어요.",
-    "이는 역대 최고 기록이에요.",
-    "이전 최고 기록은 따로 언급되지 않았어요.",
-    "한국거래소는 2026년 5월 27일에 이 소식을 보도했어요."
+    "코스피 장중 최고 지수: 8447.69pt"
    ],
-   "effects": [
-    "주가 상승으로 투자자들의 자산이 늘어날 수 있어요!",
-    "향후 시장 흐름에 대한 기대감이 커질 수 있어요!"
-   ],
-   "visual_type": "kospi_close"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "a3954c929d0af537f887c7f1ab63822dc8e833ed"
+  "fact_hash": "6ceadabcc5026faca664206438464996ea0fda15"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-13T15:28:49.657784+00:00"
+  "at": "2026-07-16T04:49:37.522145+00:00"
  },
  "glossary": [
   {
@@ -127,14 +123,6 @@
   }
  ],
  "related": [
-  {
-   "id": "ca047e091cbb5946c",
-   "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
-   "category": "POLICY",
-   "shared": [
-    "KOSPI"
-   ]
-  },
   {
    "id": "c273684a49f5f6fb2",
    "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
@@ -158,6 +146,14 @@
    "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
    "category": "MARKET",
    "shared": []
+  },
+  {
+   "id": "eb742211d6b920cb4",
+   "title": "코스피, 상반기에 두 배로",
+   "category": "MARKET",
+   "shared": [
+    "KOSPI"
+   ]
   }
  ]
 }

@@ -53,8 +53,8 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-14T11:52:12.622340+00:00",
+  "model": "template",
+  "created_at": "2026-07-16T04:48:42.313157+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,38 +64,31 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"존슨앤드존슨 주식 관련 소식\", \"one_liner\": \"존슨앤드존슨의 주식에 대한 분석과 매수 의견이 나왔어요.\", \"why_now\": \"기업의 주가 움직임은 회사의 실적과 미래 전망에 따라 달라질 수 있어요.\", \"details\": [\"존슨앤드존슨의 주식 매수에 대한 긍정적인 분석이 있어요.\", \"7월 15일 이전에 매수하는 것이 좋다는 의견이 나왔어요.\", \"메인 스트리트 리서치라는 곳에서 존슨앤드존슨 주식을 매수했어요.\"], \"visual_type\": \"none\", \"effects\": [\"존슨앤드존슨의 주가가 변동될 수 있어요!\"], \"glossary\": [{\"term\": \"주식\", \"easy\": \"회사의 소유권 일부를 나타내는 증서예요.\", \"example\": \"주식을 사면 그 회사의 주인이 되는 거예요.\"}, {\"term\": \"실적\", \"easy\": \"회사가 일정 기간 동안 얼마나 돈을 벌고 썼는지 보여주는 결과예요.\", \"example\": \"이번 분기 실적이 좋아서 주가가 올랐어요.\"}]}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
    }
   ],
   "output": {
-   "title": "존슨앤드존슨 주식 관련 소식",
-   "one_liner": "존슨앤드존슨의 주식에 대한 분석과 매수 의견이 나왔어요.",
-   "why_now": "기업의 주가 움직임은 회사의 실적과 미래 전망에 따라 달라질 수 있어요.",
+   "title": "The Real Case for…",
+   "one_liner": "The Real Case for Buying Johnson & Johnson ( JNJ…",
+   "why_now": null,
    "details": [
-    "존슨앤드존슨의 주식 매수에 대한 긍정적인 분석이 있어요.",
-    "7월 15일 이전에 매수하는 것이 좋다는 의견이 나왔어요.",
-    "메인 스트리트 리서치라는 곳에서 존슨앤드존슨 주식을 매수했어요."
+    "The Real Case for Buying Johnson & Johnson ( JNJ ) Before July 15",
+    "Johnson & Johnson $JNJ Shares Acquired by Main Street Research LLC"
    ],
-   "effects": [
-    "존슨앤드존슨의 주가가 변동될 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "d3a121951bd96c729e7b9c23a939c06d99edd87c"
+  "fact_hash": "ee6d7b3273cd8c796dd4d5c4b31ea35c2d53d52d"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-14T06:34:49.734772+00:00"
+  "at": "2026-07-16T04:48:42.313095+00:00"
  },
  "glossary": [],
  "related": [

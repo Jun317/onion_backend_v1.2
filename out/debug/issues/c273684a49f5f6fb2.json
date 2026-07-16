@@ -291,53 +291,46 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-15T21:28:09.170480+00:00",
+  "model": "template",
+  "created_at": "2026-07-16T04:44:24.401352+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
-    "IBM Loses Nearly $70 Billion In A Day , Here What Triggered The 25 % Share Crash",
-    "THE CLOSING BELL : US stocks rise after data shows slowing inflation , even as IBM plunges",
+    "US stocks tick higher after data shows slowing inflation , even as IBM plunges",
     "Markets today : U . S . stocks rise after slowing inflation , IBM plunges",
-    "Markets today : Wall Street steady after inflation data , IBM plunges , ASX set to rise",
-    "US stocks tick higher after data shows slowing inflation , even as IBM plunges"
+    "THE CLOSING BELL : US stocks rise after data shows slowing inflation , even as IBM plunges",
+    "FTSE 100 Live : Stocks turn higher after soft US inflation , IBM plunges on earnings",
+    "IBM stock crashes after major warning here what Wall Street is doing next"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"IBM 주가 대폭락\",\n   \"one_liner\": \"IBM의 주가가 하루에 거의 25% 떨어졌어요\",\n   \"why_now\": \"주가가 떨어지면 투자자들이 돈을 잃을 수 있어요\",\n   \"details\": [\n       \"IBM의 주가가 하루에 거의 25% 떨어졌어요\",\n       \"미국 주식 시장은 물가 상승이 느려지는 것으로 나타나서 상승했어요\",\n       \"IBM의 주가가 떨어진 이유는 아직 정확히 알려지지 않았어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"투자자들이 주식시장에 대한 신뢰가 떨어질 수 있어요!\",\n       \"미국 경제에 대한 우려가 증가할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [700.0]"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
    }
   ],
   "output": {
-   "title": "IBM 주가 대폭락",
-   "one_liner": "IBM의 주가가 하루에 거의 25% 떨어졌어요",
-   "why_now": "주가가 떨어지면 투자자들이 돈을 잃을 수 있어요",
+   "title": "US stocks tick…",
+   "one_liner": "US stocks tick higher after data shows slowing…",
+   "why_now": null,
    "details": [
-    "IBM의 주가가 하루에 거의 25% 떨어졌어요",
-    "미국 주식 시장은 물가 상승이 느려지는 것으로 나타나서 상승했어요",
-    "IBM의 주가가 떨어진 이유는 아직 정확히 알려지지 않았어요"
+    "US stocks tick higher after data shows slowing inflation , even as IBM plunges",
+    "Markets today : U . S . stocks rise after slowing inflation , IBM plunges",
+    "THE CLOSING BELL : US stocks rise after data shows slowing inflation , even as IBM plunges"
    ],
-   "effects": [
-    "투자자들이 주식시장에 대한 신뢰가 떨어질 수 있어요!",
-    "미국 경제에 대한 우려가 증가할 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "4476592fcfda561750442aa37d6c1510e5c4731a"
+  "fact_hash": "c159a382bf3b4e33bae405905cdde88f1b9f4569"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [700.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [700.0]\"]}]}",
-  "at": "2026-07-15T17:44:17.745862+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T04:44:24.401298+00:00"
  },
  "glossary": [],
  "related": [

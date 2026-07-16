@@ -70,8 +70,8 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-13T15:18:21.073136+00:00",
+  "model": "template",
+  "created_at": "2026-07-16T04:44:05.993664+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -82,51 +82,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"일본 금리 인상\",\n   \"one_liner\": \"일본 중앙은행이 금리를 올렸어요\",\n   \"why_now\": \"금리 인상은 물가 상승을 막는 데 도움이 될 수 있어요\",\n   \"details\": [\n       \"일본 중앙은행이 금리를 인상했어요\",\n       \"일본은행의 금리 인상 결정에 일부 반대가 있었어요\",\n       \"반대하는 의견은 물가 상승이 소비자需求에 의해 이뤄져야 한다고 주장해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"일본 경제에 미칠 영향이 있을 것으로 예상돼요!\",\n       \"일본 주식 시장에 긍정적 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"demand-driven inflation\",\n           \"easy\": \"소비자需求에 의해 일어나는 물가 상승이에요\",\n           \"example\": \"소비자가 많아지면 물가가 오르는 거예요\"\n       }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "일본 금리 인상",
-   "one_liner": "일본 중앙은행이 금리를 올렸어요",
-   "why_now": "금리 인상은 물가 상승을 막는 데 도움이 될 수 있어요",
+   "title": "Stocks rise as…",
+   "one_liner": "Stocks rise as SpaceX fever lifts tech ; yen…",
+   "why_now": null,
    "details": [
-    "일본 중앙은행이 금리를 인상했어요",
-    "일본은행의 금리 인상 결정에 일부 반대가 있었어요",
-    "반대하는 의견은 물가 상승이 소비자需求에 의해 이뤄져야 한다고 주장해요"
+    "Stocks rise as SpaceX fever lifts tech ; yen flat after BOJ hikes rates",
+    "BOJ dissenter Asada sets bar for supporting next rate hike , wants demand - driven inflation",
+    "BOJ dissenter Asada needs demand - driven inflation before backing rate hike"
    ],
-   "effects": [
-    "일본 경제에 미칠 영향이 있을 것으로 예상돼요!",
-    "일본 주식 시장에 긍정적 영향을 줄 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "kr_base_rate"
   },
-  "fact_hash": "69788663639e64c266a5babef8ab2fbcaa8c1782"
+  "fact_hash": "25f0e97b61acc366d4bfcacd0082861dd28ecf63"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}]}",
-  "at": "2026-07-13T07:46:46.277871+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T04:44:05.993560+00:00"
  },
- "glossary": [
-  {
-   "term": "금리 인상",
-   "easy": "이자의 기준을 올리는 거예요.",
-   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
-  },
-  {
-   "term": "중앙은행",
-   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
-   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
-  },
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "cde343d4cab397faf",

@@ -48,8 +48,8 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-14T19:56:23.577158+00:00",
+  "model": "template",
+  "created_at": "2026-07-16T04:50:32.672018+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -77,33 +77,31 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"넥스트아이 실적\",\n   \"one_liner\": \"넥스트아이의 매출과 영업이익이 줄었어요\",\n   \"why_now\": \"기업 실적이 나빠지면 주가에 영향을 줄 수 있어요\",\n   \"details\": [\n      \"넥스트아이의 매출액은 57.7억원이었어요\",\n      \"영업이익은 -17.8억원으로 적자를 보았어요\",\n      \"이번 실적은 2025년 1분기에요\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n      \"주가가 하락할 수 있어요!\",\n      \"투자자들의 관심이 높아질 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"영업이익\",\n         \"easy\": \"회사에서 벌어들인 돈에서 비용을 뺀 금액이에요\",\n         \"example\": \"영업이익이 많으면 회사 경영이 잘되고 있는 거예요\"\n      }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "넥스트아이 실적",
-   "one_liner": "넥스트아이의 매출과 영업이익이 줄었어요",
-   "why_now": "기업 실적이 나빠지면 주가에 영향을 줄 수 있어요",
+   "title": "넥스트아이 매출액 57.7억원",
+   "one_liner": "넥스트아이 매출액 57.7억원으로 발표됐어요",
+   "why_now": null,
    "details": [
-    "넥스트아이의 매출액은 57.7억원이었어요",
-    "영업이익은 -17.8억원으로 적자를 보았어요",
-    "이번 실적은 2025년 1분기에요"
+    "넥스트아이 매출액: 57.7억원",
+    "넥스트아이 영업이익: -17.8억원"
    ],
-   "effects": [
-    "주가가 하락할 수 있어요!",
-    "투자자들의 관심이 높아질 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "0fd7e05a0a661b9ec3d2b1c3b2ddcc248ddc5e24"
+  "fact_hash": "8b9a97931861a066d164589702ad44da3c99e44e"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-14T16:02:56.419089+00:00"
+  "at": "2026-07-16T04:50:32.671966+00:00"
  },
  "glossary": [
   {

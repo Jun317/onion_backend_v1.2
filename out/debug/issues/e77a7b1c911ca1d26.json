@@ -56,7 +56,7 @@
  ],
  "llm": {
   "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-15T23:26:36.387394+00:00",
+  "created_at": "2026-07-16T04:42:52.140873+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [
@@ -84,7 +84,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 기준금리 인상\",\n   \"one_liner\": \"미 연방준비제도이 기준금리를 올려 연 3.63%가 됐어요\",\n   \"why_now\": \"금리가 오르면 대출 이자가 늘어나 가계 부담이 커지는 게 보통이에요\",\n   \"details\": [\n       \"미 연방준비제도이 기준금리를 올렸어요\",\n       \"새 기준금리는 연 3.63%예요\",\n       \"직전 기준금리는 연 3.62%였어요\",\n       \"변동폭은 1bp였어요\"\n   ],\n   \"visual_type\": \"us_policy_rate\",\n   \"effects\": [\n       \"대출 이자 부담이 늘어날 것으로 예상돼요!\",\n       \"화폐 정책이 더 엄격해질 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"기준금리\",\n           \"easy\": \"미 연방준비제도가 정하는 나라의 기본 이자율이에요\",\n           \"example\": \"기준금리가 오르면 대출 이자도 보통 따라 올라요\"\n       }\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"미국 기준금리 인상\",\n   \"one_liner\": \"미국 연방준비제도이 기준금리를 올려 연 3.63%가 됐어요\",\n   \"why_now\": \"금리가 오르면 대출이 어려워져 물가가 오르는 속도가 느려질 수 있어요\",\n   \"impact_line\": \"외국에서 돈을 빌리기가 어려워질 수 있어요\",\n   \"details\": [\n       \"미국 연방준비제도이 기준금리를 올렸어요\",\n       \"새 기준금리는 연 3.63%예요\",\n       \"직전 기준금리는 연 3.62%였어요\",\n       \"변동폭은 1bp예요\"\n   ],\n   \"visual_type\": \"us_policy_rate\",\n   \"effects\": [\n       \"미국에서 대출이 어려워져 소비가 줄어들 수 있어요!\",\n       \"금리가 오르면 미국 달러 가치가 올라 우리나라 수출이 어려워질 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"기준금리\",\n           \"easy\": \"중앙은행이 정하는 나라의 기본 이자율이에요\",\n           \"example\": \"기준금리가 오르면 대출 이자도 보통 따라 올라요\"\n       }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
@@ -93,21 +93,21 @@
   ],
   "output": {
    "title": "미국 기준금리 인상",
-   "one_liner": "미 연방준비제도이 기준금리를 올려 연 3.63%가 됐어요",
-   "why_now": "금리가 오르면 대출 이자가 늘어나 가계 부담이 커지는 게 보통이에요",
+   "one_liner": "미국 연방준비제도이 기준금리를 올려 연 3.63%가 됐어요",
+   "why_now": "금리가 오르면 대출이 어려워져 물가가 오르는 속도가 느려질 수 있어요",
    "details": [
-    "미 연방준비제도이 기준금리를 올렸어요",
+    "미국 연방준비제도이 기준금리를 올렸어요",
     "새 기준금리는 연 3.63%예요",
     "직전 기준금리는 연 3.62%였어요",
-    "변동폭은 1bp였어요"
+    "변동폭은 1bp예요"
    ],
    "effects": [
-    "대출 이자 부담이 늘어날 것으로 예상돼요!",
-    "화폐 정책이 더 엄격해질 수 있어요!"
+    "미국에서 대출이 어려워져 소비가 줄어들 수 있어요!",
+    "금리가 오르면 미국 달러 가치가 올라 우리나라 수출이 어려워질 수 있어요!"
    ],
    "visual_type": "us_policy_rate"
   },
-  "fact_hash": "ef19fe7e52fef675860b8d74725919543f0fb9d8"
+  "fact_hash": "84d5c8a0af54c4442ab278f3181d2ee65a9d70e4"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
@@ -131,14 +131,6 @@
   }
  ],
  "related": [
-  {
-   "id": "ca047e091cbb5946c",
-   "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
-   "category": "POLICY",
-   "shared": [
-    "FED"
-   ]
-  },
   {
    "id": "e97a81ef1127b8815",
    "title": "미 연준 기준금리 변동 (4.08%)",

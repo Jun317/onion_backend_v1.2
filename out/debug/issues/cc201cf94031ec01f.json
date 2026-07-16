@@ -119,48 +119,46 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-15T21:28:55.751517+00:00",
+  "model": "template",
+  "created_at": "2026-07-16T04:49:00.688541+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
     "제1차 한미전략투자 운영위원회 개최",
-    "WGBI 상시점검 및 투자유치 추진단 제8차 회의 개최",
     "[보도자료] 한미전략투자공사 및 정책금융기관-조선3사간 한미 조선협력투자 업무협약 체결",
-    "새해 첫 거래일 코스피 사상 최고가 경신…랠리 이어져",
-    "관세 15%에 대미 투자 패키지…한미 통상 합의 내용은"
+    "관세 15%에 대미 투자 패키지…한미 통상 합의 내용은",
+    "한미 관세 합의 타결…한국산 상호관세 15%로 낮춰",
+    "WGBI 상시점검 및 투자유치 추진단 제8차 회의 개최"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"한미 통상 합의\",\n  \"one_liner\": \"한국과 미국이 통상 합의를 통해 관세와 투자 패키지를 논의했어요.\",\n  \"why_now\": \"이번 합의는 양국 간 경제 협력을 강화하고 새로운 투자 기회를 모색하는 데 중요해요.\",\n  \"details\": [\n    \"제1차 한미전략투자 운영위원회가 열렸어요.\",\n    \"한미 통상 합의에는 관세 15% 인상 내용이 포함됐어요.\",\n    \"미국에 투자하는 패키지 내용도 논의됐어요.\",\n    \"한국과 미국은 조선 협력 투자 업무 협약도 체결했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"양국 간 경제 협력이 강화될 것으로 예상돼요!\",\n    \"새로운 투자 기회가 생겨날 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 물건을 들여올 때 내는 세금이에요.\",\n      \"example\": \"해외 직구 물건에 관세가 붙으면 가격이 더 비싸져요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "한미 통상 합의",
-   "one_liner": "한국과 미국이 통상 합의를 통해 관세와 투자 패키지를 논의했어요.",
-   "why_now": "이번 합의는 양국 간 경제 협력을 강화하고 새로운 투자 기회를 모색하는 데 중요해요.",
+   "title": "제1차 한미전략투자 운영위원회 개최",
+   "one_liner": "제1차 한미전략투자 운영위원회 개최",
+   "why_now": null,
    "details": [
-    "제1차 한미전략투자 운영위원회가 열렸어요.",
-    "한미 통상 합의에는 관세 15% 인상 내용이 포함됐어요.",
-    "미국에 투자하는 패키지 내용도 논의됐어요.",
-    "한국과 미국은 조선 협력 투자 업무 협약도 체결했어요."
+    "제1차 한미전략투자 운영위원회 개최",
+    "[보도자료] 한미전략투자공사 및 정책금융기관-조선3사간 한미 조선협력투자 업무협약 체결",
+    "관세 15%에 대미 투자 패키지…한미 통상 합의 내용은"
    ],
-   "effects": [
-    "양국 간 경제 협력이 강화될 것으로 예상돼요!",
-    "새로운 투자 기회가 생겨날 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "3f42e8a094c897992da5ff01866b18bda3cf8d2c"
+  "fact_hash": "5865b9ffa5a1f900302cffb22c82e9ed3822333e"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-15T17:45:56.457405+00:00"
+  "at": "2026-07-16T04:49:00.688483+00:00"
  },
  "glossary": [
   {
@@ -171,32 +169,20 @@
  ],
  "related": [
   {
-   "id": "ca047e091cbb5946c",
-   "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
    "id": "cde343d4cab397faf",
    "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "cdbb797962c9a092e",
-   "title": "Agencies publish resolution plan feedback letters for certain domestic and foreign banking organizations",
+   "id": "e6bd9292cb0488778",
+   "title": "미국, 첨단 반도체 25% 관세 발효",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "c6de7c9fb5935bf83",
-   "title": "공공기관 AI 대전환 현장, 혁신 더하기",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
-   "id": "ca1d719d5b855f7a7",
-   "title": "[보도참고] 경제협력개발기구(OECD) 2026 한국경제보고서 발표",
+   "id": "eb59db44d777dcf6b",
+   "title": "미 대법원, IEEPA 관세 위헌 판결",
    "category": "POLICY",
    "shared": []
   }
