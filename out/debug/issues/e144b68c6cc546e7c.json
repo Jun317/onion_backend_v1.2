@@ -49,7 +49,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-15T21:32:37.454221+00:00",
+  "created_at": "2026-07-16T03:50:31.948817+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -77,8 +77,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"인베니아 실적 부진\",\n  \"one_liner\": \"인베니아가 2025년 1분기에 매출과 영업이익이 줄었어요.\",\n  \"why_now\": \"기업의 매출과 이익은 회사의 성장성과 안정성을 보여주는 중요한 지표예요.\",\n  \"details\": [\n    \"인베니아의 2025년 1분기 매출액은 24.3억원이에요.\",\n    \"인베니아의 2025년 1분기 영업이익은 -26.2억원이에요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"투자자들의 관심이 줄어들 수 있어요!\",\n    \"주가에 부정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"매출액\",\n      \"easy\": \"회사가 상품이나 서비스를 팔아 벌어들인 돈이에요.\",\n      \"example\": \"이번 달 매출액이 지난달보다 늘었어요.\"\n    },\n    {\n      \"term\": \"영업이익\",\n      \"easy\": \"회사가 상품이나 서비스를 팔아 남긴 돈에서, 상품을 만들거나 서비스를 제공하는 데 든 돈을 뺀 거예요.\",\n      \"example\": \"영업이익이 늘면 회사가 더 많은 돈을 벌었다는 뜻이에요.\"\n    }\n  ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -100,8 +106,8 @@
   "fact_hash": "a6086d4ddbe035584f866f06906b8082919bfb1e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-15T21:32:37.454166+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T03:50:31.948747+00:00"
  },
  "glossary": [
   {

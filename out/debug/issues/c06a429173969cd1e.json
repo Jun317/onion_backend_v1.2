@@ -53,8 +53,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-15T21:28:43.803207+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-16T03:46:50.986139+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,31 +64,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"메르크 주식 매수\",\n   \"one_liner\": \"켄터키 주립 교사 연금 시스템이 메르크 주식을 샀어요.\",\n   \"why_now\": \"주식을 사면 그 회사의 이익에 따라 주가가 올라서 돈을 벌 수 있어요.\",\n   \"details\": [\n       \"켄터키 주립 교사 연금 시스템이 메르크 주식을 매수했어요.\",\n       \"메르크는 제약 회사예요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"메르크 주식의 가치가 올라갈 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"메르크 주식 매입\",\n   \"one_liner\": \"켄터키 주 교사 연금 시스템이 메르크 주식을 샀어요\",\n   \"why_now\": \"주식을 사면 그 회사의 이익에 따라 주가가 오를 수 있어요\",\n   \"details\": [\n       \"켄터키 주 교사 연금 시스템이 메르크 주식을 매입했어요\",\n       \"메르크는 제약 회사예요\",\n       \"이 매입으로 켄터키 주 교사 연금 시스템이 메르크에 투자했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"메르크 주식이 상승할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 3문장 미만"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Merck & Co ., Inc .…",
-   "one_liner": "Merck & Co ., Inc . $MRK Shares Acquired by…",
-   "why_now": "공식 발표 내용을 정리했어요.",
+   "title": "메르크 주식 매입",
+   "one_liner": "켄터키 주 교사 연금 시스템이 메르크 주식을 샀어요",
+   "why_now": "주식을 사면 그 회사의 이익에 따라 주가가 오를 수 있어요",
    "details": [
-    "Merck & Co ., Inc . $MRK Shares Acquired by Teachers Retirement System of The State of Kentucky",
-    "Merck & Co ., Inc . $MRK Shares Purchased by Teachers Retirement System of The State of Kentucky"
+    "켄터키 주 교사 연금 시스템이 메르크 주식을 매입했어요",
+    "메르크는 제약 회사예요",
+    "이 매입으로 켄터키 주 교사 연금 시스템이 메르크에 투자했어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "메르크 주식이 상승할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "712c08610bd5f6920c6bc2ffbdfdd24db9df67f1"
  },
