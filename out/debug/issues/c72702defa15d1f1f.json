@@ -139,8 +139,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-16T09:35:58.350158+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-16T14:29:44.500152+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -153,32 +153,29 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"비자 vs 마스터카드\",\n\"one_liner\": \"비자와 마스터카드 중 어떤 주식이 더 나은 선택일지 분석하고 있어요.\",\n\"why_now\": \"두 회사는 전 세계에서 신용카드 결제를 처리하며 큰 영향력을 가지고 있어요.\",\n\"impact_line\": \"두 회사의 주가 움직임은 투자자들의 관심사예요.\",\n\"details\": [\n\"비자와 마스터카드는 핀테크 분야에서 유망한 투자처로 꼽히고 있어요.\",\n\"일부에서는 유럽 결제 시장에서 두 회사가 경쟁자들에게 밀릴 수 있다는 전망도 나와요.\",\n\"미국에서는 비자 관련 법안(H-1B 비자)이 미국인 일자리 창출에 기여할 수 있다는 이야기도 있어요.\",\n\"한 투자 회사는 마스터카드 주식을 사들였어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"두 회사의 경쟁력과 시장 점유율 변화가 주목받을 것으로 예상돼요!\",\n\"결제 시장의 변화가 소비자들의 카드 사용 방식에 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"핀테크\",\n\"easy\": \"금융(Finance)과 기술(Technology)을 합친 말로, 기술을 이용해 편리한 금융 서비스를 만드는 것을 뜻해요.\",\n\"example\": \"스마트폰으로 간편하게 송금하는 앱이 핀테크 서비스예요.\"\n},\n{\n\"term\": \"H-1B 비자\",\n\"easy\": \"미국에서 특정 전문 분야의 외국인 노동자에게 발급하는 비자예요.\",\n\"example\": \"H-1B 비자를 받은 외국인 의사가 미국 병원에서 일할 수 있어요.\"\n}\n]\n}",
+  "raw_response": "{\n  \"title\": \"비자·마스터카드\",\n   \"one_liner\": \"비자와 마스터카드 중 어떤 주식을 사야 좋을지 비교하고 있어요\",\n   \"why_now\": \"이 두 회사는 결제 시장에서 중요한 역할을 해요\",\n   \"impact_line\": \"결제 수수료가 바뀌면 가계 지출에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"비자와 마스터카드 중 어떤 주식을 사야 좋을지 비교하고 있어요\",\n       \"유니베스트 파이낸셜이 마스터카드 주식을 샀어요\",\n       \"비자는 가장 유망한 핀테크 주식 중 하나로 꼽혀요\",\n       \"비자와 마스터카드가 주도하는 유럽 결제 시장에서 새로운 경쟁이 나타날 수 있어요\",\n       \"미국 의원은 비자 보유자가 미국인에게 일자리를 만들어준다고 말했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"새로운 결제 기술이 등장하면 비자와 마스터카드의 시장 지위가 흔들릴 수 있어요!\",\n       \"비자와 마스터카드의 경쟁이 심해지면 소비자에게 더 좋은 서비스가 제공될 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"핀테크\",\n           \"easy\": \"금융과 기술이 결합한 산업이에요\",\n           \"example\": \"모바일 결제가 핀테크의 대표적인 예예요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "why_now 55자 초과(58)"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [-1.0]"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Which Stock Is a…",
-   "one_liner": "Which Stock Is a Better Buy ? Visa or Mastercard ?",
-   "why_now": null,
+   "title": "비자·마스터카드",
+   "one_liner": "비자와 마스터카드 중 어떤 주식을 사야 좋을지 비교하고 있어요",
+   "why_now": "이 두 회사는 결제 시장에서 중요한 역할을 해요",
    "details": [
-    "Which Stock Is a Better Buy ? Visa or Mastercard ?",
-    "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
-    "Visa ( V ): Among the Most Promising Fintech Stocks to Invest In"
+    "비자와 마스터카드 중 어떤 주식을 사야 좋을지 비교하고 있어요",
+    "유니베스트 파이낸셜이 마스터카드 주식을 샀어요",
+    "비자는 가장 유망한 핀테크 주식 중 하나로 꼽혀요",
+    "비자와 마스터카드가 주도하는 유럽 결제 시장에서 새로운 경쟁이 나타날 수 있어요",
+    "미국 의원은 비자 보유자가 미국인에게 일자리를 만들어준다고 말했어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "새로운 결제 기술이 등장하면 비자와 마스터카드의 시장 지위가 흔들릴 수 있어요!",
+    "비자와 마스터카드의 경쟁이 심해지면 소비자에게 더 좋은 서비스가 제공될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "fd20fdcc8c2130382d7f7343f08acf764c7cb624"
  },

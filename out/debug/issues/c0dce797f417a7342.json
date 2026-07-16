@@ -153,42 +153,43 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-16T09:38:02.774998+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-16T14:30:11.977076+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
-    "First Solar ( FSLR ) Stock Sees Modest Fair Value Lift As Analysts Weigh Tariffs And Tax Credits",
     "Skyworks Solutions ( SWKS ) Prepares For Earnings , Is It Still Below Fair Value ?",
-    "SpaceX shares briefly slip below IPO price for first time as blistering rally unravels",
+    "First Solar ( FSLR ) Stock Sees Modest Fair Value Lift As Analysts Weigh Tariffs And Tax Credits",
+    "Alpha and Omega Semiconductor ( NASDAQ : AOSL ) Shares Gap Up – Here What Happened",
     "The Great Equity Rotation : Earnings , Geopolitics and Rates Test Market Leadership",
-    "Analysts calling it a  great year  to be Michael Dell as his net worth has jumped over $80 billion , Dell shares up by 240 % and the US President telling Americans : Go out and ..."
+    "Unlisted Share Research : A Practical Guide for Indian Investors"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"주식 시장 소식\",\n   \"one_liner\": \"몇몇 기업의 주식이 움직였어요\",\n   \"why_now\": \"주식은 기업의 가치 변화를 반영하기에 중요해요\",\n   \"impact_line\": \"주식 투자자에게 관심이 가는 소식이에요\",\n   \"details\": [\n      \"몇몇 기업의 주식 가격이 바뀌었어요\",\n      \"이 소식은 주식 투자자에게 중요해요\",\n      \"주식 시장은 여러 요인에 의해 영향을 받아요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"주식 투자자들이 주의해야 해요!\",\n      \"기업의 가치가 변하면 주식 가격에도 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "First Solar ( FSLR )…",
-   "one_liner": "First Solar ( FSLR ) Stock Sees Modest Fair…",
-   "why_now": null,
+   "title": "주식 시장 소식",
+   "one_liner": "몇몇 기업의 주식이 움직였어요",
+   "why_now": "주식은 기업의 가치 변화를 반영하기에 중요해요",
    "details": [
-    "First Solar ( FSLR ) Stock Sees Modest Fair Value Lift As Analysts Weigh Tariffs And Tax Credits",
-    "Skyworks Solutions ( SWKS ) Prepares For Earnings , Is It Still Below Fair Value ?",
-    "SpaceX shares briefly slip below IPO price for first time as blistering rally unravels"
+    "몇몇 기업의 주식 가격이 바뀌었어요",
+    "이 소식은 주식 투자자에게 중요해요",
+    "주식 시장은 여러 요인에 의해 영향을 받아요"
    ],
-   "effects": [],
+   "effects": [
+    "주식 투자자들이 주의해야 해요!",
+    "기업의 가치가 변하면 주식 가격에도 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "b9595cffc26a1f7e8678194e98981622288c11fe"
+  "fact_hash": "eddcdeb4231e6f9dba6a53aad9da10895a503d1f"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
