@@ -2,16 +2,36 @@
  "id": "c5554b3ce8ec2f0f2",
  "title": "FinancialContent - Earnings To Watch : Autoliv ( ALV ) Reports Q2 Results Tomorrow",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 45,
+ "seen_sources": 3,
+ "importance": 55,
  "created_at": "2026-07-16T06:38:34.930722+00:00",
- "last_update": "2026-07-16T16:47:58.886770+00:00",
+ "last_update": "2026-07-16T21:30:43.699090+00:00",
  "members": [
+  {
+   "id": "3a4b27683ff0cac381ded631f90054e36ff16dac",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/real-estate/articles/kimco-realty-quarterly-earnings-preview-093656750.html",
+   "title": "Kimco Realty Quarterly Earnings Preview : What You Need to Know",
+   "published_at": "2026-07-16T19:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9062
+  },
+  {
+   "id": "950807838ac95f29e240ea323bb88dc25f7b17f7",
+   "source": "proactiveinvestors.com",
+   "tier": "wire",
+   "url": "https://www.proactiveinvestors.com/companies/news/1095578/ge-aerospace-q2-earnings-top-estimates-as-commercial-services-drive-growth-1095578.html",
+   "title": "GE Aerospace Q2 earnings top estimates as commercial services drive growth",
+   "published_at": "2026-07-16T19:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8951
+  },
   {
    "id": "a6d472d6531381045ef393f82ebda840394d7c73",
    "source": "markets.financialcontent.com",
@@ -20,7 +40,7 @@
    "title": "FinancialContent - Abbott Laboratories ( NYSE : ABT ) Surprises With Q2 CY2026 Sales",
    "published_at": "2026-07-16T14:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8942
+   "sim_to_centroid": 0.8983
   },
   {
    "id": "55ec2555cfd9170cc70105999b377fe1319d5d87",
@@ -30,7 +50,7 @@
    "title": "FinancialContent - Earnings To Watch : Autoliv ( ALV ) Reports Q2 Results Tomorrow",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9729
+   "sim_to_centroid": 0.9681
   },
   {
    "id": "8490d26fe490dff4fae52662ffa6237984e045ba",
@@ -40,11 +60,25 @@
    "title": "FinancialContent - Travelers ( TRV ) Q2 Earnings Report Preview : What To Look For",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.971
+   "sim_to_centroid": 0.9694
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Kimco Realty Quarterly Earnings Preview : What You Need to Know",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/real-estate/articles/kimco-realty-quarterly-earnings-preview-093656750.html",
+   "at": "2026-07-16T19:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "GE Aerospace Q2 earnings top estimates as commercial services drive growth",
+   "source": "proactiveinvestors.com",
+   "url": "https://www.proactiveinvestors.com/companies/news/1095578/ge-aerospace-q2-earnings-top-estimates-as-commercial-services-drive-growth-1095578.html",
+   "at": "2026-07-16T19:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "FinancialContent - Abbott Laboratories ( NYSE : ABT ) Surprises With Q2 CY2026 Sales",
@@ -67,13 +101,57 @@
    "at": "2026-07-16T05:00:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-16T21:31:00.267343+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Kimco Realty Quarterly Earnings Preview : What You Need to Know",
+    "GE Aerospace Q2 earnings top estimates as commercial services drive growth",
+    "FinancialContent - Abbott Laboratories ( NYSE : ABT ) Surprises With Q2 CY2026 Sales",
+    "FinancialContent - Earnings To Watch : Autoliv ( ALV ) Reports Q2 Results Tomorrow",
+    "FinancialContent - Travelers ( TRV ) Q2 Earnings Report Preview : What To Look For"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"기업 실적 발표\",\n   \"one_liner\": \"여러 기업이 2분기 실적을 발표했어요\",\n   \"why_now\": \"실적이 좋으면 주가가 오를 수 있어요\",\n   \"impact_line\": \"주식 투자자에게 관심이 가는 소식이에요\",\n   \"details\": [\n      \"GE 에어로스페이스의 2분기 실적이 기대치를 넘었어요\",\n      \"애보트 랩의 2분기 매출이 기대치를 상회했어요\",\n      \"오늘 오토리브와 트래블러스의 실적 발표를 기대하고 있어요\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n      \"실적이 좋으면 주식 투자자에게 기회가 될 수 있어요!\",\n      \"실적이 나쁘면 주식 투자자에게 위험이 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "기업 실적 발표",
+   "one_liner": "여러 기업이 2분기 실적을 발표했어요",
+   "why_now": "실적이 좋으면 주가가 오를 수 있어요",
+   "details": [
+    "GE 에어로스페이스의 2분기 실적이 기대치를 넘었어요",
+    "애보트 랩의 2분기 매출이 기대치를 상회했어요",
+    "오늘 오토리브와 트래블러스의 실적 발표를 기대하고 있어요"
+   ],
+   "effects": [
+    "실적이 좋으면 주식 투자자에게 기회가 될 수 있어요!",
+    "실적이 나쁘면 주식 투자자에게 위험이 될 수 있어요!"
+   ],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "02534bbee8569cb2da32195aa91f11198899a781"
+ },
  "review": null,
  "glossary": [],
  "related": [
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c763582d47a3e8b63",
+   "title": "Netflix Looks To Buy Major Social Network With Over 30M Users",
    "category": "EARNINGS",
    "shared": []
   },
@@ -86,12 +164,6 @@
   {
    "id": "c2ddb2c1db0cafd3b",
    "title": "Wells Fargo bounces off 52 - week lows . What it must do to get out of the penalty box",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c763582d47a3e8b63",
-   "title": "Netflix Looks To Buy Major Social Network With Over 30M Users",
    "category": "EARNINGS",
    "shared": []
   },
