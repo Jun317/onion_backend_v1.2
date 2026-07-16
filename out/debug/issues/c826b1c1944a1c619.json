@@ -2,18 +2,28 @@
  "id": "c826b1c1944a1c619",
  "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
  "category": "RATE",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "BOK"
  ],
- "seen_sources": 1,
- "importance": 135,
+ "seen_sources": 2,
+ "importance": 140,
  "created_at": "2026-07-16T03:45:52.566590+00:00",
- "last_update": "2026-07-16T03:45:52.566590+00:00",
+ "last_update": "2026-07-16T11:57:35.610146+00:00",
  "members": [
+  {
+   "id": "5925514dab9f13dd1bcda236e0de7f6460bc3db4",
+   "source": "laosnews.net",
+   "tier": "wire",
+   "url": "http://www.laosnews.net/news/279190823/bank-of-korea-hikes-rates-for-first-time-in-3-12-years",
+   "title": "Bank of Korea hikes rates for first time in 3 - 1 / 2 years",
+   "published_at": "2026-07-16T09:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9631
+  },
   {
    "id": "91d67c22543aae314e4f280342a106d91c45d197",
    "source": "morningstar.com",
@@ -22,7 +32,7 @@
    "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
    "published_at": "2026-07-16T02:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9993
+   "sim_to_centroid": 0.9988
   },
   {
    "id": "68332f95a6b7bdf0b33377500031ab6abcf6e90f",
@@ -32,11 +42,18 @@
    "title": "Bank of Korea Raise Rates for First Time Since 2023",
    "published_at": "2026-07-16T02:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9993
+   "sim_to_centroid": 0.999
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Bank of Korea hikes rates for first time in 3 - 1 / 2 years",
+   "source": "laosnews.net",
+   "url": "http://www.laosnews.net/news/279190823/bank-of-korea-hikes-rates-for-first-time-in-3-12-years",
+   "at": "2026-07-16T09:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
@@ -52,9 +69,72 @@
    "at": "2026-07-16T02:15:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-16T11:57:44.595776+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [],
+   "headlines": [
+    "Bank of Korea hikes rates for first time in 3 - 1 / 2 years",
+    "Bank of Korea Raises Rates for First Time Since 2023 Update",
+    "Bank of Korea Raise Rates for First Time Since 2023"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"한국 기준금리 인상\",\n  \"one_liner\": \"한국은행이 3년 6개월 만에 기준금리를 올렸어요.\",\n  \"why_now\": \"금리가 오르면 대출 이자가 늘어 가계 부담이 커지는 게 보통이에요.\",\n  \"impact_line\": \"변동금리 대출 이자 부담이 늘어날 수 있어요.\",\n  \"details\": [\n    \"한국은행이 기준금리를 인상했어요.\",\n    \"이는 3년 6개월 만의 첫 금리 인상이에요.\",\n    \"2023년 이후 처음으로 금리가 올랐어요.\"\n  ],\n  \"visual_type\": \"kr_base_rate\",\n  \"effects\": [\n    \"은행 예금 이자도 따라 올라, 목돈을 예금에 두면 이자 수익이 늘어날 수 있어요!\",\n    \"돈 빌리기가 어려워져 소비와 투자가 위축될 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"기준금리\",\n      \"easy\": \"한국은행이 정하는 나라의 기본 이자율이에요.\",\n      \"example\": \"기준금리가 오르면 대출 이자도 보통 따라 올라요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "한국 기준금리 인상",
+   "one_liner": "한국은행이 3년 6개월 만에 기준금리를 올렸어요.",
+   "why_now": "금리가 오르면 대출 이자가 늘어 가계 부담이 커지는 게 보통이에요.",
+   "details": [
+    "한국은행이 기준금리를 인상했어요.",
+    "이는 3년 6개월 만의 첫 금리 인상이에요.",
+    "2023년 이후 처음으로 금리가 올랐어요."
+   ],
+   "effects": [
+    "은행 예금 이자도 따라 올라, 목돈을 예금에 두면 이자 수익이 늘어날 수 있어요!",
+    "돈 빌리기가 어려워져 소비와 투자가 위축될 것으로 예상돼요!"
+   ],
+   "visual_type": "kr_base_rate"
+  },
+  "fact_hash": "4de9a6fa4fe9b6b1f45bad53d812059b5aad5f16"
+ },
  "review": null,
- "glossary": [],
+ "glossary": [
+  {
+   "term": "기준금리",
+   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
+   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
+  },
+  {
+   "term": "한국은행",
+   "easy": "우리나라 돈을 관리하는 중앙은행이에요.",
+   "example": "한국 기준금리를 여기서 정해요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "금리 인상",
+   "easy": "이자의 기준을 올리는 거예요.",
+   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
+  }
+ ],
  "related": [
   {
    "id": "e77a7b1c911ca1d26",
@@ -63,14 +143,14 @@
    "shared": []
   },
   {
-   "id": "e97a81ef1127b8815",
-   "title": "미 연준 기준금리 변동 (4.08%)",
+   "id": "cd6e2792cf5660da0",
+   "title": "Standard Chartered Warns Of Slower Nigerian Rate Cuts As Inflation Risks Linger",
    "category": "RATE",
    "shared": []
   },
   {
-   "id": "cd6e2792cf5660da0",
-   "title": "Standard Chartered Warns Of Slower Nigerian Rate Cuts As Inflation Risks Linger",
+   "id": "e97a81ef1127b8815",
+   "title": "미 연준 기준금리 변동 (4.08%)",
    "category": "RATE",
    "shared": []
   },

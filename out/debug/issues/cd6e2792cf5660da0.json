@@ -7,11 +7,31 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 4,
- "importance": 120,
+ "seen_sources": 6,
+ "importance": 125,
  "created_at": "2026-07-16T06:38:34.930024+00:00",
- "last_update": "2026-07-16T09:34:35.605924+00:00",
+ "last_update": "2026-07-16T11:57:35.608389+00:00",
  "members": [
+  {
+   "id": "2d4d21746ec002922001d1b51e41dc6ba0f0abbe",
+   "source": "nujournal.com",
+   "tier": "wire",
+   "url": "https://www.nujournal.com/news/local-news/2026/07/16/nu-slowly-wading-into-water-rate-increase/",
+   "title": "NU slowly wading into water rate increases | News , Sports , Jobs",
+   "published_at": "2026-07-16T10:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8898
+  },
+  {
+   "id": "1f1e3e83bcb3752473327e0e5bfbb15ec2780f30",
+   "source": "arynews.tv",
+   "tier": "wire",
+   "url": "https://arynews.tv/sindh-cm-orders-action-against-hoarders-profiteers",
+   "title": "Sindh CM orders action against hoarders , profiteers",
+   "published_at": "2026-07-16T09:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8525
+  },
   {
    "id": "2dc8ce02349e7f15e50efc6a36f02b5548c1d9ee",
    "source": "bssnews.net",
@@ -20,7 +40,7 @@
    "title": "South Korea central bank hikes rates amid chip boom",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8874
+   "sim_to_centroid": 0.8927
   },
   {
    "id": "fc1d019e62eeebaeb177582790024eff62bde3a6",
@@ -30,7 +50,7 @@
    "title": "Businesses warned on unfair prices during El - Nino",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9014
+   "sim_to_centroid": 0.9099
   },
   {
    "id": "dafa83de727eb1e2cb499d704b990245d4d835e4",
@@ -40,7 +60,7 @@
    "title": "Standard Chartered Warns Of Slower Nigerian Rate Cuts As Inflation Risks Linger",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.965
+   "sim_to_centroid": 0.9616
   },
   {
    "id": "0cdc1ee2c1d15678a8b4dbc3f5de67699a90f2fb",
@@ -50,7 +70,7 @@
    "title": "Nigerian Businesses Stay Upbeat Despite High Taxes , Rates Squeeze",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9598
+   "sim_to_centroid": 0.9522
   },
   {
    "id": "506fd48db93463bd5bac10d936fada9cbd2f9ca7",
@@ -60,11 +80,25 @@
    "title": "Nigerian Poverty Threatens 79 % Despite Reforms – World Bank",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8978
+   "sim_to_centroid": 0.8986
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "NU slowly wading into water rate increases | News , Sports , Jobs",
+   "source": "nujournal.com",
+   "url": "https://www.nujournal.com/news/local-news/2026/07/16/nu-slowly-wading-into-water-rate-increase/",
+   "at": "2026-07-16T10:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Sindh CM orders action against hoarders , profiteers",
+   "source": "arynews.tv",
+   "url": "https://arynews.tv/sindh-cm-orders-action-against-hoarders-profiteers",
+   "at": "2026-07-16T09:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "South Korea central bank hikes rates amid chip boom",
@@ -102,68 +136,55 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-16T09:34:53.003868+00:00",
+  "model": "template",
+  "created_at": "2026-07-16T12:05:25.112528+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
    "headlines": [
-    "South Korea central bank hikes rates amid chip boom",
-    "Businesses warned on unfair prices during El - Nino",
     "Standard Chartered Warns Of Slower Nigerian Rate Cuts As Inflation Risks Linger",
     "Nigerian Businesses Stay Upbeat Despite High Taxes , Rates Squeeze",
-    "Nigerian Poverty Threatens 79 % Despite Reforms – World Bank"
+    "Businesses warned on unfair prices during El - Nino",
+    "Nigerian Poverty Threatens 79 % Despite Reforms – World Bank",
+    "South Korea central bank hikes rates amid chip boom"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"금리 인상\",\n   \"one_liner\": \"한국은행이 기준금리를 올렸어요\",\n   \"why_now\": \"금리를 올리면 물가가 안정되는 게 보통이에요\",\n   \"impact_line\": \"대출금리와 소비자 물가가 오를 수 있어요\",\n   \"details\": [\n       \"한국은행이 기준금리를 올렸어요\",\n       \"반도체 호황이 계속되고 있어요\",\n       \"기업들이 부당한 가격을 책정하지 않도록 주의해야 해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"대출금리가 오르면 소비자들이 물건을 사는 것이 어려워질 수 있어요!\",\n       \"물가가 안정되면 경제가 더 안정적으로 돌아갈 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "금리 인상",
-   "one_liner": "한국은행이 기준금리를 올렸어요",
-   "why_now": "금리를 올리면 물가가 안정되는 게 보통이에요",
+   "title": "Standard Chartered…",
+   "one_liner": "Standard Chartered Warns Of Slower Nigerian Rate…",
+   "why_now": null,
    "details": [
-    "한국은행이 기준금리를 올렸어요",
-    "반도체 호황이 계속되고 있어요",
-    "기업들이 부당한 가격을 책정하지 않도록 주의해야 해요"
+    "Standard Chartered Warns Of Slower Nigerian Rate Cuts As Inflation Risks Linger",
+    "Nigerian Businesses Stay Upbeat Despite High Taxes , Rates Squeeze",
+    "Businesses warned on unfair prices during El - Nino"
    ],
-   "effects": [
-    "대출금리가 오르면 소비자들이 물건을 사는 것이 어려워질 수 있어요!",
-    "물가가 안정되면 경제가 더 안정적으로 돌아갈 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "kr_base_rate"
   },
-  "fact_hash": "5db1899a379e2e4f4f3c010c42db103d2dc34547"
+  "fact_hash": "483f2d4189b039a9b94300f9cb218a964c437807"
  },
- "review": null,
- "glossary": [
-  {
-   "term": "금리 인상",
-   "easy": "이자의 기준을 올리는 거예요.",
-   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
-  },
-  {
-   "term": "한국은행",
-   "easy": "우리나라 돈을 관리하는 중앙은행이에요.",
-   "example": "한국 기준금리를 여기서 정해요."
-  },
-  {
-   "term": "기준금리",
-   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
-   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
-  },
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  }
- ],
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T12:05:25.112465+00:00"
+ },
+ "glossary": [],
  "related": [
+  {
+   "id": "c826b1c1944a1c619",
+   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
+   "category": "RATE",
+   "shared": []
+  },
   {
    "id": "e77a7b1c911ca1d26",
    "title": "미 연준 기준금리 변동 (3.62%)",

@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 3,
- "importance": 70,
+ "seen_sources": 4,
+ "importance": 75,
  "created_at": "2026-07-16T06:38:34.930871+00:00",
- "last_update": "2026-07-16T09:34:35.600379+00:00",
+ "last_update": "2026-07-16T11:57:35.607685+00:00",
  "members": [
+  {
+   "id": "3653bc4d7c0e640bddc2db0e9bc6b724cb65a6bb",
+   "source": "calcuttanews.net",
+   "tier": "wire",
+   "url": "http://www.calcuttanews.net/news/279190874/nse-got-sebi-nod-to-launch-derivatives-on-nifty-india-fpi-150-index-from-august-12",
+   "title": "NSE got SEBI nod to launch derivatives on Nifty India FPI 150 Index from August 12",
+   "published_at": "2026-07-16T09:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8874
+  },
   {
    "id": "7e6f69b391c4fb220d4872c2e452a2dabc3896b8",
    "source": "prokerala.com",
@@ -20,7 +30,7 @@
    "title": "Sensex , Nifty trade higher led by consumer durables and IT stocks",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9925
+   "sim_to_centroid": 0.9903
   },
   {
    "id": "e738878d9f4d3c127aaab8353c334c0423087057",
@@ -30,7 +40,7 @@
    "title": "Indian equity markets open higher ; Nifty holds above 24 , 100 , Sensex gains over 260 pts",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9133
+   "sim_to_centroid": 0.9172
   },
   {
    "id": "32459ca88245398b3400c2c0bea5974f28dd85d3",
@@ -40,11 +50,18 @@
    "title": "Sensex , Nifty Trade Higher on IT , Consumer Durables Gains",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9927
+   "sim_to_centroid": 0.9911
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "NSE got SEBI nod to launch derivatives on Nifty India FPI 150 Index from August 12",
+   "source": "calcuttanews.net",
+   "url": "http://www.calcuttanews.net/news/279190874/nse-got-sebi-nod-to-launch-derivatives-on-nifty-india-fpi-150-index-from-august-12",
+   "at": "2026-07-16T09:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Sensex , Nifty trade higher led by consumer durables and IT stocks",
@@ -69,12 +86,14 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-16T06:42:33.527874+00:00",
+  "created_at": "2026-07-16T12:00:25.259136+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "NSE got SEBI nod to launch derivatives on Nifty India FPI 150 Index from August 12",
     "Sensex , Nifty trade higher led by consumer durables and IT stocks",
+    "Indian equity markets open higher ; Nifty holds above 24 , 100 , Sensex gains over 260 pts",
     "Sensex , Nifty Trade Higher on IT , Consumer Durables Gains"
    ],
    "official_lines": []
@@ -89,21 +108,22 @@
    }
   ],
   "output": {
-   "title": "Sensex , Nifty trade…",
-   "one_liner": "Sensex , Nifty trade higher led by consumer…",
+   "title": "NSE got SEBI nod to…",
+   "one_liner": "NSE got SEBI nod to launch derivatives on Nifty…",
    "why_now": null,
    "details": [
+    "NSE got SEBI nod to launch derivatives on Nifty India FPI 150 Index from August 12",
     "Sensex , Nifty trade higher led by consumer durables and IT stocks",
-    "Sensex , Nifty Trade Higher on IT , Consumer Durables Gains"
+    "Indian equity markets open higher ; Nifty holds above 24 , 100 , Sensex gains over 260 pts"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "bf275cc70f5c9a979a9db3a6363c99de553d9d88"
+  "fact_hash": "c9a5d9fa489423ead89a894b9d7250d2d99095d0"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-16T06:42:33.527823+00:00"
+  "at": "2026-07-16T12:00:25.259070+00:00"
  },
  "glossary": [],
  "related": [
@@ -120,12 +140,6 @@
    "shared": []
   },
   {
-   "id": "c4e8e497777eba176",
-   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
    "id": "eb742211d6b920cb4",
    "title": "코스피, 상반기에 두 배로",
    "category": "MARKET",
@@ -134,6 +148,12 @@
   {
    "id": "c88e0e9224f4c05cc",
    "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c4e8e497777eba176",
+   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "category": "MARKET",
    "shared": []
   }

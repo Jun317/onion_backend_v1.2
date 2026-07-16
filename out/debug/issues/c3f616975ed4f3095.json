@@ -68,43 +68,45 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-16T06:40:38.399112+00:00",
+  "model": "template",
+  "created_at": "2026-07-16T12:05:43.609092+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
     "Letter : Time to see the light on DST",
+    "Directly support your favorite baseball website",
     "How a Daylight Saving Time Change Could Impact Your Body"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"서머타임 도입 검토\",\n    \"one_liner\": \"서머타임 도입에 대한 논의가 시작되었어요.\",\n    \"why_now\": \"서머타임은 낮 시간을 활용해 에너지 절약과 경제 활동을 늘리려는 제도예요.\",\n    \"impact_line\": \"서머타임이 시행되면 생활 패턴이 바뀔 수 있어요.\",\n    \"details\": [\n        \"서머타임 도입에 대한 필요성이 제기되고 있어요.\",\n        \"서머타임은 낮이 길어지는 여름철에 시계를 한 시간 앞으로 당겨서 사용하는 제도예요.\",\n        \"에너지 절약과 경제 활동 증진 효과가 기대돼요.\",\n        \"하지만 수면 패턴 변화 등 건강에 미치는 영향에 대한 우려도 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"서머타임이 도입되면 낮이 더 길게 느껴져 저녁 활동이 늘어날 수 있어요!\",\n        \"생활 시간이 바뀌면서 수면 리듬에 변화가 생길 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"서머타임\",\n            \"easy\": \"여름철에 낮 시간을 더 길게 활용하기 위해 시계를 한 시간 앞당기는 제도예요.\",\n            \"example\": \"서머타임이 시행되면 저녁 7시가 실제로는 8시처럼 느껴질 수 있어요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "서머타임 도입 검토",
-   "one_liner": "서머타임 도입에 대한 논의가 시작되었어요.",
-   "why_now": "서머타임은 낮 시간을 활용해 에너지 절약과 경제 활동을 늘리려는 제도예요.",
+   "title": "Letter : Time to see…",
+   "one_liner": "Letter : Time to see the light on DST",
+   "why_now": null,
    "details": [
-    "서머타임 도입에 대한 필요성이 제기되고 있어요.",
-    "서머타임은 낮이 길어지는 여름철에 시계를 한 시간 앞으로 당겨서 사용하는 제도예요.",
-    "에너지 절약과 경제 활동 증진 효과가 기대돼요.",
-    "하지만 수면 패턴 변화 등 건강에 미치는 영향에 대한 우려도 있어요."
+    "Letter : Time to see the light on DST",
+    "Directly support your favorite baseball website",
+    "How a Daylight Saving Time Change Could Impact Your Body"
    ],
-   "effects": [
-    "서머타임이 도입되면 낮이 더 길게 느껴져 저녁 활동이 늘어날 수 있어요!",
-    "생활 시간이 바뀌면서 수면 리듬에 변화가 생길 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "db271fdea2dc8521c7c609b07fe1a90223dd4ca6"
+  "fact_hash": "bbe0ad24536574bfe9164555233cdb0a67f39079"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T12:05:43.609028+00:00"
+ },
  "glossary": [],
  "related": [
   {

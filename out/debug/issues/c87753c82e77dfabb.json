@@ -69,29 +69,23 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-16T06:38:44.011482+00:00",
+  "created_at": "2026-07-16T11:58:16.601024+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
     "Michigan governor candidates offer competing plans to improve economic growth in the state",
-    "Dividend growers offer resilience in uncertain markets"
+    "Dividend growers offer resilience in uncertain markets",
+    "Indonesia urges BRICS members to strengthen future skills forecasting"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"미국 주식 시장 변동성\", \"one_liner\": \"미국 주식 시장이 불확실한 상황에서도 배당금을 늘리는 기업들이 주목받고 있어요.\", \"why_now\": \"경제가 불안정할 때 배당금을 꾸준히 주는 회사는 투자자들에게 안정적인 수익을 줄 수 있기 때문이에요.\", \"impact_line\": \"배당금을 주는 기업의 주가가 상대적으로 안정적일 수 있어요.\", \"details\": [\"미국 주식 시장의 불확실성이 커지고 있어요.\", \"이런 상황에서 배당금을 꾸준히 늘리는 기업들이 투자자들에게 좋은 선택지가 될 수 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"배당금을 늘리는 기업들은 시장 상황이 좋지 않을 때도 주가 하락폭이 상대적으로 작을 수 있어요!\", \"안정적인 현금 흐름을 제공하는 기업에 대한 관심이 높아질 것으로 예상돼요!\"], \"glossary\": [{\"term\": \"배당금\", \"easy\": \"회사가 이익의 일부를 주주들에게 나눠주는 돈이에요.\", \"example\": \"주식 투자를 하면 회사가 번 돈의 일부를 배당금으로 받을 수 있어요.\"}], \"market_cap\": \"none\"}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "why_now 55자 초과(56)",
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -101,16 +95,17 @@
    "why_now": null,
    "details": [
     "Michigan governor candidates offer competing plans to improve economic growth in the state",
-    "Dividend growers offer resilience in uncertain markets"
+    "Dividend growers offer resilience in uncertain markets",
+    "Indonesia urges BRICS members to strengthen future skills forecasting"
    ],
    "effects": [],
    "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "9ea7d0c1d838c2d641c55f4d26f3794347903646"
+  "fact_hash": "2ac0d078ee19c1583145b71290488ab13288bc97"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(56)\", \"details 3문장 미만\"]}]}",
-  "at": "2026-07-16T06:38:44.011337+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T11:58:16.600951+00:00"
  },
  "glossary": [],
  "related": [
