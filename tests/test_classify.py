@@ -39,3 +39,10 @@ def test_classify_all_skips_official(conn):
     assert n == 1
     assert conn.execute("SELECT category FROM issue WHERE id='c1'").fetchone()[0] == "RATE"
     assert conn.execute("SELECT category FROM issue WHERE id='e1'").fetchone()[0] == "MACRO"
+
+
+def test_commodity_split_from_fx():
+    """유가·원자재는 COMMODITY, 환율은 FX — 유가 기사에 환율 차트가 붙던 오분류 방지."""
+    assert keyword_category("국제 유가 급등에 원자재 시장 출렁", []) == "COMMODITY"
+    assert keyword_category("WTI crude oil surges after strait closure", []) == "COMMODITY"
+    assert keyword_category("원달러 환율 급등, 달러 강세", []) == "FX"

@@ -14,6 +14,9 @@ cluster:
   # 기사·이슈 양쪽 다 entity_key 가 없을 때 개체 게이트 통과 허용
   # (설계서 §04 원문은 공유 개체 ≥1 요구 — GEO 등 무개체 뉴스 군집을 위해 완화. 튜닝 대상)
   entity_gate_allow_empty: true
+  # 메가 클러스터 방지 — 무관 기사 과병합으로 제목↔요약 불일치가 발생했던 사례 대응
+  max_members: 40             # 이슈당 비중복 멤버 정원 (초과 시 편입·병합 차단)
+  centroid_freeze_members: 20 # 이 수 이상이면 centroid EMA 갱신 중단 (드리프트 방지)
 
 dedup:
   simhash_k: 3          # 제목 simhash64 해밍거리 임계
@@ -60,7 +63,8 @@ importance:
     RATE: 100           # 금리·통화정책
     MACRO: 80           # 물가·고용·성장
     POLICY: 70          # 금융·재정 정책
-    FX: 60              # 환율·원자재
+    FX: 60              # 환율
+    COMMODITY: 60       # 유가·금·원자재
     GEO: 60             # 지정학·국제
     MARKET: 55          # 증시 급등락
     EARNINGS: 40        # 실적·공시
@@ -158,6 +162,7 @@ icons:
     MACRO: "🌡️"
     POLICY: "🏛️"
     FX: "💱"
+    COMMODITY: "🛢️"
     GEO: "🌍"
     MARKET: "📈"
     EARNINGS: "🧾"

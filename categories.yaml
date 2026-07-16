@@ -1,5 +1,5 @@
 # ============================================================================
-# 카테고리 8종 (설계서 §04-⑦) — 분류 3단 폴백의 ②키워드 ③프로토타입 정의
+# 카테고리 9종 (설계서 §04-⑦ + COMMODITY 분리) — 분류 3단 폴백의 ②키워드 ③프로토타입 정의
 # keywords: 제목 우선 매칭(부분 문자열, 대소문자 무시). 먼저 걸리는 카테고리 승.
 # prototypes: 카테고리별 대표 문장 3개 — 평균 임베딩과 cos argmax ≥ proto_min.
 # ============================================================================
@@ -31,14 +31,23 @@ MACRO:
     - Inflation data showed consumer prices rising
     - 고용 지표와 경제 성장률이 발표됐다
 
+COMMODITY:
+  label: 원자재
+  keywords: [유가, 원유, 국제유가, 금값, 금 가격, 원자재, 구리, 곡물,
+             crude oil, oil price, gold price, commodity, commodities, WTI, 브렌트, Brent, OPEC]
+  prototypes:
+    - 국제 유가가 급등했다
+    - Crude oil prices surged after supply disruptions
+    - 금값과 원자재 가격이 크게 움직였다
+
 FX:
-  label: 환율·원자재
-  keywords: [환율, 원달러, 원/달러, 달러 강세, 달러 약세, 유가, 원유, 금값, 원자재,
-             exchange rate, dollar, crude oil, gold price, commodity, WTI, 브렌트]
+  label: 환율
+  keywords: [환율, 원달러, 원/달러, 달러 강세, 달러 약세, 엔화, 위안화,
+             exchange rate, dollar, yen, yuan, currency]
   prototypes:
     - 원달러 환율이 급등했다
     - The dollar strengthened against major currencies
-    - 국제 유가와 원자재 가격이 변동했다
+    - 주요 통화 대비 환율이 변동했다
 
 MARKET:
   label: 증시·수급

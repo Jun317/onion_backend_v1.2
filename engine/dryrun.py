@@ -68,3 +68,20 @@ def make_fixture_data(data_dir: Path) -> None:
     }
     (data_dir / "express" / "ecos_base_rate_202607.json").write_text(
         json.dumps(event, ensure_ascii=False, indent=1), encoding="utf-8")
+
+    # 급행 이벤트 2: 원자재(유가) — COMMODITY 분류·wti 차트 경로·과거 사건 시각 검증용.
+    # created_at/observed_at 이 과거 시점 → export.event_at 이 last_update 와 달라야 한다.
+    oil_at = (now - timedelta(days=3)).isoformat()
+    oil = {
+        "key": "fixture_wti_spike", "created_at": oil_at,
+        "category": "COMMODITY", "entity": "이란", "period": now.strftime("%Y-%m"),
+        "title": "호르무즈 봉쇄에 국제 유가 급등",
+        "anchors": [
+            {"entity": "WTI", "metric": "국제 유가", "value": 111.24, "unit": "달러",
+             "prev": None, "period": now.strftime("%Y-%m"),
+             "source": "WTI 선물 (언론 보도)", "observed_at": oil_at}],
+        "timeline": {"kind": "headline", "title": "이란, 호르무즈 해협 봉쇄 — 유가 급등",
+                     "source": "연합뉴스", "url": "https://example.com/oil"},
+    }
+    (data_dir / "express" / "fixture_wti_spike.json").write_text(
+        json.dumps(oil, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -105,3 +105,56 @@ def test_frozen_semantics_allows_member_add(conn):
     assert stats["joined"] == 1
     new_centroid = conn.execute("SELECT centroid FROM issue WHERE id='i1'").fetchone()[0]
     assert not np.allclose(from_blob(old_centroid), from_blob(new_centroid))
+
+
+def _fill_members(conn, iid: str, n: int, prefix: str = "m"):
+    for k in range(n):
+        insert_article(conn, f"{prefix}{k}", issue_id=iid, source=f"s{k}", title=f"기사 {k}")
+
+
+def test_assign_skips_issue_at_member_cap(conn):
+    """정원(max_members) 초과 이슈는 배정 후보에서 제외 — 메가 클러스터 성장 차단."""
+    base = unit_vec(seed=11)
+    insert_issue(conn, "big", centroid=base, entity_keys='["BOK"]', status="active")
+    _fill_members(conn, "big", 40)
+    insert_article(conn, "new1", vec=unit_vec(base=base, noise=0.1), entity_keys='["BOK"]')
+    stats = cluster.assign(conn)
+    assert stats["joined"] == 0 and stats["pooled"] == 1
+    assert conn.execute("SELECT issue_id FROM article WHERE id='new1'").fetchone()[0] is None
+
+
+def test_centroid_freezes_on_large_issue(conn):
+    """멤버 ≥ centroid_freeze_members 이슈는 편입돼도 centroid 가 고정 — 드리프트 방지."""
+    base = unit_vec(seed=12)
+    insert_issue(conn, "mid", centroid=base, entity_keys='["BOK"]', status="active")
+    _fill_members(conn, "mid", 20)
+    insert_article(conn, "new2", vec=unit_vec(base=base, noise=0.1), entity_keys='["BOK"]')
+    stats = cluster.assign(conn)
+    assert stats["joined"] == 1
+    after = from_blob(conn.execute("SELECT centroid FROM issue WHERE id='mid'").fetchone()[0])
+    from engine.embed import to_blob
+    assert np.array_equal(after, from_blob(to_blob(base)))   # EMA 미적용 = 그대로 (fp16 왕복)
+
+
+def test_centroid_still_moves_below_freeze(conn):
+    base = unit_vec(seed=13)
+    insert_issue(conn, "small", centroid=base, entity_keys='["BOK"]', status="active")
+    _fill_members(conn, "small", 3)
+    insert_article(conn, "new3", vec=unit_vec(base=base, noise=0.1), entity_keys='["BOK"]')
+    cluster.assign(conn)
+    after = from_blob(conn.execute("SELECT centroid FROM issue WHERE id='small'").fetchone()[0])
+    from engine.embed import to_blob
+    assert not np.array_equal(after, from_blob(to_blob(base)))   # EMA 반영
+
+
+def test_merge_guard_blocks_oversized_result(conn):
+    """병합 결과가 정원을 넘으면 스킵 — 체인 머지 메가 클러스터 방지."""
+    base = unit_vec(seed=14)
+    insert_issue(conn, "m1", centroid=base, entity_keys='["BOK"]', status="active")
+    insert_issue(conn, "m2", centroid=unit_vec(base=base, noise=0.02),
+                 entity_keys='["BOK"]', status="active")
+    _fill_members(conn, "m1", 25, prefix="x")
+    _fill_members(conn, "m2", 25, prefix="y")
+    assert cluster.merge(conn) == 0
+    statuses = {r["id"]: r["status"] for r in conn.execute("SELECT id,status FROM issue")}
+    assert statuses == {"m1": "active", "m2": "active"}

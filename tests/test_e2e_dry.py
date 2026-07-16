@@ -15,9 +15,9 @@ def test_full_cycle(tmp_path):
     # 수집 반영: 기사 7건 로드, 전재 1건은 근접중복 마킹
     assert stats["inserted"] == 7
     assert stats["near_dups"] == 1
-    # 급행 이벤트 1건 → 이슈 즉시 발행 + centroid 보강
-    assert stats["express"] == 1
-    assert stats["express_centroids"] == 1
+    # 급행 이벤트 2건(금리·유가) → 이슈 즉시 발행 + centroid 보강
+    assert stats["express"] == 2
+    assert stats["express_centroids"] == 2
     # 군집: 한은 클러스터는 급행 이슈로 편입/병합, 삼성 클러스터는 seed → promote
     assert stats["seeded"] >= 1
     assert stats["promoted"] >= 1
@@ -26,11 +26,15 @@ def test_full_cycle(tmp_path):
 
     # export 산출 검증
     index = json.loads((out / "index.json").read_text(encoding="utf-8"))
+    assert index["schema_version"] == 3
     assert index["issues"], "발행 이슈가 export 되어야 함"
     cats = {i["category"] for i in index["issues"]}
     assert "RATE" in cats            # 급행 이슈
+    assert "COMMODITY" in cats       # 원자재 급행 이슈 (v3 신설 카테고리)
     for card in index["issues"]:
         assert card["one_liner"] and card["id"]
+        assert card["event_at"], "v3: 사건 시각이 카드에 있어야 함"
+        assert "impact_line" in card
         detail_path = out / "issues" / f"{card['id']}.json"
         assert detail_path.exists()
         detail = json.loads(detail_path.read_text(encoding="utf-8"))
@@ -41,6 +45,10 @@ def test_full_cycle(tmp_path):
     rate_issue = next(i for i in index["issues"] if i["category"] == "RATE")
     assert rate_issue["origin"] == "official_event"   # 공식 origin 승자 (§05-⑤)
     assert rate_issue["sources"] >= 2                  # 한은 기사 편입 (전재 제외)
+
+    # 유가(COMMODITY) 이슈 — 사건 시각(3일 전 타임라인)이 처리 시각과 분리돼야 함
+    oil_issue = next(i for i in index["issues"] if i["category"] == "COMMODITY")
+    assert oil_issue["event_at"] < oil_issue["last_update"]
 
 
 def test_dry_run_is_idempotent(tmp_path):

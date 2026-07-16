@@ -22,7 +22,8 @@ from .viz import REGISTRY, build_visual
 OUT = ROOT / "out"
 
 # out/index.json 스키마 버전 — 필드 추가·형태 변경 시 올린다 (프런트 호환성 협상용)
-SCHEMA_VERSION = 2
+# v3: event_at(사건 시각)·impact_line(나에게는) 카드 필드, headlines[].lang 추가
+SCHEMA_VERSION = 3
 
 
 def _fmt_num(v: float) -> str:
@@ -98,12 +99,55 @@ def _related_issues(conn: sqlite3.Connection, issue: sqlite3.Row, limit: int = 5
     return out
 
 
+def _visual_consistent(conn: sqlite3.Connection, issue: sqlite3.Row,
+                       visual: dict | None) -> bool:
+    """헤드라인 앵커 ↔ 차트 최신값 교차 검증 게이트.
+    같은 지표 계열의 공식(official) 앵커가 차트 최신값과 허용오차 이상 어긋나면
+    차트만 숨긴다 (이슈는 발행 유지). 언론 보도 수치·다른 지표는 대조하지 않는다 —
+    FRED 월간 다운샘플 vs 스팟 값의 정상적 차이를 오탐하지 않기 위함."""
+    spec = REGISTRY.get((visual or {}).get("type") or "", {})
+    rule = spec.get("consistency")
+    series = (visual or {}).get("series") or []
+    if not rule or not series:
+        return True
+    a = conn.execute(
+        "SELECT metric, value, trust, period FROM numeric_anchor "
+        "WHERE issue_id=? AND value IS NOT NULL AND metric != '변동폭' "
+        "ORDER BY observed_at DESC, id DESC LIMIT 1", (issue["id"],)).fetchone()
+    if not a or a["trust"] != "official" or a["value"] is None:
+        return True
+    metric = (a["metric"] or "").lower()
+    if not any(k.lower() in metric for k in rule["metric_keywords"]):
+        return True
+    latest = series[-1]
+    if not isinstance(latest.get("v"), (int, float)):
+        return True
+    # 앵커가 과거 시점(예: 3월 고점)이고 차트 최신점이 다른 시점이면 모순이 아니라
+    # 시점 차이 — 대조하지 않는다. 같은 기간(접두 일치)일 때만 값을 비교한다.
+    period, t = str(a["period"] or ""), str(latest.get("t") or "")
+    if period and t and not (t.startswith(period) or period.startswith(t[:len(period)])):
+        return True
+    return abs(a["value"] - latest["v"]) <= rule["rel_tol"] * max(abs(latest["v"]), 1e-9)
+
+
+def _event_at(conn: sqlite3.Connection, issue: sqlite3.Row) -> str:
+    """사건 시각 — 타임라인 최신 항목(실기사 발행/공식 발표 시각) 기준.
+    처리 시각(last_update)과 분리해 '신선도 위장'을 막는다."""
+    row = conn.execute(
+        "SELECT MAX(at) AS t FROM timeline_entry WHERE issue_id=?",
+        (issue["id"],)).fetchone()
+    return row["t"] or issue["created_at"]
+
+
 def _issue_card(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
     o = conn.execute("SELECT * FROM llm_output WHERE issue_id=?", (issue["id"],)).fetchone()
     has_visual = bool(o and o["visual_type"] and o["visual_type"] != "none")
     # spark 용 시리즈 — build_visual 은 viz_cache(6h) 를 타므로 카드 단위 호출 부담 없음
     visual = build_visual(conn, o["visual_type"], issue["category"], issue["id"]) \
         if has_visual else None
+    if visual and not _visual_consistent(conn, issue, visual):
+        visual = None
+        has_visual = False
     # LLM 미가공 시 원제목이 노출되므로 한자 약자 치환 (가공 성공분은 C2 검증이 CJK 차단)
     fallback_title = normalize_hanja(issue["canonical_title"])
     return {
@@ -112,6 +156,8 @@ def _issue_card(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
         "title": (o["title"] if o and o["title"] else fallback_title),
         "one_liner": (o["one_liner"] if o and o["one_liner"] else fallback_title),
         "why_now": o["why_now"] if o else None,
+        # v3: "나에게는?" 생활 임팩트 한 줄 (LLM 소프트 필드 — 없으면 null, 프런트 숨김)
+        "impact_line": o["impact_line"] if o else None,
         "raw_title": fallback_title,   # 원 기사 제목 (참고)
         "category": issue["category"],
         "status": issue["status"],
@@ -119,6 +165,8 @@ def _issue_card(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
         "sources": issue["seen_sources"],
         "importance": issue["importance"],
         "last_update": issue["last_update"],
+        # v3: 사건 시각 — 프런트 주 표기용. last_update 는 "카드 업데이트" 보조 표기.
+        "event_at": _event_at(conn, issue),
         "has_visual": has_visual,
         # v2 (redesignspec §5): 핵심 숫자 · 스파크 시리즈 · 이슈 아이콘
         "headline_stat": _headline_stat(conn, issue),
@@ -145,7 +193,8 @@ def _issue_detail(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
             break
     headlines = []
     for r in conn.execute(
-            "SELECT title, source, url, published_at FROM article WHERE issue_id=? AND is_dup=0 "
+            "SELECT title, source, url, published_at, lang FROM article "
+            "WHERE issue_id=? AND is_dup=0 "
             "ORDER BY published_at DESC LIMIT 20", (issue["id"],)):
         d = dict(r)
         d["title"] = normalize_hanja(d["title"])
@@ -164,6 +213,8 @@ def _issue_detail(conn: sqlite3.Connection, issue: sqlite3.Row) -> dict:
     visual = None
     if o and o["visual_type"] and o["visual_type"] != "none":
         visual = build_visual(conn, o["visual_type"], issue["category"], issue["id"])
+        if visual and not _visual_consistent(conn, issue, visual):
+            visual = None  # 카드(_issue_card)와 동일 게이트 — has_visual 도 함께 꺼짐
 
     details = json.loads(o["details_json"]) if o else []
     card = _issue_card(conn, issue)
