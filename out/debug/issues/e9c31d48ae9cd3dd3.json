@@ -38,7 +38,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-16T18:39:05.879425+00:00",
+  "created_at": "2026-07-16T23:18:36.471675+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [
@@ -57,14 +57,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 물가상승률\",\n   \"one_liner\": \"미국의 물가상승률이 3.46353%에요\",\n   \"why_now\": \"물가상승률이 높으면 물건 값이 오르는 게 보통이에요\",\n   \"impact_line\": \"미국 물건의 가격이 오를 수 있어요\",\n   \"details\": [\n       \"미국의 물가상승률은 3.46353%에요\",\n       \"미국의 물가상승률이 발표됐어요\"\n   ],\n   \"visual_type\": \"us_cpi_yoy\",\n   \"effects\": [\n       \"미국의 물가상승률이 높아지면 미국의 물건을 사는 데 더 많은 돈을 써야 할 수 있어요!\",\n       \"미국의 물가상승률이 높아지면 미국의 경제에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"CPI\",\n           \"easy\": \"소비자 물가 지수예요. 물건의 평균 가격을 나타내요.\",\n           \"example\": \"CPI가 높으면 물건의 가격이 높은 거예요.\"\n       }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -85,8 +79,8 @@
   "fact_hash": "23ab769aaa6b03d73c1331c879427daacca343b7"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-16T18:39:05.879329+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T23:18:36.471563+00:00"
  },
  "glossary": [
   {
