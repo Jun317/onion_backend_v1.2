@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-17T03:50:47.808493+00:00",
+  "created_at": "2026-07-17T09:30:32.462645+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -881,15 +881,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"미국 관세 장벽 재건\", \"one_liner\": \"미국 대법원이 트럼프 행정부의 관세 부과가 위헌이라고 판결했어요.\", \"why_now\": \"트럼프 행정부가 대법원 판결에 따라 관세 장벽을 다시 쌓으려 하고 있어요.\", \"impact_line\": \"수입 물가 상승으로 장바구니 물가가 오를 수 있어요.\", \"details\": [\"미국 대법원이 트럼프 행정부의 관세 부과가 위헌이라고 판결했어요.\", \"트럼프 행정부는 이에 따라 관세 장벽을 다시 쌓으려 하고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"수입 물가가 오르면 국내 소비자들의 부담이 커질 수 있어요!\", \"국내 기업들의 생산 비용도 늘어날 수 있어요.\"], \"glossary\": [{\"term\": \"관세\", \"easy\": \"나라 밖에서 물건을 들여올 때 내는 돈이에요.\", \"example\": \"관세가 오르면 수입 과자 가격이 비싸져요.\"}, {\"term\": \"위헌\", \"easy\": \"헌법에 어긋나서 안 된다는 뜻이에요.\", \"example\": \"법원이 위헌이라고 하면 그 법은 효력을 잃어요.\"}]}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -912,16 +905,9 @@
   "fact_hash": "cd03d59b7452e1a09bb64ad24135f821d99587b8"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-17T03:50:47.808431+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-17T09:30:32.462586+00:00"
  },
  "glossary": [],
- "related": [
-  {
-   "id": "e5f941b1992f60ad9",
-   "title": "호르무즈 봉쇄에 국제 유가 급등",
-   "category": "COMMODITY",
-   "shared": []
-  }
- ]
+ "related": []
 }

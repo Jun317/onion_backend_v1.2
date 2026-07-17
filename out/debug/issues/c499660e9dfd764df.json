@@ -105,7 +105,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-17T03:47:11.942630+00:00",
+  "created_at": "2026-07-17T09:26:39.218483+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -118,12 +118,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"보잉의 호재\",\n   \"one_liner\": \"보잉이 새로운 비행기를 만들고 투자자들이 보잉에 돈을 넣고 있어요\",\n   \"why_now\": \"새로운 비행기를 만들면 더 많은 수요가 생겨서 회사가 더 잘 될 수 있어요\",\n   \"impact_line\": \"여행하기가 더 편해질 수 있어요\",\n   \"details\": [\n      \"보잉이 737 맥스와 777-9 비행기의 생산을 앞당겼어요\",\n      \"에어 뉴질랜드가 보잉 777 비행기의 새로운 비즈니스와 경제석을 공개했어요\",\n      \"에어 뉴질랜드가 보잉 777 비행기의 새로운 내부를 공개했어요\",\n      \"밴테지 투자 파트너스 LLC가 보잉에 487,000달러를 투자했어요\",\n      \"ジム 크레이머가 보잉의 주가 상승에 감동했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"새로운 비행기를 만들면 더 많은 일자리가 생길 수 있어요!\",\n      \"여행하기가 더 편해지면 여행 산업이 더 잘 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [-9.0]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [-9.0, 487000.0]"
     ]
    }
   ],
@@ -142,20 +148,20 @@
   "fact_hash": "90619ef522732dcb74143079bf1e350addc301c6"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-17T03:47:11.942525+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [-9.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [-9.0, 487000.0]\"]}]}",
+  "at": "2026-07-17T09:26:39.218371+00:00"
  },
  "glossary": [],
  "related": [
   {
-   "id": "c72702defa15d1f1f",
-   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
+   "id": "c273684a49f5f6fb2",
+   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c273684a49f5f6fb2",
-   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
+   "id": "c72702defa15d1f1f",
+   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
    "category": "MARKET",
    "shared": []
   },

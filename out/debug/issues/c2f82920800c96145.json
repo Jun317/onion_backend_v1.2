@@ -89,40 +89,43 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-17T03:48:45.305445+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-17T09:26:53.119271+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Prediction : AMD Stock Will Soar After Aug . 4 . The Reason Is Hiding in Plain Sight",
     "FinancialContent - Lattice Semiconductor , AMD , and Qualcomm Shares Are Falling , What You Need To Know",
     "The Micron chart flashes an ugly sign",
     "Micron signs deals with Qualcomm , others for AI - powered automobile chip components"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"반도체 기업 주가 하락\",\n  \"one_liner\": \"AMD, 퀄컴, 마이크론 등 반도체 기업들의 주가가 떨어지고 있어요.\",\n  \"why_now\": \"반도체 산업은 경기에 민감해 주가 변동이 크기 때문에 투자자들의 관심이 높아요.\",\n  \"impact_line\": \"반도체 관련 기업들의 주가 하락은 투자 심리에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"AMD 주가가 크게 오를 것이라는 전망이 있어요.\",\n    \"하지만 퀄컴, 마이크론 등 다른 반도체 기업들의 주가는 하락세를 보이고 있어요.\",\n    \"마이크론의 주가 차트에서 좋지 않은 신호가 감지되었어요.\",\n    \"마이크론은 퀄컴 등과 자동차용 인공지능 칩 부품 공급 계약을 맺었어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"반도체 관련 기업들의 주가 하락은 투자자들의 불안감을 키울 수 있어요!\",\n    \"마이크론이 퀄컴 등과 맺은 계약은 향후 실적 개선에 긍정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AMD\",\n      \"easy\": \"컴퓨터 중앙처리장치(CPU)와 그래픽처리장치(GPU)를 만드는 미국의 대표적인 반도체 기업이에요.\",\n      \"example\": \"AMD의 신형 CPU는 게임 성능을 크게 향상시켰어요.\"\n    },\n    {\n      \"term\": \"퀄컴\",\n      \"easy\": \"스마트폰에 들어가는 통신 칩과 모바일 프로세서를 만드는 미국의 대표적인 반도체 기업이에요.\",\n      \"example\": \"퀄컴의 최신 칩은 더 빠른 5G 통신을 지원해요.\"\n    },\n    {\n      \"term\": \"마이크론\",\n      \"easy\": \"컴퓨터 메모리 반도체인 D램과 낸드플래시를 만드는 미국의 대표적인 기업이에요.\",\n      \"example\": \"마이크론의 메모리 반도체 가격 변동은 IT 기기 가격에 영향을 줘요.\"\n    },\n    {\n      \"term\": \"인공지능\",\n      \"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n      \"example\": \"인공지능 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "FinancialContent -…",
-   "one_liner": "FinancialContent - Lattice Semiconductor , AMD ,…",
-   "why_now": null,
+   "title": "반도체 기업 주가 하락",
+   "one_liner": "AMD, 퀄컴, 마이크론 등 반도체 기업들의 주가가 떨어지고 있어요.",
+   "why_now": "반도체 산업은 경기에 민감해 주가 변동이 크기 때문에 투자자들의 관심이 높아요.",
    "details": [
-    "FinancialContent - Lattice Semiconductor , AMD , and Qualcomm Shares Are Falling , What You Need To Know",
-    "The Micron chart flashes an ugly sign",
-    "Micron signs deals with Qualcomm , others for AI - powered automobile chip components"
+    "AMD 주가가 크게 오를 것이라는 전망이 있어요.",
+    "하지만 퀄컴, 마이크론 등 다른 반도체 기업들의 주가는 하락세를 보이고 있어요.",
+    "마이크론의 주가 차트에서 좋지 않은 신호가 감지되었어요.",
+    "마이크론은 퀄컴 등과 자동차용 인공지능 칩 부품 공급 계약을 맺었어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "반도체 관련 기업들의 주가 하락은 투자자들의 불안감을 키울 수 있어요!",
+    "마이크론이 퀄컴 등과 맺은 계약은 향후 실적 개선에 긍정적인 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "b527be7034378ea865305e3ca11a78235ccd2c96"
+  "fact_hash": "4f0adf9ab9ac31a331309b1ef166aaa027737dc2"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
@@ -131,14 +134,14 @@
  "glossary": [],
  "related": [
   {
-   "id": "c72702defa15d1f1f",
-   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
+   "id": "c273684a49f5f6fb2",
+   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c273684a49f5f6fb2",
-   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
+   "id": "c72702defa15d1f1f",
+   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
    "category": "MARKET",
    "shared": []
   },
