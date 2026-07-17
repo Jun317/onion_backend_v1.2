@@ -91,8 +91,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-17T15:53:24.989047+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-17T19:41:34.385047+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -138,26 +138,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"이큐셀 실적 부진\",\n  \"one_liner\": \"이큐셀의 올해 1분기 매출과 영업이익이 크게 줄었어요.\",\n  \"why_now\": \"기업의 실적은 회사의 성장성과 수익성을 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"이큐셀 주가에 부정적인 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"이큐셀의 올해 1분기 매출은 105.5억원이에요.\",\n    \"올해 1분기 영업이익은 36.2억원 적자예요.\",\n    \"지난해 1분기 매출은 302.3억원이었어요.\",\n    \"지난해 1분기 영업이익은 10.4억원 흑자였어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"이큐셀의 실적이 좋지 않아 주가가 하락할 수 있어요!\",\n    \"투자자들의 관심이 줄어들면 주가 회복이 더딜 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"매출액\",\n      \"easy\": \"회사가 상품이나 서비스를 팔아 벌어들인 돈이에요.\",\n      \"example\": \"이번 달 매출액이 지난달보다 늘었어요.\"\n    },\n    {\n      \"term\": \"영업이익\",\n      \"easy\": \"회사가 물건을 만들거나 서비스를 제공하며 번 돈에서 비용을 뺀 거예요.\",\n      \"example\": \"영업이익이 늘면 회사가 더 많은 돈을 벌었다는 뜻이에요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "이큐셀 매출액 105.5억원",
-   "one_liner": "이큐셀 매출액 105.5억원으로 발표됐어요",
-   "why_now": null,
+   "title": "이큐셀 실적 부진",
+   "one_liner": "이큐셀의 올해 1분기 매출과 영업이익이 크게 줄었어요.",
+   "why_now": "기업의 실적은 회사의 성장성과 수익성을 보여주는 중요한 지표예요.",
    "details": [
-    "이큐셀 매출액: 105.5억원",
-    "이큐셀 영업이익: -36.2억원",
-    "이큐셀 매출액: 302.3억원",
-    "이큐셀 영업이익: 10.4억원"
+    "이큐셀의 올해 1분기 매출은 105.5억원이에요.",
+    "올해 1분기 영업이익은 36.2억원 적자예요.",
+    "지난해 1분기 매출은 302.3억원이었어요.",
+    "지난해 1분기 영업이익은 10.4억원 흑자였어요."
    ],
-   "effects": [],
+   "effects": [
+    "이큐셀의 실적이 좋지 않아 주가가 하락할 수 있어요!",
+    "투자자들의 관심이 줄어들면 주가 회복이 더딜 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "dd7f7934b363ed9120efa1e5152055e888156be5"
@@ -193,14 +194,14 @@
    "shared": []
   },
   {
-   "id": "c46f1163e8203d147",
-   "title": "UnitedHealth Group boosts earnings outlook after stronger - than - expected Q2 results",
+   "id": "c8ab924b446b01321",
+   "title": "Verizon cuts 3 , 000 retail jobs as AI replaces customer service and stores move to franchises",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c31b18e8aebe7808a",
-   "title": "PhotonPay Officially Opens São Paulo Office , Accelerating Strategic Expansion into Latin America",
+   "id": "c46f1163e8203d147",
+   "title": "UnitedHealth Group boosts earnings outlook after stronger - than - expected Q2 results",
    "category": "EARNINGS",
    "shared": []
   }

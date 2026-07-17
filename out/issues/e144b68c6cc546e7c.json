@@ -1,9 +1,9 @@
 {
  "id": "e144b68c6cc546e7c",
- "title": "인베니아 매출액 24.3억원",
- "one_liner": "인베니아 매출액 24.3억원으로 발표됐어요",
- "why_now": null,
- "impact_line": null,
+ "title": "인베니아 실적",
+ "one_liner": "인베니아의 매출과 영업이익이 줄었어요",
+ "why_now": "회사의 수익이 줄면 투자자들이 주식을 팔 수 있어요",
+ "impact_line": "주식 투자자들의 손실이 늘 수 있어요",
  "raw_title": "인베니아 2025-4Q 실적 공시",
  "category": "EARNINGS",
  "status": "stale",
@@ -12,7 +12,7 @@
  "importance": 20,
  "last_update": "2026-07-05T09:16:12.197034+00:00",
  "event_at": "2026-07-05T09:12:35.384174+00:00",
- "has_visual": true,
+ "has_visual": false,
  "headline_stat": {
   "label": "인베니아 영업이익",
   "value": "-26.2",
@@ -24,40 +24,16 @@
  "spark": null,
  "icon": "🧾",
  "details": [
-  "인베니아 매출액: 24.3억원",
-  "인베니아 영업이익: -26.2억원"
+  "인베니아의 매출액은 24.3억원이에요",
+  "인베니아의 영업이익은 -26.2억원이에요",
+  "인베니아의 실적이 좋지 않아요"
  ],
- "effects": [],
- "model": "template",
- "visual": {
-  "type": "earnings_quarterly",
-  "chart": "bar",
-  "title": "분기 실적",
-  "unit": "억원",
-  "source": "DART/EDGAR",
-  "groups": [
-   {
-    "name": "매출액",
-    "series": [
-     {
-      "t": "2025-1Q",
-      "v": 24.3
-     }
-    ],
-    "unit": "억원"
-   },
-   {
-    "name": "영업이익",
-    "series": [
-     {
-      "t": "2025-1Q",
-      "v": -26.2
-     }
-    ],
-    "unit": "억원"
-   }
-  ]
- },
+ "effects": [
+  "인베니아의 주가가 떨어질 수 있어요!",
+  "투자자들이 다른 회사에 투자할 수 있어요!"
+ ],
+ "model": "llama-3.3-70b-versatile",
+ "visual": null,
  "anchors": [
   {
    "entity": "인베니아",
@@ -115,14 +91,14 @@
    "shared": []
   },
   {
-   "id": "c46f1163e8203d147",
-   "title": "UnitedHealth Group boosts earnings outlook after stronger - than - expected Q2 results",
+   "id": "c8ab924b446b01321",
+   "title": "Verizon cuts 3 , 000 retail jobs as AI replaces customer service and stores move to franchises",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c31b18e8aebe7808a",
-   "title": "PhotonPay Officially Opens São Paulo Office , Accelerating Strategic Expansion into Latin America",
+   "id": "c46f1163e8203d147",
+   "title": "UnitedHealth Group boosts earnings outlook after stronger - than - expected Q2 results",
    "category": "EARNINGS",
    "shared": []
   }

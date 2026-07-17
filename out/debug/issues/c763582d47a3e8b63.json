@@ -9,11 +9,61 @@
  "entity_keys": [
   "NFLX"
  ],
- "seen_sources": 22,
+ "seen_sources": 24,
  "importance": 90,
  "created_at": "2026-07-12T21:11:31.396416+00:00",
- "last_update": "2026-07-17T15:51:02.482339+00:00",
+ "last_update": "2026-07-17T19:38:57.552858+00:00",
  "members": [
+  {
+   "id": "5146da5908a2fe1cf46292309012357b1a6f1dac",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-shares-sink-9-weak-152825990.html",
+   "title": "Netflix Shares Sink 9 % as Weak Outlook Overshadows Q2 Earnings Beat",
+   "published_at": "2026-07-17T17:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9404
+  },
+  {
+   "id": "945efc41abb946ea371ef71223ac946556c613c3",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/07/17/netflix-just-changed-how-often-it-reports-engageme/?source=iedfolrf0000001",
+   "title": "Netflix Just Changed How Often It Reports Engagement . Should Investors Worry ?",
+   "published_at": "2026-07-17T17:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9256
+  },
+  {
+   "id": "0d0d435b0ceb41768b5c1dbbc58e2ae1fb5ab8cf",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/07/17/netflix-beat-estimates-but-the-stock-dropped/?source=iedfolrf0000001",
+   "title": "Netflix Beat Estimates Again ; Why Did the Stock Drop 12 % Anyway ?",
+   "published_at": "2026-07-17T17:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9453
+  },
+  {
+   "id": "7d6b87669c57ef0d9ca91aa0260df7256355b6e5",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/media-advertising/articles/netflix-solving-engagement-problem-spending-214311230.html",
+   "title": "Netflix has an engagement problem . So it going to stop talking about it as much .",
+   "published_at": "2026-07-17T17:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8988
+  },
+  {
+   "id": "071fc8c5b156d17eecc2b963337144167fb15342",
+   "source": "wdez.com",
+   "tier": "wire",
+   "url": "https://wdez.com/2026/07/17/lacks-excitement-netflix-tumbles-9-as-weak-earnings-forecast-deepens-doubts-over-growth/",
+   "title": "Netflix tumbles as slowing growth , less viewership data spook investors",
+   "published_at": "2026-07-17T17:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9417
+  },
   {
    "id": "77aa6faa7c4f8054bc40ade16abb08b605a58ad3",
    "source": "ibtimes.com.au",
@@ -259,6 +309,41 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Netflix Shares Sink 9 % as Weak Outlook Overshadows Q2 Earnings Beat",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-shares-sink-9-weak-152825990.html",
+   "at": "2026-07-17T17:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Netflix Just Changed How Often It Reports Engagement . Should Investors Worry ?",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/07/17/netflix-just-changed-how-often-it-reports-engageme/?source=iedfolrf0000001",
+   "at": "2026-07-17T17:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Netflix Beat Estimates Again ; Why Did the Stock Drop 12 % Anyway ?",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/07/17/netflix-beat-estimates-but-the-stock-dropped/?source=iedfolrf0000001",
+   "at": "2026-07-17T17:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Netflix has an engagement problem . So it going to stop talking about it as much .",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/media-advertising/articles/netflix-solving-engagement-problem-spending-214311230.html",
+   "at": "2026-07-17T17:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Netflix tumbles as slowing growth , less viewership data spook investors",
+   "source": "wdez.com",
+   "url": "https://wdez.com/2026/07/17/lacks-excitement-netflix-tumbles-9-as-weak-earnings-forecast-deepens-doubts-over-growth/",
+   "at": "2026-07-17T17:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Dow Jones Slips 0 . 36 % to 52 , 361 as Chip Stock Selloff Deepens and Netflix Shares Tumble on Weak Forecast",
    "source": "ibtimes.com.au",
    "url": "https://www.ibtimes.com.au/market-turmoil-semiconductor-selloff-netflix-forecast-1872467",
@@ -427,8 +512,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-17T15:56:12.200648+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-17T19:39:06.855008+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -436,33 +521,34 @@
     "Netflix earnings forecast disappoints Wall Street , shares tumble",
     "Netflix earnings forecast disappoints , shares tumble",
     "Netflix quarterly earnings forecast falls short of Wall Street targets , shares tumble",
-    "Netflix Shares Drop After Earnings Forecast Falls Short of Wall Street Targets",
-    "Netflix Shares Fall After Mixed Q2 Earnings Report"
+    "Netflix Beat Estimates Again ; Why Did the Stock Drop 12 % Anyway ?",
+    "Netflix Shares Drop After Earnings Forecast Falls Short of Wall Street Targets"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"넷플릭스 실적 예상치 낮추기\",\n   \"one_liner\": \"넷플릭스의 실적 예상치가 낮아져 주가가 떨어졌어요\",\n   \"why_now\": \"실적 예상치가 낮으면 투자자들이 기대치를 낮추고 주식을 팔 수 있어요\",\n   \"impact_line\": \"넷플릭스 서비스 이용료가 오를 수 있어요\",\n   \"details\": [\n       \"넷플릭스의 실적 예상치가 낮아졌어요\",\n       \"투자자들이 예상한 것보다 낮은 수치라서 주가가 떨어졌어요\",\n       \"넷플릭스 주가가 떨어지면 투자자들이 손해를 볼 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"넷플릭스 실적이 낮아지면 이용자들이 서비스를 탈퇴할 가능성이 높아질 수 있어요!\",\n       \"실적 예상치가 낮아지면 넷플릭스의 투자 유치력이 떨어질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Netflix earnings…",
-   "one_liner": "Netflix earnings forecast disappoints Wall…",
-   "why_now": null,
+   "title": "넷플릭스 실적 예상치 낮추기",
+   "one_liner": "넷플릭스의 실적 예상치가 낮아져 주가가 떨어졌어요",
+   "why_now": "실적 예상치가 낮으면 투자자들이 기대치를 낮추고 주식을 팔 수 있어요",
    "details": [
-    "Netflix earnings forecast disappoints Wall Street , shares tumble",
-    "Netflix earnings forecast disappoints , shares tumble",
-    "Netflix quarterly earnings forecast falls short of Wall Street targets , shares tumble"
+    "넷플릭스의 실적 예상치가 낮아졌어요",
+    "투자자들이 예상한 것보다 낮은 수치라서 주가가 떨어졌어요",
+    "넷플릭스 주가가 떨어지면 투자자들이 손해를 볼 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "넷플릭스 실적이 낮아지면 이용자들이 서비스를 탈퇴할 가능성이 높아질 수 있어요!",
+    "실적 예상치가 낮아지면 넷플릭스의 투자 유치력이 떨어질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "4283ea0d129d74b35bcb4dd86c81148d5e007fbb"
+  "fact_hash": "ab38c2c9a7cb07f1c0d41e7cf46ba37747e7986b"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
@@ -483,6 +569,12 @@
    "shared": []
   },
   {
+   "id": "c8ab924b446b01321",
+   "title": "Verizon cuts 3 , 000 retail jobs as AI replaces customer service and stores move to franchises",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
    "id": "c46f1163e8203d147",
    "title": "UnitedHealth Group boosts earnings outlook after stronger - than - expected Q2 results",
    "category": "EARNINGS",
@@ -491,12 +583,6 @@
   {
    "id": "c31b18e8aebe7808a",
    "title": "PhotonPay Officially Opens São Paulo Office , Accelerating Strategic Expansion into Latin America",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "cb73e3e7c2c3ac871",
-   "title": "Big Pharma Just Started Buying Up Psychedelic Companies",
    "category": "EARNINGS",
    "shared": []
   }
