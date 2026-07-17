@@ -119,8 +119,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-16T18:41:52.773567+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-17T00:25:08.929922+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -133,26 +133,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"물가 관계 회의\",\n   \"one_liner\": \"정부가 물가에 대해 회의했어요\",\n   \"why_now\": \"물가가 안정되면 생활이 편해지기 때문이에요\",\n   \"impact_line\": \"물가가 안정되면 장바구니 비용이 줄어들 수 있어요\",\n   \"details\": [\n      \"정부가 물가에 대해 회의를 열었어요\",\n      \"물가에 영향을 줄 수 있는 업체를 방문했어요\",\n      \"민생 안정에 대한 지원을 위해 노력하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"물가가 안정되면 소비가 늘어나 경제가 살아날 수 있어요!\",\n      \"물가 안정으로 인해 가계 예산이 편해질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "물가관계차관회의 개최",
-   "one_liner": "물가관계차관회의 개최",
-   "why_now": null,
+   "title": "물가 관계 회의",
+   "one_liner": "정부가 물가에 대해 회의했어요",
+   "why_now": "물가가 안정되면 생활이 편해지기 때문이에요",
    "details": [
-    "물가관계차관회의 개최",
-    "물가 관계기관 간담회 개최",
-    "시장상황점검회의 개최"
+    "정부가 물가에 대해 회의를 열었어요",
+    "물가에 영향을 줄 수 있는 업체를 방문했어요",
+    "민생 안정에 대한 지원을 위해 노력하고 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "물가가 안정되면 소비가 늘어나 경제가 살아날 수 있어요!",
+    "물가 안정으로 인해 가계 예산이 편해질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "919428f0ccd1453a55b71ffd15b47bc5500d4b88"
  },

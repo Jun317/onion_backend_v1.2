@@ -85,8 +85,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-16T20:19:38.743521+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-17T00:20:57.465068+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -98,25 +98,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"인도-영국 무역 협정 발효\",\n\"one_liner\": \"인도와 영국이 자유 무역 협정을 맺고 오늘부터 시행했어요.\",\n\"why_now\": \"이번 협정으로 양국 간 물건 거래가 더 쉬워져서 가격이 싸질 수 있어요.\",\n\"impact_line\": \"영국에서 만든 물건을 더 싸게 살 수 있게 될 수 있어요.\",\n\"details\": [\n\"인도와 영국이 자유 무역 협정을 맺었어요.\",\n\"이 협정은 오늘부터 효력이 발생해요.\",\n\"영국 시장에서 인도 물건의 경쟁력이 높아질 것으로 보여요.\",\n\"협정으로 인해 어떤 물건의 가격이 싸지고 무엇이 달라지는지 살펴볼 필요가 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"영국에서 수입하는 물건의 가격이 내려갈 수 있어요!\",\n\"양국 간의 물건 거래가 늘어나 경제 활성화에 도움이 될 것으로 예상돼요!\"\n],\n\"glossary\": [\n{\n\"term\": \"자유 무역 협정\",\n\"easy\": \"나라끼리 물건을 사고팔 때 붙는 세금을 없애거나 줄여주는 약속이에요.\",\n\"example\": \"자유 무역 협정을 맺으면 수입 물건 가격이 보통 내려가요.\"\n}\n],\n\"impact_line\": \"영국에서 수입하는 물건의 가격이 내려갈 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "India - UK Free…",
-   "one_liner": "India - UK Free Trade Pact Takes Effect ; To…",
-   "why_now": null,
+   "title": "인도-영국 무역 협정 발효",
+   "one_liner": "인도와 영국이 자유 무역 협정을 맺고 오늘부터 시행했어요.",
+   "why_now": "이번 협정으로 양국 간 물건 거래가 더 쉬워져서 가격이 싸질 수 있어요.",
    "details": [
-    "India - UK Free Trade Pact Takes Effect ; To Enhance Competitiveness of Goods in British Market",
-    "India - UK trade deal takes effect : Who gains , what getting cheaper and what changing",
-    "Special Report ｜ Follow - up handling methods after Paters withdrawals are blocked - Boundary Log"
+    "인도와 영국이 자유 무역 협정을 맺었어요.",
+    "이 협정은 오늘부터 효력이 발생해요.",
+    "영국 시장에서 인도 물건의 경쟁력이 높아질 것으로 보여요.",
+    "협정으로 인해 어떤 물건의 가격이 싸지고 무엇이 달라지는지 살펴볼 필요가 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "영국에서 수입하는 물건의 가격이 내려갈 수 있어요!",
+    "양국 간의 물건 거래가 늘어나 경제 활성화에 도움이 될 것으로 예상돼요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "0cc420b31ea70a8470b63a875d686497a634372f"
