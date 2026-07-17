@@ -123,8 +123,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-17T14:22:05.238821+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-17T17:36:30.862698+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -137,26 +137,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"주요 반도체 기업 주가 하락\",\n  \"one_liner\": \"미국 증시에서 퀄컴, AMD 등 주요 반도체 기업들의 주가가 떨어지고 있어요.\",\n  \"why_now\": \"반도체 기업들의 주가 변동은 IT 산업 전반의 흐름을 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"관련 기업들의 주가 하락은 IT 관련 투자 심리에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"퀄컴, AMD, 마이크론 등 여러 반도체 기업들의 주가가 하락세를 보이고 있어요.\",\n    \"마이크론은 인공지능 기반 자동차 반도체 부품 공급을 위해 퀄컴 등과 계약을 맺었어요.\",\n    \"마이크론의 1분기 실적 전망이 발표되었어요.\",\n    \"AMD 주가가 8월 4일 이후 크게 오를 것이라는 예측이 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"반도체 업종 전반의 투자 심리가 위축될 수 있어요!\",\n    \"자동차 반도체 시장의 성장이 기대되는 만큼, 관련 기업들의 실적 개선 가능성도 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"퀄컴\",\n      \"easy\": \"스마트폰 등에 들어가는 통신 칩을 만드는 회사예요.\",\n      \"example\": \"퀄컴 칩 덕분에 스마트폰으로 통화하고 인터넷을 할 수 있어요.\"\n    },\n    {\n      \"term\": \"AMD\",\n      \"easy\": \"컴퓨터의 중앙처리장치(CPU)나 그래픽처리장치(GPU)를 만드는 회사예요.\",\n      \"example\": \"AMD CPU가 들어간 컴퓨터는 게임을 하거나 프로그램을 실행하는 데 좋아요.\"\n    },\n    {\n      \"term\": \"마이크론\",\n      \"easy\": \"컴퓨터 메모리 반도체(D램, 낸드플래시)를 만드는 회사예요.\",\n      \"example\": \"마이크론 메모리 반도체는 스마트폰과 컴퓨터의 성능을 높이는 데 쓰여요.\"\n    },\n    {\n      \"term\": \"인공지능\",\n      \"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n      \"example\": \"인공지능 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "FinancialContent -…",
-   "one_liner": "FinancialContent - Lattice Semiconductor , AMD ,…",
-   "why_now": null,
+   "title": "주요 반도체 기업 주가 하락",
+   "one_liner": "미국 증시에서 퀄컴, AMD 등 주요 반도체 기업들의 주가가 떨어지고 있어요.",
+   "why_now": "반도체 기업들의 주가 변동은 IT 산업 전반의 흐름을 보여주는 중요한 지표예요.",
    "details": [
-    "FinancialContent - Lattice Semiconductor , AMD , and Qualcomm Shares Are Falling , What You Need To Know",
-    "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
-    "What Going on With Micron Technology Stock Friday ? - Micron Technology ( NASDAQ : MU )"
+    "퀄컴, AMD, 마이크론 등 여러 반도체 기업들의 주가가 하락세를 보이고 있어요.",
+    "마이크론은 인공지능 기반 자동차 반도체 부품 공급을 위해 퀄컴 등과 계약을 맺었어요.",
+    "마이크론의 1분기 실적 전망이 발표되었어요.",
+    "AMD 주가가 8월 4일 이후 크게 오를 것이라는 예측이 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "반도체 업종 전반의 투자 심리가 위축될 수 있어요!",
+    "자동차 반도체 시장의 성장이 기대되는 만큼, 관련 기업들의 실적 개선 가능성도 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "5a66d52a5fc221022b429ea6a74e654895dcaae1"
  },

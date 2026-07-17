@@ -122,8 +122,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-17T14:21:28.364921+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-17T17:35:57.769598+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -136,25 +136,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"일본 금리 유지\",\n   \"one_liner\": \"일본 중앙은행이 금리를 바꾸지 않았어요\",\n   \"why_now\": \"일본 경제에 영향을 줄 수 있어요\",\n   \"impact_line\": \"일본 물가에 영향을 줄 수 있어요\",\n   \"details\": [\n      \"일본 중앙은행이 금리를 바꾸지 않기로 했어요\",\n      \"일본 총리가 경제 계획이 채권시장 혼란의 원인이 아니라고 했어요\",\n      \"일본 중앙은행의 낮은 금리 결정이 내부적으로 충격을 주었어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"일본 경제에 긍정적인 영향을 줄 수 있어요!\",\n      \"일본 물가가 안정될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Bank of Japan to…",
-   "one_liner": "Bank of Japan to keep interest rates unchanged…",
-   "why_now": null,
+   "title": "일본 금리 유지",
+   "one_liner": "일본 중앙은행이 금리를 바꾸지 않았어요",
+   "why_now": "일본 경제에 영향을 줄 수 있어요",
    "details": [
-    "Bank of Japan to keep interest rates unchanged at July meeting",
-    "BOJ may face pressure to ramp up bond - buying if yields spike , ex - central bank policymaker says",
-    "Japan PM Takaichi says draft economic blueprint not cause of bond market rout"
+    "일본 중앙은행이 금리를 바꾸지 않기로 했어요",
+    "일본 총리가 경제 계획이 채권시장 혼란의 원인이 아니라고 했어요",
+    "일본 중앙은행의 낮은 금리 결정이 내부적으로 충격을 주었어요"
    ],
-   "effects": [],
+   "effects": [
+    "일본 경제에 긍정적인 영향을 줄 수 있어요!",
+    "일본 물가가 안정될 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "818b50165fec4a7adcb3c6c635baa27b89acfbbe"
@@ -163,7 +164,23 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-17T14:21:28.364832+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "채권",
+   "easy": "돈을 빌리면서 '언제까지 갚겠다'고 써주는 증서예요.",
+   "example": "정부나 기업이 돈을 모을 때 발행해요."
+  }
+ ],
  "related": [
   {
    "id": "cc9931e5da1b53be2",
