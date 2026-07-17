@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-17T09:29:18.664023+00:00",
+  "created_at": "2026-07-17T14:12:59.086286+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,8 +64,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"마이크로소프트 엣지 브라우저 조사\", \"one_liner\": \"마이크로소프트의 엣지 브라우저 사용 방식에 대한 조사가 다시 시작됐어요.\", \"why_now\": \"정부가 기업의 시장 독점이나 불공정 행위를 조사하는 것은 소비자의 선택권을 보호하기 위해서예요.\", \"impact_line\": \"인터넷 브라우저 선택의 폭이 넓어질 수 있어요.\", \"details\": [\"마이크로소프트의 엣지 브라우저 사용 방식이 다시 한번 조사를 받게 됐어요.\", \"이번 조사는 소비자의 브라우저 선택권을 침해할 수 있다는 우려 때문에 시작됐어요.\"], \"visual_type\": \"none\", \"effects\": [\"만약 조사 결과 마이크로소프트의 행위에 문제가 있다고 판단되면, 다른 브라우저를 더 쉽게 사용할 수 있게 될 수 있어요!\"], \"glossary\": [{\"term\": \"브라우저\", \"easy\": \"인터넷 웹사이트를 보여주는 프로그램이에요.\", \"example\": \"크롬, 엣지, 웨일 등이 브라우저예요.\"}, {\"term\": \"시장 독점\", \"easy\": \"하나의 기업이 시장을 거의 다 차지해서 다른 기업이 끼어들기 어려운 상태를 말해요.\", \"example\": \"시장 독점이 심해지면 소비자가 선택할 수 있는 상품이 줄어들 수 있어요.\"}], \"impact_line\": \"인터넷 브라우저 선택의 폭이 넓어질 수 있어요.\"}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -87,11 +93,17 @@
   "fact_hash": "7eebe52ce7e2f00e3382e6283794550b0c4a6355"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-17T09:29:18.663927+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-17T14:12:59.086219+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c2f82920800c96145",
+   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
+   "category": "MARKET",
+   "shared": []
+  },
   {
    "id": "c499660e9dfd764df",
    "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
@@ -111,14 +123,8 @@
    "shared": []
   },
   {
-   "id": "c2f82920800c96145",
-   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c88e0e9224f4c05cc",
-   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "category": "MARKET",
    "shared": []
   }

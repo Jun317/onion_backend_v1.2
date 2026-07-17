@@ -10,11 +10,21 @@
   "BOJ",
   "KRX:047810"
  ],
- "seen_sources": 4,
- "importance": 140,
+ "seen_sources": 5,
+ "importance": 150,
  "created_at": "2026-07-15T09:26:00.579933+00:00",
- "last_update": "2026-07-16T03:45:52.462131+00:00",
+ "last_update": "2026-07-17T14:09:57.303496+00:00",
  "members": [
+  {
+   "id": "9e278e60342a36352867459436535e9d1d6f305d",
+   "source": "investinglive.com",
+   "tier": "wire",
+   "url": "https://investinglive.com:443/central-banks/bank-of-japan-to-keep-interest-rates-unchanged-at-july-meeting-kyodo",
+   "title": "Bank of Japan to keep interest rates unchanged at July meeting",
+   "published_at": "2026-07-17T12:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.909
+  },
   {
    "id": "cea6b92ca88ca702816957fd48631fcde808bf79",
    "source": "finance.yahoo.com",
@@ -23,7 +33,7 @@
    "title": "BOJ may face pressure to ramp up bond - buying if yields spike , ex - central bank policymaker says",
    "published_at": "2026-07-16T02:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8794
+   "sim_to_centroid": 0.8819
   },
   {
    "id": "37d864ad461b34bbe2c87af85034a9d40b486ac6",
@@ -33,7 +43,7 @@
    "title": "Japan PM Takaichi says draft economic blueprint not cause of bond market rout",
    "published_at": "2026-07-15T08:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9661
+   "sim_to_centroid": 0.9649
   },
   {
    "id": "4d55b4cfaa1b33f0aa5264abfc9f83d24f80206c",
@@ -43,7 +53,7 @@
    "title": "Japan PM Takaichi says draft economic blueprint not cause of bond market rout",
    "published_at": "2026-07-15T08:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9661
+   "sim_to_centroid": 0.9649
   },
   {
    "id": "10be04de45f105975b27d8f5bdc719cdfa958f25",
@@ -53,7 +63,7 @@
    "title": "Kuroda negative rate surprise shocked his own BOJ board , minutes show",
    "published_at": "2026-07-15T03:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8744
+   "sim_to_centroid": 0.8782
   },
   {
    "id": "5fa2377b286c7df4d51799721eaac5e35e68c579",
@@ -63,11 +73,18 @@
    "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
    "published_at": "2026-07-14T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.954
+   "sim_to_centroid": 0.9513
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Bank of Japan to keep interest rates unchanged at July meeting",
+   "source": "investinglive.com",
+   "url": "https://investinglive.com:443/central-banks/bank-of-japan-to-keep-interest-rates-unchanged-at-july-meeting-kyodo",
+   "at": "2026-07-17T12:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "BOJ may face pressure to ramp up bond - buying if yields spike , ex - central bank policymaker says",
@@ -105,12 +122,13 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-16T09:34:37.112803+00:00",
+  "model": "template",
+  "created_at": "2026-07-17T14:21:28.364921+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "Bank of Japan to keep interest rates unchanged at July meeting",
     "BOJ may face pressure to ramp up bond - buying if yields spike , ex - central bank policymaker says",
     "Japan PM Takaichi says draft economic blueprint not cause of bond market rout",
     "Kuroda negative rate surprise shocked his own BOJ board , minutes show",
@@ -118,52 +136,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"일본 금리\",\n   \"one_liner\": \"일본 중앙은행이 금리를 올릴 수도 있어요\",\n   \"why_now\": \"금리가 오르면 돈을 빌리기가 어려워져서 물가가 오르는 속도가 줄어들 수 있어요\",\n   \"impact_line\": \"일본 물가가 영향을 받을 수 있어요\",\n   \"details\": [\n      \"일본 중앙은행이 금리를 올릴 수도 있을 거라고 예상돼요\",\n      \"일본 총리가 경제 계획이 금리 오르지 않은 거라고 말했어요\",\n      \"일본 중앙은행장이 예상치 못한 금리 인하로 놀라게 했어요\",\n      \"일본 총리와 중앙은행의 문제가 맞물려서 상황이 복잡해질 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"일본에서 돈을 빌리거나 대출을 받기가 어려워질 수 있어요!\",\n      \"일본 물가가 안정될 가능성이 커질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "일본 금리",
-   "one_liner": "일본 중앙은행이 금리를 올릴 수도 있어요",
-   "why_now": "금리가 오르면 돈을 빌리기가 어려워져서 물가가 오르는 속도가 줄어들 수 있어요",
+   "title": "Bank of Japan to…",
+   "one_liner": "Bank of Japan to keep interest rates unchanged…",
+   "why_now": null,
    "details": [
-    "일본 중앙은행이 금리를 올릴 수도 있을 거라고 예상돼요",
-    "일본 총리가 경제 계획이 금리 오르지 않은 거라고 말했어요",
-    "일본 중앙은행장이 예상치 못한 금리 인하로 놀라게 했어요",
-    "일본 총리와 중앙은행의 문제가 맞물려서 상황이 복잡해질 수 있어요"
+    "Bank of Japan to keep interest rates unchanged at July meeting",
+    "BOJ may face pressure to ramp up bond - buying if yields spike , ex - central bank policymaker says",
+    "Japan PM Takaichi says draft economic blueprint not cause of bond market rout"
    ],
-   "effects": [
-    "일본에서 돈을 빌리거나 대출을 받기가 어려워질 수 있어요!",
-    "일본 물가가 안정될 가능성이 커질 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "5ed64fd4bd48dd000fa064d7468e742fd84ca7a9"
+  "fact_hash": "818b50165fec4a7adcb3c6c635baa27b89acfbbe"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-16T03:51:27.560067+00:00"
+  "at": "2026-07-17T14:21:28.364832+00:00"
  },
- "glossary": [
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  },
-  {
-   "term": "중앙은행",
-   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
-   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
-  },
-  {
-   "term": "금리 인하",
-   "easy": "이자의 기준을 낮추는 거예요.",
-   "example": "대출 이자가 줄어 돈 쓰기가 조금 수월해져요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "cc9931e5da1b53be2",
@@ -180,20 +180,20 @@
    "shared": []
   },
   {
+   "id": "ccd46c7722590bf65",
+   "title": "EXPLAINER - What changes under the united kingdom - EU Gibraltar agreement ?",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
    "id": "c326b0b11f6b34d1d",
    "title": "The Iran war could shape American policy for decades | JONAH GOLDBERG :",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "cbfe3b568bcaaae8c",
-   "title": "Inside the Distributor Creating a New Route for Independent Artists",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
-   "id": "ca2ef2092a2aee42f",
-   "title": "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices",
+   "id": "cf38973aa7e2574f7",
+   "title": "US Senate Bill Could Hit India With Up To 100 % Tariffs Over Russian Oil Imports",
    "category": "POLICY",
    "shared": []
   }

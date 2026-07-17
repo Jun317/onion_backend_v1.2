@@ -122,20 +122,20 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-17T09:26:39.218483+00:00",
+  "created_at": "2026-07-17T14:10:47.226787+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
-    "Boeing builds momentum with 737 Max , 777 - 9 and production advances ahead of Farnborough",
-    "Air New Zealand Unveils New Boeing 777 Business and Economy Cabins",
-    "Air New Zealand reveals new cabin upgrades for Boeing 777 aircraft",
     "Vantage Investment Partners LLC Makes New $487 , 000 Investment in The Boeing Company $BA",
-    "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares"
+    "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
+    "The Boeing Company $BA Shares Acquired by SteelPeak Wealth LLC",
+    "Boeing builds momentum with 737 Max , 777 - 9 and production advances ahead of Farnborough",
+    "Air New Zealand Unveils New Boeing 777 Business and Economy Cabins"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"보잉의 호재\",\n   \"one_liner\": \"보잉이 새로운 비행기를 만들고 투자자들이 보잉에 돈을 넣고 있어요\",\n   \"why_now\": \"새로운 비행기를 만들면 더 많은 수요가 생겨서 회사가 더 잘 될 수 있어요\",\n   \"impact_line\": \"여행하기가 더 편해질 수 있어요\",\n   \"details\": [\n      \"보잉이 737 맥스와 777-9 비행기의 생산을 앞당겼어요\",\n      \"에어 뉴질랜드가 보잉 777 비행기의 새로운 비즈니스와 경제석을 공개했어요\",\n      \"에어 뉴질랜드가 보잉 777 비행기의 새로운 내부를 공개했어요\",\n      \"밴테지 투자 파트너스 LLC가 보잉에 487,000달러를 투자했어요\",\n      \"ジム 크레이머가 보잉의 주가 상승에 감동했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"새로운 비행기를 만들면 더 많은 일자리가 생길 수 있어요!\",\n      \"여행하기가 더 편해지면 여행 산업이 더 잘 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"보잉 주가 상승세\",\n  \"one_liner\": \"보잉 주가가 737 맥스, 777-9 생산 및 성능 개선으로 상승세를 타고 있어요.\",\n  \"why_now\": \"보잉은 항공기 생산과 성능 개선 소식으로 주가에 긍정적인 영향을 받고 있어요.\",\n  \"impact_line\": \"보잉 관련 투자에 관심이 있다면 주가 변동을 지켜볼 필요가 있어요.\",\n  \"details\": [\n    \"보잉은 737 맥스, 777-9 생산 및 성능 개선에 힘쓰고 있어요.\",\n    \"에어 뉴질랜드는 새로운 보잉 777 비즈니스 및 이코노미 좌석을 공개했어요.\",\n    \"여러 투자 회사들이 보잉 주식을 매수하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"보잉의 항공기 생산 및 판매가 늘어나면 관련 부품 업체들의 실적도 좋아질 수 있어요!\",\n    \"항공 여행 수요가 회복되면 보잉의 주가도 더 오를 가능성이 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"737 맥스\",\n      \"easy\": \"보잉에서 만든 중단거리용 여객기 이름이에요.\",\n      \"example\": \"737 맥스 비행기는 전 세계 여러 항공사에서 운항하고 있어요.\"\n    },\n    {\n      \"term\": \"777-9\",\n      \"easy\": \"보잉에서 만든 대형 장거리용 여객기 이름이에요.\",\n      \"example\": \"777-9은 최신 기술이 적용된 넓고 편안한 비행기예요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
@@ -144,32 +144,38 @@
     ]
    },
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [-9.0, 487000.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
   "output": {
-   "title": "Boeing builds…",
-   "one_liner": "Boeing builds momentum with 737 Max , 777 - 9…",
+   "title": "Vantage Investment…",
+   "one_liner": "Vantage Investment Partners LLC Makes New $487 ,…",
    "why_now": null,
    "details": [
-    "Boeing builds momentum with 737 Max , 777 - 9 and production advances ahead of Farnborough",
-    "Air New Zealand Unveils New Boeing 777 Business and Economy Cabins",
-    "Air New Zealand reveals new cabin upgrades for Boeing 777 aircraft"
+    "Vantage Investment Partners LLC Makes New $487 , 000 Investment in The Boeing Company $BA",
+    "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
+    "The Boeing Company $BA Shares Acquired by SteelPeak Wealth LLC"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "90619ef522732dcb74143079bf1e350addc301c6"
+  "fact_hash": "f95b633f9db8962ae3effab80abae1a84d02d8cc"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [-9.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [-9.0, 487000.0]\"]}]}",
-  "at": "2026-07-17T09:26:39.218371+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [-9.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-17T14:10:47.226653+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c2f82920800c96145",
+   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
+   "category": "MARKET",
+   "shared": []
+  },
   {
    "id": "c72702defa15d1f1f",
    "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
@@ -183,20 +189,14 @@
    "shared": []
   },
   {
-   "id": "c2f82920800c96145",
-   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c88e0e9224f4c05cc",
-   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "cf3992948064685e4",
-   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
+   "id": "cf7f8b6082a4c96bf",
+   "title": "JPMorgan Chase & Co . Issues Positive Forecast for Southern ( NYSE : SO ) Stock Price",
    "category": "MARKET",
    "shared": []
   }

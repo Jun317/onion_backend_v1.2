@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T11:52:41.907720+00:00",
+ "generated_at": "2026-07-17T14:22:08.394899+00:00",
  "issues": [
   {
    "id": "cb3030e4a5acd0008",
@@ -70,42 +70,23 @@
    "in_review": true
   },
   {
-   "id": "c826b1c1944a1c619",
-   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
-   "category": "RATE",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 140,
-   "entity_keys": [
-    "BOK"
-   ],
-   "created_at": "2026-07-16T03:45:52.566590+00:00",
-   "last_update": "2026-07-16T11:57:35.610146+00:00",
-   "members": 3,
-   "llm_title": "한국 기준금리 인상",
-   "one_liner": "한국은행이 3년 6개월 만에 기준금리를 올렸어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": false
-  },
-  {
    "id": "cde343d4cab397faf",
    "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 140,
+   "seen_sources": 5,
+   "importance": 150,
    "entity_keys": [
     "BOJ",
     "KRX:047810"
    ],
    "created_at": "2026-07-15T09:26:00.579933+00:00",
-   "last_update": "2026-07-16T03:45:52.462131+00:00",
-   "members": 5,
-   "llm_title": "일본 금리",
-   "one_liner": "일본 중앙은행이 금리를 올릴 수도 있어요",
-   "llm_model": "llama-3.3-70b-versatile",
+   "last_update": "2026-07-17T14:09:57.303496+00:00",
+   "members": 6,
+   "llm_title": "Bank of Japan to…",
+   "one_liner": "Bank of Japan to keep interest rates unchanged…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -146,6 +127,25 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
+   "in_review": false
+  },
+  {
+   "id": "c826b1c1944a1c619",
+   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
+   "category": "RATE",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 135,
+   "entity_keys": [
+    "BOK"
+   ],
+   "created_at": "2026-07-16T03:45:52.566590+00:00",
+   "last_update": "2026-07-16T11:57:35.610146+00:00",
+   "members": 3,
+   "llm_title": "한국 기준금리 인상",
+   "one_liner": "한국은행이 3년 6개월 만에 기준금리를 올렸어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": false
   },
   {
@@ -228,14 +228,14 @@
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 22,
+   "seen_sources": 23,
    "importance": 120,
    "entity_keys": [
     "AAPL",
     "SEC"
    ],
    "created_at": "2026-07-16T09:34:35.605183+00:00",
-   "last_update": "2026-07-17T11:47:42.421605+00:00",
+   "last_update": "2026-07-17T14:09:57.314154+00:00",
    "members": 50,
    "llm_title": "사회보장수령자 소득 증가",
    "one_liner": "사회보장수령자에게 지급되는 금액이 많이 증가할 것으로 예상돼요",
@@ -319,6 +319,46 @@
    "in_review": false
   },
   {
+   "id": "c51597e9225ff98fa",
+   "title": "CNBC Daily Open : Trump lashes out at electoral system and China",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 9,
+   "importance": 110,
+   "entity_keys": [
+    "CHINA",
+    "JPM",
+    "META"
+   ],
+   "created_at": "2026-07-17T09:25:30.691559+00:00",
+   "last_update": "2026-07-17T14:09:57.314521+00:00",
+   "members": 26,
+   "llm_title": "중국 영국 제철국유화 반대",
+   "one_liner": "중국이 영국의 제철국유화를 강하게 반대해요.",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "ca7e18652a27e4c6f",
+   "title": "Left - leaning group says state faces affordability crisis",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 8,
+   "importance": 110,
+   "entity_keys": [
+    "F"
+   ],
+   "created_at": "2026-07-16T06:38:34.932120+00:00",
+   "last_update": "2026-07-17T14:09:57.302128+00:00",
+   "members": 8,
+   "llm_title": "Left - leaning group…",
+   "one_liner": "Left - leaning group says state faces…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c7f9a22157d5febb4",
    "title": "EU forces Google to share search data and open Android to rival AI companies",
    "category": "GEO",
@@ -340,58 +380,57 @@
    "in_review": false
   },
   {
-   "id": "ca7e18652a27e4c6f",
-   "title": "Left - leaning group says state faces affordability crisis",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 7,
-   "importance": 110,
-   "entity_keys": [
-    "F"
-   ],
-   "created_at": "2026-07-16T06:38:34.932120+00:00",
-   "last_update": "2026-07-17T11:47:42.424067+00:00",
-   "members": 7,
-   "llm_title": "Left - leaning group…",
-   "one_liner": "Left - leaning group says state faces…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c51597e9225ff98fa",
-   "title": "CNBC Daily Open : Trump lashes out at electoral system and China",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 7,
-   "importance": 110,
-   "entity_keys": [
-    "CHINA",
-    "META"
-   ],
-   "created_at": "2026-07-17T09:25:30.691559+00:00",
-   "last_update": "2026-07-17T11:47:42.417251+00:00",
-   "members": 24,
-   "llm_title": "CNBC Daily Open :…",
-   "one_liner": "CNBC Daily Open : Trump lashes out at electoral…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "cb90498f932b05b10",
    "title": "ISCB vs . SCHA : Which Small - Cap ETF Should You Buy in 2026 ?",
    "category": "MACRO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 18,
+   "seen_sources": 45,
    "importance": 105,
    "entity_keys": [],
    "created_at": "2026-07-16T06:38:34.930373+00:00",
-   "last_update": "2026-07-17T11:47:42.431009+00:00",
-   "members": 23,
-   "llm_title": "Gold ETFs as an…",
-   "one_liner": "Gold ETFs as an Inflation Hedge : The Best Funds…",
+   "last_update": "2026-07-17T14:09:57.314954+00:00",
+   "members": 50,
+   "llm_title": "2026년 경제 소식",
+   "one_liner": "2026년에 여러 경제 관련 소식이 있었어요.",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "c87753c82e77dfabb",
+   "title": "Michigan governor candidates offer competing plans to improve economic growth in the state",
+   "category": "MACRO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 6,
+   "importance": 105,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.932905+00:00",
+   "last_update": "2026-07-17T14:09:57.312284+00:00",
+   "members": 6,
+   "llm_title": "Michigan governor…",
+   "one_liner": "Michigan governor candidates offer competing…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c2f82920800c96145",
+   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 6,
+   "importance": 105,
+   "entity_keys": [
+    "AMD",
+    "MU",
+    "QCOM"
+   ],
+   "created_at": "2026-07-16T23:16:40.435129+00:00",
+   "last_update": "2026-07-17T14:09:57.312064+00:00",
+   "members": 6,
+   "llm_title": "FinancialContent -…",
+   "one_liner": "FinancialContent - Lattice Semiconductor , AMD ,…",
    "llm_model": "template",
    "in_review": true
   },
@@ -409,8 +448,8 @@
    "created_at": "2026-07-12T21:11:31.396580+00:00",
    "last_update": "2026-07-17T11:47:42.430523+00:00",
    "members": 6,
-   "llm_title": "Boeing builds…",
-   "one_liner": "Boeing builds momentum with 737 Max , 777 - 9…",
+   "llm_title": "Vantage Investment…",
+   "one_liner": "Vantage Investment Partners LLC Makes New $487 ,…",
    "llm_model": "template",
    "in_review": true
   },
@@ -621,44 +660,6 @@
    "in_review": false
   },
   {
-   "id": "c2f82920800c96145",
-   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 100,
-   "entity_keys": [
-    "AMD",
-    "MU",
-    "QCOM"
-   ],
-   "created_at": "2026-07-16T23:16:40.435129+00:00",
-   "last_update": "2026-07-17T06:33:59.016134+00:00",
-   "members": 4,
-   "llm_title": "반도체 기업 주가 하락",
-   "one_liner": "AMD, 퀄컴, 마이크론 등 반도체 기업들의 주가가 떨어지고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c87753c82e77dfabb",
-   "title": "Michigan governor candidates offer competing plans to improve economic growth in the state",
-   "category": "MACRO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 100,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.932905+00:00",
-   "last_update": "2026-07-16T20:16:46.127205+00:00",
-   "members": 4,
-   "llm_title": "경제 성장 방안 논의",
-   "one_liner": "각 지역 지도자들이 경제 성장을 위한 다양한 방안을 논의했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "c797bee3ad841a19c",
    "title": "First Coins issued by Bank of Korea",
    "category": "FX",
@@ -676,6 +677,97 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
+   "in_review": false
+  },
+  {
+   "id": "ccd46c7722590bf65",
+   "title": "EXPLAINER - What changes under the united kingdom - EU Gibraltar agreement ?",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 6,
+   "importance": 95,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.932246+00:00",
+   "last_update": "2026-07-17T14:09:57.313868+00:00",
+   "members": 6,
+   "llm_title": "인도-영국 무역 협정 발효",
+   "one_liner": "인도와 영국이 자유 무역 협정을 맺고 오늘부터 시행했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "c326b0b11f6b34d1d",
+   "title": "The Iran war could shape American policy for decades | JONAH GOLDBERG :",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 10,
+   "importance": 95,
+   "entity_keys": [
+    "IRAN"
+   ],
+   "created_at": "2026-07-17T09:25:30.691749+00:00",
+   "last_update": "2026-07-17T14:09:57.312963+00:00",
+   "members": 15,
+   "llm_title": "Iranians suffer new…",
+   "one_liner": "Iranians suffer new uncertainty and anxiety as…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 95,
+   "entity_keys": [
+    "BAC"
+   ],
+   "created_at": "2026-07-16T16:47:58.907339+00:00",
+   "last_update": "2026-07-17T14:09:57.312835+00:00",
+   "members": 3,
+   "llm_title": "Top CD rates from…",
+   "one_liner": "Top CD rates from major banks July 17 , 2026 :…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "cf38973aa7e2574f7",
+   "title": "US Senate Bill Could Hit India With Up To 100 % Tariffs Over Russian Oil Imports",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 13,
+   "importance": 95,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.932583+00:00",
+   "last_update": "2026-07-17T14:09:57.310432+00:00",
+   "members": 15,
+   "llm_title": "US unveils new 25 %…",
+   "one_liner": "US unveils new 25 % tariff on certain imports…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "cf7f8b6082a4c96bf",
+   "title": "JPMorgan Chase & Co . Issues Positive Forecast for Southern ( NYSE : SO ) Stock Price",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 95,
+   "entity_keys": [
+    "JPM"
+   ],
+   "created_at": "2026-07-16T21:30:43.698573+00:00",
+   "last_update": "2026-07-17T14:09:57.305224+00:00",
+   "members": 3,
+   "llm_title": "주가 상승 전망",
+   "one_liner": "JP모간은 남부와 샤크닌자의 주가가 오를 것이라고 예상했어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": false
   },
   {
@@ -697,25 +789,6 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
-   "in_review": true
-  },
-  {
-   "id": "c326b0b11f6b34d1d",
-   "title": "The Iran war could shape American policy for decades | JONAH GOLDBERG :",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 6,
-   "importance": 95,
-   "entity_keys": [
-    "IRAN"
-   ],
-   "created_at": "2026-07-17T09:25:30.691749+00:00",
-   "last_update": "2026-07-17T11:47:42.422135+00:00",
-   "members": 9,
-   "llm_title": "The Iran war could…",
-   "one_liner": "The Iran war could shape American policy for…",
-   "llm_model": "template",
    "in_review": true
   },
   {
@@ -749,23 +822,6 @@
    "members": 19,
    "llm_title": "US imposing 25 %…",
    "one_liner": "US imposing 25 % tariff on some Brazilian…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cf38973aa7e2574f7",
-   "title": "US Senate Bill Could Hit India With Up To 100 % Tariffs Over Russian Oil Imports",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 11,
-   "importance": 95,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.932583+00:00",
-   "last_update": "2026-07-16T23:16:40.428679+00:00",
-   "members": 13,
-   "llm_title": "US unveils new 25 %…",
-   "one_liner": "US unveils new 25 % tariff on certain imports…",
    "llm_model": "template",
    "in_review": true
   },
@@ -811,6 +867,25 @@
    "in_review": false
   },
   {
+   "id": "c763582d47a3e8b63",
+   "title": "Netflix Looks To Buy Major Social Network With Over 30M Users",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 21,
+   "importance": 90,
+   "entity_keys": [
+    "NFLX"
+   ],
+   "created_at": "2026-07-12T21:11:31.396416+00:00",
+   "last_update": "2026-07-17T14:09:57.309122+00:00",
+   "members": 23,
+   "llm_title": "넷플릭스 실적 예상치 하회",
+   "one_liner": "넷플릭스의 예상 실적이 시장 기대치를 밑돌면서 주가가 크게 떨어졌어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
    "id": "cf3992948064685e4",
    "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
    "category": "MARKET",
@@ -830,25 +905,6 @@
    "in_review": true
   },
   {
-   "id": "c763582d47a3e8b63",
-   "title": "Netflix Looks To Buy Major Social Network With Over 30M Users",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 18,
-   "importance": 90,
-   "entity_keys": [
-    "NFLX"
-   ],
-   "created_at": "2026-07-12T21:11:31.396416+00:00",
-   "last_update": "2026-07-17T11:47:42.405375+00:00",
-   "members": 20,
-   "llm_title": "넷플릭스 실적 예상치 하회",
-   "one_liner": "넷플릭스의 예상 실적이 시장 기대치를 밑돌면서 주가가 크게 떨어졌어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "c2a4c3894a14ae550",
    "title": "Microsoft tactics with Edge face renewed scrutiny over browser choice",
    "category": "MARKET",
@@ -865,80 +921,6 @@
    "llm_title": "Prediction :…",
    "one_liner": "Prediction : Microsoft Stock Will Skyrocket…",
    "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cf7f8b6082a4c96bf",
-   "title": "JPMorgan Chase & Co . Issues Positive Forecast for Southern ( NYSE : SO ) Stock Price",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 90,
-   "entity_keys": [
-    "JPM"
-   ],
-   "created_at": "2026-07-16T21:30:43.698573+00:00",
-   "last_update": "2026-07-16T21:30:43.699139+00:00",
-   "members": 2,
-   "llm_title": "주가 상승 전망",
-   "one_liner": "JP모간은 남부와 샤크닌자의 주가가 오를 것이라고 예상했어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": false
-  },
-  {
-   "id": "c8767f6a04dae9d1b",
-   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 90,
-   "entity_keys": [
-    "BAC"
-   ],
-   "created_at": "2026-07-16T16:47:58.907339+00:00",
-   "last_update": "2026-07-16T16:47:58.907982+00:00",
-   "members": 2,
-   "llm_title": "22 , 459 Shares in…",
-   "one_liner": "22 , 459 Shares in Bank of America Corporation…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "ccd46c7722590bf65",
-   "title": "EXPLAINER - What changes under the united kingdom - EU Gibraltar agreement ?",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 90,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.932246+00:00",
-   "last_update": "2026-07-16T16:47:58.887781+00:00",
-   "members": 4,
-   "llm_title": "인도-영국 무역 협정 발효",
-   "one_liner": "인도와 영국이 자유 무역 협정을 맺고 오늘부터 시행했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c4e8e497777eba176",
-   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 90,
-   "entity_keys": [
-    "LLY"
-   ],
-   "created_at": "2026-07-12T22:12:02.226969+00:00",
-   "last_update": "2026-07-15T11:55:37.281914+00:00",
-   "members": 4,
-   "llm_title": "릴리 주식 거래 소식",
-   "one_liner": "여러 기관에서 릴리 주식을 사고팔고 있다는 소식이 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -1028,6 +1010,25 @@
    "llm_title": "Jalen Hurts And Arik…",
    "one_liner": "Jalen Hurts And Arik Armstead On Financial…",
    "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c4e8e497777eba176",
+   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 85,
+   "entity_keys": [
+    "LLY"
+   ],
+   "created_at": "2026-07-12T22:12:02.226969+00:00",
+   "last_update": "2026-07-15T11:55:37.281914+00:00",
+   "members": 4,
+   "llm_title": "릴리 주식 거래 소식",
+   "one_liner": "여러 기관에서 릴리 주식을 사고팔고 있다는 소식이 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -1124,6 +1125,59 @@
    "in_review": false
   },
   {
+   "id": "c2ddb2c1db0cafd3b",
+   "title": "Wells Fargo bounces off 52 - week lows . What it must do to get out of the penalty box",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 80,
+   "entity_keys": [
+    "WFC"
+   ],
+   "created_at": "2026-07-14T14:20:58.037126+00:00",
+   "last_update": "2026-07-17T14:09:57.308897+00:00",
+   "members": 6,
+   "llm_title": "Wells Fargo &…",
+   "one_liner": "Wells Fargo & Company ( WFC ) Stock Forecasts",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c7892ac4912ef87e4",
+   "title": "S & P / TSX composite up in Wednesday trading , U . S . stock markets also higher",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 5,
+   "importance": 80,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.929773+00:00",
+   "last_update": "2026-07-17T14:09:57.307455+00:00",
+   "members": 6,
+   "llm_title": "Romania annual…",
+   "one_liner": "Romania annual inflation rate more than three…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c7ac713a971669d1d",
+   "title": "Sensex , Nifty Trade Higher on IT , Consumer Durables Gains",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 8,
+   "importance": 80,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.930871+00:00",
+   "last_update": "2026-07-17T14:09:57.305696+00:00",
+   "members": 10,
+   "llm_title": "Sensex , Nifty Trade…",
+   "one_liner": "Sensex , Nifty Trade Higher on IT , Consumer…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "ce156a219668aedbb",
    "title": "Asia stocks tumble on tech worries , Mideast war",
    "category": "MARKET",
@@ -1137,42 +1191,6 @@
    "members": 50,
    "llm_title": "AI stocks slump…",
    "one_liner": "AI stocks slump again , while oil prices keep…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c7ac713a971669d1d",
-   "title": "Sensex , Nifty Trade Higher on IT , Consumer Durables Gains",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 6,
-   "importance": 80,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.930871+00:00",
-   "last_update": "2026-07-17T11:47:42.422398+00:00",
-   "members": 8,
-   "llm_title": "Nifty , Sensex close…",
-   "one_liner": "Nifty , Sensex close flat amid elevated oil…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c2ddb2c1db0cafd3b",
-   "title": "Wells Fargo bounces off 52 - week lows . What it must do to get out of the penalty box",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 80,
-   "entity_keys": [
-    "WFC"
-   ],
-   "created_at": "2026-07-14T14:20:58.037126+00:00",
-   "last_update": "2026-07-17T06:33:59.015965+00:00",
-   "members": 5,
-   "llm_title": "Wells Fargo debuts…",
-   "one_liner": "Wells Fargo debuts AI - powered teammate for…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1365,23 +1383,6 @@
    "in_review": true
   },
   {
-   "id": "c7892ac4912ef87e4",
-   "title": "S & P / TSX composite up in Wednesday trading , U . S . stock markets also higher",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 70,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.929773+00:00",
-   "last_update": "2026-07-17T11:47:42.407818+00:00",
-   "members": 3,
-   "llm_title": "S & P / TSX…",
-   "one_liner": "S & P / TSX composite up in Wednesday trading ,…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "c4dcd140d8a86ccd9",
    "title": "Amazon Stock Is Historically Cheap . Now Is Your Perfect Buying Opportunity",
    "category": "EARNINGS",
@@ -1531,6 +1532,40 @@
    "in_review": false
   },
   {
+   "id": "c31b18e8aebe7808a",
+   "title": "PhotonPay Officially Opens São Paulo Office , Accelerating Strategic Expansion into Latin America",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 8,
+   "importance": 65,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.931867+00:00",
+   "last_update": "2026-07-17T14:09:57.313512+00:00",
+   "members": 11,
+   "llm_title": "PhotonPay Officially…",
+   "one_liner": "PhotonPay Officially Opens São Paulo Office ,…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "cb73e3e7c2c3ac871",
+   "title": "Big Pharma Just Started Buying Up Psychedelic Companies",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 14,
+   "importance": 65,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.931194+00:00",
+   "last_update": "2026-07-17T14:09:57.310025+00:00",
+   "members": 28,
+   "llm_title": "BlackRock profit…",
+   "one_liner": "BlackRock profit beats estimates as assets hit…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c5554b3ce8ec2f0f2",
    "title": "FinancialContent - Earnings To Watch : Autoliv ( ALV ) Reports Q2 Results Tomorrow",
    "category": "EARNINGS",
@@ -1544,40 +1579,6 @@
    "members": 50,
    "llm_title": "FinancialContent -…",
    "one_liner": "FinancialContent - Travelers ( TRV ) Q2 Earnings…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c31b18e8aebe7808a",
-   "title": "PhotonPay Officially Opens São Paulo Office , Accelerating Strategic Expansion into Latin America",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 6,
-   "importance": 65,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.931867+00:00",
-   "last_update": "2026-07-17T11:47:42.429126+00:00",
-   "members": 8,
-   "llm_title": "JSW MG Unveils ADAPT…",
-   "one_liner": "JSW MG Unveils ADAPT Platform , Plans EV and…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cb73e3e7c2c3ac871",
-   "title": "Big Pharma Just Started Buying Up Psychedelic Companies",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 13,
-   "importance": 65,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.931194+00:00",
-   "last_update": "2026-07-17T11:47:42.426392+00:00",
-   "members": 27,
-   "llm_title": "BlackRock profit…",
-   "one_liner": "BlackRock profit beats estimates as assets hit…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1834,6 +1835,25 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "cedadc4e3b15351e6",
+   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Improved Long - Term Gross Margin Guidance Signals Confidence",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 50,
+   "entity_keys": [
+    "TAIWAN"
+   ],
+   "created_at": "2026-07-17T14:09:57.315571+00:00",
+   "last_update": "2026-07-17T14:09:57.316194+00:00",
+   "members": 2,
+   "llm_title": "Why Is Taiwan…",
+   "one_liner": "Why Is Taiwan Semiconductor Stock Falling Friday…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "e382db26d7ba873bd",

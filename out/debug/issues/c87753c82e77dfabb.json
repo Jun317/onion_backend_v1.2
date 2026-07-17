@@ -7,11 +7,31 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 4,
- "importance": 100,
+ "seen_sources": 6,
+ "importance": 105,
  "created_at": "2026-07-16T06:38:34.932905+00:00",
- "last_update": "2026-07-16T20:16:46.127205+00:00",
+ "last_update": "2026-07-17T14:09:57.312284+00:00",
  "members": [
+  {
+   "id": "3254d71eb7d134d7a55856c835d6933e9fd9d6cf",
+   "source": "dailyrecord.co.uk",
+   "tier": "wire",
+   "url": "https://www.dailyrecord.co.uk/news/politics/andy-burnham-crowned-labour-leader-37443400",
+   "title": "Andy Burnham crowned Labour leader as he promises to give people  hope back",
+   "published_at": "2026-07-17T12:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8652
+  },
+  {
+   "id": "25e472134fee44e1a5e8a8701f3023e6c4a194f6",
+   "source": "link.springer.com",
+   "tier": "wire",
+   "url": "https://link.springer.com/book/10.1007/978-3-032-21733-2",
+   "title": "Migrant Entrepreneurship in the Digital Economy",
+   "published_at": "2026-07-17T12:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8876
+  },
   {
    "id": "dabad6f95d159f1a5816693d6ffc02826a9032f0",
    "source": "fhtimes.com",
@@ -20,7 +40,7 @@
    "title": "Fountain Hills council candidates talk qualifications , future of community",
    "published_at": "2026-07-16T18:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8733
+   "sim_to_centroid": 0.8781
   },
   {
    "id": "f4588b47b025e08ae2a557e6e4cfa215bb2ab5fc",
@@ -30,7 +50,7 @@
    "title": "Michigan governor candidates offer competing plans to improve economic growth in the state",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9546
+   "sim_to_centroid": 0.9492
   },
   {
    "id": "736806fc105975c5ae3c5c8507a4c7c36a2530d0",
@@ -40,7 +60,7 @@
    "title": "Dividend growers offer resilience in uncertain markets",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.95
+   "sim_to_centroid": 0.9468
   },
   {
    "id": "bb9acc43c3c2e863347a17fa7068994407e7a65c",
@@ -50,11 +70,25 @@
    "title": "Indonesia urges BRICS members to strengthen future skills forecasting",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8707
+   "sim_to_centroid": 0.8756
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Andy Burnham crowned Labour leader as he promises to give people  hope back",
+   "source": "dailyrecord.co.uk",
+   "url": "https://www.dailyrecord.co.uk/news/politics/andy-burnham-crowned-labour-leader-37443400",
+   "at": "2026-07-17T12:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Migrant Entrepreneurship in the Digital Economy",
+   "source": "link.springer.com",
+   "url": "https://link.springer.com/book/10.1007/978-3-032-21733-2",
+   "at": "2026-07-17T12:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Fountain Hills council candidates talk qualifications , future of community",
@@ -85,46 +119,46 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-17T09:26:57.578840+00:00",
+  "model": "template",
+  "created_at": "2026-07-17T14:21:46.837684+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
-    "Fountain Hills council candidates talk qualifications , future of community",
     "Michigan governor candidates offer competing plans to improve economic growth in the state",
     "Dividend growers offer resilience in uncertain markets",
+    "Migrant Entrepreneurship in the Digital Economy",
+    "Fountain Hills council candidates talk qualifications , future of community",
     "Indonesia urges BRICS members to strengthen future skills forecasting"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"경제 성장 방안 논의\",\n\"one_liner\": \"각 지역 지도자들이 경제 성장을 위한 다양한 방안을 논의했어요.\",\n\"why_now\": \"경제 성장은 일자리와 소득 증대에 직접적인 영향을 미쳐요.\",\n\"impact_line\": \"경제 성장은 일자리와 소득 증대에 긍정적인 영향을 줄 수 있어요.\",\n\"details\": [\n\"미시간 주지사 후보들은 경제 성장을 개선할 경쟁력 있는 계획을 제시했어요.\",\n\"인도네시아는 브릭스 회원국들에게 미래 기술 예측 강화를 촉구했어요.\",\n\"배당금을 늘리는 기업들은 불확실한 시장에서 안정적인 모습을 보여요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"경제 성장 정책은 새로운 일자리 창출로 이어질 수 있어요!\",\n\"미래 기술 예측 강화는 새로운 산업 분야의 성장을 도울 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"브릭스\",\n\"easy\": \"브라질, 러시아, 인도, 중국, 남아프리카공화국을 뜻하는 신흥 경제국 모임이에요.\",\n\"example\": \"브릭스 국가들은 경제 협력을 강화하고 있어요.\"\n},\n{\n\"term\": \"배당금\",\n\"easy\": \"회사가 벌어들인 이익의 일부를 주주들에게 나눠주는 돈이에요.\",\n\"example\": \"배당금을 많이 주는 회사의 주식은 안정적인 투자처로 여겨져요.\"\n}\n],\n\"impact_line\": \"경제 성장은 일자리와 소득 증대에 긍정적인 영향을 줄 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "경제 성장 방안 논의",
-   "one_liner": "각 지역 지도자들이 경제 성장을 위한 다양한 방안을 논의했어요.",
-   "why_now": "경제 성장은 일자리와 소득 증대에 직접적인 영향을 미쳐요.",
+   "title": "Michigan governor…",
+   "one_liner": "Michigan governor candidates offer competing…",
+   "why_now": null,
    "details": [
-    "미시간 주지사 후보들은 경제 성장을 개선할 경쟁력 있는 계획을 제시했어요.",
-    "인도네시아는 브릭스 회원국들에게 미래 기술 예측 강화를 촉구했어요.",
-    "배당금을 늘리는 기업들은 불확실한 시장에서 안정적인 모습을 보여요."
+    "Michigan governor candidates offer competing plans to improve economic growth in the state",
+    "Dividend growers offer resilience in uncertain markets",
+    "Migrant Entrepreneurship in the Digital Economy"
    ],
-   "effects": [
-    "경제 성장 정책은 새로운 일자리 창출로 이어질 수 있어요!",
-    "미래 기술 예측 강화는 새로운 산업 분야의 성장을 도울 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "ae113d313b5c34fc674abdb13148786664ad91e3"
+  "fact_hash": "208252df11b5f5bb9cb20552bf63be6f7d2155f2"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-17T03:47:49.343613+00:00"
+  "at": "2026-07-17T14:21:46.837594+00:00"
  },
  "glossary": [],
  "related": [
