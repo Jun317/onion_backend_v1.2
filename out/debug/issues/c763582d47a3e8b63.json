@@ -9,11 +9,21 @@
  "entity_keys": [
   "NFLX"
  ],
- "seen_sources": 21,
+ "seen_sources": 22,
  "importance": 90,
  "created_at": "2026-07-12T21:11:31.396416+00:00",
- "last_update": "2026-07-17T14:09:57.309122+00:00",
+ "last_update": "2026-07-17T15:51:02.482339+00:00",
  "members": [
+  {
+   "id": "77aa6faa7c4f8054bc40ade16abb08b605a58ad3",
+   "source": "ibtimes.com.au",
+   "tier": "wire",
+   "url": "https://www.ibtimes.com.au/market-turmoil-semiconductor-selloff-netflix-forecast-1872467",
+   "title": "Dow Jones Slips 0 . 36 % to 52 , 361 as Chip Stock Selloff Deepens and Netflix Shares Tumble on Weak Forecast",
+   "published_at": "2026-07-17T14:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9064
+  },
   {
    "id": "8245dc2028d40ceb2447339dadced48f6a768ce1",
    "source": "theepochtimes.com",
@@ -249,6 +259,13 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Dow Jones Slips 0 . 36 % to 52 , 361 as Chip Stock Selloff Deepens and Netflix Shares Tumble on Weak Forecast",
+   "source": "ibtimes.com.au",
+   "url": "https://www.ibtimes.com.au/market-turmoil-semiconductor-selloff-netflix-forecast-1872467",
+   "at": "2026-07-17T14:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Netflix Shares Drop After Earnings Forecast Falls Short of Wall Street Targets",
    "source": "theepochtimes.com",
    "url": "https://www.theepochtimes.com/business/netflix-shares-drop-after-earnings-forecast-falls-short-of-wall-street-targets-6063399",
@@ -410,8 +427,8 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-17T11:48:37.862336+00:00",
+  "model": "template",
+  "created_at": "2026-07-17T15:56:12.200648+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -419,38 +436,37 @@
     "Netflix earnings forecast disappoints Wall Street , shares tumble",
     "Netflix earnings forecast disappoints , shares tumble",
     "Netflix quarterly earnings forecast falls short of Wall Street targets , shares tumble",
-    "Netflix Shares Fall After Mixed Q2 Earnings Report",
-    "Netflix shares fall as quarterly revenue misses expectations"
+    "Netflix Shares Drop After Earnings Forecast Falls Short of Wall Street Targets",
+    "Netflix Shares Fall After Mixed Q2 Earnings Report"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"넷플릭스 실적 예상치 하회\",\n  \"one_liner\": \"넷플릭스의 예상 실적이 시장 기대치를 밑돌면서 주가가 크게 떨어졌어요.\",\n  \"why_now\": \"기업의 실적은 회사의 성장 가능성을 보여주기 때문에 투자자들의 큰 관심을 받아요.\",\n  \"impact_line\": \"넷플릭스 주식에 투자한 사람들의 손실이 커질 수 있어요.\",\n  \"details\": [\n    \"넷플릭스의 이번 분기 예상 실적이 월가 예상치를 밑돌았어요.\",\n    \"이 소식에 넷플릭스 주가가 크게 하락했어요.\",\n    \"지난 2분기 매출도 시장의 예상을 충족시키지 못했어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"넷플릭스가 앞으로 더 많은 가입자를 확보하기 어려워질 수 있어요!\",\n    \"다른 온라인 동영상 서비스 업체들도 비슷한 어려움을 겪을 수 있다는 우려가 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"월가\",\n      \"easy\": \"미국 뉴욕에 있는 금융가로, 미국의 금융 시장을 대표하는 곳이에요.\",\n      \"example\": \"월가에서는 금리 인상을 예상하고 있어요.\"\n    },\n    {\n      \"term\": \"실적\",\n      \"easy\": \"기업이 일정 기간 동안 벌어들인 돈과 쓴 돈을 합쳐서 보여주는 결과예요.\",\n      \"example\": \"이번 분기 실적이 좋지 않아 주가가 떨어졌어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "넷플릭스 실적 예상치 하회",
-   "one_liner": "넷플릭스의 예상 실적이 시장 기대치를 밑돌면서 주가가 크게 떨어졌어요.",
-   "why_now": "기업의 실적은 회사의 성장 가능성을 보여주기 때문에 투자자들의 큰 관심을 받아요.",
+   "title": "Netflix earnings…",
+   "one_liner": "Netflix earnings forecast disappoints Wall…",
+   "why_now": null,
    "details": [
-    "넷플릭스의 이번 분기 예상 실적이 월가 예상치를 밑돌았어요.",
-    "이 소식에 넷플릭스 주가가 크게 하락했어요.",
-    "지난 2분기 매출도 시장의 예상을 충족시키지 못했어요."
+    "Netflix earnings forecast disappoints Wall Street , shares tumble",
+    "Netflix earnings forecast disappoints , shares tumble",
+    "Netflix quarterly earnings forecast falls short of Wall Street targets , shares tumble"
    ],
-   "effects": [
-    "넷플릭스가 앞으로 더 많은 가입자를 확보하기 어려워질 수 있어요!",
-    "다른 온라인 동영상 서비스 업체들도 비슷한 어려움을 겪을 수 있다는 우려가 커질 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "1850528172e214c320ea0ef824892142f0d16648"
+  "fact_hash": "4283ea0d129d74b35bcb4dd86c81148d5e007fbb"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-17T06:38:39.002089+00:00"
+  "at": "2026-07-17T15:56:12.200582+00:00"
  },
  "glossary": [],
  "related": [

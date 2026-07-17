@@ -70,42 +70,45 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-16T21:30:45.269601+00:00",
+  "model": "template",
+  "created_at": "2026-07-17T15:55:53.645633+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Baystreet . ca - JPMorgan Chase Financial Results Blow Past Estimates",
     "JPMorgan Chase & Co . Issues Positive Forecast for Southern ( NYSE : SO ) Stock Price",
     "JPMorgan Chase & Co . Issues Positive Forecast for SharkNinja ( NYSE : SN ) Stock Price"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"주가 상승 전망\",\n   \"one_liner\": \"JP모간은 남부와 샤크닌자의 주가가 오를 것이라고 예상했어요\",\n   \"why_now\": \"주가가 오르면 투자자들이 더 많은 돈을 벌 수 있어요\",\n   \"impact_line\": \"주식 투자자들의 기대가 높아질 수 있어요\",\n   \"details\": [\n       \"JP모간은 남부의 주가가 상승할 것으로 예상했어요\",\n       \"JP모간은 샤크닌자의 주가가 상승할 것으로 예상했어요\",\n       \"이 예상은 투자자들의 기대에 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"투자자들이 더 많은 주식을 사들일 수 있어요!\",\n       \"주식 시장의 기대가 높아져 더 많은 투자자들이 tham gia할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "주가 상승 전망",
-   "one_liner": "JP모간은 남부와 샤크닌자의 주가가 오를 것이라고 예상했어요",
-   "why_now": "주가가 오르면 투자자들이 더 많은 돈을 벌 수 있어요",
+   "title": "Baystreet . ca -…",
+   "one_liner": "Baystreet . ca - JPMorgan Chase Financial…",
+   "why_now": null,
    "details": [
-    "JP모간은 남부의 주가가 상승할 것으로 예상했어요",
-    "JP모간은 샤크닌자의 주가가 상승할 것으로 예상했어요",
-    "이 예상은 투자자들의 기대에 영향을 줄 수 있어요"
+    "Baystreet . ca - JPMorgan Chase Financial Results Blow Past Estimates",
+    "JPMorgan Chase & Co . Issues Positive Forecast for Southern ( NYSE : SO ) Stock Price",
+    "JPMorgan Chase & Co . Issues Positive Forecast for SharkNinja ( NYSE : SN ) Stock Price"
    ],
-   "effects": [
-    "투자자들이 더 많은 주식을 사들일 수 있어요!",
-    "주식 시장의 기대가 높아져 더 많은 투자자들이 tham gia할 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "8c67dc1cc99cc2e7dec5c21181e1186aafcc806d"
+  "fact_hash": "8dc4c73f24bc82ad1dbd0cfc7d4e70fce63d522a"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-17T15:55:53.645536+00:00"
+ },
  "glossary": [],
  "related": [
   {
