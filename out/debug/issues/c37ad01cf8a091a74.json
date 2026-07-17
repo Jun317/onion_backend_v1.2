@@ -514,7 +514,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-17T17:36:04.153044+00:00",
+  "created_at": "2026-07-17T21:13:41.313137+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -522,23 +522,24 @@
     "IMF cuts India growth forecast for FY27 to 6 . 4 %, but retains tag of fastest growing economy",
     "India among fastest growing major economies with FY27 GDP at 6 . 4 % amid strong domestic demand : IMF",
     "India Fastest Growing Major Economy : IMF Projects 6 . 4 % GDP",
-    "IMF cuts Bangladesh GDP growth forecast to 3 . 5 pct for FY27",
-    "ADB , IMF Cut Pakistan Growth Forecasts to 3 . 5 – 3 . 7 %"
+    "IMF confirms UAE economy exceptional resilience , proactive readiness , continued financial sector growth",
+    "IMF cuts Bangladesh GDP growth forecast to 3 . 5 pct for FY27"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"인도 경제 성장 예측\",\n   \"one_liner\": \"국제 통화 기구가 인도 경제 성장률을 6.4%로 낮춰 예측했어요\",\n   \"why_now\": \"인도는 강한 국내 수요로 주요 경제국 중 가장 빠르게 성장할 것으로 예상돼요\",\n   \"impact_line\": \"인도와 거래하는 나라의 수출이 늘 수 있어요\",\n   \"details\": [\n      \"인도는 6.4%의 성장률로 주요 경제국 중 가장 빠르게 성장할 것으로 예상돼요\",\n      \"국제 통화 기구는 인도의 성장률을 낮춰 예측했어요\",\n      \"인도는 강한 국내 수요로 성장할 것으로 예상돼요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"인도와 거래하는 나라의 경제가 좋아질 수 있어요!\",\n      \"인도의 성장으로 국제 무역이 늘어날 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"GDP\",\n         \"easy\": \"한 나라의 전체 경제 규모에요\",\n         \"example\": \"GDP가 높으면 나라의 경제가 잘 돌아가는 거예요\"\n      }\n   ]\n}",
+  "raw_response": "{\n    \"title\": \"인도 경제 성장률 전망 하향\",\n    \"one_liner\": \"IMF가 인도의 올해 경제 성장률 전망치를 6.4%로 낮췄어요.\",\n    \"why_now\": \"인도는 세계에서 가장 빠르게 성장하는 경제 중 하나로 꼽히는데, 전망치가 낮아진 것은 주목할 만해요.\",\n    \"impact_line\": \"인도 경제의 성장세 둔화는 한국 수출에도 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"IMF는 인도의 올해 경제 성장률 전망치를 6.4%로 예상했어요.\",\n        \"하지만 IMF는 여전히 인도를 가장 빠르게 성장하는 주요 경제국으로 평가했어요.\",\n        \"이는 인도 국내 수요가 강하기 때문으로 분석돼요.\",\n        \"방글라데시의 올해 경제 성장률 전망치는 3.5%로 낮췄어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"인도 경제 성장세가 예상보다 둔화될 수 있어요!\",\n        \"인도에 수출하는 한국 기업들의 실적이 영향을 받을 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"IMF\",\n            \"easy\": \"국제통화기금으로, 세계 경제의 안정과 협력을 위해 만들어진 국제기구예요.\",\n            \"example\": \"IMF는 각 나라의 경제 상황을 분석하고 전망을 발표해요.\"\n        },\n        {\n            \"term\": \"GDP\",\n            \"easy\": \"한 나라 안에서 생산된 모든 상품과 서비스의 가치를 합한 것으로, 나라 경제 규모를 나타내요.\",\n            \"example\": \"GDP가 늘면 나라 경제가 성장했다고 볼 수 있어요.\"\n        }\n    ]\n}",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [3.5, 3.7, 6.4]"
-    ]
-   },
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
      "입력에 없는 숫자: [6.4]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(56)",
+     "입력에 없는 숫자: [3.5, 6.4]"
     ]
    }
   ],
@@ -554,11 +555,11 @@
    "effects": [],
    "visual_type": "usdkrw"
   },
-  "fact_hash": "21f8c06dc0ba57b225489f555ee353c650f3980a"
+  "fact_hash": "59ae09a076a6c656d3a5f99a6b3114f93ef7e394"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [3.5, 3.7, 6.4]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}]}",
-  "at": "2026-07-17T17:36:04.152893+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(56)\", \"입력에 없는 숫자: [3.5, 6.4]\"]}]}",
+  "at": "2026-07-17T21:13:41.312918+00:00"
  },
  "glossary": [
   {
