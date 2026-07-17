@@ -9,11 +9,21 @@
  "entity_keys": [
   "F"
  ],
- "seen_sources": 4,
- "importance": 105,
+ "seen_sources": 5,
+ "importance": 110,
  "created_at": "2026-07-16T06:38:34.932120+00:00",
- "last_update": "2026-07-16T21:30:43.693700+00:00",
+ "last_update": "2026-07-17T03:45:59.357680+00:00",
  "members": [
+  {
+   "id": "139cc74b7030bbea5c0716da841df692be3b95a3",
+   "source": "wgnsradio.com",
+   "tier": "wire",
+   "url": "https://www.wgnsradio.com/article/100261/population-growth-reduces-rutherford-county-farmland-as-winter-canola-expands-statewide",
+   "title": "Population Growth Reduces Rutherford County Farmland as Winter Canola Expands Statewide",
+   "published_at": "2026-07-17T00:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8665
+  },
   {
    "id": "5a0e7c1ef05d3911fe7af84fb42d2aef197dd878",
    "source": "insideevs.com",
@@ -22,7 +32,7 @@
    "title": "Americans Cant Have These Affordable Chinese EVs . But Theyre Coming To Canada",
    "published_at": "2026-07-16T19:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8703
+   "sim_to_centroid": 0.8739
   },
   {
    "id": "92b3424449e06aedbb423f8dda34fdf8ed398d5d",
@@ -32,7 +42,7 @@
    "title": "Two - Thirds of Americans Now Say Groceries Are Unaffordable",
    "published_at": "2026-07-16T15:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8931
+   "sim_to_centroid": 0.8965
   },
   {
    "id": "6b560f03a7ab2addb7be30e7e6ee7c76572c2173",
@@ -42,7 +52,7 @@
    "title": "Left - leaning group says state faces affordability crisis",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9609
+   "sim_to_centroid": 0.9581
   },
   {
    "id": "26087587513a3eeb2af67ce2cabf8e7941d0cff6",
@@ -52,11 +62,18 @@
    "title": "Supervisors back Lurie plan to cut affordable housing fees | Politics",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9556
+   "sim_to_centroid": 0.9532
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Population Growth Reduces Rutherford County Farmland as Winter Canola Expands Statewide",
+   "source": "wgnsradio.com",
+   "url": "https://www.wgnsradio.com/article/100261/population-growth-reduces-rutherford-county-farmland-as-winter-canola-expands-statewide",
+   "at": "2026-07-17T00:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Americans Cant Have These Affordable Chinese EVs . But Theyre Coming To Canada",
@@ -87,12 +104,13 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-17T00:18:27.462872+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-17T03:46:19.656062+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "Population Growth Reduces Rutherford County Farmland as Winter Canola Expands Statewide",
     "Americans Cant Have These Affordable Chinese EVs . But Theyre Coming To Canada",
     "Two - Thirds of Americans Now Say Groceries Are Unaffordable",
     "Left - leaning group says state faces affordability crisis",
@@ -100,28 +118,30 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 식료품값 부담 증가\",\n  \"one_liner\": \"미국 사람들의 두 명 중 한 명 이상이 식료품값이 너무 비싸다고 생각해요.\",\n  \"why_now\": \"식료품 가격이 오르면 장바구니 물가가 올라 가계 경제에 부담이 커지는 게 보통이에요.\",\n  \"impact_line\": \"매일 먹는 식료품값이 더 올라갈 수 있어요.\",\n  \"details\": [\n    \"미국 사람들의 3분의 2가 식료품값이 비싸다고 말했어요.\",\n    \"일부에서는 주 정부가 해결해야 할 물가 상승 문제가 있다고 지적했어요.\",\n    \"주 의회 의원들은 저렴한 주택 공급을 늘리기 위한 방안을 지지했어요.\",\n    \"다른 한편에서는 겨울 유채 재배가 늘면서 농지가 줄고 있다는 소식도 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"식료품 가격이 계속 오르면 외식 대신 집에서 요리하는 사람들이 늘어날 수 있어요!\",\n    \"물가 상승이 계속되면 소비자들이 지갑을 닫아 경제 성장이 둔화될 수 있어요!\"\n  ],\n  \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Americans Cant Have…",
-   "one_liner": "Americans Cant Have These Affordable Chinese EVs…",
-   "why_now": null,
+   "title": "미국 식료품값 부담 증가",
+   "one_liner": "미국 사람들의 두 명 중 한 명 이상이 식료품값이 너무 비싸다고 생각해요.",
+   "why_now": "식료품 가격이 오르면 장바구니 물가가 올라 가계 경제에 부담이 커지는 게 보통이에요.",
    "details": [
-    "Americans Cant Have These Affordable Chinese EVs . But Theyre Coming To Canada",
-    "Two - Thirds of Americans Now Say Groceries Are Unaffordable",
-    "Left - leaning group says state faces affordability crisis"
+    "미국 사람들의 3분의 2가 식료품값이 비싸다고 말했어요.",
+    "일부에서는 주 정부가 해결해야 할 물가 상승 문제가 있다고 지적했어요.",
+    "주 의회 의원들은 저렴한 주택 공급을 늘리기 위한 방안을 지지했어요.",
+    "다른 한편에서는 겨울 유채 재배가 늘면서 농지가 줄고 있다는 소식도 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "식료품 가격이 계속 오르면 외식 대신 집에서 요리하는 사람들이 늘어날 수 있어요!",
+    "물가 상승이 계속되면 소비자들이 지갑을 닫아 경제 성장이 둔화될 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "cc722f064e163acea88191b102408ef49f168483"
+  "fact_hash": "11e0319fe7ef23950b69d6e0876868e026b0356d"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
