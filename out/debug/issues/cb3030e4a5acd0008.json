@@ -874,8 +874,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-17T06:37:43.453197+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-17T11:47:44.383675+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -890,26 +890,28 @@
     "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank"
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"중국 경제 영향력\",\n   \"one_liner\": \"중국 경제가 글로벌 경제에 미치는 영향력이 커지고 있어요\",\n   \"why_now\": \"중국은 세계 경제에서 중요한 역할을 하고 있기 때문에 그 영향력이 중요해요\",\n   \"impact_line\": \"중국 경제가 좋아지면 한국 경제에도 도움이 될 수 있어요\",\n   \"details\": [\n      \"중국은 세계에서 중요한 경제 대국이에요\",\n      \"중국 경제의 상황이 글로벌 경제에 영향을 미치고 있어요\",\n      \"미국 중앙은행이 인플레이션 목표를 2%로 재확인했어요\",\n      \"중국의 경제 회복이 기회를 가져다줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"중국 경제가 좋아지면 글로벌 경제에도 긍정적인 영향을 줄 수 있어요!\",\n      \"중국과 교역을 하는 나라들의 경제에도 도움이 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "The Killer Chokepoint…",
-   "one_liner": "The Killer Chokepoint : China Rare Earth Squeeze…",
-   "why_now": null,
+   "title": "중국 경제 영향력",
+   "one_liner": "중국 경제가 글로벌 경제에 미치는 영향력이 커지고 있어요",
+   "why_now": "중국은 세계 경제에서 중요한 역할을 하고 있기 때문에 그 영향력이 중요해요",
    "details": [
-    "The Killer Chokepoint : China Rare Earth Squeeze Is Reshaping The Global Economy",
-    "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
-    "China economic resilience brings opportunity dividends _ Guangming Online"
+    "중국은 세계에서 중요한 경제 대국이에요",
+    "중국 경제의 상황이 글로벌 경제에 영향을 미치고 있어요",
+    "미국 중앙은행이 인플레이션 목표를 2%로 재확인했어요",
+    "중국의 경제 회복이 기회를 가져다줄 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "중국 경제가 좋아지면 글로벌 경제에도 긍정적인 영향을 줄 수 있어요!",
+    "중국과 교역을 하는 나라들의 경제에도 도움이 될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "fd723c50df0c4d0c93d9c01f460e9cbda12b44a0"
  },
@@ -917,7 +919,18 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-17T06:37:43.453109+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "인플레이션",
+   "easy": "물가가 전반적으로 계속 오르는 현상이에요.",
+   "example": "돈의 힘이 조금씩 약해지는 셈이에요."
+  }
+ ],
  "related": [
   {
    "id": "e77a7b1c911ca1d26",
@@ -950,10 +963,12 @@
    "shared": []
   },
   {
-   "id": "c14016c7f068ead39",
-   "title": "Trade deficit hits decade - high $39 . 4b",
-   "category": "MACRO",
-   "shared": []
+   "id": "c7f9a22157d5febb4",
+   "title": "EU forces Google to share search data and open Android to rival AI companies",
+   "category": "GEO",
+   "shared": [
+    "INTC"
+   ]
   }
  ]
 }

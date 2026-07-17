@@ -38,7 +38,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-17T06:34:35.747141+00:00",
+  "created_at": "2026-07-17T11:49:51.940865+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [
@@ -57,8 +57,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"미국 첨단 반도체 관세 부과\",\n\"one_liner\": \"미국이 첨단 반도체에 25%의 관세를 부과했어요.\",\n\"why_now\": \"이 관세는 미국 내 반도체 산업을 보호하고 중국 등 해외 기업의 경쟁력을 약화시키려는 목적이 있어요.\",\n\"impact_line\": \"국내 반도체 기업들의 수출 가격 경쟁력이 약화될 수 있어요.\",\n\"details\": [\n\"미국이 첨단 반도체에 25%의 관세를 부과했어요.\",\n\"이 관세는 2026년 1월부터 발효돼요.\",\n\"이전에는 이 품목에 대한 관세가 없었어요.\",\n\"미국 백악관이 이 조치를 발표했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"한국 반도체 기업들의 미국 수출 가격이 올라 경쟁력이 떨어질 수 있어요!\",\n\"미국 내에서 생산되는 반도체 가격은 상대적으로 오를 수 있어요.\"\n],\n\"glossary\": [\n{\n\"term\": \"관세율\",\n\"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 세금의 비율이에요.\",\n\"example\": \"수입 자동차 관세율이 오르면 자동차 가격이 비싸져요.\"\n}\n]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(56)",
+     "effects[1] 느낌표 종결 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -79,8 +86,8 @@
   "fact_hash": "167fd732c1f784d295b5ea618bb4e40bcb31768b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-17T06:34:35.747079+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(56)\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-17T11:49:51.940810+00:00"
  },
  "glossary": [
   {
@@ -103,6 +110,12 @@
    "shared": []
   },
   {
+   "id": "c326b0b11f6b34d1d",
+   "title": "The Iran war could shape American policy for decades | JONAH GOLDBERG :",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
    "id": "cbfe3b568bcaaae8c",
    "title": "Inside the Distributor Creating a New Route for Independent Artists",
    "category": "POLICY",
@@ -111,12 +124,6 @@
   {
    "id": "ca2ef2092a2aee42f",
    "title": "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
-   "id": "cf38973aa7e2574f7",
-   "title": "US Senate Bill Could Hit India With Up To 100 % Tariffs Over Russian Oil Imports",
    "category": "POLICY",
    "shared": []
   }

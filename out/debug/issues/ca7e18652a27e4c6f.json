@@ -9,11 +9,31 @@
  "entity_keys": [
   "F"
  ],
- "seen_sources": 5,
+ "seen_sources": 7,
  "importance": 110,
  "created_at": "2026-07-16T06:38:34.932120+00:00",
- "last_update": "2026-07-17T03:45:59.357680+00:00",
+ "last_update": "2026-07-17T11:47:42.424067+00:00",
  "members": [
+  {
+   "id": "492856fc59a12a68f9cacdd035ddc2be056b6d3a",
+   "source": "oxfordmail.co.uk",
+   "tier": "wire",
+   "url": "https://www.oxfordmail.co.uk/news/26288335.dianas-oxford-educated-barrister-faces-retrial-2m-tax-dodge/",
+   "title": "Diana Oxford - educated barrister faces retrial over £2m tax dodge",
+   "published_at": "2026-07-17T10:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8601
+  },
+  {
+   "id": "30b406aea74b55f5193d412ec25bcb00cbb0d1c6",
+   "source": "eptrail.com",
+   "tier": "wire",
+   "url": "https://www.eptrail.com/2026/07/17/colorado-pulse-poll-housing-affordability-inflation-politics/",
+   "title": "3 / 4 of Coloradans worry they cant afford to live here , poll finds",
+   "published_at": "2026-07-17T10:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9016
+  },
   {
    "id": "139cc74b7030bbea5c0716da841df692be3b95a3",
    "source": "wgnsradio.com",
@@ -22,7 +42,7 @@
    "title": "Population Growth Reduces Rutherford County Farmland as Winter Canola Expands Statewide",
    "published_at": "2026-07-17T00:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8665
+   "sim_to_centroid": 0.8702
   },
   {
    "id": "5a0e7c1ef05d3911fe7af84fb42d2aef197dd878",
@@ -32,7 +52,7 @@
    "title": "Americans Cant Have These Affordable Chinese EVs . But Theyre Coming To Canada",
    "published_at": "2026-07-16T19:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8739
+   "sim_to_centroid": 0.8779
   },
   {
    "id": "92b3424449e06aedbb423f8dda34fdf8ed398d5d",
@@ -42,7 +62,7 @@
    "title": "Two - Thirds of Americans Now Say Groceries Are Unaffordable",
    "published_at": "2026-07-16T15:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8965
+   "sim_to_centroid": 0.8999
   },
   {
    "id": "6b560f03a7ab2addb7be30e7e6ee7c76572c2173",
@@ -52,7 +72,7 @@
    "title": "Left - leaning group says state faces affordability crisis",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9581
+   "sim_to_centroid": 0.9541
   },
   {
    "id": "26087587513a3eeb2af67ce2cabf8e7941d0cff6",
@@ -62,11 +82,25 @@
    "title": "Supervisors back Lurie plan to cut affordable housing fees | Politics",
    "published_at": "2026-07-16T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9532
+   "sim_to_centroid": 0.948
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Diana Oxford - educated barrister faces retrial over £2m tax dodge",
+   "source": "oxfordmail.co.uk",
+   "url": "https://www.oxfordmail.co.uk/news/26288335.dianas-oxford-educated-barrister-faces-retrial-2m-tax-dodge/",
+   "at": "2026-07-17T10:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "3 / 4 of Coloradans worry they cant afford to live here , poll finds",
+   "source": "eptrail.com",
+   "url": "https://www.eptrail.com/2026/07/17/colorado-pulse-poll-housing-affordability-inflation-politics/",
+   "at": "2026-07-17T10:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Population Growth Reduces Rutherford County Farmland as Winter Canola Expands Statewide",
@@ -104,51 +138,61 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-17T03:46:19.656062+00:00",
+  "model": "template",
+  "created_at": "2026-07-17T11:52:38.168303+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
-    "Population Growth Reduces Rutherford County Farmland as Winter Canola Expands Statewide",
-    "Americans Cant Have These Affordable Chinese EVs . But Theyre Coming To Canada",
-    "Two - Thirds of Americans Now Say Groceries Are Unaffordable",
     "Left - leaning group says state faces affordability crisis",
-    "Supervisors back Lurie plan to cut affordable housing fees | Politics"
+    "Supervisors back Lurie plan to cut affordable housing fees | Politics",
+    "3 / 4 of Coloradans worry they cant afford to live here , poll finds",
+    "Two - Thirds of Americans Now Say Groceries Are Unaffordable",
+    "Americans Cant Have These Affordable Chinese EVs . But Theyre Coming To Canada"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 식료품값 부담 증가\",\n  \"one_liner\": \"미국 사람들의 두 명 중 한 명 이상이 식료품값이 너무 비싸다고 생각해요.\",\n  \"why_now\": \"식료품 가격이 오르면 장바구니 물가가 올라 가계 경제에 부담이 커지는 게 보통이에요.\",\n  \"impact_line\": \"매일 먹는 식료품값이 더 올라갈 수 있어요.\",\n  \"details\": [\n    \"미국 사람들의 3분의 2가 식료품값이 비싸다고 말했어요.\",\n    \"일부에서는 주 정부가 해결해야 할 물가 상승 문제가 있다고 지적했어요.\",\n    \"주 의회 의원들은 저렴한 주택 공급을 늘리기 위한 방안을 지지했어요.\",\n    \"다른 한편에서는 겨울 유채 재배가 늘면서 농지가 줄고 있다는 소식도 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"식료품 가격이 계속 오르면 외식 대신 집에서 요리하는 사람들이 늘어날 수 있어요!\",\n    \"물가 상승이 계속되면 소비자들이 지갑을 닫아 경제 성장이 둔화될 수 있어요!\"\n  ],\n  \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국 식료품값 부담 증가",
-   "one_liner": "미국 사람들의 두 명 중 한 명 이상이 식료품값이 너무 비싸다고 생각해요.",
-   "why_now": "식료품 가격이 오르면 장바구니 물가가 올라 가계 경제에 부담이 커지는 게 보통이에요.",
+   "title": "Left - leaning group…",
+   "one_liner": "Left - leaning group says state faces…",
+   "why_now": null,
    "details": [
-    "미국 사람들의 3분의 2가 식료품값이 비싸다고 말했어요.",
-    "일부에서는 주 정부가 해결해야 할 물가 상승 문제가 있다고 지적했어요.",
-    "주 의회 의원들은 저렴한 주택 공급을 늘리기 위한 방안을 지지했어요.",
-    "다른 한편에서는 겨울 유채 재배가 늘면서 농지가 줄고 있다는 소식도 있어요."
+    "Left - leaning group says state faces affordability crisis",
+    "Supervisors back Lurie plan to cut affordable housing fees | Politics",
+    "3 / 4 of Coloradans worry they cant afford to live here , poll finds"
    ],
-   "effects": [
-    "식료품 가격이 계속 오르면 외식 대신 집에서 요리하는 사람들이 늘어날 수 있어요!",
-    "물가 상승이 계속되면 소비자들이 지갑을 닫아 경제 성장이 둔화될 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "11e0319fe7ef23950b69d6e0876868e026b0356d"
+  "fact_hash": "a011ff504480f528745c688fd7b959a00556500b"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-17T00:18:27.462769+00:00"
+  "at": "2026-07-17T11:52:38.168213+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c7f9a22157d5febb4",
+   "title": "EU forces Google to share search data and open Android to rival AI companies",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "c51597e9225ff98fa",
+   "title": "CNBC Daily Open : Trump lashes out at electoral system and China",
+   "category": "GEO",
+   "shared": []
+  },
   {
    "id": "c4edd921f2455986c",
    "title": "Broadstreetnote : The Optimism Paradox",
@@ -164,18 +208,6 @@
   {
    "id": "ee586a6d38f0760c0",
    "title": "중국, 대만 겨냥 대규모 상륙훈련",
-   "category": "GEO",
-   "shared": []
-  },
-  {
-   "id": "c51597e9225ff98fa",
-   "title": "CNBC Daily Open : Trump lashes out at electoral system and China",
-   "category": "GEO",
-   "shared": []
-  },
-  {
-   "id": "c512e8252f3713423",
-   "title": "Devon Funds Morning Note - 15 July 2026 - sharechat . co . nz",
    "category": "GEO",
    "shared": []
   }
