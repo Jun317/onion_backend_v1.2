@@ -68,8 +68,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-17T00:29:27.491695+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-17T06:34:17.284849+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [
@@ -90,24 +90,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"코스피 최고치\",\n   \"one_liner\": \"코스피가 또 최고치를 기록했어요\",\n   \"why_now\": \"주가가 오르면 투자자들이 기뻐하고, 경제에도 긍정적인 영향을 줄 수 있어요\",\n   \"impact_line\": \"주식 투자자들의 기대가 높아질 수 있어요\",\n   \"details\": [\n      \"코스피가 장중 최고 지수로 8447.69를 기록했어요\",\n      \"코스피가 사상 최고치를 기록한 이유 중 하나는 삼성전자와 젠슨 황의 기대감이었어요\",\n      \"코스피가 4%대 급등하며 8400선을 돌파했어요\"\n   ],\n   \"visual_type\": \"kospi_close\",\n   \"effects\": [\n      \"주식 시장의 기대감이 높아져서 투자자들이 더 많이 투자할 수 있어요!\",\n      \"경제에 대한 긍정적인 기대감이 높아져서 소비와 투자가 증가할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "코스피 장중 최고 지수 8447.69pt",
-   "one_liner": "코스피 장중 최고 지수 8447.69pt로 발표됐어요",
-   "why_now": null,
+   "title": "코스피 최고치",
+   "one_liner": "코스피가 또 최고치를 기록했어요",
+   "why_now": "주가가 오르면 투자자들이 기뻐하고, 경제에도 긍정적인 영향을 줄 수 있어요",
    "details": [
-    "코스피 장중 최고 지수: 8447.69pt"
+    "코스피가 장중 최고 지수로 8447.69를 기록했어요",
+    "코스피가 사상 최고치를 기록한 이유 중 하나는 삼성전자와 젠슨 황의 기대감이었어요",
+    "코스피가 4%대 급등하며 8400선을 돌파했어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "주식 시장의 기대감이 높아져서 투자자들이 더 많이 투자할 수 있어요!",
+    "경제에 대한 긍정적인 기대감이 높아져서 소비와 투자가 증가할 수 있어요!"
+   ],
+   "visual_type": "kospi_close"
   },
   "fact_hash": "6ceadabcc5026faca664206438464996ea0fda15"
  },
@@ -130,14 +133,14 @@
    "shared": []
   },
   {
-   "id": "c499660e9dfd764df",
-   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
+   "id": "c273684a49f5f6fb2",
+   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c273684a49f5f6fb2",
-   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
+   "id": "c499660e9dfd764df",
+   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
    "category": "MARKET",
    "shared": []
   },

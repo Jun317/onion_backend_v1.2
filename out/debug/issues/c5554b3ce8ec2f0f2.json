@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 4,
- "importance": 60,
+ "seen_sources": 5,
+ "importance": 65,
  "created_at": "2026-07-16T06:38:34.930722+00:00",
- "last_update": "2026-07-17T03:45:59.349834+00:00",
+ "last_update": "2026-07-17T06:33:59.016651+00:00",
  "members": [
+  {
+   "id": "d47dcf0ecb3a35271ce66f7375ab459ce5a0859f",
+   "source": "rttnews.com",
+   "tier": "wire",
+   "url": "https://www.rttnews.com/3667819/simmons-first-national-corporation-reveals-rise-in-q2-income.aspx",
+   "title": "Simmons First National Corporation Reveals Rise In Q2 Income",
+   "published_at": "2026-07-17T04:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9099
+  },
   {
    "id": "f1d979ae9be2a2b7f2db4ea82c636b94e9b4a771",
    "source": "finance.yahoo.com",
@@ -30,7 +40,7 @@
    "title": "Sigyn Therapeutics ( OTCMKTS : SIGY ) Posts Quarterly Earnings Results",
    "published_at": "2026-07-16T21:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8796
+   "sim_to_centroid": 0.8805
   },
   {
    "id": "3a4b27683ff0cac381ded631f90054e36ff16dac",
@@ -40,7 +50,7 @@
    "title": "Kimco Realty Quarterly Earnings Preview : What You Need to Know",
    "published_at": "2026-07-16T19:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9127
+   "sim_to_centroid": 0.9154
   },
   {
    "id": "950807838ac95f29e240ea323bb88dc25f7b17f7",
@@ -50,7 +60,7 @@
    "title": "GE Aerospace Q2 earnings top estimates as commercial services drive growth",
    "published_at": "2026-07-16T19:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8991
+   "sim_to_centroid": 0.903
   },
   {
    "id": "a6d472d6531381045ef393f82ebda840394d7c73",
@@ -60,7 +70,7 @@
    "title": "FinancialContent - Abbott Laboratories ( NYSE : ABT ) Surprises With Q2 CY2026 Sales",
    "published_at": "2026-07-16T14:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9042
+   "sim_to_centroid": 0.9058
   },
   {
    "id": "55ec2555cfd9170cc70105999b377fe1319d5d87",
@@ -70,7 +80,7 @@
    "title": "FinancialContent - Earnings To Watch : Autoliv ( ALV ) Reports Q2 Results Tomorrow",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9624
+   "sim_to_centroid": 0.9597
   },
   {
    "id": "8490d26fe490dff4fae52662ffa6237984e045ba",
@@ -80,11 +90,18 @@
    "title": "FinancialContent - Travelers ( TRV ) Q2 Earnings Report Preview : What To Look For",
    "published_at": "2026-07-16T05:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9652
+   "sim_to_centroid": 0.9624
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Simmons First National Corporation Reveals Rise In Q2 Income",
+   "source": "rttnews.com",
+   "url": "https://www.rttnews.com/3667819/simmons-first-national-corporation-reveals-rise-in-q2-income.aspx",
+   "at": "2026-07-17T04:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Here What to Expect From International Flavors & Fragrance Next Earnings Report",
@@ -136,45 +153,47 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-16T21:31:00.267343+00:00",
+  "model": "template",
+  "created_at": "2026-07-17T06:38:57.498678+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
-    "Kimco Realty Quarterly Earnings Preview : What You Need to Know",
-    "GE Aerospace Q2 earnings top estimates as commercial services drive growth",
-    "FinancialContent - Abbott Laboratories ( NYSE : ABT ) Surprises With Q2 CY2026 Sales",
+    "FinancialContent - Travelers ( TRV ) Q2 Earnings Report Preview : What To Look For",
     "FinancialContent - Earnings To Watch : Autoliv ( ALV ) Reports Q2 Results Tomorrow",
-    "FinancialContent - Travelers ( TRV ) Q2 Earnings Report Preview : What To Look For"
+    "Here What to Expect From International Flavors & Fragrance Next Earnings Report",
+    "Kimco Realty Quarterly Earnings Preview : What You Need to Know",
+    "Simmons First National Corporation Reveals Rise In Q2 Income"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"기업 실적 발표\",\n   \"one_liner\": \"여러 기업이 2분기 실적을 발표했어요\",\n   \"why_now\": \"실적이 좋으면 주가가 오를 수 있어요\",\n   \"impact_line\": \"주식 투자자에게 관심이 가는 소식이에요\",\n   \"details\": [\n      \"GE 에어로스페이스의 2분기 실적이 기대치를 넘었어요\",\n      \"애보트 랩의 2분기 매출이 기대치를 상회했어요\",\n      \"오늘 오토리브와 트래블러스의 실적 발표를 기대하고 있어요\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n      \"실적이 좋으면 주식 투자자에게 기회가 될 수 있어요!\",\n      \"실적이 나쁘면 주식 투자자에게 위험이 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "기업 실적 발표",
-   "one_liner": "여러 기업이 2분기 실적을 발표했어요",
-   "why_now": "실적이 좋으면 주가가 오를 수 있어요",
+   "title": "FinancialContent -…",
+   "one_liner": "FinancialContent - Travelers ( TRV ) Q2 Earnings…",
+   "why_now": null,
    "details": [
-    "GE 에어로스페이스의 2분기 실적이 기대치를 넘었어요",
-    "애보트 랩의 2분기 매출이 기대치를 상회했어요",
-    "오늘 오토리브와 트래블러스의 실적 발표를 기대하고 있어요"
+    "FinancialContent - Travelers ( TRV ) Q2 Earnings Report Preview : What To Look For",
+    "FinancialContent - Earnings To Watch : Autoliv ( ALV ) Reports Q2 Results Tomorrow",
+    "Here What to Expect From International Flavors & Fragrance Next Earnings Report"
    ],
-   "effects": [
-    "실적이 좋으면 주식 투자자에게 기회가 될 수 있어요!",
-    "실적이 나쁘면 주식 투자자에게 위험이 될 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "02534bbee8569cb2da32195aa91f11198899a781"
+  "fact_hash": "180dca01ebb492b2e1ba7054dc5e7c1a19da9f61"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-17T06:38:57.498592+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -190,20 +209,20 @@
    "shared": []
   },
   {
-   "id": "c46f1163e8203d147",
-   "title": "UnitedHealth Group boosts earnings outlook after stronger - than - expected Q2 results",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
    "id": "c2ddb2c1db0cafd3b",
    "title": "Wells Fargo bounces off 52 - week lows . What it must do to get out of the penalty box",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "cb73e3e7c2c3ac871",
-   "title": "Big Pharma Just Started Buying Up Psychedelic Companies",
+   "id": "c46f1163e8203d147",
+   "title": "UnitedHealth Group boosts earnings outlook after stronger - than - expected Q2 results",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c0ce91eaf69284897",
+   "title": "DWS Group GmbH & Co . KGaA ( ETR : DWS ) Stock Price Up 0 . 7 % – Still a Buy ?",
    "category": "EARNINGS",
    "shared": []
   }

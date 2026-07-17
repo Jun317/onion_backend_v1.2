@@ -26,7 +26,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-16T20:25:15.585848+00:00",
+  "created_at": "2026-07-17T06:37:06.485933+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -35,8 +35,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"져스텍 실적 발표\",\n  \"one_liner\": \"져스텍이 2026년 1분기 실적을 발표했어요.\",\n  \"why_now\": \"기업의 실적 발표는 앞으로의 사업 방향과 수익성을 엿볼 수 있는 중요한 기회예요.\",\n  \"impact_line\": null,\n  \"details\": [],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [],\n  \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -57,8 +64,8 @@
   "fact_hash": "a4ab0df862e7b9b2814fabab39208799e46de61f"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-16T20:25:15.585777+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-17T06:37:06.485870+00:00"
  },
  "glossary": [],
  "related": [
@@ -75,20 +82,20 @@
    "shared": []
   },
   {
-   "id": "c46f1163e8203d147",
-   "title": "UnitedHealth Group boosts earnings outlook after stronger - than - expected Q2 results",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
    "id": "c2ddb2c1db0cafd3b",
    "title": "Wells Fargo bounces off 52 - week lows . What it must do to get out of the penalty box",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "cb73e3e7c2c3ac871",
-   "title": "Big Pharma Just Started Buying Up Psychedelic Companies",
+   "id": "c46f1163e8203d147",
+   "title": "UnitedHealth Group boosts earnings outlook after stronger - than - expected Q2 results",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c0ce91eaf69284897",
+   "title": "DWS Group GmbH & Co . KGaA ( ETR : DWS ) Stock Price Up 0 . 7 % – Still a Buy ?",
    "category": "EARNINGS",
    "shared": []
   }
