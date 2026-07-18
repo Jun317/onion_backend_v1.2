@@ -875,42 +875,44 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-18T06:27:49.466797+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-18T10:45:39.889166+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
     "EU forces Google to share search data and open Android to rival AI companies",
     "AI Roundup : China Kimi K3 Stuns the Market , EU Orders Google to Open Android to Rival AI , Apple vs OpenAI Escalates – The Cherry Creek News",
+    "Apple overtakes Nvidia as world most valuable company amid AI selloff",
     "China Xi Jinping Wants AI to Be Open to the World and Out of America Control",
-    "Indonesia copyright rewrite puts Google , AI platforms on notice",
-    "China and Russia launch 29 - nation AI alliance to rival western control of technology – NaturalNews . com"
+    "Indonesia copyright rewrite puts Google , AI platforms on notice"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"구글에 안드로이드 개방 요구\",\n   \"one_liner\": \"유럽 연합이 구글에 안드로이드를 다른 인공지능 회사에 열어야 한다고 했어요\",\n   \"why_now\": \"인공지능 기술이 중요해지면서 경쟁을 촉진하기 위해 이런 조치가 필요해요\",\n   \"impact_line\": \"구글의 안드로이드 운영체제에 대한 통제력이 약해질 수 있어요\",\n   \"details\": [\n      \"유럽 연합이 구글에 안드로이드를 다른 인공지능 회사에 열어야 한다고 요구했어요\",\n      \"이 결정은 인공지능 기술의 경쟁을 촉진하기 위한 것으로 보이네요\",\n      \"구글의 안드로이드 운영체제는 많은 스마트폰에서 사용돼요\",\n      \"중국은 인공지능 기술을 미국의 통제에서 벗어나게 하려는 의도를 나타냈어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"구글의 시장 지위가 약해질 수 있어요!\",\n      \"다른 인공지능 회사들이 안드로이드에서 경쟁할 기회를 가질 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"안드로이드\",\n         \"easy\": \"구글이 만든 스마트폰 운영체제예요\",\n         \"example\": \"대부분의 스마트폰에서 안드로이드 운영체제를 사용해요\"\n      }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "EU forces Google to…",
-   "one_liner": "EU forces Google to share search data and open…",
-   "why_now": null,
+   "title": "구글에 안드로이드 개방 요구",
+   "one_liner": "유럽 연합이 구글에 안드로이드를 다른 인공지능 회사에 열어야 한다고 했어요",
+   "why_now": "인공지능 기술이 중요해지면서 경쟁을 촉진하기 위해 이런 조치가 필요해요",
    "details": [
-    "EU forces Google to share search data and open Android to rival AI companies",
-    "AI Roundup : China Kimi K3 Stuns the Market , EU Orders Google to Open Android to Rival AI , Apple vs OpenAI Escalates – The Cherry Creek News",
-    "China Xi Jinping Wants AI to Be Open to the World and Out of America Control"
+    "유럽 연합이 구글에 안드로이드를 다른 인공지능 회사에 열어야 한다고 요구했어요",
+    "이 결정은 인공지능 기술의 경쟁을 촉진하기 위한 것으로 보이네요",
+    "구글의 안드로이드 운영체제는 많은 스마트폰에서 사용돼요",
+    "중국은 인공지능 기술을 미국의 통제에서 벗어나게 하려는 의도를 나타냈어요"
    ],
-   "effects": [],
+   "effects": [
+    "구글의 시장 지위가 약해질 수 있어요!",
+    "다른 인공지능 회사들이 안드로이드에서 경쟁할 기회를 가질 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "0e9e7cdf4e435f910c00df39d81fdd41e2d495b2"
+  "fact_hash": "a91d80b4825b1b367f594eb4eac2e92fe3829f96"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
@@ -943,14 +945,14 @@
    "shared": []
   },
   {
-   "id": "c3f616975ed4f3095",
-   "title": "Letter : Time to see the light on DST",
+   "id": "c512e8252f3713423",
+   "title": "Devon Funds Morning Note - 15 July 2026 - sharechat . co . nz",
    "category": "GEO",
    "shared": []
   },
   {
-   "id": "c512e8252f3713423",
-   "title": "Devon Funds Morning Note - 15 July 2026 - sharechat . co . nz",
+   "id": "c3f616975ed4f3095",
+   "title": "Letter : Time to see the light on DST",
    "category": "GEO",
    "shared": []
   }

@@ -1,0 +1,133 @@
+{
+ "id": "c5e385f5631a9f3a3",
+ "title": "China smartphone makers turn to agentic AI as device sales slow",
+ "category": "COMMODITY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "CHINA"
+ ],
+ "seen_sources": 2,
+ "importance": 70,
+ "created_at": "2026-07-18T10:45:38.176588+00:00",
+ "last_update": "2026-07-18T10:45:38.177265+00:00",
+ "members": [
+  {
+   "id": "94759cf872b1bcce84d70dface48de2e219f14fb",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/technology/ai/articles/china-smartphone-makers-turn-agentic-084426803.html",
+   "title": "China smartphone makers turn to agentic AI as device sales slow",
+   "published_at": "2026-07-18T09:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9567
+  },
+  {
+   "id": "3777ca0b8b1d7d63c537303733e9d8f7d1c050fe",
+   "source": "surinametimes.com",
+   "tier": "wire",
+   "url": "https://www.surinametimes.com/artikel/china-hits-out-at-british-steel-nationalisation",
+   "title": "China hits out at British Steel nationalisation",
+   "published_at": "2026-07-18T09:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9566
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "China smartphone makers turn to agentic AI as device sales slow",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/technology/ai/articles/china-smartphone-makers-turn-agentic-084426803.html",
+   "at": "2026-07-18T09:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "China hits out at British Steel nationalisation",
+   "source": "surinametimes.com",
+   "url": "https://www.surinametimes.com/artikel/china-hits-out-at-british-steel-nationalisation",
+   "at": "2026-07-18T09:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-18T10:46:01.450977+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [],
+   "headlines": [
+    "China smartphone makers turn to agentic AI as device sales slow",
+    "China hits out at British Steel nationalisation"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"중국 스마트폰 판매 부진\", \"one_liner\": \"중국 스마트폰 회사들이 판매 부진에 대응해 인공지능 기술을 활용하고 있어요.\", \"why_now\": \"스마트폰 판매가 줄면 관련 산업 전반에 어려움이 생길 수 있어요.\", \"impact_line\": \"새 스마트폰 구매 시 인공지능 기능이 더 중요해질 수 있어요.\", \"details\": [\"중국 스마트폰 회사들이 기기 판매 부진을 겪고 있어요.\", \"이에 따라 인공지능 기술을 활용하는 방향으로 나아가고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"스마트폰 판매가 늘지 않으면 관련 부품 회사들의 실적도 나빠질 수 있어요!\", \"새로운 인공지능 기능이 스마트폰 구매를 유도할 수 있을 것으로 예상돼요!\"], \"glossary\": [{\"term\": \"AI\", \"easy\": \"인공지능은 컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\", \"example\": \"인공지능 스피커는 사람의 말을 알아듣고 답을 해줘요.\"}]}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "China smartphone…",
+   "one_liner": "China smartphone makers turn to agentic AI as…",
+   "why_now": null,
+   "details": [
+    "China smartphone makers turn to agentic AI as device sales slow",
+    "China hits out at British Steel nationalisation"
+   ],
+   "effects": [],
+   "visual_type": "wti"
+  },
+  "fact_hash": "adefb6c2180accea5e93540fdbff39aceccdafb1"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-07-18T10:46:01.450797+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": [
+    "CHINA"
+   ]
+  },
+  {
+   "id": "c7f9a22157d5febb4",
+   "title": "EU forces Google to share search data and open Android to rival AI companies",
+   "category": "GEO",
+   "shared": [
+    "CHINA"
+   ]
+  },
+  {
+   "id": "cba88a7800c9d0a52",
+   "title": "The mother of all economic shocks is Chinese mercantilism",
+   "category": "COMMODITY",
+   "shared": []
+  },
+  {
+   "id": "ee586a6d38f0760c0",
+   "title": "중국, 대만 겨냥 대규모 상륙훈련",
+   "category": "GEO",
+   "shared": [
+    "CHINA"
+   ]
+  }
+ ]
+}
