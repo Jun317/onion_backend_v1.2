@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-17T19:43:28.004895+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-18T00:15:01.448249+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -881,26 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미시간 주 경제 성장 계획\",\n   \"one_liner\": \"미시간 주의 경제 성장을 위해 후보들이 서로 다른 계획을 제시했어요\",\n   \"why_now\": \"경제 성장이 중요해져서 다양한 계획이 나오고 있어요\",\n   \"impact_line\": \"미시간 주의 경제 성장이 좋아지면 일자리와 소득이 증가할 수 있어요\",\n   \"details\": [\n       \"미시간 주의 경제 성장을 위해 후보들이 계획을 제시했어요\",\n       \"인도에서는 전자상거래 협력을 위해 협의회를 설립했어요\",\n       \"Palnadu 지역은 기업가 정신의 중심지로 부상할 것으로 예상돼요\",\n       \"지능적인 주류 세금은 수입을 증가시키고 과도한 음주를 막을 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미시간 주의 경제 성장이 좋아지면 지역 경제에 긍정적인 영향을 줄 수 있어요!\",\n       \"전자상거래 협력이 강화되면 소비자에게 더 좋은 서비스를 제공할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Michigan governor…",
-   "one_liner": "Michigan governor candidates offer competing…",
-   "why_now": null,
+   "title": "미시간 주 경제 성장 계획",
+   "one_liner": "미시간 주의 경제 성장을 위해 후보들이 서로 다른 계획을 제시했어요",
+   "why_now": "경제 성장이 중요해져서 다양한 계획이 나오고 있어요",
    "details": [
-    "Michigan governor candidates offer competing plans to improve economic growth in the state",
-    "Dividend growers offer resilience in uncertain markets",
-    "IAMAI launches e - commerce council to push collaboration among firms in India"
+    "미시간 주의 경제 성장을 위해 후보들이 계획을 제시했어요",
+    "인도에서는 전자상거래 협력을 위해 협의회를 설립했어요",
+    "Palnadu 지역은 기업가 정신의 중심지로 부상할 것으로 예상돼요",
+    "지능적인 주류 세금은 수입을 증가시키고 과도한 음주를 막을 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "미시간 주의 경제 성장이 좋아지면 지역 경제에 긍정적인 영향을 줄 수 있어요!",
+    "전자상거래 협력이 강화되면 소비자에게 더 좋은 서비스를 제공할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "8bac6696e2f2f9b9adc64a66fd7cdc2113b7a84f"
  },

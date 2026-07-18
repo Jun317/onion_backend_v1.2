@@ -140,8 +140,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-17T19:44:04.916579+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-18T00:15:27.214805+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -154,26 +154,39 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 주식 시장\",\n   \"one_liner\": \"미국 주요 기술 기업의 주가가 떨어졌어요\",\n   \"why_now\": \"주가가 떨어지면 투자자들이 주의해야 해요\",\n   \"impact_line\": \"주식 투자자들의 손실이 늘 수 있어요\",\n   \"details\": [\n      \"래티스 세미컨덕터, AMD, 퀄컴의 주가가 떨어졌어요\",\n      \"마이크론이 퀄컴과 함께 인공지능 자동차 칩 부품에 대한 계약을 맺었어요\",\n      \"마이크론 기술주의 주가가 떨어진 이유를 분석하고 있어요\",\n      \"마이크론 기술주의 1분기 실적 예측이 나왔어요\",\n      \"AMD 주가가 8월 4일 이후 상승할 것으로 예상돼요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"주식 투자자들이 주의하고 대응해야 해요!\",\n      \"기술 기업들의 주가가 영향을 받아서 시장 전망이 달라질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details[0] 어요체 아님",
+     "details[1] 어요체 아님",
+     "details[2] 어요체 아님",
+     "details[3] 어요체 아님",
+     "effects[1] 느낌표 종결 아님"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "FinancialContent -…",
-   "one_liner": "FinancialContent - Lattice Semiconductor , AMD ,…",
-   "why_now": null,
+   "title": "미국 주식 시장",
+   "one_liner": "미국 주요 기술 기업의 주가가 떨어졌어요",
+   "why_now": "주가가 떨어지면 투자자들이 주의해야 해요",
    "details": [
-    "FinancialContent - Lattice Semiconductor , AMD , and Qualcomm Shares Are Falling , What You Need To Know",
-    "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
-    "What Going on With Micron Technology Stock Friday ? - Micron Technology ( NASDAQ : MU )"
+    "래티스 세미컨덕터, AMD, 퀄컴의 주가가 떨어졌어요",
+    "마이크론이 퀄컴과 함께 인공지능 자동차 칩 부품에 대한 계약을 맺었어요",
+    "마이크론 기술주의 주가가 떨어진 이유를 분석하고 있어요",
+    "마이크론 기술주의 1분기 실적 예측이 나왔어요",
+    "AMD 주가가 8월 4일 이후 상승할 것으로 예상돼요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "주식 투자자들이 주의하고 대응해야 해요!",
+    "기술 기업들의 주가가 영향을 받아서 시장 전망이 달라질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "42156fe8d04378fa538a4802c6db145e39c1dac5"
  },
