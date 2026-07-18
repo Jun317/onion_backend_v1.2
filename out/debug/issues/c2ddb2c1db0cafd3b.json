@@ -121,8 +121,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-18T03:46:07.547591+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-18T09:07:21.630050+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -135,25 +135,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"웰스파고 실적 개선\",\n    \"one_liner\": \"웰스파고의 2분기 이익이 늘었어요.\",\n    \"why_now\": \"기업의 이익은 회사의 성장성과 주가에 영향을 미치는 중요한 지표예요.\",\n    \"impact_line\": \"웰스파고 주가에 긍정적인 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"웰스파고의 2분기 순이익이 증가했어요.\",\n        \"수수료 수입과 대출 건전성이 예상치를 웃돌았어요.\",\n        \"회사는 금융 자문가를 위한 인공지능 도구를 선보였어요.\",\n        \"주가는 52주 최저치에서 반등했어요.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"이익 증가는 회사의 재무 상태 개선을 의미할 수 있어요!\",\n        \"새로운 인공지능 도구는 고객 서비스 향상에 기여할 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"순이익\",\n            \"easy\": \"회사가 모든 비용을 빼고 최종적으로 남은 이익이에요.\",\n            \"example\": \"이번 분기 순이익이 늘어서 주주들에게 배당금을 더 줄 수 있어요.\"\n        },\n        {\n            \"term\": \"수수료 수입\",\n            \"easy\": \"회사가 상품이나 서비스 제공에 대해 받는 돈이에요.\",\n            \"example\": \"은행의 수수료 수입은 계좌 유지 수수료나 송금 수수료 등이 있어요.\"\n        },\n        {\n            \"term\": \"대출 건전성\",\n            \"easy\": \"돈을 빌려준 사람들이 돈을 잘 갚을 수 있는 상태를 말해요.\",\n            \"example\": \"대출 건전성이 좋으면 은행이 빌려준 돈을 떼일 위험이 적어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Wells Fargo &…",
-   "one_liner": "Wells Fargo & Company ( WFC ) Stock Forecasts",
-   "why_now": null,
+   "title": "웰스파고 실적 개선",
+   "one_liner": "웰스파고의 2분기 이익이 늘었어요.",
+   "why_now": "기업의 이익은 회사의 성장성과 주가에 영향을 미치는 중요한 지표예요.",
    "details": [
-    "Wells Fargo & Company ( WFC ) Stock Forecasts",
-    "Wells Fargo debuts AI - powered teammate for financial advisers",
-    "Wells Fargo profit jumps as fee income , credit quality beat estimates"
+    "웰스파고의 2분기 순이익이 증가했어요.",
+    "수수료 수입과 대출 건전성이 예상치를 웃돌았어요.",
+    "회사는 금융 자문가를 위한 인공지능 도구를 선보였어요.",
+    "주가는 52주 최저치에서 반등했어요."
    ],
-   "effects": [],
+   "effects": [
+    "이익 증가는 회사의 재무 상태 개선을 의미할 수 있어요!",
+    "새로운 인공지능 도구는 고객 서비스 향상에 기여할 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "56e8bd911067923b85771d5d73c301f6a2d48f13"
@@ -162,7 +164,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-18T03:46:07.547540+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "순이익",
+   "easy": "비용·세금까지 다 빼고 최종으로 남은 이익이에요.",
+   "example": ""
+  }
+ ],
  "related": [
   {
    "id": "c2fe47d2110ccdaa3",

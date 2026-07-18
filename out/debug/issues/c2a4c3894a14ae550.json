@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-18T03:43:39.798223+00:00",
+  "created_at": "2026-07-18T09:05:58.280596+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,18 +64,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"마이크로소프트 주가\",\n   \"one_liner\": \"마이크로소프트의 주가가 7월 29일 이후 급등할 것이라는 예측이 나왔어요\",\n   \"why_now\": \"마이크로소프트의 브라우저 전략이 다시 한번 주목을 받고 있어요\",\n   \"impact_line\": \"마이크로소프트의 브라우저 사용이 증가할 수 있어요\",\n   \"details\": [\n       \"마이크로소프트의 주가가 7월 29일 이후 급등할 것이라는 예측이 나왔어요\",\n       \"마이크로소프트의 브라우저 전략이 다시 한번 주목을 받고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"마이크로소프트의 브라우저 사용이 증가하면 인터넷 사용자들에게 더 많은 선택지가 생길 수 있어요!\",\n       \"마이크로소프트의 주가가 상승하면 투자자들에게 기회가 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n\"title\": \"마이크로소프트 엣지 브라우저 논란\",\n\"one_liner\": \"마이크로소프트가 엣지 브라우저를 홍보하는 방식에 대해 다시 한번 조사가 시작됐어요.\",\n\"why_now\": \"새로운 기술이 나올 때마다 기존의 방식이 바뀌는지 살펴보는 것은 중요해요.\",\n\"impact_line\": null,\n\"details\": [\n\"마이크로소프트의 엣지 브라우저 사용을 유도하는 방식이 논란이 되고 있어요.\",\n\"이러한 방식은 소비자의 선택권을 제한할 수 있다는 비판을 받고 있어요.\",\n\"이전에도 비슷한 문제로 조사를 받은 적이 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [],\n\"glossary\": [\n{\n\"term\": \"엣지 브라우저\",\n\"easy\": \"마이크로소프트에서 만든 인터넷 검색 프로그램이에요.\",\n\"example\": \"엣지 브라우저로 뉴스를 보거나 쇼핑을 할 수 있어요.\"\n}\n],\n\"impact_line\": null\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
      "details 3문장 미만"
     ]
    },
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects 1~2문장 아님"
     ]
    }
   ],
@@ -93,20 +93,20 @@
   "fact_hash": "7eebe52ce7e2f00e3382e6283794550b0c4a6355"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-18T03:43:39.798165+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}]}",
+  "at": "2026-07-18T09:05:58.280536+00:00"
  },
  "glossary": [],
  "related": [
   {
-   "id": "c72702defa15d1f1f",
-   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
+   "id": "c2f82920800c96145",
+   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c2f82920800c96145",
-   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
+   "id": "c72702defa15d1f1f",
+   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
    "category": "MARKET",
    "shared": []
   },

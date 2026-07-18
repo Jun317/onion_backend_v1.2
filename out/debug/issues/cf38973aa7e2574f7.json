@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-18T03:41:48.500680+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-18T09:05:11.855856+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,25 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국, 브라질 수입품에 25% 관세 부과\",\n  \"one_liner\": \"미국이 브라질에서 수입하는 일부 품목에 25%의 높은 관세를 새로 부과했어요.\",\n  \"why_now\": \"관세가 오르면 해당 물건의 가격이 올라 수입품을 사기 어려워질 수 있어요.\",\n  \"impact_line\": \"브라질에서 수입하는 물건의 가격이 오를 수 있어요.\",\n  \"details\": [\n    \"미국이 브라질에서 수입하는 특정 물품에 25%의 관세를 부과한다고 발표했어요.\",\n    \"미국은 관세 부과 대상 품목 목록을 확대했어요.\",\n    \"브라질은 이에 맞서 보복 관세를 부과할 준비를 하고 있다고 해요.\",\n    \"브라질은 미국의 새로운 무역 제재에 대해 강력한 대응을 예고했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"브라질에서 수입하는 물건의 가격이 오를 수 있어요!\",\n    \"미국과 브라질 간의 무역 갈등이 심화될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 세금이에요.\",\n      \"example\": \"수입 과자에 관세가 붙어서 가격이 더 비싸졌어요.\"\n    },\n    {\n      \"term\": \"보복 관세\",\n      \"easy\": \"다른 나라가 우리 물건에 관세를 매겼을 때, 똑같이 상대국 물건에 관세를 매기는 거예요.\",\n      \"example\": \"미국이 중국 물건에 관세를 매기자, 중국도 미국 농산물에 보복 관세를 매겼어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "US unveils new 25 %…",
-   "one_liner": "US unveils new 25 % tariff on certain imports…",
-   "why_now": null,
+   "title": "미국, 브라질 수입품에 25% 관세 부과",
+   "one_liner": "미국이 브라질에서 수입하는 일부 품목에 25%의 높은 관세를 새로 부과했어요.",
+   "why_now": "관세가 오르면 해당 물건의 가격이 올라 수입품을 사기 어려워질 수 있어요.",
    "details": [
-    "US unveils new 25 % tariff on certain imports from Brazil",
-    "US imposes new 25 % tariffs on Brazil , expands exemptions list",
-    "Brazil readies  tough  retaliation to new Trump tariffs , sources say"
+    "미국이 브라질에서 수입하는 특정 물품에 25%의 관세를 부과한다고 발표했어요.",
+    "미국은 관세 부과 대상 품목 목록을 확대했어요.",
+    "브라질은 이에 맞서 보복 관세를 부과할 준비를 하고 있다고 해요.",
+    "브라질은 미국의 새로운 무역 제재에 대해 강력한 대응을 예고했어요."
    ],
-   "effects": [],
+   "effects": [
+    "브라질에서 수입하는 물건의 가격이 오를 수 있어요!",
+    "미국과 브라질 간의 무역 갈등이 심화될 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "c813f2c70fa5806e1e76f9799e54a9a185446109"
@@ -908,7 +910,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-18T03:41:48.500620+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cde343d4cab397faf",
@@ -923,14 +931,14 @@
    "shared": []
   },
   {
-   "id": "ca2ef2092a2aee42f",
-   "title": "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices",
+   "id": "c326b0b11f6b34d1d",
+   "title": "The Iran war could shape American policy for decades | JONAH GOLDBERG :",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "c326b0b11f6b34d1d",
-   "title": "The Iran war could shape American policy for decades | JONAH GOLDBERG :",
+   "id": "ca2ef2092a2aee42f",
+   "title": "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices",
    "category": "POLICY",
    "shared": []
   },

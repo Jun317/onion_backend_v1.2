@@ -69,8 +69,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-18T03:44:53.631458+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-18T09:06:44.258666+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [
@@ -99,25 +99,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"코스피, 상반기 101% 급등\",\n  \"one_liner\": \"코스피 지수가 상반기에만 101.14% 올라 8476.48까지 올랐어요.\",\n  \"why_now\": \"주식 시장이 크게 오르면 투자자들의 자산이 늘어나고 경제 전반에 활력이 생길 수 있어요.\",\n  \"impact_line\": \"주식 투자를 하고 있다면 자산 가치가 크게 올랐을 수 있어요.\",\n  \"details\": [\n    \"코스피 지수가 2026년 상반기에 101.14% 상승했어요.\",\n    \"상반기 마지막 날인 6월 30일 종가는 8476.48포인트예요.\",\n    \"이전 종가는 4214.17포인트였어요.\",\n    \"이는 역대 가장 뜨거웠던 상반기 상승률이에요.\"\n  ],\n  \"visual_type\": \"kospi_close\",\n  \"effects\": [\n    \"주식 시장이 계속 오르면 소비가 늘어나 경제 성장에 도움이 될 수 있어요!\",\n    \"하지만 급격한 상승 뒤에는 큰 폭의 조정이 올 수도 있어 주의가 필요해요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"코스피\",\n      \"easy\": \"한국거래소에 상장된 회사들의 주식 가격을 종합적으로 보여주는 지수예요.\",\n      \"example\": \"코스피 지수가 오르면 많은 사람들이 투자한 주식의 가치가 오르는 거예요.\"\n    },\n    {\n      \"term\": \"종가 지수\",\n      \"easy\": \"주식 시장이 문을 닫을 때의 최종 지수예요.\",\n      \"example\": \"오늘 코스피 종가 지수가 10포인트 올랐다는 뉴스를 봤어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "코스피 종가 지수 8476.48pt",
-   "one_liner": "코스피 종가 지수가 4214.17pt에서 8476.48pt로 바뀌었어요",
-   "why_now": null,
+   "title": "코스피, 상반기 101% 급등",
+   "one_liner": "코스피 지수가 상반기에만 101.14% 올라 8476.48까지 올랐어요.",
+   "why_now": "주식 시장이 크게 오르면 투자자들의 자산이 늘어나고 경제 전반에 활력이 생길 수 있어요.",
    "details": [
-    "코스피 종가 지수: 8476.48pt (직전 4214.17pt)",
-    "코스피 상반기 상승률: 101.14%"
+    "코스피 지수가 2026년 상반기에 101.14% 상승했어요.",
+    "상반기 마지막 날인 6월 30일 종가는 8476.48포인트예요.",
+    "이전 종가는 4214.17포인트였어요.",
+    "이는 역대 가장 뜨거웠던 상반기 상승률이에요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "주식 시장이 계속 오르면 소비가 늘어나 경제 성장에 도움이 될 수 있어요!",
+    "하지만 급격한 상승 뒤에는 큰 폭의 조정이 올 수도 있어 주의가 필요해요!"
+   ],
+   "visual_type": "kospi_close"
   },
   "fact_hash": "fee6e4143a6ea5320ed2debfba6d495e2c9876bc"
  },
@@ -134,14 +137,14 @@
  ],
  "related": [
   {
-   "id": "c72702defa15d1f1f",
-   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
+   "id": "c2f82920800c96145",
+   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c2f82920800c96145",
-   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
+   "id": "c72702defa15d1f1f",
+   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
    "category": "MARKET",
    "shared": []
   },

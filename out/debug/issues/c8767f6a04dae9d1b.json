@@ -71,7 +71,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-18T03:42:16.700870+00:00",
+  "created_at": "2026-07-18T09:05:25.954475+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -82,19 +82,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"미국 주요 은행 예금 금리\",\n\"one_liner\": \"미국 주요 은행들의 예금 금리가 공개되었어요.\",\n\"why_now\": \"예금 금리는 돈을 맡겼을 때 받을 수 있는 이자를 결정하는 중요한 지표예요.\",\n\"impact_line\": \"어떤 은행에 돈을 맡길지 선택하는 데 참고할 수 있어요.\",\n\"details\": [\n\"체이스 은행, 뱅크 오브 아메리카, 씨티은행 등 주요 은행들의 예금 금리가 나왔어요.\",\n\"이 정보는 2026년 7월 17일 기준이에요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [],\n\"glossary\": [\n{\n\"term\": \"CD rates\",\n\"easy\": \"정해진 기간 동안 돈을 맡기면 약속된 이자를 받을 수 있는 예금 상품의 금리예요.\",\n\"example\": \"CD 금리가 오르면 예금해서 받는 이자도 늘어나요.\"\n}\n],\n\"impact_line\": \"어떤 은행에 돈을 맡길지 선택하는 데 참고할 수 있어요.\"\n}",
+  "raw_response": "{\n\"title\": \"미국 주요 은행 예금 금리\",\n\"one_liner\": \"미국 주요 은행들의 예금 금리가 공개되었어요.\",\n\"why_now\": \"예금 금리는 돈을 맡기면 얼마를 받을 수 있는지 알려주기 때문에 중요해요.\",\n\"impact_line\": \"어떤 은행에 돈을 맡길지 선택하는 데 도움이 될 수 있어요.\",\n\"details\": [\n\"체이스 은행, 뱅크 오브 아메리카, 씨티 은행 등 주요 은행들의 예금 금리가 2026년 7월 17일에 공개되었어요.\",\n\"이 정보는 예금 금리 비교에 도움을 줄 수 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [],\n\"glossary\": [\n{\n\"term\": \"CD rates\",\n\"easy\": \"은행에 일정 기간 돈을 맡기고 약속된 이자를 받는 예금 상품의 금리예요.\",\n\"example\": \"CD 금리가 높으면 돈을 맡기고 더 많은 이자를 받을 수 있어요.\"\n}\n],\n\"impact_line\": \"어떤 은행에 돈을 맡길지 선택하는 데 도움이 될 수 있어요.\"\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
      "details 3문장 미만",
-     "effects 1~2문장 아님"
+     "effects[1] 느낌표 종결 아님"
     ]
    },
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
     ]
    }
   ],
@@ -113,20 +114,20 @@
   "fact_hash": "921dc727f284b97562a0f677c5d68ecb9771fdff"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-18T03:42:16.700808+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}]}",
+  "at": "2026-07-18T09:05:25.954358+00:00"
  },
  "glossary": [],
  "related": [
   {
-   "id": "c72702defa15d1f1f",
-   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
+   "id": "c2f82920800c96145",
+   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c2f82920800c96145",
-   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
+   "id": "c72702defa15d1f1f",
+   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
    "category": "MARKET",
    "shared": []
   },

@@ -73,8 +73,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-18T03:42:53.597490+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-18T09:05:29.935377+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -85,26 +85,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"반도체 주가 상승\",\n   \"one_liner\": \"삼성전자와 SK하이닉스의 주가가 올랐어요\",\n   \"why_now\": \"반도체 수요가 많아지면 관련 기업의 주가가 오르는 게 보통이에요\",\n   \"impact_line\": \"전자제품 가격이 오를 수 있어요\",\n   \"details\": [\n      \"삼성전자와 SK하이닉스의 주가가 상승했어요\",\n      \"반도체 수요 증가가 주가 상승의 이유일 수 있어요\",\n      \"한국은행은 관련 ETF의 위험을 경고했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"반도체 주가가 오르면 관련 주식을 가지고 있는 사람의 자산이 증가할 수 있어요!\",\n      \"전자제품의 가격이 오르면 소비자가 부담이 늘 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"ETF\",\n         \"easy\": \"여러 주식이나 자산을 하나로 묶은 투자 상품이에요\",\n         \"example\": \"ETF를 사면 여러 주식의 가치가 합쳐진 투자 상품을 한꺼번에 살 수 있어요\"\n      },\n      {\n         \"term\": \"HBM\",\n         \"easy\": \"고성능 컴퓨터에 쓰이는 반도체 종류예요\",\n         \"example\": \"고성능 컴퓨터나 서버에 HBM이 많이 쓰여요\"\n      }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Bank of Korea warns…",
-   "one_liner": "Bank of Korea warns Samsung , SK Hynix leveraged…",
-   "why_now": null,
+   "title": "반도체 주가 상승",
+   "one_liner": "삼성전자와 SK하이닉스의 주가가 올랐어요",
+   "why_now": "반도체 수요가 많아지면 관련 기업의 주가가 오르는 게 보통이에요",
    "details": [
-    "Bank of Korea warns Samsung , SK Hynix leveraged ETFs risk volatility",
-    "삼성전자·SK하이닉스 신고가 행진…반도체가 이끈 코스피 강세",
-    "SK하이닉스, 내년 HBM 공급 물량 사실상 완판"
+    "삼성전자와 SK하이닉스의 주가가 상승했어요",
+    "반도체 수요 증가가 주가 상승의 이유일 수 있어요",
+    "한국은행은 관련 ETF의 위험을 경고했어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "반도체 주가가 오르면 관련 주식을 가지고 있는 사람의 자산이 증가할 수 있어요!",
+    "전자제품의 가격이 오르면 소비자가 부담이 늘 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "6da78807e7b7ddc6ae79d160a3ef7bd69946e2aa"
  },
@@ -114,14 +115,9 @@
  },
  "glossary": [
   {
-   "term": "코스피",
-   "easy": "한국 대표 기업들의 주가를 묶어 보여주는 값이에요.",
-   "example": "오르면 큰 기업 주가가 대체로 올랐다는 뜻이에요."
-  },
-  {
-   "term": "HBM",
-   "easy": "AI에 쓰이는 아주 빠른 고급 메모리 반도체예요.",
-   "example": "삼성전자·SK하이닉스가 주력으로 만들어요."
+   "term": "한국은행",
+   "easy": "우리나라 돈을 관리하는 중앙은행이에요.",
+   "example": "한국 기준금리를 여기서 정해요."
   }
  ],
  "related": [
@@ -134,14 +130,14 @@
    ]
   },
   {
-   "id": "c72702defa15d1f1f",
-   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
+   "id": "c2f82920800c96145",
+   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c2f82920800c96145",
-   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
+   "id": "c72702defa15d1f1f",
+   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
    "category": "MARKET",
    "shared": []
   },

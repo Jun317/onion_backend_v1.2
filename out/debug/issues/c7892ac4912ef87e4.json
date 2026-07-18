@@ -816,8 +816,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-18T03:45:49.092340+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-18T09:07:00.970421+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -830,26 +830,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"AI 주식 하락, 유가 상승\",\n  \"one_liner\": \"AI 관련 주식 가격은 계속 떨어지고, 국제 유가는 계속 오르고 있어요.\",\n  \"why_now\": \"AI 기술 발전 기대감이 줄어들고, 전쟁 등으로 원유 공급이 불안정해졌기 때문이에요.\",\n  \"impact_line\": \"AI 관련 기업 주식을 가진 분들의 손실이 커질 수 있어요.\",\n  \"details\": [\n    \"AI 관련 주식 시장의 하락세가 깊어지고 있어요.\",\n    \"국제 유가는 계속해서 오르고 있어요.\",\n    \"미국 주식 시장은 최고치에 근접한 상태예요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"AI 관련 기업들의 투자나 사업 확장 계획이 위축될 수 있어요!\",\n    \"국제 유가 상승은 운송비, 물가 상승으로 이어질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AI 주식\",\n      \"easy\": \"인공지능 기술과 관련된 사업을 하는 회사들의 주식을 말해요.\",\n      \"example\": \"AI 관련 주식에 투자하면 큰 수익을 얻을 수도 있지만, 위험도 따를 수 있어요.\"\n    },\n    {\n      \"term\": \"국제 유가\",\n      \"easy\": \"전 세계적으로 거래되는 석유 가격을 말해요.\",\n      \"example\": \"국제 유가가 오르면 휘발유 가격도 보통 함께 오르게 돼요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "AI stocks keep…",
-   "one_liner": "AI stocks keep falling , while oil prices keep…",
-   "why_now": null,
+   "title": "AI 주식 하락, 유가 상승",
+   "one_liner": "AI 관련 주식 가격은 계속 떨어지고, 국제 유가는 계속 오르고 있어요.",
+   "why_now": "AI 기술 발전 기대감이 줄어들고, 전쟁 등으로 원유 공급이 불안정해졌기 때문이에요.",
    "details": [
-    "AI stocks keep falling , while oil prices keep climbing",
-    "Global sell - off for AI stocks deepens , while oil prices keep climbing",
-    "AI stocks keep falling , while oil prices keep climbing - Boston News , Weather , Sports"
+    "AI 관련 주식 시장의 하락세가 깊어지고 있어요.",
+    "국제 유가는 계속해서 오르고 있어요.",
+    "미국 주식 시장은 최고치에 근접한 상태예요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "AI 관련 기업들의 투자나 사업 확장 계획이 위축될 수 있어요!",
+    "국제 유가 상승은 운송비, 물가 상승으로 이어질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "4991757812b58ca83088ca5b6ad320a5f4dcc492"
  },
@@ -860,14 +861,14 @@
  "glossary": [],
  "related": [
   {
-   "id": "c72702defa15d1f1f",
-   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
+   "id": "c2f82920800c96145",
+   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c2f82920800c96145",
-   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
+   "id": "c72702defa15d1f1f",
+   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
    "category": "MARKET",
    "shared": []
   },

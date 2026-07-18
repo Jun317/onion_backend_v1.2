@@ -71,7 +71,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-18T03:48:35.315043+00:00",
+  "created_at": "2026-07-18T09:11:04.735502+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -82,8 +82,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"퀄컴 주식 거래\",\n  \"one_liner\": \"여러 기관이 퀄컴 주식을 사고팔았어요.\",\n  \"why_now\": \"주요 기관의 주식 거래는 해당 기업의 미래 전망에 대한 신호로 해석될 수 있어요.\",\n  \"impact_line\": \"퀄컴 주가 변동에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"패러다임 LLC는 퀄컴 주식 55,867주를 팔았어요.\",\n    \"LGT 펀드 매니지먼트는 퀄컴 주식 22,663주를 샀어요.\",\n    \"세쿼이아 파이낸셜 어드바이저스는 퀄컴 주식 3,663주를 팔았어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"기관들의 매수세가 퀄컴 주가를 끌어올릴 수 있어요!\",\n    \"기관들의 매도세가 퀄컴 주가를 끌어내릴 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"퀄컴\",\n      \"easy\": \"미국의 통신 칩 제조 기업이에요.\",\n      \"example\": \"퀄컴은 스마트폰에 들어가는 핵심 부품을 만들어요.\"\n    }\n  ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [3663.0, 22663.0, 55867.0]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -106,17 +112,11 @@
   "fact_hash": "b9973497afc08baadf4706c82058f1adf5b56880"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-18T03:48:35.314986+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [3663.0, 22663.0, 55867.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-18T09:11:04.735431+00:00"
  },
  "glossary": [],
  "related": [
-  {
-   "id": "c72702defa15d1f1f",
-   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
-   "category": "MARKET",
-   "shared": []
-  },
   {
    "id": "c2f82920800c96145",
    "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
@@ -124,6 +124,12 @@
    "shared": [
     "QCOM"
    ]
+  },
+  {
+   "id": "c72702defa15d1f1f",
+   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
+   "category": "MARKET",
+   "shared": []
   },
   {
    "id": "c499660e9dfd764df",
