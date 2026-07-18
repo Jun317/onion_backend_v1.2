@@ -2,16 +2,26 @@
  "id": "c5545b3b48fe71332",
  "title": "Trump threatens to tariff Canada over  filthy air  from wildfire",
  "category": "POLICY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 75,
+ "seen_sources": 2,
+ "importance": 80,
  "created_at": "2026-07-18T19:38:21.281519+00:00",
- "last_update": "2026-07-18T21:10:59.876346+00:00",
+ "last_update": "2026-07-18T22:12:15.319091+00:00",
  "members": [
+  {
+   "id": "e8a417de85c9af8109b452a30ac5b5018b72326f",
+   "source": "shanghainews.net",
+   "tier": "wire",
+   "url": "http://www.shanghainews.net/news/279192058/us-unveils-brazil-tariffs-under-new-trade-strategy",
+   "title": "US unveils Brazil tariffs under new trade strategy",
+   "published_at": "2026-07-18T21:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.859
+  },
   {
    "id": "6609dc1f1732384f8b06186522de34ef6548e6b4",
    "source": "nugget.ca",
@@ -20,7 +30,7 @@
    "title": "Trump threatens to tariff Canada over  filthy air  from wildfire",
    "published_at": "2026-07-18T18:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9984
+   "sim_to_centroid": 0.9961
   },
   {
    "id": "33094eaa14b9bc41bcdb34d4c9ee22ec2a16431a",
@@ -30,7 +40,7 @@
    "title": "Trump threatens to tariff Canada over  filthy air  from wildfire",
    "published_at": "2026-07-18T18:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9984
+   "sim_to_centroid": 0.9961
   },
   {
    "id": "f17b44440ad34f64408eb92b04e69641dc713445",
@@ -40,11 +50,18 @@
    "title": "Sen . Ossoff fuels reelection campaign with attacks on Trump",
    "published_at": "2026-07-18T18:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.8633
+   "sim_to_centroid": 0.868
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "US unveils Brazil tariffs under new trade strategy",
+   "source": "shanghainews.net",
+   "url": "http://www.shanghainews.net/news/279192058/us-unveils-brazil-tariffs-under-new-trade-strategy",
+   "at": "2026-07-18T21:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Trump threatens to tariff Canada over  filthy air  from wildfire",
@@ -67,8 +84,50 @@
    "at": "2026-07-18T18:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-18T22:12:18.345795+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "US unveils Brazil tariffs under new trade strategy",
+    "Trump threatens to tariff Canada over  filthy air  from wildfire"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미국, 수입품에 관세 부과\",\n  \"one_liner\": \"미국이 수입품에 관세를 부과하는 새로운 무역 전략을 발표했어요.\",\n  \"why_now\": \"관세는 물건 가격을 올려 소비자의 부담을 늘릴 수 있어요.\",\n  \"impact_line\": \"해외에서 수입되는 물건 가격이 오를 수 있어요.\",\n  \"details\": [\n    \"미국이 새로운 무역 전략의 일환으로 브라질산 수입품에 관세를 부과했어요.\",\n    \"트럼프 전 대통령은 캐나다 산불 연기 문제로 캐나다산 수입품에도 관세를 매기겠다고 위협했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"수입 물가가 올라 장바구니 물가가 비싸질 수 있어요!\",\n    \"미국과 다른 나라 간의 무역 관계가 어려워질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 세금이에요.\",\n      \"example\": \"수입 맥주에 관세가 붙어 가격이 올랐어요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US unveils Brazil…",
+   "one_liner": "US unveils Brazil tariffs under new trade strategy",
+   "why_now": null,
+   "details": [
+    "US unveils Brazil tariffs under new trade strategy",
+    "Trump threatens to tariff Canada over  filthy air  from wildfire"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "6126d00a551c61dd47fe4afafc385946a4ffc611"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-07-18T22:12:18.345647+00:00"
+ },
  "glossary": [],
  "related": [
   {
