@@ -1,0 +1,32 @@
+# ============================================================================
+# onion MVP 콘텐츠 패키지 — 메타 (카테고리 · 스코어보드 · 출처)
+# 원본: "onion MVP 콘텐츠 데이터 패키지 v1.0" (기준일 2026.7.17)
+# scoreboard 는 저장 전용 — 프런트 미렌더 (사용자 결정)
+# ============================================================================
+
+base_date: "2026-07-17"
+attribution: "onion MVP 콘텐츠 패키지 (기준일 2026.7.17) · 출처: 한국은행·통계청·한국거래소·부동산원·최저임금위원회·DART, 연준·미 노동통계국·USTR·EIA 및 국내외 언론 보도"
+
+categories:
+  - { code: RATES,    label: 금리,        emoji: "💰", description: "한국은행·연준·일본은행의 금리 결정과 그 이유" }
+  - { code: STOCKS,   label: 주식,        emoji: "📈", description: "코스피·코스닥·미국 증시의 큰 사건" }
+  - { code: CRYPTO,   label: 코인,        emoji: "🪙", description: "비트코인 중심의 가상자산 시장" }
+  - { code: HOUSING,  label: 부동산,      emoji: "🏠", description: "집값·전세·대출 규제·부동산 세금" }
+  - { code: AI_CHIPS, label: AI·반도체,   emoji: "🤖", description: "엔비디아·삼성전자·SK하이닉스와 AI 붐" }
+  - { code: PRICES,   label: 물가·내 지갑, emoji: "🛒", description: "물가·최저임금·지원금·예금 제도 등 생활 돈 문제" }
+  - { code: FX_WORLD, label: 환율·세계,   emoji: "🌍", description: "환율, 전쟁, 관세, 유가 — 바깥에서 오는 충격" }
+
+scoreboard:
+  - { name: 코스피,          value: "7,284.41",            compare: "사상 최고 9,385.59 · 7.13 종가 6,806", as_of: "7.15 종가",  status_line: "폭락 뒤 반등 중이에요. 아직 고점보다 22% 낮아요" }
+  - { name: 원·달러 환율,     value: "1,482원",             compare: "52주 범위 1,365~1,562원",             as_of: "7.14 마감",  status_line: "1,500원 문턱에서 줄다리기 중이에요" }
+  - { name: 한국 기준금리,    value: "연 2.75%",            compare: "7.16에 0.25%p 인상",                  as_of: "7.16",      status_line: "3년 6개월 만에 올렸어요. 더 올릴 수 있대요" }
+  - { name: 미국 기준금리,    value: "연 3.50~3.75%",       compare: "연말 전망 중간값 3.8%",               as_of: "6.17",      status_line: "동결 중인데, 올해 안에 올릴 수도 있대요" }
+  - { name: 국제유가(WTI),   value: "약 80달러",           compare: "3.9 최고 111달러 · 6월 저점 65달러 안팎", as_of: "7.15 안팎", status_line: "중동 충돌이 다시 격해지며 오르는 중이에요" }
+  - { name: 비트코인,        value: "약 6.1만 달러",       compare: "사상 최고 12.6만 달러(25.10.6)",       as_of: "7월 중순",  status_line: "고점의 절반 수준이에요. 약세장이에요" }
+  - { name: 금 / 은,         value: "4,033 / 58.5달러",    compare: "금 사상 최고 4,381달러(25.10.20)",     as_of: "7월 중순",  status_line: "전쟁 불안으로 다시 들썩이고 있어요" }
+  - { name: 삼성전자,        value: "254,000원",           compare: "7.13 하루 -10.7% · 1년 전 7만 원대",   as_of: "7.13 종가", status_line: "1년 새 3배 넘게 올랐다가 급락을 맞았어요" }
+  - { name: SK하이닉스,      value: "1,845,000원",         compare: "6.18 장중 270만 원 · ADR 193.92달러(7.14)", as_of: "7.13 종가", status_line: "미국 상장 직후 롤러코스터 중이에요" }
+  - { name: 엔비디아,        value: "207.40달러",          compare: "5.14 최고 235.47달러(시총 5.73조 달러)", as_of: "7.16 종가", status_line: "고점 대비 조정 중이에요. PER은 5년 내 최저예요" }
+  - { name: 해외 지수,       value: "S&P500 7,559 · 나스닥100 29,792 · 닛케이 68,755", compare: "연초 대비 +9.6% / +16% / +39%(작년)", as_of: "7월 중순", status_line: "미국·일본도 올랐지만 한국이 제일 극적이에요" }
+  - { name: 한국 물가,       value: "6월 3.2%",            compare: "목표 2.0% · 생활물가 3.4%",            as_of: "7.2 발표",  status_line: "30개월 만에 가장 많이 올랐어요" }
+  - { name: 미국 물가,       value: "6월 3.5%",            compare: "5월 4.2%에서 둔화",                    as_of: "7.14 발표", status_line: "유가가 잠시 빠지며 한숨 돌렸어요" }

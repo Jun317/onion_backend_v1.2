@@ -1,0 +1,1262 @@
+# ============================================================================
+# onion MVP 이슈 57 — onion식 UX라이팅 + 편집 가공 적용본
+# 가공 규칙: ① 왜중요(직장인/대학생) → effect_rows(방향 칩+본문+근거)로 정보별 재구성
+#           ② impact_line = 일반 대중 생활 영향 한 줄  ③ tips = 알아두면 좋아요(중립화)
+#           ④ 어려운 제목은 간결한 구어체로 수정
+# period_tier: weekly(7.10~) / monthly(6.17~) / yearly(25.7.17~)
+# ============================================================================
+
+issues:
+  # ───────── 💰 금리 (RATES) ─────────
+  - id: i-r1
+    category: RATES
+    period_tier: yearly
+    date_label: "2025.9.17 (미국 현지 · 한국시간 9.18 새벽)"
+    date_label_short: "25.9.17"
+    event_at: "2025-09-18T03:00:00+09:00"
+    title: "미국이 9개월 만에 다시 금리를 내렸어요"
+    key_stats:
+      - { value: "-0.25%p", label: "인하 폭", direction: down }
+      - { value: "연 4.00~4.25%", label: "미국 기준금리", direction: flat }
+    visual_ids: [C1, C2]
+    steady_ids: [st-rate-uturn]
+    details:
+      - "미국 중앙은행이 9개월 만에 금리를 내렸어요."
+      - "일자리가 생각보다 덜 늘어서, 경기를 받쳐 주려는 결정이었어요."
+      - "이후 10월·12월까지 세 번 연속으로 내렸어요."
+    effect_rows:
+      - { label: "세계 금리 ↓", direction: down, text: "미국 금리는 전 세계 대출·예금 금리의 출발점이라, 내 금리도 결국 따라가요.", basis: "근거 · 연준 기준금리 연 4.00~4.25%로 인하" }
+      - { label: "자산시장 ↑", direction: up, text: "금리가 내리면 시장에 돈이 풀려서 주식·코인이 오르기 쉬워요.", basis: "근거 · 2025년 하반기 랠리의 배경 중 하나가 이 인하예요" }
+    impact_line: "대출 이자 부담이 줄고, 예금 이자도 함께 낮아지는 흐름이 시작됐어요"
+    tips:
+      - "이때 시작된 '금리 내리는 시대'는 2025년 12월에 끝났어요. 지금은 반대로 가고 있어요."
+      - "2025년 하반기 주식이 크게 오른 배경 중 하나가 이 금리 인하예요."
+
+  - id: i-r2
+    category: RATES
+    period_tier: yearly
+    date_label: "2025.12.10 (미국 현지)"
+    date_label_short: "25.12.10"
+    event_at: "2025-12-11T04:00:00+09:00"
+    title: "미국, 석 달 새 세 번째 인하 — 이게 마지막이었어요"
+    key_stats:
+      - { value: "연 3.50~3.75%", label: "미국 기준금리", direction: flat }
+      - { value: "-0.75%p", label: "9~12월 누적 인하", direction: down }
+    visual_ids: [C1]
+    steady_ids: [st-rate-uturn]
+    details:
+      - "9월·10월에 이어 12월에도 0.25%p를 내렸어요."
+      - "하지만 2026년 들어 물가가 다시 오르면서, 이 인하가 마지막이 됐어요."
+    effect_rows:
+      - { label: "달러 자산", direction: info, text: "달러 예금·미국 채권 수익률의 방향이 여기서 정해졌어요.", basis: "근거 · 이후 2026년 1·3·4·6월 네 번 연속 동결" }
+      - { label: "기대 반전", direction: down, text: "\"이제 더 내리겠지\"라는 기대는 이후 틀렸다는 게 드러나요.", basis: "근거 · 2026년 물가 반등으로 인하 사이클 종료" }
+    impact_line: "금리 방향이 바뀌는 순간을 놓치면 예금·대출 타이밍을 놓쳐요"
+    tips:
+      - "이후 2026년 1·3·4·6월 네 번 연속 동결이에요. 방향 전환 신호를 챙겨 보세요."
+      - "'금리 인하 = 무조건 계속'이 아니라는 걸 보여 준 사례예요."
+
+  - id: i-r3
+    category: RATES
+    period_tier: yearly
+    date_label: "2025.12.19"
+    date_label_short: "25.12.19"
+    event_at: "2025-12-19T12:00:00+09:00"
+    title: "일본도 금리를 올렸어요 — 연 0.75%"
+    key_stats:
+      - { value: "+0.25%p", label: "인상 폭", direction: up }
+      - { value: "연 0.75%", label: "일본 기준금리", direction: flat }
+    visual_ids: [C1]
+    details:
+      - "오랫동안 초저금리였던 일본이 금리를 연 0.75%로 올렸어요."
+      - "물가와 임금이 함께 오르자 \"정상 금리\"로 돌아가는 중이에요."
+    effect_rows:
+      - { label: "엔화 ↑", direction: up, text: "엔화 가치·일본 주식·엔테크(엔화 투자)에 직접 영향을 줘요.", basis: "근거 · 금리가 오르면 그 나라 통화 가치도 오르는 게 보통이에요" }
+      - { label: "세계 증시 변동", direction: info, text: "일본에 있던 투자금이 돌아가며 세계 증시가 흔들릴 수 있어요.", basis: "근거 · 저금리 엔화로 세계에 투자하던 자금의 되돌림" }
+    impact_line: "일본 여행 환전은 엔화가 더 비싸지기 전 타이밍 계산이 필요해요"
+    tips:
+      - "일본 주가(닛케이)는 그래도 작년에 39% 올라 사상 최고 행진을 했어요."
+
+  - id: i-r4
+    category: RATES
+    period_tier: yearly
+    date_label: "2026.5월 (취임)"
+    date_label_short: "26.5월"
+    event_at: "2026-05-15T09:00:00+09:00"
+    title: "미국 중앙은행 새 수장 워시 — 예상과 반대로 가요"
+    key_stats:
+      - { value: "4년", label: "연준 의장 임기", direction: flat }
+      - { value: "0번", label: "취임 후 금리 인하 횟수", direction: flat }
+    visual_ids: [C1]
+    steady_ids: [st-rate-uturn]
+    details:
+      - "트럼프 대통령이 파월 의장 후임으로 케빈 워시를 앉혔어요."
+      - "금리를 내려 주길 기대하고 뽑았지만, 워시는 오히려 \"물가부터 잡겠다\"며 인상 카드를 꺼냈어요."
+    effect_rows:
+      - { label: "시장 변동 ↑", direction: up, text: "세계에서 가장 힘센 경제 자리라 발언 하나에 시장이 움직여요.", basis: "근거 · \"앞으로의 금리 방향을 미리 알려 주지 않겠다\"고 선언" }
+      - { label: "금리 원칙", direction: info, text: "\"누가 임명했는지\"보다 \"물가가 어떤지\"가 금리를 정한다는 걸 보여 줘요.", basis: "근거 · 임명권자 기대와 반대로 인상 노선 선택" }
+    impact_line: "미국발 금리 뉴스의 변동성이 커져 대출·환전 계획을 더 자주 점검해야 해요"
+    tips:
+      - "워시는 성명서를 절반으로 줄이고 기자회견 생략까지 시사한, 스타일이 완전히 다른 의장이에요."
+
+  - id: i-r5
+    category: RATES
+    period_tier: yearly
+    date_label: "2026.5월 (취임 · 첫 회의)"
+    date_label_short: "26.5월"
+    event_at: "2026-05-20T09:00:00+09:00"
+    title: "한국은행 새 총재 신현송 — 인상을 예고했어요"
+    key_stats:
+      - { value: "8연속", label: "당시까지 금리 동결", direction: flat }
+      - { value: "2번째 회의", label: "취임 후 인상까지 걸린 횟수", direction: flat }
+    visual_ids: [C1]
+    steady_ids: [st-rate-uturn]
+    details:
+      - "국제결제은행(BIS) 출신 신현송 총재가 한국은행에 취임했어요."
+      - "첫 회의에선 동결했지만 \"물가·성장·환율·부동산 어디를 보나 갈 길이 명확하다\"며 인상을 예고했어요."
+    effect_rows:
+      - { label: "대출금리 ↑", direction: up, text: "이 발언이 두 달 뒤 실제 금리 인상으로 이어져 대출금리를 밀어 올렸어요.", basis: "근거 · 예고대로 7.16 기준금리 2.75%로 인상" }
+      - { label: "예고 읽기", direction: info, text: "중앙은행 총재의 말은 '예고편'이라, 미리 읽으면 시장을 앞서 볼 수 있어요.", basis: "근거 · 시장 전문가 10명 전원이 인상을 맞혔어요" }
+    impact_line: "총재의 예고 발언만 챙겨도 대출·예금 타이밍을 앞서 잡을 수 있어요"
+    tips:
+      - "총재 발언 → 실제 결정으로 이어진 패턴을 기억해 두세요. '깜짝'이 아니라 '예고된' 인상이었어요."
+
+  - id: i-r6
+    category: RATES
+    period_tier: monthly
+    date_label: "2026.6.17 (미국 현지)"
+    date_label_short: "6.17"
+    event_at: "2026-06-18T03:00:00+09:00"
+    title: "워시의 첫 회의: 동결했지만 \"올해 안에 올릴 수도\""
+    key_stats:
+      - { value: "연 3.50~3.75%", label: "동결된 미국 금리", direction: flat }
+      - { value: "9명 vs 8명", label: "연내 인상 vs 동결 (위원 전망)", direction: up }
+    visual_ids: [C1, C2]
+    steady_ids: [st-rate-uturn]
+    details:
+      - "새 의장의 첫 회의에서 금리는 그대로 뒀어요."
+      - "대신 올해 물가 전망을 2.7%에서 3.6%로 크게 올리며 \"내릴 때가 아니다\"라는 신호를 줬어요."
+      - "위원 18명 중 9명이 \"올해 안에 인상\"을 예상했어요."
+    effect_rows:
+      - { label: "한국 금리 ↑", direction: up, text: "미국이 올리면 한국도 더 올릴 가능성이 커져요. 대출 금리 상승 신호예요.", basis: "근거 · 점도표 연말 중간값 3.8%로 현 금리보다 높음" }
+      - { label: "주식·코인 ↓", direction: down, text: "이날 미국 국채 금리가 급등하고 주가가 1% 안팎 빠졌어요. 코인도 약해졌어요.", basis: "근거 · 물가 전망 2.7% → 3.6% 상향" }
+    impact_line: "하반기 대출 금리가 더 오를 수 있다는 첫 공식 신호예요"
+    tips:
+      - "다음 회의는 7.28~29예요. 여기서 실제로 올리는지가 하반기 최대 관전 포인트예요."
+      - "'점도표'는 위원들의 금리 전망을 점으로 찍은 표예요. 연말 중간값이 3.8%로 지금보다 높아요."
+
+  - id: i-r7
+    category: RATES
+    period_tier: monthly
+    date_label: "2026.7.14 (미국 현지)"
+    date_label_short: "7.14"
+    event_at: "2026-07-15T03:00:00+09:00"
+    title: "워시, 의회에서도 \"금리 올릴 수 있다\" 재확인"
+    key_stats:
+      - { value: "연 3.8%", label: "연말 금리 전망 중간값(점도표)", direction: up }
+      - { value: "3.5%", label: "같은 날 나온 6월 미국 물가", direction: down }
+    visual_ids: [C1, C2]
+    steady_ids: [st-rate-uturn]
+    details:
+      - "워시 의장이 미국 하원에서 물가를 잡겠다는 의지를 다시 밝혔어요."
+      - "그런데 같은 날 6월 물가가 예상보다 낮게(3.5%) 나오면서, 인상 전망은 오히려 살짝 후퇴했어요."
+    effect_rows:
+      - { label: "환율·금리 변동", direction: info, text: "미국 인상이 현실이 되면 환율·대출금리가 또 흔들려요.", basis: "근거 · 한국은행이 이 발언을 이틀 뒤 인상 결정의 근거로 언급" }
+      - { label: "지표 우선", direction: info, text: "발언(매파)과 실제 지표(물가 둔화)가 엇갈리면 시장은 지표를 더 믿는 편이에요.", basis: "근거 · 발언 당일 인상 기대는 오히려 후퇴" }
+    impact_line: "미국의 말 한마디가 이틀 뒤 한국 금리 결정까지 이어졌어요"
+    tips:
+      - "중앙은행 발언과 실제 지표가 엇갈리는 날은 시장이 크게 출렁여요. 하루 이틀 두고 보는 게 안전해요."
+
+  - id: i-r8
+    category: RATES
+    period_tier: weekly
+    date_label: "2026.7.16(목) 오전 · 금통위"
+    date_label_short: "7.16(목)"
+    event_at: "2026-07-16T10:00:00+09:00"
+    title: "한국은행, 3년 6개월 만에 금리 인상 — 연 2.75%"
+    key_stats:
+      - { value: "+0.25%p", label: "2.50 → 2.75%", direction: up }
+      - { value: "7명 전원", label: "만장일치 찬성", direction: flat }
+    visual_ids: [C1, C2, T5]
+    steady_ids: [st-rate-uturn]
+    details:
+      - "한국은행이 2023년 1월 이후 처음으로 금리를 올렸어요."
+      - "이유는 세 가지예요 — 물가 3.2%, 환율 1,500원 안팎, 그리고 다시 뛰는 집값과 가계대출."
+      - "\"앞으로도 인상 기조를 이어가겠다\"고 해서, 한 번으로 끝이 아닐 수 있어요."
+    effect_rows:
+      - { label: "대출이자 ↑", direction: up, text: "주담대·신용대출 이자가 오르기 시작해요. 변동금리 대출자는 부담이 바로 커져요.", basis: "근거 · 기준금리 2.50 → 2.75%, 인상 기조 지속 예고" }
+      - { label: "예금이자 ↑", direction: up, text: "예·적금 금리는 좋아져요. 파킹통장·적금 갈아타기엔 오히려 기회예요.", basis: "근거 · 기준금리는 예금 금리의 출발점이에요" }
+      - { label: "주식·코인 부담", direction: down, text: "금리가 오르면 주식·코인에서 돈이 빠지기 쉬워요. 시장 분위기가 바뀌는 신호예요.", basis: "근거 · 금리 인상기 위험자산 약세는 반복된 패턴이에요" }
+    impact_line: "변동금리 대출이 있다면 이자 부담이 바로 커져요. 고정금리 전환·상환 계획을 점검할 때예요"
+    tips:
+      - "변동금리 대출자는 이자 시뮬레이션부터, 목돈이 있다면 오르는 예·적금 특판을 챙겨 보세요."
+      - "만장일치 + \"인상 기조 계속\" 발언이라 한 번으로 끝나지 않을 가능성이 커요. 8월 금통위를 지켜보세요."
+
+  # ───────── 📈 주식 (STOCKS) ─────────
+  - id: i-s1
+    category: STOCKS
+    period_tier: yearly
+    date_label: "2025.10.27(월) 장 마감"
+    date_label_short: "25.10.27"
+    event_at: "2025-10-27T15:30:00+09:00"
+    title: "코스피, 사상 처음 4,000을 넘었어요"
+    key_stats:
+      - { value: "4,042.83", label: "이날 종가", direction: up }
+      - { value: "약 +68%", label: "2025년 연초 대비", direction: up }
+    visual_ids: [C3]
+    steady_ids: [st-kospi-rally]
+    details:
+      - "코스피가 45년 역사상 처음으로 4,000선을 넘었어요."
+      - "반도체 호황과 외국인 매수가 지수를 끌어올렸어요."
+    effect_rows:
+      - { label: "연금·펀드 ↑", direction: up, text: "연금·펀드 수익률이 함께 뛰던 시기의 상징이에요.", basis: "근거 · 연초 대비 약 +68% 상승 구간" }
+      - { label: "통념 붕괴", direction: info, text: "\"한국 주식은 안 오른다\"는 오랜 통념이 깨진 날이에요.", basis: "근거 · 45년 만의 첫 4,000 돌파" }
+    impact_line: "국민연금부터 개인 펀드까지, 나라 전체의 투자 성적표가 좋아지던 출발점이에요"
+    tips:
+      - "이날은 시작에 불과했어요. 8개월 뒤 9,000까지 가요."
+      - "4,000을 넘는 데 45년, 다음 5,000은 딱 3개월 걸렸어요. 속도 자체가 이례적이었어요."
+
+  - id: i-s2
+    category: STOCKS
+    period_tier: yearly
+    date_label: "2026.1.27(화) 종가"
+    date_label_short: "26.1.27"
+    event_at: "2026-01-27T15:30:00+09:00"
+    title: "석 달 만에 5,000 돌파 — 랠리가 본격화됐어요"
+    key_stats:
+      - { value: "5,084.85", label: "1.27 종가", direction: up }
+      - { value: "3개월", label: "4,000 → 5,000 소요 기간", direction: flat }
+    visual_ids: [C3]
+    steady_ids: [st-kospi-rally]
+    details:
+      - "새해 첫 달에 코스피가 5,000선에 올라섰어요."
+      - "AI 반도체 실적 기대에 외국인 돈이 계속 들어왔어요."
+    effect_rows:
+      - { label: "투자심리 ↑", direction: up, text: "신규 투자자가 몰려들기 시작한 구간이에요. 국내 주식 비중 고민이 본격화됐어요.", basis: "근거 · 이후 2.25 6,000 → 5.6 7,000 → 5.26 8,000 연속 돌파" }
+      - { label: "뒤늦은 진입 위험", direction: down, text: "뒤늦게 탄 사람일수록 7월 폭락의 타격이 컸어요.", basis: "근거 · 6월 고점 뒤 3주 만에 -27% 급락" }
+    impact_line: "\"지금이라도 사야 하나\"라는 고민이 전국적으로 시작된 시점이에요"
+    tips:
+      - "\"지수 1,000포인트 단위 돌파\"가 한 달에 한 번꼴로 나온 해는 올해가 처음이에요."
+
+  - id: i-s3
+    category: STOCKS
+    period_tier: yearly
+    date_label: "2026.3월~4월 중순 (전쟁 쇼크 구간)"
+    date_label_short: "26.3~4월"
+    event_at: "2026-04-13T15:30:00+09:00"
+    title: "전쟁에 급락 — 그런데 두 달 만에 다 회복했어요"
+    key_stats:
+      - { value: "5,808", label: "4.13 종가 (급락 저점)", direction: down }
+      - { value: "6차례", label: "상반기 서킷브레이커", direction: flat }
+    visual_ids: [C3, T3, TL2]
+    steady_ids: [st-kospi-rally, st-us-iran-war]
+    details:
+      - "2월 말 이란 전쟁이 터지자 코스피가 6,000대에서 5,800대까지 밀렸어요."
+      - "환율 1,562원, 유가 111달러까지 겹친 최악의 구간이었어요."
+      - "4월 휴전 뒤 반도체 실적 기대로 다시 상승 궤도로 복귀했어요."
+    effect_rows:
+      - { label: "변동성 ↑", direction: up, text: "전쟁 같은 초대형 악재 때는 하루 ±5%가 일상이 돼요. 레버리지 상품은 특히 위험해요.", basis: "근거 · 이 구간에만 서킷브레이커 6차례 발동" }
+      - { label: "패턴 학습", direction: info, text: "\"악재 급락 → 회복\" 패턴을 실전으로 보여 준 구간이에요. 다만 항상 회복하는 건 아니에요.", basis: "근거 · 4월 휴전 뒤 두 달 만에 V자 회복" }
+    impact_line: "전쟁 뉴스에 판 사람과 버틴 사람의 수익률이 크게 갈렸어요"
+    tips:
+      - "이 구간 서킷브레이커가 몰리며 '역대 13번 중 7번이 올해'라는 기록이 만들어졌어요."
+
+  - id: i-s4
+    category: STOCKS
+    period_tier: yearly
+    date_label: "2026.5.26(화)"
+    date_label_short: "5.26"
+    event_at: "2026-05-26T15:30:00+09:00"
+    title: "한 달 새 7,000 → 8,000 — 광란의 5월 랠리"
+    key_stats:
+      - { value: "8,000 돌파", label: "5.6 7,000 이후 20일 만", direction: up }
+      - { value: "14.4조 원", label: "삼전·하이닉스 2배 레버리지 ETF 순자산", direction: up }
+    visual_ids: [C3]
+    steady_ids: [st-kospi-rally]
+    details:
+      - "4월의 전쟁 급락을 잊은 듯 5월 한 달에만 지수가 2,000포인트 가까이 뛰었어요."
+      - "삼성전자·SK하이닉스 하루 수익률을 2배로 따라가는 ETF까지 나오며 개인 돈이 쏟아져 들어왔어요."
+    effect_rows:
+      - { label: "과열 신호", direction: up, text: "레버리지 쏠림은 시장이 과열될 때 나오는 전형적 신호예요.", basis: "근거 · 5.27 출시 2배 ETF에 개인 자금 8.2조 원 유입" }
+      - { label: "낙폭 증폭 위험", direction: down, text: "레버리지 ETF는 시장이 꺾일 때 낙폭을 '증폭'시켜요.", basis: "근거 · 실제로 7.13 폭락을 키운 원인으로 지목됐어요" }
+    impact_line: "\"오르면 2배\"는 \"내리면 2배\"이기도 해요. 구조를 모르면 사지 않는 게 안전해요"
+    tips:
+      - "레버리지 상품은 하루 수익률의 2배를 따라가는 구조라, 길게 들고 있으면 지수와 다르게 움직여요."
+
+  - id: i-s5
+    category: STOCKS
+    period_tier: yearly
+    date_label: "2026.6월 둘째 주 (상장)"
+    date_label_short: "26.6월"
+    event_at: "2026-06-10T09:00:00+09:00"
+    title: "스페이스X, 역대 최대 IPO로 나스닥 상장"
+    key_stats:
+      - { value: "사상 최대", label: "IPO 공모 규모 기준", direction: up }
+      - { value: "-44억 달러", label: "같은 기간 비트코인 ETF 유출", direction: down }
+    visual_ids: [C5]
+    details:
+      - "일론 머스크의 스페이스X가 미국 증시에 상장했어요."
+      - "공모 자금을 마련하려고 비트코인을 파는 투자자가 많아, 코인 시장이 함께 출렁였어요."
+    effect_rows:
+      - { label: "유동성 쏠림", direction: info, text: "초대형 상장은 시장의 돈을 빨아들여요. 다른 자산이 약해지는 이유가 돼요.", basis: "근거 · 같은 기간 비트코인 ETF 13일 연속 유출" }
+      - { label: "투자 접근 ↑", direction: up, text: "관심 많던 '우주 주식'에 직접 투자할 길이 열렸어요.", basis: "근거 · 청약 경쟁이 치열했어요" }
+    impact_line: "대형 IPO 전후엔 내가 가진 다른 자산까지 출렁일 수 있어요"
+    tips:
+      - "IPO(기업공개)는 회사가 처음으로 주식을 시장에 파는 거예요. 큰 상장 일정은 캘린더에 담아 두세요."
+
+  - id: i-s6
+    category: STOCKS
+    period_tier: monthly
+    date_label: "2026.6.18(목) 12:53 첫 돌파"
+    date_label_short: "6.18"
+    event_at: "2026-06-18T15:30:00+09:00"
+    title: "코스피 사상 첫 9,000 — 올해만 +115%, G20 1위"
+    key_stats:
+      - { value: "9,063.84", label: "종가 (장중 9,106)", direction: up }
+      - { value: "7,413조 원", label: "코스피 시가총액 (역대 최대)", direction: up }
+    visual_ids: [C3]
+    steady_ids: [st-kospi-rally, st-us-iran-war]
+    details:
+      - "미국·이란 종전 합의 소식과 반도체 실적 기대가 겹치며 9,000선을 넘었어요."
+      - "외국인이 하루에 1조 3천억 원을 사들이며 지수를 밀어 올렸어요."
+      - "올해 상승률 115%로 G20 국가 중 압도적 1위였어요(2위 일본 39%)."
+    effect_rows:
+      - { label: "쏠림 경고", direction: down, text: "이날도 오른 종목은 110개 미만이었어요. 삼전·하이닉스 쏠림 장세라는 경고가 이미 나오고 있었어요.", basis: "근거 · 상승 종목 수 110개 미만" }
+      - { label: "고점 신호", direction: info, text: "최고점 뉴스가 나올 때가 가장 조심할 때예요. 이날이 사실상 축제의 정점이었어요.", basis: "근거 · 이후 9,385 고점 뒤 3주 만에 -27% 급락" }
+    impact_line: "수익 실현이냐 유지냐 — 자산 리밸런싱을 고민해야 했던 결정적 시점이에요"
+    tips:
+      - "지수 최고 기록과 '쏠림 경고'가 같은 날 공존했어요. 환호 기사 옆의 경고 기사를 같이 읽는 습관이 필요해요."
+
+  - id: i-s7
+    category: STOCKS
+    period_tier: monthly
+    date_label: "2026.7.10(금 · 미국 현지)"
+    date_label_short: "7.10"
+    event_at: "2026-07-10T23:00:00+09:00"
+    title: "SK하이닉스, 나스닥 입성 — 외국 기업 역대 최대 공모"
+    key_stats:
+      - { value: "265억 달러", label: "공모 규모 (약 40조 원)", direction: up }
+      - { value: "149달러", label: "ADR 공모가 (10주 = 국내 1주)", direction: flat }
+    visual_ids: [T6]
+    steady_ids: [st-ai-chips, st-kospi-rally]
+    details:
+      - "SK하이닉스가 미국 예탁증서(ADR)를 나스닥에 상장했어요."
+      - "조달한 약 40조 원은 용인·청주 반도체 공장에 투입해요."
+    effect_rows:
+      - { label: "재평가 ↑", direction: up, text: "국내 대표주가 미국 시장에서 재평가받는 사건이에요. 국내 주가에도 영향이 커요.", basis: "근거 · 상장 직후 미국 가격이 국내보다 51% 비싼 프리미엄 발생(7.14)" }
+      - { label: "자금 이동", direction: info, text: "미국 매수세가 국내로 옮겨 올 거란 기대와, 국내 자금이 미국으로 빠질 거란 걱정이 동시에 있어요.", basis: "근거 · 외국 기업 역대 최대 공모 규모" }
+    impact_line: "달러로, 미국 주식 앱에서 하이닉스를 살 수 있게 됐어요"
+    tips:
+      - "ADR은 외국 회사 주식을 미국에서 달러로 거래하게 만든 증서예요. 국내 주가와 가격이 다를 수 있어요."
+
+  - id: i-s8
+    category: STOCKS
+    period_tier: weekly
+    date_label: "2026.7.13(월) 13:28 서킷브레이커"
+    date_label_short: "7.13(월)"
+    event_at: "2026-07-13T15:30:00+09:00"
+    title: "코스피 하루 -8.95% 폭락 — 올해 7번째 서킷브레이커"
+    key_stats:
+      - { value: "6,806", label: "이날 종가 (고점 대비 -27%)", direction: down }
+      - { value: "-10.7% / -15.4%", label: "삼성전자 / SK하이닉스", direction: down }
+    visual_ids: [C3, T3]
+    steady_ids: [st-kospi-rally, st-ai-chips]
+    details:
+      - "반도체 거품 걱정에 외국인·기관이 한꺼번에 팔며 지수가 8.95% 무너졌어요."
+      - "거래를 20분 멈추는 서킷브레이커까지 발동됐어요. 올해만 7번째예요."
+      - "레버리지 ETF가 급락을 더 키웠다는 분석에, 당국은 신규 상장 중단·광고 금지 카드를 꺼냈어요."
+    effect_rows:
+      - { label: "자산 전반 ↓", direction: down, text: "연금·펀드까지 흔들리는 수준의 급락이에요. 포트폴리오 점검이 필요해요.", basis: "근거 · 하루 -8.95%, 고점 대비 -27%" }
+      - { label: "레버리지 손실 ↑", direction: down, text: "레버리지 ETF에 탔던 개인 투자자들의 손실이 특히 컸어요.", basis: "근거 · 당국이 신규 상장 중단·광고 금지 검토" }
+      - { label: "반등 변동성", direction: info, text: "폭락 이틀 뒤 +6.24%(7.15) 반등했어요. 패닉에 파는 게 늘 답은 아니지만, 변동성 자체가 위험 신호예요.", basis: "근거 · 7.13 -8.95% → 7.15 +6.24%" }
+    impact_line: "하루 -9% 다음 +6% — 이런 장에선 '몰빵'과 빚투가 계좌를 지울 수 있어요"
+    tips:
+      - "서킷브레이커는 하루 8% 이상 폭락 시 20분간 거래를 멈추는 장치예요. 역대 13번 중 7번이 올해였어요."
+
+  # ───────── 🪙 코인 (CRYPTO) ─────────
+  - id: i-b1
+    category: CRYPTO
+    period_tier: yearly
+    date_label: "2025.7.18(금 · 미국 현지)"
+    date_label_short: "25.7.18"
+    event_at: "2025-07-19T09:00:00+09:00"
+    title: "미국, 첫 코인 전용법에 서명했어요 (지니어스법)"
+    key_stats:
+      - { value: "1호", label: "미국의 코인 관련 연방법", direction: flat }
+      - { value: "1달러 = 1코인", label: "스테이블코인 가치 고정 원칙", direction: flat }
+    visual_ids: [C5]
+    details:
+      - "달러에 가치를 고정한 코인(스테이블코인)에 대한 규칙을 미국이 처음 법으로 만들었어요."
+      - "발행사는 진짜 달러·미국 국채를 쌓아 두고 발행해야 해요."
+    effect_rows:
+      - { label: "제도권 진입", direction: up, text: "코인이 '제도권 자산'으로 인정받기 시작한 출발점이에요. 기관 자금이 들어왔어요.", basis: "근거 · 미국 최초의 코인 관련 연방법" }
+      - { label: "규제 정체", direction: down, text: "이후 시장 규제법(CLARITY법)은 의회에서 멈춰, 2026년 약세의 원인 중 하나로 꼽혀요.", basis: "근거 · 후속 입법 지연" }
+    impact_line: "거래소에서 쓰는 USDT·USDC 같은 달러코인이 이 법의 대상이에요"
+    tips:
+      - "스테이블코인은 1달러에 가치를 고정한 코인이에요. 발행사가 진짜 달러를 쌓아 두는지가 핵심이에요."
+
+  - id: i-b2
+    category: CRYPTO
+    period_tier: yearly
+    date_label: "2025.10.6(월)"
+    date_label_short: "25.10.6"
+    event_at: "2025-10-06T12:00:00+09:00"
+    title: "비트코인 사상 최고가 — 12만 6,251달러"
+    key_stats:
+      - { value: "126,251달러", label: "역대 최고가", direction: up }
+      - { value: "약 1.7억 원", label: "당시 원화 환산 (1개 기준)", direction: flat }
+    visual_ids: [C5]
+    details:
+      - "미국 금리 인하와 ETF 자금 유입에 힘입어 비트코인이 역사상 가장 비싸졌어요."
+      - "하지만 이 가격이 지금까지도 깨지지 않는 꼭짓점이 됐어요."
+    effect_rows:
+      - { label: "위험선호 정점", direction: up, text: "위험자산 선호가 정점이었다는 기록이에요.", basis: "근거 · 금리 인하 + ETF 유입이 겹친 시기" }
+      - { label: "고점 매수 위험", direction: down, text: "이날 이후 지금까지 반 토막이에요. '최고가 매수'의 위험을 보여 줘요.", basis: "근거 · 이후 -51%까지 하락" }
+    impact_line: "\"전고점 돌파\" 뉴스만 보고 진입하면 물릴 확률이 높다는 걸 보여 준 해였어요"
+    tips:
+      - "고점 나흘 뒤 사상 최대 폭락이 왔어요. 최고가 경신 뉴스와 위험은 같이 커져요."
+
+  - id: i-b3
+    category: CRYPTO
+    period_tier: yearly
+    date_label: "2025.10.10~11"
+    date_label_short: "25.10.10"
+    event_at: "2025-10-10T12:00:00+09:00"
+    title: "사상 최대 강제청산 — 하루 새 190억 달러가 사라졌어요"
+    key_stats:
+      - { value: "190억 달러+", label: "청산 규모 (역대 최대)", direction: down }
+      - { value: "-14%", label: "이틀간 비트코인 낙폭", direction: down }
+    visual_ids: [C5]
+    details:
+      - "트럼프 대통령이 중국에 100% 관세를 위협하자 코인 시장이 순식간에 무너졌어요."
+      - "빚내서 상승에 걸었던 포지션 190억 달러어치가 하루 새 강제로 팔렸어요."
+    effect_rows:
+      - { label: "레버리지 위험", direction: down, text: "코인 시장의 레버리지가 얼마나 큰지 보여 준 사건이에요. 원금 이상을 잃을 수도 있어요.", basis: "근거 · 강제청산 190억 달러, 역대 최대" }
+      - { label: "24시간 변동", direction: info, text: "코인은 주식과 달리 24시간·무제한 변동이라 악재에 더 크게 반응해요.", basis: "근거 · 관세 위협 발언 직후 즉시 폭락" }
+    impact_line: "'청산'은 빚내서 산 포지션이 내 의지와 상관없이 강제로 팔리는 거예요"
+    tips:
+      - "선물·마진 거래는 원금 이상을 잃을 수 있어요. 현물과는 완전히 다른 게임이에요."
+
+  - id: i-b4
+    category: CRYPTO
+    period_tier: yearly
+    date_label: "2025.11.21(금)"
+    date_label_short: "25.11.21"
+    event_at: "2025-11-21T12:00:00+09:00"
+    title: "8만 달러 붕괴 직전 — 한 달 반 만에 -36%"
+    key_stats:
+      - { value: "80,553달러", label: "이날 저점", direction: down }
+      - { value: "-70억 달러", label: "11월 미국 현물 ETF 순유출", direction: down }
+    visual_ids: [C5]
+    details:
+      - "10월 폭락 이후 반등 없이 흘러내려 8만 달러 선까지 왔어요."
+      - "미국 ETF에서 한 달에 70억 달러가 빠져나가며 하락을 이끌었어요."
+    effect_rows:
+      - { label: "기관 이탈", direction: down, text: "기관 자금(ETF)이 빠지기 시작하면 하락이 길어진다는 신호였어요.", basis: "근거 · 11월 한 달 순유출 70억 달러" }
+      - { label: "약세장 진입", direction: down, text: "\"곧 반등하겠지\"가 통하지 않는 진짜 약세장의 시작이었어요.", basis: "근거 · 이후 12월·2월·6월 연달아 저점 갱신" }
+    impact_line: "ETF 자금 흐름은 코인 시장의 새 나침반이에요. 유출이 이어지면 조심해야 해요"
+    tips:
+      - "약세장은 생각보다 길어요. 이후에도 저점을 세 번 더 낮췄어요."
+
+  - id: i-b5
+    category: CRYPTO
+    period_tier: yearly
+    date_label: "2026.2.6"
+    date_label_short: "26.2.6"
+    event_at: "2026-02-06T12:00:00+09:00"
+    title: "6만 1,500달러 — 고점의 반 토막, 공식 약세장"
+    key_stats:
+      - { value: "61,500달러", label: "이날 저점", direction: down }
+      - { value: "-51%", label: "사상 최고가 대비", direction: down }
+    visual_ids: [C5]
+    details:
+      - "매파로 변한 미국 중앙은행, 기관 자금 이탈, 멈춰 버린 규제 논의가 겹치며 반 토막이 났어요."
+      - "전쟁 불안에도 돈은 코인이 아니라 금·은으로 갔어요."
+    effect_rows:
+      - { label: "안전자산 아님", direction: down, text: "'디지털 금'이라던 코인이 전쟁·긴축 국면에서 금과 반대로 움직였어요. 코인은 금보다 기술주에 가깝게 움직여요.", basis: "근거 · 같은 기간 금·은은 상승, 코인은 하락" }
+      - { label: "복합 원인", direction: info, text: "하락의 이유가 하나가 아니라 세 개(긴축·자금 유출·규제 정체)라는 게 중요해요.", basis: "근거 · 세 요인이 같은 시기에 겹침" }
+    impact_line: "\"위험 회피 = 코인 상승\"이 아니라는 게 확인됐어요"
+    tips:
+      - "그래도 2023년 초보다는 여전히 370% 높은 가격이에요. 기간을 어떻게 자르느냐에 따라 이야기가 달라져요."
+
+  - id: i-b6
+    category: CRYPTO
+    period_tier: monthly
+    date_label: "2026.6.4(목)"
+    date_label_short: "6.4"
+    event_at: "2026-06-04T12:00:00+09:00"
+    title: "스페이스X 상장이 코인 돈을 빨아들였어요"
+    key_stats:
+      - { value: "61,500달러", label: "4개월 만의 최저 동률", direction: down }
+      - { value: "-44억 달러", label: "ETF 13거래일 연속 유출 (역대 최장)", direction: down }
+    visual_ids: [C5]
+    details:
+      - "역대 최대 IPO인 스페이스X 청약 자금을 마련하려고 코인을 파는 사람이 늘었어요."
+      - "비트코인 ETF에서는 13일 연속으로 돈이 빠졌어요. 역대 최장 기록이에요."
+    effect_rows:
+      - { label: "자금 이동", direction: down, text: "자산 시장의 돈은 한정돼 있어요. 큰 이벤트가 다른 자산을 흔드는 걸 보여 줘요.", basis: "근거 · ETF 13거래일 연속 유출 (역대 최장)" }
+      - { label: "겹치는 악재", direction: down, text: "6월 중동 긴장 재고조까지 겹쳐 낙폭이 커졌어요. 악재는 겹쳐서 와요.", basis: "근거 · 4개월 만의 최저가 동률" }
+    impact_line: "코인 투자자와 IPO 투자자는 사실 같은 사람들이라는 분석이 나왔어요"
+    tips:
+      - "큰 IPO 일정은 코인 투자자도 챙겨야 할 캘린더예요."
+
+  - id: i-b7
+    category: CRYPTO
+    period_tier: monthly
+    date_label: "2026.7.7(화) 보도 기준"
+    date_label_short: "7.7"
+    event_at: "2026-07-07T12:00:00+09:00"
+    title: "\"미국이 안 사요\" — 코인베이스 프리미엄 50일 연속 마이너스"
+    key_stats:
+      - { value: "50일 연속", label: "미국 거래소가 더 싼 기간", direction: down }
+      - { value: "8주 연속", label: "미국 현물 ETF 순유출", direction: down }
+    visual_ids: [C5]
+    details:
+      - "미국 거래소(코인베이스) 가격이 해외(바이낸스)보다 50일째 싸요."
+      - "강세장에서는 보통 미국이 더 비싸요. 지금은 그 반대예요."
+    effect_rows:
+      - { label: "수요 실종", direction: down, text: "세계 최대 시장인 미국의 수요가 꺼졌다는 뜻이에요. 추세 반전이 어렵다는 신호예요.", basis: "근거 · 코인베이스 프리미엄 50일 연속 마이너스" }
+      - { label: "지표 읽기", direction: info, text: "가격 말고 '어디서 누가 사는지'를 보는 법을 배울 수 있는 지표예요.", basis: "근거 · 과거 강세장은 늘 '미국 프리미엄'과 함께 왔어요" }
+    impact_line: "한국에서 유명한 '김치프리미엄'과 같은 원리의 미국판이에요"
+    tips:
+      - "이 지표가 플러스로 돌아서는지가 반등의 선행 신호예요."
+
+  - id: i-b8
+    category: CRYPTO
+    period_tier: weekly
+    date_label: "2026.7.17(금)"
+    date_label_short: "7.17(금)"
+    event_at: "2026-07-17T09:00:00+09:00"
+    title: "중동 충돌 격화에 비트코인 또 하락 — 6만 달러 안팎"
+    key_stats:
+      - { value: "약 6.1만 달러", label: "현재가 (변동 큼)", direction: down }
+      - { value: "-52%", label: "사상 최고가 대비", direction: down }
+    visual_ids: [C5, TL2]
+    steady_ids: [st-us-iran-war]
+    details:
+      - "호르무즈 충돌이 다시 격해지자 큰손들이 차익을 챙기며 팔았어요."
+      - "빚내서 상승에 걸었던 포지션이 또 강제청산되며 낙폭이 커졌어요."
+    effect_rows:
+      - { label: "코인 ↓", direction: down, text: "전쟁 국면에서 코인은 안전자산이 아니라 위험자산으로 취급돼요.", basis: "근거 · 같은 뉴스에 금·유가는 상승, 코인은 하락" }
+      - { label: "연쇄 하락", direction: down, text: "지정학 뉴스 → 큰손 매도 → 강제청산, 하락이 연쇄로 커지는 구조예요.", basis: "근거 · 강제청산 동반 급락 재발" }
+    impact_line: "급락장에서 계획 없는 '물타기'는 손실만 키워요. 현금 관리가 먼저예요"
+    tips:
+      - "같은 전쟁 뉴스에 금·유가는 오르고 코인은 내렸어요. 자산별 성격 차이를 기억하세요."
+
+  # ───────── 🏠 부동산 (HOUSING) ─────────
+  - id: i-h1
+    category: HOUSING
+    period_tier: yearly
+    date_label: "2025.9.7(일)"
+    date_label_short: "25.9.7"
+    event_at: "2025-09-07T12:00:00+09:00"
+    title: "9·7 대책: 정부가 \"집을 많이 짓겠다\"고 했어요"
+    key_stats:
+      - { value: "공공 주도", label: "공급 방식의 축", direction: flat }
+      - { value: "수도권 집중", label: "공급 계획의 핵심", direction: flat }
+    visual_ids: [TL1]
+    details:
+      - "집값을 잡으려면 규제만으론 부족하다며, 정부가 대규모 공급 계획을 내놨어요."
+      - "다만 실제 입주까지는 수년이 걸려서, 당장의 상승세를 막지는 못했어요."
+    effect_rows:
+      - { label: "미래 집값", direction: info, text: "공급 계획은 \"몇 년 뒤 집값\"의 가장 중요한 변수예요.", basis: "근거 · 발표 → 착공 → 입주 시차 3~5년" }
+      - { label: "청약 기회 ↑", direction: up, text: "공공분양·청약 기회가 늘어날 수 있다는 뜻이에요.", basis: "근거 · 공공 주도 수도권 공급 계획" }
+    impact_line: "입주까지의 시차 때문에 전월세 시장은 그동안 계속 빡빡할 수 있어요"
+    tips:
+      - "공급 대책은 '착공·입주 물량'이 실제로 나오는지 숫자로 따라가야 해요."
+
+  - id: i-h2
+    category: HOUSING
+    period_tier: yearly
+    date_label: "2025.10.15(수)"
+    date_label_short: "25.10.15"
+    event_at: "2025-10-15T12:00:00+09:00"
+    title: "10·15 대책: 서울 전체가 규제지역이 됐어요"
+    key_stats:
+      - { value: "서울 25개 구", label: "+ 경기 12곳 규제지역·토지거래허가", direction: flat }
+      - { value: "최대 2억 원", label: "25억 초과 주택의 주담대 한도", direction: down }
+    visual_ids: [TL1, T5]
+    details:
+      - "집값 급등에 정부가 서울 전 지역과 경기 주요 지역을 규제로 묶었어요."
+      - "비싼 집일수록 대출 한도를 확 줄여서 '빚내서 사기'를 어렵게 만들었어요."
+    effect_rows:
+      - { label: "매수 문턱 ↑", direction: up, text: "서울에서 집을 사려면 대출 한도·허가 요건부터 완전히 달라졌어요.", basis: "근거 · 토지거래허가 구역은 실거주 목적이 아니면 사실상 매수 불가" }
+      - { label: "임대료 ↑", direction: up, text: "규제로 매매가 묶이면 전월세 수요가 늘어 임대료가 오를 수 있어요.", basis: "근거 · 이후 전세수급지수 122.5(5년 6개월 최고)로 상승" }
+    impact_line: "집을 살 계획이 없어도 전월세 가격으로 영향이 돌아와요"
+    tips:
+      - "그런데도 집값은 다시 올랐어요. 2026년 정부가 '세금 카드'까지 꺼낸 배경이에요."
+
+  - id: i-h3
+    category: HOUSING
+    period_tier: yearly
+    date_label: "2026.6월 (부동산원 주간 통계)"
+    date_label_short: "26.6월"
+    event_at: "2026-06-15T12:00:00+09:00"
+    title: "전세 대란 경보 — 물건은 줄고 보증금은 뛰었어요"
+    key_stats:
+      - { value: "122.5", label: "서울 전세수급지수 (5년 6개월 최고)", direction: up }
+      - { value: "+19.1%", label: "서울 평균 전세 보증금 (2년 전 대비)", direction: up }
+    visual_ids: [T5]
+    details:
+      - "서울에서 전세를 찾는 사람이 내놓는 사람보다 훨씬 많아졌어요."
+      - "전월세 물건은 2년 전보다 14.5% 줄었고, 아파트 대신 빌라로 밀려나는 '탈아파트' 현상까지 나타났어요."
+    effect_rows:
+      - { label: "전세비용 ↑", direction: up, text: "전세 갱신·이사 계획이 있다면 비용이 크게 늘 수 있어요.", basis: "근거 · 평균 보증금 2년 전 대비 +19.1%" }
+      - { label: "월세 연쇄 ↑", direction: up, text: "원룸·빌라 월세까지 밀어 올리는 구조라 자취 비용에 직결돼요.", basis: "근거 · 전월세 물건 2년 전 대비 -14.5%" }
+    impact_line: "전세 대출 금리도 오르는 국면이라 이중 부담이에요. 갱신청구권 사용 여부를 미리 계산하세요"
+    tips:
+      - "계약 전 등기부등본 확인, 보증보험 가입은 전세사기 예방의 기본이에요."
+
+  - id: i-h4
+    category: HOUSING
+    period_tier: yearly
+    date_label: "2026.4월 통계 (6월 공개)"
+    date_label_short: "26.4월"
+    event_at: "2026-06-20T12:00:00+09:00"
+    title: "30대의 '영끌'이 돌아왔어요 — 서울 매수의 절반"
+    key_stats:
+      - { value: "45.8%", label: "서울 아파트 매수 중 30대 비중", direction: up }
+      - { value: "+80%", label: "30대 매수 건수 (1월 대비)", direction: up }
+    visual_ids: [T5]
+    details:
+      - "주식으로 번 돈과 '더 오르기 전에 사자'는 불안이 겹치며 30대 매수가 급증했어요."
+      - "규제에도 서울 집값 전망 지수는 128로 전국에서 가장 높아요."
+    effect_rows:
+      - { label: "시장심리 ↑", direction: up, text: "30대가 다시 사기 시작했다는 것 자체가 시장 심리를 보여 줘요.", basis: "근거 · 주택가격전망지수(서울) 128" }
+      - { label: "이자 부담 위험", direction: down, text: "금리 인상기가 시작된 만큼, 무리한 대출 매수는 이자 부담 시뮬레이션이 필수예요.", basis: "근거 · 7.16 기준금리 인상 + 인상 기조 예고" }
+    impact_line: "'지금 못 사면 영영 못 산다'는 불안이 시장을 움직이고 있어요"
+    tips:
+      - "자산 상승기엔 '벼락거지' 공포가 커지지만, 폭락장(7월 증시)처럼 분위기는 한순간에 바뀌어요."
+
+  - id: i-h5
+    category: HOUSING
+    period_tier: monthly
+    date_label: "2026.6월 말~7월 (개편안은 7월 말 발표)"
+    date_label_short: "26.7월"
+    event_at: "2026-07-01T12:00:00+09:00"
+    title: "정부, 보유세 인상 예고 — \"우리나라 보유세는 낮다\""
+    key_stats:
+      - { value: "2배 이상", label: "고가 아파트 보유세 증가 전망", direction: up }
+      - { value: "7월 말", label: "세제개편안 발표 예정", direction: flat }
+    visual_ids: [TL1]
+    details:
+      - "이재명 대통령이 \"우리나라 주택 보유세는 대체로 낮다\"며 인상 방향을 밝혔어요."
+      - "세금 계산의 기준 비율(공정시장가액비율)을 올리고, 다주택·초고가 주택 과세를 강화하는 안이 검토돼요."
+    effect_rows:
+      - { label: "보유 부담 ↑", direction: up, text: "집이 있다면 내년 세금이 크게 달라질 수 있어요.", basis: "근거 · 고가 아파트 보유세 2배 이상 증가 전망" }
+      - { label: "집값 변수", direction: info, text: "집이 없다면 매물·집값 방향이 달라질 수 있는 변수예요.", basis: "근거 · 과거 보유세 강화기에 집값이 오히려 올랐다는 분석도 있어 효과 논쟁 중" }
+    impact_line: "'보유세'라는 단어가 하반기 내내 뉴스에 나올 거예요. 지금 개념을 잡아 두면 편해요"
+    tips:
+      - "보유세는 '집을 갖고 있는 동안 매년 내는 세금'(재산세+종부세)이에요. 사고팔 때 내는 세금과 달라요."
+
+  - id: i-h6
+    category: HOUSING
+    period_tier: monthly
+    date_label: "2026.7월 1주 (부동산원 주간)"
+    date_label_short: "7월 1주"
+    event_at: "2026-07-08T12:00:00+09:00"
+    title: "규제 예고에도 집값은 계속 올라요"
+    key_stats:
+      - { value: "+0.19%", label: "전국 아파트 주간 상승률", direction: up }
+      - { value: "10명 중 10명", label: "\"하반기 서울 강세\" 전문가 전망", direction: up }
+    visual_ids: [T5]
+    details:
+      - "반도체 호황으로 풀린 돈이 부동산으로 흘러들고 있어요."
+      - "공급 부족까지 겹쳐 전문가 10명 전원이 하반기에도 서울 강세를 예상했어요."
+    effect_rows:
+      - { label: "집값 ↑", direction: up, text: "주간 0.19%는 연으로 치면 10% 안팎의 매우 가파른 속도예요.", basis: "근거 · 전국 아파트 주간 매매가 +0.19%" }
+      - { label: "정책 강공 예고", direction: info, text: "\"어지간한 규제로는 역부족\"이라는 인식에 금리 인상(7.16)과 세금 강화(7월 말)가 동시에 나와요.", basis: "근거 · 전문가 10명 전원 하반기 강세 전망" }
+    impact_line: "매수·매도 타이밍 판단에 지금 가장 필요한 팩트예요"
+    tips:
+      - "금리·세금·공급을 따로 보지 말고 '정책 조합'으로 묶어서 보세요."
+
+  - id: i-h7
+    category: HOUSING
+    period_tier: weekly
+    date_label: "2026.7.13~15"
+    date_label_short: "7.13~15"
+    event_at: "2026-07-14T12:00:00+09:00"
+    title: "\"초고가 기준, 30억이냐 50억이냐\" — 보유세 선긋기 논쟁"
+    key_stats:
+      - { value: "30억 vs 50억", label: "초고가 1주택 과세 기준 후보", direction: flat }
+      - { value: "1주택자", label: "논쟁의 핵심 대상", direction: flat }
+    visual_ids: [TL1]
+    details:
+      - "이재명 대통령이 \"실거래가 50억 미만 1주택까지 무겁게 매기는 건 신중해야 한다\"는 취지의 입장을 냈어요."
+      - "\"기준 30억은 가혹하다\"는 논쟁과 함께, 최종 기준은 7월 말 세제개편안에서 정해져요."
+    effect_rows:
+      - { label: "대상 지역 갈림", direction: info, text: "기준이 어디에 그어지느냐로 잠실·대치·여의도 등 대상 지역이 갈려요.", basis: "근거 · 30억 vs 50억 기준 논쟁 진행 중" }
+      - { label: "일반 1주택 영향", direction: info, text: "대상이 '초고가 1주택'으로 좁혀지면 일반 1주택자의 부담 변화는 제한적일 수 있어요.", basis: "근거 · 대통령의 \"50억 미만 신중\" 발언" }
+    impact_line: "발표 전 '설왕설래' 단계의 뉴스는 확정이 아니에요. 7월 말 최종안을 꼭 다시 확인하세요"
+    tips:
+      - "세금 정책이 '숫자 하나'로 얼마나 큰 논쟁이 되는지 보여 주는 사례예요."
+
+  # ───────── 🤖 AI·반도체 (AI_CHIPS) ─────────
+  - id: i-a1
+    category: AI_CHIPS
+    period_tier: yearly
+    date_label: "2025.7.28(월)"
+    date_label_short: "25.7.28"
+    event_at: "2025-07-28T12:00:00+09:00"
+    title: "삼성전자, 테슬라와 22조 8천억 원 계약을 맺었어요"
+    key_stats:
+      - { value: "165억 달러", label: "계약 규모 (약 22.8조 원)", direction: up }
+      - { value: "AI6 칩", label: "테슬라 차세대 AI 반도체 생산", direction: flat }
+    visual_ids: [C4]
+    steady_ids: [st-ai-chips]
+    details:
+      - "테슬라의 차세대 AI 칩을 삼성 미국 테일러 공장에서 만들기로 했어요."
+      - "머스크가 직접 발표하며 삼성 반도체 반등의 신호탄이 됐어요."
+    effect_rows:
+      - { label: "파운드리 반등", direction: up, text: "부진하던 삼성 파운드리(위탁생산)가 살아나는 전환점이었어요.", basis: "근거 · 이 뉴스 당시 7만 원이던 삼성전자가 1년 뒤 25만 원이 돼요" }
+      - { label: "산업 지도", direction: info, text: "대형 수주 뉴스는 주가보다 '누가, 왜 맡겼나'를 보면 산업 지도가 보여요.", basis: "근거 · 테슬라가 차세대 칩 생산처로 삼성 선택" }
+    impact_line: "국민주 삼성전자 1년 3배 상승의 출발점이 된 계약이에요"
+    tips:
+      - "파운드리는 '설계는 남이, 생산은 삼성이' 하는 사업이에요. 대만 TSMC가 1위예요."
+
+  - id: i-a2
+    category: AI_CHIPS
+    period_tier: yearly
+    date_label: "2025.10.1(수)"
+    date_label_short: "25.10.1"
+    event_at: "2025-10-01T12:00:00+09:00"
+    title: "오픈AI가 삼성·SK와 손잡았어요 — 메모리 싹쓸이 예약"
+    key_stats:
+      - { value: "스타게이트", label: "오픈AI 초대형 AI 데이터센터 프로젝트", direction: flat }
+      - { value: "삼성+SK", label: "메모리 공급 파트너", direction: up }
+    visual_ids: [C4]
+    steady_ids: [st-ai-chips]
+    details:
+      - "샘 알트먼이 한국에 와서 삼성전자·SK하이닉스와 AI 데이터센터용 메모리 협력을 발표했어요."
+      - "이후 메모리 가격이 뛰며 '슈퍼사이클'이 본격화됐어요."
+    effect_rows:
+      - { label: "수출 ↑", direction: up, text: "한국 수출의 미래 몇 년 치가 이 협력에 걸려 있어요.", basis: "근거 · AI 서버 1대에는 일반 서버보다 몇 배 많은 메모리가 들어가요" }
+      - { label: "취업 온기", direction: up, text: "챗GPT를 돌리는 데 한국 반도체가 필수라는 뜻이라, 취업 시장에도 온기가 와요.", basis: "근거 · 이후 메모리 가격 급등으로 슈퍼사이클 본격화" }
+    impact_line: "챗GPT가 잘될수록 한국 반도체가 돈을 버는 구조가 만들어졌어요"
+    tips:
+      - "HBM은 AI용 초고속 메모리예요. SK하이닉스가 세계 1위, 삼성이 추격 중이에요."
+
+  - id: i-a3
+    category: AI_CHIPS
+    period_tier: yearly
+    date_label: "2025.10.29(수 · 미국 현지)"
+    date_label_short: "25.10.29"
+    event_at: "2025-10-30T05:00:00+09:00"
+    title: "엔비디아, 세계 최초 시가총액 5조 달러"
+    key_stats:
+      - { value: "5조 달러", label: "세계 기업 역사상 처음", direction: up }
+      - { value: "약 7,000조 원", label: "원화 환산 — 코스피 전체와 비슷", direction: flat }
+    visual_ids: [C8]
+    steady_ids: [st-ai-chips]
+    details:
+      - "AI 칩을 사실상 독점하는 엔비디아가 시가총액 5조 달러를 처음 넘었어요."
+      - "7월에 4조 달러를 넘은 지 넉 달도 안 돼 1조 달러가 더 붙었어요."
+    effect_rows:
+      - { label: "서학개미 ↑", direction: up, text: "서학개미 보유 1위 종목의 상징적 기록이에요.", basis: "근거 · 넉 달 만에 시총 1조 달러 추가" }
+      - { label: "버블 논쟁 시작", direction: info, text: "이때가 'AI 버블' 논쟁이 뜨거워진 출발점이기도 해요.", basis: "근거 · 회사 하나가 코스피 전체 규모와 비슷해짐" }
+    impact_line: "회사 하나가 한국 주식시장 전체만큼 커질 수 있다는 걸 보여 줘요"
+    tips:
+      - "시가총액 = 주가 × 주식 수. 회사의 '시장 몸값'이에요."
+
+  - id: i-a4
+    category: AI_CHIPS
+    period_tier: yearly
+    date_label: "2026.1.8 (4분기 잠정실적)"
+    date_label_short: "26.1.8"
+    event_at: "2026-01-08T09:00:00+09:00"
+    title: "삼성전자, '사상 최대 실적' 행진이 시작됐어요"
+    key_stats:
+      - { value: "3분기 연속", label: "역대 최대 영업이익 (25.4Q~26.2Q)", direction: up }
+      - { value: "폭등", label: "메모리 가격 — 공급 부족 지속", direction: up }
+    visual_ids: [C4]
+    steady_ids: [st-ai-chips]
+    details:
+      - "AI 데이터센터 수요로 메모리가 부족해지자 가격이 뛰었어요."
+      - "삼성전자는 2025년 4분기부터 분기마다 역대 최대 이익 기록을 갈아치우기 시작했어요."
+    effect_rows:
+      - { label: "랠리 근거", direction: up, text: "실적이 주가와 코스피 랠리를 정당화한 핵심 근거였어요.", basis: "근거 · 3분기 연속 역대 최대 영업이익" }
+      - { label: "경제 파급", direction: info, text: "반도체는 한국 수출 1위 품목이라 삼성 실적은 세수·고용·환율에도 영향을 줘요.", basis: "근거 · 메모리 공급 부족 지속" }
+    impact_line: "'주가가 왜 오르지?'의 답이 실적에 있다는 걸 보여 주는 교과서 사례예요"
+    tips:
+      - "'슈퍼사이클'도 사이클이에요. 언젠가 꺾이는 시점(피크아웃) 논쟁이 지금 시장의 핵심이에요."
+
+  - id: i-a5
+    category: AI_CHIPS
+    period_tier: yearly
+    date_label: "2026.5.14(목 · 미국 현지)"
+    date_label_short: "5.14"
+    event_at: "2026-05-15T05:00:00+09:00"
+    title: "엔비디아 사상 최고가 — 시총 5조 7,285억 달러"
+    key_stats:
+      - { value: "235.47달러", label: "장중 사상 최고가", direction: up }
+      - { value: "5.73조 달러", label: "시가총액 정점", direction: up }
+    visual_ids: [C8]
+    steady_ids: [st-ai-chips]
+    details:
+      - "AI 수요와 미국 정부의 중국 수출 승인 소식이 겹치며 최고가를 새로 썼어요."
+      - "하지만 이날이 지금까지의 꼭짓점이 됐어요."
+    effect_rows:
+      - { label: "미장 계좌 정점", direction: up, text: "미국 주식 계좌의 성적표가 이 근처에서 정점을 찍었어요.", basis: "근거 · 이후 두 달 새 시총 1조 달러 증발" }
+      - { label: "정책 민감", direction: info, text: "중국 수출 허가 같은 '정책 뉴스'가 주가를 움직인다는 사례예요.", basis: "근거 · 수출 승인 소식이 최고가 경신의 방아쇠" }
+    impact_line: "대장주도 조정을 피하지 못해요. 최고가 뉴스 뒤를 조심하세요"
+    tips:
+      - "다음 실적 발표는 8.26이에요. AI 산업의 방향을 정하는 날이에요."
+
+  - id: i-a6
+    category: AI_CHIPS
+    period_tier: monthly
+    date_label: "2026.7.7(화) 오전 공시"
+    date_label_short: "7.7"
+    event_at: "2026-07-07T09:00:00+09:00"
+    title: "삼성전자 2분기 영업이익 89.4조 — 세계 1위"
+    key_stats:
+      - { value: "89.4조 원", label: "영업이익 (매출 171조)", direction: up }
+      - { value: "+1,810%", label: "1년 전 같은 분기 대비", direction: up }
+    visual_ids: [C4, T6]
+    steady_ids: [st-ai-chips]
+    details:
+      - "AI 투자 폭증으로 메모리 값이 뛰며 삼성전자가 분기 기준 세계에서 돈을 가장 많이 버는 회사가 됐어요."
+      - "이익 대부분은 반도체 부문(80조 원대 추정)에서 나왔어요."
+      - "반대로 스마트폰·가전은 메모리 원가 부담으로 적자 가능성이 거론돼요."
+    effect_rows:
+      - { label: "파급 ↑", direction: up, text: "엔비디아·애플을 제친 이익이라 국민연금부터 배당까지 파급이 커요.", basis: "근거 · 석 달 이익이 지난 3년 치 합계(82.8조)보다 많아요" }
+      - { label: "고점 경계", direction: down, text: "실적 발표 다음 주에 주가가 폭락(7.13)했어요. '최고 실적'과 '주가 고점'은 자주 붙어 다녀요.", basis: "근거 · 7.13 삼성전자 -10.7%" }
+    impact_line: "메모리 원가 부담이 스마트폰·가전값 인상으로 이어질 수 있어요"
+    tips:
+      - "잠정실적은 속보치예요. 확정 실적과 사업부별 숫자는 이달 말 나와요."
+
+  - id: i-a7
+    category: AI_CHIPS
+    period_tier: monthly
+    date_label: "2026.7.8(수 · 미국 현지 보도)"
+    date_label_short: "7.8"
+    event_at: "2026-07-08T23:00:00+09:00"
+    title: "엔비디아, 두 달 새 시총 1조 달러 증발"
+    key_stats:
+      - { value: "-16%", label: "5.14 고점 대비 주가", direction: down }
+      - { value: "PER 18배", label: "2019년 이후 최저", direction: down }
+    visual_ids: [C8, T6]
+    steady_ids: [st-ai-chips]
+    details:
+      - "AI 대장주 엔비디아가 고점 대비 16% 빠지며 시총 1조 달러가 사라졌어요."
+      - "이익 전망 대비 주가(PER)는 18배로, AI 붐 이전 수준까지 내려왔어요."
+      - "구글·아마존이 자체 AI 칩을 늘리는 것도 부담이에요."
+    effect_rows:
+      - { label: "판단 갈림", direction: info, text: "실적 전망은 오히려 올랐는데 주가만 빠졌어요. '싸졌다 vs 꺾였다' 판단이 갈리는 지점이에요.", basis: "근거 · PER 18배로 시장 평균(20배)보다 낮아짐" }
+      - { label: "주도주 교체", direction: info, text: "돈이 엔비디아에서 마이크론(올해 +229%) 같은 메모리주로 옮겨 갔어요.", basis: "근거 · 마이크론 연초 대비 +229%" }
+    impact_line: "서학개미 1위 종목의 조정이라 미국 주식 계좌 수익률에 직접 영향이 있어요"
+    tips:
+      - "PER은 '이익 대비 주가가 몇 배인가'예요. 낮을수록 싸다는 뜻이지만, 성장이 꺾일 거란 걱정의 표시이기도 해요."
+
+  - id: i-a8
+    category: AI_CHIPS
+    period_tier: weekly
+    date_label: "2026.7.16(목 · 미국 현지)"
+    date_label_short: "7.16(목)"
+    event_at: "2026-07-16T23:00:00+09:00"
+    title: "TSMC 실적이 좋았는데도 반도체주는 급락했어요"
+    key_stats:
+      - { value: "600억~640억 달러", label: "TSMC 2026년 설비투자 (상향)", direction: up }
+      - { value: "-2.4%", label: "엔비디아 시간외 하락", direction: down }
+    visual_ids: [C8, T6]
+    steady_ids: [st-ai-chips]
+    details:
+      - "세계 1위 파운드리 TSMC가 예상을 넘는 실적을 냈어요."
+      - "그런데 투자비를 크게 늘리고 이익률 하락을 예고하자, 반도체주 전체가 팔렸어요."
+      - "\"블록버스터 실적으로도 지금 주가를 지키기 어렵다\"는 인식이 퍼졌어요."
+    effect_rows:
+      - { label: "국내 연쇄 ↓", direction: down, text: "\"실적이 좋아도 파는 시장\"은 고평가 부담의 신호예요. 국내 반도체주에 그대로 이어져요.", basis: "근거 · 7.13 한국발 폭락 → 7.16 미국발 매도세" }
+      - { label: "기대 선반영", direction: info, text: "좋은 뉴스에 주가가 내리는 이유(기대가 이미 가격에 반영됨)를 배울 수 있는 사례예요.", basis: "근거 · 호실적 발표에도 시간외 하락" }
+    impact_line: "삼성전자·하이닉스를 든 계좌라면 미국 반도체 뉴스가 곧 내 뉴스예요"
+    tips:
+      - "실적 시즌엔 '숫자'보다 '가이던스(앞으로의 전망)'가 주가를 움직여요."
+
+  # ───────── 🛒 물가·내 지갑 (PRICES) ─────────
+  - id: i-p1
+    category: PRICES
+    period_tier: yearly
+    date_label: "2025.7.21(월) 지급 시작"
+    date_label_short: "25.7.21"
+    event_at: "2025-07-21T09:00:00+09:00"
+    title: "전 국민 소비쿠폰이 풀렸어요 — 1인 15만 원부터"
+    key_stats:
+      - { value: "15만~55만 원", label: "1인당 지급액 (소득·지역별)", direction: flat }
+      - { value: "2차례", label: "7월 1차 · 9월 2차", direction: flat }
+    details:
+      - "새 정부가 경기를 살리려고 전 국민에게 지역화폐형 쿠폰을 줬어요."
+      - "소득이 낮을수록, 지방일수록 더 받는 구조였어요."
+    effect_rows:
+      - { label: "소비 ↑", direction: up, text: "내수 진작용 재정 정책의 대표 사례예요. 소비 지표에 영향을 줬어요.", basis: "근거 · 전 국민 대상 2차례 지급" }
+      - { label: "물가 자극", direction: info, text: "돈 풀기는 소비를 살리지만 물가를 자극할 수 있어요.", basis: "근거 · 1년 뒤 물가 3%대의 배경 논쟁 중 하나예요" }
+    impact_line: "직접 받아서 쓴 돈이에요. 정부 지원금은 신청 기한이 생명이에요"
+    tips:
+      - "지원금 정보는 놓치면 끝이에요. 알림 기능을 적극 활용하세요."
+
+  - id: i-p2
+    category: PRICES
+    period_tier: yearly
+    date_label: "2025.9.1(월) 시행"
+    date_label_short: "25.9.1"
+    event_at: "2025-09-01T09:00:00+09:00"
+    title: "예금자보호 한도가 1억 원으로 올랐어요"
+    key_stats:
+      - { value: "5,000만 → 1억 원", label: "은행이 망해도 보호받는 금액", direction: up }
+      - { value: "24년 만", label: "한도 상향", direction: flat }
+    details:
+      - "은행·저축은행이 문 닫아도 1인당 1억 원까지는 나라가 보장해 줘요."
+      - "2001년 이후 처음으로 한도가 올랐어요."
+    effect_rows:
+      - { label: "목돈 운용 ↑", direction: up, text: "예금을 여러 은행에 쪼개던 기준이 바뀌어 목돈 운용이 편해져요.", basis: "근거 · 보호 한도 5,000만 → 1억 원" }
+      - { label: "기본 상식", direction: info, text: "'은행에 넣은 돈은 무조건 안전한가?'에 대한 기본 상식이에요.", basis: "근거 · 보호는 '금융회사별 1억'이에요" }
+    impact_line: "한 은행에 2억을 넣으면 1억은 보호 밖이에요. 쪼개기 기준을 다시 잡으세요"
+    tips:
+      - "금리 인상기엔 저축은행 고금리 특판이 늘어요. 한도 안에서 활용하면 안전해요."
+
+  - id: i-p3
+    category: PRICES
+    period_tier: yearly
+    date_label: "2025.10.24(금 · 미국 9월치 발표)"
+    date_label_short: "25.10.24"
+    event_at: "2025-10-24T21:30:00+09:00"
+    title: "미국 물가 3% 도달 — 그리고 통계가 끊겼어요"
+    key_stats:
+      - { value: "3.0%", label: "미국 9월 물가 상승률", direction: up }
+      - { value: "결번", label: "10월 물가 — 셧다운으로 사상 첫 미발표", direction: flat }
+    visual_ids: [C2]
+    steady_ids: [st-rate-uturn]
+    details:
+      - "관세 여파로 미국 물가가 3%에 닿았어요."
+      - "때마침 43일 셧다운으로 10월 물가 통계는 아예 발표되지 못했어요."
+    effect_rows:
+      - { label: "깜깜이 인하", direction: info, text: "통계 공백 속에 연준이 금리를 내렸어요. 이게 나중에 '실수' 논쟁이 돼요.", basis: "근거 · '깜깜이' 인하가 2026년 물가 재점화의 한 원인으로 지목" }
+      - { label: "지표의 무게", direction: info, text: "물가 지표 하나가 왜 이렇게 중요한지 보여 주는 사건이에요.", basis: "근거 · CPI 발표일은 매달 시장의 D-데이예요" }
+    impact_line: "물가 통계 하나가 멈추면 세계 금리 결정까지 흔들려요"
+    tips:
+      - "CPI(소비자물가지수)는 장바구니 물가의 공식 성적표예요. 매달 발표일이 시장의 D-데이예요."
+
+  - id: i-p4
+    category: PRICES
+    period_tier: yearly
+    date_label: "2026.6.2 (5월치 발표)"
+    date_label_short: "26.6.2"
+    event_at: "2026-06-02T09:00:00+09:00"
+    title: "한국 물가, 2년여 만에 3%대로 올라섰어요"
+    key_stats:
+      - { value: "3.1%", label: "5월 소비자물가 상승률", direction: up }
+      - { value: "3월부터", label: "목표(2.0%) 초과 시작 — 전쟁 여파", direction: flat }
+    visual_ids: [C2]
+    steady_ids: [st-rate-uturn, st-us-iran-war]
+    details:
+      - "이란 전쟁으로 뛴 에너지값이 시차를 두고 생활 물가로 번졌어요."
+      - "2024년 3월 이후 처음으로 3%대에 진입했어요."
+    effect_rows:
+      - { label: "실질소득 ↓", direction: down, text: "월급 빼고 다 오르는 구간의 시작이에요. 실질 소득이 줄어요.", basis: "근거 · 2년여 만의 3%대 진입" }
+      - { label: "금리 인상 명분", direction: up, text: "물가 3%는 한국은행 금리 인상의 결정적 명분이 됐어요.", basis: "근거 · 7.16 기준금리 인상의 배경" }
+    impact_line: "밥값·교통비 체감 상승이 공식 숫자로 확인됐어요"
+    tips:
+      - "물가 상승률이 '내린다'는 건 가격이 내리는 게 아니라 '오르는 속도가 느려진다'는 뜻이에요."
+
+  - id: i-p5
+    category: PRICES
+    period_tier: monthly
+    date_label: "2026.7.2(목) 발표"
+    date_label_short: "7.2"
+    event_at: "2026-07-02T09:00:00+09:00"
+    title: "6월 물가 3.2% — 30개월 만에 가장 많이 올랐어요"
+    key_stats:
+      - { value: "3.2%", label: "6월 소비자물가 상승률", direction: up }
+      - { value: "3.4%", label: "생활물가 상승률 (밥상·교통 등)", direction: up }
+    visual_ids: [C2]
+    steady_ids: [st-rate-uturn]
+    details:
+      - "물가가 다섯 달 연속으로 빨라져 3.2%까지 왔어요."
+      - "특히 자주 사는 품목(생활물가)이 3.4%로 더 올라 취약계층 부담이 커졌어요."
+    effect_rows:
+      - { label: "금리 방아쇠", direction: up, text: "2주 뒤 금리 인상(7.16)의 직접 방아쇠가 된 숫자예요.", basis: "근거 · 한국은행 \"상당 기간 목표(2%)를 웃돌 것\"" }
+      - { label: "체감 격차", direction: info, text: "생활물가가 전체 물가보다 높아요. 필수 지출이 많은 사람일수록 더 아픈 구조예요.", basis: "근거 · 전체 3.2% vs 생활물가 3.4%" }
+    impact_line: "장바구니·교통비가 실제로 더 가파르게 오르고 있어요"
+    tips:
+      - "물가 뉴스를 볼 땐 '전체'와 '생활물가'를 나눠 보세요. 체감과 통계의 간극이 줄어요."
+
+  - id: i-p6
+    category: PRICES
+    period_tier: monthly
+    date_label: "2026.7월 중순 (6월 고용동향)"
+    date_label_short: "7월 중순"
+    event_at: "2026-07-12T09:00:00+09:00"
+    title: "취업자는 늘었는데, 청년만 20만 명 가까이 줄었어요"
+    key_stats:
+      - { value: "+6.3만 명", label: "6월 전체 취업자 증가", direction: up }
+      - { value: "-19.7만 명", label: "청년 취업자 감소", direction: down }
+    details:
+      - "수출·주가가 사상 최고인데 청년 일자리는 오히려 크게 줄었어요."
+      - "기업들이 신입 채용 대신 경력·자동화(AI)로 채우는 흐름이 이어지고 있어요."
+    effect_rows:
+      - { label: "청년 고용 ↓", direction: down, text: "체감 취업난의 공식 수치예요. '성장과 내 일자리'가 따로 노는 이유를 봐야 해요.", basis: "근거 · 청년 취업자 -19.7만 명" }
+      - { label: "호황의 역설", direction: info, text: "반도체 호황의 온기가 고용 전반으로는 안 퍼지고 있다는 증거예요.", basis: "근거 · 'AI가 만든 호황, AI가 줄인 채용' 논쟁" }
+    impact_line: "첫 직장 진입이 늦어질수록 생애 소득 격차가 커져요. 청년 지원 정책 뉴스를 챙기세요"
+    tips:
+      - "'AI가 만든 호황, AI가 줄인 채용'이라는 역설이 하반기 핵심 논쟁이에요."
+
+  - id: i-p7
+    category: PRICES
+    period_tier: monthly
+    date_label: "2026.7.14(화 · 미국 현지) 발표"
+    date_label_short: "7.14"
+    event_at: "2026-07-14T21:30:00+09:00"
+    title: "미국 물가 4.2% → 3.5%로 뚝 — 유가 덕분이에요"
+    key_stats:
+      - { value: "3.5%", label: "6월 물가 (예상 3.8%보다 낮음)", direction: down }
+      - { value: "-0.4%", label: "전월 대비 — 6년 만의 최대 하락", direction: down }
+    visual_ids: [C2, C7]
+    steady_ids: [st-rate-uturn, st-us-iran-war]
+    details:
+      - "6월에 종전 합의로 유가가 내리자(에너지 -5.7%) 물가가 예상보다 크게 둔화했어요."
+      - "발표 직후 미국 주가 선물과 비트코인이 반등했어요."
+    effect_rows:
+      - { label: "인상 우려 ↓", direction: down, text: "미국 금리 인상 우려가 한 발 물러났어요. 시장이 안도한 날이에요.", basis: "근거 · 예상 3.8%보다 낮은 3.5%" }
+      - { label: "유가-물가 연결", direction: info, text: "물가와 유가가 얼마나 붙어 다니는지 보여 주는 깔끔한 사례예요.", basis: "근거 · 6월 에너지 물가 -5.7%" }
+    impact_line: "다만 7월엔 전쟁이 다시 격해지고 유가가 80달러라, 다음 달 물가는 다시 오를 수 있어요"
+    tips:
+      - "'근원물가'(에너지·식품 제외)는 2.6%였어요. 유가를 빼면 물가의 진짜 체력이 보여요."
+
+  - id: i-p8
+    category: PRICES
+    period_tier: weekly
+    date_label: "2026.7.14(화) 밤 의결"
+    date_label_short: "7.14(화)"
+    event_at: "2026-07-14T23:00:00+09:00"
+    title: "2027년 최저임금, 시급 10,700원으로 정해졌어요"
+    key_stats:
+      - { value: "10,700원", label: "시급 (+380원, +3.7%)", direction: up }
+      - { value: "223만 6,300원", label: "월급 환산 (주 40시간)", direction: flat }
+    visual_ids: [C9]
+    details:
+      - "노동계는 12,000원, 경영계는 동결을 불렀지만 표결 끝에 10,700원으로 결정됐어요."
+      - "물가(3%대)를 고려하면 실질 인상은 크지 않다는 평가와, 자영업자에겐 그래도 부담이라는 평가가 맞서요."
+      - "2027년 1월 1일부터 모든 사업장에 적용돼요."
+    effect_rows:
+      - { label: "알바비 ↑", direction: up, text: "내년 알바 시급이에요. 주휴수당 포함 실수령을 다시 계산할 때예요.", basis: "근거 · 시급 +380원(+3.7%), 월급 223만 6,300원" }
+      - { label: "물가 연쇄", direction: info, text: "인건비·외식 물가·최저임금 연동 수당까지 연쇄로 움직여요.", basis: "근거 · 인상 근거 상한 = 성장률 2.55% + 물가 2.7% 전망" }
+    impact_line: "알바비도, 외식값도 함께 움직이는 숫자예요"
+    tips:
+      - "최저임금 위반 신고와 모의계산은 최저임금위원회·고용노동부 사이트에서 할 수 있어요."
+
+  # ───────── 🌍 환율·세계 (FX_WORLD) ─────────
+  - id: i-g1
+    category: FX_WORLD
+    period_tier: yearly
+    date_label: "2025.7.30 합의 · 8.7 발효"
+    date_label_short: "25.7.30"
+    event_at: "2025-07-31T05:00:00+09:00"
+    title: "한미 관세 합의 — 25% 대신 15%로 막았어요"
+    key_stats:
+      - { value: "15%", label: "한국산 제품에 붙는 미국 관세", direction: flat }
+      - { value: "3,500억 달러", label: "한국의 대미 투자 약속", direction: flat }
+    visual_ids: [T9]
+    details:
+      - "미국이 예고했던 25% 관세를 협상 끝에 15%로 낮췄어요."
+      - "대신 한국은 3,500억 달러 대미 투자와 1,000억 달러 에너지 구매를 약속했어요."
+    effect_rows:
+      - { label: "수출주 부담 완화", direction: up, text: "수출 기업 실적과 내 주식·연금 수익률에 직결된 딜이에요. 자동차도 15%로 묶여 부담이 줄었어요.", basis: "근거 · 예고 25% → 합의 15%" }
+      - { label: "가격 전가", direction: info, text: "관세는 결국 물건값에 얹혀요. 미국 소비자와 한국 수출기업이 나눠 부담하게 돼요.", basis: "근거 · 상호관세 구조" }
+    impact_line: "'관세'라는 단어가 왜 매일 뉴스에 나오는지, 그 출발점이에요"
+    tips:
+      - "올해 새 관세(12.5%)가 다시 예고됐어요. 합의가 끝이 아니에요."
+
+  - id: i-g2
+    category: FX_WORLD
+    period_tier: yearly
+    date_label: "2025.10.1~11.12 (43일)"
+    date_label_short: "25.10~11월"
+    event_at: "2025-11-12T09:00:00+09:00"
+    title: "미국 정부가 43일 멈췄어요 — 역대 최장 셧다운"
+    key_stats:
+      - { value: "43일", label: "역대 최장 기록", direction: flat }
+      - { value: "10월 CPI 결번", label: "물가 통계 사상 첫 미발표", direction: flat }
+    visual_ids: [C2]
+    details:
+      - "예산 싸움으로 미국 연방정부가 43일간 부분 폐쇄됐어요."
+      - "고용·물가 통계 발표가 줄줄이 멈추며 시장이 '깜깜이'로 움직였어요."
+    effect_rows:
+      - { label: "후폭풍", direction: info, text: "지표 공백 속에 연준이 금리를 내렸고, 그 후폭풍이 2026년 물가로 왔어요.", basis: "근거 · 10월 CPI 사상 첫 결번" }
+      - { label: "정치 리스크", direction: info, text: "정치가 경제 데이터를 멈출 수 있다는 것 자체가 리스크예요.", basis: "근거 · 역대 최장 43일 셧다운" }
+    impact_line: "올해 11월 미국 중간선거를 앞두고 예산 갈등은 또 반복될 수 있어요"
+    tips:
+      - "셧다운은 '정부 문 닫기'예요. 필수 기능만 남기고 공무원 상당수가 무급휴직에 들어가요."
+
+  - id: i-g3
+    category: FX_WORLD
+    period_tier: yearly
+    date_label: "2025.10.30(목) · 부산"
+    date_label_short: "25.10.30"
+    event_at: "2025-10-30T12:00:00+09:00"
+    title: "트럼프·시진핑 부산 회담 — 미중 1년 휴전"
+    key_stats:
+      - { value: "1년", label: "관세 휴전 기간", direction: flat }
+      - { value: "20% → 10%", label: "펜타닐 관련 대중 관세", direction: down }
+    visual_ids: [T9]
+    details:
+      - "경주 APEC을 계기로 두 정상이 부산에서 만나 관세 전쟁을 1년 멈추기로 했어요."
+      - "중국은 희토류 수출 통제를 1년 미루고, 미국은 일부 관세를 낮췄어요."
+    effect_rows:
+      - { label: "증시 호재", direction: up, text: "미중 갈등 완화는 수출국 한국 증시엔 대형 호재였어요.", basis: "근거 · 관세 전쟁 1년 휴전 합의" }
+      - { label: "만료 변수", direction: info, text: "휴전 만료가 올해 10월 말이라, 하반기 재협상 뉴스가 시장 변수예요.", basis: "근거 · 희토류 통제 유예도 같은 시한" }
+    impact_line: "세계 1·2위의 휴전이 한국 수출과 내 주식 계좌까지 흔드는 변수예요"
+    tips:
+      - "희토류는 반도체·배터리 필수 원료예요. 중국이 세계 공급을 쥐고 있어요."
+
+  - id: i-g4
+    category: FX_WORLD
+    period_tier: yearly
+    date_label: "2026.2월 (판결)"
+    date_label_short: "26.2월"
+    event_at: "2026-02-15T09:00:00+09:00"
+    title: "미 대법원 \"트럼프식 일괄 관세는 위법\""
+    key_stats:
+      - { value: "위법", label: "상호관세의 법적 근거 부정", direction: flat }
+      - { value: "301조", label: "정부가 꺼낸 우회 카드", direction: flat }
+    visual_ids: [T9]
+    details:
+      - "대통령 긴급권한으로 매긴 일괄 상호관세가 위법이라고 미국 대법원이 판단했어요."
+      - "그러자 정부는 무역법 301조(불공정 무역 제재)를 근거로 관세를 다시 설계하기 시작했어요."
+    effect_rows:
+      - { label: "룰 변경", direction: info, text: "관세 게임의 룰이 바뀐 판결이에요. 이후 '강제노동 관세' 같은 새 방식이 나와요.", basis: "근거 · 한국 15% 합의도 재정비 대상 → 6월 12.5% 예고로 연결" }
+      - { label: "관세 지속", direction: info, text: "판결로 관세가 사라진 게 아니라, '명분을 바꾼 관세'가 계속돼요.", basis: "근거 · 301조 우회 설계 착수" }
+    impact_line: "대통령 권한도 법원이 멈출 수 있다는, 미국 시스템의 작동 사례예요"
+    tips:
+      - "관세 뉴스는 '철회'와 '명분 교체'를 구분해서 읽어야 해요."
+
+  - id: i-g5
+    category: FX_WORLD
+    period_tier: yearly
+    date_label: "2026.2.28(토)"
+    date_label_short: "2.28"
+    event_at: "2026-02-28T12:00:00+09:00"
+    title: "미국·이스라엘, 이란 기습 공습 — 전쟁이 시작됐어요"
+    key_stats:
+      - { value: "2.28", label: "전쟁 발발일", direction: flat }
+      - { value: "호르무즈 봉쇄", label: "이란의 반격 카드", direction: flat }
+    visual_ids: [TL2, C7]
+    steady_ids: [st-us-iran-war]
+    details:
+      - "미국과 이스라엘이 이란 전역을 기습 공습해 최고지도자 하메네이가 사망했어요."
+      - "이란은 세계 원유의 5분의 1이 지나는 호르무즈 해협을 봉쇄하며 맞섰어요."
+      - "이 전쟁이 지금까지도 세계 경제를 흔드는 가장 큰 변수예요."
+    effect_rows:
+      - { label: "유가·환율 ↑", direction: up, text: "올해 물가·환율·증시 급변동의 근원이 된 사건이에요.", basis: "근거 · 전쟁 발발 공식 = 유가↑ 금↑ 달러↑ 주식↓ 코인↓, 이번에도 그대로" }
+      - { label: "에너지 안보", direction: down, text: "한국은 원유·가스의 상당량을 이 해협으로 들여와요(가스 약 20%). 직격탄이에요.", basis: "근거 · 세계 해상 원유의 20%가 호르무즈 통과" }
+    impact_line: "먼 나라 전쟁이 내 밥값·기름값으로 이어지는 경로를 보여 줘요"
+    tips:
+      - "전쟁 발발 직후 시장 공식(유가↑ 금↑ 달러↑ 주식↓ 코인↓)을 기억해 두면 다음 위기 때 유용해요."
+
+  - id: i-g6
+    category: FX_WORLD
+    period_tier: yearly
+    date_label: "2026.3.9(월) 유가 정점"
+    date_label_short: "3.9"
+    event_at: "2026-03-09T12:00:00+09:00"
+    title: "유가 111달러·환율 1,562원 — 에너지 쇼크의 정점"
+    key_stats:
+      - { value: "111.24달러", label: "WTI — 전쟁 9일 만", direction: up }
+      - { value: "1,562원", label: "원·달러 52주 최고", direction: up }
+    visual_ids: [C6, C7]
+    steady_ids: [st-us-iran-war, st-rate-uturn]
+    details:
+      - "호르무즈 봉쇄 공포에 유가가 111달러까지 치솟았다가 하루 만에 20% 넘게 빠졌어요."
+      - "안전자산 달러로 돈이 몰리며 원화 가치는 52주 최저(1,562원)로 밀렸어요."
+    effect_rows:
+      - { label: "물가 시차 ↑", direction: up, text: "이때 뛴 에너지값이 두세 달 시차를 두고 5~6월 물가 3%대로 나타났어요.", basis: "근거 · 유가 → 물가 시차 2~3개월" }
+      - { label: "패닉 가격", direction: info, text: "유가가 하루 만에 111→88달러. '패닉 가격'이 얼마나 비이성적인지 보여 줘요.", basis: "근거 · 정점 다음 날 -20% 급락" }
+    impact_line: "환율이 오르면 해외직구·여행은 비싸지고, 달러 자산 가진 사람은 이득이에요"
+    tips:
+      - "기름값·수입물가·해외주식 환손익이 한꺼번에 움직인 날들이에요. 위기 때 자산들이 어떻게 연결되는지 보세요."
+
+  - id: i-g7
+    category: FX_WORLD
+    period_tier: monthly
+    date_label: "2026.6.2(화 · 미국 현지) 발표"
+    date_label_short: "6.2"
+    event_at: "2026-06-03T05:00:00+09:00"
+    title: "미국, 한국에 12.5% 추가 관세 예고 — 이유는 '강제노동'"
+    key_stats:
+      - { value: "+12.5%", label: "예고된 추가 관세율", direction: up }
+      - { value: "60개 경제권", label: "같은 조사 대상", direction: flat }
+    visual_ids: [T9]
+    details:
+      - "대법원 판결로 기존 관세 근거가 무너지자, 미국이 '강제노동 단속 미흡'을 이유로 새 관세를 꺼냈어요."
+      - "한국을 포함한 60개 경제권이 대상이고, 발표 당일 환율이 1,530원을 넘었어요."
+      - "워싱턴포스트조차 \"보호무역을 위한 새로운 꼼수\"라고 비판했어요."
+    effect_rows:
+      - { label: "수출주 위험", direction: down, text: "작년의 '15% 상한 합의'가 흔들려요. 수출주 투자 판단의 핵심 변수예요.", basis: "근거 · 발표 당일 환율 1,530원 돌파" }
+      - { label: "명분과 목적", direction: info, text: "명분(강제노동)과 실제 목적(보호무역)이 다를 수 있다는 걸 보여 주는 사례예요.", basis: "근거 · 같은 날 철강 파생제품 관세는 25→15%로 인하" }
+    impact_line: "정부는 \"합쳐도 15%를 넘지 않게\" 협상 중이에요. 확정 여부와 품목을 추적해야 해요"
+    tips:
+      - "관세는 올리기도, 내리기도 하는 협상 카드예요. 헤드라인 숫자만 보지 말고 품목을 보세요."
+
+  - id: i-g8
+    category: FX_WORLD
+    period_tier: monthly
+    date_label: "2026.6월 중순 (체결)"
+    date_label_short: "26.6월"
+    event_at: "2026-06-15T12:00:00+09:00"
+    title: "미국과 이란이 전쟁을 멈췄어요"
+    key_stats:
+      - { value: "MOU", label: "정식 조약이 아닌 '약속 문서'", direction: flat }
+      - { value: "-40%", label: "유가 하락 (3월 고점 → 6월 60달러대)", direction: down }
+    visual_ids: [C7, TL2]
+    steady_ids: [st-us-iran-war]
+    details:
+      - "미국과 이란이 종전 양해각서에 서명하며 넉 달 전쟁이 일단 멈췄어요."
+      - "다만 호르무즈 관리 방식을 두고 해석이 갈리는, 애매한 문서였어요."
+      - "트럼프는 \"일종의 시험\"이라며 공습 재개 가능성을 남겨 뒀어요."
+    effect_rows:
+      - { label: "시장 안도 ↑", direction: up, text: "유가·물가·증시가 동시에 안도한 이벤트예요. 코스피 9,000의 배경이에요.", basis: "근거 · 유가 3월 고점 대비 -40%" }
+      - { label: "되돌림 위험", direction: down, text: "실제로 한 달 만에 충돌이 재개돼요. '종전 랠리'에 올라탄 자산일수록 되돌림이 컸어요.", basis: "근거 · MOU는 법적 구속력이 약한 문서" }
+    impact_line: "'MOU'와 '조약'의 차이가 왜 중요한지 한 달 뒤 바로 드러나요"
+    tips:
+      - "다음에 '종전 합의' 뉴스를 보면 문서의 격(조약이냐 MOU냐)부터 확인하세요."
+
+  - id: i-g9
+    category: FX_WORLD
+    period_tier: monthly
+    date_label: "2026.7.6(월) 시행"
+    date_label_short: "7.6"
+    event_at: "2026-07-06T09:00:00+09:00"
+    title: "원·달러 시장, 평일 24시간 체제로 바뀌었어요"
+    key_stats:
+      - { value: "24시간", label: "평일 거래 시간 (주말 제외)", direction: flat }
+      - { value: "1,530.3원", label: "첫날 주간 종가", direction: flat }
+    visual_ids: [C6]
+    details:
+      - "서울 외환시장이 평일 내내 쉬지 않고 열리는 체제로 바뀌었어요."
+      - "외국인 투자 편의를 높여 원화의 국제적 위상을 올리려는 조치예요."
+    effect_rows:
+      - { label: "실시간 반영", direction: info, text: "밤사이 미국발 뉴스가 환율에 실시간 반영돼요. 아침 환율 점프가 줄어요.", basis: "근거 · 평일 24시간 거래 체제 시행" }
+      - { label: "환전 유연 ↑", direction: up, text: "새벽에도 환전 타이밍을 잡을 수 있게 됐어요.", basis: "근거 · 야간에도 시장가 형성" }
+    impact_line: "환율 뉴스의 '주간 종가(오후 3시 반)'와 '야간 시세'가 다를 수 있어요. 기준 시점을 확인하세요"
+    tips:
+      - "MSCI 선진국 지수 편입 등 '증시 승격' 노력과 같은 맥락의 제도 개편이에요."
+
+  - id: i-g10
+    category: FX_WORLD
+    period_tier: weekly
+    date_label: "2026.7.12~15 (봉쇄 재개: 7.15 새벽)"
+    date_label_short: "7.12~15"
+    event_at: "2026-07-15T05:00:00+09:00"
+    title: "호르무즈 충돌 격화 — 봉쇄 재개에 \"통행세 20%\"까지"
+    key_stats:
+      - { value: "6척", label: "해협 통과 선박 (5주 만의 최저)", direction: down }
+      - { value: "74 → 80달러", label: "이번 주 유가(WTI) 급등", direction: up }
+    visual_ids: [C7, TL2, T8]
+    steady_ids: [st-us-iran-war]
+    details:
+      - "이란이 유조선을 공격하자 미국이 이란 중서부까지 대규모 공습으로 답했어요."
+      - "미국은 대이란 해상봉쇄를 다시 시작했고, 해협 통과 선박에 \"화물 가치의 20% 통행세\"까지 예고했어요."
+      - "종전 양해각서는 사실상 무너졌고, 저강도 충돌이 일상이 될 거란 전망이 나와요."
+    effect_rows:
+      - { label: "기름값 ↑", direction: up, text: "기름값·전기요금·수입물가가 다시 오를 수 있어요. 다음 달 물가를 미리 보는 뉴스예요.", basis: "근거 · 이번 주 유가 74 → 80달러, 통과 선박 5주 최저" }
+      - { label: "자산 변동 ↑", direction: up, text: "7.13 코스피 폭락, 7.17 코인 하락의 공통 배경이 바로 이거예요.", basis: "근거 · 같은 주 금·유가 상승, 주식·코인 하락" }
+      - { label: "가스 수급", direction: down, text: "한국 가스의 약 20%가 이 해협을 지나요. 정부가 수급 대책을 준비 중이에요.", basis: "근거 · 호르무즈 경유 LNG 비중 약 20%" }
+    impact_line: "주유비·전기요금·배송비가 다시 오를 수 있는 신호예요"
+    tips:
+      - "11월 미국 중간선거 전 전면전 가능성은 낮다는 분석이 많아요. 대신 '변동성의 일상화'에 대비해야 해요."

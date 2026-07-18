@@ -1,0 +1,124 @@
+# ============================================================================
+# onion MVP 스테디 이슈 4 — '시리즈물' 6블록 구조
+# ① definition 한 줄 정의 ② score 지금 스코어 3 ③ story 지금까지 줄거리
+# ④ timeline 세부 이슈 링크(최신이 위, hot 1개) ⑤ impact 나에게 미치는 영향
+# ⑥ next_up 다음 화 예고 체크리스트 + visual_ids 연결 시각자료
+# ============================================================================
+
+items:
+  - id: st-us-iran-war
+    icon: "🕌"
+    title: "미국-이란 전쟁"
+    tagline: "STEADY ISSUE 01 · 2026.2.28 ~ 진행 중"
+    definition: "미국·이스라엘이 이란을 공습해 시작된 전쟁이, 세계 기름길(호르무즈)을 볼모로 5개월째 이어지는 이야기예요."
+    score:
+      - { value: "WTI 약 80달러", label: "유가 (3월 정점 111달러)", direction: up }
+      - { value: "선박 6척", label: "호르무즈 통과량 — 5주 최저", direction: down }
+      - { value: "1,482원", label: "원·달러 (3월 고점 1,562원)", direction: flat }
+    story:
+      - "2월, 미국·이스라엘의 기습 공습으로 하메네이가 사망하고 전쟁이 터졌어요. 유가 111달러·환율 1,562원까지 갔어요."
+      - "4월 휴전, 6월 종전 문서(MOU)로 시장은 안도했고 코스피 9,000의 배경이 됐어요."
+      - "그런데 7월, 호르무즈에서 충돌이 재개됐어요. 미국은 봉쇄를 다시 걸고 \"통행세 20%\"까지 꺼냈어요."
+    timeline:
+      - { date_label: "7.12~15", text: "호르무즈 격화·봉쇄 재개·통행세 20%", links: [{ issue_id: i-g10 }, { issue_id: i-b8, label: "코인 하락(7.17)" }], hot: true }
+      - { date_label: "7.14", text: "미국 6월 물가 3.5% (유가 하락 반영)", links: [{ issue_id: i-p7 }] }
+      - { date_label: "6월 중순", text: "종전 양해각서 체결 → 코스피 9,000(6.18)", links: [{ issue_id: i-g8 }, { issue_id: i-s6, label: "코스피 9,000" }] }
+      - { date_label: "5~6월", text: "한국 물가 3%대 진입", links: [{ issue_id: i-p4 }] }
+      - { date_label: "3.9", text: "유가 111달러·환율 1,562원 / 증시 전쟁 쇼크", links: [{ issue_id: i-g6 }, { issue_id: i-s3, label: "증시 쇼크" }] }
+      - { date_label: "2.28", text: "공습·하메네이 사망 — 전쟁 발발", links: [{ issue_id: i-g5 }] }
+    impact:
+      - "유가 → 물가 → 금리의 첫 도미노예요. 이 전쟁이 대출금리까지 밀어 올리고 있어요."
+      - "기름값·환율(여행·직구)·증시 변동성이 전부 이 이슈 하나에 물려 있어요."
+    next_up:
+      - "\"호르무즈 통과 선박 증가/전면 봉쇄\" — 유가 방향 결정"
+      - "\"미-이란 협상 재개\" — 안도 랠리 가능"
+      - "\"이란, 걸프국·유조선 추가 공격\" — 유가 100달러 재도전 위험"
+    visual_ids: [TL2, C7, C6, T8]
+
+  - id: st-kospi-rally
+    icon: "📈"
+    title: "코스피 슈퍼랠리, 그리고 7월 폭락"
+    tagline: "STEADY ISSUE 02 · 2025.10 ~ 진행 중"
+    definition: "코스피가 8개월 만에 4,000에서 9,385까지 2배가 됐다가, 3주 만에 27% 무너진 롤러코스터 이야기예요."
+    score:
+      - { value: "7,284", label: "현재 지수 (7.15)", direction: flat }
+      - { value: "-22%", label: "사상 최고(9,385) 대비", direction: down }
+      - { value: "7회", label: "올해 서킷브레이커 (역대 13회 중)", direction: up }
+    story:
+      - "반도체 슈퍼사이클을 연료로 코스피가 매달 1,000포인트씩 계단을 올랐어요. 4,000(10월) → 9,000(6월), 올해만 +115%로 G20 1위였어요."
+      - "삼전·하이닉스 2배 레버리지 ETF에 개인 돈 8조 원이 몰릴 만큼 과열됐어요."
+      - "7.13, 반도체 버블 경계감에 하루 -8.95% 폭락하며 축제가 멈췄어요. 지금은 급등락을 반복 중이에요."
+    timeline:
+      - { date_label: "7.13", text: "-8.95% 폭락·서킷브레이커 (→7.15 +6.24% 반등)", links: [{ issue_id: i-s8 }], hot: true }
+      - { date_label: "7.10", text: "SK하이닉스 나스닥 ADR 상장 (역대 최대 공모)", links: [{ issue_id: i-s7 }] }
+      - { date_label: "6.18", text: "사상 첫 9,000 돌파 — 시총 7,413조", links: [{ issue_id: i-s6 }] }
+      - { date_label: "5.6 / 5.26", text: "7,000·8,000 연속 돌파 — 레버리지 열풍", links: [{ issue_id: i-s4 }] }
+      - { date_label: "3~4월", text: "전쟁 쇼크 급락 → V자 회복", links: [{ issue_id: i-s3 }] }
+      - { date_label: "1.27 · 25.10.27", text: "5,000 돌파 · 4,000 첫 돌파", links: [{ issue_id: i-s2, label: "5,000" }, { issue_id: i-s1, label: "4,000" }] }
+    impact:
+      - "연금·펀드 수익률이 1년 새 급등→급락을 다 겪었어요. 지금은 '지키는 전략'을 점검할 때예요."
+      - "올해 주식을 시작한 사람일수록 고점 근처 진입이에요. 레버리지·빚투 여부가 생존을 갈라요."
+    next_up:
+      - "\"외국인 순매수 복귀\" — 반등의 최우선 조건"
+      - "\"레버리지 ETF 규제 확정\" — 변동성 완화 여부"
+      - "\"삼성·하이닉스 3분기 실적 전망\" — 랠리 재개 vs 피크아웃 판정"
+    visual_ids: [C3, T3, T6]
+
+  - id: st-ai-chips
+    icon: "🤖"
+    title: "AI·반도체 슈퍼사이클과 버블 논쟁"
+    tagline: "STEADY ISSUE 03 · 2025.7 ~ 진행 중"
+    definition: "AI가 만든 사상 최대 반도체 호황이, 이제 \"진짜 실력이냐 거품이냐\" 시험대에 오른 이야기예요."
+    score:
+      - { value: "89.4조 원", label: "삼성전자 2분기 영업이익 (세계 1위)", direction: up }
+      - { value: "5.02조 달러", label: "엔비디아 시총 (고점 5.73조)", direction: down }
+      - { value: "+51%", label: "하이닉스 ADR 프리미엄 (7.14)", direction: up }
+    story:
+      - "테슬라 수주(25.7)와 오픈AI 협력(25.10)으로 한국 반도체가 AI 붐의 중심이 됐어요. 메모리 값이 뛰며 삼성은 분기마다 기록을 새로 썼어요."
+      - "엔비디아는 시총 5조 달러를 처음 넘었고, 하이닉스는 나스닥까지 진출했어요."
+      - "그런데 7월, \"실적이 좋아도 주가가 너무 비싸다\"는 경계감에 한미 반도체주가 동반 급락했어요."
+    timeline:
+      - { date_label: "7.16", text: "TSMC 호실적에도 반도체주 급락", links: [{ issue_id: i-a8 }], hot: true }
+      - { date_label: "7.13", text: "코스피 폭락 — 삼전 -10.7%, 하이닉스 -15.4%", links: [{ issue_id: i-s8 }] }
+      - { date_label: "7.7~8", text: "삼성 영업익 89.4조 · 엔비디아 시총 1조 달러 증발", links: [{ issue_id: i-a6, label: "삼성 89.4조" }, { issue_id: i-a7, label: "엔비디아 -1조 달러" }] }
+      - { date_label: "7.10", text: "하이닉스 ADR 상장", links: [{ issue_id: i-s7 }] }
+      - { date_label: "5.14", text: "엔비디아 사상 최고 (5.73조 달러)", links: [{ issue_id: i-a5 }] }
+      - { date_label: "25.10~26.1", text: "오픈AI 협력 · 엔비디아 5조 달러 · 삼성 최대 실적 행진", links: [{ issue_id: i-a2, label: "오픈AI" }, { issue_id: i-a3, label: "5조 달러" }, { issue_id: i-a4, label: "최대 실적" }] }
+      - { date_label: "25.7.28", text: "삼성-테슬라 22.8조 계약", links: [{ issue_id: i-a1 }] }
+    impact:
+      - "반도체는 한국 수출·세수·증시의 엔진이에요. 이 사이클의 수명이 곧 한국 경제의 하반기예요."
+      - "관련 학과·직군 채용과 국민 대다수가 보유한 삼전 주가가 여기 걸려 있어요."
+    next_up:
+      - "\"엔비디아 실적 발표(8.26)\" — AI 수요의 공식 성적표"
+      - "\"메모리 가격 하락 전환\" — 슈퍼사이클 피크아웃 신호"
+      - "\"삼성 확정 실적·사업부별 숫자(7월 말)\" — 89.4조의 내용 검증"
+    visual_ids: [C4, C8, T6]
+
+  - id: st-rate-uturn
+    icon: "💰"
+    title: "물가 쇼크와 금리 U턴"
+    tagline: "STEADY ISSUE 04 · 2025.9 ~ 진행 중"
+    definition: "\"금리 내리는 시대\"가 전쟁발 물가 때문에 끝나고, 미국도 한국도 핸들을 인상 쪽으로 꺾은 이야기예요."
+    score:
+      - { value: "韓 2.75%", label: "기준금리 (7.16 인상)", direction: up }
+      - { value: "美 3.50~3.75%", label: "기준금리 (연말 전망 3.8%)", direction: flat }
+      - { value: "3.2% / 3.5%", label: "한·미 6월 물가", direction: up }
+    story:
+      - "미국은 작년 9~12월 금리를 세 번 내렸어요. 시장은 \"계속 내리겠지\"라며 자산을 사들였어요."
+      - "그런데 2월 전쟁으로 에너지값이 뛰며 물가가 다시 3~4%대로 올라왔어요."
+      - "새 연준 의장 워시는 \"물가부터\"를 외치고, 한국은행은 7.16에 3년 6개월 만의 인상을 단행했어요. 이제 방향은 위쪽이에요."
+    timeline:
+      - { date_label: "7.16", text: "한국은행 인상 — 2.75%, \"인상 기조 계속\"", links: [{ issue_id: i-r8 }], hot: true }
+      - { date_label: "7.14", text: "워시 의회 증언 · 미국 물가 3.5% 둔화 · 최저임금 +3.7%", links: [{ issue_id: i-r7, label: "워시 증언" }, { issue_id: i-p7, label: "미 물가" }, { issue_id: i-p8, label: "최저임금" }] }
+      - { date_label: "7.2", text: "한국 6월 물가 3.2% — 30개월 최고", links: [{ issue_id: i-p5 }] }
+      - { date_label: "6.17", text: "워시 첫 FOMC — \"연내 인상 가능\"", links: [{ issue_id: i-r6 }] }
+      - { date_label: "5~6월", text: "한국 물가 3%대 진입 · 신현송 총재 인상 예고", links: [{ issue_id: i-p4, label: "물가 3%대" }, { issue_id: i-r5, label: "총재 예고" }] }
+      - { date_label: "25.9~12", text: "미국 3연속 인하 → 그게 마지막이었어요", links: [{ issue_id: i-r1, label: "3연속 인하" }, { issue_id: i-r2, label: "마지막 인하" }] }
+    impact:
+      - "변동금리 대출 이자가 올라요. 반대로 예금·채권 투자엔 기회가 열려요."
+      - "\"금리 인상기 = 주식·코인 역풍\"이 기본 공식이에요. 현금 비중의 가치가 커지는 시기예요."
+    next_up:
+      - "\"7.28~29 FOMC\" — 미국이 실제로 올리는지 (하반기 최대 이벤트)"
+      - "\"8월 한국은행 금통위\" — 연속 인상 여부"
+      - "\"7월 물가 (유가 80달러 반영)\" — 재가속 vs 둔화"
+    visual_ids: [C1, C2]

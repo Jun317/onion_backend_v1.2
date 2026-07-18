@@ -55,6 +55,8 @@ jobs:
           mkdir -p /tmp/site
           cp front/index.html /tmp/site/
           [ -d out ] && cp -r out /tmp/site/out || true
+          # MVP 큐레이션 패키지 (out_mvp 는 main 에 커밋된 정적 산출 — 매시 force-push 에서 보존)
+          [ -d out_mvp ] && cp -r out_mvp /tmp/site/out_mvp || true
           cd /tmp/site
           git init -b gh-pages
           git config user.name "onion-bot"
