@@ -121,8 +121,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-18T00:15:45.657045+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-18T03:40:57.988236+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -135,26 +135,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"보잉 투자\",\n   \"one_liner\": \"보잉에 투자하는 기업과 전문가들이 늘고 있어요\",\n   \"why_now\": \"보잉의 신형 비행기 생산이 잘되고 있어요\",\n   \"impact_line\": \"항공 여행이 편해질 수 있어요\",\n   \"details\": [\n      \"보잉에 새로운 투자가 들어왔어요\",\n      \"전문가들이 보잉의 주가 상승에 감탄했어요\",\n      \"보잉의 신형 비행기 생산이 잘되고 있어요\",\n      \"에어 뉴질랜드가 보잉 777의 새로운 객실을 공개했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"보잉의 주가가 더 오를 수 있어요!\",\n      \"항공 여행이 더 편해질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [487000.0]"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Vantage Investment…",
-   "one_liner": "Vantage Investment Partners LLC Makes New $487 ,…",
-   "why_now": null,
+   "title": "보잉 투자",
+   "one_liner": "보잉에 투자하는 기업과 전문가들이 늘고 있어요",
+   "why_now": "보잉의 신형 비행기 생산이 잘되고 있어요",
    "details": [
-    "Vantage Investment Partners LLC Makes New $487 , 000 Investment in The Boeing Company $BA",
-    "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
-    "The Boeing Company $BA Shares Acquired by SteelPeak Wealth LLC"
+    "보잉에 새로운 투자가 들어왔어요",
+    "전문가들이 보잉의 주가 상승에 감탄했어요",
+    "보잉의 신형 비행기 생산이 잘되고 있어요",
+    "에어 뉴질랜드가 보잉 777의 새로운 객실을 공개했어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "보잉의 주가가 더 오를 수 있어요!",
+    "항공 여행이 더 편해질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "f95b633f9db8962ae3effab80abae1a84d02d8cc"
  },

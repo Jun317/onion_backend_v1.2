@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-18T00:18:31.848763+00:00",
+  "created_at": "2026-07-18T03:43:39.798223+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,8 +64,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"마이크로소프트 주가\",\n   \"one_liner\": \"마이크로소프트의 주가가 7월 29일 이후 급등할 것이라는 예측이 나왔어요\",\n   \"why_now\": \"마이크로소프트의 브라우저 전략이 다시 한번 주목을 받고 있어요\",\n   \"impact_line\": \"마이크로소프트의 브라우저 사용이 증가할 수 있어요\",\n   \"details\": [\n       \"마이크로소프트의 주가가 7월 29일 이후 급등할 것이라는 예측이 나왔어요\",\n       \"마이크로소프트의 브라우저 전략이 다시 한번 주목을 받고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"마이크로소프트의 브라우저 사용이 증가하면 인터넷 사용자들에게 더 많은 선택지가 생길 수 있어요!\",\n       \"마이크로소프트의 주가가 상승하면 투자자들에게 기회가 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -87,8 +93,8 @@
   "fact_hash": "7eebe52ce7e2f00e3382e6283794550b0c4a6355"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-18T00:18:31.848704+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-18T03:43:39.798165+00:00"
  },
  "glossary": [],
  "related": [
