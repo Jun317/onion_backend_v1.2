@@ -53,8 +53,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-18T12:12:06.899338+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-18T15:29:29.071446+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,25 +64,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"오라클 주가 하락\",\n\"one_liner\": \"오라클 주가가 금요일에 하락했어요.\",\n\"why_now\": \"증권 전문가가 특정 기업의 주식 매도를 권고하면 투자자들의 관심이 쏠리곤 해요.\",\n\"impact_line\": \"오라클 주식에 투자한 사람들의 자산 가치가 줄어들 수 있어요.\",\n\"details\": [\n\"증권 전문가 짐 크레이머가 오라클 주식 매도를 권고했어요.\",\n\"그는 은행, 제약, 반도체 관련 주식에 투자하는 것이 좋다고 말했어요.\",\n\"오라클은 뉴욕 증권거래소에 상장된 기업이에요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"오라클 주식에 투자한 사람들의 자산 가치가 줄어들 수 있어요!\",\n\"투자자들은 은행, 제약, 반도체 관련 주식으로 관심을 옮길 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"주식\",\n\"easy\": \"회사의 소유권을 나누어 놓은 증서예요. 사고팔 수 있어요.\",\n\"example\": \"주식 시장이 좋으면 내 주식 가치도 오를 수 있어요.\"\n},\n{\n\"term\": \"증권 전문가\",\n\"easy\": \"주식이나 채권 등 투자 상품에 대해 조언해주는 사람이에요.\",\n\"example\": \"증권 전문가의 조언을 듣고 주식 투자를 결정했어요.\"\n}\n],\n\"impact_line\": \"오라클 주식에 투자한 사람들의 자산 가치가 줄어들 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Jim Cramer Urges…",
-   "one_liner": "Jim Cramer Urges Investors To Sell Oracle ( NYSE…",
-   "why_now": null,
+   "title": "오라클 주가 하락",
+   "one_liner": "오라클 주가가 금요일에 하락했어요.",
+   "why_now": "증권 전문가가 특정 기업의 주식 매도를 권고하면 투자자들의 관심이 쏠리곤 해요.",
    "details": [
-    "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
-    "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )"
+    "증권 전문가 짐 크레이머가 오라클 주식 매도를 권고했어요.",
+    "그는 은행, 제약, 반도체 관련 주식에 투자하는 것이 좋다고 말했어요.",
+    "오라클은 뉴욕 증권거래소에 상장된 기업이에요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "오라클 주식에 투자한 사람들의 자산 가치가 줄어들 수 있어요!",
+    "투자자들은 은행, 제약, 반도체 관련 주식으로 관심을 옮길 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "c79a0e2cac7d8636a653525313c4773d05e62c16"
  },
