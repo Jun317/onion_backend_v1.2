@@ -223,8 +223,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-18T09:15:23.229824+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-18T13:55:37.087400+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -237,25 +237,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"생활비 부담 증가\",\n  \"one_liner\": \"미국 주민들의 식료품과 주거비 부담이 커지고 있어요.\",\n  \"why_now\": \"생활비가 오르면 가계 지출이 늘어나고 소비가 줄어들 수 있어요.\",\n  \"impact_line\": \"장바구니 물가가 올라 식료품 구매 부담이 커질 수 있어요.\",\n  \"details\": [\n    \"미국 주민 3명 중 2명은 식료품 가격이 너무 비싸다고 생각해요.\",\n    \"콜로라도 주민 4명 중 3명은 이곳에서 살기 어렵다고 걱정해요.\",\n    \"정치권에서는 생활비 문제를 두고 논쟁이 이어지고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"생활비 부담이 커지면 소비가 줄어 경제 성장이 둔화될 수 있어요!\",\n    \"정부와 정치권에서 생활비 부담을 낮추기 위한 정책 논의가 활발해질 수 있어요!\"\n  ],\n  \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects[0] 느낌표 종결 아님",
+     "effects[1] 느낌표 종결 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Supervisors back…",
-   "one_liner": "Supervisors back Lurie plan to cut affordable…",
-   "why_now": null,
+   "title": "생활비 부담 증가",
+   "one_liner": "미국 주민들의 식료품과 주거비 부담이 커지고 있어요.",
+   "why_now": "생활비가 오르면 가계 지출이 늘어나고 소비가 줄어들 수 있어요.",
    "details": [
-    "Supervisors back Lurie plan to cut affordable housing fees | Politics",
-    "Left - leaning group says state faces affordability crisis",
-    "Trump Claims  Affordability  Is a Fake Word Invented by Democrats in Heated White House Address"
+    "미국 주민 3명 중 2명은 식료품 가격이 너무 비싸다고 생각해요.",
+    "콜로라도 주민 4명 중 3명은 이곳에서 살기 어렵다고 걱정해요.",
+    "정치권에서는 생활비 문제를 두고 논쟁이 이어지고 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "생활비 부담이 커지면 소비가 줄어 경제 성장이 둔화될 수 있어요!",
+    "정부와 정치권에서 생활비 부담을 낮추기 위한 정책 논의가 활발해질 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "2e5b29ec06344dfdb78cd8ecaf9801a5ae281c3c"

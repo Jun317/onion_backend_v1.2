@@ -105,48 +105,51 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-18T10:46:01.450977+00:00",
+  "created_at": "2026-07-18T13:56:03.411938+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
+    "China megaprojects transformed Ivory Coast . Now it own role is changing",
+    "China and DPRK eye closer party ties , cooperation",
     "China smartphone makers turn to agentic AI as device sales slow",
+    "France and Germany plan  roadmap  to tackle China trade imbalances",
     "China hits out at British Steel nationalisation"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"중국 스마트폰 판매 부진\", \"one_liner\": \"중국 스마트폰 회사들이 판매 부진에 대응해 인공지능 기술을 활용하고 있어요.\", \"why_now\": \"스마트폰 판매가 줄면 관련 산업 전반에 어려움이 생길 수 있어요.\", \"impact_line\": \"새 스마트폰 구매 시 인공지능 기능이 더 중요해질 수 있어요.\", \"details\": [\"중국 스마트폰 회사들이 기기 판매 부진을 겪고 있어요.\", \"이에 따라 인공지능 기술을 활용하는 방향으로 나아가고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"스마트폰 판매가 늘지 않으면 관련 부품 회사들의 실적도 나빠질 수 있어요!\", \"새로운 인공지능 기능이 스마트폰 구매를 유도할 수 있을 것으로 예상돼요!\"], \"glossary\": [{\"term\": \"AI\", \"easy\": \"인공지능은 컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\", \"example\": \"인공지능 스피커는 사람의 말을 알아듣고 답을 해줘요.\"}]}",
+  "raw_response": "{\n\"title\": \"중국 관련 경제 뉴스\",\n\"one_liner\": \"중국과 관련된 여러 경제 뉴스가 나왔어요.\",\n\"why_now\": \"중국의 경제 활동은 전 세계에 큰 영향을 미치기 때문에 관련 소식을 아는 것이 중요해요.\",\n\"impact_line\": null,\n\"details\": [\n\"중국의 대규모 프로젝트가 코트디부아르를 변화시켰어요.\",\n\"중국과 북한이 당 차원의 교류와 협력을 강화할 것으로 보여요.\",\n\"중국 스마트폰 제조사들이 기기 판매 부진에 따라 인공지능 기술에 집중하고 있어요.\",\n\"프랑스와 독일은 중국과의 무역 불균형 해소를 위한 계획을 세우고 있어요.\",\n\"중국이 영국의 철강 국유화에 대해 비판적인 입장을 보였어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [],\n\"glossary\": [\n{\n\"term\": \"인공지능\",\n\"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n\"example\": \"인공지능 스피커는 사람의 말을 알아듣고 음악을 틀어줘요.\"\n},\n{\n\"term\": \"무역 불균형\",\n\"easy\": \"한 나라가 다른 나라에 물건을 팔고 사는 것의 차이가 너무 큰 상태를 말해요.\",\n\"example\": \"한국이 미국에 물건을 많이 팔고 적게 사면 무역 불균형이 생길 수 있어요.\"\n},\n{\n\"term\": \"국유화\",\n\"easy\": \"나라가 개인이나 회사가 가지고 있던 사업체를 사들여 직접 운영하는 것을 말해요.\",\n\"example\": \"나라가 중요하다고 생각하는 에너지 회사를 국유화할 수 있어요.\"\n}\n]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "details 3문장 미만",
-     "effects[1] 느낌표 종결 아님"
+     "effects 1~2문장 아님"
     ]
    },
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "details 3문장 미만"
+     "effects 1~2문장 아님"
     ]
    }
   ],
   "output": {
-   "title": "China smartphone…",
-   "one_liner": "China smartphone makers turn to agentic AI as…",
+   "title": "China megaprojects…",
+   "one_liner": "China megaprojects transformed Ivory Coast . Now…",
    "why_now": null,
    "details": [
-    "China smartphone makers turn to agentic AI as device sales slow",
-    "China hits out at British Steel nationalisation"
+    "China megaprojects transformed Ivory Coast . Now it own role is changing",
+    "China and DPRK eye closer party ties , cooperation",
+    "China smartphone makers turn to agentic AI as device sales slow"
    ],
    "effects": [],
    "visual_type": "wti"
   },
-  "fact_hash": "adefb6c2180accea5e93540fdbff39aceccdafb1"
+  "fact_hash": "f9f4c93ca21466e6e8e074c215c970035ec21cf7"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-07-18T10:46:01.450797+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}]}",
+  "at": "2026-07-18T13:56:03.411794+00:00"
  },
  "glossary": [],
  "related": [
