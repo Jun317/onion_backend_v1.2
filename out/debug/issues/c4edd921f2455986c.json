@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 65,
- "importance": 85,
+ "importance": 80,
  "created_at": "2026-07-16T06:38:34.931047+00:00",
  "last_update": "2026-07-17T11:47:42.431334+00:00",
  "members": [
@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-18T09:06:39.858703+00:00",
+  "created_at": "2026-07-18T12:13:40.640401+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,20 +881,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"미국 정치권 고령화 심화\", \"one_liner\": \"미국 정치권의 고령화가 심화되고 있다는 분석이 나왔어요.\", \"why_now\": \"정치인의 평균 나이가 높아지면 새로운 정책이나 변화에 대한 의지가 약해질 수 있어요.\", \"impact_line\": \"정치권의 변화가 더뎌지면서 국민들의 삶에 필요한 정책 도입이 늦어질 수 있어요.\", \"details\": [\"미국 정치권의 고령화가 이전보다 심화되고 있다는 분석이 나왔습니다.\", \"정치인들의 평균 나이가 높아지는 현상이 두드러지고 있습니다.\", \"이는 정치권의 변화에 대한 의지가 약해질 수 있다는 우려를 낳고 있습니다.\"], \"visual_type\": \"none\", \"effects\": [\"정치권의 변화가 더뎌지면서 국민들의 삶에 필요한 정책 도입이 늦어질 수 있어요!\", \"새로운 세대의 목소리가 정치에 반영되기 어려워질 수 있어요!\"], \"glossary\": [{\"term\": \"고령화\", \"easy\": \"젊은 사람보다 나이 많은 사람이 많아지는 현상을 말해요.\", \"example\": \"우리나라의 고령화가 심각해서 노인 복지 예산이 늘고 있어요.\"}], \"impact_line\": \"정치권의 변화가 더뎌지면서 국민들의 삶에 필요한 정책 도입이 늦어질 수 있어요.\"}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "effects 1~2문장 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details[0] 어요체 아님",
-     "details[1] 어요체 아님",
-     "details[2] 어요체 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -913,8 +905,8 @@
   "fact_hash": "4fda1d1b5b8bb0dcfd743ae6db3a34ed4a420676"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\"]}]}",
-  "at": "2026-07-18T09:06:39.858626+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-18T12:13:40.640340+00:00"
  },
  "glossary": [],
  "related": [

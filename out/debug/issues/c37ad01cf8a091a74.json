@@ -7,15 +7,46 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
+  "FED",
   "IMF",
   "SEC",
   "TSLA"
  ],
- "seen_sources": 22,
+ "seen_sources": 25,
  "importance": 150,
  "created_at": "2026-07-08T00:19:07.470838+00:00",
- "last_update": "2026-07-18T10:45:38.171787+00:00",
+ "last_update": "2026-07-18T12:10:48.727968+00:00",
  "members": [
+  {
+   "id": "d167b66aa2bcb99107c4afa67d0fd824c7018cf9",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/healthcare/articles/mom-no-savings-needs-assisted-101000179.html",
+   "title": "My mom has no savings , but needs assisted living . Are Social Security and Medicaid enough ?",
+   "published_at": "2026-07-18T10:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8387
+  },
+  {
+   "id": "ae4dd5a540b6d9394cb5ff3202fe9b1d3c867968",
+   "source": "finanznachrichten.de",
+   "tier": "wire",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69062086-ecopetrol-s-a-ecopetrol-reports-cybersecurity-incident-008.htm",
+   "title": "Ecopetrol S . A .: Ecopetrol Reports Cybersecurity Incident",
+   "published_at": "2026-07-18T10:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8254
+  },
+  {
+   "id": "5bead51f55d77d599fe92419eea5f280aa3e3eb6",
+   "source": "irishdentist.ie",
+   "tier": "wire",
+   "url": "https://www.irishdentist.ie/the-eu-has-killed-the-auto-sector/20311/",
+   "title": "The EU has killed the auto sector - IrishDentist . ie",
+   "published_at": "2026-07-18T10:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8587
+  },
   {
    "id": "498a2e548b3aaf5d34f13b9753a121a41955bb6f",
    "source": "fool.com",
@@ -95,6 +126,16 @@
    "published_at": "2026-07-18T05:45:00+00:00",
    "is_dup": 0,
    "sim_to_centroid": 0.8279
+  },
+  {
+   "id": "41ffb3574c757c26187c5e4e715018af57a121ad",
+   "source": "turnto23.com",
+   "tier": "wire",
+   "url": "https://www.turnto23.com/us-news/fed-probe-suggests-teslas-self-driving-feature-wasnt-to-blame-in-crash-that-killed-a-grandmother",
+   "title": "Fed probe suggests Tesla self - driving feature wasnt to blame in deadly crash",
+   "published_at": "2026-07-17T21:00:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.8316
   },
   {
    "id": "48f82d34ed4fba4d62c484105e57cc5fd5a05f3e",
@@ -421,6 +462,27 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "My mom has no savings , but needs assisted living . Are Social Security and Medicaid enough ?",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/healthcare/articles/mom-no-savings-needs-assisted-101000179.html",
+   "at": "2026-07-18T10:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Ecopetrol S . A .: Ecopetrol Reports Cybersecurity Incident",
+   "source": "finanznachrichten.de",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-07/69062086-ecopetrol-s-a-ecopetrol-reports-cybersecurity-incident-008.htm",
+   "at": "2026-07-18T10:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "The EU has killed the auto sector - IrishDentist . ie",
+   "source": "irishdentist.ie",
+   "url": "https://www.irishdentist.ie/the-eu-has-killed-the-auto-sector/20311/",
+   "at": "2026-07-18T10:30:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Tesla Just Posted Its Best Second Quarter Deliveries Ever . Here the 1 Number That Will Actually Move the Stock on July 22 .",
    "source": "fool.com",
    "url": "https://www.fool.com/investing/2026/07/18/tesla-just-posted-its-best-second-quarter-ever-her/",
@@ -487,6 +549,13 @@
    "title": "IMF confirms UAE economy exceptional resilience , proactive readiness , continued financial sector growth",
    "source": "europesun.com",
    "url": "http://www.europesun.com/news/279194329/imf-confirms-uae-economy-exceptional-resilience-proactive-readiness-continued-financial-sector-growth",
+   "at": "2026-07-17T21:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Fed probe suggests Tesla self - driving feature wasnt to blame in deadly crash",
+   "source": "turnto23.com",
+   "url": "https://www.turnto23.com/us-news/fed-probe-suggests-teslas-self-driving-feature-wasnt-to-blame-in-crash-that-killed-a-grandmother",
    "at": "2026-07-17T21:00:00+00:00"
   },
   {
@@ -702,7 +771,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-18T09:04:44.601338+00:00",
+  "created_at": "2026-07-18T12:10:52.734420+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -715,7 +784,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"IMF, 인도 경제 성장률 전망 하향\",\n  \"one_liner\": \"IMF가 인도의 올해 경제 성장률 전망치를 6.4%로 낮췄어요.\",\n  \"why_now\": \"인도 경제 성장률은 세계 경제의 중요한 지표 중 하나이기 때문이에요.\",\n  \"impact_line\": \"인도 경제 상황에 따라 국내 기업들의 수출에도 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"IMF는 인도의 올해 경제 성장률 전망치를 6.4%로 예상했어요.\",\n    \"하지만 여전히 세계 주요 경제국 중 가장 빠르게 성장할 것으로 보기도 해요.\",\n    \"이는 인도 국내의 긍정적인 수요가 뒷받침하고 있기 때문이에요.\",\n    \"IMF는 파키스탄의 경제 성장률 전망치도 3.5~3.7%로 낮췄어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"인도 경제 성장률 둔화는 전 세계 경제에 영향을 줄 수 있어요!\",\n    \"인도 내수 시장 위축은 관련 상품 수출 기업들의 실적에 부담을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"IMF\",\n      \"easy\": \"국제통화기금으로, 세계 경제 안정을 위해 나라 간 협력을 돕는 국제기구예요.\",\n      \"example\": \"IMF는 나라별 경제 상황을 분석하고 전망을 발표해요.\"\n    },\n    {\n      \"term\": \"GDP\",\n      \"easy\": \"나라 안에서 생산된 모든 상품과 서비스의 시장 가치를 합한 것으로, 나라 경제 규모를 나타내요.\",\n      \"example\": \"GDP가 늘면 나라 경제가 성장했다고 볼 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n    \"title\": \"IMF, 인도 경제 성장 전망 하향\",\n    \"one_liner\": \"IMF가 인도의 올해 경제 성장 전망을 6.4%로 낮췄어요.\",\n    \"why_now\": \"인도는 세계에서 가장 빠르게 성장하는 경제 중 하나로 꼽히기 때문이에요.\",\n    \"impact_line\": \"인도 경제 성장 둔화는 한국 수출에도 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"IMF는 인도의 올해 경제 성장률 전망치를 6.4%로 예상했어요.\",\n        \"하지만 여전히 세계 주요 경제국 중 가장 빠른 성장세를 보일 것으로 전망했어요.\",\n        \"이는 인도 내수 시장의 강한 수요 덕분이에요.\",\n        \"IMF는 파키스탄의 성장 전망치도 3.5~3.7%로 낮췄어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"인도 경제 성장 둔화는 한국의 수출 기업 실적에 부정적인 영향을 줄 수 있어요!\",\n        \"인도 내수 시장의 소비가 줄면 한국 상품 수입도 감소할 가능성이 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"IMF\",\n            \"easy\": \"국제통화기금으로, 세계 경제 안정을 위해 나라 간 협력을 돕는 국제기구예요.\",\n            \"example\": \"IMF는 나라의 경제 상황을 분석하고 조언을 해주기도 해요.\"\n        },\n        {\n            \"term\": \"GDP\",\n            \"easy\": \"나라 안에서 생산된 모든 상품과 서비스의 시장 가치를 합한 것으로, 나라 경제 규모를 보여줘요.\",\n            \"example\": \"GDP가 늘면 나라 경제가 성장했다고 볼 수 있어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
@@ -746,7 +815,7 @@
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [3.5, 3.7, 6.4]\"]}]}",
-  "at": "2026-07-18T09:04:44.601146+00:00"
+  "at": "2026-07-18T12:10:52.734274+00:00"
  },
  "glossary": [
   {
@@ -761,8 +830,25 @@
    "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
    "category": "MACRO",
    "shared": [
+    "FED",
     "SEC",
     "TSLA"
+   ]
+  },
+  {
+   "id": "e77a7b1c911ca1d26",
+   "title": "미 연준 기준금리 변동 (3.62%)",
+   "category": "RATE",
+   "shared": [
+    "FED"
+   ]
+  },
+  {
+   "id": "e97a81ef1127b8815",
+   "title": "미 연준 기준금리 변동 (4.08%)",
+   "category": "RATE",
+   "shared": [
+    "FED"
    ]
   },
   {

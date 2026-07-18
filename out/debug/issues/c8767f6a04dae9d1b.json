@@ -70,8 +70,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-18T09:05:25.954475+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-18T12:11:48.265603+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -82,34 +82,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"미국 주요 은행 예금 금리\",\n\"one_liner\": \"미국 주요 은행들의 예금 금리가 공개되었어요.\",\n\"why_now\": \"예금 금리는 돈을 맡기면 얼마를 받을 수 있는지 알려주기 때문에 중요해요.\",\n\"impact_line\": \"어떤 은행에 돈을 맡길지 선택하는 데 도움이 될 수 있어요.\",\n\"details\": [\n\"체이스 은행, 뱅크 오브 아메리카, 씨티 은행 등 주요 은행들의 예금 금리가 2026년 7월 17일에 공개되었어요.\",\n\"이 정보는 예금 금리 비교에 도움을 줄 수 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [],\n\"glossary\": [\n{\n\"term\": \"CD rates\",\n\"easy\": \"은행에 일정 기간 돈을 맡기고 약속된 이자를 받는 예금 상품의 금리예요.\",\n\"example\": \"CD 금리가 높으면 돈을 맡기고 더 많은 이자를 받을 수 있어요.\"\n}\n],\n\"impact_line\": \"어떤 은행에 돈을 맡길지 선택하는 데 도움이 될 수 있어요.\"\n}",
+  "raw_response": "{\n  \"title\": \"미국 은행 이자\",\n   \"one_liner\": \"미국 주요 은행의 높은 예금 이자가 나왔어요\",\n   \"why_now\": \"은행 예금 이자가 높아지면 돈을 저축하기 더 좋아요\",\n   \"impact_line\": \"미국에서 돈을 저축할 기회가 늘어날 수 있어요\",\n   \"details\": [\n       \"체이스, 뱅크 오브 아메리카, 시티뱅크 등 주요 은행의 높은 예금 이자가 나왔어요\",\n       \"네비게이션 그룹이 뱅크 오브 아메리카의 주식을 많이 샀어요\",\n       \"웰스프론트 어드바이저스가 뱅크 오브 아메리카의 주식을 일부 팔았어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"은행 예금 이자가 높아져 저축이 더 유리해질 수 있어요!\",\n       \"은행의 수익성이 좋아져 더 많은 대출을 해줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Top CD rates from…",
-   "one_liner": "Top CD rates from major banks July 17 , 2026 :…",
-   "why_now": null,
+   "title": "미국 은행 이자",
+   "one_liner": "미국 주요 은행의 높은 예금 이자가 나왔어요",
+   "why_now": "은행 예금 이자가 높아지면 돈을 저축하기 더 좋아요",
    "details": [
-    "Top CD rates from major banks July 17 , 2026 : Chase CDs , Bank of America CDs , Citibank CDs , and more",
-    "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
-    "Wealthfront Advisers LLC Sells 8 , 715 Shares of Bank of America Corporation $BAC"
+    "체이스, 뱅크 오브 아메리카, 시티뱅크 등 주요 은행의 높은 예금 이자가 나왔어요",
+    "네비게이션 그룹이 뱅크 오브 아메리카의 주식을 많이 샀어요",
+    "웰스프론트 어드바이저스가 뱅크 오브 아메리카의 주식을 일부 팔았어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "은행 예금 이자가 높아져 저축이 더 유리해질 수 있어요!",
+    "은행의 수익성이 좋아져 더 많은 대출을 해줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "921dc727f284b97562a0f677c5d68ecb9771fdff"
  },
@@ -132,14 +125,14 @@
    "shared": []
   },
   {
-   "id": "c499660e9dfd764df",
-   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
+   "id": "c4e8e497777eba176",
+   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c4e8e497777eba176",
-   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
+   "id": "c499660e9dfd764df",
+   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
    "category": "MARKET",
    "shared": []
   },
