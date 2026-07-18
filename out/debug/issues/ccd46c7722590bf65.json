@@ -782,8 +782,8 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-17T19:39:03.521415+00:00",
+  "model": "template",
+  "created_at": "2026-07-18T06:28:26.422015+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -792,39 +792,36 @@
     "EXPLAINER - What changes under the united kingdom - EU Gibraltar agreement ?",
     "The Red Sea Risk Just Changed : A Real - Time Guide For Exposed Companies",
     "How Medical Upcoding Made People Look Sick , Increased Medicare Payments",
-    "5 Major Rule Changes For Student Loans Are Now In Effect , Here What They Do"
+    "Sluggish salary ? Why your recent  pay rise  might not feel like one"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"새로운 무역 협정 및 규정 발효\",\n\"one_liner\": \"인도와 영국 간의 무역 협정을 포함한 여러 새로운 규정이 발효되었어요.\",\n\"why_now\": \"새로운 규정은 물가, 대출 조건, 기업 운영 등에 영향을 줄 수 있어요.\",\n\"impact_line\": \"일부 품목의 가격이 달라지거나 대출 조건이 바뀔 수 있어요.\",\n\"details\": [\n\"인도와 영국 간의 새로운 무역 협정이 시작되었어요.\",\n\"영국과 유럽 연합 간의 지브롤터 관련 협정도 변경되었어요.\",\n\"홍해 지역의 위험 변화에 대한 실시간 안내가 나왔어요.\",\n\"의료 관련 규정 변경으로 메디케어 지불액이 늘어날 수 있어요.\",\n\"학생 대출에 대한 주요 규정 변경 5가지가 발효되었어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"일부 수입 물품의 가격이 달라질 수 있어요!\",\n\"학생 대출을 이용하는 사람들의 상환 조건이 바뀔 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"무역 협정\",\n\"easy\": \"나라와 나라 사이에 물건을 사고팔 때 지켜야 할 규칙을 정한 약속이에요.\",\n\"example\": \"한국과 미국의 무역 협정으로 자동차 관세가 낮아졌어요.\"\n},\n{\n\"term\": \"메디케어\",\n\"easy\": \"미국에서 노인이나 특정 질환을 가진 사람들을 위한 건강 보험 제도예요.\",\n\"example\": \"메디케어 제도가 바뀌면서 병원비 부담이 달라질 수 있어요.\"\n}\n],\n\"impact_line\": \"일부 품목의 가격이 달라지거나 대출 조건이 바뀔 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "새로운 무역 협정 및 규정 발효",
-   "one_liner": "인도와 영국 간의 무역 협정을 포함한 여러 새로운 규정이 발효되었어요.",
-   "why_now": "새로운 규정은 물가, 대출 조건, 기업 운영 등에 영향을 줄 수 있어요.",
+   "title": "India - UK trade…",
+   "one_liner": "India - UK trade deal takes effect : Who gains ,…",
+   "why_now": null,
    "details": [
-    "인도와 영국 간의 새로운 무역 협정이 시작되었어요.",
-    "영국과 유럽 연합 간의 지브롤터 관련 협정도 변경되었어요.",
-    "홍해 지역의 위험 변화에 대한 실시간 안내가 나왔어요.",
-    "의료 관련 규정 변경으로 메디케어 지불액이 늘어날 수 있어요.",
-    "학생 대출에 대한 주요 규정 변경 5가지가 발효되었어요."
+    "India - UK trade deal takes effect : Who gains , what getting cheaper and what changing",
+    "EXPLAINER - What changes under the united kingdom - EU Gibraltar agreement ?",
+    "The Red Sea Risk Just Changed : A Real - Time Guide For Exposed Companies"
    ],
-   "effects": [
-    "일부 수입 물품의 가격이 달라질 수 있어요!",
-    "학생 대출을 이용하는 사람들의 상환 조건이 바뀔 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "87f89c7b37659504e22be9cd243d4e667c63aa27"
+  "fact_hash": "494d30790fcdf3da341c91098bd239c476e03991"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-17T15:55:35.141604+00:00"
+  "at": "2026-07-18T06:28:26.421939+00:00"
  },
  "glossary": [],
  "related": [
@@ -841,6 +838,12 @@
    "shared": []
   },
   {
+   "id": "ca2ef2092a2aee42f",
+   "title": "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
    "id": "c326b0b11f6b34d1d",
    "title": "The Iran war could shape American policy for decades | JONAH GOLDBERG :",
    "category": "POLICY",
@@ -849,12 +852,6 @@
   {
    "id": "cf38973aa7e2574f7",
    "title": "US Senate Bill Could Hit India With Up To 100 % Tariffs Over Russian Oil Imports",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
-   "id": "cbfe3b568bcaaae8c",
-   "title": "Inside the Distributor Creating a New Route for Independent Artists",
    "category": "POLICY",
    "shared": []
   }

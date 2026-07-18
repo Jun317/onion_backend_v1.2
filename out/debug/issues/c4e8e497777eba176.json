@@ -9,11 +9,21 @@
  "entity_keys": [
   "LLY"
  ],
- "seen_sources": 3,
- "importance": 85,
+ "seen_sources": 4,
+ "importance": 100,
  "created_at": "2026-07-12T22:12:02.226969+00:00",
- "last_update": "2026-07-15T11:55:37.281914+00:00",
+ "last_update": "2026-07-18T06:26:36.446814+00:00",
  "members": [
+  {
+   "id": "809a1746b7631882a9ffca7821fe29092e2da486",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-july-16-211905936.html",
+   "title": "Stock Market Today , July 16 : AtaiBeckley Surges on Eli Lilly Acquisition Worth Up To $3 . 8 Billion",
+   "published_at": "2026-07-18T03:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.916
+  },
   {
    "id": "45a851ba419f2fdd90ba46340034a01d00230bc6",
    "source": "tickerreport.com",
@@ -22,7 +32,7 @@
    "title": "Bryn Mawr Trust Advisors LLC Sells 1 , 049 Shares of Eli Lilly and Company $LLY",
    "published_at": "2026-07-15T10:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9212
+   "sim_to_centroid": 0.9238
   },
   {
    "id": "c1dfa4a25395ba1cbfed0ac20d05ae787efdf15c",
@@ -32,7 +42,7 @@
    "title": "Is This Disturbing Trend Bad News for Eli Lilly in the Billion - Dollar Obesity Drug Market ?",
    "published_at": "2026-07-15T08:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8881
+   "sim_to_centroid": 0.8943
   },
   {
    "id": "2818f0fb1e10cfe08186c67f9bcab852ac3edea6",
@@ -42,7 +52,7 @@
    "title": "Eli Lilly and Company ( NYSE : LLY ) Receives Consensus Recommendation of  Moderate Buy  from Brokerages",
    "published_at": "2026-07-12T21:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9647
+   "sim_to_centroid": 0.9626
   },
   {
    "id": "0b165779add8447c9fd9fff7dbe0bc42cd1e281e",
@@ -52,11 +62,18 @@
    "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "published_at": "2026-07-12T20:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9675
+   "sim_to_centroid": 0.9653
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Stock Market Today , July 16 : AtaiBeckley Surges on Eli Lilly Acquisition Worth Up To $3 . 8 Billion",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-july-16-211905936.html",
+   "at": "2026-07-18T03:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Bryn Mawr Trust Advisors LLC Sells 1 , 049 Shares of Eli Lilly and Company $LLY",
@@ -87,12 +104,13 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-16T09:36:42.322662+00:00",
+  "model": "template",
+  "created_at": "2026-07-18T06:28:07.952436+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Stock Market Today , July 16 : AtaiBeckley Surges on Eli Lilly Acquisition Worth Up To $3 . 8 Billion",
     "Bryn Mawr Trust Advisors LLC Sells 1 , 049 Shares of Eli Lilly and Company $LLY",
     "Is This Disturbing Trend Bad News for Eli Lilly in the Billion - Dollar Obesity Drug Market ?",
     "Eli Lilly and Company ( NYSE : LLY ) Receives Consensus Recommendation of  Moderate Buy  from Brokerages",
@@ -100,49 +118,35 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"릴리 주식 거래 소식\",\n  \"one_liner\": \"여러 기관에서 릴리 주식을 사고팔고 있다는 소식이 있어요.\",\n  \"why_now\": \"회사의 주가가 오르내리는 데는 기관의 거래가 큰 영향을 줄 수 있어요.\",\n  \"impact_line\": \"주가 변동에 따라 투자에 영향을 받을 수 있어요.\",\n  \"details\": [\n    \"릴리 회사 주식을 일부 기관이 팔았어요.\",\n    \"다른 기관은 릴리 회사 주식을 더 많이 사들였어요.\",\n    \"증권사들은 릴리 회사에 대해 '사도 괜찮다'는 의견을 내고 있어요.\",\n    \"회사가 비만 치료제 시장에서 어떤 흐름을 보일지 주목하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"회사의 비만 치료제 관련 소식이 주가에 영향을 줄 수 있어요!\",\n    \"기관의 매수·매도 움직임에 따라 주가가 오르내릴 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"비만 치료제\",\n      \"easy\": \"체중 감량을 돕는 약을 말해요.\",\n      \"example\": \"비만 치료제는 건강 관리에 관심 있는 사람들이 많이 찾아요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "effects[1] 느낌표 종결 아님"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
    }
   ],
   "output": {
-   "title": "릴리 주식 거래 소식",
-   "one_liner": "여러 기관에서 릴리 주식을 사고팔고 있다는 소식이 있어요.",
-   "why_now": "회사의 주가가 오르내리는 데는 기관의 거래가 큰 영향을 줄 수 있어요.",
+   "title": "Stock Market Today ,…",
+   "one_liner": "Stock Market Today , July 16 : AtaiBeckley…",
+   "why_now": null,
    "details": [
-    "릴리 회사 주식을 일부 기관이 팔았어요.",
-    "다른 기관은 릴리 회사 주식을 더 많이 사들였어요.",
-    "증권사들은 릴리 회사에 대해 '사도 괜찮다'는 의견을 내고 있어요.",
-    "회사가 비만 치료제 시장에서 어떤 흐름을 보일지 주목하고 있어요."
+    "Stock Market Today , July 16 : AtaiBeckley Surges on Eli Lilly Acquisition Worth Up To $3 . 8 Billion",
+    "Bryn Mawr Trust Advisors LLC Sells 1 , 049 Shares of Eli Lilly and Company $LLY",
+    "Is This Disturbing Trend Bad News for Eli Lilly in the Billion - Dollar Obesity Drug Market ?"
    ],
-   "effects": [
-    "회사의 비만 치료제 관련 소식이 주가에 영향을 줄 수 있어요!",
-    "기관의 매수·매도 움직임에 따라 주가가 오르내릴 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "7719a540579f9d2b2cd7a47a24092678cd8ea7fc"
+  "fact_hash": "e14b6f5cccec5c367808e725854b368f6da5a021"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-16T04:45:01.121427+00:00"
+  "at": "2026-07-18T06:28:07.952303+00:00"
  },
  "glossary": [],
  "related": [
-  {
-   "id": "cf7f8b6082a4c96bf",
-   "title": "JPMorgan Chase & Co . Issues Positive Forecast for Southern ( NYSE : SO ) Stock Price",
-   "category": "MARKET",
-   "shared": []
-  },
   {
    "id": "c72702defa15d1f1f",
    "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
@@ -164,6 +168,12 @@
   {
    "id": "c273684a49f5f6fb2",
    "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "category": "MARKET",
    "shared": []
   }

@@ -48,8 +48,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-17T19:41:21.747415+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-18T06:26:43.794142+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [
@@ -77,25 +77,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"코스피 최고치\",\n   \"one_liner\": \"한국 주식시장이 사상 최고치로 올랐어요\",\n   \"why_now\": \"주식시장이 오르면 투자자들이 더 많은 돈을 벌 수 있어요\",\n   \"impact_line\": \"주식 투자자들의 수익이 늘 수 있어요\",\n   \"details\": [\n       \"코스피 종가는 8471로 최고치를 기록했어요\",\n       \"코스피는 3.26% 상승했어요\",\n       \"이번에 기록된 코스피 최고치는 2026년 6월 24일이에요\"\n   ],\n   \"visual_type\": \"kospi_close\",\n   \"effects\": [\n       \"주식 투자자들이 더 많은 돈을 벌 수 있게 되어 경제 활동이 활발해질 수 있어요!\",\n       \"기업들이 더 많은 투자를 받을 수 있게 되어 새로운 사업을 확장할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "KR 코스피 종가 8471.0pt",
-   "one_liner": "KR 코스피 종가 8471.0pt로 발표됐어요",
-   "why_now": null,
+   "title": "코스피 최고치",
+   "one_liner": "한국 주식시장이 사상 최고치로 올랐어요",
+   "why_now": "주식시장이 오르면 투자자들이 더 많은 돈을 벌 수 있어요",
    "details": [
-    "KR 코스피 종가: 8471.0pt",
-    "KR 일일 상승률: 3.26%"
+    "코스피 종가는 8471로 최고치를 기록했어요",
+    "코스피는 3.26% 상승했어요",
+    "이번에 기록된 코스피 최고치는 2026년 6월 24일이에요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "주식 투자자들이 더 많은 돈을 벌 수 있게 되어 경제 활동이 활발해질 수 있어요!",
+    "기업들이 더 많은 투자를 받을 수 있게 되어 새로운 사업을 확장할 수 있어요!"
+   ],
+   "visual_type": "kospi_close"
   },
   "fact_hash": "ca2f257bc6afd2beba68e6679a487a98523dcab2"
  },
@@ -111,12 +113,6 @@
   }
  ],
  "related": [
-  {
-   "id": "cf7f8b6082a4c96bf",
-   "title": "JPMorgan Chase & Co . Issues Positive Forecast for Southern ( NYSE : SO ) Stock Price",
-   "category": "MARKET",
-   "shared": []
-  },
   {
    "id": "c72702defa15d1f1f",
    "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
@@ -138,6 +134,12 @@
   {
    "id": "c273684a49f5f6fb2",
    "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c4e8e497777eba176",
+   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "category": "MARKET",
    "shared": []
   }
