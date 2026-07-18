@@ -2,15 +2,15 @@
  "id": "c453b022245ab55dd",
  "title": "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
  "category": "POLICY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 75,
+ "seen_sources": 2,
+ "importance": 80,
  "created_at": "2026-07-18T19:38:21.281960+00:00",
- "last_update": "2026-07-18T19:38:21.281960+00:00",
+ "last_update": "2026-07-18T21:10:59.877363+00:00",
  "members": [
   {
    "id": "f4c971037cc406f9294f2635049af18177758e5b",
@@ -20,7 +20,7 @@
    "title": "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
    "published_at": "2026-07-18T18:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9983
   },
   {
    "id": "d9ad513c375d75751b05e2cd941d1eb769a17bf2",
@@ -30,7 +30,17 @@
    "title": "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
    "published_at": "2026-07-18T18:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9983
+  },
+  {
+   "id": "859a86f3610ead495f9e1f47fd84b02fe5ce01b3",
+   "source": "hindustantimes.com",
+   "tier": "wire",
+   "url": "https://www.hindustantimes.com/trending/gurgaon-man-says-private-jobs-can-transform-middle-class-lives-challenges-old-school-career-beliefs-101784384289628.html",
+   "title": "Gurgaon man says private jobs can transform middle - class lives , challenges old - school career beliefs",
+   "published_at": "2026-07-18T16:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8527
   }
  ],
  "anchors": [],
@@ -48,10 +58,53 @@
    "source": "calcuttanews.net",
    "url": "http://www.calcuttanews.net/news/279196060/one-year-as-governor-130-days-in-himachal-kavinder-gupta-outlines-roadmap-for-tourism-green-energy-and-youth-growth",
    "at": "2026-07-18T18:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Gurgaon man says private jobs can transform middle - class lives , challenges old - school career beliefs",
+   "source": "hindustantimes.com",
+   "url": "https://www.hindustantimes.com/trending/gurgaon-man-says-private-jobs-can-transform-middle-class-lives-challenges-old-school-career-beliefs-101784384289628.html",
+   "at": "2026-07-18T16:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-18T21:11:53.416730+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
+    "Gurgaon man says private jobs can transform middle - class lives , challenges old - school career beliefs"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "One year as Governor…",
+   "one_liner": "One year as Governor , 130 days in Himachal :…",
+   "why_now": null,
+   "details": [
+    "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
+    "Gurgaon man says private jobs can transform middle - class lives , challenges old - school career beliefs"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "904efe0f7f5926b91e9e64158892e6f76b3be6b2"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-18T21:11:53.416668+00:00"
+ },
  "glossary": [],
  "related": [
   {

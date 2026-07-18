@@ -395,8 +395,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-18T17:29:48.082763+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-18T21:11:01.081833+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -409,25 +409,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 주식시장 상승\",\n   \"one_liner\": \"미국 주식시장이 물가 상승 속도가 느려지자 오르면서 IBM은 급락했어요\",\n   \"why_now\": \"물가 상승 속도가 느려지면 경제가 안정돼서 주식시장이 좋아질 수 있어요\",\n   \"impact_line\": \"주식 투자자에게는 좋은 소식이 될 수 있어요\",\n   \"details\": [\n      \"미국 물가 상승 속도가 느려졌어요\",\n      \"IBM 주식이 25% 급락했어요\",\n      \"IBM의 주가 하락으로 70억 달러가 증발했어요\",\n      \"미국 주식시장은 물가 상승 속도에 영향을 받아요\"\n   ],\n   \"visual_type\": \"us_10y\",\n   \"effects\": [\n      \"미국 경제가 안정돼서 소비자 물가 부담이 줄어들 수 있어요!\",\n      \"주식시장이 좋아져서 투자자에게는 기회가 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Markets today : U .…",
-   "one_liner": "Markets today : U . S . stocks rise after…",
-   "why_now": null,
+   "title": "미국 주식시장 상승",
+   "one_liner": "미국 주식시장이 물가 상승 속도가 느려지자 오르면서 IBM은 급락했어요",
+   "why_now": "물가 상승 속도가 느려지면 경제가 안정돼서 주식시장이 좋아질 수 있어요",
    "details": [
-    "Markets today : U . S . stocks rise after slowing inflation , IBM plunges",
-    "US stocks tick higher after data shows slowing inflation , even as IBM plunges",
-    "THE CLOSING BELL : US stocks rise after data shows slowing inflation , even as IBM plunges"
+    "미국 물가 상승 속도가 느려졌어요",
+    "IBM 주식이 25% 급락했어요",
+    "IBM의 주가 하락으로 70억 달러가 증발했어요",
+    "미국 주식시장은 물가 상승 속도에 영향을 받아요"
    ],
-   "effects": [],
+   "effects": [
+    "미국 경제가 안정돼서 소비자 물가 부담이 줄어들 수 있어요!",
+    "주식시장이 좋아져서 투자자에게는 기회가 될 수 있어요!"
+   ],
    "visual_type": "us_10y"
   },
   "fact_hash": "66f4d396d407537a4bd831352615f46198740686"

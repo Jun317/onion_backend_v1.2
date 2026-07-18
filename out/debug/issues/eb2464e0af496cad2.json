@@ -49,7 +49,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-18T17:28:49.976287+00:00",
+  "created_at": "2026-07-18T21:12:30.312966+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -77,14 +77,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"넥스트아이 실적 발표\",\n    \"one_liner\": \"넥스트아이가 2025년 1분기에 매출 57.7억원, 영업이익 -17.8억원을 기록했어요.\",\n    \"why_now\": \"기업의 매출과 이익은 회사의 현재와 미래 가치를 보여주는 중요한 지표예요.\",\n    \"impact_line\": \"넥스트아이의 실적 발표는 관련 업계의 투자 심리에 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"넥스트아이의 2025년 1분기 매출은 57.7억원이에요.\",\n        \"같은 기간 영업이익은 -17.8억원을 기록했어요.\",\n        \"이 실적은 2025년 1분기 기준이에요.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"매출이 늘고 이익이 줄면 회사의 성장성과 수익성에 대한 우려가 커질 수 있어요!\",\n        \"투자자들은 이 실적을 바탕으로 향후 넥스트아이의 주가 방향을 예측하려 할 거예요.\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"매출액\",\n            \"easy\": \"회사가 상품을 팔거나 서비스를 제공해서 벌어들인 돈이에요.\",\n            \"example\": \"이번 달 매출액은 지난달보다 10% 늘었어요.\"\n        },\n        {\n            \"term\": \"영업이익\",\n            \"easy\": \"회사가 상품을 만들고 파는 과정에서 실제로 번 돈이에요. 매출에서 비용을 뺀 값이에요.\",\n            \"example\": \"영업이익이 늘면 회사가 더 효율적으로 운영되고 있다는 뜻이에요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -106,8 +100,8 @@
   "fact_hash": "8b9a97931861a066d164589702ad44da3c99e44e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-18T17:28:49.976164+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-18T21:12:30.312854+00:00"
  },
  "glossary": [
   {
@@ -130,14 +124,14 @@
    "shared": []
   },
   {
-   "id": "c8ab924b446b01321",
-   "title": "Verizon cuts 3 , 000 retail jobs as AI replaces customer service and stores move to franchises",
+   "id": "c2ddb2c1db0cafd3b",
+   "title": "Wells Fargo bounces off 52 - week lows . What it must do to get out of the penalty box",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c2ddb2c1db0cafd3b",
-   "title": "Wells Fargo bounces off 52 - week lows . What it must do to get out of the penalty box",
+   "id": "c8ab924b446b01321",
+   "title": "Verizon cuts 3 , 000 retail jobs as AI replaces customer service and stores move to franchises",
    "category": "EARNINGS",
    "shared": []
   },
