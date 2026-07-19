@@ -409,7 +409,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-19T14:03:01.684658+00:00",
+  "created_at": "2026-07-19T17:32:56.325232+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -419,14 +419,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"아일랜드 기록적 폭염\",\n    \"one_liner\": \"아일랜드가 기록적인 폭염에 근접했어요.\",\n    \"why_now\": \"폭염은 일상생활과 농업에 큰 영향을 미칠 수 있어요.\",\n    \"impact_line\": \"폭염으로 인한 불편함이 커질 수 있어요.\",\n    \"details\": [\n        \"아일랜드가 기록적인 폭염에 근접했어요.\",\n        \"이는 매우 더운 날씨가 이어지고 있음을 보여줘요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"폭염으로 인해 농작물 피해가 발생할 수 있어요!\",\n        \"전력 수요가 늘어나면서 에너지 공급에 부담이 갈 수 있어요!\"\n    ],\n    \"glossary\": [],\n    \"impact_line\": \"폭염으로 인한 불편함이 커질 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -448,8 +442,8 @@
   "fact_hash": "9d038142cd3166d612a6822cf47c49410cbb57a6"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-19T14:03:01.684590+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-19T17:32:56.325164+00:00"
  },
  "glossary": [],
  "related": [
@@ -466,14 +460,14 @@
    "shared": []
   },
   {
-   "id": "cc034b8431c1bfa82",
-   "title": "Iran Officially Buries Remains of Defunct Truce With US . Middle East Flare - up Swallows Civilian Infra Targets",
+   "id": "ca5c88b2eecf2f428",
+   "title": "Why is it so hard for the U . S . to win wars ?",
    "category": "GEO",
    "shared": []
   },
   {
-   "id": "ca5c88b2eecf2f428",
-   "title": "Why is it so hard for the U . S . to win wars ?",
+   "id": "cc034b8431c1bfa82",
+   "title": "Iran Officially Buries Remains of Defunct Truce With US . Middle East Flare - up Swallows Civilian Infra Targets",
    "category": "GEO",
    "shared": []
   },
