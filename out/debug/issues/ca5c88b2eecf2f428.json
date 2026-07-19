@@ -868,31 +868,31 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-19T15:29:23.318461+00:00",
+  "created_at": "2026-07-19T19:38:13.198507+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
     "Sanctions Havent Worked - So Maybe More Will ?",
+    "Lack of ring - fencing reduced Guyana 2025 profit - oil entitlement by US$4 . 9 Billion",
+    "Pakistan Technology Exports Hit Record $4 . 6 Billion",
     "PRESIDENT RUTO CALLS FOR PATIENCE AS GOVERNMENT ADDRESSES GLOBAL FUEL CRISIS",
-    "PRESIDENT RUTO CALLS FOR MUTUALLY BENEFICIAL RELATIONS BETWEEN AFRICA AND FRANCE",
-    "Why the Trump effect is different in 2026 than 2018",
     "How Can Every Dollar Deliver the Greatest Benefit for Namibia ?"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"국제 유가 상승\", \"one_liner\": \"국제 유가가 오르면서 정부가 대책 마련에 나섰어요.\", \"why_now\": \"국제 유가가 오르면 주유비, 난방비 등 생활 물가가 전반적으로 오를 수 있어요.\", \"impact_line\": \"주유비와 난방비 부담이 커질 수 있어요.\", \"details\": [\"국제 유가가 상승하고 있어요.\", \"정부는 국민들의 부담을 덜기 위해 노력하고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"국제 유가 상승은 항공료, 해상 운송료 등 물류 비용을 올려 전반적인 상품 가격 상승으로 이어질 수 있어요!\"], \"glossary\": []}",
+  "raw_response": "{\n  \"title\": \"글로벌 경제 소식\",\n   \"one_liner\": \"여러 나라의 경제 상황이 어려워져요\",\n   \"why_now\": \"글로벌 경제가 어려워지면 우리나라에도 영향을 줄 수 있어요\",\n   \"impact_line\": \"주유비나 물가가 오를 수 있어요\",\n   \"details\": [\n      \"가이아나의 2025년石油 수익이 49억 달러 줄었어요\",\n      \"파키스탄의 기술 수출이 46억 달러로最高记录를 세웠어요\",\n      \"케냐의 루토 대통령이 글로벌 연료 위기에 대한 대책을 논의하고 있어요\",\n      \"나미비아가 每 달러의 최대 효용을 어떻게 달성할 수 있는지 고민하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"글로벌 경제가 어려워지면 우리나라의 수출이 줄어들 수 있어요!\",\n      \"연료 가격이 오르면 물가 상승으로 이어질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 에 한자/가나 포함"
-    ]
-   },
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "details 3문장 미만"
+     "입력에 없는 숫자: [46.0]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [46.0, 49.0]"
     ]
    }
   ],
@@ -902,17 +902,17 @@
    "why_now": null,
    "details": [
     "Sanctions Havent Worked - So Maybe More Will ?",
-    "PRESIDENT RUTO CALLS FOR PATIENCE AS GOVERNMENT ADDRESSES GLOBAL FUEL CRISIS",
-    "PRESIDENT RUTO CALLS FOR MUTUALLY BENEFICIAL RELATIONS BETWEEN AFRICA AND FRANCE"
+    "Lack of ring - fencing reduced Guyana 2025 profit - oil entitlement by US$4 . 9 Billion",
+    "Pakistan Technology Exports Hit Record $4 . 6 Billion"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "4fef8597a19df32edf81a15406c0278c8741d698"
+  "fact_hash": "b8f918054c7b646a2332d82b6290d43d421d52b0"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-07-19T15:29:23.318354+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [46.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [46.0, 49.0]\"]}]}",
+  "at": "2026-07-19T19:38:13.198367+00:00"
  },
  "glossary": [],
  "related": [

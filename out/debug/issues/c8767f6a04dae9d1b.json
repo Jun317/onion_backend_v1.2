@@ -9,11 +9,21 @@
  "entity_keys": [
   "BAC"
  ],
- "seen_sources": 3,
- "importance": 85,
+ "seen_sources": 4,
+ "importance": 100,
  "created_at": "2026-07-16T16:47:58.907339+00:00",
- "last_update": "2026-07-17T14:09:57.312835+00:00",
+ "last_update": "2026-07-19T19:38:06.604686+00:00",
  "members": [
+  {
+   "id": "d194a7791c5472f3e7669427c52206b74e4ee00d",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/economy/articles/transcript-bank-america-ceo-brian-143000833.html",
+   "title": "Transcript : Bank of America CEO Brian Moynihan on  Face the Nation with Margaret Brennan , July 19 , 2026",
+   "published_at": "2026-07-19T17:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8703
+  },
   {
    "id": "0060499fd79e7212c6bf368c8d3ec2b6cf1aa07a",
    "source": "fortune.com",
@@ -22,7 +32,7 @@
    "title": "Top CD rates from major banks July 17 , 2026 : Chase CDs , Bank of America CDs , Citibank CDs , and more",
    "published_at": "2026-07-17T12:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8646
+   "sim_to_centroid": 0.8758
   },
   {
    "id": "ad883d677fe6fc3320026b14e4e552c74058decd",
@@ -32,7 +42,7 @@
    "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "published_at": "2026-07-16T14:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9771
+   "sim_to_centroid": 0.975
   },
   {
    "id": "8b1816ddde3c5bdd1f2517836c98b9f23ba95f71",
@@ -42,11 +52,18 @@
    "title": "Wealthfront Advisers LLC Sells 8 , 715 Shares of Bank of America Corporation $BAC",
    "published_at": "2026-07-16T14:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9758
+   "sim_to_centroid": 0.9723
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Transcript : Bank of America CEO Brian Moynihan on  Face the Nation with Margaret Brennan , July 19 , 2026",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/economy/articles/transcript-bank-america-ceo-brian-143000833.html",
+   "at": "2026-07-19T17:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Top CD rates from major banks July 17 , 2026 : Chase CDs , Bank of America CDs , Citibank CDs , and more",
@@ -70,45 +87,52 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-18T12:11:48.265603+00:00",
+  "model": "template",
+  "created_at": "2026-07-19T19:38:33.861799+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Transcript : Bank of America CEO Brian Moynihan on  Face the Nation with Margaret Brennan , July 19 , 2026",
     "Top CD rates from major banks July 17 , 2026 : Chase CDs , Bank of America CDs , Citibank CDs , and more",
     "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
     "Wealthfront Advisers LLC Sells 8 , 715 Shares of Bank of America Corporation $BAC"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 은행 이자\",\n   \"one_liner\": \"미국 주요 은행의 높은 예금 이자가 나왔어요\",\n   \"why_now\": \"은행 예금 이자가 높아지면 돈을 저축하기 더 좋아요\",\n   \"impact_line\": \"미국에서 돈을 저축할 기회가 늘어날 수 있어요\",\n   \"details\": [\n       \"체이스, 뱅크 오브 아메리카, 시티뱅크 등 주요 은행의 높은 예금 이자가 나왔어요\",\n       \"네비게이션 그룹이 뱅크 오브 아메리카의 주식을 많이 샀어요\",\n       \"웰스프론트 어드바이저스가 뱅크 오브 아메리카의 주식을 일부 팔았어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"은행 예금 이자가 높아져 저축이 더 유리해질 수 있어요!\",\n       \"은행의 수익성이 좋아져 더 많은 대출을 해줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\"title\": \"뱅크오브아메리카 주식 거래\", \"one_liner\": \"뱅크오브아메리카 주식이 일부 기관에서 거래되었어요.\", \"why_now\": \"주요 은행의 주식 거래는 시장의 관심과 향후 주가 흐름을 엿볼 수 있는 지표가 될 수 있어요.\", \"impact_line\": \"뱅크오브아메리카 주식 가격에 영향을 줄 수 있어요.\", \"details\": [\"내비게이션 그룹이 뱅크오브아메리카 주식 22,459주를 사들였어요.\", \"웰스프론트 어드바이저스가 뱅크오브아메리카 주식 8,715주를 팔았어요.\"], \"visual_type\": \"none\", \"effects\": [\"기관의 매수세가 이어지면 주가 상승 요인이 될 수 있어요!\", \"기관의 매도세가 이어지면 주가 하락 요인이 될 수 있어요!\"], \"glossary\": [{\"term\": \"주식\", \"easy\": \"회사의 소유권을 나누어 놓은 조각이에요. 주식을 사면 회사의 일부를 소유하게 돼요.\", \"example\": \"삼성전자 주식을 사면 삼성전자의 주인이 되는 거예요.\"}, {\"term\": \"기관\", \"easy\": \"은행, 보험사, 연기금처럼 돈을 굴리는 큰 단체예요.\", \"example\": \"기관 투자자들이 주식을 많이 사면 주가가 오르기도 해요.\"}], \"impact_line\": \"뱅크오브아메리카 주식 가격에 영향을 줄 수 있어요.\"}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "입력에 없는 숫자: [8715.0, 22459.0]"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국 은행 이자",
-   "one_liner": "미국 주요 은행의 높은 예금 이자가 나왔어요",
-   "why_now": "은행 예금 이자가 높아지면 돈을 저축하기 더 좋아요",
+   "title": "Transcript : Bank of…",
+   "one_liner": "Transcript : Bank of America CEO Brian Moynihan…",
+   "why_now": null,
    "details": [
-    "체이스, 뱅크 오브 아메리카, 시티뱅크 등 주요 은행의 높은 예금 이자가 나왔어요",
-    "네비게이션 그룹이 뱅크 오브 아메리카의 주식을 많이 샀어요",
-    "웰스프론트 어드바이저스가 뱅크 오브 아메리카의 주식을 일부 팔았어요"
+    "Transcript : Bank of America CEO Brian Moynihan on  Face the Nation with Margaret Brennan , July 19 , 2026",
+    "Top CD rates from major banks July 17 , 2026 : Chase CDs , Bank of America CDs , Citibank CDs , and more",
+    "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC"
    ],
-   "effects": [
-    "은행 예금 이자가 높아져 저축이 더 유리해질 수 있어요!",
-    "은행의 수익성이 좋아져 더 많은 대출을 해줄 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "921dc727f284b97562a0f677c5d68ecb9771fdff"
+  "fact_hash": "490597f0c6c1fc098ccf98c39e6c1f196de468cf"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}]}",
-  "at": "2026-07-18T09:05:25.954358+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [8715.0, 22459.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-19T19:38:33.861652+00:00"
  },
  "glossary": [],
  "related": [
@@ -119,14 +143,14 @@
    "shared": []
   },
   {
-   "id": "cf3992948064685e4",
-   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
+   "id": "c2f82920800c96145",
+   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c2f82920800c96145",
-   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
+   "id": "cf3992948064685e4",
+   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
    "category": "MARKET",
    "shared": []
   },
@@ -137,8 +161,8 @@
    "shared": []
   },
   {
-   "id": "c4e8e497777eba176",
-   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
+   "id": "c3350f06afa9dea1f",
+   "title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
    "category": "MARKET",
    "shared": []
   }

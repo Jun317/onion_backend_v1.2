@@ -1,6 +1,49 @@
 {
- "generated_at": "2026-07-19T17:39:11.916626+00:00",
+ "generated_at": "2026-07-19T19:38:40.938421+00:00",
  "queue": [
+  {
+   "issue_id": "c8767f6a04dae9d1b",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "details 3문장 미만",
+       "입력에 없는 숫자: [8715.0, 22459.0]"
+      ]
+     },
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-19T19:38:33.861652+00:00"
+  },
+  {
+   "issue_id": "ca5c88b2eecf2f428",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "입력에 없는 숫자: [46.0]"
+      ]
+     },
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "입력에 없는 숫자: [46.0, 49.0]"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-19T19:38:13.198367+00:00"
+  },
   {
    "issue_id": "e552cf5d18e0c75cd",
    "reason": {
@@ -477,27 +520,6 @@
    "at": "2026-07-19T17:30:25.159761+00:00"
   },
   {
-   "issue_id": "ca5c88b2eecf2f428",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "one_liner 에 한자/가나 포함"
-      ]
-     },
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "details 3문장 미만"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-19T15:29:23.318354+00:00"
-  },
-  {
    "issue_id": "c2f82920800c96145",
    "reason": {
     "summary": "LLM 검증 실패 → 템플릿 폴백",
@@ -763,29 +785,6 @@
     ]
    },
    "at": "2026-07-18T09:15:23.229747+00:00"
-  },
-  {
-   "issue_id": "c8767f6a04dae9d1b",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "details 3문장 미만",
-       "effects[1] 느낌표 종결 아님"
-      ]
-     },
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "details 3문장 미만",
-       "effects 1~2문장 아님"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-18T09:05:25.954358+00:00"
   },
   {
    "issue_id": "ccd46c7722590bf65",

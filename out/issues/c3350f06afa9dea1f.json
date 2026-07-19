@@ -1,34 +1,42 @@
 {
  "id": "c3350f06afa9dea1f",
- "title": "오라클 주가 하락",
- "one_liner": "오라클 주가가 금요일에 하락했어요.",
- "why_now": "증권 전문가가 특정 기업의 주식 매도를 권고하면 투자자들의 관심이 쏠리곤 해요.",
- "impact_line": "오라클 주식에 투자한 사람들의 자산 가치가 줄어들 수 있어요.",
+ "title": "오라클 주가 급락",
+ "one_liner": "미국 기업 오라클의 주가가 크게 떨어져 1년 내 최저치를 기록했어요.",
+ "why_now": "인공지능 관련 투자에 대한 우려로 기업들의 주가가 흔들릴 수 있어요.",
+ "impact_line": "주요 기술 기업의 주가 변동은 관련 산업 전반에 영향을 줄 수 있어요.",
  "raw_title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
  "category": "MARKET",
  "status": "active",
  "origin": "cluster",
- "sources": 2,
- "importance": 85,
- "last_update": "2026-07-18T12:10:48.729879+00:00",
- "event_at": "2026-07-18T10:30:00+00:00",
+ "sources": 3,
+ "importance": 95,
+ "last_update": "2026-07-19T19:38:06.605449+00:00",
+ "event_at": "2026-07-19T17:45:00+00:00",
  "has_visual": false,
  "headline_stat": null,
  "spark": null,
  "icon": "📈",
  "details": [
-  "증권 전문가 짐 크레이머가 오라클 주식 매도를 권고했어요.",
-  "그는 은행, 제약, 반도체 관련 주식에 투자하는 것이 좋다고 말했어요.",
-  "오라클은 뉴욕 증권거래소에 상장된 기업이에요."
+  "오라클의 주가가 1년 내 최저치로 떨어졌어요.",
+  "신용 평가 등급도 정크 등급에 가깝게 하향 조정되었어요.",
+  "일부 전문가들은 인공지능 관련 투자 열기가 과열되었다고 보고 있어요.",
+  "다른 전문가들은 오라클 주식을 팔고 은행, 제약, 반도체 관련 주식에 투자하라고 권하고 있어요."
  ],
  "effects": [
-  "오라클 주식에 투자한 사람들의 자산 가치가 줄어들 수 있어요!",
-  "투자자들은 은행, 제약, 반도체 관련 주식으로 관심을 옮길 수 있어요!"
+  "기술 기업들의 투자 심리가 위축되면 관련 산업의 성장세가 둔화될 수 있어요!",
+  "투자자들의 불안감이 커지면서 다른 기술주들의 주가도 영향을 받을 수 있어요!"
  ],
  "model": "gemini-2.5-flash-lite",
  "visual": null,
  "anchors": [],
  "headlines": [
+  {
+   "title": "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/07/19/oracle-just-hit-a-fresh-52-week-low-and-had-its-cr/",
+   "published_at": "2026-07-19T17:45:00+00:00",
+   "lang": "en"
+  },
   {
    "title": "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
    "source": "foreignpolicyjournal.com",
@@ -47,6 +55,13 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/07/19/oracle-just-hit-a-fresh-52-week-low-and-had-its-cr/",
+   "at": "2026-07-19T17:45:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
    "source": "foreignpolicyjournal.com",
    "url": "https://www.foreignpolicyjournal.com/2026/07/18/jim-cramer-urges-investors-to-sell-oracle-nyse-orcl-and-shun-liquor-stocks-favoring-banks-pharma-and-semiconductors/",
@@ -62,14 +77,19 @@
  ],
  "glossary": [
   {
-   "term": "주식",
-   "easy": "회사의 소유권을 나누어 놓은 증서예요. 사고팔 수 있어요.",
-   "example": "주식 시장이 좋으면 내 주식 가치도 오를 수 있어요."
+   "term": "정크 등급",
+   "easy": "신용도가 낮아 원리금을 떼일 위험이 높은 채권이나 기업에 붙는 등급이에요.",
+   "example": "신용 등급이 정크 등급으로 떨어지면 돈을 빌리기 어려워져요."
   },
   {
-   "term": "증권 전문가",
-   "easy": "주식이나 채권 등 투자 상품에 대해 조언해주는 사람이에요.",
-   "example": "증권 전문가의 조언을 듣고 주식 투자를 결정했어요."
+   "term": "신용 평가 등급",
+   "easy": "돈을 빌린 사람이 돈을 갚을 능력이 얼마나 되는지를 나타내는 점수예요.",
+   "example": "신용 평가 등급이 높으면 대출 이자가 낮아지는 경우가 많아요."
+  },
+  {
+   "term": "인공지능",
+   "easy": "컴퓨터가 사람처럼 생각하고 배우는 기술이에요.",
+   "example": "인공지능 스피커는 사람의 말을 알아듣고 음악을 틀어줘요."
   }
  ],
  "related": [
@@ -80,26 +100,26 @@
    "shared": []
   },
   {
-   "id": "cf3992948064685e4",
-   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
    "id": "c2f82920800c96145",
    "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c72702defa15d1f1f",
-   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
+   "id": "cf3992948064685e4",
+   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c4e8e497777eba176",
-   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c72702defa15d1f1f",
+   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
    "category": "MARKET",
    "shared": []
   }
