@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-19T09:25:10.842287+00:00",
+  "created_at": "2026-07-19T14:01:48.240586+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,18 +64,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"마이크로소프트 엣지 브라우저 논란\",\n    \"one_liner\": \"마이크로소프트가 엣지 브라우저를 선택하도록 유도하는 방식에 대해 다시 한번 조사가 시작됐어요.\",\n    \"why_now\": \"정부가 특정 회사의 제품을 강요하는지 살펴보는 것은 공정한 시장 경쟁을 지키기 위해 중요해요.\",\n    \"impact_line\": \"인터넷 브라우저 선택의 폭이 좁아질 수 있어요.\",\n    \"details\": [\n        \"마이크로소프트의 엣지 브라우저 관련 정책이 다시 주목받고 있어요.\",\n        \"이는 사용자들이 엣지 브라우저를 선택하도록 유도하는 방식에 대한 조사예요.\",\n        \"이러한 방식이 공정한 경쟁을 해치는지 여부가 논의되고 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"다른 인터넷 브라우저를 사용하기 어려워질 수 있어요!\",\n        \"마이크로소프트의 시장 지배력이 더 강해질 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"엣지 브라우저\",\n            \"easy\": \"마이크로소프트에서 만든 인터넷 브라우저예요.\",\n            \"example\": \"엣지 브라우저로 인터넷 검색을 할 수 있어요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 50자 초과(52)"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -93,8 +87,8 @@
   "fact_hash": "7eebe52ce7e2f00e3382e6283794550b0c4a6355"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(52)\"]}]}",
-  "at": "2026-07-19T09:25:10.842163+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-19T14:01:48.240463+00:00"
  },
  "glossary": [],
  "related": [
@@ -123,8 +117,8 @@
    "shared": []
   },
   {
-   "id": "c499660e9dfd764df",
-   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
+   "id": "c4e8e497777eba176",
+   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "category": "MARKET",
    "shared": []
   }

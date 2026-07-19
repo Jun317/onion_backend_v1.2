@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 48,
- "importance": 85,
+ "importance": 80,
  "created_at": "2026-07-16T06:38:34.933238+00:00",
  "last_update": "2026-07-18T12:10:48.728554+00:00",
  "members": [
@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-19T09:24:57.294882+00:00",
+  "created_at": "2026-07-19T14:01:11.290396+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,19 +881,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"뉴저지 가족 휴가법 개정\",\n  \"one_liner\": \"뉴저지에서 7월 17일부터 가족 휴가법이 바뀌어요.\",\n  \"why_now\": \"가족 휴가법이 바뀌면 직장인들이 가족을 돌보기 위해 휴가를 내는 조건이나 기간이 달라질 수 있어요.\",\n  \"impact_line\": \"가족 돌봄을 위한 휴가 사용 방식에 변화가 생길 수 있어요.\",\n  \"details\": [\n    \"뉴저지 가족 휴가법에 대한 개정안이 2026년 7월 17일에 발효돼요.\",\n    \"이 개정안은 가족 휴가와 관련된 내용을 담고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [],\n  \"glossary\": [\n    {\n      \"term\": \"가족 휴가법\",\n      \"easy\": \"가족의 질병이나 돌봄이 필요할 때 직장인이 휴가를 쓸 수 있도록 정한 법이에요.\",\n      \"example\": \"부모님을 간병하기 위해 가족 휴가를 사용할 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -912,8 +905,8 @@
   "fact_hash": "40dfdce30ac3bc6417e8d26762b6252c2ed87ba2"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}]}",
-  "at": "2026-07-19T09:24:57.294751+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-19T14:01:11.290327+00:00"
  },
  "glossary": [],
  "related": [

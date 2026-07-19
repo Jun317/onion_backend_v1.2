@@ -293,7 +293,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-19T09:24:22.998638+00:00",
+  "created_at": "2026-07-19T13:59:36.861287+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -306,7 +306,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"비자 주가 상승\",\n  \"one_liner\": \"비자 주가가 애널리스트의 추천으로 2.6% 올랐어요.\",\n  \"why_now\": \"애널리스트의 긍정적인 평가는 투자자들의 관심을 끌어 주가 상승으로 이어질 수 있어요.\",\n  \"impact_line\": \"비자 주가에 투자했다면 수익이 늘어날 수 있어요.\",\n  \"details\": [\n    \"비자 주가가 2.6% 상승했어요.\",\n    \"애널리스트가 비자 주식을 좋게 평가했어요.\",\n    \"비자 주가는 1년 최고치를 기록했어요.\",\n    \"한 자산운용사가 비자 주식 1,684주를 매수했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"비자 주가에 대한 긍정적인 전망이 이어지면 주가가 더 오를 수 있어요!\",\n    \"핀테크 관련 주식에 대한 투자자들의 관심이 높아질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"애널리스트\",\n      \"easy\": \"증권사 등에서 기업이나 시장을 분석하고 투자 의견을 내는 사람이에요.\",\n      \"example\": \"애널리스트가 특정 주식을 추천하면 많은 사람이 그 주식을 사려고 해요.\"\n    },\n    {\n      \"term\": \"핀테크\",\n      \"easy\": \"정보기술(IT)을 활용해 금융 서비스를 편리하게 만드는 기술이나 산업을 말해요.\",\n      \"example\": \"스마트폰으로 간편하게 송금하는 서비스가 핀테크의 한 예예요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"비자카드株 상승\",\n   \"one_liner\": \"비자카드가 분석가의 업그레이드로株価가 올라 1년 新高를 기록했어요\",\n   \"why_now\": \"분석가의 업그레이드는 해당 기업의 미래가 밝다라는 뜻이기에 투자자들이 관심을 가질 수 있어요\",\n   \"impact_line\": \"신용카드 사용료가 변동할 수 있어요\",\n   \"details\": [\n      \"비자카드의株価가 2.6% 상승했어요\",\n      \"분석가의 업그레이드가 이유였어요\",\n      \"1년 新高를 기록했어요\",\n      \"투자자들이 비자카드에 관심을 가질 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"신용카드 사용이 더 편리해질 수 있어요!\",\n      \"신용카드 수수료가 낮아질 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"분석가의 업그레이드\",\n         \"easy\": \"기업의 미래가 밝다라는 뜻이에요\",\n         \"example\": \"분석가의 업그레이드는 해당 기업의株価가 상승할 수 있어요\"\n      }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
@@ -315,9 +315,11 @@
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "입력에 없는 숫자: [2.6, 1684.0]"
+     "title 에 한자/가나 포함",
+     "one_liner 에 한자/가나 포함",
+     "입력에 없는 숫자: [2.6]"
     ]
    }
   ],
@@ -336,8 +338,8 @@
   "fact_hash": "31b6cd511fd566043891077201eaa389074cb128"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.6, 1684.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [2.6, 1684.0]\"]}]}",
-  "at": "2026-07-19T09:24:22.998540+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.6, 1684.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"title 에 한자/가나 포함\", \"one_liner 에 한자/가나 포함\", \"입력에 없는 숫자: [2.6]\"]}]}",
+  "at": "2026-07-19T13:59:36.861164+00:00"
  },
  "glossary": [],
  "related": [
@@ -360,14 +362,14 @@
    "shared": []
   },
   {
-   "id": "c499660e9dfd764df",
-   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
+   "id": "c4e8e497777eba176",
+   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c4e8e497777eba176",
-   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
+   "id": "c499660e9dfd764df",
+   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
    "category": "MARKET",
    "shared": []
   }

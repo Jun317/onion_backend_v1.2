@@ -38,7 +38,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-19T09:27:24.011331+00:00",
+  "created_at": "2026-07-19T14:02:25.253520+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [
@@ -57,14 +57,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"D램 가격 급등\",\n  \"one_liner\": \"1분기에 D램 가격이 90% 올랐어요.\",\n  \"why_now\": \"D램은 컴퓨터, 스마트폰 등에 쓰이는 핵심 반도체로, 가격이 오르면 관련 제품 가격도 오를 수 있어요.\",\n  \"impact_line\": \"새 스마트폰이나 컴퓨터 가격이 오를 수 있어요.\",\n  \"details\": [\n    \"1분기 D램 가격이 90% 상승했어요.\",\n    \"이는 업계 집계에 따른 결과예요.\",\n    \"이전 분기 가격 정보는 없어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"D램 가격 상승은 IT 기기 제조사의 수익성 개선에 도움을 줄 수 있어요!\",\n    \"하지만 이로 인해 소비자가 IT 기기를 구매할 때 더 많은 비용을 지불해야 할 수도 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"D램\",\n      \"easy\": \"컴퓨터나 스마트폰 등에 들어가는 중요한 반도체의 한 종류예요.\",\n      \"example\": \"새 컴퓨터를 살 때 D램 용량이 얼마나 되는지 확인하는 게 좋아요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "why_now 55자 초과(57)"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -85,8 +79,8 @@
   "fact_hash": "8bc748bb7671382af1aba23d625a5e5f4f7405c3"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(57)\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-19T09:27:24.011229+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-19T14:02:25.253400+00:00"
  },
  "glossary": [],
  "related": [
@@ -115,8 +109,8 @@
    "shared": []
   },
   {
-   "id": "c499660e9dfd764df",
-   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
+   "id": "c4e8e497777eba176",
+   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "category": "MARKET",
    "shared": []
   }
