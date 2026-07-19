@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-19T04:07:58.293209+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-19T09:26:32.065844+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,26 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"주요국 증시 하락, 유가 상승\",\n  \"one_liner\": \"미국 증시가 기술주 하락과 유가 상승으로 불안한 모습을 보였어요.\",\n  \"why_now\": \"유가가 오르면 물가와 기업 비용이 올라 경제 전반에 부담을 줄 수 있어요.\",\n  \"impact_line\": \"기름값이 오르면 장바구니 물가도 오를 수 있어요.\",\n  \"details\": [\n    \"인공지능 관련 주식들이 다시 하락했어요.\",\n    \"국제 유가는 계속해서 오르고 있어요.\",\n    \"미국의 소매 판매는 유가 상승으로 인해 둔화되었어요.\",\n    \"중동 지역의 새로운 군사적 충돌 소식도 시장에 영향을 주었어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"유가 상승은 항공, 운송 등 에너지 비용에 민감한 기업들의 이익을 줄일 수 있어요!\",\n    \"유가 상승이 지속되면 전반적인 물가 상승으로 이어져 소비를 위축시킬 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AI stocks\",\n      \"easy\": \"인공지능 기술과 관련된 사업을 하는 회사들의 주식을 말해요.\",\n      \"example\": \"인공지능 관련 주식에 투자하는 사람들이 많아요.\"\n    },\n    {\n      \"term\": \"Treasury yields\",\n      \"easy\": \"미국 국채에서 나오는 이자 수익률을 뜻해요.\",\n      \"example\": \"미국 국채 이자 수익률이 내리면 돈을 빌리는 비용이 낮아질 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "AI stocks slump…",
-   "one_liner": "AI stocks slump again , while oil prices keep…",
-   "why_now": null,
+   "title": "주요국 증시 하락, 유가 상승",
+   "one_liner": "미국 증시가 기술주 하락과 유가 상승으로 불안한 모습을 보였어요.",
+   "why_now": "유가가 오르면 물가와 기업 비용이 올라 경제 전반에 부담을 줄 수 있어요.",
    "details": [
-    "AI stocks slump again , while oil prices keep climbing",
-    "Lower gasoline prices restrain US retail sales , underlying momentum remains",
-    "Treasury yields fall as traders weigh domestic outlook and fresh Middle East strikes"
+    "인공지능 관련 주식들이 다시 하락했어요.",
+    "국제 유가는 계속해서 오르고 있어요.",
+    "미국의 소매 판매는 유가 상승으로 인해 둔화되었어요.",
+    "중동 지역의 새로운 군사적 충돌 소식도 시장에 영향을 주었어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "유가 상승은 항공, 운송 등 에너지 비용에 민감한 기업들의 이익을 줄일 수 있어요!",
+    "유가 상승이 지속되면 전반적인 물가 상승으로 이어져 소비를 위축시킬 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "52c79b2734d019890c3851f317ff7c89ed015b2a"
  },

@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-19T04:08:16.662696+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-19T09:26:36.662984+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -881,26 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"미국 관세 장벽 재건\", \"one_liner\": \"미국 대법원이 트럼프 행정부의 관세 부과가 위헌이라고 판결했어요.\", \"why_now\": \"트럼프 행정부가 대법원 판결에 따라 관세 장벽을 다시 쌓으려 하고 있어요.\", \"impact_line\": \"수입 물가 상승으로 장바구니 물가가 오를 수 있어요.\", \"details\": [\"미국 대법원이 트럼프 행정부의 관세 부과가 위헌이라고 판결했어요.\", \"트럼프 행정부는 이에 따라 관세 장벽을 다시 쌓으려 하고 있어요.\", \"이 결정은 중국의 경제 정책과 관련이 있을 수 있어요.\", \"일부 지역 상점들은 고용 비용 상승으로 어려움을 겪고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"수입 물가가 오르면 국내 소비자들의 부담이 커질 수 있어요!\", \"기업들의 생산 비용이 늘어나 상품 가격이 인상될 수 있어요!\"], \"glossary\": [{\"term\": \"관세\", \"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 세금이에요.\", \"example\": \"관세가 오르면 수입 물건 가격이 비싸져요.\"}, {\"term\": \"위헌\", \"easy\": \"법이나 제도가 헌법에 어긋나는 것을 말해요.\", \"example\": \"대법원이 이 법이 위헌이라고 판단했어요.\"}, {\"term\": \"중국식 경제 정책\", \"easy\": \"중국이 자국 경제 이익을 우선하며 다른 나라와 무역하는 방식이에요.\", \"example\": \"중국식 경제 정책 때문에 다른 나라들이 어려움을 겪을 수 있어요.\"}]}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump races clock to…",
-   "one_liner": "Trump races clock to rebuild tariff wall knocked…",
-   "why_now": null,
+   "title": "미국 관세 장벽 재건",
+   "one_liner": "미국 대법원이 트럼프 행정부의 관세 부과가 위헌이라고 판결했어요.",
+   "why_now": "트럼프 행정부가 대법원 판결에 따라 관세 장벽을 다시 쌓으려 하고 있어요.",
    "details": [
-    "Trump races clock to rebuild tariff wall knocked down by Supreme Court",
-    "Trump administration races the clock to rebuild US tariff wall knocked down by Supreme Court",
-    "Company guilty of cancer - causing working conditions"
+    "미국 대법원이 트럼프 행정부의 관세 부과가 위헌이라고 판결했어요.",
+    "트럼프 행정부는 이에 따라 관세 장벽을 다시 쌓으려 하고 있어요.",
+    "이 결정은 중국의 경제 정책과 관련이 있을 수 있어요.",
+    "일부 지역 상점들은 고용 비용 상승으로 어려움을 겪고 있어요."
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "수입 물가가 오르면 국내 소비자들의 부담이 커질 수 있어요!",
+    "기업들의 생산 비용이 늘어나 상품 가격이 인상될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "cd03d59b7452e1a09bb64ad24135f821d99587b8"
  },
@@ -908,7 +910,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-19T04:08:16.662624+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cfcf6c40cabd9b56d",

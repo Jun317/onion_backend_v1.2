@@ -85,8 +85,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-19T04:06:26.294743+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-19T09:25:15.074829+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -96,24 +96,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"인도 관광·에너지 정책 발표\",\n\"one_liner\": \"인도 관광부 장관이 관광과 친환경 에너지, 청년 성장을 위한 정책 방향을 발표했어요.\",\n\"why_now\": \"새로운 정책은 인도 경제의 미래 성장 동력을 어디에 둘지 보여주는 중요한 신호예요.\",\n\"impact_line\": \"새로운 정책으로 관련 산업의 일자리가 늘어날 수 있어요.\",\n\"details\": [\n\"카빈더 굽타 관광부 장관이 정책 방향을 밝혔어요.\",\n\"주요 내용은 관광 산업 육성이에요.\",\n\"친환경 에너지 분야 투자 확대도 포함됐어요.\",\n\"청년 성장 지원 정책도 발표됐어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"관광객 증가로 관련 서비스업 매출이 늘어날 수 있어요!\",\n\"친환경 에너지 사업 투자가 활발해지면 관련 기술 발전이 빨라질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"친환경 에너지\",\n\"easy\": \"환경을 오염시키지 않는 재생 가능한 에너지를 말해요.\",\n\"example\": \"태양광, 풍력 발전이 대표적인 친환경 에너지예요.\"\n}\n],\n\"impact_line\": \"새로운 정책으로 관련 산업의 일자리가 늘어날 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "One year as Governor…",
-   "one_liner": "One year as Governor , 130 days in Himachal :…",
-   "why_now": null,
+   "title": "인도 관광·에너지 정책 발표",
+   "one_liner": "인도 관광부 장관이 관광과 친환경 에너지, 청년 성장을 위한 정책 방향을 발표했어요.",
+   "why_now": "새로운 정책은 인도 경제의 미래 성장 동력을 어디에 둘지 보여주는 중요한 신호예요.",
    "details": [
-    "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
-    "Gurgaon man says private jobs can transform middle - class lives , challenges old - school career beliefs"
+    "카빈더 굽타 관광부 장관이 정책 방향을 밝혔어요.",
+    "주요 내용은 관광 산업 육성이에요.",
+    "친환경 에너지 분야 투자 확대도 포함됐어요.",
+    "청년 성장 지원 정책도 발표됐어요."
    ],
-   "effects": [],
+   "effects": [
+    "관광객 증가로 관련 서비스업 매출이 늘어날 수 있어요!",
+    "친환경 에너지 사업 투자가 활발해지면 관련 기술 발전이 빨라질 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "904efe0f7f5926b91e9e64158892e6f76b3be6b2"
@@ -127,6 +130,12 @@
   {
    "id": "cde343d4cab397faf",
    "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c5545b3b48fe71332",
+   "title": "Trump threatens to tariff Canada over  filthy air  from wildfire",
    "category": "POLICY",
    "shared": []
   },
@@ -145,12 +154,6 @@
   {
    "id": "c0dce797f417a7342",
    "title": "First Solar ( FSLR ) Stock Sees Modest Fair Value Lift As Analysts Weigh Tariffs And Tax Credits",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
-   "id": "cf38973aa7e2574f7",
-   "title": "US Senate Bill Could Hit India With Up To 100 % Tariffs Over Russian Oil Imports",
    "category": "POLICY",
    "shared": []
   }

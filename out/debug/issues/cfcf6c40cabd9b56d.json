@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-19T04:04:35.962947+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-19T09:24:39.043736+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -881,26 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국, 브라질에 관세\",\n   \"one_liner\": \"미국이 브라질에 관세를 부과했어요.\",\n   \"why_now\": \"관세가 부과되면 수입품의 가격이 오를 수 있어요.\",\n   \"impact_line\": \"ブラ질산 제품의 가격이 오를 수 있어요.\",\n   \"details\": [\n       \"미국이 브라질에 관세를 부과했어요.\",\n       \"미국은 일부 제품의 관세를 면제했어요.\",\n       \"이 결정은 미국과 브라질의 무역에 영향을 줄 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"ブラ질산 제품의 수입이 줄어들 수 있어요!\",\n       \"미국 내 브라질산 제품의 가격이 오를 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"관세\",\n           \"easy\": \"수입품에 부과하는 세이에요.\",\n           \"example\": \"관세가 높으면 수입품의 가격이 오르는데요.\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "US announces Brazil…",
-   "one_liner": "US announces Brazil tariffs , expands exemptions…",
-   "why_now": null,
+   "title": "미국, 브라질에 관세",
+   "one_liner": "미국이 브라질에 관세를 부과했어요.",
+   "why_now": "관세가 부과되면 수입품의 가격이 오를 수 있어요.",
    "details": [
-    "US announces Brazil tariffs , expands exemptions list",
-    "GRID 0 . 56 % Fee Pays for AI Power Exposure That Broad ETFs Miss",
-    "AP News Summary at 8 : 12 p . m . EDT"
+    "미국이 브라질에 관세를 부과했어요.",
+    "미국은 일부 제품의 관세를 면제했어요.",
+    "이 결정은 미국과 브라질의 무역에 영향을 줄 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "ブラ질산 제품의 수입이 줄어들 수 있어요!",
+    "미국 내 브라질산 제품의 가격이 오를 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "342c2eb2799baed8289bc47c4ee1304fca709ddc"
  },
@@ -908,7 +909,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-19T04:04:35.962860+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cba88a7800c9d0a52",
