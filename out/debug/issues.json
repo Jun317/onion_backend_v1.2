@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-19T00:26:56.725490+00:00",
+ "generated_at": "2026-07-19T04:15:28.790702+00:00",
  "issues": [
   {
    "id": "cb3030e4a5acd0008",
@@ -92,6 +92,25 @@
    "in_review": true
   },
   {
+   "id": "c826b1c1944a1c619",
+   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
+   "category": "RATE",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 145,
+   "entity_keys": [
+    "BOK"
+   ],
+   "created_at": "2026-07-16T03:45:52.566590+00:00",
+   "last_update": "2026-07-19T04:03:43.395660+00:00",
+   "members": 4,
+   "llm_title": "한국 기준금리 인상",
+   "one_liner": "한국은행이 3년 6개월 만에 기준금리를 올렸어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": false
+  },
+  {
    "id": "cde343d4cab397faf",
    "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
    "category": "POLICY",
@@ -149,25 +168,6 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
-   "in_review": false
-  },
-  {
-   "id": "c826b1c1944a1c619",
-   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
-   "category": "RATE",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 130,
-   "entity_keys": [
-    "BOK"
-   ],
-   "created_at": "2026-07-16T03:45:52.566590+00:00",
-   "last_update": "2026-07-16T11:57:35.610146+00:00",
-   "members": 3,
-   "llm_title": "한국 기준금리 인상",
-   "one_liner": "한국은행이 3년 6개월 만에 기준금리를 올렸어요.",
-   "llm_model": "gemini-2.5-flash-lite",
    "in_review": false
   },
   {
@@ -247,25 +247,6 @@
    "in_review": true
   },
   {
-   "id": "c261132309b4afd28",
-   "title": "FM Nirmala Sitharaman asks banks to step up NRI outreach as FCNR ( B ), ECB , OFCB schemes draw strong interest",
-   "category": "RATE",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 115,
-   "entity_keys": [
-    "ECB"
-   ],
-   "created_at": "2026-07-14T02:47:34.571612+00:00",
-   "last_update": "2026-07-14T02:47:34.571612+00:00",
-   "members": 2,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
    "id": "cc9931e5da1b53be2",
    "title": "BOJ dissenter Asada sets bar for supporting next rate hike , wants demand - driven inflation",
    "category": "RATE",
@@ -309,14 +290,15 @@
    "category": "GEO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 13,
+   "seen_sources": 14,
    "importance": 110,
    "entity_keys": [
+    "C",
     "F"
    ],
    "created_at": "2026-07-16T06:38:34.932120+00:00",
-   "last_update": "2026-07-18T22:12:15.314174+00:00",
-   "members": 13,
+   "last_update": "2026-07-19T04:03:43.397158+00:00",
+   "members": 14,
    "llm_title": "생활비 부담 증가",
    "one_liner": "미국 주민들의 식료품과 주거비 부담이 커지고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
@@ -388,12 +370,53 @@
    "in_review": true
   },
   {
+   "id": "c261132309b4afd28",
+   "title": "FM Nirmala Sitharaman asks banks to step up NRI outreach as FCNR ( B ), ECB , OFCB schemes draw strong interest",
+   "category": "RATE",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 110,
+   "entity_keys": [
+    "ECB"
+   ],
+   "created_at": "2026-07-14T02:47:34.571612+00:00",
+   "last_update": "2026-07-14T02:47:34.571612+00:00",
+   "members": 2,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
+   "id": "c273684a49f5f6fb2",
+   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 19,
+   "importance": 105,
+   "entity_keys": [
+    "AAPL",
+    "CHINA",
+    "IBM",
+    "META"
+   ],
+   "created_at": "2026-07-14T14:20:58.036576+00:00",
+   "last_update": "2026-07-19T04:03:43.402448+00:00",
+   "members": 24,
+   "llm_title": "미국 주식시장 상승",
+   "one_liner": "미국 주식시장이 물가 상승 속도가 느려지자 오르면서 IBM은 급락했어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
    "id": "c2f82920800c96145",
    "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 7,
+   "seen_sources": 8,
    "importance": 105,
    "entity_keys": [
     "AMD",
@@ -403,32 +426,11 @@
     "QCOM"
    ],
    "created_at": "2026-07-16T23:16:40.435129+00:00",
-   "last_update": "2026-07-19T00:15:14.472944+00:00",
-   "members": 13,
+   "last_update": "2026-07-19T04:03:43.392921+00:00",
+   "members": 14,
    "llm_title": "반도체 주가 하락",
    "one_liner": "마이크론 등 일부 반도체 기업들의 주가가 떨어지고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c273684a49f5f6fb2",
-   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 17,
-   "importance": 105,
-   "entity_keys": [
-    "AAPL",
-    "IBM",
-    "META"
-   ],
-   "created_at": "2026-07-14T14:20:58.036576+00:00",
-   "last_update": "2026-07-18T17:28:00.357244+00:00",
-   "members": 22,
-   "llm_title": "미국 주식시장 상승",
-   "one_liner": "미국 주식시장이 물가 상승 속도가 느려지자 오르면서 IBM은 급락했어요",
-   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -714,23 +716,6 @@
    "in_review": true
   },
   {
-   "id": "c0dce797f417a7342",
-   "title": "First Solar ( FSLR ) Stock Sees Modest Fair Value Lift As Analysts Weigh Tariffs And Tax Credits",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 43,
-   "importance": 100,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.930551+00:00",
-   "last_update": "2026-07-17T03:45:59.357566+00:00",
-   "members": 50,
-   "llm_title": "금융 기관 안내",
-   "one_liner": "금융 기관이 중요한 정보를 처리하는 방식에 대해 공동 성명을 냈어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
    "id": "c797bee3ad841a19c",
    "title": "First Coins issued by Bank of Korea",
    "category": "FX",
@@ -806,6 +791,23 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
+   "in_review": true
+  },
+  {
+   "id": "c0dce797f417a7342",
+   "title": "First Solar ( FSLR ) Stock Sees Modest Fair Value Lift As Analysts Weigh Tariffs And Tax Credits",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 43,
+   "importance": 95,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.930551+00:00",
+   "last_update": "2026-07-17T03:45:59.357566+00:00",
+   "members": 50,
+   "llm_title": "금융 기관 안내",
+   "one_liner": "금융 기관이 중요한 정보를 처리하는 방식에 대해 공동 성명을 냈어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -977,21 +979,38 @@
    "in_review": false
   },
   {
+   "id": "cfcf6c40cabd9b56d",
+   "title": "GRID 0 . 56 % Fee Pays for AI Power Exposure That Broad ETFs Miss",
+   "category": "COMMODITY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 59,
+   "importance": 85,
+   "entity_keys": [],
+   "created_at": "2026-07-18T19:38:21.281011+00:00",
+   "last_update": "2026-07-19T04:03:43.405611+00:00",
+   "members": 50,
+   "llm_title": "US announces Brazil…",
+   "one_liner": "US announces Brazil tariffs , expands exemptions…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "cc034b8431c1bfa82",
    "title": "Iran Officially Buries Remains of Defunct Truce With US . Middle East Flare - up Swallows Civilian Infra Targets",
    "category": "GEO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 11,
+   "seen_sources": 16,
    "importance": 85,
    "entity_keys": [
     "IRAN"
    ],
    "created_at": "2026-07-18T22:12:15.318060+00:00",
-   "last_update": "2026-07-19T00:15:14.481042+00:00",
-   "members": 38,
-   "llm_title": "Iran Officially…",
-   "one_liner": "Iran Officially Buries Remains of Defunct Truce…",
+   "last_update": "2026-07-19T04:03:43.404939+00:00",
+   "members": 49,
+   "llm_title": "US military launches…",
+   "one_liner": "US military launches new airstrikes to punish…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1009,23 +1028,6 @@
    "members": 50,
    "llm_title": "My daughter moved to…",
    "one_liner": "My daughter moved to Melbourne . Will our…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cfcf6c40cabd9b56d",
-   "title": "GRID 0 . 56 % Fee Pays for AI Power Exposure That Broad ETFs Miss",
-   "category": "COMMODITY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 34,
-   "importance": 85,
-   "entity_keys": [],
-   "created_at": "2026-07-18T19:38:21.281011+00:00",
-   "last_update": "2026-07-19T00:15:14.475955+00:00",
-   "members": 50,
-   "llm_title": "US announces Brazil…",
-   "one_liner": "US announces Brazil tariffs , expands exemptions…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1318,23 +1320,6 @@
    "in_review": true
   },
   {
-   "id": "cba88a7800c9d0a52",
-   "title": "The mother of all economic shocks is Chinese mercantilism",
-   "category": "COMMODITY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 51,
-   "importance": 80,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.932375+00:00",
-   "last_update": "2026-07-17T03:45:59.357757+00:00",
-   "members": 50,
-   "llm_title": "Trump races clock to…",
-   "one_liner": "Trump races clock to rebuild tariff wall knocked…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "eb742211d6b920cb4",
    "title": "코스피, 상반기에 두 배로",
    "category": "MARKET",
@@ -1426,6 +1411,23 @@
    "in_review": true
   },
   {
+   "id": "cba88a7800c9d0a52",
+   "title": "The mother of all economic shocks is Chinese mercantilism",
+   "category": "COMMODITY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 51,
+   "importance": 75,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.932375+00:00",
+   "last_update": "2026-07-17T03:45:59.357757+00:00",
+   "members": 50,
+   "llm_title": "Trump races clock to…",
+   "one_liner": "Trump races clock to rebuild tariff wall knocked…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "cffd60e8792904033",
    "title": "Jalen Hurts And Arik Armstead On Financial Empowerment",
    "category": "FX",
@@ -1491,8 +1493,8 @@
    "importance": 70,
    "entity_keys": [],
    "created_at": "2026-07-18T19:38:21.281734+00:00",
-   "last_update": "2026-07-19T00:15:14.478443+00:00",
-   "members": 22,
+   "last_update": "2026-07-19T04:03:43.404769+00:00",
+   "members": 23,
    "llm_title": "Ireland narrowly…",
    "one_liner": "Ireland narrowly misses record - matching…",
    "llm_model": "template",
@@ -1897,9 +1899,9 @@
    "created_at": "2026-07-16T06:38:34.930722+00:00",
    "last_update": "2026-07-17T11:47:42.431138+00:00",
    "members": 50,
-   "llm_title": "FinancialContent -…",
-   "one_liner": "FinancialContent - Travelers ( TRV ) Q2 Earnings…",
-   "llm_model": "template",
+   "llm_title": "기업 실적 발표 예정",
+   "one_liner": "여러 기업들이 곧 2분기 실적을 발표할 예정이에요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {

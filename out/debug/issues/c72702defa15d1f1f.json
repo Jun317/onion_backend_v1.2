@@ -293,7 +293,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-19T00:15:24.733939+00:00",
+  "created_at": "2026-07-19T04:04:04.432516+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -306,19 +306,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"비자 주가 상승\",\n  \"one_liner\": \"비자 주가가 애널리스트의 추천으로 2.6% 올랐어요.\",\n  \"why_now\": \"증권사 애널리스트의 긍정적인 전망은 투자자들의 관심을 끌어 주가 상승을 이끌 수 있어요.\",\n  \"impact_line\": \"비자 주식에 투자한 사람들의 평가액이 늘어날 수 있어요.\",\n  \"details\": [\n    \"비자 주가가 2.6% 상승했어요.\",\n    \"이는 애널리스트의 추천에 따른 것으로 보여요.\",\n    \"비자 주가는 1년 내 최고치를 기록했어요.\",\n    \"한 자산운용사가 비자 주식 1,684주를 사들였어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"비자 주가가 오르면서 관련 펀드나 ETF의 수익률도 좋아질 수 있어요!\",\n    \"이러한 긍정적인 흐름이 다른 카드사나 핀테크 기업에도 영향을 줄 수 있어요.\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"애널리스트\",\n      \"easy\": \"증권사 등에서 기업이나 시장을 분석하고 투자 의견을 내는 사람이에요.\",\n      \"example\": \"애널리스트가 특정 회사의 주식을 사라고 추천했어요.\"\n    },\n    {\n      \"term\": \"핀테크\",\n      \"easy\": \"정보기술(IT)을 활용해 금융 서비스를 편리하게 만드는 기술이나 산업을 말해요.\",\n      \"example\": \"스마트폰으로 간편하게 송금하는 핀테크 서비스가 늘고 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"비자·마스터카드\",\n   \"one_liner\": \"비자 주가가 분석가의 업그레이드에 따라 올라갔어요\",\n   \"why_now\": \"주가가 오르면 투자자에게 좋을 수 있어요\",\n   \"impact_line\": \"신용카드 사용료가 바뀔 수 있어요\",\n   \"details\": [\n       \"비자 주가가 2.6% 올라갔어요\",\n       \"비자 주가는 1년ใหม 최고치에 도달했어요\",\n       \"투자회사인 노에시스 캐피탈 매니지먼트 코프가 비자 주식을 샀어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"신용카드 사용이 더 편해질 수 있어요\",\n       \"금융 기술이 발전하면서 비자 주가가 더 오를 수 있어요\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"분석가 업그레이드\",\n           \"easy\": \"전문가가 주식에 대해 좋게 평가했어요\",\n           \"example\": \"분석가 업그레이드 후 주가가 오를 수 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "입력에 없는 숫자: [2.6, 1684.0]"
+     "입력에 없는 숫자: [2.6]"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
+     "effects[0] 느낌표 종결 아님",
      "effects[1] 느낌표 종결 아님",
-     "입력에 없는 숫자: [2.6, 1684.0]"
+     "입력에 없는 숫자: [2.6]"
     ]
    }
   ],
@@ -337,20 +338,20 @@
   "fact_hash": "31b6cd511fd566043891077201eaa389074cb128"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.6, 1684.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [2.6, 1684.0]\"]}]}",
-  "at": "2026-07-19T00:15:24.733830+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.6]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [2.6]\"]}]}",
+  "at": "2026-07-19T04:04:04.432418+00:00"
  },
  "glossary": [],
  "related": [
   {
-   "id": "c2f82920800c96145",
-   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
+   "id": "c273684a49f5f6fb2",
+   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c273684a49f5f6fb2",
-   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
+   "id": "c2f82920800c96145",
+   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
    "shared": []
   },
