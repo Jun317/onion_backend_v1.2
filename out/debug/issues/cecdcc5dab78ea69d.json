@@ -1,0 +1,139 @@
+{
+ "id": "cecdcc5dab78ea69d",
+ "title": "Kildare hoteliers call for budget measures to support sector - News",
+ "category": "POLICY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "SEC"
+ ],
+ "seen_sources": 2,
+ "importance": 110,
+ "created_at": "2026-07-19T23:16:54.284252+00:00",
+ "last_update": "2026-07-19T23:16:54.284947+00:00",
+ "members": [
+  {
+   "id": "9b6732ac33b42c571712cb6d559d221b484905e6",
+   "source": "canberratimes.com.au",
+   "tier": "wire",
+   "url": "https://www.canberratimes.com.au/story/9312531/optus-telstra-outages-spark-call-for-national-security-focus/",
+   "title": "Optus , Telstra outages spark call for national security focus | The Canberra Times",
+   "published_at": "2026-07-19T22:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9545
+  },
+  {
+   "id": "d6ed445e45c84a1ef54aeb2c3aabf9bd198582cc",
+   "source": "kildare-nationalist.ie",
+   "tier": "wire",
+   "url": "https://www.kildare-nationalist.ie/news/kildare-hoteliers-call-for-budget-measures-to-support-sector_arid-104761.html",
+   "title": "Kildare hoteliers call for budget measures to support sector - News",
+   "published_at": "2026-07-19T22:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9545
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Optus , Telstra outages spark call for national security focus | The Canberra Times",
+   "source": "canberratimes.com.au",
+   "url": "https://www.canberratimes.com.au/story/9312531/optus-telstra-outages-spark-call-for-national-security-focus/",
+   "at": "2026-07-19T22:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Kildare hoteliers call for budget measures to support sector - News",
+   "source": "kildare-nationalist.ie",
+   "url": "https://www.kildare-nationalist.ie/news/kildare-hoteliers-call-for-budget-measures-to-support-sector_arid-104761.html",
+   "at": "2026-07-19T22:30:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-19T23:16:57.801718+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Optus , Telstra outages spark call for national security focus | The Canberra Times",
+    "Kildare hoteliers call for budget measures to support sector - News"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"통신망 장애, 국가 안보 관심 촉구\", \"one_liner\": \"호주에서 통신망 장애가 발생해 국가 안보를 강화해야 한다는 목소리가 나오고 있어요.\", \"why_now\": \"통신망은 사회 기반 시설로, 장애 발생 시 경제 활동과 국민 생활에 큰 불편을 줄 수 있기 때문이에요.\", \"impact_line\": \"통신망 장애 시 일상생활에 큰 불편을 겪을 수 있어요.\", \"details\": [\"최근 호주에서 통신망 장애가 발생했어요.\", \"이로 인해 국가 안보에 대한 관심이 높아지고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"통신망 장애는 금융 거래, 긴급 통신 등 필수 서비스에 영향을 줄 수 있어 국가 안보 차원에서 중요하게 다뤄질 수 있어요!\"], \"glossary\": [{\"term\": \"통신망\", \"easy\": \"전화, 인터넷 등을 사용할 수 있도록 연결된 선이나 무선망을 말해요.\", \"example\": \"통신망이 끊기면 인터넷 사용이 불가능해져요.\"}], \"category\": \"POLICY\"}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(57)",
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Optus , Telstra…",
+   "one_liner": "Optus , Telstra outages spark call for national…",
+   "why_now": null,
+   "details": [
+    "Optus , Telstra outages spark call for national security focus | The Canberra Times",
+    "Kildare hoteliers call for budget measures to support sector - News"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "31bf38aa460f1fd9924716e66de8c0299c58b1a7"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(57)\", \"details 3문장 미만\"]}]}",
+  "at": "2026-07-19T23:16:57.801565+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": [
+    "SEC"
+   ]
+  },
+  {
+   "id": "c37ad01cf8a091a74",
+   "title": "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions",
+   "category": "FX",
+   "shared": [
+    "SEC"
+   ]
+  },
+  {
+   "id": "cde343d4cab397faf",
+   "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c2fe47d2110ccdaa3",
+   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "category": "EARNINGS",
+   "shared": [
+    "SEC"
+   ]
+  },
+  {
+   "id": "c5545b3b48fe71332",
+   "title": "Trump threatens to tariff Canada over  filthy air  from wildfire",
+   "category": "POLICY",
+   "shared": []
+  }
+ ]
+}
