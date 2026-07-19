@@ -2,16 +2,26 @@
  "id": "ca5c88b2eecf2f428",
  "title": "Why is it so hard for the U . S . to win wars ?",
  "category": "GEO",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 2,
+ "importance": 70,
  "created_at": "2026-07-18T19:38:21.282124+00:00",
- "last_update": "2026-07-19T09:24:12.697742+00:00",
+ "last_update": "2026-07-19T11:35:40.172465+00:00",
  "members": [
+  {
+   "id": "80a6e607f67c8e9ca6a29cf57a916b8958c45298",
+   "source": "namibian.com.na",
+   "tier": "wire",
+   "url": "https://www.namibian.com.na/how-can-every-dollar-deliver-the-greatest-benefit-for-namibia/",
+   "title": "How Can Every Dollar Deliver the Greatest Benefit for Namibia ?",
+   "published_at": "2026-07-19T10:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8745
+  },
   {
    "id": "0e86434e06f3366b46c3c357fc08c2ea53677ef7",
    "source": "kaieteurnewsonline.com",
@@ -20,7 +30,7 @@
    "title": "Lack of ring - fencing reduced Guyana 2025 profit - oil entitlement by US$4 . 9 Billion",
    "published_at": "2026-07-19T07:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8527
+   "sim_to_centroid": 0.8595
   },
   {
    "id": "2483689df131fd6cc13569d94bf8e820d1232ba5",
@@ -30,7 +40,7 @@
    "title": "Why is it so hard for the U . S . to win wars ?",
    "published_at": "2026-07-18T18:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9983
+   "sim_to_centroid": 0.9959
   },
   {
    "id": "2a6fb19bafca705f9b06fdc282663a2ae8624434",
@@ -40,11 +50,18 @@
    "title": "Why is it so hard for the U . S . to win wars ?",
    "published_at": "2026-07-18T18:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9983
+   "sim_to_centroid": 0.9959
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "How Can Every Dollar Deliver the Greatest Benefit for Namibia ?",
+   "source": "namibian.com.na",
+   "url": "https://www.namibian.com.na/how-can-every-dollar-deliver-the-greatest-benefit-for-namibia/",
+   "at": "2026-07-19T10:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Lack of ring - fencing reduced Guyana 2025 profit - oil entitlement by US$4 . 9 Billion",
@@ -67,8 +84,53 @@
    "at": "2026-07-18T18:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-19T11:35:50.498089+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "How Can Every Dollar Deliver the Greatest Benefit for Namibia ?",
+    "Lack of ring - fencing reduced Guyana 2025 profit - oil entitlement by US$4 . 9 Billion"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"나미비아, 달러 효율적 사용 모색\", \"one_liner\": \"나미비아 정부가 달러를 가장 효과적으로 사용하는 방법을 찾고 있어요.\", \"why_now\": \"나미비아는 외화 부족으로 어려움을 겪고 있어 달러를 아껴 써야 하는 상황이에요.\", \"impact_line\": \"나미비아의 경제 상황이 개선될 수 있을지 주목하고 있어요.\", \"details\": [\"나미비아 정부는 달러를 가장 큰 이익을 낼 수 있도록 사용하는 방안을 모색 중입니다.\", \"나미비아는 외화 부족으로 어려움을 겪고 있습니다.\"], \"visual_type\": \"none\", \"effects\": [\"나미비아의 경제 회복에 긍정적인 영향을 줄 수 있어요!\"], \"glossary\": [{\"term\": \"외화\", \"easy\": \"우리나라 돈이 아닌 다른 나라의 돈을 말해요.\", \"example\": \"외화가 부족하면 해외에서 물건을 사기 어려워져요.\"}], \"impact_line\": \"나미비아의 경제 상황이 개선될 수 있을지 주목하고 있어요.\"}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만",
+     "effects[0] 느낌표 종결 아님",
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [49.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "How Can Every Dollar…",
+   "one_liner": "How Can Every Dollar Deliver the Greatest…",
+   "why_now": null,
+   "details": [
+    "How Can Every Dollar Deliver the Greatest Benefit for Namibia ?",
+    "Lack of ring - fencing reduced Guyana 2025 profit - oil entitlement by US$4 . 9 Billion"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "ac2250fefceb99c14c173b8a35e584e6ca6c50c2"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\", \"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [49.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-07-19T11:35:50.497960+00:00"
+ },
  "glossary": [],
  "related": [
   {
