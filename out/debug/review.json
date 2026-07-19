@@ -1,6 +1,48 @@
 {
- "generated_at": "2026-07-19T14:08:59.152343+00:00",
+ "generated_at": "2026-07-19T15:29:25.659490+00:00",
  "queue": [
+  {
+   "issue_id": "ca5c88b2eecf2f428",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "one_liner 에 한자/가나 포함"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "details 3문장 미만"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-19T15:29:23.318354+00:00"
+  },
+  {
+   "issue_id": "c2f82920800c96145",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "title 에 한자/가나 포함"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "why_now 55자 초과(58)"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-19T15:29:10.217221+00:00"
+  },
   {
    "issue_id": "e552cf5d18e0c75cd",
    "reason": {
@@ -493,51 +535,6 @@
     ]
    },
    "at": "2026-07-19T13:59:23.635868+00:00"
-  },
-  {
-   "issue_id": "ca5c88b2eecf2f428",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "details 3문장 미만",
-       "effects[0] 느낌표 종결 아님",
-       "effects[1] 느낌표 종결 아님",
-       "입력에 없는 숫자: [49.0]"
-      ]
-     },
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "details 3문장 미만"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-19T11:35:50.497960+00:00"
-  },
-  {
-   "issue_id": "c2f82920800c96145",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "title 에 한자/가나 포함"
-      ]
-     },
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "one_liner 50자 초과(51)"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-19T11:35:45.776007+00:00"
   },
   {
    "issue_id": "cedadc4e3b15351e6",
