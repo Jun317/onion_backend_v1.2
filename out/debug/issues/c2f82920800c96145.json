@@ -261,48 +261,52 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-18T16:55:18.735161+00:00",
+  "model": "template",
+  "created_at": "2026-07-19T06:49:34.617076+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "FinancialContent - Lattice Semiconductor , AMD , and Qualcomm Shares Are Falling , What You Need To Know",
-    "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
     "SpaceX Stock vs . Micron Stock : Buy One and Sell the Other , According to Certain Wall Street Analysts",
+    "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
     "AI Data Centers Need AMD Chips , Share Price Shows It",
     "What Going on With Micron Technology Stock Friday ? - Micron Technology ( NASDAQ : MU )"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"반도체 주가 하락\",\n\"one_liner\": \"마이크론 등 일부 반도체 기업들의 주가가 떨어지고 있어요.\",\n\"why_now\": \"반도체 기업들의 주가는 현재 시장 상황과 미래 전망을 보여주는 중요한 지표예요.\",\n\"impact_line\": \"관련 기업들의 주가 변동은 투자자들에게 영향을 줄 수 있어요.\",\n\"details\": [\n\"마이크론 테크놀로지, AMD, 퀄컴 등의 주가가 하락세를 보이고 있어요.\",\n\"일부 분석가들은 마이크론 주식과 스페이스X 주식을 비교하며 매매 의견을 내놓고 있어요.\",\n\"AI 관련 데이터 센터에 필요한 칩을 공급하는 AMD의 주가는 이를 반영하고 있어요.\",\n\"마이크론은 퀄컴 등과 AI 기반 자동차 칩 부품 공급 계약을 맺었어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"반도체 기업들의 주가 하락은 관련 산업 전반에 대한 투자 심리에 영향을 줄 수 있어요!\",\n\"AI 기술 발전과 자동차 산업의 성장이 반도체 수요에 영향을 미칠 것으로 예상돼요!\"\n],\n\"glossary\": [\n{\n\"term\": \"AI\",\n\"easy\": \"인공지능을 뜻하는 말로, 컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n\"example\": \"AI 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n},\n{\n\"term\": \"데이터 센터\",\n\"easy\": \"컴퓨터와 통신 장비를 모아놓은 곳으로, 인터넷 서비스가 원활하게 돌아가도록 도와줘요.\",\n\"example\": \"유튜브 같은 동영상을 볼 때 데이터 센터의 도움이 필요해요.\"\n}\n],\n\"impact_line\": \"관련 기업들의 주가 변동은 투자자들에게 영향을 줄 수 있어요.\"\n}",
+  "raw_response": "{\"title\": \"반도체 주가 하락\", \"one_liner\": \"반도체 관련 기업들의 주가가 하락하고 있어요.\", \"why_now\": \"반도체 산업은 경제 전반에 큰 영향을 미치기 때문에 주가 변동은 중요해요.\", \"impact_line\": \"반도체 관련 기업에 투자했다면 손실이 발생할 수 있어요.\", \"details\": [\"AMD, 퀄컴 등 일부 반도체 기업들의 주가가 떨어지고 있어요.\", \"월가 분석가들은 특정 반도체 기업의 주식 매수와 매도를 추천했어요.\", \"마이크론은 AI 기반 자동차 칩 부품을 퀄컴 등과 계약했어요.\", \"AI 데이터 센터에는 AMD 칩이 필요하다는 분석이 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"반도체 기업들의 주가 하락은 관련 산업 전반의 투자 심리에 영향을 줄 수 있어요!\", \"AI 기술 발전과 자동차 산업 성장은 특정 반도체 기업에 긍정적인 영향을 줄 수 있어요.\"], \"glossary\": [{\"term\": \"AMD\", \"easy\": \"컴퓨터의 중앙처리장치(CPU)와 그래픽처리장치(GPU) 등을 만드는 미국의 회사예요.\", \"example\": \"AMD의 새 CPU는 게임 성능을 크게 높여줘요.\"}, {\"term\": \"퀄컴\", \"easy\": \"스마트폰에 들어가는 통신 칩 등을 만드는 미국의 회사예요.\", \"example\": \"퀄컴 칩 덕분에 스마트폰으로 빠르게 인터넷을 할 수 있어요.\"}, {\"term\": \"AI\", \"easy\": \"인공지능을 뜻하는 말로, 컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\", \"example\": \"AI 스피커는 사람의 말을 알아듣고 대답해줘요.\"}, {\"term\": \"월가\", \"easy\": \"미국 뉴욕에 있는 금융 중심지를 뜻하는 말이에요.\", \"example\": \"월가에서는 항상 새로운 투자 상품이 나오고 있어요.\"}], \"impact_line\": \"반도체 관련 기업에 투자했다면 손실이 발생할 수 있어요.\"}",
   "attempts": [
    {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "title 에 한자/가나 포함"
+    ]
+   },
+   {
     "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "errors": [
+     "effects[1] 느낌표 종결 아님"
+    ]
    }
   ],
   "output": {
-   "title": "반도체 주가 하락",
-   "one_liner": "마이크론 등 일부 반도체 기업들의 주가가 떨어지고 있어요.",
-   "why_now": "반도체 기업들의 주가는 현재 시장 상황과 미래 전망을 보여주는 중요한 지표예요.",
+   "title": "FinancialContent -…",
+   "one_liner": "FinancialContent - Lattice Semiconductor , AMD ,…",
+   "why_now": null,
    "details": [
-    "마이크론 테크놀로지, AMD, 퀄컴 등의 주가가 하락세를 보이고 있어요.",
-    "일부 분석가들은 마이크론 주식과 스페이스X 주식을 비교하며 매매 의견을 내놓고 있어요.",
-    "AI 관련 데이터 센터에 필요한 칩을 공급하는 AMD의 주가는 이를 반영하고 있어요.",
-    "마이크론은 퀄컴 등과 AI 기반 자동차 칩 부품 공급 계약을 맺었어요."
+    "FinancialContent - Lattice Semiconductor , AMD , and Qualcomm Shares Are Falling , What You Need To Know",
+    "SpaceX Stock vs . Micron Stock : Buy One and Sell the Other , According to Certain Wall Street Analysts",
+    "Micron signs deals with Qualcomm , others for AI - powered automobile chip components"
    ],
-   "effects": [
-    "반도체 기업들의 주가 하락은 관련 산업 전반에 대한 투자 심리에 영향을 줄 수 있어요!",
-    "AI 기술 발전과 자동차 산업의 성장이 반도체 수요에 영향을 미칠 것으로 예상돼요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "6af05e322f2c0b259a1fed8ad75cf8a374964d47"
+  "fact_hash": "5e92ed9200d79362757aa075f68382d20ffd76bf"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-18T10:47:34.824086+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"title 에 한자/가나 포함\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}]}",
+  "at": "2026-07-19T06:49:34.616918+00:00"
  },
  "glossary": [],
  "related": [
@@ -325,14 +329,14 @@
    "shared": []
   },
   {
-   "id": "c4e8e497777eba176",
-   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
+   "id": "c499660e9dfd764df",
+   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c499660e9dfd764df",
-   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
+   "id": "c4e8e497777eba176",
+   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "category": "MARKET",
    "shared": []
   }

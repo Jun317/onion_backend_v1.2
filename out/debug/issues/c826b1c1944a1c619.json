@@ -87,47 +87,43 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-16T11:57:44.595776+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-19T06:49:24.241121+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
    "headlines": [
+    "Bank of Korea Ends Three - Year Rate Freeze as AI Chip Boom Stokes Inflation",
     "Bank of Korea hikes rates for first time in 3 - 1 / 2 years",
     "Bank of Korea Raises Rates for First Time Since 2023 Update",
     "Bank of Korea Raise Rates for First Time Since 2023"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"한국 기준금리 인상\",\n  \"one_liner\": \"한국은행이 3년 6개월 만에 기준금리를 올렸어요.\",\n  \"why_now\": \"금리가 오르면 대출 이자가 늘어 가계 부담이 커지는 게 보통이에요.\",\n  \"impact_line\": \"변동금리 대출 이자 부담이 늘어날 수 있어요.\",\n  \"details\": [\n    \"한국은행이 기준금리를 인상했어요.\",\n    \"이는 3년 6개월 만의 첫 금리 인상이에요.\",\n    \"2023년 이후 처음으로 금리가 올랐어요.\"\n  ],\n  \"visual_type\": \"kr_base_rate\",\n  \"effects\": [\n    \"은행 예금 이자도 따라 올라, 목돈을 예금에 두면 이자 수익이 늘어날 수 있어요!\",\n    \"돈 빌리기가 어려워져 소비와 투자가 위축될 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"기준금리\",\n      \"easy\": \"한국은행이 정하는 나라의 기본 이자율이에요.\",\n      \"example\": \"기준금리가 오르면 대출 이자도 보통 따라 올라요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"한국 기준금리 인상\",\n   \"one_liner\": \"한국은행이 기준금리를 올렸어요\",\n   \"why_now\": \"인플레이션이 높아지면 금리를 올려 물가 상승을 막으려는 경우가 많아요\",\n   \"impact_line\": \"대출금리와 예금이자에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"한국은행이 기준금리를 인상했어요\",\n       \"인상 이유 중 하나가 인플레이션 우려예요\",\n       \"금리 인상으로 인해 대출이 어려워질 수 있어요\",\n       \"이 결정으로 물가 상승을 막으려는 시도가 예상돼요\"\n   ],\n   \"visual_type\": \"kr_base_rate\",\n   \"effects\": [\n       \"대출금리가 높아져서 소비가 줄어들 수 있어요!\",\n       \"예금 이자가 높아져서 저축이 늘어날 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"인플레이션\",\n           \"easy\": \"물가가 계속해서 오르는 현상이에요\",\n           \"example\": \"인플레이션이 높으면 물건을 사기 더 어려워질 수 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
     "errors": []
    }
   ],
   "output": {
    "title": "한국 기준금리 인상",
-   "one_liner": "한국은행이 3년 6개월 만에 기준금리를 올렸어요.",
-   "why_now": "금리가 오르면 대출 이자가 늘어 가계 부담이 커지는 게 보통이에요.",
+   "one_liner": "한국은행이 기준금리를 올렸어요",
+   "why_now": "인플레이션이 높아지면 금리를 올려 물가 상승을 막으려는 경우가 많아요",
    "details": [
-    "한국은행이 기준금리를 인상했어요.",
-    "이는 3년 6개월 만의 첫 금리 인상이에요.",
-    "2023년 이후 처음으로 금리가 올랐어요."
+    "한국은행이 기준금리를 인상했어요",
+    "인상 이유 중 하나가 인플레이션 우려예요",
+    "금리 인상으로 인해 대출이 어려워질 수 있어요",
+    "이 결정으로 물가 상승을 막으려는 시도가 예상돼요"
    ],
    "effects": [
-    "은행 예금 이자도 따라 올라, 목돈을 예금에 두면 이자 수익이 늘어날 수 있어요!",
-    "돈 빌리기가 어려워져 소비와 투자가 위축될 것으로 예상돼요!"
+    "대출금리가 높아져서 소비가 줄어들 수 있어요!",
+    "예금 이자가 높아져서 저축이 늘어날 수 있어요!"
    ],
    "visual_type": "kr_base_rate"
   },
-  "fact_hash": "4de9a6fa4fe9b6b1f45bad53d812059b5aad5f16"
+  "fact_hash": "a5596052bdced15c63f01990d07b84937c6f13d3"
  },
  "review": null,
  "glossary": [
@@ -140,6 +136,11 @@
    "term": "한국은행",
    "easy": "우리나라 돈을 관리하는 중앙은행이에요.",
    "example": "한국 기준금리를 여기서 정해요."
+  },
+  {
+   "term": "인플레이션",
+   "easy": "물가가 전반적으로 계속 오르는 현상이에요.",
+   "example": "돈의 힘이 조금씩 약해지는 셈이에요."
   },
   {
    "term": "금리",
