@@ -122,7 +122,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-20T13:23:57.160437+00:00",
+  "created_at": "2026-07-20T18:27:28.403046+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -132,16 +132,16 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"메타, AI 투자 계획 변경\",\n  \"one_liner\": \"메타가 인공지능(AI) 사업에 막대한 돈을 투자하려던 계획을 바꾸고 있어요.\",\n  \"why_now\": \"AI 기술 경쟁이 치열해지면서 기업들의 투자 방향과 규모가 중요해지고 있어요.\",\n  \"impact_line\": \"AI 기술 발전 속도에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"메타는 원래 인공지능 사업에 1740억 달러를 투자할 계획이었어요.\",\n    \"하지만 이 계획을 포기할 것으로 보여요.\",\n    \"메타는 대신 다른 회사와 협력해 인공지능 컴퓨팅 성능을 빌리는 방안을 논의 중이에요.\",\n    \"이 협력 대상에는 인공지능 회사인 앤트로픽도 포함되어 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"AI 기술 개발 경쟁이 새로운 국면을 맞을 수 있어요!\",\n    \"메타의 AI 사업 전략 변화가 관련 산업에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"인공지능(AI)\",\n      \"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n      \"example\": \"인공지능 스피커가 날씨를 알려줘요.\"\n    },\n    {\n      \"term\": \"컴퓨팅 파워\",\n      \"easy\": \"컴퓨터가 계산하고 처리하는 능력이에요.\",\n      \"example\": \"고사양 게임을 하려면 컴퓨터의 컴퓨팅 파워가 좋아야 해요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"메타의 AI 투자\",\n   \"one_liner\": \"메타가 1740억 달러 투자 계획을 포기할 수 있어요\",\n   \"why_now\": \"메타가 인공지능 기술을 더 발전시키기 위해 투자 계획을 변경할 수 있어요\",\n   \"impact_line\": \"메타의 서비스가 더 좋아질 수 있어요\",\n   \"details\": [\n       \"메타가 1740억 달러를 투자할 계획이었어요\",\n       \"메타가 인공지능 기술을 더 발전시키고 싶어요\",\n       \"메타가 다른 회사와 협력할 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"메타의 서비스가 더 좋아져서 사용자들이 더 많이 사용할 수 있어요!\",\n       \"메타가 더 많은 돈을 벌 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "입력에 없는 숫자: [1740.0]"
+     "입력에 없는 숫자: [240.0, 1740.0]"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
      "입력에 없는 숫자: [1740.0]"
     ]
@@ -161,8 +161,8 @@
   "fact_hash": "bdd26c6544bd9f6020c9daa536bd43163fad53a0"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1740.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1740.0]\"]}]}",
-  "at": "2026-07-20T13:23:57.160289+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [240.0, 1740.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1740.0]\"]}]}",
+  "at": "2026-07-20T18:27:28.402879+00:00"
  },
  "glossary": [],
  "related": [
@@ -189,14 +189,14 @@
    ]
   },
   {
-   "id": "c5545b3b48fe71332",
-   "title": "Trump threatens to tariff Canada over  filthy air  from wildfire",
+   "id": "c453b022245ab55dd",
+   "title": "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "c326b0b11f6b34d1d",
-   "title": "The Iran war could shape American policy for decades | JONAH GOLDBERG :",
+   "id": "c5545b3b48fe71332",
+   "title": "Trump threatens to tariff Canada over  filthy air  from wildfire",
    "category": "POLICY",
    "shared": []
   }

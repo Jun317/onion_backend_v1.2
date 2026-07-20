@@ -71,22 +71,23 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-20T13:24:27.004448+00:00",
+  "created_at": "2026-07-20T18:28:08.704624+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "How PayPal went from Wall Street darling to unwilling merger target",
+    "Financial stocks overbought amid tech selloff ; BofA , PayPal among gainers , Citi , crypto in losers",
     "Why PayPal Shares Are Skyrocketing Higher This Week"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"페이팔 주가 급등\",\n   \"one_liner\": \"페이팔의 주가가 크게 올랐어요\",\n   \"why_now\": \"주가가 오르면 투자자들이 돈을 벌 수 있어요\",\n   \"impact_line\": \"투자자들의 자산 가치가 증가할 수 있어요\",\n   \"details\": [\n       \"페이팔의 주가가 급등했어요\",\n       \"페이팔이 매각 대상이 될 수 있다는 소식이 나왔어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"투자자들이 더 많은 돈을 벌 수 있을 것으로 예상돼요!\",\n       \"페이팔의 비즈니스에 변화가 생길 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"페이팔 주가 급등\",\n  \"one_liner\": \"페이팔 주가가 이번 주에 크게 올랐어요.\",\n  \"why_now\": \"페이팔은 한때 많은 투자자들이 좋아했지만, 지금은 인수 대상이 될 수 있다는 이야기가 나오고 있어요.\",\n  \"impact_line\": \"페이팔 관련 투자에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"페이팔은 한때 월스트리트의 사랑을 받는 기업이었어요.\",\n    \"하지만 지금은 원치 않는 인수 대상이 될 수 있다는 분석이 나와요.\",\n    \"기술주들이 하락하는 가운데 금융주들이 오르고 있어요.\",\n    \"페이팔은 이번 주에 주가가 크게 상승했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"페이팔의 주가 상승은 다른 금융 기업들의 주가에도 영향을 줄 수 있어요!\",\n    \"페이팔의 미래가 인수합병으로 결정될 경우, 관련 시장에 큰 변화가 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"월스트리트\",\n      \"easy\": \"미국 뉴욕에 있는 금융 중심지를 말해요.\",\n      \"example\": \"월스트리트의 움직임은 전 세계 금융 시장에 큰 영향을 줘요.\"\n    },\n    {\n      \"term\": \"인수 대상\",\n      \"easy\": \"다른 회사에 사들여질 가능성이 있는 회사를 말해요.\",\n      \"example\": \"회사가 인수 대상이 되면 주가가 오르는 경우가 많아요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "details 3문장 미만"
+     "why_now 55자 초과(56)"
     ]
    },
    {
@@ -102,16 +103,17 @@
    "why_now": null,
    "details": [
     "How PayPal went from Wall Street darling to unwilling merger target",
+    "Financial stocks overbought amid tech selloff ; BofA , PayPal among gainers , Citi , crypto in losers",
     "Why PayPal Shares Are Skyrocketing Higher This Week"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "c8103cb060faee61d1eb5ea0e081b6416b17121d"
+  "fact_hash": "7139f8a6fd2d7dfb843743d534c803c9b418ad1a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-20T13:24:27.004388+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(56)\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-20T18:28:08.704564+00:00"
  },
  "glossary": [],
  "related": [

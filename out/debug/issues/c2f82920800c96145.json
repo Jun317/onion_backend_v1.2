@@ -330,42 +330,45 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-20T13:25:40.858758+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-20T18:27:12.408097+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "SpaceX Stock vs . Micron Stock : Buy One and Sell the Other , According to Certain Wall Street Analysts",
+    "Micron Stock Rebounds From Recent Selloff as Company Warns Memory Chip Supply Will Stay Tight Past 2027",
     "FinancialContent - Lattice Semiconductor , AMD , and Qualcomm Shares Are Falling , What You Need To Know",
     "AI Data Centers Need AMD Chips , Share Price Shows It",
-    "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
-    "Should You Buy Micron Technology Stock While It Below $1 , 000 ? The Answer Might Surprise You ."
+    "Micron signs deals with Qualcomm , others for AI - powered automobile chip components"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 주식 시장\",\n   \"one_liner\": \"미국 기업들이 주식 시장에서 움직임을 보이고 있어요.\",\n   \"why_now\": \"주식 시장은 경제와 기술의 발전에 따라 변동이 많아요.\",\n   \"impact_line\": \"주식 투자에 관심이 있는 사람들에게 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"SpaceX와 Micron의 주식에 대해 어떤 전문가들은 하나를 사고 하나를 팔라고 말하고 있어요.\",\n       \"Micron의 주식이 최근 하락에서 반등했어요.\",\n       \"Lattice Semiconductor, AMD, Qualcomm의 주식이 떨어지고 있어요.\",\n       \"AMD의 칩이 인공지능 데이터 센터에 필요해 주가가 영향을 받았어요.\",\n       \"Micron이 Qualcomm과 다른 회사들과 자율 주행 자동차 칩 부품에 대한 계약을 맺었어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국 기술 기업들의 주식 가격이 변동하면 투자자들에게 영향을 줄 수 있어요!\",\n       \"인공지능 기술이 발전하면서 관련 기업들의 주가가 오를 가능성이 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"주식\",\n           \"easy\": \"회사가 발행한 소유권을 나타내는 증권이에요.\",\n           \"example\": \"주식을 사면 그 회사의 일부 소유자가 되는 거예요.\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "SpaceX Stock vs .…",
-   "one_liner": "SpaceX Stock vs . Micron Stock : Buy One and…",
-   "why_now": null,
+   "title": "미국 주식 시장",
+   "one_liner": "미국 기업들이 주식 시장에서 움직임을 보이고 있어요.",
+   "why_now": "주식 시장은 경제와 기술의 발전에 따라 변동이 많아요.",
    "details": [
-    "SpaceX Stock vs . Micron Stock : Buy One and Sell the Other , According to Certain Wall Street Analysts",
-    "FinancialContent - Lattice Semiconductor , AMD , and Qualcomm Shares Are Falling , What You Need To Know",
-    "AI Data Centers Need AMD Chips , Share Price Shows It"
+    "SpaceX와 Micron의 주식에 대해 어떤 전문가들은 하나를 사고 하나를 팔라고 말하고 있어요.",
+    "Micron의 주식이 최근 하락에서 반등했어요.",
+    "Lattice Semiconductor, AMD, Qualcomm의 주식이 떨어지고 있어요.",
+    "AMD의 칩이 인공지능 데이터 센터에 필요해 주가가 영향을 받았어요.",
+    "Micron이 Qualcomm과 다른 회사들과 자율 주행 자동차 칩 부품에 대한 계약을 맺었어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "미국 기술 기업들의 주식 가격이 변동하면 투자자들에게 영향을 줄 수 있어요!",
+    "인공지능 기술이 발전하면서 관련 기업들의 주가가 오를 가능성이 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "d0332cbbed28f5804416a28c58b04e05503d2b47"
+  "fact_hash": "9ac968a6539d3808d2d4f2a07133592c4f5eccd1"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
