@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-20T07:38:52.415777+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-20T11:19:49.987249+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,31 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"뉴저지 가족 휴가법 개정\",\n  \"one_liner\": \"뉴저지에서 가족 휴가법이 7월 17일에 개정될 예정이에요.\",\n  \"why_now\": \"가족 휴가법이 바뀌면 직장인들이 육아나 가족 돌봄을 위해 휴가를 쓰는 데 영향을 줄 수 있어요.\",\n  \"impact_line\": \"가족 돌봄을 위한 휴가 사용 방식이 달라질 수 있어요.\",\n  \"details\": [\n    \"뉴저지 가족 휴가법이 2026년 7월 17일에 개정돼요.\",\n    \"이 법은 가족 돌봄을 위한 휴가에 관한 내용을 담고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"가족 돌봄 휴가 사용 조건이나 기간이 달라질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"가족 휴가법\",\n      \"easy\": \"가족의 건강이나 돌봄을 위해 직장인이 휴가를 쓸 수 있도록 정한 법이에요.\",\n      \"example\": \"가족 휴가법 덕분에 아기를 낳고 휴가를 쓸 수 있었어요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"뉴저지 가족휴가법 개정\",\n   \"one_liner\": \"미국 뉴저지 주가 가족휴가법을 바꾸었어요\",\n   \"why_now\": \"가족휴가법이 바뀌면 일과 가정생활의 균형이 달라질 수 있어요\",\n   \"impact_line\": \"직장인들이 가족을 돌보는 데 더 많은 시간을 가질 수 있어요\",\n   \"details\": [\n      \"뉴저지 주가 가족휴가법을 2026년 7월 17일에 바꾸었어요\",\n      \"이 법은 일과 가정생활의 균형을 맞추는 데 도움이 되요\",\n      \"직장인들이 가족을 돌보는 데 더 많은 시간을 가질 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"직장인들이 가족을 돌보는 데 더 많은 시간을 가질 수 있으면 가족의 행복이 증가할 수 있어요!\",\n      \"가족휴가법이 바뀌면 기업의 인사정책에도 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"가족휴가법\",\n         \"easy\": \"직장인들이 가족을 돌보는 데 필요한 휴가를 받을 수 있는 법이에요\",\n         \"example\": \"직장인들이 아이를 낳았을 때 휴가를 받을 수 있어요\"\n      }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Gold IRA Fees…",
-   "one_liner": "Gold IRA Fees Explained : New 2026 Breakdown of…",
-   "why_now": null,
+   "title": "뉴저지 가족휴가법 개정",
+   "one_liner": "미국 뉴저지 주가 가족휴가법을 바꾸었어요",
+   "why_now": "가족휴가법이 바뀌면 일과 가정생활의 균형이 달라질 수 있어요",
    "details": [
-    "Gold IRA Fees Explained : New 2026 Breakdown of Setup , Storage , and Annual Costs",
-    "Devon Funds Morning Note - 15 July 2026 - sharechat . co . nz",
-    "Hot and Cold Stocks of Mutual Funds in June 2026"
+    "뉴저지 주가 가족휴가법을 2026년 7월 17일에 바꾸었어요",
+    "이 법은 일과 가정생활의 균형을 맞추는 데 도움이 되요",
+    "직장인들이 가족을 돌보는 데 더 많은 시간을 가질 수 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "직장인들이 가족을 돌보는 데 더 많은 시간을 가질 수 있으면 가족의 행복이 증가할 수 있어요!",
+    "가족휴가법이 바뀌면 기업의 인사정책에도 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "40dfdce30ac3bc6417e8d26762b6252c2ed87ba2"

@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-20T07:40:45.670689+00:00",
+  "created_at": "2026-07-20T11:21:41.162651+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,19 +64,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"버라이즌 매장 축소 및 인력 감축\",\n    \"one_liner\": \"미국 통신사 버라이즌이 인공지능 도입과 매장 전환으로 수천 명의 직원을 줄이고 매장을 축소해요.\",\n    \"why_now\": \"새로운 기술이 일자리를 대체하면서 기존 산업 구조가 바뀌고 있다는 것을 보여줘요.\",\n    \"impact_line\": \"기술 발전으로 일자리가 줄어들 수 있다는 우려가 커지고 있어요.\",\n    \"details\": [\n        \"버라이즌은 수백 개의 매장을 매각할 예정이에요.\",\n        \"또한, 3천 명의 매장 직원을 줄인다고 해요.\",\n        \"이는 인공지능이 고객 서비스를 대체하고 매장이 프랜차이즈 형태로 바뀌기 때문이에요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"인공지능 기술이 발전하면서 고객 응대 방식이 달라질 수 있어요!\",\n        \"기업들이 비용 절감을 위해 인력 대신 기술을 활용하는 사례가 늘어날 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"프랜차이즈\",\n            \"easy\": \"다른 사람에게 내 사업 이름과 운영 방식을 쓸 수 있도록 허락하고 그 대가를 받는 방식이에요.\",\n            \"example\": \"유명 빵집이나 커피숍이 프랜차이즈로 운영되는 경우가 많아요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "one_liner 50자 초과(53)",
-     "입력에 없는 숫자: [3000.0]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 50자 초과(53)"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -94,8 +87,8 @@
   "fact_hash": "3da24ac9a96195e32ec55e56ede39c78e9eb3805"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(53)\", \"입력에 없는 숫자: [3000.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(53)\"]}]}",
-  "at": "2026-07-20T07:40:45.670582+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-20T11:21:41.162545+00:00"
  },
  "glossary": [],
  "related": [
@@ -120,12 +113,6 @@
   {
    "id": "c2ddb2c1db0cafd3b",
    "title": "Wells Fargo bounces off 52 - week lows . What it must do to get out of the penalty box",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "cb73e3e7c2c3ac871",
-   "title": "Big Pharma Just Started Buying Up Psychedelic Companies",
    "category": "EARNINGS",
    "shared": []
   }

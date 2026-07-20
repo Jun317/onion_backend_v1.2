@@ -12,8 +12,18 @@
  "seen_sources": 3,
  "importance": 95,
  "created_at": "2026-07-18T12:10:48.729267+00:00",
- "last_update": "2026-07-19T19:38:06.605449+00:00",
+ "last_update": "2026-07-20T11:19:05.709304+00:00",
  "members": [
+  {
+   "id": "7b658a11b82c4f946a4a0595b4189ddc6d363933",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/07/19/oracle-crashed-65-from-its-peak-i-just-bought-it-a/",
+   "title": "Oracle Crashed 65 % From Its Peak . I Just Bought It Anyway . Here Why .",
+   "published_at": "2026-07-20T08:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9189
+  },
   {
    "id": "db04a996301ee24a4784f4da4d61b8212df003ec",
    "source": "fool.com",
@@ -22,7 +32,7 @@
    "title": "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?",
    "published_at": "2026-07-19T17:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9128
+   "sim_to_centroid": 0.9193
   },
   {
    "id": "027c4fb10bf06c39c76693236a8d9196d9bb7470",
@@ -32,7 +42,7 @@
    "title": "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
    "published_at": "2026-07-18T10:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9601
+   "sim_to_centroid": 0.9562
   },
   {
    "id": "1f64dde92a5260e2a015a36958212c4908175e76",
@@ -42,11 +52,18 @@
    "title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
    "published_at": "2026-07-17T12:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9638
+   "sim_to_centroid": 0.9642
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Oracle Crashed 65 % From Its Peak . I Just Bought It Anyway . Here Why .",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/07/19/oracle-crashed-65-from-its-peak-i-just-bought-it-a/",
+   "at": "2026-07-20T08:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?",
@@ -70,46 +87,45 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-19T19:38:38.602139+00:00",
+  "model": "template",
+  "created_at": "2026-07-20T11:27:32.184591+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Oracle Crashed 65 % From Its Peak . I Just Bought It Anyway . Here Why .",
     "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?",
     "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
     "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"오라클 주가 급락\",\n  \"one_liner\": \"미국 기업 오라클의 주가가 크게 떨어져 1년 내 최저치를 기록했어요.\",\n  \"why_now\": \"인공지능 관련 투자에 대한 우려로 기업들의 주가가 흔들릴 수 있어요.\",\n  \"impact_line\": \"주요 기술 기업의 주가 변동은 관련 산업 전반에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"오라클의 주가가 1년 내 최저치로 떨어졌어요.\",\n    \"신용 평가 등급도 정크 등급에 가깝게 하향 조정되었어요.\",\n    \"일부 전문가들은 인공지능 관련 투자 열기가 과열되었다고 보고 있어요.\",\n    \"다른 전문가들은 오라클 주식을 팔고 은행, 제약, 반도체 관련 주식에 투자하라고 권하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"기술 기업들의 투자 심리가 위축되면 관련 산업의 성장세가 둔화될 수 있어요!\",\n    \"투자자들의 불안감이 커지면서 다른 기술주들의 주가도 영향을 받을 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"정크 등급\",\n      \"easy\": \"신용도가 낮아 원리금을 떼일 위험이 높은 채권이나 기업에 붙는 등급이에요.\",\n      \"example\": \"신용 등급이 정크 등급으로 떨어지면 돈을 빌리기 어려워져요.\"\n    },\n    {\n      \"term\": \"신용 평가 등급\",\n      \"easy\": \"돈을 빌린 사람이 돈을 갚을 능력이 얼마나 되는지를 나타내는 점수예요.\",\n      \"example\": \"신용 평가 등급이 높으면 대출 이자가 낮아지는 경우가 많아요.\"\n    },\n    {\n      \"term\": \"인공지능\",\n      \"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n      \"example\": \"인공지능 스피커는 사람의 말을 알아듣고 음악을 틀어줘요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "오라클 주가 급락",
-   "one_liner": "미국 기업 오라클의 주가가 크게 떨어져 1년 내 최저치를 기록했어요.",
-   "why_now": "인공지능 관련 투자에 대한 우려로 기업들의 주가가 흔들릴 수 있어요.",
+   "title": "Oracle Crashed 65 %…",
+   "one_liner": "Oracle Crashed 65 % From Its Peak . I Just…",
+   "why_now": null,
    "details": [
-    "오라클의 주가가 1년 내 최저치로 떨어졌어요.",
-    "신용 평가 등급도 정크 등급에 가깝게 하향 조정되었어요.",
-    "일부 전문가들은 인공지능 관련 투자 열기가 과열되었다고 보고 있어요.",
-    "다른 전문가들은 오라클 주식을 팔고 은행, 제약, 반도체 관련 주식에 투자하라고 권하고 있어요."
+    "Oracle Crashed 65 % From Its Peak . I Just Bought It Anyway . Here Why .",
+    "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?",
+    "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors"
    ],
-   "effects": [
-    "기술 기업들의 투자 심리가 위축되면 관련 산업의 성장세가 둔화될 수 있어요!",
-    "투자자들의 불안감이 커지면서 다른 기술주들의 주가도 영향을 받을 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "f8a4a41e0a5d1462ec31b8523238e0d5b6d3326a"
+  "fact_hash": "fd59b1436a1457f51e121fb384cd46b5b1621b49"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-18T12:12:06.899214+00:00"
+  "at": "2026-07-20T11:27:32.184528+00:00"
  },
  "glossary": [],
  "related": [
