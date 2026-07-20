@@ -38,7 +38,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-20T04:19:28.109606+00:00",
+  "created_at": "2026-07-20T07:42:57.589277+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [
@@ -57,8 +57,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"미국 물가 상승률 발표\",\n    \"one_liner\": \"미국의 5월 물가 상승률이 4.17%로 발표됐어요.\",\n    \"why_now\": \"물가 상승률은 금리 결정에 중요한 영향을 미쳐요. 금리가 오르면 대출 이자 부담이 커져요.\",\n    \"impact_line\": \"금리가 오르면 대출 이자 부담이 늘어날 수 있어요.\",\n    \"details\": [\n        \"미국의 5월 소비자 물가 상승률은 4.17%였어요.\",\n        \"이 수치는 전년 동월 대비 상승률이에요.\"\n    ],\n    \"visual_type\": \"us_cpi_yoy\",\n    \"effects\": [\n        \"물가 상승률이 예상보다 높으면 금리가 오를 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"CPI\",\n            \"easy\": \"소비자 물가 지수로, 소비자들이 많이 사는 상품과 서비스의 가격 변화를 나타내요.\",\n            \"example\": \"CPI가 오르면 장바구니 물가가 비싸졌다고 느낄 수 있어요.\"\n        }\n    ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "입력에 없는 숫자: [4.17]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -79,8 +86,8 @@
   "fact_hash": "d971fe76f46ec210992e1903ed3e7e79ed62072c"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-20T04:19:28.109550+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [4.17]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-20T07:42:57.589209+00:00"
  },
  "glossary": [
   {

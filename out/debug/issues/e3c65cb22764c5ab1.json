@@ -49,7 +49,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-20T04:21:18.388314+00:00",
+  "created_at": "2026-07-20T07:45:06.299537+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -77,8 +77,17 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"LG전자 실적 발표\",\n  \"one_liner\": \"LG전자가 2025년 1분기에 매출 22조 7398억원, 영업이익 1조 2590억원을 기록했어요.\",\n  \"why_now\": \"기업의 실적은 앞으로의 성장 가능성을 보여주는 중요한 지표가 될 수 있어요.\",\n  \"impact_line\": \"LG전자 주가나 관련 산업에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"LG전자의 2025년 1분기 매출액은 22조 7398억원이에요.\",\n    \"LG전자의 2025년 1분기 영업이익은 1조 2590억원이에요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"실적이 좋으면 해당 기업의 주가가 오를 수 있어요!\",\n    \"실적이 예상보다 좋지 않으면 주가가 하락할 수 있어요.\"\n  ],\n  \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 50자 초과(54)",
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [22.0, 2590.0, 7398.0]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -100,8 +109,8 @@
   "fact_hash": "dbdaae6687c7ac7eca07f0b062286645ccf4b1a1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-20T04:21:18.388202+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(54)\", \"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [22.0, 2590.0, 7398.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-20T07:45:06.299414+00:00"
  },
  "glossary": [
   {

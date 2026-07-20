@@ -88,7 +88,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-20T04:15:46.072632+00:00",
+  "created_at": "2026-07-20T07:39:31.242444+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -100,12 +100,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"UnitedHealth 2분기 실적 호조\",\n  \"one_liner\": \"UnitedHealth가 2분기 실적 발표에서 예상보다 좋은 성적을 거두며 이익 전망을 높였어요.\",\n  \"why_now\": \"기업의 실적은 주가에 직접적인 영향을 미치기 때문에 투자자들이 주목하는 중요한 지표예요.\",\n  \"impact_line\": \"UnitedHealth 주가에 긍정적인 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"UnitedHealth의 2분기 순이익이 54억 8천만 달러를 기록했어요.\",\n    \"이는 시장 예상치를 크게 웃도는 수치예요.\",\n    \"의료 비용이 줄어든 것이 실적 개선에 기여했어요.\",\n    \"이에 따라 UnitedHealth는 연간 이익 전망치를 상향 조정했어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"UnitedHealth의 주가가 상승할 가능성이 있어요!\",\n    \"회사의 긍정적인 실적은 관련 산업 전반에 대한 투자 심리를 개선할 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"2분기\",\n      \"easy\": \"1년은 4개의 분기로 나뉘는데, 2분기는 4월부터 6월까지의 기간을 말해요.\",\n      \"example\": \"회사는 2분기 실적을 발표하며 예상보다 좋은 성과를 냈다고 밝혔어요.\"\n    },\n    {\n      \"term\": \"순이익\",\n      \"easy\": \"회사가 모든 비용을 빼고 최종적으로 남은 이익을 말해요.\",\n      \"example\": \"순이익이 늘어나면 회사가 더 많은 돈을 벌었다는 뜻이에요.\"\n    },\n    {\n      \"term\": \"이익 전망치\",\n      \"easy\": \"회사가 앞으로 얼마나 벌 수 있을지 예상한 금액이에요.\",\n      \"example\": \"회사가 이익 전망치를 높이면 앞으로 더 잘 벌 것으로 기대한다는 뜻이에요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [54.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 50자 초과(54)",
+     "입력에 없는 숫자: [54.0]"
     ]
    }
   ],
@@ -124,8 +131,8 @@
   "fact_hash": "2a5d81c85a3d244ebdecc2b21586174a023a8b2f"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-20T04:15:46.072572+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [54.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(54)\", \"입력에 없는 숫자: [54.0]\"]}]}",
+  "at": "2026-07-20T07:39:31.242381+00:00"
  },
  "glossary": [],
  "related": [
