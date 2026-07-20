@@ -293,7 +293,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-20T16:06:51.214955+00:00",
+  "created_at": "2026-07-20T20:46:59.515215+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -306,12 +306,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"비자 주가 상승\",\n  \"one_liner\": \"비자 주가가 애널리스트의 긍정적인 평가에 힘입어 올랐어요.\",\n  \"why_now\": \"증권사 애널리스트의 추천은 해당 회사 주가에 긍정적인 영향을 줄 수 있어요.\",\n  \"impact_line\": \"비자 주식에 투자한 사람들의 자산이 늘어날 수 있어요.\",\n  \"details\": [\n    \"비자 주가가 2.6% 상승했어요.\",\n    \"최근 1년 최고가에 도달했어요.\",\n    \"애널리스트의 추천이 있었어요.\",\n    \"한 자산운용사가 비자 주식 1,684주를 매수했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"비자 주가가 더 오를 것으로 예상돼요!\",\n    \"비자 주식에 대한 투자자들의 관심이 높아질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"애널리스트\",\n      \"easy\": \"증권사 등에서 기업이나 시장을 분석하고 투자 의견을 내는 사람이에요.\",\n      \"example\": \"애널리스트가 이 회사의 주식을 사라고 추천했어요.\"\n    },\n    {\n      \"term\": \"주가\",\n      \"easy\": \"회사가 발행한 주식이 시장에서 거래되는 가격이에요.\",\n      \"example\": \"이 회사의 주가가 크게 올랐어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [2.6, 1684.0]"
     ]
    }
   ],
@@ -330,20 +337,14 @@
   "fact_hash": "31b6cd511fd566043891077201eaa389074cb128"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-20T16:06:51.214784+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [2.6, 1684.0]\"]}]}",
+  "at": "2026-07-20T20:46:59.515118+00:00"
  },
  "glossary": [],
  "related": [
   {
    "id": "c2f82920800c96145",
    "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c273684a49f5f6fb2",
-   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
    "category": "MARKET",
    "shared": []
   },
@@ -360,8 +361,14 @@
    "shared": []
   },
   {
-   "id": "c8767f6a04dae9d1b",
-   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "id": "c273684a49f5f6fb2",
+   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cf3992948064685e4",
+   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
    "category": "MARKET",
    "shared": []
   }

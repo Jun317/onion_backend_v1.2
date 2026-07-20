@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 4,
- "importance": 90,
+ "seen_sources": 5,
+ "importance": 95,
  "created_at": "2026-07-18T19:38:21.281960+00:00",
- "last_update": "2026-07-20T18:27:10.704375+00:00",
+ "last_update": "2026-07-20T20:46:25.844551+00:00",
  "members": [
+  {
+   "id": "fff656b4e280ea27ea714f7f5b7b4ca822cfe4c0",
+   "source": "nigeriasun.com",
+   "tier": "wire",
+   "url": "http://www.nigeriasun.com/news/279199252/panama-is-not-only-the-beginning-foreign-minister-pitches-nation-as-india-premier-manufacturing-trade-launchpad-in-latin-america",
+   "title": "Panama is not only the beginning : Foreign Minister pitches nation as India premier manufacturing , trade launchpad in Latin America",
+   "published_at": "2026-07-20T19:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8585
+  },
   {
    "id": "b2ac6574e8471a5de2ffff30193ad0a1634a6d37",
    "source": "aninews.in",
@@ -20,7 +30,7 @@
    "title": "Piyush Goyal holds talks with UAE Economy Minister to deepen trade , investment and tourism ties",
    "published_at": "2026-07-20T13:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8676
+   "sim_to_centroid": 0.8762
   },
   {
    "id": "2ba12da826571a3679e70c38c6faf25fc82bed6b",
@@ -30,7 +40,7 @@
    "title": "Tinubu reforms driving development across Nigeria , Renewed Hope Ambassadors declare",
    "published_at": "2026-07-19T22:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8568
+   "sim_to_centroid": 0.8607
   },
   {
    "id": "7c926111aa34571acde22e9acb7bcce3f2ba1022",
@@ -40,7 +50,7 @@
    "title": "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
    "published_at": "2026-07-18T22:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9929
+   "sim_to_centroid": 0.9888
   },
   {
    "id": "f4c971037cc406f9294f2635049af18177758e5b",
@@ -50,7 +60,7 @@
    "title": "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
    "published_at": "2026-07-18T18:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9929
+   "sim_to_centroid": 0.9888
   },
   {
    "id": "d9ad513c375d75751b05e2cd941d1eb769a17bf2",
@@ -60,7 +70,7 @@
    "title": "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
    "published_at": "2026-07-18T18:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9929
+   "sim_to_centroid": 0.9888
   },
   {
    "id": "859a86f3610ead495f9e1f47fd84b02fe5ce01b3",
@@ -70,11 +80,18 @@
    "title": "Gurgaon man says private jobs can transform middle - class lives , challenges old - school career beliefs",
    "published_at": "2026-07-18T16:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8624
+   "sim_to_centroid": 0.8679
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Panama is not only the beginning : Foreign Minister pitches nation as India premier manufacturing , trade launchpad in Latin America",
+   "source": "nigeriasun.com",
+   "url": "http://www.nigeriasun.com/news/279199252/panama-is-not-only-the-beginning-foreign-minister-pitches-nation-as-india-premier-manufacturing-trade-launchpad-in-latin-america",
+   "at": "2026-07-20T19:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Piyush Goyal holds talks with UAE Economy Minister to deepen trade , investment and tourism ties",
@@ -119,40 +136,45 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-20T16:15:40.706959+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-20T20:46:46.073273+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "Panama is not only the beginning : Foreign Minister pitches nation as India premier manufacturing , trade launchpad in Latin America",
     "Piyush Goyal holds talks with UAE Economy Minister to deepen trade , investment and tourism ties",
+    "Tinubu reforms driving development across Nigeria , Renewed Hope Ambassadors declare",
     "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
     "Gurgaon man says private jobs can transform middle - class lives , challenges old - school career beliefs"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"외국인 투자 유치\",\n   \"one_liner\": \"인도 외무장관이 라틴아메리카에서 인도의 주요 제조 및 무역 허브로 파나마를 소개했어요\",\n   \"why_now\": \"새로운 무역과 투자가 경제 성장을 도울 수 있어요\",\n   \"impact_line\": \"중소기업의 기회가 늘어나서 일자리가 생길 수 있어요\",\n   \"details\": [\n       \"인도 외무장관이 파나마를 주요 제조 및 무역 허브로 소개했어요\",\n       \"인도와 UAE가 무역, 투자, 관광을 강화하기 위해 협의했어요\",\n       \"니제리아의 티눈부改革이 전국적으로 발전을 이끌고 있어요\",\n       \"힘차尔 프라데시 주지사가 관광, 녹색 에너지, 청년 성장을 위한 로드맵을 제시했어요\",\n       \"인도 구르가온의 한 사람이 중산층 삶을 개선하기 위해 사립 직장을 강조했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"새로운 투자와 무역이 일자리와 경제 성장을 창출할 수 있어요!\",\n       \"중소기업과 젊은이들이 성장할 기회를 얻을 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Piyush Goyal holds…",
-   "one_liner": "Piyush Goyal holds talks with UAE Economy…",
-   "why_now": null,
+   "title": "외국인 투자 유치",
+   "one_liner": "인도 외무장관이 라틴아메리카에서 인도의 주요 제조 및 무역 허브로 파나마를 소개했어요",
+   "why_now": "새로운 무역과 투자가 경제 성장을 도울 수 있어요",
    "details": [
-    "Piyush Goyal holds talks with UAE Economy Minister to deepen trade , investment and tourism ties",
-    "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
-    "Gurgaon man says private jobs can transform middle - class lives , challenges old - school career beliefs"
+    "인도 외무장관이 파나마를 주요 제조 및 무역 허브로 소개했어요",
+    "인도와 UAE가 무역, 투자, 관광을 강화하기 위해 협의했어요",
+    "니제리아의 티눈부改革이 전국적으로 발전을 이끌고 있어요",
+    "힘차尔 프라데시 주지사가 관광, 녹색 에너지, 청년 성장을 위한 로드맵을 제시했어요",
+    "인도 구르가온의 한 사람이 중산층 삶을 개선하기 위해 사립 직장을 강조했어요"
    ],
-   "effects": [],
+   "effects": [
+    "새로운 투자와 무역이 일자리와 경제 성장을 창출할 수 있어요!",
+    "중소기업과 젊은이들이 성장할 기회를 얻을 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "1e497301c2f06dcbe3fc11cf531c402475789ead"
+  "fact_hash": "c91d49a4d1fbd3af2e80a020fda4cf3dbd3873e1"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
@@ -179,14 +201,14 @@
    "shared": []
   },
   {
-   "id": "c326b0b11f6b34d1d",
-   "title": "The Iran war could shape American policy for decades | JONAH GOLDBERG :",
+   "id": "c0dce797f417a7342",
+   "title": "First Solar ( FSLR ) Stock Sees Modest Fair Value Lift As Analysts Weigh Tariffs And Tax Credits",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "c0dce797f417a7342",
-   "title": "First Solar ( FSLR ) Stock Sees Modest Fair Value Lift As Analysts Weigh Tariffs And Tax Credits",
+   "id": "c326b0b11f6b34d1d",
+   "title": "The Iran war could shape American policy for decades | JONAH GOLDBERG :",
    "category": "POLICY",
    "shared": []
   }

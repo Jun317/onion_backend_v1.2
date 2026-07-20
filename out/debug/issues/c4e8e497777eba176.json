@@ -121,8 +121,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-20T16:15:22.137017+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-20T20:46:33.601168+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -135,26 +135,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"엘리 릴리 주식\",\n   \"one_liner\": \"투자자들이 엘리 릴리 주식에 관심을 보이고 있어요\",\n   \"why_now\": \"주식에 대한 투자자들의 관심이 높아지면 해당 회사의 가치가 올라갈 수 있어요\",\n   \"impact_line\": \"의료 관련 주식에 투자한 사람들의 수익이 달라질 수 있어요\",\n   \"details\": [\n      \"소브란 어드바이저스 LLC가 엘리 릴리 주식을 더 샀어요\",\n      \"엘리 릴리 주식에 대한 투자자들의 평가가 좋아요\",\n      \"태평양 재무 전략 그룹과 브린 모어 트러스트 어드바이저스 LLC가 엘리 릴리 주식을 팔았어요\",\n      \"엘리 릴리가 아타이 베클리社를 인수해 주식시장이 요동쳤어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"의료 관련 주식의 가치가 올라갈 수 있어요!\",\n      \"엘리 릴리 주식에 투자한 사람들의 수익이 높아질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Sovran Advisors LLC…",
-   "one_liner": "Sovran Advisors LLC Increases Position in Eli…",
-   "why_now": null,
+   "title": "엘리 릴리 주식",
+   "one_liner": "투자자들이 엘리 릴리 주식에 관심을 보이고 있어요",
+   "why_now": "주식에 대한 투자자들의 관심이 높아지면 해당 회사의 가치가 올라갈 수 있어요",
    "details": [
-    "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
-    "Eli Lilly and Company ( NYSE : LLY ) Receives Consensus Recommendation of  Moderate Buy  from Brokerages",
-    "Pacific Wealth Strategies Group Inc . Sells 925 Shares of Eli Lilly and Company $LLY"
+    "소브란 어드바이저스 LLC가 엘리 릴리 주식을 더 샀어요",
+    "엘리 릴리 주식에 대한 투자자들의 평가가 좋아요",
+    "태평양 재무 전략 그룹과 브린 모어 트러스트 어드바이저스 LLC가 엘리 릴리 주식을 팔았어요",
+    "엘리 릴리가 아타이 베클리社를 인수해 주식시장이 요동쳤어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "의료 관련 주식의 가치가 올라갈 수 있어요!",
+    "엘리 릴리 주식에 투자한 사람들의 수익이 높아질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "c264adf6f27eb12f8ccaadd252a3c9497cc9a4a4"
  },
@@ -171,26 +173,26 @@
    "shared": []
   },
   {
-   "id": "c273684a49f5f6fb2",
-   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
    "id": "c3350f06afa9dea1f",
    "title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c8767f6a04dae9d1b",
-   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "id": "c273684a49f5f6fb2",
+   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
    "category": "MARKET",
    "shared": []
   },
   {
    "id": "cf3992948064685e4",
    "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c84e845f8713cb99f",
+   "title": "Why PayPal Shares Are Skyrocketing Higher This Week",
    "category": "MARKET",
    "shared": []
   }
