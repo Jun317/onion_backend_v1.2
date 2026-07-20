@@ -7,13 +7,24 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
+  "NVDA",
   "ORCL"
  ],
- "seen_sources": 4,
- "importance": 100,
+ "seen_sources": 5,
+ "importance": 105,
  "created_at": "2026-07-18T12:10:48.729267+00:00",
- "last_update": "2026-07-20T16:06:09.476641+00:00",
+ "last_update": "2026-07-20T22:28:05.317185+00:00",
  "members": [
+  {
+   "id": "ee9b2ccdecb228873b02f47f02df12600647a0da",
+   "source": "seekingalpha.com",
+   "tier": "wire",
+   "url": "https://seekingalpha.com/news/4615543-tech-credit-risk-rises-as-oracle-cds-hits-cycle-high-nvidia-spreads-widen",
+   "title": "Tech credit risk rises as Oracle CDS hits cycle high , Nvidia spreads widen ( ORCL : NYSE )",
+   "published_at": "2026-07-20T21:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9122
+  },
   {
    "id": "9737ea59ef792676aedeefc2b9b681271f3976ec",
    "source": "economictimes.indiatimes.com",
@@ -22,7 +33,7 @@
    "title": "Downfall of a Wall Street darling : Why Oracle shares crashed 65 % from peak",
    "published_at": "2026-07-20T13:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9415
+   "sim_to_centroid": 0.9422
   },
   {
    "id": "7b658a11b82c4f946a4a0595b4189ddc6d363933",
@@ -32,7 +43,7 @@
    "title": "Oracle Crashed 65 % From Its Peak . I Just Bought It Anyway . Here Why .",
    "published_at": "2026-07-20T08:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9265
+   "sim_to_centroid": 0.9277
   },
   {
    "id": "db04a996301ee24a4784f4da4d61b8212df003ec",
@@ -42,7 +53,7 @@
    "title": "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?",
    "published_at": "2026-07-19T17:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9216
+   "sim_to_centroid": 0.925
   },
   {
    "id": "027c4fb10bf06c39c76693236a8d9196d9bb7470",
@@ -52,7 +63,7 @@
    "title": "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
    "published_at": "2026-07-18T10:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.951
+   "sim_to_centroid": 0.9498
   },
   {
    "id": "1f64dde92a5260e2a015a36958212c4908175e76",
@@ -62,11 +73,18 @@
    "title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
    "published_at": "2026-07-17T12:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9655
+   "sim_to_centroid": 0.9628
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Tech credit risk rises as Oracle CDS hits cycle high , Nvidia spreads widen ( ORCL : NYSE )",
+   "source": "seekingalpha.com",
+   "url": "https://seekingalpha.com/news/4615543-tech-credit-risk-rises-as-oracle-cds-hits-cycle-high-nvidia-spreads-widen",
+   "at": "2026-07-20T21:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Downfall of a Wall Street darling : Why Oracle shares crashed 65 % from peak",
@@ -104,47 +122,46 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-20T16:06:32.719949+00:00",
+  "model": "template",
+  "created_at": "2026-07-20T22:29:59.818756+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
+    "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
     "Downfall of a Wall Street darling : Why Oracle shares crashed 65 % from peak",
     "Oracle Crashed 65 % From Its Peak . I Just Bought It Anyway . Here Why .",
-    "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?",
-    "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
-    "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )"
+    "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"오라클 주가 폭락\",\n   \"one_liner\": \"오라클 주가가 최고치 대비 65% 폭락했어요\",\n   \"why_now\": \"주가가 폭락하면 투자자들이 손해를 볼 수 있어요\",\n   \"impact_line\": \"오라클에 투자한 사람들의 자산이 줄어들 수 있어요\",\n   \"details\": [\n       \"오라클 주가가 최고치 대비 65% 폭락했어요\",\n       \"투자자들이 오라클 주식을 매도하라고 조언받았어요\",\n       \"오라클의 신용 등급이 낮아져서 위험할 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"오라클에 투자한 사람들이 손해를 볼 수 있어요!\",\n       \"오라클의 사업이 어려워질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "오라클 주가 폭락",
-   "one_liner": "오라클 주가가 최고치 대비 65% 폭락했어요",
-   "why_now": "주가가 폭락하면 투자자들이 손해를 볼 수 있어요",
+   "title": "Why Is Oracle Stock…",
+   "one_liner": "Why Is Oracle Stock Falling Friday ? - Oracle (…",
+   "why_now": null,
    "details": [
-    "오라클 주가가 최고치 대비 65% 폭락했어요",
-    "투자자들이 오라클 주식을 매도하라고 조언받았어요",
-    "오라클의 신용 등급이 낮아져서 위험할 수 있어요"
+    "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
+    "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
+    "Downfall of a Wall Street darling : Why Oracle shares crashed 65 % from peak"
    ],
-   "effects": [
-    "오라클에 투자한 사람들이 손해를 볼 수 있어요!",
-    "오라클의 사업이 어려워질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "8ec65f34821b8d154247165ee61cc66c7ed0cae5"
+  "fact_hash": "f0552eac7bd5eb08cf1074ce5884cfb7d900df8d"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-20T11:27:32.184528+00:00"
+  "at": "2026-07-20T22:29:59.818643+00:00"
  },
  "glossary": [],
  "related": [
@@ -153,6 +170,14 @@
    "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
    "shared": []
+  },
+  {
+   "id": "c2fe47d2110ccdaa3",
+   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "category": "EARNINGS",
+   "shared": [
+    "NVDA"
+   ]
   },
   {
    "id": "c4e8e497777eba176",
@@ -164,17 +189,13 @@
    "id": "c273684a49f5f6fb2",
    "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
    "category": "MARKET",
-   "shared": []
+   "shared": [
+    "NVDA"
+   ]
   },
   {
    "id": "cf3992948064685e4",
    "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c84e845f8713cb99f",
-   "title": "Why PayPal Shares Are Skyrocketing Higher This Week",
    "category": "MARKET",
    "shared": []
   }

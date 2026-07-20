@@ -70,8 +70,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-20T18:28:08.704624+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-20T22:28:25.175916+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -82,32 +82,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"페이팔 주가 급등\",\n  \"one_liner\": \"페이팔 주가가 이번 주에 크게 올랐어요.\",\n  \"why_now\": \"페이팔은 한때 많은 투자자들이 좋아했지만, 지금은 인수 대상이 될 수 있다는 이야기가 나오고 있어요.\",\n  \"impact_line\": \"페이팔 관련 투자에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"페이팔은 한때 월스트리트의 사랑을 받는 기업이었어요.\",\n    \"하지만 지금은 원치 않는 인수 대상이 될 수 있다는 분석이 나와요.\",\n    \"기술주들이 하락하는 가운데 금융주들이 오르고 있어요.\",\n    \"페이팔은 이번 주에 주가가 크게 상승했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"페이팔의 주가 상승은 다른 금융 기업들의 주가에도 영향을 줄 수 있어요!\",\n    \"페이팔의 미래가 인수합병으로 결정될 경우, 관련 시장에 큰 변화가 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"월스트리트\",\n      \"easy\": \"미국 뉴욕에 있는 금융 중심지를 말해요.\",\n      \"example\": \"월스트리트의 움직임은 전 세계 금융 시장에 큰 영향을 줘요.\"\n    },\n    {\n      \"term\": \"인수 대상\",\n      \"easy\": \"다른 회사에 사들여질 가능성이 있는 회사를 말해요.\",\n      \"example\": \"회사가 인수 대상이 되면 주가가 오르는 경우가 많아요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n\"title\": \"페이팔 주가 급등\",\n\"one_liner\": \"페이팔 주가가 이번 주 크게 올랐어요.\",\n\"why_now\": \"주가가 오르면 회사의 가치가 높아져 투자자들이 관심을 갖게 돼요.\",\n\"impact_line\": \"페이팔 주식에 투자한 사람들의 수익이 늘어날 수 있어요.\",\n\"details\": [\n\"페이팔 주가가 이번 주에 급등했어요.\",\n\"일부에서는 페이팔이 인수 대상이 될 수 있다는 이야기도 나와요.\",\n\"금융 관련 주식들이 많이 올랐지만, 기술주들은 하락했어요.\",\n\"뱅크오브아메리카와 페이팔은 오름세를 보인 반면, 씨티와 암호화폐는 하락했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"페이팔의 주가가 계속 오르면 회사의 시장 가치가 더 높아질 수 있어요!\",\n\"주가 상승은 다른 금융 관련 기업들의 주가에도 긍정적인 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"페이팔\",\n\"easy\": \"온라인으로 돈을 보내거나 받을 수 있게 해주는 서비스예요.\",\n\"example\": \"해외 직구할 때 페이팔로 결제하면 편리해요.\"\n},\n{\n\"term\": \"인수 대상\",\n\"easy\": \"다른 회사가 사려고 하는 대상이 되는 것을 말해요.\",\n\"example\": \"회사가 어려워지면 다른 회사에 인수될 수 있어요.\"\n},\n{\n\"term\": \"금융 관련 주식\",\n\"easy\": \"은행, 증권사, 보험사 등 돈과 관련된 사업을 하는 회사의 주식을 말해요.\",\n\"example\": \"금리가 오르면 금융 관련 주식의 수익이 늘어날 수 있어요.\"\n},\n{\n\"term\": \"기술주\",\n\"easy\": \"컴퓨터, 인터넷, 소프트웨어 등 기술을 기반으로 하는 회사의 주식을 말해요.\",\n\"example\": \"새로운 기술이 나오면 기술주들의 주가가 크게 오르기도 해요.\"\n}\n]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "why_now 55자 초과(56)"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "How PayPal went from…",
-   "one_liner": "How PayPal went from Wall Street darling to…",
-   "why_now": null,
+   "title": "페이팔 주가 급등",
+   "one_liner": "페이팔 주가가 이번 주 크게 올랐어요.",
+   "why_now": "주가가 오르면 회사의 가치가 높아져 투자자들이 관심을 갖게 돼요.",
    "details": [
-    "How PayPal went from Wall Street darling to unwilling merger target",
-    "Financial stocks overbought amid tech selloff ; BofA , PayPal among gainers , Citi , crypto in losers",
-    "Why PayPal Shares Are Skyrocketing Higher This Week"
+    "페이팔 주가가 이번 주에 급등했어요.",
+    "일부에서는 페이팔이 인수 대상이 될 수 있다는 이야기도 나와요.",
+    "금융 관련 주식들이 많이 올랐지만, 기술주들은 하락했어요.",
+    "뱅크오브아메리카와 페이팔은 오름세를 보인 반면, 씨티와 암호화폐는 하락했어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "페이팔의 주가가 계속 오르면 회사의 시장 가치가 더 높아질 수 있어요!",
+    "주가 상승은 다른 금융 관련 기업들의 주가에도 긍정적인 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "7139f8a6fd2d7dfb843743d534c803c9b418ad1a"
  },
@@ -118,6 +114,12 @@
  "glossary": [],
  "related": [
   {
+   "id": "c3350f06afa9dea1f",
+   "title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
    "id": "c2f82920800c96145",
    "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
@@ -126,12 +128,6 @@
   {
    "id": "c4e8e497777eba176",
    "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c3350f06afa9dea1f",
-   "title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
    "category": "MARKET",
    "shared": []
   },
