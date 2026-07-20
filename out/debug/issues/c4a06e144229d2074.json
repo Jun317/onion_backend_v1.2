@@ -870,8 +870,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-20T11:27:13.698630+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-20T16:06:29.407519+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -884,26 +884,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미·이란 갈등\",\n   \"one_liner\": \"미국과 이란의 갈등이 심해지고 있어요.\",\n   \"why_now\": \"이 갈등이 심해지면 세계 경제에 영향을 줄 수 있어요.\",\n   \"impact_line\": \"유가가 오를 수 있어요.\",\n   \"details\": [\n       \"미국과 이란의 갈등이 심해지고 있어요.\",\n       \"이란의 최고 지도자가 미국을 경고했어요.\",\n       \"미국과 이란의 갈등이 세계 경제에 영향을 줄 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"유가가 오르면 주유비가 오를 수 있어요!\",\n       \"갈등이 심해지면 세계 경제에 부정적인 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump tone on Jimmy…",
-   "one_liner": "Trump tone on Jimmy Carter changes as Iran…",
-   "why_now": null,
+   "title": "미·이란 갈등",
+   "one_liner": "미국과 이란의 갈등이 심해지고 있어요.",
+   "why_now": "이 갈등이 심해지면 세계 경제에 영향을 줄 수 있어요.",
    "details": [
-    "Trump tone on Jimmy Carter changes as Iran conflict , inflation test presidency",
-    "Iranian supreme leader warns of  unforgettable lesson if US keeps up attacks | Harwich and Manningtree Standard",
-    "Iranian supreme leader warns of  unforgettable lesson if US keeps up attacks | Wilts and Gloucestershire Standard"
+    "미국과 이란의 갈등이 심해지고 있어요.",
+    "이란의 최고 지도자가 미국을 경고했어요.",
+    "미국과 이란의 갈등이 세계 경제에 영향을 줄 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "유가가 오르면 주유비가 오를 수 있어요!",
+    "갈등이 심해지면 세계 경제에 부정적인 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "df5c6f3e1209d59fbb10656c8f0bdc87bf40ec9e"
  },

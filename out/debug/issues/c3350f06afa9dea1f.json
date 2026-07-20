@@ -9,11 +9,21 @@
  "entity_keys": [
   "ORCL"
  ],
- "seen_sources": 3,
- "importance": 95,
+ "seen_sources": 4,
+ "importance": 100,
  "created_at": "2026-07-18T12:10:48.729267+00:00",
- "last_update": "2026-07-20T11:19:05.709304+00:00",
+ "last_update": "2026-07-20T16:06:09.476641+00:00",
  "members": [
+  {
+   "id": "9737ea59ef792676aedeefc2b9b681271f3976ec",
+   "source": "economictimes.indiatimes.com",
+   "tier": "wire",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/downfall-of-a-wall-street-darling-why-oracle-shares-crashed-65-from-peak/articleshow/132516113.cms",
+   "title": "Downfall of a Wall Street darling : Why Oracle shares crashed 65 % from peak",
+   "published_at": "2026-07-20T13:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9415
+  },
   {
    "id": "7b658a11b82c4f946a4a0595b4189ddc6d363933",
    "source": "fool.com",
@@ -22,7 +32,7 @@
    "title": "Oracle Crashed 65 % From Its Peak . I Just Bought It Anyway . Here Why .",
    "published_at": "2026-07-20T08:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9189
+   "sim_to_centroid": 0.9265
   },
   {
    "id": "db04a996301ee24a4784f4da4d61b8212df003ec",
@@ -32,7 +42,7 @@
    "title": "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?",
    "published_at": "2026-07-19T17:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9193
+   "sim_to_centroid": 0.9216
   },
   {
    "id": "027c4fb10bf06c39c76693236a8d9196d9bb7470",
@@ -42,7 +52,7 @@
    "title": "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
    "published_at": "2026-07-18T10:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9562
+   "sim_to_centroid": 0.951
   },
   {
    "id": "1f64dde92a5260e2a015a36958212c4908175e76",
@@ -52,11 +62,18 @@
    "title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
    "published_at": "2026-07-17T12:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9642
+   "sim_to_centroid": 0.9655
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Downfall of a Wall Street darling : Why Oracle shares crashed 65 % from peak",
+   "source": "economictimes.indiatimes.com",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/downfall-of-a-wall-street-darling-why-oracle-shares-crashed-65-from-peak/articleshow/132516113.cms",
+   "at": "2026-07-20T13:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Oracle Crashed 65 % From Its Peak . I Just Bought It Anyway . Here Why .",
@@ -87,12 +104,13 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-20T11:27:32.184591+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-20T16:06:32.719949+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Downfall of a Wall Street darling : Why Oracle shares crashed 65 % from peak",
     "Oracle Crashed 65 % From Its Peak . I Just Bought It Anyway . Here Why .",
     "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?",
     "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
@@ -100,28 +118,29 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"오라클 주가 폭락\",\n   \"one_liner\": \"오라클 주가가 최고치 대비 65% 폭락했어요\",\n   \"why_now\": \"주가가 폭락하면 투자자들이 손해를 볼 수 있어요\",\n   \"impact_line\": \"오라클에 투자한 사람들의 자산이 줄어들 수 있어요\",\n   \"details\": [\n       \"오라클 주가가 최고치 대비 65% 폭락했어요\",\n       \"투자자들이 오라클 주식을 매도하라고 조언받았어요\",\n       \"오라클의 신용 등급이 낮아져서 위험할 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"오라클에 투자한 사람들이 손해를 볼 수 있어요!\",\n       \"오라클의 사업이 어려워질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Oracle Crashed 65 %…",
-   "one_liner": "Oracle Crashed 65 % From Its Peak . I Just…",
-   "why_now": null,
+   "title": "오라클 주가 폭락",
+   "one_liner": "오라클 주가가 최고치 대비 65% 폭락했어요",
+   "why_now": "주가가 폭락하면 투자자들이 손해를 볼 수 있어요",
    "details": [
-    "Oracle Crashed 65 % From Its Peak . I Just Bought It Anyway . Here Why .",
-    "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?",
-    "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors"
+    "오라클 주가가 최고치 대비 65% 폭락했어요",
+    "투자자들이 오라클 주식을 매도하라고 조언받았어요",
+    "오라클의 신용 등급이 낮아져서 위험할 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "오라클에 투자한 사람들이 손해를 볼 수 있어요!",
+    "오라클의 사업이 어려워질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "fd59b1436a1457f51e121fb384cd46b5b1621b49"
+  "fact_hash": "8ec65f34821b8d154247165ee61cc66c7ed0cae5"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
@@ -142,6 +161,12 @@
    "shared": []
   },
   {
+   "id": "c4e8e497777eba176",
+   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
    "id": "c8767f6a04dae9d1b",
    "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "category": "MARKET",
@@ -150,12 +175,6 @@
   {
    "id": "cf3992948064685e4",
    "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c72702defa15d1f1f",
-   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
    "category": "MARKET",
    "shared": []
   }

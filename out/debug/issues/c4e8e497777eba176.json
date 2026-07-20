@@ -10,10 +10,20 @@
   "LLY"
  ],
  "seen_sources": 4,
- "importance": 90,
+ "importance": 100,
  "created_at": "2026-07-12T22:12:02.226969+00:00",
- "last_update": "2026-07-18T06:26:36.446814+00:00",
+ "last_update": "2026-07-20T16:06:09.490783+00:00",
  "members": [
+  {
+   "id": "0a971b174e987581475036fd5c6fa3e5866fb524",
+   "source": "tickerreport.com",
+   "tier": "wire",
+   "url": "https://www.tickerreport.com/banking-finance/13509601/pacific-wealth-strategies-group-inc-sells-925-shares-of-eli-lilly-and-company-lly.html",
+   "title": "Pacific Wealth Strategies Group Inc . Sells 925 Shares of Eli Lilly and Company $LLY",
+   "published_at": "2026-07-20T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9303
+  },
   {
    "id": "809a1746b7631882a9ffca7821fe29092e2da486",
    "source": "finance.yahoo.com",
@@ -22,7 +32,7 @@
    "title": "Stock Market Today , July 16 : AtaiBeckley Surges on Eli Lilly Acquisition Worth Up To $3 . 8 Billion",
    "published_at": "2026-07-18T03:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.916
+   "sim_to_centroid": 0.9177
   },
   {
    "id": "45a851ba419f2fdd90ba46340034a01d00230bc6",
@@ -32,7 +42,7 @@
    "title": "Bryn Mawr Trust Advisors LLC Sells 1 , 049 Shares of Eli Lilly and Company $LLY",
    "published_at": "2026-07-15T10:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9238
+   "sim_to_centroid": 0.9301
   },
   {
    "id": "c1dfa4a25395ba1cbfed0ac20d05ae787efdf15c",
@@ -42,7 +52,7 @@
    "title": "Is This Disturbing Trend Bad News for Eli Lilly in the Billion - Dollar Obesity Drug Market ?",
    "published_at": "2026-07-15T08:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8943
+   "sim_to_centroid": 0.896
   },
   {
    "id": "2818f0fb1e10cfe08186c67f9bcab852ac3edea6",
@@ -52,7 +62,7 @@
    "title": "Eli Lilly and Company ( NYSE : LLY ) Receives Consensus Recommendation of  Moderate Buy  from Brokerages",
    "published_at": "2026-07-12T21:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9626
+   "sim_to_centroid": 0.9593
   },
   {
    "id": "0b165779add8447c9fd9fff7dbe0bc42cd1e281e",
@@ -62,11 +72,18 @@
    "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "published_at": "2026-07-12T20:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9653
+   "sim_to_centroid": 0.9641
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Pacific Wealth Strategies Group Inc . Sells 925 Shares of Eli Lilly and Company $LLY",
+   "source": "tickerreport.com",
+   "url": "https://www.tickerreport.com/banking-finance/13509601/pacific-wealth-strategies-group-inc-sells-925-shares-of-eli-lilly-and-company-lly.html",
+   "at": "2026-07-20T15:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Stock Market Today , July 16 : AtaiBeckley Surges on Eli Lilly Acquisition Worth Up To $3 . 8 Billion",
@@ -104,47 +121,46 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-18T10:45:44.101999+00:00",
+  "model": "template",
+  "created_at": "2026-07-20T16:15:22.137017+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
-    "Stock Market Today , July 16 : AtaiBeckley Surges on Eli Lilly Acquisition Worth Up To $3 . 8 Billion",
-    "Bryn Mawr Trust Advisors LLC Sells 1 , 049 Shares of Eli Lilly and Company $LLY",
-    "Is This Disturbing Trend Bad News for Eli Lilly in the Billion - Dollar Obesity Drug Market ?",
+    "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
     "Eli Lilly and Company ( NYSE : LLY ) Receives Consensus Recommendation of  Moderate Buy  from Brokerages",
-    "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY"
+    "Pacific Wealth Strategies Group Inc . Sells 925 Shares of Eli Lilly and Company $LLY",
+    "Bryn Mawr Trust Advisors LLC Sells 1 , 049 Shares of Eli Lilly and Company $LLY",
+    "Stock Market Today , July 16 : AtaiBeckley Surges on Eli Lilly Acquisition Worth Up To $3 . 8 Billion"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"릴리, 비만약 시장 경쟁 심화\",\n  \"one_liner\": \"일라이 릴리가 비만약 시장에서 경쟁이 심화될 수 있다는 분석이 나왔어요.\",\n  \"why_now\": \"비만약은 제약 업계의 새로운 성장 동력으로 주목받고 있기 때문이에요.\",\n  \"impact_line\": \"비만약 관련 기업들의 주가 변동성이 커질 수 있어요.\",\n  \"details\": [\n    \"일라이 릴리가 비만약 시장에서 경쟁 심화 가능성에 직면했어요.\",\n    \"이는 제약 업계의 큰 관심사 중 하나예요.\",\n    \"일라이 릴리는 비만 치료제 시장에서 주요 기업 중 하나예요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"경쟁 심화는 일라이 릴리의 시장 점유율에 영향을 줄 수 있어요!\",\n    \"새로운 경쟁자들이 등장하면 약값 경쟁이 치열해질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"비만약\",\n      \"easy\": \"체중 감량이나 비만 치료에 사용되는 약이에요.\",\n      \"example\": \"비만약은 식욕을 억제하거나 지방 흡수를 줄이는 방식으로 작용해요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "릴리, 비만약 시장 경쟁 심화",
-   "one_liner": "일라이 릴리가 비만약 시장에서 경쟁이 심화될 수 있다는 분석이 나왔어요.",
-   "why_now": "비만약은 제약 업계의 새로운 성장 동력으로 주목받고 있기 때문이에요.",
+   "title": "Sovran Advisors LLC…",
+   "one_liner": "Sovran Advisors LLC Increases Position in Eli…",
+   "why_now": null,
    "details": [
-    "일라이 릴리가 비만약 시장에서 경쟁 심화 가능성에 직면했어요.",
-    "이는 제약 업계의 큰 관심사 중 하나예요.",
-    "일라이 릴리는 비만 치료제 시장에서 주요 기업 중 하나예요."
+    "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
+    "Eli Lilly and Company ( NYSE : LLY ) Receives Consensus Recommendation of  Moderate Buy  from Brokerages",
+    "Pacific Wealth Strategies Group Inc . Sells 925 Shares of Eli Lilly and Company $LLY"
    ],
-   "effects": [
-    "경쟁 심화는 일라이 릴리의 시장 점유율에 영향을 줄 수 있어요!",
-    "새로운 경쟁자들이 등장하면 약값 경쟁이 치열해질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "e14b6f5cccec5c367808e725854b368f6da5a021"
+  "fact_hash": "c264adf6f27eb12f8ccaadd252a3c9497cc9a4a4"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-18T06:28:07.952303+00:00"
+  "at": "2026-07-20T16:15:22.136935+00:00"
  },
  "glossary": [],
  "related": [
@@ -161,6 +177,12 @@
    "shared": []
   },
   {
+   "id": "c3350f06afa9dea1f",
+   "title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
    "id": "c8767f6a04dae9d1b",
    "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "category": "MARKET",
@@ -169,12 +191,6 @@
   {
    "id": "cf3992948064685e4",
    "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c72702defa15d1f1f",
-   "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
    "category": "MARKET",
    "shared": []
   }

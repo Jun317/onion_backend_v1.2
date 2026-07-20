@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 75,
+ "seen_sources": 3,
+ "importance": 85,
  "created_at": "2026-07-18T19:38:21.281960+00:00",
- "last_update": "2026-07-18T23:15:53.314293+00:00",
+ "last_update": "2026-07-20T16:06:09.477722+00:00",
  "members": [
+  {
+   "id": "b2ac6574e8471a5de2ffff30193ad0a1634a6d37",
+   "source": "aninews.in",
+   "tier": "wire",
+   "url": "https://aninews.in/news/business/piyush-goyal-holds-talks-with-uae-economy-minister-to-deepen-trade-investment-and-tourism-ties20260720181428/",
+   "title": "Piyush Goyal holds talks with UAE Economy Minister to deepen trade , investment and tourism ties",
+   "published_at": "2026-07-20T13:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8613
+  },
   {
    "id": "7c926111aa34571acde22e9acb7bcce3f2ba1022",
    "source": "cambodiantimes.com",
@@ -20,7 +30,7 @@
    "title": "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
    "published_at": "2026-07-18T22:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9986
+   "sim_to_centroid": 0.9961
   },
   {
    "id": "f4c971037cc406f9294f2635049af18177758e5b",
@@ -30,7 +40,7 @@
    "title": "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
    "published_at": "2026-07-18T18:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9986
+   "sim_to_centroid": 0.9961
   },
   {
    "id": "d9ad513c375d75751b05e2cd941d1eb769a17bf2",
@@ -40,7 +50,7 @@
    "title": "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
    "published_at": "2026-07-18T18:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9986
+   "sim_to_centroid": 0.9961
   },
   {
    "id": "859a86f3610ead495f9e1f47fd84b02fe5ce01b3",
@@ -50,11 +60,18 @@
    "title": "Gurgaon man says private jobs can transform middle - class lives , challenges old - school career beliefs",
    "published_at": "2026-07-18T16:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8497
+   "sim_to_centroid": 0.8573
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Piyush Goyal holds talks with UAE Economy Minister to deepen trade , investment and tourism ties",
+   "source": "aninews.in",
+   "url": "https://aninews.in/news/business/piyush-goyal-holds-talks-with-uae-economy-minister-to-deepen-trade-investment-and-tourism-ties20260720181428/",
+   "at": "2026-07-20T13:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
@@ -85,45 +102,44 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-19T09:25:15.074829+00:00",
+  "model": "template",
+  "created_at": "2026-07-20T16:15:40.706959+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "Piyush Goyal holds talks with UAE Economy Minister to deepen trade , investment and tourism ties",
     "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
     "Gurgaon man says private jobs can transform middle - class lives , challenges old - school career beliefs"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"인도 관광·에너지 정책 발표\",\n\"one_liner\": \"인도 관광부 장관이 관광과 친환경 에너지, 청년 성장을 위한 정책 방향을 발표했어요.\",\n\"why_now\": \"새로운 정책은 인도 경제의 미래 성장 동력을 어디에 둘지 보여주는 중요한 신호예요.\",\n\"impact_line\": \"새로운 정책으로 관련 산업의 일자리가 늘어날 수 있어요.\",\n\"details\": [\n\"카빈더 굽타 관광부 장관이 정책 방향을 밝혔어요.\",\n\"주요 내용은 관광 산업 육성이에요.\",\n\"친환경 에너지 분야 투자 확대도 포함됐어요.\",\n\"청년 성장 지원 정책도 발표됐어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"관광객 증가로 관련 서비스업 매출이 늘어날 수 있어요!\",\n\"친환경 에너지 사업 투자가 활발해지면 관련 기술 발전이 빨라질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"친환경 에너지\",\n\"easy\": \"환경을 오염시키지 않는 재생 가능한 에너지를 말해요.\",\n\"example\": \"태양광, 풍력 발전이 대표적인 친환경 에너지예요.\"\n}\n],\n\"impact_line\": \"새로운 정책으로 관련 산업의 일자리가 늘어날 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "인도 관광·에너지 정책 발표",
-   "one_liner": "인도 관광부 장관이 관광과 친환경 에너지, 청년 성장을 위한 정책 방향을 발표했어요.",
-   "why_now": "새로운 정책은 인도 경제의 미래 성장 동력을 어디에 둘지 보여주는 중요한 신호예요.",
+   "title": "Piyush Goyal holds…",
+   "one_liner": "Piyush Goyal holds talks with UAE Economy…",
+   "why_now": null,
    "details": [
-    "카빈더 굽타 관광부 장관이 정책 방향을 밝혔어요.",
-    "주요 내용은 관광 산업 육성이에요.",
-    "친환경 에너지 분야 투자 확대도 포함됐어요.",
-    "청년 성장 지원 정책도 발표됐어요."
+    "Piyush Goyal holds talks with UAE Economy Minister to deepen trade , investment and tourism ties",
+    "One year as Governor , 130 days in Himachal : Kavinder Gupta outlines roadmap for tourism , green energy and youth growth",
+    "Gurgaon man says private jobs can transform middle - class lives , challenges old - school career beliefs"
    ],
-   "effects": [
-    "관광객 증가로 관련 서비스업 매출이 늘어날 수 있어요!",
-    "친환경 에너지 사업 투자가 활발해지면 관련 기술 발전이 빨라질 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "904efe0f7f5926b91e9e64158892e6f76b3be6b2"
+  "fact_hash": "1e497301c2f06dcbe3fc11cf531c402475789ead"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-19T04:06:26.294689+00:00"
+  "at": "2026-07-20T16:15:40.706870+00:00"
  },
  "glossary": [],
  "related": [
@@ -152,8 +168,8 @@
    "shared": []
   },
   {
-   "id": "ca2ef2092a2aee42f",
-   "title": "US imposing a 25 % tariff on some Brazilian imports starting July 22 , citing unfair trade practices",
+   "id": "c0dce797f417a7342",
+   "title": "First Solar ( FSLR ) Stock Sees Modest Fair Value Lift As Analysts Weigh Tariffs And Tax Credits",
    "category": "POLICY",
    "shared": []
   }
