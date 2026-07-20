@@ -874,7 +874,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-19T21:12:20.599078+00:00",
+  "created_at": "2026-07-20T00:18:13.497630+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,18 +887,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"IMF, 인도 경제 성장률 전망 하향\",\n\"one_liner\": \"IMF가 인도의 올해 경제 성장률 전망치를 6.4%로 낮췄어요.\",\n\"why_now\": \"인도는 세계에서 가장 빠르게 성장하는 경제 중 하나로 꼽히기 때문이에요.\",\n\"impact_line\": \"인도 경제의 성장세 둔화는 관련 상품 가격에 영향을 줄 수 있어요.\",\n\"details\": [\n\"IMF는 인도의 올해 경제 성장률 전망치를 6.4%로 예상했어요.\",\n\"하지만 인도는 여전히 주요 경제국 중 가장 빠르게 성장할 것으로 보여요.\",\n\"이는 강한 국내 수요 덕분이에요.\",\n\"IMF는 파키스탄의 성장률 전망치도 3.5~3.7%로 낮췄어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"인도 경제 성장률 전망치 하향은 원자재 수요에 영향을 줄 수 있어요!\",\n\"인도 경제의 성장세 둔화는 세계 경제 회복 속도에도 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"IMF\",\n\"easy\": \"국제통화기금으로, 세계 경제의 안정과 협력을 위해 만들어진 국제기구예요.\",\n\"example\": \"IMF는 나라의 경제 상황을 점검하고 필요한 경우 돈을 빌려주기도 해요.\"\n},\n{\n\"term\": \"GDP\",\n\"easy\": \"한 나라 안에서 일정 기간 동안 생산된 모든 상품과 서비스의 가치를 합한 거예요.\",\n\"example\": \"GDP가 늘어나면 그 나라 경제가 성장했다고 볼 수 있어요.\"\n}\n],\n\"impact_line\": \"인도 경제 성장률 전망치 하향은 관련 상품 가격에 영향을 줄 수 있어요.\"\n}",
+  "raw_response": "{\n\"title\": \"IMF, 인도 경제 성장률 전망 하향\",\n\"one_liner\": \"IMF가 인도의 올해 경제 성장률 전망치를 6.4%로 낮췄어요.\",\n\"why_now\": \"인도는 세계에서 가장 빠르게 성장하는 경제 중 하나로 꼽혀왔기 때문이에요.\",\n\"impact_line\": \"인도 경제 성장 둔화는 관련 상품 가격에 영향을 줄 수 있어요.\",\n\"details\": [\n\"IMF는 인도의 올해 경제 성장률 전망치를 6.4%로 예상했어요.\",\n\"이는 이전 전망치보다 낮은 수치예요.\",\n\"하지만 IMF는 여전히 인도가 주요 경제국 중 가장 빠르게 성장할 것으로 보아요.\",\n\"강한 국내 수요가 성장을 뒷받침할 것으로 예상돼요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"인도 경제 성장률 전망치 하향은 원자재 수요에 영향을 줄 수 있어요!\",\n\"인도 경제 성장 둔화는 아시아 경제 전반에 영향을 미칠 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"IMF\",\n\"easy\": \"국제통화기금으로, 세계 경제의 안정을 위해 나라 간 협력을 돕는 국제기구예요.\",\n\"example\": \"IMF는 나라의 경제 상황을 분석하고 조언을 해주기도 해요.\"\n},\n{\n\"term\": \"GDP\",\n\"easy\": \"나라 안에서 생산된 모든 상품과 서비스의 시장 가치를 합한 것으로, 나라 경제 규모를 나타내요.\",\n\"example\": \"GDP가 늘면 나라 경제가 성장했다고 볼 수 있어요.\"\n}\n],\n\"impact_line\": \"인도 경제 성장 전망 하향은 관련 상품 가격에 영향을 줄 수 있어요.\"\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "입력에 없는 숫자: [6.4]"
+     "입력에 없는 숫자: [3.5, 3.7, 6.4]"
     ]
    },
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "입력에 없는 숫자: [3.5, 3.7, 6.4]"
+     "입력에 없는 숫자: [6.4]"
     ]
    }
   ],
@@ -917,8 +917,8 @@
   "fact_hash": "cfd78157cf896eed094d7420fa8b3e8a7f9b1246"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [3.5, 3.7, 6.4]\"]}]}",
-  "at": "2026-07-19T21:12:20.598933+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [3.5, 3.7, 6.4]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}]}",
+  "at": "2026-07-20T00:18:13.497434+00:00"
  },
  "glossary": [
   {
@@ -940,11 +940,11 @@
    ]
   },
   {
-   "id": "e77a7b1c911ca1d26",
-   "title": "미 연준 기준금리 변동 (3.62%)",
-   "category": "RATE",
+   "id": "cecdcc5dab78ea69d",
+   "title": "Kildare hoteliers call for budget measures to support sector - News",
+   "category": "POLICY",
    "shared": [
-    "FED"
+    "SEC"
    ]
   },
   {
@@ -956,11 +956,11 @@
    ]
   },
   {
-   "id": "cecdcc5dab78ea69d",
-   "title": "Kildare hoteliers call for budget measures to support sector - News",
-   "category": "POLICY",
+   "id": "e77a7b1c911ca1d26",
+   "title": "미 연준 기준금리 변동 (3.62%)",
+   "category": "RATE",
    "shared": [
-    "SEC"
+    "FED"
    ]
   },
   {

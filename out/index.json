@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-07-19T23:17:52.971360+00:00",
+ "generated_at": "2026-07-20T00:27:07.494122+00:00",
  "attribution": "News metadata via GDELT (gdeltproject.org) · Data: FRED, 한국은행 ECOS, DART, SEC EDGAR",
  "issues": [
   {
@@ -440,25 +440,6 @@
    "icon": "🛢️"
   },
   {
-   "id": "cf387c2643fe6d0b5",
-   "title": "경제 소식",
-   "one_liner": "미국 경제가 살아나는 소식이 있어요.",
-   "why_now": "경제가 좋아지면 사람들의 생활이 편해질 수 있어요.",
-   "impact_line": "외국에 살고 있는 가족이 돌아올 수 있어요.",
-   "raw_title": "My daughter moved to Melbourne . Will our economy ever be strong enough to bring her home ?",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "sources": 45,
-   "importance": 85,
-   "last_update": "2026-07-19T00:15:14.477242+00:00",
-   "event_at": "2026-07-18T22:45:00+00:00",
-   "has_visual": false,
-   "headline_stat": null,
-   "spark": null,
-   "icon": "🌍"
-  },
-  {
    "id": "cf38973aa7e2574f7",
    "title": "미국, 브라질 수입품에 25% 관세 부과",
    "one_liner": "미국이 브라질에서 수입하는 일부 품목에 25%의 높은 관세를 새로 부과했어요.",
@@ -514,6 +495,25 @@
    "headline_stat": null,
    "spark": null,
    "icon": "🏛️"
+  },
+  {
+   "id": "cf387c2643fe6d0b5",
+   "title": "경제 소식",
+   "one_liner": "미국 경제가 살아나는 소식이 있어요.",
+   "why_now": "경제가 좋아지면 사람들의 생활이 편해질 수 있어요.",
+   "impact_line": "외국에 살고 있는 가족이 돌아올 수 있어요.",
+   "raw_title": "My daughter moved to Melbourne . Will our economy ever be strong enough to bring her home ?",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "sources": 45,
+   "importance": 80,
+   "last_update": "2026-07-19T00:15:14.477242+00:00",
+   "event_at": "2026-07-18T22:45:00+00:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🌍"
   },
   {
    "id": "c453b022245ab55dd",
@@ -677,41 +677,6 @@
    "icon": "🧾"
   },
   {
-   "id": "e77a7b1c911ca1d26",
-   "title": "미국 기준금리 인상",
-   "one_liner": "미국 연방준비제도이 기준금리를 올려 연 3.63%가 됐어요",
-   "why_now": "금리가 오르면 대출이 어려워져 물가가 오르는 속도가 느려질 수 있어요",
-   "impact_line": "외국에서 돈을 빌리기가 어려워질 수 있어요",
-   "raw_title": "미 연준 기준금리 변동 (3.62%)",
-   "category": "RATE",
-   "status": "stale",
-   "origin": "official_event",
-   "sources": 0,
-   "importance": 125,
-   "last_update": "2026-07-15T23:26:26.518619+00:00",
-   "event_at": "2026-07-15T22:08:52.262778+00:00",
-   "has_visual": true,
-   "headline_stat": {
-    "label": "Fed 기준금리",
-    "value": "3.63",
-    "unit": "%",
-    "delta_text": "+0.01%p",
-    "direction": "up",
-    "prev_text": "직전 3.62%"
-   },
-   "spark": [
-    3.64,
-    3.64,
-    3.64,
-    3.64,
-    3.64,
-    3.62,
-    3.63,
-    3.63
-   ],
-   "icon": "🇺🇸"
-  },
-  {
    "id": "e97a81ef1127b8815",
    "title": "미국 기준금리 인하",
    "one_liner": "미국 중앙은행(Fed)이 기준금리를 내려 연 3.50~3.75%가 됐어요.",
@@ -733,6 +698,41 @@
     "delta_text": "-0.25%p",
     "direction": "down",
     "prev_text": "직전 3.89%"
+   },
+   "spark": [
+    3.64,
+    3.64,
+    3.64,
+    3.64,
+    3.64,
+    3.62,
+    3.63,
+    3.63
+   ],
+   "icon": "🇺🇸"
+  },
+  {
+   "id": "e77a7b1c911ca1d26",
+   "title": "미국 기준금리 인상",
+   "one_liner": "미국 연방준비제도이 기준금리를 올려 연 3.63%가 됐어요",
+   "why_now": "금리가 오르면 대출이 어려워져 물가가 오르는 속도가 느려질 수 있어요",
+   "impact_line": "외국에서 돈을 빌리기가 어려워질 수 있어요",
+   "raw_title": "미 연준 기준금리 변동 (3.62%)",
+   "category": "RATE",
+   "status": "stale",
+   "origin": "official_event",
+   "sources": 0,
+   "importance": 120,
+   "last_update": "2026-07-15T23:26:26.518619+00:00",
+   "event_at": "2026-07-15T22:08:52.262778+00:00",
+   "has_visual": true,
+   "headline_stat": {
+    "label": "Fed 기준금리",
+    "value": "3.63",
+    "unit": "%",
+    "delta_text": "+0.01%p",
+    "direction": "up",
+    "prev_text": "직전 3.62%"
    },
    "spark": [
     3.64,
