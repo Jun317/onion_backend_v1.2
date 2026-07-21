@@ -823,7 +823,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-21T14:39:35.904603+00:00",
+  "created_at": "2026-07-21T18:46:25.573471+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -836,12 +836,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"중국 AI 모델, 수요 폭증으로 신규 가입 중단\",\n  \"one_liner\": \"중국의 새로운 인공지능 모델이 수요를 감당하지 못해 신규 가입을 중단했어요.\",\n  \"why_now\": \"인공지능 기술에 대한 관심이 매우 높아 수요가 공급을 초과하는 상황이 발생했어요.\",\n  \"impact_line\": \"인공지능 서비스 이용이 어려워지거나 비용이 오를 수 있어요.\",\n  \"details\": [\n    \"중국의 한 인공지능 모델이 신규 가입을 받지 않고 있어요.\",\n    \"이는 해당 모델에 대한 수요가 공급 능력을 훨씬 넘어섰기 때문이에요.\",\n    \"이러한 상황은 관련 시장에 영향을 미치고 있어요.\",\n    \"중국은 인공지능 분야에서 주도권을 잡으려 하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"인공지능 서비스 이용이 더 어려워지거나 비용이 오를 수 있어요!\",\n    \"관련 기술 개발 경쟁이 더욱 치열해질 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"인공지능 모델\",\n      \"easy\": \"컴퓨터가 사람처럼 생각하고 배우도록 만든 프로그램이에요.\",\n      \"example\": \"챗GPT 같은 인공지능 모델은 글쓰기나 그림 그리기를 도와줘요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "one_liner 50자 초과(51)"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "title 22자 초과(26)"
     ]
    }
   ],
@@ -860,8 +866,8 @@
   "fact_hash": "4a418f8a5e72954b40a49bdc2416a270608e48fe"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-21T14:39:35.904514+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 50자 초과(51)\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(26)\"]}]}",
+  "at": "2026-07-21T18:46:25.573299+00:00"
  },
  "glossary": [],
  "related": [

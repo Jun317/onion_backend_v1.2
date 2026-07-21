@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-21T14:31:51.875053+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-21T18:46:54.864233+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,25 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국, 캐나다 물건에 세금\",\n   \"one_liner\": \"트럼프 대통령이 캐나다 물건에 50% 세금을 부과했어요\",\n   \"why_now\": \"국가 간의 분쟁으로 세금을 부과하는 경우가 있어요\",\n   \"impact_line\": \"캐나다산 자동차나 치즈, 알코올이 더 비싸질 수 있어요\",\n   \"details\": [\n      \"트럼프 대통령이 캐나다 물건에 50% 세금을 부과했어요\",\n      \"자동차, 알코올, 치즈 등이 대상이에요\",\n      \"미국과 캐나다 간의 분쟁으로 세금을 부과했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"캐나다산 물건이 더 비싸져 소비자들이 부담을 느끼게 될 수 있어요!\",\n      \"캐나다와의 무역이 줄어들 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"tariffs\",\n         \"easy\": \"물건을 수입할 때 내는 세금이에요\",\n         \"example\": \"수입 물건에 세금을 부과하면 그 물건의 가격이 올라가요\"\n      }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump imposes 50 %…",
-   "one_liner": "Trump imposes 50 % tariffs on Canadian goods",
-   "why_now": null,
+   "title": "미국, 캐나다 물건에 세금",
+   "one_liner": "트럼프 대통령이 캐나다 물건에 50% 세금을 부과했어요",
+   "why_now": "국가 간의 분쟁으로 세금을 부과하는 경우가 있어요",
    "details": [
-    "Trump imposes 50 % tariffs on Canadian goods",
-    "Trump imposes 50 % tariffs on Canadian goods citing disputes over autos",
-    "Trump Imposes 50 % Tariffs On Canadian Goods | News Radio 105 . 5 WERC"
+    "트럼프 대통령이 캐나다 물건에 50% 세금을 부과했어요",
+    "자동차, 알코올, 치즈 등이 대상이에요",
+    "미국과 캐나다 간의 분쟁으로 세금을 부과했어요"
    ],
-   "effects": [],
+   "effects": [
+    "캐나다산 물건이 더 비싸져 소비자들이 부담을 느끼게 될 수 있어요!",
+    "캐나다와의 무역이 줄어들 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "c1e5a6fc6bc83fe4b7dc4da22b522dc491b1c0f7"

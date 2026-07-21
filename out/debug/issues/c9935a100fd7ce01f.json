@@ -7,11 +7,31 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 4,
- "importance": 80,
+ "seen_sources": 6,
+ "importance": 85,
  "created_at": "2026-07-20T11:19:05.717119+00:00",
- "last_update": "2026-07-21T14:30:41.473978+00:00",
+ "last_update": "2026-07-21T18:46:21.172423+00:00",
  "members": [
+  {
+   "id": "552b8f1cdff25efd005bebbe8f279646baf06ea9",
+   "source": "topspeed.com",
+   "tier": "wire",
+   "url": "https://www.topspeed.com/touring-motorcycle-feels-smaller-than-it-really-is/",
+   "title": "The Touring Motorcycle That Feels Smaller Than It Really Is",
+   "published_at": "2026-07-21T17:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8656
+  },
+  {
+   "id": "44705cf841f04c5eaa1e7add5eafe3b3433a98c6",
+   "source": "insideevs.com",
+   "tier": "wire",
+   "url": "https://insideevs.com:443/reviews/802028/2026-jeep-cherokee-hybrid-review-toyota-suv/",
+   "title": "I Drove Jeep First Proper Hybrid . It Feels More Like A Toyota",
+   "published_at": "2026-07-21T17:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8684
+  },
   {
    "id": "5a1b1446212de535c1328ecec77e2e2d8e648357",
    "source": "prnewswire.com",
@@ -20,7 +40,7 @@
    "title": "The Red Chickz Doubles Down on Texas with Carrollton Grand Opening",
    "published_at": "2026-07-21T11:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8675
+   "sim_to_centroid": 0.8798
   },
   {
    "id": "9ab1f10a38ac888386090fbf3ccd3500af5066fd",
@@ -30,7 +50,7 @@
    "title": "Dodgers split doubleheader with Yankees after long day in Bronx",
    "published_at": "2026-07-20T08:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9905
+   "sim_to_centroid": 0.9807
   },
   {
    "id": "242ac9ac511968b870b8fb7f1fdf5e31b6d68a23",
@@ -40,7 +60,7 @@
    "title": "Dodgers split doubleheader with Yankees after long day in Bronx",
    "published_at": "2026-07-20T07:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9905
+   "sim_to_centroid": 0.9807
   },
   {
    "id": "bce6560d4c63bf2c4d86727ea1942a1e473f639d",
@@ -50,7 +70,7 @@
    "title": "JD Vance picks a lane and a fight",
    "published_at": "2026-07-19T21:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8736
+   "sim_to_centroid": 0.8852
   },
   {
    "id": "cf6f6abebc5b847b0b7126d95ba41b28827c387c",
@@ -60,7 +80,7 @@
    "title": "Dodgers take first game of doubleheader behind dominant Yoshinobu Yamamoto",
    "published_at": "2026-07-19T21:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9293
+   "sim_to_centroid": 0.9278
   },
   {
    "id": "b8c153846a05e3550d420a808f2c2b9cd4935cf6",
@@ -70,11 +90,25 @@
    "title": "Dodgers take first game of doubleheader behind dominant Yoshinobu Yamamoto",
    "published_at": "2026-07-19T21:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9293
+   "sim_to_centroid": 0.9278
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "The Touring Motorcycle That Feels Smaller Than It Really Is",
+   "source": "topspeed.com",
+   "url": "https://www.topspeed.com/touring-motorcycle-feels-smaller-than-it-really-is/",
+   "at": "2026-07-21T17:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "I Drove Jeep First Proper Hybrid . It Feels More Like A Toyota",
+   "source": "insideevs.com",
+   "url": "https://insideevs.com:443/reviews/802028/2026-jeep-cherokee-hybrid-review-toyota-suv/",
+   "at": "2026-07-21T17:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "The Red Chickz Doubles Down on Texas with Carrollton Grand Opening",
@@ -119,41 +153,43 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-21T14:33:15.905822+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-21T18:47:12.633678+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
-    "The Red Chickz Doubles Down on Texas with Carrollton Grand Opening",
     "Dodgers split doubleheader with Yankees after long day in Bronx",
+    "Dodgers take first game of doubleheader behind dominant Yoshinobu Yamamoto",
     "JD Vance picks a lane and a fight",
-    "Dodgers take first game of doubleheader behind dominant Yoshinobu Yamamoto"
+    "The Red Chickz Doubles Down on Texas with Carrollton Grand Opening",
+    "I Drove Jeep First Proper Hybrid . It Feels More Like A Toyota"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"야구 뉴스\",\n   \"one_liner\": \"다저스가 양키스와의 더블헤더에서 첫 경기를 이겼어요\",\n   \"why_now\": \"스포츠 뉴스는 사람들이 관심 있게 보는 중요한 소식이에요\",\n   \"impact_line\": \"스포츠 팬들에게는 기분 좋은 소식일 수 있어요\",\n   \"details\": [\n       \"다저스와 양키스의 더블헤더 경기가 열렸어요\",\n       \"첫 경기에서 다저스가 승리했어요\",\n       \"야마모토 요시노부가 좋은 투구를 보여줬어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"스포츠 팬들에게는 기대감을 높여줄 수 있어요!\",\n       \"다저스와 양키스의 경쟁이 더 뜨거워질 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "The Red Chickz…",
-   "one_liner": "The Red Chickz Doubles Down on Texas with…",
-   "why_now": null,
+   "title": "야구 뉴스",
+   "one_liner": "다저스가 양키스와의 더블헤더에서 첫 경기를 이겼어요",
+   "why_now": "스포츠 뉴스는 사람들이 관심 있게 보는 중요한 소식이에요",
    "details": [
-    "The Red Chickz Doubles Down on Texas with Carrollton Grand Opening",
-    "Dodgers split doubleheader with Yankees after long day in Bronx",
-    "JD Vance picks a lane and a fight"
+    "다저스와 양키스의 더블헤더 경기가 열렸어요",
+    "첫 경기에서 다저스가 승리했어요",
+    "야마모토 요시노부가 좋은 투구를 보여줬어요"
    ],
-   "effects": [],
+   "effects": [
+    "스포츠 팬들에게는 기대감을 높여줄 수 있어요!",
+    "다저스와 양키스의 경쟁이 더 뜨거워질 것으로 예상돼요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "0e9d5be0e674b673c81dbde7e576fb9e6d41c38f"
+  "fact_hash": "638a29d399184697b944046096628a1d7e75a239"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

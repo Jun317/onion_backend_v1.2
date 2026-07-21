@@ -87,8 +87,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-21T14:31:33.454314+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-21T18:46:43.197987+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -100,26 +100,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"페이팔 주가 급등\",\n   \"one_liner\": \"페이팔의 주가가 크게 올랐어요\",\n   \"why_now\": \"주가가 오르면 투자자들이 돈을 벌 수 있어요\",\n   \"impact_line\": \"투자자들의 자산 가치가 올라갈 수 있어요\",\n   \"details\": [\n       \"페이팔의 주가가 급등했어요\",\n       \"페이팔은 최근 합병 대상이 됐어요\",\n       \"금융 주식이 기술 주식 매도 물량으로 인해 과매수 상태예요\",\n       \"페이팔의 주가 상승은 최근 몇 주간의 급등을 보이고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"투자자들이 페이팔 주식을 더 많이 사들일 수 있어요!\",\n       \"페이팔의 주가 상승이 다른 금융 주식에 긍정적인 영향을 미칠 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"M & A\",\n           \"easy\": \"기업이 다른 기업을 인수하거나 합병하는 것을 의미해요\",\n           \"example\": \"두 기업이 합병해 더 큰 기업이 되는 거예요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "M & A in Financials…",
-   "one_liner": "M & A in Financials : Is PayPal 100 % Upside…",
-   "why_now": null,
+   "title": "페이팔 주가 급등",
+   "one_liner": "페이팔의 주가가 크게 올랐어요",
+   "why_now": "주가가 오르면 투자자들이 돈을 벌 수 있어요",
    "details": [
-    "M & A in Financials : Is PayPal 100 % Upside Just the Beginning ? What Comes Next for Allianz , Commerzbank , RE Royalties , and Munich Re ? | 2026 - 07 - 21 | Investing News",
-    "How PayPal went from Wall Street darling to unwilling merger target",
-    "Financial stocks overbought amid tech selloff ; BofA , PayPal among gainers , Citi , crypto in losers"
+    "페이팔의 주가가 급등했어요",
+    "페이팔은 최근 합병 대상이 됐어요",
+    "금융 주식이 기술 주식 매도 물량으로 인해 과매수 상태예요",
+    "페이팔의 주가 상승은 최근 몇 주간의 급등을 보이고 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "투자자들이 페이팔 주식을 더 많이 사들일 수 있어요!",
+    "페이팔의 주가 상승이 다른 금융 주식에 긍정적인 영향을 미칠 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "b46f0328d83571b336b46c370094151ed839e4be"
  },

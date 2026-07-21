@@ -2,7 +2,7 @@
  "id": "c72702defa15d1f1f",
  "title": "Mastercard Incorporated $MA Shares Bought by UNIVEST FINANCIAL Corp",
  "category": "MARKET",
- "status": "active",
+ "status": "stale",
  "origin": "cluster",
  "frozen": 1,
  "anchor_key": null,
@@ -11,7 +11,7 @@
   "V"
  ],
  "seen_sources": 15,
- "importance": 95,
+ "importance": 90,
  "created_at": "2026-07-14T14:20:58.036844+00:00",
  "last_update": "2026-07-18T16:55:12.611190+00:00",
  "members": [
@@ -293,7 +293,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-21T14:32:10.311284+00:00",
+  "created_at": "2026-07-21T18:47:08.955857+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -306,12 +306,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"비자 주가 상승\",\n  \"one_liner\": \"비자 주가가 애널리스트의 추천으로 2.6% 올랐어요.\",\n  \"why_now\": \"애널리스트의 긍정적인 평가는 투자자들의 관심을 끌어 주가 상승으로 이어질 수 있어요.\",\n  \"impact_line\": \"비자 주식에 투자한 사람들의 자산 가치가 늘어날 수 있어요.\",\n  \"details\": [\n    \"비자 주가가 2.6% 상승했어요.\",\n    \"애널리스트가 비자 주식을 좋게 평가했어요.\",\n    \"비자는 1년 최고가에 도달했어요.\",\n    \"한 투자 회사가 비자 주식 1,684주를 샀어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"비자 주가에 대한 긍정적인 전망이 이어지면 주가가 더 오를 수 있어요!\",\n    \"비자처럼 결제 관련 기술 회사들의 주가도 함께 주목받을 수 있어요.\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"애널리스트\",\n      \"easy\": \"증권사 등에서 기업이나 시장을 분석하고 투자 의견을 내는 사람이에요.\",\n      \"example\": \"애널리스트가 추천한 종목에 많은 사람이 몰리기도 해요.\"\n    },\n    {\n      \"term\": \"핀테크\",\n      \"easy\": \"정보기술(IT)을 활용해 혁신적인 금융 서비스를 만드는 회사나 기술을 말해요.\",\n      \"example\": \"휴대폰으로 간편하게 송금하는 서비스가 핀테크의 한 예예요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [2.6]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [2.6, 1684.0]"
     ]
    }
   ],
@@ -330,8 +337,8 @@
   "fact_hash": "31b6cd511fd566043891077201eaa389074cb128"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-21T14:32:10.311166+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.6]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [2.6, 1684.0]\"]}]}",
+  "at": "2026-07-21T18:47:08.955716+00:00"
  },
  "glossary": [],
  "related": [
