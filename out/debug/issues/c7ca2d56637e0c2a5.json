@@ -9,10 +9,10 @@
  "entity_keys": [
   "IRAN"
  ],
- "seen_sources": 5,
+ "seen_sources": 6,
  "importance": 85,
  "created_at": "2026-07-20T16:06:09.497122+00:00",
- "last_update": "2026-07-20T22:28:05.364549+00:00",
+ "last_update": "2026-07-21T00:17:04.771846+00:00",
  "members": [
   {
    "id": "4a5d4789701a24f0c6373550d8f8e7379e3093c9",
@@ -22,7 +22,7 @@
    "title": "US gas prices reach $4 a gallon as conflict with Iran renews",
    "published_at": "2026-07-20T21:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9327
+   "sim_to_centroid": 0.9312
   },
   {
    "id": "99b4c1a67d9949e2d0454b025df5f7380e7d3533",
@@ -32,7 +32,7 @@
    "title": "Gas prices top $4 a gallon as Iran war escalates",
    "published_at": "2026-07-20T21:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9291
+   "sim_to_centroid": 0.9287
   },
   {
    "id": "dac2c4c177c12e601caa89dbcb8db14ef43f82bc",
@@ -42,7 +42,7 @@
    "title": "The US - Iran war of attrition is taking a growing toll on Iran economy",
    "published_at": "2026-07-20T21:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.924
+   "sim_to_centroid": 0.9235
   },
   {
    "id": "3d900534821e2ebf00c6528232503a316d0bd847",
@@ -62,7 +62,17 @@
    "title": "US Strikes Multiple Iranian Cities as Conflict Escalates : Here What We Know So Far",
    "published_at": "2026-07-20T13:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9582
+   "sim_to_centroid": 0.9545
+  },
+  {
+   "id": "6e24238f5756c646ab66d12bd70698aaf8dcebea",
+   "source": "dailypolitical.com",
+   "tier": "wire",
+   "url": "https://www.dailypolitical.com/2026/07/19/firan-technology-group-tseftg-stock-passes-above-50-day-moving-average-should-you-sell.html",
+   "title": "Firan Technology Group ( TSE : FTG ) Stock Passes Above 50 Day Moving Average – Should You Sell ?",
+   "published_at": "2026-07-19T13:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8574
   }
  ],
  "anchors": [],
@@ -101,17 +111,27 @@
    "source": "newsx.com",
    "url": "https://www.newsx.com/world/us-strikes-multiple-iranian-cities-as-conflict-escalates-heres-what-we-know-so-far-250522/",
    "at": "2026-07-20T13:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Firan Technology Group ( TSE : FTG ) Stock Passes Above 50 Day Moving Average – Should You Sell ?",
+   "source": "dailypolitical.com",
+   "url": "https://www.dailypolitical.com/2026/07/19/firan-technology-group-tseftg-stock-passes-above-50-day-moving-average-should-you-sell.html",
+   "at": "2026-07-19T13:45:00+00:00"
   }
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-20T20:48:54.627477+00:00",
+  "created_at": "2026-07-21T00:18:52.701589+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "US Strikes Multiple Iranian Cities as Conflict Escalates : Here What We Know So Far",
     "Energy markets face coming stress if no new US - Iran deal reached : analysts | Hellenic Shipping News Worldwide",
-    "US Strikes Multiple Iranian Cities as Conflict Escalates : Here What We Know So Far"
+    "US gas prices reach $4 a gallon as conflict with Iran renews",
+    "Gas prices top $4 a gallon as Iran war escalates",
+    "The US - Iran war of attrition is taking a growing toll on Iran economy"
    ],
    "official_lines": []
   },
@@ -125,21 +145,22 @@
    }
   ],
   "output": {
-   "title": "Energy markets face…",
-   "one_liner": "Energy markets face coming stress if no new US -…",
+   "title": "US Strikes Multiple…",
+   "one_liner": "US Strikes Multiple Iranian Cities as Conflict…",
    "why_now": null,
    "details": [
+    "US Strikes Multiple Iranian Cities as Conflict Escalates : Here What We Know So Far",
     "Energy markets face coming stress if no new US - Iran deal reached : analysts | Hellenic Shipping News Worldwide",
-    "US Strikes Multiple Iranian Cities as Conflict Escalates : Here What We Know So Far"
+    "US gas prices reach $4 a gallon as conflict with Iran renews"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "2c1ae911aeb8979bade890d9a66b181aefb82f7c"
+  "fact_hash": "8950f768bd0779ec8d1fd337c4d62f54b8e03b0d"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-20T20:48:54.627423+00:00"
+  "at": "2026-07-21T00:18:52.701523+00:00"
  },
  "glossary": [],
  "related": [

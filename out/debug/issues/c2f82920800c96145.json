@@ -400,42 +400,51 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-20T20:55:08.828046+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-21T00:17:27.129096+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "SpaceX Stock vs . Micron Stock : Buy One and Sell the Other , According to Certain Wall Street Analysts",
+    "AI Data Centers Need AMD Chips , Share Price Shows It",
     "Micron Stock Rebounds From Recent Selloff as Company Warns Memory Chip Supply Will Stay Tight Past 2027",
     "FinancialContent - Lattice Semiconductor , AMD , and Qualcomm Shares Are Falling , What You Need To Know",
-    "AI Data Centers Need AMD Chips , Share Price Shows It",
-    "Should You Buy Micron Technology Stock While It Below $1 , 000 ? The Answer Might Surprise You ."
+    "A Hidden Threat for Micron ? Apple Is Eyeing a Fix for AI Memory Demands"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"반도체 기업 주가 동향\",\n    \"one_liner\": \"주요 반도체 기업들의 주가가 엇갈리는 모습을 보이고 있어요.\",\n    \"why_now\": \"인공지능(AI) 시장의 성장에 따라 관련 반도체 기업들의 주가 흐름이 중요해지고 있어요.\",\n    \"impact_line\": \"AI 관련 기술 발전 속도에 따라 관련 기업들의 주가 변동성이 커질 수 있어요.\",\n    \"details\": [\n        \"AMD와 퀄컴의 주가는 하락세를 보이고 있어요.\",\n        \"마이크론의 주가는 최근 하락 후 반등했으나, 메모리 반도체 공급 부족이 2027년 이후에도 이어질 것이라는 전망이 나왔어요.\",\n        \"애플이 AI 메모리 수요에 대한 해결책을 모색하고 있다는 소식도 있어요.\",\n        \"일부 월스트리트 분석가들은 스페이스X와 마이크론의 주가에 대해 서로 다른 의견을 내놓고 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"AI 데이터 센터에 필요한 칩을 공급하는 기업들의 주가는 상승할 수 있어요!\",\n        \"메모리 반도체 공급 부족이 예상보다 길어지면 관련 기업들의 실적이 개선될 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"AI\",\n            \"easy\": \"인공지능은 컴퓨터가 사람처럼 생각하고 학습하는 기술이에요.\",\n            \"example\": \"AI 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n        },\n        {\n            \"term\": \"월스트리트\",\n            \"easy\": \"미국 뉴욕에 있는 금융 중심지를 뜻해요. 주식 시장을 대표하는 용어로 쓰여요.\",\n            \"example\": \"월스트리트의 분석가들은 앞으로 경기가 좋아질 것으로 예상했어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "title 에 한자/가나 포함",
+     "one_liner 에 한자/가나 포함"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "SpaceX Stock vs .…",
-   "one_liner": "SpaceX Stock vs . Micron Stock : Buy One and…",
-   "why_now": null,
+   "title": "반도체 기업 주가 동향",
+   "one_liner": "주요 반도체 기업들의 주가가 엇갈리는 모습을 보이고 있어요.",
+   "why_now": "인공지능(AI) 시장의 성장에 따라 관련 반도체 기업들의 주가 흐름이 중요해지고 있어요.",
    "details": [
-    "SpaceX Stock vs . Micron Stock : Buy One and Sell the Other , According to Certain Wall Street Analysts",
-    "Micron Stock Rebounds From Recent Selloff as Company Warns Memory Chip Supply Will Stay Tight Past 2027",
-    "FinancialContent - Lattice Semiconductor , AMD , and Qualcomm Shares Are Falling , What You Need To Know"
+    "AMD와 퀄컴의 주가는 하락세를 보이고 있어요.",
+    "마이크론의 주가는 최근 하락 후 반등했으나, 메모리 반도체 공급 부족이 2027년 이후에도 이어질요.",
+    "애플이 AI 메모리 수요에 대한 해결책을 모색하고 있다는 소식도 있어요.",
+    "일부 월스트리트 분석가들은 스페이스X와 마이크론의 주가에 대해 서로 다른 의견을 내놓고 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "AI 데이터 센터에 필요한 칩을 공급하는 기업들의 주가는 상승할 수 있어요!",
+    "메모리 반도체 공급 부족이 예상보다 길어지면 관련 기업들의 실적이 개선될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "8c2c5b05995a578cf78436e5589fdc2a729b69ec"
+  "fact_hash": "000dfe0f34bc0750c532cfaf18750e35b0f14ea2"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

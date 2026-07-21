@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-20T22:30:22.226436+00:00",
+ "generated_at": "2026-07-21T00:25:43.247143+00:00",
  "issues": [
   {
    "id": "ca047e091cbb5946c",
@@ -238,7 +238,7 @@
    "status": "stale",
    "origin": "official_event",
    "seen_sources": 0,
-   "importance": 120,
+   "importance": 115,
    "entity_keys": [
     "FED"
    ],
@@ -294,15 +294,15 @@
    "category": "GEO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 16,
+   "seen_sources": 17,
    "importance": 110,
    "entity_keys": [
     "C",
     "F"
    ],
    "created_at": "2026-07-16T06:38:34.932120+00:00",
-   "last_update": "2026-07-20T22:28:05.363964+00:00",
-   "members": 16,
+   "last_update": "2026-07-21T00:17:04.771490+00:00",
+   "members": 17,
    "llm_title": "Supervisors back…",
    "one_liner": "Supervisors back Lurie plan to cut affordable…",
    "llm_model": "template",
@@ -371,15 +371,15 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 5,
+   "seen_sources": 6,
    "importance": 105,
    "entity_keys": [
     "NVDA",
     "ORCL"
    ],
    "created_at": "2026-07-18T12:10:48.729267+00:00",
-   "last_update": "2026-07-20T22:28:05.317185+00:00",
-   "members": 6,
+   "last_update": "2026-07-21T00:17:04.776190+00:00",
+   "members": 7,
    "llm_title": "Why Is Oracle Stock…",
    "one_liner": "Why Is Oracle Stock Falling Friday ? - Oracle (…",
    "llm_model": "template",
@@ -406,9 +406,9 @@
    "created_at": "2026-07-16T23:16:40.435129+00:00",
    "last_update": "2026-07-20T22:28:05.314686+00:00",
    "members": 22,
-   "llm_title": "SpaceX Stock vs .…",
-   "one_liner": "SpaceX Stock vs . Micron Stock : Buy One and…",
-   "llm_model": "template",
+   "llm_title": "반도체 기업 주가 동향",
+   "one_liner": "주요 반도체 기업들의 주가가 엇갈리는 모습을 보이고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -736,12 +736,12 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 12,
+   "seen_sources": 69,
    "importance": 95,
    "entity_keys": [],
    "created_at": "2026-07-18T19:38:21.281960+00:00",
-   "last_update": "2026-07-20T22:28:05.364192+00:00",
-   "members": 16,
+   "last_update": "2026-07-21T00:17:04.788895+00:00",
+   "members": 50,
    "llm_title": "One year as Governor…",
    "one_liner": "One year as Governor , 130 days in Himachal :…",
    "llm_model": "template",
@@ -764,25 +764,6 @@
    "llm_title": "페이팔 주가 급등",
    "one_liner": "페이팔 주가가 이번 주 크게 올랐어요.",
    "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c2a4c3894a14ae550",
-   "title": "Microsoft tactics with Edge face renewed scrutiny over browser choice",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 95,
-   "entity_keys": [
-    "MSFT"
-   ],
-   "created_at": "2026-07-17T09:25:30.691405+00:00",
-   "last_update": "2026-07-19T23:16:54.279195+00:00",
-   "members": 3,
-   "llm_title": "마이크로소프트 소송",
-   "one_liner": "마이크로소프트에 소송이 걸렸어요",
-   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -902,6 +883,25 @@
    "members": 46,
    "llm_title": "넷플릭스 실적 예상치 낮추기",
    "one_liner": "넷플릭스의 실적 예상치가 낮아져 주가가 떨어졌어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "c2a4c3894a14ae550",
+   "title": "Microsoft tactics with Edge face renewed scrutiny over browser choice",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 90,
+   "entity_keys": [
+    "MSFT"
+   ],
+   "created_at": "2026-07-17T09:25:30.691405+00:00",
+   "last_update": "2026-07-19T23:16:54.279195+00:00",
+   "members": 3,
+   "llm_title": "마이크로소프트 소송",
+   "one_liner": "마이크로소프트에 소송이 걸렸어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
@@ -1051,16 +1051,16 @@
    "category": "GEO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 5,
+   "seen_sources": 6,
    "importance": 85,
    "entity_keys": [
     "IRAN"
    ],
    "created_at": "2026-07-20T16:06:09.497122+00:00",
-   "last_update": "2026-07-20T22:28:05.364549+00:00",
-   "members": 5,
-   "llm_title": "Energy markets face…",
-   "one_liner": "Energy markets face coming stress if no new US -…",
+   "last_update": "2026-07-21T00:17:04.771846+00:00",
+   "members": 6,
+   "llm_title": "US Strikes Multiple…",
+   "one_liner": "US Strikes Multiple Iranian Cities as Conflict…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1303,23 +1303,6 @@
    "in_review": true
   },
   {
-   "id": "cf387c2643fe6d0b5",
-   "title": "My daughter moved to Melbourne . Will our economy ever be strong enough to bring her home ?",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 45,
-   "importance": 80,
-   "entity_keys": [],
-   "created_at": "2026-07-18T19:38:21.281310+00:00",
-   "last_update": "2026-07-19T00:15:14.477242+00:00",
-   "members": 50,
-   "llm_title": "경제 소식",
-   "one_liner": "미국 경제가 살아나는 소식이 있어요.",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
    "id": "cf38973aa7e2574f7",
    "title": "US Senate Bill Could Hit India With Up To 100 % Tariffs Over Russian Oil Imports",
    "category": "POLICY",
@@ -1407,22 +1390,20 @@
    "in_review": true
   },
   {
-   "id": "c46f1163e8203d147",
-   "title": "UnitedHealth Group boosts earnings outlook after stronger - than - expected Q2 results",
-   "category": "EARNINGS",
+   "id": "cf387c2643fe6d0b5",
+   "title": "My daughter moved to Melbourne . Will our economy ever be strong enough to bring her home ?",
+   "category": "GEO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 3,
+   "seen_sources": 45,
    "importance": 75,
-   "entity_keys": [
-    "UNH"
-   ],
-   "created_at": "2026-07-16T16:47:58.907454+00:00",
-   "last_update": "2026-07-18T23:15:53.312005+00:00",
-   "members": 4,
-   "llm_title": "Rep . Richard…",
-   "one_liner": "Rep . Richard McCormick Unloads UnitedHealth…",
-   "llm_model": "template",
+   "entity_keys": [],
+   "created_at": "2026-07-18T19:38:21.281310+00:00",
+   "last_update": "2026-07-19T00:15:14.477242+00:00",
+   "members": 50,
+   "llm_title": "경제 소식",
+   "one_liner": "미국 경제가 살아나는 소식이 있어요.",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1514,6 +1495,25 @@
    "members": 0,
    "llm_title": "KR D램 가격 상승률(분기) 90.0%",
    "one_liner": "KR D램 가격 상승률(분기) 90.0%로 발표됐어요",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c46f1163e8203d147",
+   "title": "UnitedHealth Group boosts earnings outlook after stronger - than - expected Q2 results",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 70,
+   "entity_keys": [
+    "UNH"
+   ],
+   "created_at": "2026-07-16T16:47:58.907454+00:00",
+   "last_update": "2026-07-18T23:15:53.312005+00:00",
+   "members": 4,
+   "llm_title": "Rep . Richard…",
+   "one_liner": "Rep . Richard McCormick Unloads UnitedHealth…",
    "llm_model": "template",
    "in_review": true
   },
