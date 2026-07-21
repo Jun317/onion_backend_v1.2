@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 3,
- "importance": 75,
+ "seen_sources": 4,
+ "importance": 80,
  "created_at": "2026-07-20T11:19:05.717119+00:00",
- "last_update": "2026-07-20T13:23:53.497862+00:00",
+ "last_update": "2026-07-21T14:30:41.473978+00:00",
  "members": [
+  {
+   "id": "5a1b1446212de535c1328ecec77e2e2d8e648357",
+   "source": "prnewswire.com",
+   "tier": "wire",
+   "url": "http://www.prnewswire.com/news-releases/the-red-chickz-doubles-down-on-texas-with-carrollton-grand-opening-302830177.html",
+   "title": "The Red Chickz Doubles Down on Texas with Carrollton Grand Opening",
+   "published_at": "2026-07-21T11:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8675
+  },
   {
    "id": "9ab1f10a38ac888386090fbf3ccd3500af5066fd",
    "source": "sgvtribune.com",
@@ -20,7 +30,7 @@
    "title": "Dodgers split doubleheader with Yankees after long day in Bronx",
    "published_at": "2026-07-20T08:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9939
+   "sim_to_centroid": 0.9905
   },
   {
    "id": "242ac9ac511968b870b8fb7f1fdf5e31b6d68a23",
@@ -30,7 +40,7 @@
    "title": "Dodgers split doubleheader with Yankees after long day in Bronx",
    "published_at": "2026-07-20T07:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9939
+   "sim_to_centroid": 0.9905
   },
   {
    "id": "bce6560d4c63bf2c4d86727ea1942a1e473f639d",
@@ -40,7 +50,7 @@
    "title": "JD Vance picks a lane and a fight",
    "published_at": "2026-07-19T21:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8661
+   "sim_to_centroid": 0.8736
   },
   {
    "id": "cf6f6abebc5b847b0b7126d95ba41b28827c387c",
@@ -50,7 +60,7 @@
    "title": "Dodgers take first game of doubleheader behind dominant Yoshinobu Yamamoto",
    "published_at": "2026-07-19T21:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9272
+   "sim_to_centroid": 0.9293
   },
   {
    "id": "b8c153846a05e3550d420a808f2c2b9cd4935cf6",
@@ -60,11 +70,18 @@
    "title": "Dodgers take first game of doubleheader behind dominant Yoshinobu Yamamoto",
    "published_at": "2026-07-19T21:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9272
+   "sim_to_centroid": 0.9293
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "The Red Chickz Doubles Down on Texas with Carrollton Grand Opening",
+   "source": "prnewswire.com",
+   "url": "http://www.prnewswire.com/news-releases/the-red-chickz-doubles-down-on-texas-with-carrollton-grand-opening-302830177.html",
+   "at": "2026-07-21T11:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Dodgers split doubleheader with Yankees after long day in Bronx",
@@ -103,50 +120,44 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-21T09:48:35.005237+00:00",
+  "created_at": "2026-07-21T14:33:15.905822+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "The Red Chickz Doubles Down on Texas with Carrollton Grand Opening",
     "Dodgers split doubleheader with Yankees after long day in Bronx",
     "JD Vance picks a lane and a fight",
     "Dodgers take first game of doubleheader behind dominant Yoshinobu Yamamoto"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"다저스, 양키스 상대 더블헤더 승리\", \"one_liner\": \"미국 프로야구 다저스가 양키스와의 더블헤더 경기에서 2승 1패를 기록했어요.\", \"why_now\": \"다저스의 승리는 팀의 연승 행진에 힘을 보태고, 팬들에게 즐거움을 선사했어요.\", \"impact_line\": null, \"details\": [\"다저스가 양키스와의 더블헤더 경기에서 승리했어요.\", \"야마모토 투수가 선발로 나와 좋은 모습을 보여줬어요.\"], \"visual_type\": \"none\", \"effects\": [\"다저스의 승리로 팀 분위기가 더욱 좋아질 것으로 예상돼요!\"], \"glossary\": [{\"term\": \"더블헤더\", \"easy\": \"한날에 두 번의 경기를 하는 것을 말해요.\", \"example\": \"야구팀이 날씨 때문에 연기된 경기를 같은 날 두 번 치렀어요.\"}]}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
   "output": {
-   "title": "Dodgers split…",
-   "one_liner": "Dodgers split doubleheader with Yankees after…",
+   "title": "The Red Chickz…",
+   "one_liner": "The Red Chickz Doubles Down on Texas with…",
    "why_now": null,
    "details": [
+    "The Red Chickz Doubles Down on Texas with Carrollton Grand Opening",
     "Dodgers split doubleheader with Yankees after long day in Bronx",
-    "JD Vance picks a lane and a fight",
-    "Dodgers take first game of doubleheader behind dominant Yoshinobu Yamamoto"
+    "JD Vance picks a lane and a fight"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "834c2e9829d8e30f7fc26224465f69e90ac6b254"
+  "fact_hash": "0e9d5be0e674b673c81dbde7e576fb9e6d41c38f"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-07-21T09:48:35.005183+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-21T14:33:15.905759+00:00"
  },
  "glossary": [],
  "related": [

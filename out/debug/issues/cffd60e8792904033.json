@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-21T09:49:37.107778+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-21T14:34:40.954005+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -881,33 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"이라크 디나르 가치 변화\", \"one_liner\": \"이라크 총리의 미국 방문이 디나르 가치에 영향을 줄 수 있어요.\", \"why_now\": \"이라크 총리의 미국 방문은 경제 협력 논의와 함께 자국 화폐 가치에도 영향을 미칠 수 있어요.\", \"impact_line\": \"이라크 디나르의 환율 변동 가능성이 있어요.\", \"details\": [\"이라크 총리가 미국 워싱턴을 방문했어요.\", \"이번 방문은 이라크 디나르의 가치에 중요한 의미를 가질 수 있어요.\"], \"visual_type\": \"usdkrw\", \"effects\": [\"이라크와 미국 간의 경제 협력이 강화되면 디나르 가치가 상승할 수 있어요!\"], \"glossary\": [{\"term\": \"디나르\", \"easy\": \"이라크 등 여러 나라에서 사용하는 화폐 단위예요.\", \"example\": \"이라크 디나르 환율이 오르면 한국에서 이라크 물건을 사기 어려워져요.\"}], \"impact_line\": \"이라크 디나르의 환율 변동 가능성이 있어요.\"}",
+  "raw_response": "{\n  \"title\": \"화폐 소식\",\n   \"one_liner\": \"화폐 관련 다양한 뉴스가 나오고 있어요\",\n   \"why_now\": \"화폐 뉴스는 경제와 거래에 영향을 줄 수 있어요\",\n   \"impact_line\": \"화폐 소식이 우리의 지갑에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"화폐 관련 뉴스에는 다양한 주제가 포함되어 있어요\",\n       \"화폐 뉴스는 경제와 거래에 영향을 줄 수 있어요\",\n       \"화폐 관련 정보는 투자와 소비에 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"화폐 뉴스가 경제에 미치는 영향은 다양할 수 있어요!\",\n       \"화폐 소식은 우리의 지갑과 생활에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Jalen Hurts And Arik…",
-   "one_liner": "Jalen Hurts And Arik Armstead On Financial…",
-   "why_now": null,
+   "title": "화폐 소식",
+   "one_liner": "화폐 관련 다양한 뉴스가 나오고 있어요",
+   "why_now": "화폐 뉴스는 경제와 거래에 영향을 줄 수 있어요",
    "details": [
-    "Jalen Hurts And Arik Armstead On Financial Empowerment",
-    "Setting money on fire , also the planet",
-    "Iraqi PM in Washington : What His Trip Actually Means for the Dinar"
+    "화폐 관련 뉴스에는 다양한 주제가 포함되어 있어요",
+    "화폐 뉴스는 경제와 거래에 영향을 줄 수 있어요",
+    "화폐 관련 정보는 투자와 소비에 영향을 줄 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "usdkrw"
+   "effects": [
+    "화폐 뉴스가 경제에 미치는 영향은 다양할 수 있어요!",
+    "화폐 소식은 우리의 지갑과 생활에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "a2a9bb357216887f5a62e84e72875caec0c0da88"
  },

@@ -326,8 +326,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-21T09:47:45.484251+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-21T14:30:52.892817+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -340,31 +340,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"주택 가격 문제\",\n   \"one_liner\": \"미국에서 주택 가격 문제가 논의되고 있어요\",\n   \"why_now\": \"주택 가격 문제는 많은 사람이 집을 살 수 없게 만들 수 있어요\",\n   \"impact_line\": \"주택 가격이 높아지면 집을 사거나 세를 놓기가 어려워질 수 있어요\",\n   \"details\": [\n       \"미국에서 주택 가격 문제가 논의되고 있어요\",\n       \"민주당은 주택 가격 문제를 해결하기 위해 노력하고 있어요\",\n       \"공화당은 주택 가격 문제를 해결하기 위해 다른 방법을 제안하고 있어요\",\n       \"시티그룹은 주택 가격 문제를 해결하기 위해 2,500만 달러를 투자했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주택 가격 문제가 해결되면 더 많은 사람이 집을 살 수 있게 될 수 있어요!\",\n       \"주택 가격 문제가 해결되지 않으면 가계 부담이 늘어날 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"주택 비용 문제\",\n   \"one_liner\": \"미국에서 주택 비용 문제가 논의되고 있어요.\",\n   \"why_now\": \"주택 비용이 높아지면 사람들이 집을 살기 어려워져요.\",\n   \"impact_line\": \"주택을 사거나 빌리기 어려워질 수 있어요\",\n   \"details\": [\n       \"미국에서 주택 비용 문제가 논의되고 있어요.\",\n       \"일부 지역에서는 주택 비용을 낮추기 위한 계획이 있어요.\",\n       \"정부와 기업이 주택 비용 문제를 해결하기 위해 노력하고 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주택 비용이 낮아지면 사람들이 더 쉽게 집을 살 수 있어요!\",\n       \"주택 비용이 높아지면 사람들이 집을 사기 어려워져요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [2500.0]"
-    ]
-   },
-   {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [2500.0]"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Supervisors back…",
-   "one_liner": "Supervisors back Lurie plan to cut affordable…",
-   "why_now": null,
+   "title": "주택 비용 문제",
+   "one_liner": "미국에서 주택 비용 문제가 논의되고 있어요.",
+   "why_now": "주택 비용이 높아지면 사람들이 집을 살기 어려워져요.",
    "details": [
-    "Supervisors back Lurie plan to cut affordable housing fees | Politics",
-    "Left - leaning group says state faces affordability crisis",
-    "Trump Claims  Affordability  Is a Fake Word Invented by Democrats in Heated White House Address"
+    "미국에서 주택 비용 문제가 논의되고 있어요.",
+    "일부 지역에서는 주택 비용을 낮추기 위한 계획이 있어요.",
+    "정부와 기업이 주택 비용 문제를 해결하기 위해 노력하고 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "주택 비용이 낮아지면 사람들이 더 쉽게 집을 살 수 있어요!",
+    "주택 비용이 높아지면 사람들이 집을 사기 어려워져요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "2f7fc7276175ee9bade657b3ac0d2278b61daf98"
@@ -388,14 +383,14 @@
    "shared": []
   },
   {
-   "id": "cd2c26bf163eba3ef",
-   "title": "Ireland narrowly misses record - matching heatwave",
+   "id": "c9935a100fd7ce01f",
+   "title": "Dodgers split doubleheader with Yankees after long day in Bronx",
    "category": "GEO",
    "shared": []
   },
   {
-   "id": "c9935a100fd7ce01f",
-   "title": "Dodgers split doubleheader with Yankees after long day in Bronx",
+   "id": "cd2c26bf163eba3ef",
+   "title": "Ireland narrowly misses record - matching heatwave",
    "category": "GEO",
    "shared": []
   },

@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-21T09:48:20.997579+00:00",
+  "created_at": "2026-07-21T14:33:34.311089+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,18 +881,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"주식 시장\",\n   \"one_liner\": \"미국과 유럽의 주식 시장에서 다양한 소식이 있어요.\",\n   \"why_now\": \"주식 시장은 경제와 밀접하게 관련되어 있어요.\",\n   \"impact_line\": \"주식 투자자에게 다양한 정보가 필요할 수 있어요.\",\n   \"details\": [\n       \"미국 나스닥 100지수에 편입된 주식의 이후 동향에 대해 분석했어요.\",\n       \"유럽 다쿠 지수가 약 0.5% 상승했어요.\",\n       \"엔터프라이즈 파이낸셜 서비스의 평가를 하락시켰어요.\",\n       \"인테그라 라이프사이언스에 대한 평가를 조정했어요.\",\n       \"말레이시아의 주식 시장은 은행 주식의 이익 실현으로 하락했어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주식 투자자들은 다양한 정보를 고려하여 투자 quyết정을 내릴 수 있어요!\",\n       \"글로벌 경제 동향에 따라 주식 시장의 변동이 있을 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [0.5]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [0.5]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -911,14 +905,20 @@
   "fact_hash": "06eace578657fbb23ead9cbab221f891cff08a69"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [0.5]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [0.5]\"]}]}",
-  "at": "2026-07-21T09:48:20.997510+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-21T14:33:34.311017+00:00"
  },
  "glossary": [],
  "related": [
   {
    "id": "c9a09576b9082e071",
    "title": "Japan PM Sanae Takaichi Unveils Growth Plan as BOJ Independence Concerns Lift Bond Yields",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c2f82920800c96145",
+   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
    "shared": []
   },
@@ -931,12 +931,6 @@
   {
    "id": "c3350f06afa9dea1f",
    "title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c2f82920800c96145",
-   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
    "shared": []
   },
