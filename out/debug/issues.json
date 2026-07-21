@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-21T09:55:55.411166+00:00",
+ "generated_at": "2026-07-21T12:05:28.928565+00:00",
  "issues": [
   {
    "id": "ca047e091cbb5946c",
@@ -118,19 +118,20 @@
    "category": "COMMODITY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 19,
+   "seen_sources": 29,
    "importance": 140,
    "entity_keys": [
     "BA",
     "CHINA",
+    "FED",
     "IRAN",
     "SEC"
    ],
    "created_at": "2026-07-20T13:23:53.496805+00:00",
-   "last_update": "2026-07-21T09:47:25.973792+00:00",
-   "members": 25,
-   "llm_title": "중국 AI 모델 가입 중단",
-   "one_liner": "중국이 새로 만든 인공지능 모델이 가입을 중단했어요",
+   "last_update": "2026-07-21T12:05:15.217848+00:00",
+   "members": 38,
+   "llm_title": "중국 AI 모델",
+   "one_liner": "중국의 새로운 인공지능 모델이 수요 폭주로 신규 가입을 중단했어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
@@ -254,22 +255,43 @@
    "in_review": true
   },
   {
+   "id": "c9a09576b9082e071",
+   "title": "Japan PM Sanae Takaichi Unveils Growth Plan as BOJ Independence Concerns Lift Bond Yields",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 120,
+   "entity_keys": [
+    "BOJ",
+    "KRX:047810"
+   ],
+   "created_at": "2026-07-21T12:05:15.206755+00:00",
+   "last_update": "2026-07-21T12:05:15.207504+00:00",
+   "members": 2,
+   "llm_title": "일본 성장 계획",
+   "one_liner": "일본 총리가 성장 계획을 발표했어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": false
+  },
+  {
    "id": "c7c96d30015139b49",
    "title": "Pound to Dollar Forecast : Sterling Gains but BoE , Fed Divergence Looms",
    "category": "FX",
-   "status": "active",
+   "status": "archived",
    "origin": "cluster",
-   "seen_sources": 5,
+   "seen_sources": 6,
    "importance": 115,
    "entity_keys": [
-    "FED"
+    "FED",
+    "SEC"
    ],
    "created_at": "2026-07-20T13:23:53.497151+00:00",
-   "last_update": "2026-07-21T09:47:25.965402+00:00",
-   "members": 6,
-   "llm_title": "달러화 예측",
-   "one_liner": "미국 중앙은행의 인플레이션 예측이 나왔어요",
-   "llm_model": "llama-3.3-70b-versatile",
+   "last_update": "2026-07-21T12:05:15.217890+00:00",
+   "members": 0,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
    "in_review": true
   },
   {
@@ -387,6 +409,23 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
+   "in_review": true
+  },
+  {
+   "id": "cbfe7ae8627f9809b",
+   "title": "U . S . to impose additional 50 pct tariff on certain Canadian goods - Xinhua",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 104,
+   "importance": 105,
+   "entity_keys": [],
+   "created_at": "2026-07-21T03:53:30.603895+00:00",
+   "last_update": "2026-07-21T12:05:15.205778+00:00",
+   "members": 50,
+   "llm_title": "Trump tariffs : U .…",
+   "one_liner": "Trump tariffs : U . S . to impose new 50 %…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -688,25 +727,6 @@
    "in_review": true
   },
   {
-   "id": "cf3992948064685e4",
-   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 5,
-   "importance": 100,
-   "entity_keys": [
-    "GS"
-   ],
-   "created_at": "2026-07-17T11:47:42.432011+00:00",
-   "last_update": "2026-07-19T11:35:40.159594+00:00",
-   "members": 5,
-   "llm_title": "골드만삭스 관련 소식",
-   "one_liner": "골드만삭스에 대한 투자와 분석이 이뤄지고 있어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
    "id": "c48db748fde00c8f7",
    "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
    "category": "MACRO",
@@ -746,34 +766,17 @@
    "in_review": false
   },
   {
-   "id": "cbfe7ae8627f9809b",
-   "title": "U . S . to impose additional 50 pct tariff on certain Canadian goods - Xinhua",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 19,
-   "importance": 95,
-   "entity_keys": [],
-   "created_at": "2026-07-21T03:53:30.603895+00:00",
-   "last_update": "2026-07-21T09:47:25.966377+00:00",
-   "members": 24,
-   "llm_title": "Trump tariffs : U .…",
-   "one_liner": "Trump tariffs : U . S . to impose new 50 %…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "c00bd94cc12b7385c",
    "title": "Trump imposes 50 % tariff on most Canadian imports , further straining U . S .- Canada relations",
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 18,
+   "seen_sources": 20,
    "importance": 95,
    "entity_keys": [],
    "created_at": "2026-07-21T03:53:30.604197+00:00",
-   "last_update": "2026-07-21T09:47:25.964206+00:00",
-   "members": 25,
+   "last_update": "2026-07-21T12:05:15.203767+00:00",
+   "members": 29,
    "llm_title": "Trump imposes 50 %…",
    "one_liner": "Trump imposes 50 % tariffs on Canadian goods",
    "llm_model": "template",
@@ -793,6 +796,25 @@
    "members": 50,
    "llm_title": "영국 총리 교체",
    "one_liner": "앤디 버넘이 영국 총리가 됐어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "cf3992948064685e4",
+   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 5,
+   "importance": 95,
+   "entity_keys": [
+    "GS"
+   ],
+   "created_at": "2026-07-17T11:47:42.432011+00:00",
+   "last_update": "2026-07-19T11:35:40.159594+00:00",
+   "members": 5,
+   "llm_title": "골드만삭스 관련 소식",
+   "one_liner": "골드만삭스에 대한 투자와 분석이 이뤄지고 있어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
@@ -959,23 +981,6 @@
    "in_review": true
   },
   {
-   "id": "c5545b3b48fe71332",
-   "title": "Trump threatens to tariff Canada over  filthy air  from wildfire",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 42,
-   "importance": 90,
-   "entity_keys": [],
-   "created_at": "2026-07-18T19:38:21.281519+00:00",
-   "last_update": "2026-07-19T11:35:40.171177+00:00",
-   "members": 50,
-   "llm_title": "트럼프, 캐나다에 관세 위협",
-   "one_liner": "트럼프 전 대통령이 캐나다의 대기 오염을 이유로 관세를 부과하겠다고 위협했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "c87753c82e77dfabb",
    "title": "Michigan governor candidates offer competing plans to improve economic growth in the state",
    "category": "MACRO",
@@ -1006,25 +1011,6 @@
    "members": 50,
    "llm_title": "2026년 경제 소식",
    "one_liner": "2026년에 여러 경제 관련 소식이 있었어요.",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "c499660e9dfd764df",
-   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
-   "category": "MARKET",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 6,
-   "importance": 90,
-   "entity_keys": [
-    "BA"
-   ],
-   "created_at": "2026-07-12T21:11:31.396580+00:00",
-   "last_update": "2026-07-17T11:47:42.430523+00:00",
-   "members": 6,
-   "llm_title": "보잉 투자",
-   "one_liner": "보잉에 투자하는 기업과 전문가들이 늘고 있어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
@@ -1087,6 +1073,23 @@
    "in_review": true
   },
   {
+   "id": "c5545b3b48fe71332",
+   "title": "Trump threatens to tariff Canada over  filthy air  from wildfire",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 42,
+   "importance": 85,
+   "entity_keys": [],
+   "created_at": "2026-07-18T19:38:21.281519+00:00",
+   "last_update": "2026-07-19T11:35:40.171177+00:00",
+   "members": 50,
+   "llm_title": "트럼프, 캐나다에 관세 위협",
+   "one_liner": "트럼프 전 대통령이 캐나다의 대기 오염을 이유로 관세를 부과하겠다고 위협했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
    "id": "c326b0b11f6b34d1d",
    "title": "The Iran war could shape American policy for decades | JONAH GOLDBERG :",
    "category": "POLICY",
@@ -1140,6 +1143,25 @@
    "llm_title": "미국, 브라질 수입품에 25% 관세 부과",
    "one_liner": "미국이 브라질의 불공정 무역 관행을 이유로 수입품에 25%의 관세를 부과했어요.",
    "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "c499660e9dfd764df",
+   "title": "Jim Cramer Is Impressed By Catch Up In The Boeing Company ( BA ) Shares",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 6,
+   "importance": 85,
+   "entity_keys": [
+    "BA"
+   ],
+   "created_at": "2026-07-12T21:11:31.396580+00:00",
+   "last_update": "2026-07-17T11:47:42.430523+00:00",
+   "members": 6,
+   "llm_title": "보잉 투자",
+   "one_liner": "보잉에 투자하는 기업과 전문가들이 늘고 있어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1553,23 +1575,6 @@
    "in_review": true
   },
   {
-   "id": "c4edd921f2455986c",
-   "title": "Broadstreetnote : The Optimism Paradox",
-   "category": "GEO",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 65,
-   "importance": 70,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.931047+00:00",
-   "last_update": "2026-07-17T11:47:42.431334+00:00",
-   "members": 50,
-   "llm_title": "정치권 고령화 문제",
-   "one_liner": "미국 정치권에서 나이 많은 정치인들이 많아지면서 고령화 문제가 심화되고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "c3fb251faf6711ace",
    "title": "'26.5월 산업활동동향 및 평가",
    "category": "MACRO",
@@ -1827,19 +1832,19 @@
    "in_review": true
   },
   {
-   "id": "ce156a219668aedbb",
-   "title": "Asia stocks tumble on tech worries , Mideast war",
-   "category": "MARKET",
+   "id": "c4edd921f2455986c",
+   "title": "Broadstreetnote : The Optimism Paradox",
+   "category": "GEO",
    "status": "stale",
    "origin": "cluster",
-   "seen_sources": 35,
+   "seen_sources": 65,
    "importance": 65,
    "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.932745+00:00",
-   "last_update": "2026-07-17T11:47:42.427656+00:00",
+   "created_at": "2026-07-16T06:38:34.931047+00:00",
+   "last_update": "2026-07-17T11:47:42.431334+00:00",
    "members": 50,
-   "llm_title": "주요국 증시 하락, 유가 상승",
-   "one_liner": "미국 증시가 기술주 하락과 유가 상승으로 불안한 모습을 보였어요.",
+   "llm_title": "정치권 고령화 문제",
+   "one_liner": "미국 정치권에서 나이 많은 정치인들이 많아지면서 고령화 문제가 심화되고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -1947,6 +1952,23 @@
    "members": 2,
    "llm_title": "버라이즌, 매장 3천 개 축소",
    "one_liner": "미국 통신사 버라이즌이 인공지능 도입과 매장 전환으로 3천 개의 일자리를 줄였어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "ce156a219668aedbb",
+   "title": "Asia stocks tumble on tech worries , Mideast war",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 35,
+   "importance": 60,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.932745+00:00",
+   "last_update": "2026-07-17T11:47:42.427656+00:00",
+   "members": 50,
+   "llm_title": "주요국 증시 하락, 유가 상승",
+   "one_liner": "미국 증시가 기술주 하락과 유가 상승으로 불안한 모습을 보였어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -2191,23 +2213,6 @@
    "in_review": true
   },
   {
-   "id": "c5554b3ce8ec2f0f2",
-   "title": "FinancialContent - Earnings To Watch : Autoliv ( ALV ) Reports Q2 Results Tomorrow",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 19,
-   "importance": 50,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.930722+00:00",
-   "last_update": "2026-07-17T11:47:42.431138+00:00",
-   "members": 50,
-   "llm_title": "기업 실적 발표 예정",
-   "one_liner": "여러 기업들이 곧 2분기 실적을 발표할 예정이에요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "c1aa80f01e32a17b0",
    "title": "허장 재경부 제2차관, 「중동 인프라 협력 TF 겸 해외수주 협의회」 개최",
    "category": "GEO",
@@ -2259,6 +2264,23 @@
    "members": 0,
    "llm_title": "미국 관세 환급 규모 확대",
    "one_liner": "미국이 1660억 달러 규모의 관세를 환급해 줄 예정이에요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "c5554b3ce8ec2f0f2",
+   "title": "FinancialContent - Earnings To Watch : Autoliv ( ALV ) Reports Q2 Results Tomorrow",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 19,
+   "importance": 45,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.930722+00:00",
+   "last_update": "2026-07-17T11:47:42.431138+00:00",
+   "members": 50,
+   "llm_title": "기업 실적 발표 예정",
+   "one_liner": "여러 기업들이 곧 2분기 실적을 발표할 예정이에요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
