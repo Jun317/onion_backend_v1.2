@@ -2,19 +2,29 @@
  "id": "c6f9e57edbc5d69b6",
  "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
  "category": "GEO",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "CHINA",
   "IRAN"
  ],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 2,
+ "importance": 70,
  "created_at": "2026-07-21T18:46:21.176175+00:00",
- "last_update": "2026-07-21T18:46:21.176175+00:00",
+ "last_update": "2026-07-21T20:40:22.797164+00:00",
  "members": [
+  {
+   "id": "49dff9588c4527ea0b3e7b3a3493d9a057faacac",
+   "source": "wsbradio.com",
+   "tier": "wire",
+   "url": "https://www.wsbradio.com/news/politics/latest-bombing/5FGOODMNMI4ZXFYHDVVGX5R3UY/",
+   "title": "Trump airstrike strategy challenged as Iran holds firm",
+   "published_at": "2026-07-21T17:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8705
+  },
   {
    "id": "babd06608a31678e261719363dfc38672769f74a",
    "source": "chinanationalnews.com",
@@ -23,7 +33,7 @@
    "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
    "published_at": "2026-07-21T17:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0001
+   "sim_to_centroid": 0.9985
   },
   {
    "id": "ad1634e45c20b850808328a1278b91f921f7d4b1",
@@ -33,11 +43,18 @@
    "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
    "published_at": "2026-07-21T14:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0001
+   "sim_to_centroid": 0.9985
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Trump airstrike strategy challenged as Iran holds firm",
+   "source": "wsbradio.com",
+   "url": "https://www.wsbradio.com/news/politics/latest-bombing/5FGOODMNMI4ZXFYHDVVGX5R3UY/",
+   "at": "2026-07-21T17:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
@@ -53,7 +70,42 @@
    "at": "2026-07-21T14:00:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-21T20:40:23.884468+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Trump airstrike strategy challenged as Iran holds firm",
+    "Could The US - Iran Battle For Hormuz Be A Win For Russia And China"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미·이란 갈등\",\n   \"one_liner\": \"미국과 이란의 갈등이 계속되고 있어요\",\n   \"why_now\": \"이 갈등이 세계 경제에 영향을 줄 수 있어요\",\n   \"impact_line\": \"유가가 오를 수 있어요\",\n   \"details\": [\n       \"미국과 이란의 갈등이 계속되고 있어요\",\n       \"이란이 강한 태도를 유지하고 있어요\",\n       \"이 갈등이 세계적으로 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"유가가 오르면 주유비가 올라서 생활비가 부담될 수 있어요!\",\n       \"글로벌 경제에 영향을 미쳐서 세계적인 물가 상승이 일어날 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "미·이란 갈등",
+   "one_liner": "미국과 이란의 갈등이 계속되고 있어요",
+   "why_now": "이 갈등이 세계 경제에 영향을 줄 수 있어요",
+   "details": [
+    "미국과 이란의 갈등이 계속되고 있어요",
+    "이란이 강한 태도를 유지하고 있어요",
+    "이 갈등이 세계적으로 영향을 줄 수 있어요"
+   ],
+   "effects": [
+    "유가가 오르면 주유비가 올라서 생활비가 부담될 수 있어요!",
+    "글로벌 경제에 영향을 미쳐서 세계적인 물가 상승이 일어날 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "ced46b9ad81c5ed801eef643397b04981a010774"
+ },
  "review": null,
  "glossary": [],
  "related": [
