@@ -10,11 +10,21 @@
   "C",
   "F"
  ],
- "seen_sources": 20,
+ "seen_sources": 21,
  "importance": 110,
  "created_at": "2026-07-16T06:38:34.932120+00:00",
- "last_update": "2026-07-21T18:46:21.173745+00:00",
+ "last_update": "2026-07-21T22:16:42.870319+00:00",
  "members": [
+  {
+   "id": "196bbb7f7c65cde7f99ddccd175306ece2c033ff",
+   "source": "thisisoxfordshire.co.uk",
+   "tier": "wire",
+   "url": "https://www.thisisoxfordshire.co.uk/news/26299393.three-historic-oxford-pubs-featuring-national-uk-guide/",
+   "title": "The three historic Oxford pubs featuring in national united kingdom guide",
+   "published_at": "2026-07-21T20:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8333
+  },
   {
    "id": "7845585932c822c5833c924890a266747132c6d4",
    "source": "guelphmercury.com",
@@ -220,6 +230,13 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "The three historic Oxford pubs featuring in national united kingdom guide",
+   "source": "thisisoxfordshire.co.uk",
+   "url": "https://www.thisisoxfordshire.co.uk/news/26299393.three-historic-oxford-pubs-featuring-national-uk-guide/",
+   "at": "2026-07-21T20:45:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Trump 50 % Canada tariffs : Ford , Carney respond",
    "source": "guelphmercury.com",
    "url": "https://www.guelphmercury.com/news/trump-canada-tariff-cusma/article_1789edef-17ce-5c80-be7c-9b065fe62f7b.html",
@@ -360,8 +377,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-21T18:54:28.801017+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-21T22:16:55.099238+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -374,25 +391,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"주택 관련 정책 논쟁\",\n\"one_liner\": \"미국에서 주택 가격 안정화 정책과 관세 부과를 둘러싼 논쟁이 벌어지고 있어요.\",\n\"why_now\": \"주택 가격은 많은 사람들의 생활에 직접적인 영향을 미치기 때문에 관련 정책은 중요해요.\",\n\"impact_line\": \"주택 구매나 임대에 영향을 줄 수 있어요.\",\n\"details\": [\n\"주택 가격 안정화 정책에 대한 지지가 있었어요.\",\n\"한 정치인은 주택 가격 안정화라는 단어가 가짜라고 주장했어요.\",\n\"다른 정치인은 주택 가격 안정화 위기를 언급했어요.\",\n\"미국이 캐나다에 관세를 부과할 수 있다는 위협이 있었어요.\",\n\"캐나다 총리는 이 관세 위협을 비판했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"주택 관련 정책 변화는 주택 구매 비용에 영향을 줄 수 있어요!\",\n\"관세 부과는 물가 상승으로 이어져 생활비 부담을 늘릴 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"관세\",\n\"easy\": \"나라 간 물건을 사고팔 때 붙는 세금이에요.\",\n\"example\": \"외국에서 만든 옷을 사면 관세를 내야 해서 더 비싸게 살 수 있어요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Supervisors back…",
-   "one_liner": "Supervisors back Lurie plan to cut affordable…",
-   "why_now": null,
+   "title": "주택 관련 정책 논쟁",
+   "one_liner": "미국에서 주택 가격 안정화 정책과 관세 부과를 둘러싼 논쟁이 벌어지고 있어요.",
+   "why_now": "주택 가격은 많은 사람들의 생활에 직접적인 영향을 미치기 때문에 관련 정책은 중요해요.",
    "details": [
-    "Supervisors back Lurie plan to cut affordable housing fees | Politics",
-    "Trump Claims  Affordability  Is a Fake Word Invented by Democrats in Heated White House Address",
-    "Left - leaning group says state faces affordability crisis"
+    "주택 가격 안정화 정책에 대한 지지가 있었어요.",
+    "한 정치인은 주택 가격 안정화라는 단어가 가짜라고 주장했어요.",
+    "다른 정치인은 주택 가격 안정화 위기를 언급했어요.",
+    "미국이 캐나다에 관세를 부과할 수 있다는 위협이 있었어요.",
+    "캐나다 총리는 이 관세 위협을 비판했어요."
    ],
-   "effects": [],
+   "effects": [
+    "주택 관련 정책 변화는 주택 구매 비용에 영향을 줄 수 있어요!",
+    "관세 부과는 물가 상승으로 이어져 생활비 부담을 늘릴 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "ff66e97695e8f0dc496169c88cf5b2732e850e67"
@@ -401,7 +421,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-21T18:54:28.800937+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "c7f9a22157d5febb4",
@@ -428,8 +454,8 @@
    "shared": []
   },
   {
-   "id": "cf387c2643fe6d0b5",
-   "title": "My daughter moved to Melbourne . Will our economy ever be strong enough to bring her home ?",
+   "id": "c6f9e57edbc5d69b6",
+   "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
    "category": "GEO",
    "shared": []
   }

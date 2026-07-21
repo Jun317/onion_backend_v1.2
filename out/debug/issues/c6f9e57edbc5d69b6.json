@@ -10,11 +10,21 @@
   "CHINA",
   "IRAN"
  ],
- "seen_sources": 2,
- "importance": 70,
+ "seen_sources": 3,
+ "importance": 75,
  "created_at": "2026-07-21T18:46:21.176175+00:00",
- "last_update": "2026-07-21T20:40:22.797164+00:00",
+ "last_update": "2026-07-21T22:16:42.867283+00:00",
  "members": [
+  {
+   "id": "1877087c1c1151b39d7e2c00eddb730bdf658bed",
+   "source": "scmp.com",
+   "tier": "wire",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3361395/crawfish-soup-mars-fears-over-chinas-scientific-ambitions-raised-senate-hearing",
+   "title": "Crawfish soup on Mars ? Fears over China scientific ambitions raised in Senate hearing",
+   "published_at": "2026-07-21T20:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8586
+  },
   {
    "id": "49dff9588c4527ea0b3e7b3a3493d9a057faacac",
    "source": "wsbradio.com",
@@ -23,7 +33,7 @@
    "title": "Trump airstrike strategy challenged as Iran holds firm",
    "published_at": "2026-07-21T17:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8705
+   "sim_to_centroid": 0.8775
   },
   {
    "id": "babd06608a31678e261719363dfc38672769f74a",
@@ -33,7 +43,7 @@
    "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
    "published_at": "2026-07-21T17:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9985
+   "sim_to_centroid": 0.996
   },
   {
    "id": "ad1634e45c20b850808328a1278b91f921f7d4b1",
@@ -43,11 +53,18 @@
    "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
    "published_at": "2026-07-21T14:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9985
+   "sim_to_centroid": 0.996
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Crawfish soup on Mars ? Fears over China scientific ambitions raised in Senate hearing",
+   "source": "scmp.com",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3361395/crawfish-soup-mars-fears-over-chinas-scientific-ambitions-raised-senate-hearing",
+   "at": "2026-07-21T20:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Trump airstrike strategy challenged as Iran holds firm",
@@ -71,42 +88,45 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-21T20:40:23.884468+00:00",
+  "model": "template",
+  "created_at": "2026-07-21T22:25:31.526561+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "Crawfish soup on Mars ? Fears over China scientific ambitions raised in Senate hearing",
     "Trump airstrike strategy challenged as Iran holds firm",
     "Could The US - Iran Battle For Hormuz Be A Win For Russia And China"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미·이란 갈등\",\n   \"one_liner\": \"미국과 이란의 갈등이 계속되고 있어요\",\n   \"why_now\": \"이 갈등이 세계 경제에 영향을 줄 수 있어요\",\n   \"impact_line\": \"유가가 오를 수 있어요\",\n   \"details\": [\n       \"미국과 이란의 갈등이 계속되고 있어요\",\n       \"이란이 강한 태도를 유지하고 있어요\",\n       \"이 갈등이 세계적으로 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"유가가 오르면 주유비가 올라서 생활비가 부담될 수 있어요!\",\n       \"글로벌 경제에 영향을 미쳐서 세계적인 물가 상승이 일어날 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미·이란 갈등",
-   "one_liner": "미국과 이란의 갈등이 계속되고 있어요",
-   "why_now": "이 갈등이 세계 경제에 영향을 줄 수 있어요",
+   "title": "Crawfish soup on…",
+   "one_liner": "Crawfish soup on Mars ? Fears over China…",
+   "why_now": null,
    "details": [
-    "미국과 이란의 갈등이 계속되고 있어요",
-    "이란이 강한 태도를 유지하고 있어요",
-    "이 갈등이 세계적으로 영향을 줄 수 있어요"
+    "Crawfish soup on Mars ? Fears over China scientific ambitions raised in Senate hearing",
+    "Trump airstrike strategy challenged as Iran holds firm",
+    "Could The US - Iran Battle For Hormuz Be A Win For Russia And China"
    ],
-   "effects": [
-    "유가가 오르면 주유비가 올라서 생활비가 부담될 수 있어요!",
-    "글로벌 경제에 영향을 미쳐서 세계적인 물가 상승이 일어날 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "ced46b9ad81c5ed801eef643397b04981a010774"
+  "fact_hash": "792eb5b639a089f427702054db165aca613fe052"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-21T22:25:31.526447+00:00"
+ },
  "glossary": [],
  "related": [
   {

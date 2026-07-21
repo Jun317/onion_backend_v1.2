@@ -822,8 +822,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-21T18:46:25.573471+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-21T22:16:44.195691+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -836,32 +836,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"중국 AI 모델, 수요 폭증으로 신규 가입 중단\",\n  \"one_liner\": \"중국의 새로운 인공지능 모델이 수요를 감당하지 못해 신규 가입을 중단했어요.\",\n  \"why_now\": \"인공지능 기술에 대한 관심이 매우 높아 수요가 공급을 초과하는 상황이 발생했어요.\",\n  \"impact_line\": \"인공지능 서비스 이용이 어려워지거나 비용이 오를 수 있어요.\",\n  \"details\": [\n    \"중국의 한 인공지능 모델이 신규 가입을 받지 않고 있어요.\",\n    \"이는 해당 모델에 대한 수요가 공급 능력을 훨씬 넘어섰기 때문이에요.\",\n    \"이러한 상황은 관련 시장에 영향을 미치고 있어요.\",\n    \"중국은 인공지능 분야에서 주도권을 잡으려 하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"인공지능 서비스 이용이 더 어려워지거나 비용이 오를 수 있어요!\",\n    \"관련 기술 개발 경쟁이 더욱 치열해질 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"인공지능 모델\",\n      \"easy\": \"컴퓨터가 사람처럼 생각하고 배우도록 만든 프로그램이에요.\",\n      \"example\": \"챗GPT 같은 인공지능 모델은 글쓰기나 그림 그리기를 도와줘요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"중국 AI 모델 가입 중단\",\n   \"one_liner\": \"중국이 만든 새로운 인공지능 모델이 가입을 중단했어요\",\n   \"why_now\": \"중국의 새로운 인공지능 모델이 너무 많이 팔려서 더는 가입을 받을 수 없게 된 것 같아요\",\n   \"impact_line\": \"중국 인공지능 기술의 발전이 세계 시장에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"중국이 새로운 인공지능 모델을 출시했어요\",\n       \"새로운 인공지능 모델이 너무 많이 팔려서 가입을 중단했어요\",\n       \"중국의 새로운 인공지능 모델이 세계 시장에 영향을 미치고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"중국의 인공지능 기술이 더 발전하면 세계 경제에 긍정적인 영향을 줄 수 있어요!\",\n       \"중국의 인공지능 기술이 더 발전하면 다른 나라의 기술 산업에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 50자 초과(51)"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "title 22자 초과(26)"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "China new AI model…",
-   "one_liner": "China new AI model halts new subscriptions as…",
-   "why_now": null,
+   "title": "중국 AI 모델 가입 중단",
+   "one_liner": "중국이 만든 새로운 인공지능 모델이 가입을 중단했어요",
+   "why_now": "중국의 새로운 인공지능 모델이 너무 많이 팔려서 더는 가입을 받을 수 없게 된 것 같아요",
    "details": [
-    "China new AI model halts new subscriptions as demand swamps capacity",
-    "China new AI model halts new subscriptions as demand swamps capacity – Winnipeg Free Press",
-    "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets"
+    "중국이 새로운 인공지능 모델을 출시했어요",
+    "새로운 인공지능 모델이 너무 많이 팔려서 가입을 중단했어요",
+    "중국의 새로운 인공지능 모델이 세계 시장에 영향을 미치고 있어요"
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "중국의 인공지능 기술이 더 발전하면 세계 경제에 긍정적인 영향을 줄 수 있어요!",
+    "중국의 인공지능 기술이 더 발전하면 다른 나라의 기술 산업에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "4a418f8a5e72954b40a49bdc2416a270608e48fe"
  },
