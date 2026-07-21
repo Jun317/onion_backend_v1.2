@@ -9,11 +9,31 @@
  "entity_keys": [
   "FED"
  ],
- "seen_sources": 3,
- "importance": 105,
+ "seen_sources": 5,
+ "importance": 115,
  "created_at": "2026-07-20T13:23:53.497151+00:00",
- "last_update": "2026-07-21T03:53:30.598471+00:00",
+ "last_update": "2026-07-21T09:47:25.965402+00:00",
  "members": [
+  {
+   "id": "0ded13ecd0dc87ec8f375020834252c5955cfea5",
+   "source": "econotimes.com",
+   "tier": "wire",
+   "url": "http://www.econotimes.com/Gold-Climbs-Above-4000-as-Middle-East-Tensions-and-Fed-Outlook-Drive-Safe-Haven-Demand-1747256",
+   "title": "Gold Climbs Above $4 , 000 as Middle East Tensions and Fed Outlook Drive Safe - Haven Demand",
+   "published_at": "2026-07-21T06:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8968
+  },
+  {
+   "id": "9740f27ac4d85951d8df9f4f98b773183ec6e8b4",
+   "source": "leadership.ng",
+   "tier": "wire",
+   "url": "https://leadership.ng/federal-govt-revives-16-abandoned-e-library-projects-in-unity-colleges/",
+   "title": "Federal Govt Revives 16 Abandoned E - library Projects In Unity Colleges",
+   "published_at": "2026-07-21T06:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.86
+  },
   {
    "id": "1e2694cc791dcebd086fd872cb9d4c1ec330d819",
    "source": "agrinews-pubs.com",
@@ -22,7 +42,7 @@
    "title": "Passing the buck : Federal debt a burden on future generations",
    "published_at": "2026-07-21T00:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8777
+   "sim_to_centroid": 0.886
   },
   {
    "id": "5f6f5c90e8ed026b377d5daf6697255a226a03fe",
@@ -32,7 +52,7 @@
    "title": "The Federal Reserve July Inflation Forecast Is In , and It Contains a Surprising Red Flag",
    "published_at": "2026-07-20T11:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9599
+   "sim_to_centroid": 0.9552
   },
   {
    "id": "288fb55ee90af4e88ab8558271ffa8df6e8c6815",
@@ -42,7 +62,7 @@
    "title": "In 15 Words , Fed Governor Christopher Waller Just Issued a Warning to Wall Street",
    "published_at": "2026-07-20T11:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8917
+   "sim_to_centroid": 0.8985
   },
   {
    "id": "5e61d8823f216bd5ffae9de1814e75fe9e1fe18f",
@@ -52,11 +72,25 @@
    "title": "Pound to Dollar Forecast : Sterling Gains but BoE , Fed Divergence Looms",
    "published_at": "2026-07-20T07:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9545
+   "sim_to_centroid": 0.9489
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Gold Climbs Above $4 , 000 as Middle East Tensions and Fed Outlook Drive Safe - Haven Demand",
+   "source": "econotimes.com",
+   "url": "http://www.econotimes.com/Gold-Climbs-Above-4000-as-Middle-East-Tensions-and-Fed-Outlook-Drive-Safe-Haven-Demand-1747256",
+   "at": "2026-07-21T06:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Federal Govt Revives 16 Abandoned E - library Projects In Unity Colleges",
+   "source": "leadership.ng",
+   "url": "https://leadership.ng/federal-govt-revives-16-abandoned-e-library-projects-in-unity-colleges/",
+   "at": "2026-07-21T06:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Passing the buck : Federal debt a burden on future generations",
@@ -87,47 +121,68 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-21T04:03:33.627931+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-21T09:47:38.168353+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
    "headlines": [
-    "Passing the buck : Federal debt a burden on future generations",
     "The Federal Reserve July Inflation Forecast Is In , and It Contains a Surprising Red Flag",
+    "Pound to Dollar Forecast : Sterling Gains but BoE , Fed Divergence Looms",
     "In 15 Words , Fed Governor Christopher Waller Just Issued a Warning to Wall Street",
-    "Pound to Dollar Forecast : Sterling Gains but BoE , Fed Divergence Looms"
+    "Gold Climbs Above $4 , 000 as Middle East Tensions and Fed Outlook Drive Safe - Haven Demand",
+    "Passing the buck : Federal debt a burden on future generations"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"달러화 예측\",\n   \"one_liner\": \"미국 중앙은행의 인플레이션 예측이 나왔어요\",\n   \"why_now\": \"인플레이션이 높으면 물가가 오르는데, 예측이 중요해요\",\n   \"impact_line\": \"달러화 가치가 변하면 해외 여행이나 수입이 달라질 수 있어요\",\n   \"details\": [\n       \"미국 중앙은행의 최근 인플레이션 예측이 나왔어요\",\n       \"영국과 미국의 중앙은행 정책이 달라질 수 있어요\",\n       \"미국 중앙은행 관리가 월 스트리트에 경고를 냈어요\",\n       \"중동 긴장과 미국 중앙은행 전망으로 금값이 올라갔어요\",\n       \"미국 정부의 부채가 미래 세대에게 부담이 될 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"달러화 가치가 변하면 해외 여행이나 수입이 달라질 수 있어요!\",\n       \"인플레이션이 높으면 물가가 오르는데, 예측이 중요해져요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Passing the buck :…",
-   "one_liner": "Passing the buck : Federal debt a burden on…",
-   "why_now": null,
+   "title": "달러화 예측",
+   "one_liner": "미국 중앙은행의 인플레이션 예측이 나왔어요",
+   "why_now": "인플레이션이 높으면 물가가 오르는데, 예측이 중요해요",
    "details": [
-    "Passing the buck : Federal debt a burden on future generations",
-    "The Federal Reserve July Inflation Forecast Is In , and It Contains a Surprising Red Flag",
-    "In 15 Words , Fed Governor Christopher Waller Just Issued a Warning to Wall Street"
+    "미국 중앙은행의 최근 인플레이션 예측이 나왔어요",
+    "영국과 미국의 중앙은행 정책이 달라질 수 있어요",
+    "미국 중앙은행 관리가 월 스트리트에 경고를 냈어요",
+    "중동 긴장과 미국 중앙은행 전망으로 금값이 올라갔어요",
+    "미국 정부의 부채가 미래 세대에게 부담이 될 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "usdkrw"
+   "effects": [
+    "달러화 가치가 변하면 해외 여행이나 수입이 달라질 수 있어요!",
+    "인플레이션이 높으면 물가가 오르는데, 예측이 중요해져요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "10b21db6861dc59f3d1397533207c837589b63a2"
+  "fact_hash": "49b22e8cbb97b20e0da2b668f57eb50741c6c5df"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-21T04:03:33.627856+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "인플레이션",
+   "easy": "물가가 전반적으로 계속 오르는 현상이에요.",
+   "example": "돈의 힘이 조금씩 약해지는 셈이에요."
+  }
+ ],
  "related": [
   {
    "id": "cb3030e4a5acd0008",

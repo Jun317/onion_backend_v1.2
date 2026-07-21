@@ -87,8 +87,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-21T03:57:22.702856+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-21T09:48:53.184096+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -100,25 +100,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"유나이티드헬스, 2분기 이익 크게 늘어\",\n  \"one_liner\": \"유나이티드헬스 그룹의 2분기 이익이 예상보다 훨씬 많이 늘어났어요.\",\n  \"why_now\": \"기업의 이익 증가는 주가 상승으로 이어져 투자자들에게 긍정적인 영향을 줄 수 있어요.\",\n  \"impact_line\": \"주요 기업의 실적 개선은 증시 전반에 활력을 불어넣을 수 있어요.\",\n  \"details\": [\n    \"유나이티드헬스 그룹의 2분기 이익이 크게 늘었어요.\",\n    \"이는 시장 예상치를 뛰어넘는 결과예요.\",\n    \"의료 비용이 줄어든 것이 이익 증가에 영향을 미쳤어요.\",\n    \"회사는 올해 연간 이익 전망치를 상향 조정했어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"주요 기업의 실적 개선은 관련 산업 전반에 긍정적인 영향을 줄 수 있어요!\",\n    \"회사의 이익 증가는 주가 상승으로 이어질 가능성이 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"이익\",\n      \"easy\": \"회사가 돈을 벌어서 모든 비용을 빼고 남은 돈이에요.\",\n      \"example\": \"이번 분기 이익이 크게 늘어 주가가 올랐어요.\"\n    },\n    {\n      \"term\": \"2분기\",\n      \"easy\": \"1년의 두 번째 기간으로, 4월부터 6월까지를 말해요.\",\n      \"example\": \"많은 기업들이 2분기 실적을 발표하고 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Rep . Richard…",
-   "one_liner": "Rep . Richard McCormick Unloads UnitedHealth…",
-   "why_now": null,
+   "title": "유나이티드헬스, 2분기 이익 크게 늘어",
+   "one_liner": "유나이티드헬스 그룹의 2분기 이익이 예상보다 훨씬 많이 늘어났어요.",
+   "why_now": "기업의 이익 증가는 주가 상승으로 이어져 투자자들에게 긍정적인 영향을 줄 수 있어요.",
    "details": [
-    "Rep . Richard McCormick Unloads UnitedHealth Group Incorporated ( NYSE : UNH ) Shares",
-    "Sen . John Boozman Purchases UnitedHealth Group Incorporated ( NYSE : UNH ) Stock",
-    "UnitedHealth Group boosts earnings outlook after stronger - than - expected Q2 results"
+    "유나이티드헬스 그룹의 2분기 이익이 크게 늘었어요.",
+    "이는 시장 예상치를 뛰어넘는 결과예요.",
+    "의료 비용이 줄어든 것이 이익 증가에 영향을 미쳤어요.",
+    "회사는 올해 연간 이익 전망치를 상향 조정했어요."
    ],
-   "effects": [],
+   "effects": [
+    "주요 기업의 실적 개선은 관련 산업 전반에 긍정적인 영향을 줄 수 있어요!",
+    "회사의 이익 증가는 주가 상승으로 이어질 가능성이 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "2a5d81c85a3d244ebdecc2b21586174a023a8b2f"

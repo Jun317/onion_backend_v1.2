@@ -293,7 +293,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-21T03:54:24.938909+00:00",
+  "created_at": "2026-07-21T09:47:51.628641+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -306,12 +306,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"비자카드\",\n   \"one_liner\": \"비자카드가 올라가는 중이에요\",\n   \"why_now\": \"비자카드가 올라가는 이유를 알아보세요\",\n   \"impact_line\": \"신용카드 사용이 많아질 수 있어요\",\n   \"details\": [\n       \"비자카드가 2.6% 올라서 새로운 1년 최고치에 도달했어요\",\n       \"분석가의 업그레이드 덕분에 비자카드가 올라갔어요\",\n       \"노에시스 캐피탈 매니지먼트 코프가 비자카드 주식을 1,684개 샀어요\",\n       \"비자카드가 가장 유망한 핀테크 주식 중 하나로 꼽혀요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"비자카드 주가가 오르면 다른 신용카드 회사에도 영향을 줄 수 있어요!\",\n       \"비자카드가 올라가면 카드 사용료가 바뀔 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"NYSE\",\n           \"easy\": \"뉴욕 증권거래소예요\",\n           \"example\": \"많은 미국 기업의 주식이 NYSE에 등록되어 거래되고 있어요\"\n       },\n       {\n           \"term\": \"Analyst Upgrade\",\n           \"easy\": \"분석家的 평가를 올렸을 때예요\",\n           \"example\": \"분석家的 평가가 올라가면 주가가 오를 수 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [2.6, 1684.0]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [2.6, 1684.0]"
     ]
    }
   ],
@@ -330,11 +336,17 @@
   "fact_hash": "31b6cd511fd566043891077201eaa389074cb128"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-21T03:54:24.938788+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [2.6, 1684.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.6, 1684.0]\"]}]}",
+  "at": "2026-07-21T09:47:51.628528+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "category": "MARKET",
+   "shared": []
+  },
   {
    "id": "c3350f06afa9dea1f",
    "title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
@@ -348,20 +360,14 @@
    "shared": []
   },
   {
+   "id": "c84e845f8713cb99f",
+   "title": "Why PayPal Shares Are Skyrocketing Higher This Week",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
    "id": "c4e8e497777eba176",
    "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c273684a49f5f6fb2",
-   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "cf3992948064685e4",
-   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
    "category": "MARKET",
    "shared": []
   }

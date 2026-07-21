@@ -7,13 +7,24 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
-  "BAC"
+  "BAC",
+  "IBM"
  ],
- "seen_sources": 4,
- "importance": 95,
+ "seen_sources": 5,
+ "importance": 105,
  "created_at": "2026-07-16T16:47:58.907339+00:00",
- "last_update": "2026-07-19T19:38:06.604686+00:00",
+ "last_update": "2026-07-21T09:47:25.958612+00:00",
  "members": [
+  {
+   "id": "7e2ca0293deff0246465e8cfdcf8976f9efce6ec",
+   "source": "stockhouse.com",
+   "tier": "wire",
+   "url": "https://stockhouse.com/opinion/contributors/2026/07/21/weak-trading-week-strong-banks-and-an-interesting-oil-services-company-bank",
+   "title": "Weak Trading Week , Strong Banks , and an Interesting Oil Services Company – Bank of America , IBM , J . P . Morgan , Zefiro Methane | 2026 - 07 - 21 | Investing News",
+   "published_at": "2026-07-21T06:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8899
+  },
   {
    "id": "d194a7791c5472f3e7669427c52206b74e4ee00d",
    "source": "finance.yahoo.com",
@@ -22,7 +33,7 @@
    "title": "Transcript : Bank of America CEO Brian Moynihan on  Face the Nation with Margaret Brennan , July 19 , 2026",
    "published_at": "2026-07-19T17:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8703
+   "sim_to_centroid": 0.8787
   },
   {
    "id": "0060499fd79e7212c6bf368c8d3ec2b6cf1aa07a",
@@ -32,7 +43,7 @@
    "title": "Top CD rates from major banks July 17 , 2026 : Chase CDs , Bank of America CDs , Citibank CDs , and more",
    "published_at": "2026-07-17T12:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8758
+   "sim_to_centroid": 0.8857
   },
   {
    "id": "ad883d677fe6fc3320026b14e4e552c74058decd",
@@ -42,7 +53,7 @@
    "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "published_at": "2026-07-16T14:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.975
+   "sim_to_centroid": 0.9715
   },
   {
    "id": "8b1816ddde3c5bdd1f2517836c98b9f23ba95f71",
@@ -52,11 +63,18 @@
    "title": "Wealthfront Advisers LLC Sells 8 , 715 Shares of Bank of America Corporation $BAC",
    "published_at": "2026-07-16T14:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9723
+   "sim_to_centroid": 0.9686
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Weak Trading Week , Strong Banks , and an Interesting Oil Services Company – Bank of America , IBM , J . P . Morgan , Zefiro Methane | 2026 - 07 - 21 | Investing News",
+   "source": "stockhouse.com",
+   "url": "https://stockhouse.com/opinion/contributors/2026/07/21/weak-trading-week-strong-banks-and-an-interesting-oil-services-company-bank",
+   "at": "2026-07-21T06:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Transcript : Bank of America CEO Brian Moynihan on  Face the Nation with Margaret Brennan , July 19 , 2026",
@@ -87,12 +105,13 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-19T23:17:32.435060+00:00",
+  "model": "template",
+  "created_at": "2026-07-21T09:54:57.579183+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Weak Trading Week , Strong Banks , and an Interesting Oil Services Company – Bank of America , IBM , J . P . Morgan , Zefiro Methane | 2026 - 07 - 21 | Investing News",
     "Transcript : Bank of America CEO Brian Moynihan on  Face the Nation with Margaret Brennan , July 19 , 2026",
     "Top CD rates from major banks July 17 , 2026 : Chase CDs , Bank of America CDs , Citibank CDs , and more",
     "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
@@ -100,51 +119,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"은행 뉴스\",\n   \"one_liner\": \"미국 은행 관련 여러 소식이 나왔어요\",\n   \"why_now\": \"은행은 경제에 큰 영향을 미치기 때문에 중요해요\",\n   \"impact_line\": \"은행의 결정이 우리의 예금이나 대출에 영향을 줄 수 있어요\",\n   \"details\": [\n      \"미국 뱅크 오브 아메리카의 최고경영자가 인터뷰를 했어요\",\n      \"여러 은행의 주요 금리 정보가 공개되었어요\",\n      \"한 투자 그룹이 뱅크 오브 아메리카의 주식을 샀어요\",\n      \"또 다른 투자 그룹이 뱅크 오브 아메리카의 주식을 팔았어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"은행의 결정이 금리나 대출에 영향을 미쳐 소비자에게 영향을 줄 수 있어요!\",\n      \"은행의 안정성이 경제에 긍정적인 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "one_liner 50자 초과(53)",
-     "why_now 55자 초과(60)",
-     "effects[1] 느낌표 종결 아님",
-     "입력에 없는 숫자: [8715.0, 22459.0]"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
    }
   ],
   "output": {
-   "title": "은행 뉴스",
-   "one_liner": "미국 은행 관련 여러 소식이 나왔어요",
-   "why_now": "은행은 경제에 큰 영향을 미치기 때문에 중요해요",
+   "title": "Weak Trading Week ,…",
+   "one_liner": "Weak Trading Week , Strong Banks , and an…",
+   "why_now": null,
    "details": [
-    "미국 뱅크 오브 아메리카의 최고경영자가 인터뷰를 했어요",
-    "여러 은행의 주요 금리 정보가 공개되었어요",
-    "한 투자 그룹이 뱅크 오브 아메리카의 주식을 샀어요",
-    "또 다른 투자 그룹이 뱅크 오브 아메리카의 주식을 팔았어요"
+    "Weak Trading Week , Strong Banks , and an Interesting Oil Services Company – Bank of America , IBM , J . P . Morgan , Zefiro Methane | 2026 - 07 - 21 | Investing News",
+    "Transcript : Bank of America CEO Brian Moynihan on  Face the Nation with Margaret Brennan , July 19 , 2026",
+    "Top CD rates from major banks July 17 , 2026 : Chase CDs , Bank of America CDs , Citibank CDs , and more"
    ],
-   "effects": [
-    "은행의 결정이 금리나 대출에 영향을 미쳐 소비자에게 영향을 줄 수 있어요!",
-    "은행의 안정성이 경제에 긍정적인 영향을 줄 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "490597f0c6c1fc098ccf98c39e6c1f196de468cf"
+  "fact_hash": "25145652f13eecee7bd08f6ea8bb305b9729e812"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [8715.0, 22459.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-19T19:38:33.861652+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-21T09:54:57.579118+00:00"
  },
- "glossary": [
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "c3350f06afa9dea1f",
@@ -159,6 +161,12 @@
    "shared": []
   },
   {
+   "id": "c84e845f8713cb99f",
+   "title": "Why PayPal Shares Are Skyrocketing Higher This Week",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
    "id": "c4e8e497777eba176",
    "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "category": "MARKET",
@@ -168,13 +176,9 @@
    "id": "c273684a49f5f6fb2",
    "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
    "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "cf3992948064685e4",
-   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
-   "category": "MARKET",
-   "shared": []
+   "shared": [
+    "IBM"
+   ]
   }
  ]
 }

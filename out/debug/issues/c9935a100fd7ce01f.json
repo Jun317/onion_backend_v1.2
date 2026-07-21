@@ -103,7 +103,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-21T03:56:27.174503+00:00",
+  "created_at": "2026-07-21T09:48:35.005237+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -114,12 +114,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"다저스, 양키스 상대 더블헤더 승리\", \"one_liner\": \"미국 프로야구 다저스가 양키스와의 더블헤더 경기에서 2승 1패를 기록했어요.\", \"why_now\": \"다저스의 승리는 팀의 연승 행진에 힘을 보태고, 팬들에게 즐거움을 선사했어요.\", \"impact_line\": null, \"details\": [\"다저스가 양키스와의 더블헤더 경기에서 승리했어요.\", \"야마모토 투수가 선발로 나와 좋은 모습을 보여줬어요.\"], \"visual_type\": \"none\", \"effects\": [\"다저스의 승리로 팀 분위기가 더욱 좋아질 것으로 예상돼요!\"], \"glossary\": [{\"term\": \"더블헤더\", \"easy\": \"한날에 두 번의 경기를 하는 것을 말해요.\", \"example\": \"야구팀이 날씨 때문에 연기된 경기를 같은 날 두 번 치렀어요.\"}]}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -138,8 +145,8 @@
   "fact_hash": "834c2e9829d8e30f7fc26224465f69e90ac6b254"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-21T03:56:27.174439+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-07-21T09:48:35.005183+00:00"
  },
  "glossary": [],
  "related": [
@@ -162,14 +169,14 @@
    "shared": []
   },
   {
-   "id": "c7ca2d56637e0c2a5",
-   "title": "Energy markets face coming stress if no new US - Iran deal reached : analysts | Hellenic Shipping News Worldwide",
+   "id": "cd2c26bf163eba3ef",
+   "title": "Ireland narrowly misses record - matching heatwave",
    "category": "GEO",
    "shared": []
   },
   {
-   "id": "cd2c26bf163eba3ef",
-   "title": "Ireland narrowly misses record - matching heatwave",
+   "id": "cf387c2643fe6d0b5",
+   "title": "My daughter moved to Melbourne . Will our economy ever be strong enough to bring her home ?",
    "category": "GEO",
    "shared": []
   }

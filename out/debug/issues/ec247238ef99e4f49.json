@@ -95,8 +95,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-21T03:58:55.332303+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-21T09:50:20.408289+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [
@@ -119,23 +119,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국·이란 협상 시한 연장\",\n  \"one_liner\": \"미국과 이란이 협상 시한을 60일로 정하고 협상을 이어가기로 했어요.\",\n  \"why_now\": \"두 나라 사이의 긴장이 완화되면 국제 유가나 물가에 긍정적인 영향을 줄 수 있어요.\",\n  \"impact_line\": \"국제 유가 안정이 장바구니 물가 부담을 덜어줄 수 있어요.\",\n  \"details\": [\n    \"미국과 이란은 60일간의 협상 시한을 설정했어요.\",\n    \"협상 시한은 2026년 6월까지예요.\",\n    \"협상 재개는 11일 파키스탄에서 이뤄질 것으로 전망돼요.\",\n    \"호르무즈 해협과 레바논 문제는 양국이 함께 관리하기로 했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"협상이 성공적으로 마무리되면 국제 유가가 안정될 수 있어요!\",\n    \"이는 국내 물가 안정에도 긍정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"호르무즈\",\n      \"easy\": \"이란과 오만 사이에 있는 좁은 해협으로, 세계 석유 수송의 중요한 길목이에요.\",\n      \"example\": \"호르무즈 해협의 안전은 국제 유가에 큰 영향을 미쳐요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "미국·이란 최종 합의 협상 시한…",
-   "one_liner": "미국·이란 최종 합의 협상 시한 60.0일으로 발표됐어요",
-   "why_now": null,
+   "title": "미국·이란 협상 시한 연장",
+   "one_liner": "미국과 이란이 협상 시한을 60일로 정하고 협상을 이어가기로 했어요.",
+   "why_now": "두 나라 사이의 긴장이 완화되면 국제 유가나 물가에 긍정적인 영향을 줄 수 있어요.",
    "details": [
-    "미국·이란 최종 합의 협상 시한: 60.0일"
+    "미국과 이란은 60일간의 협상 시한을 설정했어요.",
+    "협상 시한은 2026년 6월까지예요.",
+    "협상 재개는 11일 파키스탄에서 이뤄질 것으로 전망돼요.",
+    "호르무즈 해협과 레바논 문제는 양국이 함께 관리하기로 했어요."
    ],
-   "effects": [],
+   "effects": [
+    "협상이 성공적으로 마무리되면 국제 유가가 안정될 수 있어요!",
+    "이는 국내 물가 안정에도 긍정적인 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "6da39dba35d89326e260032ab9904fb81681f895"
@@ -150,6 +154,14 @@
    "id": "cb3030e4a5acd0008",
    "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
    "category": "MACRO",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "c21fbad53c2afa8f1",
+   "title": "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets",
+   "category": "COMMODITY",
    "shared": [
     "IRAN"
    ]
@@ -171,12 +183,6 @@
   {
    "id": "c7f9a22157d5febb4",
    "title": "EU forces Google to share search data and open Android to rival AI companies",
-   "category": "GEO",
-   "shared": []
-  },
-  {
-   "id": "ca5c88b2eecf2f428",
-   "title": "Why is it so hard for the U . S . to win wars ?",
    "category": "GEO",
    "shared": []
   }

@@ -53,8 +53,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-21T03:58:18.275720+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-21T09:49:53.716700+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,25 +64,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"버라이즌, 매장 3천 개 축소\",\n    \"one_liner\": \"미국 통신사 버라이즌이 인공지능 도입과 매장 전환으로 3천 개의 일자리를 줄였어요.\",\n    \"why_now\": \"새로운 기술이 도입되면서 기존 일자리가 줄어드는 현상을 보여주는 사례예요.\",\n    \"impact_line\": \"기술 발전으로 일자리가 줄어들 수 있다는 우려가 커지고 있어요.\",\n    \"details\": [\n        \"버라이즌은 수백 개의 매장을 매각할 예정이에요.\",\n        \"인공지능이 고객 서비스를 대체하면서 3천 개의 매장 직원이 줄었어요.\",\n        \"매장 운영 방식이 프랜차이즈 형태로 바뀌고 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"인공지능 기술이 발전하면서 고객 서비스 분야의 일자리가 줄어들 수 있어요!\",\n        \"기업들이 비용 절감을 위해 자동화 기술 도입을 늘릴 것으로 예상돼요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"인공지능\",\n            \"easy\": \"사람처럼 생각하고 배우는 컴퓨터 프로그램이에요.\",\n            \"example\": \"인공지능 스피커에게 날씨를 물어볼 수 있어요.\"\n        },\n        {\n            \"term\": \"프랜차이즈\",\n            \"easy\": \"다른 사람이 만든 가게 이름을 빌려 쓰는 사업 방식이에요.\",\n            \"example\": \"유명 빵집이나 커피숍이 프랜차이즈로 많이 운영돼요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "one_liner 50자 초과(52)"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Verizon To Sell Off…",
-   "one_liner": "Verizon To Sell Off Hundreds Of Retail Outlets",
-   "why_now": null,
+   "title": "버라이즌, 매장 3천 개 축소",
+   "one_liner": "미국 통신사 버라이즌이 인공지능 도입과 매장 전환으로 3천 개의 일자리를 줄였어요.",
+   "why_now": "새로운 기술이 도입되면서 기존 일자리가 줄어드는 현상을 보여주는 사례예요.",
    "details": [
-    "Verizon To Sell Off Hundreds Of Retail Outlets",
-    "Verizon cuts 3 , 000 retail jobs as AI replaces customer service and stores move to franchises"
+    "버라이즌은 수백 개의 매장을 매각할 예정이에요.",
+    "인공지능이 고객 서비스를 대체하면서 3천 개의 매장 직원이 줄었어요.",
+    "매장 운영 방식이 프랜차이즈 형태로 바뀌고 있어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "인공지능 기술이 발전하면서 고객 서비스 분야의 일자리가 줄어들 수 있어요!",
+    "기업들이 비용 절감을 위해 자동화 기술 도입을 늘릴 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "3da24ac9a96195e32ec55e56ede39c78e9eb3805"
  },
@@ -107,6 +115,12 @@
   {
    "id": "c46f1163e8203d147",
    "title": "UnitedHealth Group boosts earnings outlook after stronger - than - expected Q2 results",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c2ddb2c1db0cafd3b",
+   "title": "Wells Fargo bounces off 52 - week lows . What it must do to get out of the penalty box",
    "category": "EARNINGS",
    "shared": []
   }

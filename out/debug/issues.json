@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-21T06:46:51.283471+00:00",
+ "generated_at": "2026-07-21T09:55:55.411166+00:00",
  "issues": [
   {
    "id": "ca047e091cbb5946c",
@@ -51,14 +51,14 @@
    "category": "RATE",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 28,
+   "seen_sources": 30,
    "importance": 155,
    "entity_keys": [
     "BOK",
     "SEC"
    ],
    "created_at": "2026-07-16T03:45:52.566590+00:00",
-   "last_update": "2026-07-21T03:53:30.601601+00:00",
+   "last_update": "2026-07-21T09:47:25.964894+00:00",
    "members": 50,
    "llm_title": "한국 기준금리 인상",
    "one_liner": "한국은행이 기준금리를 올렸어요",
@@ -110,6 +110,28 @@
    "llm_title": "IMF confirms UAE…",
    "one_liner": "IMF confirms UAE economy exceptional resilience…",
    "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c21fbad53c2afa8f1",
+   "title": "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets",
+   "category": "COMMODITY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 19,
+   "importance": 140,
+   "entity_keys": [
+    "BA",
+    "CHINA",
+    "IRAN",
+    "SEC"
+   ],
+   "created_at": "2026-07-20T13:23:53.496805+00:00",
+   "last_update": "2026-07-21T09:47:25.973792+00:00",
+   "members": 25,
+   "llm_title": "중국 AI 모델 가입 중단",
+   "one_liner": "중국이 새로 만든 인공지능 모델이 가입을 중단했어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -232,6 +254,25 @@
    "in_review": true
   },
   {
+   "id": "c7c96d30015139b49",
+   "title": "Pound to Dollar Forecast : Sterling Gains but BoE , Fed Divergence Looms",
+   "category": "FX",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 5,
+   "importance": 115,
+   "entity_keys": [
+    "FED"
+   ],
+   "created_at": "2026-07-20T13:23:53.497151+00:00",
+   "last_update": "2026-07-21T09:47:25.965402+00:00",
+   "members": 6,
+   "llm_title": "달러화 예측",
+   "one_liner": "미국 중앙은행의 인플레이션 예측이 나왔어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
    "id": "e77a7b1c911ca1d26",
    "title": "미 연준 기준금리 변동 (3.62%)",
    "category": "RATE",
@@ -349,38 +390,22 @@
    "in_review": true
   },
   {
-   "id": "cd6e2792cf5660da0",
-   "title": "Standard Chartered Warns Of Slower Nigerian Rate Cuts As Inflation Risks Linger",
-   "category": "RATE",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 43,
-   "importance": 110,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.930024+00:00",
-   "last_update": "2026-07-17T09:25:30.690574+00:00",
-   "members": 50,
-   "llm_title": "나이지리아 금리 인하 느려질 수 있어",
-   "one_liner": "나이지리아의 금리 인하가 느려질 수 있다고 경고했어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "c7c96d30015139b49",
-   "title": "Pound to Dollar Forecast : Sterling Gains but BoE , Fed Divergence Looms",
-   "category": "FX",
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 3,
+   "seen_sources": 5,
    "importance": 105,
    "entity_keys": [
-    "FED"
+    "BAC",
+    "IBM"
    ],
-   "created_at": "2026-07-20T13:23:53.497151+00:00",
-   "last_update": "2026-07-21T03:53:30.598471+00:00",
-   "members": 4,
-   "llm_title": "Passing the buck :…",
-   "one_liner": "Passing the buck : Federal debt a burden on…",
+   "created_at": "2026-07-16T16:47:58.907339+00:00",
+   "last_update": "2026-07-21T09:47:25.958612+00:00",
+   "members": 5,
+   "llm_title": "Weak Trading Week ,…",
+   "one_liner": "Weak Trading Week , Strong Banks , and an…",
    "llm_model": "template",
    "in_review": true
   },
@@ -469,6 +494,23 @@
    "members": 50,
    "llm_title": "사회보장수령자 소득 증가",
    "one_liner": "사회보장수령자에게 지급되는 금액이 많이 증가할 것으로 예상돼요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "cd6e2792cf5660da0",
+   "title": "Standard Chartered Warns Of Slower Nigerian Rate Cuts As Inflation Risks Linger",
+   "category": "RATE",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 43,
+   "importance": 105,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.930024+00:00",
+   "last_update": "2026-07-17T09:25:30.690574+00:00",
+   "members": 50,
+   "llm_title": "나이지리아 금리 인하 느려질 수 있어",
+   "one_liner": "나이지리아의 금리 인하가 느려질 수 있다고 경고했어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
@@ -584,6 +626,25 @@
    "in_review": false
   },
   {
+   "id": "c84e845f8713cb99f",
+   "title": "Why PayPal Shares Are Skyrocketing Higher This Week",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 4,
+   "importance": 100,
+   "entity_keys": [
+    "PYPL"
+   ],
+   "created_at": "2026-07-20T13:23:53.496539+00:00",
+   "last_update": "2026-07-21T09:47:25.960861+00:00",
+   "members": 4,
+   "llm_title": "M & A in Financials…",
+   "one_liner": "M & A in Financials : Is PayPal 100 % Upside…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c4e8e497777eba176",
    "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "category": "MARKET",
@@ -646,31 +707,6 @@
    "in_review": true
   },
   {
-   "id": "c7f9a22157d5febb4",
-   "title": "EU forces Google to share search data and open Android to rival AI companies",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 41,
-   "importance": 100,
-   "entity_keys": [
-    "AAPL",
-    "CHINA",
-    "GOOGL",
-    "INTC",
-    "JPM",
-    "META",
-    "NVDA"
-   ],
-   "created_at": "2026-07-16T16:47:58.907141+00:00",
-   "last_update": "2026-07-18T09:04:40.710142+00:00",
-   "members": 50,
-   "llm_title": "구글에 안드로이드 개방 요구",
-   "one_liner": "유럽 연합이 구글에 안드로이드를 다른 인공지능 회사에 열어야 한다고 했어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
    "id": "c48db748fde00c8f7",
    "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
    "category": "MACRO",
@@ -715,16 +751,16 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 6,
+   "seen_sources": 19,
    "importance": 95,
    "entity_keys": [],
    "created_at": "2026-07-21T03:53:30.603895+00:00",
-   "last_update": "2026-07-21T06:46:41.859314+00:00",
-   "members": 7,
-   "llm_title": "미국, 캐나다 상품에 관세 부과",
-   "one_liner": "미국이 캐나다에서 만든 일부 물건에 추가로 50%의 관세를 부과했어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": false
+   "last_update": "2026-07-21T09:47:25.966377+00:00",
+   "members": 24,
+   "llm_title": "Trump tariffs : U .…",
+   "one_liner": "Trump tariffs : U . S . to impose new 50 %…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c00bd94cc12b7385c",
@@ -732,16 +768,16 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 10,
+   "seen_sources": 18,
    "importance": 95,
    "entity_keys": [],
    "created_at": "2026-07-21T03:53:30.604197+00:00",
-   "last_update": "2026-07-21T06:46:41.859242+00:00",
-   "members": 16,
-   "llm_title": "미국, 캐나다 상품에 50% 관세 부과",
-   "one_liner": "미국이 캐나다 상품에 50%의 관세를 부과하기로 했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": false
+   "last_update": "2026-07-21T09:47:25.964206+00:00",
+   "members": 25,
+   "llm_title": "Trump imposes 50 %…",
+   "one_liner": "Trump imposes 50 % tariffs on Canadian goods",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c453b022245ab55dd",
@@ -757,44 +793,6 @@
    "members": 50,
    "llm_title": "영국 총리 교체",
    "one_liner": "앤디 버넘이 영국 총리가 됐어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "c84e845f8713cb99f",
-   "title": "Why PayPal Shares Are Skyrocketing Higher This Week",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 95,
-   "entity_keys": [
-    "PYPL"
-   ],
-   "created_at": "2026-07-20T13:23:53.496539+00:00",
-   "last_update": "2026-07-20T16:06:09.440614+00:00",
-   "members": 3,
-   "llm_title": "페이팔 주가 급등",
-   "one_liner": "페이팔 주가가 이번 주 크게 올랐어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c8767f6a04dae9d1b",
-   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 95,
-   "entity_keys": [
-    "BAC"
-   ],
-   "created_at": "2026-07-16T16:47:58.907339+00:00",
-   "last_update": "2026-07-19T19:38:06.604686+00:00",
-   "members": 4,
-   "llm_title": "은행 뉴스",
-   "one_liner": "미국 은행 관련 여러 소식이 나왔어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
@@ -816,6 +814,31 @@
    "llm_title": "Which Stock Is a…",
    "one_liner": "Which Stock Is a Better Buy ? Visa or Mastercard ?",
    "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c7f9a22157d5febb4",
+   "title": "EU forces Google to share search data and open Android to rival AI companies",
+   "category": "GEO",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 41,
+   "importance": 95,
+   "entity_keys": [
+    "AAPL",
+    "CHINA",
+    "GOOGL",
+    "INTC",
+    "JPM",
+    "META",
+    "NVDA"
+   ],
+   "created_at": "2026-07-16T16:47:58.907141+00:00",
+   "last_update": "2026-07-18T09:04:40.710142+00:00",
+   "members": 50,
+   "llm_title": "구글에 안드로이드 개방 요구",
+   "one_liner": "유럽 연합이 구글에 안드로이드를 다른 인공지능 회사에 열어야 한다고 했어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1006,23 +1029,6 @@
    "in_review": true
   },
   {
-   "id": "c14016c7f068ead39",
-   "title": "Trade deficit hits decade - high $39 . 4b",
-   "category": "MACRO",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 32,
-   "importance": 90,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.931728+00:00",
-   "last_update": "2026-07-17T09:25:30.690316+00:00",
-   "members": 48,
-   "llm_title": "Average 30 - year…",
-   "one_liner": "Average 30 - year mortgage rate climbs to 6 . 55…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "cc05cd2b908b36b44",
    "title": "정부, 무니코틴 표방 액상형 흡입제품 소비자 주의 당부",
    "category": "MACRO",
@@ -1045,38 +1051,20 @@
    "id": "c7ca2d56637e0c2a5",
    "title": "Energy markets face coming stress if no new US - Iran deal reached : analysts | Hellenic Shipping News Worldwide",
    "category": "GEO",
-   "status": "active",
+   "status": "archived",
    "origin": "cluster",
-   "seen_sources": 7,
+   "seen_sources": 9,
    "importance": 85,
    "entity_keys": [
+    "CHINA",
     "IRAN"
    ],
    "created_at": "2026-07-20T16:06:09.497122+00:00",
-   "last_update": "2026-07-21T03:53:30.599296+00:00",
-   "members": 7,
-   "llm_title": "US Strikes Multiple…",
-   "one_liner": "US Strikes Multiple Iranian Cities as Conflict…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c21fbad53c2afa8f1",
-   "title": "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets",
-   "category": "COMMODITY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 8,
-   "importance": 85,
-   "entity_keys": [
-    "CHINA"
-   ],
-   "created_at": "2026-07-20T13:23:53.496805+00:00",
-   "last_update": "2026-07-20T20:46:25.844368+00:00",
-   "members": 12,
-   "llm_title": "China new AI model…",
-   "one_liner": "China new AI model halts new subscriptions as…",
-   "llm_model": "template",
+   "last_update": "2026-07-21T09:47:25.973862+00:00",
+   "members": 0,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
    "in_review": true
   },
   {
@@ -1152,6 +1140,23 @@
    "llm_title": "미국, 브라질 수입품에 25% 관세 부과",
    "one_liner": "미국이 브라질의 불공정 무역 관행을 이유로 수입품에 25%의 관세를 부과했어요.",
    "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "c14016c7f068ead39",
+   "title": "Trade deficit hits decade - high $39 . 4b",
+   "category": "MACRO",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 32,
+   "importance": 85,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.931728+00:00",
+   "last_update": "2026-07-17T09:25:30.690316+00:00",
+   "members": 48,
+   "llm_title": "Average 30 - year…",
+   "one_liner": "Average 30 - year mortgage rate climbs to 6 . 55…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -1333,23 +1338,6 @@
    "in_review": true
   },
   {
-   "id": "cbfe3b568bcaaae8c",
-   "title": "Inside the Distributor Creating a New Route for Independent Artists",
-   "category": "POLICY",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 34,
-   "importance": 80,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.933404+00:00",
-   "last_update": "2026-07-17T09:25:30.690451+00:00",
-   "members": 49,
-   "llm_title": "미국 철강 생산 지원 계획",
-   "one_liner": "미국 정부가 국내 철강 생산을 늘리기 위해 새로운 공장 개발 계획을 발표했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "c9a390d2acdbe0f73",
    "title": "Fourth-design 100-hwan Note",
    "category": "POLICY",
@@ -1437,20 +1425,20 @@
    "in_review": true
   },
   {
-   "id": "c3f616975ed4f3095",
-   "title": "Letter : Time to see the light on DST",
-   "category": "GEO",
-   "status": "active",
+   "id": "cbfe3b568bcaaae8c",
+   "title": "Inside the Distributor Creating a New Route for Independent Artists",
+   "category": "POLICY",
+   "status": "stale",
    "origin": "cluster",
-   "seen_sources": 43,
+   "seen_sources": 34,
    "importance": 75,
    "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.933077+00:00",
-   "last_update": "2026-07-18T09:04:40.710496+00:00",
-   "members": 50,
-   "llm_title": "You just retired .…",
-   "one_liner": "You just retired . Now what ? | News , Sports ,…",
-   "llm_model": "template",
+   "created_at": "2026-07-16T06:38:34.933404+00:00",
+   "last_update": "2026-07-17T09:25:30.690451+00:00",
+   "members": 49,
+   "llm_title": "미국 철강 생산 지원 계획",
+   "one_liner": "미국 정부가 국내 철강 생산을 늘리기 위해 새로운 공장 개발 계획을 발표했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -1525,9 +1513,9 @@
    "created_at": "2026-07-16T16:47:58.907454+00:00",
    "last_update": "2026-07-18T23:15:53.312005+00:00",
    "members": 4,
-   "llm_title": "Rep . Richard…",
-   "one_liner": "Rep . Richard McCormick Unloads UnitedHealth…",
-   "llm_model": "template",
+   "llm_title": "유나이티드헬스, 2분기 이익 크게 늘어",
+   "one_liner": "유나이티드헬스 그룹의 2분기 이익이 예상보다 훨씬 많이 늘어났어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -1548,20 +1536,20 @@
    "in_review": true
   },
   {
-   "id": "c7ac713a971669d1d",
-   "title": "Sensex , Nifty Trade Higher on IT , Consumer Durables Gains",
-   "category": "MARKET",
-   "status": "active",
+   "id": "c3f616975ed4f3095",
+   "title": "Letter : Time to see the light on DST",
+   "category": "GEO",
+   "status": "stale",
    "origin": "cluster",
-   "seen_sources": 38,
+   "seen_sources": 43,
    "importance": 70,
    "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.930871+00:00",
-   "last_update": "2026-07-18T09:04:40.708375+00:00",
+   "created_at": "2026-07-16T06:38:34.933077+00:00",
+   "last_update": "2026-07-18T09:04:40.710496+00:00",
    "members": 50,
-   "llm_title": "미국 증시 하락, 소비 심리 개선",
-   "one_liner": "미국 증시가 하락 마감했고, 소비 심리는 개선되었어요.",
-   "llm_model": "gemini-2.5-flash-lite",
+   "llm_title": "You just retired .…",
+   "one_liner": "You just retired . Now what ? | News , Sports ,…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -1786,6 +1774,23 @@
    "in_review": false
   },
   {
+   "id": "c7ac713a971669d1d",
+   "title": "Sensex , Nifty Trade Higher on IT , Consumer Durables Gains",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 38,
+   "importance": 65,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.930871+00:00",
+   "last_update": "2026-07-18T09:04:40.708375+00:00",
+   "members": 50,
+   "llm_title": "미국 증시 하락, 소비 심리 개선",
+   "one_liner": "미국 증시가 하락 마감했고, 소비 심리는 개선되었어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
    "id": "c7892ac4912ef87e4",
    "title": "S & P / TSX composite up in Wednesday trading , U . S . stock markets also higher",
    "category": "MARKET",
@@ -1940,9 +1945,9 @@
    "created_at": "2026-07-17T19:38:57.554134+00:00",
    "last_update": "2026-07-17T19:38:57.554622+00:00",
    "members": 2,
-   "llm_title": "Verizon To Sell Off…",
-   "one_liner": "Verizon To Sell Off Hundreds Of Retail Outlets",
-   "llm_model": "template",
+   "llm_title": "버라이즌, 매장 3천 개 축소",
+   "one_liner": "미국 통신사 버라이즌이 인공지능 도입과 매장 전환으로 3천 개의 일자리를 줄였어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -1978,9 +1983,9 @@
    "created_at": "2026-02-28T00:00:00+00:00",
    "last_update": "2026-07-13T15:18:16.665248+00:00",
    "members": 5,
-   "llm_title": "미국·이란 최종 합의 협상 시한…",
-   "one_liner": "미국·이란 최종 합의 협상 시한 60.0일으로 발표됐어요",
-   "llm_model": "template",
+   "llm_title": "미국·이란 협상 시한 연장",
+   "one_liner": "미국과 이란이 협상 시한을 60일로 정하고 협상을 이어가기로 했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -2099,23 +2104,6 @@
    "in_review": true
   },
   {
-   "id": "cb73e3e7c2c3ac871",
-   "title": "Big Pharma Just Started Buying Up Psychedelic Companies",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 44,
-   "importance": 55,
-   "entity_keys": [],
-   "created_at": "2026-07-16T06:38:34.931194+00:00",
-   "last_update": "2026-07-18T09:04:40.710350+00:00",
-   "members": 50,
-   "llm_title": "BlackRock profit…",
-   "one_liner": "BlackRock profit beats estimates as assets hit…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "cfadf6de542094a29",
    "title": "Citigroup Inc . $C Stock Holdings Lifted by Spectrum Financial Alliance Ltd LLC",
    "category": "MARKET",
@@ -2167,6 +2155,23 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "cb73e3e7c2c3ac871",
+   "title": "Big Pharma Just Started Buying Up Psychedelic Companies",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 44,
+   "importance": 50,
+   "entity_keys": [],
+   "created_at": "2026-07-16T06:38:34.931194+00:00",
+   "last_update": "2026-07-18T09:04:40.710350+00:00",
+   "members": 50,
+   "llm_title": "BlackRock profit…",
+   "one_liner": "BlackRock profit beats estimates as assets hit…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c31b18e8aebe7808a",

@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-21T03:57:41.161903+00:00",
+  "created_at": "2026-07-21T09:49:08.180284+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,12 +881,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"주요 기업 주가 하락\",\n\"one_liner\": \"글로벌 크로싱 항공, GE 에어로스페이스, 델 테크놀로지스 등 주요 기업들의 주가가 하락했어요.\",\n\"why_now\": \"기업 주가 하락은 투자자들의 불안감을 키우고 시장 전체의 분위기를 위축시킬 수 있어요.\",\n\"impact_line\": \"보유하고 있는 기업의 주가가 떨어져 투자 손실이 발생할 수 있어요.\",\n\"details\": [\n\"글로벌 크로싱 항공 그룹의 주가가 4.9% 하락했어요.\",\n\"GE 에어로스페이스의 주가는 3.9% 떨어졌어요.\",\n\"델 테크놀로지스의 주가가 5.2% 하락했어요.\",\n\"IREN의 주가는 9% 하락하며 좋지 않은 흐름을 보였어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"주가 하락이 지속되면 해당 기업들의 투자 매력이 떨어질 수 있어요!\",\n\"투자자들은 하락세를 보인 기업들의 향후 전망을 주시할 것으로 예상돼요!\"\n],\n\"glossary\": [\n{\n\"term\": \"주가\",\n\"easy\": \"회사가 발행한 주식의 가격이에요.\",\n\"example\": \"주가가 오르면 회사의 가치가 높아졌다고 볼 수 있어요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "one_liner 50자 초과(57)",
+     "입력에 없는 숫자: [3.9, 4.9, 5.2]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 50자 초과(53)",
+     "입력에 없는 숫자: [3.9, 4.9, 5.2]"
     ]
    }
   ],
@@ -905,11 +913,17 @@
   "fact_hash": "4b5a1b15a393cf628518a4bc4a9106fdc82fa6ef"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-21T03:57:41.161826+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(57)\", \"입력에 없는 숫자: [3.9, 4.9, 5.2]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(53)\", \"입력에 없는 숫자: [3.9, 4.9, 5.2]\"]}]}",
+  "at": "2026-07-21T09:49:08.180203+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "category": "MARKET",
+   "shared": []
+  },
   {
    "id": "c3350f06afa9dea1f",
    "title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
@@ -923,20 +937,14 @@
    "shared": []
   },
   {
+   "id": "c84e845f8713cb99f",
+   "title": "Why PayPal Shares Are Skyrocketing Higher This Week",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
    "id": "c4e8e497777eba176",
    "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c273684a49f5f6fb2",
-   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "cf3992948064685e4",
-   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
    "category": "MARKET",
    "shared": []
   }

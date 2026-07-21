@@ -1,9 +1,9 @@
 {
  "id": "ec247238ef99e4f49",
- "title": "미국·이란 최종 합의 협상 시한…",
- "one_liner": "미국·이란 최종 합의 협상 시한 60.0일으로 발표됐어요",
- "why_now": null,
- "impact_line": null,
+ "title": "미국·이란 협상 시한 연장",
+ "one_liner": "미국과 이란이 협상 시한을 60일로 정하고 협상을 이어가기로 했어요.",
+ "why_now": "두 나라 사이의 긴장이 완화되면 국제 유가나 물가에 긍정적인 영향을 줄 수 있어요.",
+ "impact_line": "국제 유가 안정이 장바구니 물가 부담을 덜어줄 수 있어요.",
  "raw_title": "미국·이스라엘, 이란 공습으로 전쟁 시작",
  "category": "GEO",
  "status": "stale",
@@ -24,10 +24,16 @@
  "spark": null,
  "icon": "⚔️",
  "details": [
-  "미국·이란 최종 합의 협상 시한: 60.0일"
+  "미국과 이란은 60일간의 협상 시한을 설정했어요.",
+  "협상 시한은 2026년 6월까지예요.",
+  "협상 재개는 11일 파키스탄에서 이뤄질 것으로 전망돼요.",
+  "호르무즈 해협과 레바논 문제는 양국이 함께 관리하기로 했어요."
  ],
- "effects": [],
- "model": "template",
+ "effects": [
+  "협상이 성공적으로 마무리되면 국제 유가가 안정될 수 있어요!",
+  "이는 국내 물가 안정에도 긍정적인 영향을 줄 수 있어요!"
+ ],
+ "model": "gemini-2.5-flash-lite",
  "visual": null,
  "anchors": [
   {
@@ -93,12 +99,26 @@
    "at": "2026-02-28T00:00:00+00:00"
   }
  ],
- "glossary": [],
+ "glossary": [
+  {
+   "term": "호르무즈",
+   "easy": "이란과 오만 사이에 있는 좁은 해협으로, 세계 석유 수송의 중요한 길목이에요.",
+   "example": "호르무즈 해협의 안전은 국제 유가에 큰 영향을 미쳐요."
+  }
+ ],
  "related": [
   {
    "id": "cb3030e4a5acd0008",
    "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
    "category": "MACRO",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "c21fbad53c2afa8f1",
+   "title": "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets",
+   "category": "COMMODITY",
    "shared": [
     "IRAN"
    ]
@@ -120,12 +140,6 @@
   {
    "id": "c7f9a22157d5febb4",
    "title": "EU forces Google to share search data and open Android to rival AI companies",
-   "category": "GEO",
-   "shared": []
-  },
-  {
-   "id": "ca5c88b2eecf2f428",
-   "title": "Why is it so hard for the U . S . to win wars ?",
    "category": "GEO",
    "shared": []
   }

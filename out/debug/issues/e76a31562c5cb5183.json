@@ -38,7 +38,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-21T03:57:04.249461+00:00",
+  "created_at": "2026-07-21T09:48:49.144765+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [
@@ -57,12 +57,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"D램 가격 급등\",\n  \"one_liner\": \"반도체 D램 가격이 1분기에 90% 올랐어요.\",\n  \"why_now\": \"D램은 컴퓨터, 스마트폰 등에 쓰이는 핵심 부품이라 가격이 오르면 관련 제품 가격도 오를 수 있어요.\",\n  \"impact_line\": \"새 스마트폰이나 컴퓨터 가격이 오를 수 있어요.\",\n  \"details\": [\n    \"반도체 D램 가격이 1분기에 90% 급등했어요.\",\n    \"이는 업계 집계에 따른 수치예요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"D램을 만드는 회사의 매출과 이익이 크게 늘어날 것으로 예상돼요!\",\n    \"D램을 사용하는 스마트폰, 컴퓨터 등의 가격이 오를 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"D램\",\n      \"easy\": \"컴퓨터나 스마트폰의 정보를 잠시 저장하는 반도체예요.\",\n      \"example\": \"D램 가격이 오르면 새 컴퓨터를 사기 부담스러워져요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "why_now 55자 초과(56)",
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(56)",
+     "details 3문장 미만"
     ]
    }
   ],
@@ -79,11 +87,17 @@
   "fact_hash": "8bc748bb7671382af1aba23d625a5e5f4f7405c3"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-21T03:57:04.249343+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(56)\", \"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(56)\", \"details 3문장 미만\"]}]}",
+  "at": "2026-07-21T09:48:49.144669+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "category": "MARKET",
+   "shared": []
+  },
   {
    "id": "c3350f06afa9dea1f",
    "title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
@@ -97,20 +111,14 @@
    "shared": []
   },
   {
+   "id": "c84e845f8713cb99f",
+   "title": "Why PayPal Shares Are Skyrocketing Higher This Week",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
    "id": "c4e8e497777eba176",
    "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c273684a49f5f6fb2",
-   "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "cf3992948064685e4",
-   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
    "category": "MARKET",
    "shared": []
   }
