@@ -138,8 +138,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-20T22:28:12.062029+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-21T03:53:51.369428+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -150,31 +150,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"메타의 새로운 전략\",\n   \"one_liner\": \"메타가 인공지능 컴퓨팅力を 다른 회사에 빌려주려고 해요.\",\n   \"why_now\": \"메타는 인공지능 기술을 발전시키기 위해 새로운 전략을 시도하고 있어요.\",\n   \"impact_line\": \"메타의 새로운 전략이 인공지능 기술의 발전에 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"메타가 174억 달러의 투자를 포기하고 인공지능 기술에 집중할 수 있어요.\",\n       \"메타가 앤트로픽에게 인공지능 컴퓨팅력을 임대하기로 협상을 하고 있어요.\",\n       \"메타의 새로운 전략이 회사에 미치는 영향은 아직 명확하지 않아요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"메타의 새로운 전략이 인공지능 기술의 발전에 긍정적인 영향을 줄 수 있어요!\",\n       \"메타의 결정이 다른 기술 회사에 영향을 미칠 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"인공지능\",\n           \"easy\": \"기계가 인간처럼 생각하고 행동하게 만드는 기술이에요.\",\n           \"example\": \"인공지능을 사용하면 기계가 사진을 인식하고 분류할 수 있어요.\"\n       }\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"메타의 AI 사업 전략\",\n   \"one_liner\": \"메타가 AI 컴퓨팅 사업을 확대하고 있어요\",\n   \"why_now\": \"메타가 AI 기술을 강화하려는 계획이 있어요\",\n   \"impact_line\": \"메타의 서비스가 더智能해질 수 있어요\",\n   \"details\": [\n      \"메타가 AI 컴퓨팅 사업을 확대하고 있어요\",\n      \"메타가 174억 달러의 투자를 재검토하고 있어요\",\n      \"메타가 안트로픽과 AI 컴퓨팅 파워 임대에 대해 논의 중이에요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"메타의 서비스가 더智能해져 사용자 경험을 개선할 수 있어요!\",\n      \"메타의 새로운 사업 전략이 성공할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [1740.0]"
-    ]
-   },
-   {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 에 한자/가나 포함"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Zuckerberg Is…",
-   "one_liner": "Zuckerberg Is Quietly Turning Meta Into A…",
-   "why_now": null,
+   "title": "메타의 AI 사업 전략",
+   "one_liner": "메타가 AI 컴퓨팅 사업을 확대하고 있어요",
+   "why_now": "메타가 AI 기술을 강화하려는 계획이 있어요",
    "details": [
-    "Zuckerberg Is Quietly Turning Meta Into A Compute Provider Ahead Of Q2 Earnings ( META )",
-    "Meta Platforms Looks Set to Abandon a $174 Billion Investment to Fuel Its AI Ambitions",
-    "Meta in talks to lease AI computing power to Anthropic"
+    "메타가 AI 컴퓨팅 사업을 확대하고 있어요",
+    "메타가 174억 달러의 투자를 재검토하고 있어요",
+    "메타가 안트로픽과 AI 컴퓨팅 파워 임대에 대해 논의 중이에요"
    ],
-   "effects": [],
+   "effects": [
+    "메타의 서비스가 더智能해져 사용자 경험을 개선할 수 있어요!",
+    "메타의 새로운 사업 전략이 성공할 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "8c47cf4091d63d1d878723e4f2913be635ad45b1"

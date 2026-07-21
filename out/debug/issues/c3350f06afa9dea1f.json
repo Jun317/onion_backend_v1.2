@@ -10,11 +10,31 @@
   "NVDA",
   "ORCL"
  ],
- "seen_sources": 6,
+ "seen_sources": 8,
  "importance": 105,
  "created_at": "2026-07-18T12:10:48.729267+00:00",
- "last_update": "2026-07-21T00:17:04.776190+00:00",
+ "last_update": "2026-07-21T03:53:30.591323+00:00",
  "members": [
+  {
+   "id": "fe8fbefd43a245926bfb9ee79767f02c1197ff1b",
+   "source": "tech.yahoo.com",
+   "tier": "wire",
+   "url": "https://tech.yahoo.com/ai/gemini/articles/nvidia-unveils-dlss-5-cosmos-000209451.html",
+   "title": "NVIDIA Unveils DLSS 5 and Cosmos AI Push at SIGGRAPH Keynote",
+   "published_at": "2026-07-21T00:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8697
+  },
+  {
+   "id": "d1b81d8fa275328ea079be6d3efc39af2b3418a8",
+   "source": "bgr.com",
+   "tier": "wire",
+   "url": "https://www.bgr.com/2216198/nvidia-5-million-investment-sega/",
+   "title": "Nvidia Might Not Have Existed If Not For This $5 Million Investment From Sega",
+   "published_at": "2026-07-21T00:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8892
+  },
   {
    "id": "ee9b2ccdecb228873b02f47f02df12600647a0da",
    "source": "seekingalpha.com",
@@ -23,7 +43,7 @@
    "title": "Tech credit risk rises as Oracle CDS hits cycle high , Nvidia spreads widen ( ORCL : NYSE )",
    "published_at": "2026-07-20T21:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9182
+   "sim_to_centroid": 0.92
   },
   {
    "id": "9737ea59ef792676aedeefc2b9b681271f3976ec",
@@ -33,7 +53,7 @@
    "title": "Downfall of a Wall Street darling : Why Oracle shares crashed 65 % from peak",
    "published_at": "2026-07-20T13:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9405
+   "sim_to_centroid": 0.9387
   },
   {
    "id": "b580302cf777c0f6005bbd41334d9d9a654b7645",
@@ -43,7 +63,7 @@
    "title": "NVIDIA AI GPUs Face Overwhelming Data Growth Bottleneck , But Samsung V10 NAND Production For Next - Generation CMX Storage To Offer Relief , At The Industry Expense",
    "published_at": "2026-07-20T13:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8752
+   "sim_to_centroid": 0.8911
   },
   {
    "id": "7b658a11b82c4f946a4a0595b4189ddc6d363933",
@@ -53,7 +73,7 @@
    "title": "Oracle Crashed 65 % From Its Peak . I Just Bought It Anyway . Here Why .",
    "published_at": "2026-07-20T08:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9289
+   "sim_to_centroid": 0.9281
   },
   {
    "id": "db04a996301ee24a4784f4da4d61b8212df003ec",
@@ -63,7 +83,7 @@
    "title": "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?",
    "published_at": "2026-07-19T17:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9289
+   "sim_to_centroid": 0.9314
   },
   {
    "id": "027c4fb10bf06c39c76693236a8d9196d9bb7470",
@@ -73,7 +93,7 @@
    "title": "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
    "published_at": "2026-07-18T10:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9474
+   "sim_to_centroid": 0.9362
   },
   {
    "id": "1f64dde92a5260e2a015a36958212c4908175e76",
@@ -83,11 +103,25 @@
    "title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
    "published_at": "2026-07-17T12:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9588
+   "sim_to_centroid": 0.9519
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "NVIDIA Unveils DLSS 5 and Cosmos AI Push at SIGGRAPH Keynote",
+   "source": "tech.yahoo.com",
+   "url": "https://tech.yahoo.com/ai/gemini/articles/nvidia-unveils-dlss-5-cosmos-000209451.html",
+   "at": "2026-07-21T00:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Nvidia Might Not Have Existed If Not For This $5 Million Investment From Sega",
+   "source": "bgr.com",
+   "url": "https://www.bgr.com/2216198/nvidia-5-million-investment-sega/",
+   "at": "2026-07-21T00:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Tech credit risk rises as Oracle CDS hits cycle high , Nvidia spreads widen ( ORCL : NYSE )",
@@ -139,42 +173,43 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-20T22:29:59.818756+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-21T03:54:02.852604+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
-    "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
     "Downfall of a Wall Street darling : Why Oracle shares crashed 65 % from peak",
-    "Oracle Crashed 65 % From Its Peak . I Just Bought It Anyway . Here Why .",
-    "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?"
+    "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
+    "Oracle Just Hit a Fresh 52 - Week Low and Had Its Credit Cut Toward Junk . Has the AI - Capex Panic Overshot ?",
+    "Oracle Crashed 65 % From Its Peak . I Just Bought It Anyway . Here Why ."
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"오라클 주가 하락\",\n   \"one_liner\": \"오라클 주가가 떨어졌어요\",\n   \"why_now\": \"주가가 떨어지면 투자자들이 손해를 볼 수 있어요\",\n   \"impact_line\": \"오라클 주식을 가지고 있는 사람들의 자산이 줄어들 수 있어요\",\n   \"details\": [\n       \"오라클 주가가 떨어진 이유를 전문가들이 분석하고 있어요\",\n       \"오라클 주가는 최고치에서 65%까지 떨어졌어요\",\n       \"투자 전문가 짐 크레이머가 오라클 주식을 팔아야 한다고 말했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"오라클 주가가 떨어지면 관련 산업의 투자에도 영향을 줄 수 있어요!\",\n       \"주가 하락으로 인해 투자자들이 다른 산업으로 이동할 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"NYSE\",\n           \"easy\": \"미국의 주식시장이에요\",\n           \"example\": \"많은 미국 기업들의 주식이 NYSE에 등록되어 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Why Is Oracle Stock…",
-   "one_liner": "Why Is Oracle Stock Falling Friday ? - Oracle (…",
-   "why_now": null,
+   "title": "오라클 주가 하락",
+   "one_liner": "오라클 주가가 떨어졌어요",
+   "why_now": "주가가 떨어지면 투자자들이 손해를 볼 수 있어요",
    "details": [
-    "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
-    "Jim Cramer Urges Investors To Sell Oracle ( NYSE : ORCL ) And Shun Liquor Stocks , Favoring Banks , Pharma , And Semiconductors",
-    "Downfall of a Wall Street darling : Why Oracle shares crashed 65 % from peak"
+    "오라클 주가가 떨어진 이유를 전문가들이 분석하고 있어요",
+    "오라클 주가는 최고치에서 65%까지 떨어졌어요",
+    "투자 전문가 짐 크레이머가 오라클 주식을 팔아야 한다고 말했어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "오라클 주가가 떨어지면 관련 산업의 투자에도 영향을 줄 수 있어요!",
+    "주가 하락으로 인해 투자자들이 다른 산업으로 이동할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "f0552eac7bd5eb08cf1074ce5884cfb7d900df8d"
+  "fact_hash": "d45610ce4112b6317ab83505a71a8f1f117eba41"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

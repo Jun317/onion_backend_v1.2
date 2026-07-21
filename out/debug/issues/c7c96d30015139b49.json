@@ -9,11 +9,21 @@
  "entity_keys": [
   "FED"
  ],
- "seen_sources": 2,
- "importance": 100,
+ "seen_sources": 3,
+ "importance": 105,
  "created_at": "2026-07-20T13:23:53.497151+00:00",
- "last_update": "2026-07-20T16:06:09.462478+00:00",
+ "last_update": "2026-07-21T03:53:30.598471+00:00",
  "members": [
+  {
+   "id": "1e2694cc791dcebd086fd872cb9d4c1ec330d819",
+   "source": "agrinews-pubs.com",
+   "tier": "wire",
+   "url": "https://www.agrinews-pubs.com/opinion/columnists/2026/07/20/passing-the-buck-federal-debt-a-burden-on-future-generations/",
+   "title": "Passing the buck : Federal debt a burden on future generations",
+   "published_at": "2026-07-21T00:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8777
+  },
   {
    "id": "5f6f5c90e8ed026b377d5daf6697255a226a03fe",
    "source": "fool.com",
@@ -22,7 +32,7 @@
    "title": "The Federal Reserve July Inflation Forecast Is In , and It Contains a Surprising Red Flag",
    "published_at": "2026-07-20T11:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9609
+   "sim_to_centroid": 0.9599
   },
   {
    "id": "288fb55ee90af4e88ab8558271ffa8df6e8c6815",
@@ -32,7 +42,7 @@
    "title": "In 15 Words , Fed Governor Christopher Waller Just Issued a Warning to Wall Street",
    "published_at": "2026-07-20T11:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8877
+   "sim_to_centroid": 0.8917
   },
   {
    "id": "5e61d8823f216bd5ffae9de1814e75fe9e1fe18f",
@@ -42,11 +52,18 @@
    "title": "Pound to Dollar Forecast : Sterling Gains but BoE , Fed Divergence Looms",
    "published_at": "2026-07-20T07:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9574
+   "sim_to_centroid": 0.9545
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Passing the buck : Federal debt a burden on future generations",
+   "source": "agrinews-pubs.com",
+   "url": "https://www.agrinews-pubs.com/opinion/columnists/2026/07/20/passing-the-buck-federal-debt-a-burden-on-future-generations/",
+   "at": "2026-07-21T00:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "The Federal Reserve July Inflation Forecast Is In , and It Contains a Surprising Red Flag",
@@ -70,68 +87,47 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-20T18:27:39.790603+00:00",
+  "model": "template",
+  "created_at": "2026-07-21T04:03:33.627931+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
    "headlines": [
+    "Passing the buck : Federal debt a burden on future generations",
     "The Federal Reserve July Inflation Forecast Is In , and It Contains a Surprising Red Flag",
     "In 15 Words , Fed Governor Christopher Waller Just Issued a Warning to Wall Street",
     "Pound to Dollar Forecast : Sterling Gains but BoE , Fed Divergence Looms"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"달러-파운드 예측\",\n   \"one_liner\": \"미국과 영국의 중앙은행이 금리에서 달라질 수 있어요.\",\n   \"why_now\": \"금리 차이가 오르면 환율에 영향을 줄 수 있어요.\",\n   \"impact_line\": \"해외여행이나 수입품 구매가 비쌀 수 있어요\",\n   \"details\": [\n       \"미국 중앙은행의 인플레이션 예측이 나왔어요.\",\n       \"미국과 영국의 중앙은행이 금리에서 달라질 수 있어요.\",\n       \"파운드와 달러의 환율에 영향을 줄 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국과 영국의 금리 차이가 커질 수 있어요!\",\n       \"환율이 변동하면 수출과 수입에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "달러-파운드 예측",
-   "one_liner": "미국과 영국의 중앙은행이 금리에서 달라질 수 있어요.",
-   "why_now": "금리 차이가 오르면 환율에 영향을 줄 수 있어요.",
+   "title": "Passing the buck :…",
+   "one_liner": "Passing the buck : Federal debt a burden on…",
+   "why_now": null,
    "details": [
-    "미국 중앙은행의 인플레이션 예측이 나왔어요.",
-    "미국과 영국의 중앙은행이 금리에서 달라질 수 있어요.",
-    "파운드와 달러의 환율에 영향을 줄 수 있어요."
+    "Passing the buck : Federal debt a burden on future generations",
+    "The Federal Reserve July Inflation Forecast Is In , and It Contains a Surprising Red Flag",
+    "In 15 Words , Fed Governor Christopher Waller Just Issued a Warning to Wall Street"
    ],
-   "effects": [
-    "미국과 영국의 금리 차이가 커질 수 있어요!",
-    "환율이 변동하면 수출과 수입에 영향을 줄 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "usdkrw"
   },
-  "fact_hash": "10fc270cb3e4a6f532044f5342fe533c9656dcf1"
+  "fact_hash": "10b21db6861dc59f3d1397533207c837589b63a2"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-07-20T13:24:02.763495+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-21T04:03:33.627856+00:00"
  },
- "glossary": [
-  {
-   "term": "중앙은행",
-   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
-   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
-  },
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  },
-  {
-   "term": "환율",
-   "easy": "우리 돈과 외국 돈을 바꾸는 비율이에요.",
-   "example": "오르면 외국 돈이 그만큼 비싸진 거예요."
-  },
-  {
-   "term": "인플레이션",
-   "easy": "물가가 전반적으로 계속 오르는 현상이에요.",
-   "example": "돈의 힘이 조금씩 약해지는 셈이에요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "cb3030e4a5acd0008",
