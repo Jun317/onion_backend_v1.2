@@ -834,7 +834,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-22T14:32:31.668692+00:00",
+  "created_at": "2026-07-22T18:41:39.683349+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -847,20 +847,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 주택담보대출 금리 상승\",\n   \"one_liner\": \"미국에서 주택을 사기 위한 대출 금리가 거의 1년 만에最高로 올랐어요\",\n   \"why_now\": \"주택담보대출 금리가 오르면 집을 사기 더 어려워져요\",\n   \"impact_line\": \"미국에서 집을 사거나 집을 산 사람들이 더 많은 이자를 내야 할 수 있어요\",\n   \"details\": [\n       \"미국 주택담보대출 금리가 거의 1년 만에最高로 6.55%가 됐어요\",\n       \"미국의 무역 적자가 10년 만에最高로 394억 달러가 됐어요\",\n       \"미국 달러 대비 인도 루피화가 4 파이사 상승했어요\",\n       \"미국에서 주택담보대출 금리가 10개월 만에最高로 올랐어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주택시장이 더 어려워질 수 있어요!\",\n       \"미국 경제에 부담이 될 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"주택담보대출\",\n           \"easy\": \"집을 사거나 집을 담보로 돈을 빌리는 대출이에요\",\n           \"example\": \"은행에서 주택담보대출을 받아 집을 살 수 있어요\"\n       }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "one_liner 에 한자/가나 포함",
-     "입력에 없는 숫자: [0.04, 6.55, 394.0]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 에 한자/가나 포함",
-     "입력에 없는 숫자: [6.55, 394.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -879,8 +871,8 @@
   "fact_hash": "04ef92b551bfb11a22b8c94f4c1d2b8150fd141e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"입력에 없는 숫자: [0.04, 6.55, 394.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"입력에 없는 숫자: [6.55, 394.0]\"]}]}",
-  "at": "2026-07-22T14:32:31.668637+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-22T18:41:39.683270+00:00"
  },
  "glossary": [],
  "related": [
@@ -897,8 +889,8 @@
    "shared": []
   },
   {
-   "id": "c48db748fde00c8f7",
-   "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
+   "id": "ccf035417bb47bb31",
+   "title": "Foreign investment recovery shows growing confidence in economy : RBI article",
    "category": "MACRO",
    "shared": []
   },
@@ -909,8 +901,8 @@
    "shared": []
   },
   {
-   "id": "ccf035417bb47bb31",
-   "title": "Foreign investment recovery shows growing confidence in economy : RBI article",
+   "id": "c48db748fde00c8f7",
+   "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
    "category": "MACRO",
    "shared": []
   }

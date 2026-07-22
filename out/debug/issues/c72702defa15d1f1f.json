@@ -11,7 +11,7 @@
   "V"
  ],
  "seen_sources": 15,
- "importance": 90,
+ "importance": 85,
  "created_at": "2026-07-14T14:20:58.036844+00:00",
  "last_update": "2026-07-18T16:55:12.611190+00:00",
  "members": [
@@ -293,7 +293,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-22T14:32:08.128982+00:00",
+  "created_at": "2026-07-22T18:40:44.417938+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -306,18 +306,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"비자카드 주가 상승\",\n   \"one_liner\": \"비자카드가 분석가의 업그레이드에 따라 주가가 올라갔어요\",\n   \"why_now\": \"분석가의 업그레이드는 주가에 영향을 줄 수 있어요\",\n   \"impact_line\": \"신용카드 사용이 편리해질 수 있어요\",\n   \"details\": [\n      \"비자카드 주가가 2.6% 상승했어요\",\n      \"분석가의 업그레이드에 따라 비자카드가 1년 최고치에 달했어요\",\n      \"투자公司 Noesis Capital Mangement Corp가 비자카드 주식을 1,684주 샀어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"신용카드 사용이 편리해져 소비가 증가할 수 있어요!\",\n      \"금융 기술 발전이 가속화될 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [2.6]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [2.6, 1684.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -336,8 +330,8 @@
   "fact_hash": "31b6cd511fd566043891077201eaa389074cb128"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.6]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.6, 1684.0]\"]}]}",
-  "at": "2026-07-22T14:32:08.128638+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-22T18:40:44.417821+00:00"
  },
  "glossary": [],
  "related": [
@@ -354,6 +348,12 @@
    "shared": []
   },
   {
+   "id": "c2a4c3894a14ae550",
+   "title": "Microsoft tactics with Edge face renewed scrutiny over browser choice",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
    "id": "c2f82920800c96145",
    "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
@@ -362,12 +362,6 @@
   {
    "id": "cf3992948064685e4",
    "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c84e845f8713cb99f",
-   "title": "Why PayPal Shares Are Skyrocketing Higher This Week",
    "category": "MARKET",
    "shared": []
   }

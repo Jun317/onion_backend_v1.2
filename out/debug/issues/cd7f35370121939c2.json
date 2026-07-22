@@ -2,19 +2,59 @@
  "id": "cd7f35370121939c2",
  "title": "Tesla Earnings Today : What to Expect as Investors Eye Profit Margins Over Deliveries",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "GOOGL",
   "TSLA"
  ],
- "seen_sources": 1,
- "importance": 70,
+ "seen_sources": 3,
+ "importance": 80,
  "created_at": "2026-07-22T16:53:58.399921+00:00",
- "last_update": "2026-07-22T16:53:58.399921+00:00",
+ "last_update": "2026-07-22T18:39:10.444861+00:00",
  "members": [
+  {
+   "id": "1eddfc9e6073086ecec3277303372ee53fd4507a",
+   "source": "benzinga.com",
+   "tier": "wire",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/07/60615575/tesla-q2-the-delivery-jump-was-nice-but-did-any-profit-show-up",
+   "title": "Tesla Q2 Delivery Jump Was Nice But Did Any Profit Show Up ? - Tesla ( NASDAQ : TSLA )",
+   "published_at": "2026-07-22T17:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9143
+  },
+  {
+   "id": "9ce8e63fbd01194b8f07165dd7161a3367a87e0b",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/media-advertising/articles/reddit-stock-drops-9-google-171815518.html",
+   "title": "Reddit stock drops 9 % as Google AI content deal nears expiration",
+   "published_at": "2026-07-22T17:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8953
+  },
+  {
+   "id": "810c5b9f1fc828a2658c5ff909a18083be9f31bf",
+   "source": "cnbc.com",
+   "tier": "wire",
+   "url": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html",
+   "title": "Google ( GOOG ) Q2 2026 earnings report : Live updates",
+   "published_at": "2026-07-22T16:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9031
+  },
+  {
+   "id": "cb87d43d10cc18ab7e61c4182350833ab8f0c9bc",
+   "source": "cnbc.com",
+   "tier": "wire",
+   "url": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html",
+   "title": "Tesla ( TSLA ) Q2 2026 earnings report",
+   "published_at": "2026-07-22T16:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9371
+  },
   {
    "id": "751f759d17e1167ce0849f61ca7db21d39bfe675",
    "source": "finance.yahoo.com",
@@ -23,7 +63,7 @@
    "title": "Stock market today : Dow , S & P 500 , Nasdaq diverge with Alphabet , Tesla earnings on deck",
    "published_at": "2026-07-22T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9686
+   "sim_to_centroid": 0.9573
   },
   {
    "id": "b37e11d9fd32b9d756ce58c7d320aa45eb0d0689",
@@ -33,11 +73,39 @@
    "title": "Tesla Earnings Today : What to Expect as Investors Eye Profit Margins Over Deliveries",
    "published_at": "2026-07-22T02:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9686
+   "sim_to_centroid": 0.9652
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Tesla Q2 Delivery Jump Was Nice But Did Any Profit Show Up ? - Tesla ( NASDAQ : TSLA )",
+   "source": "benzinga.com",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/07/60615575/tesla-q2-the-delivery-jump-was-nice-but-did-any-profit-show-up",
+   "at": "2026-07-22T17:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Reddit stock drops 9 % as Google AI content deal nears expiration",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/media-advertising/articles/reddit-stock-drops-9-google-171815518.html",
+   "at": "2026-07-22T17:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Google ( GOOG ) Q2 2026 earnings report : Live updates",
+   "source": "cnbc.com",
+   "url": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html",
+   "at": "2026-07-22T16:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Tesla ( TSLA ) Q2 2026 earnings report",
+   "source": "cnbc.com",
+   "url": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html",
+   "at": "2026-07-22T16:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Stock market today : Dow , S & P 500 , Nasdaq diverge with Alphabet , Tesla earnings on deck",
@@ -53,8 +121,48 @@
    "at": "2026-07-22T02:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-22T18:41:02.817407+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Tesla Earnings Today : What to Expect as Investors Eye Profit Margins Over Deliveries",
+    "Stock market today : Dow , S & P 500 , Nasdaq diverge with Alphabet , Tesla earnings on deck",
+    "Tesla ( TSLA ) Q2 2026 earnings report",
+    "Tesla Q2 Delivery Jump Was Nice But Did Any Profit Show Up ? - Tesla ( NASDAQ : TSLA )",
+    "Google ( GOOG ) Q2 2026 earnings report : Live updates"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Tesla Earnings Today…",
+   "one_liner": "Tesla Earnings Today : What to Expect as…",
+   "why_now": null,
+   "details": [
+    "Tesla Earnings Today : What to Expect as Investors Eye Profit Margins Over Deliveries",
+    "Stock market today : Dow , S & P 500 , Nasdaq diverge with Alphabet , Tesla earnings on deck",
+    "Tesla ( TSLA ) Q2 2026 earnings report"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "3ee615f69cada834f970e1820d8cdf79c37e580f"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-22T18:41:02.817346+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -74,6 +182,14 @@
    ]
   },
   {
+   "id": "c2a4c3894a14ae550",
+   "title": "Microsoft tactics with Edge face renewed scrutiny over browser choice",
+   "category": "MARKET",
+   "shared": [
+    "GOOGL"
+   ]
+  },
+  {
    "id": "c2f82920800c96145",
    "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
    "category": "MARKET",
@@ -84,12 +200,6 @@
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c763582d47a3e8b63",
-   "title": "Netflix Looks To Buy Major Social Network With Over 30M Users",
    "category": "EARNINGS",
    "shared": []
   }
