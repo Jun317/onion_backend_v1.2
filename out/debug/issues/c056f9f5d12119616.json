@@ -9,10 +9,10 @@
  "entity_keys": [
   "SEC"
  ],
- "seen_sources": 2,
- "importance": 100,
+ "seen_sources": 3,
+ "importance": 105,
  "created_at": "2026-07-21T18:46:21.177191+00:00",
- "last_update": "2026-07-22T00:13:50.502789+00:00",
+ "last_update": "2026-07-22T03:53:54.508588+00:00",
  "members": [
   {
    "id": "0dfc78009b4b73b4b846fce352eb202d72b6c358",
@@ -22,7 +22,7 @@
    "title": "Antonio Guterres to visit Syria ; first by a UN secretary - general since 2009",
    "published_at": "2026-07-21T23:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8568
+   "sim_to_centroid": 0.8612
   },
   {
    "id": "dc52566e448c08652a89da944305b4932a35ad7f",
@@ -32,7 +32,7 @@
    "title": "Streeting says he wants to make united kingdom prepared to win wars as defence secretary",
    "published_at": "2026-07-21T20:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9956
+   "sim_to_centroid": 0.9926
   },
   {
    "id": "8e786814a3807aa633490342b4fe675534446043",
@@ -42,7 +42,7 @@
    "title": "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary",
    "published_at": "2026-07-21T17:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9982
+   "sim_to_centroid": 0.996
   },
   {
    "id": "da81d23806311ee68febbea65b322ab9e53886be",
@@ -52,7 +52,7 @@
    "title": "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary",
    "published_at": "2026-07-21T17:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9982
+   "sim_to_centroid": 0.996
   },
   {
    "id": "686fe8a5aa2fc50b95afc8ceb6a59761942507ed",
@@ -62,7 +62,7 @@
    "title": "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary",
    "published_at": "2026-07-21T17:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9982
+   "sim_to_centroid": 0.996
   },
   {
    "id": "1441a20130a4d39e77bb449672c9e197dc3dbcf9",
@@ -72,7 +72,7 @@
    "title": "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary",
    "published_at": "2026-07-21T17:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9982
+   "sim_to_centroid": 0.996
   },
   {
    "id": "075ae581a82af812b153138c6ab21fda9cdfeb4d",
@@ -82,7 +82,17 @@
    "title": "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary",
    "published_at": "2026-07-21T17:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9982
+   "sim_to_centroid": 0.996
+  },
+  {
+   "id": "e72c4c6d24d0007e9a0e52267e0bf6b6580bbc70",
+   "source": "farminguk.com",
+   "tier": "wire",
+   "url": "https://www.farminguk.com/news/welsh-government-sets-out-farm-to-fork-plan-for-food-sector_68856.html",
+   "title": "Welsh government sets out farm - to - fork plan for food sector",
+   "published_at": "2026-07-21T14:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8535
   }
  ],
  "anchors": [],
@@ -135,45 +145,55 @@
    "source": "surreycomet.co.uk",
    "url": "https://www.surreycomet.co.uk/news/national/26299318.streeting-says-wants-make-uk-prepared-win-wars-defence-secretary/",
    "at": "2026-07-21T17:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Welsh government sets out farm - to - fork plan for food sector",
+   "source": "farminguk.com",
+   "url": "https://www.farminguk.com/news/welsh-government-sets-out-farm-to-fork-plan-for-food-sector_68856.html",
+   "at": "2026-07-21T14:00:00+00:00"
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-22T00:13:51.775392+00:00",
+  "model": "template",
+  "created_at": "2026-07-22T04:01:59.724238+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
     "Antonio Guterres to visit Syria ; first by a UN secretary - general since 2009",
-    "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary"
+    "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary",
+    "Welsh government sets out farm - to - fork plan for food sector"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"유엔 총장 시리아 방문\",\n   \"one_liner\": \"유엔의 안토니오 구테흐스 총장이 시리아를 방문했어요\",\n   \"why_now\": \"유엔 총장이 시리아를 방문한 것은 2009년 이후 처음이에요\",\n   \"impact_line\": \"시리아의 평화 협상에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"안토니오 구테흐스 유엔 총장이 시리아를 방문했어요\",\n       \"유엔 총장이 시리아를 방문한 것은 2009년 이후 처음이에요\",\n       \"영국 국방장관이 영국을 전쟁에 준비시키고 싶다고 했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"시리아의 평화 협상이 진전될 수 있어요!\",\n       \"유엔의 역할이 중요해질 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "유엔 총장 시리아 방문",
-   "one_liner": "유엔의 안토니오 구테흐스 총장이 시리아를 방문했어요",
-   "why_now": "유엔 총장이 시리아를 방문한 것은 2009년 이후 처음이에요",
+   "title": "Antonio Guterres to…",
+   "one_liner": "Antonio Guterres to visit Syria ; first by a UN…",
+   "why_now": null,
    "details": [
-    "안토니오 구테흐스 유엔 총장이 시리아를 방문했어요",
-    "유엔 총장이 시리아를 방문한 것은 2009년 이후 처음이에요",
-    "영국 국방장관이 영국을 전쟁에 준비시키고 싶다고 했어요"
+    "Antonio Guterres to visit Syria ; first by a UN secretary - general since 2009",
+    "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary",
+    "Welsh government sets out farm - to - fork plan for food sector"
    ],
-   "effects": [
-    "시리아의 평화 협상이 진전될 수 있어요!",
-    "유엔의 역할이 중요해질 것으로 예상돼요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "947201b6d08bb9b4b1f3ec840f63d6aa52724d51"
+  "fact_hash": "8398fa68a8464bbfb5f43fb398bd71df5f6815ce"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-22T04:01:59.724181+00:00"
+ },
  "glossary": [],
  "related": [
   {

@@ -8,13 +8,24 @@
  "anchor_key": null,
  "entity_keys": [
   "BAC",
+  "FED",
   "IBM"
  ],
  "seen_sources": 6,
- "importance": 105,
+ "importance": 135,
  "created_at": "2026-07-16T16:47:58.907339+00:00",
- "last_update": "2026-07-21T23:16:54.401653+00:00",
+ "last_update": "2026-07-22T03:53:54.511170+00:00",
  "members": [
+  {
+   "id": "0e51f70c035cf13a7f8d774e76b043b7b4646a7b",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/economy/articles/bank-america-ceo-sobering-verdict-033300805.html",
+   "title": "Bank of America CEO warns inflation will back Fed into a corner",
+   "published_at": "2026-07-22T02:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8948
+  },
   {
    "id": "d77eafed864d966f5dab0713cc340af4b37f6009",
    "source": "finance.yahoo.com",
@@ -23,7 +34,7 @@
    "title": "A $10 , 000 Investment in Bank of America When Brian Moynihan Became CEO Is Worth This Much Today",
    "published_at": "2026-07-21T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9068
+   "sim_to_centroid": 0.9101
   },
   {
    "id": "60f5612e85c28a6f0d33041a6bfe675662cba841",
@@ -33,7 +44,7 @@
    "title": "Bank of America ( BAC ) Q2 2026 Earnings Call Transcript",
    "published_at": "2026-07-21T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9124
+   "sim_to_centroid": 0.9178
   },
   {
    "id": "7e2ca0293deff0246465e8cfdcf8976f9efce6ec",
@@ -43,7 +54,7 @@
    "title": "Weak Trading Week , Strong Banks , and an Interesting Oil Services Company – Bank of America , IBM , J . P . Morgan , Zefiro Methane | 2026 - 07 - 21 | Investing News",
    "published_at": "2026-07-21T06:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8967
+   "sim_to_centroid": 0.8995
   },
   {
    "id": "d194a7791c5472f3e7669427c52206b74e4ee00d",
@@ -53,7 +64,7 @@
    "title": "Transcript : Bank of America CEO Brian Moynihan on  Face the Nation with Margaret Brennan , July 19 , 2026",
    "published_at": "2026-07-19T17:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.894
+   "sim_to_centroid": 0.8999
   },
   {
    "id": "0060499fd79e7212c6bf368c8d3ec2b6cf1aa07a",
@@ -63,7 +74,7 @@
    "title": "Top CD rates from major banks July 17 , 2026 : Chase CDs , Bank of America CDs , Citibank CDs , and more",
    "published_at": "2026-07-17T12:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8925
+   "sim_to_centroid": 0.8953
   },
   {
    "id": "ad883d677fe6fc3320026b14e4e552c74058decd",
@@ -73,7 +84,7 @@
    "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "published_at": "2026-07-16T14:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9656
+   "sim_to_centroid": 0.9596
   },
   {
    "id": "8b1816ddde3c5bdd1f2517836c98b9f23ba95f71",
@@ -83,11 +94,18 @@
    "title": "Wealthfront Advisers LLC Sells 8 , 715 Shares of Bank of America Corporation $BAC",
    "published_at": "2026-07-16T14:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9621
+   "sim_to_centroid": 0.959
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Bank of America CEO warns inflation will back Fed into a corner",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/economy/articles/bank-america-ceo-sobering-verdict-033300805.html",
+   "at": "2026-07-22T02:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "A $10 , 000 Investment in Bank of America When Brian Moynihan Became CEO Is Worth This Much Today",
@@ -139,8 +157,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-21T22:25:11.122133+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-22T03:54:01.004086+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -148,33 +166,35 @@
     "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
     "Wealthfront Advisers LLC Sells 8 , 715 Shares of Bank of America Corporation $BAC",
     "Bank of America ( BAC ) Q2 2026 Earnings Call Transcript",
-    "Weak Trading Week , Strong Banks , and an Interesting Oil Services Company – Bank of America , IBM , J . P . Morgan , Zefiro Methane | 2026 - 07 - 21 | Investing News",
-    "Top CD rates from major banks July 17 , 2026 : Chase CDs , Bank of America CDs , Citibank CDs , and more"
+    "A $10 , 000 Investment in Bank of America When Brian Moynihan Became CEO Is Worth This Much Today",
+    "Transcript : Bank of America CEO Brian Moynihan on  Face the Nation with Margaret Brennan , July 19 , 2026"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국은행 뉴스\",\n   \"one_liner\": \"미국은행의 주식과 수익에 관한 소식이 나왔어요\",\n   \"why_now\": \"은행의 수익과 주가는 경제에 영향이 커서 중요해요\",\n   \"impact_line\": \"은행의 수익이 오르면 예금 이자가 높아질 수 있어요\",\n   \"details\": [\n      \"네비게이션 그룹이 미국은행의 주식을 샀어요\",\n      \"웰스프론트 어드바이저스가 미국은행의 주식을 팔았어요\",\n      \"미국은행의 2026년 2분기 실적 관련 전화 회의가 열렸어요\",\n      \"미국은행의 수익과 주가에 관한 기사와 인터뷰가 나왔어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"은행의 수익이 좋아지면 예금자에게도 좋을 수 있어요!\",\n      \"은행의 주가가 오르면 투자자에게도 좋을 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "22 , 459 Shares in…",
-   "one_liner": "22 , 459 Shares in Bank of America Corporation…",
-   "why_now": null,
+   "title": "미국은행 뉴스",
+   "one_liner": "미국은행의 주식과 수익에 관한 소식이 나왔어요",
+   "why_now": "은행의 수익과 주가는 경제에 영향이 커서 중요해요",
    "details": [
-    "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
-    "Wealthfront Advisers LLC Sells 8 , 715 Shares of Bank of America Corporation $BAC",
-    "Bank of America ( BAC ) Q2 2026 Earnings Call Transcript"
+    "네비게이션 그룹이 미국은행의 주식을 샀어요",
+    "웰스프론트 어드바이저스가 미국은행의 주식을 팔았어요",
+    "미국은행의 2026년 2분기 실적 관련 전화 회의가 열렸어요",
+    "미국은행의 수익과 주가에 관한 기사와 인터뷰가 나왔어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "은행의 수익이 좋아지면 예금자에게도 좋을 수 있어요!",
+    "은행의 주가가 오르면 투자자에게도 좋을 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "da05a965dde9bffdcbbb72a4b0c0b2143140be03"
+  "fact_hash": "bdc3350821fbb5f96a813cea1e5144ecaac9a38c"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
@@ -183,32 +203,40 @@
  "glossary": [],
  "related": [
   {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": [
+    "FED"
+   ]
+  },
+  {
+   "id": "c21fbad53c2afa8f1",
+   "title": "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets",
+   "category": "COMMODITY",
+   "shared": [
+    "FED"
+   ]
+  },
+  {
+   "id": "c37ad01cf8a091a74",
+   "title": "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions",
+   "category": "FX",
+   "shared": [
+    "FED"
+   ]
+  },
+  {
+   "id": "e97a81ef1127b8815",
+   "title": "미 연준 기준금리 변동 (4.08%)",
+   "category": "RATE",
+   "shared": [
+    "FED"
+   ]
+  },
+  {
    "id": "c9a09576b9082e071",
    "title": "Japan PM Sanae Takaichi Unveils Growth Plan as BOJ Independence Concerns Lift Bond Yields",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c2f82920800c96145",
-   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "cf3992948064685e4",
-   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c84e845f8713cb99f",
-   "title": "Why PayPal Shares Are Skyrocketing Higher This Week",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c4e8e497777eba176",
-   "title": "Sovran Advisors LLC Increases Position in Eli Lilly and Company $LLY",
    "category": "MARKET",
    "shared": []
   }

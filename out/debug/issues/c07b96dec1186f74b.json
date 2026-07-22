@@ -2,16 +2,36 @@
  "id": "c07b96dec1186f74b",
  "title": "Hanson billionaire friendship could prompt backlash",
  "category": "GEO",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 60,
+ "seen_sources": 2,
+ "importance": 70,
  "created_at": "2026-07-20T11:19:05.717338+00:00",
- "last_update": "2026-07-20T13:23:53.485580+00:00",
+ "last_update": "2026-07-22T03:53:54.519835+00:00",
  "members": [
+  {
+   "id": "1031ee4b8ef33cbd0f897469515338a1be3db4b0",
+   "source": "sanfordherald.com",
+   "tier": "wire",
+   "url": "https://www.sanfordherald.com/news/national/lawyer-billionaire-tax-could-cost-california-1-trillion/article_c118b7df-aafc-5294-b23e-6199cea9eb89.html",
+   "title": "Lawyer : Billionaire tax could cost California $1 trillion",
+   "published_at": "2026-07-22T02:30:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.884
+  },
+  {
+   "id": "1556fa3864dab84217125c39e3d1a7eb15300d07",
+   "source": "suncommercial.com",
+   "tier": "wire",
+   "url": "https://www.suncommercial.com/news/national/article_d6d47300-dd86-5708-a5a7-8aaee83e67aa.html",
+   "title": "Lawyer : Billionaire tax could cost California $1 trillion",
+   "published_at": "2026-07-22T02:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.884
+  },
   {
    "id": "926b3acb5dad0dea28d06cc3d955caebbaf99eda",
    "source": "northweststar.com.au",
@@ -20,7 +40,7 @@
    "title": "Hanson billionaire friendship could prompt backlash",
    "published_at": "2026-07-20T08:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9941
   },
   {
    "id": "a5f83718425dd51dba963ffe91328c99b0f45da5",
@@ -30,7 +50,7 @@
    "title": "Hanson billionaire friendship could prompt backlash",
    "published_at": "2026-07-20T08:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9941
   },
   {
    "id": "173de41475e9833811f95e56eb9789dcdd6752c4",
@@ -40,11 +60,25 @@
    "title": "Hanson billionaire friendship could prompt backlash",
    "published_at": "2026-07-20T07:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9941
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Lawyer : Billionaire tax could cost California $1 trillion",
+   "source": "sanfordherald.com",
+   "url": "https://www.sanfordherald.com/news/national/lawyer-billionaire-tax-could-cost-california-1-trillion/article_c118b7df-aafc-5294-b23e-6199cea9eb89.html",
+   "at": "2026-07-22T02:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Lawyer : Billionaire tax could cost California $1 trillion",
+   "source": "suncommercial.com",
+   "url": "https://www.suncommercial.com/news/national/article_d6d47300-dd86-5708-a5a7-8aaee83e67aa.html",
+   "at": "2026-07-22T02:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Hanson billionaire friendship could prompt backlash",
@@ -67,8 +101,44 @@
    "at": "2026-07-20T07:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-22T03:56:09.517806+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Lawyer : Billionaire tax could cost California $1 trillion",
+    "Hanson billionaire friendship could prompt backlash"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Lawyer : Billionaire…",
+   "one_liner": "Lawyer : Billionaire tax could cost California…",
+   "why_now": null,
+   "details": [
+    "Lawyer : Billionaire tax could cost California $1 trillion",
+    "Hanson billionaire friendship could prompt backlash"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "8017deac7bd4cda14f5580d049fa9348a1643c9e"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-22T03:56:09.517719+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -90,14 +160,14 @@
    "shared": []
   },
   {
-   "id": "c9935a100fd7ce01f",
-   "title": "Dodgers split doubleheader with Yankees after long day in Bronx",
+   "id": "c6f9e57edbc5d69b6",
+   "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
    "category": "GEO",
    "shared": []
   },
   {
-   "id": "c6f9e57edbc5d69b6",
-   "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
+   "id": "c9935a100fd7ce01f",
+   "title": "Dodgers split doubleheader with Yankees after long day in Bronx",
    "category": "GEO",
    "shared": []
   }
