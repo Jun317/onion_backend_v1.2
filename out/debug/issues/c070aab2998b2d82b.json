@@ -10,8 +10,28 @@
  "seen_sources": 4,
  "importance": 90,
  "created_at": "2026-07-22T16:53:58.411529+00:00",
- "last_update": "2026-07-22T18:39:10.442640+00:00",
+ "last_update": "2026-07-22T20:36:15.930712+00:00",
  "members": [
+  {
+   "id": "83c8d16cb2d1b68d50439b782954bef02265e9cc",
+   "source": "bnnbloomberg.ca",
+   "tier": "wire",
+   "url": "https://www.bnnbloomberg.ca/business/politics/2026/07/22/james-moore-trump-tariffs-and-trade-912-days-to-go/",
+   "title": "James Moore : Canada strategy to withstand Trump Tariffs",
+   "published_at": "2026-07-22T19:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9284
+  },
+  {
+   "id": "45e4594b3c229635742ea8f7bf51bb54b919b4d4",
+   "source": "bnnbloomberg.ca",
+   "tier": "wire",
+   "url": "https://www.bnnbloomberg.ca/tariffs/2026/07/22/storm-before-the-calm-canadian-exporters-opt-to-wait-and-see-on-trump-tariffs/",
+   "title": "Trade war : Canadian exporters opt to wait and see on Trump tariffs",
+   "published_at": "2026-07-22T19:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9249
+  },
   {
    "id": "f44e4732e81429907054f72333c90236b799aac1",
    "source": "centralwesterndaily.com.au",
@@ -20,7 +40,7 @@
    "title": "More Red Sea chaos , as Trump repeats retaliation threat",
    "published_at": "2026-07-22T17:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8855
+   "sim_to_centroid": 0.8856
   },
   {
    "id": "51d1051f7c878052e84121439fdda457e908269c",
@@ -30,7 +50,7 @@
    "title": "Canada cancels bridge - opening event with US after Trump tariffs",
    "published_at": "2026-07-22T16:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9324
+   "sim_to_centroid": 0.9373
   },
   {
    "id": "93203b7d378a3252973df57580efbe575d199e93",
@@ -40,7 +60,7 @@
    "title": "How Trump turned Canada bridge into America windfall",
    "published_at": "2026-07-22T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9632
+   "sim_to_centroid": 0.9563
   },
   {
    "id": "43a8b2a9a86efcf1a31c49430c969cd47cf90d2d",
@@ -50,11 +70,25 @@
    "title": "Trump tariffs : A timeline of the U . S . trade war with Canada",
    "published_at": "2026-07-22T14:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9636
+   "sim_to_centroid": 0.9643
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "James Moore : Canada strategy to withstand Trump Tariffs",
+   "source": "bnnbloomberg.ca",
+   "url": "https://www.bnnbloomberg.ca/business/politics/2026/07/22/james-moore-trump-tariffs-and-trade-912-days-to-go/",
+   "at": "2026-07-22T19:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Trade war : Canadian exporters opt to wait and see on Trump tariffs",
+   "source": "bnnbloomberg.ca",
+   "url": "https://www.bnnbloomberg.ca/tariffs/2026/07/22/storm-before-the-calm-canadian-exporters-opt-to-wait-and-see-on-trump-tariffs/",
+   "at": "2026-07-22T19:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "More Red Sea chaos , as Trump repeats retaliation threat",
@@ -86,13 +120,16 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-22T16:54:49.213046+00:00",
+  "created_at": "2026-07-22T20:37:27.608929+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "Trump tariffs : A timeline of the U . S . trade war with Canada",
     "How Trump turned Canada bridge into America windfall",
-    "Trump tariffs : A timeline of the U . S . trade war with Canada"
+    "Canada cancels bridge - opening event with US after Trump tariffs",
+    "James Moore : Canada strategy to withstand Trump Tariffs",
+    "Trade war : Canadian exporters opt to wait and see on Trump tariffs"
    ],
    "official_lines": []
   },
@@ -106,21 +143,22 @@
    }
   ],
   "output": {
-   "title": "How Trump turned…",
-   "one_liner": "How Trump turned Canada bridge into America…",
+   "title": "Trump tariffs : A…",
+   "one_liner": "Trump tariffs : A timeline of the U . S . trade…",
    "why_now": null,
    "details": [
+    "Trump tariffs : A timeline of the U . S . trade war with Canada",
     "How Trump turned Canada bridge into America windfall",
-    "Trump tariffs : A timeline of the U . S . trade war with Canada"
+    "Canada cancels bridge - opening event with US after Trump tariffs"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "e7b46e12604a5753ab57e341c31d5b31bf9f86d7"
+  "fact_hash": "5cd1a12078bac0179b4cb039f647bff6d3f0e73a"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-22T16:54:49.212967+00:00"
+  "at": "2026-07-22T20:37:27.608866+00:00"
  },
  "glossary": [],
  "related": [
@@ -137,6 +175,12 @@
    "shared": []
   },
   {
+   "id": "c1d3d6484c6b93b16",
+   "title": "NL Joins Others in Signing Deal Allowing for Purchase of Alcohol from Other Provinces",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
    "id": "cec911b7dc8980e46",
    "title": "Were Just Poor Cattle to Them : MAGA Voters Lose $7 Billion as Trump Income Hits $2 . 2 Billion",
    "category": "POLICY",
@@ -145,12 +189,6 @@
   {
    "id": "c7df8eab6657a9a33",
    "title": "Trump 50 % tariff threat : why now ?",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
-   "id": "cb58f83b24f1df47e",
-   "title": "Simon Harris says budget tax package must deliver for  working people",
    "category": "POLICY",
    "shared": []
   }

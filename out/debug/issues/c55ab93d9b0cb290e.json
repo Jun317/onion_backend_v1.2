@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 3,
- "importance": 75,
+ "seen_sources": 4,
+ "importance": 80,
  "created_at": "2026-07-22T16:53:58.410517+00:00",
- "last_update": "2026-07-22T18:39:10.441486+00:00",
+ "last_update": "2026-07-22T20:36:15.935830+00:00",
  "members": [
+  {
+   "id": "bf0df1be291966aad59f9186e6c225135b4aef67",
+   "source": "dailypress.com",
+   "tier": "wire",
+   "url": "https://www.dailypress.com/2026/07/22/presidential-history-the-presidents-midterm-jinx/",
+   "title": "Presidential History : The president midterm jinx – Daily Press",
+   "published_at": "2026-07-22T19:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9093
+  },
   {
    "id": "6c20d360cad98b0b5df64c0c8eac2f7179479d9b",
    "source": "pilotonline.com",
@@ -20,7 +30,7 @@
    "title": "Presidential History : The president midterm jinx – The Virginian - Pilot",
    "published_at": "2026-07-22T17:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8868
+   "sim_to_centroid": 0.9024
   },
   {
    "id": "ab1c02e2ecf9469f681be8dbda2b63a0ee03c238",
@@ -30,7 +40,7 @@
    "title": "Messy primaries plague both major political parties , causing chaos and confusion in the midterms",
    "published_at": "2026-07-22T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9575
+   "sim_to_centroid": 0.9573
   },
   {
    "id": "f82015264aa1521ea99e1918a8c51e1049a7d3e2",
@@ -40,11 +50,18 @@
    "title": "If the economy is your concern , vote Democrat ; pardons are hurting America ; the right to vote ( Letters )",
    "published_at": "2026-07-22T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9532
+   "sim_to_centroid": 0.9477
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Presidential History : The president midterm jinx – Daily Press",
+   "source": "dailypress.com",
+   "url": "https://www.dailypress.com/2026/07/22/presidential-history-the-presidents-midterm-jinx/",
+   "at": "2026-07-22T19:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Presidential History : The president midterm jinx – The Virginian - Pilot",
@@ -69,11 +86,13 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-22T16:56:23.294059+00:00",
+  "created_at": "2026-07-22T20:39:00.248803+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "Presidential History : The president midterm jinx – Daily Press",
+    "Presidential History : The president midterm jinx – The Virginian - Pilot",
     "Messy primaries plague both major political parties , causing chaos and confusion in the midterms",
     "If the economy is your concern , vote Democrat ; pardons are hurting America ; the right to vote ( Letters )"
    ],
@@ -89,21 +108,22 @@
    }
   ],
   "output": {
-   "title": "Messy primaries…",
-   "one_liner": "Messy primaries plague both major political…",
+   "title": "Presidential History…",
+   "one_liner": "Presidential History : The president midterm…",
    "why_now": null,
    "details": [
-    "Messy primaries plague both major political parties , causing chaos and confusion in the midterms",
-    "If the economy is your concern , vote Democrat ; pardons are hurting America ; the right to vote ( Letters )"
+    "Presidential History : The president midterm jinx – Daily Press",
+    "Presidential History : The president midterm jinx – The Virginian - Pilot",
+    "Messy primaries plague both major political parties , causing chaos and confusion in the midterms"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "b355ff0bdc34286f1cfbee907feb3db229ac631b"
+  "fact_hash": "6f8f720d4d55f67a7e5af7c7dd6250dc0ae036d5"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-22T16:56:23.293982+00:00"
+  "at": "2026-07-22T20:39:00.248742+00:00"
  },
  "glossary": [],
  "related": [
@@ -126,14 +146,14 @@
    "shared": []
   },
   {
-   "id": "c8f5a9e98f41d332f",
-   "title": "Amazon may be losing its biggest competitive edge",
+   "id": "c2b970d1e19010174",
+   "title": "Global threats underestimated by investors , warns JPMorgan CEO Jamie Dimon ( JPM : NYSE )",
    "category": "GEO",
    "shared": []
   },
   {
-   "id": "c2b970d1e19010174",
-   "title": "Global threats underestimated by investors , warns JPMorgan CEO Jamie Dimon ( JPM : NYSE )",
+   "id": "c7f9a22157d5febb4",
+   "title": "EU forces Google to share search data and open Android to rival AI companies",
    "category": "GEO",
    "shared": []
   }
