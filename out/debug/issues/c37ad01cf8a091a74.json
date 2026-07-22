@@ -874,7 +874,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-22T18:39:14.315012+00:00",
+  "created_at": "2026-07-22T22:31:27.309926+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,18 +887,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"IMF, 인도 경제 성장률 전망 하향\",\n  \"one_liner\": \"IMF가 인도의 올해 경제 성장률 전망치를 6.4%로 낮췄어요.\",\n  \"why_now\": \"인도 경제는 세계에서 가장 빠르게 성장하는 주요 경제 중 하나로 꼽히기 때문이에요.\",\n  \"impact_line\": \"인도 경제 성장 둔화는 세계 경제에도 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"IMF는 인도의 올해 경제 성장률 전망치를 6.4%로 예상했어요.\",\n    \"이는 이전 전망치보다 낮은 수치예요.\",\n    \"하지만 IMF는 여전히 인도를 가장 빠르게 성장하는 주요 경제국으로 평가했어요.\",\n    \"강한 국내 수요가 성장세를 뒷받침할 것으로 보이기 때문이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"인도 경제 성장률이 예상보다 낮아지면 세계 경제 회복에 부정적인 영향을 줄 수 있어요!\",\n    \"하지만 여전히 다른 주요 경제국보다 높은 성장률을 보일 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"IMF\",\n      \"easy\": \"국제통화기금으로, 세계 경제 안정을 위해 나라 간 협력을 돕는 국제기구예요.\",\n      \"example\": \"IMF는 나라에 돈을 빌려주거나 경제 정책 조언을 해주기도 해요.\"\n    },\n    {\n      \"term\": \"GDP\",\n      \"easy\": \"나라 안에서 생산된 모든 상품과 서비스의 시장 가치를 합한 것으로, 나라 경제 규모를 나타내요.\",\n      \"example\": \"GDP가 늘면 나라 경제가 성장했다고 볼 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [6.4]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [6.4]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -917,8 +911,8 @@
   "fact_hash": "cfd78157cf896eed094d7420fa8b3e8a7f9b1246"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}]}",
-  "at": "2026-07-22T18:39:14.314854+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-22T22:31:27.309776+00:00"
  },
  "glossary": [
   {
@@ -948,6 +942,15 @@
    ]
   },
   {
+   "id": "cd7b762c4b0212485",
+   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
+   "category": "GEO",
+   "shared": [
+    "CHINA",
+    "SEC"
+   ]
+  },
+  {
    "id": "c8767f6a04dae9d1b",
    "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "category": "MARKET",
@@ -962,14 +965,6 @@
    "shared": [
     "CHINA",
     "FED",
-    "SEC"
-   ]
-  },
-  {
-   "id": "c4a06e144229d2074",
-   "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
-   "category": "MACRO",
-   "shared": [
     "SEC"
    ]
   }

@@ -260,25 +260,31 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-22T18:48:07.020421+00:00",
+  "created_at": "2026-07-22T22:30:47.973721+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
     "Wealthfront Advisers LLC Sells 8 , 715 Shares of Bank of America Corporation $BAC",
-    "Bank of America ( BAC ) Q2 2026 Earnings Call Transcript",
     "Bank of America CEO warns inflation will back Fed into a corner",
-    "A $10 , 000 Investment in Bank of America When Brian Moynihan Became CEO Is Worth This Much Today"
+    "US momentum stocks : Bank of America and UBS signal a potential market bottom for tech and AI shares",
+    "Bank of America ( BAC ) Q2 2026 Earnings Call Transcript"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"Bank of America 소식\",\n   \"one_liner\": \"Bank of America의 주식에 대한 여러 뉴스가 나왔어요.\",\n   \"why_now\": \"주식 시장의 동향은 경제 전망에 영향을 줄 수 있어요.\",\n   \"impact_line\": \"주식 투자에 관심이 있는 사람들에게는 영향이 갈 수 있어요.\",\n   \"details\": [\n      \"네이비게이션 그룹이 Bank of America의 주식을 459주 샀어요.\",\n      \"웰스프론트 어드바이저스가 Bank of America의 주식을 8,715주 팔았어요.\",\n      \"Bank of America의 CEO가 인플레이션이 연준을 궁지에 빠트릴 것이라고 경고했어요.\",\n      \"Bank of America와 UBS는 기술 및 AI 주식에 대한 시장 하방을 시그널했어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"주식 투자에 관심이 있는 사람들은 시장의 변동에 주의해야 할 수 있어요!\",\n      \"기술 및 AI 주식의 시장 하방은 관련 산업에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"인플레이션\",\n         \"easy\": \"물가가 계속 오르는 현상이에요.\",\n         \"example\": \"인플레이션이 높으면 물건을 사기 더 어려워질 수 있어요.\"\n      }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "one_liner 50자 초과(56)"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [8715.0]"
     ]
    }
   ],
@@ -289,16 +295,16 @@
    "details": [
     "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
     "Wealthfront Advisers LLC Sells 8 , 715 Shares of Bank of America Corporation $BAC",
-    "Bank of America ( BAC ) Q2 2026 Earnings Call Transcript"
+    "Bank of America CEO warns inflation will back Fed into a corner"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "7ff809c0d2bd1b67c180c4fc20ec23205710e3b7"
+  "fact_hash": "8bfc0b1f02a029767c601247c00441f9b19dde9c"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-22T18:48:07.020291+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(56)\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [8715.0]\"]}]}",
+  "at": "2026-07-22T22:30:47.973577+00:00"
  },
  "glossary": [],
  "related": [

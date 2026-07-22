@@ -273,29 +273,21 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-22T18:39:49.169563+00:00",
+  "created_at": "2026-07-22T22:32:51.284210+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
     "Your Application Was Denied : Trump Campaign Accused of Duping Older Supporters Out of Cash Online",
     "Were Just Poor Cattle to Them : MAGA Voters Lose $7 Billion as Trump Income Hits $2 . 2 Billion",
+    "IRS in the hot seat over potential cash grab from Spain World Cup winnings :  It a rip - off",
     "Some families are still waiting for baby $1 , 000 from Trump Accounts",
-    "Please raise your hand : AOC challenges tech billionaires and lawmakers to live near a data center",
-    "Elizabeth Warren Targets Colleges Leaving Students  Jobless and Buried in Debt  With New Bill"
+    "As the president touts Trump Accounts , some families are still waiting for money"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"트럼프 지지자들, 온라인 사기에 수십억 달러 피해\",\n\"one_liner\": \"트럼프 캠프가 온라인 모금 과정에서 지지자들을 속여 수십억 달러를 챙겼다는 의혹이 제기됐어요.\",\n\"why_now\": \"정치 캠페인의 모금 방식이 투명해야 한다는 목소리가 커지고 있어요.\",\n\"impact_line\": \"정치 후원금 모금 방식에 대한 관심이 높아질 수 있어요.\",\n\"details\": [\n\"트럼프 캠프가 온라인 모금에서 지지자들을 속였다는 주장이 나왔어요.\",\n\"일부 지지자들은 70억 달러에 달하는 돈을 잃은 것으로 알려졌어요.\",\n\"트럼프 캠프는 22억 달러의 수입을 올린 것으로 나타났어요.\",\n\"일부 가정은 트럼프 관련 계좌에서 1,000달러를 받지 못해 기다리고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"정치 후원금 모금 과정의 투명성이 강화될 수 있어요!\",\n\"온라인 모금 시 주의가 필요하다는 인식이 확산될 것으로 예상돼요!\"\n],\n\"glossary\": [\n{\n\"term\": \"온라인 모금\",\n\"easy\": \"인터넷을 통해 돈을 모으는 방식이에요.\",\n\"example\": \"온라인 모금으로 마련된 기부금은 어려운 이웃을 돕는 데 쓰였어요.\"\n}\n],\n\"impact_line\": \"정치 후원금 모금 방식에 대한 관심이 높아질 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "title 22자 초과(27)",
-     "one_liner 50자 초과(52)",
-     "입력에 없는 숫자: [22.0, 70.0, 1000.0]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -310,16 +302,16 @@
    "details": [
     "Your Application Was Denied : Trump Campaign Accused of Duping Older Supporters Out of Cash Online",
     "Were Just Poor Cattle to Them : MAGA Voters Lose $7 Billion as Trump Income Hits $2 . 2 Billion",
-    "Some families are still waiting for baby $1 , 000 from Trump Accounts"
+    "IRS in the hot seat over potential cash grab from Spain World Cup winnings :  It a rip - off"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "6c375ba5ffd69a7a39032cdf1b15e228b8b6cf89"
+  "fact_hash": "ee2e199c00a1921bcad421495ad4d89fd6c82055"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(27)\", \"one_liner 50자 초과(52)\", \"입력에 없는 숫자: [22.0, 70.0, 1000.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-22T18:39:49.169503+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-22T22:32:51.284104+00:00"
  },
  "glossary": [],
  "related": [
