@@ -1,0 +1,124 @@
+{
+ "id": "ca3ac47c5a0e63450",
+ "title": "The Nashville Ledger",
+ "category": "MARKET",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 65,
+ "created_at": "2026-07-22T16:53:58.409590+00:00",
+ "last_update": "2026-07-22T16:53:58.412985+00:00",
+ "members": [
+  {
+   "id": "358ed05c912045a00b0105a8f784f5b6d4e721b3",
+   "source": "morningstar.com",
+   "tier": "wire",
+   "url": "https://www.morningstar.com/stocks/investors-could-be-missing-next-big-market-risk",
+   "title": "Investors Could Be Missing The Next Big Market Risk",
+   "published_at": "2026-07-22T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9547
+  },
+  {
+   "id": "dad79a5f6fd0b659e1e68a7e5561568585b037bd",
+   "source": "tnledger.com",
+   "tier": "wire",
+   "url": "http://www.tnledger.com/editorial/Article.aspx?id=205766",
+   "title": "The Nashville Ledger",
+   "published_at": "2026-07-22T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9547
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "The Nashville Ledger",
+   "source": "tnledger.com",
+   "url": "http://www.tnledger.com/editorial/Article.aspx?id=205766",
+   "at": "2026-07-22T15:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Investors Could Be Missing The Next Big Market Risk",
+   "source": "morningstar.com",
+   "url": "https://www.morningstar.com/stocks/investors-could-be-missing-next-big-market-risk",
+   "at": "2026-07-22T15:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-22T16:57:37.275031+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Investors Could Be Missing The Next Big Market Risk",
+    "The Nashville Ledger"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Investors Could Be…",
+   "one_liner": "Investors Could Be Missing The Next Big Market…",
+   "why_now": null,
+   "details": [
+    "Investors Could Be Missing The Next Big Market Risk",
+    "The Nashville Ledger"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "58827e31a6ced404ca5a0501d6fcea3b7f4b40bb"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-22T16:57:37.274956+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c9a09576b9082e071",
+   "title": "Japan PM Sanae Takaichi Unveils Growth Plan as BOJ Independence Concerns Lift Bond Yields",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c2f82920800c96145",
+   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cf3992948064685e4",
+   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c84e845f8713cb99f",
+   "title": "Why PayPal Shares Are Skyrocketing Higher This Week",
+   "category": "MARKET",
+   "shared": []
+  }
+ ]
+}

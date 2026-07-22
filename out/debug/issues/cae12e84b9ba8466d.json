@@ -1,0 +1,106 @@
+{
+ "id": "cae12e84b9ba8466d",
+ "title": "US stocks drift in mixed trading as oil prices climb amid war",
+ "category": "COMMODITY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 70,
+ "created_at": "2026-07-22T16:53:58.408531+00:00",
+ "last_update": "2026-07-22T16:53:58.412844+00:00",
+ "members": [
+  {
+   "id": "0600c568a47ba6161ed7e9d1926bf75592bb90f5",
+   "source": "dailycamera.com",
+   "tier": "wire",
+   "url": "https://www.dailycamera.com/2026/07/22/us-stock-market-oil-prices-climb-iran-war/",
+   "title": "US stocks drift in mixed trading as oil prices climb amid war",
+   "published_at": "2026-07-22T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9826
+  },
+  {
+   "id": "20efd034341695357963249860c2593a3e118f3a",
+   "source": "goskagit.com",
+   "tier": "wire",
+   "url": "http://www.goskagit.com/news/world/oil-prices-rise-another-3-while-wall-street-drifts-in-mixed-trading/article_68d23944-9d05-5673-a5ff-9f6971fced82.html",
+   "title": "Oil prices rise another 3 %, while Wall Street drifts in mixed trading",
+   "published_at": "2026-07-22T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9826
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "US stocks drift in mixed trading as oil prices climb amid war",
+   "source": "dailycamera.com",
+   "url": "https://www.dailycamera.com/2026/07/22/us-stock-market-oil-prices-climb-iran-war/",
+   "at": "2026-07-22T15:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Oil prices rise another 3 %, while Wall Street drifts in mixed trading",
+   "source": "goskagit.com",
+   "url": "http://www.goskagit.com/news/world/oil-prices-rise-another-3-while-wall-street-drifts-in-mixed-trading/article_68d23944-9d05-5673-a5ff-9f6971fced82.html",
+   "at": "2026-07-22T15:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-22T16:57:18.816375+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [],
+   "headlines": [
+    "US stocks drift in mixed trading as oil prices climb amid war",
+    "Oil prices rise another 3 %, while Wall Street drifts in mixed trading"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US stocks drift in…",
+   "one_liner": "US stocks drift in mixed trading as oil prices…",
+   "why_now": null,
+   "details": [
+    "US stocks drift in mixed trading as oil prices climb amid war",
+    "Oil prices rise another 3 %, while Wall Street drifts in mixed trading"
+   ],
+   "effects": [],
+   "visual_type": "wti"
+  },
+  "fact_hash": "368a6a5f58e0ce269461338e5a427998ceb81378"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-22T16:57:18.816312+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c21fbad53c2afa8f1",
+   "title": "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets",
+   "category": "COMMODITY",
+   "shared": []
+  },
+  {
+   "id": "cf8779ee24ba7792e",
+   "title": "Diesel Market Pressure in Europe – Morgan Stanley",
+   "category": "COMMODITY",
+   "shared": []
+  }
+ ]
+}

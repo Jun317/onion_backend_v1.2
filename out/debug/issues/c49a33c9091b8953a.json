@@ -1,0 +1,130 @@
+{
+ "id": "c49a33c9091b8953a",
+ "title": "S & P Global upgrades Pakistan credit rating to  B",
+ "category": "RATE",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 110,
+ "created_at": "2026-07-22T16:53:58.409726+00:00",
+ "last_update": "2026-07-22T16:53:58.413027+00:00",
+ "members": [
+  {
+   "id": "77dccc98be26ea654708e3677edf594e62a5bb99",
+   "source": "tribune.com.pk",
+   "tier": "wire",
+   "url": "https://tribune.com.pk/story/2619639/sp-global-upgrades-pakistans-credit-rating-to-b",
+   "title": "S & P Global upgrades Pakistan credit rating to  B",
+   "published_at": "2026-07-22T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9901
+  },
+  {
+   "id": "7204763ea509c5e3324497b9b66c6efa14bfd0ad",
+   "source": "en.dailypakistan.com.pk",
+   "tier": "wire",
+   "url": "https://en.dailypakistan.com.pk/22-Jul-2026/sp-upgrades-pakistans-sovereign-credit-rating-to-b-outlook-stable",
+   "title": "S & P upgrades Pakistan sovereign credit rating to  B , Outlook Stable",
+   "published_at": "2026-07-22T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9901
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "S & P Global upgrades Pakistan credit rating to  B",
+   "source": "tribune.com.pk",
+   "url": "https://tribune.com.pk/story/2619639/sp-global-upgrades-pakistans-credit-rating-to-b",
+   "at": "2026-07-22T15:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "S & P upgrades Pakistan sovereign credit rating to  B , Outlook Stable",
+   "source": "en.dailypakistan.com.pk",
+   "url": "https://en.dailypakistan.com.pk/22-Jul-2026/sp-upgrades-pakistans-sovereign-credit-rating-to-b-outlook-stable",
+   "at": "2026-07-22T15:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-22T16:54:02.975744+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [],
+   "headlines": [
+    "S & P Global upgrades Pakistan credit rating to  B",
+    "S & P upgrades Pakistan sovereign credit rating to  B , Outlook Stable"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"파키스탄 신용 등급 상향\",\n  \"one_liner\": \"신용 평가 기관인 S&P가 파키스탄의 국가 신용 등급을 B로 올렸어요.\",\n  \"why_now\": \"국가 신용 등급이 오르면 외국에서 돈을 빌리기가 더 쉬워지고 이자도 낮아질 수 있어요.\",\n  \"impact_line\": \"파키스탄에 투자하려는 외국 기업들의 관심이 커질 수 있어요.\",\n  \"details\": [\n    \"S&P는 파키스탄의 신용 등급 전망을 '안정적'으로 유지했어요.\",\n    \"이번 등급 상향은 파키스탄 경제에 긍정적인 신호로 해석될 수 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"파키스탄 정부가 해외에서 돈을 빌릴 때 더 유리한 조건으로 계약할 수 있을 것으로 예상돼요!\",\n    \"파키스탄 경제에 대한 외국인 투자자들의 신뢰가 높아질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"신용 등급\",\n      \"easy\": \"나라나 회사가 돈을 빌리고 갚을 능력이 얼마나 되는지를 나타내는 점수예요.\",\n      \"example\": \"신용 등급이 높으면 돈을 빌리기 쉽고 이자도 적게 내요.\"\n    },\n    {\n      \"term\": \"S&P\",\n      \"easy\": \"세계적인 신용 평가 회사 중 하나로, 나라나 기업의 경제적 능력을 평가해요.\",\n      \"example\": \"S&P는 한국의 신용 등급을 A+로 평가했어요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "S & P Global…",
+   "one_liner": "S & P Global upgrades Pakistan credit rating to  B",
+   "why_now": null,
+   "details": [
+    "S & P Global upgrades Pakistan credit rating to  B",
+    "S & P upgrades Pakistan sovereign credit rating to  B , Outlook Stable"
+   ],
+   "effects": [],
+   "visual_type": "kr_base_rate"
+  },
+  "fact_hash": "20b9e9ad9aee316fff826f9eaf81ceb97a9bbb89"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-07-22T16:54:02.975573+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c826b1c1944a1c619",
+   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "e97a81ef1127b8815",
+   "title": "미 연준 기준금리 변동 (4.08%)",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "cc9931e5da1b53be2",
+   "title": "BOJ dissenter Asada sets bar for supporting next rate hike , wants demand - driven inflation",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c7c0f262265dbe065",
+   "title": "Will interest rates go up next week ? Bank of England key factors and 2026 predictions",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "e77a7b1c911ca1d26",
+   "title": "미 연준 기준금리 변동 (3.62%)",
+   "category": "RATE",
+   "shared": []
+  }
+ ]
+}

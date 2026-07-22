@@ -1,0 +1,131 @@
+{
+ "id": "ccf035417bb47bb31",
+ "title": "Foreign investment recovery shows growing confidence in economy : RBI article",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 90,
+ "created_at": "2026-07-22T16:53:58.400560+00:00",
+ "last_update": "2026-07-22T16:53:58.412823+00:00",
+ "members": [
+  {
+   "id": "c9cdcaba91bc5d5882395f044dfbde5a38e0ef5a",
+   "source": "independent.com.mt",
+   "tier": "wire",
+   "url": "https://www.independent.com.mt/articles/2026-07-22/business-news/MBR-reports-another-year-of-strong-growth-digital-transformation-and-international-recognition-6736291577",
+   "title": "MBR reports another year of strong growth , digital transformation and international recognition",
+   "published_at": "2026-07-22T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9614
+  },
+  {
+   "id": "d5c4dcd9c2718655e57f2f5b43491dafb31de925",
+   "source": "livemint.com",
+   "tier": "wire",
+   "url": "https://www.livemint.com/economy/foreign-investment-recovery-indian-economy-11784725759543.html",
+   "title": "Foreign investment recovery shows growing confidence in economy : RBI article",
+   "published_at": "2026-07-22T14:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9614
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "MBR reports another year of strong growth , digital transformation and international recognition",
+   "source": "independent.com.mt",
+   "url": "https://www.independent.com.mt/articles/2026-07-22/business-news/MBR-reports-another-year-of-strong-growth-digital-transformation-and-international-recognition-6736291577",
+   "at": "2026-07-22T15:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Foreign investment recovery shows growing confidence in economy : RBI article",
+   "source": "livemint.com",
+   "url": "https://www.livemint.com/economy/foreign-investment-recovery-indian-economy-11784725759543.html",
+   "at": "2026-07-22T14:45:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-22T16:54:30.726492+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [],
+   "headlines": [
+    "MBR reports another year of strong growth , digital transformation and international recognition",
+    "Foreign investment recovery shows growing confidence in economy : RBI article"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"외국인 투자 회복\",\n   \"one_liner\": \"외국인 투자가 회복하면서 경제에 대한信頼가 높아지고 있어요\",\n   \"why_now\": \"외국인 투자가 늘면 경제가 좋아지고 일자리가 생기는 게 보통이에요\",\n   \"impact_line\": \"외국인 투자로 일자리와 소득이 증가할 수 있어요\",\n   \"details\": [\n      \"외국인 투자 회복으로 경제에 대한 신뢰가 높아지고 있어요\",\n      \"외국인 투자 증가로 경제 성장에 긍정적 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"외국인 투자 증가로 국내 기업의 수출이 늘어나 경제가 더 성장할 수 있어요!\",\n      \"외국인 투자로 국내 산업이 발전하고 새로운 일자리가 생길 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 에 한자/가나 포함",
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "MBR reports another…",
+   "one_liner": "MBR reports another year of strong growth ,…",
+   "why_now": null,
+   "details": [
+    "MBR reports another year of strong growth , digital transformation and international recognition",
+    "Foreign investment recovery shows growing confidence in economy : RBI article"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "99210092faffa1abd914f9f6b0a466218dfbee6a"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-22T16:54:30.726368+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c4a06e144229d2074",
+   "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c48db748fde00c8f7",
+   "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "cf79c65db98a639fd",
+   "title": "Economist warns consumer pressure to persist as inflation reaches 5 %",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c87753c82e77dfabb",
+   "title": "Michigan governor candidates offer competing plans to improve economic growth in the state",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}
