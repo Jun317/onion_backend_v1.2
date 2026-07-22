@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 43,
- "importance": 70,
+ "importance": 65,
  "created_at": "2026-07-16T06:38:34.933077+00:00",
  "last_update": "2026-07-18T09:04:40.710496+00:00",
  "members": [
@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-22T03:56:27.926429+00:00",
+  "created_at": "2026-07-22T09:46:59.900908+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,12 +881,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"다양한 뉴스 요약\",\n    \"one_liner\": \"은퇴 후 무엇을 해야 할지, 일광 절약 시간에 대한 논의 등 다양한 주제의 뉴스가 나왔어요.\",\n    \"why_now\": \"일상생활과 관련된 여러 분야의 소식들이 모여 현재 사회의 관심사를 보여주고 있어요.\",\n    \"impact_line\": null,\n    \"details\": [\n        \"은퇴 후의 삶에 대한 뉴스가 나왔어요.\",\n        \"일광 절약 시간(DST)에 대한 논의가 있어요.\",\n        \"파키스탄의 특정 이슈에 대한 뉴스가 있어요.\",\n        \"미국 환경보호청(EPA)의 권한 남용에 대한 법안 기회가 언급되었어요.\",\n        \"글래스고의 저녁 6시 문제와 해결책에 대한 뉴스가 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [],\n    \"glossary\": [\n        {\n            \"term\": \"일광 절약 시간(DST)\",\n            \"easy\": \"여름철에 해가 더 길 때 시계를 한 시간 앞으로 당겨서 사용하는 제도예요.\",\n            \"example\": \"DST를 시행하면 저녁에 해가 더 늦게까지 떠 있어서 활동 시간을 늘릴 수 있어요.\"\n        },\n        {\n            \"term\": \"미국 환경보호청(EPA)\",\n            \"easy\": \"미국에서 환경 관련 정책을 만들고 집행하는 정부 기관이에요.\",\n            \"example\": \"EPA는 공장 매연이나 자동차 배기가스 같은 환경 오염을 규제해요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 50자 초과(51)",
+     "effects 1~2문장 아님"
     ]
    }
   ],
@@ -905,20 +912,26 @@
   "fact_hash": "1c5622990e16ff243c1b4bef05abcc720dc2860f"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-22T03:56:27.926314+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(51)\", \"effects 1~2문장 아님\"]}]}",
+  "at": "2026-07-22T09:46:59.900854+00:00"
  },
  "glossary": [],
  "related": [
   {
-   "id": "c056f9f5d12119616",
-   "title": "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary",
+   "id": "c6f9e57edbc5d69b6",
+   "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
    "category": "GEO",
    "shared": []
   },
   {
    "id": "ca7e18652a27e4c6f",
    "title": "Left - leaning group says state faces affordability crisis",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "c8f5a9e98f41d332f",
+   "title": "Amazon may be losing its biggest competitive edge",
    "category": "GEO",
    "shared": []
   },
@@ -931,12 +944,6 @@
   {
    "id": "c7f9a22157d5febb4",
    "title": "EU forces Google to share search data and open Android to rival AI companies",
-   "category": "GEO",
-   "shared": []
-  },
-  {
-   "id": "c07b96dec1186f74b",
-   "title": "Hanson billionaire friendship could prompt backlash",
    "category": "GEO",
    "shared": []
   }

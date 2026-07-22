@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-22T03:55:32.671569+00:00",
+  "created_at": "2026-07-22T09:45:58.524885+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,12 +881,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"주요 증시 혼조세\",\n  \"one_liner\": \"미국과 독일 증시는 올랐지만, 한국과 말레이시아 증시는 내렸어요.\",\n  \"why_now\": \"국제 정세 불안 속에서도 일부 국가 증시는 상승했지만, 차익 실현 매물이 나오며 하락한 곳도 있어요.\",\n  \"impact_line\": \"투자한 주식의 가치가 오르거나 내릴 수 있어요.\",\n  \"details\": [\n    \"미국 다우존스 지수는 0.5% 가까이 상승했어요.\",\n    \"독일 증시도 상승세를 보였어요.\",\n    \"한국 증시는 은행주 차익 실현 매물로 하락 마감했어요.\",\n    \"말레이시아 증시도 하락했어요.\"\n  ],\n  \"visual_type\": \"kospi_close\",\n  \"effects\": [\n    \"국제 유가나 원자재 가격이 오르내릴 수 있어요!\",\n    \"기업들의 수출입 활동에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"차익 실현\",\n      \"easy\": \"주식을 사서 오른 가격에 팔아 이익을 얻는 것을 말해요.\",\n      \"example\": \"주가가 많이 올라서 차익 실현을 위해 일부 팔았어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [0.5]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(56)",
+     "입력에 없는 숫자: [0.5]"
     ]
    }
   ],
@@ -905,8 +912,8 @@
   "fact_hash": "06eace578657fbb23ead9cbab221f891cff08a69"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-22T03:55:32.671506+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [0.5]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(56)\", \"입력에 없는 숫자: [0.5]\"]}]}",
+  "at": "2026-07-22T09:45:58.524834+00:00"
  },
  "glossary": [],
  "related": [

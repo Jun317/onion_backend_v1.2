@@ -38,7 +38,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-22T03:55:51.130278+00:00",
+  "created_at": "2026-07-22T09:46:15.991669+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [
@@ -57,12 +57,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"D램 가격 급등\",\n  \"one_liner\": \"1분기 D램 가격이 90% 올랐어요.\",\n  \"why_now\": \"D램은 컴퓨터, 스마트폰 등에 쓰이는 핵심 부품이라 가격이 오르면 관련 제품 가격도 오를 수 있어요.\",\n  \"impact_line\": \"컴퓨터, 스마트폰 가격이 오를 수 있어요.\",\n  \"details\": [\n    \"1분기 D램 가격이 90% 상승했어요.\",\n    \"이는 업계 집계에 따른 수치예요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"D램 가격 상승은 스마트폰, 컴퓨터 등 IT 기기 제조사의 원가 부담을 늘릴 수 있어요!\",\n    \"이는 최종 소비재 가격 인상으로 이어질 가능성이 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"D램\",\n      \"easy\": \"컴퓨터나 스마트폰의 정보를 잠시 저장하는 데 쓰이는 반도체예요.\",\n      \"example\": \"D램 가격이 오르면 컴퓨터 가격도 오를 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "why_now 55자 초과(56)",
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(56)",
+     "details 3문장 미만"
     ]
    }
   ],
@@ -79,8 +87,8 @@
   "fact_hash": "8bc748bb7671382af1aba23d625a5e5f4f7405c3"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-22T03:55:51.130186+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(56)\", \"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(56)\", \"details 3문장 미만\"]}]}",
+  "at": "2026-07-22T09:46:15.991596+00:00"
  },
  "glossary": [],
  "related": [

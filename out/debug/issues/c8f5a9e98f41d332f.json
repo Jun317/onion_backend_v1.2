@@ -1,0 +1,132 @@
+{
+ "id": "c8f5a9e98f41d332f",
+ "title": "Amazon may be losing its biggest competitive edge",
+ "category": "GEO",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "AMZN"
+ ],
+ "seen_sources": 2,
+ "importance": 95,
+ "created_at": "2026-07-22T09:44:56.800197+00:00",
+ "last_update": "2026-07-22T09:44:56.801456+00:00",
+ "members": [
+  {
+   "id": "a59dcede69b4aab853ce7e942f36e0011652824d",
+   "source": "smh.com.au",
+   "tier": "wire",
+   "url": "https://www.smh.com.au/world/europe/russian-amazon-hit-by-more-massive-ukrainian-strikes-20260722-p60hnt.html",
+   "title": "Russia - Ukraine war :  Russian Amazon  hit by more massive strikes",
+   "published_at": "2026-07-22T08:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9614
+  },
+  {
+   "id": "094a564c1e87d3f668a010adc77cfd1f026c1951",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/small-business/articles/amazon-may-losing-biggest-competitive-000300108.html",
+   "title": "Amazon may be losing its biggest competitive edge",
+   "published_at": "2026-07-21T00:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9614
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Russia - Ukraine war :  Russian Amazon  hit by more massive strikes",
+   "source": "smh.com.au",
+   "url": "https://www.smh.com.au/world/europe/russian-amazon-hit-by-more-massive-ukrainian-strikes-20260722-p60hnt.html",
+   "at": "2026-07-22T08:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Amazon may be losing its biggest competitive edge",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/small-business/articles/amazon-may-losing-biggest-competitive-000300108.html",
+   "at": "2026-07-21T00:30:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-22T09:45:08.489912+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Russia - Ukraine war :  Russian Amazon  hit by more massive strikes",
+    "Amazon may be losing its biggest competitive edge"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"러시아 아마존 공격\",\n   \"one_liner\": \"러시아의 아마존이 대규모 공격을 받았어요\",\n   \"why_now\": \"러시아와 우크라이나의 전쟁이 기업에 영향을 미치는 중이에요\",\n   \"impact_line\": \"온라인 쇼핑 가격이 오를 수 있어요\",\n   \"details\": [\n       \"러시아의 아마존이 공격을 받았어요\",\n       \"러시아와 우크라이나의 전쟁이 장기화하면서 기업에 영향을 미치고 있어요\",\n       \"아마존의 경쟁 우위가 사라질 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"러시아 아마존의 공격으로 물류가 느려져 소비자들이 불편을 겪을 수 있어요!\",\n       \"아마존의 경쟁 우위가 사라지면 다른 기업이 성장할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(60)",
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "러시아 아마존 공격",
+   "one_liner": "러시아의 아마존이 대규모 공격을 받았어요",
+   "why_now": "러시아와 우크라이나의 전쟁이 기업에 영향을 미치는 중이에요",
+   "details": [
+    "러시아의 아마존이 공격을 받았어요",
+    "러시아와 우크라이나의 전쟁이 장기화하면서 기업에 영향을 미치고 있어요",
+    "아마존의 경쟁 우위가 사라질 수 있어요"
+   ],
+   "effects": [
+    "러시아 아마존의 공격으로 물류가 느려져 소비자들이 불편을 겪을 수 있어요!",
+    "아마존의 경쟁 우위가 사라지면 다른 기업이 성장할 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "bd8a87713f8e8ec49430d11be5d73e427a7a833d"
+ },
+ "review": null,
+ "glossary": [],
+ "related": [
+  {
+   "id": "c6f9e57edbc5d69b6",
+   "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "ca7e18652a27e4c6f",
+   "title": "Left - leaning group says state faces affordability crisis",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "c2b970d1e19010174",
+   "title": "Global threats underestimated by investors , warns JPMorgan CEO Jamie Dimon ( JPM : NYSE )",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "c7f9a22157d5febb4",
+   "title": "EU forces Google to share search data and open Android to rival AI companies",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "c07b96dec1186f74b",
+   "title": "Hanson billionaire friendship could prompt backlash",
+   "category": "GEO",
+   "shared": []
+  }
+ ]
+}

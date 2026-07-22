@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-22T03:56:46.323772+00:00",
+  "created_at": "2026-07-22T09:46:29.804951+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,12 +881,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"기업 실적 발표\", \"one_liner\": \"여러 기업들이 최근 실적을 발표했어요.\", \"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\", \"impact_line\": null, \"details\": [\"스틸 다이내믹스가 2분기 실적 발표를 했어요.\", \"메이븐 인컴 앤 그로스 VCT 3도 실적 결과를 공개했어요.\"], \"visual_type\": \"earnings_quarterly\", \"effects\": [], \"glossary\": [{\"term\": \"실적\", \"easy\": \"회사가 얼마나 돈을 벌고 썼는지 보여주는 결과예요.\", \"example\": \"이번 실적이 좋으면 주가가 오를 수 있어요.\"}, {\"term\": \"VCT\", \"easy\": \"영국에서 투자자들의 세금 혜택을 위해 만들어진 투자 회사예요.\", \"example\": \"VCT는 배당금을 많이 주는 편이에요.\"}}]}], \"impact_line\": null}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "JSON 파스 실패"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "JSON 파스 실패"
     ]
    }
   ],
@@ -905,8 +911,8 @@
   "fact_hash": "7ab2d3bee58ad8a025216aeb8f758a6fde161454"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-22T03:56:46.323714+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"JSON 파스 실패\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"JSON 파스 실패\"]}]}",
+  "at": "2026-07-22T09:46:29.804893+00:00"
  },
  "glossary": [],
  "related": [
