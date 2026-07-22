@@ -2,18 +2,28 @@
  "id": "c056f9f5d12119616",
  "title": "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary",
  "category": "GEO",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "SEC"
  ],
- "seen_sources": 1,
- "importance": 95,
+ "seen_sources": 2,
+ "importance": 100,
  "created_at": "2026-07-21T18:46:21.177191+00:00",
- "last_update": "2026-07-21T22:16:42.868093+00:00",
+ "last_update": "2026-07-22T00:13:50.502789+00:00",
  "members": [
+  {
+   "id": "0dfc78009b4b73b4b846fce352eb202d72b6c358",
+   "source": "arabnews.com",
+   "tier": "wire",
+   "url": "https://www.arabnews.com/node/2651814/world",
+   "title": "Antonio Guterres to visit Syria ; first by a UN secretary - general since 2009",
+   "published_at": "2026-07-21T23:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8568
+  },
   {
    "id": "dc52566e448c08652a89da944305b4932a35ad7f",
    "source": "breakingnews.ie",
@@ -22,7 +32,7 @@
    "title": "Streeting says he wants to make united kingdom prepared to win wars as defence secretary",
    "published_at": "2026-07-21T20:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9967
+   "sim_to_centroid": 0.9956
   },
   {
    "id": "8e786814a3807aa633490342b4fe675534446043",
@@ -32,7 +42,7 @@
    "title": "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary",
    "published_at": "2026-07-21T17:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9999
+   "sim_to_centroid": 0.9982
   },
   {
    "id": "da81d23806311ee68febbea65b322ab9e53886be",
@@ -42,7 +52,7 @@
    "title": "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary",
    "published_at": "2026-07-21T17:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9999
+   "sim_to_centroid": 0.9982
   },
   {
    "id": "686fe8a5aa2fc50b95afc8ceb6a59761942507ed",
@@ -52,7 +62,7 @@
    "title": "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary",
    "published_at": "2026-07-21T17:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9999
+   "sim_to_centroid": 0.9982
   },
   {
    "id": "1441a20130a4d39e77bb449672c9e197dc3dbcf9",
@@ -62,7 +72,7 @@
    "title": "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary",
    "published_at": "2026-07-21T17:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9999
+   "sim_to_centroid": 0.9982
   },
   {
    "id": "075ae581a82af812b153138c6ab21fda9cdfeb4d",
@@ -72,11 +82,18 @@
    "title": "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary",
    "published_at": "2026-07-21T17:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9999
+   "sim_to_centroid": 0.9982
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Antonio Guterres to visit Syria ; first by a UN secretary - general since 2009",
+   "source": "arabnews.com",
+   "url": "https://www.arabnews.com/node/2651814/world",
+   "at": "2026-07-21T23:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Streeting says he wants to make united kingdom prepared to win wars as defence secretary",
@@ -120,7 +137,42 @@
    "at": "2026-07-21T17:30:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-22T00:13:51.775392+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Antonio Guterres to visit Syria ; first by a UN secretary - general since 2009",
+    "Streeting says he wants to make united kingdom prepared to win wars as Defence Secretary"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"유엔 총장 시리아 방문\",\n   \"one_liner\": \"유엔의 안토니오 구테흐스 총장이 시리아를 방문했어요\",\n   \"why_now\": \"유엔 총장이 시리아를 방문한 것은 2009년 이후 처음이에요\",\n   \"impact_line\": \"시리아의 평화 협상에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"안토니오 구테흐스 유엔 총장이 시리아를 방문했어요\",\n       \"유엔 총장이 시리아를 방문한 것은 2009년 이후 처음이에요\",\n       \"영국 국방장관이 영국을 전쟁에 준비시키고 싶다고 했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"시리아의 평화 협상이 진전될 수 있어요!\",\n       \"유엔의 역할이 중요해질 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "유엔 총장 시리아 방문",
+   "one_liner": "유엔의 안토니오 구테흐스 총장이 시리아를 방문했어요",
+   "why_now": "유엔 총장이 시리아를 방문한 것은 2009년 이후 처음이에요",
+   "details": [
+    "안토니오 구테흐스 유엔 총장이 시리아를 방문했어요",
+    "유엔 총장이 시리아를 방문한 것은 2009년 이후 처음이에요",
+    "영국 국방장관이 영국을 전쟁에 준비시키고 싶다고 했어요"
+   ],
+   "effects": [
+    "시리아의 평화 협상이 진전될 수 있어요!",
+    "유엔의 역할이 중요해질 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "947201b6d08bb9b4b1f3ec840f63d6aa52724d51"
+ },
  "review": null,
  "glossary": [],
  "related": [
