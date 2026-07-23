@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-23T18:42:59.367246+00:00",
+  "created_at": "2026-07-23T22:29:59.124162+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,7 +881,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"기업 투자 및 인수 관련 소식\",\n  \"one_liner\": \"여러 기업에서 투자, 인수, 그리고 자산 가치 평가에 대한 소식이 나왔어요.\",\n  \"why_now\": \"기업들의 투자 결정은 경제 상황과 미래 전망을 보여주는 중요한 지표가 될 수 있어요.\",\n  \"impact_line\": \"기업들의 투자 소식은 관련 산업의 성장 가능성을 보여줄 수 있어요.\",\n  \"details\": [\n    \"프롤로지스가 영국의 시그로를 인수하기 위해 187억 달러를 제안했어요.\",\n    \"BP의 셰일 사업 가치가 240억 달러 이상이라는 분석이 나왔어요.\",\n    \"투자자들이 PPL 주식에 대한 콜옵션을 대량으로 매수했어요.\",\n    \"말레이시아 연기금(KWAP)이 eFishery 투자 손실 관련 서류를 검토 중이에요.\",\n    \"블랙록 스몰러 컴퍼니스 트러스트가 포트폴리오 업데이트 소식을 전했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"대규모 인수합병 시도는 관련 시장의 경쟁 구도에 영향을 줄 수 있어요!\",\n    \"기업의 투자 결정은 해당 산업의 성장 전망을 밝게 하거나 어둡게 할 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"콜옵션\",\n      \"easy\": \"미래에 특정 가격으로 주식을 살 수 있는 권리를 미리 사는 계약이에요.\",\n      \"example\": \"주가가 크게 오를 것 같을 때 콜옵션을 사서 이익을 볼 수 있어요.\"\n    },\n    {\n      \"term\": \"포트폴리오\",\n      \"easy\": \"투자자들이 여러 종류의 자산에 나누어 투자한 전체 목록을 말해요.\",\n      \"example\": \"주식, 채권, 부동산 등 다양한 자산으로 포트폴리오를 구성할 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n    \"title\": \"프롤로지스, 세그로 인수 최종 제안\",\n    \"one_liner\": \"프롤로지스가 영국 세그로 인수를 위해 187억 달러를 최종 제안했어요.\",\n    \"why_now\": \"기업 인수합병은 관련 산업의 판도를 바꾸고 주가에 큰 영향을 줄 수 있어요.\",\n    \"impact_line\": \"관련 기업들의 주가 변동성이 커질 수 있어요.\",\n    \"details\": [\n        \"프롤로지스가 세그로에 187억 달러를 최종 제안했어요.\",\n        \"세그로는 영국에 본사를 둔 부동산 회사예요.\",\n        \"프롤로지스는 물류 시설 개발 및 임대 사업을 하는 회사예요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"이번 인수가 성공하면 물류 부동산 시장의 경쟁 구도가 바뀔 수 있어요!\",\n        \"관련 기업들의 주가에 영향을 줄 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"인수\",\n            \"easy\": \"다른 회사의 주식이나 자산을 사들여 경영권을 얻는 것을 말해요.\",\n            \"example\": \"삼성전자가 하만을 인수한 것처럼, 큰 회사가 작은 회사를 사들이는 경우가 많아요.\"\n        }\n    ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
@@ -890,9 +890,9 @@
     ]
    },
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [187.0]"
     ]
    }
   ],
@@ -911,8 +911,8 @@
   "fact_hash": "788e7d46f43fc0b46e49fc6b223c00a6ad6bf84e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [187.0, 240.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-23T18:42:59.367125+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [187.0, 240.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [187.0]\"]}]}",
+  "at": "2026-07-23T22:29:59.124029+00:00"
  },
  "glossary": [
   {
@@ -941,14 +941,14 @@
    "shared": []
   },
   {
-   "id": "cffd7c8f2798f47bf",
-   "title": "Walmart , Costco and Richemont deliver lasting value",
+   "id": "c2e1f0924eab58cb9",
+   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c26db649df2243106",
-   "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
+   "id": "cffd7c8f2798f47bf",
+   "title": "Walmart , Costco and Richemont deliver lasting value",
    "category": "EARNINGS",
    "shared": []
   }

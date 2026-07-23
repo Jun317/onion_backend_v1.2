@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-23T18:43:55.324714+00:00",
+  "created_at": "2026-07-23T22:30:54.318028+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,8 +881,16 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"파키스탄 기술 수출 사상 최대\",\n  \"one_liner\": \"파키스탄의 기술 수출액이 46억 달러로 역대 최고치를 기록했어요.\",\n  \"why_now\": \"기술 수출 증가는 국가 경제 성장에 긍정적인 신호로 해석될 수 있어요.\",\n  \"impact_line\": \"파키스탄의 기술 산업이 성장하며 관련 일자리가 늘어날 수 있어요.\",\n  \"details\": [\n    \"파키스탄의 기술 수출액이 46억 달러에 달했어요.\",\n    \"이는 사상 최대 규모의 기록이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [],\n  \"glossary\": [],\n  \"impact_line\": null\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님",
+     "입력에 없는 숫자: [46.0]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +913,8 @@
   "fact_hash": "b8f918054c7b646a2332d82b6290d43d421d52b0"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-23T18:43:55.324595+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\", \"입력에 없는 숫자: [46.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-23T22:30:54.317906+00:00"
  },
  "glossary": [],
  "related": [
