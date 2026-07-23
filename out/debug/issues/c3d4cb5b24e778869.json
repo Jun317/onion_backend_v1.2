@@ -136,8 +136,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T09:44:37.349496+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-23T14:39:26.528389+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -150,31 +150,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 인구 증가 전망\",\n  \"one_liner\": \"미국 네바다주 라스베이거스 지역의 인구 300만 명 돌파 시점이 2055년으로 늦춰졌어요.\",\n  \"why_now\": \"인구 증가는 지역 경제 성장과 소비 활동에 큰 영향을 미치기 때문이에요.\",\n  \"impact_line\": \"지역 경제 활력이 예상보다 더뎌질 수 있어요.\",\n  \"details\": [\n    \"라스베이거스를 포함하는 클라크 카운티의 인구 증가 전망이 나왔어요.\",\n    \"당초 예상보다 300만 명 돌파 시점이 늦춰졌어요.\",\n    \"UNLV(네바다 라스베이거스 대학교)의 예측이에요.\",\n    \"2055년까지 300만 명을 넘어설 것으로 예상돼요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"지역 내 소비와 부동산 수요 증가가 예상보다 더딜 수 있어요!\",\n    \"새로운 일자리 창출 속도도 느려질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"UNLV\",\n      \"easy\": \"미국 네바다주 라스베이거스에 있는 대학교예요.\",\n      \"example\": \"UNLV는 지역 경제 발전에 기여하는 연구를 많이 해요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"여러 나라 소식\",\n   \"one_liner\": \"여러 나라에서 다양한 일이 있었어요.\",\n   \"why_now\": \"세계는 서로 연결되어 있기 때문에 다른 나라 일이 우리에게 영향을 줄 수 있어요.\",\n   \"impact_line\": \"국제 상황이 우리나라 경제에 영향을 줄 수 있어요.\",\n   \"details\": [\n      \"미국에서 도날드 트럼프에 대한 글을 읽을 수 있어요.\",\n      \"인도에서 켄-베투아 프로젝트와 차바하르 항에 대해 알 수 있어요.\",\n      \"레바논의 체하비즘과 비전 2030에 대해 읽을 수 있어요.\",\n      \"파키스탄의 금 가격을 확인할 수 있어요.\",\n      \"클라크 카운티 인구 예측에 대해 알 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"세계 경제가 좋으면 우리나라 경제에도 도움이 될 수 있어요!\",\n      \"국제 상황이 안 좋으면 우리나라에도 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [300.0]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [300.0]"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Calgary Sun Letters…",
-   "one_liner": "Calgary Sun Letters , July 22 , 2026 :  Trump…",
-   "why_now": null,
+   "title": "여러 나라 소식",
+   "one_liner": "여러 나라에서 다양한 일이 있었어요.",
+   "why_now": "세계는 서로 연결되어 있기 때문에 다른 나라 일이 우리에게 영향을 줄 수 있어요.",
    "details": [
-    "Calgary Sun Letters , July 22 , 2026 :  Trump the ultimate bully",
-    "UPSC Key - 22nd July 2026 : Ken - Betwa Link Project , Chabahar Port and National Song",
-    "Chehabism and Vision 2030 : When the state becomes a project of reform and transformation"
+    "미국에서 도날드 트럼프에 대한 글을 읽을 수 있어요.",
+    "인도에서 켄-베투아 프로젝트와 차바하르 항에 대해 알 수 있어요.",
+    "레바논의 체하비즘과 비전 2030에 대해 읽을 수 있어요.",
+    "파키스탄의 금 가격을 확인할 수 있어요.",
+    "클라크 카운티 인구 예측에 대해 알 수 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "세계 경제가 좋으면 우리나라 경제에도 도움이 될 수 있어요!",
+    "국제 상황이 안 좋으면 우리나라에도 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "b7974666ef9bfb8aa4fb3799d620abdc80fc9af9"
