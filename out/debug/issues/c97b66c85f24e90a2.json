@@ -221,42 +221,44 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T03:56:59.380667+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-23T09:46:07.139148+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
     "GK Capital launches AI investment research platform",
     "Pepkor creates R21 . 3bn fintech platform with IPO ambitions",
+    "Pepkor doubles down on informal economy with plans for fintech listing",
     "Oil , LNG and AI drive new energy opportunities",
-    "NYC Startup Raise $8 . 88B in Q2 2026 – Best Capital Quarter Since 2021 – as AI and Fintech Megadeals Reshape the Market",
-    "Anthropic pours another $20 million into AI safety group"
+    "NYC Startup Raise $8 . 88B in Q2 2026 – Best Capital Quarter Since 2021 – as AI and Fintech Megadeals Reshape the Market"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"AI·핀테크 투자 활발\",\n  \"one_liner\": \"인공지능과 금융 기술 분야의 투자 유치가 크게 늘었어요.\",\n  \"why_now\": \"새로운 기술에 대한 기대감이 커지면서 관련 기업들의 자금 조달이 활발해지고 있어요.\",\n  \"impact_line\": \"미래 유망 기술에 대한 투자가 늘어나고 있다는 신호예요.\",\n  \"details\": [\n    \"인공지능과 금융 기술 분야에서 대규모 투자 소식이 이어지고 있어요.\",\n    \"올해 2분기 뉴욕 지역 스타트업들이 88억 8천만 달러를 유치했어요.\",\n    \"이는 2021년 이후 가장 많은 금액이에요.\",\n    \"특히 인공지능과 금융 기술 분야의 대형 거래가 시장을 주도하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"인공지능과 금융 기술 관련 기업들의 성장이 가속화될 수 있어요!\",\n    \"이 분야의 새로운 서비스와 상품이 더 많이 나올 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AI\",\n      \"easy\": \"인공지능은 컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n      \"example\": \"인공지능 스피커가 날씨를 알려주고 음악을 틀어줘요.\"\n    },\n    {\n      \"term\": \"핀테크\",\n      \"easy\": \"금융 기술은 컴퓨터와 인터넷을 이용해 더 편리한 금융 서비스를 만드는 거예요.\",\n      \"example\": \"스마트폰으로 간편하게 송금하는 서비스가 핀테크의 한 예예요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "GK Capital launches…",
-   "one_liner": "GK Capital launches AI investment research…",
-   "why_now": null,
+   "title": "AI·핀테크 투자 활발",
+   "one_liner": "인공지능과 금융 기술 분야의 투자 유치가 크게 늘었어요.",
+   "why_now": "새로운 기술에 대한 기대감이 커지면서 관련 기업들의 자금 조달이 활발해지고 있어요.",
    "details": [
-    "GK Capital launches AI investment research platform",
-    "Pepkor creates R21 . 3bn fintech platform with IPO ambitions",
-    "Oil , LNG and AI drive new energy opportunities"
+    "인공지능과 금융 기술 분야에서 대규모 투자 소식이 이어지고 있어요.",
+    "올해 2분기 뉴욕 지역 스타트업들이 88억 8천만 달러를 유치했어요.",
+    "이는 2021년 이후 가장 많은 금액이에요.",
+    "특히 인공지능과 금융 기술 분야의 대형 거래가 시장을 주도하고 있어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "인공지능과 금융 기술 관련 기업들의 성장이 가속화될 수 있어요!",
+    "이 분야의 새로운 서비스와 상품이 더 많이 나올 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "97c74d71cb9df5370529106d4e3b0a270dc78f20"
+  "fact_hash": "8d471ea24c6a20e606c61a9f339264e41f7b59d2"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

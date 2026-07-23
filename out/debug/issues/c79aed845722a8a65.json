@@ -69,7 +69,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-23T03:57:36.204715+00:00",
+  "created_at": "2026-07-23T09:46:39.045138+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -80,8 +80,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"전기 도매 가격 하락\",\n\"one_liner\": \"중동 지역의 긴장이 완화되면서 전기 도매 가격이 떨어졌어요.\",\n\"why_now\": \"국제 유가가 안정되면 전기 생산 비용이 줄어 장바구니 물가 안정에 도움이 될 수 있어요.\",\n\"impact_line\": \"국제 유가가 안정되면 전기 요금 인상 압력이 줄어들 수 있어요.\",\n\"details\": [\n\"중동 지역의 위기가 완화될 조짐을 보이면서 전기 도매 가격이 하락했어요.\",\n\"지난 6월 연간 전기 도매 가격은 42% 상승했었어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"국제 유가가 안정되면 전기 생산 비용이 줄어 장바구니 물가 안정에 도움이 될 수 있어요!\"\n],\n\"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -104,8 +110,8 @@
   "fact_hash": "efff8b83592d12202609e34c2cb96c22e100e9af"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-23T03:57:36.204635+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-23T09:46:39.045085+00:00"
  },
  "glossary": [],
  "related": [

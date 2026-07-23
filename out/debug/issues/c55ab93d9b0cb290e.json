@@ -85,8 +85,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T03:56:04.047514+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-23T09:45:10.855352+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -98,25 +98,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"중간선거의 대통령 징크스\",\n\"one_liner\": \"미국 중간선거에서 현직 대통령의 지지율이 낮아지는 징크스가 나타나고 있어요.\",\n\"why_now\": \"중간선거는 대통령의 국정 운영에 대한 중간 평가 성격을 띠기 때문에 중요해요.\",\n\"impact_line\": \"대통령의 지지율 하락은 국정 운영 동력 약화로 이어질 수 있어요.\",\n\"details\": [\n\"미국 중간선거에서 대통령의 지지율이 낮아지는 징크스가 나타나고 있어요.\",\n\"이는 대통령의 국정 운영에 대한 중간 평가 성격을 띠고 있어요.\",\n\"이번 중간선거에서는 두 주요 정당 모두 혼란스러운 예비선거를 치렀어요.\",\n\"경제 문제에 대한 우려가 유권자들의 표심에 영향을 미칠 수 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"대통령의 국정 운영 동력이 약화될 수 있어요!\",\n\"향후 정책 추진에 어려움을 겪을 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"중간선거\",\n\"easy\": \"미국에서 대통령 임기 중간에 치러지는 선거를 말해요.\",\n\"example\": \"중간선거 결과에 따라 대통령의 국정 운영 동력이 달라질 수 있어요.\"\n}\n],\n\"impact_line\": \"대통령의 지지율 하락은 국정 운영 동력 약화로 이어질 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Presidential History…",
-   "one_liner": "Presidential History : The president midterm…",
-   "why_now": null,
+   "title": "중간선거의 대통령 징크스",
+   "one_liner": "미국 중간선거에서 현직 대통령의 지지율이 낮아지는 징크스가 나타나고 있어요.",
+   "why_now": "중간선거는 대통령의 국정 운영에 대한 중간 평가 성격을 띠기 때문에 중요해요.",
    "details": [
-    "Presidential History : The president midterm jinx – Daily Press",
-    "Presidential History : The president midterm jinx – The Virginian - Pilot",
-    "Messy primaries plague both major political parties , causing chaos and confusion in the midterms"
+    "미국 중간선거에서 대통령의 지지율이 낮아지는 징크스가 나타나고 있어요.",
+    "이는 대통령의 국정 운영에 대한 중간 평가 성격을 띠고 있어요.",
+    "이번 중간선거에서는 두 주요 정당 모두 혼란스러운 예비선거를 치렀어요.",
+    "경제 문제에 대한 우려가 유권자들의 표심에 영향을 미칠 수 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "대통령의 국정 운영 동력이 약화될 수 있어요!",
+    "향후 정책 추진에 어려움을 겪을 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "6f8f720d4d55f67a7e5af7c7dd6250dc0ae036d5"
@@ -152,8 +154,8 @@
    "shared": []
   },
   {
-   "id": "c7f9a22157d5febb4",
-   "title": "EU forces Google to share search data and open Android to rival AI companies",
+   "id": "c3d4cb5b24e778869",
+   "title": "Calgary Sun Letters , July 22 , 2026 :  Trump the ultimate bully",
    "category": "GEO",
    "shared": []
   }

@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-23T03:56:22.513508+00:00",
+  "created_at": "2026-07-23T09:45:25.139008+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,12 +881,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"파키스탄 기술 수출 기록 달성\",\n\"one_liner\": \"파키스탄의 기술 수출이 46억 달러로 역대 최고치를 기록했어요.\",\n\"why_now\": \"기술 수출은 나라의 경제 성장과 일자리 창출에 중요한 역할을 해요.\",\n\"impact_line\": \"파키스탄의 기술 기업들이 더 많은 해외 고객을 확보할 수 있어요.\",\n\"details\": [\n\"파키스탄의 기술 수출액이 46억 달러에 달했어요.\",\n\"이는 역대 최고 기록입니다.\",\n\"기술 수출은 국가 경제에 긍정적인 영향을 줄 수 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"기술 수출 증가는 파키스탄의 외화 수입을 늘려 경제 성장에 기여할 수 있어요!\",\n\"이는 더 많은 해외 투자와 일자리 창출로 이어질 가능성이 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"기술 수출\",\n\"easy\": \"나라의 기술이나 기술 서비스가 해외로 판매되는 것을 말해요.\",\n\"example\": \"한국의 IT 기술이 해외 기업에 판매되는 것이 기술 수출이에요.\"\n}\n],\n\"impact_line\": \"파키스탄의 기술 기업들이 해외 시장에서 더 많은 기회를 얻을 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [46.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details[1] 어요체 아님",
+     "입력에 없는 숫자: [46.0]"
     ]
    }
   ],
@@ -905,8 +912,8 @@
   "fact_hash": "b8f918054c7b646a2332d82b6290d43d421d52b0"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-23T03:56:22.513404+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [46.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[1] 어요체 아님\", \"입력에 없는 숫자: [46.0]\"]}]}",
+  "at": "2026-07-23T09:45:25.138910+00:00"
  },
  "glossary": [],
  "related": [
@@ -935,8 +942,8 @@
    "shared": []
   },
   {
-   "id": "c7f9a22157d5febb4",
-   "title": "EU forces Google to share search data and open Android to rival AI companies",
+   "id": "c3d4cb5b24e778869",
+   "title": "Calgary Sun Letters , July 22 , 2026 :  Trump the ultimate bully",
    "category": "GEO",
    "shared": []
   }

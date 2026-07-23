@@ -290,7 +290,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-23T03:58:31.605209+00:00",
+  "created_at": "2026-07-23T09:47:46.959505+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -303,8 +303,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"트럼프 관세 정책 논란\", \"one_liner\": \"트럼프 전 대통령의 관세 정책에 대한 논란이 계속되고 있어요.\", \"why_now\": \"과거 트럼프 전 대통령이 사용했던 관세 정책이 다시 주목받고 있어요.\", \"impact_line\": null, \"details\": [\"트럼프 전 대통령의 관세 정책이 '대공황 시대의 도구'로 불리고 있어요.\", \"이 정책이 가져온 논란과 영향에 대한 분석이 나오고 있어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"관세\", \"easy\": \"나라 밖에서 물건을 들여올 때 내는 세금이에요.\", \"example\": \"수입 자동차에 관세를 붙이면 국산 자동차 가격 경쟁력이 높아져요.\"}]}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -327,8 +334,8 @@
   "fact_hash": "4b87f7e6fcf6fa0b452ac2a54c577ff534d0a4b2"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-23T03:58:31.605147+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-23T09:47:46.959445+00:00"
  },
  "glossary": [],
  "related": [

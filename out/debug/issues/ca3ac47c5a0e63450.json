@@ -680,8 +680,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T03:55:45.630893+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-23T09:45:06.663023+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -690,38 +690,57 @@
     "Investors Could Be Missing The Next Big Market Risk",
     "AI Investors Must Keep This Threat in Mind",
     "Price Prediction : Joby Aviation Will End The Year at This Price",
-    "Prediction : This Stock Could Become a Leader in Advanced Nuclear Energy"
+    "Rate hike on the table after surprise jump in jobs"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"미국 고용 시장 변화\",\n\"one_liner\": \"미국의 고용 시장이 예상보다 뜨거워 금리 인상 가능성이 제기되고 있어요.\",\n\"why_now\": \"고용 시장은 경기를 보여주는 중요한 지표로, 금리 결정에 큰 영향을 미치기 때문이에요.\",\n\"impact_line\": \"금리가 오르면 대출 이자가 늘어날 수 있어요.\",\n\"details\": [\n\"미국의 고용 지표가 예상보다 강하게 나왔어요.\",\n\"이로 인해 금리를 더 올려야 할 수도 있다는 전망이 나와요.\",\n\"투자자들은 시장의 새로운 위험 요소를 주의해야 할 수 있어요.\",\n\"인공지능 관련 투자자들도 특정 위험을 염두에 두어야 해요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"금리가 오르면 돈을 빌리는 비용이 늘어나 기업들의 투자나 개인의 소비가 줄어들 수 있어요!\",\n\"주식 시장에서는 금리 인상에 부담을 느끼는 성장주들의 주가가 하락할 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"금리 인상\",\n\"easy\": \"나라의 기준 이자율을 높이는 것을 말해요.\",\n\"example\": \"금리가 오르면 대출 이자가 늘어나고 저축 이자도 늘어나는 편이에요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects[1] 느낌표 종결 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Jobs figures a…",
-   "one_liner": "Jobs figures a window into future interest rate…",
-   "why_now": null,
+   "title": "미국 고용 시장 변화",
+   "one_liner": "미국의 고용 시장이 예상보다 뜨거워 금리 인상 가능성이 제기되고 있어요.",
+   "why_now": "고용 시장은 경기를 보여주는 중요한 지표로, 금리 결정에 큰 영향을 미치기 때문이에요.",
    "details": [
-    "Jobs figures a window into future interest rate path",
-    "Investors Could Be Missing The Next Big Market Risk",
-    "AI Investors Must Keep This Threat in Mind"
+    "미국의 고용 지표가 예상보다 강하게 나왔어요.",
+    "이로 인해 금리를 더 올려야 할 수도 있다는 전망이 나와요.",
+    "투자자들은 시장의 새로운 위험 요소를 주의해야 할 수 있어요.",
+    "인공지능 관련 투자자들도 특정 위험을 염두에 두어야 해요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "금리가 오르면 돈을 빌리는 비용이 늘어나 기업들의 투자나 개인의 소비가 줄어들 수 있어요!",
+    "주식 시장에서는 금리 인상에 부담을 느끼는 성장주들의 주가가 하락할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "305e4cc5fffca8d39cf34b2d0b6c7accdc23aa3a"
+  "fact_hash": "43f6f65ddbbcecd1414d8231a8d968784da6a858"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-23T03:55:45.630836+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리 인상",
+   "easy": "이자의 기준을 올리는 거예요.",
+   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "c8767f6a04dae9d1b",

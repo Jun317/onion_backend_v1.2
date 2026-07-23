@@ -170,8 +170,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T03:54:50.344733+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-23T09:44:11.876921+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -184,26 +184,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"나이지리아 경제\",\n   \"one_liner\": \"나이지리아가 경제 안정을 유지하고 있어요.\",\n   \"why_now\": \"글로벌 경제 위기 속에서 나라의 안정성이 중요해요.\",\n   \"impact_line\": \"나이지리아의 경제 상황이 안정되면 국제 무역에 긍정적 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"나이지리아는 아프리카의 주요 환율 시장 구축을 위한 기초를 가지고 있어요.\",\n       \"당구트 라무 정유소는 중동 에너지 위기에 대한 대응 이상이에요.\",\n       \"나이지리아의 식품 가격이 높아 건강한 식사가 어려워져요.\",\n       \"나이지리아는 독일과의 관계 강화에 확고한 의지를 가지고 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"나이지리아의 경제 안정이 글로벌 경제에 긍정적인 영향을 줄 수 있어요!\",\n       \"나이지리아의 식품 가격 상승으로 인해 건강한 식사 선택이 어려워질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Nigeria economic…",
-   "one_liner": "Nigeria economic stability in the face of global…",
-   "why_now": null,
+   "title": "나이지리아 경제",
+   "one_liner": "나이지리아가 경제 안정을 유지하고 있어요.",
+   "why_now": "글로벌 경제 위기 속에서 나라의 안정성이 중요해요.",
    "details": [
-    "Nigeria economic stability in the face of global crisis By ISAH CHIROMA",
-    "Nigeria Has Fundamentals To Build Leading African Exchange",
-    "Dangote Lamu refinery is more than a response to the Middle East energy crisis"
+    "나이지리아는 아프리카의 주요 환율 시장 구축을 위한 기초를 가지고 있어요.",
+    "당구트 라무 정유소는 중동 에너지 위기에 대한 대응 이상이에요.",
+    "나이지리아의 식품 가격이 높아 건강한 식사가 어려워져요.",
+    "나이지리아는 독일과의 관계 강화에 확고한 의지를 가지고 있어요."
    ],
-   "effects": [],
-   "visual_type": "usdkrw"
+   "effects": [
+    "나이지리아의 경제 안정이 글로벌 경제에 긍정적인 영향을 줄 수 있어요!",
+    "나이지리아의 식품 가격 상승으로 인해 건강한 식사 선택이 어려워질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "4dee9d43c2677896698fcf775073a3d0d2ecb0b0"
  },
@@ -211,7 +213,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-23T03:54:50.344657+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "환율",
+   "easy": "우리 돈과 외국 돈을 바꾸는 비율이에요.",
+   "example": "오르면 외국 돈이 그만큼 비싸진 거예요."
+  }
+ ],
  "related": [
   {
    "id": "c37ad01cf8a091a74",

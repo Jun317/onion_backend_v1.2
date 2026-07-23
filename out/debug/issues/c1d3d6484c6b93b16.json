@@ -663,8 +663,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T03:53:55.013198+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-23T09:44:00.184242+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -677,32 +677,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"하와이 마을, 만화 '릴로 & 스티치' 영감\",\n  \"one_liner\": \"만화 '릴로 & 스티치'의 배경이 된 하와이의 하네페페 마을 이야기가 소개되었어요.\",\n  \"why_now\": \"이 마을은 영화 속 상상력의 원천이 되어 많은 사람들에게 알려졌어요.\",\n  \"impact_line\": null,\n  \"details\": [\n    \"하와이에 있는 하네페페 마을이 소개되었어요.\",\n    \"이 마을은 인기 애니메이션 '릴로 & 스티치'에 영감을 준 곳이에요.\",\n    \"하네페페 마을의 이야기가 여러 지역 뉴스에 실렸어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [],\n  \"glossary\": [\n    {\n      \"term\": \"애니메이션\",\n      \"easy\": \"그림이나 사진을 연속으로 보여주어 움직이는 것처럼 보이게 만든 영상이에요.\",\n      \"example\": \"어릴 때 재미있게 봤던 애니메이션 영화가 생각나요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"리로와 스티치의 촬영지\",\n   \"one_liner\": \"하와이 한나페페 마을이 리로와 스티치의 배경이 됐어요\",\n   \"why_now\": \"리로와 스티치가 유명해서 사람들이 그곳을 방문하고 있어요\",\n   \"impact_line\": \"하와이 관광이 활성화될 수 있어요\",\n   \"details\": [\n       \"리로와 스티치의 촬영지인 한나페페 마을이 소개되고 있어요\",\n       \"한나페페 마을은 하와이의 한 마을이에요\",\n       \"리로와 스티치는 인기 애니메이션 영화예요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"하와이 여행이 더 인기 있을 것으로 예상돼요!\",\n       \"하와이 경제에 긍정적인 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "title 22자 초과(24)",
+     "title 22자 초과(28)",
      "effects 1~2문장 아님"
     ]
    },
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Discover Hanapepe -…",
-   "one_liner": "Discover Hanapepe - the Hawaiian town that…",
-   "why_now": null,
+   "title": "리로와 스티치의 촬영지",
+   "one_liner": "하와이 한나페페 마을이 리로와 스티치의 배경이 됐어요",
+   "why_now": "리로와 스티치가 유명해서 사람들이 그곳을 방문하고 있어요",
    "details": [
-    "Discover Hanapepe - the Hawaiian town that inspired Lilo & Stitch | Namoi Valley Independent",
-    "Discover Hanapepe - the Hawaiian town that inspired Lilo & Stitch | The North West Star",
-    "Discover Hanapepe - the Hawaiian town that inspired Lilo & Stitch | Narromine News"
+    "리로와 스티치의 촬영지인 한나페페 마을이 소개되고 있어요",
+    "한나페페 마을은 하와이의 한 마을이에요",
+    "리로와 스티치는 인기 애니메이션 영화예요"
    ],
-   "effects": [],
+   "effects": [
+    "하와이 여행이 더 인기 있을 것으로 예상돼요!",
+    "하와이 경제에 긍정적인 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "4526c608b23a49c1cb88965b4c5bab7b4669b113"

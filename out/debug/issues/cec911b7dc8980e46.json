@@ -544,8 +544,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T03:53:34.936564+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-23T09:43:54.593385+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -558,25 +558,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"의원 주식 거래 제한\",\n   \"one_liner\": \"미국 의회가 의원들의 주식 거래를 제한하기로 했어요\",\n   \"why_now\": \"의원들이 주식 거래를 제한하면 공정성을 높일 수 있어요\",\n   \"impact_line\": \"의회에서 내린 결정이 투명성에 도움이 될 수 있어요\",\n   \"details\": [\n       \"미국 의회가 의원들의 주식 거래를 제한하는 법안을 통과시켰어요\",\n       \"의원들이 주식 거래를 제한하면 국민들의 신뢰를 얻을 수 있어요\",\n       \"의회는 의원들의 주식 거래를 제한하기로 결정했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"의원들이 주식 거래를 제한하면 투명성이 높아질 수 있어요!\",\n       \"국민들의 신뢰가 높아져 정치가 더 깨끗해질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "House passes bill to…",
-   "one_liner": "House passes bill to limit stock purchases by…",
-   "why_now": null,
+   "title": "의원 주식 거래 제한",
+   "one_liner": "미국 의회가 의원들의 주식 거래를 제한하기로 했어요",
+   "why_now": "의원들이 주식 거래를 제한하면 공정성을 높일 수 있어요",
    "details": [
-    "House passes bill to limit stock purchases by members of Congress",
-    "House votes to limit stock trading by members of Congress",
-    "House votes to limit stock trading by members of Congress , elevating a campaign issue"
+    "미국 의회가 의원들의 주식 거래를 제한하는 법안을 통과시켰어요",
+    "의원들이 주식 거래를 제한하면 국민들의 신뢰를 얻을 수 있어요",
+    "의회는 의원들의 주식 거래를 제한하기로 결정했어요"
    ],
-   "effects": [],
+   "effects": [
+    "의원들이 주식 거래를 제한하면 투명성이 높아질 수 있어요!",
+    "국민들의 신뢰가 높아져 정치가 더 깨끗해질 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "59af0a6365c5c4fd29b287e043f6101fba5d120c"

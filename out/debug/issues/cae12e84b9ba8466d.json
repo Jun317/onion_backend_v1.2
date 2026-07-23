@@ -170,42 +170,44 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T03:55:08.762635+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-23T09:44:08.529564+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
-    "US stocks drift in mixed trading as oil prices climb amid war",
-    "Chip companies and other AI winners drag Wall Street lower again , while crude oil prices rise",
     "Oil prices rise another 3 %, while Wall Street drifts in mixed trading",
-    "Asian shares edge higher after Wall Street climb , even as Brent oil keeps rising – Winnipeg Free Press",
+    "US stocks drift in mixed trading as oil prices climb amid war",
+    "Asian shares are mostly higher and Mideast tensions push Brent crude past $96",
+    "Chip companies and other AI winners drag Wall Street lower again , while crude oil prices rise",
     "Asian stocks advance on tech rally , oil climbs"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"국제 유가 상승\",\n  \"one_liner\": \"국제 유가가 3% 이상 올랐어요.\",\n  \"why_now\": \"전쟁 등 국제 정세 불안은 석유 생산과 운송에 영향을 줘 유가를 올리는 요인이 돼요.\",\n  \"impact_line\": \"주유비와 항공료가 오를 수 있어요.\",\n  \"details\": [\n    \"국제 유가가 3% 이상 상승했어요.\",\n    \"중동 지역의 긴장감이 높아지면서 유가가 배럴당 96달러를 넘어섰어요.\",\n    \"주요국 증시는 혼조세를 보였어요.\",\n    \"반도체 기업 등 기술주가 하락세를 보였어요.\"\n  ],\n  \"visual_type\": \"wti\",\n  \"effects\": [\n    \"국제 유가 상승은 운송비를 늘려 상품 가격 인상으로 이어질 수 있어요!\",\n    \"국제 유가 상승은 항공료 인상으로 이어질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"배럴\",\n      \"easy\": \"석유나 원유를 담는 통의 단위예요.\",\n      \"example\": \"국제 유가가 배럴당 100달러를 돌파했어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "US stocks drift in…",
-   "one_liner": "US stocks drift in mixed trading as oil prices…",
-   "why_now": null,
+   "title": "국제 유가 상승",
+   "one_liner": "국제 유가가 3% 이상 올랐어요.",
+   "why_now": "전쟁 등 국제 정세 불안은 석유 생산과 운송에 영향을 줘 유가를 올리는 요인이 돼요.",
    "details": [
-    "US stocks drift in mixed trading as oil prices climb amid war",
-    "Chip companies and other AI winners drag Wall Street lower again , while crude oil prices rise",
-    "Oil prices rise another 3 %, while Wall Street drifts in mixed trading"
+    "국제 유가가 3% 이상 상승했어요.",
+    "중동 지역의 긴장감이 높아지면서 유가가 배럴당 96달러를 넘어섰어요.",
+    "주요국 증시는 혼조세를 보였어요.",
+    "반도체 기업 등 기술주가 하락세를 보였어요."
    ],
-   "effects": [],
+   "effects": [
+    "국제 유가 상승은 운송비를 늘려 상품 가격 인상으로 이어질 수 있어요!",
+    "국제 유가 상승은 항공료 인상으로 이어질 수 있어요!"
+   ],
    "visual_type": "wti"
   },
-  "fact_hash": "49f5b0d37bf205856d4aaccd90b547ba049a598b"
+  "fact_hash": "162d04f0324d79ad0b72f9e087d70dcddb83df94"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
