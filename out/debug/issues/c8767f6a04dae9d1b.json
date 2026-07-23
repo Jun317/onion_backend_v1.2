@@ -312,54 +312,72 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-22T22:30:47.973721+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-23T03:52:44.801002+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
-    "Wealthfront Advisers LLC Sells 8 , 715 Shares of Bank of America Corporation $BAC",
-    "Bank of America CEO warns inflation will back Fed into a corner",
     "US momentum stocks : Bank of America and UBS signal a potential market bottom for tech and AI shares",
-    "Bank of America ( BAC ) Q2 2026 Earnings Call Transcript"
+    "Bank of America CEO warns inflation will back Fed into a corner",
+    "Wealthfront Advisers LLC Sells 8 , 715 Shares of Bank of America Corporation $BAC",
+    "Prediction : The Fed Hikes Rates Once in 2026 . Here What It Means for Bond ETFs ."
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"Bank of America 소식\",\n   \"one_liner\": \"Bank of America의 주식에 대한 여러 뉴스가 나왔어요.\",\n   \"why_now\": \"주식 시장의 동향은 경제 전망에 영향을 줄 수 있어요.\",\n   \"impact_line\": \"주식 투자에 관심이 있는 사람들에게는 영향이 갈 수 있어요.\",\n   \"details\": [\n      \"네이비게이션 그룹이 Bank of America의 주식을 459주 샀어요.\",\n      \"웰스프론트 어드바이저스가 Bank of America의 주식을 8,715주 팔았어요.\",\n      \"Bank of America의 CEO가 인플레이션이 연준을 궁지에 빠트릴 것이라고 경고했어요.\",\n      \"Bank of America와 UBS는 기술 및 AI 주식에 대한 시장 하방을 시그널했어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"주식 투자에 관심이 있는 사람들은 시장의 변동에 주의해야 할 수 있어요!\",\n      \"기술 및 AI 주식의 시장 하방은 관련 산업에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"인플레이션\",\n         \"easy\": \"물가가 계속 오르는 현상이에요.\",\n         \"example\": \"인플레이션이 높으면 물건을 사기 더 어려워질 수 있어요.\"\n      }\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"미국은행 주식 소식\",\n   \"one_liner\": \"미국은행 주식에 대한 관심이 있어요\",\n   \"why_now\": \"은행 주식은 경제 전망을 알 수 있어요\",\n   \"impact_line\": \"주식 시장의 변동이 우리의 투자에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"네이비게이션 그룹이 뱅크 오브 아메리카 주식을 샀어요\",\n       \"뱅크 오브 아메리카의 최고경영자가 인플레이션 경고를 했어요\",\n       \"웰스프론트 어드바이저스가 뱅크 오브 아메리카 주식을 팔았어요\",\n       \"미국 중앙은행이 금리를 올릴 가능성이 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"은행 주식의 가치가 올라 가계의 자산이 늘어날 수 있어요!\",\n       \"금리 인상이 있으면 대출이 어려워질 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"인플레이션\",\n           \"easy\": \"물가가 계속 오르는 현상이에요\",\n           \"example\": \"인플레이션이 심해지면 물건을 사기 어려워져요\"\n       }\n   ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "one_liner 50자 초과(56)"
+     "effects[1] 느낌표 종결 아님"
     ]
    },
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [8715.0]"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "22 , 459 Shares in…",
-   "one_liner": "22 , 459 Shares in Bank of America Corporation…",
-   "why_now": null,
+   "title": "미국은행 주식 소식",
+   "one_liner": "미국은행 주식에 대한 관심이 있어요",
+   "why_now": "은행 주식은 경제 전망을 알 수 있어요",
    "details": [
-    "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
-    "Wealthfront Advisers LLC Sells 8 , 715 Shares of Bank of America Corporation $BAC",
-    "Bank of America CEO warns inflation will back Fed into a corner"
+    "네이비게이션 그룹이 뱅크 오브 아메리카 주식을 샀어요",
+    "뱅크 오브 아메리카의 최고경영자가 인플레이션 경고를 했어요",
+    "웰스프론트 어드바이저스가 뱅크 오브 아메리카 주식을 팔았어요",
+    "미국 중앙은행이 금리를 올릴 가능성이 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "은행 주식의 가치가 올라 가계의 자산이 늘어날 수 있어요!",
+    "금리 인상이 있으면 대출이 어려워질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "8bfc0b1f02a029767c601247c00441f9b19dde9c"
+  "fact_hash": "8a40531b70cd38107d0e162178cd0558fce3410d"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(56)\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [8715.0]\"]}]}",
   "at": "2026-07-22T22:30:47.973577+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "인플레이션",
+   "easy": "물가가 전반적으로 계속 오르는 현상이에요.",
+   "example": "돈의 힘이 조금씩 약해지는 셈이에요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "cb3030e4a5acd0008",

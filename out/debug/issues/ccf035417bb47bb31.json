@@ -221,8 +221,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T00:22:33.339545+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-23T03:53:16.482339+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -235,26 +235,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"인도 경제 활동 활발\",\n\"one_liner\": \"인도 경제 활동이 6월에도 계속 활발하게 이어지고 있어요.\",\n\"why_now\": \"전 세계 경제가 불확실한 상황에서도 인도는 꾸준히 성장세를 유지하고 있다는 점이 중요해요.\",\n\"impact_line\": \"인도 경제 성장은 국내 기업들의 수출에도 긍정적인 영향을 줄 수 있어요.\",\n\"details\": [\n\"인도 경제 활동이 6월에도 모멘텀을 유지했어요.\",\n\"이는 전 세계적인 불확실성 속에서도 나타난 결과예요.\",\n\"외국인 투자도 회복세를 보이며 경제에 대한 신뢰가 커지고 있어요.\",\n\"인도중앙은행(RBI)은 이러한 경제 상황을 발표했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"인도 경제의 꾸준한 성장은 국내 기업들의 수출 기회를 늘릴 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"모멘텀\",\n\"easy\": \"어떤 현상이 점점 더 빨라지거나 강해지는 힘을 말해요.\",\n\"example\": \"주가 상승 모멘텀이 강해지면 주가가 더 많이 오를 수 있어요.\"\n},\n{\n\"term\": \"RBI\",\n\"easy\": \"인도중앙은행을 줄여서 부르는 말이에요.\",\n\"example\": \"RBI는 인도의 기준금리를 결정하는 중요한 기관이에요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "India sustains…",
-   "one_liner": "India sustains economic activity momentum…",
-   "why_now": null,
+   "title": "인도 경제 활동 활발",
+   "one_liner": "인도 경제 활동이 6월에도 계속 활발하게 이어지고 있어요.",
+   "why_now": "전 세계 경제가 불확실한 상황에서도 인도는 꾸준히 성장세를 유지하고 있다는 점이 중요해요.",
    "details": [
-    "India sustains economic activity momentum through June despite global uncertainty : RBI Bulletin",
-    "Foreign investment recovery shows growing confidence in economy : RBI article",
-    "MBR reports another year of strong growth , digital transformation and international recognition"
+    "인도 경제 활동이 6월에도 모멘텀을 유지했어요.",
+    "이는 전 세계적인 불확실성 속에서도 나타난 결과예요.",
+    "외국인 투자도 회복세를 보이며 경제에 대한 신뢰가 커지고 있어요.",
+    "인도중앙은행(RBI)은 이러한 경제 상황을 발표했어요."
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "인도 경제의 꾸준한 성장은 국내 기업들의 수출 기회를 늘릴 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "52ba8c8bb4e3602d054dfb4f70694c00dee99373"
  },
@@ -262,7 +263,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-23T00:22:33.339476+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  }
+ ],
  "related": [
   {
    "id": "cb3030e4a5acd0008",

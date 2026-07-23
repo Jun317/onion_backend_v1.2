@@ -272,42 +272,43 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-22T22:32:04.375666+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-23T03:53:01.186949+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
     "Inflation dips slightly as retailers hold back cost of living pressures",
     "Economist warns consumer pressure to persist as inflation reaches 5 %",
-    "Nifty closes below 24 , 000 , Sensex falls 720 points amid crude surge ; pharma tariff worries",
     "Rising economic fears weakening inflation stranglehold on gold prices - CRU",
-    "US 30 - year bond yields : Why debt concerns and sticky inflation are keeping rates above 5 per cent"
+    "US 30 - year bond yields : Why debt concerns and sticky inflation are keeping rates above 5 per cent",
+    "Nifty closes below 24 , 000 , Sensex falls 720 points amid crude surge ; pharma tariff worries"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"물가 상승세 둔화\",\n  \"one_liner\": \"소매업체들이 생활 물가 부담을 줄여주면서 물가 상승세가 조금 둔화했어요.\",\n  \"why_now\": \"물가 상승세가 둔화하면 소비자들이 느끼는 부담이 줄어드는 효과가 있어요.\",\n  \"impact_line\": \"생활 물가 부담이 조금이나마 줄어들 수 있어요.\",\n  \"details\": [\n    \"소매업체들이 생활 물가 부담을 줄여주기 위해 노력했어요.\",\n    \"물가 상승세가 조금 둔화되는 모습을 보였어요.\",\n    \"하지만 전문가들은 소비자들이 느끼는 부담이 계속될 수 있다고 경고했어요.\",\n    \"물가 상승률은 5%에 도달했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"물가 상승률이 둔화하면 소비자들이 느끼는 부담이 줄어들 수 있어요!\",\n    \"하지만 전문가들은 소비자들이 느끼는 부담이 계속될 수 있다고 경고했어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"소매업체\",\n      \"easy\": \"물건을 최종 소비자에게 직접 파는 가게를 말해요.\",\n      \"example\": \"동네 마트나 편의점도 소매업체에 속해요.\"\n    },\n    {\n      \"term\": \"물가 상승률\",\n      \"easy\": \"지난해 같은 기간에 비해 물건 가격이 얼마나 올랐는지를 보여주는 비율이에요.\",\n      \"example\": \"물가 상승률이 높으면 같은 돈으로 살 수 있는 물건이 줄어들어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Inflation dips…",
-   "one_liner": "Inflation dips slightly as retailers hold back…",
-   "why_now": null,
+   "title": "물가 상승세 둔화",
+   "one_liner": "소매업체들이 생활 물가 부담을 줄여주면서 물가 상승세가 조금 둔화했어요.",
+   "why_now": "물가 상승세가 둔화하면 소비자들이 느끼는 부담이 줄어드는 효과가 있어요.",
    "details": [
-    "Inflation dips slightly as retailers hold back cost of living pressures",
-    "Economist warns consumer pressure to persist as inflation reaches 5 %",
-    "Nifty closes below 24 , 000 , Sensex falls 720 points amid crude surge ; pharma tariff worries"
+    "소매업체들이 생활 물가 부담을 줄여주기 위해 노력했어요.",
+    "물가 상승세가 조금 둔화되는 모습을 보였어요.",
+    "하지만 전문가들은 소비자들이 느끼는 부담이 계속될 수 있다고 경고했어요.",
+    "물가 상승률은 5%에 도달했어요."
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "물가 상승률이 둔화하면 소비자들이 느끼는 부담이 줄어들 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "92d44152d1c244b66d930a90befd00b53f3175e9"
+  "fact_hash": "51d98311be6bc16b9cdda7bc4f23b17d1780a26d"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

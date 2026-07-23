@@ -630,7 +630,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-22T22:32:32.740111+00:00",
+  "created_at": "2026-07-23T03:53:55.013198+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -643,12 +643,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"하와이 마을, 만화 영화 영감 제공\",\n  \"one_liner\": \"하와이의 한 마을이 만화 영화 '릴로 & 스티치'에 영감을 준 것으로 알려졌어요.\",\n  \"why_now\": \"어릴 적 보았던 만화 영화의 배경이 된 장소를 아는 것은 흥미로운 경험이 될 수 있어요.\",\n  \"impact_line\": null,\n  \"details\": [\n    \"하와이의 '하나페페'라는 마을이 만화 영화 '릴로 & 스티치'의 배경이 되었어요.\",\n    \"이 마을은 아름다운 자연과 독특한 분위기를 자랑해요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [],\n  \"glossary\": [\n    {\n      \"term\": \"릴로 & 스티치\",\n      \"easy\": \"디즈니에서 만든 인기 애니메이션 영화예요.\",\n      \"example\": \"어릴 때 릴로 & 스티치 영화를 재미있게 봤던 기억이 나요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"하와이 마을, 만화 '릴로 & 스티치' 영감\",\n  \"one_liner\": \"만화 '릴로 & 스티치'의 배경이 된 하와이의 하네페페 마을 이야기가 소개되었어요.\",\n  \"why_now\": \"이 마을은 영화 속 상상력의 원천이 되어 많은 사람들에게 알려졌어요.\",\n  \"impact_line\": null,\n  \"details\": [\n    \"하와이에 있는 하네페페 마을이 소개되었어요.\",\n    \"이 마을은 인기 애니메이션 '릴로 & 스티치'에 영감을 준 곳이에요.\",\n    \"하네페페 마을의 이야기가 여러 지역 뉴스에 실렸어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [],\n  \"glossary\": [\n    {\n      \"term\": \"애니메이션\",\n      \"easy\": \"그림이나 사진을 연속으로 보여주어 움직이는 것처럼 보이게 만든 영상이에요.\",\n      \"example\": \"어릴 때 재미있게 봤던 애니메이션 영화가 생각나요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "details 3문장 미만",
+     "title 22자 초과(24)",
      "effects 1~2문장 아님"
     ]
    },
@@ -674,8 +674,8 @@
   "fact_hash": "4526c608b23a49c1cb88965b4c5bab7b4669b113"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-22T22:32:32.740045+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(24)\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-23T03:53:55.013134+00:00"
  },
  "glossary": [],
  "related": [

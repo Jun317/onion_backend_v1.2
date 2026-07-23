@@ -636,8 +636,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-22T22:31:45.835242+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-23T03:53:04.562800+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -650,26 +650,29 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 주식 시장\",\n   \"one_liner\": \"미국 기업들의 주가에 변화가 생기고 있어요\",\n   \"why_now\": \"주가 변동은 투자자와 소비자에게 영향을 줄 수 있어요\",\n   \"impact_line\": \"주식 투자에 관심이 있는 사람들에게 영향을 줄 수 있어요\",\n   \"details\": [\n       \"마이크로소프트의 주가가 7월 29일 이후 급등할 것이라는 예측이 나왔어요\",\n       \"마이크로소프트의 브라우저 전략이 다시 한번 조명되고 있어요\",\n       \"마이크로소프트에 대한 주주 집단 소송 관련 경고가 발행되었어요\",\n       \"레딧의 주가가 9% 하락했어요\",\n       \"아마존의 경쟁 우위가 사라질 가능성이 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국 기업들의 주가 변동이 세계 경제에 영향을 줄 수 있어요!\",\n       \"주식 투자에 관심이 있는 사람들은 주의해야 할 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Prediction :…",
-   "one_liner": "Prediction : Microsoft Stock Will Skyrocket…",
-   "why_now": null,
+   "title": "미국 주식 시장",
+   "one_liner": "미국 기업들의 주가에 변화가 생기고 있어요",
+   "why_now": "주가 변동은 투자자와 소비자에게 영향을 줄 수 있어요",
    "details": [
-    "Prediction : Microsoft Stock Will Skyrocket After July 29",
-    "Microsoft tactics with Edge face renewed scrutiny over browser choice",
-    "2026 - 07 - 19 | Pomerantz LLP Issues Alert Regarding Shareholder Class Action Against Microsoft Corporation - MSFT | TSX : MSFT"
+    "마이크로소프트의 주가가 7월 29일 이후 급등할 것이라는 예측이 나왔어요",
+    "마이크로소프트의 브라우저 전략이 다시 한번 조명되고 있어요",
+    "마이크로소프트에 대한 주주 집단 소송 관련 경고가 발행되었어요",
+    "레딧의 주가가 9% 하락했어요",
+    "아마존의 경쟁 우위가 사라질 가능성이 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "미국 기업들의 주가 변동이 세계 경제에 영향을 줄 수 있어요!",
+    "주식 투자에 관심이 있는 사람들은 주의해야 할 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "c6c13c7ac9973a2526da3cd35aedea40038bb088"
  },

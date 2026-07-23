@@ -748,8 +748,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-22T22:31:08.818029+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-23T03:52:38.925700+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -762,33 +762,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"국제 주식, 2026년 상반기 강세\", \"one_liner\": \"2026년 상반기에 국제 주식 시장이 좋았어요.\", \"why_now\": \"주식 시장의 흐름을 알면 투자 계획을 세우는 데 도움이 될 수 있어요.\", \"impact_line\": null, \"details\": [\"2026년 상반기에 국제 주식 시장이 강세를 보였어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [], \"impact_line\": null}",
+  "raw_response": "{\n  \"title\": \"금리 예측\",\n   \"one_liner\": \"영국 중앙은행이 금리 결정할 예정이에요\",\n   \"why_now\": \"금리가 바뀌면 대출이나 투자에 영향을 주니까요\",\n   \"impact_line\": \"주식이나 금리 연동 대출에 관심이 있는 사람이 주목할 수 있어요\",\n   \"details\": [\n       \"영국 중앙은행이 금리 결정 요인을 발표할 예정이에요\",\n       \"2026년 금리 예측이 관심을 모으고 있어요\",\n       \"투자 뉴스에서 핵심 정보를 공유할 것으로 보이네요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"금리 변동이 주식 시장에 영향을 줄 수 있어요!\",\n       \"투자자들이 주목하는 정보가 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Why International…",
-   "one_liner": "Why International Stocks Have Had a Strong 2026…",
-   "why_now": null,
+   "title": "금리 예측",
+   "one_liner": "영국 중앙은행이 금리 결정할 예정이에요",
+   "why_now": "금리가 바뀌면 대출이나 투자에 영향을 주니까요",
    "details": [
-    "Why International Stocks Have Had a Strong 2026 Thus Far",
-    "Will interest rates go up next week ? Bank of England key factors and 2026 predictions",
-    "Can nuclear power make a comeback ? | 2026 - 07 - 22 | Investing News"
+    "영국 중앙은행이 금리 결정 요인을 발표할 예정이에요",
+    "2026년 금리 예측이 관심을 모으고 있어요",
+    "투자 뉴스에서 핵심 정보를 공유할 것으로 보이네요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "금리 변동이 주식 시장에 영향을 줄 수 있어요!",
+    "투자자들이 주목하는 정보가 될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "0f73d6aec3859b41ad1eb4e3c3c4b8863c411e7f"
  },
@@ -796,7 +790,18 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}]}",
   "at": "2026-07-22T22:31:08.817942+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  }
+ ],
  "related": [
   {
    "id": "c826b1c1944a1c619",
