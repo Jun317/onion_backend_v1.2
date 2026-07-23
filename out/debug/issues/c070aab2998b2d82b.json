@@ -7,11 +7,31 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 4,
- "importance": 90,
+ "seen_sources": 6,
+ "importance": 95,
  "created_at": "2026-07-22T16:53:58.411529+00:00",
- "last_update": "2026-07-22T20:36:15.930712+00:00",
+ "last_update": "2026-07-23T00:18:06.285671+00:00",
  "members": [
+  {
+   "id": "e65c3655e8e71d235c37af598b8dd5bd07e235f3",
+   "source": "wxyz.com",
+   "tier": "wire",
+   "url": "https://www.wxyz.com/news/region/detroit/gordie-howe-international-bridge-set-to-open-monday-amid-us-canada-tariff-tensions",
+   "title": "Gordie Howe International Bridge set to open Monday amid US - Canada tensions",
+   "published_at": "2026-07-22T23:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9052
+  },
+  {
+   "id": "ee94656f364ee1edaa37051ceac5dfe6a0fd8375",
+   "source": "stcatharinesstandard.ca",
+   "tier": "wire",
+   "url": "https://www.stcatharinesstandard.ca/politics/political-opinion/donald-trumps-fumbles-unite-canadas-premiers/article_7dda35d3-27e0-582d-acde-f38cbdd37cb6.html",
+   "title": "Donald Trump fumbles unite Canada premiers",
+   "published_at": "2026-07-22T22:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.913
+  },
   {
    "id": "83c8d16cb2d1b68d50439b782954bef02265e9cc",
    "source": "bnnbloomberg.ca",
@@ -20,7 +40,7 @@
    "title": "James Moore : Canada strategy to withstand Trump Tariffs",
    "published_at": "2026-07-22T19:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9284
+   "sim_to_centroid": 0.9287
   },
   {
    "id": "45e4594b3c229635742ea8f7bf51bb54b919b4d4",
@@ -30,7 +50,7 @@
    "title": "Trade war : Canadian exporters opt to wait and see on Trump tariffs",
    "published_at": "2026-07-22T19:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9249
+   "sim_to_centroid": 0.9254
   },
   {
    "id": "f44e4732e81429907054f72333c90236b799aac1",
@@ -40,7 +60,7 @@
    "title": "More Red Sea chaos , as Trump repeats retaliation threat",
    "published_at": "2026-07-22T17:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8856
+   "sim_to_centroid": 0.8885
   },
   {
    "id": "51d1051f7c878052e84121439fdda457e908269c",
@@ -50,7 +70,7 @@
    "title": "Canada cancels bridge - opening event with US after Trump tariffs",
    "published_at": "2026-07-22T16:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9373
+   "sim_to_centroid": 0.9449
   },
   {
    "id": "93203b7d378a3252973df57580efbe575d199e93",
@@ -60,7 +80,7 @@
    "title": "How Trump turned Canada bridge into America windfall",
    "published_at": "2026-07-22T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9563
+   "sim_to_centroid": 0.9536
   },
   {
    "id": "43a8b2a9a86efcf1a31c49430c969cd47cf90d2d",
@@ -70,11 +90,25 @@
    "title": "Trump tariffs : A timeline of the U . S . trade war with Canada",
    "published_at": "2026-07-22T14:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9643
+   "sim_to_centroid": 0.9583
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Gordie Howe International Bridge set to open Monday amid US - Canada tensions",
+   "source": "wxyz.com",
+   "url": "https://www.wxyz.com/news/region/detroit/gordie-howe-international-bridge-set-to-open-monday-amid-us-canada-tariff-tensions",
+   "at": "2026-07-22T23:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Donald Trump fumbles unite Canada premiers",
+   "source": "stcatharinesstandard.ca",
+   "url": "https://www.stcatharinesstandard.ca/politics/political-opinion/donald-trumps-fumbles-unite-canadas-premiers/article_7dda35d3-27e0-582d-acde-f38cbdd37cb6.html",
+   "at": "2026-07-22T22:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "James Moore : Canada strategy to withstand Trump Tariffs",
@@ -119,8 +153,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-22T20:37:27.608929+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-23T00:18:11.483023+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -133,25 +167,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국, 캐나다에 관세 부과\",\n  \"one_liner\": \"미국이 캐나다산 제품에 관세를 부과하면서 무역 분쟁이 시작됐어요.\",\n  \"why_now\": \"관세는 물건 값을 올려 소비자의 부담을 늘릴 수 있어요.\",\n  \"impact_line\": \"캐나다산 제품 가격이 오를 수 있어요.\",\n  \"details\": [\n    \"미국이 캐나다에 관세를 부과했어요.\",\n    \"이로 인해 미국과 캐나다 간 무역 분쟁이 시작되었어요.\",\n    \"캐나다의 한 수출업자는 앞으로 상황을 지켜보겠다고 했어요.\",\n    \"캐나다의 한 정치인은 미국의 관세에 대응할 전략을 언급했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"캐나다에서 수입하는 물건들의 가격이 오를 수 있어요!\",\n    \"양국 간 무역량이 줄어 경제에 부정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라에서 외국 물건을 들여올 때 붙이는 세금이에요.\",\n      \"example\": \"관세가 오르면 수입품 가격이 비싸져요.\"\n    },\n    {\n      \"term\": \"무역 분쟁\",\n      \"easy\": \"나라끼리 물건을 사고팔 때 서로에게 불리한 조치를 취하는 상황이에요.\",\n      \"example\": \"무역 분쟁이 생기면 물건 값이 오르거나 구하기 어려워질 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump tariffs : A…",
-   "one_liner": "Trump tariffs : A timeline of the U . S . trade…",
-   "why_now": null,
+   "title": "미국, 캐나다에 관세 부과",
+   "one_liner": "미국이 캐나다산 제품에 관세를 부과하면서 무역 분쟁이 시작됐어요.",
+   "why_now": "관세는 물건 값을 올려 소비자의 부담을 늘릴 수 있어요.",
    "details": [
-    "Trump tariffs : A timeline of the U . S . trade war with Canada",
-    "How Trump turned Canada bridge into America windfall",
-    "Canada cancels bridge - opening event with US after Trump tariffs"
+    "미국이 캐나다에 관세를 부과했어요.",
+    "이로 인해 미국과 캐나다 간 무역 분쟁이 시작되었어요.",
+    "캐나다의 한 수출업자는 앞으로 상황을 지켜보겠다고 했어요.",
+    "캐나다의 한 정치인은 미국의 관세에 대응할 전략을 언급했어요."
    ],
-   "effects": [],
+   "effects": [
+    "캐나다에서 수입하는 물건들의 가격이 오를 수 있어요!",
+    "양국 간 무역량이 줄어 경제에 부정적인 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "5cd1a12078bac0179b4cb039f647bff6d3f0e73a"
@@ -160,7 +196,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-22T20:37:27.608866+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cde343d4cab397faf",
@@ -175,14 +217,14 @@
    "shared": []
   },
   {
-   "id": "c1d3d6484c6b93b16",
-   "title": "NL Joins Others in Signing Deal Allowing for Purchase of Alcohol from Other Provinces",
+   "id": "cec911b7dc8980e46",
+   "title": "Were Just Poor Cattle to Them : MAGA Voters Lose $7 Billion as Trump Income Hits $2 . 2 Billion",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "cec911b7dc8980e46",
-   "title": "Were Just Poor Cattle to Them : MAGA Voters Lose $7 Billion as Trump Income Hits $2 . 2 Billion",
+   "id": "cb58f83b24f1df47e",
+   "title": "Simon Harris says budget tax package must deliver for  working people",
    "category": "POLICY",
    "shared": []
   },

@@ -51,8 +51,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-22T20:36:19.644379+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-23T00:18:07.676914+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -62,33 +62,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"파키스탄 신용등급 상향\",\n\"one_liner\": \"국제 신용평가사 S&P가 파키스탄의 국가 신용등급을 B로 올렸어요.\",\n\"why_now\": \"신용등급이 오르면 외국에서 돈을 빌리거나 투자받기가 더 쉬워져요.\",\n\"impact_line\": \"파키스탄에 대한 외국인 투자가 늘어날 수 있어요.\",\n\"details\": [\n\"S&P는 파키스탄의 신용등급 전망을 '안정적'으로 유지했어요.\",\n\"이번 등급 상향은 파키스탄의 경제 상황 개선 가능성을 보여줘요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"파키스탄 정부가 해외에서 돈을 빌릴 때 이자 부담이 줄어들 수 있어요!\",\n\"외국 기업들이 파키스탄에 투자할 때 더 긍정적인 영향을 받을 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"신용등급\",\n\"easy\": \"나라나 회사가 돈을 잘 갚을 수 있는지 점수를 매긴 거예요.\",\n\"example\": \"신용등급이 높으면 돈을 빌리기 쉬워져요.\"\n},\n{\n\"term\": \"B\",\n\"easy\": \"신용등급 중 하나로, 투기 등급에 속하지만 상황에 따라 회복 가능성이 있어요.\",\n\"example\": \"B 등급은 투자 위험이 높은 편이에요.\"\n},\n{\n\"term\": \"전망 '안정적'\",\n\"easy\": \"앞으로 신용등급이 크게 변하지 않을 것이라는 뜻이에요.\",\n\"example\": \"전망이 안정적이면 현재 신용등급을 유지할 가능성이 높아요.\"\n}\n]\n}",
+  "raw_response": "{\n  \"title\": \"파키스탄 신용등급 상승\",\n   \"one_liner\": \"파키스탄의 신용등급이 올라 B가 됐어요\",\n   \"why_now\": \"신용등급이 오르면 외국에서 돈을 빌리기가 쉬워져 국가 경제에 도움이 되어요\",\n   \"impact_line\": \"파키스탄의 경제 상황이 좋아질 수 있어요\",\n   \"details\": [\n       \"파키스탄의 신용등급이 B로 상승했어요\",\n       \"신용등급이 상승하면 파키스탄이 외국에서 돈을 빌리기가 쉬워질 수 있어요\",\n       \"파키스탄의 경제 상황이 안정되어질 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"파키스탄의 경제가 안정되면 해외 투자가 증가할 수 있어요!\",\n       \"파키스탄의 기업과 정부가 더 쉽게 자금을 조달할 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"신용등급\",\n           \"easy\": \"돈을 빌릴 때 얼마나 신용이 좋은지 나타내는 등급이에요\",\n           \"example\": \"신용등급이 높으면 돈을 빌리기가 쉬워져요\"\n       }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 3문장 미만",
-     "effects[0] 느낌표 종결 아님",
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "S & P Global…",
-   "one_liner": "S & P Global upgrades Pakistan credit rating to  B",
-   "why_now": null,
+   "title": "파키스탄 신용등급 상승",
+   "one_liner": "파키스탄의 신용등급이 올라 B가 됐어요",
+   "why_now": "신용등급이 오르면 외국에서 돈을 빌리기가 쉬워져 국가 경제에 도움이 되어요",
    "details": [
-    "S & P Global upgrades Pakistan credit rating to  B",
-    "S & P upgrades Pakistan sovereign credit rating to  B , Outlook Stable"
+    "파키스탄의 신용등급이 B로 상승했어요",
+    "신용등급이 상승하면 파키스탄이 외국에서 돈을 빌리기가 쉬워질 수 있어요",
+    "파키스탄의 경제 상황이 안정되어질 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "파키스탄의 경제가 안정되면 해외 투자가 증가할 수 있어요!",
+    "파키스탄의 기업과 정부가 더 쉽게 자금을 조달할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "20b9e9ad9aee316fff826f9eaf81ceb97a9bbb89"
  },

@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 5,
+ "seen_sources": 6,
  "importance": 95,
  "created_at": "2026-07-22T16:53:58.411120+00:00",
- "last_update": "2026-07-22T18:39:10.442038+00:00",
+ "last_update": "2026-07-23T00:18:06.276065+00:00",
  "members": [
+  {
+   "id": "de301bf9b4b1deeaa354aa108ae64dfb1dc8d4fb",
+   "source": "edmontonjournal.com",
+   "tier": "wire",
+   "url": "https://edmontonjournal.com/news/politics/alberta-premier-danielle-smith-bullish-canada-can-reach-a-deal-before-trump-tariffs-are-imposed",
+   "title": "Premier Danielle Smith hopeful deal can be made before tariffs imposed",
+   "published_at": "2026-07-22T22:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8956
+  },
   {
    "id": "b94af4b0cbe6954054dde9d9515806b1225198f8",
    "source": "barbadostoday.bb",
@@ -20,7 +30,7 @@
    "title": "Farmer calls for upfront rebates to tackle water crisis , gets MP support",
    "published_at": "2026-07-22T17:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8911
+   "sim_to_centroid": 0.8935
   },
   {
    "id": "5f765047a71c8eaeb8548087eb77d3cdd8437289",
@@ -30,7 +40,7 @@
    "title": "Consult on fare hike petitions , LTFRB told | The Manila Times",
    "published_at": "2026-07-22T16:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8811
+   "sim_to_centroid": 0.8815
   },
   {
    "id": "ae7bf492d962cb3c72e03892c52d386df2e9a4a1",
@@ -40,7 +50,7 @@
    "title": "Sonny Perdue on the University System of Georgia Future",
    "published_at": "2026-07-22T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8759
+   "sim_to_centroid": 0.8784
   },
   {
    "id": "e94b5838fa0ddade3cbfd46562be267d3a791d4f",
@@ -50,7 +60,7 @@
    "title": "Government calls for journalism that connects people to policies - Newsday Zimbabwe",
    "published_at": "2026-07-22T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9542
+   "sim_to_centroid": 0.9514
   },
   {
    "id": "223d30a06f3a924f43de15f053e082341ac46912",
@@ -60,11 +70,18 @@
    "title": "Simon Harris says budget tax package must deliver for  working people",
    "published_at": "2026-07-22T14:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9543
+   "sim_to_centroid": 0.9528
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Premier Danielle Smith hopeful deal can be made before tariffs imposed",
+   "source": "edmontonjournal.com",
+   "url": "https://edmontonjournal.com/news/politics/alberta-premier-danielle-smith-bullish-canada-can-reach-a-deal-before-trump-tariffs-are-imposed",
+   "at": "2026-07-22T22:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Farmer calls for upfront rebates to tackle water crisis , gets MP support",
@@ -102,54 +119,57 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-22T20:37:09.079402+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-23T00:18:15.103601+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
-    "Farmer calls for upfront rebates to tackle water crisis , gets MP support",
-    "Consult on fare hike petitions , LTFRB told | The Manila Times",
-    "Sonny Perdue on the University System of Georgia Future",
+    "Simon Harris says budget tax package must deliver for  working people",
     "Government calls for journalism that connects people to policies - Newsday Zimbabwe",
-    "Simon Harris says budget tax package must deliver for  working people"
+    "Premier Danielle Smith hopeful deal can be made before tariffs imposed",
+    "Farmer calls for upfront rebates to tackle water crisis , gets MP support",
+    "Consult on fare hike petitions , LTFRB told | The Manila Times"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"농민 물 위기 해결을 위한 즉시 환급 요구\",\n   \"one_liner\": \"농민이 물 위기 해결을 위해 즉시 환급을 요구했어요.\",\n   \"why_now\": \"물 위기가 심화하면서 농민의 생계가 어려워지고 있어요.\",\n   \"impact_line\": \"농민의 수입이 줄어들 수 있어요.\",\n   \"details\": [\n      \"농민이 물 위기 해결을 위해 즉시 환급을 요구했어요.\",\n      \"의회 의원이 농민의 요구를 지지했어요.\",\n      \"물 위기 때문에 농민의 생계가 어려워지고 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"농민의 수입이 줄어들면 농산물 가격이 오를 수 있어요!\",\n      \"물 위기가 심화하면 농업 생산량이 줄어들 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"세계 각국 정책 동향\",\n   \"one_liner\": \"여러 나라 정부가 정책과 예산에 대해 논의하고 있어요.\",\n   \"why_now\": \"정부 정책이 우리 생활에 큰 영향을 미치기 때문에 중요해요.\",\n   \"impact_line\": \"세계 각국의 정책이 우리나라 경제에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"아일랜드의 시몬 해리스는 예산에서 근로자에게 혜택이 돌아가야 한다고 말했어요.\",\n       \"짐바브웨 정부는 정책과 사람들을 연결하는 저널리즘을 촉구했어요.\",\n       \"캐나다의 다니엘 스미스 총리는 관세가 부과되기 전에 협상을 마무리하기를 희망하고 있어요.\",\n       \"한 농민이 물 위기를 해결하기 위해 즉시 환급을 요구했어요.\",\n       \"필리핀의 LTFRB에 요금 인상 청원에 대해 협의하라고 지시했어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"여러 나라의 정책이 글로벌 경제에 영향을 미칠 수 있어요!\",\n       \"각국 정부의 정책 결정이 우리나라 물가와 산업에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "title 22자 초과(23)"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Farmer calls for…",
-   "one_liner": "Farmer calls for upfront rebates to tackle water…",
-   "why_now": null,
+   "title": "세계 각국 정책 동향",
+   "one_liner": "여러 나라 정부가 정책과 예산에 대해 논의하고 있어요.",
+   "why_now": "정부 정책이 우리 생활에 큰 영향을 미치기 때문에 중요해요.",
    "details": [
-    "Farmer calls for upfront rebates to tackle water crisis , gets MP support",
-    "Consult on fare hike petitions , LTFRB told | The Manila Times",
-    "Sonny Perdue on the University System of Georgia Future"
+    "아일랜드의 시몬 해리스는 예산에서 근로자에게 혜택이 돌아가야 한다고 말했어요.",
+    "짐바브웨 정부는 정책과 사람들을 연결하는 저널리즘을 촉구했어요.",
+    "캐나다의 다니엘 스미스 총리는 관세가 부과되기 전에 협상을 마무리하기를 희망하고 있어요.",
+    "한 농민이 물 위기를 해결하기 위해 즉시 환급을 요구했어요.",
+    "필리핀의 LTFRB에 요금 인상 청원에 대해 협의하라고 지시했어요."
    ],
-   "effects": [],
+   "effects": [
+    "여러 나라의 정책이 글로벌 경제에 영향을 미칠 수 있어요!",
+    "각국 정부의 정책 결정이 우리나라 물가와 산업에 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "32bd8117c3681ce67362711db7a8d6f039e7bdfb"
+  "fact_hash": "9dd5b863324869b211a610e920519bcb4a976a84"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"title 22자 초과(23)\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-22T20:37:09.079288+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cde343d4cab397faf",
@@ -164,14 +184,14 @@
    "shared": []
   },
   {
-   "id": "c1d3d6484c6b93b16",
-   "title": "NL Joins Others in Signing Deal Allowing for Purchase of Alcohol from Other Provinces",
+   "id": "cec911b7dc8980e46",
+   "title": "Were Just Poor Cattle to Them : MAGA Voters Lose $7 Billion as Trump Income Hits $2 . 2 Billion",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "cec911b7dc8980e46",
-   "title": "Were Just Poor Cattle to Them : MAGA Voters Lose $7 Billion as Trump Income Hits $2 . 2 Billion",
+   "id": "c070aab2998b2d82b",
+   "title": "Trump tariffs : A timeline of the U . S . trade war with Canada",
    "category": "POLICY",
    "shared": []
   },
