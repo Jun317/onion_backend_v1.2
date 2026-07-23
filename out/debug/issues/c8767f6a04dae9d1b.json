@@ -363,8 +363,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T06:45:48.544137+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-23T12:08:57.851673+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -377,26 +377,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"저임금 직업 학위 대출 제한\",\n   \"one_liner\": \"미국 정부가 저임금 직업 학위의 대출을 줄였어요\",\n   \"why_now\": \"저임금 직업 학위의 대출을 줄이면 국가의 재정 부담이 줄어들 수 있어요\",\n   \"impact_line\": \"저임금 직업 학위와 관련된 대출이 어려워질 수 있어요\",\n   \"details\": [\n      \"미국 정부가 저임금 직업 학위의 대출을 줄였어요\",\n      \"저임금 직업 학위의 대출 제한은 국가의 재정 부담을 줄이기 위한 조치예요\",\n      \"미국 중앙은행의 금리 인상이 예상돼요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"저임금 직업 학위의 대출 제한으로 인해 관련 산업의 발전이 둔화될 수 있어요!\",\n      \"미국 중앙은행의 금리 인상으로 인해 대출 이자가 올라 가계 부담이 증가할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "If your degree…",
-   "one_liner": "If your degree doesnt pay enough , you cant…",
-   "why_now": null,
+   "title": "저임금 직업 학위 대출 제한",
+   "one_liner": "미국 정부가 저임금 직업 학위의 대출을 줄였어요",
+   "why_now": "저임금 직업 학위의 대출을 줄이면 국가의 재정 부담이 줄어들 수 있어요",
    "details": [
-    "If your degree doesnt pay enough , you cant borrow . Federal loans cut for low - wage programs – Daily Local",
-    "If your degree doesnt pay enough , you cant borrow . Federal loans cut for low - wage programs – Longmont Times - Call",
-    "Prediction : The Fed Hikes Rates Once in 2026 . Here What It Means for Bond ETFs ."
+    "미국 정부가 저임금 직업 학위의 대출을 줄였어요",
+    "저임금 직업 학위의 대출 제한은 국가의 재정 부담을 줄이기 위한 조치예요",
+    "미국 중앙은행의 금리 인상이 예상돼요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "저임금 직업 학위의 대출 제한으로 인해 관련 산업의 발전이 둔화될 수 있어요!",
+    "미국 중앙은행의 금리 인상으로 인해 대출 이자가 올라 가계 부담이 증가할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "0f68299575f61a1b1474281b1836a337955b031f"
  },
@@ -404,7 +405,18 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-23T06:45:48.544033+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "금리 인상",
+   "easy": "이자의 기준을 올리는 거예요.",
+   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
+  }
+ ],
  "related": [
   {
    "id": "cb3030e4a5acd0008",

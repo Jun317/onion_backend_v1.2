@@ -653,8 +653,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T06:46:25.435300+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-23T12:09:09.642066+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -667,26 +667,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 주식 시장 소식\",\n   \"one_liner\": \"미국 기업들의 주식 가격에 변화가 생길 수 있어요\",\n   \"why_now\": \"주식 시장은 기업의 성과와 미래 전망에 따라 변동해요\",\n   \"impact_line\": \"주식 투자자들의 관심을 끌 수 있어요\",\n   \"details\": [\n       \"마이크로소프트 주식이 7월 29일 이후 급등할 것이라는 예측이 나왔어요\",\n       \"메타 플랫폼즈의 발표가 7월 29일에 있을 예정이에요\",\n       \"레딧 주식이 9% 하락했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주식 투자자들의 관심이 집중될 수 있어요!\",\n       \"기업의 주식 가격에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Prediction :…",
-   "one_liner": "Prediction : Microsoft Stock Will Skyrocket…",
-   "why_now": null,
+   "title": "미국 주식 시장 소식",
+   "one_liner": "미국 기업들의 주식 가격에 변화가 생길 수 있어요",
+   "why_now": "주식 시장은 기업의 성과와 미래 전망에 따라 변동해요",
    "details": [
-    "Prediction : Microsoft Stock Will Skyrocket After July 29",
-    "Microsoft tactics with Edge face renewed scrutiny over browser choice",
-    "2026 - 07 - 19 | Pomerantz LLP Issues Alert Regarding Shareholder Class Action Against Microsoft Corporation - MSFT | TSX : MSFT"
+    "마이크로소프트 주식이 7월 29일 이후 급등할 것이라는 예측이 나왔어요",
+    "메타 플랫폼즈의 발표가 7월 29일에 있을 예정이에요",
+    "레딧 주식이 9% 하락했어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "주식 투자자들의 관심이 집중될 수 있어요!",
+    "기업의 주식 가격에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "ea7228acdf9cd1052f9229170c280065ab213767"
  },

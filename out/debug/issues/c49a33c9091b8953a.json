@@ -68,8 +68,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T06:46:06.982026+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-23T12:09:06.364469+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -80,26 +80,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"파키스탄 신용등급 상향\",\n  \"one_liner\": \"국제 신용평가사 S&P가 파키스탄의 국가 신용등급을 'B'로 올렸어요.\",\n  \"why_now\": \"신용등급이 오르면 외국에서 돈을 빌리기가 더 쉬워지고 이자도 낮아질 수 있어요.\",\n  \"impact_line\": \"파키스탄에 투자하거나 사업하는 사람들에게 좋은 소식일 수 있어요.\",\n  \"details\": [\n    \"국제 신용평가사 S&P가 파키스탄의 신용등급을 올렸어요.\",\n    \"파키스탄의 신용등급은 'B'가 되었어요.\",\n    \"앞으로의 전망은 '안정적'이라고 평가했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"파키스탄 정부나 기업이 외국에서 돈을 빌릴 때 더 유리한 조건으로 거래할 수 있게 될 것으로 예상돼요!\",\n    \"국가 경제에 대한 신뢰도가 높아져 외국인 투자 유치에 긍정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"신용등급\",\n      \"easy\": \"나라나 회사가 돈을 잘 갚을 수 있는지 보여주는 점수예요.\",\n      \"example\": \"신용등급이 높으면 돈을 빌리기 쉬워지고 이자도 싸져요.\"\n    },\n    {\n      \"term\": \"S&P\",\n      \"easy\": \"세계적인 신용평가 회사 이름이에요.\",\n      \"example\": \"S&P는 나라나 회사의 빚을 갚을 능력을 평가해서 등급을 매겨요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "S & P upgrades…",
-   "one_liner": "S & P upgrades credit rating to B",
-   "why_now": null,
+   "title": "파키스탄 신용등급 상향",
+   "one_liner": "국제 신용평가사 S&P가 파키스탄의 국가 신용등급을 'B'로 올렸어요.",
+   "why_now": "신용등급이 오르면 외국에서 돈을 빌리기가 더 쉬워지고 이자도 낮아질 수 있어요.",
    "details": [
-    "S & P upgrades credit rating to B",
-    "S & P Global upgrades Pakistan credit rating to  B",
-    "S & P upgrades Pakistan sovereign credit rating to  B , Outlook Stable"
+    "국제 신용평가사 S&P가 파키스탄의 신용등급을 올렸어요.",
+    "파키스탄의 신용등급은 'B'가 되었어요.",
+    "앞으로의 전망은 '안정적'이라고 평가했어요."
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "파키스탄 정부나 기업이 외국에서 돈을 빌릴 때 더 유리한 조건으로 거래할 수 있게 될 것으로 예상돼요!",
+    "국가 경제에 대한 신뢰도가 높아져 외국인 투자 유치에 긍정적인 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "e30932c09e24cdf8b2487e6f0209cfd957ac5ed2"
  },
