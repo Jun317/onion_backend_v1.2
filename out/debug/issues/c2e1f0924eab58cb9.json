@@ -2,18 +2,28 @@
  "id": "c2e1f0924eab58cb9",
  "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "TAIWAN"
  ],
- "seen_sources": 1,
- "importance": 45,
+ "seen_sources": 2,
+ "importance": 50,
  "created_at": "2026-07-23T16:53:35.390307+00:00",
- "last_update": "2026-07-23T16:53:35.390307+00:00",
+ "last_update": "2026-07-23T20:35:36.559038+00:00",
  "members": [
+  {
+   "id": "46182d26368916eb2fa2dc3e1da5ff8cb726ef9f",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductor-manufacturing-just-gave-081000405.html",
+   "title": "Taiwan Semiconductor Manufacturing Just Gave 100 Billion Reasons Why the AI Build - Out Will Last for Several More Years",
+   "published_at": "2026-07-23T18:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9023
+  },
   {
    "id": "5b4aeff497cbb9ffd79095bad374c0852d279905",
    "source": "insidermonkey.com",
@@ -22,7 +32,7 @@
    "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Is Raising Prices Up to 10 %. Can Customers Push Back ?",
    "published_at": "2026-07-23T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9696
+   "sim_to_centroid": 0.9687
   },
   {
    "id": "71342376e1b1194e86407968c80326e98102fcdf",
@@ -32,11 +42,18 @@
    "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
    "published_at": "2026-07-21T17:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9696
+   "sim_to_centroid": 0.9682
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Taiwan Semiconductor Manufacturing Just Gave 100 Billion Reasons Why the AI Build - Out Will Last for Several More Years",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductor-manufacturing-just-gave-081000405.html",
+   "at": "2026-07-23T18:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Is Raising Prices Up to 10 %. Can Customers Push Back ?",
@@ -52,13 +69,57 @@
    "at": "2026-07-21T17:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-23T20:39:13.483393+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Taiwan Semiconductor Manufacturing Just Gave 100 Billion Reasons Why the AI Build - Out Will Last for Several More Years",
+    "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Is Raising Prices Up to 10 %. Can Customers Push Back ?",
+    "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Taiwan Semiconductor…",
+   "one_liner": "Taiwan Semiconductor Manufacturing Just Gave 100…",
+   "why_now": null,
+   "details": [
+    "Taiwan Semiconductor Manufacturing Just Gave 100 Billion Reasons Why the AI Build - Out Will Last for Several More Years",
+    "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Is Raising Prices Up to 10 %. Can Customers Push Back ?",
+    "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "a7837c2985dbacd90c13c55eb13f5710eedce20d"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-23T20:39:13.483259+00:00"
+ },
  "glossary": [],
  "related": [
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c763582d47a3e8b63",
+   "title": "Netflix Looks To Buy Major Social Network With Over 30M Users",
    "category": "EARNINGS",
    "shared": []
   },
@@ -71,20 +132,14 @@
    ]
   },
   {
-   "id": "c763582d47a3e8b63",
-   "title": "Netflix Looks To Buy Major Social Network With Over 30M Users",
+   "id": "c97b66c85f24e90a2",
+   "title": "Pepkor creates R21 . 3bn fintech platform with IPO ambitions",
    "category": "EARNINGS",
    "shared": []
   },
   {
    "id": "cffd7c8f2798f47bf",
    "title": "Walmart , Costco and Richemont deliver lasting value",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "ca66c274e8e2752eb",
-   "title": "BP shale business is worth over $24bn says bullish broker",
    "category": "EARNINGS",
    "shared": []
   }
