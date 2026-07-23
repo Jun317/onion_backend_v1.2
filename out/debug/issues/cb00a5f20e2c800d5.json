@@ -2,18 +2,28 @@
  "id": "cb00a5f20e2c800d5",
  "title": "Where Social Security cuts could have the greatest economic impact",
  "category": "RATE",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "SEC"
  ],
- "seen_sources": 1,
- "importance": 130,
+ "seen_sources": 2,
+ "importance": 140,
  "created_at": "2026-07-21T18:46:21.176809+00:00",
- "last_update": "2026-07-21T20:40:22.795845+00:00",
+ "last_update": "2026-07-23T16:53:35.391480+00:00",
  "members": [
+  {
+   "id": "f24aebb2fbea57b46dafd982dc27de7e0bd75c89",
+   "source": "yahoo.com",
+   "tier": "wire",
+   "url": "https://www.yahoo.com/news/us/articles/social-security-payment-schedule-slightly-141307237.html",
+   "title": "Social Security payment schedule slightly differs for August . See when",
+   "published_at": "2026-07-23T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8734
+  },
   {
    "id": "c77471b179c813de035649ebdf8a7744b279cbfa",
    "source": "wape.com",
@@ -22,7 +32,7 @@
    "title": "Where Social Security cuts could have the greatest economic impact",
    "published_at": "2026-07-21T17:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9985
   },
   {
    "id": "164be82ab739d50852a8d644c3a5a1aea20e42c8",
@@ -32,7 +42,7 @@
    "title": "Where Social Security cuts could have the greatest economic impact",
    "published_at": "2026-07-21T17:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9985
   },
   {
    "id": "14bc5083b1f558a4f211b69ed47e726222afa56b",
@@ -42,11 +52,18 @@
    "title": "Where Social Security cuts could have the greatest economic impact",
    "published_at": "2026-07-21T17:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9985
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Social Security payment schedule slightly differs for August . See when",
+   "source": "yahoo.com",
+   "url": "https://www.yahoo.com/news/us/articles/social-security-payment-schedule-slightly-141307237.html",
+   "at": "2026-07-23T15:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Where Social Security cuts could have the greatest economic impact",
@@ -69,8 +86,51 @@
    "at": "2026-07-21T17:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-23T16:53:44.243496+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [],
+   "headlines": [
+    "Social Security payment schedule slightly differs for August . See when",
+    "Where Social Security cuts could have the greatest economic impact"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"미국 사회보장 지급 일정 변경\", \"one_liner\": \"미국의 사회보장 지급 일정이 8월에 조금 달라져요.\", \"why_now\": \"사회보장 지급 일정은 많은 사람들의 생활비에 직접적인 영향을 주기 때문이에요.\", \"impact_line\": \"사회보장 지급금을 받는 분들은 8월에 돈이 들어오는 날짜를 확인해야 해요.\", \"details\": [\"8월에 사회보장 지급 일정이 평소와 조금 달라질 예정이에요.\"], \"visual_type\": \"none\", \"effects\": [\"사회보장 지급금은 은퇴자, 장애인 등에게 지급되는 돈으로, 경제에 큰 영향을 미칠 수 있어요.\"], \"glossary\": [{\"term\": \"사회보장\", \"easy\": \"국가가 국민의 생활 안정을 위해 제공하는 연금, 의료, 실업 수당 등을 말해요.\", \"example\": \"사회보장 제도가 잘 되어 있으면 노후 걱정을 덜 수 있어요.\"}]}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects[0] 느낌표 종결 아님"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Social Security…",
+   "one_liner": "Social Security payment schedule slightly…",
+   "why_now": null,
+   "details": [
+    "Social Security payment schedule slightly differs for August . See when",
+    "Where Social Security cuts could have the greatest economic impact"
+   ],
+   "effects": [],
+   "visual_type": "kr_base_rate"
+  },
+  "fact_hash": "0b80235099396ec544bd2a59ea38a22541ec544e"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[0] 느낌표 종결 아님\"]}]}",
+  "at": "2026-07-23T16:53:44.243438+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -80,6 +140,12 @@
    "shared": [
     "SEC"
    ]
+  },
+  {
+   "id": "c01efb76fcd7102be",
+   "title": "Preview : ECB set to hold rates in July , hints of September hike expected : ING",
+   "category": "RATE",
+   "shared": []
   },
   {
    "id": "cd7b762c4b0212485",
@@ -102,14 +168,6 @@
    "title": "Will interest rates go up next week ? Bank of England key factors and 2026 predictions",
    "category": "RATE",
    "shared": []
-  },
-  {
-   "id": "c37ad01cf8a091a74",
-   "title": "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions",
-   "category": "FX",
-   "shared": [
-    "SEC"
-   ]
   }
  ]
 }

@@ -1,0 +1,132 @@
+{
+ "id": "c01efb76fcd7102be",
+ "title": "Preview : ECB set to hold rates in July , hints of September hike expected : ING",
+ "category": "RATE",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "ECB"
+ ],
+ "seen_sources": 2,
+ "importance": 140,
+ "created_at": "2026-07-23T16:53:35.390542+00:00",
+ "last_update": "2026-07-23T16:53:35.391522+00:00",
+ "members": [
+  {
+   "id": "2dec2c11aaa16cc38788bb19791395973706bccd",
+   "source": "finanzen.ch",
+   "tier": "wire",
+   "url": "https://www.finanzen.ch/nachrichten/zinsen/ecb-leaves-rates-unchanged-amid-high-uncertainty-september-hike-likely-1036357587",
+   "title": "ECB Leaves Rates Unchanged Amid High Uncertainty , September Hike Likely",
+   "published_at": "2026-07-23T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9796
+  },
+  {
+   "id": "93923f1d32771ffeeb1b954640b0434556f274de",
+   "source": "investinglive.com",
+   "tier": "wire",
+   "url": "https://investinglive.com:443/central-banks/preview-ecb-set-to-hold-rates-in-july-hints-of-september-hike-expected-ing",
+   "title": "Preview : ECB set to hold rates in July , hints of September hike expected : ING",
+   "published_at": "2026-07-21T22:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9795
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "ECB Leaves Rates Unchanged Amid High Uncertainty , September Hike Likely",
+   "source": "finanzen.ch",
+   "url": "https://www.finanzen.ch/nachrichten/zinsen/ecb-leaves-rates-unchanged-amid-high-uncertainty-september-hike-likely-1036357587",
+   "at": "2026-07-23T15:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Preview : ECB set to hold rates in July , hints of September hike expected : ING",
+   "source": "investinglive.com",
+   "url": "https://investinglive.com:443/central-banks/preview-ecb-set-to-hold-rates-in-july-hints-of-september-hike-expected-ing",
+   "at": "2026-07-21T22:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-23T16:53:38.452140+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [],
+   "headlines": [
+    "ECB Leaves Rates Unchanged Amid High Uncertainty , September Hike Likely",
+    "Preview : ECB set to hold rates in July , hints of September hike expected : ING"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"유럽중앙은행 금리 동결\",\n  \"one_liner\": \"유럽중앙은행이 기준금리를 그대로 유지했어요.\",\n  \"why_now\": \"앞으로 금리를 올릴 가능성이 있어 경제 상황을 지켜봐야 해요.\",\n  \"impact_line\": null,\n  \"details\": [\n    \"유럽중앙은행은 기준금리를 동결하기로 결정했어요.\",\n    \"높은 불확실성 속에서 이러한 결정이 내려졌어요.\",\n    \"9월에는 금리를 올릴 가능성이 점쳐지고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"금리가 오르면 돈을 빌리는 비용이 늘어날 수 있어요!\",\n    \"물가를 잡기 위한 조치로 소비가 위축될 가능성도 있어요.\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"유럽중앙은행\",\n      \"easy\": \"유럽연합 회원국들의 중앙은행 역할을 하는 곳이에요.\",\n      \"example\": \"유럽중앙은행의 결정은 유럽 경제에 큰 영향을 미쳐요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects[1] 느낌표 종결 아님"
+    ]
+   }
+  ],
+  "output": {
+   "title": "ECB Leaves Rates…",
+   "one_liner": "ECB Leaves Rates Unchanged Amid High Uncertainty…",
+   "why_now": null,
+   "details": [
+    "ECB Leaves Rates Unchanged Amid High Uncertainty , September Hike Likely",
+    "Preview : ECB set to hold rates in July , hints of September hike expected : ING"
+   ],
+   "effects": [],
+   "visual_type": "kr_base_rate"
+  },
+  "fact_hash": "1a7d386fea2c9db3b3624402e6ecc65642b95eff"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}]}",
+  "at": "2026-07-23T16:53:38.451990+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c826b1c1944a1c619",
+   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c7c0f262265dbe065",
+   "title": "Will interest rates go up next week ? Bank of England key factors and 2026 predictions",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "e97a81ef1127b8815",
+   "title": "미 연준 기준금리 변동 (4.08%)",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "cc9931e5da1b53be2",
+   "title": "BOJ dissenter Asada sets bar for supporting next rate hike , wants demand - driven inflation",
+   "category": "RATE",
+   "shared": []
+  }
+ ]
+}

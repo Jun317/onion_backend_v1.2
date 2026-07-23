@@ -9,11 +9,31 @@
  "entity_keys": [
   "IRAN"
  ],
- "seen_sources": 2,
- "importance": 65,
+ "seen_sources": 4,
+ "importance": 75,
  "created_at": "2026-07-23T06:44:56.417201+00:00",
- "last_update": "2026-07-23T06:44:56.417949+00:00",
+ "last_update": "2026-07-23T16:53:35.567690+00:00",
  "members": [
+  {
+   "id": "410e0bbfd19db1ae29cde27bc61454bbc8b90dde",
+   "source": "idahostatejournal.com",
+   "tier": "wire",
+   "url": "http://www.idahostatejournal.com/news/national/yemens-houthis-attack-saudi-tankers-in-the-red-sea-threatening-to-widen-iran-war/article_6f75b203-b4ff-50d2-8262-bed7c73390e5.html",
+   "title": "Yemen Houthis attack Saudi tankers in the Red Sea , threatening to widen Iran war",
+   "published_at": "2026-07-23T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8505
+  },
+  {
+   "id": "3887ee09fa779211a0b99c63b70d636a8ef018be",
+   "source": "local10.com",
+   "tier": "wire",
+   "url": "https://www.local10.com/news/2026/07/22/us-military-carries-out-strikes-on-iran-as-both-sides-threaten-civilian-infrastructure/",
+   "title": "US military carries out strikes on Iran as both sides threaten civilian infrastructure",
+   "published_at": "2026-07-23T03:45:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.8782
+  },
   {
    "id": "27973c58fb69a0b833bae0a032494005fa981308",
    "source": "finance.yahoo.com",
@@ -33,10 +53,34 @@
    "published_at": "2026-07-23T03:30:00+00:00",
    "is_dup": 0,
    "sim_to_centroid": 0.9715
+  },
+  {
+   "id": "78a553735500b070455b1d07adef261679a1b1e2",
+   "source": "manilatimes.net",
+   "tier": "wire",
+   "url": "https://www.manilatimes.net/2026/07/23/world/americas-emea/us-military-carries-out-strikes-on-iran-as-both-sides-threaten-civilian-infrastructure/2389876",
+   "title": "US military carries out strikes on Iran as both sides threaten civilian infrastructure",
+   "published_at": "2026-07-23T03:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8782
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Yemen Houthis attack Saudi tankers in the Red Sea , threatening to widen Iran war",
+   "source": "idahostatejournal.com",
+   "url": "http://www.idahostatejournal.com/news/national/yemens-houthis-attack-saudi-tankers-in-the-red-sea-threatening-to-widen-iran-war/article_6f75b203-b4ff-50d2-8262-bed7c73390e5.html",
+   "at": "2026-07-23T15:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US military carries out strikes on Iran as both sides threaten civilian infrastructure",
+   "source": "local10.com",
+   "url": "https://www.local10.com/news/2026/07/22/us-military-carries-out-strikes-on-iran-as-both-sides-threaten-civilian-infrastructure/",
+   "at": "2026-07-23T03:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Tech bounce lifts Asia stocks , oil extends gains on US - Iran fears",
@@ -50,51 +94,56 @@
    "source": "asiaone.com",
    "url": "https://www.asiaone.com/money/oil-prices-rise-6-week-high-us-iran-tensions-escalate",
    "at": "2026-07-23T03:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US military carries out strikes on Iran as both sides threaten civilian infrastructure",
+   "source": "manilatimes.net",
+   "url": "https://www.manilatimes.net/2026/07/23/world/americas-emea/us-military-carries-out-strikes-on-iran-as-both-sides-threaten-civilian-infrastructure/2389876",
+   "at": "2026-07-23T03:30:00+00:00"
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-23T06:45:04.177503+00:00",
+  "model": "template",
+  "created_at": "2026-07-23T16:56:17.168036+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Yemen Houthis attack Saudi tankers in the Red Sea , threatening to widen Iran war",
     "Tech bounce lifts Asia stocks , oil extends gains on US - Iran fears",
-    "Oil prices rise to 6 - week high as US - Iran tensions escalate"
+    "Oil prices rise to 6 - week high as US - Iran tensions escalate",
+    "US military carries out strikes on Iran as both sides threaten civilian infrastructure"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"국제 유가 상승\",\n  \"one_liner\": \"미국과 이란의 긴장이 고조되면서 국제 유가가 6주 만에 최고치를 기록했어요.\",\n  \"why_now\": \"국제 유가가 오르면 항공료, 배송비 등 생활 물가가 전반적으로 오를 수 있어요.\",\n  \"impact_line\": \"주유비와 배송비가 오를 수 있어요.\",\n  \"details\": [\n    \"미국과 이란의 긴장이 고조되고 있어요.\",\n    \"이로 인해 국제 유가가 6주 만에 최고치를 기록했어요.\",\n    \"아시아 증시도 기술주 상승에 힘입어 올랐어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"국제 유가가 더 오르면 항공료와 배송비가 상승할 수 있어요!\",\n    \"생활 물가 전반에 영향을 미쳐 장바구니 물가가 오를 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"국제 유가\",\n      \"easy\": \"전 세계에서 거래되는 석유의 가격이에요.\",\n      \"example\": \"국제 유가가 오르면 주유비가 비싸져요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
    }
   ],
   "output": {
-   "title": "국제 유가 상승",
-   "one_liner": "미국과 이란의 긴장이 고조되면서 국제 유가가 6주 만에 최고치를 기록했어요.",
-   "why_now": "국제 유가가 오르면 항공료, 배송비 등 생활 물가가 전반적으로 오를 수 있어요.",
+   "title": "Yemen Houthis attack…",
+   "one_liner": "Yemen Houthis attack Saudi tankers in the Red…",
+   "why_now": null,
    "details": [
-    "미국과 이란의 긴장이 고조되고 있어요.",
-    "이로 인해 국제 유가가 6주 만에 최고치를 기록했어요.",
-    "아시아 증시도 기술주 상승에 힘입어 올랐어요."
+    "Yemen Houthis attack Saudi tankers in the Red Sea , threatening to widen Iran war",
+    "Tech bounce lifts Asia stocks , oil extends gains on US - Iran fears",
+    "Oil prices rise to 6 - week high as US - Iran tensions escalate"
    ],
-   "effects": [
-    "국제 유가가 더 오르면 항공료와 배송비가 상승할 수 있어요!",
-    "생활 물가 전반에 영향을 미쳐 장바구니 물가가 오를 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "eb6a9358611d0e753c3af5e7c2e047e4b9c5ff8f"
+  "fact_hash": "8cd3b76fa36d19bb15cecf8a6c501cb760f08af4"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-23T16:56:17.167971+00:00"
+ },
  "glossary": [],
  "related": [
   {

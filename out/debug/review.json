@@ -1,6 +1,196 @@
 {
- "generated_at": "2026-07-23T14:47:52.416010+00:00",
+ "generated_at": "2026-07-23T16:56:38.022278+00:00",
  "queue": [
+  {
+   "issue_id": "c97b66c85f24e90a2",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T16:56:35.632166+00:00"
+  },
+  {
+   "issue_id": "cd41f78d2b746ddd5",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T16:56:17.167971+00:00"
+  },
+  {
+   "issue_id": "cae12e84b9ba8466d",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T16:55:58.670263+00:00"
+  },
+  {
+   "issue_id": "c22988ac2851c923e",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T16:55:40.190203+00:00"
+  },
+  {
+   "issue_id": "cb58f83b24f1df47e",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T16:55:21.706234+00:00"
+  },
+  {
+   "issue_id": "cf79c65db98a639fd",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T16:55:03.237663+00:00"
+  },
+  {
+   "issue_id": "cffd7c8f2798f47bf",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T16:54:44.469601+00:00"
+  },
+  {
+   "issue_id": "c3018c212752fa748",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "details 3문장 미만"
+      ]
+     },
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T16:54:25.874992+00:00"
+  },
+  {
+   "issue_id": "c59c2d7e9ce82f347",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "details 3문장 미만"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "details 3문장 미만"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T16:53:57.138883+00:00"
+  },
+  {
+   "issue_id": "cb00a5f20e2c800d5",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "details 3문장 미만"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "details 3문장 미만",
+       "effects[0] 느낌표 종결 아님"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T16:53:44.243438+00:00"
+  },
+  {
+   "issue_id": "c01efb76fcd7102be",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "details 3문장 미만"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "effects[1] 느낌표 종결 아님"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T16:53:38.451990+00:00"
+  },
   {
    "issue_id": "e552cf5d18e0c75cd",
    "reason": {
@@ -521,21 +711,6 @@
    "at": "2026-07-23T03:57:17.805090+00:00"
   },
   {
-   "issue_id": "c97b66c85f24e90a2",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "",
-      "errors": [
-       "전 프로바이더 응답 실패"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-23T03:56:59.380609+00:00"
-  },
-  {
    "issue_id": "c55ab93d9b0cb290e",
    "reason": {
     "summary": "LLM 검증 실패 → 템플릿 폴백",
@@ -564,36 +739,6 @@
     ]
    },
    "at": "2026-07-23T03:55:45.630836+00:00"
-  },
-  {
-   "issue_id": "cae12e84b9ba8466d",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "",
-      "errors": [
-       "전 프로바이더 응답 실패"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-23T03:55:08.762575+00:00"
-  },
-  {
-   "issue_id": "c22988ac2851c923e",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "",
-      "errors": [
-       "전 프로바이더 응답 실패"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-23T03:54:50.344657+00:00"
   },
   {
    "issue_id": "c247c1469da5d5f8e",
@@ -678,21 +823,6 @@
    "at": "2026-07-22T22:39:29.224290+00:00"
   },
   {
-   "issue_id": "cf79c65db98a639fd",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "",
-      "errors": [
-       "전 프로바이더 응답 실패"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-22T22:32:04.375601+00:00"
-  },
-  {
    "issue_id": "c7c0f262265dbe065",
    "reason": {
     "summary": "LLM 검증 실패 → 템플릿 폴백",
@@ -728,27 +858,6 @@
     ]
    },
    "at": "2026-07-22T20:37:27.608866+00:00"
-  },
-  {
-   "issue_id": "cb58f83b24f1df47e",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "title 22자 초과(23)"
-      ]
-     },
-     {
-      "model": "",
-      "errors": [
-       "전 프로바이더 응답 실패"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-22T20:37:09.079288+00:00"
   },
   {
    "issue_id": "c8f5a9e98f41d332f",
