@@ -1,6 +1,111 @@
 {
- "generated_at": "2026-07-23T04:03:50.237379+00:00",
+ "generated_at": "2026-07-23T06:46:27.774793+00:00",
  "queue": [
+  {
+   "issue_id": "c2a4c3894a14ae550",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T06:46:25.435194+00:00"
+  },
+  {
+   "issue_id": "c49a33c9091b8953a",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T06:46:06.981925+00:00"
+  },
+  {
+   "issue_id": "c8767f6a04dae9d1b",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T06:45:48.544033+00:00"
+  },
+  {
+   "issue_id": "e552cf5d18e0c75cd",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T06:45:29.843200+00:00"
+  },
+  {
+   "issue_id": "eac7c412c8a151128",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "details 3문장 미만",
+       "effects 1~2문장 아님"
+      ]
+     },
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "details 3문장 미만",
+       "effects[0] 느낌표 종결 아님",
+       "effects[1] 느낌표 종결 아님"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T06:45:11.420403+00:00"
+  },
+  {
+   "issue_id": "c26db649df2243106",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "입력에 없는 숫자: [6.5, 3000.0]"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "one_liner 50자 초과(51)"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-23T06:44:59.520742+00:00"
+  },
   {
    "issue_id": "c0ce91eaf69284897",
    "reason": {
@@ -555,36 +660,6 @@
    "at": "2026-07-23T00:22:33.339476+00:00"
   },
   {
-   "issue_id": "e552cf5d18e0c75cd",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "",
-      "errors": [
-       "전 프로바이더 응답 실패"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-22T22:40:06.188704+00:00"
-  },
-  {
-   "issue_id": "eac7c412c8a151128",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "",
-      "errors": [
-       "전 프로바이더 응답 실패"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-22T22:39:47.687735+00:00"
-  },
-  {
    "issue_id": "eb2464e0af496cad2",
    "reason": {
     "summary": "LLM 검증 실패 → 템플릿 폴백",
@@ -615,21 +690,6 @@
    "at": "2026-07-22T22:32:04.375601+00:00"
   },
   {
-   "issue_id": "c2a4c3894a14ae550",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "",
-      "errors": [
-       "전 프로바이더 응답 실패"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-22T22:31:45.835131+00:00"
-  },
-  {
    "issue_id": "c7c0f262265dbe065",
    "reason": {
     "summary": "LLM 검증 실패 → 템플릿 폴백",
@@ -650,27 +710,6 @@
     ]
    },
    "at": "2026-07-22T22:31:08.817942+00:00"
-  },
-  {
-   "issue_id": "c8767f6a04dae9d1b",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "one_liner 50자 초과(56)"
-      ]
-     },
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "입력에 없는 숫자: [8715.0]"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-22T22:30:47.973577+00:00"
   },
   {
    "issue_id": "c070aab2998b2d82b",
@@ -707,29 +746,6 @@
     ]
    },
    "at": "2026-07-22T20:37:09.079288+00:00"
-  },
-  {
-   "issue_id": "c49a33c9091b8953a",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "details 3문장 미만",
-       "effects[0] 느낌표 종결 아님",
-       "effects[1] 느낌표 종결 아님"
-      ]
-     },
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "details 3문장 미만"
-      ]
-     }
-    ]
-   },
-   "at": "2026-07-22T20:36:19.644230+00:00"
   },
   {
    "issue_id": "c8f5a9e98f41d332f",

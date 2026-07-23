@@ -10,8 +10,18 @@
  "seen_sources": 2,
  "importance": 110,
  "created_at": "2026-07-22T16:53:58.409726+00:00",
- "last_update": "2026-07-22T16:53:58.413027+00:00",
+ "last_update": "2026-07-23T06:44:56.410771+00:00",
  "members": [
+  {
+   "id": "ae83933ac70d0074501b73a8a91c43e5c8417588",
+   "source": "tribune.com.pk",
+   "tier": "wire",
+   "url": "https://tribune.com.pk/story/2619768/sp-upgrades-credit-rating-to-b-1",
+   "title": "S & P upgrades credit rating to B",
+   "published_at": "2026-07-23T03:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9664
+  },
   {
    "id": "77dccc98be26ea654708e3677edf594e62a5bb99",
    "source": "tribune.com.pk",
@@ -20,7 +30,7 @@
    "title": "S & P Global upgrades Pakistan credit rating to  B",
    "published_at": "2026-07-22T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9901
+   "sim_to_centroid": 0.9906
   },
   {
    "id": "7204763ea509c5e3324497b9b66c6efa14bfd0ad",
@@ -30,11 +40,18 @@
    "title": "S & P upgrades Pakistan sovereign credit rating to  B , Outlook Stable",
    "published_at": "2026-07-22T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9901
+   "sim_to_centroid": 0.9888
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "S & P upgrades credit rating to B",
+   "source": "tribune.com.pk",
+   "url": "https://tribune.com.pk/story/2619768/sp-upgrades-credit-rating-to-b-1",
+   "at": "2026-07-23T03:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "S & P Global upgrades Pakistan credit rating to  B",
@@ -51,44 +68,44 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-23T00:18:07.676914+00:00",
+  "model": "template",
+  "created_at": "2026-07-23T06:46:06.982026+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
    "headlines": [
+    "S & P upgrades credit rating to B",
     "S & P Global upgrades Pakistan credit rating to  B",
     "S & P upgrades Pakistan sovereign credit rating to  B , Outlook Stable"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"파키스탄 신용등급 상승\",\n   \"one_liner\": \"파키스탄의 신용등급이 올라 B가 됐어요\",\n   \"why_now\": \"신용등급이 오르면 외국에서 돈을 빌리기가 쉬워져 국가 경제에 도움이 되어요\",\n   \"impact_line\": \"파키스탄의 경제 상황이 좋아질 수 있어요\",\n   \"details\": [\n       \"파키스탄의 신용등급이 B로 상승했어요\",\n       \"신용등급이 상승하면 파키스탄이 외국에서 돈을 빌리기가 쉬워질 수 있어요\",\n       \"파키스탄의 경제 상황이 안정되어질 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"파키스탄의 경제가 안정되면 해외 투자가 증가할 수 있어요!\",\n       \"파키스탄의 기업과 정부가 더 쉽게 자금을 조달할 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"신용등급\",\n           \"easy\": \"돈을 빌릴 때 얼마나 신용이 좋은지 나타내는 등급이에요\",\n           \"example\": \"신용등급이 높으면 돈을 빌리기가 쉬워져요\"\n       }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "파키스탄 신용등급 상승",
-   "one_liner": "파키스탄의 신용등급이 올라 B가 됐어요",
-   "why_now": "신용등급이 오르면 외국에서 돈을 빌리기가 쉬워져 국가 경제에 도움이 되어요",
+   "title": "S & P upgrades…",
+   "one_liner": "S & P upgrades credit rating to B",
+   "why_now": null,
    "details": [
-    "파키스탄의 신용등급이 B로 상승했어요",
-    "신용등급이 상승하면 파키스탄이 외국에서 돈을 빌리기가 쉬워질 수 있어요",
-    "파키스탄의 경제 상황이 안정되어질 수 있어요"
+    "S & P upgrades credit rating to B",
+    "S & P Global upgrades Pakistan credit rating to  B",
+    "S & P upgrades Pakistan sovereign credit rating to  B , Outlook Stable"
    ],
-   "effects": [
-    "파키스탄의 경제가 안정되면 해외 투자가 증가할 수 있어요!",
-    "파키스탄의 기업과 정부가 더 쉽게 자금을 조달할 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "kr_base_rate"
   },
-  "fact_hash": "20b9e9ad9aee316fff826f9eaf81ceb97a9bbb89"
+  "fact_hash": "e30932c09e24cdf8b2487e6f0209cfd957ac5ed2"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\", \"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-07-22T20:36:19.644230+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-23T06:46:06.981925+00:00"
  },
  "glossary": [],
  "related": [

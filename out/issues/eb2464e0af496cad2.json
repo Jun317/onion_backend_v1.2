@@ -1,9 +1,9 @@
 {
  "id": "eb2464e0af496cad2",
- "title": "넥스트아이 매출액 57.7억원",
- "one_liner": "넥스트아이 매출액 57.7억원으로 발표됐어요",
- "why_now": null,
- "impact_line": null,
+ "title": "넥스트아이 실적",
+ "one_liner": "넥스트아이의 매출과 영업이익이 줄었어요",
+ "why_now": "회사 실적이 중요해요",
+ "impact_line": "주주们의 수익이 줄 수 있어요",
  "raw_title": "넥스트아이 2025-4Q 실적 공시",
  "category": "EARNINGS",
  "status": "stale",
@@ -12,7 +12,7 @@
  "importance": 20,
  "last_update": "2026-07-05T09:16:12.197714+00:00",
  "event_at": "2026-07-05T09:12:31.545991+00:00",
- "has_visual": true,
+ "has_visual": false,
  "headline_stat": {
   "label": "넥스트아이 영업이익",
   "value": "-17.8",
@@ -24,40 +24,16 @@
  "spark": null,
  "icon": "🧾",
  "details": [
-  "넥스트아이 매출액: 57.7억원",
-  "넥스트아이 영업이익: -17.8억원"
+  "넥스트아이의 매출액은 57.7억원이에요",
+  "영업이익은 -17.8억원이에요",
+  "이번 실적은 2025년 1분기에요"
  ],
- "effects": [],
- "model": "template",
- "visual": {
-  "type": "earnings_quarterly",
-  "chart": "bar",
-  "title": "분기 실적",
-  "unit": "억원",
-  "source": "DART/EDGAR",
-  "groups": [
-   {
-    "name": "매출액",
-    "series": [
-     {
-      "t": "2025-1Q",
-      "v": 57.7
-     }
-    ],
-    "unit": "억원"
-   },
-   {
-    "name": "영업이익",
-    "series": [
-     {
-      "t": "2025-1Q",
-      "v": -17.8
-     }
-    ],
-    "unit": "억원"
-   }
-  ]
- },
+ "effects": [
+  "주가가 떨어질 수 있어요!",
+  "회사에 대한 투자심리가 낮아질 수 있어요!"
+ ],
+ "model": "llama-3.3-70b-versatile",
+ "visual": null,
  "anchors": [
   {
    "entity": "넥스트아이",
@@ -109,14 +85,20 @@
    "shared": []
   },
   {
-   "id": "c97b66c85f24e90a2",
-   "title": "Pepkor creates R21 . 3bn fintech platform with IPO ambitions",
+   "id": "c26db649df2243106",
+   "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "cb25122596f4c2570",
-   "title": "Geopolitics , Earnings Sway Market Sentiment",
+   "id": "ca66c274e8e2752eb",
+   "title": "BP shale business is worth over $24bn says bullish broker",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c97b66c85f24e90a2",
+   "title": "Pepkor creates R21 . 3bn fintech platform with IPO ambitions",
    "category": "EARNINGS",
    "shared": []
   }
