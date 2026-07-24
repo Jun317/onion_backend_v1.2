@@ -68,8 +68,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-24T03:55:22.039412+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-24T09:42:29.993541+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -79,24 +79,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국, 캐나다 상품에 50% 관세 부과\",\n  \"one_liner\": \"미국이 캐나다에서 수입하는 의류 등 일부 상품에 50%의 높은 관세를 매겼어요.\",\n  \"why_now\": \"갑자기 높아진 관세는 물가 상승으로 이어져 소비자의 부담을 늘릴 수 있어요.\",\n  \"impact_line\": \"캐나다에서 수입하는 옷이나 물건 가격이 오를 수 있어요.\",\n  \"details\": [\n    \"미국이 캐나다산 의류와 일부 상품에 50%의 관세를 새로 부과했어요.\",\n    \"이 조치는 트럼프 전 대통령의 정책과 관련이 있어요.\",\n    \"캐나다 정부는 이에 대해 대응 조치를 취하겠다고 밝혔어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"캐나다에서 수입되는 상품의 가격이 올라갈 수 있어요!\",\n    \"미국과 캐나다 간의 무역 관계에 긴장이 생길 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 세금이에요.\",\n      \"example\": \"해외 직구로 옷을 사면 관세를 내야 할 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "What Canadians need…",
-   "one_liner": "What Canadians need to know about Trump new 50 %…",
-   "why_now": null,
+   "title": "미국, 캐나다 상품에 50% 관세 부과",
+   "one_liner": "미국이 캐나다에서 수입하는 의류 등 일부 상품에 50%의 높은 관세를 매겼어요.",
+   "why_now": "갑자기 높아진 관세는 물가 상승으로 이어져 소비자의 부담을 늘릴 수 있어요.",
    "details": [
-    "What Canadians need to know about Trump new 50 % tariffs",
-    "Canada vows action after US slaps 50 % tariff on apparel and other goods"
+    "미국이 캐나다산 의류와 일부 상품에 50%의 관세를 새로 부과했어요.",
+    "이 조치는 트럼프 전 대통령의 정책과 관련이 있어요.",
+    "캐나다 정부는 이에 대해 대응 조치를 취하겠다고 밝혔어요."
    ],
-   "effects": [],
+   "effects": [
+    "캐나다에서 수입되는 상품의 가격이 올라갈 수 있어요!",
+    "미국과 캐나다 간의 무역 관계에 긴장이 생길 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "515cae0f3dd215b4849eea8c7aa75e8813af1f77"
@@ -105,23 +107,17 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-24T03:55:22.039341+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cde343d4cab397faf",
    "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
-   "id": "cb58f83b24f1df47e",
-   "title": "Simon Harris says budget tax package must deliver for  working people",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
-   "id": "c7df8eab6657a9a33",
-   "title": "Trump 50 % tariff threat : why now ?",
    "category": "POLICY",
    "shared": []
   },
@@ -132,8 +128,20 @@
    "shared": []
   },
   {
+   "id": "c1d3d6484c6b93b16",
+   "title": "NL Joins Others in Signing Deal Allowing for Purchase of Alcohol from Other Provinces",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
    "id": "c2cdae3197527cd80",
    "title": "Trump unveils new 50 % tariffs on wide range of Canadian goods",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "cb58f83b24f1df47e",
+   "title": "Simon Harris says budget tax package must deliver for  working people",
    "category": "POLICY",
    "shared": []
   }

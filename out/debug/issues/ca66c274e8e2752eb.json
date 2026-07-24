@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-24T03:56:36.087016+00:00",
+  "created_at": "2026-07-24T09:43:32.248269+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,12 +881,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기업 실적 및 투자 소식\",\n  \"one_liner\": \"여러 기업의 실적 발표와 투자 관련 소식이 나왔어요.\",\n  \"why_now\": \"기업의 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\",\n  \"impact_line\": null,\n  \"details\": [\n    \"Prologis가 영국 Segro 인수를 위해 187억 달러를 제안했어요.\",\n    \"BP의 셰일 사업 가치가 240억 달러 이상이라고 분석했어요.\",\n    \"투자자들이 PPL 주식에 대한 콜옵션을 대량으로 매수했어요.\",\n    \"말레이시아 연기금(KWAP)이 eFishery 투자 손실 관련 서류를 검토 중이에요.\",\n    \"BlackRock Smaller Companies Trust Plc의 포트폴리오 업데이트 소식이 있었어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [],\n  \"glossary\": [\n    {\n      \"term\": \"콜옵션\",\n      \"easy\": \"미래에 특정 가격으로 주식을 살 수 있는 권리를 말해요.\",\n      \"example\": \"주가가 오를 것 같을 때 콜옵션을 사서 이익을 얻을 수 있어요.\"\n    },\n    {\n      \"term\": \"포트폴리오\",\n      \"easy\": \"여러 종류의 투자 자산을 모아 놓은 것을 뜻해요.\",\n      \"example\": \"주식, 채권, 부동산 등 다양한 자산으로 포트폴리오를 구성할 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [187.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects 1~2문장 아님",
+     "입력에 없는 숫자: [187.0, 240.0]"
     ]
    }
   ],
@@ -905,8 +913,8 @@
   "fact_hash": "788e7d46f43fc0b46e49fc6b223c00a6ad6bf84e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-24T03:56:36.086915+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [187.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\", \"입력에 없는 숫자: [187.0, 240.0]\"]}]}",
+  "at": "2026-07-24T09:43:32.248166+00:00"
  },
  "glossary": [
   {

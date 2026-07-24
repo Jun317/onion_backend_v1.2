@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-24T03:53:12.272887+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-24T09:41:33.687871+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,25 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국, 약값에 100% 관세 위협\",\n  \"one_liner\": \"미국 대통령이 해외에서 들여오는 약값에 100% 관세를 물리겠다고 했어요.\",\n  \"why_now\": \"약값에 높은 관세를 매기면 국내 약값이 오르거나 수입 약 구하기가 어려워질 수 있어요.\",\n  \"impact_line\": \"해외에서 들여오는 약값 부담이 커질 수 있어요.\",\n  \"details\": [\n    \"미국 대통령이 해외에서 만든 약에 100% 관세를 매기겠다고 말했어요.\",\n    \"이는 수입 약의 가격을 두 배로 올릴 수 있는 조치예요.\",\n    \"이러한 관세는 약값 상승으로 이어질 수 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"국내에서 판매되는 약값이 오를 수 있어요!\",\n    \"약값 부담이 커져 환자들의 의료비 지출이 늘어날 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 세금이에요.\",\n      \"example\": \"수입 과자에 관세를 매기면 과자값이 비싸져요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump Threatens 100…",
-   "one_liner": "Trump Threatens 100 Percent Generic Drug Tariffs",
-   "why_now": null,
+   "title": "미국, 약값에 100% 관세 위협",
+   "one_liner": "미국 대통령이 해외에서 들여오는 약값에 100% 관세를 물리겠다고 했어요.",
+   "why_now": "약값에 높은 관세를 매기면 국내 약값이 오르거나 수입 약 구하기가 어려워질 수 있어요.",
    "details": [
-    "Trump Threatens 100 Percent Generic Drug Tariffs",
-    "President Trump threatens 100 % tariffs on imported generic drugs",
-    "Trump Threatens 100 Percent Generic Drug Tariffs | NewsTalk WMEQ"
+    "미국 대통령이 해외에서 만든 약에 100% 관세를 매기겠다고 말했어요.",
+    "이는 수입 약의 가격을 두 배로 올릴 수 있는 조치예요.",
+    "이러한 관세는 약값 상승으로 이어질 수 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "국내에서 판매되는 약값이 오를 수 있어요!",
+    "약값 부담이 커져 환자들의 의료비 지출이 늘어날 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "27cb126983f5910ef2945f5d8497905ab76b30d4"
@@ -908,17 +909,17 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-24T03:53:12.272775+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cde343d4cab397faf",
    "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
-   "id": "cb58f83b24f1df47e",
-   "title": "Simon Harris says budget tax package must deliver for  working people",
    "category": "POLICY",
    "shared": []
   },
@@ -929,14 +930,20 @@
    "shared": []
   },
   {
+   "id": "c1d3d6484c6b93b16",
+   "title": "NL Joins Others in Signing Deal Allowing for Purchase of Alcohol from Other Provinces",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
    "id": "c2cdae3197527cd80",
    "title": "Trump unveils new 50 % tariffs on wide range of Canadian goods",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "cec911b7dc8980e46",
-   "title": "Were Just Poor Cattle to Them : MAGA Voters Lose $7 Billion as Trump Income Hits $2 . 2 Billion",
+   "id": "cb58f83b24f1df47e",
+   "title": "Simon Harris says budget tax package must deliver for  working people",
    "category": "POLICY",
    "shared": []
   }

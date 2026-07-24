@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 5,
+ "seen_sources": 6,
  "importance": 85,
  "created_at": "2026-07-22T16:53:58.410517+00:00",
- "last_update": "2026-07-24T00:16:37.075506+00:00",
+ "last_update": "2026-07-24T09:41:08.406619+00:00",
  "members": [
+  {
+   "id": "6492b92cd1b70233a9282fba3ffebd7406402a8c",
+   "source": "skynews.com.au",
+   "tier": "wire",
+   "url": "https://www.skynews.com.au/business/finance/victorian-labor-government-mismanagement-has-exaggerated-the-states-economic-troubles-as-it-pushes-unemployment-rate-up/news-story/0e8e0f8326242e34393b819d1750cc00?nk=ea545424fc313e05095b9c9ba558d785-1784881008",
+   "title": "Victorian Labor government mismanagement has  exaggerated  the state economic troubles as it pushes unemployment rate up",
+   "published_at": "2026-07-24T08:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8769
+  },
   {
    "id": "8672bc0fbc74ddf864dee982fd7e5bc5251a85ab",
    "source": "foxbusiness.com",
@@ -20,7 +30,7 @@
    "title": "LARRY KUDLOW : GOP needs a swag - worthy message on draining swamp , slashing middle - class taxes for growth",
    "published_at": "2026-07-23T23:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8974
+   "sim_to_centroid": 0.8992
   },
   {
    "id": "bf0df1be291966aad59f9186e6c225135b4aef67",
@@ -30,7 +40,7 @@
    "title": "Presidential History : The president midterm jinx – Daily Press",
    "published_at": "2026-07-22T19:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9089
+   "sim_to_centroid": 0.907
   },
   {
    "id": "6c20d360cad98b0b5df64c0c8eac2f7179479d9b",
@@ -40,7 +50,7 @@
    "title": "Presidential History : The president midterm jinx – The Virginian - Pilot",
    "published_at": "2026-07-22T17:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9019
+   "sim_to_centroid": 0.9023
   },
   {
    "id": "ab1c02e2ecf9469f681be8dbda2b63a0ee03c238",
@@ -50,7 +60,7 @@
    "title": "Messy primaries plague both major political parties , causing chaos and confusion in the midterms",
    "published_at": "2026-07-22T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9556
+   "sim_to_centroid": 0.9539
   },
   {
    "id": "f82015264aa1521ea99e1918a8c51e1049a7d3e2",
@@ -60,11 +70,18 @@
    "title": "If the economy is your concern , vote Democrat ; pardons are hurting America ; the right to vote ( Letters )",
    "published_at": "2026-07-22T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9468
+   "sim_to_centroid": 0.9449
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Victorian Labor government mismanagement has  exaggerated  the state economic troubles as it pushes unemployment rate up",
+   "source": "skynews.com.au",
+   "url": "https://www.skynews.com.au/business/finance/victorian-labor-government-mismanagement-has-exaggerated-the-states-economic-troubles-as-it-pushes-unemployment-rate-up/news-story/0e8e0f8326242e34393b819d1750cc00?nk=ea545424fc313e05095b9c9ba558d785-1784881008",
+   "at": "2026-07-24T08:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "LARRY KUDLOW : GOP needs a swag - worthy message on draining swamp , slashing middle - class taxes for growth",
@@ -102,42 +119,44 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-24T03:54:26.505344+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-24T09:41:59.264991+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
-    "LARRY KUDLOW : GOP needs a swag - worthy message on draining swamp , slashing middle - class taxes for growth",
+    "Messy primaries plague both major political parties , causing chaos and confusion in the midterms",
+    "If the economy is your concern , vote Democrat ; pardons are hurting America ; the right to vote ( Letters )",
     "Presidential History : The president midterm jinx – Daily Press",
     "Presidential History : The president midterm jinx – The Virginian - Pilot",
-    "Messy primaries plague both major political parties , causing chaos and confusion in the midterms",
-    "If the economy is your concern , vote Democrat ; pardons are hurting America ; the right to vote ( Letters )"
+    "LARRY KUDLOW : GOP needs a swag - worthy message on draining swamp , slashing middle - class taxes for growth"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"중간선거 혼란\",\n    \"one_liner\": \"미국 중간선거에서 주요 정당들의 경선 과정이 복잡하게 진행되며 혼란을 겪고 있어요.\",\n    \"why_now\": \"중간선거는 대통령 임기 중반에 치러져 국정 운영 방향을 결정하는 중요한 선거예요.\",\n    \"impact_line\": \"선거 결과에 따라 경제 정책 방향이 달라질 수 있어요.\",\n    \"details\": [\n        \"주요 정당들의 경선 과정이 복잡하게 진행되고 있어요.\",\n        \"이로 인해 중간선거 결과에 대한 혼란과 예측 불확실성이 커지고 있어요.\",\n        \"일부에서는 경제 상황을 고려해 민주당에 투표해야 한다는 의견도 있어요.\",\n        \"공화당은 경제 성장을 위한 메시지를 내놓아야 한다는 목소리가 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"선거 결과에 따라 경제 정책 방향이 달라질 수 있어요!\",\n        \"이는 물가, 고용 등 경제 전반에 영향을 미칠 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"중간선거\",\n            \"easy\": \"미국 대통령 임기 중간에 치러지는 선거를 말해요.\",\n            \"example\": \"중간선거 결과에 따라 대통령의 국정 운영 동력이 달라지기도 해요.\"\n        },\n        {\n            \"term\": \"경선\",\n            \"easy\": \"정당에서 대통령 후보나 선거 후보를 뽑기 위해 당원이나 지지자들이 투표하는 과정이에요.\",\n            \"example\": \"경선에서 이긴 후보가 정당을 대표해서 본선에 나가게 돼요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "LARRY KUDLOW : GOP…",
-   "one_liner": "LARRY KUDLOW : GOP needs a swag - worthy message…",
-   "why_now": null,
+   "title": "중간선거 혼란",
+   "one_liner": "미국 중간선거에서 주요 정당들의 경선 과정이 복잡하게 진행되며 혼란을 겪고 있어요.",
+   "why_now": "중간선거는 대통령 임기 중반에 치러져 국정 운영 방향을 결정하는 중요한 선거예요.",
    "details": [
-    "LARRY KUDLOW : GOP needs a swag - worthy message on draining swamp , slashing middle - class taxes for growth",
-    "Presidential History : The president midterm jinx – Daily Press",
-    "Presidential History : The president midterm jinx – The Virginian - Pilot"
+    "주요 정당들의 경선 과정이 복잡하게 진행되고 있어요.",
+    "이로 인해 중간선거 결과에 대한 혼란과 예측 불확실성이 커지고 있어요.",
+    "일부에서는 경제 상황을 고려해 민주당에 투표해야 한다는 의견도 있어요.",
+    "공화당은 경제 성장을 위한 메시지를 내놓아야 한다는 목소리가 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "선거 결과에 따라 경제 정책 방향이 달라질 수 있어요!",
+    "이는 물가, 고용 등 경제 전반에 영향을 미칠 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "b1ba1987f51d5302273a6856ce887708cee6584a"
+  "fact_hash": "b120bf8d5b16929fef0349210dd4f85985037b8e"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
@@ -164,14 +183,14 @@
    "shared": []
   },
   {
-   "id": "c2b970d1e19010174",
-   "title": "Global threats underestimated by investors , warns JPMorgan CEO Jamie Dimon ( JPM : NYSE )",
+   "id": "c3d4cb5b24e778869",
+   "title": "Calgary Sun Letters , July 22 , 2026 :  Trump the ultimate bully",
    "category": "GEO",
    "shared": []
   },
   {
-   "id": "c3d4cb5b24e778869",
-   "title": "Calgary Sun Letters , July 22 , 2026 :  Trump the ultimate bully",
+   "id": "c2b970d1e19010174",
+   "title": "Global threats underestimated by investors , warns JPMorgan CEO Jamie Dimon ( JPM : NYSE )",
    "category": "GEO",
    "shared": []
   }

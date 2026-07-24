@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-24T03:57:13.061220+00:00",
+  "created_at": "2026-07-24T09:43:47.260176+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,12 +881,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"파키스탄 기술 수출 기록 달성\", \"one_liner\": \"파키스탄의 기술 수출이 46억 달러로 역대 최고치를 기록했어요.\", \"why_now\": \"기술 수출은 나라의 경제 성장과 일자리 창출에 중요한 역할을 해요.\", \"impact_line\": \"파키스탄의 기술 기업들이 더 많은 해외 고객을 확보할 수 있어요.\", \"details\": [\"파키스탄의 기술 수출액이 46억 달러에 달했어요.\", \"이는 역대 최고 기록이에요.\"], \"visual_type\": \"none\", \"effects\": [\"파키스탄의 기술 산업이 더욱 성장할 수 있어요!\", \"이는 파키스탄 경제 전반에 긍정적인 영향을 줄 수 있어요!\"], \"glossary\": [{\"term\": \"기술 수출\", \"easy\": \"나라 밖으로 기술이나 기술 관련 서비스 등을 팔아 돈을 버는 것을 말해요.\", \"example\": \"한국의 게임이나 소프트웨어를 외국에 파는 것이 기술 수출이에요.\"}], \"impact_line\": \"파키스탄의 기술 기업들이 더 많은 해외 고객을 확보할 수 있어요.\"}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "입력에 없는 숫자: [46.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "입력에 없는 숫자: [46.0]"
     ]
    }
   ],
@@ -905,8 +913,8 @@
   "fact_hash": "b8f918054c7b646a2332d82b6290d43d421d52b0"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-24T03:57:13.061112+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [46.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [46.0]\"]}]}",
+  "at": "2026-07-24T09:43:47.260078+00:00"
  },
  "glossary": [],
  "related": [
@@ -929,14 +937,14 @@
    "shared": []
   },
   {
-   "id": "c2b970d1e19010174",
-   "title": "Global threats underestimated by investors , warns JPMorgan CEO Jamie Dimon ( JPM : NYSE )",
+   "id": "c3d4cb5b24e778869",
+   "title": "Calgary Sun Letters , July 22 , 2026 :  Trump the ultimate bully",
    "category": "GEO",
    "shared": []
   },
   {
-   "id": "c3d4cb5b24e778869",
-   "title": "Calgary Sun Letters , July 22 , 2026 :  Trump the ultimate bully",
+   "id": "c55ab93d9b0cb290e",
+   "title": "Messy primaries plague both major political parties , causing chaos and confusion in the midterms",
    "category": "GEO",
    "shared": []
   }
