@@ -366,7 +366,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-24T09:51:55.882321+00:00",
+  "created_at": "2026-07-24T14:20:55.208811+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -379,8 +379,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"대만 반도체 가격 인상\",\n   \"one_liner\": \"대만 반도체가 가격을 최대 10% 올렸어요\",\n   \"why_now\": \"반도체 가격이 오르면 전자제품 가격도 오를 수 있어요\",\n   \"impact_line\": \"전자제품 가격이 오를 수 있어요\",\n   \"details\": [\n       \"대만 반도체가 가격을 최대 10% 올렸어요\",\n       \"고객들이 가격 인상을 반대할 수 있을지 모르겠어요\",\n       \"대만의 경제 성장률이 10.38%로 예상돼요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"전자제품 가격이 오르면 소비자들이 खर지할 수 있어요!\",\n       \"반도체 산업이 더 성장할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [10.38]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -403,8 +409,8 @@
   "fact_hash": "b012e4c9ee0a99b96d393ef3333b74141b5d1099"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-24T09:51:55.882263+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [10.38]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-24T14:20:55.208703+00:00"
  },
  "glossary": [],
  "related": [

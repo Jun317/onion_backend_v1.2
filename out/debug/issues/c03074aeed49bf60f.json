@@ -138,8 +138,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-24T09:51:37.477219+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-24T14:20:20.736372+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -152,26 +152,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"중국과 미국의 무역 갈등\",\n   \"one_liner\": \"중국과 미국이 무역 갈등을 빚고 있어요.\",\n   \"why_now\": \"무역 갈등이 있으면 물가가 오를 수 있어요.\",\n   \"impact_line\": \"중국산 물건의 가격이 오를 수 있어요\",\n   \"details\": [\n       \"미국이 중국에 새로 관세를 부과할 수 있어요.\",\n       \"중국은 미국의 관세 부과에 반대하고 있어요.\",\n       \"중국과 미국은 무역 협상을 통해 갈등을 해결하려 해요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"중국과 미국의 무역 갈등이 심해지면 물가가 오를 수 있어요!\",\n       \"중국과 미국의 무역 협상이 잘되면 물가가 안정될 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"관세\",\n           \"easy\": \"수입 물건에 부과하는 세이에요.\",\n           \"example\": \"관세가 높으면 수입 물건의 가격이 비싸져요.\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "World Bank confirms…",
-   "one_liner": "World Bank confirms plan to phase out China…",
-   "why_now": null,
+   "title": "중국과 미국의 무역 갈등",
+   "one_liner": "중국과 미국이 무역 갈등을 빚고 있어요.",
+   "why_now": "무역 갈등이 있으면 물가가 오를 수 있어요.",
    "details": [
-    "World Bank confirms plan to phase out China lending by 2031",
-    "Beyond CPEC : The Next Chapter of Pakistan - China Relations",
-    "China says it opposes new US tariffs , warns against trade wars"
+    "미국이 중국에 새로 관세를 부과할 수 있어요.",
+    "중국은 미국의 관세 부과에 반대하고 있어요.",
+    "중국과 미국은 무역 협상을 통해 갈등을 해결하려 해요."
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "중국과 미국의 무역 갈등이 심해지면 물가가 오를 수 있어요!",
+    "중국과 미국의 무역 협상이 잘되면 물가가 안정될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "0b769524ad993eb31133ae87956b4e18912c71e5"
  },
@@ -179,7 +180,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-24T09:51:37.477114+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cb00a5f20e2c800d5",

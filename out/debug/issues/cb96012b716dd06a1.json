@@ -71,7 +71,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-24T09:46:43.421860+00:00",
+  "created_at": "2026-07-24T14:25:42.499580+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -82,14 +82,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"퀄컴 주식 거래\",\n  \"one_liner\": \"여러 투자 기관들이 퀄컴 주식을 사고팔았어요.\",\n  \"why_now\": \"주요 투자 기관들의 매수·매도 움직임은 해당 기업의 주가에 영향을 줄 수 있어요.\",\n  \"impact_line\": \"퀄컴 주가 변동에 따라 관련 투자자들의 수익이 달라질 수 있어요.\",\n  \"details\": [\n    \"패러다임 LLC는 퀄컴 주식 55,867주를 팔았어요.\",\n    \"LGT 펀드 매니지먼트 사는 퀄컴 주식 22,663주를 샀어요.\",\n    \"세쿼이아 파이낸셜 어드바이저스 사는 퀄컴 주식 3,663주를 팔았어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"이러한 거래량 변화는 퀄컴 주가에 영향을 줄 수 있어요!\",\n    \"주요 투자자들의 움직임은 시장의 관심을 끌 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주식\",\n      \"easy\": \"회사의 소유권 일부를 나타내는 증서예요.\",\n      \"example\": \"주식을 사면 그 회사의 주인이 되는 거예요.\"\n    },\n    {\n      \"term\": \"퀄컴\",\n      \"easy\": \"스마트폰 등에 들어가는 통신 칩을 만드는 회사예요.\",\n      \"example\": \"퀄컴은 스마트폰 통신 기술을 선도하는 기업 중 하나예요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [3663.0, 22663.0, 55867.0]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -112,8 +106,8 @@
   "fact_hash": "b9973497afc08baadf4706c82058f1adf5b56880"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [3663.0, 22663.0, 55867.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-24T09:46:43.421791+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-24T14:25:42.499517+00:00"
  },
  "glossary": [],
  "related": [
@@ -124,14 +118,14 @@
    "shared": []
   },
   {
-   "id": "c9a09576b9082e071",
-   "title": "Japan PM Sanae Takaichi Unveils Growth Plan as BOJ Independence Concerns Lift Bond Yields",
+   "id": "c2a4c3894a14ae550",
+   "title": "Microsoft tactics with Edge face renewed scrutiny over browser choice",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c2a4c3894a14ae550",
-   "title": "Microsoft tactics with Edge face renewed scrutiny over browser choice",
+   "id": "c9a09576b9082e071",
+   "title": "Japan PM Sanae Takaichi Unveils Growth Plan as BOJ Independence Concerns Lift Bond Yields",
    "category": "MARKET",
    "shared": []
   },
