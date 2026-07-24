@@ -870,8 +870,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-24T06:46:12.242935+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-24T11:59:41.785913+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -884,33 +884,29 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"금융권 소식 모음\",\n  \"one_liner\": \"여러 금융 기관의 실적 발표와 정책 관련 소식이 나왔어요.\",\n  \"why_now\": \"금융 시장의 흐름과 정책 방향을 이해하는 데 도움이 되는 정보들이에요.\",\n  \"impact_line\": null,\n  \"details\": [\n    \"인도의 중앙은행이 280억 달러 규모의 국채 발행을 발표했어요.\",\n    \"SB 금융그룹이 2026년 2분기 실적을 발표했어요.\",\n    \"국회 상임위에서 증권 시장 관련 법안에 대한 금융감독원과 중앙은행 간의 권한 분담을 명확히 할 것을 요구했어요.\",\n    \"프라임 금융이 2026년 2분기 좋은 실적을 발표했어요.\",\n    \"역모기지 시장이 2026년 하반기 어려움을 겪을 것으로 예상돼요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [],\n  \"glossary\": [\n    {\n      \"term\": \"국채\",\n      \"easy\": \"나라에서 돈을 빌리기 위해 발행하는 증권이에요.\",\n      \"example\": \"국채 금리가 오르면 나라의 이자 부담이 늘어날 수 있어요.\"\n    },\n    {\n      \"term\": \"금융감독원\",\n      \"easy\": \"금융 시장을 감독하고 소비자를 보호하는 기관이에요.\",\n      \"example\": \"금융감독원은 은행의 건전성을 지도하고 관리해요.\"\n    },\n    {\n      \"term\": \"중앙은행\",\n      \"easy\": \"나라의 통화량을 조절하고 물가를 안정시키는 역할을 해요.\",\n      \"example\": \"중앙은행이 금리를 올리면 시중의 돈이 줄어들어요.\"\n    },\n    {\n      \"term\": \"역모기지\",\n      \"easy\": \"주택을 담보로 생활비를 받는 제도예요.\",\n      \"example\": \"은퇴한 어르신들이 역모기지를 통해 생활비를 마련하기도 해요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"금융 뉴스\",\n   \"one_liner\": \"인도와 미국의 금융 기관들이 각자 소식이 있어요\",\n   \"why_now\": \"금융 기관의 결정이 우리의 돈과 관련돼서 중요해요\",\n   \"impact_line\": \"은행과 투자 상품에 변화가 생길 수 있어요\",\n   \"details\": [\n       \"인도 중앙은행이 정부 채권을 매각할 거예요\",\n       \"미국의 금융 그룹들이 2026년 2분기 실적을 발표했어요\",\n       \"인도의 의회에서 금융 규제를 더 분명히 할 거예요\",\n       \"미국의 금융 회사들이 2026년 2분기 실적이 좋았어요\",\n       \"역모기지 시장에서 2026년 하반기 어려움이 예상돼요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"은행과 금융 상품에 변동이 생겨서 돈을 관리하기가 어려워질 수 있어요!\",\n       \"금융 기관의 실적이 좋아져서 투자하기 좋을 수도 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"역모기지\",\n           \"easy\": \"집을 담보로 돈을 빌리는 거예요\",\n           \"example\": \"노년기 생활비로 집을 담보로 돈을 빌릴 수 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects 1~2문장 아님",
-     "입력에 없는 숫자: [280.0]"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "RBI announces…",
-   "one_liner": "RBI announces underwriting auction for Rs 28 ,…",
-   "why_now": null,
+   "title": "금융 뉴스",
+   "one_liner": "인도와 미국의 금융 기관들이 각자 소식이 있어요",
+   "why_now": "금융 기관의 결정이 우리의 돈과 관련돼서 중요해요",
    "details": [
-    "RBI announces underwriting auction for Rs 28 , 000 crore government securities",
-    "SB Financial Group Announces Second Quarter 2026 Results",
-    "Parliament panel seeks clear division of powers between SEBI and RBI under Securities Markets Code"
+    "인도 중앙은행이 정부 채권을 매각할 거예요",
+    "미국의 금융 그룹들이 2026년 2분기 실적을 발표했어요",
+    "인도의 의회에서 금융 규제를 더 분명히 할 거예요",
+    "미국의 금융 회사들이 2026년 2분기 실적이 좋았어요",
+    "역모기지 시장에서 2026년 하반기 어려움이 예상돼요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "은행과 금융 상품에 변동이 생겨서 돈을 관리하기가 어려워질 수 있어요!",
+    "금융 기관의 실적이 좋아져서 투자하기 좋을 수도 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "cdce08484ceb8e981897f1f778a71aad8aef322a"
  },
@@ -918,7 +914,18 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\", \"입력에 없는 숫자: [280.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-24T06:46:12.242824+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "채권",
+   "easy": "돈을 빌리면서 '언제까지 갚겠다'고 써주는 증서예요.",
+   "example": "정부나 기업이 돈을 모을 때 발행해요."
+  }
+ ],
  "related": [
   {
    "id": "c01efb76fcd7102be",

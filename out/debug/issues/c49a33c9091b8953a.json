@@ -85,8 +85,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-24T06:46:49.067867+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-24T11:59:51.694032+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -98,26 +98,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"파키스탄 신용등급 상향\",\n\"one_liner\": \"신용평가사 S&P가 파키스탄의 나라 빚을 갚을 능력을 좋게 평가했어요.\",\n\"why_now\": \"나라 빚에 대한 평가가 좋아지면 외국에서 돈을 빌리기 쉬워지고 이자도 낮아질 수 있어요.\",\n\"impact_line\": \"파키스탄에 투자하는 것이 조금 더 안전해질 수 있어요.\",\n\"details\": [\n\"신용평가사 S&P가 파키스탄의 신용등급을 올렸어요.\",\n\"새로운 신용등급은 'B'예요.\",\n\"앞으로도 등급이 안정적으로 유지될 것으로 예상했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"파키스탄 정부가 외국에서 돈을 빌릴 때 더 유리한 조건으로 계약할 수 있을 것으로 예상돼요!\",\n\"나라의 경제 상황이 좋아졌다는 신호로 해석될 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"신용등급\",\n\"easy\": \"나라나 회사가 돈을 빌린 뒤 갚을 능력이 얼마나 되는지 평가한 점수예요.\",\n\"example\": \"신용등급이 높으면 돈을 빌리기 쉽고 이자도 낮아요.\"\n},\n{\n\"term\": \"S&P\",\n\"easy\": \"세계적인 신용평가 회사 중 하나예요.\",\n\"example\": \"S&P는 나라나 회사의 돈을 갚을 능력을 평가해서 등급을 매겨요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Rating upgrade -…",
-   "one_liner": "Rating upgrade - Pakistan Observer",
-   "why_now": null,
+   "title": "파키스탄 신용등급 상향",
+   "one_liner": "신용평가사 S&P가 파키스탄의 나라 빚을 갚을 능력을 좋게 평가했어요.",
+   "why_now": "나라 빚에 대한 평가가 좋아지면 외국에서 돈을 빌리기 쉬워지고 이자도 낮아질 수 있어요.",
    "details": [
-    "Rating upgrade - Pakistan Observer",
-    "S & P upgrades credit rating to B",
-    "S & P Global upgrades Pakistan credit rating to  B"
+    "신용평가사 S&P가 파키스탄의 신용등급을 올렸어요.",
+    "새로운 신용등급은 'B'예요.",
+    "앞으로도 등급이 안정적으로 유지될 것으로 예상했어요."
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "파키스탄 정부가 외국에서 돈을 빌릴 때 더 유리한 조건으로 계약할 수 있을 것으로 예상돼요!",
+    "나라의 경제 상황이 좋아졌다는 신호로 해석될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "68a91fa9392758203a77dd32365a72419acad08d"
  },

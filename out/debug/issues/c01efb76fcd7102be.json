@@ -393,8 +393,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-24T06:46:30.648004+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-24T11:59:47.442120+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -407,26 +407,36 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"유럽중앙은행 금리 유지\",\n   \"one_liner\": \"유럽중앙은행이 금리를 그대로 유지했어요\",\n   \"why_now\": \"금리가 유지되면 경제에 미치는 영향이 크기 때문에 중요해요\",\n   \"impact_line\": \"유럽에 돈을 빌려주거나 빌리는 데 영향을 줄 수 있어요\",\n   \"details\": [\n       \"유럽중앙은행이 금리를 바꾸지 않았어요\",\n       \"9월에 금리 인상할 가능성이 높은 것으로 보이네요\",\n       \"현재 금리 유지로 경제에 대한 불확실성이 높아졌어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"유럽 경제에 미치는 영향이 커질 수 있어요!\",\n       \"금리 인상 여부에 따라 유럽의 소비와 투자가 달라질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details[0] 어요체 아님",
+     "details[1] 어요체 아님",
+     "details[2] 어요체 아님",
+     "details[3] 어요체 아님"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "ECB holds rates amid…",
-   "one_liner": "ECB holds rates amid speculation over September…",
-   "why_now": null,
+   "title": "유럽중앙은행 금리 유지",
+   "one_liner": "유럽중앙은행이 금리를 그대로 유지했어요",
+   "why_now": "금리가 유지되면 경제에 미치는 영향이 크기 때문에 중요해요",
    "details": [
-    "ECB holds rates amid speculation over September hike",
-    "Economic Watch : ECB holds rates amid speculation over September hike",
-    "ECB Leaves Rates Unchanged Amid High Uncertainty , September Hike Likely"
+    "유럽중앙은행이 금리를 바꾸지 않았어요",
+    "9월에 금리 인상할 가능성이 높은 것으로 보이네요",
+    "현재 금리 유지로 경제에 대한 불확실성이 높아졌어요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "유럽 경제에 미치는 영향이 커질 수 있어요!",
+    "금리 인상 여부에 따라 유럽의 소비와 투자가 달라질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "37241bab575bb4b18e28756285055a678b5042bc"
  },
@@ -434,7 +444,23 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-24T06:46:30.647941+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "금리 인상",
+   "easy": "이자의 기준을 올리는 거예요.",
+   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
+  }
+ ],
  "related": [
   {
    "id": "cb00a5f20e2c800d5",
