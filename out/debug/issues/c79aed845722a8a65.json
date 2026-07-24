@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 3,
- "importance": 65,
+ "seen_sources": 4,
+ "importance": 80,
  "created_at": "2026-07-22T16:53:58.409468+00:00",
- "last_update": "2026-07-22T18:39:10.432120+00:00",
+ "last_update": "2026-07-24T21:34:02.797322+00:00",
  "members": [
+  {
+   "id": "810f5973ae0fc06e3604e3d1b7beaab207c63aee",
+   "source": "themarketsdaily.com",
+   "tier": "wire",
+   "url": "https://www.themarketsdaily.com/2026/07/24/maxim-power-tsemxg-sets-new-12-month-low-should-you-sell.html",
+   "title": "Maxim Power ( TSE : MXG ) Sets New 12 - Month Low – Should You Sell ?",
+   "published_at": "2026-07-24T20:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8659
+  },
   {
    "id": "c8158854c9365d26df3bbb3f476f60529aeebd78",
    "source": "vir.com.vn",
@@ -20,7 +30,7 @@
    "title": "VIB Up offers an interest rate of up to 2 per cent per annum for monthly deposits",
    "published_at": "2026-07-22T16:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8784
+   "sim_to_centroid": 0.8828
   },
   {
    "id": "0d264ea5828944758bee34cb6dc68ca63e736b47",
@@ -30,7 +40,7 @@
    "title": "Wholesale electricity prices fell as Middle East crisis appeared to ease",
    "published_at": "2026-07-22T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9616
+   "sim_to_centroid": 0.96
   },
   {
    "id": "3d9aae6550dc3fb6c06f055225c95045df4117ea",
@@ -40,11 +50,18 @@
    "title": "Annual wholesale electricity prices up 42 % in June",
    "published_at": "2026-07-22T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9662
+   "sim_to_centroid": 0.9638
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Maxim Power ( TSE : MXG ) Sets New 12 - Month Low – Should You Sell ?",
+   "source": "themarketsdaily.com",
+   "url": "https://www.themarketsdaily.com/2026/07/24/maxim-power-tsemxg-sets-new-12-month-low-should-you-sell.html",
+   "at": "2026-07-24T20:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "VIB Up offers an interest rate of up to 2 per cent per annum for monthly deposits",
@@ -68,40 +85,42 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-24T18:00:56.068327+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-24T21:34:27.462207+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
+    "Maxim Power ( TSE : MXG ) Sets New 12 - Month Low – Should You Sell ?",
     "VIB Up offers an interest rate of up to 2 per cent per annum for monthly deposits",
     "Wholesale electricity prices fell as Middle East crisis appeared to ease",
     "Annual wholesale electricity prices up 42 % in June"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"전력 도매 가격\",\n   \"one_liner\": \"전력 도매 가격이 떨어졌어요\",\n   \"why_now\": \"전력 가격이 떨어지면 전기료가 내릴 수 있어요\",\n   \"impact_line\": \"전기료가 내릴 수 있어요\",\n   \"details\": [\n      \"전력 도매 가격이 떨어졌어요\",\n      \"중동 위기가 완화하면서 전력 도매 가격이 떨어졌어요\",\n      \"전력 도매 가격이 떨어지면 전기료가 내릴 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"전기료가 내리면 가계 부담이 줄어들 수 있어요!\",\n      \"전기료가 내리면 기업의 생산 비용이 줄어들 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "VIB Up offers an…",
-   "one_liner": "VIB Up offers an interest rate of up to 2 per…",
-   "why_now": null,
+   "title": "전력 도매 가격",
+   "one_liner": "전력 도매 가격이 떨어졌어요",
+   "why_now": "전력 가격이 떨어지면 전기료가 내릴 수 있어요",
    "details": [
-    "VIB Up offers an interest rate of up to 2 per cent per annum for monthly deposits",
-    "Wholesale electricity prices fell as Middle East crisis appeared to ease",
-    "Annual wholesale electricity prices up 42 % in June"
+    "전력 도매 가격이 떨어졌어요",
+    "중동 위기가 완화하면서 전력 도매 가격이 떨어졌어요",
+    "전력 도매 가격이 떨어지면 전기료가 내릴 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "전기료가 내리면 가계 부담이 줄어들 수 있어요!",
+    "전기료가 내리면 기업의 생산 비용이 줄어들 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "efff8b83592d12202609e34c2cb96c22e100e9af"
+  "fact_hash": "baeb298417cf4f95148276cffa96603d6cfff02d"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

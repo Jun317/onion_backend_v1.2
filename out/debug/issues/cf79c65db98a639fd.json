@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-24T17:57:58.713875+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-24T21:34:08.993746+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -881,32 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 실업률 하락\",\n   \"one_liner\": \"미국에서 실업자 수가 줄었어요\",\n   \"why_now\": \"실업자 수가 줄면 경제가 좋아지고 있는 거예요\",\n   \"impact_line\": \"실업자 수가 줄면 소비가 늘어나고 경제가 더 좋아질 수 있어요\",\n   \"details\": [\n       \"미국 실업자 수가 187,000명으로 줄었어요\",\n       \"이것은 몇십 년 만에 가장 낮은 수치예요\",\n       \"소비자 물가가 조금 낮아졌어요\",\n       \"소비자 물가가 낮아지면 물건을 살 때 더 싸게 살 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"실업자 수가 줄면 소비가 늘어나서 경제가 더 좋아질 수 있어요!\",\n       \"물건을 살 때 더 싸게 살 수 있으면 더 많이 살 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"미국 실업자 수 줄어듦\",\n   \"one_liner\": \"미국에서 일할 수 있는 사람이 줄었어요.\",\n   \"why_now\": \"실업자 수가 줄면 경제가 좋아지고 있는 거예요.\",\n   \"impact_line\": \"실업자 수가 줄면 소비가 늘어나고 경제가 더 좋아질 수 있어요.\",\n   \"details\": [\n      \"미국에서 일할 수 있는 사람이 줄었어요.\",\n      \"미국 실업자 수가 1969년 이후 가장 낮은 수준이에요.\",\n      \"미국에서 실업자 수가 줄면 경제가 좋아지고 있는 거예요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"실업자 수가 줄면 소비가 늘어나고 경제가 더 좋아질 수 있어요!\",\n      \"실업자 수가 줄면 기업이 더 많은 사람을 고용할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [18.0]"
-    ]
-   },
-   {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [187000.0]"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Weekly Jobless…",
-   "one_liner": "Weekly Jobless Claims Drop to 187 , 000",
-   "why_now": null,
+   "title": "미국 실업자 수 줄어듦",
+   "one_liner": "미국에서 일할 수 있는 사람이 줄었어요.",
+   "why_now": "실업자 수가 줄면 경제가 좋아지고 있는 거예요.",
    "details": [
-    "Weekly Jobless Claims Drop to 187 , 000",
-    "Filings for unemployment aid fell to 187K last week , fewest in decades",
-    "Weekly Jobless Claims Drop to 187 , 000 | NewsRadio 560 WHYN"
+    "미국에서 일할 수 있는 사람이 줄었어요.",
+    "미국 실업자 수가 1969년 이후 가장 낮은 수준이에요.",
+    "미국에서 실업자 수가 줄면 경제가 좋아지고 있는 거예요."
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "실업자 수가 줄면 소비가 늘어나고 경제가 더 좋아질 수 있어요!",
+    "실업자 수가 줄면 기업이 더 많은 사람을 고용할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "a2ad8afa5a6d2be8330c86e4223c74f829b5d6c7"
  },
