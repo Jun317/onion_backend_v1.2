@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T22:37:27.959226+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-24T06:45:12.376701+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,26 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"주식 소식\",\n   \"one_liner\": \"몇몇 주식이 매수할 만하다고 분석돼요.\",\n   \"why_now\": \"주식 시장은 기업 실적과 투자자 기대에 따라 변동해요.\",\n   \"impact_line\": \"주식 투자에 관심이 있는 사람에게는 참고할 소식일 수 있어요.\",\n   \"details\": [\n       \"몇몇 주식이 매수할 만하다고 분석돼요.\",\n       \"주식 투자는 시장 상황과 기업 실적에 따라 변동해요.\",\n       \"투자 전에는 각 주식의 특징과 시장 상황을 잘 살펴보세요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주식 투자에 관심이 있는 사람들은 관련 뉴스를 주의 깊게 살펴볼 수 있어요!\",\n       \"기업 실적과 시장 상황에 따라 주식 투자 전략을 조정할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "DWS Group GmbH & Co…",
-   "one_liner": "DWS Group GmbH & Co . KGaA ( ETR : DWS ) Stock…",
-   "why_now": null,
+   "title": "주식 소식",
+   "one_liner": "몇몇 주식이 매수할 만하다고 분석돼요.",
+   "why_now": "주식 시장은 기업 실적과 투자자 기대에 따라 변동해요.",
    "details": [
-    "DWS Group GmbH & Co . KGaA ( ETR : DWS ) Stock Price Up 0 . 7 % – Still a Buy ?",
-    "What Makes Methanex Corp . ( MEOH ) One of The Oversold NASDAQ Stocks to Buy Now",
-    "Alibaba Group Holding Limited  ( BABA ): 12 Strong Buy Stocks with High Upside According to Analysts"
+    "몇몇 주식이 매수할 만하다고 분석돼요.",
+    "주식 투자는 시장 상황과 기업 실적에 따라 변동해요.",
+    "투자 전에는 각 주식의 특징과 시장 상황을 잘 살펴보세요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "주식 투자에 관심이 있는 사람들은 관련 뉴스를 주의 깊게 살펴볼 수 있어요!",
+    "기업 실적과 시장 상황에 따라 주식 투자 전략을 조정할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "565ff8f2f2769139eb93d43d26412855197906da"
  },
@@ -911,14 +912,14 @@
  "glossary": [],
  "related": [
   {
-   "id": "c2fe47d2110ccdaa3",
-   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "id": "c2e1f0924eab58cb9",
+   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c2e1f0924eab58cb9",
-   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
+   "id": "c2fe47d2110ccdaa3",
+   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
    "category": "EARNINGS",
    "shared": []
   },

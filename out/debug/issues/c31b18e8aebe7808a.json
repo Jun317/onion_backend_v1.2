@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-23T22:37:09.404892+00:00",
+  "created_at": "2026-07-24T06:45:09.198539+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,12 +881,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"푸나왈라 핀코프 순이익 급증\", \"one_liner\": \"푸나왈라 핀코프의 1분기 순이익이 380% 늘어 3077억1천만 루피가 됐어요.\", \"why_now\": \"기업의 순이익 증가는 회사가 돈을 잘 벌고 있다는 뜻으로, 투자자들의 관심을 끌 수 있어요.\", \"impact_line\": \"관련 기업의 주가에 긍정적인 영향을 줄 수 있어요.\", \"details\": [\"푸나왈라 핀코프의 1분기 순이익이 380% 증가했어요.\", \"순이익은 3077억1천만 루피를 기록했어요.\"], \"visual_type\": \"earnings_quarterly\", \"effects\": [\"회사의 실적이 좋아지면 주가가 오를 가능성이 있어요!\", \"이익이 늘면 회사가 더 많은 투자를 하거나 배당을 늘릴 수도 있어요.\"], \"glossary\": [{\"term\": \"순이익\", \"easy\": \"회사가 모든 비용을 빼고 최종적으로 남은 돈이에요.\", \"example\": \"순이익이 늘면 회사가 더 성장할 수 있어요.\"}, {\"term\": \"루피\", \"easy\": \"인도에서 사용하는 돈 단위예요.\", \"example\": \"인도에서 물건을 살 때 루피를 사용해요.\"}]}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [11.4, 49.7]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [3077.0]"
     ]
    }
   ],
@@ -905,20 +913,20 @@
   "fact_hash": "b9f6a58bf7b81c580b0728081e07bf17d15ea71d"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-23T22:37:09.404809+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [11.4, 49.7]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [3077.0]\"]}]}",
+  "at": "2026-07-24T06:45:09.198357+00:00"
  },
  "glossary": [],
  "related": [
   {
-   "id": "c2fe47d2110ccdaa3",
-   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "id": "c2e1f0924eab58cb9",
+   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c2e1f0924eab58cb9",
-   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
+   "id": "c2fe47d2110ccdaa3",
+   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
    "category": "EARNINGS",
    "shared": []
   },
