@@ -87,8 +87,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-24T00:20:44.012421+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-24T03:52:14.622380+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -100,26 +100,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"인텔 2분기 실적 발표\",\n\"one_liner\": \"인텔의 2분기 매출이 25% 늘었지만, 손실은 더 커졌어요.\",\n\"why_now\": \"반도체 기업들의 실적은 전반적인 경제 상황과 기술 발전 속도를 보여주는 중요한 지표예요.\",\n\"impact_line\": \"인텔의 실적은 다른 기술 기업들의 주가에도 영향을 줄 수 있어요.\",\n\"details\": [\n\"인텔의 2분기 매출은 25% 증가했어요.\",\n\"하지만 2분기 손실 규모는 더 커졌어요.\",\n\"재고 수준은 개선된 것으로 나타났어요.\",\n\"인공지능 기술 발전이 시장의 관심을 받고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"인텔의 실적 개선은 반도체 산업 전반에 긍정적인 신호로 해석될 수 있어요!\",\n\"인공지능 관련 기술 투자가 늘어나면서 관련 기업들의 성장이 기대돼요!\"\n],\n\"glossary\": [\n{\n\"term\": \"인공지능\",\n\"easy\": \"사람처럼 생각하고 배우는 컴퓨터 프로그램이나 기계를 말해요.\",\n\"example\": \"인공지능 스피커에게 날씨를 물어볼 수 있어요.\"\n}\n],\n\"impact_line\": \"인텔의 실적 발표는 기술주 전반의 흐름에 영향을 줄 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Intel Q2 Loss Widens…",
-   "one_liner": "Intel Q2 Loss Widens , Revenue Jumps 25 %",
-   "why_now": null,
+   "title": "인텔 2분기 실적 발표",
+   "one_liner": "인텔의 2분기 매출이 25% 늘었지만, 손실은 더 커졌어요.",
+   "why_now": "반도체 기업들의 실적은 전반적인 경제 상황과 기술 발전 속도를 보여주는 중요한 지표예요.",
    "details": [
-    "Intel Q2 Loss Widens , Revenue Jumps 25 %",
-    "FinancialContent - Intel ( NASDAQ : INTC ) Delivers Impressive Q2 , Inventory Levels Improve",
-    "Spiritual intelligence vs Artificial intelligence"
+    "인텔의 2분기 매출은 25% 증가했어요.",
+    "하지만 2분기 손실 규모는 더 커졌어요.",
+    "재고 수준은 개선된 것으로 나타났어요.",
+    "인공지능 기술 발전이 시장의 관심을 받고 있어요."
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "인텔의 실적 개선은 반도체 산업 전반에 긍정적인 신호로 해석될 수 있어요!",
+    "인공지능 관련 기술 투자가 늘어나면서 관련 기업들의 성장이 기대돼요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "f0352afa7bf6e6413fbe442f42c3c2e6f2392622"
  },
@@ -130,14 +132,14 @@
  "glossary": [],
  "related": [
   {
-   "id": "c01efb76fcd7102be",
-   "title": "Preview : ECB set to hold rates in July , hints of September hike expected : ING",
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
    "category": "RATE",
    "shared": []
   },
   {
-   "id": "cb00a5f20e2c800d5",
-   "title": "Where Social Security cuts could have the greatest economic impact",
+   "id": "c01efb76fcd7102be",
+   "title": "Preview : ECB set to hold rates in July , hints of September hike expected : ING",
    "category": "RATE",
    "shared": []
   },
@@ -148,17 +150,17 @@
    "shared": []
   },
   {
-   "id": "cd7b762c4b0212485",
-   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
-   "category": "GEO",
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
    "shared": [
     "INTC"
    ]
   },
   {
-   "id": "cb3030e4a5acd0008",
-   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
-   "category": "MACRO",
+   "id": "cd7b762c4b0212485",
+   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
+   "category": "GEO",
    "shared": [
     "INTC"
    ]

@@ -291,8 +291,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T22:38:23.473174+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-24T03:52:09.716908+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -305,26 +305,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"유럽중앙은행 금리 유지\",\n   \"one_liner\": \"유럽중앙은행이 기준금리를 그대로 유지했어요\",\n   \"why_now\": \"금리 변동은 경제에 큰 영향을 주니까요\",\n   \"impact_line\": \"유로화 대출금리도 그대로 유지될 수 있어요\",\n   \"details\": [\n       \"유럽중앙은행이 기준금리를 바꾸지 않았어요\",\n       \"9월에 금리 인상할 가능성이 있어요\",\n       \"현재 경제 상황이 불확실하대요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"유럽 경제에 금리 변동이 없어서 안정감을 줄 수 있어요!\",\n       \"하지만 9월에 금리 인상이 되면 대출이 어려워질 수도 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "European Central…",
-   "one_liner": "European Central Bank keeps interest rates…",
-   "why_now": null,
+   "title": "유럽중앙은행 금리 유지",
+   "one_liner": "유럽중앙은행이 기준금리를 그대로 유지했어요",
+   "why_now": "금리 변동은 경제에 큰 영향을 주니까요",
    "details": [
-    "European Central Bank keeps interest rates unchanged",
-    "ECB leaves key interest rates unchanged - Xinhua",
-    "ECB Leaves Rates Unchanged Amid High Uncertainty , September Hike Likely"
+    "유럽중앙은행이 기준금리를 바꾸지 않았어요",
+    "9월에 금리 인상할 가능성이 있어요",
+    "현재 경제 상황이 불확실하대요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "유럽 경제에 금리 변동이 없어서 안정감을 줄 수 있어요!",
+    "하지만 9월에 금리 인상이 되면 대출이 어려워질 수도 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "bde3185ce893d1bb04f88c3245c6c91935cfd662"
  },
@@ -332,7 +333,28 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-23T22:38:23.473106+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "기준금리",
+   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
+   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
+  },
+  {
+   "term": "금리 인상",
+   "easy": "이자의 기준을 올리는 거예요.",
+   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
+  }
+ ],
  "related": [
   {
    "id": "cb00a5f20e2c800d5",

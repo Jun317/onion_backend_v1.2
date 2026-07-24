@@ -293,7 +293,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-23T22:29:36.571696+00:00",
+  "created_at": "2026-07-24T03:55:40.639494+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -306,18 +306,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"비자·마스터카드\",\n   \"one_liner\": \"비자 주가가 2.6% 올랐어요\",\n   \"why_now\": \"주가가 오르면 투자자에게 좋아요\",\n   \"impact_line\": \"신용카드 사용이 많아질 수 있어요\",\n   \"details\": [\n      \"비자 주가가 2.6% 올랐어요\",\n      \"분석가의 업그레이드 때문이에요\",\n      \"1년 만에 최고치에 달했어요\",\n      \"투자公司이 비자 주식을 샀어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"신용카드 사용이 많아져 비자 수익이 늘 수 있어요!\",\n      \"투자자들이 비자 주식을 더 사러 할 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"NYSE\",\n         \"easy\": \"미국의 주식시장이에요\",\n         \"example\": \"많은 회사들이 NYSE에 상장해 있어요\"\n      },\n      {\n         \"term\": \"Analyst Upgrade\",\n         \"easy\": \"분석가가 주식을 더 좋게 평가해요\",\n         \"example\": \"분석가의 업그레이드가 주가에 영향을 줄 수 있어요\"\n      }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [2.6, 1684.0]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [2.6]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -336,8 +330,8 @@
   "fact_hash": "31b6cd511fd566043891077201eaa389074cb128"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [2.6, 1684.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.6]\"]}]}",
-  "at": "2026-07-23T22:29:36.571578+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-24T03:55:40.639380+00:00"
  },
  "glossary": [],
  "related": [

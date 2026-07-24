@@ -374,48 +374,55 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T22:38:42.014762+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-24T03:52:53.765337+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
-    "Trump tariffs : A timeline of the U . S . trade war with Canada",
-    "How Trump turned Canada bridge into America windfall",
+    "Prime Minister Carney says Canada is ready to respond if Trump new tariffs go into affect",
+    "Prime Minister Carney says Canada is ready to respond if Trump new tariffs go into effect",
     "Canada cancels bridge - opening event with US after Trump tariffs",
-    "Trade war : Canadian exporters opt to wait and see on Trump tariffs",
-    "James Moore : Canada strategy to withstand Trump Tariffs"
+    "Trump to impose new forced - labour duties on Friday - Manitoba Co - operator",
+    "Trump tariffs : A timeline of the U . S . trade war with Canada"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국-캐나다 무역 전쟁\",\n   \"one_liner\": \"캐나다 총리가 트럼프의 새로운 관세에 대응하겠다고 했어요\",\n   \"why_now\": \"무역 전쟁이 일상 물가에 영향을 줄 수 있어요\",\n   \"impact_line\": \"주유비·배송비가 오를 수 있어요\",\n   \"details\": [\n       \"캐나다 총리가 미국의 새로운 관세에 준비가 됐다고 말했어요\",\n       \"캐나다와 미국의 무역 전쟁이 심해지고 있어요\",\n       \"캐나다와 미국의 교역이 줄어들 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"무역 전쟁이 장기화하면 물가가 오를 수 있어요!\",\n       \"캐나다와 미국의 경제가 어려워질 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"관세\",\n           \"easy\": \"수입품에 부과하는 세이에요\",\n           \"example\": \"관세가 높으면 수입품 가격이 올라요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump tariffs : A…",
-   "one_liner": "Trump tariffs : A timeline of the U . S . trade…",
-   "why_now": null,
+   "title": "미국-캐나다 무역 전쟁",
+   "one_liner": "캐나다 총리가 트럼프의 새로운 관세에 대응하겠다고 했어요",
+   "why_now": "무역 전쟁이 일상 물가에 영향을 줄 수 있어요",
    "details": [
-    "Trump tariffs : A timeline of the U . S . trade war with Canada",
-    "How Trump turned Canada bridge into America windfall",
-    "Canada cancels bridge - opening event with US after Trump tariffs"
+    "캐나다 총리가 미국의 새로운 관세에 준비가 됐다고 말했어요",
+    "캐나다와 미국의 무역 전쟁이 심해지고 있어요",
+    "캐나다와 미국의 교역이 줄어들 수 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "무역 전쟁이 장기화하면 물가가 오를 수 있어요!",
+    "캐나다와 미국의 경제가 어려워질 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "55b0692629eda0a97492d4ac20234e7b2f96a7c4"
+  "fact_hash": "cff8ecf8b5029915ad01516d1fe9de7133245992"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-23T22:38:42.014664+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cde343d4cab397faf",

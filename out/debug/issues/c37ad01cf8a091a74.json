@@ -874,7 +874,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-23T22:29:30.663268+00:00",
+  "created_at": "2026-07-24T03:52:29.216961+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,16 +887,16 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"인도 경제 성장\",\n   \"one_liner\": \"인도는 세계에서 가장 빠르게 성장하는 주요 경제국이에요.\",\n   \"why_now\": \"인도의 경제 성장은 국내 수요가 강하기 때문이에요.\",\n   \"impact_line\": \"인도의 성장으로 국제 무역이 활성화될 수 있어요\",\n   \"details\": [\n      \"인도의 경제 성장률은 6.4%로 예상돼요.\",\n      \"인도는 가장 빠르게 성장하는 주요 경제국이에요.\",\n      \"인도의 성장에는 국내 수요가 큰 역할을 해요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"인도의 성장이 세계 경제에 긍정적인 영향을 줄 수 있어요!\",\n      \"인도의 성장은 국제 무역을 활성화시켜 다른 나라의 경제에도 도움이 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n\"title\": \"IMF, 인도 경제 성장률 전망 하향\",\n\"one_liner\": \"IMF가 인도의 올해 경제 성장률 전망치를 6.4%로 낮췄어요.\",\n\"why_now\": \"인도는 세계에서 가장 빠르게 성장하는 경제 중 하나로 꼽히기 때문이에요.\",\n\"impact_line\": \"인도 경제의 성장세 둔화는 관련 상품 가격에 영향을 줄 수 있어요.\",\n\"details\": [\n\"IMF는 인도의 올해 경제 성장률 전망치를 6.4%로 예상했어요.\",\n\"하지만 여전히 인도 경제가 가장 빠르게 성장할 것으로 보기도 해요.\",\n\"이는 인도 국내 수요가 강하기 때문이에요.\",\n\"IMF는 파키스탄의 경제 성장률 전망치도 낮췄어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"인도 경제 성장률 전망치 하향은 원자재 등 관련 상품 가격에 영향을 줄 수 있어요!\",\n\"인도 경제의 성장세 둔화는 세계 경제에도 영향을 미칠 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"IMF\",\n\"easy\": \"국제통화기금으로, 세계 경제의 안정과 협력을 위해 만들어진 국제기구예요.\",\n\"example\": \"IMF는 나라별 경제 상황을 분석하고 전망을 발표해요.\"\n},\n{\n\"term\": \"GDP\",\n\"easy\": \"나라 안에서 생산된 모든 상품과 서비스의 가치를 합한 총액이에요.\",\n\"example\": \"GDP가 늘면 나라 경제가 성장했다고 볼 수 있어요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "입력에 없는 숫자: [6.4]"
+     "입력에 없는 숫자: [-3.7, 3.5, 6.4]"
     ]
    },
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
      "입력에 없는 숫자: [6.4]"
     ]
@@ -917,8 +917,8 @@
   "fact_hash": "cfd78157cf896eed094d7420fa8b3e8a7f9b1246"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}]}",
-  "at": "2026-07-23T22:29:30.663108+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [-3.7, 3.5, 6.4]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}]}",
+  "at": "2026-07-24T03:52:29.216812+00:00"
  },
  "glossary": [
   {
@@ -945,15 +945,6 @@
    ]
   },
   {
-   "id": "cd7b762c4b0212485",
-   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
-   "category": "GEO",
-   "shared": [
-    "CHINA",
-    "SEC"
-   ]
-  },
-  {
    "id": "cb3030e4a5acd0008",
    "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
    "category": "MACRO",
@@ -971,6 +962,15 @@
    "shared": [
     "FED",
     "TSLA"
+   ]
+  },
+  {
+   "id": "cd7b762c4b0212485",
+   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
+   "category": "GEO",
+   "shared": [
+    "CHINA",
+    "SEC"
    ]
   }
  ]
