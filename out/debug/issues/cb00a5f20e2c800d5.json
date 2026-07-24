@@ -9,11 +9,31 @@
  "entity_keys": [
   "SEC"
  ],
- "seen_sources": 2,
- "importance": 140,
+ "seen_sources": 4,
+ "importance": 150,
  "created_at": "2026-07-21T18:46:21.176809+00:00",
- "last_update": "2026-07-23T16:53:35.391480+00:00",
+ "last_update": "2026-07-24T00:16:37.073651+00:00",
  "members": [
+  {
+   "id": "ba726cdd34a3572671666f5f37599825ce7f0d48",
+   "source": "miragenews.com",
+   "tier": "wire",
+   "url": "https://www.miragenews.com/us-acts-on-section-301-probes-for-forced-labor-1715592/",
+   "title": "US Acts on Section 301 Probes for Forced Labor Imports",
+   "published_at": "2026-07-23T23:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8668
+  },
+  {
+   "id": "e994161347d627766656d9d9e0784a5a90bbefcc",
+   "source": "usa.chinadaily.com.cn",
+   "tier": "wire",
+   "url": "http://usa.chinadaily.com.cn/a/202607/24/WS6a6240d6a310986e2b466fc0.html",
+   "title": "FDI stabilizes as high - tech sector surges",
+   "published_at": "2026-07-23T23:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8611
+  },
   {
    "id": "f24aebb2fbea57b46dafd982dc27de7e0bd75c89",
    "source": "yahoo.com",
@@ -22,7 +42,7 @@
    "title": "Social Security payment schedule slightly differs for August . See when",
    "published_at": "2026-07-23T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8734
+   "sim_to_centroid": 0.8839
   },
   {
    "id": "c77471b179c813de035649ebdf8a7744b279cbfa",
@@ -32,7 +52,7 @@
    "title": "Where Social Security cuts could have the greatest economic impact",
    "published_at": "2026-07-21T17:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9985
+   "sim_to_centroid": 0.993
   },
   {
    "id": "164be82ab739d50852a8d644c3a5a1aea20e42c8",
@@ -42,7 +62,7 @@
    "title": "Where Social Security cuts could have the greatest economic impact",
    "published_at": "2026-07-21T17:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9985
+   "sim_to_centroid": 0.993
   },
   {
    "id": "14bc5083b1f558a4f211b69ed47e726222afa56b",
@@ -52,11 +72,25 @@
    "title": "Where Social Security cuts could have the greatest economic impact",
    "published_at": "2026-07-21T17:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9985
+   "sim_to_centroid": 0.993
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "US Acts on Section 301 Probes for Forced Labor Imports",
+   "source": "miragenews.com",
+   "url": "https://www.miragenews.com/us-acts-on-section-301-probes-for-forced-labor-1715592/",
+   "at": "2026-07-23T23:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "FDI stabilizes as high - tech sector surges",
+   "source": "usa.chinadaily.com.cn",
+   "url": "http://usa.chinadaily.com.cn/a/202607/24/WS6a6240d6a310986e2b466fc0.html",
+   "at": "2026-07-23T23:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Social Security payment schedule slightly differs for August . See when",
@@ -87,44 +121,43 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T20:35:45.519604+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-24T00:16:38.673474+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
    "headlines": [
+    "US Acts on Section 301 Probes for Forced Labor Imports",
+    "FDI stabilizes as high - tech sector surges",
     "Social Security payment schedule slightly differs for August . See when",
     "Where Social Security cuts could have the greatest economic impact"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"미국 사회보장금 지급 일정 변경\", \"one_liner\": \"미국의 사회보장금 지급 일정이 8월에 조금 달라져요.\", \"why_now\": \"사회보장금 지급 일정 변경은 수급자들의 생활비 계획에 영향을 줄 수 있어요.\", \"impact_line\": \"사회보장금을 받는 분들의 8월 생활비 계획이 달라질 수 있어요.\", \"details\": [\"8월 사회보장금 지급 일정이 평소와 조금 다를 예정이에요.\", \"이 변경이 경제에 미칠 영향에 대한 분석도 나오고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"사회보장금을 받는 사람들의 8월 자금 흐름에 변화가 생길 수 있어요!\"], \"glossary\": [{\"term\": \"사회보장금\", \"easy\": \"국가가 국민의 생활 안정을 위해 지급하는 돈이에요.\", \"example\": \"실업 수당이나 노령 연금 등이 사회보장금에 해당해요.\"}], \"impact_line\": \"사회보장금을 받는 분들의 8월 생활비 계획이 달라질 수 있어요.\"}",
+  "raw_response": "{\n  \"title\": \"미국 수입 규제\",\n   \"one_liner\": \"미국이 강제 노동으로 만든 수입에 대해 조사를 했어요\",\n   \"why_now\": \"강제 노동으로 만든 제품을 수입하는 것을 막으려는 것이에요\",\n   \"impact_line\": \"일자리와 소비에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"미국이 강제 노동으로 만든 제품 수입에 대해 조사했어요\",\n       \"외국인 직접 투자액이 안정화했어요\",\n       \"8월 사회 보장금 지급일정이 조금 달라질 수 있어요\",\n       \"사회 보장금 삭감이 가장 큰 경제적 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"강제 노동으로 만든 제품 수입을 막으면 소비자 물가에 영향을 줄 수 있어요!\",\n       \"외국인 직접 투자액이 증가하면 경제 성장에 도움이 될 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"강제 노동\",\n           \"easy\": \"사람을 억지로 일하게 하는 것이에요\",\n           \"example\": \"강제 노동은 인권을 침해하는 것이에요\"\n       }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Social Security…",
-   "one_liner": "Social Security payment schedule slightly…",
-   "why_now": null,
+   "title": "미국 수입 규제",
+   "one_liner": "미국이 강제 노동으로 만든 수입에 대해 조사를 했어요",
+   "why_now": "강제 노동으로 만든 제품을 수입하는 것을 막으려는 것이에요",
    "details": [
-    "Social Security payment schedule slightly differs for August . See when",
-    "Where Social Security cuts could have the greatest economic impact"
+    "미국이 강제 노동으로 만든 제품 수입에 대해 조사했어요",
+    "외국인 직접 투자액이 안정화했어요",
+    "8월 사회 보장금 지급일정이 조금 달라질 수 있어요",
+    "사회 보장금 삭감이 가장 큰 경제적 영향을 줄 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "강제 노동으로 만든 제품 수입을 막으면 소비자 물가에 영향을 줄 수 있어요!",
+    "외국인 직접 투자액이 증가하면 경제 성장에 도움이 될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "0b80235099396ec544bd2a59ea38a22541ec544e"
+  "fact_hash": "fa41cd221f3dd2f504d8d2aa26b2345353728096"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
@@ -135,6 +168,12 @@
   {
    "id": "c01efb76fcd7102be",
    "title": "Preview : ECB set to hold rates in July , hints of September hike expected : ING",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c999e4b0df942f927",
+   "title": "Global markets enjoy tech , artificial intelligence gains ahead of major interest rate decisions",
    "category": "RATE",
    "shared": []
   },
@@ -161,12 +200,6 @@
    "shared": [
     "SEC"
    ]
-  },
-  {
-   "id": "c999e4b0df942f927",
-   "title": "Global markets enjoy tech , artificial intelligence gains ahead of major interest rate decisions",
-   "category": "RATE",
-   "shared": []
   }
  ]
 }

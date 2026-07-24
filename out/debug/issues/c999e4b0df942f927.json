@@ -9,11 +9,21 @@
  "entity_keys": [
   "INTC"
  ],
- "seen_sources": 2,
- "importance": 135,
+ "seen_sources": 4,
+ "importance": 145,
  "created_at": "2026-07-23T22:29:24.159990+00:00",
- "last_update": "2026-07-23T22:29:24.160780+00:00",
+ "last_update": "2026-07-24T00:16:37.058378+00:00",
  "members": [
+  {
+   "id": "5003c45a1ff63a34f3d97be5cf5d83b42b8cbba9",
+   "source": "finanzen.ch",
+   "tier": "wire",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/intel-q2-loss-widens-revenue-jumps-25percent-1036359284",
+   "title": "Intel Q2 Loss Widens , Revenue Jumps 25 %",
+   "published_at": "2026-07-23T21:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9152
+  },
   {
    "id": "d578c0df1211a1c77a0c337d250460001ed07611",
    "source": "markets.financialcontent.com",
@@ -22,7 +32,17 @@
    "title": "FinancialContent - Intel ( NASDAQ : INTC ) Delivers Impressive Q2 , Inventory Levels Improve",
    "published_at": "2026-07-23T21:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9541
+   "sim_to_centroid": 0.9539
+  },
+  {
+   "id": "cbd979a484c69a04e0c703071f1a49956c1fcb98",
+   "source": "economictimes.indiatimes.com",
+   "tier": "wire",
+   "url": "https://economictimes.indiatimes.com/opinion/speaking-tree/spiritual-intelligence-vs-artificial-intelligence/articleshow/132588587.cms",
+   "title": "Spiritual intelligence vs Artificial intelligence",
+   "published_at": "2026-07-23T18:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8588
   },
   {
    "id": "5099fd0ed786b9ab3ecf3834ff7c2b193974d6ea",
@@ -32,7 +52,7 @@
    "title": "Global markets enjoy tech , artificial intelligence gains ahead of major interest rate decisions",
    "published_at": "2026-07-23T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9541
+   "sim_to_centroid": 0.9489
   }
  ],
  "anchors": [],
@@ -46,6 +66,20 @@
   },
   {
    "kind": "headline",
+   "title": "Intel Q2 Loss Widens , Revenue Jumps 25 %",
+   "source": "finanzen.ch",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/intel-q2-loss-widens-revenue-jumps-25percent-1036359284",
+   "at": "2026-07-23T21:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Spiritual intelligence vs Artificial intelligence",
+   "source": "economictimes.indiatimes.com",
+   "url": "https://economictimes.indiatimes.com/opinion/speaking-tree/spiritual-intelligence-vs-artificial-intelligence/articleshow/132588587.cms",
+   "at": "2026-07-23T18:30:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Global markets enjoy tech , artificial intelligence gains ahead of major interest rate decisions",
    "source": "aa.com.tr",
    "url": "https://aa.com.tr/en/economy/global-markets-enjoy-tech-artificial-intelligence-gains-ahead-of-major-interest-rate-decisions/4006876",
@@ -53,49 +87,47 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-23T22:29:25.519408+00:00",
+  "model": "template",
+  "created_at": "2026-07-24T00:20:44.012421+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
    "headlines": [
+    "Intel Q2 Loss Widens , Revenue Jumps 25 %",
     "FinancialContent - Intel ( NASDAQ : INTC ) Delivers Impressive Q2 , Inventory Levels Improve",
+    "Spiritual intelligence vs Artificial intelligence",
     "Global markets enjoy tech , artificial intelligence gains ahead of major interest rate decisions"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"인텔 실적 좋아짐\",\n   \"one_liner\": \"인텔의 실적이 좋아졌어요\",\n   \"why_now\": \"기술과 인공지능 분야가 발전하면 경제에 도움이 될 수 있어요\",\n   \"impact_line\": \"전자제품 가격이 내릴 수 있어요\",\n   \"details\": [\n      \"인텔의 실적이 좋아졌어요\",\n      \"기술과 인공지능 분야가 발전했어요\",\n      \"주요 금리 결정이 예정되어 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"기술 발전으로 새로운 일자리가 생길 수 있어요!\",\n      \"인공지능 기술이 발전하면 일상 생활이 편리해질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "인텔 실적 좋아짐",
-   "one_liner": "인텔의 실적이 좋아졌어요",
-   "why_now": "기술과 인공지능 분야가 발전하면 경제에 도움이 될 수 있어요",
+   "title": "Intel Q2 Loss Widens…",
+   "one_liner": "Intel Q2 Loss Widens , Revenue Jumps 25 %",
+   "why_now": null,
    "details": [
-    "인텔의 실적이 좋아졌어요",
-    "기술과 인공지능 분야가 발전했어요",
-    "주요 금리 결정이 예정되어 있어요"
+    "Intel Q2 Loss Widens , Revenue Jumps 25 %",
+    "FinancialContent - Intel ( NASDAQ : INTC ) Delivers Impressive Q2 , Inventory Levels Improve",
+    "Spiritual intelligence vs Artificial intelligence"
    ],
-   "effects": [
-    "기술 발전으로 새로운 일자리가 생길 수 있어요!",
-    "인공지능 기술이 발전하면 일상 생활이 편리해질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "kr_base_rate"
   },
-  "fact_hash": "e97e43a2f5bbda5ebd491aaf6359119047c1e410"
+  "fact_hash": "f0352afa7bf6e6413fbe442f42c3c2e6f2392622"
  },
- "review": null,
- "glossary": [
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  }
- ],
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-24T00:20:44.012348+00:00"
+ },
+ "glossary": [],
  "related": [
   {
    "id": "c01efb76fcd7102be",
@@ -104,14 +136,14 @@
    "shared": []
   },
   {
-   "id": "c826b1c1944a1c619",
-   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
    "category": "RATE",
    "shared": []
   },
   {
-   "id": "cb00a5f20e2c800d5",
-   "title": "Where Social Security cuts could have the greatest economic impact",
+   "id": "c826b1c1944a1c619",
+   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
    "category": "RATE",
    "shared": []
   },

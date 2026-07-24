@@ -14,11 +14,51 @@
   "MS",
   "TSLA"
  ],
- "seen_sources": 30,
+ "seen_sources": 31,
  "importance": 135,
  "created_at": "2026-07-16T16:47:58.907339+00:00",
- "last_update": "2026-07-23T22:29:24.151410+00:00",
+ "last_update": "2026-07-24T00:16:37.082200+00:00",
  "members": [
+  {
+   "id": "59fb58e92aa2dba54e52cda50c641fda7e469ad7",
+   "source": "zerohedge.com",
+   "tier": "wire",
+   "url": "https://www.zerohedge.com/markets/us-stocks-declined-heavy-selling-nasdaq-following-alphabet-and-tesla-earnings-while-oil",
+   "title": "US stocks declined with heavy selling in the Nasdaq following Alphabet and Tesla earnings , while oil prices and yields were higher amid the geopolitical backdrop - Newsquawk Daily Asia - Pac Market Open",
+   "published_at": "2026-07-23T23:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8829
+  },
+  {
+   "id": "bd581e380ad06b07404d2e7940e647a848095c15",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/economy/policy/articles/inflation-choice-cracking-fed-chair-155519059.html",
+   "title": "Inflation Is a Choice : Cracking Fed Chair Kevin Warsh Code Before Next Week Rate Showdown",
+   "published_at": "2026-07-23T23:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9134
+  },
+  {
+   "id": "62e88967c1417ad33b1e37bc7ead655b7c5d3d12",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/article/googles-profits-are-outrunning-its-ai-spending-boom-alphacheck-155349278.html",
+   "title": "Google profits are outrunning its AI spending boom : AlphaCheck",
+   "published_at": "2026-07-23T23:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8824
+  },
+  {
+   "id": "7b3f1c1d219cb43d983fe7512640fc9e68964e1d",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-dips-as-elons-other-company--tesla--reports-wednesday-night-153703005.html",
+   "title": "SpaceX stock dips as Elon other company Tesla reports Wednesday night",
+   "published_at": "2026-07-23T23:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8653
+  },
   {
    "id": "146b2fa56183c940fb256cdccebbab40eb218ee5",
    "source": "yumasun.com",
@@ -444,6 +484,34 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "US stocks declined with heavy selling in the Nasdaq following Alphabet and Tesla earnings , while oil prices and yields were higher amid the geopolitical backdrop - Newsquawk Daily Asia - Pac Market Open",
+   "source": "zerohedge.com",
+   "url": "https://www.zerohedge.com/markets/us-stocks-declined-heavy-selling-nasdaq-following-alphabet-and-tesla-earnings-while-oil",
+   "at": "2026-07-23T23:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Inflation Is a Choice : Cracking Fed Chair Kevin Warsh Code Before Next Week Rate Showdown",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/economy/policy/articles/inflation-choice-cracking-fed-chair-155519059.html",
+   "at": "2026-07-23T23:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Google profits are outrunning its AI spending boom : AlphaCheck",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/article/googles-profits-are-outrunning-its-ai-spending-boom-alphacheck-155349278.html",
+   "at": "2026-07-23T23:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "SpaceX stock dips as Elon other company Tesla reports Wednesday night",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-dips-as-elons-other-company--tesla--reports-wednesday-night-153703005.html",
+   "at": "2026-07-23T23:30:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Brent oil tops $100 per barrel , as tumbles for Tesla and Alphabet yank Wall Street lower",
    "source": "yumasun.com",
    "url": "https://www.yumasun.com/news/national_news/brent-oil-tops-100-per-barrel-as-tumbles-for-tesla-and-alphabet-yank-wall-street/article_2b38a0c6-58b3-54af-a235-3c913836cff6.html",
@@ -738,48 +806,65 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T20:39:32.029388+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-24T00:16:43.289433+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "If your degree doesnt pay enough , you cant borrow . Federal loans cut for low - wage programs – Daily Local",
     "If your degree doesnt pay enough , you cant borrow . Federal loans cut for low - wage programs – Longmont Times - Call",
+    "Inflation Is a Choice : Cracking Fed Chair Kevin Warsh Code Before Next Week Rate Showdown",
     "Prediction : The Fed Hikes Rates Once in 2026 . Here What It Means for Bond ETFs .",
-    "Bank of America CEO warns inflation will back Fed into a corner",
-    "5 Money Moves to Make Now If the Fed Raises Rates Instead of Cutting Them"
+    "Bank of America CEO warns inflation will back Fed into a corner"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 대출 및 금리 관련 소식\",\n  \"one_liner\": \"미국에서 학자금 대출과 기준금리 인상 가능성에 대한 우려가 나오고 있어요.\",\n  \"why_now\": \"학자금 대출이나 기준금리 변동은 가계와 기업의 이자 부담에 직접적인 영향을 줄 수 있어요.\",\n  \"impact_line\": \"학자금 대출이나 변동금리 대출 이자 부담이 늘어날 수 있어요.\",\n  \"details\": [\n    \"미국에서 학위 취득 후 소득이 적은 직업을 위한 연방 학자금 대출이 줄어들 수 있다는 소식이 있어요.\",\n    \"일부에서는 미국의 기준금리가 2026년에 한 번 더 오를 것이라는 예측도 있어요.\",\n    \"미국 연방준비제도 의장이 인플레이션 때문에 금리를 올릴 수밖에 없는 상황에 놓일 수 있다는 분석도 나왔어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"미국에서 돈을 빌리는 비용이 더 비싸질 수 있어요!\",\n    \"인플레이션이 계속되면 생활 물가 상승 압력이 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"연방 학자금 대출\",\n      \"easy\": \"미국 정부가 학생들의 학업을 위해 제공하는 대출이에요.\",\n      \"example\": \"연방 학자금 대출 이자율이 오르면 졸업 후 갚아야 할 돈이 늘어요.\"\n    },\n    {\n      \"term\": \"기준금리\",\n      \"easy\": \"한국은행이 정하는 나라의 기본 이자율이에요.\",\n      \"example\": \"기준금리가 오르면 대출 이자도 보통 따라 올라요.\"\n    },\n    {\n      \"term\": \"인플레이션\",\n      \"easy\": \"물건이나 서비스의 가격이 전반적으로 계속 오르는 현상이에요.\",\n      \"example\": \"인플레이션 때문에 장바구니 물가가 올라 부담이 커지고 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "If your degree…",
-   "one_liner": "If your degree doesnt pay enough , you cant…",
-   "why_now": null,
+   "title": "미국 대출 및 금리 관련 소식",
+   "one_liner": "미국에서 학자금 대출과 기준금리 인상 가능성에 대한 우려가 나오고 있어요.",
+   "why_now": "학자금 대출이나 기준금리 변동은 가계와 기업의 이자 부담에 직접적인 영향을 줄 수 있어요.",
    "details": [
-    "If your degree doesnt pay enough , you cant borrow . Federal loans cut for low - wage programs – Daily Local",
-    "If your degree doesnt pay enough , you cant borrow . Federal loans cut for low - wage programs – Longmont Times - Call",
-    "Prediction : The Fed Hikes Rates Once in 2026 . Here What It Means for Bond ETFs ."
+    "미국에서 학위 취득 후 소득이 적은 직업을 위한 연방 학자금 대출이 줄어들 수 있다는 소식이요.",
+    "일부에서는 미국의 기준금리가 2026년에 한 번 더 오를 것이라는 예측도 있어요.",
+    "미국 연방준비제도 의장이 인플레이션 때문에 금리를 올릴 수밖에 없는 상황에 놓일 수 있다는 분석도요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "미국에서 돈을 빌리는 비용이 더 비싸질 수 있어요!",
+    "인플레이션이 계속되면 생활 물가 상승 압력이 커질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "917dc9694e41b7e356da9b6dcfe37d23e1f0aa8d"
+  "fact_hash": "6c39e9dc859df4d4ea4c68f5e26e7609375b5f57"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-23T20:39:32.029227+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "기준금리",
+   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
+   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
+  },
+  {
+   "term": "인플레이션",
+   "easy": "물가가 전반적으로 계속 오르는 현상이에요.",
+   "example": "돈의 힘이 조금씩 약해지는 셈이에요."
+  }
+ ],
  "related": [
   {
    "id": "cb3030e4a5acd0008",

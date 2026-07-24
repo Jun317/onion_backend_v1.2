@@ -10,10 +10,10 @@
   "NVDA",
   "TAIWAN"
  ],
- "seen_sources": 2,
- "importance": 75,
+ "seen_sources": 4,
+ "importance": 85,
  "created_at": "2026-07-23T16:53:35.390307+00:00",
- "last_update": "2026-07-23T22:29:24.147858+00:00",
+ "last_update": "2026-07-24T00:16:37.056048+00:00",
  "members": [
   {
    "id": "b4781d26af9f700a161e2e612fd1ee29f1a67d37",
@@ -23,7 +23,7 @@
    "title": "Better - Buy Chip Stock : Taiwan Semiconductor vs . Nvidia",
    "published_at": "2026-07-23T21:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9025
+   "sim_to_centroid": 0.9162
   },
   {
    "id": "46182d26368916eb2fa2dc3e1da5ff8cb726ef9f",
@@ -33,7 +33,7 @@
    "title": "Taiwan Semiconductor Manufacturing Just Gave 100 Billion Reasons Why the AI Build - Out Will Last for Several More Years",
    "published_at": "2026-07-23T18:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9078
+   "sim_to_centroid": 0.9188
   },
   {
    "id": "5b4aeff497cbb9ffd79095bad374c0852d279905",
@@ -43,7 +43,27 @@
    "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Is Raising Prices Up to 10 %. Can Customers Push Back ?",
    "published_at": "2026-07-23T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9668
+   "sim_to_centroid": 0.9602
+  },
+  {
+   "id": "656717454b6aabb9524f6f51ac9d6594cb26d541",
+   "source": "chinatechnews.com",
+   "tier": "wire",
+   "url": "https://www.chinatechnews.com/2026/07/23/126106-nvidias-jensen-huang-defends-chinese-ai-open-source-models-that-are-excellent-should-be-used",
+   "title": "Nvidia Jensen Huang defends Chinese AI :  Open - source models that are excellent should be used",
+   "published_at": "2026-07-23T03:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8796
+  },
+  {
+   "id": "32749675db06f614162d05ac00b98b7db895d343",
+   "source": "foreignpolicyjournal.com",
+   "tier": "wire",
+   "url": "https://www.foreignpolicyjournal.com/2026/07/22/nvidia-nasdaq-nvda-enters-200-billion-cpu-market-with-vera-chip-to-power-next-growth-phase/",
+   "title": "NVIDIA ( NASDAQ : NVDA ) Enters $200 Billion CPU Market With Vera Chip To Power Next Growth Phase",
+   "published_at": "2026-07-22T19:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8886
   },
   {
    "id": "71342376e1b1194e86407968c80326e98102fcdf",
@@ -53,7 +73,7 @@
    "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
    "published_at": "2026-07-21T17:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9665
+   "sim_to_centroid": 0.9593
   }
  ],
  "anchors": [],
@@ -81,6 +101,20 @@
   },
   {
    "kind": "headline",
+   "title": "Nvidia Jensen Huang defends Chinese AI :  Open - source models that are excellent should be used",
+   "source": "chinatechnews.com",
+   "url": "https://www.chinatechnews.com/2026/07/23/126106-nvidias-jensen-huang-defends-chinese-ai-open-source-models-that-are-excellent-should-be-used",
+   "at": "2026-07-23T03:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "NVIDIA ( NASDAQ : NVDA ) Enters $200 Billion CPU Market With Vera Chip To Power Next Growth Phase",
+   "source": "foreignpolicyjournal.com",
+   "url": "https://www.foreignpolicyjournal.com/2026/07/22/nvidia-nasdaq-nvda-enters-200-billion-cpu-market-with-vera-chip-to-power-next-growth-phase/",
+   "at": "2026-07-22T19:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
    "source": "insidermonkey.com",
    "url": "https://www.insidermonkey.com/blog/taiwan-semiconductor-manufacturing-company-limited-tsm-doubled-since-giverny-capital-asset-managements-entry-1803335/",
@@ -88,40 +122,43 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-23T20:39:13.483393+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-24T00:18:53.265038+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
-    "Taiwan Semiconductor Manufacturing Just Gave 100 Billion Reasons Why the AI Build - Out Will Last for Several More Years",
     "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Is Raising Prices Up to 10 %. Can Customers Push Back ?",
-    "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry"
+    "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
+    "Taiwan Semiconductor Manufacturing Just Gave 100 Billion Reasons Why the AI Build - Out Will Last for Several More Years",
+    "Better - Buy Chip Stock : Taiwan Semiconductor vs . Nvidia",
+    "NVIDIA ( NASDAQ : NVDA ) Enters $200 Billion CPU Market With Vera Chip To Power Next Growth Phase"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"대만 반도체 기업 가격 인상\",\n    \"one_liner\": \"대만의 주요 반도체 기업이 제품 가격을 최대 10% 올린다고 해요.\",\n    \"why_now\": \"인공지능(AI) 관련 반도체 수요가 늘면서 가격 인상이 불가피해졌어요.\",\n    \"impact_line\": \"AI 관련 제품 가격이 오를 수 있어요.\",\n    \"details\": [\n        \"대만 반도체 기업이 가격을 최대 10% 인상할 계획이에요.\",\n        \"이는 인공지능(AI) 반도체 수요 증가에 따른 것이에요.\",\n        \"이 기업은 AI 반도체 시장에서 중요한 역할을 하고 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"AI 칩을 사용하는 기업들의 비용 부담이 늘어날 수 있어요!\",\n        \"AI 기술 발전과 관련된 제품 가격이 전반적으로 오를 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"인공지능(AI)\",\n            \"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n            \"example\": \"인공지능 스피커가 날씨를 알려줘요.\"\n        },\n        {\n            \"term\": \"반도체\",\n            \"easy\": \"전기를 통하게도, 안 통하게도 할 수 있는 특별한 물질로, 컴퓨터나 스마트폰의 핵심 부품이에요.\",\n            \"example\": \"스마트폰에 들어가는 반도체 덕분에 성능이 좋아요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Taiwan Semiconductor…",
-   "one_liner": "Taiwan Semiconductor Manufacturing Just Gave 100…",
-   "why_now": null,
+   "title": "대만 반도체 기업 가격 인상",
+   "one_liner": "대만의 주요 반도체 기업이 제품 가격을 최대 10% 올린다고 해요.",
+   "why_now": "인공지능(AI) 관련 반도체 수요가 늘면서 가격 인상이 불가피해졌어요.",
    "details": [
-    "Taiwan Semiconductor Manufacturing Just Gave 100 Billion Reasons Why the AI Build - Out Will Last for Several More Years",
-    "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Is Raising Prices Up to 10 %. Can Customers Push Back ?",
-    "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry"
+    "대만 반도체 기업이 가격을 최대 10% 인상할 계획이에요.",
+    "이는 인공지능(AI) 반도체 수요 증가에 따른 것이에요.",
+    "이 기업은 AI 반도체 시장에서 중요한 역할을 하고 있어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "AI 칩을 사용하는 기업들의 비용 부담이 늘어날 수 있어요!",
+    "AI 기술 발전과 관련된 제품 가격이 전반적으로 오를 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "a7837c2985dbacd90c13c55eb13f5710eedce20d"
+  "fact_hash": "fa0bb5acbb5259943b46428c16f29d2c3295ed96"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
@@ -154,18 +191,20 @@
    ]
   },
   {
-   "id": "c763582d47a3e8b63",
-   "title": "Netflix Looks To Buy Major Social Network With Over 30M Users",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
    "id": "c273684a49f5f6fb2",
    "title": "Jim Cramer Is Still Recommending International Business Machines Corporation ( IBM ) Shares",
    "category": "MARKET",
    "shared": [
     "NVDA",
     "TAIWAN"
+   ]
+  },
+  {
+   "id": "c7f9a22157d5febb4",
+   "title": "EU forces Google to share search data and open Android to rival AI companies",
+   "category": "GEO",
+   "shared": [
+    "NVDA"
    ]
   }
  ]
