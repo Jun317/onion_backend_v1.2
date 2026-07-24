@@ -1,0 +1,390 @@
+{
+ "id": "e97a81ef1127b8815",
+ "title": "미국 기준금리 인하",
+ "one_liner": "미국 중앙은행(Fed)이 기준금리를 내려 연 3.50~3.75%가 됐어요.",
+ "why_now": "금리가 내리면 돈을 빌리는 비용이 줄어 경제 활동이 활발해질 수 있어요.",
+ "impact_line": "미국 금리 인하는 한국 금리에도 영향을 줄 수 있어요.",
+ "raw_title": "미 연준 기준금리 변동 (4.08%)",
+ "category": "RATE",
+ "status": "stale",
+ "origin": "official_event",
+ "sources": 1,
+ "importance": 125,
+ "last_update": "2026-07-05T10:38:44.902995+00:00",
+ "event_at": "2025-12-11T00:00:00+00:00",
+ "has_visual": true,
+ "headline_stat": {
+  "label": "Fed 기준금리",
+  "value": "3.64",
+  "unit": "%",
+  "delta_text": "-0.25%p",
+  "direction": "down",
+  "prev_text": "직전 3.89%"
+ },
+ "spark": [
+  3.64,
+  3.64,
+  3.64,
+  3.64,
+  3.64,
+  3.62,
+  3.63,
+  3.63
+ ],
+ "icon": "🇺🇸",
+ "details": [
+  "미국 중앙은행(Fed)이 기준금리를 0.25%p 인하했어요.",
+  "이번 결정으로 기준금리는 연 3.50~3.75% 범위가 됐어요.",
+  "이는 올해 들어 세 번째 금리 인하예요.",
+  "이전에도 두 차례 연속 금리가 인하된 바 있어요."
+ ],
+ "effects": [
+  "한국은행도 미국 금리 인하에 맞춰 기준금리를 내릴 가능성이 있어요!",
+  "금리가 내리면 국내 대출 이자 부담이 줄어들 수 있어요!"
+ ],
+ "model": "gemini-2.5-flash-lite",
+ "visual": {
+  "type": "us_policy_rate",
+  "chart": "step",
+  "title": "미 연방기금금리 (최근 3년)",
+  "unit": "%",
+  "source": "FRED",
+  "series": [
+   {
+    "t": "2023-07",
+    "v": 5.33
+   },
+   {
+    "t": "2023-08",
+    "v": 5.33
+   },
+   {
+    "t": "2023-09",
+    "v": 5.33
+   },
+   {
+    "t": "2023-10",
+    "v": 5.33
+   },
+   {
+    "t": "2023-11",
+    "v": 5.33
+   },
+   {
+    "t": "2023-12",
+    "v": 5.33
+   },
+   {
+    "t": "2024-01",
+    "v": 5.33
+   },
+   {
+    "t": "2024-02",
+    "v": 5.33
+   },
+   {
+    "t": "2024-03",
+    "v": 5.33
+   },
+   {
+    "t": "2024-04",
+    "v": 5.33
+   },
+   {
+    "t": "2024-05",
+    "v": 5.33
+   },
+   {
+    "t": "2024-06",
+    "v": 5.33
+   },
+   {
+    "t": "2024-07",
+    "v": 5.33
+   },
+   {
+    "t": "2024-08",
+    "v": 5.33
+   },
+   {
+    "t": "2024-09",
+    "v": 4.83
+   },
+   {
+    "t": "2024-10",
+    "v": 4.83
+   },
+   {
+    "t": "2024-11",
+    "v": 4.58
+   },
+   {
+    "t": "2024-12",
+    "v": 4.33
+   },
+   {
+    "t": "2025-01",
+    "v": 4.33
+   },
+   {
+    "t": "2025-02",
+    "v": 4.33
+   },
+   {
+    "t": "2025-03",
+    "v": 4.33
+   },
+   {
+    "t": "2025-04",
+    "v": 4.33
+   },
+   {
+    "t": "2025-05",
+    "v": 4.33
+   },
+   {
+    "t": "2025-06",
+    "v": 4.33
+   },
+   {
+    "t": "2025-07",
+    "v": 4.33
+   },
+   {
+    "t": "2025-08",
+    "v": 4.33
+   },
+   {
+    "t": "2025-09",
+    "v": 4.09
+   },
+   {
+    "t": "2025-10",
+    "v": 3.86
+   },
+   {
+    "t": "2025-11",
+    "v": 3.89
+   },
+   {
+    "t": "2025-12",
+    "v": 3.64
+   },
+   {
+    "t": "2026-01",
+    "v": 3.64
+   },
+   {
+    "t": "2026-02",
+    "v": 3.64
+   },
+   {
+    "t": "2026-03",
+    "v": 3.64
+   },
+   {
+    "t": "2026-04",
+    "v": 3.64
+   },
+   {
+    "t": "2026-05",
+    "v": 3.62
+   },
+   {
+    "t": "2026-06",
+    "v": 3.63
+   },
+   {
+    "t": "2026-07",
+    "v": 3.63
+   }
+  ]
+ },
+ "anchors": [
+  {
+   "entity": "Fed",
+   "metric": "기준금리",
+   "value": 3.64,
+   "unit": "%",
+   "prev": 3.89,
+   "period": "2025-12",
+   "source": "FRED"
+  },
+  {
+   "entity": "Fed",
+   "metric": "변동폭",
+   "value": -25.0,
+   "unit": "bp",
+   "prev": null,
+   "period": "2025-12",
+   "source": "FRED"
+  },
+  {
+   "entity": "Fed",
+   "metric": "기준금리",
+   "value": 3.87,
+   "unit": "%",
+   "prev": 4.12,
+   "period": "2025-10",
+   "source": "FRED"
+  },
+  {
+   "entity": "Fed",
+   "metric": "변동폭",
+   "value": -25.0,
+   "unit": "bp",
+   "prev": null,
+   "period": "2025-10",
+   "source": "FRED"
+  },
+  {
+   "entity": "Fed",
+   "metric": "기준금리",
+   "value": 4.08,
+   "unit": "%",
+   "prev": 4.33,
+   "period": "2025-09",
+   "source": "FRED"
+  },
+  {
+   "entity": "Fed",
+   "metric": "변동폭",
+   "value": -25.0,
+   "unit": "bp",
+   "prev": null,
+   "period": "2025-09",
+   "source": "FRED"
+  }
+ ],
+ "headlines": [
+  {
+   "title": "미국연준, 올해 세 번째 금리 인하…연 3.50~3.75%",
+   "source": "연합뉴스",
+   "url": "https://backfill.example/fomc_dec_2025_cut/1",
+   "published_at": "2025-12-10T19:00:00+00:00",
+   "lang": "ko"
+  },
+  {
+   "title": "미국연준, 두 달 연속 금리 인하…연 3.75~4.00%",
+   "source": "연합뉴스",
+   "url": "https://backfill.example/fomc_oct_2025_cut/1",
+   "published_at": "2025-10-29T18:30:00+00:00",
+   "lang": "ko"
+  },
+  {
+   "title": "미국연준, 금리 0.25%p 인하…연 4.00~4.25%로",
+   "source": "연합뉴스",
+   "url": "https://backfill.example/fomc_sep_2025_cut/1",
+   "published_at": "2025-09-17T18:30:00+00:00",
+   "lang": "ko"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "FRED DFF 2025-12-11 = 3.64",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/DFF",
+   "at": "2025-12-11T00:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "미국연준, 올해 세 번째 금리 인하…연 3.50~3.75%",
+   "source": "연합뉴스",
+   "url": "https://backfill.example/fomc_dec_2025_cut/1",
+   "at": "2025-12-10T19:00:00+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "FRED DFF 2025-10-30 = 3.87",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/DFF",
+   "at": "2025-10-30T00:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "미국연준, 두 달 연속 금리 인하…연 3.75~4.00%",
+   "source": "연합뉴스",
+   "url": "https://backfill.example/fomc_oct_2025_cut/1",
+   "at": "2025-10-29T18:30:00+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "FRED DFF 2025-09-18 = 4.08",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/DFF",
+   "at": "2025-09-18T00:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "미국연준, 금리 0.25%p 인하…연 4.00~4.25%로",
+   "source": "연합뉴스",
+   "url": "https://backfill.example/fomc_sep_2025_cut/1",
+   "at": "2025-09-17T18:30:00+00:00"
+  }
+ ],
+ "glossary": [
+  {
+   "term": "기준금리",
+   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
+   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "금리 인하",
+   "easy": "이자의 기준을 낮추는 거예요.",
+   "example": "대출 이자가 줄어 돈 쓰기가 조금 수월해져요."
+  },
+  {
+   "term": "Fed",
+   "easy": "미국 중앙은행을 말해요. 나라의 돈을 관리하고 금리를 결정해요.",
+   "example": "Fed가 금리를 올리면 미국 주식 시장이 흔들릴 수 있어요."
+  }
+ ],
+ "related": [
+  {
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c01efb76fcd7102be",
+   "title": "Preview : ECB set to hold rates in July , hints of September hike expected : ING",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c826b1c1944a1c619",
+   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": [
+    "FED"
+   ]
+  },
+  {
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "category": "MARKET",
+   "shared": [
+    "FED"
+   ]
+  }
+ ],
+ "created_at": "2026-07-05T10:38:34.868125+00:00"
+}

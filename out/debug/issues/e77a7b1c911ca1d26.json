@@ -1,0 +1,169 @@
+{
+ "id": "e77a7b1c911ca1d26",
+ "title": "미 연준 기준금리 변동 (3.62%)",
+ "category": "RATE",
+ "status": "stale",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "Fed|RATE|2026-07",
+ "entity_keys": [
+  "FED"
+ ],
+ "seen_sources": 0,
+ "importance": 110,
+ "created_at": "2026-07-09T21:54:19.988949+00:00",
+ "last_update": "2026-07-15T23:26:26.518619+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "Fed",
+   "metric": "기준금리",
+   "value": 3.63,
+   "unit": "%",
+   "prev": 3.62,
+   "period": "2026-07",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-07-15T23:26:26.518619+00:00"
+  },
+  {
+   "entity": "Fed",
+   "metric": "변동폭",
+   "value": 1.0,
+   "unit": "bp",
+   "prev": null,
+   "period": "2026-07",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-07-15T23:26:26.518619+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "FRED DFF 2026-07-14 = 3.63",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/DFF",
+   "at": "2026-07-15T22:08:52.262778+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "FRED DFF 2026-07-08 = 3.62",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/DFF",
+   "at": "2026-07-09T21:27:21.648301+00:00"
+  }
+ ],
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-16T04:42:52.140873+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [
+    {
+     "entity": "Fed",
+     "metric": "기준금리",
+     "value": 3.63,
+     "unit": "%",
+     "prev": 3.62,
+     "period": "2026-07",
+     "source": "FRED"
+    },
+    {
+     "entity": "Fed",
+     "metric": "변동폭",
+     "value": 1.0,
+     "unit": "bp",
+     "prev": null,
+     "period": "2026-07",
+     "source": "FRED"
+    }
+   ],
+   "headlines": [
+    "미 연준 기준금리 변동 (3.62%)"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미국 기준금리 인상\",\n   \"one_liner\": \"미국 연방준비제도이 기준금리를 올려 연 3.63%가 됐어요\",\n   \"why_now\": \"금리가 오르면 대출이 어려워져 물가가 오르는 속도가 느려질 수 있어요\",\n   \"impact_line\": \"외국에서 돈을 빌리기가 어려워질 수 있어요\",\n   \"details\": [\n       \"미국 연방준비제도이 기준금리를 올렸어요\",\n       \"새 기준금리는 연 3.63%예요\",\n       \"직전 기준금리는 연 3.62%였어요\",\n       \"변동폭은 1bp예요\"\n   ],\n   \"visual_type\": \"us_policy_rate\",\n   \"effects\": [\n       \"미국에서 대출이 어려워져 소비가 줄어들 수 있어요!\",\n       \"금리가 오르면 미국 달러 가치가 올라 우리나라 수출이 어려워질 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"기준금리\",\n           \"easy\": \"중앙은행이 정하는 나라의 기본 이자율이에요\",\n           \"example\": \"기준금리가 오르면 대출 이자도 보통 따라 올라요\"\n       }\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "미국 기준금리 인상",
+   "one_liner": "미국 연방준비제도이 기준금리를 올려 연 3.63%가 됐어요",
+   "why_now": "금리가 오르면 대출이 어려워져 물가가 오르는 속도가 느려질 수 있어요",
+   "details": [
+    "미국 연방준비제도이 기준금리를 올렸어요",
+    "새 기준금리는 연 3.63%예요",
+    "직전 기준금리는 연 3.62%였어요",
+    "변동폭은 1bp예요"
+   ],
+   "effects": [
+    "미국에서 대출이 어려워져 소비가 줄어들 수 있어요!",
+    "금리가 오르면 미국 달러 가치가 올라 우리나라 수출이 어려워질 수 있어요!"
+   ],
+   "visual_type": "us_policy_rate"
+  },
+  "fact_hash": "84d5c8a0af54c4442ab278f3181d2ee65a9d70e4"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 4~6문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 4~6문장 아님\"]}]}",
+  "at": "2026-07-12T15:31:45.625356+00:00"
+ },
+ "glossary": [
+  {
+   "term": "기준금리",
+   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
+   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "bp",
+   "easy": "이자를 재는 아주 작은 단위예요. 1bp는 0.01%예요.",
+   "example": "25bp면 0.25%를 뜻해요."
+  }
+ ],
+ "related": [
+  {
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c01efb76fcd7102be",
+   "title": "Preview : ECB set to hold rates in July , hints of September hike expected : ING",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c826b1c1944a1c619",
+   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": [
+    "FED"
+   ]
+  },
+  {
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "category": "MARKET",
+   "shared": [
+    "FED"
+   ]
+  }
+ ]
+}

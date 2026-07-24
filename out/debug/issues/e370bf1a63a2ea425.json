@@ -1,0 +1,183 @@
+{
+ "id": "e370bf1a63a2ea425",
+ "title": "한국 소비자물가 2026-04 발표",
+ "category": "MACRO",
+ "status": "stale",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "KR|MACRO|2026-04",
+ "entity_keys": [
+  "V"
+ ],
+ "seen_sources": 0,
+ "importance": 85,
+ "created_at": "2026-07-05T10:38:34.867309+00:00",
+ "last_update": "2026-07-05T10:38:44.902820+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "KR",
+   "metric": "소비자물가지수",
+   "value": 119.99,
+   "unit": "",
+   "prev": 119.92,
+   "period": "2026-06",
+   "source": "ECOS",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.867825+00:00"
+  },
+  {
+   "entity": "KR",
+   "metric": "소비자물가지수",
+   "value": 119.92,
+   "unit": "",
+   "prev": 119.37,
+   "period": "2026-05",
+   "source": "ECOS",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.867672+00:00"
+  },
+  {
+   "entity": "KR",
+   "metric": "소비자물가지수",
+   "value": 119.37,
+   "unit": "",
+   "prev": 118.8,
+   "period": "2026-04",
+   "source": "ECOS",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.867309+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "ECOS 소비자물가 202606 신규 관측",
+   "source": "ECOS",
+   "url": "https://ecos.bok.or.kr",
+   "at": "2026-06-01T00:00:00+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "ECOS 소비자물가 202605 신규 관측",
+   "source": "ECOS",
+   "url": "https://ecos.bok.or.kr",
+   "at": "2026-05-01T00:00:00+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "ECOS 소비자물가 202604 신규 관측",
+   "source": "ECOS",
+   "url": "https://ecos.bok.or.kr",
+   "at": "2026-04-01T00:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-16T23:18:18.048285+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [
+    {
+     "entity": "KR",
+     "metric": "소비자물가지수",
+     "value": 119.99,
+     "unit": "",
+     "prev": 119.92,
+     "period": "2026-06",
+     "source": "ECOS"
+    },
+    {
+     "entity": "KR",
+     "metric": "소비자물가지수",
+     "value": 119.92,
+     "unit": "",
+     "prev": 119.37,
+     "period": "2026-05",
+     "source": "ECOS"
+    },
+    {
+     "entity": "KR",
+     "metric": "소비자물가지수",
+     "value": 119.37,
+     "unit": "",
+     "prev": 118.8,
+     "period": "2026-04",
+     "source": "ECOS"
+    }
+   ],
+   "headlines": [
+    "한국 소비자물가 2026-04 발표"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"한국 소비자물가 상승\",\n  \"one_liner\": \"한국의 소비자물가지수가 119.99로 소폭 올랐어요.\",\n  \"why_now\": \"물가가 오르면 우리가 사는 물건들의 가격이 올라 생활비 부담이 커질 수 있어요.\",\n  \"impact_line\": \"장바구니 물가가 조금 더 오를 수 있어요.\",\n  \"details\": [\n    \"한국의 6월 소비자물가지수는 119.99였어요.\",\n    \"이는 전달인 5월의 119.92보다 소폭 오른 수치예요.\",\n    \"4월의 119.37과 비교해도 상승했어요.\"\n  ],\n  \"visual_type\": \"kr_cpi_yoy\",\n  \"effects\": [\n    \"물가 상승이 계속되면 실질적인 소득이 줄어드는 것처럼 느껴질 수 있어요!\",\n    \"중앙은행이 물가를 잡기 위해 금리를 올릴 가능성도 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"소비자물가지수\",\n      \"easy\": \"우리가 자주 사는 물건들의 가격이 얼마나 변했는지 보여주는 지수예요.\",\n      \"example\": \"소비자물가지수가 오르면 라면값, 과자값 등이 오르는 거예요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "한국 소비자물가 상승",
+   "one_liner": "한국의 소비자물가지수가 119.99로 소폭 올랐어요.",
+   "why_now": "물가가 오르면 우리가 사는 물건들의 가격이 올라 생활비 부담이 커질 수 있어요.",
+   "details": [
+    "한국의 6월 소비자물가지수는 119.99였어요.",
+    "이는 전달인 5월의 119.92보다 소폭 오른 수치예요.",
+    "4월의 119.37과 비교해도 상승했어요."
+   ],
+   "effects": [
+    "물가 상승이 계속되면 실질적인 소득이 줄어드는 것처럼 느껴질 수 있어요!",
+    "중앙은행이 물가를 잡기 위해 금리를 올릴 가능성도 있어요!"
+   ],
+   "visual_type": "kr_cpi_yoy"
+  },
+  "fact_hash": "40915ee07d5756607032da808cb7d2944a96c519"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-16T18:38:37.810470+00:00"
+ },
+ "glossary": [
+  {
+   "term": "소비자물가",
+   "easy": "우리가 사는 물건·서비스 값이 오른 정도예요.",
+   "example": "오르면 같은 돈으로 살 수 있는 게 줄어요."
+  }
+ ],
+ "related": [
+  {
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
+   "category": "RATE",
+   "shared": [
+    "V"
+   ]
+  },
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c4a06e144229d2074",
+   "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "ccf035417bb47bb31",
+   "title": "Foreign investment recovery shows growing confidence in economy : RBI article",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "cf79c65db98a639fd",
+   "title": "Economist warns consumer pressure to persist as inflation reaches 5 %",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}

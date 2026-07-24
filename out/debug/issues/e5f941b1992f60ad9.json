@@ -1,0 +1,154 @@
+{
+ "id": "e5f941b1992f60ad9",
+ "title": "호르무즈 봉쇄에 국제 유가 급등",
+ "category": "COMMODITY",
+ "status": "stale",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "이란|FX|2026-03",
+ "entity_keys": [
+  "IRAN"
+ ],
+ "seen_sources": 0,
+ "importance": 40,
+ "created_at": "2026-03-09T00:00:00+00:00",
+ "last_update": "2026-07-13T15:18:02.961472+00:00",
+ "members": [
+  {
+   "id": "12a8218e431b9a6d7b5de0b3e48dda869cdee390",
+   "source": "한국일보",
+   "tier": "wire",
+   "url": "https://www.hankookilbo.com/news/article/A2026070909180004893",
+   "title": "유가 떨어지자 도발한 이란, 트럼프도 안 참았다…다시 시작된 호르무즈 악순환",
+   "published_at": "2026-07-09T09:18:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9067
+  },
+  {
+   "id": "305960292f0f553ebb3adef8f30fe01dc7942b8d",
+   "source": "프레시안",
+   "tier": "wire",
+   "url": "https://www.pressian.com/pages/articles/2026061518542969874",
+   "title": "미-이란 전쟁이 남긴 건 결국 '호르무즈 통행료'? 불안감 속 유가 일단 하락",
+   "published_at": "2026-06-15T09:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9045
+  }
+ ],
+ "anchors": [
+  {
+   "entity": "WTI",
+   "metric": "국제 유가",
+   "value": 111.24,
+   "unit": "달러",
+   "prev": null,
+   "period": "2026-03",
+   "source": "WTI 선물 (언론 보도, 2026-03-09)",
+   "trust": "official",
+   "observed_at": "2026-07-13T15:18:02.961472+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "이란, 호르무즈 해협 봉쇄 — 전 세계 석유·가스 선적 차질, 유가 40% 이상 급등",
+   "source": "위키백과",
+   "url": "https://ko.wikipedia.org/wiki/2026%EB%85%84_%EC%9D%B4%EB%9E%80_%EC%A0%84%EC%9F%81",
+   "at": "2026-03-09T00:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-17T06:34:14.055337+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [
+    {
+     "entity": "WTI",
+     "metric": "국제 유가",
+     "value": 111.24,
+     "unit": "달러",
+     "prev": null,
+     "period": "2026-03",
+     "source": "WTI 선물 (언론 보도, 2026-03-09)"
+    }
+   ],
+   "headlines": [
+    "유가 떨어지자 도발한 이란, 트럼프도 안 참았다…다시 시작된 호르무즈 악순환",
+    "미-이란 전쟁이 남긴 건 결국 '호르무즈 통행료'? 불안감 속 유가 일단 하락"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"국제 유가 하락\",\n  \"one_liner\": \"국제 유가가 하락해 배럴당 111.24달러가 됐어요.\",\n  \"why_now\": \"유가가 오르면 휘발유, 경유 등 기름값이 올라 장바구니 물가에 부담을 주는 게 보통이에요.\",\n  \"impact_line\": \"기름값이 오를 수 있어요!\",\n  \"details\": [\n    \"국제 유가(WTI)가 배럴당 111.24달러를 기록했어요.\",\n    \"이전 가격은 공개되지 않았어요.\",\n    \"이란의 도발과 관련된 소식이 있었어요.\",\n    \"호르무즈 해협의 불안감이 유가 하락에 영향을 미쳤어요.\"\n  ],\n  \"visual_type\": \"wti\",\n  \"effects\": [\n    \"국제 유가가 오르면 휘발유, 경유 등 기름값이 오를 수 있어요!\",\n    \"기름값이 오르면 운송비 부담이 커져 물가 전반에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"WTI\",\n      \"easy\": \"미국 서부 텍사스산 원유를 뜻하는 국제 유가 지표예요.\",\n      \"example\": \"WTI 가격이 오르면 국내 휘발유 가격도 보통 함께 올라요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "국제 유가 하락",
+   "one_liner": "국제 유가가 하락해 배럴당 111.24달러가 됐어요.",
+   "why_now": "유가가 오르면 휘발유, 경유 등 기름값이 올라 장바구니 물가에 부담을 주는 게 보통이에요.",
+   "details": [
+    "국제 유가(WTI)가 배럴당 111.24달러를 기록했어요.",
+    "이전 가격은 공개되지 않았어요.",
+    "이란의 도발과 관련된 소식이 있었어요.",
+    "호르무즈 해협의 불안감이 유가 하락에 영향을 미쳤어요."
+   ],
+   "effects": [
+    "국제 유가가 오르면 휘발유, 경유 등 기름값이 오를 수 있어요!",
+    "기름값이 오르면 운송비 부담이 커져 물가 전반에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "wti"
+  },
+  "fact_hash": "12e15a427449cde2eb5db1483950676280c6383a"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-17T00:29:09.078492+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "cd7b762c4b0212485",
+   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
+   "category": "GEO",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "c21fbad53c2afa8f1",
+   "title": "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets",
+   "category": "COMMODITY",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "c4a06e144229d2074",
+   "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+   "category": "MACRO",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "c6f9e57edbc5d69b6",
+   "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
+   "category": "GEO",
+   "shared": [
+    "IRAN"
+   ]
+  }
+ ]
+}

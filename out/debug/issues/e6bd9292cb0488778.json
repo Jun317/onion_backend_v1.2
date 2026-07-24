@@ -1,0 +1,124 @@
+{
+ "id": "e6bd9292cb0488778",
+ "title": "미국, 첨단 반도체 25% 관세 발효",
+ "category": "POLICY",
+ "status": "stale",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "US|POLICY|2026-01",
+ "entity_keys": [
+  "US"
+ ],
+ "seen_sources": 0,
+ "importance": 50,
+ "created_at": "2026-07-05T10:38:34.869007+00:00",
+ "last_update": "2026-07-05T10:38:34.869007+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "US",
+   "metric": "첨단 반도체 관세율",
+   "value": 25.0,
+   "unit": "%",
+   "prev": null,
+   "period": "2026-01",
+   "source": "seed(백악관 포고)",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.869007+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "미 백악관, 반도체 수입조정 포고 (2026-01-14)",
+   "source": "whitehouse.gov",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative-products-into-the-united-states/",
+   "at": "2026-01-14T00:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-24T18:04:58.196966+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [
+    {
+     "entity": "US",
+     "metric": "첨단 반도체 관세율",
+     "value": 25.0,
+     "unit": "%",
+     "prev": null,
+     "period": "2026-01",
+     "source": "seed(백악관 포고)"
+    }
+   ],
+   "headlines": [
+    "미국, 첨단 반도체 25% 관세 발효"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US 첨단 반도체 관세율 25.0%",
+   "one_liner": "US 첨단 반도체 관세율 25.0%로 발표됐어요",
+   "why_now": null,
+   "details": [
+    "US 첨단 반도체 관세율: 25.0%"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "167fd732c1f784d295b5ea618bb4e40bcb31768b"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-24T18:04:58.196901+00:00"
+ },
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
+ "related": [
+  {
+   "id": "cde343d4cab397faf",
+   "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c070aab2998b2d82b",
+   "title": "Trump tariffs : A timeline of the U . S . trade war with Canada",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c1d3d6484c6b93b16",
+   "title": "NL Joins Others in Signing Deal Allowing for Purchase of Alcohol from Other Provinces",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c2cdae3197527cd80",
+   "title": "Trump unveils new 50 % tariffs on wide range of Canadian goods",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "cb58f83b24f1df47e",
+   "title": "Simon Harris says budget tax package must deliver for  working people",
+   "category": "POLICY",
+   "shared": []
+  }
+ ]
+}

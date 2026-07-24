@@ -1,0 +1,122 @@
+{
+ "id": "c8f0b7cb0487a034d",
+ "title": "Finance minister reviews Pakistan economic progress with IMF",
+ "category": "FX",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "IMF"
+ ],
+ "seen_sources": 2,
+ "importance": 100,
+ "created_at": "2026-07-24T14:20:12.855565+00:00",
+ "last_update": "2026-07-24T14:20:12.856144+00:00",
+ "members": [
+  {
+   "id": "e63d053154ab167e557fc5cfeab3eae439de8f82",
+   "source": "riotimesonline.com",
+   "tier": "wire",
+   "url": "https://www.riotimesonline.com/imf-georgieva-argentina-reserves-fiscal-doubts/",
+   "title": "Georgieva Argentina Visit : IMF Backs Reserves , Flags Fiscal Doubts",
+   "published_at": "2026-07-24T12:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9568
+  },
+  {
+   "id": "3495ffd8d99fc0cd7c20c401e477d2ad63ac8746",
+   "source": "paktribune.com",
+   "tier": "wire",
+   "url": "https://paktribune.com/finance-minister-reviews-pakistans-economic-progress-with-imf/",
+   "title": "Finance minister reviews Pakistan economic progress with IMF",
+   "published_at": "2026-07-24T08:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9568
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Georgieva Argentina Visit : IMF Backs Reserves , Flags Fiscal Doubts",
+   "source": "riotimesonline.com",
+   "url": "https://www.riotimesonline.com/imf-georgieva-argentina-reserves-fiscal-doubts/",
+   "at": "2026-07-24T12:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Finance minister reviews Pakistan economic progress with IMF",
+   "source": "paktribune.com",
+   "url": "https://paktribune.com/finance-minister-reviews-pakistans-economic-progress-with-imf/",
+   "at": "2026-07-24T08:30:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-24T17:58:28.346090+00:00",
+  "payload": {
+   "category": "FX",
+   "anchors": [],
+   "headlines": [
+    "Georgieva Argentina Visit : IMF Backs Reserves , Flags Fiscal Doubts",
+    "Finance minister reviews Pakistan economic progress with IMF"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"IMF, 아르헨티나 준비금 지원\", \"one_liner\": \"IMF가 아르헨티나의 외환 준비금을 지원하기로 했어요.\", \"why_now\": \"외환 준비금이 부족하면 나라 밖으로 돈을 보내기 어려워져 경제가 불안해질 수 있어요.\", \"impact_line\": \"아르헨티나의 외환 시장이 안정될 수 있어요.\", \"details\": [\"IMF가 아르헨티나의 외환 준비금을 지원하기로 했어요.\", \"IMF는 아르헨티나의 재정 건전성에 대한 우려도 함께 나타냈어요.\"], \"visual_type\": \"none\", \"effects\": [\"외환 준비금이 늘어나면 나라 밖으로 돈을 보내는 데 드는 비용이 줄어들 수 있어요!\", \"재정 건전성에 대한 우려가 해소되지 않으면 경제 회복이 더뎌질 수 있어요!\"], \"glossary\": [{\"term\": \"IMF\", \"easy\": \"나라 간의 경제 협력을 돕는 국제기구예요.\", \"example\": \"IMF는 경제가 어려운 나라에 돈을 빌려주기도 해요.\"}, {\"term\": \"외환 준비금\", \"easy\": \"나라가 외국 돈이나 금을 얼마나 가지고 있는지 보여주는 거예요.\", \"example\": \"외환 준비금이 많으면 외국 돈이 갑자기 필요할 때 쓸 수 있어요.\"}, {\"term\": \"재정 건전성\", \"easy\": \"나라 살림을 얼마나 잘 꾸려나가고 있는지 나타내는 말이에요.\", \"example\": \"재정 건전성이 좋으면 나라 빚이 적고 돈을 잘 관리한다는 뜻이에요.\"}], \"impact_line\": \"아르헨티나의 외환 시장이 안정될 수 있어요.\"}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Georgieva Argentina…",
+   "one_liner": "Georgieva Argentina Visit : IMF Backs Reserves ,…",
+   "why_now": null,
+   "details": [
+    "Georgieva Argentina Visit : IMF Backs Reserves , Flags Fiscal Doubts",
+    "Finance minister reviews Pakistan economic progress with IMF"
+   ],
+   "effects": [],
+   "visual_type": "usdkrw"
+  },
+  "fact_hash": "37a217c1386f4c98ba3df474e7ddc56b0339c35e"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-24T17:58:28.345978+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c37ad01cf8a091a74",
+   "title": "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions",
+   "category": "FX",
+   "shared": [
+    "IMF"
+   ]
+  },
+  {
+   "id": "c22988ac2851c923e",
+   "title": "Nigeria economic stability in the face of global crisis By ISAH CHIROMA",
+   "category": "FX",
+   "shared": []
+  },
+  {
+   "id": "c247c1469da5d5f8e",
+   "title": "Surviving the sapa stretch : Five budget hacks for Lagos bachelors",
+   "category": "FX",
+   "shared": []
+  }
+ ]
+}

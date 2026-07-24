@@ -1,0 +1,160 @@
+{
+ "id": "e382db26d7ba873bd",
+ "title": "코스피, 사상 첫 8,400 돌파",
+ "category": "MARKET",
+ "status": "stale",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "코스피|MARKET|2026-05",
+ "entity_keys": [
+  "KOSPI"
+ ],
+ "seen_sources": 0,
+ "importance": 35,
+ "created_at": "2026-05-27T00:00:00+00:00",
+ "last_update": "2026-07-13T15:18:02.962241+00:00",
+ "members": [
+  {
+   "id": "bc43a7ba6c3ebae56e8209f6bbfd8bc78ba7261f",
+   "source": "SBS Biz",
+   "tier": "wire",
+   "url": "https://biz.sbs.co.kr/article/20000313489",
+   "title": "종전·삼전 기대감에 젠슨 황까지…코스피 또 사상 최고",
+   "published_at": "2026-05-29T08:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8833
+  },
+  {
+   "id": "ee5ee85437d49848aa706b48fea360e8c2ca3fb3",
+   "source": "데일리안",
+   "tier": "wire",
+   "url": "https://www.dailian.co.kr/news/view/1650351",
+   "title": "코스피, 사상 최고치 8476선 마감…삼전 강세·중동 훈풍",
+   "published_at": "2026-05-29T07:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9134
+  },
+  {
+   "id": "c2a135da5e2be73a6f82ddecacc5858cdaf73410",
+   "source": "디지털타임스",
+   "tier": "wire",
+   "url": "https://www.dt.co.kr/article/12064437",
+   "title": "[속보] 코스피, 4%대 급등 첫 8400선 돌파…사상 최고 경신",
+   "published_at": "2026-05-27T00:10:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9312
+  }
+ ],
+ "anchors": [
+  {
+   "entity": "코스피",
+   "metric": "장중 최고 지수",
+   "value": 8447.69,
+   "unit": "pt",
+   "prev": null,
+   "period": "2026-05",
+   "source": "한국거래소 (언론 보도, 2026-05-27)",
+   "trust": "official",
+   "observed_at": "2026-07-13T15:18:02.962241+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "[속보] 코스피, 4%대 급등 첫 8400선 돌파…사상 최고 경신 (2026-05-27)",
+   "source": "디지털타임스",
+   "url": "https://www.dt.co.kr/article/12064437",
+   "at": "2026-05-27T00:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-17T06:34:17.284849+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [
+    {
+     "entity": "코스피",
+     "metric": "장중 최고 지수",
+     "value": 8447.69,
+     "unit": "pt",
+     "prev": null,
+     "period": "2026-05",
+     "source": "한국거래소 (언론 보도, 2026-05-27)"
+    }
+   ],
+   "headlines": [
+    "종전·삼전 기대감에 젠슨 황까지…코스피 또 사상 최고",
+    "코스피, 사상 최고치 8476선 마감…삼전 강세·중동 훈풍",
+    "[속보] 코스피, 4%대 급등 첫 8400선 돌파…사상 최고 경신"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"코스피 최고치\",\n   \"one_liner\": \"코스피가 또 최고치를 기록했어요\",\n   \"why_now\": \"주가가 오르면 투자자들이 기뻐하고, 경제에도 긍정적인 영향을 줄 수 있어요\",\n   \"impact_line\": \"주식 투자자들의 기대가 높아질 수 있어요\",\n   \"details\": [\n      \"코스피가 장중 최고 지수로 8447.69를 기록했어요\",\n      \"코스피가 사상 최고치를 기록한 이유 중 하나는 삼성전자와 젠슨 황의 기대감이었어요\",\n      \"코스피가 4%대 급등하며 8400선을 돌파했어요\"\n   ],\n   \"visual_type\": \"kospi_close\",\n   \"effects\": [\n      \"주식 시장의 기대감이 높아져서 투자자들이 더 많이 투자할 수 있어요!\",\n      \"경제에 대한 긍정적인 기대감이 높아져서 소비와 투자가 증가할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "코스피 최고치",
+   "one_liner": "코스피가 또 최고치를 기록했어요",
+   "why_now": "주가가 오르면 투자자들이 기뻐하고, 경제에도 긍정적인 영향을 줄 수 있어요",
+   "details": [
+    "코스피가 장중 최고 지수로 8447.69를 기록했어요",
+    "코스피가 사상 최고치를 기록한 이유 중 하나는 삼성전자와 젠슨 황의 기대감이었어요",
+    "코스피가 4%대 급등하며 8400선을 돌파했어요"
+   ],
+   "effects": [
+    "주식 시장의 기대감이 높아져서 투자자들이 더 많이 투자할 수 있어요!",
+    "경제에 대한 긍정적인 기대감이 높아져서 소비와 투자가 증가할 수 있어요!"
+   ],
+   "visual_type": "kospi_close"
+  },
+  "fact_hash": "6ceadabcc5026faca664206438464996ea0fda15"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-17T00:29:27.491642+00:00"
+ },
+ "glossary": [
+  {
+   "term": "코스피",
+   "easy": "한국 대표 기업들의 주가를 묶어 보여주는 값이에요.",
+   "example": "오르면 큰 기업 주가가 대체로 올랐다는 뜻이에요."
+  }
+ ],
+ "related": [
+  {
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c2a4c3894a14ae550",
+   "title": "Microsoft tactics with Edge face renewed scrutiny over browser choice",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c9a09576b9082e071",
+   "title": "Japan PM Sanae Takaichi Unveils Growth Plan as BOJ Independence Concerns Lift Bond Yields",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c2f82920800c96145",
+   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cf3992948064685e4",
+   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
+   "category": "MARKET",
+   "shared": []
+  }
+ ]
+}

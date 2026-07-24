@@ -1,0 +1,147 @@
+{
+ "id": "e583765c5649a2373",
+ "title": "코스피 사상 최고 8471 마감 (+3.26%)",
+ "category": "MARKET",
+ "status": "stale",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "KR|MARKET|2026-06",
+ "entity_keys": [
+  "KR"
+ ],
+ "seen_sources": 0,
+ "importance": 39,
+ "created_at": "2026-07-05T10:38:34.868574+00:00",
+ "last_update": "2026-07-05T10:38:34.868574+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "KR",
+   "metric": "코스피 종가",
+   "value": 8471.0,
+   "unit": "pt",
+   "prev": null,
+   "period": "2026-06-24",
+   "source": "seed(KRX)",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.868574+00:00"
+  },
+  {
+   "entity": "KR",
+   "metric": "일일 상승률",
+   "value": 3.26,
+   "unit": "%",
+   "prev": null,
+   "period": "2026-06-24",
+   "source": "seed(KRX)",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.868574+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "코스피 8471.00 (2026-06-24)",
+   "source": "seed",
+   "url": "https://backfill.example/kospi_june_surge/ref",
+   "at": "2026-06-24T00:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-18T06:26:43.794142+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [
+    {
+     "entity": "KR",
+     "metric": "코스피 종가",
+     "value": 8471.0,
+     "unit": "pt",
+     "prev": null,
+     "period": "2026-06-24",
+     "source": "seed(KRX)"
+    },
+    {
+     "entity": "KR",
+     "metric": "일일 상승률",
+     "value": 3.26,
+     "unit": "%",
+     "prev": null,
+     "period": "2026-06-24",
+     "source": "seed(KRX)"
+    }
+   ],
+   "headlines": [
+    "코스피 사상 최고 8471 마감 (+3.26%)"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"코스피 최고치\",\n   \"one_liner\": \"한국 주식시장이 사상 최고치로 올랐어요\",\n   \"why_now\": \"주식시장이 오르면 투자자들이 더 많은 돈을 벌 수 있어요\",\n   \"impact_line\": \"주식 투자자들의 수익이 늘 수 있어요\",\n   \"details\": [\n       \"코스피 종가는 8471로 최고치를 기록했어요\",\n       \"코스피는 3.26% 상승했어요\",\n       \"이번에 기록된 코스피 최고치는 2026년 6월 24일이에요\"\n   ],\n   \"visual_type\": \"kospi_close\",\n   \"effects\": [\n       \"주식 투자자들이 더 많은 돈을 벌 수 있게 되어 경제 활동이 활발해질 수 있어요!\",\n       \"기업들이 더 많은 투자를 받을 수 있게 되어 새로운 사업을 확장할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "코스피 최고치",
+   "one_liner": "한국 주식시장이 사상 최고치로 올랐어요",
+   "why_now": "주식시장이 오르면 투자자들이 더 많은 돈을 벌 수 있어요",
+   "details": [
+    "코스피 종가는 8471로 최고치를 기록했어요",
+    "코스피는 3.26% 상승했어요",
+    "이번에 기록된 코스피 최고치는 2026년 6월 24일이에요"
+   ],
+   "effects": [
+    "주식 투자자들이 더 많은 돈을 벌 수 있게 되어 경제 활동이 활발해질 수 있어요!",
+    "기업들이 더 많은 투자를 받을 수 있게 되어 새로운 사업을 확장할 수 있어요!"
+   ],
+   "visual_type": "kospi_close"
+  },
+  "fact_hash": "ca2f257bc6afd2beba68e6679a487a98523dcab2"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-17T19:41:21.747350+00:00"
+ },
+ "glossary": [
+  {
+   "term": "코스피",
+   "easy": "한국 대표 기업들의 주가를 묶어 보여주는 값이에요.",
+   "example": "오르면 큰 기업 주가가 대체로 올랐다는 뜻이에요."
+  }
+ ],
+ "related": [
+  {
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c2a4c3894a14ae550",
+   "title": "Microsoft tactics with Edge face renewed scrutiny over browser choice",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c9a09576b9082e071",
+   "title": "Japan PM Sanae Takaichi Unveils Growth Plan as BOJ Independence Concerns Lift Bond Yields",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c2f82920800c96145",
+   "title": "Micron signs deals with Qualcomm , others for AI - powered automobile chip components",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cf3992948064685e4",
+   "title": "Goldman Sachs Group , Inc . ( The ) ( GS ) Stock Forecasts",
+   "category": "MARKET",
+   "shared": []
+  }
+ ]
+}

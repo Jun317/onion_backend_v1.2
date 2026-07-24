@@ -1,0 +1,125 @@
+{
+ "id": "c79aed845722a8a65",
+ "title": "Wholesale electricity prices fell as Middle East crisis appeared to ease",
+ "category": "COMMODITY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 3,
+ "importance": 70,
+ "created_at": "2026-07-22T16:53:58.409468+00:00",
+ "last_update": "2026-07-22T18:39:10.432120+00:00",
+ "members": [
+  {
+   "id": "c8158854c9365d26df3bbb3f476f60529aeebd78",
+   "source": "vir.com.vn",
+   "tier": "wire",
+   "url": "https://vir.com.vn/vib-up-offers-an-interest-rate-of-up-to-2-per-cent-per-annum-for-monthly-deposits-157216.html",
+   "title": "VIB Up offers an interest rate of up to 2 per cent per annum for monthly deposits",
+   "published_at": "2026-07-22T16:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8784
+  },
+  {
+   "id": "0d264ea5828944758bee34cb6dc68ca63e736b47",
+   "source": "irishtimes.com",
+   "tier": "wire",
+   "url": "https://www.irishtimes.com/business/2026/07/22/strait-of-hormuz-shocks-beginning-to-ease-as-electricity-prices-dip-cso-figures-show/",
+   "title": "Wholesale electricity prices fell as Middle East crisis appeared to ease",
+   "published_at": "2026-07-22T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9616
+  },
+  {
+   "id": "3d9aae6550dc3fb6c06f055225c95045df4117ea",
+   "source": "rte.ie",
+   "tier": "wire",
+   "url": "https://www.rte.ie/news/business/2026/0722/1584571-cso-wholesale-prices/",
+   "title": "Annual wholesale electricity prices up 42 % in June",
+   "published_at": "2026-07-22T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9662
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "VIB Up offers an interest rate of up to 2 per cent per annum for monthly deposits",
+   "source": "vir.com.vn",
+   "url": "https://vir.com.vn/vib-up-offers-an-interest-rate-of-up-to-2-per-cent-per-annum-for-monthly-deposits-157216.html",
+   "at": "2026-07-22T16:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Wholesale electricity prices fell as Middle East crisis appeared to ease",
+   "source": "irishtimes.com",
+   "url": "https://www.irishtimes.com/business/2026/07/22/strait-of-hormuz-shocks-beginning-to-ease-as-electricity-prices-dip-cso-figures-show/",
+   "at": "2026-07-22T15:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Annual wholesale electricity prices up 42 % in June",
+   "source": "rte.ie",
+   "url": "https://www.rte.ie/news/business/2026/0722/1584571-cso-wholesale-prices/",
+   "at": "2026-07-22T15:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-24T18:00:56.068327+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [],
+   "headlines": [
+    "VIB Up offers an interest rate of up to 2 per cent per annum for monthly deposits",
+    "Wholesale electricity prices fell as Middle East crisis appeared to ease",
+    "Annual wholesale electricity prices up 42 % in June"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "VIB Up offers an…",
+   "one_liner": "VIB Up offers an interest rate of up to 2 per…",
+   "why_now": null,
+   "details": [
+    "VIB Up offers an interest rate of up to 2 per cent per annum for monthly deposits",
+    "Wholesale electricity prices fell as Middle East crisis appeared to ease",
+    "Annual wholesale electricity prices up 42 % in June"
+   ],
+   "effects": [],
+   "visual_type": "wti"
+  },
+  "fact_hash": "efff8b83592d12202609e34c2cb96c22e100e9af"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-24T18:00:56.068262+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c21fbad53c2afa8f1",
+   "title": "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets",
+   "category": "COMMODITY",
+   "shared": []
+  },
+  {
+   "id": "cae12e84b9ba8466d",
+   "title": "US stocks drift in mixed trading as oil prices climb amid war",
+   "category": "COMMODITY",
+   "shared": []
+  }
+ ]
+}

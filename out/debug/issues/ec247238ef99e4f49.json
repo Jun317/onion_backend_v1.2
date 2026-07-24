@@ -1,0 +1,192 @@
+{
+ "id": "ec247238ef99e4f49",
+ "title": "미국·이스라엘, 이란 공습으로 전쟁 시작",
+ "category": "GEO",
+ "status": "stale",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "이란|GEO|2026-02",
+ "entity_keys": [
+  "IRAN"
+ ],
+ "seen_sources": 4,
+ "importance": 60,
+ "created_at": "2026-02-28T00:00:00+00:00",
+ "last_update": "2026-07-13T15:18:16.665248+00:00",
+ "members": [
+  {
+   "id": "1b04161a2997d95df7d7975c2a506548ee3b20da",
+   "source": "MBC뉴스투데이",
+   "tier": "wire",
+   "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6835044_37012.html",
+   "title": "\"미국·이란 협상 11일 파키스탄 재개 전망\"",
+   "published_at": "2026-07-10T00:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8583
+  },
+  {
+   "id": "00944732773347f8b5c1d2a5d4829262f06c8f3a",
+   "source": "MBC뉴스투데이",
+   "tier": "wire",
+   "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6831300_37012.html",
+   "title": "미국 \"60일 협상 개시\"…협상 착수 늦어질 듯",
+   "published_at": "2026-06-15T00:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8252
+  },
+  {
+   "id": "21231d0e9a44ec1a3cc7e44a7c6fb30c193743b0",
+   "source": "MBC",
+   "tier": "wire",
+   "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6832037_37004.html",
+   "title": "미-이란, 우여곡절 끝 공동성명 발표…\"호르무즈, 레바논 관리한다\"",
+   "published_at": "2026-06-14T11:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8585
+  },
+  {
+   "id": "3c1583d9262527f1fdca2541e244d965e8d9dc24",
+   "source": "SBS",
+   "tier": "wire",
+   "url": "https://news.sbs.co.kr/amp/news.amp?news_id=N1008609988",
+   "title": "미·이란 전쟁에서 종전 합의까지 주요 일지",
+   "published_at": "2026-06-14T10:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8953
+  },
+  {
+   "id": "9d1408a68cbc184eea8e64808bb291ae89e78f5f",
+   "source": "위키백과",
+   "tier": "wire",
+   "url": "https://ko.wikipedia.org/wiki/2026%EB%85%84_%EC%9D%B4%EB%9E%80_%EC%A0%84%EC%9F%81",
+   "title": "2026년 이란 전쟁 — 미국·이스라엘 선제 타격과 이란의 보복",
+   "published_at": "2026-02-28T06:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8843
+  }
+ ],
+ "anchors": [
+  {
+   "entity": "미국·이란",
+   "metric": "최종 합의 협상 시한",
+   "value": 60.0,
+   "unit": "일",
+   "prev": null,
+   "period": "2026-06",
+   "source": "양국 공동성명 (언론 보도)",
+   "trust": "official",
+   "observed_at": "2026-07-13T15:18:02.960914+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "미-이란, 우여곡절 끝 공동성명 발표…\"호르무즈·레바논 관리한다\" (2026-06-14)",
+   "source": "MBC",
+   "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6832037_37004.html",
+   "at": "2026-06-14T00:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "미·이스라엘 합동 공습 개시…이란 최고지도자 하메네이 등 수뇌부 사망 (2026-02-28)",
+   "source": "위키백과",
+   "url": "https://ko.wikipedia.org/wiki/2026%EB%85%84_%EC%9D%B4%EB%9E%80_%EC%A0%84%EC%9F%81",
+   "at": "2026-02-28T00:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-21T09:50:20.408289+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [
+    {
+     "entity": "미국·이란",
+     "metric": "최종 합의 협상 시한",
+     "value": 60.0,
+     "unit": "일",
+     "prev": null,
+     "period": "2026-06",
+     "source": "양국 공동성명 (언론 보도)"
+    }
+   ],
+   "headlines": [
+    "\"미국·이란 협상 11일 파키스탄 재개 전망\"",
+    "미국 \"60일 협상 개시\"…협상 착수 늦어질 듯",
+    "미-이란, 우여곡절 끝 공동성명 발표…\"호르무즈, 레바논 관리한다\"",
+    "미·이란 전쟁에서 종전 합의까지 주요 일지",
+    "2026년 이란 전쟁 — 미국·이스라엘 선제 타격과 이란의 보복"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미국·이란 협상 시한 연장\",\n  \"one_liner\": \"미국과 이란이 협상 시한을 60일로 정하고 협상을 이어가기로 했어요.\",\n  \"why_now\": \"두 나라 사이의 긴장이 완화되면 국제 유가나 물가에 긍정적인 영향을 줄 수 있어요.\",\n  \"impact_line\": \"국제 유가 안정이 장바구니 물가 부담을 덜어줄 수 있어요.\",\n  \"details\": [\n    \"미국과 이란은 60일간의 협상 시한을 설정했어요.\",\n    \"협상 시한은 2026년 6월까지예요.\",\n    \"협상 재개는 11일 파키스탄에서 이뤄질 것으로 전망돼요.\",\n    \"호르무즈 해협과 레바논 문제는 양국이 함께 관리하기로 했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"협상이 성공적으로 마무리되면 국제 유가가 안정될 수 있어요!\",\n    \"이는 국내 물가 안정에도 긍정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"호르무즈\",\n      \"easy\": \"이란과 오만 사이에 있는 좁은 해협으로, 세계 석유 수송의 중요한 길목이에요.\",\n      \"example\": \"호르무즈 해협의 안전은 국제 유가에 큰 영향을 미쳐요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "미국·이란 협상 시한 연장",
+   "one_liner": "미국과 이란이 협상 시한을 60일로 정하고 협상을 이어가기로 했어요.",
+   "why_now": "두 나라 사이의 긴장이 완화되면 국제 유가나 물가에 긍정적인 영향을 줄 수 있어요.",
+   "details": [
+    "미국과 이란은 60일간의 협상 시한을 설정했어요.",
+    "협상 시한은 2026년 6월까지예요.",
+    "협상 재개는 11일 파키스탄에서 이뤄질 것으로 전망돼요.",
+    "호르무즈 해협과 레바논 문제는 양국이 함께 관리하기로 했어요."
+   ],
+   "effects": [
+    "협상이 성공적으로 마무리되면 국제 유가가 안정될 수 있어요!",
+    "이는 국내 물가 안정에도 긍정적인 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "6da39dba35d89326e260032ab9904fb81681f895"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-21T03:58:55.332240+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "cd7b762c4b0212485",
+   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
+   "category": "GEO",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "c21fbad53c2afa8f1",
+   "title": "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets",
+   "category": "COMMODITY",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "c4a06e144229d2074",
+   "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+   "category": "MACRO",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "ca7e18652a27e4c6f",
+   "title": "Left - leaning group says state faces affordability crisis",
+   "category": "GEO",
+   "shared": []
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "id": "c49a33c9091b8953a",
+ "title": "S & P Global upgrades Pakistan credit rating to  B",
+ "category": "RATE",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 3,
+ "importance": 115,
+ "created_at": "2026-07-22T16:53:58.409726+00:00",
+ "last_update": "2026-07-24T06:45:00.084448+00:00",
+ "members": [
+  {
+   "id": "87258340699e4dcc14e0d5aab58129b5eaebade5",
+   "source": "pakobserver.net",
+   "tier": "wire",
+   "url": "https://pakobserver.net/rating-upgrade/",
+   "title": "Rating upgrade - Pakistan Observer",
+   "published_at": "2026-07-24T03:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9305
+  },
+  {
+   "id": "ae83933ac70d0074501b73a8a91c43e5c8417588",
+   "source": "tribune.com.pk",
+   "tier": "wire",
+   "url": "https://tribune.com.pk/story/2619768/sp-upgrades-credit-rating-to-b-1",
+   "title": "S & P upgrades credit rating to B",
+   "published_at": "2026-07-23T03:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9651
+  },
+  {
+   "id": "77dccc98be26ea654708e3677edf594e62a5bb99",
+   "source": "tribune.com.pk",
+   "tier": "wire",
+   "url": "https://tribune.com.pk/story/2619639/sp-global-upgrades-pakistans-credit-rating-to-b",
+   "title": "S & P Global upgrades Pakistan credit rating to  B",
+   "published_at": "2026-07-22T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9899
+  },
+  {
+   "id": "7204763ea509c5e3324497b9b66c6efa14bfd0ad",
+   "source": "en.dailypakistan.com.pk",
+   "tier": "wire",
+   "url": "https://en.dailypakistan.com.pk/22-Jul-2026/sp-upgrades-pakistans-sovereign-credit-rating-to-b-outlook-stable",
+   "title": "S & P upgrades Pakistan sovereign credit rating to  B , Outlook Stable",
+   "published_at": "2026-07-22T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9879
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Rating upgrade - Pakistan Observer",
+   "source": "pakobserver.net",
+   "url": "https://pakobserver.net/rating-upgrade/",
+   "at": "2026-07-24T03:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "S & P upgrades credit rating to B",
+   "source": "tribune.com.pk",
+   "url": "https://tribune.com.pk/story/2619768/sp-upgrades-credit-rating-to-b-1",
+   "at": "2026-07-23T03:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "S & P Global upgrades Pakistan credit rating to  B",
+   "source": "tribune.com.pk",
+   "url": "https://tribune.com.pk/story/2619639/sp-global-upgrades-pakistans-credit-rating-to-b",
+   "at": "2026-07-22T15:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "S & P upgrades Pakistan sovereign credit rating to  B , Outlook Stable",
+   "source": "en.dailypakistan.com.pk",
+   "url": "https://en.dailypakistan.com.pk/22-Jul-2026/sp-upgrades-pakistans-sovereign-credit-rating-to-b-outlook-stable",
+   "at": "2026-07-22T15:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-24T11:59:51.694032+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [],
+   "headlines": [
+    "Rating upgrade - Pakistan Observer",
+    "S & P upgrades credit rating to B",
+    "S & P Global upgrades Pakistan credit rating to  B",
+    "S & P upgrades Pakistan sovereign credit rating to  B , Outlook Stable"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n\"title\": \"파키스탄 신용등급 상향\",\n\"one_liner\": \"신용평가사 S&P가 파키스탄의 나라 빚을 갚을 능력을 좋게 평가했어요.\",\n\"why_now\": \"나라 빚에 대한 평가가 좋아지면 외국에서 돈을 빌리기 쉬워지고 이자도 낮아질 수 있어요.\",\n\"impact_line\": \"파키스탄에 투자하는 것이 조금 더 안전해질 수 있어요.\",\n\"details\": [\n\"신용평가사 S&P가 파키스탄의 신용등급을 올렸어요.\",\n\"새로운 신용등급은 'B'예요.\",\n\"앞으로도 등급이 안정적으로 유지될 것으로 예상했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"파키스탄 정부가 외국에서 돈을 빌릴 때 더 유리한 조건으로 계약할 수 있을 것으로 예상돼요!\",\n\"나라의 경제 상황이 좋아졌다는 신호로 해석될 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"신용등급\",\n\"easy\": \"나라나 회사가 돈을 빌린 뒤 갚을 능력이 얼마나 되는지 평가한 점수예요.\",\n\"example\": \"신용등급이 높으면 돈을 빌리기 쉽고 이자도 낮아요.\"\n},\n{\n\"term\": \"S&P\",\n\"easy\": \"세계적인 신용평가 회사 중 하나예요.\",\n\"example\": \"S&P는 나라나 회사의 돈을 갚을 능력을 평가해서 등급을 매겨요.\"\n}\n]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "파키스탄 신용등급 상향",
+   "one_liner": "신용평가사 S&P가 파키스탄의 나라 빚을 갚을 능력을 좋게 평가했어요.",
+   "why_now": "나라 빚에 대한 평가가 좋아지면 외국에서 돈을 빌리기 쉬워지고 이자도 낮아질 수 있어요.",
+   "details": [
+    "신용평가사 S&P가 파키스탄의 신용등급을 올렸어요.",
+    "새로운 신용등급은 'B'예요.",
+    "앞으로도 등급이 안정적으로 유지될 것으로 예상했어요."
+   ],
+   "effects": [
+    "파키스탄 정부가 외국에서 돈을 빌릴 때 더 유리한 조건으로 계약할 수 있을 것으로 예상돼요!",
+    "나라의 경제 상황이 좋아졌다는 신호로 해석될 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "68a91fa9392758203a77dd32365a72419acad08d"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-24T06:46:49.067758+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c01efb76fcd7102be",
+   "title": "Preview : ECB set to hold rates in July , hints of September hike expected : ING",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c826b1c1944a1c619",
+   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c7c0f262265dbe065",
+   "title": "Will interest rates go up next week ? Bank of England key factors and 2026 predictions",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c03074aeed49bf60f",
+   "title": "World Bank confirms plan to phase out China lending by 2031",
+   "category": "RATE",
+   "shared": []
+  }
+ ]
+}

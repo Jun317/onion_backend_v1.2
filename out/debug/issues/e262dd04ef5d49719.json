@@ -1,0 +1,124 @@
+{
+ "id": "e262dd04ef5d49719",
+ "title": "미국 CPI 2026-05 발표",
+ "category": "MACRO",
+ "status": "stale",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "US|MACRO|2026-05",
+ "entity_keys": [
+  "US"
+ ],
+ "seen_sources": 0,
+ "importance": 60,
+ "created_at": "2026-07-05T10:38:34.867980+00:00",
+ "last_update": "2026-07-05T10:38:34.867980+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "US",
+   "metric": "CPI(YoY%)",
+   "value": 4.16661,
+   "unit": "%",
+   "prev": null,
+   "period": "2026-05",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-07-05T10:38:34.867980+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "FRED CPIAUCSL 2026-05-01 신규 관측",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+   "at": "2026-05-01T00:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-24T18:03:43.281299+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [
+    {
+     "entity": "US",
+     "metric": "CPI(YoY%)",
+     "value": 4.16661,
+     "unit": "%",
+     "prev": null,
+     "period": "2026-05",
+     "source": "FRED"
+    }
+   ],
+   "headlines": [
+    "미국 CPI 2026-05 발표"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US CPI(YoY%) 4.16661%",
+   "one_liner": "US CPI(YoY%) 4.16661%로 발표됐어요",
+   "why_now": null,
+   "details": [
+    "US CPI(YoY%): 4.16661%"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "d971fe76f46ec210992e1903ed3e7e79ed62072c"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-24T18:03:43.281233+00:00"
+ },
+ "glossary": [
+  {
+   "term": "CPI",
+   "easy": "물가가 얼마나 올랐는지 보여주는 대표 성적표예요.",
+   "example": "높으면 생활비 부담이 커진 거예요."
+  }
+ ],
+ "related": [
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c4a06e144229d2074",
+   "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "ccf035417bb47bb31",
+   "title": "Foreign investment recovery shows growing confidence in economy : RBI article",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "cf79c65db98a639fd",
+   "title": "Economist warns consumer pressure to persist as inflation reaches 5 %",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c48db748fde00c8f7",
+   "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}
