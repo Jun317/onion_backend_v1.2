@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 33,
- "importance": 65,
+ "importance": 60,
  "created_at": "2026-07-22T16:53:58.408983+00:00",
  "last_update": "2026-07-24T06:45:00.089973+00:00",
  "members": [
@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-25T03:49:27.827591+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-25T09:19:08.627376+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,25 +881,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"기업 실적 발표\", \"one_liner\": \"기업들의 실적 발표가 이어지고 있어요.\", \"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\", \"impact_line\": \"기업 실적에 따라 주가가 오르내릴 수 있어요.\", \"details\": [\"미국 자동차 시장의 어려움이 드러났어요.\", \"마벨 테크놀로지 주식 매수에 대한 긍정적인 전망이 있어요.\", \"여행 산업의 호조가 아메리칸 익스프레스에 긍정적인 영향을 줄 것으로 보여요.\", \"경쟁사의 가격 정책에도 불구하고 고객 유지율이 강한 것으로 나타났어요.\", \"일부 미국 도시들이 주택 구매자에게 유리한 시장으로 바뀌고 있어요.\"], \"visual_type\": \"earnings_quarterly\", \"effects\": [\"기업들의 실적이 좋으면 해당 기업의 주가가 오를 수 있어요!\", \"실적이 좋지 않으면 주가가 하락할 수 있어 투자에 주의가 필요해요!\"], \"glossary\": [{\"term\": \"마벨 테크놀로지\", \"easy\": \"미국의 반도체 기업이에요.\", \"example\": \"마벨 테크놀로지 주가가 올랐다는 뉴스가 나왔어요.\"}, {\"term\": \"아메리칸 익스프레스\", \"easy\": \"신용카드 발급 및 여행 관련 서비스를 제공하는 미국 기업이에요.\", \"example\": \"아메리칸 익스프레스 실적이 좋다는 소식이 있어요.\"}]}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Real challenge in Oz…",
-   "one_liner": "Real challenge in Oz car market revealed",
-   "why_now": null,
+   "title": "기업 실적 발표",
+   "one_liner": "기업들의 실적 발표가 이어지고 있어요.",
+   "why_now": "기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.",
    "details": [
-    "Real challenge in Oz car market revealed",
-    "This One Factor Keeps Me Buying Marvell Technology Now",
-    "Jim Cramer Highlights Strong Travel Numbers as Fuel for American Express"
+    "미국 자동차 시장의 어려움이 드러났어요.",
+    "마벨 테크놀로지 주식 매수에 대한 긍정적인 전망이 있어요.",
+    "여행 산업의 호조가 아메리칸 익스프레스에 긍정적인 영향을 줄 것으로 보여요.",
+    "경쟁사의 가격 정책에도 불구하고 고객 유지율이 강한 것으로 나타났어요.",
+    "일부 미국 도시들이 주택 구매자에게 유리한 시장으로 바뀌고 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "기업들의 실적이 좋으면 해당 기업의 주가가 오를 수 있어요!",
+    "실적이 좋지 않으면 주가가 하락할 수 있어 투자에 주의가 필요해요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "667de9aff44ad25617c66d9742d92ffe740e0d24"

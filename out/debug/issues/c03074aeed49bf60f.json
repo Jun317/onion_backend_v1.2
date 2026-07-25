@@ -189,8 +189,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-25T03:54:53.877707+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-25T09:17:19.622654+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -203,26 +203,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"중국에 대한 대출\",\n   \"one_liner\": \"세계은행이 2031년까지 중국에 대한 대출을 점차 중단할 계획이라고 확인했어요\",\n   \"why_now\": \"대국 간의 경제 관계가 복잡해지고 있어요\",\n   \"impact_line\": \"중국과 거래하는 기업의 수출이 어려워질 수 있어요\",\n   \"details\": [\n       \"세계은행이 중국에 대한 대출을 중단할 계획이라고 발표했어요\",\n       \"이 계획은 2031년까지 완료될 예정이에요\",\n       \"중국은 미국의 새로운 관세에 반대하고 무역 전쟁을 경고했어요\",\n       \"중국과 미국은 관세를 낮추는 방안을 논의 중이에요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"중국에 대한 대출이 줄어들면 중국 경제에 영향을 줄 수 있어요!\",\n       \"무역 전쟁이 격화되면 글로벌 경제에 악영향을 미칠 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "World Bank confirms…",
-   "one_liner": "World Bank confirms plan to phase out China…",
-   "why_now": null,
+   "title": "중국에 대한 대출",
+   "one_liner": "세계은행이 2031년까지 중국에 대한 대출을 점차 중단할 계획이라고 확인했어요",
+   "why_now": "대국 간의 경제 관계가 복잡해지고 있어요",
    "details": [
-    "World Bank confirms plan to phase out China lending by 2031",
-    "Beyond CPEC : The Next Chapter of Pakistan - China Relations",
-    "China says it opposes new US tariffs , warns against trade wars"
+    "세계은행이 중국에 대한 대출을 중단할 계획이라고 발표했어요",
+    "이 계획은 2031년까지 완료될 예정이에요",
+    "중국은 미국의 새로운 관세에 반대하고 무역 전쟁을 경고했어요",
+    "중국과 미국은 관세를 낮추는 방안을 논의 중이에요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "중국에 대한 대출이 줄어들면 중국 경제에 영향을 줄 수 있어요!",
+    "무역 전쟁이 격화되면 글로벌 경제에 악영향을 미칠 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "f7f75370677c69beeec9fdb4fbfdd787f366d571"
  },
@@ -230,7 +232,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-25T03:54:53.877642+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cb00a5f20e2c800d5",

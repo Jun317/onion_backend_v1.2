@@ -72,41 +72,49 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-25T03:48:32.378023+00:00",
+  "created_at": "2026-07-25T09:17:36.461854+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Verizon Just Signed a More Than $1 Billion Dark Fiber Deal With Google . Here What It Means for the 6 . 3 % Dividend .",
     "FinancialContent - Verizon ( VZ ) To Report Earnings Tomorrow : Here Is What To Expect",
     "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"버라이즌, 3천명 감원 및 매장 일부 양도\",\n    \"one_liner\": \"미국 통신사 버라이즌이 3천명을 줄이고 매장 274곳을 다른 사업자에게 넘기기로 했어요.\",\n    \"why_now\": \"회사가 실적 발표를 앞두고 비용 절감에 나선 것으로 보여요.\",\n    \"impact_line\": \"회사의 실적 발표 결과에 따라 주가나 배당금에 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"버라이즌은 3천명의 직원을 감원할 예정이에요.\",\n        \"또한 274개의 매장을 다른 사업자에게 양도할 계획이에요.\",\n        \"이러한 결정은 7월 24일 예정된 실적 발표를 앞두고 나왔어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"회사의 비용 절감 노력으로 수익성이 개선될 수 있어요!\",\n        \"하지만 인력 감축과 매장 양도가 회사의 성장 전략에 어떤 영향을 줄지는 지켜봐야 해요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"배당금\",\n            \"easy\": \"회사가 벌어들인 이익의 일부를 주주들에게 나눠주는 돈이에요.\",\n            \"example\": \"삼성전자 주주들은 매년 배당금을 받을 수 있어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [3000.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "title 22자 초과(23)"
     ]
    }
   ],
   "output": {
-   "title": "FinancialContent -…",
-   "one_liner": "FinancialContent - Verizon ( VZ ) To Report…",
+   "title": "Verizon Just Signed…",
+   "one_liner": "Verizon Just Signed a More Than $1 Billion Dark…",
    "why_now": null,
    "details": [
+    "Verizon Just Signed a More Than $1 Billion Dark Fiber Deal With Google . Here What It Means for the 6 . 3 % Dividend .",
     "FinancialContent - Verizon ( VZ ) To Report Earnings Tomorrow : Here Is What To Expect",
     "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "419cd9fd29ada88183a145fd4b46d3024c549ef6"
+  "fact_hash": "19cd6338f0eebc135ebcaba62c42fd45d7ddc0d5"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-25T03:48:32.377963+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [3000.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(23)\"]}]}",
+  "at": "2026-07-25T09:17:36.461759+00:00"
  },
  "glossary": [],
  "related": [

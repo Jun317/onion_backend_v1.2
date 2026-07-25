@@ -7,11 +7,31 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 15,
+ "seen_sources": 16,
  "importance": 65,
  "created_at": "2026-07-22T16:53:58.409975+00:00",
- "last_update": "2026-07-25T06:34:22.676500+00:00",
+ "last_update": "2026-07-25T09:17:12.287850+00:00",
  "members": [
+  {
+   "id": "1ea3a4bfc16271acc7c1f0cbe0eee50719389a61",
+   "source": "franchiseindia.com",
+   "tier": "wire",
+   "url": "https://www.franchiseindia.com/insights/en/article/forget-the-west-indian-brands-are-going-east-to-go-global.59288",
+   "title": "Forget the West : Indian brands are going East to go Global",
+   "published_at": "2026-07-25T07:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8817
+  },
+  {
+   "id": "3763a29d8f80fd8ea21444e41111453fa1bca448",
+   "source": "franchiseindia.com",
+   "tier": "wire",
+   "url": "https://www.franchiseindia.com/insights/en/article/indias-beauty-retail-reset.59212",
+   "title": "India Beauty Retail Reset",
+   "published_at": "2026-07-25T07:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8731
+  },
   {
    "id": "6ce46d5d3cac5fac7f2d32d5ce1808a63ab46d5d",
    "source": "ianslive.in",
@@ -357,6 +377,20 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Forget the West : Indian brands are going East to go Global",
+   "source": "franchiseindia.com",
+   "url": "https://www.franchiseindia.com/insights/en/article/forget-the-west-indian-brands-are-going-east-to-go-global.59288",
+   "at": "2026-07-25T07:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "India Beauty Retail Reset",
+   "source": "franchiseindia.com",
+   "url": "https://www.franchiseindia.com/insights/en/article/indias-beauty-retail-reset.59212",
+   "at": "2026-07-25T07:45:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Nifty , Sensex dip over 2 . 3 pc on weekly basis over global inflation fears",
    "source": "ianslive.in",
    "url": "https://ianslive.in/nifty-sensex-dip-over-23-pc-on-weekly-basis-over-global-inflation-fears--20260725103441",
@@ -596,45 +630,51 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-25T03:49:09.345783+00:00",
+  "created_at": "2026-07-25T09:18:54.757925+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Luca Mining ( CVE : LUCA ) Trading Down 3 . 3 % – What Next ?",
     "CSCS Declares N1 . 00 Per Share Interim Dividend As H1 Pre - tax Profit Rises 115 %",
-    "POSB declares record US$5 . 1m dividend as Mutapa - backed transformation boosts performance - Newsday Zimbabwe",
-    "iShares Interest Rate Hedged Long - Term Corporate Bond ETF ( NYSEARCA : IGBH ) Trading Up 0 % – Here Why",
-    "Telefonica Brasil S . A . ( NYSE : VIV ) Receives Consensus Rating of  Reduce  from Analysts",
-    "UiPath ( NYSE : PATH ) Stock Price Up 6 . 6 % – Should You Buy ?"
+    "Q1 Results 25th July Live : AU Small Finance Bank , IDFC First Bank , Dr . Reddy Lab , Zen Tech , SBFC Finance , Birla Corporation to announce Q1 results",
+    "UiPath ( NYSE : PATH ) Stock Price Up 6 . 6 % – Should You Buy ?",
+    "Cipher Mining ( NASDAQ : CIFR ) Shares Down 10 . 3 % – Should You Sell ?"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"기업 실적 발표 예정\", \"one_liner\": \"여러 기업들이 1분기 실적을 발표할 예정이에요.\", \"why_now\": \"기업의 실적은 앞으로의 주가와 회사의 성장성을 판단하는 중요한 지표가 돼요.\", \"impact_line\": \"관심 있는 기업의 실적 발표를 눈여겨볼 필요가 있어요.\", \"details\": [\"AU 스몰 파이낸스 은행의 1분기 실적이 발표될 예정이에요.\", \"IDFC 퍼스트 은행의 1분기 실적이 발표될 예정이에요.\", \"닥터 레디스 연구소의 1분기 실적이 발표될 예정이에요.\", \"젠 테크의 1분기 실적이 발표될 예정이에요.\", \"SBFC 파이낸스의 1분기 실적이 발표될 예정이에요.\", \"빌라 코퍼레이션의 1분기 실적이 발표될 예정이에요.\"], \"visual_type\": \"earnings_quarterly\", \"effects\": [\"기업 실적이 좋으면 주가가 오를 수 있고, 나쁘면 내릴 수 있어요!\", \"실적 발표는 투자자들이 앞으로 회사가 얼마나 성장할지 판단하는 데 도움을 줘요.\"], \"glossary\": [{\"term\": \"1분기\", \"easy\": \"1월부터 3월까지의 기간을 말해요.\", \"example\": \"1분기 실적 발표를 보면 회사의 연초 성과를 알 수 있어요.\"}]}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects[1] 느낌표 종결 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects[1] 느낌표 종결 아님"
     ]
    }
   ],
   "output": {
-   "title": "CSCS Declares N1 .…",
-   "one_liner": "CSCS Declares N1 . 00 Per Share Interim Dividend…",
+   "title": "Luca Mining ( CVE :…",
+   "one_liner": "Luca Mining ( CVE : LUCA ) Trading Down 3 . 3 %…",
    "why_now": null,
    "details": [
+    "Luca Mining ( CVE : LUCA ) Trading Down 3 . 3 % – What Next ?",
     "CSCS Declares N1 . 00 Per Share Interim Dividend As H1 Pre - tax Profit Rises 115 %",
-    "POSB declares record US$5 . 1m dividend as Mutapa - backed transformation boosts performance - Newsday Zimbabwe",
-    "iShares Interest Rate Hedged Long - Term Corporate Bond ETF ( NYSEARCA : IGBH ) Trading Up 0 % – Here Why"
+    "Q1 Results 25th July Live : AU Small Finance Bank , IDFC First Bank , Dr . Reddy Lab , Zen Tech , SBFC Finance , Birla Corporation to announce Q1 results"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "d166cbea2a6fa3a2ec33d25217b1847ad3af343a"
+  "fact_hash": "9befa3ffff556935ca1dd5a622cb3cd2351f62b9"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-25T03:49:09.345699+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}]}",
+  "at": "2026-07-25T09:18:54.757869+00:00"
  },
  "glossary": [],
  "related": [

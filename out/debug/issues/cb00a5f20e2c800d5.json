@@ -870,8 +870,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-25T03:46:10.091901+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-25T09:17:16.455175+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -884,38 +884,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"정부 채권 발행\",\n  \"one_liner\": \"인도가 정부가 발행하는 채권 280억 루피어치를 모두 팔았습니다.\",\n  \"why_now\": \"정부 채권은 나라 살림을 위한 돈을 빌리는 수단으로, 발행 규모와 판매 실적은 나라 경제 상황을 보여줍니다.\",\n  \"impact_line\": \"정부의 돈줄이 안정되면 나라 경제 운영에 도움이 될 수 있어요.\",\n  \"details\": [\n    \"인도 중앙은행이 280억 루피 규모의 정부 채권을 발행했습니다.\",\n    \"발행된 정부 채권은 모두 팔렸습니다.\",\n    \"이는 시장에서 정부 채권에 대한 수요가 충분하다는 것을 보여줍니다.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"정부가 필요한 자금을 안정적으로 조달할 수 있을 것으로 예상돼요!\",\n    \"이는 나라 경제 운영에 긍정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"정부 채권\",\n      \"easy\": \"나라에서 돈이 필요할 때 발행해서 일반인이나 기관에 빌리는 돈이에요.\",\n      \"example\": \"정부 채권에 투자하면 정해진 날짜에 원금과 이자를 돌려받을 수 있어요.\"\n    },\n    {\n      \"term\": \"루피\",\n      \"easy\": \"인도의 돈 단위예요.\",\n      \"example\": \"인도에서 물건을 살 때 루피로 계산해요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"국채 발행 성공\",\n  \"one_liner\": \"인도가 28조원 규모의 국채 발행을 성공적으로 마쳤어요.\",\n  \"why_now\": \"국가 빚을 갚거나 돈을 빌리는 데 성공했다는 뜻으로, 경제 안정에 긍정적인 신호로 여겨져요.\",\n  \"impact_line\": \"국채 발행이 원활하면 나라 살림이 안정되는 데 도움이 될 수 있어요.\",\n  \"details\": [\n    \"인도 중앙은행이 28조원 규모의 국채 발행을 진행했어요.\",\n    \"발행된 국채는 모두 팔렸어요.\",\n    \"이번 국채 발행은 예정대로 진행되었어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"국채 발행이 성공하면 정부의 자금 조달이 원활해져 경제 활동을 이어가는 데 도움이 될 수 있어요!\",\n    \"시장에 돈이 돌면서 경제가 안정되는 효과를 기대할 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"국채\",\n      \"easy\": \"나라에서 돈이 필요할 때 국민이나 기관에 빌리는 돈을 말해요.\",\n      \"example\": \"국채를 사면 나라에 돈을 빌려주고 이자를 받을 수 있어요.\"\n    },\n    {\n      \"term\": \"인도 중앙은행\",\n      \"easy\": \"인도의 중앙은행으로, 나라의 돈과 경제를 관리하는 기관이에요.\",\n      \"example\": \"인도 중앙은행이 금리를 올리면 시중 대출 이자도 오를 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
+     "one_liner 에 한자/가나 포함",
      "입력에 없는 숫자: [2.8]"
     ]
    },
    {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 해요체 아님",
-     "why_now 55자 초과(60)",
-     "why_now 어요체 아님",
-     "details[0] 어요체 아님",
-     "details[1] 어요체 아님",
-     "details[2] 어요체 아님",
-     "입력에 없는 숫자: [280.0]"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "RBI announces…",
-   "one_liner": "RBI announces underwriting auction for Rs 28 ,…",
-   "why_now": null,
+   "title": "국채 발행 성공",
+   "one_liner": "인도가 28조원 규모의 국채 발행을 성공적으로 마쳤어요.",
+   "why_now": "국가 빚을 갚거나 돈을 빌리는 데 성공했다는 뜻으로, 경제 안정에 긍정적인 신호로 여겨져요.",
    "details": [
-    "RBI announces underwriting auction for Rs 28 , 000 crore government securities",
-    "RBI auction sees full subscription for Rs 28 , 000 crore government securities",
-    "SB Financial Group Announces Second Quarter 2026 Results"
+    "인도 중앙은행이 28조원 규모의 국채 발행을 진행했어요.",
+    "발행된 국채는 모두 팔렸어요.",
+    "이번 국채 발행은 예정대로 진행되었어요."
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "국채 발행이 성공하면 정부의 자금 조달이 원활해져 경제 활동을 이어가는 데 도움이 될 수 있어요!",
+    "시장에 돈이 돌면서 경제가 안정되는 효과를 기대할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "c721436198fc64b87c00f92bec08409b93247d7e"
  },
@@ -923,7 +919,18 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.8]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 해요체 아님\", \"why_now 55자 초과(60)\", \"why_now 어요체 아님\", \"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\", \"입력에 없는 숫자: [280.0]\"]}]}",
   "at": "2026-07-25T03:46:10.091701+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "국채",
+   "easy": "정부가 돈을 빌리며 써준 '나라의 차용증'이에요.",
+   "example": "여기 붙는 이자가 시장 이자의 기준이 돼요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  }
+ ],
  "related": [
   {
    "id": "c01efb76fcd7102be",
