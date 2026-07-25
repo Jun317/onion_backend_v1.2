@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 3,
- "importance": 85,
+ "seen_sources": 4,
+ "importance": 90,
  "created_at": "2026-07-22T16:53:58.410297+00:00",
- "last_update": "2026-07-25T14:08:04.197704+00:00",
+ "last_update": "2026-07-25T17:28:30.134951+00:00",
  "members": [
+  {
+   "id": "754286531349d77de21dc9957fef2dcf0713df2a",
+   "source": "yahoo.com",
+   "tier": "wire",
+   "url": "https://www.yahoo.com/news/politics/articles/trump-says-canada-opening-gordie-210530419.html",
+   "title": "Trump says Canada opening Gordie Howe bridge without US was  fine",
+   "published_at": "2026-07-25T15:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.894
+  },
   {
    "id": "5c0203366ab9f23df154f0bf5294ec142965ab19",
    "source": "news.tuoitre.vn",
@@ -20,7 +30,7 @@
    "title": "Vietnamese garment exporters remain resilient under new Trump tariffs",
    "published_at": "2026-07-25T13:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8995
+   "sim_to_centroid": 0.9005
   },
   {
    "id": "3fd20cdb2cb8f48fef9557f66046f6765366553a",
@@ -30,7 +40,7 @@
    "title": "What Canadians need to know about Trump new 50 % tariffs",
    "published_at": "2026-07-23T15:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9507
+   "sim_to_centroid": 0.9517
   },
   {
    "id": "91c0305f72f276d49d76e252e62187a26001bfe9",
@@ -40,7 +50,7 @@
    "title": "Canada vows action after US slaps 50 % tariff on apparel and other goods",
    "published_at": "2026-07-22T14:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9742
+   "sim_to_centroid": 0.9721
   },
   {
    "id": "e1bd3ad2e4820ed7c7707ba57f4cd99f04282db6",
@@ -50,11 +60,18 @@
    "title": "Trump unveils new 50 % tariffs on wide range of Canadian goods",
    "published_at": "2026-07-22T14:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9783
+   "sim_to_centroid": 0.9771
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Trump says Canada opening Gordie Howe bridge without US was  fine",
+   "source": "yahoo.com",
+   "url": "https://www.yahoo.com/news/politics/articles/trump-says-canada-opening-gordie-210530419.html",
+   "at": "2026-07-25T15:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Vietnamese garment exporters remain resilient under new Trump tariffs",
@@ -85,46 +102,54 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-25T14:15:52.306096+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-25T17:28:51.201451+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "Trump says Canada opening Gordie Howe bridge without US was  fine",
     "Vietnamese garment exporters remain resilient under new Trump tariffs",
     "What Canadians need to know about Trump new 50 % tariffs",
     "Canada vows action after US slaps 50 % tariff on apparel and other goods"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국이 캐나다에 관세 부과\",\n   \"one_liner\": \"미국이 캐나다산 의류 등에 50% 관세를 부과했어요\",\n   \"why_now\": \"의류 가격이 오를 수 있어요\",\n   \"impact_line\": \"의류 가격이 오를 수 있어요\",\n   \"details\": [\n       \"미국이 캐나다산 의류 등에 50% 관세를 부과했어요\",\n       \"캐나다는 미국의 관세에 대해 대응할 것이라고 밝혔어요\",\n       \"새 관세가 의류 수출에 영향을 미칠 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"의류 가격이 오르면 소비자들이 더 많은 돈을 지불해야 할 수 있어요!\",\n       \"의류 수출이 어려워져 관련 산업에 영향을 미칠 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"관세\",\n           \"easy\": \"수입품에 부과하는 세이에요\",\n           \"example\": \"의류에 관세가 부과되면 그 가격이 오를 수 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Vietnamese garment…",
-   "one_liner": "Vietnamese garment exporters remain resilient…",
-   "why_now": null,
+   "title": "미국이 캐나다에 관세 부과",
+   "one_liner": "미국이 캐나다산 의류 등에 50% 관세를 부과했어요",
+   "why_now": "의류 가격이 오를 수 있어요",
    "details": [
-    "Vietnamese garment exporters remain resilient under new Trump tariffs",
-    "What Canadians need to know about Trump new 50 % tariffs",
-    "Canada vows action after US slaps 50 % tariff on apparel and other goods"
+    "미국이 캐나다산 의류 등에 50% 관세를 부과했어요",
+    "캐나다는 미국의 관세에 대해 대응할 것이라고 밝혔어요",
+    "새 관세가 의류 수출에 영향을 미칠 수 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "의류 가격이 오르면 소비자들이 더 많은 돈을 지불해야 할 수 있어요!",
+    "의류 수출이 어려워져 관련 산업에 영향을 미칠 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "5afe3210691c4212be2f3a39990b34ebc9dfde18"
+  "fact_hash": "26b8dfbcc51f842704c5f1d0a1f02edc2daf72e9"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-25T14:15:52.306005+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cde343d4cab397faf",

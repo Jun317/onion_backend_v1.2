@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-25T14:08:40.161303+00:00",
+  "created_at": "2026-07-25T17:29:04.490316+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,18 +64,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미크론 기술\",\n   \"one_liner\": \"미크론 기술의 주식을 사는 기업이 나타났어요\",\n   \"why_now\": \"주식시장이 어떻게 될지 예측하기 어려워요\",\n   \"impact_line\": \"미크론 기술의 주가에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"미크론 기술의 주식을 사는 기업이 나타났어요\",\n       \"미크론 기술의 주식 가격에 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미크론 기술의 주식 가격이 오를 수 있어요!\",\n       \"미크론 기술의 주식 가격이 내릴 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"미크론 기술\",\n   \"one_liner\": \"미크론 기술의 주식을 한 투자公司이 샀어요\",\n   \"why_now\": \"기업의 수익이나 주가에 영향을 줄 수 있어요\",\n   \"impact_line\": \"미크론 기술의 주가에 영향을 줄 수 있어요\",\n   \"details\": [\n      \"한 투자 公司이 미크론 기술의 주식을 샀어요\",\n      \"미크론 기술의 인공지능 관련 가격 조정이 실제로 일어나고 있어요\",\n      \"하지만 시장에서는 이 가격 조정이 지속될지 확신하지 못하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"미크론 기술의 주가가 오를 수 있어요!\",\n      \"미크론 기술의 수익이 증가할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
+     "effects[1] 느낌표 종결 아님",
      "입력에 없는 숫자: [6900.0]"
     ]
    },
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "details 3문장 미만"
+     "one_liner 에 한자/가나 포함"
     ]
    }
   ],
@@ -93,8 +94,8 @@
   "fact_hash": "73e0d58ba0c521127991a138257989d9db353192"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [6900.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-07-25T14:08:40.161191+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [6900.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\"]}]}",
+  "at": "2026-07-25T17:29:04.490227+00:00"
  },
  "glossary": [],
  "related": [
