@@ -851,7 +851,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-25T09:19:21.799182+00:00",
+  "created_at": "2026-07-25T14:10:44.239226+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -864,7 +864,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"실업 수당 청구 급감\", \"one_liner\": \"미국의 실업 수당을 처음 신청하는 사람이 1969년 이후 가장 적었어요.\", \"why_now\": \"실업 수당 신청이 줄면 경기가 좋다는 신호로 해석될 수 있어요.\", \"impact_line\": \"일자리를 구하기 쉬워질 수 있다는 기대감이 생겨요.\", \"details\": [\"미국의 실업 수당을 처음 신청하는 사람이 크게 줄었어요.\", \"이는 1969년 이후 가장 낮은 수준이에요.\"], \"visual_type\": \"none\", \"effects\": [\"기업들이 사람을 더 뽑으려 할 수 있어요!\", \"일자리가 늘어나면 사람들의 소득이 늘어날 것으로 예상돼요!\"], \"glossary\": []}",
+  "raw_response": "{\"title\": \"실업 수당 청구 건수 급감\", \"one_liner\": \"실업 수당을 신청하는 사람이 크게 줄어 1969년 이후 가장 낮은 수준을 기록했어요.\", \"why_now\": \"실업 수당 신청이 줄면 경기가 좋아지고 있다는 신호로 볼 수 있어요.\", \"impact_line\": \"일자리를 구하기가 조금 더 쉬워질 수 있어요.\", \"details\": [\"실업 수당을 신청하는 사람이 크게 줄었어요.\", \"이는 1969년 이후 가장 낮은 수치예요.\"], \"visual_type\": \"none\", \"effects\": [\"고용 시장이 긍정적인 방향으로 움직일 수 있다는 전망이 나와요!\", \"기업들이 사람을 더 많이 뽑으려 할 수 있어요!\"], \"glossary\": []}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
@@ -873,9 +873,9 @@
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -894,8 +894,8 @@
   "fact_hash": "08983d14bf158a5b174c832315ab5d477ce6b3f0"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-07-25T09:19:21.799129+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-25T14:10:44.239156+00:00"
  },
  "glossary": [],
  "related": [
@@ -906,14 +906,20 @@
    "shared": []
   },
   {
+   "id": "c26db649df2243106",
+   "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c26db649df2243106",
-   "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
+   "id": "cd05d2796be7f6377",
+   "title": "Micron AI Repricing Is Real But the Market Still Isnt Sure It Can Last",
    "category": "EARNINGS",
    "shared": []
   },

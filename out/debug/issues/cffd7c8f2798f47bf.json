@@ -54,8 +54,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-25T09:18:10.383940+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-25T14:09:19.315078+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -65,33 +65,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"코스트코 배당 성장 지속 여부 주목\",\n    \"one_liner\": \"코스트코의 배당금이 계속 늘어날 수 있을지 관심이 모이고 있어요.\",\n    \"why_now\": \"배당금은 기업이 벌어들인 이익의 일부를 주주에게 나눠주는 것으로, 배당금이 늘면 주주 수익이 커질 수 있어요.\",\n    \"impact_line\": \"코스트코 주주라면 배당금 증가를 기대해 볼 수 있어요.\",\n    \"details\": [\n        \"코스트코의 배당금 성장세가 이어질지 주목받고 있어요.\",\n        \"월마트, 코스트코, 리치몬트 등은 꾸준한 가치를 제공하는 기업으로 꼽혀요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"코스트코의 배당금이 꾸준히 늘어나면 주주들의 만족도가 높아질 수 있어요!\",\n        \"기업의 꾸준한 가치 제공은 장기적인 주가 상승으로 이어질 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"배당\",\n            \"easy\": \"기업이 벌어들인 이익의 일부를 주주들에게 나눠주는 돈이에요.\",\n            \"example\": \"주식 투자를 하면 배당금을 받을 수 있어요.\"\n        },\n        {\n            \"term\": \"주주\",\n            \"easy\": \"회사의 주식을 가지고 있는 사람을 말해요.\",\n            \"example\": \"주주는 회사의 주인 중 한 명이에요.\"\n        }\n    ]\n}",
+  "raw_response": "{\n  \"title\": \"코스트코 배당금 성장\",\n   \"one_liner\": \"코스트코의 높은 배당금 성장이 지속될 수 있을지 관심이 있어요\",\n   \"why_now\": \"배당금이 오르면 주식을 가지고 있는 사람들의 수익이 늘어나는 게 보통이에요\",\n   \"impact_line\": \"코스트코 주식을 가진 사람의 수익이 늘어날 수 있어요\",\n   \"details\": [\n       \"코스트코의 높은 배당금 성장이 지속될지에 대해 관심이 있어요\",\n       \"코스트코와 같은 기업들의 배당금 성장은 주주들에게 중요한 요소예요\",\n       \"코스트코의 배당금 성장은 지속 가능할지에 대해 분석이 필요해 보여요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"코스트코 주식의 가치가 올라서 주식을 가지고 있는 사람들의 재산이 늘어날 수 있어요!\",\n       \"코스트코의 높은 배당금 성장이 지속되면 투자자들에게 더 매력적인 선택지가 될 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"배당금\",\n           \"easy\": \"주식을 가지고 있는 사람에게 주는 이익의 일부예요\",\n           \"example\": \"배당금이 많으면 주식을 가지고 있는 사람의 수익이 늘어나요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "why_now 55자 초과(81)",
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "why_now 55자 초과(61)",
-     "details 3문장 미만"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Will Costco ( COST )…",
-   "one_liner": "Will Costco ( COST ) be Able to Continue High…",
-   "why_now": null,
+   "title": "코스트코 배당금 성장",
+   "one_liner": "코스트코의 높은 배당금 성장이 지속될 수 있을지 관심이 있어요",
+   "why_now": "배당금이 오르면 주식을 가지고 있는 사람들의 수익이 늘어나는 게 보통이에요",
    "details": [
-    "Will Costco ( COST ) be Able to Continue High Dividend Growth ?",
-    "Walmart , Costco and Richemont deliver lasting value"
+    "코스트코의 높은 배당금 성장이 지속될지에 대해 관심이 있어요",
+    "코스트코와 같은 기업들의 배당금 성장은 주주들에게 중요한 요소예요",
+    "코스트코의 배당금 성장은 지속 가능할지에 대해 분석이 필요해 보여요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "코스트코 주식의 가치가 올라서 주식을 가지고 있는 사람들의 재산이 늘어날 수 있어요!",
+    "코스트코의 높은 배당금 성장이 지속되면 투자자들에게 더 매력적인 선택지가 될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "d940ef416aadb3658ccd0aeb2ff81384a2b47476"
  },
@@ -116,20 +110,20 @@
    ]
   },
   {
-   "id": "c2fe47d2110ccdaa3",
-   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
    "id": "c26db649df2243106",
    "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c763582d47a3e8b63",
-   "title": "Netflix Looks To Buy Major Social Network With Over 30M Users",
+   "id": "c2fe47d2110ccdaa3",
+   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "cd05d2796be7f6377",
+   "title": "Micron AI Repricing Is Real But the Market Still Isnt Sure It Can Last",
    "category": "EARNINGS",
    "shared": []
   }
