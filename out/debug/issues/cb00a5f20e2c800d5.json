@@ -871,7 +871,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-24T21:43:26.075847+00:00",
+  "created_at": "2026-07-25T03:46:10.091901+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -884,12 +884,24 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"정부 채권 발행\",\n  \"one_liner\": \"인도가 정부가 발행하는 채권 280억 루피어치를 모두 팔았습니다.\",\n  \"why_now\": \"정부 채권은 나라 살림을 위한 돈을 빌리는 수단으로, 발행 규모와 판매 실적은 나라 경제 상황을 보여줍니다.\",\n  \"impact_line\": \"정부의 돈줄이 안정되면 나라 경제 운영에 도움이 될 수 있어요.\",\n  \"details\": [\n    \"인도 중앙은행이 280억 루피 규모의 정부 채권을 발행했습니다.\",\n    \"발행된 정부 채권은 모두 팔렸습니다.\",\n    \"이는 시장에서 정부 채권에 대한 수요가 충분하다는 것을 보여줍니다.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"정부가 필요한 자금을 안정적으로 조달할 수 있을 것으로 예상돼요!\",\n    \"이는 나라 경제 운영에 긍정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"정부 채권\",\n      \"easy\": \"나라에서 돈이 필요할 때 발행해서 일반인이나 기관에 빌리는 돈이에요.\",\n      \"example\": \"정부 채권에 투자하면 정해진 날짜에 원금과 이자를 돌려받을 수 있어요.\"\n    },\n    {\n      \"term\": \"루피\",\n      \"easy\": \"인도의 돈 단위예요.\",\n      \"example\": \"인도에서 물건을 살 때 루피로 계산해요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [2.8]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 해요체 아님",
+     "why_now 55자 초과(60)",
+     "why_now 어요체 아님",
+     "details[0] 어요체 아님",
+     "details[1] 어요체 아님",
+     "details[2] 어요체 아님",
+     "입력에 없는 숫자: [280.0]"
     ]
    }
   ],
@@ -908,8 +920,8 @@
   "fact_hash": "c721436198fc64b87c00f92bec08409b93247d7e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-24T21:43:26.075781+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.8]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 해요체 아님\", \"why_now 55자 초과(60)\", \"why_now 어요체 아님\", \"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\", \"입력에 없는 숫자: [280.0]\"]}]}",
+  "at": "2026-07-25T03:46:10.091701+00:00"
  },
  "glossary": [],
  "related": [
@@ -944,8 +956,8 @@
    ]
   },
   {
-   "id": "c7c0f262265dbe065",
-   "title": "Will interest rates go up next week ? Bank of England key factors and 2026 predictions",
+   "id": "c03074aeed49bf60f",
+   "title": "World Bank confirms plan to phase out China lending by 2031",
    "category": "RATE",
    "shared": []
   }

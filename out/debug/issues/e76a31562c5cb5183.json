@@ -37,8 +37,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-24T21:35:24.686916+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-25T03:47:26.928925+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [
@@ -57,24 +57,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"D램 가격 급등\",\n   \"one_liner\": \"한국의 D램 가격이 90% 올랐어요\",\n   \"why_now\": \"D램 가격이 오르면 전자제품 가격도 따라 오를 수 있어요\",\n   \"impact_line\": \"스마트폰·컴퓨터 가격이 오를 수 있어요\",\n   \"details\": [\n       \"1분기에 D램 가격이 90% 올랐어요\",\n       \"이번 분기 가격 상승률은 90%예요\",\n       \"D램은 컴퓨터·스마트폰의 기억장치로 쓰여요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"전자제품의 가격이 오르면 소비자들이 구매를 줄일 수 있어요!\",\n       \"D램 수요가 많아지면 관련 기업의 수익이 늘어날 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"D램\",\n           \"easy\": \"컴퓨터나 스마트폰에서 데이터를 임시로 저장하는 기억장치예요\",\n           \"example\": \"컴퓨터의 성능을 결정하는 중요한 부품 중 하나예요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "why_now 55자 초과(57)",
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "KR D램 가격 상승률(분기) 90.0%",
-   "one_liner": "KR D램 가격 상승률(분기) 90.0%로 발표됐어요",
-   "why_now": null,
+   "title": "D램 가격 급등",
+   "one_liner": "한국의 D램 가격이 90% 올랐어요",
+   "why_now": "D램 가격이 오르면 전자제품 가격도 따라 오를 수 있어요",
    "details": [
-    "KR D램 가격 상승률(분기): 90.0%"
+    "1분기에 D램 가격이 90% 올랐어요",
+    "이번 분기 가격 상승률은 90%예요",
+    "D램은 컴퓨터·스마트폰의 기억장치로 쓰여요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "전자제품의 가격이 오르면 소비자들이 구매를 줄일 수 있어요!",
+    "D램 수요가 많아지면 관련 기업의 수익이 늘어날 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "8bc748bb7671382af1aba23d625a5e5f4f7405c3"
  },

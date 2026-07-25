@@ -55,7 +55,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-24T21:35:43.129863+00:00",
+  "created_at": "2026-07-25T03:47:55.224673+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -65,8 +65,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"코스트코 배당금 성장\",\n   \"one_liner\": \"코스트코의 높은 배당금 성장이 지속될 수 있을지 관심이 있어요\",\n   \"why_now\": \"배당금이 오르면 주식 소유자의 수익이 늘어나서 투자자에게 좋해요\",\n   \"impact_line\": \"코스트코 주식을 소유한 사람의 수익이 늘어날 수 있어요\",\n   \"details\": [\n       \"코스트코의 높은 배당금 성장이 지속될지에 관심이 있어요\",\n       \"월마트, 코스트코, 리슈몽이 가치 있는 성과를 내고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"코스트코의 성과가 좋으면 주가가 오를 수 있어요!\",\n       \"투자자들이 코스트코 주식을 더 사러 할 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"배당금\",\n           \"easy\": \"주식 회사에서 이익을 주주에게 나누어 주는 돈이에요\",\n           \"example\": \"배당금이 많으면 주식을 소유한 사람이 더 많은 돈을 받을 수 있어요\"\n       }\n   ]\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -88,8 +94,8 @@
   "fact_hash": "d940ef416aadb3658ccd0aeb2ff81384a2b47476"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-24T21:35:43.129767+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-25T03:47:55.224609+00:00"
  },
  "glossary": [],
  "related": [
@@ -110,12 +116,6 @@
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c97b66c85f24e90a2",
-   "title": "Pepkor creates R21 . 3bn fintech platform with IPO ambitions",
    "category": "EARNINGS",
    "shared": []
   },

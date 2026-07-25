@@ -37,8 +37,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-24T21:40:58.460922+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-25T03:52:26.143005+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [
@@ -57,23 +57,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 첨단 반도체 관세\",\n   \"one_liner\": \"미국 정부가 첨단 반도체에 25%의 관세를 부과했어요\",\n   \"why_now\": \"외국에서 만든 첨단 기술을 제한하려는 정책이예요\",\n   \"impact_line\": \"전자제품 가격이 오를 수 있어요\",\n   \"details\": [\n       \"미국 정부가 첨단 반도체에 관세를 부과했어요\",\n       \"관세율은 25%예요\",\n       \"첨단 반도체는 많은 전자제품에 쓰여요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"전자제품의 가격이 올라 소비자들이 부담을 느끼게 될 수 있어요!\",\n       \"국내 기업이 미국에 반도체를 수출하기가 어려워질 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"관세\",\n           \"easy\": \"외국에서 들어오는 물건에 부과하는 세이예요\",\n           \"example\": \"관세가 높으면 수입품이 더 비싸져요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "US 첨단 반도체 관세율 25.0%",
-   "one_liner": "US 첨단 반도체 관세율 25.0%로 발표됐어요",
-   "why_now": null,
+   "title": "미국 첨단 반도체 관세",
+   "one_liner": "미국 정부가 첨단 반도체에 25%의 관세를 부과했어요",
+   "why_now": "외국에서 만든 첨단 기술을 제한하려는 정책이예요",
    "details": [
-    "US 첨단 반도체 관세율: 25.0%"
+    "미국 정부가 첨단 반도체에 관세를 부과했어요",
+    "관세율은 25%예요",
+    "첨단 반도체는 많은 전자제품에 쓰여요"
    ],
-   "effects": [],
+   "effects": [
+    "전자제품의 가격이 올라 소비자들이 부담을 느끼게 될 수 있어요!",
+    "국내 기업이 미국에 반도체를 수출하기가 어려워질 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "167fd732c1f784d295b5ea618bb4e40bcb31768b"
@@ -97,14 +100,14 @@
    "shared": []
   },
   {
-   "id": "c1d3d6484c6b93b16",
-   "title": "NL Joins Others in Signing Deal Allowing for Purchase of Alcohol from Other Provinces",
+   "id": "c2cdae3197527cd80",
+   "title": "Trump unveils new 50 % tariffs on wide range of Canadian goods",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "c2cdae3197527cd80",
-   "title": "Trump unveils new 50 % tariffs on wide range of Canadian goods",
+   "id": "c1d3d6484c6b93b16",
+   "title": "NL Joins Others in Signing Deal Allowing for Purchase of Alcohol from Other Provinces",
    "category": "POLICY",
    "shared": []
   },
