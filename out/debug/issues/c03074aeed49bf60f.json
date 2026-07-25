@@ -206,8 +206,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-25T17:35:53.827295+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-25T21:14:33.818470+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -220,26 +220,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"중국과 미국의 무역\",\n   \"one_liner\": \"중국과 미국이 무역에서 경쟁하고 있어요.\",\n   \"why_now\": \"중국과 미국은 세계 경제에서 중요한 역할을 해요.\",\n   \"impact_line\": \"중국과 미국의 무역이 우리나라 경제에 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"세계은행이 2031년까지 중국에 대한 대출을 줄이려고 해요.\",\n       \"중국과 파키스탄의 관계가 새로운 단계로 발전하고 있어요.\",\n       \"중국은 미국의 새로운 관세에 반대하고 있어요.\",\n       \"중국과 미국은 서로 무역 전쟁을 경계하고 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"중국과 미국의 무역 경쟁이 세계 경제에 영향을 줄 수 있어요!\",\n       \"중국과 미국의 무역 전쟁이 우리나라 기업에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "World Bank confirms…",
-   "one_liner": "World Bank confirms plan to phase out China…",
-   "why_now": null,
+   "title": "중국과 미국의 무역",
+   "one_liner": "중국과 미국이 무역에서 경쟁하고 있어요.",
+   "why_now": "중국과 미국은 세계 경제에서 중요한 역할을 해요.",
    "details": [
-    "World Bank confirms plan to phase out China lending by 2031",
-    "Beyond CPEC : The Next Chapter of Pakistan - China Relations",
-    "China says it opposes new US tariffs , warns against trade wars"
+    "세계은행이 2031년까지 중국에 대한 대출을 줄이려고 해요.",
+    "중국과 파키스탄의 관계가 새로운 단계로 발전하고 있어요.",
+    "중국은 미국의 새로운 관세에 반대하고 있어요.",
+    "중국과 미국은 서로 무역 전쟁을 경계하고 있어요."
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "중국과 미국의 무역 경쟁이 세계 경제에 영향을 줄 수 있어요!",
+    "중국과 미국의 무역 전쟁이 우리나라 기업에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "19ce1afc08f5670e288121ed6c678f03dd46937d"
  },
@@ -247,7 +249,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-25T17:35:53.827230+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cb00a5f20e2c800d5",
