@@ -1,0 +1,140 @@
+{
+ "id": "cf8b1b4e63a573788",
+ "title": "Oil tanker explodes after colliding with mine in Strait of Hormuz , Iranian media reports - as Trump pauses strikes to allow more time for  diplomacy",
+ "category": "GEO",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "IRAN"
+ ],
+ "seen_sources": 2,
+ "importance": 70,
+ "created_at": "2026-07-26T19:42:01.900537+00:00",
+ "last_update": "2026-07-26T19:42:01.902248+00:00",
+ "members": [
+  {
+   "id": "392cfa1ec14e007e624c99137e87e2cfcda40e9e",
+   "source": "independent.co.uk",
+   "tier": "wire",
+   "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-houthis-oil-strait-hormuz-b3021660.html",
+   "title": "Iran - US war latest : Oil tanker explodes after hitting mine in Strait of Hormuz , Iranian state media claims",
+   "published_at": "2026-07-26T17:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9841
+  },
+  {
+   "id": "267b2196e652274189d081269ea379ad9957e3c2",
+   "source": "dailymail.com",
+   "tier": "wire",
+   "url": "https://www.dailymail.com/news/article-16006247/Oil-tanker-explodes-Strait-Hormuz.html",
+   "title": "Oil tanker explodes after colliding with mine in Strait of Hormuz , Iranian media reports - as Trump pauses strikes to allow more time for  diplomacy",
+   "published_at": "2026-07-26T17:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9841
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Iran - US war latest : Oil tanker explodes after hitting mine in Strait of Hormuz , Iranian state media claims",
+   "source": "independent.co.uk",
+   "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-houthis-oil-strait-hormuz-b3021660.html",
+   "at": "2026-07-26T17:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Oil tanker explodes after colliding with mine in Strait of Hormuz , Iranian media reports - as Trump pauses strikes to allow more time for  diplomacy",
+   "source": "dailymail.com",
+   "url": "https://www.dailymail.com/news/article-16006247/Oil-tanker-explodes-Strait-Hormuz.html",
+   "at": "2026-07-26T17:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-26T19:43:32.689635+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Iran - US war latest : Oil tanker explodes after hitting mine in Strait of Hormuz , Iranian state media claims",
+    "Oil tanker explodes after colliding with mine in Strait of Hormuz , Iranian media reports - as Trump pauses strikes to allow more time for  diplomacy"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"호르무즈 해협 유조선 폭발\",\n  \"one_liner\": \"호르무즈 해협에서 유조선이 기뢰와 부딪혀 폭발했다고 이란 언론이 보도했어요.\",\n  \"why_now\": \"이 지역은 세계 석유 수송의 중요한 길목이라 국제 유가에 큰 영향을 줄 수 있어요.\",\n  \"impact_line\": \"국제 유가가 오르면 기름값이 비싸질 수 있어요.\",\n  \"details\": [\n    \"이란 국영 언론은 유조선이 기뢰와 충돌한 뒤 폭발했다고 주장했어요.\",\n    \"이 사건은 도널드 트럼프 미국 대통령이 외교적 해결을 위해 추가 시간을 주기로 결정한 시점에 나왔어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"국제 유가가 오를 수 있어요!\",\n    \"이란과 미국 간의 긴장이 고조될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"유조선\",\n      \"easy\": \"기름을 실어 나르는 배를 말해요.\",\n      \"example\": \"유조선 덕분에 우리가 쓰는 기름을 멀리서도 가져올 수 있어요.\"\n    },\n    {\n      \"term\": \"호르무즈 해협\",\n      \"easy\": \"페르시아만과 오만만을 잇는 좁은 바다 길목이에요.\",\n      \"example\": \"호르무즈 해협은 전 세계 석유 운송량의 상당 부분을 차지해요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Iran - US war latest…",
+   "one_liner": "Iran - US war latest : Oil tanker explodes after…",
+   "why_now": null,
+   "details": [
+    "Iran - US war latest : Oil tanker explodes after hitting mine in Strait of Hormuz , Iranian state media claims",
+    "Oil tanker explodes after colliding with mine in Strait of Hormuz , Iranian media reports - as Trump pauses strikes to allow more time for  diplomacy"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "45999f0afba3b9487357efed127fc2159ae47cb9"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-26T19:43:32.689564+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "cd41f78d2b746ddd5",
+   "title": "Tech bounce lifts Asia stocks , oil extends gains on US - Iran fears",
+   "category": "MARKET",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "cd7b762c4b0212485",
+   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
+   "category": "GEO",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "c21fbad53c2afa8f1",
+   "title": "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets",
+   "category": "COMMODITY",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "ca7e18652a27e4c6f",
+   "title": "Left - leaning group says state faces affordability crisis",
+   "category": "GEO",
+   "shared": []
+  }
+ ]
+}
