@@ -2,16 +2,36 @@
  "id": "ce87d8956118c46ca",
  "title": "Focus on aviation technology , airline growth and tourism , says Prof . Sonal Fernando",
  "category": "POLICY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 75,
+ "seen_sources": 4,
+ "importance": 90,
  "created_at": "2026-07-26T11:41:44.660392+00:00",
- "last_update": "2026-07-26T11:41:44.660392+00:00",
+ "last_update": "2026-07-26T14:05:29.567123+00:00",
  "members": [
+  {
+   "id": "1a88ff309dd76f8abe5d11450acc6d7750485dd9",
+   "source": "hawaiitribune-herald.com",
+   "tier": "wire",
+   "url": "https://www.hawaiitribune-herald.com/2026/07/26/features/volcano-watch-watching-volcanoes-move-one-survey-at-a-time/",
+   "title": "Volcano Watch : Watching volcanoes move , one survey at a time",
+   "published_at": "2026-07-26T12:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8749
+  },
+  {
+   "id": "e886a83eed83bde293b7163b0345ab50525bff35",
+   "source": "daytondailynews.com",
+   "tier": "wire",
+   "url": "https://www.daytondailynews.com/local/business/voice-of-business-repositioning-the-dayton-international-airport/article_06994567-9859-5ee0-9a3d-5308046a570f.html",
+   "title": "Voice of Business : Repositioning the Dayton International Airport",
+   "published_at": "2026-07-26T12:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8865
+  },
   {
    "id": "b4007ff49c313ac42464f8ecf7af11a5f59c51f5",
    "source": "island.lk",
@@ -20,7 +40,17 @@
    "title": "Focus on aviation technology , airline growth and tourism , says Prof . Sonal Fernando",
    "published_at": "2026-07-26T10:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9551
+   "sim_to_centroid": 0.9441
+  },
+  {
+   "id": "8e69451d149adfbdc2569e454d2d840e421cd6fa",
+   "source": "island.lk",
+   "tier": "wire",
+   "url": "https://island.lk/farewell-ceylon-together-we-continue-the-story-across-mountains-and-seas/",
+   "title": "Farewell , Ceylon ; Together We Continue the Story Across Mountains and Seas",
+   "published_at": "2026-07-26T10:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.874
   },
   {
    "id": "c1e94f2c6a374ab9466f3ccc693aeb1b2363497c",
@@ -30,11 +60,35 @@
    "title": "Journey through aviation history",
    "published_at": "2026-07-26T10:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9551
+   "sim_to_centroid": 0.9486
+  },
+  {
+   "id": "e6d26b488f2c9400a8fbbce11bc4c061dd7d4f56",
+   "source": "radioislam.org.za",
+   "tier": "wire",
+   "url": "https://radioislam.org.za/a/leadership-begins-with-service-sheikh-mirza-yawar-baig/",
+   "title": "Leadership Begins With Service : Sheikh Mirza Yawar Baig",
+   "published_at": "2026-07-26T10:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8674
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Volcano Watch : Watching volcanoes move , one survey at a time",
+   "source": "hawaiitribune-herald.com",
+   "url": "https://www.hawaiitribune-herald.com/2026/07/26/features/volcano-watch-watching-volcanoes-move-one-survey-at-a-time/",
+   "at": "2026-07-26T12:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Voice of Business : Repositioning the Dayton International Airport",
+   "source": "daytondailynews.com",
+   "url": "https://www.daytondailynews.com/local/business/voice-of-business-repositioning-the-dayton-international-airport/article_06994567-9859-5ee0-9a3d-5308046a570f.html",
+   "at": "2026-07-26T12:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Focus on aviation technology , airline growth and tourism , says Prof . Sonal Fernando",
@@ -48,9 +102,61 @@
    "source": "island.lk",
    "url": "https://island.lk/journey-through-aviation-history/",
    "at": "2026-07-26T10:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Farewell , Ceylon ; Together We Continue the Story Across Mountains and Seas",
+   "source": "island.lk",
+   "url": "https://island.lk/farewell-ceylon-together-we-continue-the-story-across-mountains-and-seas/",
+   "at": "2026-07-26T10:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Leadership Begins With Service : Sheikh Mirza Yawar Baig",
+   "source": "radioislam.org.za",
+   "url": "https://radioislam.org.za/a/leadership-begins-with-service-sheikh-mirza-yawar-baig/",
+   "at": "2026-07-26T10:45:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-26T14:05:43.014919+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Journey through aviation history",
+    "Focus on aviation technology , airline growth and tourism , says Prof . Sonal Fernando",
+    "Voice of Business : Repositioning the Dayton International Airport",
+    "Volcano Watch : Watching volcanoes move , one survey at a time",
+    "Farewell , Ceylon ; Together We Continue the Story Across Mountains and Seas"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"항공 기술\",\n   \"one_liner\": \"항공 기술과 항공사 성장, 관광에 대해 말해요.\",\n   \"why_now\": \"항공 기술이 발전하면 여행이 편해지고, 관광 산업도 발전할 수 있어요.\",\n   \"impact_line\": \"여행이 편해질 수 있어요\",\n   \"details\": [\n       \"항공 기술에 대해 이야기해요.\",\n       \"항공사 성장과 관광에 대해 말해요.\",\n       \"여행과 관광 산업이 발전할 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"여행이 편해져서 관광 산업이 발전할 수 있어요!\",\n       \"항공 기술이 발전하면 새로운 일자리도 생길 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "항공 기술",
+   "one_liner": "항공 기술과 항공사 성장, 관광에 대해 말해요.",
+   "why_now": "항공 기술이 발전하면 여행이 편해지고, 관광 산업도 발전할 수 있어요.",
+   "details": [
+    "항공 기술에 대해 이야기해요.",
+    "항공사 성장과 관광에 대해 말해요.",
+    "여행과 관광 산업이 발전할 수 있어요."
+   ],
+   "effects": [
+    "여행이 편해져서 관광 산업이 발전할 수 있어요!",
+    "항공 기술이 발전하면 새로운 일자리도 생길 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "6282dfc67fd5c6f0547ee3efa43f21e459c0e2a4"
+ },
  "review": null,
  "glossary": [],
  "related": [
@@ -67,20 +173,20 @@
    "shared": []
   },
   {
+   "id": "cabb08e6bcfb4b2c7",
+   "title": "Yoshitha Rajapaksa money laundering case postponed to Aug 20",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c9e1138d2bef444ae",
+   "title": "Trump appetite for tariffs never faded . His next moves could reshape trade",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
    "id": "c3018c212752fa748",
    "title": "Canada vows action after US slaps 50 % tariff on apparel and other goods",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
-   "id": "c2cdae3197527cd80",
-   "title": "Trump unveils new 50 % tariffs on wide range of Canadian goods",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
-   "id": "c1d3d6484c6b93b16",
-   "title": "NL Joins Others in Signing Deal Allowing for Purchase of Alcohol from Other Provinces",
    "category": "POLICY",
    "shared": []
   }

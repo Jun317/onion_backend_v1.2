@@ -2,16 +2,26 @@
  "id": "c079935dcd37d8198",
  "title": "The great gas race : Who is holding the keys to Europes energy future",
  "category": "COMMODITY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 2,
+ "importance": 70,
  "created_at": "2026-07-26T11:41:44.660938+00:00",
- "last_update": "2026-07-26T11:41:44.660938+00:00",
+ "last_update": "2026-07-26T14:05:29.567059+00:00",
  "members": [
+  {
+   "id": "7d9c0c6c11da94ee5c5f87bb7f5f2c16a38ea982",
+   "source": "kyivpost.com",
+   "tier": "wire",
+   "url": "https://www.kyivpost.com/post/81084",
+   "title": "Europe Unlikely to Reach 80 % Winter Gas Storage Target",
+   "published_at": "2026-07-26T12:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8693
+  },
   {
    "id": "d207a9ba078cbd261ca937d12dc21df459cd53a0",
    "source": "arabherald.com",
@@ -20,7 +30,7 @@
    "title": "The great gas race : Who is holding the keys to Europe energy future ?",
    "published_at": "2026-07-26T10:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9983
+   "sim_to_centroid": 0.9966
   },
   {
    "id": "0c28e92febbfca47c53506514909b94820324838",
@@ -30,11 +40,18 @@
    "title": "The great gas race : Who is holding the keys to Europes energy future",
    "published_at": "2026-07-26T10:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9983
+   "sim_to_centroid": 0.997
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Europe Unlikely to Reach 80 % Winter Gas Storage Target",
+   "source": "kyivpost.com",
+   "url": "https://www.kyivpost.com/post/81084",
+   "at": "2026-07-26T12:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "The great gas race : Who is holding the keys to Europes energy future",
@@ -50,8 +67,50 @@
    "at": "2026-07-26T10:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-26T14:06:31.963703+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [],
+   "headlines": [
+    "Europe Unlikely to Reach 80 % Winter Gas Storage Target",
+    "The great gas race : Who is holding the keys to Europes energy future"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n\"title\": \"유럽 겨울 가스 비축량 목표 달성 어려움\",\n\"one_liner\": \"유럽이 겨울철 가스 비축량 목표를 달성하기 어려울 것으로 보여요.\",\n\"why_now\": \"겨울철 난방과 산업 활동에 필요한 가스가 부족해지면 에너지 가격이 오를 수 있어요.\",\n\"impact_line\": \"겨울철 난방비나 에너지 관련 공공요금이 오를 수 있어요.\",\n\"details\": [\n\"유럽이 겨울철에 필요한 가스 비축량 목표를 채우기 어려울 것으로 예상돼요.\",\n\"이는 유럽의 에너지 안보에 중요한 사안이에요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"가스 가격이 오르면 난방비와 전기료 부담이 커질 수 있어요!\",\n\"에너지 수입 의존도가 높은 유럽 국가들의 경제에 어려움이 생길 수 있어요!\"\n],\n\"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Europe Unlikely to…",
+   "one_liner": "Europe Unlikely to Reach 80 % Winter Gas Storage…",
+   "why_now": null,
+   "details": [
+    "Europe Unlikely to Reach 80 % Winter Gas Storage Target",
+    "The great gas race : Who is holding the keys to Europes energy future"
+   ],
+   "effects": [],
+   "visual_type": "wti"
+  },
+  "fact_hash": "2b2778092e8c95701e5bc7d5a3aeb6900e612089"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-07-26T14:06:31.963603+00:00"
+ },
  "glossary": [],
  "related": [
   {

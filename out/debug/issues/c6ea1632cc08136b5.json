@@ -1,0 +1,135 @@
+{
+ "id": "c6ea1632cc08136b5",
+ "title": "Salesforce vs . ServiceNow : Which Agentic AI Stock Is Actually the Better Buy Right Now ?",
+ "category": "MARKET",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "CRM"
+ ],
+ "seen_sources": 2,
+ "importance": 90,
+ "created_at": "2026-07-26T14:05:29.566237+00:00",
+ "last_update": "2026-07-26T14:05:29.567259+00:00",
+ "members": [
+  {
+   "id": "b9f4ecccd66007e3e7fce54db1ab79ca21487023",
+   "source": "tickerreport.com",
+   "tier": "wire",
+   "url": "https://www.tickerreport.com/banking-finance/13516582/lombard-odier-asset-management-europe-ltd-purchases-6289-shares-of-salesforce-inc-crm.html",
+   "title": "Lombard Odier Asset Management Europe Ltd Purchases 6 , 289 Shares of Salesforce Inc . $CRM",
+   "published_at": "2026-07-26T12:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9575
+  },
+  {
+   "id": "5d0e9231b6958e69199981b255c37ea1076b2513",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-vs-servicenow-agentic-ai-112500195.html",
+   "title": "Salesforce vs . ServiceNow : Which Agentic AI Stock Is Actually the Better Buy Right Now ?",
+   "published_at": "2026-07-26T12:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9575
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Lombard Odier Asset Management Europe Ltd Purchases 6 , 289 Shares of Salesforce Inc . $CRM",
+   "source": "tickerreport.com",
+   "url": "https://www.tickerreport.com/banking-finance/13516582/lombard-odier-asset-management-europe-ltd-purchases-6289-shares-of-salesforce-inc-crm.html",
+   "at": "2026-07-26T12:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Salesforce vs . ServiceNow : Which Agentic AI Stock Is Actually the Better Buy Right Now ?",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-vs-servicenow-agentic-ai-112500195.html",
+   "at": "2026-07-26T12:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-26T14:05:40.004578+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Lombard Odier Asset Management Europe Ltd Purchases 6 , 289 Shares of Salesforce Inc . $CRM",
+    "Salesforce vs . ServiceNow : Which Agentic AI Stock Is Actually the Better Buy Right Now ?"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n\"title\": \"세일즈포스 주식 매수\",\n\"one_liner\": \"롬바드 오디에 자산운용이 세일즈포스 주식 6,289주를 사들였어요.\",\n\"why_now\": \"주식 매수는 해당 기업의 미래 성장 가능성을 긍정적으로 본다는 신호일 수 있어요.\",\n\"impact_line\": \"세일즈포스 주가에 긍정적인 영향을 줄 수 있어요.\",\n\"details\": [\n\"롬바드 오디에 자산운용 유럽 법인이 세일즈포스 주식 6,289주를 매수했어요.\",\n\"이 소식은 세일즈포스의 주가 흐름에 영향을 줄 수 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"주요 투자 기관의 매수는 해당 기업의 주가 상승을 기대하게 할 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"주식\",\n\"easy\": \"회사의 소유권 일부를 나타내는 증서예요.\",\n\"example\": \"주식을 사면 그 회사의 주인이 되는 거예요.\"\n},\n{\n\"term\": \"매수\",\n\"easy\": \"물건이나 주식 등을 사들이는 것을 말해요.\",\n\"example\": \"주식 시장에서 기관 투자자의 매수가 늘고 있어요.\"\n}\n]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 에 한자/가나 포함",
+     "details 3문장 미만",
+     "입력에 없는 숫자: [6289.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "입력에 없는 숫자: [6289.0]"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Lombard Odier Asset…",
+   "one_liner": "Lombard Odier Asset Management Europe Ltd…",
+   "why_now": null,
+   "details": [
+    "Lombard Odier Asset Management Europe Ltd Purchases 6 , 289 Shares of Salesforce Inc . $CRM",
+    "Salesforce vs . ServiceNow : Which Agentic AI Stock Is Actually the Better Buy Right Now ?"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "3b88f828f5fa8e27c71642ad0b0c2ab447d006c1"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}]}",
+  "at": "2026-07-26T14:05:40.004519+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cd41f78d2b746ddd5",
+   "title": "Tech bounce lifts Asia stocks , oil extends gains on US - Iran fears",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c2a4c3894a14ae550",
+   "title": "Microsoft tactics with Edge face renewed scrutiny over browser choice",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c9a09576b9082e071",
+   "title": "Japan PM Sanae Takaichi Unveils Growth Plan as BOJ Independence Concerns Lift Bond Yields",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c88e0e9224f4c05cc",
+   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+   "category": "MARKET",
+   "shared": []
+  }
+ ]
+}
