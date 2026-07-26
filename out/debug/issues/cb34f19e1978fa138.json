@@ -70,8 +70,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-26T17:39:08.315928+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-26T21:16:25.689593+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -82,26 +82,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"일론 머스크 자산 감소\",\n  \"one_liner\": \"일론 머스크의 자산이 6천억 달러 넘게 줄었어요.\",\n  \"why_now\": \"테슬라와 스페이스X의 어려움이 커지면서 그의 자산 가치가 크게 하락했어요.\",\n  \"impact_line\": \"테슬라 주가 하락으로 투자자들의 손실이 커질 수 있어요.\",\n  \"details\": [\n    \"일론 머스크의 자산이 6천억 달러 이상 감소했어요.\",\n    \"이는 테슬라와 스페이스X의 실적 부진과 관련이 있어요.\",\n    \"테슬라 주가는 올해 들어 30% 하락했어요.\",\n    \"투자자들은 테슬라 주가 하락 시점에 매수를 고려하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"테슬라 주가가 계속 하락하면 투자자들의 손실이 커질 수 있어요!\",\n    \"테슬라의 로보택시 사업과 스페이스X의 합병 관련 소식이 주목받고 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"자산\",\n      \"easy\": \"내가 가진 돈이나 재산 전부를 말해요.\",\n      \"example\": \"집, 차, 예금 등 모든 것을 합쳐 자산이라고 해요.\"\n    },\n    {\n      \"term\": \"실적 부진\",\n      \"easy\": \"회사가 예상보다 돈을 적게 벌거나 손해를 보는 것을 말해요.\",\n      \"example\": \"이번 분기 실적 부진으로 주가가 떨어졌어요.\"\n    },\n    {\n      \"term\": \"로보택시\",\n      \"easy\": \"사람이 운전하지 않고 스스로 움직이는 택시를 말해요.\",\n      \"example\": \"미래에는 로보택시가 보편화될 것으로 예상돼요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Musk Net Worth Down…",
-   "one_liner": "Musk Net Worth Down By More Than $600 Billion as…",
-   "why_now": null,
+   "title": "일론 머스크 자산 감소",
+   "one_liner": "일론 머스크의 자산이 6천억 달러 넘게 줄었어요.",
+   "why_now": "테슬라와 스페이스X의 어려움이 커지면서 그의 자산 가치가 크게 하락했어요.",
    "details": [
-    "Musk Net Worth Down By More Than $600 Billion as SpaceX , Tesla Woes Mount - Tesla ( NASDAQ : TSLA ), SpaceX",
-    "Tesla Q2 Earnings , Musk Robotaxi Bets , SpaceX Merger on the Horizon and More : This Week in Mobility -",
-    "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?"
+    "일론 머스크의 자산이 6천억 달러 이상 감소했어요.",
+    "이는 테슬라와 스페이스X의 실적 부진과 관련이 있어요.",
+    "테슬라 주가는 올해 들어 30% 하락했어요.",
+    "투자자들은 테슬라 주가 하락 시점에 매수를 고려하고 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "테슬라 주가가 계속 하락하면 투자자들의 손실이 커질 수 있어요!",
+    "테슬라의 로보택시 사업과 스페이스X의 합병 관련 소식이 주목받고 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "af1d828778d6bf5d77b8276965da724207401b9a"
  },
