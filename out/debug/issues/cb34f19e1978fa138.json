@@ -12,7 +12,7 @@
  "seen_sources": 2,
  "importance": 90,
  "created_at": "2026-07-26T15:35:55.489606+00:00",
- "last_update": "2026-07-26T15:35:55.490473+00:00",
+ "last_update": "2026-07-26T17:31:16.519686+00:00",
  "members": [
   {
    "id": "c3f19098b3313db75d89dbb6831996a7ed6fe0ad",
@@ -22,7 +22,17 @@
    "title": "Musk Net Worth Down By More Than $600 Billion as SpaceX , Tesla Woes Mount - Tesla ( NASDAQ : TSLA ), SpaceX",
    "published_at": "2026-07-26T14:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.964
+   "sim_to_centroid": 0.9636
+  },
+  {
+   "id": "3d271baf0a32d8ea0e720cc8870d8d8476464d2f",
+   "source": "benzinga.com",
+   "tier": "wire",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60686016/teslas-q2-earnings-musks-robotaxi-bets-spacex-merger-on-the-horizon-and-more-this-week-in-mobility",
+   "title": "Tesla Q2 Earnings , Musk Robotaxi Bets , SpaceX Merger on the Horizon and More : This Week in Mobility -",
+   "published_at": "2026-07-26T14:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9142
   },
   {
    "id": "c1177157808e681311db56be0dd10759d242690c",
@@ -32,7 +42,7 @@
    "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "published_at": "2026-07-26T12:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9641
+   "sim_to_centroid": 0.9625
   }
  ],
  "anchors": [],
@@ -46,6 +56,13 @@
   },
   {
    "kind": "headline",
+   "title": "Tesla Q2 Earnings , Musk Robotaxi Bets , SpaceX Merger on the Horizon and More : This Week in Mobility -",
+   "source": "benzinga.com",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60686016/teslas-q2-earnings-musks-robotaxi-bets-spacex-merger-on-the-horizon-and-more-this-week-in-mobility",
+   "at": "2026-07-26T14:00:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "source": "fool.com",
    "url": "https://www.fool.com/investing/2026/07/26/down-30-on-the-year-is-tesla-stock-a-buy-on-this-l/",
@@ -53,48 +70,45 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-26T15:36:24.403784+00:00",
+  "model": "template",
+  "created_at": "2026-07-26T17:39:08.315928+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "Musk Net Worth Down By More Than $600 Billion as SpaceX , Tesla Woes Mount - Tesla ( NASDAQ : TSLA ), SpaceX",
+    "Tesla Q2 Earnings , Musk Robotaxi Bets , SpaceX Merger on the Horizon and More : This Week in Mobility -",
     "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"머스크 재산 감소\",\n  \"one_liner\": \"머스크의 재산이 6천억 달러 이상 줄었어요.\",\n  \"why_now\": \"머스크가 가진 회사들의 주가가 떨어지면서 그의 재산도 함께 줄어들고 있어요.\",\n  \"impact_line\": \"머스크 재산 감소는 주식 시장 전반에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"머스크의 재산이 6천억 달러 이상 감소했어요.\",\n    \"이는 테슬라와 스페이스X의 어려움과 관련이 있어요.\",\n    \"테슬라 주가는 올해 들어 30% 하락했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"테슬라 주가 하락은 투자자들의 손실로 이어질 수 있어요!\",\n    \"머스크의 재산 감소는 기술주 전반에 대한 투자 심리에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"머스크\",\n      \"easy\": \"테슬라와 스페이스X 같은 유명 회사를 이끄는 사람이에요.\",\n      \"example\": \"머스크는 혁신적인 기술로 유명해요.\"\n    },\n    {\n      \"term\": \"재산\",\n      \"easy\": \"개인이나 회사가 가지고 있는 돈과 물건을 모두 합한 거예요.\",\n      \"example\": \"부동산, 주식, 자동차 등이 재산에 포함돼요.\"\n    },\n    {\n      \"term\": \"달러\",\n      \"easy\": \"미국에서 사용하는 돈 단위예요.\",\n      \"example\": \"1달러는 약 1,300원 정도예요.\"\n    },\n    {\n      \"term\": \"테슬라\",\n      \"easy\": \"전기 자동차를 만드는 유명한 미국 회사 이름이에요.\",\n      \"example\": \"테슬라 자동차는 디자인이 독특해요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [6000.0]"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
    }
   ],
   "output": {
-   "title": "머스크 재산 감소",
-   "one_liner": "머스크의 재산이 6천억 달러 이상 줄었어요.",
-   "why_now": "머스크가 가진 회사들의 주가가 떨어지면서 그의 재산도 함께 줄어들고 있어요.",
+   "title": "Musk Net Worth Down…",
+   "one_liner": "Musk Net Worth Down By More Than $600 Billion as…",
+   "why_now": null,
    "details": [
-    "머스크의 재산이 6천억 달러 이상 감소했어요.",
-    "이는 테슬라와 스페이스X의 어려움과 관련이 있어요.",
-    "테슬라 주가는 올해 들어 30% 하락했어요."
+    "Musk Net Worth Down By More Than $600 Billion as SpaceX , Tesla Woes Mount - Tesla ( NASDAQ : TSLA ), SpaceX",
+    "Tesla Q2 Earnings , Musk Robotaxi Bets , SpaceX Merger on the Horizon and More : This Week in Mobility -",
+    "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?"
    ],
-   "effects": [
-    "테슬라 주가 하락은 투자자들의 손실로 이어질 수 있어요!",
-    "머스크의 재산 감소는 기술주 전반에 대한 투자 심리에 영향을 줄 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "bdd82d5468396f752378e94b8cbfe3349a34a411"
+  "fact_hash": "af1d828778d6bf5d77b8276965da724207401b9a"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-26T17:39:08.315810+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -104,6 +118,12 @@
    "shared": [
     "TSLA"
    ]
+  },
+  {
+   "id": "cd41f78d2b746ddd5",
+   "title": "Tech bounce lifts Asia stocks , oil extends gains on US - Iran fears",
+   "category": "MARKET",
+   "shared": []
   },
   {
    "id": "c8767f6a04dae9d1b",
@@ -120,12 +140,6 @@
    "shared": [
     "TSLA"
    ]
-  },
-  {
-   "id": "cd41f78d2b746ddd5",
-   "title": "Tech bounce lifts Asia stocks , oil extends gains on US - Iran fears",
-   "category": "MARKET",
-   "shared": []
   },
   {
    "id": "c2a4c3894a14ae550",
