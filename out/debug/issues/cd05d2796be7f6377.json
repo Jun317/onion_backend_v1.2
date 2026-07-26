@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-25T21:15:15.722236+00:00",
+  "created_at": "2026-07-26T01:03:52.356640+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,8 +64,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"마이크론 주가 변동\",\n\"one_liner\": \"마이크론의 주가가 최근 변동성을 보이고 있어요.\",\n\"why_now\": \"마이크론의 주가는 인공지능 관련 사업 전망에 따라 움직이고 있어요.\",\n\"impact_line\": \"마이크론 주가 변동은 관련 기술주 투자에 영향을 줄 수 있어요.\",\n\"details\": [\n\"Cumberland Partners Ltd가 마이크론 주식 6,900주를 매수했어요.\",\n\"마이크론의 인공지능 관련 사업 전망에 대한 시장의 평가가 엇갈리고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"마이크론의 실적이 인공지능 수요에 따라 크게 달라질 수 있어요!\",\n\"관련 기술주들의 주가에도 영향을 미칠 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"주식\",\n\"easy\": \"회사의 소유권을 나누어 놓은 조각이에요.\",\n\"example\": \"주식을 사면 그 회사의 일부를 가지게 되는 거예요.\"\n},\n{\n\"term\": \"인공지능\",\n\"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n\"example\": \"인공지능 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n}\n]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "입력에 없는 숫자: [6900.0]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -87,8 +94,8 @@
   "fact_hash": "73e0d58ba0c521127991a138257989d9db353192"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-25T21:15:15.722068+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [6900.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-26T01:03:52.356543+00:00"
  },
  "glossary": [],
  "related": [

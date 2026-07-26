@@ -187,8 +187,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-25T21:22:02.270457+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-26T01:03:08.442535+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -201,26 +201,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"파키스탄 신용 등급 상승\",\n   \"one_liner\": \"파키스탄의 신용 등급이 B로 올라갔어요\",\n   \"why_now\": \"신용 등급이 올라가면 국가에 돈을 빌려줄 때 위험이 적어져요\",\n   \"impact_line\": \"파키스탄에 투자할 때 더 안정적일 수 있어요\",\n   \"details\": [\n       \"파키스탄의 신용 등급이 B로 올라갔어요\",\n       \"신용 등급이 올라가면 국가의 경제가 안정적이라고 보는 거예요\",\n       \"파키스탄의 경제 성장이 좋아졌다고 할 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"파키스탄에 대한 투자가 더 활발해질 수 있어요!\",\n       \"파키스탄의 경제 성장이 더 빨라질 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"신용 등급\",\n           \"easy\": \"돈을 빌려줄 때 위험을 나타내는 등급이에요\",\n           \"example\": \"등급이 높으면 위험이 적고 돈을 빌리기 쉽게 돼요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "S & P upgrades…",
-   "one_liner": "S & P upgrades Pakistan sovereign credit rating…",
-   "why_now": null,
+   "title": "파키스탄 신용 등급 상승",
+   "one_liner": "파키스탄의 신용 등급이 B로 올라갔어요",
+   "why_now": "신용 등급이 올라가면 국가에 돈을 빌려줄 때 위험이 적어져요",
    "details": [
-    "S & P upgrades Pakistan sovereign credit rating to  B , Outlook Stable",
-    "S & P Global upgrades Pakistan credit rating to  B",
-    "S & P upgrades credit rating to B"
+    "파키스탄의 신용 등급이 B로 올라갔어요",
+    "신용 등급이 올라가면 국가의 경제가 안정적이라고 보는 거예요",
+    "파키스탄의 경제 성장이 좋아졌다고 할 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "파키스탄에 대한 투자가 더 활발해질 수 있어요!",
+    "파키스탄의 경제 성장이 더 빨라질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "28ba0ca22e78af0c2cd7ea1ce7ff27bc2e7670ca"
  },
@@ -255,8 +256,8 @@
    "shared": []
   },
   {
-   "id": "c7c0f262265dbe065",
-   "title": "Will interest rates go up next week ? Bank of England key factors and 2026 predictions",
+   "id": "e97a81ef1127b8815",
+   "title": "미 연준 기준금리 변동 (4.08%)",
    "category": "RATE",
    "shared": []
   }

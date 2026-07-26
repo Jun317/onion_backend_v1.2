@@ -874,7 +874,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-25T21:14:39.028086+00:00",
+  "created_at": "2026-07-26T01:03:13.817610+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,12 +887,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"인도 경제 성장\",\n   \"one_liner\": \"인도는 세계에서 가장 빠르게 성장하는 주요 경제국이에요.\",\n   \"why_now\": \"인도는 강한 국내 수요로 성장할 것으로 예상돼요.\",\n   \"impact_line\": \"인도의 성장으로 국제 무역이 활성화될 수 있어요.\",\n   \"details\": [\n       \"인도는 2027년 경제 성장률 6.4%를 기록할 것으로 예상돼요.\",\n       \"인도는 세계에서 가장 빠르게 성장하는 주요 경제국이에요.\",\n       \"인도의 성장은 강한 국내 수요에 의해 주도돼요.\",\n       \"인도는 UAE, 파키스탄과 함께 아시아의 주요 경제국 중 하나예요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"인도의 성장으로 국제 무역이 활성화될 수 있어요!\",\n       \"인도의 성장은 아시아 경제에 긍정적인 영향을 미칠 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"GDP\",\n           \"easy\": \"국가의 총 국내 생산액이에요.\",\n           \"example\": \"국가의 경제 성장률은 GDP로 측정돼요.\"\n       }\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"인도 경제 성장\",\n   \"one_liner\": \"인도는 가장 빠르게 성장하는 주요 경제국이에요.\",\n   \"why_now\": \"인도가 빠르게 성장하면 많은 사람이 일할 수 있고, 물건을 살 수 있어요.\",\n   \"impact_line\": \"인도 제품 수출이 늘어나면 한국에서도 더 다양한 인도 물건을 살 수 있어요\",\n   \"details\": [\n      \"인도는 가장 빠르게 성장하는 주요 경제국이에요.\",\n      \"인도의 성장률은 6.4%예요.\",\n      \"인도의 성장은 강한 국내 수요 덕분이에요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"인도가 성장하면 인도와 거래하는 나라의 경제에도 도움이 될 수 있어요!\",\n      \"인도에서 만든 제품이 더 많이 수출될 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"GDP\",\n         \"easy\": \"한 나라에서 한 해 동안 만들어진 모든 제품과 서비스의 가치예요.\",\n         \"example\": \"한 나라의 GDP가 높으면 그 나라가 부유한 나라라는 뜻이에요.\"\n      }\n   ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "입력에 없는 숫자: [6.4]"
+     "입력에 없는 숫자: [3.5, 3.7, 6.4]"
     ]
    },
    {
@@ -917,8 +917,8 @@
   "fact_hash": "cfd78157cf896eed094d7420fa8b3e8a7f9b1246"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}]}",
-  "at": "2026-07-25T21:14:39.027868+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [3.5, 3.7, 6.4]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}]}",
+  "at": "2026-07-26T01:03:13.817471+00:00"
  },
  "glossary": [
   {
@@ -956,21 +956,20 @@
    ]
   },
   {
+   "id": "c03074aeed49bf60f",
+   "title": "World Bank confirms plan to phase out China lending by 2031",
+   "category": "RATE",
+   "shared": [
+    "CHINA"
+   ]
+  },
+  {
    "id": "c8767f6a04dae9d1b",
    "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "category": "MARKET",
    "shared": [
     "FED",
     "TSLA"
-   ]
-  },
-  {
-   "id": "cd7b762c4b0212485",
-   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
-   "category": "GEO",
-   "shared": [
-    "CHINA",
-    "SEC"
    ]
   }
  ]
