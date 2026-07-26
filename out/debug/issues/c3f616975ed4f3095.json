@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-26T04:53:13.768827+00:00",
+  "created_at": "2026-07-26T10:19:09.581804+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,12 +881,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"일상 속 다양한 이야기\", \"one_liner\": \"은퇴 후 무엇을 해야 할지, 일광 절약 시간에 대한 생각 등 다양한 이야기가 나왔어요.\", \"why_now\": \"일상에서 접할 수 있는 여러 주제에 대한 사람들의 생각을 엿볼 수 있어요.\", \"impact_line\": null, \"details\": [\"은퇴 후의 삶에 대한 이야기가 있었어요.\", \"일광 절약 시간에 대한 글이 실렸어요.\", \"파키스탄의 상황에 대한 기사가 나왔어요.\", \"미국 환경보호청의 권한 남용에 대한 입법 기회가 언급됐어요.\", \"글래스고의 저녁 6시 문제와 해결 방안에 대한 내용도 있었어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"일광 절약 시간\", \"easy\": \"여름철에 해가 길어지는 것을 활용해 낮 시간을 더 효율적으로 쓰기 위해 시계를 한 시간 앞당기는 제도예요.\", \"example\": \"일광 절약 시간 덕분에 저녁에 해가 늦게 져서 퇴근 후에도 밝을 때 활동할 수 있어요.\"}, {\"term\": \"미국 환경보호청\", \"easy\": \"미국에서 환경 보호와 관련된 정책을 만들고 시행하는 정부 기관이에요.\", \"example\": \"미국 환경보호청은 공장 매연 배출 기준을 강화하는 정책을 발표했어요.\"}], \"impact_line\": null}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects 1~2문장 아님"
     ]
    }
   ],
@@ -905,8 +911,8 @@
   "fact_hash": "1c5622990e16ff243c1b4bef05abcc720dc2860f"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-26T04:53:13.768710+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}]}",
+  "at": "2026-07-26T10:19:09.581697+00:00"
  },
  "glossary": [],
  "related": [

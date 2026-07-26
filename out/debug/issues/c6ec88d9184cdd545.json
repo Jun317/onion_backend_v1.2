@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-26T04:51:59.729382+00:00",
+  "created_at": "2026-07-26T10:17:52.891520+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,12 +64,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"스타벅스 CEO 주식 매도\",\n  \"one_liner\": \"스타벅스 CEO가 2억 3천만 원 상당의 주식을 팔았어요.\",\n  \"why_now\": \"회사를 이끄는 최고 경영진이 주식을 파는 것은 투자자들에게 중요한 신호가 될 수 있어요.\",\n  \"impact_line\": \"스타벅스 주가에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"스타벅스 CEO 브래디 브루어는 2,229주를 매도했어요.\",\n    \"매도한 주식의 가치는 약 2억 3천만 원이에요.\",\n    \"이 거래는 내부자 거래에 해당해요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"스타벅스 주가가 하락할 수 있어요!\",\n    \"투자자들의 스타벅스에 대한 신뢰도가 낮아질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"CEO\",\n      \"easy\": \"회사의 최고 경영 책임자를 말해요.\",\n      \"example\": \"CEO는 회사의 중요한 결정을 내리는 역할을 해요.\"\n    },\n    {\n      \"term\": \"내부자 거래\",\n      \"easy\": \"회사의 중요한 정보를 아는 사람이 주식을 사고파는 것을 말해요.\",\n      \"example\": \"내부자 거래는 법으로 엄격하게 규제되고 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [2229.0, 3181.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [2229.0]"
     ]
    }
   ],
@@ -87,8 +93,8 @@
   "fact_hash": "dd3dae30adb074bb748d0a8d2d7d2e5db2f1d7c9"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-26T04:51:59.729312+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [2229.0, 3181.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [2229.0]\"]}]}",
+  "at": "2026-07-26T10:17:52.891392+00:00"
  },
  "glossary": [],
  "related": [

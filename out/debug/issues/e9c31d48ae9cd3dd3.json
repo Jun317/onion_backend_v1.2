@@ -38,7 +38,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-26T04:51:22.800125+00:00",
+  "created_at": "2026-07-26T10:17:25.127712+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [
@@ -57,12 +57,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 물가 상승률 발표\",\n  \"one_liner\": \"미국의 소비자 물가가 3.46% 올랐어요.\",\n  \"why_now\": \"물가 상승률은 금리 결정에 큰 영향을 미쳐요. 금리가 오르면 대출 이자가 늘어날 수 있어요.\",\n  \"impact_line\": \"수입 물건 가격이 오르거나, 대출 이자가 늘어날 수 있어요.\",\n  \"details\": [\n    \"미국의 6월 소비자 물가 상승률이 3.46%로 발표됐어요.\",\n    \"이는 작년 같은 기간 대비 상승한 수치예요.\"\n  ],\n  \"visual_type\": \"us_cpi_yoy\",\n  \"effects\": [\n    \"물가 상승이 계속되면 미국 중앙은행이 금리를 올릴 가능성이 있어요!\",\n    \"금리가 오르면 한국의 대출 이자도 함께 오를 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"CPI\",\n      \"easy\": \"소비자들이 자주 사는 물건들의 가격 변화를 나타내는 지표예요.\",\n      \"example\": \"CPI가 오르면 장바구니 물가가 비싸졌다고 느낄 수 있어요.\"\n    },\n    {\n      \"term\": \"YoY%\",\n      \"easy\": \"작년 같은 기간과 비교한 변화율을 뜻해요.\",\n      \"example\": \"작년 6월보다 올해 6월 물가가 얼마나 올랐는지 보여줘요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "입력에 없는 숫자: [3.46]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "입력에 없는 숫자: [3.46]"
     ]
    }
   ],
@@ -79,8 +87,8 @@
   "fact_hash": "23ab769aaa6b03d73c1331c879427daacca343b7"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-26T04:51:22.800061+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [3.46]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [3.46]\"]}]}",
+  "at": "2026-07-26T10:17:25.127578+00:00"
  },
  "glossary": [
   {

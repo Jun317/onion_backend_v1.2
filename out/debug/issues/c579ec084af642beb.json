@@ -851,7 +851,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-26T04:52:55.202029+00:00",
+  "created_at": "2026-07-26T10:18:55.843679+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -864,8 +864,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"실업률 최저치 기록\", \"one_liner\": \"미국의 실업 수당 신청 건수가 1969년 이후 가장 낮은 수준으로 떨어졌어요.\", \"why_now\": \"실업 수당 신청 건수가 줄면 경기가 좋다는 신호로 볼 수 있어요.\", \"impact_line\": \"취업 시장이 좋아지면서 일자리를 구하기 쉬워질 수 있어요.\", \"details\": [\"미국의 실업 수당 신청 건수가 크게 줄었어요.\", \"이는 1969년 이후 가장 낮은 수치예요.\"], \"visual_type\": \"none\", \"effects\": [\"고용 시장이 긍정적인 신호를 보이면서 소비가 늘어날 수 있어요!\", \"기업들이 사람을 더 뽑으려 하면서 임금 상승으로 이어질 수도 있어요!\"], \"glossary\": []}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -888,8 +894,8 @@
   "fact_hash": "08983d14bf158a5b174c832315ab5d477ce6b3f0"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-26T04:52:55.201962+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-26T10:18:55.843606+00:00"
  },
  "glossary": [],
  "related": [
