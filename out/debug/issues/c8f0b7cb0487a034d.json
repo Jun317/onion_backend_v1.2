@@ -9,11 +9,21 @@
  "entity_keys": [
   "IMF"
  ],
- "seen_sources": 2,
- "importance": 95,
+ "seen_sources": 3,
+ "importance": 105,
  "created_at": "2026-07-24T14:20:12.855565+00:00",
- "last_update": "2026-07-24T14:20:12.856144+00:00",
+ "last_update": "2026-07-26T15:35:55.473935+00:00",
  "members": [
+  {
+   "id": "51191d2316653f01c166b72542aa1a94d1b0c706",
+   "source": "ghanamma.com",
+   "tier": "wire",
+   "url": "https://www.ghanamma.com/2026/07/26/ghanas-economic-reset-under-scrutiny-six-critical-tests-for-sustained-stability-beyond-the-imfs-watchful-eye/",
+   "title": "Ghana Economic Reset Under Scrutiny : Six Critical Tests for Sustained Stability Beyond the IMF Watchful Eye – Ghanamma . com",
+   "published_at": "2026-07-26T14:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8896
+  },
   {
    "id": "e63d053154ab167e557fc5cfeab3eae439de8f82",
    "source": "riotimesonline.com",
@@ -22,7 +32,7 @@
    "title": "Georgieva Argentina Visit : IMF Backs Reserves , Flags Fiscal Doubts",
    "published_at": "2026-07-24T12:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9568
+   "sim_to_centroid": 0.9581
   },
   {
    "id": "3495ffd8d99fc0cd7c20c401e477d2ad63ac8746",
@@ -32,11 +42,18 @@
    "title": "Finance minister reviews Pakistan economic progress with IMF",
    "published_at": "2026-07-24T08:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9568
+   "sim_to_centroid": 0.953
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Ghana Economic Reset Under Scrutiny : Six Critical Tests for Sustained Stability Beyond the IMF Watchful Eye – Ghanamma . com",
+   "source": "ghanamma.com",
+   "url": "https://www.ghanamma.com/2026/07/26/ghanas-economic-reset-under-scrutiny-six-critical-tests-for-sustained-stability-beyond-the-imfs-watchful-eye/",
+   "at": "2026-07-26T14:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Georgieva Argentina Visit : IMF Backs Reserves , Flags Fiscal Doubts",
@@ -53,45 +70,44 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-24T21:34:13.083652+00:00",
+  "model": "template",
+  "created_at": "2026-07-26T15:37:40.414634+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
    "headlines": [
+    "Ghana Economic Reset Under Scrutiny : Six Critical Tests for Sustained Stability Beyond the IMF Watchful Eye – Ghanamma . com",
     "Georgieva Argentina Visit : IMF Backs Reserves , Flags Fiscal Doubts",
     "Finance minister reviews Pakistan economic progress with IMF"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"IMF, 파키스탄 경제 상황 점검\", \"one_liner\": \"IMF가 파키스탄의 경제 상황을 점검하고 지원 방안을 논의했어요.\", \"why_now\": \"IMF의 지원은 파키스탄 경제 회복에 중요한 영향을 줄 수 있어요.\", \"impact_line\": \"파키스탄 경제 상황에 따라 환율 변동성이 커질 수 있어요.\", \"details\": [\"IMF 총재가 파키스탄을 방문했어요.\", \"파키스탄 재무장관과 경제 현안을 논의했어요.\", \"IMF는 파키스탄의 외환 보유고 확대를 지지했어요.\", \"하지만 재정 건전성에 대한 우려도 제기했어요.\"], \"visual_type\": \"none\", \"effects\": [\"IMF의 지원이 결정되면 파키스탄의 외환 보유고가 늘어날 수 있어요!\", \"재정 건전성 문제가 해결되지 않으면 경제 회복이 더뎌질 수 있어요!\"], \"glossary\": [{\"term\": \"IMF\", \"easy\": \"나라 간의 경제 협력을 돕는 국제기구예요.\", \"example\": \"IMF는 경제가 어려운 나라에 돈을 빌려주기도 해요.\"}, {\"term\": \"외환 보유고\", \"easy\": \"나라가 가지고 있는 외국 돈이에요.\", \"example\": \"외환 보유고가 많으면 나라 경제가 안정적이라고 볼 수 있어요.\"}, {\"term\": \"재정 건전성\", \"easy\": \"나라 살림을 얼마나 잘 꾸려나가고 있는지를 뜻해요.\", \"example\": \"재정 건전성이 좋으면 나라 빚이 적고 경제가 튼튼하다고 볼 수 있어요.\"}], \"impact_line\": \"파키스탄 경제 상황에 따라 환율 변동성이 커질 수 있어요.\"}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "IMF, 파키스탄 경제 상황 점검",
-   "one_liner": "IMF가 파키스탄의 경제 상황을 점검하고 지원 방안을 논의했어요.",
-   "why_now": "IMF의 지원은 파키스탄 경제 회복에 중요한 영향을 줄 수 있어요.",
+   "title": "Ghana Economic Reset…",
+   "one_liner": "Ghana Economic Reset Under Scrutiny : Six…",
+   "why_now": null,
    "details": [
-    "IMF 총재가 파키스탄을 방문했어요.",
-    "파키스탄 재무장관과 경제 현안을 논의했어요.",
-    "IMF는 파키스탄의 외환 보유고 확대를 지지했어요.",
-    "하지만 재정 건전성에 대한 우려도 제기했어요."
+    "Ghana Economic Reset Under Scrutiny : Six Critical Tests for Sustained Stability Beyond the IMF Watchful Eye – Ghanamma . com",
+    "Georgieva Argentina Visit : IMF Backs Reserves , Flags Fiscal Doubts",
+    "Finance minister reviews Pakistan economic progress with IMF"
    ],
-   "effects": [
-    "IMF의 지원이 결정되면 파키스탄의 외환 보유고가 늘어날 수 있어요!",
-    "재정 건전성 문제가 해결되지 않으면 경제 회복이 더뎌질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "usdkrw"
   },
-  "fact_hash": "37a217c1386f4c98ba3df474e7ddc56b0339c35e"
+  "fact_hash": "ebd3d2b32ef2c85195805e0a1fb41a8d4f7b9e43"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-24T17:58:28.345978+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-26T15:37:40.414559+00:00"
  },
  "glossary": [],
  "related": [
