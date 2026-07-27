@@ -71,7 +71,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-27T18:53:00.298852+00:00",
+  "created_at": "2026-07-27T22:32:28.710938+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -81,20 +81,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"에어 인디아 노선 변경\",\n   \"one_liner\": \"에어 인디아가 델리-토론토 노선에 새로운 항공기를 투입할 예정이에요.\",\n   \"why_now\": \"에어 인디아가 노선과 항공기를 변경하면 여행자가 더 편리하게 이동할 수 있어요.\",\n   \"impact_line\": \"델리에서 토론토로 여행하는 사람이 더 편해질 수 있어요\",\n   \"details\": [\n       \"에어 인디아가 델리-토론토 노선에 새로운 보잉 787-9 항공기를 투입할 예정이에요.\",\n       \"에어 인디아가 8월 1일부터 비엔나 경유를 없앨 계획이에요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"에어 인디아의 델리-토론토 노선이 더 편리해져 여행객이 늘어날 수 있어요!\",\n       \"에어 인디아의 경쟁력이 강화되어 더 많은 노선을 개설할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만",
-     "입력에 없는 숫자: [-9.0]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 3문장 미만",
-     "입력에 없는 숫자: [-9.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -112,8 +104,8 @@
   "fact_hash": "43565935a26762b2ed9e5c04f3a451b3cd88494e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [-9.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [-9.0]\"]}]}",
-  "at": "2026-07-27T18:53:00.298693+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-27T22:32:28.710834+00:00"
  },
  "glossary": [],
  "related": [
