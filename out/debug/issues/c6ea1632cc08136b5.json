@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-27T15:21:25.204616+00:00",
+  "created_at": "2026-07-27T18:53:26.653376+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,21 +64,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"Salesforce 주식 매수\",\n   \"one_liner\": \"로ンバ드 오디에르 자산 관리 유럽이 Salesforce 주식을 6289주 샀어요\",\n   \"why_now\": \"투자자들이 좋은 성과를 내는 기업의 주식을 사고 싶어 할 수 있어요\",\n   \"impact_line\": \"Salesforce의 주가가 오를 수 있어요\",\n   \"details\": [\n       \"로ンバ드 오디에르 자산 관리 유럽이 Salesforce 주식을 6289주 샀어요\",\n       \"Salesforce와 ServiceNow 중 어떤 주식을 사야 좋을지比较하는 기사가 나왔어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"Salesforce의 주가가 오르면 투자자들이 더 많은 이익을 얻을 수 있어요!\",\n       \"Salesforce의 성과가 좋아지면 고객들이 더 많은 서비스를 이용할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n\"title\": \"세일즈포스 주식 매수\",\n\"one_liner\": \"로옴바드 오디에 자산운용이 세일즈포스 주식 6,289주를 매수했어요.\",\n\"why_now\": \"세일즈포스 같은 기업의 주식 매수는 시장의 관심을 보여주는 신호가 될 수 있어요.\",\n\"impact_line\": \"세일즈포스 주가에 영향을 줄 수 있어요.\",\n\"details\": [\n\"로옴바드 오디에 자산운용 유럽 법인이 세일즈포스 주식 6,289주를 사들였어요.\",\n\"세일즈포스 주식 티커는 CRM이에요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"이 매수가 세일즈포스 주가 상승으로 이어질 수 있어요!\",\n\"다른 투자자들의 관심을 끌어 추가적인 주가 변동을 가져올 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"주식\",\n\"easy\": \"회사의 소유권 일부를 나타내는 증서예요.\",\n\"example\": \"주식을 사면 그 회사의 주인이 되는 거예요.\"\n},\n{\n\"term\": \"티커\",\n\"easy\": \"주식 시장에서 회사를 구별하는 짧은 이름표예요.\",\n\"example\": \"삼성전자의 티커는 005930이에요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "one_liner 에 한자/가나 포함",
+     "details 3문장 미만",
      "입력에 없는 숫자: [6289.0]"
     ]
    },
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "one_liner 에 한자/가나 포함",
-     "details 3문장 미만",
-     "입력에 없는 숫자: [6289.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -96,8 +94,8 @@
   "fact_hash": "3b88f828f5fa8e27c71642ad0b0c2ab447d006c1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"입력에 없는 숫자: [6289.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}]}",
-  "at": "2026-07-27T15:21:25.204488+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-27T18:53:26.653247+00:00"
  },
  "glossary": [],
  "related": [

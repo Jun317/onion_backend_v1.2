@@ -325,8 +325,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-27T15:28:05.988292+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-27T18:52:49.882795+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -339,26 +339,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"중국과 경제\",\n   \"one_liner\": \"중국은 미국의 새로운 관세에 반대하고 있어요.\",\n   \"why_now\": \"貿易 전쟁이 일어나면 모든 나라의 경제에 영향을 줄 수 있어요.\",\n   \"impact_line\": \"중국과 거래하는 나라의 물가가 오를 수 있어요\",\n   \"details\": [\n       \"중국은 미국의 새로운 관세에 반대하고 있어요.\",\n       \"중국은貿易 전쟁을 경고하고 있어요.\",\n       \"세계은행은 2031년까지 중국에 대한 대출을 중단할 계획이에요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"중국과 거래하는 나라의 수출이 어려워질 수 있어요!\",\n       \"貿易 전쟁이 일어나면 모든 나라의 경제에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Chile Consul General…",
-   "one_liner": "Chile Consul General in Chengdu calls for deeper…",
-   "why_now": null,
+   "title": "중국과 경제",
+   "one_liner": "중국은 미국의 새로운 관세에 반대하고 있어요.",
+   "why_now": "貿易 전쟁이 일어나면 모든 나라의 경제에 영향을 줄 수 있어요.",
    "details": [
-    "Chile Consul General in Chengdu calls for deeper China - Chile cooperation in AI and digital economy",
-    "Chinese Ambassador Claims China Rise Is a Force for Global Peace",
-    "Beyond CPEC : The Next Chapter of Pakistan - China Relations"
+    "중국은 미국의 새로운 관세에 반대하고 있어요.",
+    "중국은貿易 전쟁을 경고하고 있어요.",
+    "세계은행은 2031년까지 중국에 대한 대출을 중단할 계획이에요."
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "중국과 거래하는 나라의 수출이 어려워질 수 있어요!",
+    "貿易 전쟁이 일어나면 모든 나라의 경제에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "c1f3911cd7c23e05a664ba87d6ab1916f01be291"
  },
@@ -366,7 +367,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-27T15:28:05.988219+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cb00a5f20e2c800d5",
