@@ -12,8 +12,18 @@
  "seen_sources": 3,
  "importance": 95,
  "created_at": "2026-07-26T15:35:55.489606+00:00",
- "last_update": "2026-07-27T15:21:02.689302+00:00",
+ "last_update": "2026-07-27T20:48:59.653241+00:00",
  "members": [
+  {
+   "id": "52f9549b7c1c95b96bb4ff698d1a07b549f95fbb",
+   "source": "benzinga.com",
+   "tier": "wire",
+   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/07/60706812/gary-black-issues-warning-tesla-investors-ahead-potential-spacex-merger",
+   "title": "Gary Black Issues Warning to Tesla Investors Ahead of Potential SpaceX Merger - Tesla ( NASDAQ : TSLA ), Spac",
+   "published_at": "2026-07-27T18:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9247
+  },
   {
    "id": "c865ea4964e2bbec9b645a203cee7dcf23a42773",
    "source": "baystreet.ca",
@@ -22,7 +32,7 @@
    "title": "Baystreet . ca - What To Do After Tesla and SpaceX Shares Sank",
    "published_at": "2026-07-27T12:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9096
+   "sim_to_centroid": 0.911
   },
   {
    "id": "c3f19098b3313db75d89dbb6831996a7ed6fe0ad",
@@ -32,7 +42,7 @@
    "title": "Musk Net Worth Down By More Than $600 Billion as SpaceX , Tesla Woes Mount - Tesla ( NASDAQ : TSLA ), SpaceX",
    "published_at": "2026-07-26T14:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.962
+   "sim_to_centroid": 0.9617
   },
   {
    "id": "3d271baf0a32d8ea0e720cc8870d8d8476464d2f",
@@ -42,7 +52,7 @@
    "title": "Tesla Q2 Earnings , Musk Robotaxi Bets , SpaceX Merger on the Horizon and More : This Week in Mobility -",
    "published_at": "2026-07-26T14:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9168
+   "sim_to_centroid": 0.9186
   },
   {
    "id": "c1177157808e681311db56be0dd10759d242690c",
@@ -52,11 +62,18 @@
    "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "published_at": "2026-07-26T12:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9613
+   "sim_to_centroid": 0.9588
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Gary Black Issues Warning to Tesla Investors Ahead of Potential SpaceX Merger - Tesla ( NASDAQ : TSLA ), Spac",
+   "source": "benzinga.com",
+   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/07/60706812/gary-black-issues-warning-tesla-investors-ahead-potential-spacex-merger",
+   "at": "2026-07-27T18:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Baystreet . ca - What To Do After Tesla and SpaceX Shares Sank",
@@ -87,12 +104,13 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-27T18:53:05.890241+00:00",
+  "model": "template",
+  "created_at": "2026-07-27T20:49:54.680772+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Gary Black Issues Warning to Tesla Investors Ahead of Potential SpaceX Merger - Tesla ( NASDAQ : TSLA ), Spac",
     "Baystreet . ca - What To Do After Tesla and SpaceX Shares Sank",
     "Musk Net Worth Down By More Than $600 Billion as SpaceX , Tesla Woes Mount - Tesla ( NASDAQ : TSLA ), SpaceX",
     "Tesla Q2 Earnings , Musk Robotaxi Bets , SpaceX Merger on the Horizon and More : This Week in Mobility -",
@@ -100,39 +118,32 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"테슬라 주가 하락\",\n   \"one_liner\": \"테슬라와 스페이스엑스의 주가가 떨어졌어요.\",\n   \"why_now\": \"주가가 떨어지면 투자자들이 손해를 볼 수 있어요.\",\n   \"impact_line\": \"테슬라 자동차를 사려는 사람에게는 좋을 수 있어요\",\n   \"details\": [\n      \"테슬라와 스페이스엑스의 주가가 떨어졌어요.\",\n      \"이런 소식으로 머스크의 재산이 줄었어요.\",\n      \"테슬라의 수익과 머스크의 로보택시 계획, 스페이스엑스와의 합병이 चर्च대는 소식이에요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"테슬라 주가가 떨어지면 테슬라 자동차의 가격도 내릴 수 있어요!\",\n      \"테슬라 주가가 오르지 않으면 투자자들이 다른 곳에 투자할 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"로보택시\",\n         \"easy\": \"자율 주행 자동차예요.\",\n         \"example\": \"로보택시를 타면 운전手を 쓰지 않아도 돼요.\"\n      }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [6000.0]"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
    }
   ],
   "output": {
-   "title": "테슬라 주가 하락",
-   "one_liner": "테슬라와 스페이스엑스의 주가가 떨어졌어요.",
-   "why_now": "주가가 떨어지면 투자자들이 손해를 볼 수 있어요.",
+   "title": "Gary Black Issues…",
+   "one_liner": "Gary Black Issues Warning to Tesla Investors…",
+   "why_now": null,
    "details": [
-    "테슬라와 스페이스엑스의 주가가 떨어졌어요.",
-    "이런 소식으로 머스크의 재산이 줄었어요.",
-    "테슬라의 수익과 머스크의 로보택시 계획, 스페이스엑스와의 합병이 चर्च대는 소식이에요."
+    "Gary Black Issues Warning to Tesla Investors Ahead of Potential SpaceX Merger - Tesla ( NASDAQ : TSLA ), Spac",
+    "Baystreet . ca - What To Do After Tesla and SpaceX Shares Sank",
+    "Musk Net Worth Down By More Than $600 Billion as SpaceX , Tesla Woes Mount - Tesla ( NASDAQ : TSLA ), SpaceX"
    ],
-   "effects": [
-    "테슬라 주가가 떨어지면 테슬라 자동차의 가격도 내릴 수 있어요!",
-    "테슬라 주가가 오르지 않으면 투자자들이 다른 곳에 투자할 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "58e38783cdd6601a8ef0939e487cd7e32206632f"
+  "fact_hash": "951bdab0d1848ea83464657d015185f855635966"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-27T15:28:24.438826+00:00"
+  "at": "2026-07-27T20:49:54.680702+00:00"
  },
  "glossary": [],
  "related": [
