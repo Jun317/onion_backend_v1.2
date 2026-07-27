@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-27T04:11:52.931489+00:00",
+  "created_at": "2026-07-27T07:59:40.289869+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,19 +64,21 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"Salesforce 주식 매수\",\n   \"one_liner\": \"로마바드 오디에 자산 관리 유럽이 Salesforce 주식을 6289주 샀어요\",\n   \"why_now\": \"투자자들이 주목하는 기업을 사들여서 주가가 오를 수 있어요\",\n   \"impact_line\": \"Salesforce 사용자들이 서비스에 더 많은 투자가 이뤄질 수 있어요\",\n   \"details\": [\n       \"로마바드 오디에 자산 관리 유럽이 Salesforce 주식을 6289주 샀어요\",\n       \"Salesforce와 ServiceNow 중 어떤 기업의 주식을 사야 좋을지比較하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"Salesforce의 서비스가 더 발전할 수 있어요!\",\n       \"Salesforce 사용자들이 더 좋은 서비스를 받을 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"Salesforce 주식 매수\",\n   \"one_liner\": \"로ンバ드 오디에 자산 관리 유럽이 Salesforce 주식을 6289개 샀어요\",\n   \"why_now\": \"투자자가 특정 기업을 선택할 때는 그 기업의 미래가 밝다고 생각했거나 시장에서 잘할 것으로 예상했어요\",\n   \"impact_line\": \"Salesforce의 주가에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"로ンバ드 오디에 자산 관리 유럽이 Salesforce 주식을 6289개 샀어요\",\n       \"Salesforce와 ServiceNow 중 어떤 것이 더 좋은 매수 대상인지 비교되고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"Salesforce의 주가가 오를 수 있어요!\",\n       \"투자자들이 Salesforce에 더 관심을 가질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "one_liner 50자 초과(70)",
-     "details 3문장 미만",
+     "why_now 55자 초과(58)",
+     "effects[1] 느낌표 종결 아님",
      "입력에 없는 숫자: [6289.0]"
     ]
    },
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
+     "one_liner 에 한자/가나 포함",
+     "why_now 55자 초과(56)",
      "details 3문장 미만",
      "입력에 없는 숫자: [6289.0]"
     ]
@@ -96,8 +98,8 @@
   "fact_hash": "3b88f828f5fa8e27c71642ad0b0c2ab447d006c1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 50자 초과(70)\", \"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}]}",
-  "at": "2026-07-27T04:11:52.931391+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(58)\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [6289.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"why_now 55자 초과(56)\", \"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}]}",
+  "at": "2026-07-27T07:59:40.289723+00:00"
  },
  "glossary": [],
  "related": [

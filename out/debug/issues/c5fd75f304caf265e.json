@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-27T04:14:24.625622+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-27T08:00:46.705656+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,25 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기업 실적 발표 예정\",\n  \"one_liner\": \"여러 기업이 7월 25일에 1분기 실적을 발표할 예정이에요.\",\n  \"why_now\": \"기업의 실적은 회사의 성과를 보여주므로 투자 결정에 중요한 정보가 돼요.\",\n  \"impact_line\": \"실적 발표에 따라 관련 기업의 주가가 변동될 수 있어요.\",\n  \"details\": [\n    \"AU Small Finance Bank의 실적 발표가 예정되어 있어요.\",\n    \"IDFC First Bank도 1분기 실적을 공개할 거예요.\",\n    \"Dr. Reddy Lab의 실적 발표도 같은 날이에요.\",\n    \"Zen Tech와 SBFC Finance도 실적을 발표해요.\",\n    \"Birla Corporation도 1분기 실적을 발표할 예정이에요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"실적이 좋으면 해당 기업의 주가가 오를 수 있어요!\",\n    \"실적이 예상보다 나쁘면 주가가 하락할 수 있어요!\"\n  ],\n  \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Luca Mining ( CVE :…",
-   "one_liner": "Luca Mining ( CVE : LUCA ) Trading Down 3 . 3 %…",
-   "why_now": null,
+   "title": "기업 실적 발표 예정",
+   "one_liner": "여러 기업이 7월 25일에 1분기 실적을 발표할 예정이에요.",
+   "why_now": "기업의 실적은 회사의 성과를 보여주므로 투자 결정에 중요한 정보가 돼요.",
    "details": [
-    "Luca Mining ( CVE : LUCA ) Trading Down 3 . 3 % – What Next ?",
-    "CSCS Declares N1 . 00 Per Share Interim Dividend As H1 Pre - tax Profit Rises 115 %",
-    "Q1 Results 25th July Live : AU Small Finance Bank , IDFC First Bank , Dr . Reddy Lab , Zen Tech , SBFC Finance , Birla Corporation to announce Q1 results"
+    "AU Small Finance Bank의 실적 발표가 예정되어 있어요.",
+    "IDFC First Bank도 1분기 실적을 공개할 거예요.",
+    "Dr. Reddy Lab의 실적 발표도 같은 날이에요.",
+    "Zen Tech와 SBFC Finance도 실적을 발표해요.",
+    "Birla Corporation도 1분기 실적을 발표할 예정이에요."
    ],
-   "effects": [],
+   "effects": [
+    "실적이 좋으면 해당 기업의 주가가 오를 수 있어요!",
+    "실적이 예상보다 나쁘면 주가가 하락할 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "9befa3ffff556935ca1dd5a622cb3cd2351f62b9"

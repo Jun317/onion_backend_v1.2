@@ -595,8 +595,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-27T04:12:39.764746+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-27T07:59:50.105278+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -609,26 +609,35 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"금융 시장 변동\",\n   \"one_liner\": \"정부가 펀드와 주식시장에 변화가 생겼어요\",\n   \"why_now\": \"금융 정책이 바뀌면 투자와 경제에 영향을 미치게 돼요\",\n   \"impact_line\": \"주식 투자자들의 자산 가치가 줄어들 수 있어요\",\n   \"details\": [\n       \"정부가 펀드와 주식시장에 변화가 생겼어요\",\n       \"최대 10개 기업의 가치가 줄었어요\",\n       \"은행이 가장 큰 영향을 받았어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주식 투자자들이 주의해야 해요!\",\n       \"경제에 영향을 미칠 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [7400.0]"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Govt . launches EPF…",
-   "one_liner": "Govt . launches EPF , ETF shake - up",
-   "why_now": null,
+   "title": "금융 시장 변동",
+   "one_liner": "정부가 펀드와 주식시장에 변화가 생겼어요",
+   "why_now": "금융 정책이 바뀌면 투자와 경제에 영향을 미치게 돼요",
    "details": [
-    "Govt . launches EPF , ETF shake - up",
-    "A year of reactive measures , proactive reforms - BusinessWorld Online",
-    "Market recap : Top - 10 firms shed Rs 2 . 74 lakh crore in value ; HDFC Bank takes biggest hit"
+    "정부가 펀드와 주식시장에 변화가 생겼어요",
+    "최대 10개 기업의 가치가 줄었어요",
+    "은행이 가장 큰 영향을 받았어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "주식 투자자들이 주의해야 해요!",
+    "경제에 영향을 미칠 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "4132e7ea8e29cc5ac639c1a982a1194584cbaa4b"
  },
