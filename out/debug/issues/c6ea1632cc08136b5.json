@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-26T21:16:59.306952+00:00",
+  "created_at": "2026-07-27T04:11:52.931489+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,19 +64,21 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"세일즈포스 주식 매수\", \"one_liner\": \"유럽의 한 자산운용사가 세일즈포스 주식 6,289주를 샀어요.\", \"why_now\": \"기업의 주식을 사들이는 것은 해당 기업의 미래를 긍정적으로 보기 때문일 수 있어요.\", \"impact_line\": \"세일즈포스 주가가 오를 수 있어요.\", \"details\": [\"롬바드 오디에 자산운용이 세일즈포스 주식 6,289주를 사들였어요.\"], \"visual_type\": \"none\", \"effects\": [\"세일즈포스 주가가 오르면 해당 주식을 가진 사람들의 자산 가치가 높아질 수 있어요!\"], \"glossary\": [{\"term\": \"자산운용\", \"easy\": \"고객의 돈을 모아 주식이나 채권 등에 투자해 수익을 내는 회사예요.\", \"example\": \"자산운용사는 고객의 돈으로 펀드를 만들어 투자해요.\"}, {\"term\": \"주식\", \"easy\": \"회사의 소유권 일부를 나타내는 증서예요. 주식을 사면 그 회사의 주인이 되는 거예요.\", \"example\": \"삼성전자 주식을 사면 삼성전자의 일부 주인이 되는 셈이에요.\"}], \"impact_line\": \"세일즈포스 주가가 오를 수 있어요.\"}",
+  "raw_response": "{\n  \"title\": \"Salesforce 주식 매수\",\n   \"one_liner\": \"로마바드 오디에 자산 관리 유럽이 Salesforce 주식을 6289주 샀어요\",\n   \"why_now\": \"투자자들이 주목하는 기업을 사들여서 주가가 오를 수 있어요\",\n   \"impact_line\": \"Salesforce 사용자들이 서비스에 더 많은 투자가 이뤄질 수 있어요\",\n   \"details\": [\n       \"로마바드 오디에 자산 관리 유럽이 Salesforce 주식을 6289주 샀어요\",\n       \"Salesforce와 ServiceNow 중 어떤 기업의 주식을 사야 좋을지比較하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"Salesforce의 서비스가 더 발전할 수 있어요!\",\n       \"Salesforce 사용자들이 더 좋은 서비스를 받을 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
+     "one_liner 50자 초과(70)",
      "details 3문장 미만",
      "입력에 없는 숫자: [6289.0]"
     ]
    },
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "입력에 없는 숫자: [6289.0]"
     ]
    }
   ],
@@ -94,11 +96,17 @@
   "fact_hash": "3b88f828f5fa8e27c71642ad0b0c2ab447d006c1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-26T21:16:59.306851+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 50자 초과(70)\", \"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}]}",
+  "at": "2026-07-27T04:11:52.931391+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c76068f5fb08a3e9a",
+   "title": "A forced - labor crackdown or an end - run around Congress ? Dissecting Trump new tariffs",
+   "category": "MARKET",
+   "shared": []
+  },
   {
    "id": "cd41f78d2b746ddd5",
    "title": "Tech bounce lifts Asia stocks , oil extends gains on US - Iran fears",
@@ -120,12 +128,6 @@
   {
    "id": "c9a09576b9082e071",
    "title": "Japan PM Sanae Takaichi Unveils Growth Plan as BOJ Independence Concerns Lift Bond Yields",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c88e0e9224f4c05cc",
-   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
    "category": "MARKET",
    "shared": []
   }

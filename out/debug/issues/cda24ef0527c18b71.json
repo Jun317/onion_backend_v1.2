@@ -136,8 +136,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-26T21:17:46.588282+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-27T04:13:47.770398+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -150,33 +150,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"주요 기업 주식 매수\",\n  \"one_liner\": \"여러 투자 기관들이 다양한 기업의 주식을 사들였어요.\",\n  \"why_now\": \"주요 투자 기관의 움직임은 시장의 관심과 향후 주가 방향을 엿볼 수 있는 신호가 될 수 있어요.\",\n  \"impact_line\": \"관심 있는 기업의 주가 변동을 지켜볼 필요가 있어요.\",\n  \"details\": [\n    \"OMERS ADMINISTRATION Corp는 Global X Copper Miners ETF 주식을 912,303주 샀어요.\",\n    \"OMERS ADMINISTRATION Corp는 Ingersoll Rand Inc 주식 1,064,471주를 매수했어요.\",\n    \"OMERS ADMINISTRATION Corp는 Spotify Technology 주식 12,779주를 매입했어요.\",\n    \"OMERS ADMINISTRATION Corp는 Vale S.A.에 새로 투자했어요.\",\n    \"Renaissance Technologies LLC는 GE Aerospace 주식을 매수했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"주요 투자 기관의 매수는 해당 기업의 주가에 긍정적인 영향을 줄 수 있어요!\",\n    \"이러한 매수세가 이어지면 관련 산업 전반에 대한 투자 심리가 개선될 수 있어요.\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"ETF\",\n      \"easy\": \"여러 종목을 모아놓은 펀드를 주식처럼 사고팔 수 있게 만든 상품이에요.\",\n      \"example\": \"ETF에 투자하면 여러 회사의 주식을 한 번에 살 수 있어요.\"\n    },\n    {\n      \"term\": \"주식\",\n      \"easy\": \"회사의 소유권 일부를 나타내는 증서로, 회사가 잘 되면 가치가 올라요.\",\n      \"example\": \"삼성전자 주식을 사면 삼성전자의 주인이 되는 거예요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"주요 기업 주식 거래\",\n  \"one_liner\": \"여러 투자 기관이 다양한 기업의 주식을 사들였어요.\",\n  \"why_now\": \"투자 기관의 주식 매수는 해당 기업의 가치를 높게 평가한다는 신호로 볼 수 있어요.\",\n  \"impact_line\": \"관심 있는 기업의 주가가 오를 수 있어요.\",\n  \"details\": [\n    \"OMERS ADMINISTRATION Corp는 글로벌 구리 채굴 기업 ETF와 인제르솔 랜드 주식을 매수했어요.\",\n    \"OMERS ADMINISTRATION Corp는 스포티파이 기술 주식도 사들였어요.\",\n    \"OMERS ADMINISTRATION Corp는 발레 주식에도 새로 투자했어요.\",\n    \"르네상스 테크놀로지스는 GE 에어로스페이스 주식을 매수했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"투자 기관의 매수는 해당 기업의 주가 상승으로 이어질 수 있어요!\",\n    \"이는 관련 산업 전반에 긍정적인 영향을 줄 수도 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"ETF\",\n      \"easy\": \"상장지수펀드로, 특정 지수를 따라 움직이도록 만들어진 펀드예요.\",\n      \"example\": \"주식처럼 쉽게 사고팔 수 있는 ETF에 투자할 수 있어요.\"\n    },\n    {\n      \"term\": \"주식\",\n      \"easy\": \"회사의 소유권 일부를 나타내는 증서예요. 주식을 사면 회사의 주인이 되는 거예요.\",\n      \"example\": \"삼성전자 주식을 사면 삼성전자의 일부 주인이 되는 셈이에요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects[1] 느낌표 종결 아님",
-     "입력에 없는 숫자: [1064.0]"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "OMERS ADMINISTRATION…",
-   "one_liner": "OMERS ADMINISTRATION Corp Buys Shares of 912 ,…",
-   "why_now": null,
+   "title": "주요 기업 주식 거래",
+   "one_liner": "여러 투자 기관이 다양한 기업의 주식을 사들였어요.",
+   "why_now": "투자 기관의 주식 매수는 해당 기업의 가치를 높게 평가한다는 신호로 볼 수 있어요.",
    "details": [
-    "OMERS ADMINISTRATION Corp Buys Shares of 912 , 303 Global X Copper Miners ETF $COPX",
-    "OMERS ADMINISTRATION Corp Acquires 1 , 064 , 471 Shares of Ingersoll Rand Inc . $IR",
-    "OMERS ADMINISTRATION Corp Purchases 12 , 779 Shares of Spotify Technology $SPOT"
+    "OMERS ADMINISTRATION Corp는 글로벌 구리 채굴 기업 ETF와 인제르솔 랜드요.",
+    "OMERS ADMINISTRATION Corp는 스포티파이 기술 주식도 사들였어요.",
+    "OMERS ADMINISTRATION Corp는 발레 주식에도 새로 투자했어요.",
+    "르네상스 테크놀로지스는 GE 에어로스페이스 주식을 매수했어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "투자 기관의 매수는 해당 기업의 주가 상승으로 이어질 수 있어요!",
+    "이는 관련 산업 전반에 긍정적인 영향을 줄 수도 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "c84e43bdcabba8d1624d864ef9765d3252bd188f"
  },
@@ -186,6 +181,12 @@
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c76068f5fb08a3e9a",
+   "title": "A forced - labor crackdown or an end - run around Congress ? Dissecting Trump new tariffs",
+   "category": "MARKET",
+   "shared": []
+  },
   {
    "id": "cd41f78d2b746ddd5",
    "title": "Tech bounce lifts Asia stocks , oil extends gains on US - Iran fears",
@@ -207,12 +208,6 @@
   {
    "id": "c9a09576b9082e071",
    "title": "Japan PM Sanae Takaichi Unveils Growth Plan as BOJ Independence Concerns Lift Bond Yields",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c88e0e9224f4c05cc",
-   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
    "category": "MARKET",
    "shared": []
   }
