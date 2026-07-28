@@ -527,8 +527,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-28T06:49:30.975120+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-28T10:02:31.540068+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -541,25 +541,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 증시 혼조세 마감\",\n  \"one_liner\": \"미국 증시가 기술주 실적 발표를 앞두고 혼조세를 보이며 마감했어요.\",\n  \"why_now\": \"투자자들의 관심이 기업들의 실적 발표에 쏠리면서 시장의 방향성이 불확실해지고 있어요.\",\n  \"impact_line\": \"주요 기업들의 실적 발표 결과에 따라 증시 변동성이 커질 수 있어요.\",\n  \"details\": [\n    \"미국 증시가 월요일 거래를 혼조세로 마감했어요.\",\n    \"나스닥 지수는 44포인트 하락했어요.\",\n    \"투자자들은 기술 기업들의 실적 발표에 집중하고 있어요.\",\n    \"새로운 주간 거래가 시작되면서 미국 증시는 불안정한 모습을 보였어요.\"\n  ],\n  \"visual_type\": \"us_10y\",\n  \"effects\": [\n    \"기술 기업들의 실적이 좋게 나오면 증시가 상승할 수 있어요!\",\n    \"실적이 예상보다 나쁘면 증시가 하락할 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"나스닥\",\n      \"easy\": \"미국 주식 시장의 주요 지수 중 하나로, 기술주 중심의 기업들이 많이 상장되어 있어요.\",\n      \"example\": \"나스닥 지수가 오르면 기술 관련 기업들의 주가가 전반적으로 좋은 상황이라고 볼 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "U . S . stocks end…",
-   "one_liner": "U . S . stocks end mixed on Monday , Nasdaq…",
-   "why_now": null,
+   "title": "미국 증시 혼조세 마감",
+   "one_liner": "미국 증시가 기술주 실적 발표를 앞두고 혼조세를 보이며 마감했어요.",
+   "why_now": "투자자들의 관심이 기업들의 실적 발표에 쏠리면서 시장의 방향성이 불확실해지고 있어요.",
    "details": [
-    "U . S . stocks end mixed on Monday , Nasdaq slides 44 points",
-    "US stocks : Wall Street ends mixed as investors focus on tech earnings",
-    "Stock market today : Live updates"
+    "미국 증시가 월요일 거래를 혼조세로 마감했어요.",
+    "나스닥 지수는 44포인트 하락했어요.",
+    "투자자들은 기술 기업들의 실적 발표에 집중하고 있어요.",
+    "새로운 주간 거래가 시작되면서 미국 증시는 불안정한 모습을 보였어요."
    ],
-   "effects": [],
+   "effects": [
+    "기술 기업들의 실적이 좋게 나오면 증시가 상승할 수 있어요!",
+    "실적이 예상보다 나쁘면 증시가 하락할 수 있어요!"
+   ],
    "visual_type": "us_10y"
   },
   "fact_hash": "1846705b5d8e54bde53c8f1fe0344a9b05d0ae39"

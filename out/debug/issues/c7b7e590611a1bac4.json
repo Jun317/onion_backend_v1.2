@@ -53,8 +53,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-28T06:48:03.528456+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-28T10:01:55.347708+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,32 +64,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"인공지능 테크株\",\n   \"one_liner\": \"인텔 등 인공지능 테크株가 떨어졌어요\",\n   \"why_now\": \"인공지능 테크株의 가치가 떨어지면 투자자에게 영향을 미치는 게 보통이에요\",\n   \"impact_line\": \"주식 투자자들의 손실이 늘 수 있어요\",\n   \"details\": [\n      \"인공지능 테크株 중 몇몇이 떨어졌어요\",\n      \"인텔의 주가가 하락했어요\",\n      \"인공지능 테크株의 가치 하락이 투자자들에게 영향을 미칠 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"인공지능 테크株의 가치 하락으로 투자자들의 신뢰가 떨어질 수 있어요!\",\n      \"인공지능 테크株의 가치 하락으로 새로운 투자 기회가 생길 수도 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"인텔 등 주가 하락\",\n   \"one_liner\": \"인텔 등 기술 주가가 떨어졌어요\",\n   \"why_now\": \"기술 주가는 시장의 기대에 따라 변동할 수 있어요\",\n   \"impact_line\": \"주식 투자자에게 영향이 갈 수 있어요\",\n   \"details\": [\n       \"인텔 주가가 하락했어요\",\n       \"코어위브와 네비우스도 주가가 떨어졌어요\",\n       \"인텔 주가 하락으로 기술 주가에 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"기술 주가의 하락으로 투자자들이 주의해야 할 수 있어요!\",\n       \"시장의 변동성으로 인해 주가가 더욱 많이 흔들릴 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "title 에 한자/가나 포함",
-     "one_liner 에 한자/가나 포함"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "UiPath vs .…",
-   "one_liner": "UiPath vs . Snowflake : Which Artificial…",
-   "why_now": null,
+   "title": "인텔 등 주가 하락",
+   "one_liner": "인텔 등 기술 주가가 떨어졌어요",
+   "why_now": "기술 주가는 시장의 기대에 따라 변동할 수 있어요",
    "details": [
-    "UiPath vs . Snowflake : Which Artificial Intelligence Tech Stock Is a Better Buy in 2026 ?",
-    "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell"
+    "인텔 주가가 하락했어요",
+    "코어위브와 네비우스도 주가가 떨어졌어요",
+    "인텔 주가 하락으로 기술 주가에 영향을 줄 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "기술 주가의 하락으로 투자자들이 주의해야 할 수 있어요!",
+    "시장의 변동성으로 인해 주가가 더욱 많이 흔들릴 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "5fdd8db81b91edadea5d353aaab0e623a24f31eb"
  },

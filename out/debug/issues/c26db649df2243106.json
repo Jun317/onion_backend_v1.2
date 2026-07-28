@@ -275,8 +275,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-28T06:48:35.456466+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-28T10:02:03.075482+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -289,33 +289,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"구글, 통신망 계약으로 버라이즌에 1조원 지급\",\n    \"one_liner\": \"구글이 버라이즌과 1조 원이 넘는 통신망 계약을 맺었어요.\",\n    \"why_now\": \"구글이 통신망에 투자하는 것은 앞으로 인공지능 서비스 등을 더 원활하게 제공하기 위한 움직임으로 보여요.\",\n    \"impact_line\": \"통신망 관련 기업들의 실적이 좋아질 수 있어요.\",\n    \"details\": [\n        \"버라이즌은 구글과의 계약으로 올해 실적 전망을 높였어요.\",\n        \"구글은 버라이즌으로부터 1조 원이 넘는 금액으로 통신망을 이용하게 돼요.\",\n        \"이번 계약은 구글의 통신망 투자 확대 움직임 중 하나로 보여요.\",\n        \"구글은 인공지능 분야에 대한 투자도 늘리고 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"버라이즌과 같은 통신망 사업자들의 수익이 늘어날 수 있어요!\",\n        \"구글의 통신망 서비스가 개선되어 이용자 경험이 좋아질 것으로 예상돼요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"통신망\",\n            \"easy\": \"전화, 인터넷 등을 이용하기 위해 연결된 선이나 설비예요.\",\n            \"example\": \"새로운 통신망이 깔리면 인터넷 속도가 빨라질 수 있어요.\"\n        },\n        {\n            \"term\": \"실적 전망\",\n            \"easy\": \"앞으로 회사가 얼마나 돈을 벌지 예상한 거예요.\",\n            \"example\": \"실적 전망이 좋으면 회사의 주가가 오르기도 해요.\"\n        }\n    ]\n}",
+  "raw_response": "{\n  \"title\": \"구글, 통신망 투자 확대\",\n  \"one_liner\": \"구글이 통신망 구축을 위해 버라이즌과 10억 달러 이상 규모의 계약을 맺었어요.\",\n  \"why_now\": \"구글이 통신망에 투자하면 인터넷 속도가 빨라지고 더 많은 사람이 인터넷을 이용할 수 있게 돼요.\",\n  \"impact_line\": \"인터넷 속도가 빨라져 동영상 시청이나 게임이 더 원활해질 수 있어요.\",\n  \"details\": [\n    \"구글은 버라이즌과 10억 달러 이상의 계약을 체결했어요.\",\n    \"이 계약은 통신망 구축을 위한 것으로 알려졌어요.\",\n    \"버라이즌은 구글의 투자 소식에 올해 실적 전망을 상향했어요.\",\n    \"구글은 인공지능 분야 투자도 늘릴 것으로 예상돼요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"통신망이 확대되면 더 많은 지역에서 빠른 인터넷을 이용할 수 있게 될 수 있어요!\",\n    \"구글의 인공지능 투자 확대는 관련 기술 발전과 새로운 서비스 출시로 이어질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"통신망\",\n      \"easy\": \"전화, 인터넷 등을 연결하는 선이나 장비들의 연결망이에요.\",\n      \"example\": \"새로운 통신망이 깔리면 인터넷 속도가 빨라질 수 있어요.\"\n    },\n    {\n      \"term\": \"실적 전망\",\n      \"easy\": \"앞으로 회사가 얼마나 돈을 벌고 이익을 낼지에 대한 예상이에요.\",\n      \"example\": \"실적 전망이 좋아지면 회사의 주가가 오르기도 해요.\"\n    },\n    {\n      \"term\": \"인공지능\",\n      \"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n      \"example\": \"인공지능 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "why_now 55자 초과(58)"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "title 22자 초과(25)",
-     "why_now 55자 초과(58)"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Verizon lifts…",
-   "one_liner": "Verizon lifts outlook as Google signs $1 billion…",
-   "why_now": null,
+   "title": "구글, 통신망 투자 확대",
+   "one_liner": "구글이 통신망 구축을 위해 버라이즌과 10억 달러 이상 규모의 계약을 맺었어요.",
+   "why_now": "구글이 통신망에 투자하면 인터넷 속도가 빨라지고 더 많은 사람이 인터넷을 이용할 수 있게 돼요.",
    "details": [
-    "Verizon lifts outlook as Google signs $1 billion fiber pact",
-    "FinancialContent - Verizon ( VZ ) To Report Earnings Tomorrow : Here Is What To Expect",
-    "Verizon Just Signed a More Than $1 Billion Dark Fiber Deal With Google . Here What It Means for the 6 . 3 % Dividend ."
+    "구글은 버라이즌과 10억 달러 이상의 계약을 체결했어요.",
+    "이 계약은 통신망 구축을 위한 것으로 알려졌어요.",
+    "버라이즌은 구글의 투자 소식에 올해 실적 전망을 상향했어요.",
+    "구글은 인공지능 분야 투자도 늘릴 것으로 예상돼요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "통신망이 확대되면 더 많은 지역에서 빠른 인터넷을 이용할 수 있게 될 수 있어요!",
+    "구글의 인공지능 투자 확대는 관련 기술 발전과 새로운 서비스 출시로 이어질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "972b15be831baa4fef6ada70c083de054ebf0d04"
  },
