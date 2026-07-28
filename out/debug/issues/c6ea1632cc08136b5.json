@@ -10,7 +10,7 @@
   "CRM"
  ],
  "seen_sources": 2,
- "importance": 85,
+ "importance": 80,
  "created_at": "2026-07-26T14:05:29.566237+00:00",
  "last_update": "2026-07-26T14:05:29.567259+00:00",
  "members": [
@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-28T10:02:18.778718+00:00",
+  "created_at": "2026-07-28T14:49:54.183073+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,21 +64,21 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"세일즈포스 주식 매수\",\n    \"one_liner\": \"롬바드 오디에 자산운용이 세일즈포스 주식 6,289주를 사들였어요.\",\n    \"why_now\": \"기업의 주식을 사들이는 것은 해당 기업의 미래 성장에 대한 긍정적인 신호로 해석될 수 있어요.\",\n    \"impact_line\": \"세일즈포스 주가에 긍정적인 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"롬바드 오디에 자산운용 유럽 법인이 세일즈포스 주식 6,289주를 매수했어요.\",\n        \"세일즈포스는 고객 관계 관리(CRM) 소프트웨어 분야의 선두 기업이에요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"기관 투자자의 매수세가 이어지면 주가 상승으로 이어질 수 있어요!\",\n        \"세일즈포스의 경쟁사인 서비스나우와의 비교 분석도 나오고 있어요.\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"세일즈포스\",\n            \"easy\": \"고객과의 관계를 관리하는 데 도움을 주는 컴퓨터 프로그램을 만드는 회사예요.\",\n            \"example\": \"세일즈포스 덕분에 회사가 고객의 정보를 더 잘 관리할 수 있어요.\"\n        },\n        {\n            \"term\": \"주식\",\n            \"easy\": \"회사의 소유권 일부를 나타내는 증서예요. 주식을 사면 그 회사의 주인이 되는 거예요.\",\n            \"example\": \"삼성전자 주식을 사면 삼성전자의 주인이 되는 셈이에요.\"\n        },\n        {\n            \"term\": \"기관 투자자\",\n            \"easy\": \"은행, 보험사, 연기금처럼 많은 돈을 굴리는 단체를 말해요.\",\n            \"example\": \"기관 투자자가 많이 사면 주가가 오르는 경우가 많아요.\"\n        }\n    ]\n}",
+  "raw_response": "{\n  \"title\": \"Salesforce 주식 매수\",\n   \"one_liner\": \"로ンバ드 오디에르 자산 관리 유럽이 Salesforce 주식을 6289주 샀어요\",\n   \"why_now\": \"투자자들이 주식을 사면 그 회사에 대한 기대가 높아질 수 있어요\",\n   \"impact_line\": \"Salesforce의 서비스를 쓰는 기업이나 개인에게 영향이 갈 수 있어요\",\n   \"details\": [\n       \"로ンバ드 오디에르 자산 관리 유럽이 Salesforce 주식을 6289주 매수했어요\",\n       \"Salesforce와 ServiceNow 중 어떤 회사의 주식을 사야 좋을지 비교하는 기사가 나왔어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"Salesforce의 주가가 오를 수 있어요!\",\n       \"Salesforce의 서비스 수요가 증가할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 50자 초과(71)",
+     "one_liner 50자 초과(70)",
      "details 3문장 미만",
      "입력에 없는 숫자: [6289.0]"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
+     "one_liner 에 한자/가나 포함",
      "details 3문장 미만",
-     "effects[1] 느낌표 종결 아님",
      "입력에 없는 숫자: [6289.0]"
     ]
    }
@@ -97,8 +97,8 @@
   "fact_hash": "3b88f828f5fa8e27c71642ad0b0c2ab447d006c1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 50자 초과(71)\", \"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [6289.0]\"]}]}",
-  "at": "2026-07-28T10:02:18.778600+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 50자 초과(70)\", \"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}]}",
+  "at": "2026-07-28T14:49:54.182969+00:00"
  },
  "glossary": [],
  "related": [
