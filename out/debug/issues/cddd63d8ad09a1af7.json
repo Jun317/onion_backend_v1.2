@@ -70,8 +70,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-28T19:01:32.390054+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-28T22:30:42.826743+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -82,26 +82,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"아마존 관련 소식\",\n   \"one_liner\": \"아마존 관련 여러 소식이 나왔어요.\",\n   \"why_now\": \"아마존은 큰 기업이라서 여러 가지 소식이 중요해요.\",\n   \"impact_line\": \"아마존 이용자와 근로자의 생활에 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"아마존의 수익이 줄어든 게 완료됐다고 UPS가 밝혔어요.\",\n       \"브라질에서 아마존 우림을 보호하는 규제가 끝나서 우림이 위험해질 수 있어요.\",\n       \"아마존과 기그 워커들이 생활비를 마련하기 위해 정부 지원을 받는 경우가 많아졌어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"아마존의 수익이 줄어들면 기그 워커들의 생활이 어려워질 수 있어요!\",\n       \"아마존 우림이 사라지면 환경에 좋지 않은 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "UPS Says Amazon…",
-   "one_liner": "UPS Says Amazon Glide - Down Is Complete ,…",
-   "why_now": null,
+   "title": "아마존 관련 소식",
+   "one_liner": "아마존 관련 여러 소식이 나왔어요.",
+   "why_now": "아마존은 큰 기업이라서 여러 가지 소식이 중요해요.",
    "details": [
-    "UPS Says Amazon Glide - Down Is Complete , Boosts 2026 Outlook ( UPDATED ) - United Parcel Service ( NYSE : UPS )",
-    "End of Brazil Soy Moratorium risks millions of hectares of Amazon rainforest : Study",
-    "More Amazon and gig workers are turning to SNAP and Medicaid to make ends meet , study finds"
+    "아마존의 수익이 줄어든 게 완료됐다고 UPS가 밝혔어요.",
+    "브라질에서 아마존 우림을 보호하는 규제가 끝나서 우림이 위험해질 수 있어요.",
+    "아마존과 기그 워커들이 생활비를 마련하기 위해 정부 지원을 받는 경우가 많아졌어요."
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "아마존의 수익이 줄어들면 기그 워커들의 생활이 어려워질 수 있어요!",
+    "아마존 우림이 사라지면 환경에 좋지 않은 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "289e31f52593244591f119c884ebd442bfd0b7dc"
  },

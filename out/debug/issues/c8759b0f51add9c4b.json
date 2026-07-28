@@ -2,17 +2,17 @@
  "id": "c8759b0f51add9c4b",
  "title": "CXMT becomes China most valuable listed company",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "CHINA"
  ],
- "seen_sources": 1,
- "importance": 45,
+ "seen_sources": 2,
+ "importance": 50,
  "created_at": "2026-07-28T20:39:27.536272+00:00",
- "last_update": "2026-07-28T20:39:27.536272+00:00",
+ "last_update": "2026-07-28T22:30:32.691949+00:00",
  "members": [
   {
    "id": "e234eff586bfa2a1f6a9517c6f979dcff5fe5947",
@@ -22,7 +22,7 @@
    "title": "CXMT becomes China most valuable listed company",
    "published_at": "2026-07-28T19:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9989
   },
   {
    "id": "6ee82ca44fda5afb69f71550826e9513526d0c9a",
@@ -32,7 +32,17 @@
    "title": "CXMT becomes China most valuable listed company",
    "published_at": "2026-07-28T19:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9989
+  },
+  {
+   "id": "6cd816c789ac96d78bc29486f8b2d592410b99ff",
+   "source": "afghanistannews.net",
+   "tier": "wire",
+   "url": "http://www.afghanistannews.net/news/279212500/cxmt-s-blockbuster-debut-fuels-china-s-ai-chip-ambitions",
+   "title": "CXMT blockbuster debut fuels China AI chip ambitions",
+   "published_at": "2026-07-28T19:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9061
   }
  ],
  "anchors": [],
@@ -50,10 +60,53 @@
    "source": "londonmercury.com",
    "url": "http://www.londonmercury.com/news/279212500/cxmt-becomes-china-s-most-valuable-listed-company",
    "at": "2026-07-28T19:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "CXMT blockbuster debut fuels China AI chip ambitions",
+   "source": "afghanistannews.net",
+   "url": "http://www.afghanistannews.net/news/279212500/cxmt-s-blockbuster-debut-fuels-china-s-ai-chip-ambitions",
+   "at": "2026-07-28T19:30:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-28T22:37:41.174565+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "CXMT becomes China most valuable listed company",
+    "CXMT blockbuster debut fuels China AI chip ambitions"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "CXMT becomes China…",
+   "one_liner": "CXMT becomes China most valuable listed company",
+   "why_now": null,
+   "details": [
+    "CXMT becomes China most valuable listed company",
+    "CXMT blockbuster debut fuels China AI chip ambitions"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "b7279f51a31c34d3a89fdc48d30bdb8d71e73d13"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-28T22:37:41.174503+00:00"
+ },
  "glossary": [],
  "related": [
   {

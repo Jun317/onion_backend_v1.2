@@ -309,8 +309,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-28T19:02:28.886786+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-28T22:33:08.895403+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -323,26 +323,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"버라이즌, 구글과 1조원대 계약\",\n    \"one_liner\": \"미국 통신사 버라이즌이 구글과 1조 원이 넘는 인터넷망 계약을 맺었어요.\",\n    \"why_now\": \"구글이 인공지능에 더 많은 돈을 쓰면서 통신망 수요가 늘어날 것으로 예상돼요.\",\n    \"impact_line\": \"통신망 관련 기업들의 실적이 좋아질 수 있어요.\",\n    \"details\": [\n        \"버라이즌은 구글과 1조 원이 넘는 인터넷망 계약을 체결했어요.\",\n        \"이 계약으로 버라이즌의 올해 실적 전망이 밝아졌어요.\",\n        \"구글은 인공지능 분야에 대한 투자를 늘리고 있어요.\",\n        \"이 계약은 버라이즌의 배당금에도 긍정적인 영향을 줄 수 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"버라이즌의 매출과 이익이 늘어날 것으로 예상돼요!\",\n        \"통신 인프라 관련 기업들의 투자도 늘어날 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"인터넷망\",\n            \"easy\": \"인터넷을 연결하고 데이터를 주고받는 데 필요한 선이나 장비들을 말해요.\",\n            \"example\": \"새로운 인터넷망이 깔리면 인터넷 속도가 더 빨라질 수 있어요.\"\n        },\n        {\n            \"term\": \"배당금\",\n            \"easy\": \"회사가 이익의 일부를 주주들에게 나눠주는 돈이에요.\",\n            \"example\": \"배당금을 많이 주는 회사의 주식을 사면 돈을 더 벌 수 있어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Verizon lifts…",
-   "one_liner": "Verizon lifts outlook as Google signs $1 billion…",
-   "why_now": null,
+   "title": "버라이즌, 구글과 1조원대 계약",
+   "one_liner": "미국 통신사 버라이즌이 구글과 1조 원이 넘는 인터넷망 계약을 맺었어요.",
+   "why_now": "구글이 인공지능에 더 많은 돈을 쓰면서 통신망 수요가 늘어날 것으로 예상돼요.",
    "details": [
-    "Verizon lifts outlook as Google signs $1 billion fiber pact",
-    "FinancialContent - Verizon ( VZ ) To Report Earnings Tomorrow : Here Is What To Expect",
-    "2 Stocks to Buy Now as Google Raises Its AI Spending Forecast Yet Again"
+    "버라이즌은 구글과 1조 원이 넘는 인터넷망 계약을 체결했어요.",
+    "이 계약으로 버라이즌의 올해 실적 전망이 밝아졌어요.",
+    "구글은 인공지능 분야에 대한 투자를 늘리고 있어요.",
+    "이 계약은 버라이즌의 배당금에도 긍정적인 영향을 줄 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "버라이즌의 매출과 이익이 늘어날 것으로 예상돼요!",
+    "통신 인프라 관련 기업들의 투자도 늘어날 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "48a2fb619fb942f94e835a59eb08372daeeae728"
  },
