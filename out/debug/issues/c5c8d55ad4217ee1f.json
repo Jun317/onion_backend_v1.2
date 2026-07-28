@@ -9,11 +9,21 @@
  "entity_keys": [
   "FED"
  ],
- "seen_sources": 3,
- "importance": 105,
+ "seen_sources": 4,
+ "importance": 120,
  "created_at": "2026-07-25T06:34:22.677442+00:00",
- "last_update": "2026-07-25T19:40:43.299953+00:00",
+ "last_update": "2026-07-28T00:16:00.852864+00:00",
  "members": [
+  {
+   "id": "14a6f16e26620a85f47c333c3d8932e23fff21e5",
+   "source": "cbc.ca",
+   "tier": "wire",
+   "url": "https://www.cbc.ca/news/canada/toronto/toront-mayor-urgent-motion-demands-waterfront-land-back-9.7286391",
+   "title": "Toronto mayor files urgent motion demanding province  return our waterfront  after feds reject airport plans",
+   "published_at": "2026-07-27T22:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8929
+  },
   {
    "id": "dd0f6d77eb11ae349e4ffa6c4e88c632811cb310",
    "source": "niagarafallsreview.ca",
@@ -22,7 +32,7 @@
    "title": "Federal government halts Billy Bishop airport expansion plan",
    "published_at": "2026-07-25T18:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9768
+   "sim_to_centroid": 0.9753
   },
   {
    "id": "58decb34f91c11de4d393ee5e9f457ba983e7335",
@@ -32,7 +42,7 @@
    "title": "Federal government rejects expansion of Toronto Billy Bishop airport",
    "published_at": "2026-07-25T05:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9841
+   "sim_to_centroid": 0.9864
   },
   {
    "id": "d315997de5e803ff5d598fdde552836f68e2c04a",
@@ -42,11 +52,18 @@
    "title": "Federal government grounds Billy Bishop airport expansion",
    "published_at": "2026-07-25T02:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9849
+   "sim_to_centroid": 0.9802
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Toronto mayor files urgent motion demanding province  return our waterfront  after feds reject airport plans",
+   "source": "cbc.ca",
+   "url": "https://www.cbc.ca/news/canada/toronto/toront-mayor-urgent-motion-demands-waterfront-land-back-9.7286391",
+   "at": "2026-07-27T22:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Federal government halts Billy Bishop airport expansion plan",
@@ -70,43 +87,46 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-25T19:40:51.547901+00:00",
+  "model": "template",
+  "created_at": "2026-07-28T00:18:00.905651+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "Toronto mayor files urgent motion demanding province  return our waterfront  after feds reject airport plans",
     "Federal government halts Billy Bishop airport expansion plan",
     "Federal government rejects expansion of Toronto Billy Bishop airport",
     "Federal government grounds Billy Bishop airport expansion"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"토론토 공항 확장 반대\",\n   \"one_liner\": \"캐나다 정부가 토론토 공항 확장 계획을 중단시켰어요\",\n   \"why_now\": \"공항 확장이 지역 환경과 교통에 미칠 영향에 대한 우려가 있었어요\",\n   \"impact_line\": \"토론토 지역의 교통 체증과 소음 문제가 완화될 수 있어요\",\n   \"details\": [\n       \"캐나다 정부가 토론토 빌리 비숍 공항 확장 계획을 중단시켰어요\",\n       \"이 결정은 지역 주민들과 환경 단체의 우려를 반영했어요\",\n       \"공항 확장 계획은 지역 교통과 환경에 부정적인 영향을 미칠 수 있었어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"토론토 지역의 교통 체증과 소음 문제가 완화될 수 있어요!\",\n       \"지역 주민들의 삶의 질이 개선될 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "토론토 공항 확장 반대",
-   "one_liner": "캐나다 정부가 토론토 공항 확장 계획을 중단시켰어요",
-   "why_now": "공항 확장이 지역 환경과 교통에 미칠 영향에 대한 우려가 있었어요",
+   "title": "Toronto mayor files…",
+   "one_liner": "Toronto mayor files urgent motion demanding…",
+   "why_now": null,
    "details": [
-    "캐나다 정부가 토론토 빌리 비숍 공항 확장 계획을 중단시켰어요",
-    "이 결정은 지역 주민들과 환경 단체의 우려를 반영했어요",
-    "공항 확장 계획은 지역 교통과 환경에 부정적인 영향을 미칠 수 있었어요"
+    "Toronto mayor files urgent motion demanding province  return our waterfront  after feds reject airport plans",
+    "Federal government halts Billy Bishop airport expansion plan",
+    "Federal government rejects expansion of Toronto Billy Bishop airport"
    ],
-   "effects": [
-    "토론토 지역의 교통 체증과 소음 문제가 완화될 수 있어요!",
-    "지역 주민들의 삶의 질이 개선될 것으로 예상돼요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "437f1ad4003c94e0ad4878b2c2098c709c38040e"
+  "fact_hash": "db819fa207c00c7b834b759a2a1d83e842d01289"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-28T00:18:00.905580+00:00"
+ },
  "glossary": [],
  "related": [
   {

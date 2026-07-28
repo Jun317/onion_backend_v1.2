@@ -7,13 +7,26 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
-  "CHINA"
+  "CHINA",
+  "MSFT",
+  "SEC",
+  "UBER"
  ],
- "seen_sources": 16,
- "importance": 125,
+ "seen_sources": 17,
+ "importance": 180,
  "created_at": "2026-07-24T06:45:00.090828+00:00",
- "last_update": "2026-07-27T20:48:59.655408+00:00",
+ "last_update": "2026-07-28T00:16:00.847971+00:00",
  "members": [
+  {
+   "id": "65a810fe020e2381363e4b94ab5bf4d6b886c432",
+   "source": "bostonglobe.com",
+   "tier": "wire",
+   "url": "https://www.bostonglobe.com/2026/07/27/business/talking-points-uber-rivals-try-cut-microsoft-ai-security-tool-unveiled-china-chipmakers-shares-rise-first-day/",
+   "title": "Talking Points : Uber rivals try to cut in ; Microsoft AI security tool unveiled ; China chipmaker shares rise on first day",
+   "published_at": "2026-07-27T22:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8927
+  },
   {
    "id": "df87e42c1f4fb39c9f5e3cffcc04a467440b7bc5",
    "source": "globaltimes.cn",
@@ -229,6 +242,13 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Talking Points : Uber rivals try to cut in ; Microsoft AI security tool unveiled ; China chipmaker shares rise on first day",
+   "source": "bostonglobe.com",
+   "url": "https://www.bostonglobe.com/2026/07/27/business/talking-points-uber-rivals-try-cut-microsoft-ai-security-tool-unveiled-china-chipmakers-shares-rise-first-day/",
+   "at": "2026-07-27T22:45:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Hard tech takes center stage in China : Global Times editorial",
    "source": "globaltimes.cn",
    "url": "https://www.globaltimes.cn/page/202607/1366935.shtml",
@@ -376,8 +396,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-27T20:49:16.675729+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-28T00:16:02.225071+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -390,32 +410,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"중국, 희토류 광물 접근권 확보 나서\",\n\"one_liner\": \"중국이 인도네시아에 제안을 하며 희토류 광물에 대한 독점적인 접근권을 확보하려 하고 있어요.\",\n\"why_now\": \"희토류는 첨단 기술에 필수적인 자원으로, 이를 확보하는 것은 국가 경쟁력에 매우 중요해요.\",\n\"impact_line\": \"첨단 기술 제품 가격이 오를 수 있어요.\",\n\"details\": [\n\"중국이 인도네시아에 제안을 했어요.\",\n\"이 제안은 중국이 희토류 광물에 독점적인 접근권을 갖도록 하는 데 목적이 있어요.\",\n\"한 분석가는 이것이 중국의 전략적 움직임이라고 보고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"희토류 확보 경쟁이 심화되면서 관련 기술 제품의 가격이 오를 수 있어요!\",\n\"중국의 첨단 기술 산업 발전이 더욱 가속화될 것으로 예상돼요!\"\n],\n\"glossary\": [\n{\n\"term\": \"희토류\",\n\"easy\": \"첨단 기술 제품을 만드는 데 꼭 필요한 특별한 광물이에요.\",\n\"example\": \"스마트폰, 전기차 배터리 등에 희토류가 사용돼요.\"\n}\n],\n\"additional_info\": \"이 뉴스는 중국의 외교 및 경제 전략에 관한 것으로, AI, 디지털 경제, 첨단 기술 투자 등 다양한 분야에 걸쳐 중국의 영향력을 확대하려는 움직임을 보여줍니다.\"\n}",
+  "raw_response": "{\n  \"title\": \"중국 경제 소식\",\n   \"one_liner\": \"중국이 인도네시아에 제안을 해서 특정 광물에 접근할 수 있는 기회를 얻었어요\",\n   \"why_now\": \"중국은 새로운 기술과 자원을 얻으려고 노력하고 있어요\",\n   \"impact_line\": \"중국이 더 강해지면 세계 경제에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"중국은 인도네시아에 제안을 했어요\",\n       \"중국은 새로운 기술과 자원을 얻으려고 노력하고 있어요\",\n       \"중국은 인도네시아의 광물을 얻으려고 해요\",\n       \"중국은 세계 경제에서 더 강해지고 싶어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"중국이 더 강해지면 세계 경제에 영향을 줄 수 있어요!\",\n       \"중국이 새로운 기술을 개발하면 다른 나라에 도움이 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 에 한자/가나 포함"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 50자 초과(51)"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Chile Consul General…",
-   "one_liner": "Chile Consul General in Chengdu calls for deeper…",
-   "why_now": null,
+   "title": "중국 경제 소식",
+   "one_liner": "중국이 인도네시아에 제안을 해서 특정 광물에 접근할 수 있는 기회를 얻었어요",
+   "why_now": "중국은 새로운 기술과 자원을 얻으려고 노력하고 있어요",
    "details": [
-    "Chile Consul General in Chengdu calls for deeper China - Chile cooperation in AI and digital economy",
-    "Chinese Ambassador Claims China Rise Is a Force for Global Peace",
-    "Hard tech takes center stage in China : Global Times editorial"
+    "중국은 인도네시아에 제안을 했어요",
+    "중국은 새로운 기술과 자원을 얻으려고 노력하고 있어요",
+    "중국은 인도네시아의 광물을 얻으려고 해요",
+    "중국은 세계 경제에서 더 강해지고 싶어요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "중국이 더 강해지면 세계 경제에 영향을 줄 수 있어요!",
+    "중국이 새로운 기술을 개발하면 다른 나라에 도움이 될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "3ddf25cdeb2833a03056a829d92ba6f3b1617e5a"
  },
@@ -429,7 +445,9 @@
    "id": "cb00a5f20e2c800d5",
    "title": "Where Social Security cuts could have the greatest economic impact",
    "category": "RATE",
-   "shared": []
+   "shared": [
+    "SEC"
+   ]
   },
   {
    "id": "c01efb76fcd7102be",
@@ -442,20 +460,25 @@
    "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
    "category": "MACRO",
    "shared": [
-    "CHINA"
+    "CHINA",
+    "SEC"
    ]
   },
   {
-   "id": "c826b1c1944a1c619",
-   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
-   "category": "RATE",
-   "shared": []
+   "id": "c76068f5fb08a3e9a",
+   "title": "A forced - labor crackdown or an end - run around Congress ? Dissecting Trump new tariffs",
+   "category": "MARKET",
+   "shared": [
+    "SEC"
+   ]
   },
   {
-   "id": "e97a81ef1127b8815",
-   "title": "미 연준 기준금리 변동 (4.08%)",
-   "category": "RATE",
-   "shared": []
+   "id": "cd41f78d2b746ddd5",
+   "title": "Tech bounce lifts Asia stocks , oil extends gains on US - Iran fears",
+   "category": "MARKET",
+   "shared": [
+    "SEC"
+   ]
   }
  ]
 }
