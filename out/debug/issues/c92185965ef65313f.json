@@ -1,0 +1,142 @@
+{
+ "id": "c92185965ef65313f",
+ "title": "The Latest : Netanyahu will meet with Trump for first time since the Iran war began",
+ "category": "GEO",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "IRAN"
+ ],
+ "seen_sources": 2,
+ "importance": 70,
+ "created_at": "2026-07-28T16:56:03.022441+00:00",
+ "last_update": "2026-07-28T16:56:03.023877+00:00",
+ "members": [
+  {
+   "id": "cdb87d454b4ee056dea3ad00c54c3bdf3e0ba5d9",
+   "source": "clickondetroit.com",
+   "tier": "wire",
+   "url": "https://www.clickondetroit.com/news/politics/2026/07/28/the-latest-netanyahu-will-meet-with-trump-for-first-time-since-the-iran-war-began/",
+   "title": "The Latest : Netanyahu will meet with Trump for first time since the Iran war began",
+   "published_at": "2026-07-28T14:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9629
+  },
+  {
+   "id": "4bf8891203489cd6881ebfd3adfb8d43265552c6",
+   "source": "investinglive.com",
+   "tier": "wire",
+   "url": "https://investinglive.com:443/news/trump-on-fox-news-iran-understand-it-will-never-have-a-nuclear-weapon/",
+   "title": "Trump on Fox News : Iran understand it will never have a nuclear weapon",
+   "published_at": "2026-07-28T14:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9629
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "The Latest : Netanyahu will meet with Trump for first time since the Iran war began",
+   "source": "clickondetroit.com",
+   "url": "https://www.clickondetroit.com/news/politics/2026/07/28/the-latest-netanyahu-will-meet-with-trump-for-first-time-since-the-iran-war-began/",
+   "at": "2026-07-28T14:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Trump on Fox News : Iran understand it will never have a nuclear weapon",
+   "source": "investinglive.com",
+   "url": "https://investinglive.com:443/news/trump-on-fox-news-iran-understand-it-will-never-have-a-nuclear-weapon/",
+   "at": "2026-07-28T14:30:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-28T16:56:17.061492+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "The Latest : Netanyahu will meet with Trump for first time since the Iran war began",
+    "Trump on Fox News : Iran understand it will never have a nuclear weapon"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"이란과 미국\",\n   \"one_liner\": \"미국 대통령과 이스라엘 총리가 만나게 됐어요\",\n   \"why_now\": \"이란과 미국의 관계가 최근에 달라져서 중요해졌어요\",\n   \"impact_line\": \"이란과 미국의 관계가 나아지면 전쟁 위험이 줄어들 수 있어요\",\n   \"details\": [\n       \"미국 대통령과 이스라엘 총리가 만나게 됐어요\",\n       \"미국 대통령은 이란이 핵무기를 가질 수 없다고 말했어요\",\n       \"이란과 미국의 관계가 최근에 달라졌어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"이란과 미국의 관계가 나아지면 전쟁 위험이 줄어들 수 있어요\",\n       \"이란과 미국의 관계가 나아지면 세계 경제에 긍정적인 영향을 줄 수 있어요\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(57)",
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "effects[0] 느낌표 종결 아님",
+     "effects[1] 느낌표 종결 아님"
+    ]
+   }
+  ],
+  "output": {
+   "title": "The Latest :…",
+   "one_liner": "The Latest : Netanyahu will meet with Trump for…",
+   "why_now": null,
+   "details": [
+    "The Latest : Netanyahu will meet with Trump for first time since the Iran war began",
+    "Trump on Fox News : Iran understand it will never have a nuclear weapon"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "359c5d8081b8d5de2ef3031590d5a5cfb3c7f213"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(57)\", \"details 3문장 미만\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\"]}]}",
+  "at": "2026-07-28T16:56:17.061327+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "c76068f5fb08a3e9a",
+   "title": "A forced - labor crackdown or an end - run around Congress ? Dissecting Trump new tariffs",
+   "category": "MARKET",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "cd41f78d2b746ddd5",
+   "title": "Tech bounce lifts Asia stocks , oil extends gains on US - Iran fears",
+   "category": "MARKET",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "cd7b762c4b0212485",
+   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
+   "category": "GEO",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "ca7e18652a27e4c6f",
+   "title": "Left - leaning group says state faces affordability crisis",
+   "category": "GEO",
+   "shared": []
+  }
+ ]
+}
