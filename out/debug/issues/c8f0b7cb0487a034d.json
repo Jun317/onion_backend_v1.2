@@ -138,8 +138,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-28T00:18:19.349885+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-28T03:44:14.003868+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -152,26 +152,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"IMF, 아르헨티나 부채 상환 능력 평가\",\n\"one_liner\": \"IMF 총재가 아르헨티나가 부채를 갚을 능력이 더 좋아졌다고 말했어요.\",\n\"why_now\": \"나라의 빚을 갚는 능력이 좋아지면 경제가 안정될 가능성이 높아져요.\",\n\"impact_line\": \"아르헨티나 경제 상황이 개선되면 관련 상품 가격이 안정될 수 있어요.\",\n\"details\": [\n\"IMF 총재는 아르헨티나가 밀레이 대통령 하에서 부채를 갚을 준비가 더 잘 되어 있다고 평가했어요.\",\n\"IMF 총재는 아르헨티나 방문에서 외환보유액은 지지했지만, 재정 건전성에 대한 의문을 제기했어요.\",\n\"가나 경제 회복이 IMF의 감시를 넘어 지속적인 안정을 위한 중요한 시험대에 올랐어요.\",\n\"파키스탄 재무장관은 IMF와 함께 파키스탄의 경제 발전 상황을 검토했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"아르헨티나의 경제 상황이 개선되면 국제 금융 시장의 불안이 줄어들 수 있어요!\",\n\"IMF의 평가는 해당 국가들의 경제 정책 방향에 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"IMF\",\n\"easy\": \"국제통화기금으로, 나라들이 돈을 빌려주거나 경제 정책에 조언을 해주는 국제기구예요.\",\n\"example\": \"IMF는 경제가 어려운 나라에 돈을 빌려주기도 해요.\"\n},\n{\n\"term\": \"외환보유액\",\n\"easy\": \"나라가 외국 돈을 얼마나 가지고 있는지 보여주는 거예요.\",\n\"example\": \"외환보유액이 많으면 외국 돈이 갑자기 필요할 때 쓸 수 있어요.\"\n},\n{\n\"term\": \"재정 건전성\",\n\"easy\": \"나라 살림이 얼마나 튼튼한지를 말해요. 빚이 너무 많지 않고 돈을 잘 버는 상태를 뜻해요.\",\n\"example\": \"재정 건전성이 좋으면 나라 경제가 안정적이라고 볼 수 있어요.\"\n}\n],\n\"impact_line\": \"아르헨티나 경제 상황이 개선되면 관련 상품 가격이 안정될 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "IMF chief says…",
-   "one_liner": "IMF chief says Argentina is better positioned to…",
-   "why_now": null,
+   "title": "IMF, 아르헨티나 부채 상환 능력 평가",
+   "one_liner": "IMF 총재가 아르헨티나가 부채를 갚을 능력이 더 좋아졌다고 말했어요.",
+   "why_now": "나라의 빚을 갚는 능력이 좋아지면 경제가 안정될 가능성이 높아져요.",
    "details": [
-    "IMF chief says Argentina is better positioned to meet debt obligations under Milei",
-    "IMF chief says Argentina is better positioned to meet debt obligations under Milei – Winnipeg Free Press",
-    "Ghana Economic Reset Under Scrutiny : Six Critical Tests for Sustained Stability Beyond the IMF Watchful Eye – Ghanamma . com"
+    "IMF 총재는 아르헨티나가 밀레이 대통령 하에서 부채를 갚을 준비가 더 잘 되어 있다고 평가했어요.",
+    "IMF 총재는 아르헨티나 방문에서 외환보유액은 지지했지만, 재정 건전성에 대한 의문을 제기했어요.",
+    "가나 경제 회복이 IMF의 감시를 넘어 지속적인 안정을 위한 중요한 시험대에 올랐어요.",
+    "파키스탄 재무장관은 IMF와 함께 파키스탄의 경제 발전 상황을 검토했어요."
    ],
-   "effects": [],
-   "visual_type": "usdkrw"
+   "effects": [
+    "아르헨티나의 경제 상황이 개선되면 국제 금융 시장의 불안이 줄어들 수 있어요!",
+    "IMF의 평가는 해당 국가들의 경제 정책 방향에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "bead74be9471a82fb30be65300ca4297b575fac9"
  },

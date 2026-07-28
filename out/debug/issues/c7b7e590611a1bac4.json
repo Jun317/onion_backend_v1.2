@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-28T00:16:44.172227+00:00",
+  "created_at": "2026-07-28T03:45:16.912132+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,8 +64,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"인공지능 테크株 비교\",\n   \"one_liner\": \"UiPath와 Snowflake 중 어떤 인공지능 테크 주식을 2026년에 사야 할까 궁금해 하세요.\",\n   \"why_now\": \"인공지능 테크 주식은 미래 기술에 대한 기대감으로 관심을 끌고 있어요.\",\n   \"impact_line\": \"주식 투자에 관심이 있는 사람들에게는 중요한 소식이 될 수 있어요.\",\n   \"details\": [\n       \"UiPath와 Snowflake는 인공지능 테크 주식 중 두각을 나타내고 있어요.\",\n       \"CoreWeave, Nebius, Intel 주식이 하락했어요.\",\n       \"인공지능 테크 주식의 성장 가능성과 투자 기회에 대해 관심이 많아요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"인공지능 테크 주식의 성장 가능성으로 투자자들의 관심이 집중될 수 있어요!\",\n       \"인공지능 기술의 발전으로 관련 주식의 가치가 상승할 가능성이 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "title 에 한자/가나 포함",
+     "one_liner 50자 초과(56)"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -87,8 +94,8 @@
   "fact_hash": "5fdd8db81b91edadea5d353aaab0e623a24f31eb"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-28T00:16:44.172128+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"title 에 한자/가나 포함\", \"one_liner 50자 초과(56)\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-28T03:45:16.912064+00:00"
  },
  "glossary": [],
  "related": [
@@ -115,18 +122,18 @@
    ]
   },
   {
+   "id": "c2e1f0924eab58cb9",
+   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
+   "category": "EARNINGS",
+   "shared": [
+    "INTC"
+   ]
+  },
+  {
    "id": "c8767f6a04dae9d1b",
    "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "category": "MARKET",
    "shared": []
-  },
-  {
-   "id": "cd7b762c4b0212485",
-   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
-   "category": "GEO",
-   "shared": [
-    "INTC"
-   ]
   }
  ]
 }

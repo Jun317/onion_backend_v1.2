@@ -87,8 +87,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-28T00:18:00.905651+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-28T03:44:02.515148+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -100,25 +100,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"토론토 공항 확장 반대\",\n   \"one_liner\": \"토론토 시장이 물안개 공항 확장 계획을 거부한 연방 정부에 항의했어요\",\n   \"why_now\": \"공항 확장이 지역 환경과 교통에 미칠 영향에 대한 우려가 있었어요\",\n   \"impact_line\": \"토론토 시민의 교통 선택과 지역 개발 계획에 영향을 미칠 수 있어요\",\n   \"details\": [\n       \"토론토 시장이 물안개 공항 확장 계획을 반대하는 긴급 동의안을 제출했어요\",\n       \"연방 정부가 토론토 빌리 비숍 공항 확장 계획을 거부했어요\",\n       \"토론토 시는 물안개 지역을 반환해 줄 것을 요구하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"토론토의 교통 체계와 지역 개발 계획이 달라질 수 있어요!\",\n       \"토론토 시민의 생활과 환경에 긍정적인 영향을 미칠 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Toronto mayor files…",
-   "one_liner": "Toronto mayor files urgent motion demanding…",
-   "why_now": null,
+   "title": "토론토 공항 확장 반대",
+   "one_liner": "토론토 시장이 물안개 공항 확장 계획을 거부한 연방 정부에 항의했어요",
+   "why_now": "공항 확장이 지역 환경과 교통에 미칠 영향에 대한 우려가 있었어요",
    "details": [
-    "Toronto mayor files urgent motion demanding province  return our waterfront  after feds reject airport plans",
-    "Federal government halts Billy Bishop airport expansion plan",
-    "Federal government rejects expansion of Toronto Billy Bishop airport"
+    "토론토 시장이 물안개 공항 확장 계획을 반대하는 긴급 동의안을 제출했어요",
+    "연방 정부가 토론토 빌리 비숍 공항 확장 계획을 거부했어요",
+    "토론토 시는 물안개 지역을 반환해 줄 것을 요구하고 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "토론토의 교통 체계와 지역 개발 계획이 달라질 수 있어요!",
+    "토론토 시민의 생활과 환경에 긍정적인 영향을 미칠 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "db819fa207c00c7b834b759a2a1d83e842d01289"
@@ -154,20 +155,18 @@
    ]
   },
   {
-   "id": "c8767f6a04dae9d1b",
-   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
-   "category": "MARKET",
-   "shared": [
-    "FED"
-   ]
-  },
-  {
    "id": "c37ad01cf8a091a74",
    "title": "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions",
    "category": "FX",
    "shared": [
     "FED"
    ]
+  },
+  {
+   "id": "cde343d4cab397faf",
+   "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
+   "category": "POLICY",
+   "shared": []
   }
  ]
 }
