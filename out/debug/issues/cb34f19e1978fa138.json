@@ -104,8 +104,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-28T03:44:49.033557+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-28T06:47:35.624417+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -118,26 +118,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"테슬라 주식\",\n   \"one_liner\": \"테슬라와 스페이스X의 합병 가능성이 나왔어요.\",\n   \"why_now\": \"테슬라의 주가가 많이 내렸기 때문에 주목을 받고 있어요.\",\n   \"impact_line\": \"테슬라 자동차를 사거나 투자하려는 사람에게 영향을 줄 수 있어요.\",\n   \"details\": [\n      \"테슬라의 주가가 1년간 30% 내렸어요.\",\n      \"테슬라와 스페이스X의 합병 가능성이 논의되고 있어요.\",\n      \"엘론 머스크의 재산이 600억 달러 이상 줄었어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"테슬라 주식을 사는 것이 좋은 기회가 될 수 있어요!\",\n      \"테슬라와 스페이스X의 합병이 성공적으로 이루어진다면 두 회사의 가치가 올라갈 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"NASDAQ\",\n         \"easy\": \"미국의 주식시장 중 하나예요.\",\n         \"example\": \"테슬라의 주가는 NASDAQ에서 거래되고 있어요.\"\n      }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Gary Black Issues…",
-   "one_liner": "Gary Black Issues Warning to Tesla Investors…",
-   "why_now": null,
+   "title": "테슬라 주식",
+   "one_liner": "테슬라와 스페이스X의 합병 가능성이 나왔어요.",
+   "why_now": "테슬라의 주가가 많이 내렸기 때문에 주목을 받고 있어요.",
    "details": [
-    "Gary Black Issues Warning to Tesla Investors Ahead of Potential SpaceX Merger - Tesla ( NASDAQ : TSLA ), Spac",
-    "Baystreet . ca - What To Do After Tesla and SpaceX Shares Sank",
-    "Musk Net Worth Down By More Than $600 Billion as SpaceX , Tesla Woes Mount - Tesla ( NASDAQ : TSLA ), SpaceX"
+    "테슬라의 주가가 1년간 30% 내렸어요.",
+    "테슬라와 스페이스X의 합병 가능성이 논의되고 있어요.",
+    "엘론 머스크의 재산이 600억 달러 이상 줄었어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "테슬라 주식을 사는 것이 좋은 기회가 될 수 있어요!",
+    "테슬라와 스페이스X의 합병이 성공적으로 이루어진다면 두 회사의 가치가 올라갈 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "951bdab0d1848ea83464657d015185f855635966"
  },
