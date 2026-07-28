@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-28T16:56:30.416449+00:00",
+ "generated_at": "2026-07-28T19:02:50.300323+00:00",
  "issues": [
   {
    "id": "c03074aeed49bf60f",
@@ -7,17 +7,20 @@
    "category": "RATE",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 26,
+   "seen_sources": 32,
    "importance": 180,
    "entity_keys": [
+    "AAPL",
     "CHINA",
+    "KRX:000660",
+    "KRX:034730",
     "MSFT",
     "SEC",
     "UBER"
    ],
    "created_at": "2026-07-24T06:45:00.090828+00:00",
-   "last_update": "2026-07-28T16:56:03.014363+00:00",
-   "members": 35,
+   "last_update": "2026-07-28T18:53:01.534480+00:00",
+   "members": 42,
    "llm_title": "중국 경제 소식",
    "one_liner": "중국이 인도네시아에 제안을 해서 특정 광물에 접근할 수 있는 기회를 얻었어요",
    "llm_model": "llama-3.3-70b-versatile",
@@ -172,13 +175,32 @@
    "in_review": true
   },
   {
+   "id": "c5c8d55ad4217ee1f",
+   "title": "Federal government grounds Billy Bishop airport expansion",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 5,
+   "importance": 125,
+   "entity_keys": [
+    "FED"
+   ],
+   "created_at": "2026-07-25T06:34:22.677442+00:00",
+   "last_update": "2026-07-28T18:53:01.528754+00:00",
+   "members": 9,
+   "llm_title": "Fed Chair Kevin…",
+   "one_liner": "Fed Chair Kevin Warsh faces pressure to combat…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "cd41f78d2b746ddd5",
    "title": "Tech bounce lifts Asia stocks , oil extends gains on US - Iran fears",
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
    "seen_sources": 39,
-   "importance": 130,
+   "importance": 125,
    "entity_keys": [
     "INTC",
     "IRAN",
@@ -232,22 +254,22 @@
    "in_review": true
   },
   {
-   "id": "c5c8d55ad4217ee1f",
-   "title": "Federal government grounds Billy Bishop airport expansion",
-   "category": "POLICY",
+   "id": "cddd63d8ad09a1af7",
+   "title": "More Amazon and gig workers are turning to SNAP and Medicaid to make ends meet , study finds",
+   "category": "MACRO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 4,
+   "seen_sources": 3,
    "importance": 120,
    "entity_keys": [
-    "FED"
+    "AMZN"
    ],
-   "created_at": "2026-07-25T06:34:22.677442+00:00",
-   "last_update": "2026-07-28T00:16:00.852864+00:00",
-   "members": 4,
-   "llm_title": "토론토 공항 확장 반대",
-   "one_liner": "토론토 시장이 물안개 공항 확장 계획을 거부한 연방 정부에 항의했어요",
-   "llm_model": "llama-3.3-70b-versatile",
+   "created_at": "2026-07-28T16:56:03.015760+00:00",
+   "last_update": "2026-07-28T18:53:01.525451+00:00",
+   "members": 3,
+   "llm_title": "UPS Says Amazon…",
+   "one_liner": "UPS Says Amazon Glide - Down Is Complete ,…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -317,41 +339,23 @@
    "in_review": true
   },
   {
-   "id": "cddd63d8ad09a1af7",
-   "title": "More Amazon and gig workers are turning to SNAP and Medicaid to make ends meet , study finds",
-   "category": "MACRO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 115,
-   "entity_keys": [
-    "AMZN"
-   ],
-   "created_at": "2026-07-28T16:56:03.015760+00:00",
-   "last_update": "2026-07-28T16:56:03.023787+00:00",
-   "members": 2,
-   "llm_title": "아마존 비행우림 위협",
-   "one_liner": "아마존 비행우림이 위협을 받고 있어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": false
-  },
-  {
    "id": "c8f0b7cb0487a034d",
    "title": "Finance minister reviews Pakistan economic progress with IMF",
    "category": "FX",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 5,
+   "seen_sources": 6,
    "importance": 115,
    "entity_keys": [
-    "IMF"
+    "IMF",
+    "SEC"
    ],
    "created_at": "2026-07-24T14:20:12.855565+00:00",
-   "last_update": "2026-07-28T00:16:00.828062+00:00",
-   "members": 7,
-   "llm_title": "IMF, 아르헨티나 부채 상환 능력 평가",
-   "one_liner": "IMF 총재가 아르헨티나가 부채를 갚을 능력이 더 좋아졌다고 말했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
+   "last_update": "2026-07-28T18:53:01.535023+00:00",
+   "members": 8,
+   "llm_title": "IMF chief says…",
+   "one_liner": "IMF chief says Argentina is better positioned to…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -852,6 +856,44 @@
    "in_review": false
   },
   {
+   "id": "c7b7e590611a1bac4",
+   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 95,
+   "entity_keys": [
+    "INTC"
+   ],
+   "created_at": "2026-07-28T00:16:00.854362+00:00",
+   "last_update": "2026-07-28T18:53:01.534731+00:00",
+   "members": 3,
+   "llm_title": "Warren Buffett and…",
+   "one_liner": "Warren Buffett and Greg Abel Have Been Loading…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c6ea1632cc08136b5",
+   "title": "Salesforce vs . ServiceNow : Which Agentic AI Stock Is Actually the Better Buy Right Now ?",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 95,
+   "entity_keys": [
+    "CRM"
+   ],
+   "created_at": "2026-07-26T14:05:29.566237+00:00",
+   "last_update": "2026-07-28T18:53:01.532534+00:00",
+   "members": 3,
+   "llm_title": "Salesforce 소식",
+   "one_liner": "Salesforce에 대한 투자와 분석이 이뤄지고 있어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
    "id": "ce87d8956118c46ca",
    "title": "Focus on aviation technology , airline growth and tourism , says Prof . Sonal Fernando",
    "category": "POLICY",
@@ -983,42 +1025,80 @@
    "in_review": false
   },
   {
-   "id": "c26db649df2243106",
-   "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 9,
-   "importance": 90,
-   "entity_keys": [
-    "GOOGL",
-    "VZ"
-   ],
-   "created_at": "2026-07-23T06:44:56.417003+00:00",
-   "last_update": "2026-07-28T16:56:03.003371+00:00",
-   "members": 16,
-   "llm_title": "구글, 버라이즌과 1조원대 계약",
-   "one_liner": "구글이 버라이즌과 1조원 규모의 인터넷망 계약을 맺었어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c7b7e590611a1bac4",
-   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
+   "id": "c32be43a74d268864",
+   "title": "Why Is PayPal Stock Gaining Tuesday ? - PayPal Holdings ( NASDAQ : PYPL )",
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
    "seen_sources": 2,
    "importance": 90,
    "entity_keys": [
-    "INTC"
+    "PYPL"
    ],
-   "created_at": "2026-07-28T00:16:00.854362+00:00",
-   "last_update": "2026-07-28T00:16:00.855148+00:00",
+   "created_at": "2026-07-28T18:53:01.536982+00:00",
+   "last_update": "2026-07-28T18:53:01.544537+00:00",
    "members": 2,
-   "llm_title": "인텔 등 주가 하락",
-   "one_liner": "인텔 등 기술 주가가 떨어졌어요",
-   "llm_model": "llama-3.3-70b-versatile",
+   "llm_title": "Is PayPal Holdings a…",
+   "one_liner": "Is PayPal Holdings a Buy After Its Latest…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "cf4eea20fea5b267a",
+   "title": "Morgan Stanley sees shift coming for Big Tech investors",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 90,
+   "entity_keys": [
+    "MS"
+   ],
+   "created_at": "2026-07-28T18:53:01.536814+00:00",
+   "last_update": "2026-07-28T18:53:01.544496+00:00",
+   "members": 2,
+   "llm_title": "Wall Street Trading…",
+   "one_liner": "Wall Street Trading Boom Just Got a New Leader :…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c054da912ed8844a1",
+   "title": "Oracle Stock Stays Down 65 % Despite $7B Pentagon Deal",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 90,
+   "entity_keys": [
+    "ORCL"
+   ],
+   "created_at": "2026-07-28T18:53:01.536582+00:00",
+   "last_update": "2026-07-28T18:53:01.544368+00:00",
+   "members": 2,
+   "llm_title": "Night View Capital…",
+   "one_liner": "Night View Capital Trimmed Oracle ( ORCL ) After…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c26db649df2243106",
+   "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 10,
+   "importance": 90,
+   "entity_keys": [
+    "GOOGL",
+    "VZ"
+   ],
+   "created_at": "2026-07-23T06:44:56.417003+00:00",
+   "last_update": "2026-07-28T18:53:01.529731+00:00",
+   "members": 17,
+   "llm_title": "Verizon lifts…",
+   "one_liner": "Verizon lifts outlook as Google signs $1 billion…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -1038,23 +1118,6 @@
    "llm_title": "What a Major…",
    "one_liner": "What a Major Anthropic Chip Deal Really Means…",
    "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c9e1138d2bef444ae",
-   "title": "Trump appetite for tariffs never faded . His next moves could reshape trade",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 35,
-   "importance": 90,
-   "entity_keys": [],
-   "created_at": "2026-07-26T11:41:44.659788+00:00",
-   "last_update": "2026-07-26T17:31:16.525598+00:00",
-   "members": 49,
-   "llm_title": "트럼프 관세",
-   "one_liner": "트럼프 대통령이 관세를 부과할 계획이라고 해요.",
-   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1180,6 +1243,25 @@
    "in_review": false
   },
   {
+   "id": "c92185965ef65313f",
+   "title": "The Latest : Netanyahu will meet with Trump for first time since the Iran war began",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 6,
+   "importance": 85,
+   "entity_keys": [
+    "IRAN"
+   ],
+   "created_at": "2026-07-28T16:56:03.022441+00:00",
+   "last_update": "2026-07-28T18:53:01.533629+00:00",
+   "members": 10,
+   "llm_title": "The Latest :…",
+   "one_liner": "The Latest : Netanyahu will meet with Trump for…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "cd1a82e30cb914c1b",
    "title": "Nvidia $2 Billion Stake Transforms Nebius Group ( NASDAQ : NBIS ) Into a Major AI Infrastructure Contender",
    "category": "MARKET",
@@ -1231,6 +1313,23 @@
    "members": 50,
    "llm_title": "국제 소식",
    "one_liner": "유엔 총장이 시리아에 대한 모든 제재를 철폐할 것을 촉구했어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "c9e1138d2bef444ae",
+   "title": "Trump appetite for tariffs never faded . His next moves could reshape trade",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 35,
+   "importance": 85,
+   "entity_keys": [],
+   "created_at": "2026-07-26T11:41:44.659788+00:00",
+   "last_update": "2026-07-26T17:31:16.525598+00:00",
+   "members": 49,
+   "llm_title": "트럼프 관세",
+   "one_liner": "트럼프 대통령이 관세를 부과할 계획이라고 해요.",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
@@ -1417,25 +1516,6 @@
    "in_review": true
   },
   {
-   "id": "c6ea1632cc08136b5",
-   "title": "Salesforce vs . ServiceNow : Which Agentic AI Stock Is Actually the Better Buy Right Now ?",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 80,
-   "entity_keys": [
-    "CRM"
-   ],
-   "created_at": "2026-07-26T14:05:29.566237+00:00",
-   "last_update": "2026-07-26T14:05:29.567259+00:00",
-   "members": 2,
-   "llm_title": "Lombard Odier Asset…",
-   "one_liner": "Lombard Odier Asset Management Europe Ltd…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "c2cdae3197527cd80",
    "title": "Trump unveils new 50 % tariffs on wide range of Canadian goods",
    "category": "POLICY",
@@ -1534,6 +1614,23 @@
    "in_review": false
   },
   {
+   "id": "c079935dcd37d8198",
+   "title": "The great gas race : Who is holding the keys to Europes energy future",
+   "category": "COMMODITY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 75,
+   "entity_keys": [],
+   "created_at": "2026-07-26T11:41:44.660938+00:00",
+   "last_update": "2026-07-28T18:53:01.531309+00:00",
+   "members": 10,
+   "llm_title": "Aging Jets , Rising…",
+   "one_liner": "Aging Jets , Rising Threats : Why RTX…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c6857fd8f65c2ecfc",
    "title": "Market recap : Top - 10 firms shed Rs 2 . 74 lakh crore in value ; HDFC Bank takes biggest hit",
    "category": "MARKET",
@@ -1566,23 +1663,6 @@
    "members": 3,
    "llm_title": "마이크론 주가 상승세",
    "one_liner": "마이크론의 주가가 올해 세 배 올랐고 앞으로 더 오를 수 있다는 전망이 나와요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c79aed845722a8a65",
-   "title": "Wholesale electricity prices fell as Middle East crisis appeared to ease",
-   "category": "COMMODITY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 37,
-   "importance": 75,
-   "entity_keys": [],
-   "created_at": "2026-07-22T16:53:58.409468+00:00",
-   "last_update": "2026-07-25T17:28:30.143257+00:00",
-   "members": 50,
-   "llm_title": "장바구니 물가 50년 만에 최대 상승",
-   "one_liner": "마트에서 파는 물건들의 가격이 50년 만에 가장 많이 올랐어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -1890,25 +1970,6 @@
    "in_review": true
   },
   {
-   "id": "c92185965ef65313f",
-   "title": "The Latest : Netanyahu will meet with Trump for first time since the Iran war began",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 70,
-   "entity_keys": [
-    "IRAN"
-   ],
-   "created_at": "2026-07-28T16:56:03.022441+00:00",
-   "last_update": "2026-07-28T16:56:03.023877+00:00",
-   "members": 2,
-   "llm_title": "The Latest :…",
-   "one_liner": "The Latest : Netanyahu will meet with Trump for…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "cf8b1b4e63a573788",
    "title": "Oil tanker explodes after colliding with mine in Strait of Hormuz , Iranian media reports - as Trump pauses strikes to allow more time for  diplomacy",
    "category": "GEO",
@@ -1925,6 +1986,23 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
+   "in_review": true
+  },
+  {
+   "id": "c79aed845722a8a65",
+   "title": "Wholesale electricity prices fell as Middle East crisis appeared to ease",
+   "category": "COMMODITY",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 37,
+   "importance": 70,
+   "entity_keys": [],
+   "created_at": "2026-07-22T16:53:58.409468+00:00",
+   "last_update": "2026-07-25T17:28:30.143257+00:00",
+   "members": 50,
+   "llm_title": "장바구니 물가 50년 만에 최대 상승",
+   "one_liner": "마트에서 파는 물건들의 가격이 50년 만에 가장 많이 올랐어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -2467,23 +2545,6 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
-  },
-  {
-   "id": "c079935dcd37d8198",
-   "title": "The great gas race : Who is holding the keys to Europes energy future",
-   "category": "COMMODITY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 60,
-   "entity_keys": [],
-   "created_at": "2026-07-26T11:41:44.660938+00:00",
-   "last_update": "2026-07-26T15:35:55.488223+00:00",
-   "members": 9,
-   "llm_title": "유럽 겨울 가스 비축량 목표 달성 어려워",
-   "one_liner": "유럽이 겨울철 가스 비축량 목표를 달성하기 어려울 것으로 보여요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
   },
   {
    "id": "ca3ac47c5a0e63450",
@@ -3590,23 +3651,6 @@
    "in_review": true
   },
   {
-   "id": "c02d428c7b2e011c0",
-   "title": "M & S  lovely  summer cardigan  perfect for those in - between day reduced to £2",
-   "category": "EARNINGS",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 20,
-   "entity_keys": [],
-   "created_at": "2026-07-22T16:53:58.411392+00:00",
-   "last_update": "2026-07-22T18:39:10.426665+00:00",
-   "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
    "id": "e3892f7ce92b8b73a",
    "title": "이큐셀 2025-2Q 실적 공시",
    "category": "EARNINGS",
@@ -3738,6 +3782,23 @@
    "one_liner": "서한 매출액 1531.0억원으로 발표됐어요",
    "llm_model": "template",
    "in_review": true
+  },
+  {
+   "id": "c02d428c7b2e011c0",
+   "title": "M & S  lovely  summer cardigan  perfect for those in - between day reduced to £2",
+   "category": "EARNINGS",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 15,
+   "entity_keys": [],
+   "created_at": "2026-07-22T16:53:58.411392+00:00",
+   "last_update": "2026-07-22T18:39:10.426665+00:00",
+   "members": 3,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
   },
   {
    "id": "cf1c72ce503140e34",

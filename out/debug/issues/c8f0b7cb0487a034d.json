@@ -7,13 +7,24 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
-  "IMF"
+  "IMF",
+  "SEC"
  ],
- "seen_sources": 5,
+ "seen_sources": 6,
  "importance": 115,
  "created_at": "2026-07-24T14:20:12.855565+00:00",
- "last_update": "2026-07-28T00:16:00.828062+00:00",
+ "last_update": "2026-07-28T18:53:01.535023+00:00",
  "members": [
+  {
+   "id": "1c2c93f73dd5b69187561322dd164a8091763038",
+   "source": "ghanaiantimes.com.gh",
+   "tier": "wire",
+   "url": "https://ghanaiantimes.com.gh/ghana-completes-imf-bailout-programme-secures-final-us371-million/",
+   "title": "Ghana completes IMF bailout programme , secures final US$371 million",
+   "published_at": "2026-07-28T18:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8895
+  },
   {
    "id": "45b4ff0a2c8813de1abdd85fb11dc363ad793538",
    "source": "messenger-inquirer.com",
@@ -22,7 +33,7 @@
    "title": "IMF chief says Argentina is better positioned to meet debt obligations under Milei",
    "published_at": "2026-07-27T22:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9503
+   "sim_to_centroid": 0.9479
   },
   {
    "id": "d8429ebaf39fddd32a9ace82aa8d47abc41a1cb1",
@@ -32,7 +43,7 @@
    "title": "IMF chief says Argentina is better positioned to meet debt obligations under Milei",
    "published_at": "2026-07-27T22:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9503
+   "sim_to_centroid": 0.9479
   },
   {
    "id": "38cfd53bbb64bb20e783af79455e693b705a2536",
@@ -42,7 +53,7 @@
    "title": "IMF chief says Argentina is better positioned to meet debt obligations under Milei – Winnipeg Free Press",
    "published_at": "2026-07-27T22:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9372
+   "sim_to_centroid": 0.9349
   },
   {
    "id": "af09be6f0c37f2ddbae19e1c43bec4cd679c4d18",
@@ -52,7 +63,7 @@
    "title": "IMF chief says Argentina is better positioned to meet debt obligations under Milei",
    "published_at": "2026-07-27T22:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9503
+   "sim_to_centroid": 0.9479
   },
   {
    "id": "51191d2316653f01c166b72542aa1a94d1b0c706",
@@ -62,7 +73,7 @@
    "title": "Ghana Economic Reset Under Scrutiny : Six Critical Tests for Sustained Stability Beyond the IMF Watchful Eye – Ghanamma . com",
    "published_at": "2026-07-26T14:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8805
+   "sim_to_centroid": 0.8884
   },
   {
    "id": "e63d053154ab167e557fc5cfeab3eae439de8f82",
@@ -72,7 +83,7 @@
    "title": "Georgieva Argentina Visit : IMF Backs Reserves , Flags Fiscal Doubts",
    "published_at": "2026-07-24T12:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9504
+   "sim_to_centroid": 0.9475
   },
   {
    "id": "3495ffd8d99fc0cd7c20c401e477d2ad63ac8746",
@@ -82,11 +93,18 @@
    "title": "Finance minister reviews Pakistan economic progress with IMF",
    "published_at": "2026-07-24T08:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9372
+   "sim_to_centroid": 0.9371
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Ghana completes IMF bailout programme , secures final US$371 million",
+   "source": "ghanaiantimes.com.gh",
+   "url": "https://ghanaiantimes.com.gh/ghana-completes-imf-bailout-programme-secures-final-us371-million/",
+   "at": "2026-07-28T18:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "IMF chief says Argentina is better positioned to meet debt obligations under Milei",
@@ -138,57 +156,87 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-28T03:44:14.003868+00:00",
+  "model": "template",
+  "created_at": "2026-07-28T19:01:51.239202+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
    "headlines": [
     "IMF chief says Argentina is better positioned to meet debt obligations under Milei",
-    "IMF chief says Argentina is better positioned to meet debt obligations under Milei – Winnipeg Free Press",
-    "Ghana Economic Reset Under Scrutiny : Six Critical Tests for Sustained Stability Beyond the IMF Watchful Eye – Ghanamma . com",
     "Georgieva Argentina Visit : IMF Backs Reserves , Flags Fiscal Doubts",
-    "Finance minister reviews Pakistan economic progress with IMF"
+    "Finance minister reviews Pakistan economic progress with IMF",
+    "IMF chief says Argentina is better positioned to meet debt obligations under Milei – Winnipeg Free Press",
+    "Ghana completes IMF bailout programme , secures final US$371 million"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"IMF, 아르헨티나 부채 상환 능력 평가\",\n\"one_liner\": \"IMF 총재가 아르헨티나가 부채를 갚을 능력이 더 좋아졌다고 말했어요.\",\n\"why_now\": \"나라의 빚을 갚는 능력이 좋아지면 경제가 안정될 가능성이 높아져요.\",\n\"impact_line\": \"아르헨티나 경제 상황이 개선되면 관련 상품 가격이 안정될 수 있어요.\",\n\"details\": [\n\"IMF 총재는 아르헨티나가 밀레이 대통령 하에서 부채를 갚을 준비가 더 잘 되어 있다고 평가했어요.\",\n\"IMF 총재는 아르헨티나 방문에서 외환보유액은 지지했지만, 재정 건전성에 대한 의문을 제기했어요.\",\n\"가나 경제 회복이 IMF의 감시를 넘어 지속적인 안정을 위한 중요한 시험대에 올랐어요.\",\n\"파키스탄 재무장관은 IMF와 함께 파키스탄의 경제 발전 상황을 검토했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"아르헨티나의 경제 상황이 개선되면 국제 금융 시장의 불안이 줄어들 수 있어요!\",\n\"IMF의 평가는 해당 국가들의 경제 정책 방향에 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"IMF\",\n\"easy\": \"국제통화기금으로, 나라들이 돈을 빌려주거나 경제 정책에 조언을 해주는 국제기구예요.\",\n\"example\": \"IMF는 경제가 어려운 나라에 돈을 빌려주기도 해요.\"\n},\n{\n\"term\": \"외환보유액\",\n\"easy\": \"나라가 외국 돈을 얼마나 가지고 있는지 보여주는 거예요.\",\n\"example\": \"외환보유액이 많으면 외국 돈이 갑자기 필요할 때 쓸 수 있어요.\"\n},\n{\n\"term\": \"재정 건전성\",\n\"easy\": \"나라 살림이 얼마나 튼튼한지를 말해요. 빚이 너무 많지 않고 돈을 잘 버는 상태를 뜻해요.\",\n\"example\": \"재정 건전성이 좋으면 나라 경제가 안정적이라고 볼 수 있어요.\"\n}\n],\n\"impact_line\": \"아르헨티나 경제 상황이 개선되면 관련 상품 가격이 안정될 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "IMF, 아르헨티나 부채 상환 능력 평가",
-   "one_liner": "IMF 총재가 아르헨티나가 부채를 갚을 능력이 더 좋아졌다고 말했어요.",
-   "why_now": "나라의 빚을 갚는 능력이 좋아지면 경제가 안정될 가능성이 높아져요.",
+   "title": "IMF chief says…",
+   "one_liner": "IMF chief says Argentina is better positioned to…",
+   "why_now": null,
    "details": [
-    "IMF 총재는 아르헨티나가 밀레이 대통령 하에서 부채를 갚을 준비가 더 잘 되어 있다고 평가했어요.",
-    "IMF 총재는 아르헨티나 방문에서 외환보유액은 지지했지만, 재정 건전성에 대한 의문을 제기했어요.",
-    "가나 경제 회복이 IMF의 감시를 넘어 지속적인 안정을 위한 중요한 시험대에 올랐어요.",
-    "파키스탄 재무장관은 IMF와 함께 파키스탄의 경제 발전 상황을 검토했어요."
+    "IMF chief says Argentina is better positioned to meet debt obligations under Milei",
+    "Georgieva Argentina Visit : IMF Backs Reserves , Flags Fiscal Doubts",
+    "Finance minister reviews Pakistan economic progress with IMF"
    ],
-   "effects": [
-    "아르헨티나의 경제 상황이 개선되면 국제 금융 시장의 불안이 줄어들 수 있어요!",
-    "IMF의 평가는 해당 국가들의 경제 정책 방향에 영향을 줄 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "usdkrw"
   },
-  "fact_hash": "bead74be9471a82fb30be65300ca4297b575fac9"
+  "fact_hash": "4079baff7bc4a40e45969eaf2bfa0380a75ce446"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-28T00:18:19.349784+00:00"
+  "at": "2026-07-28T19:01:51.239079+00:00"
  },
  "glossary": [],
  "related": [
   {
-   "id": "c37ad01cf8a091a74",
-   "title": "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions",
-   "category": "FX",
+   "id": "c03074aeed49bf60f",
+   "title": "World Bank confirms plan to phase out China lending by 2031",
+   "category": "RATE",
    "shared": [
-    "IMF"
+    "SEC"
+   ]
+  },
+  {
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
+   "category": "RATE",
+   "shared": [
+    "SEC"
+   ]
+  },
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": [
+    "SEC"
+   ]
+  },
+  {
+   "id": "c76068f5fb08a3e9a",
+   "title": "A forced - labor crackdown or an end - run around Congress ? Dissecting Trump new tariffs",
+   "category": "MARKET",
+   "shared": [
+    "SEC"
+   ]
+  },
+  {
+   "id": "cd41f78d2b746ddd5",
+   "title": "Tech bounce lifts Asia stocks , oil extends gains on US - Iran fears",
+   "category": "MARKET",
+   "shared": [
+    "SEC"
    ]
   }
  ]

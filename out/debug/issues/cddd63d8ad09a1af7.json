@@ -9,11 +9,21 @@
  "entity_keys": [
   "AMZN"
  ],
- "seen_sources": 2,
- "importance": 115,
+ "seen_sources": 3,
+ "importance": 120,
  "created_at": "2026-07-28T16:56:03.015760+00:00",
- "last_update": "2026-07-28T16:56:03.023787+00:00",
+ "last_update": "2026-07-28T18:53:01.525451+00:00",
  "members": [
+  {
+   "id": "f4e61574baadcbef1e5a84edf6077cbcbae02b82",
+   "source": "benzinga.com",
+   "tier": "wire",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60724348/ups-says-amazon-glide-down-is-complete-boosts-2026-outlook",
+   "title": "UPS Says Amazon Glide - Down Is Complete , Boosts 2026 Outlook ( UPDATED ) - United Parcel Service ( NYSE : UPS )",
+   "published_at": "2026-07-28T14:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8773
+  },
   {
    "id": "e6d8f61a7ba9a57acdc561924121555ba778bf35",
    "source": "news.mongabay.com",
@@ -22,7 +32,7 @@
    "title": "End of Brazil Soy Moratorium risks millions of hectares of Amazon rainforest : Study",
    "published_at": "2026-07-28T14:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9591
+   "sim_to_centroid": 0.9562
   },
   {
    "id": "54c053bd38cfaf8b8e23946fef067824b028e9e0",
@@ -32,7 +42,7 @@
    "title": "More Amazon and gig workers are turning to SNAP and Medicaid to make ends meet , study finds",
    "published_at": "2026-07-25T23:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9591
+   "sim_to_centroid": 0.9593
   }
  ],
  "anchors": [],
@@ -46,6 +56,13 @@
   },
   {
    "kind": "headline",
+   "title": "UPS Says Amazon Glide - Down Is Complete , Boosts 2026 Outlook ( UPDATED ) - United Parcel Service ( NYSE : UPS )",
+   "source": "benzinga.com",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60724348/ups-says-amazon-glide-down-is-complete-boosts-2026-outlook",
+   "at": "2026-07-28T14:30:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "More Amazon and gig workers are turning to SNAP and Medicaid to make ends meet , study finds",
    "source": "wxow.com",
    "url": "https://www.wxow.com/news/top-stories/more-amazon-and-gig-workers-are-turning-to-snap-and-medicaid-to-make-ends-meet/article_a5034c35-42e9-521b-b91a-e6281fd08371.html",
@@ -53,42 +70,45 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-28T16:56:04.305059+00:00",
+  "model": "template",
+  "created_at": "2026-07-28T19:01:32.390054+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
+    "UPS Says Amazon Glide - Down Is Complete , Boosts 2026 Outlook ( UPDATED ) - United Parcel Service ( NYSE : UPS )",
     "End of Brazil Soy Moratorium risks millions of hectares of Amazon rainforest : Study",
     "More Amazon and gig workers are turning to SNAP and Medicaid to make ends meet , study finds"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"아마존 비행우림 위협\",\n   \"one_liner\": \"아마존 비행우림이 위협을 받고 있어요\",\n   \"why_now\": \"아마존 비행우림이 사라지면 환경에 큰 영향을 줄 수 있어요\",\n   \"impact_line\": \"기후 변화가 가속화할 수 있어요\",\n   \"details\": [\n       \"아마존 비행우림이 위협을 받고 있어요\",\n       \"아마존 비행우림의 소유권이 변경될 수 있어요\",\n       \"아마존 비행우림의 보호가 중요해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"기후 변화가 가속화할 수 있어요!\",\n       \"자연 환경이 파괴될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "아마존 비행우림 위협",
-   "one_liner": "아마존 비행우림이 위협을 받고 있어요",
-   "why_now": "아마존 비행우림이 사라지면 환경에 큰 영향을 줄 수 있어요",
+   "title": "UPS Says Amazon…",
+   "one_liner": "UPS Says Amazon Glide - Down Is Complete ,…",
+   "why_now": null,
    "details": [
-    "아마존 비행우림이 위협을 받고 있어요",
-    "아마존 비행우림의 소유권이 변경될 수 있어요",
-    "아마존 비행우림의 보호가 중요해요"
+    "UPS Says Amazon Glide - Down Is Complete , Boosts 2026 Outlook ( UPDATED ) - United Parcel Service ( NYSE : UPS )",
+    "End of Brazil Soy Moratorium risks millions of hectares of Amazon rainforest : Study",
+    "More Amazon and gig workers are turning to SNAP and Medicaid to make ends meet , study finds"
    ],
-   "effects": [
-    "기후 변화가 가속화할 수 있어요!",
-    "자연 환경이 파괴될 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "c9da8e1d3a852270398b7262347ce7d8c141a301"
+  "fact_hash": "289e31f52593244591f119c884ebd442bfd0b7dc"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-28T19:01:32.389986+00:00"
+ },
  "glossary": [],
  "related": [
   {

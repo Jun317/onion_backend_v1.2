@@ -9,11 +9,21 @@
  "entity_keys": [
   "INTC"
  ],
- "seen_sources": 2,
- "importance": 90,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-07-28T00:16:00.854362+00:00",
- "last_update": "2026-07-28T00:16:00.855148+00:00",
+ "last_update": "2026-07-28T18:53:01.534731+00:00",
  "members": [
+  {
+   "id": "6a39075863d2767814e1c40d91f9bb7702e93270",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/07/28/warren-buffett-and-greg-abel-have-been-loading-up/",
+   "title": "Warren Buffett and Greg Abel Have Been Loading Up on This Top Artificial Intelligence ( AI ) Stock That Trading at a Bargain - Basement Price",
+   "published_at": "2026-07-28T18:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8941
+  },
   {
    "id": "15e67dae7f24d90edd7a3f319b050a1d9e25aa24",
    "source": "finance.yahoo.com",
@@ -22,7 +32,7 @@
    "title": "UiPath vs . Snowflake : Which Artificial Intelligence Tech Stock Is a Better Buy in 2026 ?",
    "published_at": "2026-07-27T22:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9568
+   "sim_to_centroid": 0.9567
   },
   {
    "id": "6759e588e8b9cdbba147a6b2af105e8a9bc46336",
@@ -32,11 +42,18 @@
    "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
    "published_at": "2026-07-27T12:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9568
+   "sim_to_centroid": 0.9545
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Warren Buffett and Greg Abel Have Been Loading Up on This Top Artificial Intelligence ( AI ) Stock That Trading at a Bargain - Basement Price",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/07/28/warren-buffett-and-greg-abel-have-been-loading-up/",
+   "at": "2026-07-28T18:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "UiPath vs . Snowflake : Which Artificial Intelligence Tech Stock Is a Better Buy in 2026 ?",
@@ -53,44 +70,44 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-28T10:01:55.347708+00:00",
+  "model": "template",
+  "created_at": "2026-07-28T19:02:10.087041+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Warren Buffett and Greg Abel Have Been Loading Up on This Top Artificial Intelligence ( AI ) Stock That Trading at a Bargain - Basement Price",
     "UiPath vs . Snowflake : Which Artificial Intelligence Tech Stock Is a Better Buy in 2026 ?",
     "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"인텔 등 주가 하락\",\n   \"one_liner\": \"인텔 등 기술 주가가 떨어졌어요\",\n   \"why_now\": \"기술 주가는 시장의 기대에 따라 변동할 수 있어요\",\n   \"impact_line\": \"주식 투자자에게 영향이 갈 수 있어요\",\n   \"details\": [\n       \"인텔 주가가 하락했어요\",\n       \"코어위브와 네비우스도 주가가 떨어졌어요\",\n       \"인텔 주가 하락으로 기술 주가에 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"기술 주가의 하락으로 투자자들이 주의해야 할 수 있어요!\",\n       \"시장의 변동성으로 인해 주가가 더욱 많이 흔들릴 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "인텔 등 주가 하락",
-   "one_liner": "인텔 등 기술 주가가 떨어졌어요",
-   "why_now": "기술 주가는 시장의 기대에 따라 변동할 수 있어요",
+   "title": "Warren Buffett and…",
+   "one_liner": "Warren Buffett and Greg Abel Have Been Loading…",
+   "why_now": null,
    "details": [
-    "인텔 주가가 하락했어요",
-    "코어위브와 네비우스도 주가가 떨어졌어요",
-    "인텔 주가 하락으로 기술 주가에 영향을 줄 수 있어요"
+    "Warren Buffett and Greg Abel Have Been Loading Up on This Top Artificial Intelligence ( AI ) Stock That Trading at a Bargain - Basement Price",
+    "UiPath vs . Snowflake : Which Artificial Intelligence Tech Stock Is a Better Buy in 2026 ?",
+    "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell"
    ],
-   "effects": [
-    "기술 주가의 하락으로 투자자들이 주의해야 할 수 있어요!",
-    "시장의 변동성으로 인해 주가가 더욱 많이 흔들릴 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "5fdd8db81b91edadea5d353aaab0e623a24f31eb"
+  "fact_hash": "1a2d57fb18a17dc5ae4c6d10cd948a210855d53e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"title 에 한자/가나 포함\", \"one_liner 에 한자/가나 포함\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-28T06:48:03.528385+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-28T19:02:10.086967+00:00"
  },
  "glossary": [],
  "related": [

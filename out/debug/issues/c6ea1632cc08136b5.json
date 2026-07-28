@@ -9,11 +9,21 @@
  "entity_keys": [
   "CRM"
  ],
- "seen_sources": 2,
- "importance": 80,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-07-26T14:05:29.566237+00:00",
- "last_update": "2026-07-26T14:05:29.567259+00:00",
+ "last_update": "2026-07-28T18:53:01.532534+00:00",
  "members": [
+  {
+   "id": "aecc7e2397a6377368d3b5e48866d5c07304d88c",
+   "source": "insidermonkey.com",
+   "tier": "wire",
+   "url": "https://www.insidermonkey.com/blog/salesforces-crm-impact-of-on-ai-deployment-in-corporate-environments-1805208/",
+   "title": "Salesforce ( CRM ) Impact on AI Deployment in Corporate Environments",
+   "published_at": "2026-07-28T17:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9164
+  },
   {
    "id": "b9f4ecccd66007e3e7fce54db1ab79ca21487023",
    "source": "tickerreport.com",
@@ -22,7 +32,7 @@
    "title": "Lombard Odier Asset Management Europe Ltd Purchases 6 , 289 Shares of Salesforce Inc . $CRM",
    "published_at": "2026-07-26T12:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9575
+   "sim_to_centroid": 0.955
   },
   {
    "id": "5d0e9231b6958e69199981b255c37ea1076b2513",
@@ -32,11 +42,18 @@
    "title": "Salesforce vs . ServiceNow : Which Agentic AI Stock Is Actually the Better Buy Right Now ?",
    "published_at": "2026-07-26T12:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9575
+   "sim_to_centroid": 0.9582
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Salesforce ( CRM ) Impact on AI Deployment in Corporate Environments",
+   "source": "insidermonkey.com",
+   "url": "https://www.insidermonkey.com/blog/salesforces-crm-impact-of-on-ai-deployment-in-corporate-environments-1805208/",
+   "at": "2026-07-28T17:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Lombard Odier Asset Management Europe Ltd Purchases 6 , 289 Shares of Salesforce Inc . $CRM",
@@ -53,48 +70,41 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-28T14:49:54.183073+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-28T18:53:22.718268+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Salesforce ( CRM ) Impact on AI Deployment in Corporate Environments",
     "Lombard Odier Asset Management Europe Ltd Purchases 6 , 289 Shares of Salesforce Inc . $CRM",
     "Salesforce vs . ServiceNow : Which Agentic AI Stock Is Actually the Better Buy Right Now ?"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"Salesforce 주식 매수\",\n   \"one_liner\": \"로ンバ드 오디에르 자산 관리 유럽이 Salesforce 주식을 6289주 샀어요\",\n   \"why_now\": \"투자자들이 주식을 사면 그 회사에 대한 기대가 높아질 수 있어요\",\n   \"impact_line\": \"Salesforce의 서비스를 쓰는 기업이나 개인에게 영향이 갈 수 있어요\",\n   \"details\": [\n       \"로ンバ드 오디에르 자산 관리 유럽이 Salesforce 주식을 6289주 매수했어요\",\n       \"Salesforce와 ServiceNow 중 어떤 회사의 주식을 사야 좋을지 비교하는 기사가 나왔어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"Salesforce의 주가가 오를 수 있어요!\",\n       \"Salesforce의 서비스 수요가 증가할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"Salesforce 소식\",\n   \"one_liner\": \"Salesforce에 대한 투자와 분석이 이뤄지고 있어요\",\n   \"why_now\": \"기업 환경에서 인공지능을 사용하는 데 영향을 미치는 소식이에요\",\n   \"impact_line\": \"기업의 기술 투자 방향에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"Salesforce에 대한 분석이 이뤄지고 있어요\",\n       \"Salesforce의 주식을 사는 투자자가 있어요\",\n       \"Salesforce와 다른 기업을 비교해 보는 소식이 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"기업의 기술 투자가 증가할 수 있어요!\",\n       \"새로운 기술이 개발될 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"AI\",\n           \"easy\": \"인공지능이에요\",\n           \"example\": \"로봇이나 컴퓨터가 스스로 생각하고 행동할 수 있게 해줘요\"\n       },\n       {\n           \"term\": \"Agentic AI\",\n           \"easy\": \"자율적인 인공지능이에요\",\n           \"example\": \"컴퓨터가 스스로 결정하고 행동할 수 있게 해줘요\"\n       }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 50자 초과(70)",
-     "details 3문장 미만",
-     "입력에 없는 숫자: [6289.0]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 에 한자/가나 포함",
-     "details 3문장 미만",
-     "입력에 없는 숫자: [6289.0]"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Lombard Odier Asset…",
-   "one_liner": "Lombard Odier Asset Management Europe Ltd…",
-   "why_now": null,
+   "title": "Salesforce 소식",
+   "one_liner": "Salesforce에 대한 투자와 분석이 이뤄지고 있어요",
+   "why_now": "기업 환경에서 인공지능을 사용하는 데 영향을 미치는 소식이에요",
    "details": [
-    "Lombard Odier Asset Management Europe Ltd Purchases 6 , 289 Shares of Salesforce Inc . $CRM",
-    "Salesforce vs . ServiceNow : Which Agentic AI Stock Is Actually the Better Buy Right Now ?"
+    "Salesforce에 대한 분석이 이뤄지고 있어요",
+    "Salesforce의 주식을 사는 투자자가 있어요",
+    "Salesforce와 다른 기업을 비교해 보는 소식이 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "기업의 기술 투자가 증가할 수 있어요!",
+    "새로운 기술이 개발될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "3b88f828f5fa8e27c71642ad0b0c2ab447d006c1"
+  "fact_hash": "b33bd2f33f9470bc04972f247ce082f5d9cd0180"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 50자 초과(70)\", \"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"details 3문장 미만\", \"입력에 없는 숫자: [6289.0]\"]}]}",
@@ -121,14 +131,14 @@
    "shared": []
   },
   {
-   "id": "cb34f19e1978fa138",
-   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
+   "id": "c7b7e590611a1bac4",
+   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c88e0e9224f4c05cc",
-   "title": "SK하이닉스, 내년 HBM 공급 물량 사실상 완판",
+   "id": "cb34f19e1978fa138",
+   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "category": "MARKET",
    "shared": []
   }
