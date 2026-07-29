@@ -71,7 +71,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-29T12:27:05.238229+00:00",
+  "created_at": "2026-07-29T17:45:57.299602+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -81,17 +81,21 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"에어 인디아 노선 변경\",\n   \"one_liner\": \"에어 인디아가 델리-토론토 노선에 새로운 항공기를 투입해요.\",\n   \"why_now\": \"새 항공기를 투입하면 비행기 안의 환경이 좋아져요.\",\n   \"impact_line\": \"델리에서 토론토로 가는 비행 시간이 짧아질 수 있어요.\",\n   \"details\": [\n       \"에어 인디아가 델리-토론토 노선에 새로운 보잉 787-9 항공기를 투입해요.\",\n       \"8월 1일부터 비엔나 경유가 없어져요.\",\n       \"새로운 항공기를 투입하면 승객들이 더 편안하게 비행할 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"비행 시간이 짧아져서 델리에서 토론토로 가는 사람들이 편해질 수 있어요!\",\n       \"새로운 항공기를 투입하면 에어 인디아의 서비스 품질이 올라갈 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n\"title\": \"인도의 새 비행기 노선 운항\",\n\"one_liner\": \"인도 항공사가 델리와 토론토를 잇는 노선에 새 비행기를 투입해요.\",\n\"why_now\": \"새 비행기 투입으로 운항 시간이 줄어들고 더 편안한 여행이 가능해질 수 있어요.\",\n\"impact_line\": \"인도와 캐나다를 오가는 항공편이 더 편리해질 수 있어요.\",\n\"details\": [\n\"인도 항공사가 델리에서 토론토로 가는 노선에 새 비행기를 투입합니다.\",\n\"이 비행기는 보잉 787-9 기종입니다.\",\n\"8월 1일부터 비엔나 경유를 없애고 직항으로 운항합니다.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"운항 시간이 단축되어 여행객들의 편의가 증진될 수 있어요!\",\n\"직항 노선 확대는 두 도시 간 교류를 활성화하는 데 기여할 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"보잉 787-9\",\n\"easy\": \"보잉사에서 만든 중장거리용 대형 여객기 이름이에요.\",\n\"example\": \"이 비행기는 최신 기술이 적용되어 연비가 좋고 승객에게 편안함을 제공해요.\"\n}\n],\n\"impact_line\": \"인도와 캐나다를 오가는 항공편이 더 편리해질 수 있어요.\"\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
+     "details 3문장 미만",
      "입력에 없는 숫자: [-9.0]"
     ]
    },
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
+     "details[0] 어요체 아님",
+     "details[1] 어요체 아님",
+     "details[2] 어요체 아님",
      "입력에 없는 숫자: [-9.0]"
     ]
    }
@@ -110,8 +114,8 @@
   "fact_hash": "43565935a26762b2ed9e5c04f3a451b3cd88494e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [-9.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [-9.0]\"]}]}",
-  "at": "2026-07-29T12:27:05.238105+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [-9.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\", \"입력에 없는 숫자: [-9.0]\"]}]}",
+  "at": "2026-07-29T17:45:57.299489+00:00"
  },
  "glossary": [],
  "related": [
@@ -142,8 +146,8 @@
    "shared": []
   },
   {
-   "id": "c9e1138d2bef444ae",
-   "title": "Trump appetite for tariffs never faded . His next moves could reshape trade",
+   "id": "c8fd5663a6f60c96e",
+   "title": "The Reserve Bank of Australia must do better explaining what it is for , or risk its social licence being eroded",
    "category": "POLICY",
    "shared": []
   }

@@ -104,8 +104,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-29T12:36:25.264523+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-29T17:45:40.497710+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -118,26 +118,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"인텔 주식\",\n   \"one_liner\": \"인텔 주식에 관한 여러 소식이 있었어요.\",\n   \"why_now\": \"인텔은 중요한 회사라서 주식 시장에 영향을 줄 수 있어요.\",\n   \"impact_line\": \"인텔 제품을 사용하는 사람이나 투자자에게 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"캘리포니아 교사 연금 시스템이 인텔 주식을 팔았어요.\",\n       \"인텔 주식과 인공지능 기술에 관한 여러 기사가 나왔어요.\",\n       \"전문가들이 인텔 주식과 다른 인공지능 주식에 대해 의견을 나누었어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"인텔 주식의 가격이 변하면 투자자들에게 영향을 줄 수 있어요!\",\n       \"인공지능 기술의 발전이 인텔 주식과 관련된 회사에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"인텔\",\n           \"easy\": \"컴퓨터 칩을 만드는 회사예요.\",\n           \"example\": \"컴퓨터에 들어가는 칩을 인텔이 만들어요.\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "one_liner 50자 초과(51)",
+     "입력에 없는 숫자: [17.0, 2120.0]"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "California State…",
-   "one_liner": "California State Teachers Retirement System…",
-   "why_now": null,
+   "title": "인텔 주식",
+   "one_liner": "인텔 주식에 관한 여러 소식이 있었어요.",
+   "why_now": "인텔은 중요한 회사라서 주식 시장에 영향을 줄 수 있어요.",
    "details": [
-    "California State Teachers Retirement System Sells 172 , 120 Shares of Intel Corporation $INTC",
-    "This Healthcare Leader Just Made a Bet on Artificial Intelligence ( AI ): Time to Buy the Stock ?",
-    "Warren Buffett and Greg Abel Have Been Loading Up on This Top Artificial Intelligence ( AI ) Stock That Trading at a Bargain - Basement Price"
+    "캘리포니아 교사 연금 시스템이 인텔 주식을 팔았어요.",
+    "인텔 주식과 인공지능 기술에 관한 여러 기사가 나왔어요.",
+    "전문가들이 인텔 주식과 다른 인공지능 주식에 대해 의견을 나누었어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "인텔 주식의 가격이 변하면 투자자들에게 영향을 줄 수 있어요!",
+    "인공지능 기술의 발전이 인텔 주식과 관련된 회사에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "f5e0e84cbf208c996e4a0989202297d10a5a9cf2"
  },

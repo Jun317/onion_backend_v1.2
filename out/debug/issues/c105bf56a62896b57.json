@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-29T12:28:07.147669+00:00",
+  "created_at": "2026-07-29T17:47:30.402649+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,15 +64,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"AMD 주가 하락\",\n\"one_liner\": \"AMD 주가가 3.3% 하락했어요.\",\n\"why_now\": \"회사의 중요한 계약 소식이 주가에 영향을 미치는 경우가 많아요.\",\n\"impact_line\": \"주식 투자자들의 손실이 커질 수 있어요.\",\n\"details\": [\n\"AMD의 주가가 3.3% 하락했어요.\",\n\"이 하락은 중요한 계약과 관련이 있는 것으로 보여요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"AMD의 주요 계약 소식이 주가에 부정적인 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"AMD\",\n\"easy\": \"미국의 주요 반도체 회사 이름이에요.\",\n\"example\": \"AMD는 컴퓨터 부품을 만드는 회사로 유명해요.\"\n}\n],\n\"impact_line\": \"주식 투자자들의 손실이 커질 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "입력에 없는 숫자: [3.3]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -94,8 +87,8 @@
   "fact_hash": "f285302cb39824ae0519468987d0427faa7f43df"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [3.3]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-29T12:28:07.147601+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-29T17:47:30.402585+00:00"
  },
  "glossary": [],
  "related": [
