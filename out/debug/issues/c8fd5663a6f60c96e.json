@@ -2,15 +2,15 @@
  "id": "c8fd5663a6f60c96e",
  "title": "The Reserve Bank of Australia must do better explaining what it is for , or risk its social licence being eroded",
  "category": "POLICY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 75,
+ "seen_sources": 2,
+ "importance": 80,
  "created_at": "2026-07-29T12:26:40.902302+00:00",
- "last_update": "2026-07-29T12:26:40.902302+00:00",
+ "last_update": "2026-07-29T15:25:45.545512+00:00",
  "members": [
   {
    "id": "39a25ec7c679630fb2aff3cf34e91acaca51eaaa",
@@ -20,7 +20,7 @@
    "title": "The Reserve Bank of Australia must do better explaining what it is for , or risk its social licence being eroded",
    "published_at": "2026-07-29T09:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9985
   },
   {
    "id": "62760e40216cea9e1195500bf2dd9f7ac63b2929",
@@ -30,7 +30,17 @@
    "title": "The Reserve Bank of Australia must do better explaining what it is for , or risk its social licence being eroded",
    "published_at": "2026-07-29T09:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9985
+  },
+  {
+   "id": "b56e3ba19e59a5968428b3ea5483b82c94496e3a",
+   "source": "afr.com",
+   "tier": "wire",
+   "url": "https://www.afr.com/chanticleer/rba-won-t-ignore-inflation-red-flags-neither-should-investors-20260729-p60jng",
+   "title": "Reserve Bank interest rates : Why Michele Bullock faces a sticky inflation dilemma despite softer data",
+   "published_at": "2026-07-29T09:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8654
   }
  ],
  "anchors": [],
@@ -48,11 +58,65 @@
    "source": "brisbanetimes.com.au",
    "url": "https://www.brisbanetimes.com.au/politics/federal/it-s-lucky-inflation-is-falling-most-of-us-don-t-even-understand-what-the-reserve-bank-does-20260729-p60jj6.html",
    "at": "2026-07-29T09:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Reserve Bank interest rates : Why Michele Bullock faces a sticky inflation dilemma despite softer data",
+   "source": "afr.com",
+   "url": "https://www.afr.com/chanticleer/rba-won-t-ignore-inflation-red-flags-neither-should-investors-20260729-p60jng",
+   "at": "2026-07-29T09:45:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-29T15:26:03.795462+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "The Reserve Bank of Australia must do better explaining what it is for , or risk its social licence being eroded",
+    "Reserve Bank interest rates : Why Michele Bullock faces a sticky inflation dilemma despite softer data"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n    \"title\": \"호주 중앙은행 설명 부족\",\n    \"one_liner\": \"호주 중앙은행이 하는 일을 더 잘 설명해야 할 필요가 있어요.\",\n    \"why_now\": \"중앙은행의 역할 설명이 부족하면 사람들이 그 존재 이유를 의심할 수 있어요.\",\n    \"impact_line\": null,\n    \"details\": [\n        \"호주 중앙은행은 하는 일을 더 잘 설명해야 해요.\",\n        \"그렇지 않으면 사회적 신뢰를 잃을 위험이 있어요.\",\n        \"미셸 불록 총재는 물가 상승 둔화에도 어려운 결정을 내려야 해요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"중앙은행의 설명이 부족하면 정책 결정에 대한 국민의 이해와 신뢰가 낮아질 수 있어요!\",\n        \"물가 상승이 둔화되더라도 금리 결정에 어려움이 있을 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"호주 중앙은행\",\n            \"easy\": \"호주 나라의 돈과 금리를 관리하는 기관이에요.\",\n            \"example\": \"호주 중앙은행이 금리를 올리면 호주에서 돈 빌리는 이자가 늘어요.\"\n        },\n        {\n            \"term\": \"사회적 신뢰\",\n            \"easy\": \"사람들이 어떤 기관이나 사람을 믿고 따르는 마음이에요.\",\n            \"example\": \"정부가 약속을 잘 지키면 사회적 신뢰가 높아져요.\"\n        },\n        {\n            \"term\": \"물가 상승\",\n            \"easy\": \"물건이나 서비스 가격이 전반적으로 오르는 현상이에요.\",\n            \"example\": \"물가 상승이 계속되면 내 월급이 올라도 살기 더 힘들어져요.\"\n        }\n    ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "호주 중앙은행 설명 부족",
+   "one_liner": "호주 중앙은행이 하는 일을 더 잘 설명해야 할 필요가 있어요.",
+   "why_now": "중앙은행의 역할 설명이 부족하면 사람들이 그 존재 이유를 의심할 수 있어요.",
+   "details": [
+    "호주 중앙은행은 하는 일을 더 잘 설명해야 해요.",
+    "그렇지 않으면 사회적 신뢰를 잃을 위험이 있어요.",
+    "미셸 불록 총재는 물가 상승 둔화에도 어려운 결정을 내려야 해요."
+   ],
+   "effects": [
+    "중앙은행의 설명이 부족하면 정책 결정에 대한 국민의 이해와 신뢰가 낮아질 수 있어요!",
+    "물가 상승이 둔화되더라도 금리 결정에 어려움이 있을 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "93f7bb3abbfb782f539f754368c3ceff564d2984"
+ },
  "review": null,
- "glossary": [],
+ "glossary": [
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  }
+ ],
  "related": [
   {
    "id": "c5c8d55ad4217ee1f",

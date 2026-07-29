@@ -1,6 +1,27 @@
 {
- "generated_at": "2026-07-29T12:36:46.308530+00:00",
+ "generated_at": "2026-07-29T15:26:16.909828+00:00",
  "queue": [
+  {
+   "issue_id": "cb1967acc518ea9d0",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "입력에 없는 숫자: [157.3]"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "입력에 없는 숫자: [1573.0, 40189.0]"
+      ]
+     }
+    ]
+   },
+   "at": "2026-07-29T15:26:11.574988+00:00"
+  },
   {
    "issue_id": "c92185965ef65313f",
    "reason": {
