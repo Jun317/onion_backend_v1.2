@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-29T03:50:17.981552+00:00",
+  "created_at": "2026-07-29T07:12:59.235571+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,12 +64,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"AMD 주가 하락\",\n\"one_liner\": \"AMD 주가가 3.3% 하락했어요.\",\n\"why_now\": \"기업의 주가는 실적이나 전망에 따라 변동하기 때문에 투자자들이 주목해요.\",\n\"impact_line\": \"AMD 관련 투자자들의 자산 가치가 변동될 수 있어요.\",\n\"details\": [\n\"AMD 주가가 3.3% 하락했어요.\",\n\"이 하락은 주요 인공지능 칩 공급 계약과 관련이 있는 것으로 보여요.\"\n],\n\"visual_type\": \"us_10y\",\n\"effects\": [\n\"AMD의 실적 전망이 불확실해지면서 주가가 하락할 수 있어요!\",\n\"AMD의 경쟁사들이 반사이익을 얻을 수도 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"AMD\",\n\"easy\": \"미국의 주요 반도체 회사 이름이에요.\",\n\"example\": \"AMD는 컴퓨터 부품을 만드는 회사로 유명해요.\"\n}\n],\n\"impact_line\": \"AMD 관련 투자자들의 자산 가치가 변동될 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "입력에 없는 숫자: [3.3]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "입력에 없는 숫자: [3.3]"
     ]
    }
   ],
@@ -87,8 +95,8 @@
   "fact_hash": "f285302cb39824ae0519468987d0427faa7f43df"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-29T03:50:17.981473+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [3.3]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [3.3]\"]}]}",
+  "at": "2026-07-29T07:12:59.235451+00:00"
  },
  "glossary": [],
  "related": [

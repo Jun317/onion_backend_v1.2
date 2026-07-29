@@ -257,8 +257,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-29T03:49:39.260338+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-29T07:12:35.286339+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -271,25 +271,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 경제 신뢰도 하락\",\n  \"one_liner\": \"미국 국민들의 경제에 대한 믿음이 줄어들었어요.\",\n  \"why_now\": \"이란과의 갈등으로 기름값이 오르면서 물가 상승에 대한 걱정이 커졌기 때문이에요.\",\n  \"impact_line\": \"기름값이 오르면 교통비와 물건값이 더 오를 수 있어요.\",\n  \"details\": [\n    \"미국 국민들의 경제에 대한 신뢰도가 떨어졌어요.\",\n    \"이란과의 갈등이 기름값을 다시 올리고 있어요.\",\n    \"이로 인해 물가 상승에 대한 우려가 다시 커지고 있어요.\",\n    \"국제 유가 상승은 투자자들의 걱정거리가 되고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"기름값이 오르면 운전하는 데 드는 비용이 늘어날 수 있어요!\",\n    \"기름값 상승은 다른 물건들의 가격에도 영향을 줄 수 있어 장바구니 물가가 오를 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"이란\",\n      \"easy\": \"중동에 있는 나라 이름이에요.\",\n      \"example\": \"이란은 석유가 많이 나는 나라 중 하나예요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "American confidence…",
-   "one_liner": "American confidence in US economy falls as Iran…",
-   "why_now": null,
+   "title": "미국 경제 신뢰도 하락",
+   "one_liner": "미국 국민들의 경제에 대한 믿음이 줄어들었어요.",
+   "why_now": "이란과의 갈등으로 기름값이 오르면서 물가 상승에 대한 걱정이 커졌기 때문이에요.",
    "details": [
-    "American confidence in US economy falls as Iran conflict sends gas prices higher",
-    "Confidence in US economy fell as Iran war sent gas prices back up",
-    "American confidence in U . S . economy falls as Iran conflict sends gas prices higher – Butler Eagle"
+    "미국 국민들의 경제에 대한 신뢰도가 떨어졌어요.",
+    "이란과의 갈등이 기름값을 다시 올리고 있어요.",
+    "이로 인해 물가 상승에 대한 우려가 다시 커지고 있어요.",
+    "국제 유가 상승은 투자자들의 걱정거리가 되고 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "기름값이 오르면 운전하는 데 드는 비용이 늘어날 수 있어요!",
+    "기름값 상승은 다른 물건들의 가격에도 영향을 줄 수 있어 장바구니 물가가 오를 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "3e0fd1c4625dfe245d78b2685ec0d4a702261a78"

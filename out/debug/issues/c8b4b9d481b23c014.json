@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-29T03:50:36.554768+00:00",
+  "created_at": "2026-07-29T07:13:13.417405+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,12 +64,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"기업 실적 발표\", \"one_liner\": \"기업들의 2분기 실적이 발표되고 있어요.\", \"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\", \"impact_line\": null, \"details\": [\"비자(Visa)의 3분기 이익이 늘었어요.\", \"텔레비사(Televisa) 그룹의 2분기 실적 발표가 있었어요.\"], \"visual_type\": \"earnings_quarterly\", \"effects\": [\"기업 실적이 좋으면 해당 기업의 주가가 오를 수 있어요!\", \"실적이 예상보다 나쁘면 주가 하락으로 이어질 수 있어요.\"], \"glossary\": [{\"term\": \"Profit\", \"easy\": \"회사가 벌어들인 돈에서 쓴 돈을 빼고 남은 이익이에요.\", \"example\": \"이번 분기 이익이 작년보다 늘었어요.\"}, {\"term\": \"Earnings Call\", \"easy\": \"회사가 실적을 발표하고 투자자들과 질의응답을 하는 자리예요.\", \"example\": \"실적 발표 후 어닝콜에 참여해 궁금한 점을 물어볼 수 있어요.\"}]}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님"
     ]
    }
   ],
@@ -87,8 +94,8 @@
   "fact_hash": "d1812cb4d967fcb791b1509733be7807bcc80105"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-29T03:50:36.554703+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}]}",
+  "at": "2026-07-29T07:13:13.417347+00:00"
  },
  "glossary": [],
  "related": [
