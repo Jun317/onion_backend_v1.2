@@ -9,11 +9,21 @@
  "entity_keys": [
   "INTC"
  ],
- "seen_sources": 3,
- "importance": 95,
+ "seen_sources": 4,
+ "importance": 100,
  "created_at": "2026-07-28T00:16:00.854362+00:00",
- "last_update": "2026-07-28T20:39:27.527211+00:00",
+ "last_update": "2026-07-29T12:26:40.895279+00:00",
  "members": [
+  {
+   "id": "2865c9d836ea50f11b6b31c9ac3ffa796f9e1e8e",
+   "source": "dailypolitical.com",
+   "tier": "wire",
+   "url": "https://www.dailypolitical.com/2026/07/29/california-state-teachers-retirement-system-sells-172120-shares-of-intel-corporation-intc.html",
+   "title": "California State Teachers Retirement System Sells 172 , 120 Shares of Intel Corporation $INTC",
+   "published_at": "2026-07-29T09:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8899
+  },
   {
    "id": "606de686ccaa71cb403ec3d30eb1866cafc6d49d",
    "source": "fool.com",
@@ -22,7 +32,7 @@
    "title": "This Healthcare Leader Just Made a Bet on Artificial Intelligence ( AI ): Time to Buy the Stock ?",
    "published_at": "2026-07-28T19:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9166
+   "sim_to_centroid": 0.9179
   },
   {
    "id": "6a39075863d2767814e1c40d91f9bb7702e93270",
@@ -32,7 +42,7 @@
    "title": "Warren Buffett and Greg Abel Have Been Loading Up on This Top Artificial Intelligence ( AI ) Stock That Trading at a Bargain - Basement Price",
    "published_at": "2026-07-28T18:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9013
+   "sim_to_centroid": 0.9032
   },
   {
    "id": "15e67dae7f24d90edd7a3f319b050a1d9e25aa24",
@@ -42,7 +52,7 @@
    "title": "UiPath vs . Snowflake : Which Artificial Intelligence Tech Stock Is a Better Buy in 2026 ?",
    "published_at": "2026-07-27T22:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9568
+   "sim_to_centroid": 0.9521
   },
   {
    "id": "6759e588e8b9cdbba147a6b2af105e8a9bc46336",
@@ -52,11 +62,18 @@
    "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
    "published_at": "2026-07-27T12:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9508
+   "sim_to_centroid": 0.9518
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "California State Teachers Retirement System Sells 172 , 120 Shares of Intel Corporation $INTC",
+   "source": "dailypolitical.com",
+   "url": "https://www.dailypolitical.com/2026/07/29/california-state-teachers-retirement-system-sells-172120-shares-of-intel-corporation-intc.html",
+   "at": "2026-07-29T09:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "This Healthcare Leader Just Made a Bet on Artificial Intelligence ( AI ): Time to Buy the Stock ?",
@@ -87,12 +104,13 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-28T22:31:22.779004+00:00",
+  "model": "template",
+  "created_at": "2026-07-29T12:36:25.264523+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "California State Teachers Retirement System Sells 172 , 120 Shares of Intel Corporation $INTC",
     "This Healthcare Leader Just Made a Bet on Artificial Intelligence ( AI ): Time to Buy the Stock ?",
     "Warren Buffett and Greg Abel Have Been Loading Up on This Top Artificial Intelligence ( AI ) Stock That Trading at a Bargain - Basement Price",
     "UiPath vs . Snowflake : Which Artificial Intelligence Tech Stock Is a Better Buy in 2026 ?",
@@ -100,34 +118,32 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"인공지능 관련주 동향\", \"one_liner\": \"인공지능 기술 관련 기업들의 주가 움직임이 다양하게 나타나고 있어요.\", \"why_now\": \"인공지능은 우리 생활과 산업 전반에 큰 영향을 미칠 것으로 예상돼요.\", \"impact_line\": \"인공지능 관련 기업들의 주가 변동에 주목할 필요가 있어요.\", \"details\": [\"인공지능 기술에 투자하는 헬스케어 기업에 대한 관심이 높아지고 있어요.\", \"워렌 버핏과 그렉 아벨이 인공지능 관련 주식을 매수하고 있다는 소식이 있어요.\", \"우이패스와 스노우플레이크 중 어떤 인공지능 기술 주식이 더 나은 선택인지 비교하는 분석이 있어요.\", \"코어위브, 네비우스, 인텔 주가가 하락했다는 보도가 나왔어요.\"], \"visual_type\": \"none\", \"effects\": [\"인공지능 기술 발전은 관련 기업들의 성장 가능성을 높일 수 있어요!\", \"주가 하락은 일부 기업들에게는 저가 매수의 기회가 될 수도 있어요!\"], \"glossary\": [{\"term\": \"인공지능 ( AI )\", \"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\", \"example\": \"인공지능 스피커가 날씨를 알려줘요.\"}, {\"term\": \"주식\", \"easy\": \"기업의 소유권을 나누어 놓은 증서로, 사고팔 수 있어요.\", \"example\": \"주식 투자를 통해 기업의 성장에 함께할 수 있어요.\"}]}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "인공지능 관련주 동향",
-   "one_liner": "인공지능 기술 관련 기업들의 주가 움직임이 다양하게 나타나고 있어요.",
-   "why_now": "인공지능은 우리 생활과 산업 전반에 큰 영향을 미칠 것으로 예상돼요.",
+   "title": "California State…",
+   "one_liner": "California State Teachers Retirement System…",
+   "why_now": null,
    "details": [
-    "인공지능 기술에 투자하는 헬스케어 기업에 대한 관심이 높아지고 있어요.",
-    "워렌 버핏과 그렉 아벨이 인공지능 관련 주식을 매수하고 있다는 소식이 있어요.",
-    "우이패스와 스노우플레이크 중 어떤 인공지능 기술 주식이 더 나은 선택인지 비교하는 분석이 있어요.",
-    "코어위브, 네비우스, 인텔 주가가 하락했다는 보도가 나왔어요."
+    "California State Teachers Retirement System Sells 172 , 120 Shares of Intel Corporation $INTC",
+    "This Healthcare Leader Just Made a Bet on Artificial Intelligence ( AI ): Time to Buy the Stock ?",
+    "Warren Buffett and Greg Abel Have Been Loading Up on This Top Artificial Intelligence ( AI ) Stock That Trading at a Bargain - Basement Price"
    ],
-   "effects": [
-    "인공지능 기술 발전은 관련 기업들의 성장 가능성을 높일 수 있어요!",
-    "주가 하락은 일부 기업들에게는 저가 매수의 기회가 될 수도 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "8c51b34f19b4e06ba4221dd2cf901d6663c209b0"
+  "fact_hash": "f5e0e84cbf208c996e4a0989202297d10a5a9cf2"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-28T19:02:10.086967+00:00"
+  "at": "2026-07-29T12:36:25.264445+00:00"
  },
  "glossary": [],
  "related": [
@@ -154,18 +170,18 @@
    ]
   },
   {
-   "id": "c2e1f0924eab58cb9",
-   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
-   "category": "EARNINGS",
-   "shared": [
-    "INTC"
-   ]
-  },
-  {
    "id": "c8767f6a04dae9d1b",
    "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "category": "MARKET",
    "shared": []
+  },
+  {
+   "id": "cd7b762c4b0212485",
+   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
+   "category": "GEO",
+   "shared": [
+    "INTC"
+   ]
   }
  ]
 }

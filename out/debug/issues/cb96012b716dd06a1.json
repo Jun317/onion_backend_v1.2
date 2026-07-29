@@ -71,7 +71,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-29T07:15:07.899810+00:00",
+  "created_at": "2026-07-29T12:30:16.234981+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -82,18 +82,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"퀄컴 주식 거래\",\n  \"one_liner\": \"여러 기관이 퀄컴 주식을 사고팔았어요.\",\n  \"why_now\": \"주요 기관의 주식 거래는 해당 기업의 미래 전망에 대한 신호로 해석될 수 있어요.\",\n  \"impact_line\": \"퀄컴 주가 변동에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"패러다임 LLC는 퀄컴 주식 55,867주를 팔았어요.\",\n    \"LGT 펀드 매니지먼트 사는 퀄컴 주식 22,663주를 샀어요.\",\n    \"세쿼이아 파이낸셜 어드바이저스 사는 퀄컴 주식 3,663주를 팔았어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"주요 기관의 매수세는 퀄컴 주가 상승 요인이 될 수 있어요!\",\n    \"주요 기관의 매도세는 퀄컴 주가 하락 요인이 될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주식\",\n      \"easy\": \"회사의 소유권 일부를 나타내는 증서예요.\",\n      \"example\": \"주식을 사면 그 회사의 주인이 되는 거예요.\"\n    },\n    {\n      \"term\": \"기관\",\n      \"easy\": \"은행, 보험사, 펀드 등 돈을 굴리는 큰 단체예요.\",\n      \"example\": \"기관 투자자들이 주식을 많이 사면 주가가 오르기도 해요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [3663.0, 22663.0, 55867.0]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [3663.0, 22663.0, 55867.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -112,8 +106,8 @@
   "fact_hash": "b9973497afc08baadf4706c82058f1adf5b56880"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [3663.0, 22663.0, 55867.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [3663.0, 22663.0, 55867.0]\"]}]}",
-  "at": "2026-07-29T07:15:07.899701+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-29T12:30:16.234853+00:00"
  },
  "glossary": [],
  "related": [
@@ -136,14 +130,14 @@
    "shared": []
   },
   {
-   "id": "c6ea1632cc08136b5",
-   "title": "Salesforce vs . ServiceNow : Which Agentic AI Stock Is Actually the Better Buy Right Now ?",
+   "id": "c7b7e590611a1bac4",
+   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c7b7e590611a1bac4",
-   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
+   "id": "c6ea1632cc08136b5",
+   "title": "Salesforce vs . ServiceNow : Which Agentic AI Stock Is Actually the Better Buy Right Now ?",
    "category": "MARKET",
    "shared": []
   }

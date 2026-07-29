@@ -38,7 +38,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-29T07:14:35.430317+00:00",
+  "created_at": "2026-07-29T12:29:57.800173+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [
@@ -57,15 +57,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 물가 상승률 발표\",\n  \"one_liner\": \"미국의 소비자 물가가 3.46% 올랐어요.\",\n  \"why_now\": \"물가 상승률은 금리 결정에 큰 영향을 미쳐요. 금리가 오르면 대출 이자가 늘어날 수 있어요.\",\n  \"impact_line\": \"수입 물건 가격이 오르거나, 대출 이자가 높아질 수 있어요.\",\n  \"details\": [\n    \"미국의 2026년 6월 소비자 물가 상승률은 3.46%였어요.\",\n    \"이 수치는 작년 같은 기간 대비 상승률이에요.\"\n  ],\n  \"visual_type\": \"us_cpi_yoy\",\n  \"effects\": [\n    \"물가 상승률이 예상보다 높으면, 금리가 오를 수 있어요!\",\n    \"금리가 오르면 대출 이자가 늘어나 가계 부담이 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"CPI\",\n      \"easy\": \"소비자 물가 지수로, 소비자들이 주로 사는 물건들의 가격 변화를 보여줘요.\",\n      \"example\": \"CPI가 오르면 장바구니 물가가 비싸졌다는 뜻이에요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "입력에 없는 숫자: [3.46]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -86,8 +79,8 @@
   "fact_hash": "23ab769aaa6b03d73c1331c879427daacca343b7"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [3.46]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-29T07:14:35.430257+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-29T12:29:57.800109+00:00"
  },
  "glossary": [
   {
