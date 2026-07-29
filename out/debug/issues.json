@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-28T22:41:28.524622+00:00",
+ "generated_at": "2026-07-29T00:15:42.613054+00:00",
  "issues": [
   {
    "id": "c03074aeed49bf60f",
@@ -75,16 +75,19 @@
    "category": "FX",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 17,
+   "seen_sources": 23,
    "importance": 140,
    "entity_keys": [
     "IMF",
+    "KRX:000660",
+    "KRX:034730",
     "MU",
+    "NVDA",
     "SEC"
    ],
    "created_at": "2026-07-24T14:20:12.855565+00:00",
-   "last_update": "2026-07-28T22:30:32.687852+00:00",
-   "members": 29,
+   "last_update": "2026-07-29T00:15:30.714901+00:00",
+   "members": 38,
    "llm_title": "아르헨티나 채무",
    "one_liner": "국제통화기구(IMF) 총재가 아르헨티나가 채무를 잘 지킬 수 있을 거라고 했어요",
    "llm_model": "llama-3.3-70b-versatile",
@@ -201,15 +204,15 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 13,
+   "seen_sources": 14,
    "importance": 125,
    "entity_keys": [
     "BOJ",
     "FED"
    ],
    "created_at": "2026-07-25T06:34:22.677442+00:00",
-   "last_update": "2026-07-28T22:30:32.675100+00:00",
-   "members": 23,
+   "last_update": "2026-07-29T00:15:30.705477+00:00",
+   "members": 24,
    "llm_title": "미국 금리 인상 가능성",
    "one_liner": "미국 중앙은행이 금리를 올릴지 시장의 관심이 쏠리고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
@@ -279,7 +282,7 @@
    "id": "cddd63d8ad09a1af7",
    "title": "More Amazon and gig workers are turning to SNAP and Medicaid to make ends meet , study finds",
    "category": "MACRO",
-   "status": "active",
+   "status": "archived",
    "origin": "cluster",
    "seen_sources": 3,
    "importance": 120,
@@ -287,11 +290,11 @@
     "AMZN"
    ],
    "created_at": "2026-07-28T16:56:03.015760+00:00",
-   "last_update": "2026-07-28T18:53:01.525451+00:00",
-   "members": 3,
-   "llm_title": "아마존 관련 소식",
-   "one_liner": "아마존 관련 여러 소식이 나왔어요.",
-   "llm_model": "llama-3.3-70b-versatile",
+   "last_update": "2026-07-29T00:15:30.714102+00:00",
+   "members": 0,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
    "in_review": true
   },
   {
@@ -648,26 +651,6 @@
    "in_review": true
   },
   {
-   "id": "c3350f06afa9dea1f",
-   "title": "Why Is Oracle Stock Falling Friday ? - Oracle ( NYSE : ORCL )",
-   "category": "MARKET",
-   "status": "archived",
-   "origin": "cluster",
-   "seen_sources": 8,
-   "importance": 105,
-   "entity_keys": [
-    "NVDA",
-    "ORCL"
-   ],
-   "created_at": "2026-07-18T12:10:48.729267+00:00",
-   "last_update": "2026-07-21T23:16:54.424730+00:00",
-   "members": 0,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": true
-  },
-  {
    "id": "c4a06e144229d2074",
    "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
    "category": "MACRO",
@@ -739,9 +722,9 @@
    "created_at": "2026-07-26T14:05:29.566237+00:00",
    "last_update": "2026-07-28T20:39:27.529424+00:00",
    "members": 4,
-   "llm_title": "Why Is Salesforce…",
-   "one_liner": "Why Is Salesforce Stock Surging Tuesday ? -…",
-   "llm_model": "template",
+   "llm_title": "Salesforce 주가 상승",
+   "one_liner": "Salesforce 주가가 오늘 급등했어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1008,6 +991,50 @@
    "in_review": false
   },
   {
+   "id": "cd1a82e30cb914c1b",
+   "title": "Nvidia $2 Billion Stake Transforms Nebius Group ( NASDAQ : NBIS ) Into a Major AI Infrastructure Contender",
+   "category": "MARKET",
+   "status": "archived",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 90,
+   "entity_keys": [
+    "KRX:000660",
+    "KRX:034730",
+    "MU",
+    "NVDA"
+   ],
+   "created_at": "2026-07-28T00:16:00.854185+00:00",
+   "last_update": "2026-07-29T00:15:30.714923+00:00",
+   "members": 0,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
+   "id": "cf92e75ea2709f911",
+   "title": "Meta Stock Is Down Nearly 10 % in 2026 . Should You Buy Before July 29 Q2 Earnings ?",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 6,
+   "importance": 90,
+   "entity_keys": [
+    "AAPL",
+    "AMZN",
+    "META",
+    "MSFT"
+   ],
+   "created_at": "2026-07-26T19:42:01.899571+00:00",
+   "last_update": "2026-07-29T00:15:30.714609+00:00",
+   "members": 10,
+   "llm_title": "Meta Stock Is Down…",
+   "one_liner": "Meta Stock Is Down Nearly 10 % in 2026 . Should…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c2596239c9bef98e5",
    "title": "9 Words From Jamie Dimon That Should Worry Investors After JPMorgan Record $21 . 2 Billion Quarter",
    "category": "GEO",
@@ -1042,27 +1069,6 @@
    "members": 2,
    "llm_title": "넷플릭스 주가 상승",
    "one_liner": "넷플릭스의 주가가 오늘 오르는 중이에요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": false
-  },
-  {
-   "id": "cd1a82e30cb914c1b",
-   "title": "Nvidia $2 Billion Stake Transforms Nebius Group ( NASDAQ : NBIS ) Into a Major AI Infrastructure Contender",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 90,
-   "entity_keys": [
-    "KRX:000660",
-    "KRX:034730",
-    "NVDA"
-   ],
-   "created_at": "2026-07-28T00:16:00.854185+00:00",
-   "last_update": "2026-07-28T20:39:27.537035+00:00",
-   "members": 4,
-   "llm_title": "엔비디아와 에스케이하이닉스 협력",
-   "one_liner": "엔비디아와 에스케이하이닉스가 협력해 인공지능 기술을 발전시킬 거예요.",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": false
   },
@@ -1285,6 +1291,42 @@
    "in_review": false
   },
   {
+   "id": "c5c3a7ff10fbec910",
+   "title": "Russian online retailer Wildberrie warehouse hit by drones",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 7,
+   "importance": 85,
+   "entity_keys": [],
+   "created_at": "2026-07-26T11:41:44.660691+00:00",
+   "last_update": "2026-07-29T00:15:30.708178+00:00",
+   "members": 23,
+   "llm_title": "Nantucket store  No…",
+   "one_liner": "Nantucket store  No Influencer sign sparks…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c92185965ef65313f",
+   "title": "The Latest : Netanyahu will meet with Trump for first time since the Iran war began",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 9,
+   "importance": 85,
+   "entity_keys": [
+    "IRAN"
+   ],
+   "created_at": "2026-07-28T16:56:03.022441+00:00",
+   "last_update": "2026-07-29T00:15:30.703481+00:00",
+   "members": 14,
+   "llm_title": "American confidence…",
+   "one_liner": "American confidence in US economy falls as Iran…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c079935dcd37d8198",
    "title": "The great gas race : Who is holding the keys to Europes energy future",
    "category": "COMMODITY",
@@ -1298,25 +1340,6 @@
    "members": 50,
    "llm_title": "Sensex ends 69…",
    "one_liner": "Sensex ends 69 points lower ; Nifty settles…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c92185965ef65313f",
-   "title": "The Latest : Netanyahu will meet with Trump for first time since the Iran war began",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 8,
-   "importance": 85,
-   "entity_keys": [
-    "IRAN"
-   ],
-   "created_at": "2026-07-28T16:56:03.022441+00:00",
-   "last_update": "2026-07-28T22:30:32.687956+00:00",
-   "members": 13,
-   "llm_title": "American confidence…",
-   "one_liner": "American confidence in US economy falls as Iran…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1656,6 +1679,25 @@
    "in_review": false
   },
   {
+   "id": "cca58418c8445c2d4",
+   "title": "Apple just hit $5 trillion market cap for first time",
+   "category": "EARNINGS",
+   "status": "archived",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 75,
+   "entity_keys": [
+    "AAPL"
+   ],
+   "created_at": "2026-07-28T20:39:27.536023+00:00",
+   "last_update": "2026-07-29T00:15:30.714639+00:00",
+   "members": 0,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": true
+  },
+  {
    "id": "c8b4b9d481b23c014",
    "title": "Grupo Televisa Q2 Earnings Call Highlights",
    "category": "EARNINGS",
@@ -1692,25 +1734,6 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
-   "in_review": true
-  },
-  {
-   "id": "cca58418c8445c2d4",
-   "title": "Apple just hit $5 trillion market cap for first time",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 75,
-   "entity_keys": [
-    "AAPL"
-   ],
-   "created_at": "2026-07-28T20:39:27.536023+00:00",
-   "last_update": "2026-07-28T20:39:27.537106+00:00",
-   "members": 2,
-   "llm_title": "What Going On With…",
-   "one_liner": "What Going On With Apple Stock Ahead of Q3…",
-   "llm_model": "template",
    "in_review": true
   },
   {
@@ -2032,42 +2055,6 @@
    "one_liner": "한국의 D램 가격이 90% 올랐어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
-  },
-  {
-   "id": "c5c3a7ff10fbec910",
-   "title": "Russian online retailer Wildberrie warehouse hit by drones",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 70,
-   "entity_keys": [],
-   "created_at": "2026-07-26T11:41:44.660691+00:00",
-   "last_update": "2026-07-28T22:30:32.691895+00:00",
-   "members": 12,
-   "llm_title": "Nantucket store  No…",
-   "one_liner": "Nantucket store  No Influencer sign sparks…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cf92e75ea2709f911",
-   "title": "Meta Stock Is Down Nearly 10 % in 2026 . Should You Buy Before July 29 Q2 Earnings ?",
-   "category": "EARNINGS",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 70,
-   "entity_keys": [
-    "META"
-   ],
-   "created_at": "2026-07-26T19:42:01.899571+00:00",
-   "last_update": "2026-07-28T22:30:32.686753+00:00",
-   "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
   },
   {
    "id": "cf8b1b4e63a573788",
@@ -3117,8 +3104,8 @@
     "CHINA"
    ],
    "created_at": "2026-07-28T20:39:27.536272+00:00",
-   "last_update": "2026-07-28T22:30:32.691949+00:00",
-   "members": 3,
+   "last_update": "2026-07-29T00:15:30.707345+00:00",
+   "members": 6,
    "llm_title": "CXMT becomes China…",
    "one_liner": "CXMT becomes China most valuable listed company",
    "llm_model": "template",

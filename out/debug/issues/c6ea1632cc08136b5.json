@@ -87,8 +87,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-28T20:40:18.860260+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-29T00:15:32.232754+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -100,26 +100,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"Salesforce 주가 상승\",\n   \"one_liner\": \"Salesforce 주가가 오늘 급등했어요\",\n   \"why_now\": \"새로운 투자와 기술에 대한 기대가 주가에 영향을 줄 수 있어요\",\n   \"impact_line\": \"Salesforce의 성장으로 인해 관련 기술 투자가 증가할 수 있어요\",\n   \"details\": [\n       \"Salesforce 주가가 오늘 급등했어요\",\n       \"Salesforce의 AI 기술이 기업 환경에 미치는 영향에 대한 기대가 높아지고 있어요\",\n       \"새로운 투자자들이 Salesforce에 관심을 보이고 있어요\",\n       \"Salesforce와 다른 기업들의 주가 비교가 이루어지고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"Salesforce의 성장으로 인해 관련 기술 투자가 증가할 수 있어요!\",\n       \"새로운 기술에 대한 투자가 늘어나면 관련 산업이 발전할 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"NYSE\",\n           \"easy\": \"미국의 주식시장이에요\",\n           \"example\": \"많은 기업들의 주가가 여기서 거래되고 있어요\"\n       },\n       {\n           \"term\": \"AI\",\n           \"easy\": \"인공지능이에요\",\n           \"example\": \"컴퓨터가 사람처럼 생각하고 행동할 수 있게 해줘요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Why Is Salesforce…",
-   "one_liner": "Why Is Salesforce Stock Surging Tuesday ? -…",
-   "why_now": null,
+   "title": "Salesforce 주가 상승",
+   "one_liner": "Salesforce 주가가 오늘 급등했어요",
+   "why_now": "새로운 투자와 기술에 대한 기대가 주가에 영향을 줄 수 있어요",
    "details": [
-    "Why Is Salesforce Stock Surging Tuesday ? - Salesforce ( NYSE : CRM )",
-    "Salesforce ( CRM ) Impact on AI Deployment in Corporate Environments",
-    "Lombard Odier Asset Management Europe Ltd Purchases 6 , 289 Shares of Salesforce Inc . $CRM"
+    "Salesforce 주가가 오늘 급등했어요",
+    "Salesforce의 AI 기술이 기업 환경에 미치는 영향에 대한 기대가 높아지고 있어요",
+    "새로운 투자자들이 Salesforce에 관심을 보이고 있어요",
+    "Salesforce와 다른 기업들의 주가 비교가 이루어지고 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "Salesforce의 성장으로 인해 관련 기술 투자가 증가할 수 있어요!",
+    "새로운 기술에 대한 투자가 늘어나면 관련 산업이 발전할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "25ebff5f3a5430a539e8b5317f1b42ac167311cc"
  },
