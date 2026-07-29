@@ -9,11 +9,21 @@
  "entity_keys": [
   "TSLA"
  ],
- "seen_sources": 3,
- "importance": 90,
+ "seen_sources": 4,
+ "importance": 100,
  "created_at": "2026-07-26T15:35:55.489606+00:00",
- "last_update": "2026-07-27T20:48:59.653241+00:00",
+ "last_update": "2026-07-29T19:51:12.965676+00:00",
  "members": [
+  {
+   "id": "2579d9d28d4ad795185b0923bfe54a9c518ba711",
+   "source": "techtimes.com",
+   "tier": "wire",
+   "url": "https://www.techtimes.com/articles/322008/20260729/grok-takes-control-teslas-summer-update-unlocks-voice-hardware-access.htm",
+   "title": "Grok Takes Control : Tesla Summer Update Unlocks Voice Hardware Access",
+   "published_at": "2026-07-29T17:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8815
+  },
   {
    "id": "52f9549b7c1c95b96bb4ff698d1a07b549f95fbb",
    "source": "benzinga.com",
@@ -22,7 +32,7 @@
    "title": "Gary Black Issues Warning to Tesla Investors Ahead of Potential SpaceX Merger - Tesla ( NASDAQ : TSLA ), Spac",
    "published_at": "2026-07-27T18:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9247
+   "sim_to_centroid": 0.9255
   },
   {
    "id": "c865ea4964e2bbec9b645a203cee7dcf23a42773",
@@ -32,7 +42,7 @@
    "title": "Baystreet . ca - What To Do After Tesla and SpaceX Shares Sank",
    "published_at": "2026-07-27T12:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.911
+   "sim_to_centroid": 0.9133
   },
   {
    "id": "c3f19098b3313db75d89dbb6831996a7ed6fe0ad",
@@ -42,7 +52,7 @@
    "title": "Musk Net Worth Down By More Than $600 Billion as SpaceX , Tesla Woes Mount - Tesla ( NASDAQ : TSLA ), SpaceX",
    "published_at": "2026-07-26T14:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9617
+   "sim_to_centroid": 0.9582
   },
   {
    "id": "3d271baf0a32d8ea0e720cc8870d8d8476464d2f",
@@ -52,7 +62,7 @@
    "title": "Tesla Q2 Earnings , Musk Robotaxi Bets , SpaceX Merger on the Horizon and More : This Week in Mobility -",
    "published_at": "2026-07-26T14:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9186
+   "sim_to_centroid": 0.9218
   },
   {
    "id": "c1177157808e681311db56be0dd10759d242690c",
@@ -62,11 +72,18 @@
    "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "published_at": "2026-07-26T12:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9588
+   "sim_to_centroid": 0.9573
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Grok Takes Control : Tesla Summer Update Unlocks Voice Hardware Access",
+   "source": "techtimes.com",
+   "url": "https://www.techtimes.com/articles/322008/20260729/grok-takes-control-teslas-summer-update-unlocks-voice-hardware-access.htm",
+   "at": "2026-07-29T17:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Gary Black Issues Warning to Tesla Investors Ahead of Potential SpaceX Merger - Tesla ( NASDAQ : TSLA ), Spac",
@@ -104,47 +121,46 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-28T06:47:35.624417+00:00",
+  "model": "template",
+  "created_at": "2026-07-29T19:51:43.649353+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
-    "Gary Black Issues Warning to Tesla Investors Ahead of Potential SpaceX Merger - Tesla ( NASDAQ : TSLA ), Spac",
-    "Baystreet . ca - What To Do After Tesla and SpaceX Shares Sank",
     "Musk Net Worth Down By More Than $600 Billion as SpaceX , Tesla Woes Mount - Tesla ( NASDAQ : TSLA ), SpaceX",
+    "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
+    "Gary Black Issues Warning to Tesla Investors Ahead of Potential SpaceX Merger - Tesla ( NASDAQ : TSLA ), Spac",
     "Tesla Q2 Earnings , Musk Robotaxi Bets , SpaceX Merger on the Horizon and More : This Week in Mobility -",
-    "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?"
+    "Baystreet . ca - What To Do After Tesla and SpaceX Shares Sank"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"테슬라 주식\",\n   \"one_liner\": \"테슬라와 스페이스X의 합병 가능성이 나왔어요.\",\n   \"why_now\": \"테슬라의 주가가 많이 내렸기 때문에 주목을 받고 있어요.\",\n   \"impact_line\": \"테슬라 자동차를 사거나 투자하려는 사람에게 영향을 줄 수 있어요.\",\n   \"details\": [\n      \"테슬라의 주가가 1년간 30% 내렸어요.\",\n      \"테슬라와 스페이스X의 합병 가능성이 논의되고 있어요.\",\n      \"엘론 머스크의 재산이 600억 달러 이상 줄었어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"테슬라 주식을 사는 것이 좋은 기회가 될 수 있어요!\",\n      \"테슬라와 스페이스X의 합병이 성공적으로 이루어진다면 두 회사의 가치가 올라갈 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"NASDAQ\",\n         \"easy\": \"미국의 주식시장 중 하나예요.\",\n         \"example\": \"테슬라의 주가는 NASDAQ에서 거래되고 있어요.\"\n      }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "테슬라 주식",
-   "one_liner": "테슬라와 스페이스X의 합병 가능성이 나왔어요.",
-   "why_now": "테슬라의 주가가 많이 내렸기 때문에 주목을 받고 있어요.",
+   "title": "Musk Net Worth Down…",
+   "one_liner": "Musk Net Worth Down By More Than $600 Billion as…",
+   "why_now": null,
    "details": [
-    "테슬라의 주가가 1년간 30% 내렸어요.",
-    "테슬라와 스페이스X의 합병 가능성이 논의되고 있어요.",
-    "엘론 머스크의 재산이 600억 달러 이상 줄었어요."
+    "Musk Net Worth Down By More Than $600 Billion as SpaceX , Tesla Woes Mount - Tesla ( NASDAQ : TSLA ), SpaceX",
+    "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
+    "Gary Black Issues Warning to Tesla Investors Ahead of Potential SpaceX Merger - Tesla ( NASDAQ : TSLA ), Spac"
    ],
-   "effects": [
-    "테슬라 주식을 사는 것이 좋은 기회가 될 수 있어요!",
-    "테슬라와 스페이스X의 합병이 성공적으로 이루어진다면 두 회사의 가치가 올라갈 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "951bdab0d1848ea83464657d015185f855635966"
+  "fact_hash": "61b405bf190694d46921ab4b77a59f48299da72d"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-28T03:44:49.033488+00:00"
+  "at": "2026-07-29T19:51:43.649024+00:00"
  },
  "glossary": [],
  "related": [
