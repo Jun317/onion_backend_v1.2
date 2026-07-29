@@ -53,8 +53,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-28T22:32:10.399558+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-29T03:48:15.370327+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,32 +64,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"페이팔 주가 상승\",\n\"one_liner\": \"페이팔 주가가 화요일에 오르고 있어요.\",\n\"why_now\": \"회사의 실적 발표 이후 주가 움직임에 관심이 쏠리고 있어요.\",\n\"impact_line\": null,\n\"details\": [\n\"페이팔 주가가 화요일에 상승세를 보이고 있어요.\",\n\"최근 실적 발표 이후 주가에 대한 관심이 높아졌어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [],\n\"glossary\": [\n{\n\"term\": \"페이팔\",\n\"easy\": \"온라인 결제를 할 수 있게 도와주는 회사예요.\",\n\"example\": \"온라인 쇼핑몰에서 페이팔로 결제할 수 있어요.\"\n}\n],\n\"impact_line\": null\n}",
+  "raw_response": "{\n  \"title\": \"페이팔 주가 상승\",\n   \"one_liner\": \"페이팔의 최근 실적 발표 후 주가가 올라갔어요\",\n   \"why_now\": \"실적이 좋으면 주가가 오를 수 있어요\",\n   \"impact_line\": \"온라인 결제 수수료가 바뀔 수 있어요\",\n   \"details\": [\n       \"페이팔의 최근 실적 발표가 좋았어요\",\n       \"페이팔 주가가 상승했어요\",\n       \"투자자들이 페이팔의 미래를 기대하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"온라인 쇼핑이 더 편리해질 수 있어요!\",\n       \"다른 결제 회사들이 경쟁을 더열어갈 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Is PayPal Holdings a…",
-   "one_liner": "Is PayPal Holdings a Buy After Its Latest…",
-   "why_now": null,
+   "title": "페이팔 주가 상승",
+   "one_liner": "페이팔의 최근 실적 발표 후 주가가 올라갔어요",
+   "why_now": "실적이 좋으면 주가가 오를 수 있어요",
    "details": [
-    "Is PayPal Holdings a Buy After Its Latest Earnings Report ?",
-    "Why Is PayPal Stock Gaining Tuesday ? - PayPal Holdings ( NASDAQ : PYPL )"
+    "페이팔의 최근 실적 발표가 좋았어요",
+    "페이팔 주가가 상승했어요",
+    "투자자들이 페이팔의 미래를 기대하고 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "온라인 쇼핑이 더 편리해질 수 있어요!",
+    "다른 결제 회사들이 경쟁을 더열어갈 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "3fa2c4081e59d848ce77c71d7cb309d236765310"
  },

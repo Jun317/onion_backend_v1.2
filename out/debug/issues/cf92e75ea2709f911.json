@@ -192,8 +192,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-29T00:15:37.561080+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-29T03:48:12.186998+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -206,32 +206,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"메타 수익\",\n   \"one_liner\": \"메타의 수익이 주목을 받고 있어요\",\n   \"why_now\": \"메타의 수익은 인공지능 투자와 광고 성장에 대한 관심을 다시 불러일으키고 있어요\",\n   \"impact_line\": \"메타의 성과가 기술계에 영향을 미칠 수 있어요\",\n   \"details\": [\n       \"메타의 주가가 10% 가까이 내렸어요\",\n       \"캐시 우드가 메타 주식에 1,800만 달러를 투자했어요\",\n       \"메타의 수익은 인공지능 투자와 광고 성장에 대한 관심을 다시 불러일으키고 있어요\",\n       \"애플, 아마존, 마이크로소프트의 수익도 발표 예정이에요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"메타의 성과가 기술계에 긍정적인 영향을 미칠 수 있어요!\",\n       \"광고 성장에 대한 관심이 높아질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n\"title\": \"메타 주가 하락\",\n\"one_liner\": \"메타 주가가 2026년에 거의 10% 하락했어요.\",\n\"why_now\": \"7월 29일 발표될 2분기 실적 발표를 앞두고 투자자들의 관심이 집중되고 있어요.\",\n\"impact_line\": \"메타 주가 변동은 관련 서비스 이용자들에게 영향을 줄 수 있어요.\",\n\"details\": [\n\"2026년에 메타 주가가 약 10% 하락했어요.\",\n\"7월 29일 2분기 실적 발표를 앞두고 있어요.\",\n\"이번 실적 발표에서는 인공지능 투자와 광고 성장세에 대한 관심이 높아요.\",\n\"많은 투자자들이 이번 메타의 실적 발표를 주목하고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"인공지능 관련 투자 확대는 메타의 미래 성장 동력이 될 수 있어요!\",\n\"광고 수익 성장이 둔화되면 메타의 전반적인 수익성에 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"실적 발표\",\n\"easy\": \"회사가 일정 기간 동안의 경영 성과를 공식적으로 알리는 것을 말해요.\",\n\"example\": \"이번 분기 실적 발표에서 우리 회사는 작년보다 이익이 늘었어요.\"\n},\n{\n\"term\": \"인공지능\",\n\"easy\": \"컴퓨터가 사람처럼 생각하고 배우고 판단하는 기술이에요.\",\n\"example\": \"인공지능 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n}\n]\n}",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
      "입력에 없는 숫자: [1800.0]"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Meta Stock Is Down…",
-   "one_liner": "Meta Stock Is Down Nearly 10 % in 2026 . Should…",
-   "why_now": null,
+   "title": "메타 주가 하락",
+   "one_liner": "메타 주가가 2026년에 거의 10% 하락했어요.",
+   "why_now": "7월 29일 발표될 2분기 실적 발표를 앞두고 투자자들의 관심이 집중되고 있어요.",
    "details": [
-    "Meta Stock Is Down Nearly 10 % in 2026 . Should You Buy Before July 29 Q2 Earnings ?",
-    "Cathie Wood Just Poured $18 Million Into Meta Stock . Here Why .",
-    "Meta Earnings Put AI Spending and Ad Growth Back in Focus"
+    "2026년에 메타 주가가 약 10% 하락했어요.",
+    "7월 29일 2분기 실적 발표를 앞두고 있어요.",
+    "이번 실적 발표에서는 인공지능 투자와 광고 성장세에 대한 관심이 높아요.",
+    "많은 투자자들이 이번 메타의 실적 발표를 주목하고 있어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "인공지능 관련 투자 확대는 메타의 미래 성장 동력이 될 수 있어요!",
+    "광고 수익 성장이 둔화되면 메타의 전반적인 수익성에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "0b330bd36dc644cd09d60226457897a799900931"
  },

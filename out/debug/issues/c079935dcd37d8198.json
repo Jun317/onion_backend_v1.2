@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-28T22:33:27.865991+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-29T03:49:59.447777+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -881,25 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"국제 유가 동결 가능성\",\n\"one_liner\": \"주요 산유국 모임인 OPEC+가 국제 유가 생산량을 늘리지 않기로 결정할 것으로 보여요.\",\n\"why_now\": \"국제 유가 생산량이 동결되면 기름값이 안정되거나 오를 수 있어 경제 전반에 영향을 줄 수 있어요.\",\n\"impact_line\": \"국제 유가 변동에 따라 주유비나 운송비가 달라질 수 있어요.\",\n\"details\": [\n\"OPEC+가 국제 유가 생산량을 늘리는 것을 멈출 것으로 예상돼요.\",\n\"이는 국제 유가에 영향을 줄 수 있는 중요한 결정이에요.\",\n\"이번 결정은 향후 유가 관련 주식에도 영향을 미칠 수 있어요.\"\n],\n\"visual_type\": \"wti\",\n\"effects\": [\n\"국제 유가가 안정되거나 오르면, 기름값이 오를 수 있어요!\",\n\"기름값이 오르면 운송비가 늘어 장바구니 물가에 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"OPEC+\",\n\"easy\": \"석유를 많이 생산하는 나라들의 모임이에요. 국제 유가에 큰 영향을 줘요.\",\n\"example\": \"OPEC+가 생산량을 줄이면 국제 유가가 오를 수 있어요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Sensex ends 69…",
-   "one_liner": "Sensex ends 69 points lower ; Nifty settles…",
-   "why_now": null,
+   "title": "국제 유가 동결 가능성",
+   "one_liner": "주요 산유국 모임인 OPEC+가 국제 유가 생산량을 늘리지 않기로 결정할 것으로 보여요.",
+   "why_now": "국제 유가 생산량이 동결되면 기름값이 안정되거나 오를 수 있어 경제 전반에 영향을 줄 수 있어요.",
    "details": [
-    "Sensex ends 69 points lower ; Nifty settles below 24 , 000 following range - bound session ; IT , realty gain",
-    "OPEC+ Is About to Pause Oil Output Hikes . Here What It Means for Oil Stocks .",
-    "Brazil sees no risk of recession in 2027 , says finance minister Durigan"
+    "OPEC+가 국제 유가 생산량을 늘리는 것을 멈출 것으로 예상돼요.",
+    "이는 국제 유가에 영향을 줄 수 있는 중요한 결정이에요.",
+    "이번 결정은 향후 유가 관련 주식에도 영향을 미칠 수 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "국제 유가가 안정되거나 오르면, 기름값이 오를 수 있어요!",
+    "기름값이 오르면 운송비가 늘어 장바구니 물가에 영향을 줄 수 있어요!"
+   ],
    "visual_type": "wti"
   },
   "fact_hash": "4c1d2624ce6cc2bb9927e951239d4e49f785fa12"
