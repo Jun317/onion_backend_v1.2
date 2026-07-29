@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-07-29T21:27:43.322162+00:00",
+ "generated_at": "2026-07-29T22:28:10.511069+00:00",
  "attribution": "News metadata via GDELT (gdeltproject.org) · Data: FRED, 한국은행 ECOS, DART, SEC EDGAR",
  "issues": [
   {
@@ -74,6 +74,25 @@
    "importance": 130,
    "last_update": "2026-07-28T00:16:00.852112+00:00",
    "event_at": "2026-07-27T22:45:00+00:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🇺🇸"
+  },
+  {
+   "id": "c036692000e761edb",
+   "title": "미국 금리 유지",
+   "one_liner": "미국 중앙은행이 금리를 올리지 않기로 했어요",
+   "why_now": "금리 결정은 물가와 경제 성장에 영향을 미쳐요",
+   "impact_line": "대출과 예금 이자가 변동할 수 있어요",
+   "raw_title": "Fed holds rates steady ; 3 policymakers dissent in favor of a hike",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "sources": 4,
+   "importance": 120,
+   "last_update": "2026-07-29T22:26:52.869753+00:00",
+   "event_at": "2026-07-29T21:30:00+00:00",
    "has_visual": false,
    "headline_stat": null,
    "spark": null,
@@ -279,25 +298,6 @@
    "icon": "🧾"
   },
   {
-   "id": "c8fd5663a6f60c96e",
-   "title": "호주 중앙은행 설명 부족",
-   "one_liner": "호주 중앙은행이 하는 일을 더 잘 설명해야 할 필요가 있어요.",
-   "why_now": "중앙은행의 역할 설명이 부족하면 사람들이 그 존재 이유를 의심할 수 있어요.",
-   "impact_line": null,
-   "raw_title": "The Reserve Bank of Australia must do better explaining what it is for , or risk its social licence being eroded",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "sources": 2,
-   "importance": 80,
-   "last_update": "2026-07-29T15:25:45.545512+00:00",
-   "event_at": "2026-07-29T09:45:00+00:00",
-   "has_visual": false,
-   "headline_stat": null,
-   "spark": null,
-   "icon": "🏛️"
-  },
-  {
    "id": "cb1967acc518ea9d0",
    "title": "기업 소식",
    "one_liner": "몇몇 기업의 소식이 나왔어요",
@@ -393,7 +393,7 @@
    "status": "stale",
    "origin": "cluster",
    "sources": 30,
-   "importance": 160,
+   "importance": 155,
    "last_update": "2026-07-24T21:34:02.796740+00:00",
    "event_at": "2026-07-24T20:00:00+00:00",
    "has_visual": false,
@@ -1058,25 +1058,6 @@
    "icon": "🏛️"
   },
   {
-   "id": "c1d3d6484c6b93b16",
-   "title": "리로와 스티치의 촬영지",
-   "one_liner": "하와이 한나페페 마을이 리로와 스티치의 배경이 됐어요",
-   "why_now": "리로와 스티치가 유명해서 사람들이 그곳을 방문하고 있어요",
-   "impact_line": "하와이 관광이 활성화될 수 있어요",
-   "raw_title": "NL Joins Others in Signing Deal Allowing for Purchase of Alcohol from Other Provinces",
-   "category": "POLICY",
-   "status": "stale",
-   "origin": "cluster",
-   "sources": 43,
-   "importance": 75,
-   "last_update": "2026-07-24T21:34:02.799716+00:00",
-   "event_at": "2026-07-24T20:00:00+00:00",
-   "has_visual": false,
-   "headline_stat": null,
-   "spark": null,
-   "icon": "🏛️"
-  },
-  {
    "id": "c2f82920800c96145",
    "title": "반도체 기업 주가 동향",
    "one_liner": "주요 반도체 기업들의 주가가 엇갈리는 모습을 보이고 있어요.",
@@ -1297,6 +1278,25 @@
    },
    "spark": null,
    "icon": "📈"
+  },
+  {
+   "id": "c1d3d6484c6b93b16",
+   "title": "리로와 스티치의 촬영지",
+   "one_liner": "하와이 한나페페 마을이 리로와 스티치의 배경이 됐어요",
+   "why_now": "리로와 스티치가 유명해서 사람들이 그곳을 방문하고 있어요",
+   "impact_line": "하와이 관광이 활성화될 수 있어요",
+   "raw_title": "NL Joins Others in Signing Deal Allowing for Purchase of Alcohol from Other Provinces",
+   "category": "POLICY",
+   "status": "stale",
+   "origin": "cluster",
+   "sources": 43,
+   "importance": 70,
+   "last_update": "2026-07-24T21:34:02.799716+00:00",
+   "event_at": "2026-07-24T20:00:00+00:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🏛️"
   },
   {
    "id": "c070aab2998b2d82b",
@@ -3017,11 +3017,11 @@
     ]
    },
    "latest_issue": {
-    "id": "eb742211d6b920cb4",
-    "title": "코스피, 상반기 101% 급등",
-    "one_liner": "코스피 지수가 상반기에만 101.14% 올라 8476.48까지 올랐어요.",
+    "id": "c97584abcfb4e7d28",
+    "title": "South Korea Stock…",
+    "one_liner": "South Korea Stock Chaos : Investors Lay Funeral…",
     "icon": "🇰🇷",
-    "last_update": "2026-07-13T15:18:02.962711+00:00"
+    "last_update": "2026-07-29T22:26:52.627009+00:00"
    },
    "impact": [
     "주가가 크게 오른 만큼, 작은 악재에도 시장이 출렁일 수 있어요.",
