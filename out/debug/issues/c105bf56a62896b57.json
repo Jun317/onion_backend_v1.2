@@ -71,41 +71,51 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-29T17:47:30.402649+00:00",
+  "created_at": "2026-07-29T21:17:45.899758+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Prediction : AMD Stock Could Double by 2028 . Here Why",
     "What a Major Anthropic Chip Deal Really Means for AMD Stock",
     "Advanced Micro Devices ( NASDAQ : AMD ) Stock Price Down 3 . 3 % – Here Why"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"AMD 주가 하락\",\n\"one_liner\": \"AMD 주가가 3.3% 하락했어요.\",\n\"why_now\": \"주가 하락은 투자자들의 관심이 집중되는 이유가 됩니다.\",\n\"impact_line\": null,\n\"details\": [\n\"AMD 주가가 3.3% 하락했어요.\",\n\"이 하락의 이유에 대한 분석이 나오고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"AMD의 주가 전망에 대한 다양한 의견이 나오고 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"AMD\",\n\"easy\": \"미국의 주요 반도체 회사 이름이에요.\",\n\"example\": \"AMD는 컴퓨터 부품을 만드는 회사예요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [3.3]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 어요체 아님",
+     "details 3문장 미만",
+     "입력에 없는 숫자: [3.3]"
     ]
    }
   ],
   "output": {
-   "title": "What a Major…",
-   "one_liner": "What a Major Anthropic Chip Deal Really Means…",
+   "title": "Prediction : AMD…",
+   "one_liner": "Prediction : AMD Stock Could Double by 2028 .…",
    "why_now": null,
    "details": [
+    "Prediction : AMD Stock Could Double by 2028 . Here Why",
     "What a Major Anthropic Chip Deal Really Means for AMD Stock",
     "Advanced Micro Devices ( NASDAQ : AMD ) Stock Price Down 3 . 3 % – Here Why"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "f285302cb39824ae0519468987d0427faa7f43df"
+  "fact_hash": "c6cac38344d16aaec1cef03314cfa377cc7706b4"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-29T17:47:30.402585+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [3.3]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 어요체 아님\", \"details 3문장 미만\", \"입력에 없는 숫자: [3.3]\"]}]}",
+  "at": "2026-07-29T21:17:45.899662+00:00"
  },
  "glossary": [],
  "related": [

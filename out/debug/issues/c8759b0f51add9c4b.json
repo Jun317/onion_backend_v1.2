@@ -7,12 +7,13 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
-  "CHINA"
+  "CHINA",
+  "SEC"
  ],
- "seen_sources": 3,
- "importance": 55,
+ "seen_sources": 4,
+ "importance": 90,
  "created_at": "2026-07-28T20:39:27.536272+00:00",
- "last_update": "2026-07-29T19:51:12.973676+00:00",
+ "last_update": "2026-07-29T21:17:37.947374+00:00",
  "members": [
   {
    "id": "fb8594663d07b4a989b57d91cace0baeccafa776",
@@ -22,7 +23,17 @@
    "title": "Mercedes - Benz lowers 2026 sales outlook amid China weakness",
    "published_at": "2026-07-29T18:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8611
+   "sim_to_centroid": 0.8697
+  },
+  {
+   "id": "277a14a3deee724b4927e895fb98ebccbea9e980",
+   "source": "businesstoday.in",
+   "tier": "wire",
+   "url": "https://www.businesstoday.in/world/us/story/us-restricts-humanoid-robot-imports-from-china-over-national-security-concerns-546116-2026-07-29",
+   "title": "US restricts humanoid robot imports from China over national security concerns",
+   "published_at": "2026-07-29T16:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8568
   },
   {
    "id": "9bf87924db5f8b21baf6e0e61f1b0daadb1c1fd7",
@@ -32,7 +43,7 @@
    "title": "CXMT blockbuster debut fuels China AI chip ambitions",
    "published_at": "2026-07-28T22:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9192
+   "sim_to_centroid": 0.9219
   },
   {
    "id": "ebc497bf32a7d376608d71dc39534e1cb89dfc6d",
@@ -42,7 +53,7 @@
    "title": "CXMT becomes China most valuable listed company",
    "published_at": "2026-07-28T22:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9951
+   "sim_to_centroid": 0.9914
   },
   {
    "id": "c51226067695affb15eae2ce33eccd57d5a10f0c",
@@ -52,7 +63,7 @@
    "title": "CXMT becomes China most valuable listed company",
    "published_at": "2026-07-28T22:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9951
+   "sim_to_centroid": 0.9914
   },
   {
    "id": "e234eff586bfa2a1f6a9517c6f979dcff5fe5947",
@@ -62,7 +73,7 @@
    "title": "CXMT becomes China most valuable listed company",
    "published_at": "2026-07-28T19:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9951
+   "sim_to_centroid": 0.9914
   },
   {
    "id": "6ee82ca44fda5afb69f71550826e9513526d0c9a",
@@ -72,7 +83,7 @@
    "title": "CXMT becomes China most valuable listed company",
    "published_at": "2026-07-28T19:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9951
+   "sim_to_centroid": 0.9914
   },
   {
    "id": "6cd816c789ac96d78bc29486f8b2d592410b99ff",
@@ -82,7 +93,7 @@
    "title": "CXMT blockbuster debut fuels China AI chip ambitions",
    "published_at": "2026-07-28T19:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9192
+   "sim_to_centroid": 0.9219
   }
  ],
  "anchors": [],
@@ -93,6 +104,13 @@
    "source": "just-auto.com",
    "url": "https://www.just-auto.com/news/mercedes-benz-lowers-2026-sales-outlook/",
    "at": "2026-07-29T18:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US restricts humanoid robot imports from China over national security concerns",
+   "source": "businesstoday.in",
+   "url": "https://www.businesstoday.in/world/us/story/us-restricts-humanoid-robot-imports-from-china-over-national-security-concerns-546116-2026-07-29",
+   "at": "2026-07-29T16:00:00+00:00"
   },
   {
    "kind": "headline",
@@ -139,18 +157,26 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-29T17:52:17.709314+00:00",
+  "created_at": "2026-07-29T21:18:17.469225+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Mercedes - Benz lowers 2026 sales outlook amid China weakness",
+    "US restricts humanoid robot imports from China over national security concerns",
     "CXMT becomes China most valuable listed company",
     "CXMT blockbuster debut fuels China AI chip ambitions"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "[\n  {\n    \"title\": \"메르세데스, 중국 판매 전망 낮춰\",\n    \"one_liner\": \"메르세데스-벤츠가 중국 시장의 부진으로 올해 판매 전망을 낮췄어요.\",\n    \"why_now\": \"중국은 자동차 시장에서 매우 큰 비중을 차지하기 때문에, 이곳의 판매량은 전체 실적에 큰 영향을 미쳐요.\",\n    \"impact_line\": \"고급 자동차의 가격이 오르거나 구매가 어려워질 수 있어요.\",\n    \"details\": [\n      \"메르세데스-벤츠는 올해 판매 전망을 낮췄습니다.\",\n      \"중국 시장의 부진이 주요 원인으로 꼽혔습니다.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n      \"중국 내 자동차 판매 경쟁이 더 치열해질 수 있어요!\",\n      \"메르세데스-벤츠의 다른 지역 판매량에도 영향을 줄 수 있어요!\"\n    ],\n    \"glossary\": []\n  },\n  {\n    \"title\": \"미국, 중국 휴머노이드 로봇 수입 제한\",\n    \"one_liner\": \"미국이 국가 안보를 이유로 중국산 휴머노이드 로봇 수입을 제한했어요.\",\n    \"why_now\": \"첨단 기술 분야에서 국가 안보를 이유로 특정 국가의 제품 수입을 막는 것은 국제 무역에 큰 영향을 줄 수 있어요.\",\n    \"impact_line\": \"로봇 관련 제품의 가격이 오르거나 구하기 어려워질 수 있어요.\",\n    \"details\": [\n      \"미국은 국가 안보를 이유로 중국산 휴머노이드 로봇 수입을 제한했습니다.\",\n      \"이는 중국의 첨단 기술 발전에 대한 미국의 우려를 보여줍니다.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n      \"중국 로봇 기업들의 해외 시장 진출이 어려워질 수 있어요!\",\n      \"미국 내 로봇 기술 개발 경쟁이 더 치열해질 것으로 예상돼요!\"\n    ],\n    \"glossary\": [\n      {\n        \"term\": \"휴머노이드 로봇\",\n        \"easy\": \"사람과 비슷한 모양과 움직임을 가진 로봇을 말해요.\",\n        \"example\": \"인간처럼 걷고 물건을 집는 휴머노이드 로봇이 개발되고 있어요.\"\n      }\n    ]\n  },\n  {\n    \"title\": \"중국 반도체 기업 CXMT, 시총 1위 등극\",\n    \"one_liner\": \"중국 반도체 기업 CXMT가 중국 증시에서 가장 큰 회사로 올라섰어요.\",\n    \"why_now\": \"중국이 반도체 자립을 위해 노력하는 가운데, 자국 기업이 시가총액 1위에 오른 것은 중요한 의미를 가져요.\",\n    \"impact_line\": \"중국 내 반도체 관련 기업들의 주가가 오를 수 있어요.\",\n    \"details\": [\n      \"CXMT는 중국에서 가장 가치가 높은 상장 기업이 되었습니다.\",\n      \"이는 중국의 인공지능 반도체 기술 발전에 대한 기대를 보여줍니다.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n      \"중국 정부의 반도체 산업 지원이 더욱 강화될 수 있어요!\",\n      \"글로벌 반도체 시장에서 중국 기업의 영향력이 커질 것으로 예상돼요!\"\n    ],\n    \"glossary\": [\n      {\n        \"term\": \"시가총액\",\n        \"easy\": \"회사의 주식 가격에 발행된 주식 수를 곱한 값으로, 회사의 전체 가치를 나타내요.\",\n        \"example\": \"회사의 시가총액이 오르면 그만큼 회사의 가치가 높아졌다고 볼 수 있어요.\"\n      },\n      {\n        \"term\": \"상장 기업\",\n        \"easy\": \"주식 시장에 회사의 주식을 등록해서 누구나 사고팔 수 있게 된 회사를 말해요.\",\n        \"example\": \"삼성전자, 현대차 등 많은 회사가 상장 기업이에요.\"\n      }\n    ]\n  }\n]",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "출력이 JSON 객체가 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -159,21 +185,22 @@
    }
   ],
   "output": {
-   "title": "CXMT becomes China…",
-   "one_liner": "CXMT becomes China most valuable listed company",
+   "title": "Mercedes - Benz…",
+   "one_liner": "Mercedes - Benz lowers 2026 sales outlook amid…",
    "why_now": null,
    "details": [
-    "CXMT becomes China most valuable listed company",
-    "CXMT blockbuster debut fuels China AI chip ambitions"
+    "Mercedes - Benz lowers 2026 sales outlook amid China weakness",
+    "US restricts humanoid robot imports from China over national security concerns",
+    "CXMT becomes China most valuable listed company"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "b7279f51a31c34d3a89fdc48d30bdb8d71e73d13"
+  "fact_hash": "f15a45c730e9e86b461f4b759ea852b614e5c85a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-29T17:52:17.709252+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"출력이 JSON 객체가 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-29T21:18:17.469123+00:00"
  },
  "glossary": [],
  "related": [
@@ -182,7 +209,24 @@
    "title": "World Bank confirms plan to phase out China lending by 2031",
    "category": "RATE",
    "shared": [
-    "CHINA"
+    "CHINA",
+    "SEC"
+   ]
+  },
+  {
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
+   "category": "RATE",
+   "shared": [
+    "SEC"
+   ]
+  },
+  {
+   "id": "c8f0b7cb0487a034d",
+   "title": "Finance minister reviews Pakistan economic progress with IMF",
+   "category": "FX",
+   "shared": [
+    "SEC"
    ]
   },
   {
@@ -190,31 +234,16 @@
    "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
    "category": "MACRO",
    "shared": [
-    "CHINA"
+    "CHINA",
+    "SEC"
    ]
   },
   {
-   "id": "c37ad01cf8a091a74",
-   "title": "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions",
-   "category": "FX",
+   "id": "c76068f5fb08a3e9a",
+   "title": "A forced - labor crackdown or an end - run around Congress ? Dissecting Trump new tariffs",
+   "category": "MARKET",
    "shared": [
-    "CHINA"
-   ]
-  },
-  {
-   "id": "cd7b762c4b0212485",
-   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
-   "category": "GEO",
-   "shared": [
-    "CHINA"
-   ]
-  },
-  {
-   "id": "c21fbad53c2afa8f1",
-   "title": "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets",
-   "category": "COMMODITY",
-   "shared": [
-    "CHINA"
+    "SEC"
    ]
   }
  ]
