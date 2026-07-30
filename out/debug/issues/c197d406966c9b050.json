@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-30T18:54:24.680422+00:00",
+  "created_at": "2026-07-30T22:34:21.768446+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,14 +64,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"마이크론 주가 급등\",\n  \"one_liner\": \"마이크론 테크놀로지 주가가 16.5% 올랐어요.\",\n  \"why_now\": \"인공지능(AI) 관련 메모리 반도체 수요가 늘면서 주가가 크게 올랐어요.\",\n  \"impact_line\": \"AI 관련 기술주에 대한 관심이 높아질 수 있어요.\",\n  \"details\": [\n    \"마이크론 테크놀로지 주가가 16.5% 상승했어요.\",\n    \"AI 관련 메모리 반도체 시장의 전망이 긍정적이에요.\",\n    \"메모리 반도체 시장의 호황이 아직 끝나지 않았다는 분석이 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"AI 관련 기술 기업들의 주가가 전반적으로 상승할 수 있어요!\",\n    \"메모리 반도체 관련 기업들의 실적이 개선될 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AI\",\n      \"easy\": \"인공지능을 뜻하는 말로, 컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n      \"example\": \"AI 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n    },\n    {\n      \"term\": \"메모리 반도체\",\n      \"easy\": \"컴퓨터나 스마트폰의 정보를 저장하는 반도체예요.\",\n      \"example\": \"스마트폰 용량이 부족하면 메모리 반도체에 문제가 있을 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [16.5]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -93,8 +87,8 @@
   "fact_hash": "077240da24ebc968309907b3974d443eb4b0eaac"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [16.5]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-30T18:54:24.680368+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-30T22:34:21.768377+00:00"
  },
  "glossary": [],
  "related": [
@@ -127,8 +121,8 @@
    ]
   },
   {
-   "id": "cffe83a2036bd185c",
-   "title": "Fortune Tech : Meta cash crunch , Microsoft Azure milestone , DoorDash drone deliveries",
+   "id": "c7b7e590611a1bac4",
+   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
    "category": "MARKET",
    "shared": []
   }

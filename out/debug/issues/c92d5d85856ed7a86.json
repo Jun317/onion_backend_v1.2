@@ -1,0 +1,124 @@
+{
+ "id": "c92d5d85856ed7a86",
+ "title": "Food Dive : Food Industry News and Analysis",
+ "category": "POLICY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 80,
+ "created_at": "2026-07-30T22:32:46.859903+00:00",
+ "last_update": "2026-07-30T22:32:46.861789+00:00",
+ "members": [
+  {
+   "id": "83422694f9c42676223db2c834c319a99c3d91db",
+   "source": "hngnews.com",
+   "tier": "wire",
+   "url": "http://www.hngnews.com/nation_world/ap-news-summary-at-4-12-p-m-edt/article_31e4a57e-0e02-5912-af32-4c2b0a572dd2.html",
+   "title": "AP News Summary at 4 : 12 p . m . EDT",
+   "published_at": "2026-07-30T20:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9578
+  },
+  {
+   "id": "71c8cfc556bd0ea7096229b346e333e77dfd46cc",
+   "source": "fooddive.com",
+   "tier": "wire",
+   "url": "https://www.fooddive.com/?page=2&_sp=62e99d95-f2bb-455e-bdec-e1add290d82d",
+   "title": "Food Dive : Food Industry News and Analysis",
+   "published_at": "2026-07-30T20:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9578
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Food Dive : Food Industry News and Analysis",
+   "source": "fooddive.com",
+   "url": "https://www.fooddive.com/?page=2&_sp=62e99d95-f2bb-455e-bdec-e1add290d82d",
+   "at": "2026-07-30T20:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "AP News Summary at 4 : 12 p . m . EDT",
+   "source": "hngnews.com",
+   "url": "http://www.hngnews.com/nation_world/ap-news-summary-at-4-12-p-m-edt/article_31e4a57e-0e02-5912-af32-4c2b0a572dd2.html",
+   "at": "2026-07-30T20:45:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-30T22:36:12.731400+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "AP News Summary at 4 : 12 p . m . EDT",
+    "Food Dive : Food Industry News and Analysis"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "AP News Summary at 4…",
+   "one_liner": "AP News Summary at 4 : 12 p . m . EDT",
+   "why_now": null,
+   "details": [
+    "AP News Summary at 4 : 12 p . m . EDT",
+    "Food Dive : Food Industry News and Analysis"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "75b541fde14b58f42907a2d7bce561bcb93bae19"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-30T22:36:12.731336+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c5c8d55ad4217ee1f",
+   "title": "Federal government grounds Billy Bishop airport expansion",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "cde343d4cab397faf",
+   "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c8fd5663a6f60c96e",
+   "title": "The Reserve Bank of Australia must do better explaining what it is for , or risk its social licence being eroded",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "ce87d8956118c46ca",
+   "title": "Focus on aviation technology , airline growth and tourism , says Prof . Sonal Fernando",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "cac2a464c820defdc",
+   "title": "Air India to deploy new Boeing 787 - 9 on Delhi - Toronto route , remove Vienna fuel stop from August 1",
+   "category": "POLICY",
+   "shared": []
+  }
+ ]
+}
