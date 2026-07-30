@@ -1,0 +1,136 @@
+{
+ "id": "c197d406966c9b050",
+ "title": "Micron : AI Panic , But Memory Supercycle Isnt Over Yet ( Upgrade ) ( NASDAQ : MU )",
+ "category": "MARKET",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "MU"
+ ],
+ "seen_sources": 2,
+ "importance": 90,
+ "created_at": "2026-07-30T18:53:39.733678+00:00",
+ "last_update": "2026-07-30T18:53:39.735105+00:00",
+ "members": [
+  {
+   "id": "7d93db5915edda99a38ce0f0bb06b1b61749f8ce",
+   "source": "tickerreport.com",
+   "tier": "wire",
+   "url": "https://www.tickerreport.com/banking-finance/13522886/micron-technology-nasdaqmu-trading-16-5-higher-still-a-buy.html",
+   "title": "Micron Technology ( NASDAQ : MU ) Trading 16 . 5 % Higher – Still a Buy ?",
+   "published_at": "2026-07-30T17:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9695
+  },
+  {
+   "id": "21b83592f60aa8524e13a653f4a68465ba7faa8b",
+   "source": "seekingalpha.com",
+   "tier": "wire",
+   "url": "https://seekingalpha.com/article/4927077-micron-ai-panic-but-memory-supercycle-isnt-over-yet-upgrade",
+   "title": "Micron : AI Panic , But Memory Supercycle Isnt Over Yet ( Upgrade ) ( NASDAQ : MU )",
+   "published_at": "2026-07-29T18:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9695
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Micron Technology ( NASDAQ : MU ) Trading 16 . 5 % Higher – Still a Buy ?",
+   "source": "tickerreport.com",
+   "url": "https://www.tickerreport.com/banking-finance/13522886/micron-technology-nasdaqmu-trading-16-5-higher-still-a-buy.html",
+   "at": "2026-07-30T17:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Micron : AI Panic , But Memory Supercycle Isnt Over Yet ( Upgrade ) ( NASDAQ : MU )",
+   "source": "seekingalpha.com",
+   "url": "https://seekingalpha.com/article/4927077-micron-ai-panic-but-memory-supercycle-isnt-over-yet-upgrade",
+   "at": "2026-07-29T18:45:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-30T18:54:24.680422+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Micron Technology ( NASDAQ : MU ) Trading 16 . 5 % Higher – Still a Buy ?",
+    "Micron : AI Panic , But Memory Supercycle Isnt Over Yet ( Upgrade ) ( NASDAQ : MU )"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"마이크론 주가 급등\",\n  \"one_liner\": \"마이크론 테크놀로지 주가가 16.5% 올랐어요.\",\n  \"why_now\": \"인공지능(AI) 관련 메모리 반도체 수요가 늘면서 주가가 크게 올랐어요.\",\n  \"impact_line\": \"AI 관련 기술주에 대한 관심이 높아질 수 있어요.\",\n  \"details\": [\n    \"마이크론 테크놀로지 주가가 16.5% 상승했어요.\",\n    \"AI 관련 메모리 반도체 시장의 전망이 긍정적이에요.\",\n    \"메모리 반도체 시장의 호황이 아직 끝나지 않았다는 분석이 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"AI 관련 기술 기업들의 주가가 전반적으로 상승할 수 있어요!\",\n    \"메모리 반도체 관련 기업들의 실적이 개선될 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AI\",\n      \"easy\": \"인공지능을 뜻하는 말로, 컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n      \"example\": \"AI 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n    },\n    {\n      \"term\": \"메모리 반도체\",\n      \"easy\": \"컴퓨터나 스마트폰의 정보를 저장하는 반도체예요.\",\n      \"example\": \"스마트폰 용량이 부족하면 메모리 반도체에 문제가 있을 수 있어요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [16.5]"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Micron Technology (…",
+   "one_liner": "Micron Technology ( NASDAQ : MU ) Trading 16 . 5…",
+   "why_now": null,
+   "details": [
+    "Micron Technology ( NASDAQ : MU ) Trading 16 . 5 % Higher – Still a Buy ?",
+    "Micron : AI Panic , But Memory Supercycle Isnt Over Yet ( Upgrade ) ( NASDAQ : MU )"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "077240da24ebc968309907b3974d443eb4b0eaac"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [16.5]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-30T18:54:24.680368+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c8f0b7cb0487a034d",
+   "title": "Finance minister reviews Pakistan economic progress with IMF",
+   "category": "FX",
+   "shared": [
+    "MU"
+   ]
+  },
+  {
+   "id": "c76068f5fb08a3e9a",
+   "title": "A forced - labor crackdown or an end - run around Congress ? Dissecting Trump new tariffs",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cd41f78d2b746ddd5",
+   "title": "Tech bounce lifts Asia stocks , oil extends gains on US - Iran fears",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cd7b762c4b0212485",
+   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
+   "category": "GEO",
+   "shared": [
+    "MU"
+   ]
+  },
+  {
+   "id": "cffe83a2036bd185c",
+   "title": "Fortune Tech : Meta cash crunch , Microsoft Azure milestone , DoorDash drone deliveries",
+   "category": "MARKET",
+   "shared": []
+  }
+ ]
+}
