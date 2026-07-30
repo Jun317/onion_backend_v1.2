@@ -122,8 +122,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-30T09:49:12.671041+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-30T14:39:49.442578+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -136,33 +136,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"SK하이닉스 이익 급증\",\n  \"one_liner\": \"SK하이닉스의 이익이 크게 늘었지만 주가는 떨어졌어요.\",\n  \"why_now\": \"반도체 부족 현상으로 이익이 늘었지만, 앞으로의 비용 증가와 시장 기대치를 넘지 못해 주가가 하락했어요.\",\n  \"impact_line\": \"반도체 가격 상승으로 관련 제품 가격도 오를 수 있어요.\",\n  \"details\": [\n    \"SK하이닉스의 이익이 557% 급증했어요.\",\n    \"전 세계적인 반도체 부족 현상이 이익 증가에 영향을 주었어요.\",\n    \"하지만 앞으로 늘어날 확장 비용이 270억 달러에 달해요.\",\n    \"기록적인 실적에도 불구하고 주가는 하락했어요.\",\n    \"시장 기대치를 뛰어넘지 못했고, 글로벌 인공지능 관련 주식 매도세도 이어졌어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"반도체 부족 현상이 지속되면 관련 제품 가격이 더 오를 수 있어요!\",\n    \"SK하이닉스의 확장 비용 증가는 미래 성장에 대한 기대감을 높일 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"SK하이닉스\",\n      \"easy\": \"한국의 대표적인 반도체 회사 중 하나예요.\",\n      \"example\": \"SK하이닉스는 스마트폰, 컴퓨터 등에 들어가는 메모리 반도체를 만들어요.\"\n    },\n    {\n      \"term\": \"인공지능\",\n      \"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n      \"example\": \"인공지능 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\":\"SK 하이닉스 수익 증가\",\n   \"one_liner\":\"SK 하이닉스의 수익이 많이 늘었어요\",\n   \"why_now\":\"기업의 수익이 증가하면 투자자들이 기대할 수 있어요\",\n   \"impact_line\":\"전자제품 가격에 영향을 줄 수 있어요\",\n   \"details\":[\n      \"SK 하이닉스의 수익이 557% 증가했어요\",\n      \"전 세계적인 반도체 부족으로 수익이 늘었어요\",\n      \"하지만 투자자들의 기대가 실제 수익을 초과해서 주가가 내렸어요\",\n      \"글로벌 AI 관련 주가 하락도 영향을 줬어요\"\n   ],\n   \"visual_type\":\"none\",\n   \"effects\":[\n      \"반도체 수요가 줄어들면 관련 기업들의 수익이 줄어들 수 있어요!\",\n      \"전자제품의 가격이 오를 가능성이 있어 소비자들이 부담을 느끼게 될 수 있어요!\"\n   ],\n   \"glossary\":[\n      {\n         \"term\":\"DRAM\",\n         \"easy\":\"컴퓨터에서 데이터를 일시적으로 저장하는 반도체 종류에요\",\n         \"example\":\"컴퓨터의 성능을 결정하는 중요한 부품이에요\"\n      }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [270.0]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "why_now 55자 초과(58)",
-     "입력에 없는 숫자: [270.0]"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Memory maker SK…",
-   "one_liner": "Memory maker SK hynix profit rises 557 % amid…",
-   "why_now": null,
+   "title": "SK 하이닉스 수익 증가",
+   "one_liner": "SK 하이닉스의 수익이 많이 늘었어요",
+   "why_now": "기업의 수익이 증가하면 투자자들이 기대할 수 있어요",
    "details": [
-    "Memory maker SK hynix profit rises 557 % amid global shortage , expansion costs climb to $27 billion shares slide despite mammoth earnings as expectations outpace reality and global AI selloffs continue",
-    "SK Hynix Stock Falls 9 . 6 % as Record Profit Disappoints",
-    "Apacer CEO Warns That Commodity DRAM Supply Will Fall By 70 % In 2027 , Echoing A Doomsday Take From The CEO Of SK hynix"
+    "SK 하이닉스의 수익이 557% 증가했어요",
+    "전 세계적인 반도체 부족으로 수익이 늘었어요",
+    "하지만 투자자들의 기대가 실제 수익을 초과해서 주가가 내렸어요",
+    "글로벌 AI 관련 주가 하락도 영향을 줬어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "반도체 수요가 줄어들면 관련 기업들의 수익이 줄어들 수 있어요!",
+    "전자제품의 가격이 오를 가능성이 있어 소비자들이 부담을 느끼게 될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "6380b152f6fba1ff33637f02896656ccacc69c3a"
  },
@@ -170,13 +165,7 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [270.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(58)\", \"입력에 없는 숫자: [270.0]\"]}]}",
   "at": "2026-07-30T09:49:12.670909+00:00"
  },
- "glossary": [
-  {
-   "term": "DRAM",
-   "easy": "컴퓨터·스마트폰에 들어가는 기본 메모리 반도체예요.",
-   "example": ""
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "c03074aeed49bf60f",
