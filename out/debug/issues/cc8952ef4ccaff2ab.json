@@ -2,16 +2,26 @@
  "id": "cc8952ef4ccaff2ab",
  "title": "Russia charges Telegram founder Pavel Durov with aiding terrorism and puts him on wanted list",
  "category": "GEO",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 2,
+ "importance": 70,
  "created_at": "2026-07-29T12:26:40.902977+00:00",
- "last_update": "2026-07-29T12:26:40.902977+00:00",
+ "last_update": "2026-07-30T06:47:58.372837+00:00",
  "members": [
+  {
+   "id": "6f45a2b0b404fbe0adc0926c875a60f0e631642b",
+   "source": "pragativadi.com",
+   "tier": "wire",
+   "url": "https://pragativadi.com/trump-seeks-changes-to-russia-sanctions-bill-that-could-hit-india-with-100-tariffs/",
+   "title": "Trump Seeks Changes to Russia Sanctions Bill That Could Hit India With 100 % Tariffs",
+   "published_at": "2026-07-30T05:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8604
+  },
   {
    "id": "a3e7cb3d8d6c31eaf0b8796b5cf6950431d87fb4",
    "source": "wtop.com",
@@ -20,7 +30,7 @@
    "title": "Russia charges Telegram founder Pavel Durov with aiding terrorism and puts him on wanted list",
    "published_at": "2026-07-29T09:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9984
   },
   {
    "id": "f2997e3e5c9f58f94ca78e3971578bfeafe82010",
@@ -30,11 +40,18 @@
    "title": "Russia charges Telegram founder Pavel Durov with aiding terrorism and puts him on wanted list",
    "published_at": "2026-07-29T09:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9984
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Trump Seeks Changes to Russia Sanctions Bill That Could Hit India With 100 % Tariffs",
+   "source": "pragativadi.com",
+   "url": "https://pragativadi.com/trump-seeks-changes-to-russia-sanctions-bill-that-could-hit-india-with-100-tariffs/",
+   "at": "2026-07-30T05:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Russia charges Telegram founder Pavel Durov with aiding terrorism and puts him on wanted list",
@@ -50,8 +67,44 @@
    "at": "2026-07-29T09:30:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-30T06:51:44.000535+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Trump Seeks Changes to Russia Sanctions Bill That Could Hit India With 100 % Tariffs",
+    "Russia charges Telegram founder Pavel Durov with aiding terrorism and puts him on wanted list"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Trump Seeks Changes…",
+   "one_liner": "Trump Seeks Changes to Russia Sanctions Bill…",
+   "why_now": null,
+   "details": [
+    "Trump Seeks Changes to Russia Sanctions Bill That Could Hit India With 100 % Tariffs",
+    "Russia charges Telegram founder Pavel Durov with aiding terrorism and puts him on wanted list"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "d97f55f36a7391b3da9eafcd46a50610a4ba6d09"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-30T06:51:44.000393+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -73,14 +126,14 @@
    "shared": []
   },
   {
-   "id": "c5c3a7ff10fbec910",
-   "title": "Russian online retailer Wildberrie warehouse hit by drones",
+   "id": "c6f9e57edbc5d69b6",
+   "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
    "category": "GEO",
    "shared": []
   },
   {
-   "id": "c6f9e57edbc5d69b6",
-   "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
+   "id": "c5c3a7ff10fbec910",
+   "title": "Russian online retailer Wildberrie warehouse hit by drones",
    "category": "GEO",
    "shared": []
   }
