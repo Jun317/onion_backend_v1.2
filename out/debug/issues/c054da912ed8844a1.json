@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-30T16:56:51.802025+00:00",
+  "created_at": "2026-07-30T20:39:59.926734+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,12 +64,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"오라클 주가 하락\",\n\"one_liner\": \"오라클의 주가가 하락세를 보이고 있어요.\",\n\"why_now\": \"회사의 실적이 좋았음에도 주가가 떨어지는 것은 투자자들의 관심이 다른 곳으로 옮겨갔음을 의미할 수 있어요.\",\n\"impact_line\": \"투자자들의 관심이 줄면 주가에 영향을 줄 수 있어요.\",\n\"details\": [\n\"오라클의 주가가 하락했어요.\",\n\"이는 회사가 클라우드 사업에서 좋은 성과를 거둔 이후에 일어난 일이에요.\",\n\"국방부와의 70억 달러 규모 계약에도 불구하고 주가는 65% 하락했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"투자자들의 관심이 줄면 주가 하락이 이어질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"클라우드\",\n\"easy\": \"인터넷을 통해 컴퓨터 저장 공간이나 소프트웨어를 빌려 쓰는 서비스예요.\",\n\"example\": \"클라우드 게임을 하면 컴퓨터 사양이 낮아도 최신 게임을 즐길 수 있어요.\"\n},\n{\n\"term\": \"주가\",\n\"easy\": \"회사의 주식이 시장에서 거래되는 가격이에요.\",\n\"example\": \"회사의 실적이 좋으면 주가가 오르는 경우가 많아요.\"\n}\n],\n\"impact_line\": \"투자자들의 관심이 줄면 주가에 영향을 줄 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [70.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(59)",
+     "입력에 없는 숫자: [70.0]"
     ]
    }
   ],
@@ -87,8 +94,8 @@
   "fact_hash": "e49da2f24d3e371a42e35e95cab890488739fb94"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-30T16:56:51.801962+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [70.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(59)\", \"입력에 없는 숫자: [70.0]\"]}]}",
+  "at": "2026-07-30T20:39:59.926590+00:00"
  },
  "glossary": [],
  "related": [
@@ -111,14 +118,14 @@
    "shared": []
   },
   {
-   "id": "c7b7e590611a1bac4",
-   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c8767f6a04dae9d1b",
-   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "id": "cb34f19e1978fa138",
+   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "category": "MARKET",
    "shared": []
   }
