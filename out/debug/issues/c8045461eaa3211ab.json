@@ -9,11 +9,31 @@
  "entity_keys": [
   "FED"
  ],
- "seen_sources": 3,
- "importance": 105,
+ "seen_sources": 4,
+ "importance": 120,
  "created_at": "2026-07-30T06:47:58.371988+00:00",
- "last_update": "2026-07-30T12:10:40.422456+00:00",
+ "last_update": "2026-07-30T16:56:01.769520+00:00",
  "members": [
+  {
+   "id": "0edb7afd0aae23206596cf6c8ad0b56d322e72de",
+   "source": "Federal Reserve",
+   "tier": "official",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
+   "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
+   "published_at": "2026-07-30T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8835
+  },
+  {
+   "id": "aabe730a8f85c384dd8fc2c20db4a6001433445d",
+   "source": "Federal Reserve",
+   "tier": "official",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm",
+   "title": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
+   "published_at": "2026-07-30T15:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8791
+  },
   {
    "id": "7d1e509f25fbcb21494a70147663da0062912c3f",
    "source": "businesstimes.com.sg",
@@ -22,7 +42,7 @@
    "title": "Singapore stocks fall after Fed holds rates ; STI down 0 . 7 %",
    "published_at": "2026-07-30T10:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8686
+   "sim_to_centroid": 0.8818
   },
   {
    "id": "26ea11f9389f9e0da07a8140098f4a5492dcdc9e",
@@ -32,7 +52,7 @@
    "title": "Fed keeps rates unchanged despite three dissents , expert calls it hawkish hold with fractured committee",
    "published_at": "2026-07-30T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9958
+   "sim_to_centroid": 0.9863
   },
   {
    "id": "ae5aa9d1e30f1368ca5a1c193fed8cd1e7cf9233",
@@ -42,7 +62,7 @@
    "title": "Fed keeps rates unchanged despite three dissents , expert calls it hawkish hold with fractured committee",
    "published_at": "2026-07-30T05:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9958
+   "sim_to_centroid": 0.9863
   },
   {
    "id": "b3a84907b3ce99709c0d8c959ab24a6f8826284c",
@@ -52,11 +72,25 @@
    "title": "Fed Review : Reversing Course (?) - ActionForex",
    "published_at": "2026-07-30T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8634
+   "sim_to_centroid": 0.8788
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "official",
+   "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
+   "source": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
+   "at": "2026-07-30T15:00:00+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
+   "source": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm",
+   "at": "2026-07-30T15:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Singapore stocks fall after Fed holds rates ; STI down 0 . 7 %",
@@ -87,46 +121,63 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-30T12:20:07.295750+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-30T16:56:03.225584+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
    "headlines": [
+    "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
+    "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
     "Singapore stocks fall after Fed holds rates ; STI down 0 . 7 %",
     "Fed keeps rates unchanged despite three dissents , expert calls it hawkish hold with fractured committee",
     "Fed Review : Reversing Course (?) - ActionForex"
    ],
-   "official_lines": []
+   "official_lines": [
+    "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
+    "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank"
+   ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 금리 유지\",\n   \"one_liner\": \"미국 중앙은행이 금리를 그대로 두었어요\",\n   \"why_now\": \"금리가 그대로이면 돈을 빌리거나 빌려주기 쉽고 어려운 정도가 같아요\",\n   \"impact_line\": \"외국과 거래할 때 달러 가치에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"미국 중앙은행이 금리를 바꾸지 않았어요\",\n       \"금리를 바꾸는 위원회에서 의견이 분분했어요\",\n       \"싱가포르 주식시장이 미국 중앙은행 결정 이후 하락했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국과 거래할 때 달러 가치에 영향을 받아 우리나라 물건이 더 비싸질 수 있어요!\",\n       \"금리 변동이 없으면 돈을 빌리거나 빌려주기 쉬운 정도가 같아져서 소비와 투자가 안정될 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Singapore stocks…",
-   "one_liner": "Singapore stocks fall after Fed holds rates ;…",
-   "why_now": null,
+   "title": "미국 금리 유지",
+   "one_liner": "미국 중앙은행이 금리를 그대로 두었어요",
+   "why_now": "금리가 그대로이면 돈을 빌리거나 빌려주기 쉽고 어려운 정도가 같아요",
    "details": [
-    "Singapore stocks fall after Fed holds rates ; STI down 0 . 7 %",
-    "Fed keeps rates unchanged despite three dissents , expert calls it hawkish hold with fractured committee",
-    "Fed Review : Reversing Course (?) - ActionForex"
+    "미국 중앙은행이 금리를 바꾸지 않았어요",
+    "금리를 바꾸는 위원회에서 의견이 분분했어요",
+    "싱가포르 주식시장이 미국 중앙은행 결정 이후 하락했어요"
    ],
-   "effects": [],
-   "visual_type": "usdkrw"
+   "effects": [
+    "미국과 거래할 때 달러 가치에 영향을 받아 우리나라 물건이 더 비싸질 수 있어요!",
+    "금리 변동이 없으면 돈을 빌리거나 빌려주기 쉬운 정도가 같아져서 소비와 투자가 안정될 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "0be54a02294031facf09fb0c60a208afb0a4055d"
+  "fact_hash": "edebe42b4179c1ccd6b25cde1fa10bc1842aaa9b"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-30T12:20:07.295631+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  }
+ ],
  "related": [
   {
    "id": "cea83213c8906724e",
