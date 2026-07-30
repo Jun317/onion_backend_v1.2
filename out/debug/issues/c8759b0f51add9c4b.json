@@ -9,13 +9,44 @@
  "entity_keys": [
   "BA",
   "CHINA",
+  "KRX:373220",
   "SEC"
  ],
- "seen_sources": 16,
+ "seen_sources": 19,
  "importance": 120,
  "created_at": "2026-07-28T20:39:27.536272+00:00",
- "last_update": "2026-07-30T00:17:27.083346+00:00",
+ "last_update": "2026-07-30T03:40:01.656459+00:00",
  "members": [
+  {
+   "id": "cd4757d0dbe55f38158e06833157878b053b176a",
+   "source": "therecord.com",
+   "tier": "wire",
+   "url": "https://www.therecord.com/business/cuba-loosens-control-of-its-private-sector-in-a-struggle-with-a-mounting-humanitarian-crisis/article_215122fc-aad6-55b4-9c29-60af26cd2723.html",
+   "title": "Cuba loosens control of its private sector in a struggle with a mounting humanitarian crisis",
+   "published_at": "2026-07-30T02:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8214
+  },
+  {
+   "id": "0b65668118cab3f7cce2be6c30de0577bbbcf78a",
+   "source": "wsfa.com",
+   "tier": "wire",
+   "url": "https://www.wsfa.com/2026/07/29/rep-figures-warns-social-security-jeopardy-alabama-seniors/",
+   "title": "Rep . Figures warns Social Security in jeopardy for Alabama seniors",
+   "published_at": "2026-07-30T02:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8316
+  },
+  {
+   "id": "5e0ad2f9041c9fb4bd32bb76fb44c7abdf997d5f",
+   "source": "prnewswire.com",
+   "tier": "wire",
+   "url": "http://www.prnewswire.com/news-releases/lg-energy-solution-releases-2026-second-quarter-financial-results-302838408.html",
+   "title": "LG Energy Solution Releases 2026 Second - Quarter Financial Results",
+   "published_at": "2026-07-30T02:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9164
+  },
   {
    "id": "e4e604a3dd2af8ef022b4b11ba36e37573c8fb2b",
    "source": "juniorminingnetwork.com",
@@ -145,6 +176,16 @@
    "published_at": "2026-07-29T18:45:00+00:00",
    "is_dup": 0,
    "sim_to_centroid": 0.8703
+  },
+  {
+   "id": "5005f7f9f24bda21e7783bc456f8aa7f8e6ee9e4",
+   "source": "bignewsnetwork.com",
+   "tier": "wire",
+   "url": "http://www.bignewsnetwork.com/news/279215259/nikhil-kamath-explores-china-housing-crisis-america-debt-and-the-future-of-the-global-economy-with-matthew-klein-and-professor",
+   "title": "Nikhil Kamath Explores China Housing Crisis , America Debt and the Future of the Global Economy with Matthew Klein and Professor",
+   "published_at": "2026-07-29T17:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8276
   },
   {
    "id": "ff145dabef0856c342143f66995ff719cfefc7ab",
@@ -291,6 +332,27 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Cuba loosens control of its private sector in a struggle with a mounting humanitarian crisis",
+   "source": "therecord.com",
+   "url": "https://www.therecord.com/business/cuba-loosens-control-of-its-private-sector-in-a-struggle-with-a-mounting-humanitarian-crisis/article_215122fc-aad6-55b4-9c29-60af26cd2723.html",
+   "at": "2026-07-30T02:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Rep . Figures warns Social Security in jeopardy for Alabama seniors",
+   "source": "wsfa.com",
+   "url": "https://www.wsfa.com/2026/07/29/rep-figures-warns-social-security-jeopardy-alabama-seniors/",
+   "at": "2026-07-30T02:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "LG Energy Solution Releases 2026 Second - Quarter Financial Results",
+   "source": "prnewswire.com",
+   "url": "http://www.prnewswire.com/news-releases/lg-energy-solution-releases-2026-second-quarter-financial-results-302838408.html",
+   "at": "2026-07-30T02:00:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Alamos Gold Reports Second Quarter 2026 Results",
    "source": "juniorminingnetwork.com",
    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/1192-tsx/agi/208205-alamos-gold-reports-second-quarter-2026-results.html",
@@ -396,6 +458,13 @@
   },
   {
    "kind": "headline",
+   "title": "Nikhil Kamath Explores China Housing Crisis , America Debt and the Future of the Global Economy with Matthew Klein and Professor",
+   "source": "bignewsnetwork.com",
+   "url": "http://www.bignewsnetwork.com/news/279215259/nikhil-kamath-explores-china-housing-crisis-america-debt-and-the-future-of-the-global-economy-with-matthew-klein-and-professor",
+   "at": "2026-07-29T17:30:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "US restricts humanoid robot imports from China over national security concerns",
    "source": "businesstoday.in",
    "url": "https://www.businesstoday.in/world/us/story/us-restricts-humanoid-robot-imports-from-china-over-national-security-concerns-546116-2026-07-29",
@@ -481,50 +550,56 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-29T21:18:17.469225+00:00",
+  "created_at": "2026-07-30T03:40:04.585282+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
-    "Mercedes - Benz lowers 2026 sales outlook amid China weakness",
-    "US restricts humanoid robot imports from China over national security concerns",
-    "CXMT becomes China most valuable listed company",
-    "CXMT blockbuster debut fuels China AI chip ambitions"
+    "CareRx Reports Results for the Second Quarter of 2026",
+    "Big Digital Energy to Release Second Quarter 2026 Results August 12th",
+    "Timbercreek Financial Announces 2026 Second Quarter Results and Q3 / Q4 Dividends",
+    "West Fraser Announces Second Quarter 2026 Results",
+    "Alamos Gold Reports Second Quarter 2026 Results"
    ],
    "official_lines": []
   },
-  "raw_response": "[\n  {\n    \"title\": \"메르세데스, 중국 판매 전망 낮춰\",\n    \"one_liner\": \"메르세데스-벤츠가 중국 시장의 부진으로 올해 판매 전망을 낮췄어요.\",\n    \"why_now\": \"중국은 자동차 시장에서 매우 큰 비중을 차지하기 때문에, 이곳의 판매량은 전체 실적에 큰 영향을 미쳐요.\",\n    \"impact_line\": \"고급 자동차의 가격이 오르거나 구매가 어려워질 수 있어요.\",\n    \"details\": [\n      \"메르세데스-벤츠는 올해 판매 전망을 낮췄습니다.\",\n      \"중국 시장의 부진이 주요 원인으로 꼽혔습니다.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n      \"중국 내 자동차 판매 경쟁이 더 치열해질 수 있어요!\",\n      \"메르세데스-벤츠의 다른 지역 판매량에도 영향을 줄 수 있어요!\"\n    ],\n    \"glossary\": []\n  },\n  {\n    \"title\": \"미국, 중국 휴머노이드 로봇 수입 제한\",\n    \"one_liner\": \"미국이 국가 안보를 이유로 중국산 휴머노이드 로봇 수입을 제한했어요.\",\n    \"why_now\": \"첨단 기술 분야에서 국가 안보를 이유로 특정 국가의 제품 수입을 막는 것은 국제 무역에 큰 영향을 줄 수 있어요.\",\n    \"impact_line\": \"로봇 관련 제품의 가격이 오르거나 구하기 어려워질 수 있어요.\",\n    \"details\": [\n      \"미국은 국가 안보를 이유로 중국산 휴머노이드 로봇 수입을 제한했습니다.\",\n      \"이는 중국의 첨단 기술 발전에 대한 미국의 우려를 보여줍니다.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n      \"중국 로봇 기업들의 해외 시장 진출이 어려워질 수 있어요!\",\n      \"미국 내 로봇 기술 개발 경쟁이 더 치열해질 것으로 예상돼요!\"\n    ],\n    \"glossary\": [\n      {\n        \"term\": \"휴머노이드 로봇\",\n        \"easy\": \"사람과 비슷한 모양과 움직임을 가진 로봇을 말해요.\",\n        \"example\": \"인간처럼 걷고 물건을 집는 휴머노이드 로봇이 개발되고 있어요.\"\n      }\n    ]\n  },\n  {\n    \"title\": \"중국 반도체 기업 CXMT, 시총 1위 등극\",\n    \"one_liner\": \"중국 반도체 기업 CXMT가 중국 증시에서 가장 큰 회사로 올라섰어요.\",\n    \"why_now\": \"중국이 반도체 자립을 위해 노력하는 가운데, 자국 기업이 시가총액 1위에 오른 것은 중요한 의미를 가져요.\",\n    \"impact_line\": \"중국 내 반도체 관련 기업들의 주가가 오를 수 있어요.\",\n    \"details\": [\n      \"CXMT는 중국에서 가장 가치가 높은 상장 기업이 되었습니다.\",\n      \"이는 중국의 인공지능 반도체 기술 발전에 대한 기대를 보여줍니다.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n      \"중국 정부의 반도체 산업 지원이 더욱 강화될 수 있어요!\",\n      \"글로벌 반도체 시장에서 중국 기업의 영향력이 커질 것으로 예상돼요!\"\n    ],\n    \"glossary\": [\n      {\n        \"term\": \"시가총액\",\n        \"easy\": \"회사의 주식 가격에 발행된 주식 수를 곱한 값으로, 회사의 전체 가치를 나타내요.\",\n        \"example\": \"회사의 시가총액이 오르면 그만큼 회사의 가치가 높아졌다고 볼 수 있어요.\"\n      },\n      {\n        \"term\": \"상장 기업\",\n        \"easy\": \"주식 시장에 회사의 주식을 등록해서 누구나 사고팔 수 있게 된 회사를 말해요.\",\n        \"example\": \"삼성전자, 현대차 등 많은 회사가 상장 기업이에요.\"\n      }\n    ]\n  }\n]",
+  "raw_response": "{\n  \"title\": \"기업들 2분기 실적 발표\",\n  \"one_liner\": \"여러 기업들이 2026년 2분기 실적을 발표했어요.\",\n  \"why_now\": \"기업들의 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"투자자들의 관심이 높아질 수 있어요.\",\n  \"details\": [\n    \"CareRx가 2026년 2분기 실적을 발표했습니다.\",\n    \"Big Digital Energy는 8월 12일에 2분기 실적을 공개할 예정입니다.\",\n    \"Timbercreek Financial은 2분기 실적과 3분기, 4분기 배당을 발표했습니다.\",\n    \"West Fraser도 2026년 2분기 실적을 발표했습니다.\",\n    \"Alamos Gold 역시 2026년 2분기 실적을 발표했습니다.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"실적 발표에 따라 해당 기업들의 주가 변동성이 커질 수 있어요!\",\n    \"투자자들은 발표된 실적을 바탕으로 향후 투자 결정을 내릴 것으로 예상돼요!\"\n  ],\n  \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "출력이 JSON 객체가 아님"
+     "effects[0] 느낌표 종결 아님",
+     "effects[1] 느낌표 종결 아님"
     ]
    },
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details[0] 어요체 아님",
+     "details[1] 어요체 아님",
+     "details[2] 어요체 아님",
+     "details[3] 어요체 아님",
+     "details[4] 어요체 아님"
     ]
    }
   ],
   "output": {
-   "title": "Mercedes - Benz…",
-   "one_liner": "Mercedes - Benz lowers 2026 sales outlook amid…",
+   "title": "CareRx Reports…",
+   "one_liner": "CareRx Reports Results for the Second Quarter of…",
    "why_now": null,
    "details": [
-    "Mercedes - Benz lowers 2026 sales outlook amid China weakness",
-    "US restricts humanoid robot imports from China over national security concerns",
-    "CXMT becomes China most valuable listed company"
+    "CareRx Reports Results for the Second Quarter of 2026",
+    "Big Digital Energy to Release Second Quarter 2026 Results August 12th",
+    "Timbercreek Financial Announces 2026 Second Quarter Results and Q3 / Q4 Dividends"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "f15a45c730e9e86b461f4b759ea852b614e5c85a"
+  "fact_hash": "2069ee5205bb9a119ea2711d1dbacfad6e03b69a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"출력이 JSON 객체가 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-29T21:18:17.469123+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\", \"details[3] 어요체 아님\", \"details[4] 어요체 아님\"]}]}",
+  "at": "2026-07-30T03:40:04.585072+00:00"
  },
  "glossary": [],
  "related": [

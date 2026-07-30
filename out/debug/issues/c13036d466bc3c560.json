@@ -12,8 +12,18 @@
  "seen_sources": 3,
  "importance": 80,
  "created_at": "2026-07-29T22:26:52.626090+00:00",
- "last_update": "2026-07-30T00:17:27.079239+00:00",
+ "last_update": "2026-07-30T03:40:01.646064+00:00",
  "members": [
+  {
+   "id": "ca9ab8dbba29b07929cceb296a0a55a31914514e",
+   "source": "wsls.com",
+   "tier": "wire",
+   "url": "https://www.wsls.com/business/2026/07/29/starbucks-reports-strong-quarterly-sales-and-raises-annual-outlook/",
+   "title": "Starbucks reports strong quarterly sales across customer income levels and times of day",
+   "published_at": "2026-07-30T02:15:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.9647
+  },
   {
    "id": "41817f91757e6e5053d1bd131dc09f6df7a6affa",
    "source": "therecord.com",
@@ -22,7 +32,7 @@
    "title": "Starbucks reports strong quarterly sales across customer income levels and times of day",
    "published_at": "2026-07-29T23:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9566
+   "sim_to_centroid": 0.9647
   },
   {
    "id": "a182efaad047ee2f436944918c496f7727c38ad8",
@@ -32,7 +42,7 @@
    "title": "Starbucks reports strong quarterly sales across customer income levels and times of day",
    "published_at": "2026-07-29T23:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9566
+   "sim_to_centroid": 0.9647
   },
   {
    "id": "43ba3ded25999efc507ed3383c2c59ba9404bcbb",
@@ -42,7 +52,7 @@
    "title": "Starbucks reports strong quarterly sales and raises annual outlook",
    "published_at": "2026-07-29T21:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9903
+   "sim_to_centroid": 0.9896
   },
   {
    "id": "198a4f6509d147de2488ac75a2bcad24cdb8e58c",
@@ -52,11 +62,18 @@
    "title": "Starbucks reports strong quarterly sales and raises annual outlook – Winnipeg Free Press",
    "published_at": "2026-07-29T21:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9824
+   "sim_to_centroid": 0.9783
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Starbucks reports strong quarterly sales across customer income levels and times of day",
+   "source": "wsls.com",
+   "url": "https://www.wsls.com/business/2026/07/29/starbucks-reports-strong-quarterly-sales-and-raises-annual-outlook/",
+   "at": "2026-07-30T02:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Starbucks reports strong quarterly sales across customer income levels and times of day",
@@ -88,11 +105,12 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-29T22:27:31.624261+00:00",
+  "created_at": "2026-07-30T03:43:05.536533+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Starbucks reports strong quarterly sales across customer income levels and times of day",
     "Starbucks reports strong quarterly sales and raises annual outlook",
     "Starbucks reports strong quarterly sales and raises annual outlook – Winnipeg Free Press"
    ],
@@ -109,20 +127,21 @@
   ],
   "output": {
    "title": "Starbucks reports…",
-   "one_liner": "Starbucks reports strong quarterly sales and…",
+   "one_liner": "Starbucks reports strong quarterly sales across…",
    "why_now": null,
    "details": [
+    "Starbucks reports strong quarterly sales across customer income levels and times of day",
     "Starbucks reports strong quarterly sales and raises annual outlook",
     "Starbucks reports strong quarterly sales and raises annual outlook – Winnipeg Free Press"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "360ccbf62e02bd59dcf7377706f1e5d31166a429"
+  "fact_hash": "fbbad2844a83e23bbeddeca709884f5cca003720"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-29T22:27:31.624160+00:00"
+  "at": "2026-07-30T03:43:05.536477+00:00"
  },
  "glossary": [],
  "related": [
@@ -145,14 +164,14 @@
    "shared": []
   },
   {
-   "id": "ce8476dc575107359",
-   "title": "Memory maker SK hynix profit rises 557 % amid global shortage , expansion costs climb to $27 billion shares slide despite mammoth earnings as expectations outpace reality and global AI selloffs continue",
+   "id": "c26db649df2243106",
+   "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c2fe47d2110ccdaa3",
-   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "id": "ce8476dc575107359",
+   "title": "Memory maker SK hynix profit rises 557 % amid global shortage , expansion costs climb to $27 billion shares slide despite mammoth earnings as expectations outpace reality and global AI selloffs continue",
    "category": "EARNINGS",
    "shared": []
   }

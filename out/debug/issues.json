@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T00:18:07.334202+00:00",
+ "generated_at": "2026-07-30T04:04:53.200832+00:00",
  "issues": [
   {
    "id": "cea83213c8906724e",
@@ -7,7 +7,7 @@
    "category": "RATE",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 18,
+   "seen_sources": 32,
    "importance": 180,
    "entity_keys": [
     "COST",
@@ -16,12 +16,12 @@
     "WMT"
    ],
    "created_at": "2026-07-29T22:26:52.625337+00:00",
-   "last_update": "2026-07-30T00:17:27.097584+00:00",
-   "members": 42,
-   "llm_title": "미국 금리 유지",
-   "one_liner": "미국 중앙은행이 금리를 그대로 유지했어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": false
+   "last_update": "2026-07-30T03:40:01.658229+00:00",
+   "members": 50,
+   "llm_title": "Fed Holds Interest…",
+   "one_liner": "Fed Holds Interest Rates Steady Amid Inflation…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c03074aeed49bf60f",
@@ -282,6 +282,28 @@
    "in_review": true
   },
   {
+   "id": "c8759b0f51add9c4b",
+   "title": "CXMT becomes China most valuable listed company",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 19,
+   "importance": 120,
+   "entity_keys": [
+    "BA",
+    "CHINA",
+    "KRX:373220",
+    "SEC"
+   ],
+   "created_at": "2026-07-28T20:39:27.536272+00:00",
+   "last_update": "2026-07-30T03:40:01.656459+00:00",
+   "members": 31,
+   "llm_title": "CareRx Reports…",
+   "one_liner": "CareRx Reports Results for the Second Quarter of…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c036692000e761edb",
    "title": "Fed holds rates steady ; 3 policymakers dissent in favor of a hike",
    "category": "POLICY",
@@ -299,27 +321,6 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
-  },
-  {
-   "id": "c8759b0f51add9c4b",
-   "title": "CXMT becomes China most valuable listed company",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 16,
-   "importance": 120,
-   "entity_keys": [
-    "BA",
-    "CHINA",
-    "SEC"
-   ],
-   "created_at": "2026-07-28T20:39:27.536272+00:00",
-   "last_update": "2026-07-30T00:17:27.083346+00:00",
-   "members": 27,
-   "llm_title": "Mercedes - Benz…",
-   "one_liner": "Mercedes - Benz lowers 2026 sales outlook amid…",
-   "llm_model": "template",
-   "in_review": true
   },
   {
    "id": "cddd63d8ad09a1af7",
@@ -418,9 +419,9 @@
    "created_at": "2026-07-29T22:26:52.625086+00:00",
    "last_update": "2026-07-29T22:26:52.627076+00:00",
    "members": 2,
-   "llm_title": "PYMNTS | Procter &…",
-   "one_liner": "PYMNTS | Procter & Gamble Says Gas Prices…",
-   "llm_model": "template",
+   "llm_title": "소비자 지출 감소",
+   "one_liner": "가스 가격 상승이 소비자 지출을 제한하고 있다고 P&G가 밝혔어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -865,6 +866,63 @@
    "in_review": false
   },
   {
+   "id": "c105bf56a62896b57",
+   "title": "Advanced Micro Devices ( NASDAQ : AMD ) Stock Price Down 3 . 3 % – Here Why",
+   "category": "MARKET",
+   "status": "archived",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 95,
+   "entity_keys": [
+    "AMD"
+   ],
+   "created_at": "2026-07-27T20:48:59.657662+00:00",
+   "last_update": "2026-07-30T03:40:01.913991+00:00",
+   "members": 0,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": true
+  },
+  {
+   "id": "c8fd5663a6f60c96e",
+   "title": "The Reserve Bank of Australia must do better explaining what it is for , or risk its social licence being eroded",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 85,
+   "importance": 95,
+   "entity_keys": [],
+   "created_at": "2026-07-29T12:26:40.902302+00:00",
+   "last_update": "2026-07-30T03:40:01.658438+00:00",
+   "members": 50,
+   "llm_title": "주식시장 하락",
+   "one_liner": "월스트리트 주식이 크게 떨어졌어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "c3149033857922fc8",
+   "title": "Walmart ( NYSE : WMT ), Costco ( NASDAQ : COST ), And Home Depot ( NYSE : HD ) Face Very Different Risk / Reward Profiles",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 95,
+   "entity_keys": [
+    "COST",
+    "HD",
+    "WMT"
+   ],
+   "created_at": "2026-07-30T00:17:27.084688+00:00",
+   "last_update": "2026-07-30T03:40:01.607134+00:00",
+   "members": 3,
+   "llm_title": "코스트코 주식 배당금",
+   "one_liner": "코스트코 주식을 통해 1년에 1만 달러의 배당금을 얻으려면 얼마나 주식이 필요한지 알려줘요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": false
+  },
+  {
    "id": "c2bb5a5e10a710608",
    "title": "Fed holds rates steady at 3 . 5 % to 3 . 75 % as White House urges cuts , hike talk grows",
    "category": "FX",
@@ -886,23 +944,6 @@
    "in_review": false
   },
   {
-   "id": "c8fd5663a6f60c96e",
-   "title": "The Reserve Bank of Australia must do better explaining what it is for , or risk its social licence being eroded",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 13,
-   "importance": 95,
-   "entity_keys": [],
-   "created_at": "2026-07-29T12:26:40.902302+00:00",
-   "last_update": "2026-07-30T00:17:27.081926+00:00",
-   "members": 15,
-   "llm_title": "🎥  Good family fight…",
-   "one_liner": "🎥  Good family fight : Close call on interest…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "c32be43a74d268864",
    "title": "Why Is PayPal Stock Gaining Tuesday ? - PayPal Holdings ( NASDAQ : PYPL )",
    "category": "MARKET",
@@ -916,9 +957,9 @@
    "created_at": "2026-07-28T18:53:01.536982+00:00",
    "last_update": "2026-07-30T00:17:27.078875+00:00",
    "members": 4,
-   "llm_title": "Is Takeout Target…",
-   "one_liner": "Is Takeout Target PayPal a Buy ?",
-   "llm_model": "template",
+   "llm_title": "페이팔 주식",
+   "one_liner": "페이팔 주식이 오르는 이유를 살펴보아요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -935,27 +976,8 @@
    "created_at": "2026-07-29T17:45:27.158116+00:00",
    "last_update": "2026-07-29T22:26:52.614110+00:00",
    "members": 3,
-   "llm_title": "The Hartford…",
-   "one_liner": "The Hartford Insurance Group ( NYSE : HIG )…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c105bf56a62896b57",
-   "title": "Advanced Micro Devices ( NASDAQ : AMD ) Stock Price Down 3 . 3 % – Here Why",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 95,
-   "entity_keys": [
-    "AMD"
-   ],
-   "created_at": "2026-07-27T20:48:59.657662+00:00",
-   "last_update": "2026-07-29T19:51:12.957369+00:00",
-   "members": 3,
-   "llm_title": "Prediction : AMD…",
-   "one_liner": "Prediction : AMD Stock Could Double by 2028 .…",
+   "llm_title": "Stock Market Today ,…",
+   "one_liner": "Stock Market Today , July 29 : Ford Beats…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1073,48 +1095,68 @@
    "in_review": false
   },
   {
-   "id": "c3149033857922fc8",
-   "title": "Walmart ( NYSE : WMT ), Costco ( NASDAQ : COST ), And Home Depot ( NYSE : HD ) Face Very Different Risk / Reward Profiles",
+   "id": "cf92e75ea2709f911",
+   "title": "Meta Stock Is Down Nearly 10 % in 2026 . Should You Buy Before July 29 Q2 Earnings ?",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 24,
+   "importance": 90,
+   "entity_keys": [
+    "AAPL",
+    "AMD",
+    "AMZN",
+    "AVGO",
+    "META",
+    "MSFT",
+    "NVDA",
+    "TAIWAN"
+   ],
+   "created_at": "2026-07-26T19:42:01.899571+00:00",
+   "last_update": "2026-07-30T03:40:01.913926+00:00",
+   "members": 39,
+   "llm_title": "Meta Stock Is Down…",
+   "one_liner": "Meta Stock Is Down Nearly 10 % in 2026 . Should…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c6103da62f039fb9e",
+   "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
    "seen_sources": 2,
    "importance": 90,
    "entity_keys": [
-    "COST",
-    "HD",
-    "WMT"
+    "NVDA"
    ],
-   "created_at": "2026-07-30T00:17:27.084688+00:00",
-   "last_update": "2026-07-30T00:17:27.085898+00:00",
+   "created_at": "2026-07-30T03:40:01.659273+00:00",
+   "last_update": "2026-07-30T03:40:01.660287+00:00",
    "members": 2,
-   "llm_title": "코스트코 주식 배당금",
-   "one_liner": "코스트코 주식을 통해 1년에 1만 달러의 배당금을 얻으려면 얼마나 주식이 필요한지 알려줘요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": false
+   "llm_title": "Overlooked AI stock…",
+   "one_liner": "Overlooked AI stock is growing faster than Nvidia",
+   "llm_model": "template",
+   "in_review": true
   },
   {
-   "id": "cf92e75ea2709f911",
-   "title": "Meta Stock Is Down Nearly 10 % in 2026 . Should You Buy Before July 29 Q2 Earnings ?",
+   "id": "c26db649df2243106",
+   "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 17,
+   "seen_sources": 10,
    "importance": 90,
    "entity_keys": [
-    "AAPL",
-    "AMZN",
-    "AVGO",
-    "META",
-    "MSFT",
-    "TAIWAN"
+    "GOOGL",
+    "VZ"
    ],
-   "created_at": "2026-07-26T19:42:01.899571+00:00",
-   "last_update": "2026-07-30T00:17:27.081153+00:00",
-   "members": 27,
-   "llm_title": "Meta Stock Is Down…",
-   "one_liner": "Meta Stock Is Down Nearly 10 % in 2026 . Should…",
-   "llm_model": "template",
+   "created_at": "2026-07-23T06:44:56.417003+00:00",
+   "last_update": "2026-07-30T03:40:01.651093+00:00",
+   "members": 18,
+   "llm_title": "버라이즌, 구글과 1조원대 계약",
+   "one_liner": "미국 통신사 버라이즌이 구글과 1조 원이 넘는 인터넷망 계약을 맺었어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -1132,8 +1174,8 @@
    "created_at": "2026-07-29T19:51:12.976035+00:00",
    "last_update": "2026-07-29T22:26:52.617439+00:00",
    "members": 6,
-   "llm_title": "SK hynix ( NASDAQ :…",
-   "one_liner": "SK hynix ( NASDAQ : SKHY ) Announces Earnings…",
+   "llm_title": "Memory maker SK…",
+   "one_liner": "Memory maker SK hynix profit rises 557 % amid…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1385,26 +1427,6 @@
    "in_review": true
   },
   {
-   "id": "c26db649df2243106",
-   "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 10,
-   "importance": 85,
-   "entity_keys": [
-    "GOOGL",
-    "VZ"
-   ],
-   "created_at": "2026-07-23T06:44:56.417003+00:00",
-   "last_update": "2026-07-28T18:53:01.529731+00:00",
-   "members": 17,
-   "llm_title": "버라이즌, 구글과 1조원대 계약",
-   "one_liner": "미국 통신사 버라이즌이 구글과 1조 원이 넘는 인터넷망 계약을 맺었어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "ce87d8956118c46ca",
    "title": "Focus on aviation technology , airline growth and tourism , says Prof . Sonal Fernando",
    "category": "POLICY",
@@ -1588,10 +1610,10 @@
     "SBUX"
    ],
    "created_at": "2026-07-29T22:26:52.626090+00:00",
-   "last_update": "2026-07-30T00:17:27.079239+00:00",
-   "members": 4,
+   "last_update": "2026-07-30T03:40:01.646064+00:00",
+   "members": 5,
    "llm_title": "Starbucks reports…",
-   "one_liner": "Starbucks reports strong quarterly sales and…",
+   "one_liner": "Starbucks reports strong quarterly sales across…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1609,8 +1631,8 @@
    "created_at": "2026-07-28T22:30:32.690870+00:00",
    "last_update": "2026-07-29T22:26:52.611698+00:00",
    "members": 3,
-   "llm_title": "Visa Inc . Q3 Profit…",
-   "one_liner": "Visa Inc . Q3 Profit Climbs",
+   "llm_title": "Lovisa Holdings…",
+   "one_liner": "Lovisa Holdings Shares Jump 19 % This Week :…",
    "llm_model": "template",
    "in_review": true
   },
@@ -2413,6 +2435,23 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "cf9c42e5d29f716f3",
+   "title": "Carvana ( NYSE : CVNA ) Announces Quarterly Earnings Results",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 9,
+   "importance": 65,
+   "entity_keys": [],
+   "created_at": "2026-07-30T00:17:27.085008+00:00",
+   "last_update": "2026-07-30T03:40:01.660209+00:00",
+   "members": 23,
+   "llm_title": "Boot Barn ( NYSE :…",
+   "one_liner": "Boot Barn ( NYSE : BOOT ) Releases Q2 2027…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c97584abcfb4e7d28",
@@ -3474,23 +3513,6 @@
    "one_liner": "미국이 1660억 달러 규모의 관세를 환급해 줄 예정이에요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
-  },
-  {
-   "id": "cf9c42e5d29f716f3",
-   "title": "Carvana ( NYSE : CVNA ) Announces Quarterly Earnings Results",
-   "category": "EARNINGS",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 45,
-   "entity_keys": [],
-   "created_at": "2026-07-30T00:17:27.085008+00:00",
-   "last_update": "2026-07-30T00:17:27.085008+00:00",
-   "members": 2,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
   },
   {
    "id": "c5fd75f304caf265e",
