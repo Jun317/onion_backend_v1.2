@@ -9,11 +9,31 @@
  "entity_keys": [
   "PYPL"
  ],
- "seen_sources": 2,
- "importance": 85,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-07-28T18:53:01.536982+00:00",
- "last_update": "2026-07-28T18:53:01.544537+00:00",
+ "last_update": "2026-07-30T00:17:27.078875+00:00",
  "members": [
+  {
+   "id": "e2651505380acc5ee2209df8121cb92665a494d8",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/takeout-target-paypal-buy-222500086.html",
+   "title": "Is Takeout Target PayPal a Buy ?",
+   "published_at": "2026-07-29T23:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9244
+  },
+  {
+   "id": "064f01c1529de7cddbfae04a7c771b7748b25932",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/07/29/is-takeout-target-paypal-a-buy/?source=iedfolrf0000001",
+   "title": "Is Takeout Target PayPal a Buy ? | The Motley Fool",
+   "published_at": "2026-07-29T23:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9226
+  },
   {
    "id": "5606580541e07e6f0e7842ba84c37f9366d17bc6",
    "source": "fool.com",
@@ -22,7 +42,7 @@
    "title": "Is PayPal Holdings a Buy After Its Latest Earnings Report ?",
    "published_at": "2026-07-28T18:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9712
+   "sim_to_centroid": 0.9701
   },
   {
    "id": "37a2c393109e4ce2d0fd954b98f2768508d31e30",
@@ -32,11 +52,25 @@
    "title": "Why Is PayPal Stock Gaining Tuesday ? - PayPal Holdings ( NASDAQ : PYPL )",
    "published_at": "2026-07-28T14:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9712
+   "sim_to_centroid": 0.9654
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Is Takeout Target PayPal a Buy ?",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/takeout-target-paypal-buy-222500086.html",
+   "at": "2026-07-29T23:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Is Takeout Target PayPal a Buy ? | The Motley Fool",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/07/29/is-takeout-target-paypal-a-buy/?source=iedfolrf0000001",
+   "at": "2026-07-29T23:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Is PayPal Holdings a Buy After Its Latest Earnings Report ?",
@@ -53,44 +87,45 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-29T03:48:15.370327+00:00",
+  "model": "template",
+  "created_at": "2026-07-30T00:18:04.686988+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Is Takeout Target PayPal a Buy ?",
+    "Is Takeout Target PayPal a Buy ? | The Motley Fool",
     "Is PayPal Holdings a Buy After Its Latest Earnings Report ?",
     "Why Is PayPal Stock Gaining Tuesday ? - PayPal Holdings ( NASDAQ : PYPL )"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"페이팔 주가 상승\",\n   \"one_liner\": \"페이팔의 최근 실적 발표 후 주가가 올라갔어요\",\n   \"why_now\": \"실적이 좋으면 주가가 오를 수 있어요\",\n   \"impact_line\": \"온라인 결제 수수료가 바뀔 수 있어요\",\n   \"details\": [\n       \"페이팔의 최근 실적 발표가 좋았어요\",\n       \"페이팔 주가가 상승했어요\",\n       \"투자자들이 페이팔의 미래를 기대하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"온라인 쇼핑이 더 편리해질 수 있어요!\",\n       \"다른 결제 회사들이 경쟁을 더열어갈 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "페이팔 주가 상승",
-   "one_liner": "페이팔의 최근 실적 발표 후 주가가 올라갔어요",
-   "why_now": "실적이 좋으면 주가가 오를 수 있어요",
+   "title": "Is Takeout Target…",
+   "one_liner": "Is Takeout Target PayPal a Buy ?",
+   "why_now": null,
    "details": [
-    "페이팔의 최근 실적 발표가 좋았어요",
-    "페이팔 주가가 상승했어요",
-    "투자자들이 페이팔의 미래를 기대하고 있어요"
+    "Is Takeout Target PayPal a Buy ?",
+    "Is Takeout Target PayPal a Buy ? | The Motley Fool",
+    "Is PayPal Holdings a Buy After Its Latest Earnings Report ?"
    ],
-   "effects": [
-    "온라인 쇼핑이 더 편리해질 수 있어요!",
-    "다른 결제 회사들이 경쟁을 더열어갈 것으로 예상돼요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "3fa2c4081e59d848ce77c71d7cb309d236765310"
+  "fact_hash": "6d22bd16980ab4b4c17bbb8f6216de619dfa85fe"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-28T22:32:10.399487+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-30T00:18:04.686608+00:00"
  },
  "glossary": [],
  "related": [
@@ -107,14 +142,14 @@
    "shared": []
   },
   {
-   "id": "c8767f6a04dae9d1b",
-   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "id": "c7b7e590611a1bac4",
+   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c7b7e590611a1bac4",
-   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "category": "MARKET",
    "shared": []
   },
