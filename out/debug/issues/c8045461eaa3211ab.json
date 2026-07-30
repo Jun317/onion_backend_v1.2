@@ -9,11 +9,21 @@
  "entity_keys": [
   "FED"
  ],
- "seen_sources": 2,
- "importance": 100,
+ "seen_sources": 3,
+ "importance": 105,
  "created_at": "2026-07-30T06:47:58.371988+00:00",
- "last_update": "2026-07-30T09:48:52.849455+00:00",
+ "last_update": "2026-07-30T12:10:40.422456+00:00",
  "members": [
+  {
+   "id": "7d1e509f25fbcb21494a70147663da0062912c3f",
+   "source": "businesstimes.com.sg",
+   "tier": "wire",
+   "url": "https://www.businesstimes.com.sg/companies-markets/singapore-stocks-fall-after-fed-holds-rates-sti-down-0-7",
+   "title": "Singapore stocks fall after Fed holds rates ; STI down 0 . 7 %",
+   "published_at": "2026-07-30T10:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8686
+  },
   {
    "id": "26ea11f9389f9e0da07a8140098f4a5492dcdc9e",
    "source": "birminghamstar.com",
@@ -22,7 +32,7 @@
    "title": "Fed keeps rates unchanged despite three dissents , expert calls it hawkish hold with fractured committee",
    "published_at": "2026-07-30T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9983
+   "sim_to_centroid": 0.9958
   },
   {
    "id": "ae5aa9d1e30f1368ca5a1c193fed8cd1e7cf9233",
@@ -32,7 +42,7 @@
    "title": "Fed keeps rates unchanged despite three dissents , expert calls it hawkish hold with fractured committee",
    "published_at": "2026-07-30T05:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9983
+   "sim_to_centroid": 0.9958
   },
   {
    "id": "b3a84907b3ce99709c0d8c959ab24a6f8826284c",
@@ -42,11 +52,18 @@
    "title": "Fed Review : Reversing Course (?) - ActionForex",
    "published_at": "2026-07-30T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8551
+   "sim_to_centroid": 0.8634
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Singapore stocks fall after Fed holds rates ; STI down 0 . 7 %",
+   "source": "businesstimes.com.sg",
+   "url": "https://www.businesstimes.com.sg/companies-markets/singapore-stocks-fall-after-fed-holds-rates-sti-down-0-7",
+   "at": "2026-07-30T10:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Fed keeps rates unchanged despite three dissents , expert calls it hawkish hold with fractured committee",
@@ -70,63 +87,46 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-30T09:49:06.758893+00:00",
+  "model": "template",
+  "created_at": "2026-07-30T12:20:07.295750+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
    "headlines": [
+    "Singapore stocks fall after Fed holds rates ; STI down 0 . 7 %",
     "Fed keeps rates unchanged despite three dissents , expert calls it hawkish hold with fractured committee",
     "Fed Review : Reversing Course (?) - ActionForex"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 금리 동결\",\n  \"one_liner\": \"미국 중앙은행이 금리를 동결했지만, 일부 위원들은 금리 인상을 주장했어요.\",\n  \"why_now\": \"미국 금리가 오르면 한국에서도 금리가 오를 수 있어 가계 대출 이자 부담이 커질 수 있어요.\",\n  \"impact_line\": \"대출 이자 부담이 늘어날 수 있어요.\",\n  \"details\": [\n    \"미국 중앙은행은 기준금리를 현재 수준으로 유지하기로 결정했어요.\",\n    \"하지만 위원 3명은 금리를 더 올려야 한다고 주장했어요.\",\n    \"이런 결정은 금리를 올리려는 분위기 속에서 나온 것으로 분석돼요.\"\n  ],\n  \"visual_type\": \"usdkrw\",\n  \"effects\": [\n    \"미국 금리가 오르면 한국에서도 금리가 오를 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"Fed\",\n      \"easy\": \"미국 중앙은행을 말해요. 나라의 돈을 관리하고 금리를 정해요.\",\n      \"example\": \"Fed가 금리를 올리면 한국 은행도 금리를 올릴 수 있어요.\"\n    },\n    {\n      \"term\": \"hawkish\",\n      \"easy\": \"금리를 올리려는 매파적인 성향을 뜻해요.\",\n      \"example\": \"Fed가 금리를 올리려는 매파적인 태도를 보이면 시장이 불안해질 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국 금리 동결",
-   "one_liner": "미국 중앙은행이 금리를 동결했지만, 일부 위원들은 금리 인상을 주장했어요.",
-   "why_now": "미국 금리가 오르면 한국에서도 금리가 오를 수 있어 가계 대출 이자 부담이 커질 수 있어요.",
+   "title": "Singapore stocks…",
+   "one_liner": "Singapore stocks fall after Fed holds rates ;…",
+   "why_now": null,
    "details": [
-    "미국 중앙은행은 기준금리를 현재 수준으로 유지하기로 결정했어요.",
-    "하지만 위원 3명은 금리를 더 올려야 한다고 주장했어요.",
-    "이런 결정은 금리를 올리려는 분위기 속에서 나온 것으로 분석돼요."
+    "Singapore stocks fall after Fed holds rates ; STI down 0 . 7 %",
+    "Fed keeps rates unchanged despite three dissents , expert calls it hawkish hold with fractured committee",
+    "Fed Review : Reversing Course (?) - ActionForex"
    ],
-   "effects": [
-    "미국 금리가 오르면 한국에서도 금리가 오를 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "usdkrw"
   },
-  "fact_hash": "04ea15f711090782cba724d78e7af0261eb5d5fb"
+  "fact_hash": "0be54a02294031facf09fb0c60a208afb0a4055d"
  },
- "review": null,
- "glossary": [
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  },
-  {
-   "term": "중앙은행",
-   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
-   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
-  },
-  {
-   "term": "금리 인상",
-   "easy": "이자의 기준을 올리는 거예요.",
-   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
-  },
-  {
-   "term": "기준금리",
-   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
-   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
-  }
- ],
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-30T12:20:07.295631+00:00"
+ },
+ "glossary": [],
  "related": [
   {
    "id": "cea83213c8906724e",

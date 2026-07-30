@@ -782,8 +782,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-30T06:52:58.668194+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-30T12:13:55.800063+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -796,25 +796,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기업 실적 발표 예정\",\n  \"one_liner\": \"여러 기업들이 곧 분기별 실적을 발표할 예정이에요.\",\n  \"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"실적 발표 결과에 따라 관련 기업들의 주가 변동성이 커질 수 있어요.\",\n  \"details\": [\n    \"CNX Resources는 2분기 실적 발표를 앞두고 있어요.\",\n    \"Linde는 금요일에 분기 실적을 발표할 것으로 예상돼요.\",\n    \"Amplifon은 목요일에 분기 실적을 발표할 것으로 보여요.\",\n    \"Corning은 2026년 3분기 실적 전망치를 업데이트했어요.\",\n    \"Advantest는 최근 실적 결과를 발표했어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"좋은 실적을 발표하는 기업은 주가가 오를 수 있어요!\",\n    \"기대보다 못한 실적을 발표하면 주가가 하락할 수 있어요!\"\n  ],\n  \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects[1] 느낌표 종결 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "CNX Resources ( CNX…",
-   "one_liner": "CNX Resources ( CNX ) Q2 Earnings : What To Expect",
-   "why_now": null,
+   "title": "기업 실적 발표 예정",
+   "one_liner": "여러 기업들이 곧 분기별 실적을 발표할 예정이에요.",
+   "why_now": "기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.",
    "details": [
-    "CNX Resources ( CNX ) Q2 Earnings : What To Expect",
-    "Linde ( LIN ) Projected to Release Quarterly Earnings on Friday",
-    "Amplifon ( AMFPF ) Projected to Post Quarterly Earnings on Thursday"
+    "CNX Resources는 2분기 실적 발표를 앞두고 있어요.",
+    "Linde는 금요일에 분기 실적을 발표할 것으로 예상돼요.",
+    "Amplifon은 목요일에 분기 실적을 발표할 것으로 보여요.",
+    "Corning은 2026년 3분기 실적 전망치를 업데이트했어요.",
+    "Advantest는 최근 실적 결과를 발표했어요."
    ],
-   "effects": [],
+   "effects": [
+    "좋은 실적을 발표하는 기업은 주가가 오를 수 있어요!",
+    "기대보다 못한 실적을 발표하면 주가가 하락할 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "b1456f420a352d0a66dbff9d6b548e65190b1b83"

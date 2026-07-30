@@ -7,11 +7,31 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 3,
- "importance": 75,
+ "seen_sources": 5,
+ "importance": 85,
  "created_at": "2026-07-29T12:26:40.902977+00:00",
- "last_update": "2026-07-30T09:48:52.846531+00:00",
+ "last_update": "2026-07-30T12:10:40.427358+00:00",
  "members": [
+  {
+   "id": "0ecf77e402516e4f625d8610b2e1628697d304e4",
+   "source": "ypradio.org",
+   "tier": "wire",
+   "url": "https://www.ypradio.org/npr-news/2026-07-30/congress-hasnt-passed-ai-rules-for-schools-so-these-98-teens-did-it-themselves",
+   "title": "Congress hasnt passed AI rules for schools . So these 98 teens did it themselves",
+   "published_at": "2026-07-30T10:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8712
+  },
+  {
+   "id": "5e046c4a8d3ac7b2c780932ae0356b3d30b1c50d",
+   "source": "hindustantimes.com",
+   "tier": "wire",
+   "url": "https://www.hindustantimes.com/world-news/fbi-places-indian-man-amritpal-singh-on-most-wanted-list-for-drug-trafficking-101785402596648.html",
+   "title": "FBI places Indian man Amritpal Singh on Most Wanted list for drug trafficking",
+   "published_at": "2026-07-30T10:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8859
+  },
   {
    "id": "642b205a30a9e371b46e03afedaaeabbe8129fb2",
    "source": "clickorlando.com",
@@ -20,7 +40,7 @@
    "title": "Trump touted his tariffs in Michigan despite rising costs . Even some of his supporters are worried",
    "published_at": "2026-07-30T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.857
+   "sim_to_centroid": 0.864
   },
   {
    "id": "6f45a2b0b404fbe0adc0926c875a60f0e631642b",
@@ -30,7 +50,7 @@
    "title": "Trump Seeks Changes to Russia Sanctions Bill That Could Hit India With 100 % Tariffs",
    "published_at": "2026-07-30T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8724
+   "sim_to_centroid": 0.8855
   },
   {
    "id": "a3e7cb3d8d6c31eaf0b8796b5cf6950431d87fb4",
@@ -40,7 +60,7 @@
    "title": "Russia charges Telegram founder Pavel Durov with aiding terrorism and puts him on wanted list",
    "published_at": "2026-07-29T09:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9953
+   "sim_to_centroid": 0.9889
   },
   {
    "id": "f2997e3e5c9f58f94ca78e3971578bfeafe82010",
@@ -50,11 +70,25 @@
    "title": "Russia charges Telegram founder Pavel Durov with aiding terrorism and puts him on wanted list",
    "published_at": "2026-07-29T09:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9953
+   "sim_to_centroid": 0.9889
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Congress hasnt passed AI rules for schools . So these 98 teens did it themselves",
+   "source": "ypradio.org",
+   "url": "https://www.ypradio.org/npr-news/2026-07-30/congress-hasnt-passed-ai-rules-for-schools-so-these-98-teens-did-it-themselves",
+   "at": "2026-07-30T10:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "FBI places Indian man Amritpal Singh on Most Wanted list for drug trafficking",
+   "source": "hindustantimes.com",
+   "url": "https://www.hindustantimes.com/world-news/fbi-places-indian-man-amritpal-singh-on-most-wanted-list-for-drug-trafficking-101785402596648.html",
+   "at": "2026-07-30T10:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Trump Seeks Changes to Russia Sanctions Bill That Could Hit India With 100 % Tariffs",
@@ -85,44 +119,57 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-30T06:51:44.000535+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-30T12:10:50.900053+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "Congress hasnt passed AI rules for schools . So these 98 teens did it themselves",
+    "FBI places Indian man Amritpal Singh on Most Wanted list for drug trafficking",
+    "Trump touted his tariffs in Michigan despite rising costs . Even some of his supporters are worried",
     "Trump Seeks Changes to Russia Sanctions Bill That Could Hit India With 100 % Tariffs",
     "Russia charges Telegram founder Pavel Durov with aiding terrorism and puts him on wanted list"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 뉴스\",\n   \"one_liner\": \"미국에서 여러 가지 일이 있었어요\",\n   \"why_now\": \"미국의 소식은 세계에 영향을 줄 수 있어요\",\n   \"impact_line\": \"국제 거래나 여행에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"미국 의회가 학교용 인공지능 규칙을 만들지 않아 98명의 청소년들이 직접 만들었어요\",\n       \"FBI가 인도인 아므리트팔 싱을 마약 밀매로 가장 원하는 사람 목록에 올렸어요\",\n       \"트럼프가 미시간에서 관세를 자랑했지만 일부 지지자들도 비용 증가에 대해 걱정하고 있어요\",\n       \"트럼프가 러시아 제재 법안을 변경해 인도에 100% 관세를 부과할 수 있어요\",\n       \"러시아가 텔레그램 창립자 파벨 두로프를 테러를 도왔다고 고소하고 원하는 사람 목록에 올렸어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"국제 무역이 어려워질 수 있어요!\",\n       \"여행이나 비즈니스에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"관세\",\n           \"easy\": \"물건을 수입할 때 내는 세이에요\",\n           \"example\": \"관세가 높으면 물건이 더 비싸질 수 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump Seeks Changes…",
-   "one_liner": "Trump Seeks Changes to Russia Sanctions Bill…",
-   "why_now": null,
+   "title": "미국 뉴스",
+   "one_liner": "미국에서 여러 가지 일이 있었어요",
+   "why_now": "미국의 소식은 세계에 영향을 줄 수 있어요",
    "details": [
-    "Trump Seeks Changes to Russia Sanctions Bill That Could Hit India With 100 % Tariffs",
-    "Russia charges Telegram founder Pavel Durov with aiding terrorism and puts him on wanted list"
+    "미국 의회가 학교용 인공지능 규칙을 만들지 않아 98명의 청소년들이 직접 만들었어요",
+    "FBI가 인도인 아므리트팔 싱을 마약 밀매로 가장 원하는 사람 목록에 올렸어요",
+    "트럼프가 미시간에서 관세를 자랑했지만 일부 지지자들도 비용 증가에 대해 걱정하고 있어요",
+    "트럼프가 러시아 제재 법안을 변경해 인도에 100% 관세를 부과할 수 있어요",
+    "러시아가 텔레그램 창립자 파벨 두로프를 테러를 도왔다고 고소하고 원하는 사람 목록에 올렸어요"
    ],
-   "effects": [],
+   "effects": [
+    "국제 무역이 어려워질 수 있어요!",
+    "여행이나 비즈니스에 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "d97f55f36a7391b3da9eafcd46a50610a4ba6d09"
+  "fact_hash": "50be761ff278df699b7c637252f291636ff56149"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-30T06:51:44.000393+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cd7b762c4b0212485",
@@ -149,8 +196,8 @@
    "shared": []
   },
   {
-   "id": "c5c3a7ff10fbec910",
-   "title": "Russian online retailer Wildberrie warehouse hit by drones",
+   "id": "c2362a90772e95247",
+   "title": "US Launches Strikes on Iran",
    "category": "GEO",
    "shared": []
   }

@@ -72,8 +72,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-30T06:58:52.582229+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-30T12:10:42.260871+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -84,26 +84,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"코스트코 관련 소식\",\n   \"one_liner\": \"코스트코와 관련된 여러 소식이 나왔어요\",\n   \"why_now\": \"대형 마트의 소식은 소비자와 투자자에게 관심이 많아요\",\n   \"impact_line\": \"장바구니 물건 가격에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"코스트코의 주식으로 매년 1만 달러의 배당금을 받으려면 몇 주를 가지고 있어야 하는지 알려줘요\",\n       \"코스트코 고객은 어떤 경우에 보상금을 받을 수 있을지 설명해줘요\",\n       \"월마트, 코스트코, 홈디포의 투자 위험과 보상은 다르다고 해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"대형 마트의 상황이 바뀌면 소비자들의 장바구니 물건 가격에 영향을 줄 수 있어요!\",\n       \"투자자들은 대형 마트의 상황을 주시하면서 투자 전략을 세울 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"배당금\",\n           \"easy\": \"회사에서 이익을 나눠주는 돈이에요\",\n           \"example\": \"배당금을 받으면 주식을 가지고 있는 사람이 돈을 받을 수 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Here How Many Shares…",
-   "one_liner": "Here How Many Shares of Costco Youd Need to…",
-   "why_now": null,
+   "title": "코스트코 관련 소식",
+   "one_liner": "코스트코와 관련된 여러 소식이 나왔어요",
+   "why_now": "대형 마트의 소식은 소비자와 투자자에게 관심이 많아요",
    "details": [
-    "Here How Many Shares of Costco Youd Need to Generate $10 , 000 in Yearly Dividends",
-    "Why Costco shoppers may be eligible for settlement checks",
-    "Walmart ( NYSE : WMT ), Costco ( NASDAQ : COST ), And Home Depot ( NYSE : HD ) Face Very Different Risk / Reward Profiles"
+    "코스트코의 주식으로 매년 1만 달러의 배당금을 받으려면 몇 주를 가지고 있어야 하는지 알려줘요",
+    "코스트코 고객은 어떤 경우에 보상금을 받을 수 있을지 설명해줘요",
+    "월마트, 코스트코, 홈디포의 투자 위험과 보상은 다르다고 해요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "대형 마트의 상황이 바뀌면 소비자들의 장바구니 물건 가격에 영향을 줄 수 있어요!",
+    "투자자들은 대형 마트의 상황을 주시하면서 투자 전략을 세울 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "bff3ae8caf79b5cdd2224cbf4a40ac5074f81013"
  },
