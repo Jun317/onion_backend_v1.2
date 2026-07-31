@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-31T04:54:33.538101+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-31T08:15:38.570390+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,25 +881,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"트럼프, 관세 정책 변화 시사\",\n  \"one_liner\": \"트럼프 전 대통령이 관세 정책에 변화를 주겠다고 말했어요.\",\n  \"why_now\": \"관세는 물건 가격에 영향을 줘서 우리 장바구니 물가를 올리거나 내릴 수 있어요.\",\n  \"impact_line\": \"물건 가격이 오르거나 내릴 수 있어요.\",\n  \"details\": [\n    \"트럼프 전 대통령이 관세 정책 변화를 모색하고 있어요.\",\n    \"그는 미시간주 유세에서 높은 물가에 대한 지지자들의 우려를 언급했어요.\",\n    \"트럼프 전 대통령은 수입품에 대한 관세를 지지하는 입장을 보여왔어요.\",\n    \"특히 러시아 제재 법안의 일부를 수정해 인도에 100% 관세를 부과할 수 있다고 언급했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"수입 물가 상승으로 인해 국내 소비자들의 장바구니 부담이 늘어날 수 있어요!\",\n    \"국내 기업들의 수출 경쟁력에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 들어오는 물건에 붙는 세금이에요.\",\n      \"example\": \"관세가 오르면 수입 과자 가격이 비싸질 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "one_liner 50자 초과(56)"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Russia charges…",
-   "one_liner": "Russia charges Telegram founder Pavel Durov with…",
-   "why_now": null,
+   "title": "트럼프, 관세 정책 변화 시사",
+   "one_liner": "트럼프 전 대통령이 관세 정책에 변화를 주겠다고 말했어요.",
+   "why_now": "관세는 물건 가격에 영향을 줘서 우리 장바구니 물가를 올리거나 내릴 수 있어요.",
    "details": [
-    "Russia charges Telegram founder Pavel Durov with aiding terrorism and puts him on wanted list",
-    "Trump supporters worry over high prices as he touts tariffs in MI",
-    "UK slows AI data center roll - out over energy crunch"
+    "트럼프 전 대통령이 관세 정책 변화를 모색하고 있어요.",
+    "그는 미시간주 유세에서 높은 물가에 대한 지지자들의 우려를 언급했어요.",
+    "트럼프 전 대통령은 수입품에 대한 관세를 지지하는 입장을 보여왔어요.",
+    "특히 러시아 제재 법안의 일부를 수정해 인도에 100% 관세를 부과할 수 있다고 언급했어요."
    ],
-   "effects": [],
+   "effects": [
+    "수입 물가 상승으로 인해 국내 소비자들의 장바구니 부담이 늘어날 수 있어요!",
+    "국내 기업들의 수출 경쟁력에 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "2d484eeac1e7e833f02c341261e636104894415f"
@@ -908,7 +916,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-31T04:54:33.538047+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cd7b762c4b0212485",

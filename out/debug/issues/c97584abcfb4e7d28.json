@@ -9,11 +9,31 @@
  "entity_keys": [
   "KOSPI"
  ],
- "seen_sources": 3,
- "importance": 70,
+ "seen_sources": 4,
+ "importance": 75,
  "created_at": "2026-07-28T00:16:00.853754+00:00",
- "last_update": "2026-07-31T01:01:23.808776+00:00",
+ "last_update": "2026-07-31T08:13:32.875650+00:00",
  "members": [
+  {
+   "id": "b29d94b3b5bdb7d2230c144029feca25e95f0fce",
+   "source": "abcnews.com",
+   "tier": "wire",
+   "url": "https://abcnews.com/Business/wireStory/south-koreas-kospi-index-jumps-16-surge-chipmaking-135247652",
+   "title": "South Korea Kospi index jumps more than 16 % on a surge of chipmaking stocks",
+   "published_at": "2026-07-31T06:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9146
+  },
+  {
+   "id": "ebab24486d000619fd9a761756d395ca88201053",
+   "source": "abcnews.com",
+   "tier": "wire",
+   "url": "https://abcnews.com/Business/wireStory/south-koreas-kospi-index-jumps-13-tracking-wall-135247449",
+   "title": "South Korea Kospi index jumps more than 13 %, tracking Wall Street gains , on a surge of chipmaking stocks",
+   "published_at": "2026-07-31T06:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9316
+  },
   {
    "id": "6adb924e88c6a3fac623b5474395c74ec82253a9",
    "source": "finanzen.ch",
@@ -22,7 +42,7 @@
    "title": "KOSPI May Stop The Bleeding On Friday",
    "published_at": "2026-07-30T23:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8846
+   "sim_to_centroid": 0.89
   },
   {
    "id": "3de493b0640f2417e896d67c4d3d952b614d0175",
@@ -32,7 +52,7 @@
    "title": "South Korea Stock Chaos : Investors Lay Funeral Wreaths After ETF Rout as KOSPI Wipes $2T , Minister Apologises",
    "published_at": "2026-07-29T21:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8867
+   "sim_to_centroid": 0.8922
   },
   {
    "id": "b3b3f1317704e6076dd9670ba06f401670fe29bc",
@@ -42,7 +62,7 @@
    "title": "South Korea KOSPI Is Trading Like a Meme Stock , and the S & P 500 or Nasdaq Composite May Be Next",
    "published_at": "2026-07-27T22:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9961
+   "sim_to_centroid": 0.9908
   },
   {
    "id": "07c91875cdf39e67b831c58bd15b26f49b2fc9f7",
@@ -52,11 +72,25 @@
    "title": "South Korea KOSPI Is Trading Like a Meme Stock , and the S & P 500 or Nasdaq Composite May Be Next",
    "published_at": "2026-07-26T14:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9961
+   "sim_to_centroid": 0.9908
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "South Korea Kospi index jumps more than 16 % on a surge of chipmaking stocks",
+   "source": "abcnews.com",
+   "url": "https://abcnews.com/Business/wireStory/south-koreas-kospi-index-jumps-16-surge-chipmaking-135247652",
+   "at": "2026-07-31T06:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "South Korea Kospi index jumps more than 13 %, tracking Wall Street gains , on a surge of chipmaking stocks",
+   "source": "abcnews.com",
+   "url": "https://abcnews.com/Business/wireStory/south-koreas-kospi-index-jumps-13-tracking-wall-135247449",
+   "at": "2026-07-31T06:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "KOSPI May Stop The Bleeding On Friday",
@@ -88,11 +122,13 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-31T04:57:55.765145+00:00",
+  "created_at": "2026-07-31T08:18:24.560233+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "South Korea Kospi index jumps more than 16 % on a surge of chipmaking stocks",
+    "South Korea Kospi index jumps more than 13 %, tracking Wall Street gains , on a surge of chipmaking stocks",
     "KOSPI May Stop The Bleeding On Friday",
     "South Korea Stock Chaos : Investors Lay Funeral Wreaths After ETF Rout as KOSPI Wipes $2T , Minister Apologises",
     "South Korea KOSPI Is Trading Like a Meme Stock , and the S & P 500 or Nasdaq Composite May Be Next"
@@ -109,22 +145,22 @@
    }
   ],
   "output": {
-   "title": "KOSPI May Stop The…",
-   "one_liner": "KOSPI May Stop The Bleeding On Friday",
+   "title": "South Korea Kospi…",
+   "one_liner": "South Korea Kospi index jumps more than 16 % on…",
    "why_now": null,
    "details": [
-    "KOSPI May Stop The Bleeding On Friday",
-    "South Korea Stock Chaos : Investors Lay Funeral Wreaths After ETF Rout as KOSPI Wipes $2T , Minister Apologises",
-    "South Korea KOSPI Is Trading Like a Meme Stock , and the S & P 500 or Nasdaq Composite May Be Next"
+    "South Korea Kospi index jumps more than 16 % on a surge of chipmaking stocks",
+    "South Korea Kospi index jumps more than 13 %, tracking Wall Street gains , on a surge of chipmaking stocks",
+    "KOSPI May Stop The Bleeding On Friday"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "20bd86c964070c36bd67668405420e0ce545932d"
+  "fact_hash": "8d0714fddf7c6fac4c6f5a34bf20bb01af092589"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-31T04:57:55.765092+00:00"
+  "at": "2026-07-31T08:18:24.560138+00:00"
  },
  "glossary": [],
  "related": [
