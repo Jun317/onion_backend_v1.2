@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 3,
- "importance": 70,
+ "seen_sources": 4,
+ "importance": 75,
  "created_at": "2026-07-30T22:32:46.857019+00:00",
- "last_update": "2026-07-31T11:03:07.099378+00:00",
+ "last_update": "2026-07-31T19:59:35.524629+00:00",
  "members": [
+  {
+   "id": "a23b9b6a5fcbecb423ac8fe8eb2c7635c9bafa65",
+   "source": "investinglive.com",
+   "tier": "wire",
+   "url": "https://investinglive.com/stocks/european-indices-close-the-day-and-the-week-mostly-higher/",
+   "title": "European indices close the day and the week mostly higher .",
+   "published_at": "2026-07-31T18:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8871
+  },
   {
    "id": "f3a509bc7f541d927e84960cf4b3f0f746af60ba",
    "source": "finanznachrichten.de",
@@ -20,7 +30,7 @@
    "title": "Asian Shares Advance As AI Stocks Rebound",
    "published_at": "2026-07-31T09:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9145
+   "sim_to_centroid": 0.9136
   },
   {
    "id": "0bd8348ec663e11f26fe0b435a6e4be3c39e37ec",
@@ -30,7 +40,7 @@
    "title": "Japan Stock Market May Extend Thursday Gains",
    "published_at": "2026-07-30T23:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8914
+   "sim_to_centroid": 0.8948
   },
   {
    "id": "8104b23c3dc85a28f9f8e739250d6703453439c1",
@@ -40,7 +50,7 @@
    "title": "Wall Street in solid advance , Dow Jones gains 615 points",
    "published_at": "2026-07-30T23:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.936
+   "sim_to_centroid": 0.9347
   },
   {
    "id": "6a0f82431f50c9cd55044d7efb77858fe591b8c4",
@@ -50,7 +60,7 @@
    "title": "Wall Street in solid advance , Dow Jones gains 615 points",
    "published_at": "2026-07-30T22:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.936
+   "sim_to_centroid": 0.9347
   },
   {
    "id": "cad3861f73193b1948b4acedc2bc316aac132adf",
@@ -60,7 +70,7 @@
    "title": "Wall Street in solid advance , Dow Jones gains 615 points",
    "published_at": "2026-07-30T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.936
+   "sim_to_centroid": 0.9347
   },
   {
    "id": "724500216397179bae873f1f44927a49625b7fce",
@@ -70,7 +80,7 @@
    "title": "Wall Street Closes With Stocks Higher on Tech Gains",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9869
+   "sim_to_centroid": 0.985
   },
   {
    "id": "264e0b80e4115ab9f85a5bdbb580c6a3b134247d",
@@ -80,11 +90,18 @@
    "title": "Wall Street Closes With Stocks Higher on Tech Gains",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9869
+   "sim_to_centroid": 0.985
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "European indices close the day and the week mostly higher .",
+   "source": "investinglive.com",
+   "url": "https://investinglive.com/stocks/european-indices-close-the-day-and-the-week-mostly-higher/",
+   "at": "2026-07-31T18:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Asian Shares Advance As AI Stocks Rebound",
@@ -136,45 +153,45 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-31T18:03:36.775346+00:00",
+  "model": "template",
+  "created_at": "2026-07-31T20:04:55.101936+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "European indices close the day and the week mostly higher .",
     "Asian Shares Advance As AI Stocks Rebound",
     "Japan Stock Market May Extend Thursday Gains",
     "Wall Street in solid advance , Dow Jones gains 615 points"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"아시아 증시 상승\",\n  \"one_liner\": \"인공지능 관련 주식이 다시 오르면서 아시아 증시가 상승했어요.\",\n  \"why_now\": \"인공지능 기술에 대한 기대감이 커지면서 관련 기업들의 주가가 다시 오르고 있어요.\",\n  \"impact_line\": \"주식 시장이 활기를 띠면서 투자 심리가 개선될 수 있어요.\",\n  \"details\": [\n    \"인공지능 관련 주식들이 다시 강세를 보이고 있어요.\",\n    \"일본 증시도 상승세를 이어갈 가능성이 있어요.\",\n    \"미국 증시에서는 다우존스 지수가 615포인트 올랐어요.\"\n  ],\n  \"visual_type\": \"kospi_close\",\n  \"effects\": [\n    \"인공지능 관련 기업들의 주가가 더 오를 수 있어요!\",\n    \"전반적인 주식 시장의 투자 심리가 긍정적으로 변할 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"인공지능\",\n      \"easy\": \"사람처럼 생각하고 배우는 컴퓨터 프로그램이나 기계를 말해요.\",\n      \"example\": \"인공지능 스피커는 음성 명령을 알아듣고 음악을 틀어줘요.\"\n    },\n    {\n      \"term\": \"증시\",\n      \"easy\": \"주식이 거래되는 시장을 말해요.\",\n      \"example\": \"증시가 오르면 많은 사람들이 주식 투자를 통해 돈을 벌 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "아시아 증시 상승",
-   "one_liner": "인공지능 관련 주식이 다시 오르면서 아시아 증시가 상승했어요.",
-   "why_now": "인공지능 기술에 대한 기대감이 커지면서 관련 기업들의 주가가 다시 오르고 있어요.",
+   "title": "European indices…",
+   "one_liner": "European indices close the day and the week…",
+   "why_now": null,
    "details": [
-    "인공지능 관련 주식들이 다시 강세를 보이고 있어요.",
-    "일본 증시도 상승세를 이어갈 가능성이 있어요.",
-    "미국 증시에서는 다우존스 지수가 615포인트 올랐어요."
+    "European indices close the day and the week mostly higher .",
+    "Asian Shares Advance As AI Stocks Rebound",
+    "Japan Stock Market May Extend Thursday Gains"
    ],
-   "effects": [
-    "인공지능 관련 기업들의 주가가 더 오를 수 있어요!",
-    "전반적인 주식 시장의 투자 심리가 긍정적으로 변할 수 있어요!"
-   ],
-   "visual_type": "kospi_close"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "5d01deabdd2ba4b56f5cf149d56219f7035718cf"
+  "fact_hash": "03455a61fe411987f199873cdbddf2fe3b0828d0"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-31T13:16:13.944271+00:00"
+  "at": "2026-07-31T20:04:55.101856+00:00"
  },
  "glossary": [],
  "related": [

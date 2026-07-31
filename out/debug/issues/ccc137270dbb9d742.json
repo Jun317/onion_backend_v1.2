@@ -9,11 +9,21 @@
  "entity_keys": [
   "AAPL"
  ],
- "seen_sources": 2,
- "importance": 90,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-07-31T01:01:23.821423+00:00",
- "last_update": "2026-07-31T15:34:59.254988+00:00",
+ "last_update": "2026-07-31T19:59:35.539212+00:00",
  "members": [
+  {
+   "id": "bbb1d3ab4ac1e45297be7acaf438a019e5196002",
+   "source": "mercurynews.com",
+   "tier": "wire",
+   "url": "https://www.mercurynews.com/2026/07/31/apple-stock-drops/",
+   "title": "Apple slides most since 2025 after supply shortages hurt outlook",
+   "published_at": "2026-07-31T18:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8937
+  },
   {
    "id": "288073aeb70d16ca954c8e425b2410335230e5d9",
    "source": "ibtimes.co.uk",
@@ -22,7 +32,7 @@
    "title": "Apple Stock Falls Despite  Strongest June Quarter : The iPhone Issue Investors Couldnt Ignore",
    "published_at": "2026-07-31T14:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9089
+   "sim_to_centroid": 0.9156
   },
   {
    "id": "a82e5a1059b7768ef41e7e775532afc0596c32f3",
@@ -32,7 +42,7 @@
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "published_at": "2026-07-31T07:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9989
+   "sim_to_centroid": 0.9968
   },
   {
    "id": "9f4845858c7f3521d37dcf80baa3364821c24d55",
@@ -42,7 +52,7 @@
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "published_at": "2026-07-30T22:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9989
+   "sim_to_centroid": 0.9968
   },
   {
    "id": "c23ff859cc39be8092c8563fae50dca48d21d42a",
@@ -52,11 +62,18 @@
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "published_at": "2026-07-30T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9989
+   "sim_to_centroid": 0.9968
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Apple slides most since 2025 after supply shortages hurt outlook",
+   "source": "mercurynews.com",
+   "url": "https://www.mercurynews.com/2026/07/31/apple-stock-drops/",
+   "at": "2026-07-31T18:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Apple Stock Falls Despite  Strongest June Quarter : The iPhone Issue Investors Couldnt Ignore",
@@ -87,38 +104,41 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-31T15:36:31.345902+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-31T19:59:57.580165+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Apple slides most since 2025 after supply shortages hurt outlook",
     "Apple Stock Falls Despite  Strongest June Quarter : The iPhone Issue Investors Couldnt Ignore",
     "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"애플 주가 하락\",\n   \"one_liner\": \"애플의 공급 부족으로 주가가 많이 내렸어요\",\n   \"why_now\": \"애플은 큰 회사라서 주가가 많이 움직이면 시장에 영향을 줄 수 있어요\",\n   \"impact_line\": \"애플 제품의 가격이나 출시가 영향을 받을 수 있어요\",\n   \"details\": [\n       \"애플의 공급 부족이 예상을 깼어요\",\n       \"애플의 아이폰 판매가 강했지만 주가가 내렸어요\",\n       \"애플의 실적은 시장의 기대치를 넘었어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"애플 주가의 하락이 다른 기술 주식에 영향을 줄 수 있어요!\",\n       \"애플의 공급 부족이 소비자에게 미치는 영향이 커질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Apple Stock Falls…",
-   "one_liner": "Apple Stock Falls Despite  Strongest June…",
-   "why_now": null,
+   "title": "애플 주가 하락",
+   "one_liner": "애플의 공급 부족으로 주가가 많이 내렸어요",
+   "why_now": "애플은 큰 회사라서 주가가 많이 움직이면 시장에 영향을 줄 수 있어요",
    "details": [
-    "Apple Stock Falls Despite  Strongest June Quarter : The iPhone Issue Investors Couldnt Ignore",
-    "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations"
+    "애플의 공급 부족이 예상을 깼어요",
+    "애플의 아이폰 판매가 강했지만 주가가 내렸어요",
+    "애플의 실적은 시장의 기대치를 넘었어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "애플 주가의 하락이 다른 기술 주식에 영향을 줄 수 있어요!",
+    "애플의 공급 부족이 소비자에게 미치는 영향이 커질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "fa0c1b7e3ae0422b769b0491a7697a97c0586f23"
+  "fact_hash": "8fadcd57cdc46cf87e9e7fa2421ad6af5170772a"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

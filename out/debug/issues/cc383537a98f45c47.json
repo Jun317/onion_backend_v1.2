@@ -766,7 +766,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-31T15:35:09.047468+00:00",
+  "created_at": "2026-07-31T19:59:38.644429+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -779,7 +779,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 1.5% 성장하는 데 그쳤어요.\",\n  \"why_now\": \"경제 성장률이 낮아지면 일자리나 소득 증가가 더뎌질 수 있어요.\",\n  \"impact_line\": \"물가 상승 압력이 계속될 수 있어요.\",\n  \"details\": [\n    \"미국 경제가 1.5% 성장했어요.\",\n    \"이는 이전보다 낮은 성장률이에요.\",\n    \"소상공인들의 낙관적인 전망은 이어지고 있어요.\",\n    \"하지만 여전히 물가 상승에 대한 우려가 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"물가 상승 압력이 지속될 수 있어, 소비자의 장바구니 물가가 오를 수 있어요!\",\n    \"미국 중앙은행이 금리를 올릴 가능성이 있어, 한국의 대출 이자도 오를 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"물가 상승\",\n      \"easy\": \"물건이나 서비스의 가격이 전반적으로 오르는 것을 말해요.\",\n      \"example\": \"물가 상승 때문에 예전보다 같은 돈으로 살 수 있는 물건이 줄었어요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 1.5% 성장하는 데 그쳤어요.\",\n  \"why_now\": \"경제 성장이 둔화하면 일자리 증가나 소득 상승이 더뎌질 수 있어요.\",\n  \"impact_line\": \"물가 상승 압력이 계속될 수 있어요.\",\n  \"details\": [\n    \"미국 경제 성장률이 1.5%로 둔화했어요.\",\n    \"이는 이전보다 낮은 성장률이에요.\",\n    \"소상공인들의 낙관적인 전망은 이어지고 있어요.\",\n    \"하지만 물가 상승 압력은 계속되고 있어요.\"\n  ],\n  \"visual_type\": \"us_gdp_growth\",\n  \"effects\": [\n    \"물가 상승이 계속되면 소비자의 구매력이 약해질 수 있어요!\",\n    \"미국 중앙은행이 금리를 올릴 가능성이 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"물가 상승 압력\",\n      \"easy\": \"물건 가격이 계속 오를 것 같은 분위기를 말해요.\",\n      \"example\": \"물가 상승 압력이 높아지면 장바구니 물가가 오를 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
@@ -790,6 +790,7 @@
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
+     "visual_type 'us_gdp_growth' 허용 목록 밖",
      "입력에 없는 숫자: [1.5]"
     ]
    }
@@ -809,8 +810,8 @@
   "fact_hash": "823ebedb6bbb88ebe7b22c00beeaf5862cb9e2a1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
-  "at": "2026-07-31T15:35:09.047315+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"visual_type 'us_gdp_growth' 허용 목록 밖\", \"입력에 없는 숫자: [1.5]\"]}]}",
+  "at": "2026-07-31T19:59:38.644277+00:00"
  },
  "glossary": [],
  "related": [
@@ -839,8 +840,8 @@
    "shared": []
   },
   {
-   "id": "c48db748fde00c8f7",
-   "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
+   "id": "cf4a2e5ae45f8dbcc",
+   "title": "Average 30 - year US mortgage rate rises to highest level in a year at 6 . 66 %",
    "category": "MACRO",
    "shared": []
   }
