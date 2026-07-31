@@ -816,8 +816,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-31T11:08:17.061245+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-31T15:36:12.903416+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -830,25 +830,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"중국 공장 활동 감소\",\n   \"one_liner\": \"중국 공장 활동이 줄었어요\",\n   \"why_now\": \"공장 활동이 줄면 경제 성장에 영향을 줄 수 있어요\",\n   \"impact_line\": \"중국 제품 수출이 줄어 소비자 물가에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"중국 공장 활동이 줄었어요\",\n       \"중국 지도자들이 소비를 늘리려 해요\",\n       \"공장 활동이 줄면 경제에 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"중국 제품 수출이 줄어 소비자 물가가 오를 수 있어요!\",\n       \"중국 경제 성장이 느려질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Taco Bell cyclospora…",
-   "one_liner": "Taco Bell cyclospora - driven sales declines…",
-   "why_now": null,
+   "title": "중국 공장 활동 감소",
+   "one_liner": "중국 공장 활동이 줄었어요",
+   "why_now": "공장 활동이 줄면 경제 성장에 영향을 줄 수 있어요",
    "details": [
-    "Taco Bell cyclospora - driven sales declines have moderated",
-    "Closing Africa Connectivity Gap Now Continental Priority - Tijani",
-    "Admission to Trading on the Main Market and AIM Cancellation"
+    "중국 공장 활동이 줄었어요",
+    "중국 지도자들이 소비를 늘리려 해요",
+    "공장 활동이 줄면 경제에 영향을 줄 수 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "중국 제품 수출이 줄어 소비자 물가가 오를 수 있어요!",
+    "중국 경제 성장이 느려질 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "60faa24cc1916b68b23e9d988bafc10fb718ff46"

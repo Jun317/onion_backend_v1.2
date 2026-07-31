@@ -2,18 +2,28 @@
  "id": "ccc137270dbb9d742",
  "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
  "category": "MARKET",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "AAPL"
  ],
- "seen_sources": 1,
- "importance": 85,
+ "seen_sources": 2,
+ "importance": 90,
  "created_at": "2026-07-31T01:01:23.821423+00:00",
- "last_update": "2026-07-31T08:13:32.874123+00:00",
+ "last_update": "2026-07-31T15:34:59.254988+00:00",
  "members": [
+  {
+   "id": "288073aeb70d16ca954c8e425b2410335230e5d9",
+   "source": "ibtimes.co.uk",
+   "tier": "wire",
+   "url": "https://www.ibtimes.co.uk/apple-record-quarter-supply-chain-concerns-1811812",
+   "title": "Apple Stock Falls Despite  Strongest June Quarter : The iPhone Issue Investors Couldnt Ignore",
+   "published_at": "2026-07-31T14:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9089
+  },
   {
    "id": "a82e5a1059b7768ef41e7e775532afc0596c32f3",
    "source": "asiaone.com",
@@ -22,7 +32,7 @@
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "published_at": "2026-07-31T07:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9989
   },
   {
    "id": "9f4845858c7f3521d37dcf80baa3364821c24d55",
@@ -32,7 +42,7 @@
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "published_at": "2026-07-30T22:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9989
   },
   {
    "id": "c23ff859cc39be8092c8563fae50dca48d21d42a",
@@ -42,11 +52,18 @@
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "published_at": "2026-07-30T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9989
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Apple Stock Falls Despite  Strongest June Quarter : The iPhone Issue Investors Couldnt Ignore",
+   "source": "ibtimes.co.uk",
+   "url": "https://www.ibtimes.co.uk/apple-record-quarter-supply-chain-concerns-1811812",
+   "at": "2026-07-31T14:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
@@ -69,8 +86,44 @@
    "at": "2026-07-30T22:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-31T15:36:31.345902+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Apple Stock Falls Despite  Strongest June Quarter : The iPhone Issue Investors Couldnt Ignore",
+    "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Apple Stock Falls…",
+   "one_liner": "Apple Stock Falls Despite  Strongest June…",
+   "why_now": null,
+   "details": [
+    "Apple Stock Falls Despite  Strongest June Quarter : The iPhone Issue Investors Couldnt Ignore",
+    "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "fa0c1b7e3ae0422b769b0491a7697a97c0586f23"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-31T15:36:31.345783+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -96,14 +149,16 @@
    "shared": []
   },
   {
-   "id": "cffe83a2036bd185c",
-   "title": "Fortune Tech : Meta cash crunch , Microsoft Azure milestone , DoorDash drone deliveries",
+   "id": "c3149033857922fc8",
+   "title": "Walmart ( NYSE : WMT ), Costco ( NASDAQ : COST ), And Home Depot ( NYSE : HD ) Face Very Different Risk / Reward Profiles",
    "category": "MARKET",
-   "shared": []
+   "shared": [
+    "AAPL"
+   ]
   },
   {
-   "id": "c7b7e590611a1bac4",
-   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
+   "id": "cffe83a2036bd185c",
+   "title": "Fortune Tech : Meta cash crunch , Microsoft Azure milestone , DoorDash drone deliveries",
    "category": "MARKET",
    "shared": []
   }

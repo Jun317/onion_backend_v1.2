@@ -14,11 +14,31 @@
   "HD",
   "WMT"
  ],
- "seen_sources": 18,
+ "seen_sources": 20,
  "importance": 105,
  "created_at": "2026-07-30T00:17:27.084688+00:00",
- "last_update": "2026-07-31T13:11:41.791622+00:00",
+ "last_update": "2026-07-31T15:34:59.250487+00:00",
  "members": [
+  {
+   "id": "5615ce2d4aede22b5e733a8bb66887a819a11035",
+   "source": "goskagit.com",
+   "tier": "wire",
+   "url": "http://www.goskagit.com/news/nation/wall-street-rises-as-amazon-and-chip-stocks-jump-even-as-oil-prices-add-to/article_67478344-9b32-583c-a5a0-6c20aa737cc1.html",
+   "title": "Wall Street rises as Amazon and chip stocks jump , even as oil prices add to worries about inflation",
+   "published_at": "2026-07-31T14:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8801
+  },
+  {
+   "id": "80ccb029f3184cea54ac7aad234aa784501395d4",
+   "source": "nationalpost.com",
+   "tier": "wire",
+   "url": "https://nationalpost.com/opinion/opinion-canada-cannot-trade-away-the-danger-of-a-russia-china-alliance",
+   "title": "Canada cannot trade away the danger of a Russia - China alliance",
+   "published_at": "2026-07-31T14:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8297
+  },
   {
    "id": "8de2613991cebe7efdef6dce5ea2d221dd154fae",
    "source": "arabherald.com",
@@ -304,6 +324,20 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Wall Street rises as Amazon and chip stocks jump , even as oil prices add to worries about inflation",
+   "source": "goskagit.com",
+   "url": "http://www.goskagit.com/news/nation/wall-street-rises-as-amazon-and-chip-stocks-jump-even-as-oil-prices-add-to/article_67478344-9b32-583c-a5a0-6c20aa737cc1.html",
+   "at": "2026-07-31T14:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Canada cannot trade away the danger of a Russia - China alliance",
+   "source": "nationalpost.com",
+   "url": "https://nationalpost.com/opinion/opinion-canada-cannot-trade-away-the-danger-of-a-russia-china-alliance",
+   "at": "2026-07-31T14:30:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "China emerging as long - term AI winner despite semiconductor market volatility : Jefferies",
    "source": "arabherald.com",
    "url": "http://www.arabherald.com/news/279217494/china-emerging-as-long-term-ai-winner-despite-semiconductor-market-volatility-jefferies",
@@ -500,8 +534,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-31T11:07:21.535831+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-31T15:35:12.908680+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -514,26 +548,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"주식 시장 소식\",\n   \"one_liner\": \"코스트코와 월마트, 홈디포트 주식의 위험과 보상이 다르다고 해요\",\n   \"why_now\": \"주식 시장은 위험과 보상이 함께 가는 곳이기에 주의가 필요해요\",\n   \"impact_line\": \"주식 투자로 수익을 얻을 수 있어요\",\n   \"details\": [\n       \"코스트코 주식으로 1년에 1만 달러의 배당금을 얻으려면 얼마나 많은 주식을 가지고 있어야 하는지 알려줘요\",\n       \"월마트, 코스트코, 홈디포트 주식의 위험과 보상이 다르다고 해요\",\n       \"애플 주식이 가치 주식으로 위장한 성장 주식이라고 해요\",\n       \"아마존이나 월마트의 AI 도우미만頼해서 쇼핑하지 말라고 해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주식 투자로 수익을 얻을 수 있지만, 위험도 함께 가기에 주의가 필요해요!\",\n       \"애플이나 아마존 같은 대형 기술 주식의 성과가 전체 시장에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"배당금\",\n           \"easy\": \"주식으로 받는 수익의 일부예요\",\n           \"example\": \"배당금을 받으면 주식 투자로 수익을 얻을 수 있어요\"\n       },\n       {\n           \"term\": \"위험과 보상\",\n           \"easy\": \"주식 투자에서 위험을 감수하면 보상도 함께 가는 거예요\",\n           \"example\": \"위험을 감수하면 높은 수익을 얻을 수도 있지만, 손실도 날 수 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Here How Many Shares…",
-   "one_liner": "Here How Many Shares of Costco Youd Need to…",
-   "why_now": null,
+   "title": "주식 시장 소식",
+   "one_liner": "코스트코와 월마트, 홈디포트 주식의 위험과 보상이 다르다고 해요",
+   "why_now": "주식 시장은 위험과 보상이 함께 가는 곳이기에 주의가 필요해요",
    "details": [
-    "Here How Many Shares of Costco Youd Need to Generate $10 , 000 in Yearly Dividends",
-    "Walmart ( NYSE : WMT ), Costco ( NASDAQ : COST ), And Home Depot ( NYSE : HD ) Face Very Different Risk / Reward Profiles",
-    "Apple Is A Value Stock Disguised As Growth : Time To Take Profits ( NASDAQ : AAPL )"
+    "코스트코 주식으로 1년에 1만 달러의 배당금을 얻으려면 얼마나 많은 주식을 가지고 있어야 하는지요.",
+    "월마트, 코스트코, 홈디포트 주식의 위험과 보상이 다르다고 해요",
+    "애플 주식이 가치 주식으로 위장한 성장 주식이라고 해요",
+    "아마존이나 월마트의 AI 도우미만頼해서 쇼핑하지 말라고 해요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "주식 투자로 수익을 얻을 수 있지만, 위험도 함께 가기에 주의가 필요해요!",
+    "애플이나 아마존 같은 대형 기술 주식의 성과가 전체 시장에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "9745e89f16efece4c3f56961d197dedd60867365"
  },
