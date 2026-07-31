@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-31T13:15:00.195861+00:00",
+  "created_at": "2026-07-31T18:02:28.182928+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,8 +64,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"오라클 주가 하락\",\n    \"one_liner\": \"오라클의 주가가 하락세를 보이고 있어요.\",\n    \"why_now\": \"큰 계약에도 불구하고 주가가 떨어지면 투자자들이 회사의 미래 성장성에 의문을 가질 수 있어요.\",\n    \"impact_line\": \"오라클 주식에 투자한 사람들의 손실이 커질 수 있어요.\",\n    \"details\": [\n        \"나이트뷰 캐피탈이 오라클 주식을 일부 매도했어요.\",\n        \"오라클은 클라우드 사업에서 좋은 성과를 냈어요.\",\n        \"오라클은 70억 달러 규모의 펜타곤 계약을 체결했어요.\",\n        \"하지만 이러한 좋은 소식에도 불구하고 주가는 65% 하락했어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"회사의 주가가 계속 하락하면 투자 심리가 위축될 수 있어요!\",\n        \"회사의 실적이 좋더라도 시장의 기대치를 충족시키지 못하면 주가에 부정적인 영향을 줄 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"나이트뷰 캐피탈\",\n            \"easy\": \"주식 투자 회사 이름이에요.\",\n            \"example\": \"나이트뷰 캐피탈은 여러 회사의 주식을 사고팔아요.\"\n        },\n        {\n            \"term\": \"오라클\",\n            \"easy\": \"미국의 유명한 컴퓨터 소프트웨어 회사 이름이에요.\",\n            \"example\": \"오라클은 데이터베이스와 클라우드 서비스를 제공해요.\"\n        },\n        {\n            \"term\": \"클라우드\",\n            \"easy\": \"인터넷을 통해 컴퓨터 프로그램이나 데이터를 이용하는 서비스예요.\",\n            \"example\": \"클라우드 서비스를 이용하면 내 컴퓨터에 프로그램을 깔지 않아도 돼요.\"\n        },\n        {\n            \"term\": \"펜타곤\",\n            \"easy\": \"미국 국방부를 뜻하는 별명이에요.\",\n            \"example\": \"펜타곤은 미국의 군사 정책을 결정하는 곳이에요.\"\n        }\n    ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [70.0]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -87,11 +93,17 @@
   "fact_hash": "e49da2f24d3e371a42e35e95cab890488739fb94"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-31T13:15:00.195802+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [70.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-31T18:02:28.182858+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c7b7e590611a1bac4",
+   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
+   "category": "MARKET",
+   "shared": []
+  },
   {
    "id": "c76068f5fb08a3e9a",
    "title": "A forced - labor crackdown or an end - run around Congress ? Dissecting Trump new tariffs",
@@ -105,20 +117,14 @@
    "shared": []
   },
   {
-   "id": "c3149033857922fc8",
-   "title": "Walmart ( NYSE : WMT ), Costco ( NASDAQ : COST ), And Home Depot ( NYSE : HD ) Face Very Different Risk / Reward Profiles",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
    "id": "cffe83a2036bd185c",
    "title": "Fortune Tech : Meta cash crunch , Microsoft Azure milestone , DoorDash drone deliveries",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c7b7e590611a1bac4",
-   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "category": "MARKET",
    "shared": []
   }

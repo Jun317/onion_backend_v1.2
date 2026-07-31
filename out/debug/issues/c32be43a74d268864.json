@@ -105,7 +105,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-31T13:12:37.017020+00:00",
+  "created_at": "2026-07-31T18:00:11.215739+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -118,8 +118,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"페이팔 주가 전망\", \"one_liner\": \"페이팔 주가에 대해 월가에서 긍정적인지 부정적인지 분석하고 있어요.\", \"why_now\": \"주가 전망은 투자자들이 해당 회사의 주식을 사거나 팔아야 할지 결정하는 데 중요한 정보가 돼요.\", \"impact_line\": \"페이팔 주가 움직임에 따라 관련 투자자들의 수익이 달라질 수 있어요.\", \"details\": [\"페이팔 주가 전망에 대해 월가에서 분석하고 있어요.\", \"최근 실적 발표 이후 페이팔 주식 매수 여부에 대한 논의가 있어요.\", \"화요일에 페이팔 주가가 상승한 이유에 대한 기사가 나왔어요.\"], \"visual_type\": \"none\", \"effects\": [\"페이팔 주가가 오르면 관련 투자자들의 자산 가치가 상승할 수 있어요!\", \"페이팔 주가가 내리면 관련 투자자들의 자산 가치가 하락할 수 있어요!\"], \"glossary\": [{\"term\": \"월가\", \"easy\": \"미국 뉴욕에 있는 금융가로, 미국 금융 시장을 대표하는 곳이에요.\", \"example\": \"월가에서는 최근 금리 인상 가능성을 높게 보고 있어요.\"}, {\"term\": \"실적 발표\", \"easy\": \"회사가 일정 기간 동안 얼마나 벌고 얼마나 썼는지 발표하는 거예요.\", \"example\": \"실적 발표 결과에 따라 주가가 크게 오르내리기도 해요.\"}], \"impact_line\": \"페이팔 주가 움직임에 따라 관련 투자자들의 수익이 달라질 수 있어요.\"}\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "JSON 파스 실패"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -142,11 +148,17 @@
   "fact_hash": "303c781a30fa6dacd760123137624a25ac75edab"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-31T13:12:37.016865+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"JSON 파스 실패\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-31T18:00:11.215600+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c7b7e590611a1bac4",
+   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
+   "category": "MARKET",
+   "shared": []
+  },
   {
    "id": "c76068f5fb08a3e9a",
    "title": "A forced - labor crackdown or an end - run around Congress ? Dissecting Trump new tariffs",
@@ -160,20 +172,14 @@
    "shared": []
   },
   {
-   "id": "c3149033857922fc8",
-   "title": "Walmart ( NYSE : WMT ), Costco ( NASDAQ : COST ), And Home Depot ( NYSE : HD ) Face Very Different Risk / Reward Profiles",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
    "id": "cffe83a2036bd185c",
    "title": "Fortune Tech : Meta cash crunch , Microsoft Azure milestone , DoorDash drone deliveries",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c7b7e590611a1bac4",
-   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
+   "id": "c8767f6a04dae9d1b",
+   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
    "category": "MARKET",
    "shared": []
   }

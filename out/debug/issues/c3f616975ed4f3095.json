@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-31T13:20:51.076523+00:00",
+  "created_at": "2026-07-31T18:08:37.734501+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,8 +881,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"일상 속 다양한 이야기\", \"one_liner\": \"은퇴 후 무엇을 해야 할지, 일광 절약 시간에 대한 의견 등 다양한 이야기가 나왔어요.\", \"why_now\": \"일상에서 마주치는 여러 문제에 대한 사람들의 생각을 엿볼 수 있어요.\", \"impact_line\": null, \"details\": [\"은퇴 후의 삶에 대한 질문이 있었어요.\", \"일광 절약 시간에 대한 글이 있었어요.\", \"파키스탄의 정치적 상황에 대한 이야기가 있었어요.\", \"미국 환경보호청의 권한 남용에 대한 법안 기회가 언급되었어요.\", \"글래스고의 저녁 시간 문제와 해결책에 대한 내용이 있었어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"일광 절약 시간\", \"easy\": \"여름철에 해가 길어지는 것을 활용해 낮 시간을 더 늘리는 제도예요.\", \"example\": \"일광 절약 시간 덕분에 저녁에도 해가 길어서 활동하기 좋아요.\"}], \"impact_line\": null}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects 1~2문장 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +911,8 @@
   "fact_hash": "1c5622990e16ff243c1b4bef05abcc720dc2860f"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-31T13:20:51.076418+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-31T18:08:37.734379+00:00"
  },
  "glossary": [],
  "related": [
@@ -923,12 +929,6 @@
    "shared": []
   },
   {
-   "id": "c6f7d0778c3d10776",
-   "title": "X challenges Australia social media enforcement bill",
-   "category": "GEO",
-   "shared": []
-  },
-  {
    "id": "c2362a90772e95247",
    "title": "US Launches Strikes on Iran",
    "category": "GEO",
@@ -937,6 +937,12 @@
   {
    "id": "cc8952ef4ccaff2ab",
    "title": "Russia charges Telegram founder Pavel Durov with aiding terrorism and puts him on wanted list",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "c6f7d0778c3d10776",
+   "title": "X challenges Australia social media enforcement bill",
    "category": "GEO",
    "shared": []
   }
