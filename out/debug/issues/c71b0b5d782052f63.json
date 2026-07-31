@@ -1,0 +1,134 @@
+{
+ "id": "c71b0b5d782052f63",
+ "title": "Bank Of Japan Maintains Key Rate",
+ "category": "RATE",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "BOJ"
+ ],
+ "seen_sources": 2,
+ "importance": 140,
+ "created_at": "2026-07-31T11:03:07.127309+00:00",
+ "last_update": "2026-07-31T11:03:07.128556+00:00",
+ "members": [
+  {
+   "id": "6444b078aba7ed0a1d404e112a11dde4e745e7f3",
+   "source": "manilatimes.net",
+   "tier": "wire",
+   "url": "https://www.manilatimes.net/2026/07/31/world/bank-of-japan-keeps-main-interest-rate-unchanged/2395729",
+   "title": "Bank of Japan keeps main interest rate unchanged",
+   "published_at": "2026-07-31T09:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9828
+  },
+  {
+   "id": "f03b26b014432360ee437c62449c46a62a0a4513",
+   "source": "rttnews.com",
+   "tier": "wire",
+   "url": "https://www.rttnews.com/story.aspx?Id=3673476",
+   "title": "Bank Of Japan Maintains Key Rate",
+   "published_at": "2026-07-31T06:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9828
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Bank of Japan keeps main interest rate unchanged",
+   "source": "manilatimes.net",
+   "url": "https://www.manilatimes.net/2026/07/31/world/bank-of-japan-keeps-main-interest-rate-unchanged/2395729",
+   "at": "2026-07-31T09:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Bank Of Japan Maintains Key Rate",
+   "source": "rttnews.com",
+   "url": "https://www.rttnews.com/story.aspx?Id=3673476",
+   "at": "2026-07-31T06:45:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-31T11:03:09.920803+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [],
+   "headlines": [
+    "Bank of Japan keeps main interest rate unchanged",
+    "Bank Of Japan Maintains Key Rate"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n    \"title\": \"일본 기준금리 동결\",\n    \"one_liner\": \"일본은행이 기준금리를 그대로 유지하기로 했어요.\",\n    \"why_now\": \"기준금리가 그대로면 대출 이자나 예금 이자 변동이 바로 없을 수 있어요.\",\n    \"impact_line\": \"대출 이자 부담이 당분간 그대로 유지될 수 있어요.\",\n    \"details\": [\n        \"일본은행이 기준금리를 동결했어요.\",\n        \"이는 시장의 예상과 일치하는 결정이에요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"금리가 그대로여서 돈을 빌리는 비용이나 예금으로 얻는 이자 수익에 큰 변화가 없을 것으로 예상돼요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"기준금리\",\n            \"easy\": \"한국은행이 정하는 나라의 기본 이자율이에요.\",\n            \"example\": \"기준금리가 내리면 대출 이자도 보통 따라 내려요.\"\n        }\n    ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Bank of Japan keeps…",
+   "one_liner": "Bank of Japan keeps main interest rate unchanged",
+   "why_now": null,
+   "details": [
+    "Bank of Japan keeps main interest rate unchanged",
+    "Bank Of Japan Maintains Key Rate"
+   ],
+   "effects": [],
+   "visual_type": "kr_base_rate"
+  },
+  "fact_hash": "192720709c22d8adcfec0f76ba3e04df9a1cf9db"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-07-31T11:03:09.920651+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cea83213c8906724e",
+   "title": "Fed Holds Interest Rates Steady Amid Inflation From Iran Conflict",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c03074aeed49bf60f",
+   "title": "World Bank confirms plan to phase out China lending by 2031",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c5c8d55ad4217ee1f",
+   "title": "Federal government grounds Billy Bishop airport expansion",
+   "category": "POLICY",
+   "shared": [
+    "BOJ"
+   ]
+  },
+  {
+   "id": "c01efb76fcd7102be",
+   "title": "Preview : ECB set to hold rates in July , hints of September hike expected : ING",
+   "category": "RATE",
+   "shared": []
+  }
+ ]
+}

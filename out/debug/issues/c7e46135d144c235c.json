@@ -51,8 +51,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-30T22:38:41.607969+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-31T11:03:15.805422+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -62,25 +62,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"타코벨 매출 감소\",\n  \"one_liner\": \"타코벨의 매출이 2% 감소했어요.\",\n  \"why_now\": \"타코벨 매출 감소는 소비자들이 외식 대신 집밥을 선택하는 경향이 늘어난 것을 보여줘요.\",\n  \"impact_line\": \"외식 물가가 오를 수 있어요!\",\n  \"details\": [\n    \"타코벨의 매출이 2% 감소했어요.\",\n    \"이는 식중독균(사이클로스포라) 발생과 관련이 있어요.\",\n    \"하지만 얌브랜즈의 전체 매출은 늘었어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"타코벨의 매출이 더 줄어들 수 있어요!\",\n    \"전반적인 외식 산업의 어려움이 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"타코벨\",\n      \"easy\": \"미국에서 유명한 멕시코 음식 전문점이에요.\",\n      \"example\": \"타코벨에서 타코와 부리토를 사 먹었어요.\"\n    },\n    {\n      \"term\": \"사이클로스포라\",\n      \"easy\": \"사람에게 설사병을 일으키는 작은 기생충이에요.\",\n      \"example\": \"사이클로스포라 오염 때문에 샐러드 섭취를 주의해야 해요.\"\n    },\n    {\n      \"term\": \"얌브랜즈\",\n      \"easy\": \"타코벨, KFC, 피자헛 등을 소유한 미국의 외식 기업이에요.\",\n      \"example\": \"얌브랜즈는 여러 유명 패스트푸드 브랜드를 운영하고 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Taco Bell sales drop…",
-   "one_liner": "Taco Bell sales drop 2 % amid cyclospora…",
-   "why_now": null,
+   "title": "타코벨 매출 감소",
+   "one_liner": "타코벨의 매출이 2% 감소했어요.",
+   "why_now": "타코벨 매출 감소는 소비자들이 외식 대신 집밥을 선택하는 경향이 늘어난 것을 보여줘요.",
    "details": [
-    "Taco Bell sales drop 2 % amid cyclospora outbreak , Yum Brands says",
-    "Yum Brand sales rose last quarter , thanks to Taco Bell"
+    "타코벨의 매출이 2% 감소했어요.",
+    "이는 식중독균(사이클로스포라) 발생과 관련이 있어요.",
+    "하지만 얌브랜즈의 전체 매출은 늘었어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "타코벨의 매출이 더 줄어들 수 있어요!",
+    "전반적인 외식 산업의 어려움이 커질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "c20b933b916e5e3b8d3361115b6a9e2ca5ee60f1"
  },
