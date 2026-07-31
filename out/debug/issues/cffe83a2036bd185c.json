@@ -242,32 +242,32 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-30T22:33:26.092288+00:00",
+  "created_at": "2026-07-31T04:50:54.382041+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "Fortune Tech : Meta cash crunch , Microsoft Azure milestone , DoorDash drone deliveries",
+    "Prediction : Meta Stock Will Pop After Q2 Earnings . 3 Reasons Why",
+    "Meta Boosts Advertising In Q2 , Tries To Reassure Investors On AI",
     "Meta Platforms , Inc . $META is Tiger Global Management LLC 5th Largest Position",
-    "Microsoft best day since 2008 leads US stocks , while inflation worries remain in the bond market",
-    "Meta Stock Plunges 9 . 1 % as Free Cash Flow Collapses 91 %",
-    "Microsoft leads rally on Wall Street , as worries over inflation remain"
+    "Microsoft best day since 2008 leads US stocks , while inflation worries remain in the bond market"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 증시 상승, 메타 주가 급락\",\n  \"one_liner\": \"메타 주가가 9.1% 급락했지만, 마이크로소프트가 이끌며 미국 증시가 올랐어요.\",\n  \"why_now\": \"기업의 현금 흐름은 회사의 재정 건전성을 보여주는 중요한 지표이기 때문이에요.\",\n  \"impact_line\": \"메타의 주가 하락은 관련 기술주 투자자들에게 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"메타 주가가 9.1% 급락했어요.\",\n    \"메타의 현금 흐름이 91% 줄어든 것이 원인으로 분석돼요.\",\n    \"마이크로소프트 주가는 2008년 이후 가장 큰 폭으로 올랐어요.\",\n    \"미국 증시는 전반적으로 상승했지만, 물가 상승에 대한 우려가 남아있어요.\"\n  ],\n  \"visual_type\": \"us_10y\",\n  \"effects\": [\n    \"메타의 현금 흐름 악화는 향후 사업 투자에 어려움을 줄 수 있어요!\",\n    \"마이크로소프트의 선전은 클라우드 서비스 시장의 성장을 기대하게 해요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"현금 흐름\",\n      \"easy\": \"회사가 영업을 통해 벌어들이는 돈에서 나가는 돈을 뺀 금액이에요.\",\n      \"example\": \"현금 흐름이 좋으면 회사가 돈을 잘 벌고 있다고 볼 수 있어요.\"\n    },\n    {\n      \"term\": \"클라우드 서비스\",\n      \"easy\": \"인터넷을 통해 컴퓨터 저장 공간이나 프로그램을 빌려 쓰는 서비스예요.\",\n      \"example\": \"마이크로소프트 애저 같은 클라우드 서비스는 기업들이 많이 이용해요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"메타, 2분기 광고 늘리고 AI 투자 강조\",\n  \"one_liner\": \"메타가 2분기 광고 수익을 늘리고 인공지능(AI) 투자를 강조하며 투자자들을 안심시키려 했어요.\",\n  \"why_now\": \"메타의 실적 발표는 AI 기술 발전과 광고 시장의 변화를 보여주는 중요한 지표가 될 수 있어요.\",\n  \"impact_line\": \"메타의 주가 움직임에 따라 관련 기술주들의 흐름도 달라질 수 있어요.\",\n  \"details\": [\n    \"메타는 2분기 광고 매출을 늘리기 위해 노력했어요.\",\n    \"투자자들에게 인공지능(AI) 분야에 대한 투자를 강조하며 안심시키려 했어요.\",\n    \"일부에서는 메타의 2분기 실적 발표 후 주가 상승을 예상하기도 해요.\",\n    \"타이거 글로벌 매니지먼트가 메타 주식을 5번째로 많이 보유하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"메타의 광고 사업이 성장하면 관련 기업들의 광고 수익도 긍정적인 영향을 받을 수 있어요!\",\n    \"AI 기술 투자 확대는 미래 성장 동력 확보에 대한 기대를 높일 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AI\",\n      \"easy\": \"인공지능으로, 컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n      \"example\": \"AI 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n    },\n    {\n      \"term\": \"2분기\",\n      \"easy\": \"1년의 두 번째 분기로, 4월부터 6월까지의 기간을 말해요.\",\n      \"example\": \"회사는 2분기 실적을 발표하며 앞으로의 계획을 밝혔어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "why_now 55자 초과(68)",
-     "입력에 없는 숫자: [9.1]"
+     "title 22자 초과(23)",
+     "one_liner 50자 초과(53)"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [9.1]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -277,17 +277,17 @@
    "why_now": null,
    "details": [
     "Fortune Tech : Meta cash crunch , Microsoft Azure milestone , DoorDash drone deliveries",
-    "Meta Platforms , Inc . $META is Tiger Global Management LLC 5th Largest Position",
-    "Microsoft best day since 2008 leads US stocks , while inflation worries remain in the bond market"
+    "Prediction : Meta Stock Will Pop After Q2 Earnings . 3 Reasons Why",
+    "Meta Boosts Advertising In Q2 , Tries To Reassure Investors On AI"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "3d93217f3c8468a9abb83362fe5f2bfe1c1b3ade"
+  "fact_hash": "02d976ec34e7d66e09a8856f2a03cf36f62dc0fd"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(68)\", \"입력에 없는 숫자: [9.1]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [9.1]\"]}]}",
-  "at": "2026-07-30T22:33:26.092212+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(23)\", \"one_liner 50자 초과(53)\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-31T04:50:54.381952+00:00"
  },
  "glossary": [],
  "related": [

@@ -158,8 +158,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-31T01:09:58.818407+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-07-31T04:50:25.135575+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -172,26 +172,29 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"코스트코 소식\",\n   \"one_liner\": \"코스트코와 관련된 여러 소식이 나왔어요\",\n   \"why_now\": \"대형 마트 소식은 가계 지출과 소비자 선택에 영향을 줄 수 있어요\",\n   \"impact_line\": \"쇼핑에 영향을 줄 수 있어요\",\n   \"details\": [\n      \"코스트코의 주식으로 연간 1만 달러의 배당금을 받으려면 얼마나 주식을 가지고 있어야 하는지 알려줘요\",\n      \"월마트, 코스트코, 홈디포의 투자 위험과 보상 프로필이 다르다고 해요\",\n      \"코스트코 고객은 합의금 청구에 자격이 있을 수 있어요\",\n      \"아마존이나 월마트의 AI 도우미만頼하면 안 된다고 말해요\",\n      \"아마존의 최근 실적 보고서 이후에 아마존을 사야 할지 말아야 할지 고민이 될 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"대형 마트의 경쟁이 소비자에게 더 좋은 선택과 가격을 제공할 수 있어요!\",\n      \"온라인 쇼핑의 편리함이 증가할 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"배당금\",\n         \"easy\": \"회사에서 이익을 나눠주는 돈이에요\",\n         \"example\": \"주식을 가지고 있으면 배당금을 받을 수 있어요\"\n      },\n      {\n         \"term\": \"합의금\",\n         \"easy\": \"법적 분쟁으로 인해 지불하는 돈이에요\",\n         \"example\": \"회사와 고객 사이의 분쟁으로 인해 합의금을 지불할 수 있어요\"\n      }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Here How Many Shares…",
-   "one_liner": "Here How Many Shares of Costco Youd Need to…",
-   "why_now": null,
+   "title": "코스트코 소식",
+   "one_liner": "코스트코와 관련된 여러 소식이 나왔어요",
+   "why_now": "대형 마트 소식은 가계 지출과 소비자 선택에 영향을 줄 수 있어요",
    "details": [
-    "Here How Many Shares of Costco Youd Need to Generate $10 , 000 in Yearly Dividends",
-    "Walmart ( NYSE : WMT ), Costco ( NASDAQ : COST ), And Home Depot ( NYSE : HD ) Face Very Different Risk / Reward Profiles",
-    "Why Costco shoppers may be eligible for settlement checks"
+    "코스트코의 주식으로 연간 1만 달러의 배당금을 받으려면 얼마나 주식을 가지고 있어야 하는지 알려줘요",
+    "월마트, 코스트코, 홈디포의 투자 위험과 보상 프로필이 다르다고 해요",
+    "코스트코 고객은 합의금 청구에 자격이 있을 수 있어요",
+    "아마존이나 월마트의 AI 도우미만頼하면 안 된다고 말해요",
+    "아마존의 최근 실적 보고서 이후에 아마존을 사야 할지 말아야 할지 고민이 될 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "대형 마트의 경쟁이 소비자에게 더 좋은 선택과 가격을 제공할 수 있어요!",
+    "온라인 쇼핑의 편리함이 증가할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "0bc682902d318f28ef8b7f53b3fbb7b8d51c423b"
  },
