@@ -2,16 +2,56 @@
  "id": "cd4dfbe21e251d35b",
  "title": "Wall Street Closes With Stocks Higher on Tech Gains",
  "category": "MARKET",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 0,
- "importance": 55,
+ "seen_sources": 2,
+ "importance": 65,
  "created_at": "2026-07-30T22:32:46.857019+00:00",
- "last_update": "2026-07-30T22:32:46.857019+00:00",
+ "last_update": "2026-07-31T01:01:23.823061+00:00",
  "members": [
+  {
+   "id": "0bd8348ec663e11f26fe0b435a6e4be3c39e37ec",
+   "source": "finanzen.ch",
+   "tier": "wire",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/japan-stock-market-may-extend-thursdays-gains-1036388755",
+   "title": "Japan Stock Market May Extend Thursday Gains",
+   "published_at": "2026-07-30T23:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8864
+  },
+  {
+   "id": "8104b23c3dc85a28f9f8e739250d6703453439c1",
+   "source": "bruneinews.net",
+   "tier": "wire",
+   "url": "http://www.bruneinews.net/news/279217002/wall-street-in-solid-advance-dow-jones-gains-615-points",
+   "title": "Wall Street in solid advance , Dow Jones gains 615 points",
+   "published_at": "2026-07-30T23:45:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.9353
+  },
+  {
+   "id": "6a0f82431f50c9cd55044d7efb77858fe591b8c4",
+   "source": "azerbaijannews.net",
+   "tier": "wire",
+   "url": "http://www.azerbaijannews.net/news/279217002/wall-street-in-solid-advance-dow-jones-gains-615-points",
+   "title": "Wall Street in solid advance , Dow Jones gains 615 points",
+   "published_at": "2026-07-30T22:15:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.9353
+  },
+  {
+   "id": "cad3861f73193b1948b4acedc2bc316aac132adf",
+   "source": "laosnews.net",
+   "tier": "wire",
+   "url": "http://www.laosnews.net/news/279217002/wall-street-in-solid-advance-dow-jones-gains-615-points",
+   "title": "Wall Street in solid advance , Dow Jones gains 615 points",
+   "published_at": "2026-07-30T22:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9353
+  },
   {
    "id": "724500216397179bae873f1f44927a49625b7fce",
    "source": "720thevoice.iheart.com",
@@ -20,7 +60,7 @@
    "title": "Wall Street Closes With Stocks Higher on Tech Gains",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9893
   },
   {
    "id": "264e0b80e4115ab9f85a5bdbb580c6a3b134247d",
@@ -30,11 +70,39 @@
    "title": "Wall Street Closes With Stocks Higher on Tech Gains",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9893
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Japan Stock Market May Extend Thursday Gains",
+   "source": "finanzen.ch",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/japan-stock-market-may-extend-thursdays-gains-1036388755",
+   "at": "2026-07-30T23:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Wall Street in solid advance , Dow Jones gains 615 points",
+   "source": "bruneinews.net",
+   "url": "http://www.bruneinews.net/news/279217002/wall-street-in-solid-advance-dow-jones-gains-615-points",
+   "at": "2026-07-30T23:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Wall Street in solid advance , Dow Jones gains 615 points",
+   "source": "azerbaijannews.net",
+   "url": "http://www.azerbaijannews.net/news/279217002/wall-street-in-solid-advance-dow-jones-gains-615-points",
+   "at": "2026-07-30T22:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Wall Street in solid advance , Dow Jones gains 615 points",
+   "source": "laosnews.net",
+   "url": "http://www.laosnews.net/news/279217002/wall-street-in-solid-advance-dow-jones-gains-615-points",
+   "at": "2026-07-30T22:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Wall Street Closes With Stocks Higher on Tech Gains",
@@ -50,8 +118,44 @@
    "at": "2026-07-30T20:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-31T01:03:49.365681+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Japan Stock Market May Extend Thursday Gains",
+    "Wall Street in solid advance , Dow Jones gains 615 points"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Japan Stock Market…",
+   "one_liner": "Japan Stock Market May Extend Thursday Gains",
+   "why_now": null,
+   "details": [
+    "Japan Stock Market May Extend Thursday Gains",
+    "Wall Street in solid advance , Dow Jones gains 615 points"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "96567fc2542b5889fe02349bc35e7c3964ad6c94"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-31T01:03:49.365549+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -67,8 +171,8 @@
    "shared": []
   },
   {
-   "id": "c7b7e590611a1bac4",
-   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
+   "id": "c3149033857922fc8",
+   "title": "Walmart ( NYSE : WMT ), Costco ( NASDAQ : COST ), And Home Depot ( NYSE : HD ) Face Very Different Risk / Reward Profiles",
    "category": "MARKET",
    "shared": []
   },
@@ -79,8 +183,8 @@
    "shared": []
   },
   {
-   "id": "c8767f6a04dae9d1b",
-   "title": "22 , 459 Shares in Bank of America Corporation $BAC Acquired by Navigation Group LLC",
+   "id": "c7b7e590611a1bac4",
+   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
    "category": "MARKET",
    "shared": []
   }

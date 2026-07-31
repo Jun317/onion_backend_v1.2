@@ -834,7 +834,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-30T20:41:07.210973+00:00",
+  "created_at": "2026-07-31T01:02:53.928135+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -847,20 +847,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 주택담보대출 금리 상승\",\n   \"one_liner\": \"미국의 평균 30년 주택담보대출 금리가 1년 만에最高치인 6.55%가 됐어요\",\n   \"why_now\": \"주택담보대출 금리가 오르면 집을 사는 사람이 부담해야 할 이자가 늘어나서 집을 사는 게 더 어려워질 수 있어요\",\n   \"impact_line\": \"미국에서 집을 사는 사람이 더 어려워질 수 있어요\",\n   \"details\": [\n       \"미국 평균 30년 주택담보대출 금리가 6.55%로 1년 만에 최고치가 됐어요\",\n       \"미국의 무역적자가 10년 만에最高치인 394억 달러가 됐어요\",\n       \"미국에서 주택담보대출 금리가 10개월 만에 최고치가 됐어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주택시장이 더 어렵게 돌아갈 수 있어요!\",\n       \"미국 경제에 부담이 될 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"주택담보대출\",\n           \"easy\": \"집을 사거나 집을 고칠 때 은행에서 빌리는 돈이에요\",\n           \"example\": \"주택담보대출을 받으면 집을 담보로 해서 돈을 빌릴 수 있어요\"\n       }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [6.55]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 에 한자/가나 포함",
-     "why_now 55자 초과(61)",
-     "입력에 없는 숫자: [6.55, 394.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -879,8 +871,8 @@
   "fact_hash": "04ef92b551bfb11a22b8c94f4c1d2b8150fd141e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [6.55]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"why_now 55자 초과(61)\", \"입력에 없는 숫자: [6.55, 394.0]\"]}]}",
-  "at": "2026-07-30T20:41:07.210909+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-31T01:02:53.928015+00:00"
  },
  "glossary": [],
  "related": [
@@ -891,8 +883,8 @@
    "shared": []
   },
   {
-   "id": "c46d6a70a2c805401",
-   "title": "US economy grows at a sluggish 1 . 5 % in second - quarter with inflation remaining stubbornly high",
+   "id": "cc383537a98f45c47",
+   "title": "India Gold Demand Falls 6 % in Q2 as Higher Duty , Prices Weigh on Buyers",
    "category": "MACRO",
    "shared": []
   },
@@ -903,14 +895,14 @@
    "shared": []
   },
   {
-   "id": "c4a06e144229d2074",
-   "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+   "id": "ccabc6b42e9ade3d7",
+   "title": "Seagate Shares Rise After Fourth - Quarter Results Beat Expectations and Outlook Surprises to the Upside",
    "category": "MACRO",
    "shared": []
   },
   {
-   "id": "c48db748fde00c8f7",
-   "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
+   "id": "c4a06e144229d2074",
+   "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
    "category": "MACRO",
    "shared": []
   }
