@@ -2,16 +2,26 @@
  "id": "cc4cfba346972fad2",
  "title": "Piedmont Office Realty Trust , Inc . Q2 2026 Earnings Call Summary",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 45,
+ "seen_sources": 2,
+ "importance": 50,
  "created_at": "2026-07-30T22:32:46.859411+00:00",
- "last_update": "2026-07-31T01:01:23.817312+00:00",
+ "last_update": "2026-07-31T13:11:41.800316+00:00",
  "members": [
+  {
+   "id": "889dcd75053844ee4fb9261dca27054eb5c5b320",
+   "source": "thestarphoenix.com",
+   "tier": "wire",
+   "url": "https://thestarphoenix.com/press-releases/pr-newswire/ballard-reports-q2-2026-results/",
+   "title": "Ballard Reports Q2 2026 Results",
+   "published_at": "2026-07-31T12:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9254
+  },
   {
    "id": "4d612b69e5214bc88c6a84a4fb329a4774d844df",
    "source": "finance.yahoo.com",
@@ -20,7 +30,7 @@
    "title": "ACRES Commercial Realty Corp ( ACR ) ( Q2 2026 ) Earnings Call Highlights : Internalization ...",
    "published_at": "2026-07-30T23:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9338
+   "sim_to_centroid": 0.9342
   },
   {
    "id": "9e2e3ed7bc15ad482eb8d631c2023c42a880cb5e",
@@ -30,7 +40,7 @@
    "title": "Exelon Corp ( EXC ) ( Q2 2026 ) Earnings Call Highlights : Navigating Regulatory Hurdles and Data ...",
    "published_at": "2026-07-30T23:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9182
+   "sim_to_centroid": 0.92
   },
   {
    "id": "2f6ea2df8320ec4677233bb82ac635289f2e909b",
@@ -40,7 +50,7 @@
    "title": "AllianceBernstein Holding L . P . Q2 2026 Earnings Call Summary",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9754
+   "sim_to_centroid": 0.9741
   },
   {
    "id": "843d2a28c505a02377cb81e0ccf65c03cea6445c",
@@ -50,11 +60,18 @@
    "title": "Piedmont Office Realty Trust , Inc . Q2 2026 Earnings Call Summary",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9751
+   "sim_to_centroid": 0.9738
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Ballard Reports Q2 2026 Results",
+   "source": "thestarphoenix.com",
+   "url": "https://thestarphoenix.com/press-releases/pr-newswire/ballard-reports-q2-2026-results/",
+   "at": "2026-07-31T12:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "ACRES Commercial Realty Corp ( ACR ) ( Q2 2026 ) Earnings Call Highlights : Internalization ...",
@@ -84,8 +101,48 @@
    "at": "2026-07-30T20:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-31T13:21:09.519991+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Ballard Reports Q2 2026 Results",
+    "ACRES Commercial Realty Corp ( ACR ) ( Q2 2026 ) Earnings Call Highlights : Internalization ...",
+    "Exelon Corp ( EXC ) ( Q2 2026 ) Earnings Call Highlights : Navigating Regulatory Hurdles and Data ...",
+    "AllianceBernstein Holding L . P . Q2 2026 Earnings Call Summary",
+    "Piedmont Office Realty Trust , Inc . Q2 2026 Earnings Call Summary"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Ballard Reports Q2…",
+   "one_liner": "Ballard Reports Q2 2026 Results",
+   "why_now": null,
+   "details": [
+    "Ballard Reports Q2 2026 Results",
+    "ACRES Commercial Realty Corp ( ACR ) ( Q2 2026 ) Earnings Call Highlights : Internalization ...",
+    "Exelon Corp ( EXC ) ( Q2 2026 ) Earnings Call Highlights : Navigating Regulatory Hurdles and Data ..."
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "b7230565eaae1e66f2b23e9d35a1918b08898352"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-31T13:21:09.519869+00:00"
+ },
  "glossary": [],
  "related": [
   {

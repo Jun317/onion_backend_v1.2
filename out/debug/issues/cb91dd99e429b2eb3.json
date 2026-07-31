@@ -2,16 +2,26 @@
  "id": "cb91dd99e429b2eb3",
  "title": "National Fuel Gas ( NYSE : NFG ) Releases FY 2026 Earnings Guidance",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 45,
+ "seen_sources": 2,
+ "importance": 50,
  "created_at": "2026-07-30T22:32:46.859655+00:00",
- "last_update": "2026-07-31T01:01:23.790964+00:00",
+ "last_update": "2026-07-31T13:11:41.800261+00:00",
  "members": [
+  {
+   "id": "0f05782c7b62adc4c86ccaa3367ced5b8eef7e8d",
+   "source": "themarketsdaily.com",
+   "tier": "wire",
+   "url": "https://www.themarketsdaily.com/2026/07/31/daiichi-sankyo-otcmktsdsnky-updates-fy-2026-earnings-guidance.html",
+   "title": "Daiichi Sankyo ( OTCMKTS : DSNKY ) Updates FY 2026 Earnings Guidance",
+   "published_at": "2026-07-31T11:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9134
+  },
   {
    "id": "82fccad0be2c6f4740c74436ff68c97785d3ff0b",
    "source": "dailypolitical.com",
@@ -20,7 +30,7 @@
    "title": "National Fuel Gas ( NYSE : NFG ) Releases FY 2026 Earnings Guidance",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9714
+   "sim_to_centroid": 0.9689
   },
   {
    "id": "b39e3eef1a38fced58bb3d5ebb2be1f103421170",
@@ -30,7 +40,7 @@
    "title": "Stellus Capital Investment ( NYSE : SCM ) Issues Q2 2026 Earnings Guidance",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9205
+   "sim_to_centroid": 0.9224
   },
   {
    "id": "6f32a84fdc76d092a15f5a4746f03db7b443d2ac",
@@ -40,11 +50,18 @@
    "title": "WESCO International ( NYSE : WCC ) Releases FY 2026 Earnings Guidance",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9711
+   "sim_to_centroid": 0.971
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Daiichi Sankyo ( OTCMKTS : DSNKY ) Updates FY 2026 Earnings Guidance",
+   "source": "themarketsdaily.com",
+   "url": "https://www.themarketsdaily.com/2026/07/31/daiichi-sankyo-otcmktsdsnky-updates-fy-2026-earnings-guidance.html",
+   "at": "2026-07-31T11:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "National Fuel Gas ( NYSE : NFG ) Releases FY 2026 Earnings Guidance",
@@ -67,8 +84,46 @@
    "at": "2026-07-30T20:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-07-31T13:21:27.958542+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Daiichi Sankyo ( OTCMKTS : DSNKY ) Updates FY 2026 Earnings Guidance",
+    "Stellus Capital Investment ( NYSE : SCM ) Issues Q2 2026 Earnings Guidance",
+    "WESCO International ( NYSE : WCC ) Releases FY 2026 Earnings Guidance"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Daiichi Sankyo (…",
+   "one_liner": "Daiichi Sankyo ( OTCMKTS : DSNKY ) Updates FY…",
+   "why_now": null,
+   "details": [
+    "Daiichi Sankyo ( OTCMKTS : DSNKY ) Updates FY 2026 Earnings Guidance",
+    "Stellus Capital Investment ( NYSE : SCM ) Issues Q2 2026 Earnings Guidance",
+    "WESCO International ( NYSE : WCC ) Releases FY 2026 Earnings Guidance"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "3dfb59558389c5901afbf1f7c66a605a45c43f57"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-07-31T13:21:27.958491+00:00"
+ },
  "glossary": [],
  "related": [
   {
