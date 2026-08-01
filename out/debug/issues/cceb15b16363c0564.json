@@ -9,11 +9,21 @@
  "entity_keys": [
   "PG"
  ],
- "seen_sources": 2,
- "importance": 105,
+ "seen_sources": 3,
+ "importance": 120,
  "created_at": "2026-07-29T22:26:52.625086+00:00",
- "last_update": "2026-07-29T22:26:52.627076+00:00",
+ "last_update": "2026-08-01T06:48:10.708691+00:00",
  "members": [
+  {
+   "id": "78f2aedae6a4418fe6e60238962e20812494accc",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/07/31/procter-gamble-stock-buy-hold-or-sell/?source=iedfolrf0000001",
+   "title": "Procter & Gamble Stock : Buy , Hold , or Sell ?",
+   "published_at": "2026-08-01T04:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9171
+  },
   {
    "id": "e0afecd5f884e32a4db4aa56fedd45b800c2a2c2",
    "source": "pymnts.com",
@@ -22,7 +32,7 @@
    "title": "PYMNTS | Procter & Gamble Says Gas Prices Limiting Consumer Spending",
    "published_at": "2026-07-29T21:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9712
+   "sim_to_centroid": 0.9688
   },
   {
    "id": "08b5d85ef9e603084c15faed4168a67c90b3b60a",
@@ -32,11 +42,18 @@
    "title": "Procter & Gamble Predicts Slower Growth Amid Rising Costs , ETRetail",
    "published_at": "2026-07-29T17:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9712
+   "sim_to_centroid": 0.9716
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Procter & Gamble Stock : Buy , Hold , or Sell ?",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/07/31/procter-gamble-stock-buy-hold-or-sell/?source=iedfolrf0000001",
+   "at": "2026-08-01T04:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "PYMNTS | Procter & Gamble Says Gas Prices Limiting Consumer Spending",
@@ -53,44 +70,44 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-30T03:40:13.017681+00:00",
+  "model": "template",
+  "created_at": "2026-08-01T06:50:31.482110+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
+    "Procter & Gamble Stock : Buy , Hold , or Sell ?",
     "PYMNTS | Procter & Gamble Says Gas Prices Limiting Consumer Spending",
     "Procter & Gamble Predicts Slower Growth Amid Rising Costs , ETRetail"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"소비자 지출 감소\",\n   \"one_liner\": \"가스 가격 상승이 소비자 지출을 제한하고 있다고 P&G가 밝혔어요\",\n   \"why_now\": \"가스 가격이 오르면 소비자들이 다른 물건을 사는 데 돈을 쓰기 어려워져요\",\n   \"impact_line\": \"가계 지출이 줄어들 수 있어요\",\n   \"details\": [\n       \"P&G는 가스 가격 상승이 소비자 지출을 제한한다고 밝혔어요\",\n       \"제품 판매 성장 속도가 느려질 것으로 예상돼요\",\n       \"제조 비용 증가로 인해 소비자 물가도 영향을 받을 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"소비자들이 물건을 사는 돈을 아끼게 되어, 소비가 줄어들 수 있어요!\",\n       \"제품 가격이 오르면 소비자들이 더 적게 खरीद게 되어, 판매량이 줄어들 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "소비자 지출 감소",
-   "one_liner": "가스 가격 상승이 소비자 지출을 제한하고 있다고 P&G가 밝혔어요",
-   "why_now": "가스 가격이 오르면 소비자들이 다른 물건을 사는 데 돈을 쓰기 어려워져요",
+   "title": "Procter & Gamble…",
+   "one_liner": "Procter & Gamble Stock : Buy , Hold , or Sell ?",
+   "why_now": null,
    "details": [
-    "P&G는 가스 가격 상승이 소비자 지출을 제한한다고 밝혔어요",
-    "제품 판매 성장 속도가 느려질 것으로 예상돼요",
-    "제조 비용 증가로 인해 소비자 물가도 영향을 받을 수 있어요"
+    "Procter & Gamble Stock : Buy , Hold , or Sell ?",
+    "PYMNTS | Procter & Gamble Says Gas Prices Limiting Consumer Spending",
+    "Procter & Gamble Predicts Slower Growth Amid Rising Costs , ETRetail"
    ],
-   "effects": [
-    "소비자들이 물건을 사는 돈을 아끼게 되어, 소비가 줄어들 수 있어요!",
-    "제품 가격이 오르면 소비자들이 더 적게 खरीद게 되어, 판매량이 줄어들 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "ff3268a2d996278dba4bcca54d659b0d2e8ae5f1"
+  "fact_hash": "f4bec5bc034282546c9cc21fdd0cd286e9806a29"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-29T22:27:13.135747+00:00"
+  "at": "2026-08-01T06:50:31.481980+00:00"
  },
  "glossary": [],
  "related": [
@@ -107,6 +124,12 @@
    "shared": []
   },
   {
+   "id": "cf4a2e5ae45f8dbcc",
+   "title": "Average 30 - year US mortgage rate rises to highest level in a year at 6 . 66 %",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
    "id": "ccabc6b42e9ade3d7",
    "title": "Seagate Shares Rise After Fourth - Quarter Results Beat Expectations and Outlook Surprises to the Upside",
    "category": "MACRO",
@@ -115,12 +138,6 @@
   {
    "id": "c4a06e144229d2074",
    "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
-   "category": "MACRO",
-   "shared": []
-  },
-  {
-   "id": "cf4a2e5ae45f8dbcc",
-   "title": "Average 30 - year US mortgage rate rises to highest level in a year at 6 . 66 %",
    "category": "MACRO",
    "shared": []
   }

@@ -155,54 +155,46 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-07-30T00:17:34.569978+00:00",
+  "model": "template",
+  "created_at": "2026-08-01T06:51:45.461508+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
     "Musk Net Worth Down By More Than $600 Billion as SpaceX , Tesla Woes Mount - Tesla ( NASDAQ : TSLA ), SpaceX",
+    "SpaceX and Tesla Are Considering a Mega Merger -- Here What Investors Need to Know",
     "Gary Black Issues Warning to Tesla Investors Ahead of Potential SpaceX Merger - Tesla ( NASDAQ : TSLA ), Spac",
-    "Tesla Q2 Earnings , Musk Robotaxi Bets , SpaceX Merger on the Horizon and More : This Week in Mobility -",
-    "Tesla Closed Tuesday 3 % Above Its 52 - Week Low . Here What Happened the Last 3 Times It Got This Close ."
+    "Tesla Q2 Earnings , Musk Robotaxi Bets , SpaceX Merger on the Horizon and More : This Week in Mobility -"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\":\"테슬라 주가 하락\",\n   \"one_liner\":\"테슬라 주가가 많이 내렸어요\",\n   \"why_now\":\"주가가 많이 내리면 투자자들이 주의를 기울이게 되고, 회사에 대한 평가도 영향을 받을 수 있어요\",\n   \"impact_line\":\"테슬라 자동차를 사거나 투자하는 사람들의 지갑에 영향을 줄 수 있어요\",\n   \"details\":[\n      \"테슬라 주가가 1년간 30% 내렸어요\",\n      \"테슬라와 스페이스X의 어려움이 엘론 머스크의 재산에 영향을 줬어요\",\n      \"테슬라의 수익과 머스크의 로보택시 투자, 스페이스X와의 합병 가능성이 चर्च돼요\"\n   ],\n   \"visual_type\":\"none\",\n   \"effects\":[\n      \"테슬라 주가가 더 내리면 투자자들이 더 주의를 기울이게 될 수 있어요!\",\n      \"테슬라의 자동차 판매가 영향을 받을 수 있어요!\"\n   ],\n   \"glossary\":[\n      {\n         \"term\":\"로보택시\",\n         \"easy\":\"자율 주행이 가능한 택시에요\",\n         \"example\":\"로보택시는 사람이 운전하지 않고도 사람을 태워 줄 수 있어요\"\n      }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "why_now 55자 초과(58)",
-     "입력에 없는 숫자: [6000.0]"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
    }
   ],
   "output": {
-   "title": "테슬라 주가 하락",
-   "one_liner": "테슬라 주가가 많이 내렸어요",
-   "why_now": "주가가 많이 내리면 투자자들이 주의를 기울이게 되고, 회사에 대한 평가도 영향을 받을 수 있어요",
+   "title": "Down 30 % on the…",
+   "one_liner": "Down 30 % on the Year , Is Tesla Stock a Buy On…",
+   "why_now": null,
    "details": [
-    "테슬라 주가가 1년간 30% 내렸어요",
-    "테슬라와 스페이스X의 어려움이 엘론 머스크의 재산에 영향을 줬어요",
-    "테슬라의 수익과 머스크의 로보택시 투자, 스페이스X와의 합병 가능성이 चर्च돼요"
+    "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
+    "Musk Net Worth Down By More Than $600 Billion as SpaceX , Tesla Woes Mount - Tesla ( NASDAQ : TSLA ), SpaceX",
+    "SpaceX and Tesla Are Considering a Mega Merger -- Here What Investors Need to Know"
    ],
-   "effects": [
-    "테슬라 주가가 더 내리면 투자자들이 더 주의를 기울이게 될 수 있어요!",
-    "테슬라의 자동차 판매가 영향을 받을 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "91a55f027bad10a796ec83dc4552cb055617b6d4"
+  "fact_hash": "5fccc82cb99acb5874172db87cd5f6c207e6fb32"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-29T19:51:43.649024+00:00"
+  "at": "2026-08-01T06:51:45.461391+00:00"
  },
  "glossary": [],
  "related": [

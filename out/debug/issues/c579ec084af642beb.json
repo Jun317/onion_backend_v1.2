@@ -850,8 +850,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-31T20:02:27.515122+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-01T06:48:22.524268+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -864,26 +864,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 실업 청구 건수\",\n   \"one_liner\": \"미국 실업 청구 건수가 1969년 이후 가장 낮은 수준이 됐어요\",\n   \"why_now\": \"실업 청구 건수가 줄면 경제가 좋아지고 있는 거예요\",\n   \"impact_line\": \"실직 위험이 줄어들 수 있어요\",\n   \"details\": [\n       \"미국 실업 청구 건수가 1969년 이후 가장 낮은 수준에 도달했어요\",\n       \"이것은 미국 경제가 강세를 보이고 있음을 의미해요\",\n       \"실업률이 낮아지면 소비자 지출이 늘어나 경제 성장에 기여할 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"실업률이 낮아지면 소비자 신뢰가 높아져 소비가 늘어날 수 있어요!\",\n       \"경제 성장이 지속되면 기업의 수익도 증가할 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Anthony Taylor…",
-   "one_liner": "Anthony Taylor biggest controversies , huge…",
-   "why_now": null,
+   "title": "미국 실업 청구 건수",
+   "one_liner": "미국 실업 청구 건수가 1969년 이후 가장 낮은 수준이 됐어요",
+   "why_now": "실업 청구 건수가 줄면 경제가 좋아지고 있는 거예요",
    "details": [
-    "Anthony Taylor biggest controversies , huge career earnings and real reason for quitting",
-    "Vicious cycle : What you need to know about Trump Great Depression - era tariff tool",
-    "Here Why Accenture ( ACN ) is Struggling"
+    "미국 실업 청구 건수가 1969년 이후 가장 낮은 수준에 도달했어요",
+    "이것은 미국 경제가 강세를 보이고 있음을 의미해요",
+    "실업률이 낮아지면 소비자 지출이 늘어나 경제 성장에 기여할 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "실업률이 낮아지면 소비자 신뢰가 높아져 소비가 늘어날 수 있어요!",
+    "경제 성장이 지속되면 기업의 수익도 증가할 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "08983d14bf158a5b174c832315ab5d477ce6b3f0"
  },
@@ -891,7 +892,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-07-31T20:02:27.515059+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "실업률",
+   "easy": "일하고 싶은 사람 중 일자리를 못 구한 비율이에요.",
+   "example": "높을수록 경기가 나쁘다는 신호예요."
+  }
+ ],
  "related": [
   {
    "id": "c8759b0f51add9c4b",
@@ -906,20 +913,20 @@
    "shared": []
   },
   {
-   "id": "c2fe47d2110ccdaa3",
-   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
    "id": "c26db649df2243106",
    "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "cf92e75ea2709f911",
-   "title": "Meta Stock Is Down Nearly 10 % in 2026 . Should You Buy Before July 29 Q2 Earnings ?",
+   "id": "c2fe47d2110ccdaa3",
+   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c8b4b9d481b23c014",
+   "title": "Grupo Televisa Q2 Earnings Call Highlights",
    "category": "EARNINGS",
    "shared": []
   }

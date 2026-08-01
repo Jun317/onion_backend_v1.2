@@ -104,12 +104,13 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-31T15:35:03.581128+00:00",
+  "model": "template",
+  "created_at": "2026-08-01T06:50:12.949946+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
    "headlines": [
+    "US Treasury Informed Banks It May Intervene In Japan Yen , As Market Laughs At BOJ Own Attempts To Prop Up Currency",
     "Nikkei Jumps 2 , 494 Points as BOJ Hold and AI Rebound Lift Tokyo",
     "Bank of Japan keeps main interest rate unchanged",
     "Bank of Japan leaves rates unchanged",
@@ -117,58 +118,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"일본 중앙은행 금리 동결\",\n  \"one_liner\": \"일본 중앙은행이 기준금리를 그대로 유지하기로 했어요.\",\n  \"why_now\": \"금리가 그대로 유지되면 대출 이자나 투자 환경에 큰 변화가 없을 것으로 보여요.\",\n  \"impact_line\": \"대출 이자 부담이나 투자 환경에 큰 변화가 없을 수 있어요.\",\n  \"details\": [\n    \"일본 중앙은행이 기준금리를 동결했어요.\",\n    \"이는 시장의 예상과 같은 결정이에요.\",\n    \"도쿄 증시의 닛케이 지수가 크게 올랐어요.\",\n    \"인공지능 관련 주식의 반등이 지수 상승을 이끌었어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"금리가 동결되면서 엔화 가치나 일본 주식 시장에 미치는 영향은 제한적일 수 있어요!\",\n    \"일본 경제의 현재 상황을 유지하려는 의도로 해석될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"기준금리\",\n      \"easy\": \"중앙은행이 정하는 나라의 기본 이자율이에요.\",\n      \"example\": \"기준금리가 내리면 대출 이자도 보통 따라 내려요.\"\n    },\n    {\n      \"term\": \"닛케이 지수\",\n      \"easy\": \"일본 도쿄 증권거래소에 상장된 주요 기업들의 주가를 평균 낸 지수예요.\",\n      \"example\": \"닛케이 지수가 오르면 일본 경제가 좋아지고 있다고 볼 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
    }
   ],
   "output": {
-   "title": "일본 중앙은행 금리 동결",
-   "one_liner": "일본 중앙은행이 기준금리를 그대로 유지하기로 했어요.",
-   "why_now": "금리가 그대로 유지되면 대출 이자나 투자 환경에 큰 변화가 없을 것으로 보여요.",
+   "title": "US Treasury Informed…",
+   "one_liner": "US Treasury Informed Banks It May Intervene In…",
+   "why_now": null,
    "details": [
-    "일본 중앙은행이 기준금리를 동결했어요.",
-    "이는 시장의 예상과 같은 결정이에요.",
-    "도쿄 증시의 닛케이 지수가 크게 올랐어요.",
-    "인공지능 관련 주식의 반등이 지수 상승을 이끌었어요."
+    "US Treasury Informed Banks It May Intervene In Japan Yen , As Market Laughs At BOJ Own Attempts To Prop Up Currency",
+    "Nikkei Jumps 2 , 494 Points as BOJ Hold and AI Rebound Lift Tokyo",
+    "Bank of Japan keeps main interest rate unchanged"
    ],
-   "effects": [
-    "금리가 동결되면서 엔화 가치나 일본 주식 시장에 미치는 영향은 제한적일 수 있어요!",
-    "일본 경제의 현재 상황을 유지하려는 의도로 해석될 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "kr_base_rate"
   },
-  "fact_hash": "7d148aa373e4a474fb1a563004cb7b2dd3b3de7d"
+  "fact_hash": "e938129f1b89fc294f2f7c40f9a64f893326b4e8"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-07-31T11:03:09.920651+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-01T06:50:12.949823+00:00"
  },
- "glossary": [
-  {
-   "term": "중앙은행",
-   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
-   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
-  },
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  },
-  {
-   "term": "기준금리",
-   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
-   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "cea83213c8906724e",
