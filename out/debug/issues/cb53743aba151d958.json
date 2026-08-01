@@ -9,11 +9,21 @@
  "entity_keys": [
   "F"
  ],
- "seen_sources": 3,
- "importance": 85,
+ "seen_sources": 4,
+ "importance": 100,
  "created_at": "2026-07-29T17:45:27.158116+00:00",
- "last_update": "2026-07-29T22:26:52.614110+00:00",
+ "last_update": "2026-08-01T15:33:54.879604+00:00",
  "members": [
+  {
+   "id": "a60e68ce80fb997b974ec726b1b0676f4f984b77",
+   "source": "themarketsdaily.com",
+   "tier": "wire",
+   "url": "https://www.themarketsdaily.com/2026/08/01/ford-motor-nysef-trading-down-2-3-should-you-sell-2.html",
+   "title": "Ford Motor ( NYSE : F ) Trading Down 2 . 3 % – Should You Sell ?",
+   "published_at": "2026-08-01T14:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8576
+  },
   {
    "id": "aeef2de50203a28f3cd4c59d5614e71a34fc8e09",
    "source": "fool.com",
@@ -22,7 +32,7 @@
    "title": "Stock Market Today , July 29 : Ford Beats Earnings , Raises 2026 Guidance on Production Strength",
    "published_at": "2026-07-29T21:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8603
+   "sim_to_centroid": 0.8712
   },
   {
    "id": "a96977da01e373c5f112708e34ee4e1145baeaa3",
@@ -32,7 +42,7 @@
    "title": "The Hartford Insurance Group ( NYSE : HIG ) Reaches New 12 - Month High on Analyst Upgrade",
    "published_at": "2026-07-29T15:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9941
+   "sim_to_centroid": 0.9917
   },
   {
    "id": "6354fc3d94c3021654f9034d27be997c349227a5",
@@ -42,11 +52,18 @@
    "title": "The Hartford Insurance Group ( NYSE : HIG ) Reaches New 1 - Year High Following Analyst Upgrade",
    "published_at": "2026-07-29T15:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9938
+   "sim_to_centroid": 0.9902
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Ford Motor ( NYSE : F ) Trading Down 2 . 3 % – Should You Sell ?",
+   "source": "themarketsdaily.com",
+   "url": "https://www.themarketsdaily.com/2026/08/01/ford-motor-nysef-trading-down-2-3-should-you-sell-2.html",
+   "at": "2026-08-01T14:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Stock Market Today , July 29 : Ford Beats Earnings , Raises 2026 Guidance on Production Strength",
@@ -70,45 +87,45 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-30T06:48:10.548060+00:00",
+  "model": "template",
+  "created_at": "2026-08-01T15:37:27.977531+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Ford Motor ( NYSE : F ) Trading Down 2 . 3 % – Should You Sell ?",
     "Stock Market Today , July 29 : Ford Beats Earnings , Raises 2026 Guidance on Production Strength",
     "The Hartford Insurance Group ( NYSE : HIG ) Reaches New 12 - Month High on Analyst Upgrade",
     "The Hartford Insurance Group ( NYSE : HIG ) Reaches New 1 - Year High Following Analyst Upgrade"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 증시 소폭 상승\",\n  \"one_liner\": \"미국 증시가 기업 실적 개선 소식에 힘입어 소폭 올랐어요.\",\n  \"why_now\": \"기업 실적이 좋으면 회사가 돈을 잘 벌고 있다는 뜻이라 주가가 오르는 경향이 있어요.\",\n  \"impact_line\": \"주식 투자 수익이 늘어날 수 있어요.\",\n  \"details\": [\n    \"포드 자동차는 예상보다 좋은 실적을 발표했어요.\",\n    \"포드 자동차는 올해 실적 전망치를 높였어요.\",\n    \"하트포드 보험 그룹은 증권사 추천에 힘입어 1년 최고 주가를 기록했어요.\"\n  ],\n  \"visual_type\": \"us_10y\",\n  \"effects\": [\n    \"기업들의 실적이 좋아지면 관련 주식 가격이 오를 수 있어요!\",\n    \"미국 경제 전반에 대한 긍정적인 전망이 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"실적\",\n      \"easy\": \"회사가 얼마나 돈을 벌고 썼는지 보여주는 성적표예요.\",\n      \"example\": \"이번 분기 실적이 좋아서 주가가 올랐어요.\"\n    },\n    {\n      \"term\": \"주가\",\n      \"easy\": \"회사의 가치를 나타내는 주식의 가격이에요.\",\n      \"example\": \"실적이 좋으면 주가가 오르고, 나쁘면 내리는 경향이 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국 증시 소폭 상승",
-   "one_liner": "미국 증시가 기업 실적 개선 소식에 힘입어 소폭 올랐어요.",
-   "why_now": "기업 실적이 좋으면 회사가 돈을 잘 벌고 있다는 뜻이라 주가가 오르는 경향이 있어요.",
+   "title": "Ford Motor ( NYSE :…",
+   "one_liner": "Ford Motor ( NYSE : F ) Trading Down 2 . 3 % –…",
+   "why_now": null,
    "details": [
-    "포드 자동차는 예상보다 좋은 실적을 발표했어요.",
-    "포드 자동차는 올해 실적 전망치를 높였어요.",
-    "하트포드 보험 그룹은 증권사 추천에 힘입어 1년 최고 주가를 기록했어요."
+    "Ford Motor ( NYSE : F ) Trading Down 2 . 3 % – Should You Sell ?",
+    "Stock Market Today , July 29 : Ford Beats Earnings , Raises 2026 Guidance on Production Strength",
+    "The Hartford Insurance Group ( NYSE : HIG ) Reaches New 12 - Month High on Analyst Upgrade"
    ],
-   "effects": [
-    "기업들의 실적이 좋아지면 관련 주식 가격이 오를 수 있어요!",
-    "미국 경제 전반에 대한 긍정적인 전망이 커질 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "003d06edaa6b3f5673539843bea1abce882ade50"
+  "fact_hash": "34904cbc0c42a5e3a053da6eb9336f28d61378f7"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-30T03:40:55.856792+00:00"
+  "at": "2026-08-01T15:37:27.977422+00:00"
  },
  "glossary": [],
  "related": [
@@ -131,8 +148,8 @@
    "shared": []
   },
   {
-   "id": "ccc137270dbb9d742",
-   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "id": "cb34f19e1978fa138",
+   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "category": "MARKET",
    "shared": []
   },

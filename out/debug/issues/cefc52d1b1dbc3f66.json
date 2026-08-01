@@ -155,8 +155,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-01T11:42:46.785409+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-01T15:34:00.495845+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -172,25 +172,27 @@
     "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations"
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 연준, 은행 내부자 대출 규정 검토\",\n  \"one_liner\": \"미국 연준이 은행 임원 등 내부자에게 돈을 빌려주는 규정을 바꾸려 해요.\",\n  \"why_now\": \"은행 내부자가 자기 은행에서 돈을 빌릴 때, 공정하게 결정되는지 다시 살펴보는 거예요.\",\n  \"impact_line\": \"은행 대출이 더 투명해질 수 있어요.\",\n  \"details\": [\n    \"미국 연준이 은행 내부자에게 돈을 빌려주는 규정을 현대화하려고 해요.\",\n    \"이 규정은 은행 임원, 이사회 멤버, 주요 주주 등에게 적용돼요.\",\n    \"이들은 은행의 대출 결정에 영향을 줄 수 있는 위치에 있어요.\",\n    \"연준은 이 제안에 대해 의견을 받고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"은행 내부자 대출이 더 공정하게 이루어질 수 있어요!\",\n    \"은행의 투명성과 건전성이 높아질 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"연준\",\n      \"easy\": \"미국의 중앙은행을 말해요. 금리를 결정하고 은행을 관리해요.\",\n      \"example\": \"연준이 금리를 올리면 대출 이자가 비싸져요.\"\n    },\n    {\n      \"term\": \"내부자\",\n      \"easy\": \"회사나 은행의 임원, 이사, 주요 주주처럼 중요한 결정을 내리는 사람이에요.\",\n      \"example\": \"내부자는 회사 기밀 정보를 이용해 부당 이득을 취하면 안 돼요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Federal Reserve…",
-   "one_liner": "Federal Reserve Board requests comment on a…",
-   "why_now": null,
+   "title": "미국 연준, 은행 내부자 대출 규정 검토",
+   "one_liner": "미국 연준이 은행 임원 등 내부자에게 돈을 빌려주는 규정을 바꾸려 해요.",
+   "why_now": "은행 내부자가 자기 은행에서 돈을 빌릴 때, 공정하게 결정되는지 다시 살펴보는 거예요.",
    "details": [
-    "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
-    "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"âbank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
-    "BofA Hartnett calls Fed  nakedly dovish , urges retreat from risk assets"
+    "미국 연준이 은행 내부자에게 돈을 빌려주는 규정을 현대화하려고 해요.",
+    "이 규정은 은행 임원, 이사회 멤버, 주요 주주 등에게 적용돼요.",
+    "이들은 은행의 대출 결정에 영향을 줄 수 있는 위치에 있어요.",
+    "연준은 이 제안에 대해 의견을 받고 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "은행 내부자 대출이 더 공정하게 이루어질 수 있어요!",
+    "은행의 투명성과 건전성이 높아질 것으로 예상돼요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "8dc38d9981fc85e963c8876a15d8532c0cfa1a6b"
@@ -199,7 +201,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-01T11:42:46.785159+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "연준",
+   "easy": "미국의 돈을 관리하는 중앙은행(Fed)이에요.",
+   "example": "미국의 이자를 여기서 정해요."
+  }
+ ],
  "related": [
   {
    "id": "cea83213c8906724e",

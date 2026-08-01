@@ -104,8 +104,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-01T11:39:11.873602+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-01T15:33:55.976593+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -118,32 +118,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"일본 중앙은행 금리 동결\",\n  \"one_liner\": \"일본 중앙은행이 기준금리를 그대로 유지하기로 했어요.\",\n  \"why_now\": \"금리를 그대로 두면 돈을 빌리는 비용이 그대로 유지되어 경제 활동에 큰 변화가 없을 수 있어요.\",\n  \"impact_line\": \"엔화 가치 하락이 계속되면 수입 물가가 오를 수 있어요.\",\n  \"details\": [\n    \"일본 중앙은행이 기준금리를 동결했어요.\",\n    \"이는 시장의 예상과 같은 결정이었어요.\",\n    \"일본의 주식 시장은 올랐어요.\",\n    \"엔화 가치를 지지하려는 일본 중앙은행의 노력이 시장에서 주목받고 있어요.\"\n  ],\n  \"visual_type\": \"us_policy_rate\",\n  \"effects\": [\n    \"엔화 가치가 계속 하락하면 일본에서 수입하는 물건의 가격이 오를 수 있어요!\",\n    \"일본 주식 시장은 상승세를 보였어요.\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"일본 중앙은행\",\n      \"easy\": \"일본의 돈과 금융 시장을 관리하는 기관이에요.\",\n      \"example\": \"일본 중앙은행은 금리를 결정해 경제에 영향을 줘요.\"\n    },\n    {\n      \"term\": \"기준금리\",\n      \"easy\": \"한국은행이 정하는 나라의 기본 이자율이에요.\",\n      \"example\": \"기준금리가 내리면 대출 이자도 보통 따라 내려요.\"\n    },\n    {\n      \"term\": \"엔화\",\n      \"easy\": \"일본에서 사용하는 돈을 말해요.\",\n      \"example\": \"엔화 가치가 떨어지면 한국에서 일본 여행이 더 저렴해져요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"일본 금리 유지\",\n   \"one_liner\": \"일본 중앙은행이 금리를 그대로 유지했어요\",\n   \"why_now\": \"금리 변동은 경제에 큰 영향을 미쳐요\",\n   \"impact_line\": \"일본 물가와 주식 시장에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"일본 중앙은행은 금리를 변경하지 않았어요\",\n       \"일본 경제에 대한 우려가 계속되고 있어요\",\n       \"일본 주식 시장은 금리 결정에 따라 상승했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"일본 물가가 안정될 수 있어요!\",\n       \"일본 주식 시장의 상승세가 지속될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects[1] 느낌표 종결 아님"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "US Treasury Informed…",
-   "one_liner": "US Treasury Informed Banks It May Intervene In…",
-   "why_now": null,
+   "title": "일본 금리 유지",
+   "one_liner": "일본 중앙은행이 금리를 그대로 유지했어요",
+   "why_now": "금리 변동은 경제에 큰 영향을 미쳐요",
    "details": [
-    "US Treasury Informed Banks It May Intervene In Japan Yen , As Market Laughs At BOJ Own Attempts To Prop Up Currency",
-    "Nikkei Jumps 2 , 494 Points as BOJ Hold and AI Rebound Lift Tokyo",
-    "Bank of Japan keeps main interest rate unchanged"
+    "일본 중앙은행은 금리를 변경하지 않았어요",
+    "일본 경제에 대한 우려가 계속되고 있어요",
+    "일본 주식 시장은 금리 결정에 따라 상승했어요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "일본 물가가 안정될 수 있어요!",
+    "일본 주식 시장의 상승세가 지속될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "e938129f1b89fc294f2f7c40f9a64f893326b4e8"
  },
@@ -151,7 +146,18 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}]}",
   "at": "2026-08-01T11:39:11.873394+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  }
+ ],
  "related": [
   {
    "id": "cea83213c8906724e",
