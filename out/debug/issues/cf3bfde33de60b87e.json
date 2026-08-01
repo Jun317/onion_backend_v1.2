@@ -850,8 +850,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-01T04:01:20.448075+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-01T09:30:04.351749+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -864,26 +864,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기업 실적 예상치 하회\",\n  \"one_liner\": \"여러 기업들이 예상보다 낮은 실적을 발표했어요.\",\n  \"why_now\": \"기업 실적이 예상보다 좋지 않으면 주가에 부정적인 영향을 줄 수 있어요.\",\n  \"impact_line\": \"관심 있는 기업의 주가가 흔들릴 수 있어요.\",\n  \"details\": [\n    \"DXC는 예상보다 낮은 주당순이익을 기록했어요.\",\n    \"넥스트파워는 예상보다 낮은 매출을 기록했어요.\",\n    \"돌비 래버러토리스는 예상보다 낮은 매출을 기록했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"기업들의 실적 부진은 관련 산업 전반의 투자 심리를 위축시킬 수 있어요!\",\n    \"투자자들은 실적이 좋은 기업으로 자금을 옮길 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"EPS\",\n      \"easy\": \"주식 한 주당 얼마만큼의 이익을 냈는지 보여주는 수치예요.\",\n      \"example\": \"EPS가 높으면 주식 한 주당 이익이 많다는 뜻이에요.\"\n    },\n    {\n      \"term\": \"Non-GAAP\",\n      \"easy\": \"회계 기준에서 정한 일반적인 방식이 아닌, 기업이 자체적으로 조정한 이익이에요.\",\n      \"example\": \"기업들은 특별한 비용을 제외하고 이익을 계산하기도 해요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "FinancialContent -…",
-   "one_liner": "FinancialContent - DXC ( NYSE : DXC ) Q2 CY2026…",
-   "why_now": null,
+   "title": "기업 실적 예상치 하회",
+   "one_liner": "여러 기업들이 예상보다 낮은 실적을 발표했어요.",
+   "why_now": "기업 실적이 예상보다 좋지 않으면 주가에 부정적인 영향을 줄 수 있어요.",
    "details": [
-    "FinancialContent - DXC ( NYSE : DXC ) Q2 CY2026 Earnings Results : Non - GAAP EPS Below Expectations",
-    "FinancialContent - Nextpower ( NASDAQ : NXT ) Misses Q2 CY2026 Sales Expectations",
-    "GE Vernova vs . NuScale Power : Which Industrials Stock Is a Better Buy in 2026 ?"
+    "DXC는 예상보다 낮은 주당순이익을 기록했어요.",
+    "넥스트파워는 예상보다 낮은 매출을 기록했어요.",
+    "돌비 래버러토리스는 예상보다 낮은 매출을 기록했어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "기업들의 실적 부진은 관련 산업 전반의 투자 심리를 위축시킬 수 있어요!",
+    "투자자들은 실적이 좋은 기업으로 자금을 옮길 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "f35e6fd122d487a40e4cb8d3a127b39b0f053488"
  },
@@ -891,7 +892,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-01T04:01:20.448016+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "순이익",
+   "easy": "비용·세금까지 다 빼고 최종으로 남은 이익이에요.",
+   "example": ""
+  }
+ ],
  "related": [
   {
    "id": "c7b7e590611a1bac4",

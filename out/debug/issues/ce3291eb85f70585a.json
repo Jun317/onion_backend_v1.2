@@ -7,10 +7,10 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 15,
+ "seen_sources": 16,
  "importance": 65,
  "created_at": "2026-07-30T22:32:46.860298+00:00",
- "last_update": "2026-08-01T06:48:10.714557+00:00",
+ "last_update": "2026-08-01T09:28:57.560489+00:00",
  "members": [
   {
    "id": "150008a7e7ec4b409e7f27f7ee8a35457a8c6662",
@@ -91,6 +91,16 @@
    "published_at": "2026-08-01T04:30:00+00:00",
    "is_dup": 0,
    "sim_to_centroid": 0.8387
+  },
+  {
+   "id": "23e66eeae23d1d227e2d1e1f7484c4d02950daa4",
+   "source": "quesnelobserver.com",
+   "tier": "wire",
+   "url": "https://quesnelobserver.com/2026/07/31/b-c-conservative-leader-talks-future-plans-but-first-needs-a-seat/",
+   "title": "B . C . Conservative leader talks future plans , but first needs a seat in the legislature",
+   "published_at": "2026-08-01T04:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8289
   },
   {
    "id": "a27f453e29917b13941f88076f556e93daa0aca9",
@@ -340,6 +350,13 @@
   },
   {
    "kind": "headline",
+   "title": "B . C . Conservative leader talks future plans , but first needs a seat in the legislature",
+   "source": "quesnelobserver.com",
+   "url": "https://quesnelobserver.com/2026/07/31/b-c-conservative-leader-talks-future-plans-but-first-needs-a-seat/",
+   "at": "2026-08-01T04:30:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Magna International ( NYSE : MGA ) Announces Earnings Results , Beats Expectations By $0 . 33 EPS",
    "source": "themarketsdaily.com",
    "url": "https://www.themarketsdaily.com/2026/07/31/magna-international-nysemga-announces-earnings-results-beats-expectations-by-0-33-eps.html",
@@ -460,16 +477,16 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-01T04:03:29.864063+00:00",
+  "created_at": "2026-08-01T09:32:03.096756+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
     "AUO ( OTCMKTS : AUOTY ) Issues Earnings Results , Beats Expectations By $0 . 05 EPS",
-    "FinancialContent - Monolithic Power Systems ( NASDAQ : MPWR ) Beats Expectations in Strong Q2 , Stock Jumps 10 . 5 %",
     "Altria Group Investigation Notice : Levi & Korsinsky Notifies Investors of Pending Investigation Into Altria Group ( MO )",
     "Pharming Group Investigation Notice : Levi & Korsinsky Notifies Investors of Pending Investigation Into Pharming Group ( PHAR )",
-    "Magna International ( NYSE : MGA ) Announces Earnings Results , Beats Expectations By $0 . 33 EPS"
+    "FinancialContent - Monolithic Power Systems ( NASDAQ : MPWR ) Beats Expectations in Strong Q2 , Stock Jumps 10 . 5 %",
+    "Teladoc Health Investigation Notice : Levi & Korsinsky Notifies Investors of Pending Investigation Into Teladoc Health ( TDOC )"
    ],
    "official_lines": []
   },
@@ -488,17 +505,17 @@
    "why_now": null,
    "details": [
     "AUO ( OTCMKTS : AUOTY ) Issues Earnings Results , Beats Expectations By $0 . 05 EPS",
-    "FinancialContent - Monolithic Power Systems ( NASDAQ : MPWR ) Beats Expectations in Strong Q2 , Stock Jumps 10 . 5 %",
-    "Altria Group Investigation Notice : Levi & Korsinsky Notifies Investors of Pending Investigation Into Altria Group ( MO )"
+    "Altria Group Investigation Notice : Levi & Korsinsky Notifies Investors of Pending Investigation Into Altria Group ( MO )",
+    "Pharming Group Investigation Notice : Levi & Korsinsky Notifies Investors of Pending Investigation Into Pharming Group ( PHAR )"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "cca8426f5cddc64ff38ff2087aa85426b4b0b780"
+  "fact_hash": "fa0d6294f53a5d9a116219ae67f421ea2461cfde"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-01T04:03:29.863998+00:00"
+  "at": "2026-08-01T09:32:03.096693+00:00"
  },
  "glossary": [],
  "related": [
@@ -515,6 +532,12 @@
    "shared": []
   },
   {
+   "id": "c8b4b9d481b23c014",
+   "title": "Grupo Televisa Q2 Earnings Call Highlights",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
    "id": "c26db649df2243106",
    "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
    "category": "EARNINGS",
@@ -523,12 +546,6 @@
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c8b4b9d481b23c014",
-   "title": "Grupo Televisa Q2 Earnings Call Highlights",
    "category": "EARNINGS",
    "shared": []
   }

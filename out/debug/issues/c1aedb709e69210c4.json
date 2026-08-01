@@ -663,42 +663,49 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-01T04:01:01.765603+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-01T09:30:00.459628+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
-    "Expedia Group Stock : Is Wall Street Bullish or Bearish ?",
-    "Huntington Bancshares Stock Outlook : Is Wall Street Bullish or Bearish ?",
-    "Apollo Global Management Stock : Is Wall Street Bullish or Bearish ?",
-    "UBS Group Has Lowered Expectations for O - I Glass ( NYSE : OI ) Stock Price",
-    "Do Wall Street Analysts Like SLB Stock ?"
+    "Marvell Stock : Buy the Dip ? | The Motley Fool",
+    "SoFi Stock Analysis : Buy the Dip ? | The Motley Fool",
+    "ASML Stock : Buy the Dip ? | The Motley Fool",
+    "Coca - Cola Stock : Buy , Hold , or Sell ? | The Motley Fool",
+    "Expedia Group Stock : Is Wall Street Bullish or Bearish ?"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"주식 투자 조언\", \"one_liner\": \"미국 증권 분석 매체가 여러 주식의 투자 방법을 조언했어요.\", \"why_now\": \"주식 시장은 변동성이 커서 전문가의 분석을 참고하는 것이 도움이 될 수 있어요.\", \"impact_line\": \"주식 투자를 고려한다면 전문가의 의견을 참고해 보세요.\", \"details\": [\"미국 증권 분석 매체인 더 모틀리 풀이 마벨, 소파이, ASML, 코카콜라 주식에 대한 투자 조언을 내놓았어요.\", \"이 매체는 이들 주식의 매수, 보유, 매도 여부에 대해 분석했어요.\", \"또한 월스트리트에서 엑스페디아 그룹 주식에 대해 낙관적인지 비관적인지에 대한 분석도 나왔어요.\"], \"visual_type\": \"none\", \"effects\": [\"주식 시장에 대한 관심이 높아지면서 투자 관련 정보가 늘어날 수 있어요!\", \"개별 주식의 가격 변동성이 커질 수 있어요!\"], \"glossary\": [{\"term\": \"주식\", \"easy\": \"회사의 소유권 일부를 나타내는 증권이에요.\", \"example\": \"주식을 사면 그 회사의 주인이 되는 거예요.\"}, {\"term\": \"매수\", \"easy\": \"물건이나 주식을 사는 것을 말해요.\", \"example\": \"주식 시장이 좋을 때 매수하는 것이 보통 유리해요.\"}, {\"term\": \"보유\", \"easy\": \"주식이나 자산을 계속 가지고 있는 것을 말해요.\", \"example\": \"주가 상승을 기대하며 주식을 계속 보유할 수 있어요.\"}, {\"term\": \"매도\", \"easy\": \"물건이나 주식을 파는 것을 말해요.\", \"example\": \"주가가 많이 올랐을 때 매도하면 이익을 얻을 수 있어요.\"}], \"impact_line\": \"주식 투자를 고려한다면 전문가의 의견을 참고해 보세요.\"}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Expedia Group Stock…",
-   "one_liner": "Expedia Group Stock : Is Wall Street Bullish or…",
-   "why_now": null,
+   "title": "주식 투자 조언",
+   "one_liner": "미국 증권 분석 매체가 여러 주식의 투자 방법을 조언했어요.",
+   "why_now": "주식 시장은 변동성이 커서 전문가의 분석을 참고하는 것이 도움이 될 수 있어요.",
    "details": [
-    "Expedia Group Stock : Is Wall Street Bullish or Bearish ?",
-    "Huntington Bancshares Stock Outlook : Is Wall Street Bullish or Bearish ?",
-    "Apollo Global Management Stock : Is Wall Street Bullish or Bearish ?"
+    "미국 증권 분석 매체인 더 모틀리 풀이 마벨, 소파이, ASML, 코카콜라 주식에 대한 투자요.",
+    "이 매체는 이들 주식의 매수, 보유, 매도 여부에 대해 분석했어요.",
+    "또한 월스트리트에서 엑스페디아 그룹 주식에 대해 낙관적인지 비관적인지에 대한 분석도 나왔어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "주식 시장에 대한 관심이 높아지면서 투자 관련 정보가 늘어날 수 있어요!",
+    "개별 주식의 가격 변동성이 커질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "44c98a03354f8e014af19aacd8f400c03bf1ede2"
+  "fact_hash": "6d433a80968d08cc4c3790957bb2a56f13b045ad"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

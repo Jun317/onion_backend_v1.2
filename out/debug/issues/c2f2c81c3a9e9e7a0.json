@@ -7,10 +7,10 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 12,
+ "seen_sources": 13,
  "importance": 65,
  "created_at": "2026-07-30T22:32:46.858882+00:00",
- "last_update": "2026-08-01T06:48:10.714437+00:00",
+ "last_update": "2026-08-01T09:28:57.560747+00:00",
  "members": [
   {
    "id": "5d8f42c65b98ad2863b3ff8d4274f28f2a269303",
@@ -51,6 +51,16 @@
    "published_at": "2026-08-01T04:30:00+00:00",
    "is_dup": 0,
    "sim_to_centroid": 0.9463
+  },
+  {
+   "id": "74ad3ffccd88463a96bb4e3a9080a5bca2841832",
+   "source": "southcoastregister.com.au",
+   "tier": "wire",
+   "url": "https://www.southcoastregister.com.au/story/9321824/bird-flu-cases-in-australiia-grow-to-more-than-50/",
+   "title": "Bird flu cases in Australiia grow to more than 50",
+   "published_at": "2026-08-01T04:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8264
   },
   {
    "id": "dddd2bc1ba344f4fa8309029e2c8d4fa21491e64",
@@ -262,6 +272,13 @@
   },
   {
    "kind": "headline",
+   "title": "Bird flu cases in Australiia grow to more than 50",
+   "source": "southcoastregister.com.au",
+   "url": "https://www.southcoastregister.com.au/story/9321824/bird-flu-cases-in-australiia-grow-to-more-than-50/",
+   "at": "2026-08-01T04:30:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "LPL reclaims recruiting crown , sees new assets swell in Q2",
    "source": "financial-planning.com",
    "url": "https://www.financial-planning.com/news/lpl-reclaims-recruiting-crown-sees-new-assets-swell-in-q2",
@@ -375,45 +392,53 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-01T04:03:48.655822+00:00",
+  "created_at": "2026-08-01T09:31:44.633968+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "TriMas Q2 Earnings Call Highlights",
     "Steven Madden Q2 Earnings Call Highlights",
     "Quad Graphics Q2 Earnings Call Highlights",
-    "TriMas Q2 Earnings Call Highlights",
-    "Dominion Energy Q2 Earnings Call Highlights",
-    "Safe Bulkers Q2 Earnings Call Highlights"
+    "Safe Bulkers Q2 Earnings Call Highlights",
+    "Dominion Energy Q2 Earnings Call Highlights"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"기업 실적 발표\", \"one_liner\": \"여러 기업들이 2분기 실적을 발표했어요.\", \"why_now\": \"기업의 실적은 앞으로의 성장 가능성을 보여주는 중요한 지표예요.\", \"impact_line\": \"투자자들은 기업의 실적을 보고 주식 투자를 결정할 수 있어요.\", \"details\": [\"트라이마스, 스티븐 마든, 쿼드 그래픽스, 세이프 벌커스, 도미니언 에너지 등 여러 기업이 2분기 실적을 발표했습니다.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": []}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
     ]
    }
   ],
   "output": {
-   "title": "Steven Madden Q2…",
-   "one_liner": "Steven Madden Q2 Earnings Call Highlights",
+   "title": "TriMas Q2 Earnings…",
+   "one_liner": "TriMas Q2 Earnings Call Highlights",
    "why_now": null,
    "details": [
+    "TriMas Q2 Earnings Call Highlights",
     "Steven Madden Q2 Earnings Call Highlights",
-    "Quad Graphics Q2 Earnings Call Highlights",
-    "TriMas Q2 Earnings Call Highlights"
+    "Quad Graphics Q2 Earnings Call Highlights"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "607d41a06f0a528643d3357384622e78acc139ef"
+  "fact_hash": "24dcbb712ac0a6fd7efd7b9a975ea49b4e4e5476"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-01T04:03:48.655762+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}]}",
+  "at": "2026-08-01T09:31:44.633909+00:00"
  },
  "glossary": [],
  "related": [
@@ -430,6 +455,12 @@
    "shared": []
   },
   {
+   "id": "c8b4b9d481b23c014",
+   "title": "Grupo Televisa Q2 Earnings Call Highlights",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
    "id": "c26db649df2243106",
    "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
    "category": "EARNINGS",
@@ -438,12 +469,6 @@
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c8b4b9d481b23c014",
-   "title": "Grupo Televisa Q2 Earnings Call Highlights",
    "category": "EARNINGS",
    "shared": []
   }
