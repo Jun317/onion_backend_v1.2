@@ -10,7 +10,7 @@
   "PYPL"
  ],
  "seen_sources": 3,
- "importance": 95,
+ "importance": 90,
  "created_at": "2026-07-28T18:53:01.536982+00:00",
  "last_update": "2026-07-31T01:01:23.804395+00:00",
  "members": [
@@ -104,8 +104,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-31T21:34:46.406844+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-01T03:59:58.472484+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -118,32 +118,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"페이팔 주가 상승\", \"one_liner\": \"페이팔 주가가 화요일에 오르고 있어요.\", \"why_now\": \"기업의 주가가 오르면 투자자들의 관심이 높아지고 기업의 미래 전망이 밝다고 볼 수 있어요.\", \"impact_line\": \"페이팔을 보유한 투자자들의 자산 가치가 늘어날 수 있어요.\", \"details\": [\"페이팔 홀딩스 주가가 화요일에 상승세를 보이고 있어요.\", \"최근 실적 발표 이후 주가에 대한 관심이 높아지고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"페이팔의 주가 상승은 투자자들에게 긍정적인 신호로 해석될 수 있어요!\", \"향후 페이팔의 사업 전망에 대한 기대감이 높아질 수 있어요!\"], \"glossary\": [{\"term\": \"페이팔 홀딩스\", \"easy\": \"미국의 대표적인 온라인 결제 서비스 기업이에요.\", \"example\": \"페이팔로 해외 사이트에서 물건을 살 때 편리하게 결제할 수 있어요.\"}], \"impact_line\": \"페이팔을 보유한 투자자들의 자산 가치가 늘어날 수 있어요.\"}",
+  "raw_response": "{\n  \"title\": \"페이팔 주식 전망\",\n   \"one_liner\": \"페이팔 주식에 대해 전문가들이 의견을 나누고 있어요\",\n   \"why_now\": \"주식 시장에서 페이팔의 가치와 전망을 평가하기 위해 중요해요\",\n   \"impact_line\": \"투자자들의 결정을影响할 수 있어요\",\n   \"details\": [\n      \"페이팔 주식에 대한 전문가들의 의견이 분분해요\",\n      \"페이팔의 최근 실적이 주식 시장에 영향을 미쳤어요\",\n      \"투자자들이 페이팔 주식을 사야 할지 말아야 할지 고민하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"페이팔 주식의 가치가 올라서 투자자들이 더 많이 사러 올 수 있어요!\",\n      \"페이팔 주식의 가치가 내려서 투자자들이 더 많이 팔아버릴 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "PayPal Holdings…",
-   "one_liner": "PayPal Holdings Stock Outlook : Is Wall Street…",
-   "why_now": null,
+   "title": "페이팔 주식 전망",
+   "one_liner": "페이팔 주식에 대해 전문가들이 의견을 나누고 있어요",
+   "why_now": "주식 시장에서 페이팔의 가치와 전망을 평가하기 위해 중요해요",
    "details": [
-    "PayPal Holdings Stock Outlook : Is Wall Street Bullish or Bearish ?",
-    "Is Takeout Target PayPal a Buy ?",
-    "Is Takeout Target PayPal a Buy ? | The Motley Fool"
+    "페이팔 주식에 대한 전문가들의 의견이 분분해요",
+    "페이팔의 최근 실적이 주식 시장에 영향을 미쳤어요",
+    "투자자들이 페이팔 주식을 사야 할지 말아야 할지 고민하고 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "페이팔 주식의 가치가 올라서 투자자들이 더 많이 사러 올 수 있어요!",
+    "페이팔 주식의 가치가 내려서 투자자들이 더 많이 팔아버릴 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "303c781a30fa6dacd760123137624a25ac75edab"
  },

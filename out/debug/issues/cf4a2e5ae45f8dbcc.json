@@ -324,7 +324,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-31T20:04:36.583805+00:00",
+  "created_at": "2026-08-01T03:59:47.126251+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -336,8 +336,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 주택담보대출 금리 상승\",\n   \"one_liner\": \"미국 주택담보대출 금리가 1년 만에最高치인 6.66%가 됐어요\",\n   \"why_now\": \"주택담보대출 금리가 오르면 집을 사기 어려워져요\",\n   \"impact_line\": \"미국에서 집을 사는 게 더 어려워질 수 있어요\",\n   \"details\": [\n      \"미국 주택담보대출 금리가 1년 만에 최고치에 달했어요\",\n      \"전쟁과 인플레이션 우려로 금리가 오르는 중이에요\",\n      \"원유 가격 상승과 인플레이션이 주택담보대출 금리 상승에 영향을 주고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"주택시장이 둔화될 수 있어요!\",\n      \"인플레이션이 지속되면 더 높은 금리할증이 예상돼요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"인플레이션\",\n         \"easy\": \"물가가 계속 오르는 현상이에요\",\n         \"example\": \"인플레이션이 높으면 물건값이 비싸져요\"\n      }\n   ]\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 에 한자/가나 포함",
+     "입력에 없는 숫자: [6.66]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -360,8 +367,8 @@
   "fact_hash": "d7b1fd9847c0baac6f4af267877eab22cb4bf01b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-31T20:04:36.583714+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"입력에 없는 숫자: [6.66]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-01T03:59:47.126157+00:00"
  },
  "glossary": [],
  "related": [

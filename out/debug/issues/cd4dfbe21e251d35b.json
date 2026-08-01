@@ -306,41 +306,45 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-31T20:04:55.101936+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-01T04:00:43.097941+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
-    "European indices close the day and the week mostly higher .",
-    "Asian Shares Advance As AI Stocks Rebound",
-    "Japan Stock Market May Extend Thursday Gains",
-    "Wall Street in solid advance , Dow Jones gains 615 points"
+    "Tech leads Wall Street higher Friday as S & P 500 , Dow , and Nasdaq gain",
+    "Wall Street rallies Friday , Nasdaq outperforms with 1 percent gain",
+    "Wall Street in solid advance , Dow Jones gains 615 points",
+    "U . S . Stocks Close Mostly Higher After Early Volatility",
+    "US stocks fluctuate in Friday trading"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 증시 상승 마감\",\n  \"one_liner\": \"미국 증시가 금요일에 기술주를 중심으로 상승 마감했어요.\",\n  \"why_now\": \"기술주가 오르면 관련 기업들의 실적이 좋아지고 이는 곧 경제 전반에 긍정적인 영향을 줄 수 있어요.\",\n  \"impact_line\": \"미국 증시 상승은 국내 증시에도 긍정적인 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"금요일 미국 증시가 전반적으로 올랐어요.\",\n    \"특히 기술주가 상승을 이끌었어요.\",\n    \"나스닥 지수는 1% 이상 올랐어요.\",\n    \"다우존스 지수는 615포인트 상승했어요.\",\n    \"장 초반 변동성이 있었지만 결국 상승 마감했어요.\"\n  ],\n  \"visual_type\": \"us_10y\",\n  \"effects\": [\n    \"미국 기술 기업들의 주가가 오르면 관련 산업의 투자 심리가 개선될 수 있어요!\",\n    \"미국 증시의 상승세는 다른 나라 증시에도 긍정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"기술주\",\n      \"easy\": \"컴퓨터, 인터넷, 소프트웨어 등 기술과 관련된 사업을 하는 회사의 주식을 말해요.\",\n      \"example\": \"최근 인공지능 관련 기술주들이 많이 올랐어요.\"\n    },\n    {\n      \"term\": \"나스닥\",\n      \"easy\": \"미국에서 가장 큰 기술주 중심의 주식 시장이에요.\",\n      \"example\": \"나스닥 지수가 오르면 미국 기술주들이 전반적으로 좋은 성과를 낸 것으로 봐요.\"\n    },\n    {\n      \"term\": \"다우존스 지수\",\n      \"easy\": \"미국을 대표하는 우량주 30개 회사의 주가를 평균해서 보여주는 지수예요.\",\n      \"example\": \"다우존스 지수가 오르면 미국 경제가 전반적으로 좋다고 볼 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "European indices…",
-   "one_liner": "European indices close the day and the week…",
-   "why_now": null,
+   "title": "미국 증시 상승 마감",
+   "one_liner": "미국 증시가 금요일에 기술주를 중심으로 상승 마감했어요.",
+   "why_now": "기술주가 오르면 관련 기업들의 실적이 좋아지고 이는 곧 경제 전반에 긍정적인 영향을 줄 수 있어요.",
    "details": [
-    "European indices close the day and the week mostly higher .",
-    "Asian Shares Advance As AI Stocks Rebound",
-    "Japan Stock Market May Extend Thursday Gains"
+    "금요일 미국 증시가 전반적으로 올랐어요.",
+    "특히 기술주가 상승을 이끌었어요.",
+    "나스닥 지수는 1% 이상 올랐어요.",
+    "다우존스 지수는 615포인트 상승했어요.",
+    "장 초반 변동성이 있었지만 결국 상승 마감했어요."
    ],
-   "effects": [],
+   "effects": [
+    "미국 기술 기업들의 주가가 오르면 관련 산업의 투자 심리가 개선될 수 있어요!",
+    "미국 증시의 상승세는 다른 나라 증시에도 긍정적인 영향을 줄 수 있어요!"
+   ],
    "visual_type": "us_10y"
   },
-  "fact_hash": "03455a61fe411987f199873cdbddf2fe3b0828d0"
+  "fact_hash": "3a2b26decf32c3d37f15e42ee79adfc5c0e84288"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

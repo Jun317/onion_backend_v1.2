@@ -631,8 +631,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-07-31T20:00:16.052951+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-01T04:00:01.824689+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -645,25 +645,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국-이란 충돌\",\n   \"one_liner\": \"미국과 이란의 충돌로 유가가 오를 수 있어요\",\n   \"why_now\": \"유가가 오르면 석유 회사에 이익이 늘어날 수 있어요\",\n   \"impact_line\": \"주유비가 오를 수 있어요\",\n   \"details\": [\n       \"미국과 이란의 충돌이 계속되고 있어요\",\n       \"이 충돌로 유가가 오를 수 있어요\",\n       \"석유 회사에 이익이 늘어날 수 있어요\",\n       \"주식 시장에 부정적인 영향을 미칠 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"유가가 오르면 주유비도 오를 수 있어요!\",\n       \"석유 회사에 이익이 늘어나면 경제에 긍정적인 영향을 미칠 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Oil companies are…",
-   "one_liner": "Oil companies are expected to reap big profits…",
-   "why_now": null,
+   "title": "미국-이란 충돌",
+   "one_liner": "미국과 이란의 충돌로 유가가 오를 수 있어요",
+   "why_now": "유가가 오르면 석유 회사에 이익이 늘어날 수 있어요",
    "details": [
-    "Oil companies are expected to reap big profits because of US - Iran conflict",
-    "Today - US launches  heavy  retalitory strikes on Iran",
-    "The US and Iran trade missile barrages as hopes dim for a quick resolution"
+    "미국과 이란의 충돌이 계속되고 있어요",
+    "이 충돌로 유가가 오를 수 있어요",
+    "석유 회사에 이익이 늘어날 수 있어요",
+    "주식 시장에 부정적인 영향을 미칠 수 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "유가가 오르면 주유비도 오를 수 있어요!",
+    "석유 회사에 이익이 늘어나면 경제에 긍정적인 영향을 미칠 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "e8cfee51a40c1a44ca270fdc076548dda95e91e8"

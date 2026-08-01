@@ -871,7 +871,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-31T21:33:55.922790+00:00",
+  "created_at": "2026-08-01T03:58:47.125434+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,16 +887,16 @@
     "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank"
    ]
   },
-  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 2분기에 1.5% 성장하는 데 그쳤어요.\",\n  \"why_now\": \"경제 성장이 둔화하면 소비와 투자가 줄어 물가 상승 압력이 낮아질 수 있어요.\",\n  \"impact_line\": \"물가가 안정되면 금리 인하 기대감이 커질 수 있어요.\",\n  \"details\": [\n    \"미국 경제는 2분기에 1.5% 성장했어요.\",\n    \"이는 이전 분기보다 낮은 성장률이에요.\",\n    \"하지만 국내 수요는 여전히 견조한 모습을 보였어요.\",\n    \"높은 물가 상승률 때문에 미국 중앙은행은 금리 인하를 서두르지 않을 것으로 보여요.\"\n  ],\n  \"visual_type\": \"usdkrw\",\n  \"effects\": [\n    \"물가 상승세가 꺾이면 소비자의 구매력이 회복될 수 있어요!\",\n    \"금리가 낮아지면 기업의 투자와 대출이 늘어날 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"미국 중앙은행\",\n      \"easy\": \"미국의 중앙은행으로, 나라 경제를 관리하고 금리를 결정해요.\",\n      \"example\": \"미국 중앙은행이 금리를 올리면 한국에도 영향을 줄 수 있어요.\"\n    },\n    {\n      \"term\": \"금리\",\n      \"easy\": \"돈을 빌리거나 맡길 때 내거나 받는 이자의 비율이에요.\",\n      \"example\": \"금리가 오르면 대출 이자가 늘어나 가계 부담이 커져요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\":\"미국 경제 성장 둔화\",\n   \"one_liner\":\"미국 경제가 2분기에 1.5% 성장했어요\",\n   \"why_now\":\"미국 경제 성장이 느려지면 소비자 물가가 영향을 받을 수 있어요\",\n   \"impact_line\":\"미국 물가가 높아지면 우리나라 수출이 어려워질 수 있어요\",\n   \"details\":[\n      \"미국 경제가 2분기에 1.5% 성장했어요\",\n      \"미국 물가 상승률이 여전히 높게 유지되고 있어요\",\n      \"미국 국내 수요는 여전히 강세를 보이고 있어요\"\n   ],\n   \"visual_type\":\"none\",\n   \"effects\":[\n      \"미국 물가가 높아져서 미국에서 물건을 사는 것이 어려워질 수 있어요!\",\n      \"미국 경제 성장 둔화로 우리나라 수출이 줄어들 수 있어요!\"\n   ],\n   \"glossary\":[]\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
      "입력에 없는 숫자: [1.5]"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
      "입력에 없는 숫자: [1.5]"
     ]
@@ -917,8 +917,8 @@
   "fact_hash": "63a23b84926d8182c0e9578910ec5097373cea82"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
-  "at": "2026-07-31T21:33:55.922612+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
+  "at": "2026-08-01T03:58:47.125282+00:00"
  },
  "glossary": [],
  "related": [
@@ -956,11 +956,11 @@
    ]
   },
   {
-   "id": "c7b7e590611a1bac4",
-   "title": "Baystreet . ca - Why CoreWeave , Nebius , and Intel Shares Fell",
-   "category": "MARKET",
+   "id": "cefc52d1b1dbc3f66",
+   "title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"âbank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+   "category": "POLICY",
    "shared": [
-    "SEC"
+    "FED"
    ]
   }
  ]

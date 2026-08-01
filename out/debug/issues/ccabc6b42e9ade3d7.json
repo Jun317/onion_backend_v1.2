@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-07-31T20:04:18.127792+00:00",
+  "created_at": "2026-08-01T03:59:19.015723+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -876,17 +876,25 @@
     "Mortgage Rates Rise for Fourth Straight Week , Hitting 12 - Month High",
     "Seagate Shares Rise After Fourth - Quarter Results Beat Expectations and Outlook Surprises to the Upside",
     "Bajaj Finance Hits Record High : Why Dalal Street Is Betting On More Than Just Strong Q1 Earnings",
-    "Oversold tech rebounds in a relief rally",
-    "Best high - yield savings interest rates today , Friday , July 31 , 2026 : You can earn up to 4 . 15 % APY"
+    "Tether Reports $1 . 5B Q2 Profit as Reserve Surplus Tops $4 . 1B",
+    "Oversold tech rebounds in a relief rally"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"주택담보대출 금리 상승\",\n   \"one_liner\": \"미국 주택담보대출 금리가 4주 연속으로 올라 1년래 최고치가 됐어요\",\n   \"why_now\": \"주택담보대출 금리가 오르면 집을 사거나 집을 담보로 돈을 빌리기가 어려워져요\",\n   \"impact_line\": \"집을 사거나 집을 담보로 돈을 빌리려는 사람들에게 부담이 늘 수 있어요\",\n   \"details\": [\n       \"미국 주택담보대출 금리가 4주 연속으로 올랐어요\",\n       \"주택담보대출 금리가 오르면 집을 사거나 집을 담보로 돈을 빌리기가 어려워져요\",\n       \"테더의 2분기 수익은 15억 달러에 달했어요\",\n       \"테더의 준비금이 41억 달러를 넘었어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주택시장이 둔화될 수 있어요\",\n       \"테더의 수익이 증가하면 투자자들의 신뢰가 높아질 수 있어요\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"테더\",\n           \"easy\": \"가상화폐 중 하나예요\",\n           \"example\": \"테더는 달러와 1:1로 교환할 수 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [15.0]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "effects[0] 느낌표 종결 아님",
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [15.0, 41.0]"
     ]
    }
   ],
@@ -902,11 +910,11 @@
    "effects": [],
    "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "3c7ed275897806f0c37f5419401ef9f599a2ce41"
+  "fact_hash": "5e22c030a87ec76884fa629d4525c49aea0ef60b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-31T20:04:18.127722+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [15.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [15.0, 41.0]\"]}]}",
+  "at": "2026-08-01T03:59:19.015666+00:00"
  },
  "glossary": [],
  "related": [
