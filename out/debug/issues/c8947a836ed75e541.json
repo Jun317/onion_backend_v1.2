@@ -53,8 +53,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-01T17:31:26.435444+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-01T21:15:11.960183+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,25 +64,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"우버, 자율주행 기술 확장\",\n  \"one_liner\": \"우버가 자율주행 기술을 활용해 사업 영역을 넓히고 있어요.\",\n  \"why_now\": \"자율주행 기술은 미래 모빌리티의 핵심으로, 우버의 행보는 관련 산업에 큰 영향을 줄 수 있어요.\",\n  \"impact_line\": null,\n  \"details\": [\n    \"우버는 자율주행 기술을 바탕으로 사업을 확장하고 있어요.\",\n    \"우버는 이 목표를 위해 여러 기업들과 협력하고 있어요.\",\n    \"우버와 웨이모 간의 자율주행 기술 경쟁이 심화되고 있어요.\",\n    \"특히 수도권 지역에서 자율주행 기술을 둘러싼 경쟁이 치열해요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"자율주행 기술을 가진 기업들의 협력 및 경쟁 구도가 더욱 복잡해질 수 있어요!\",\n    \"미래 모빌리티 시장의 판도가 우버의 행보에 따라 달라질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"자율주행 기술\",\n      \"easy\": \"사람이 운전하지 않아도 스스로 움직이는 자동차 기술이에요.\",\n      \"example\": \"자율주행 기술이 발전하면 운전이 더 편해질 수 있어요.\"\n    },\n    {\n      \"term\": \"웨이모\",\n      \"easy\": \"구글의 모회사 알파벳이 만든 자율주행 자동차 회사예요.\",\n      \"example\": \"웨이모는 이미 일부 지역에서 자율주행 택시 서비스를 하고 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Uber is building an…",
-   "one_liner": "Uber is building an autonomous vehicle empire ,…",
-   "why_now": null,
+   "title": "우버, 자율주행 기술 확장",
+   "one_liner": "우버가 자율주행 기술을 활용해 사업 영역을 넓히고 있어요.",
+   "why_now": "자율주행 기술은 미래 모빌리티의 핵심으로, 우버의 행보는 관련 산업에 큰 영향을 줄 수 있어요.",
    "details": [
-    "Uber is building an autonomous vehicle empire , and here every company it using to do it",
-    "Inside Uber - Waymo rift , there a battle over AVs in nation capital"
+    "우버는 자율주행 기술을 바탕으로 사업을 확장하고 있어요.",
+    "우버는 이 목표를 위해 여러 기업들과 협력하고 있어요.",
+    "우버와 웨이모 간의 자율주행 기술 경쟁이 심화되고 있어요.",
+    "특히 수도권 지역에서 자율주행 기술을 둘러싼 경쟁이 치열해요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "자율주행 기술을 가진 기업들의 협력 및 경쟁 구도가 더욱 복잡해질 수 있어요!",
+    "미래 모빌리티 시장의 판도가 우버의 행보에 따라 달라질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "02415fdb4272980573e000c6fc9affd2635df36e"
  },
