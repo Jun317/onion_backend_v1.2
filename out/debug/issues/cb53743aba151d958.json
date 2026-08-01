@@ -207,7 +207,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-01T19:41:36.649255+00:00",
+  "created_at": "2026-08-01T23:18:13.419525+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -216,22 +216,22 @@
     "The Hartford Insurance Group ( NYSE : HIG ) Reaches New 1 - Year High Following Analyst Upgrade",
     "Stock Market Today , July 29 : Ford Beats Earnings , Raises 2026 Guidance on Production Strength",
     "Ford Motor ( NYSE : F ) Trading Down 2 . 3 % – Should You Sell ?",
-    "Ford Motor Stock Outlook : Is Wall Street Bullish or Bearish ?"
+    "Most American  Car Company Ford Really Wants A New Canada / Mexico Trade Deal"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"포드 주가 하락\",\n    \"one_liner\": \"포드 자동차 주가가 2.3% 하락했어요.\",\n    \"why_now\": \"주가가 떨어지면 투자자들이 해당 기업의 미래 전망을 부정적으로 볼 수 있어요.\",\n    \"impact_line\": \"포드 주식을 가진 사람들의 투자금이 줄어들 수 있어요.\",\n    \"details\": [\n        \"포드 자동차 주가가 2.3% 하락했어요.\",\n        \"월스트리트에서는 포드 자동차의 주가 전망에 대해 엇갈린 의견을 보이고 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"포드 자동차의 주가가 더 하락할 가능성이 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"월스트리트\",\n            \"easy\": \"미국 뉴욕에 있는 금융 중심지를 말해요. 주식 시장을 대표하는 용어로 쓰이기도 해요.\",\n            \"example\": \"월스트리트 전문가들은 이번 분기 실적을 긍정적으로 보고 있어요.\"\n        }\n    ]\n}",
+  "raw_response": "{\n  \"title\": \"포드 실적 발표\",\n  \"one_liner\": \"포드가 예상보다 좋은 실적을 발표하고 올해 전망을 높였어요.\",\n  \"why_now\": \"기업의 실적 발표는 주가에 큰 영향을 미치며, 앞으로의 경제 상황을 엿볼 수 있는 기회예요.\",\n  \"impact_line\": \"포드 주가가 하락해 투자자들의 관심이 쏠리고 있어요.\",\n  \"details\": [\n    \"포드는 생산량 증가에 힘입어 올해 실적 전망을 상향 조정했어요.\",\n    \"포드의 주가는 현재 2.3% 하락한 상태예요.\",\n    \"다른 소식으로는, 더 하트포드 보험 그룹이 애널리스트의 평가 상향으로 1년 최고치를 기록했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"포드의 실적 발표와 전망 상향은 자동차 산업 전반에 긍정적인 영향을 줄 수 있어요!\",\n    \"하지만 당장의 주가 하락은 투자자들의 매도 압력으로 작용할 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"실적 발표\",\n      \"easy\": \"기업이 일정 기간 동안의 경영 성과를 공개하는 것을 말해요.\",\n      \"example\": \"실적 발표 후 주가가 오르거나 내리는 경우가 많아요.\"\n    },\n    {\n      \"term\": \"애널리스트\",\n      \"easy\": \"기업이나 시장을 분석하고 투자에 대한 의견을 내는 전문가예요.\",\n      \"example\": \"애널리스트의 추천으로 해당 주식이 주목받기도 해요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
+     "why_now 55자 초과(58)",
      "입력에 없는 숫자: [2.3]"
     ]
    },
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "details 3문장 미만",
      "입력에 없는 숫자: [2.3]"
     ]
    }
@@ -248,11 +248,11 @@
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "280bb8d369a64566ab73185ad6b5f35dbe1721d1"
+  "fact_hash": "cbbbc5e6bc6e233d52895bd9fe43f1fd0b608548"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.3]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [2.3]\"]}]}",
-  "at": "2026-08-01T19:41:36.649083+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"why_now 55자 초과(58)\", \"입력에 없는 숫자: [2.3]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [2.3]\"]}]}",
+  "at": "2026-08-01T23:18:13.419344+00:00"
  },
  "glossary": [],
  "related": [

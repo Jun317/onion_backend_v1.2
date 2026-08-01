@@ -172,8 +172,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-01T19:42:19.298014+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-01T23:19:04.725459+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -186,32 +186,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"코스피 지수 급등\",\n  \"one_liner\": \"한국 증시 코스피 지수가 반도체 관련 주식들의 상승에 힘입어 하루 만에 18% 가까이 올랐어요.\",\n  \"why_now\": \"주가가 크게 오르면 투자자들의 자산 가치가 늘어나고 경제에 대한 기대감이 높아지는 효과가 있어요.\",\n  \"impact_line\": \"주식에 투자한 사람들의 자산이 크게 늘어날 수 있어요.\",\n  \"details\": [\n    \"코스피 지수가 하루 만에 18% 가까이 상승하며 역대 최대 상승폭을 기록했어요.\",\n    \"특히 반도체 관련 주식들이 크게 오르며 지수 상승을 이끌었어요.\",\n    \"이러한 상승은 미국 증시의 움직임을 따라가는 모습이었어요.\",\n    \"일본과 한국의 시장 개입이 엔화와 원화 가치 상승에 영향을 주었어요.\"\n  ],\n  \"visual_type\": \"kospi_close\",\n  \"effects\": [\n    \"주식 시장이 활기를 띠면서 투자 심리가 개선될 수 있어요!\",\n    \"반도체 관련 기업들의 실적이 좋아질 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"코스피 지수\",\n      \"easy\": \"한국 거래소에 상장된 회사들의 주식 가격을 종합적으로 나타내는 지표예요.\",\n      \"example\": \"코스피 지수가 오르면 한국 경제가 전반적으로 좋아지고 있다고 볼 수 있어요.\"\n    },\n    {\n      \"term\": \"반도체\",\n      \"easy\": \"전기 신호를 저장하고 전달하는 작은 부품으로, 컴퓨터나 스마트폰 등에 꼭 필요해요.\",\n      \"example\": \"반도체 기술이 발전하면 더 빠르고 성능 좋은 전자기기를 만들 수 있어요.\"\n    },\n    {\n      \"term\": \"엔화\",\n      \"easy\": \"일본의 공식 화폐 단위예요.\",\n      \"example\": \"엔화 가치가 오르면 일본에서 물건을 사거나 여행할 때 더 많은 돈이 필요해요.\"\n    },\n    {\n      \"term\": \"원화\",\n      \"easy\": \"대한민국의 공식 화폐 단위예요.\",\n      \"example\": \"원화 가치가 오르면 외국에서 물건을 살 때 더 저렴하게 살 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n    \"title\": \"한국 주식 시장 급등\",\n    \"one_liner\": \"한국 주식 시장이 반도체 관련 주식들의 강세에 힘입어 하루 만에 18% 가까이 올랐어요.\",\n    \"why_now\": \"주식 시장이 크게 오르면 투자자들의 자산 가치가 높아지는 효과가 있어요.\",\n    \"impact_line\": \"주식에 투자한 사람들의 자산이 늘어날 수 있어요.\",\n    \"details\": [\n        \"한국 주식 시장이 하루 만에 18% 가까이 급등했어요.\",\n        \"이는 사상 최대 상승폭이에요.\",\n        \"반도체 관련 주식들의 강세가 시장을 이끌었어요.\",\n        \"이는 미국 증시의 상승세를 따른 것으로 보여요.\"\n    ],\n    \"visual_type\": \"kospi_close\",\n    \"effects\": [\n        \"주식 시장이 계속 오르면 투자 심리가 살아나 소비와 투자가 늘어날 수 있어요!\",\n        \"하지만 단기 급등 후에는 변동성이 커질 수 있으니 주의가 필요해요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"KOSPI\",\n            \"easy\": \"한국거래소에서 거래되는 주식들의 평균 가격을 나타내는 지수예요.\",\n            \"example\": \"코스피 지수가 오르면 한국 주식 시장 전체가 상승했다고 볼 수 있어요.\"\n        },\n        {\n            \"term\": \"반도체\",\n            \"easy\": \"컴퓨터나 스마트폰 등 전자 기기의 핵심 부품인 작은 칩을 만드는 산업이에요.\",\n            \"example\": \"반도체 산업이 발전하면 관련 기업들의 주가가 오르는 경우가 많아요.\"\n        }\n    ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 50자 초과(53)"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "South Korea KOSPI Is…",
-   "one_liner": "South Korea KOSPI Is Trading Like a Meme Stock ,…",
-   "why_now": null,
+   "title": "한국 주식 시장 급등",
+   "one_liner": "한국 주식 시장이 반도체 관련 주식들의 강세에 힘입어 하루 만에 18% 가까이 올랐어요.",
+   "why_now": "주식 시장이 크게 오르면 투자자들의 자산 가치가 높아지는 효과가 있어요.",
    "details": [
-    "South Korea KOSPI Is Trading Like a Meme Stock , and the S & P 500 or Nasdaq Composite May Be Next",
-    "South Korea Kospi index jumps more than 13 %, tracking Wall Street gains , on a surge of chipmaking stocks",
-    "South Korea Kospi index jumps more than 16 % on a surge of chipmaking stocks"
+    "한국 주식 시장이 하루 만에 18% 가까이 급등했어요.",
+    "이는 사상 최대 상승폭이에요.",
+    "반도체 관련 주식들의 강세가 시장을 이끌었어요.",
+    "이는 미국 증시의 상승세를 따른 것으로 보여요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "주식 시장이 계속 오르면 투자 심리가 살아나 소비와 투자가 늘어날 수 있어요!",
+    "하지만 단기 급등 후에는 변동성이 커질 수 있으니 주의가 필요해요!"
+   ],
+   "visual_type": "kospi_close"
   },
   "fact_hash": "72f7294615ba325761b0676317d942f036f9249f"
  },
