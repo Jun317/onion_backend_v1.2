@@ -70,8 +70,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-01T06:50:31.482110+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-01T11:39:17.091039+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -82,26 +82,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"프록터앤드갬블, 소비 둔화 우려\",\n\"one_liner\": \"프록터앤드갬블이 원자재 가격 상승으로 소비가 줄어들까 걱정하고 있어요.\",\n\"why_now\": \"생활용품 회사의 실적은 소비 심리를 보여주는 지표가 될 수 있어요.\",\n\"impact_line\": \"생활용품 가격이 오르면 장바구니 부담이 커질 수 있어요.\",\n\"details\": [\n\"프록터앤드갬블은 원자재 가격 상승을 언급했어요.\",\n\"이로 인해 소비자들이 지출을 줄일 수 있다고 예상했어요.\",\n\"회사는 성장세가 둔화될 것으로 전망했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"생활용품 가격이 오르면 소비자들이 지출을 줄일 수 있어요!\",\n\"회사의 매출과 이익이 예상보다 줄어들 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"프록터앤드갬블\",\n\"easy\": \"미국에 본사를 둔 세계적인 생활용품 회사예요.\",\n\"example\": \"프록터앤드갬블은 세탁세제, 기저귀 등을 만들어요.\"\n}\n],\n\"impact_line\": \"생활용품 가격이 오르면 장바구니 부담이 커질 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "title 에 한자/가나 포함",
+     "one_liner 에 한자/가나 포함"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Procter & Gamble…",
-   "one_liner": "Procter & Gamble Stock : Buy , Hold , or Sell ?",
-   "why_now": null,
+   "title": "프록터앤드갬블, 소비 둔화 우려",
+   "one_liner": "프록터앤드갬블이 원자재 가격 상승으로 소비가 줄어들까 걱정하고 있어요.",
+   "why_now": "생활용품 회사의 실적은 소비 심리를 보여주는 지표가 될 수 있어요.",
    "details": [
-    "Procter & Gamble Stock : Buy , Hold , or Sell ?",
-    "PYMNTS | Procter & Gamble Says Gas Prices Limiting Consumer Spending",
-    "Procter & Gamble Predicts Slower Growth Amid Rising Costs , ETRetail"
+    "프록터앤드갬블은 원자재 가격 상승을 언급했어요.",
+    "이로 인해 소비자들이 지출을 줄일 수 있다고 예상했어요.",
+    "회사는 성장세가 둔화될 것으로 전망했어요."
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "생활용품 가격이 오르면 소비자들이 지출을 줄일 수 있어요!",
+    "회사의 매출과 이익이 예상보다 줄어들 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "f4bec5bc034282546c9cc21fdd0cd286e9806a29"
  },

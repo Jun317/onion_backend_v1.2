@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-01T09:38:46.689225+00:00",
+ "generated_at": "2026-08-01T11:43:46.220219+00:00",
  "issues": [
   {
    "id": "cea83213c8906724e",
@@ -157,18 +157,18 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 5,
+   "seen_sources": 6,
    "importance": 135,
    "entity_keys": [
     "FED"
    ],
    "created_at": "2026-07-31T15:34:59.253965+00:00",
-   "last_update": "2026-08-01T03:58:40.725521+00:00",
-   "members": 7,
-   "llm_title": "은행 규칙 개선",
-   "one_liner": "미국 중앙은행이 은행 규칙을 바꾸려고 해요.",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": false
+   "last_update": "2026-08-01T11:39:08.335387+00:00",
+   "members": 8,
+   "llm_title": "Federal Reserve…",
+   "one_liner": "Federal Reserve Board requests comment on a…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c7b7e590611a1bac4",
@@ -198,25 +198,6 @@
    "in_review": true
   },
   {
-   "id": "cafd0214ac01cc7f7",
-   "title": "BOJ governor Ueda says to expect to keep raising interest rates in response to economic , financial conditions",
-   "category": "RATE",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 135,
-   "entity_keys": [
-    "BOJ"
-   ],
-   "created_at": "2026-07-31T11:03:07.127583+00:00",
-   "last_update": "2026-07-31T11:03:07.127583+00:00",
-   "members": 2,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
    "id": "c46d6a70a2c805401",
    "title": "US economy grows at a sluggish 1 . 5 % in second - quarter with inflation remaining stubbornly high",
    "category": "MACRO",
@@ -234,6 +215,25 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": true
+  },
+  {
+   "id": "cafd0214ac01cc7f7",
+   "title": "BOJ governor Ueda says to expect to keep raising interest rates in response to economic , financial conditions",
+   "category": "RATE",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 130,
+   "entity_keys": [
+    "BOJ"
+   ],
+   "created_at": "2026-07-31T11:03:07.127583+00:00",
+   "last_update": "2026-07-31T11:03:07.127583+00:00",
+   "members": 2,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
   },
   {
    "id": "c8f0b7cb0487a034d",
@@ -392,9 +392,9 @@
    "created_at": "2026-07-29T22:26:52.625086+00:00",
    "last_update": "2026-08-01T06:48:10.708691+00:00",
    "members": 3,
-   "llm_title": "Procter & Gamble…",
-   "one_liner": "Procter & Gamble Stock : Buy , Hold , or Sell ?",
-   "llm_model": "template",
+   "llm_title": "프록터앤드갬블, 소비 둔화 우려",
+   "one_liner": "프록터앤드갬블이 원자재 가격 상승으로 소비가 줄어들까 걱정하고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -688,6 +688,63 @@
    "in_review": true
   },
   {
+   "id": "cffe83a2036bd185c",
+   "title": "Fortune Tech : Meta cash crunch , Microsoft Azure milestone , DoorDash drone deliveries",
+   "category": "MARKET",
+   "status": "archived",
+   "origin": "cluster",
+   "seen_sources": 11,
+   "importance": 105,
+   "entity_keys": [
+    "META",
+    "MSFT"
+   ],
+   "created_at": "2026-07-30T12:10:40.428215+00:00",
+   "last_update": "2026-08-01T11:39:08.603598+00:00",
+   "members": 0,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": true
+  },
+  {
+   "id": "cf4a2e5ae45f8dbcc",
+   "title": "Average 30 - year US mortgage rate rises to highest level in a year at 6 . 66 %",
+   "category": "MACRO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 10,
+   "importance": 105,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.856541+00:00",
+   "last_update": "2026-08-01T11:39:08.344817+00:00",
+   "members": 26,
+   "llm_title": "Migrant tradies a…",
+   "one_liner": "Migrant tradies a net benefit to housing , say…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 13,
+   "importance": 105,
+   "entity_keys": [
+    "AAPL",
+    "AMZN"
+   ],
+   "created_at": "2026-07-31T01:01:23.821423+00:00",
+   "last_update": "2026-08-01T11:39:08.342706+00:00",
+   "members": 17,
+   "llm_title": "애플 주가 하락",
+   "one_liner": "애플의 아이폰 판매가 좋았지만 주가가 내렸어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
    "id": "c6103da62f039fb9e",
    "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
    "category": "MARKET",
@@ -700,67 +757,10 @@
     "NVDA"
    ],
    "created_at": "2026-07-30T03:40:01.659273+00:00",
-   "last_update": "2026-08-01T06:48:10.721311+00:00",
-   "members": 9,
-   "llm_title": "Overlooked AI stock…",
-   "one_liner": "Overlooked AI stock is growing faster than Nvidia",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cf4a2e5ae45f8dbcc",
-   "title": "Average 30 - year US mortgage rate rises to highest level in a year at 6 . 66 %",
-   "category": "MACRO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 5,
-   "importance": 105,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.856541+00:00",
-   "last_update": "2026-08-01T06:48:10.714348+00:00",
-   "members": 21,
-   "llm_title": "Migrant tradies a…",
-   "one_liner": "Migrant tradies a net benefit to housing , say…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "ccc137270dbb9d742",
-   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 10,
-   "importance": 105,
-   "entity_keys": [
-    "AAPL",
-    "AMZN"
-   ],
-   "created_at": "2026-07-31T01:01:23.821423+00:00",
-   "last_update": "2026-08-01T06:48:10.711233+00:00",
-   "members": 14,
-   "llm_title": "Strong iPhone sales…",
-   "one_liner": "Strong iPhone sales propel Apple fiscal Q3…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cffe83a2036bd185c",
-   "title": "Fortune Tech : Meta cash crunch , Microsoft Azure milestone , DoorDash drone deliveries",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 11,
-   "importance": 105,
-   "entity_keys": [
-    "META",
-    "MSFT"
-   ],
-   "created_at": "2026-07-30T12:10:40.428215+00:00",
-   "last_update": "2026-08-01T06:48:10.709243+00:00",
-   "members": 20,
-   "llm_title": "Prediction : Meta…",
-   "one_liner": "Prediction : Meta Stock Will Pop After Q2…",
+   "last_update": "2026-08-01T11:39:08.341057+00:00",
+   "members": 11,
+   "llm_title": "Cathie Wood Just…",
+   "one_liner": "Cathie Wood Just Bought Nvidia Stock , Is It…",
    "llm_model": "template",
    "in_review": true
   },
@@ -933,28 +933,11 @@
     "TSLA"
    ],
    "created_at": "2026-07-26T15:35:55.489606+00:00",
-   "last_update": "2026-07-31T23:28:15.390808+00:00",
-   "members": 8,
+   "last_update": "2026-08-01T11:39:08.342529+00:00",
+   "members": 9,
    "llm_title": "Down 30 % on the…",
    "one_liner": "Down 30 % on the Year , Is Tesla Stock a Buy On…",
    "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c49a33c9091b8953a",
-   "title": "S & P Global upgrades Pakistan credit rating to  B",
-   "category": "RATE",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 33,
-   "importance": 100,
-   "entity_keys": [],
-   "created_at": "2026-07-22T16:53:58.409726+00:00",
-   "last_update": "2026-07-26T10:16:51.152460+00:00",
-   "members": 50,
-   "llm_title": "물가 예상치 상회",
-   "one_liner": "아일랜드 은행이 2027년 물가가 예상치보다 높을 것으로 예상해요",
-   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1035,6 +1018,25 @@
    "in_review": false
   },
   {
+   "id": "c2474b120b9d3d898",
+   "title": "Netflix : Record Buybacks , Rising Margins , and a Slate in Need of a Refresh",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 95,
+   "entity_keys": [
+    "NFLX"
+   ],
+   "created_at": "2026-07-28T20:39:27.535772+00:00",
+   "last_update": "2026-08-01T11:39:08.339911+00:00",
+   "members": 4,
+   "llm_title": "Netflix Is 43 %…",
+   "one_liner": "Netflix Is 43 % Below Its 52 - Week High at 20…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c32be43a74d268864",
    "title": "Why Is PayPal Stock Gaining Tuesday ? - PayPal Holdings ( NASDAQ : PYPL )",
    "category": "MARKET",
@@ -1048,9 +1050,9 @@
    "created_at": "2026-07-28T18:53:01.536982+00:00",
    "last_update": "2026-08-01T06:48:10.709751+00:00",
    "members": 6,
-   "llm_title": "Is PayPal Holdings a…",
-   "one_liner": "Is PayPal Holdings a Buy After Its Latest…",
-   "llm_model": "template",
+   "llm_title": "페이팔 주가 상승",
+   "one_liner": "페이팔 주가가 화요일에 오르고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -1068,23 +1070,6 @@
    "llm_title": "트럼프 관세에 대한 법적 도전",
    "one_liner": "트럼프 전 대통령의 새 관세에 대해 법적 소송이 제기될 가능성이 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "cd9e8d293d4fcfa7a",
-   "title": "Spin Master cancels price hikes for toys after tariff refund",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 37,
-   "importance": 95,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.858445+00:00",
-   "last_update": "2026-07-31T11:03:07.126211+00:00",
-   "members": 47,
-   "llm_title": "중국 공장 활동 감소",
-   "one_liner": "중국 공장 활동이 줄었어요",
-   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1167,27 +1152,19 @@
    "in_review": true
   },
   {
-   "id": "c2e1f0924eab58cb9",
-   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
-   "category": "EARNINGS",
+   "id": "c49a33c9091b8953a",
+   "title": "S & P Global upgrades Pakistan credit rating to  B",
+   "category": "RATE",
    "status": "stale",
    "origin": "cluster",
-   "seen_sources": 30,
+   "seen_sources": 33,
    "importance": 95,
-   "entity_keys": [
-    "AMD",
-    "INTC",
-    "KRX:000660",
-    "KRX:034730",
-    "NVDA",
-    "SEC",
-    "TAIWAN"
-   ],
-   "created_at": "2026-07-23T16:53:35.390307+00:00",
-   "last_update": "2026-07-26T10:16:51.151546+00:00",
-   "members": 42,
-   "llm_title": "대만 반도체 가격 인상",
-   "one_liner": "대만 반도체가 가격을 최대 10% 올렸어요",
+   "entity_keys": [],
+   "created_at": "2026-07-22T16:53:58.409726+00:00",
+   "last_update": "2026-07-26T10:16:51.152460+00:00",
+   "members": 50,
+   "llm_title": "물가 예상치 상회",
+   "one_liner": "아일랜드 은행이 2027년 물가가 예상치보다 높을 것으로 예상해요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
@@ -1250,6 +1227,46 @@
    "in_review": false
   },
   {
+   "id": "c26db649df2243106",
+   "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 19,
+   "importance": 90,
+   "entity_keys": [
+    "AMZN",
+    "GOOGL",
+    "META",
+    "MSFT",
+    "VZ"
+   ],
+   "created_at": "2026-07-23T06:44:56.417003+00:00",
+   "last_update": "2026-08-01T11:39:08.603518+00:00",
+   "members": 42,
+   "llm_title": "Amazon vs .…",
+   "one_liner": "Amazon vs . Microsoft vs . Alphabet : Which Is…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c005645a9b054915e",
+   "title": "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 4,
+   "importance": 90,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.860039+00:00",
+   "last_update": "2026-08-01T11:39:08.336053+00:00",
+   "members": 5,
+   "llm_title": "Türkiye - Maldives…",
+   "one_liner": "Türkiye - Maldives trade pact enters into force",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c8b4b9d481b23c014",
    "title": "Grupo Televisa Q2 Earnings Call Highlights",
    "category": "EARNINGS",
@@ -1269,23 +1286,20 @@
    "in_review": true
   },
   {
-   "id": "c26db649df2243106",
-   "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
-   "category": "EARNINGS",
+   "id": "cd9e8d293d4fcfa7a",
+   "title": "Spin Master cancels price hikes for toys after tariff refund",
+   "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 11,
+   "seen_sources": 37,
    "importance": 90,
-   "entity_keys": [
-    "GOOGL",
-    "VZ"
-   ],
-   "created_at": "2026-07-23T06:44:56.417003+00:00",
-   "last_update": "2026-08-01T06:48:10.709594+00:00",
-   "members": 21,
-   "llm_title": "Verizon lifts…",
-   "one_liner": "Verizon lifts outlook as Google signs $1 billion…",
-   "llm_model": "template",
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.858445+00:00",
+   "last_update": "2026-07-31T11:03:07.126211+00:00",
+   "members": 47,
+   "llm_title": "중국 공장 활동 감소",
+   "one_liner": "중국 공장 활동이 줄었어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1329,6 +1343,31 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "c2e1f0924eab58cb9",
+   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 30,
+   "importance": 90,
+   "entity_keys": [
+    "AMD",
+    "INTC",
+    "KRX:000660",
+    "KRX:034730",
+    "NVDA",
+    "SEC",
+    "TAIWAN"
+   ],
+   "created_at": "2026-07-23T16:53:35.390307+00:00",
+   "last_update": "2026-07-26T10:16:51.151546+00:00",
+   "members": 42,
+   "llm_title": "대만 반도체 가격 인상",
+   "one_liner": "대만 반도체가 가격을 최대 10% 올렸어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
   },
   {
    "id": "c9a09576b9082e071",
@@ -1391,6 +1430,44 @@
    "in_review": false
   },
   {
+   "id": "c2362a90772e95247",
+   "title": "US Launches Strikes on Iran",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 22,
+   "importance": 85,
+   "entity_keys": [
+    "IRAN"
+   ],
+   "created_at": "2026-07-30T06:47:58.372185+00:00",
+   "last_update": "2026-08-01T11:39:08.341345+00:00",
+   "members": 41,
+   "llm_title": "미국-이란 충돌",
+   "one_liner": "미국과 이란의 충돌로 유가가 오를 수 있어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "c13036d466bc3c560",
+   "title": "Starbucks reports strong quarterly sales and raises annual outlook",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 4,
+   "importance": 85,
+   "entity_keys": [
+    "SBUX"
+   ],
+   "created_at": "2026-07-29T22:26:52.626090+00:00",
+   "last_update": "2026-08-01T11:39:08.333977+00:00",
+   "members": 6,
+   "llm_title": "Starbucks vs .…",
+   "one_liner": "Starbucks vs . Chipotle : Both Restaurants Are…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c197d406966c9b050",
    "title": "Micron : AI Panic , But Memory Supercycle Isnt Over Yet ( Upgrade ) ( NASDAQ : MU )",
    "category": "MARKET",
@@ -1407,42 +1484,6 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
-   "in_review": true
-  },
-  {
-   "id": "c2362a90772e95247",
-   "title": "US Launches Strikes on Iran",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 18,
-   "importance": 85,
-   "entity_keys": [
-    "IRAN"
-   ],
-   "created_at": "2026-07-30T06:47:58.372185+00:00",
-   "last_update": "2026-07-31T23:28:15.386357+00:00",
-   "members": 36,
-   "llm_title": "미국-이란 충돌",
-   "one_liner": "미국과 이란의 충돌로 유가가 오를 수 있어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "c005645a9b054915e",
-   "title": "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 85,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.860039+00:00",
-   "last_update": "2026-07-31T11:03:07.125506+00:00",
-   "members": 4,
-   "llm_title": "해상 방어 연합체 출범",
-   "one_liner": "사우디아라비아가 13개국과 함께 해상 방어 연합체를 만들었어요.",
-   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -1482,25 +1523,6 @@
    "one_liner": "퀄컴이 휴대폰 부품 사업을 넘어 자동차 부품 사업을 넓히고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": false
-  },
-  {
-   "id": "c2474b120b9d3d898",
-   "title": "Netflix : Record Buybacks , Rising Margins , and a Slate in Need of a Refresh",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 85,
-   "entity_keys": [
-    "NFLX"
-   ],
-   "created_at": "2026-07-28T20:39:27.535772+00:00",
-   "last_update": "2026-07-31T01:01:23.818358+00:00",
-   "members": 3,
-   "llm_title": "넷플릭스 주가 상승",
-   "one_liner": "넷플릭스 주가가 오르면서 많은 투자자들의 관심이 쏠리고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
   },
   {
    "id": "c8fd5663a6f60c96e",
@@ -1732,12 +1754,12 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 16,
+   "seen_sources": 44,
    "importance": 80,
    "entity_keys": [],
    "created_at": "2026-07-30T22:32:46.859519+00:00",
-   "last_update": "2026-08-01T06:48:10.713828+00:00",
-   "members": 38,
+   "last_update": "2026-08-01T11:39:08.346225+00:00",
+   "members": 50,
    "llm_title": "주식 투자 조언",
    "one_liner": "미국 증권 분석 매체가 여러 주식의 투자 방법을 조언했어요.",
    "llm_model": "gemini-2.5-flash-lite",
@@ -1958,6 +1980,25 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "c95a6fd0505b15f1a",
+   "title": "American Express vs . Berkshire Hathaway : Which Financial Stock Is a Better Buy in 2026 ?",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 75,
+   "entity_keys": [
+    "BRK"
+   ],
+   "created_at": "2026-08-01T11:39:08.347156+00:00",
+   "last_update": "2026-08-01T11:39:08.348395+00:00",
+   "members": 2,
+   "llm_title": "Berkshire Hathaway…",
+   "one_liner": "Berkshire Hathaway Minimum Investment",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "caed901c2db4cec3d",
@@ -2400,6 +2441,25 @@
    "in_review": true
   },
   {
+   "id": "cee5b93afe0ccd91c",
+   "title": "Bringing ancient China into the present - Chinadaily . com . cn",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 70,
+   "entity_keys": [
+    "CHINA"
+   ],
+   "created_at": "2026-08-01T11:39:08.347511+00:00",
+   "last_update": "2026-08-01T11:39:08.348439+00:00",
+   "members": 2,
+   "llm_title": "China Gambit in the…",
+   "one_liner": "China Gambit in the Gulf",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "cf9c42e5d29f716f3",
    "title": "Carvana ( NYSE : CVNA ) Announces Quarterly Earnings Results",
    "category": "EARNINGS",
@@ -2413,25 +2473,6 @@
    "members": 50,
    "llm_title": "기업 실적 발표",
    "one_liner": "여러 기업들이 2분기 실적을 발표했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c13036d466bc3c560",
-   "title": "Starbucks reports strong quarterly sales and raises annual outlook",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 70,
-   "entity_keys": [
-    "SBUX"
-   ],
-   "created_at": "2026-07-29T22:26:52.626090+00:00",
-   "last_update": "2026-07-30T03:40:01.646064+00:00",
-   "members": 5,
-   "llm_title": "스타벅스 분기 매출 증가",
-   "one_liner": "스타벅스가 모든 고객층과 시간대에서 매출이 늘었다고 발표했어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -2710,36 +2751,70 @@
    "in_review": false
   },
   {
+   "id": "ce3291eb85f70585a",
+   "title": "AUO ( OTCMKTS : AUOTY ) Issues Earnings Results , Beats Expectations By $0 . 05 EPS",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 36,
+   "importance": 65,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.860298+00:00",
+   "last_update": "2026-08-01T11:39:08.346056+00:00",
+   "members": 50,
+   "llm_title": "AUO ( OTCMKTS :…",
+   "one_liner": "AUO ( OTCMKTS : AUOTY ) Issues Earnings Results…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c535b232d511f0963",
+   "title": "Critical Contrast : Liberty Silver ( OTCMKTS : BHLL ) and Fortuna Mining ( NYSE : FSM )",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 5,
+   "importance": 65,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.858246+00:00",
+   "last_update": "2026-08-01T11:39:08.345447+00:00",
+   "members": 17,
+   "llm_title": "Equitable ( NYSE :…",
+   "one_liner": "Equitable ( NYSE : EQH ) versus Acmat ( OTCMKTS…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c2f2c81c3a9e9e7a0",
    "title": "Steven Madden Q2 Earnings Call Highlights",
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 13,
+   "seen_sources": 17,
    "importance": 65,
    "entity_keys": [],
    "created_at": "2026-07-30T22:32:46.858882+00:00",
-   "last_update": "2026-08-01T09:28:57.560747+00:00",
-   "members": 22,
+   "last_update": "2026-08-01T11:39:08.344301+00:00",
+   "members": 28,
    "llm_title": "TriMas Q2 Earnings…",
    "one_liner": "TriMas Q2 Earnings Call Highlights",
    "llm_model": "template",
    "in_review": true
   },
   {
-   "id": "ce3291eb85f70585a",
-   "title": "AUO ( OTCMKTS : AUOTY ) Issues Earnings Results , Beats Expectations By $0 . 05 EPS",
+   "id": "cc4cfba346972fad2",
+   "title": "Piedmont Office Realty Trust , Inc . Q2 2026 Earnings Call Summary",
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 16,
+   "seen_sources": 6,
    "importance": 65,
    "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.860298+00:00",
-   "last_update": "2026-08-01T09:28:57.560489+00:00",
-   "members": 27,
-   "llm_title": "AUO ( OTCMKTS :…",
-   "one_liner": "AUO ( OTCMKTS : AUOTY ) Issues Earnings Results…",
+   "created_at": "2026-07-30T22:32:46.859411+00:00",
+   "last_update": "2026-08-01T11:39:08.338547+00:00",
+   "members": 12,
+   "llm_title": "AllianceBernstein…",
+   "one_liner": "AllianceBernstein Holding L . P . Q2 2026…",
    "llm_model": "template",
    "in_review": true
   },
@@ -3194,40 +3269,6 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
-  },
-  {
-   "id": "c535b232d511f0963",
-   "title": "Critical Contrast : Liberty Silver ( OTCMKTS : BHLL ) and Fortuna Mining ( NYSE : FSM )",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 60,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.858246+00:00",
-   "last_update": "2026-08-01T06:48:10.712457+00:00",
-   "members": 11,
-   "llm_title": "Equitable ( NYSE :…",
-   "one_liner": "Equitable ( NYSE : EQH ) versus Acmat ( OTCMKTS…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cc4cfba346972fad2",
-   "title": "Piedmont Office Realty Trust , Inc . Q2 2026 Earnings Call Summary",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 60,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.859411+00:00",
-   "last_update": "2026-08-01T06:48:10.706960+00:00",
-   "members": 8,
-   "llm_title": "AllianceBernstein…",
-   "one_liner": "AllianceBernstein Holding L . P . Q2 2026…",
-   "llm_model": "template",
-   "in_review": true
   },
   {
    "id": "cfb7974a38f280a96",

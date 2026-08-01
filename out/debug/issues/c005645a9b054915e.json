@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 3,
- "importance": 85,
+ "seen_sources": 4,
+ "importance": 90,
  "created_at": "2026-07-30T22:32:46.860039+00:00",
- "last_update": "2026-07-31T11:03:07.125506+00:00",
+ "last_update": "2026-08-01T11:39:08.336053+00:00",
  "members": [
+  {
+   "id": "92d271a580c383eab75ebeca955337dfcf76d49f",
+   "source": "hurriyetdailynews.com",
+   "tier": "wire",
+   "url": "https://www.hurriyetdailynews.com/turkiye-maldives-trade-pact-enters-into-force-225099",
+   "title": "Türkiye - Maldives trade pact enters into force",
+   "published_at": "2026-08-01T11:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.884
+  },
   {
    "id": "3a0f94fed52e68fa9aebe0db9cf9318d458d2f86",
    "source": "globalsecurity.org",
@@ -20,7 +30,7 @@
    "title": "Saudi Arabia , 13 countries establish multinational maritime defense coalition for Bab al - Mandab",
    "published_at": "2026-07-31T09:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9772
+   "sim_to_centroid": 0.9742
   },
   {
    "id": "f9dbef8b9102ce11eb602a258e3da7a724fff343",
@@ -30,7 +40,7 @@
    "title": "Ministry of Defense Hosts International Meeting on Saudi Initiative to Establish Multinational Maritime Defense Alliance",
    "published_at": "2026-07-31T09:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9498
+   "sim_to_centroid": 0.9506
   },
   {
    "id": "a26bee74f436a240459cd5ccef124d1e8881c816",
@@ -40,7 +50,7 @@
    "title": "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9725
+   "sim_to_centroid": 0.9727
   },
   {
    "id": "ffdde2dd240a48cbd7076a0dc7bb786fe20ea8d3",
@@ -50,11 +60,18 @@
    "title": "Saudi Arabia , 13 countries establish multinational maritime defense coalition for Bab al - Mandab",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9772
+   "sim_to_centroid": 0.9742
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Türkiye - Maldives trade pact enters into force",
+   "source": "hurriyetdailynews.com",
+   "url": "https://www.hurriyetdailynews.com/turkiye-maldives-trade-pact-enters-into-force-225099",
+   "at": "2026-08-01T11:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Saudi Arabia , 13 countries establish multinational maritime defense coalition for Bab al - Mandab",
@@ -85,45 +102,45 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-31T18:01:00.998284+00:00",
+  "model": "template",
+  "created_at": "2026-08-01T11:43:23.446674+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "Türkiye - Maldives trade pact enters into force",
     "Ministry of Defense Hosts International Meeting on Saudi Initiative to Establish Multinational Maritime Defense Alliance",
     "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition",
     "Saudi Arabia , 13 countries establish multinational maritime defense coalition for Bab al - Mandab"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"해상 방어 연합체 출범\",\n  \"one_liner\": \"사우디아라비아가 13개국과 함께 해상 방어 연합체를 만들었어요.\",\n  \"why_now\": \"이 연합체는 바브 엘 만데브 해협의 안전을 지키기 위해 만들어졌어요.\",\n  \"impact_line\": \"해상 운송로의 안전이 강화될 수 있어요.\",\n  \"details\": [\n    \"사우디아라비아가 주도하는 국제 회의에서 이 연합체 설립이 논의되었어요.\",\n    \"이 연합체는 여러 나라가 함께 해상 방어를 강화하기 위한 목적이에요.\",\n    \"바브 엘 만데브 해협의 안보가 주요 관심사예요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"주요 해상 운송로의 안전이 강화되어 물류 흐름이 원활해질 수 있어요!\",\n    \"지역 안보 상황이 안정화될 가능성이 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"해상 방어 연합체\",\n      \"easy\": \"여러 나라가 힘을 합쳐 바다를 지키는 모임이에요.\",\n      \"example\": \"이웃 나라들과 함께 해적을 막기 위한 해상 방어 연합체를 만들었어요.\"\n    },\n    {\n      \"term\": \"바브 엘 만데브\",\n      \"easy\": \"아라비아 반도와 아프리카를 나누는 중요한 바다 길이에요.\",\n      \"example\": \"바브 엘 만데브 해협은 전 세계 석유 운송의 중요한 통로예요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "해상 방어 연합체 출범",
-   "one_liner": "사우디아라비아가 13개국과 함께 해상 방어 연합체를 만들었어요.",
-   "why_now": "이 연합체는 바브 엘 만데브 해협의 안전을 지키기 위해 만들어졌어요.",
+   "title": "Türkiye - Maldives…",
+   "one_liner": "Türkiye - Maldives trade pact enters into force",
+   "why_now": null,
    "details": [
-    "사우디아라비아가 주도하는 국제 회의에서 이 연합체 설립이 논의되었어요.",
-    "이 연합체는 여러 나라가 함께 해상 방어를 강화하기 위한 목적이에요.",
-    "바브 엘 만데브 해협의 안보가 주요 관심사예요."
+    "Türkiye - Maldives trade pact enters into force",
+    "Ministry of Defense Hosts International Meeting on Saudi Initiative to Establish Multinational Maritime Defense Alliance",
+    "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition"
    ],
-   "effects": [
-    "주요 해상 운송로의 안전이 강화되어 물류 흐름이 원활해질 수 있어요!",
-    "지역 안보 상황이 안정화될 가능성이 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "f3bbbe5ff58010e6a2d7f76b42d6e7e310848b5c"
+  "fact_hash": "0055fa0e21774b0797b9f8c87ee5437f59cc2e89"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-07-31T13:13:32.694280+00:00"
+  "at": "2026-08-01T11:43:23.446598+00:00"
  },
  "glossary": [],
  "related": [

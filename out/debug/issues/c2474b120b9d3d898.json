@@ -9,11 +9,21 @@
  "entity_keys": [
   "NFLX"
  ],
- "seen_sources": 2,
- "importance": 85,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-07-28T20:39:27.535772+00:00",
- "last_update": "2026-07-31T01:01:23.818358+00:00",
+ "last_update": "2026-08-01T11:39:08.339911+00:00",
  "members": [
+  {
+   "id": "911c0d518e63aab7b40857917625718ffb944d2a",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/08/01/netflix-is-43-below-its-52-week-high-at-20-times-f/?source=iedfolrf0000001",
+   "title": "Netflix Is 43 % Below Its 52 - Week High at 20 Times Forward Earnings . Where Will the Stock Be in 3 Years ?",
+   "published_at": "2026-08-01T10:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9354
+  },
   {
    "id": "6e83dc65836f93952553eb9d64c79413aa5c78d5",
    "source": "finance.yahoo.com",
@@ -22,7 +32,7 @@
    "title": "LVMH CEO Bernard Arnault reveals he owned nearly 20 % of Netflix , but cashed out too early his stake could be worth up to $60 billion today",
    "published_at": "2026-07-30T23:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8981
+   "sim_to_centroid": 0.9018
   },
   {
    "id": "1562d69af065b730704eaa9fd36aeee8248e16cc",
@@ -32,7 +42,7 @@
    "title": "What Going On With the Uptick in Netflix Stock Today ? - Netflix ( NASDAQ : NFLX )",
    "published_at": "2026-07-28T19:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9669
+   "sim_to_centroid": 0.9674
   },
   {
    "id": "77df9b8a55b72d2cf78f53a9562449efce2f0ebf",
@@ -42,11 +52,18 @@
    "title": "Netflix : Record Buybacks , Rising Margins , and a Slate in Need of a Refresh",
    "published_at": "2026-07-26T15:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9651
+   "sim_to_centroid": 0.9622
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Netflix Is 43 % Below Its 52 - Week High at 20 Times Forward Earnings . Where Will the Stock Be in 3 Years ?",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/08/01/netflix-is-43-below-its-52-week-high-at-20-times-f/?source=iedfolrf0000001",
+   "at": "2026-08-01T10:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "LVMH CEO Bernard Arnault reveals he owned nearly 20 % of Netflix , but cashed out too early his stake could be worth up to $60 billion today",
@@ -70,46 +87,45 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-01T09:29:45.589516+00:00",
+  "model": "template",
+  "created_at": "2026-08-01T11:43:05.096500+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Netflix Is 43 % Below Its 52 - Week High at 20 Times Forward Earnings . Where Will the Stock Be in 3 Years ?",
     "LVMH CEO Bernard Arnault reveals he owned nearly 20 % of Netflix , but cashed out too early his stake could be worth up to $60 billion today",
     "What Going On With the Uptick in Netflix Stock Today ? - Netflix ( NASDAQ : NFLX )",
     "Netflix : Record Buybacks , Rising Margins , and a Slate in Need of a Refresh"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"넷플릭스 주가 상승\",\n  \"one_liner\": \"넷플릭스 주가가 오르면서 많은 투자자들의 관심이 쏠리고 있어요.\",\n  \"why_now\": \"넷플릭스 주가가 오르면 회사의 가치가 높아져 투자자들이 이익을 얻을 수 있어요.\",\n  \"impact_line\": \"넷플릭스 주가 상승은 관련 투자자들에게 긍정적인 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"넷플릭스 주가가 최근 상승세를 보이고 있어요.\",\n    \"이는 넷플릭스의 실적 개선과 사업 전망에 대한 기대감 때문으로 풀이돼요.\",\n    \"회사의 자사주 매입과 이익률 상승도 주가에 긍정적인 영향을 주고 있어요.\",\n    \"하지만 새로운 콘텐츠 확보 등 개선해야 할 부분도 남아있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"넷플릭스 주가가 계속 오르면 회사의 시가총액이 늘어날 수 있어요!\",\n    \"이는 넷플릭스 관련 투자 상품의 가치에도 긍정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"자사주 매입\",\n      \"easy\": \"회사가 자기 회사 주식을 사들이는 것을 말해요.\",\n      \"example\": \"회사가 자사주 매입을 발표하면 주가가 오르는 경우가 많아요.\"\n    },\n    {\n      \"term\": \"이익률\",\n      \"easy\": \"매출액 대비 이익이 얼마나 되는지를 나타내는 비율이에요.\",\n      \"example\": \"이익률이 높으면 회사가 돈을 잘 벌고 있다는 뜻이에요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "넷플릭스 주가 상승",
-   "one_liner": "넷플릭스 주가가 오르면서 많은 투자자들의 관심이 쏠리고 있어요.",
-   "why_now": "넷플릭스 주가가 오르면 회사의 가치가 높아져 투자자들이 이익을 얻을 수 있어요.",
+   "title": "Netflix Is 43 %…",
+   "one_liner": "Netflix Is 43 % Below Its 52 - Week High at 20…",
+   "why_now": null,
    "details": [
-    "넷플릭스 주가가 최근 상승세를 보이고 있어요.",
-    "이는 넷플릭스의 실적 개선과 사업 전망에 대한 기대감 때문으로 풀이돼요.",
-    "회사의 자사주 매입과 이익률 상승도 주가에 긍정적인 영향을 주고 있어요.",
-    "하지만 새로운 콘텐츠 확보 등 개선해야 할 부분도 남아있어요."
+    "Netflix Is 43 % Below Its 52 - Week High at 20 Times Forward Earnings . Where Will the Stock Be in 3 Years ?",
+    "LVMH CEO Bernard Arnault reveals he owned nearly 20 % of Netflix , but cashed out too early his stake could be worth up to $60 billion today",
+    "What Going On With the Uptick in Netflix Stock Today ? - Netflix ( NASDAQ : NFLX )"
    ],
-   "effects": [
-    "넷플릭스 주가가 계속 오르면 회사의 시가총액이 늘어날 수 있어요!",
-    "이는 넷플릭스 관련 투자 상품의 가치에도 긍정적인 영향을 줄 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "1fbaf9f6a43c9d3eb2bb90d702c041b816c688f5"
+  "fact_hash": "d2be6af8d142f20dd9c1aea4685b9c72ab2b1ede"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-01T04:00:20.248644+00:00"
+  "at": "2026-08-01T11:43:05.096430+00:00"
  },
  "glossary": [],
  "related": [
@@ -132,14 +148,14 @@
    "shared": []
   },
   {
-   "id": "c6103da62f039fb9e",
-   "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "ccc137270dbb9d742",
-   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "id": "c6103da62f039fb9e",
+   "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
    "category": "MARKET",
    "shared": []
   }

@@ -9,11 +9,21 @@
  "entity_keys": [
   "FED"
  ],
- "seen_sources": 5,
+ "seen_sources": 6,
  "importance": 135,
  "created_at": "2026-07-31T15:34:59.253965+00:00",
- "last_update": "2026-08-01T03:58:40.725521+00:00",
+ "last_update": "2026-08-01T11:39:08.335387+00:00",
  "members": [
+  {
+   "id": "15bd8a2f9629e9b3b849aef2b4563f3f05a7e9e1",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/currencies/articles/bofa-hartnett-calls-fed-nakedly-101518894.html",
+   "title": "BofA Hartnett calls Fed  nakedly dovish , urges retreat from risk assets",
+   "published_at": "2026-08-01T11:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9004
+  },
   {
    "id": "caf6793ca0a56b3cf2fb8845068545ed6a867c10",
    "source": "knowledge.wharton.upenn.edu",
@@ -22,7 +32,7 @@
    "title": "Oil , AI , and the Fed : What Next for Markets ?",
    "published_at": "2026-07-31T21:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8782
+   "sim_to_centroid": 0.8802
   },
   {
    "id": "4699eb26d9ea11e32c5798113032986bbb97f987",
@@ -32,7 +42,7 @@
    "title": "State AGs expand consumer work as prices rise and Trump guts federal protections",
    "published_at": "2026-07-31T21:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.8963
+   "sim_to_centroid": 0.8968
   },
   {
    "id": "df496161b9768e07d17309948498230bc02071f3",
@@ -42,7 +52,7 @@
    "title": "Feds approved pay hikes for 78 % of its employees in 2025 : CTF",
    "published_at": "2026-07-31T21:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8909
+   "sim_to_centroid": 0.8927
   },
   {
    "id": "1c09f1f8e0403f5cd64b95d01d601063575d312a",
@@ -52,7 +62,7 @@
    "title": "State AGs expand consumer work as prices rise and Trump guts federal protections",
    "published_at": "2026-07-31T21:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8963
+   "sim_to_centroid": 0.8968
   },
   {
    "id": "15c9034b16babed340e41b5c2dd6a1898550c8fc",
@@ -62,7 +72,7 @@
    "title": "Fed Hawkish Pivot Is Hitting Asia Hardest",
    "published_at": "2026-07-31T18:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8753
+   "sim_to_centroid": 0.8822
   },
   {
    "id": "eb335d09e7f6ada5688762245209dbee2a869ef4",
@@ -72,7 +82,7 @@
    "title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"âbank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
    "published_at": "2026-07-31T14:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9637
+   "sim_to_centroid": 0.9599
   },
   {
    "id": "185e475f6a0f3206113dd2a297184b9c4782c627",
@@ -82,11 +92,18 @@
    "title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
    "published_at": "2026-07-31T14:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9712
+   "sim_to_centroid": 0.9684
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "BofA Hartnett calls Fed  nakedly dovish , urges retreat from risk assets",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/currencies/articles/bofa-hartnett-calls-fed-nakedly-101518894.html",
+   "at": "2026-08-01T11:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Oil , AI , and the Fed : What Next for Markets ?",
@@ -138,55 +155,51 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-01T03:58:42.039382+00:00",
+  "model": "template",
+  "created_at": "2026-08-01T11:42:46.785409+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
     "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
     "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"âbank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+    "BofA Hartnett calls Fed  nakedly dovish , urges retreat from risk assets",
     "State AGs expand consumer work as prices rise and Trump guts federal protections",
-    "Feds approved pay hikes for 78 % of its employees in 2025 : CTF",
-    "Oil , AI , and the Fed : What Next for Markets ?"
+    "Feds approved pay hikes for 78 % of its employees in 2025 : CTF"
    ],
    "official_lines": [
     "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank &quot;insiders&quot;âbank executives, board members and major shareholders who co",
     "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations"
    ]
   },
-  "raw_response": "{\n  \"title\": \"은행 규칙 개선\",\n   \"one_liner\": \"미국 중앙은행이 은행 규칙을 바꾸려고 해요.\",\n   \"why_now\": \"은행 규칙을 바꾸면 금융 시스템이 더 튼튼해질 수 있어요.\",\n   \"impact_line\": \"은행 대출이 더 안정적으로 될 수 있어요\",\n   \"details\": [\n      \"미국 중앙은행이 은행 규칙을 바꾸려고 해요.\",\n      \"은행 내부자들에 대한 대출 규칙을 바꾸려고 해요.\",\n      \"은행 내부자들은 은행의 대출 결정에 영향을 줄 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"은행 규칙이 바뀌면 은행의 안정성이 높아질 수 있어요!\",\n      \"은행의 대출 결정이 더 투명해질 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"은행 내부자\",\n         \"easy\": \"은행의 높은 직책을 가진 사람이나 주주예요.\",\n         \"example\": \"은행장이나 이사가 은행 내부자에요.\"\n      }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "은행 규칙 개선",
-   "one_liner": "미국 중앙은행이 은행 규칙을 바꾸려고 해요.",
-   "why_now": "은행 규칙을 바꾸면 금융 시스템이 더 튼튼해질 수 있어요.",
+   "title": "Federal Reserve…",
+   "one_liner": "Federal Reserve Board requests comment on a…",
+   "why_now": null,
    "details": [
-    "미국 중앙은행이 은행 규칙을 바꾸려고 해요.",
-    "은행 내부자들에 대한 대출 규칙을 바꾸려고 해요.",
-    "은행 내부자들은 은행의 대출 결정에 영향을 줄 수 있어요."
+    "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+    "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"âbank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+    "BofA Hartnett calls Fed  nakedly dovish , urges retreat from risk assets"
    ],
-   "effects": [
-    "은행 규칙이 바뀌면 은행의 안정성이 높아질 수 있어요!",
-    "은행의 대출 결정이 더 투명해질 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "5ef13445557a96fc54ce41d9eefbb12baf4e7ad9"
+  "fact_hash": "8dc38d9981fc85e963c8876a15d8532c0cfa1a6b"
  },
- "review": null,
- "glossary": [
-  {
-   "term": "중앙은행",
-   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
-   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
-  }
- ],
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-01T11:42:46.785159+00:00"
+ },
+ "glossary": [],
  "related": [
   {
    "id": "cea83213c8906724e",

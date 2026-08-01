@@ -9,11 +9,21 @@
  "entity_keys": [
   "SBUX"
  ],
- "seen_sources": 3,
- "importance": 70,
+ "seen_sources": 4,
+ "importance": 85,
  "created_at": "2026-07-29T22:26:52.626090+00:00",
- "last_update": "2026-07-30T03:40:01.646064+00:00",
+ "last_update": "2026-08-01T11:39:08.333977+00:00",
  "members": [
+  {
+   "id": "e3c21b976a68de326fd8f77cacd8d05c5a433340",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/08/01/starbucks-vs-chipotle-both-restaurants-are-seeing/?source=iedfolrf0000001",
+   "title": "Starbucks vs . Chipotle : Both Restaurants Are Seeing Turnarounds , but Which Stock Is the Better Buy Today ?",
+   "published_at": "2026-08-01T10:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8761
+  },
   {
    "id": "ca9ab8dbba29b07929cceb296a0a55a31914514e",
    "source": "wsls.com",
@@ -22,7 +32,7 @@
    "title": "Starbucks reports strong quarterly sales across customer income levels and times of day",
    "published_at": "2026-07-30T02:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9647
+   "sim_to_centroid": 0.9663
   },
   {
    "id": "41817f91757e6e5053d1bd131dc09f6df7a6affa",
@@ -32,7 +42,7 @@
    "title": "Starbucks reports strong quarterly sales across customer income levels and times of day",
    "published_at": "2026-07-29T23:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9647
+   "sim_to_centroid": 0.9663
   },
   {
    "id": "a182efaad047ee2f436944918c496f7727c38ad8",
@@ -42,7 +52,7 @@
    "title": "Starbucks reports strong quarterly sales across customer income levels and times of day",
    "published_at": "2026-07-29T23:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9647
+   "sim_to_centroid": 0.9663
   },
   {
    "id": "43ba3ded25999efc507ed3383c2c59ba9404bcbb",
@@ -52,7 +62,7 @@
    "title": "Starbucks reports strong quarterly sales and raises annual outlook",
    "published_at": "2026-07-29T21:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9896
+   "sim_to_centroid": 0.9873
   },
   {
    "id": "198a4f6509d147de2488ac75a2bcad24cdb8e58c",
@@ -62,11 +72,18 @@
    "title": "Starbucks reports strong quarterly sales and raises annual outlook – Winnipeg Free Press",
    "published_at": "2026-07-29T21:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9783
+   "sim_to_centroid": 0.9756
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Starbucks vs . Chipotle : Both Restaurants Are Seeing Turnarounds , but Which Stock Is the Better Buy Today ?",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/08/01/starbucks-vs-chipotle-both-restaurants-are-seeing/?source=iedfolrf0000001",
+   "at": "2026-08-01T10:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Starbucks reports strong quarterly sales across customer income levels and times of day",
@@ -104,45 +121,45 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-07-30T16:57:13.674736+00:00",
+  "model": "template",
+  "created_at": "2026-08-01T11:43:41.774073+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Starbucks vs . Chipotle : Both Restaurants Are Seeing Turnarounds , but Which Stock Is the Better Buy Today ?",
     "Starbucks reports strong quarterly sales across customer income levels and times of day",
     "Starbucks reports strong quarterly sales and raises annual outlook",
     "Starbucks reports strong quarterly sales and raises annual outlook – Winnipeg Free Press"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"스타벅스 분기 매출 증가\",\n    \"one_liner\": \"스타벅스가 모든 고객층과 시간대에서 매출이 늘었다고 발표했어요.\",\n    \"why_now\": \"스타벅스의 매출 증가는 소비 심리가 살아나고 있다는 신호로 볼 수 있어요.\",\n    \"impact_line\": \"커피값이나 관련 상품 가격에 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"스타벅스는 모든 소득 수준의 고객에게서 매출이 증가했다고 밝혔어요.\",\n        \"하루 중 어느 시간대에 방문하든 매출이 늘었어요.\",\n        \"연간 전망도 상향 조정했어요.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"소비 심리가 살아나면서 다른 외식업계에도 긍정적인 영향을 줄 수 있어요!\",\n        \"스타벅스의 실적 개선은 관련 상품이나 원두 가격 상승으로 이어질 수 있어요!\"\n    ],\n    \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "스타벅스 분기 매출 증가",
-   "one_liner": "스타벅스가 모든 고객층과 시간대에서 매출이 늘었다고 발표했어요.",
-   "why_now": "스타벅스의 매출 증가는 소비 심리가 살아나고 있다는 신호로 볼 수 있어요.",
+   "title": "Starbucks vs .…",
+   "one_liner": "Starbucks vs . Chipotle : Both Restaurants Are…",
+   "why_now": null,
    "details": [
-    "스타벅스는 모든 소득 수준의 고객에게서 매출이 증가했다고 밝혔어요.",
-    "하루 중 어느 시간대에 방문하든 매출이 늘었어요.",
-    "연간 전망도 상향 조정했어요."
+    "Starbucks vs . Chipotle : Both Restaurants Are Seeing Turnarounds , but Which Stock Is the Better Buy Today ?",
+    "Starbucks reports strong quarterly sales across customer income levels and times of day",
+    "Starbucks reports strong quarterly sales and raises annual outlook"
    ],
-   "effects": [
-    "소비 심리가 살아나면서 다른 외식업계에도 긍정적인 영향을 줄 수 있어요!",
-    "스타벅스의 실적 개선은 관련 상품이나 원두 가격 상승으로 이어질 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "fbbad2844a83e23bbeddeca709884f5cca003720"
+  "fact_hash": "02e4f9444d01dff7d079742499cc3010b6a2c595"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-07-30T12:11:39.371568+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-01T11:43:41.773998+00:00"
  },
  "glossary": [],
  "related": [
@@ -153,8 +170,8 @@
    "shared": []
   },
   {
-   "id": "c2e1f0924eab58cb9",
-   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
+   "id": "c26db649df2243106",
+   "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
    "category": "EARNINGS",
    "shared": []
   },
@@ -165,8 +182,8 @@
    "shared": []
   },
   {
-   "id": "c26db649df2243106",
-   "title": "Verizon Is Cutting 3 , 000 Jobs and Handing 274 Stores to Franchisees Right Before July 24 Earnings . Is the 6 . 5 % Dividend Still Safe ?",
+   "id": "c2e1f0924eab58cb9",
+   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
    "category": "EARNINGS",
    "shared": []
   },

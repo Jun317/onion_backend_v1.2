@@ -121,8 +121,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-01T06:52:03.912254+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-01T11:40:01.719773+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -135,26 +135,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"페이팔 주가 상승\",\n  \"one_liner\": \"페이팔 주가가 화요일에 오르고 있어요.\",\n  \"why_now\": \"회사의 실적 발표 이후 주가 움직임에 대한 관심이 높아지고 있어요.\",\n  \"impact_line\": \"페이팔 주가 변동은 관련 투자자들에게 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"페이팔 주가가 화요일에 상승세를 보이고 있어요.\",\n    \"최근 실적 발표 이후 주가에 대한 다양한 분석이 나오고 있어요.\",\n    \"증권가에서는 페이팔 주식 매수 여부에 대한 의견이 엇갈리고 있어요.\",\n    \"월스트리트에서는 페이팔 주가에 대해 낙관적인 전망과 비관적인 전망이 공존하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"페이팔 주가 상승은 투자자들의 관심을 끌 수 있어요!\",\n    \"주가 변동은 페이팔의 향후 사업 전략에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"실적 발표\",\n      \"easy\": \"회사가 일정 기간 동안의 경영 성과를 발표하는 것이에요.\",\n      \"example\": \"실적 발표 후 주가가 오르거나 내리는 경우가 많아요.\"\n    },\n    {\n      \"term\": \"월스트리트\",\n      \"easy\": \"미국의 금융 시장과 투자 업계를 통틀어 이르는 말이에요.\",\n      \"example\": \"월스트리트의 분석가들은 기업의 미래를 예측해요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Is PayPal Holdings a…",
-   "one_liner": "Is PayPal Holdings a Buy After Its Latest…",
-   "why_now": null,
+   "title": "페이팔 주가 상승",
+   "one_liner": "페이팔 주가가 화요일에 오르고 있어요.",
+   "why_now": "회사의 실적 발표 이후 주가 움직임에 대한 관심이 높아지고 있어요.",
    "details": [
-    "Is PayPal Holdings a Buy After Its Latest Earnings Report ?",
-    "Why Is PayPal Stock Gaining Tuesday ? - PayPal Holdings ( NASDAQ : PYPL )",
-    "PayPal Stock : Buy or Sell ? | The Motley Fool"
+    "페이팔 주가가 화요일에 상승세를 보이고 있어요.",
+    "최근 실적 발표 이후 주가에 대한 다양한 분석이 나오고 있어요.",
+    "증권가에서는 페이팔 주식 매수 여부에 대한 의견이 엇갈리고 있어요.",
+    "월스트리트에서는 페이팔 주가에 대해 낙관적인 전망과 비관적인 전망이 공존하고 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "페이팔 주가 상승은 투자자들의 관심을 끌 수 있어요!",
+    "주가 변동은 페이팔의 향후 사업 전략에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "7ef67655096f727c8de7bb7e5c8aac3974298ba3"
  },
@@ -183,14 +185,14 @@
    "shared": []
   },
   {
-   "id": "c6103da62f039fb9e",
-   "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "ccc137270dbb9d742",
-   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "id": "c6103da62f039fb9e",
+   "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
    "category": "MARKET",
    "shared": []
   }
