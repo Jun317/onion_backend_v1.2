@@ -52,7 +52,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-01T09:32:58.652890+00:00",
+  "created_at": "2026-08-01T14:08:21.021020+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -62,15 +62,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"두 기업 주가 비교\", \"one_liner\": \"클린테크 솔루션스와 키엔스의 주가를 비교하는 기사가 나왔어요.\", \"why_now\": \"두 기업의 주가 흐름을 비교하면 앞으로의 투자 방향을 잡는 데 도움이 될 수 있어요.\", \"impact_line\": null, \"details\": [\"클린테크 솔루션스와 키엔스의 주가를 비교하는 내용이에요.\", \"두 기업의 주가 흐름을 자세히 분석했어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"주가\", \"easy\": \"회사가 발행한 주식의 가격이에요.\", \"example\": \"주가가 오르면 회사 가치가 높아졌다고 볼 수 있어요.\"}, {\"term\": \"흐름\", \"easy\": \"시간에 따라 변하는 주가의 움직임을 말해요.\", \"example\": \"주가 흐름을 보면 앞으로 오를지 내릴지 예측하는 데 도움을 받을 수 있어요.\"}]}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -92,8 +85,8 @@
   "fact_hash": "8309db931b46b9004c1804f5f8c08195c71dc5f9"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-01T09:32:58.652823+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-01T14:08:21.020949+00:00"
  },
  "glossary": [],
  "related": [

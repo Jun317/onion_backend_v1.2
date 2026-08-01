@@ -7,11 +7,41 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 17,
+ "seen_sources": 18,
  "importance": 65,
  "created_at": "2026-07-30T22:32:46.858882+00:00",
- "last_update": "2026-08-01T11:39:08.344301+00:00",
+ "last_update": "2026-08-01T14:04:10.532151+00:00",
  "members": [
+  {
+   "id": "9d44d7915430e5c694770ad8b0f23ae7f187ece6",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-first-113157984.html",
+   "title": "The Top 5 Analyst Questions From First Interstate BancSystem Q2 Earnings Call",
+   "published_at": "2026-08-01T12:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9126
+  },
+  {
+   "id": "934c0d0bb526a3ce38b52fe6f90a076fb59276f8",
+   "source": "dailykos.com",
+   "tier": "wire",
+   "url": "https://www.dailykos.com/stories/2026/8/1/800077359/community/gnr/",
+   "title": "10 Reasons We WILL Win in November GNR",
+   "published_at": "2026-08-01T12:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8648
+  },
+  {
+   "id": "a7df7eab658f8a46bab64a8748a57f573d818a3e",
+   "source": "dailykos.com",
+   "tier": "wire",
+   "url": "https://www.dailykos.com/stories/2026/8/1/800077607/community/democratic-governors-doing-good-things-7-examples/",
+   "title": "Democratic governors doing good things : 7 examples",
+   "published_at": "2026-08-01T12:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8433
+  },
   {
    "id": "c2fb5c3b3f6e13f28b5817dc1128883fd8603f37",
    "source": "finance.yahoo.com",
@@ -297,6 +327,27 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "The Top 5 Analyst Questions From First Interstate BancSystem Q2 Earnings Call",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-first-113157984.html",
+   "at": "2026-08-01T12:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "10 Reasons We WILL Win in November GNR",
+   "source": "dailykos.com",
+   "url": "https://www.dailykos.com/stories/2026/8/1/800077359/community/gnr/",
+   "at": "2026-08-01T12:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Democratic governors doing good things : 7 examples",
+   "source": "dailykos.com",
+   "url": "https://www.dailykos.com/stories/2026/8/1/800077607/community/democratic-governors-doing-good-things-7-examples/",
+   "at": "2026-08-01T12:00:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "HXL Q2 Deep Dive : Commercial Aerospace Drives Growth Amid Margin Expansion and Capacity Ramp",
    "source": "finance.yahoo.com",
    "url": "https://finance.yahoo.com/markets/stocks/articles/hxl-q2-deep-dive-commercial-101957396.html",
@@ -494,7 +545,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-01T09:31:44.633968+00:00",
+  "created_at": "2026-08-01T14:07:07.062967+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -507,20 +558,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"기업 실적 발표\", \"one_liner\": \"여러 기업들이 2분기 실적을 발표했어요.\", \"why_now\": \"기업의 실적은 앞으로의 성장 가능성을 보여주는 중요한 지표예요.\", \"impact_line\": \"투자자들은 기업의 실적을 보고 주식 투자를 결정할 수 있어요.\", \"details\": [\"트라이마스, 스티븐 마든, 쿼드 그래픽스, 세이프 벌커스, 도미니언 에너지 등 여러 기업이 2분기 실적을 발표했습니다.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": []}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -539,8 +582,8 @@
   "fact_hash": "24dcbb712ac0a6fd7efd7b9a975ea49b4e4e5476"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}]}",
-  "at": "2026-08-01T09:31:44.633909+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-01T14:07:07.062897+00:00"
  },
  "glossary": [],
  "related": [
