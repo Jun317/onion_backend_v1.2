@@ -871,7 +871,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-01T14:04:18.345454+00:00",
+  "created_at": "2026-08-01T17:29:41.908512+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,10 +887,10 @@
     "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank"
    ]
   },
-  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n   \"one_liner\": \"미국 경제가 2분기에 1.5% 성장했어요\",\n   \"why_now\": \"미국 경제 성장이 느려지면 금리 인하가 더딜 수 있어요\",\n   \"impact_line\": \"미국 경제 둔화로 우리나라 수출이 영향을 받을 수 있어요\",\n   \"details\": [\n       \"미국 경제가 2분기에 1.5% 성장했어요\",\n       \"미국 중앙은행은 금리 인하를 서두르지 않고 있어요\",\n       \"미국 경제 성장 둔화는 인플레이션이 여전히 높은데요\",\n       \"미국 내 수요는 여전히 강하다고 해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국 경제 성장 둔화로 글로벌 경제에도 영향을 줄 수 있어요!\",\n       \"미국 경제 둔화로 우리나라 수출이 어려워질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n   \"one_liner\": \"미국의 경제 성장이 1.5%로 둔화했어요\",\n   \"why_now\": \"미국 경제 성장이 느려지면 금리 인하 속도가 느려질 수 있어요\",\n   \"impact_line\": \"달러 가치에 영향을 받아 우리나라 수출이 어려워질 수 있어요\",\n   \"details\": [\n       \"미국 경제 성장이 1.5%로 둔화했어요\",\n       \"미국 연방준비제도(Fed)가 금리 인하를 서두르지 않는 상황이에요\",\n       \"미국 경제 성장 둔화에도 불구하고 국내 수요는 강세를 보이고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국 경제 성장 둔화로 세계 경제 성장에도 영향을 줄 수 있어요!\",\n       \"미국 금리 인하 속도가 느려지면 달러 가치에 영향을 미쳐 수출에 악영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
      "입력에 없는 숫자: [1.5]"
     ]
@@ -917,8 +917,8 @@
   "fact_hash": "63a23b84926d8182c0e9578910ec5097373cea82"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
-  "at": "2026-08-01T14:04:18.345266+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
+  "at": "2026-08-01T17:29:41.908340+00:00"
  },
  "glossary": [],
  "related": [
