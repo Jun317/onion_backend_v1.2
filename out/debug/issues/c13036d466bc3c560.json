@@ -121,8 +121,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-01T15:35:17.886748+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-01T19:41:46.325126+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -134,25 +134,32 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"스타벅스 실적 상승\",\n   \"one_liner\": \"스타벅스의 매출이 강세를 보이고 있어요\",\n   \"why_now\": \"스타벅스의 실적이 좋아지면 주가에 긍정적 영향을 줄 수 있어요\",\n   \"impact_line\": \"스타벅스 커피를 자주 마시는 사람의 지갑에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"스타벅스의 매출이 모든 소득층과 시간대에서 강세를 보이고 있어요\",\n       \"스타벅스가 연간 전망을 높였어요\",\n       \"스타벅스의 실적 상승이 주목을 받고 있어요\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n       \"스타벅스의 실적 상승이 주가 상승으로 이어질 수 있어요!\",\n       \"스타벅스 커피의 가격이 오를 가능성이 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Starbucks vs .…",
-   "one_liner": "Starbucks vs . Chipotle : Both Restaurants Are…",
-   "why_now": null,
+   "title": "스타벅스 실적 상승",
+   "one_liner": "스타벅스의 매출이 강세를 보이고 있어요",
+   "why_now": "스타벅스의 실적이 좋아지면 주가에 긍정적 영향을 줄 수 있어요",
    "details": [
-    "Starbucks vs . Chipotle : Both Restaurants Are Seeing Turnarounds , but Which Stock Is the Better Buy Today ?",
-    "Starbucks reports strong quarterly sales across customer income levels and times of day",
-    "Starbucks reports strong quarterly sales and raises annual outlook"
+    "스타벅스의 매출이 모든 소득층과 시간대에서 강세를 보이고 있어요",
+    "스타벅스가 연간 전망을 높였어요",
+    "스타벅스의 실적 상승이 주목을 받고 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "스타벅스의 실적 상승이 주가 상승으로 이어질 수 있어요!",
+    "스타벅스 커피의 가격이 오를 가능성이 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "02e4f9444d01dff7d079742499cc3010b6a2c595"
