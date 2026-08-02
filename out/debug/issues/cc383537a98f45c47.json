@@ -766,7 +766,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-01T21:14:55.792282+00:00",
+  "created_at": "2026-08-02T01:04:24.819559+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -779,12 +779,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 1.5% 성장하는 데 그쳤어요.\",\n  \"why_now\": \"경제 성장이 둔화하면 일자리 증가나 소득 상승이 더뎌질 수 있어요.\",\n  \"impact_line\": \"물가 상승 압력에도 불구하고 경제 성장세가 약해질 수 있어요.\",\n  \"details\": [\n    \"미국 경제가 1.5% 성장했어요.\",\n    \"이는 예상보다 낮은 성장률이에요.\",\n    \"소상공인들의 낙관적인 전망은 이어지고 있어요.\",\n    \"하지만 물가 상승에 대한 우려는 여전해요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"소비 심리가 위축될 수 있어요!\",\n    \"기업들의 투자 결정이 신중해질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"물가 상승 압력\",\n      \"easy\": \"물건이나 서비스 가격이 계속 오를 것 같은 분위기를 말해요.\",\n      \"example\": \"물가 상승 압력이 높아지면 장바구니 물가가 오를 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [1.5]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [1.5]"
     ]
    }
   ],
@@ -803,8 +809,8 @@
   "fact_hash": "823ebedb6bbb88ebe7b22c00beeaf5862cb9e2a1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-01T21:14:55.792208+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
+  "at": "2026-08-02T01:04:24.819488+00:00"
  },
  "glossary": [],
  "related": [
@@ -827,14 +833,14 @@
    "shared": []
   },
   {
-   "id": "ccabc6b42e9ade3d7",
-   "title": "Seagate Shares Rise After Fourth - Quarter Results Beat Expectations and Outlook Surprises to the Upside",
+   "id": "c4a06e144229d2074",
+   "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
    "category": "MACRO",
    "shared": []
   },
   {
-   "id": "c4a06e144229d2074",
-   "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+   "id": "ccabc6b42e9ade3d7",
+   "title": "Seagate Shares Rise After Fourth - Quarter Results Beat Expectations and Outlook Surprises to the Upside",
    "category": "MACRO",
    "shared": []
   }
