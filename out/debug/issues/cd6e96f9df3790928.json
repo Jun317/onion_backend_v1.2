@@ -2,17 +2,17 @@
  "id": "cd6e96f9df3790928",
  "title": "US economy cools in second quarter despite solid spending",
  "category": "MARKET",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "SEC"
  ],
- "seen_sources": 1,
- "importance": 90,
+ "seen_sources": 2,
+ "importance": 95,
  "created_at": "2026-08-02T04:45:35.342282+00:00",
- "last_update": "2026-08-02T04:45:35.342282+00:00",
+ "last_update": "2026-08-02T07:43:25.589078+00:00",
  "members": [
   {
    "id": "d2b3c74ec333f1c0ac94b3c841e675a37e56f533",
@@ -22,7 +22,17 @@
    "title": "US economy cools in second quarter despite solid spending",
    "published_at": "2026-08-02T03:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.999
+  },
+  {
+   "id": "74a019c59ef6095e336fc283edf9d149a14b0656",
+   "source": "philippinetimes.com",
+   "tier": "wire",
+   "url": "http://www.philippinetimes.com/news/279216839/us-economy-cools-in-second-quarter-despite-solid-spending",
+   "title": "US economy cools in second quarter despite solid spending",
+   "published_at": "2026-08-02T03:00:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.999
   },
   {
    "id": "fecd1f721a52c266cfa3603fafc5ac8af02edb46",
@@ -32,7 +42,27 @@
    "title": "US economy cools in second quarter despite solid spending",
    "published_at": "2026-08-02T03:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.999
+  },
+  {
+   "id": "1d4b1fdcec48ef5dad8101b3d8fc48cefe48774d",
+   "source": "northkoreatimes.com",
+   "tier": "wire",
+   "url": "http://www.northkoreatimes.com/news/279216839/us-economy-cools-in-second-quarter-despite-solid-spending",
+   "title": "US economy cools in second quarter despite solid spending",
+   "published_at": "2026-08-02T03:00:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.999
+  },
+  {
+   "id": "a000be54cfcc3cc73154b06e5872552babd5b762",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cpkc-income-higher-revenue-sets-113400404.html",
+   "title": "CPKC income higher as revenue sets new second - quarter record",
+   "published_at": "2026-07-31T21:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8632
   }
  ],
  "anchors": [],
@@ -50,9 +80,66 @@
    "source": "caribbeanherald.com",
    "url": "http://www.caribbeanherald.com/news/279216839/us-economy-cools-in-second-quarter-despite-solid-spending",
    "at": "2026-08-02T03:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US economy cools in second quarter despite solid spending",
+   "source": "philippinetimes.com",
+   "url": "http://www.philippinetimes.com/news/279216839/us-economy-cools-in-second-quarter-despite-solid-spending",
+   "at": "2026-08-02T03:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US economy cools in second quarter despite solid spending",
+   "source": "northkoreatimes.com",
+   "url": "http://www.northkoreatimes.com/news/279216839/us-economy-cools-in-second-quarter-despite-solid-spending",
+   "at": "2026-08-02T03:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "CPKC income higher as revenue sets new second - quarter record",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cpkc-income-higher-revenue-sets-113400404.html",
+   "at": "2026-07-31T21:00:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-02T07:43:26.844613+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "US economy cools in second quarter despite solid spending",
+    "CPKC income higher as revenue sets new second - quarter record"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미국 경제 둔화\",\n   \"one_liner\": \"미국 경제가 2분기에 둔화했어요\",\n   \"why_now\": \"소비 지출이 좋았지만 경제가 느려진 건 다른 부분에서 영향을 받았어요\",\n   \"impact_line\": \"미국 물건의 가격이 낮아질 수 있어요\",\n   \"details\": [\n       \"미국 2분기 경제가 느려졌어요\",\n       \"소비 지출은 좋았어요\",\n       \"CPKC의 수입이 높아졌어요\",\n       \"CPKC의 매출이 2분기 새 기록을 세웠어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국 물건의 수출이 어려워질 수 있어요!\",\n       \"미국 물건의 가격이 낮아져 수입할 때 더 많이 살 수 있게 될 수도 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "미국 경제 둔화",
+   "one_liner": "미국 경제가 2분기에 둔화했어요",
+   "why_now": "소비 지출이 좋았지만 경제가 느려진 건 다른 부분에서 영향을 받았어요",
+   "details": [
+    "미국 2분기 경제가 느려졌어요",
+    "소비 지출은 좋았어요",
+    "CPKC의 수입이 높아졌어요",
+    "CPKC의 매출이 2분기 새 기록을 세웠어요"
+   ],
+   "effects": [
+    "미국 물건의 수출이 어려워질 수 있어요!",
+    "미국 물건의 가격이 낮아져 수입할 때 더 많이 살 수 있게 될 수도 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "a35498a70376500e74505c0f00666d2c1598d266"
+ },
  "review": null,
  "glossary": [],
  "related": [
