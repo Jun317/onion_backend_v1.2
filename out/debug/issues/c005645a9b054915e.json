@@ -7,10 +7,10 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 35,
+ "seen_sources": 36,
  "importance": 95,
  "created_at": "2026-07-30T22:32:46.860039+00:00",
- "last_update": "2026-08-02T19:41:21.036750+00:00",
+ "last_update": "2026-08-02T21:15:11.483203+00:00",
  "members": [
   {
    "id": "90f682db87f398c080b6048ff4a1b463093b5a4e",
@@ -383,6 +383,16 @@
    "sim_to_centroid": 0.9101
   },
   {
+   "id": "d55c3243460e44cea9ff32dccb120af344f5c211",
+   "source": "somersetcountygazette.co.uk",
+   "tier": "wire",
+   "url": "https://www.somersetcountygazette.co.uk/news/26427388.taunton-town-council-grants-support-community-projects/",
+   "title": "Taunton Town Council grants support community projects | Somerset County Gazette",
+   "published_at": "2026-08-01T04:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8261
+  },
+  {
    "id": "3a0f94fed52e68fa9aebe0db9cf9318d458d2f86",
    "source": "globalsecurity.org",
    "tier": "wire",
@@ -686,6 +696,13 @@
   },
   {
    "kind": "headline",
+   "title": "Taunton Town Council grants support community projects | Somerset County Gazette",
+   "source": "somersetcountygazette.co.uk",
+   "url": "https://www.somersetcountygazette.co.uk/news/26427388.taunton-town-council-grants-support-community-projects/",
+   "at": "2026-08-01T04:30:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Saudi Arabia , 13 countries establish multinational maritime defense coalition for Bab al - Mandab",
    "source": "globalsecurity.org",
    "url": "https://www.globalsecurity.org/military/library/news/2026/07/mil-260731-azertac01.htm",
@@ -715,16 +732,16 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-02T17:31:36.053076+00:00",
+  "created_at": "2026-08-02T21:16:58.247621+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
-    "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition",
     "Türkiye - Maldives trade pact enters into force",
+    "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition",
     "Ministry of Defense Hosts International Meeting on Saudi Initiative to Establish Multinational Maritime Defense Alliance",
-    "Saudi Arabia , 13 countries establish multinational maritime defense coalition for Bab al - Mandab",
-    "Satellite portfolio to the rescue - The HinduBusinessLine"
+    "Satellite portfolio to the rescue - The HinduBusinessLine",
+    "Saudi Arabia , 13 countries establish multinational maritime defense coalition for Bab al - Mandab"
    ],
    "official_lines": []
   },
@@ -738,31 +755,25 @@
    }
   ],
   "output": {
-   "title": "Saudi Arabia Leads…",
-   "one_liner": "Saudi Arabia Leads International Initiative to…",
+   "title": "Türkiye - Maldives…",
+   "one_liner": "Türkiye - Maldives trade pact enters into force",
    "why_now": null,
    "details": [
-    "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition",
     "Türkiye - Maldives trade pact enters into force",
+    "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition",
     "Ministry of Defense Hosts International Meeting on Saudi Initiative to Establish Multinational Maritime Defense Alliance"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "d713de3c7b8ff188b1a01d35c616b2dd5997d7c4"
+  "fact_hash": "79509e7c673b8eeb5cbfbe866558d68660523625"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-02T17:31:36.052983+00:00"
+  "at": "2026-08-02T21:16:58.247563+00:00"
  },
  "glossary": [],
  "related": [
-  {
-   "id": "c5c8d55ad4217ee1f",
-   "title": "Federal government grounds Billy Bishop airport expansion",
-   "category": "POLICY",
-   "shared": []
-  },
   {
    "id": "cde343d4cab397faf",
    "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
@@ -772,6 +783,12 @@
   {
    "id": "c3d1f048671411eac",
    "title": "Digital euro app to incorporate highest accessibility standards : ECB",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c5c8d55ad4217ee1f",
+   "title": "Federal government grounds Billy Bishop airport expansion",
    "category": "POLICY",
    "shared": []
   },

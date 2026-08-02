@@ -634,8 +634,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-02T17:41:28.458553+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-02T21:15:13.145360+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -651,26 +651,28 @@
     "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations"
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"아마존·애플 주가 반대 행보\",\n   \"one_liner\": \"아마존 주가가 올랐고 애플 주가는 떨어졌어요\",\n   \"why_now\": \"기업의 실적과 미래 전망이 주가에 영향을 미치는 게 보통이에요\",\n   \"impact_line\": \"주식 투자자들의 관심을 끌 수 있어요\",\n   \"details\": [\n       \"아마존 주가는 600억 달러의 이유로 오늘 오를 수 있어요\",\n       \"애플 주가는 6월 실적이 좋았지만 공급 위기로 7% 떨어졌어요\",\n       \"미 연방준비제도이사회가 은행 내부자에 대한 대출 규정을 개정하려고 해요\",\n       \"미 연방준비제도이사회가 상호 은행 조직 규정을 개정하려고 해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"투자자들이 주식 시장에 더 관심을 가질 수 있어요!\",\n       \"기업의 실적과 미래 전망이 투자자들의 결정에 영향을 미칠 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"NASDAQ\",\n           \"easy\": \"미국의 주식시장 중 하나예요\",\n           \"example\": \"애플 주식은 나스닥에 상장돼 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Amazon Jumps , Apple…",
-   "one_liner": "Amazon Jumps , Apple Falls to End Up - and -…",
-   "why_now": null,
+   "title": "아마존·애플 주가 반대 행보",
+   "one_liner": "아마존 주가가 올랐고 애플 주가는 떨어졌어요",
+   "why_now": "기업의 실적과 미래 전망이 주가에 영향을 미치는 게 보통이에요",
    "details": [
-    "Amazon Jumps , Apple Falls to End Up - and - Down Month",
-    "Amazon Just Left Investors Speechless",
-    "Apple Stock Falls Despite  Strongest June Quarter : The iPhone Issue Investors Couldnt Ignore"
+    "아마존 주가는 600억 달러의 이유로 오늘 오를 수 있어요",
+    "애플 주가는 6월 실적이 좋았지만 공급 위기로 7% 떨어졌어요",
+    "미 연방준비제도이사회가 은행 내부자에 대한 대출 규정을 개정하려고 해요",
+    "미 연방준비제도이사회가 상호 은행 조직 규정을 개정하려고 해요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "투자자들이 주식 시장에 더 관심을 가질 수 있어요!",
+    "기업의 실적과 미래 전망이 투자자들의 결정에 영향을 미칠 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "b1e8f4942acb7e0ab901d25edf2a99f9ace8101d"
  },

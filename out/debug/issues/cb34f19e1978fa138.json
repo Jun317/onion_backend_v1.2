@@ -871,8 +871,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-02T17:41:46.887118+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-02T21:15:19.058245+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -885,26 +885,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"테슬라와 스페이스X의 어려움\",\n   \"one_liner\": \"테슬라와 스페이스X의 어려움이 늘어나면서 일론 머스크의 재산이 줄었어요\",\n   \"why_now\": \"대기업의 어려움이 전체 경제에 영향을 줄 수 있어요\",\n   \"impact_line\": \"전기차와 우주 산업에 관심이 많은 사람들의 투자 계획에 영향을 줄 수 있어요\",\n   \"details\": [\n      \"일론 머스크의 재산이 600억 달러 이상 줄었어요\",\n      \"테슬라의 주가가 1년간 30% 내렸어요\",\n      \"테슬라가 중국 사업을 매도할 수 있다는 보도가 나왔지만 일론 머스크는 부인했어요\",\n      \"테슬라와 스페이스X의 미래에 대한 우려가 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"테슬라의 주가가 더 내릴 수 있어요, 그래서 투자자들이 주의해야 해요!\",\n      \"스페이스X의 사업이 잘되면 테슬라의 미래가 밝을 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"NASDAQ\",\n         \"easy\": \"미국의 주식시장이에요\",\n         \"example\": \"테슬라의 주가는 나스닥에서 거래되고 있어요\"\n      }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [6000.0]"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Musk Net Worth Down…",
-   "one_liner": "Musk Net Worth Down By More Than $600 Billion as…",
-   "why_now": null,
+   "title": "테슬라와 스페이스X의 어려움",
+   "one_liner": "테슬라와 스페이스X의 어려움이 늘어나면서 일론 머스크의 재산이 줄었어요",
+   "why_now": "대기업의 어려움이 전체 경제에 영향을 줄 수 있어요",
    "details": [
-    "Musk Net Worth Down By More Than $600 Billion as SpaceX , Tesla Woes Mount - Tesla ( NASDAQ : TSLA ), SpaceX",
-    "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
-    "Musk Denies Report That Tesla Is Weighing a Sale of Its China Business Ahead of a SpaceX Merger Deal"
+    "일론 머스크의 재산이 600억 달러 이상 줄었어요",
+    "테슬라의 주가가 1년간 30% 내렸어요",
+    "테슬라가 중국 사업을 매도할 수 있다는 보도가 나왔지만 일론 머스크는 부인했어요",
+    "테슬라와 스페이스X의 미래에 대한 우려가 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "테슬라의 주가가 더 내릴 수 있어요, 그래서 투자자들이 주의해야 해요!",
+    "스페이스X의 사업이 잘되면 테슬라의 미래가 밝을 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "66b9658dc776afd55285443501ea0b2cde04f082"
  },
