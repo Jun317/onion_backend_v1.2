@@ -9,11 +9,21 @@
  "entity_keys": [
   "NFLX"
  ],
- "seen_sources": 4,
- "importance": 95,
+ "seen_sources": 5,
+ "importance": 105,
  "created_at": "2026-07-28T20:39:27.535772+00:00",
- "last_update": "2026-08-01T15:33:54.873407+00:00",
+ "last_update": "2026-08-02T17:30:30.360306+00:00",
  "members": [
+  {
+   "id": "f5e23b09be49e01d0a410ec16b7ab35df4a9c4cc",
+   "source": "foreignpolicyjournal.com",
+   "tier": "wire",
+   "url": "https://www.foreignpolicyjournal.com/2026/08/02/netflix-nasdaq-nflx-shares-down-38-as-paramounts-warner-bros-deal-stalls-is-now-the-time-to-buy/",
+   "title": "Netflix ( NASDAQ : NFLX ) Shares Down 38 % As Paramount Warner Bros . Deal Stalls",
+   "published_at": "2026-08-02T15:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9354
+  },
   {
    "id": "0121773c6278a8e801c353edf243b8b08796e38d",
    "source": "howtogeek.com",
@@ -22,7 +32,7 @@
    "title": "5 new Netflix movies to watch in August",
    "published_at": "2026-08-01T14:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8648
+   "sim_to_centroid": 0.8625
   },
   {
    "id": "911c0d518e63aab7b40857917625718ffb944d2a",
@@ -32,7 +42,7 @@
    "title": "Netflix Is 43 % Below Its 52 - Week High at 20 Times Forward Earnings . Where Will the Stock Be in 3 Years ?",
    "published_at": "2026-08-01T10:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9341
+   "sim_to_centroid": 0.9354
   },
   {
    "id": "6e83dc65836f93952553eb9d64c79413aa5c78d5",
@@ -42,7 +52,7 @@
    "title": "LVMH CEO Bernard Arnault reveals he owned nearly 20 % of Netflix , but cashed out too early his stake could be worth up to $60 billion today",
    "published_at": "2026-07-30T23:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8979
+   "sim_to_centroid": 0.8986
   },
   {
    "id": "1562d69af065b730704eaa9fd36aeee8248e16cc",
@@ -52,7 +62,7 @@
    "title": "What Going On With the Uptick in Netflix Stock Today ? - Netflix ( NASDAQ : NFLX )",
    "published_at": "2026-07-28T19:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9656
+   "sim_to_centroid": 0.9671
   },
   {
    "id": "77df9b8a55b72d2cf78f53a9562449efce2f0ebf",
@@ -62,11 +72,18 @@
    "title": "Netflix : Record Buybacks , Rising Margins , and a Slate in Need of a Refresh",
    "published_at": "2026-07-26T15:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9615
+   "sim_to_centroid": 0.9582
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Netflix ( NASDAQ : NFLX ) Shares Down 38 % As Paramount Warner Bros . Deal Stalls",
+   "source": "foreignpolicyjournal.com",
+   "url": "https://www.foreignpolicyjournal.com/2026/08/02/netflix-nasdaq-nflx-shares-down-38-as-paramounts-warner-bros-deal-stalls-is-now-the-time-to-buy/",
+   "at": "2026-08-02T15:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "5 new Netflix movies to watch in August",
@@ -104,51 +121,55 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-01T19:41:40.781550+00:00",
+  "model": "template",
+  "created_at": "2026-08-02T17:42:05.298745+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
-    "5 new Netflix movies to watch in August",
-    "Netflix Is 43 % Below Its 52 - Week High at 20 Times Forward Earnings . Where Will the Stock Be in 3 Years ?",
-    "LVMH CEO Bernard Arnault reveals he owned nearly 20 % of Netflix , but cashed out too early his stake could be worth up to $60 billion today",
     "What Going On With the Uptick in Netflix Stock Today ? - Netflix ( NASDAQ : NFLX )",
-    "Netflix : Record Buybacks , Rising Margins , and a Slate in Need of a Refresh"
+    "Netflix : Record Buybacks , Rising Margins , and a Slate in Need of a Refresh",
+    "Netflix ( NASDAQ : NFLX ) Shares Down 38 % As Paramount Warner Bros . Deal Stalls",
+    "Netflix Is 43 % Below Its 52 - Week High at 20 Times Forward Earnings . Where Will the Stock Be in 3 Years ?",
+    "LVMH CEO Bernard Arnault reveals he owned nearly 20 % of Netflix , but cashed out too early his stake could be worth up to $60 billion today"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"넷플릭스 주식\",\n   \"one_liner\": \"넷플릭스 주식이 요즘 오르네요.\",\n   \"why_now\": \"주식이 오르면 투자자들이 돈을 벌 수 있어요.\",\n   \"impact_line\": \"넷플릭스 구독료가 바뀔 수 있어요.\",\n   \"details\": [\n       \"넷플릭스 주식이 요즘 올라가고 있어요.\",\n       \"넷플릭스 최고 경영자가 넷플릭스 주식을 많이 가지고 있었지만 일찍 팔았어요.\",\n       \"넷플릭스 주식이 지금 낮은 가격이에요.\",\n       \"넷플릭스 주식이 3년 후 어떻게 될지 예상하고 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"넷플릭스 주식이 더 오를 수 있어요!\",\n       \"넷플릭스 구독자들이 늘어나면 회사가 더 잘 될 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"52-주 최고치\",\n           \"easy\": \"과거 52주 동안 주식이 가장 높았을 때의 가격이에요.\",\n           \"example\": \"주식이 52주 최고치에 달하면 주식이 많이 올랐다는 뜻이에요.\"\n       },\n       {\n           \"term\": \"전방 수익률\",\n           \"easy\": \"미래에 회사에서 벌어들이는 돈이에요.\",\n           \"example\": \"전방 수익률이 높으면 회사가 잘 돌아가는 거예요.\"\n       }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "넷플릭스 주식",
-   "one_liner": "넷플릭스 주식이 요즘 오르네요.",
-   "why_now": "주식이 오르면 투자자들이 돈을 벌 수 있어요.",
+   "title": "What Going On With…",
+   "one_liner": "What Going On With the Uptick in Netflix Stock…",
+   "why_now": null,
    "details": [
-    "넷플릭스 주식이 요즘 올라가고 있어요.",
-    "넷플릭스 최고 경영자가 넷플릭스 주식을 많이 가지고 있었지만 일찍 팔았어요.",
-    "넷플릭스 주식이 지금 낮은 가격이에요.",
-    "넷플릭스 주식이 3년 후 어떻게 될지 예상하고 있어요."
+    "What Going On With the Uptick in Netflix Stock Today ? - Netflix ( NASDAQ : NFLX )",
+    "Netflix : Record Buybacks , Rising Margins , and a Slate in Need of a Refresh",
+    "Netflix ( NASDAQ : NFLX ) Shares Down 38 % As Paramount Warner Bros . Deal Stalls"
    ],
-   "effects": [
-    "넷플릭스 주식이 더 오를 수 있어요!",
-    "넷플릭스 구독자들이 늘어나면 회사가 더 잘 될 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "1ab8258c9c561e9d8eb678cefc19d68e623bfd3c"
+  "fact_hash": "c7d0598d6a70a35502f48a8118806286a7302c9a"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-01T15:34:34.730208+00:00"
+  "at": "2026-08-02T17:42:05.298678+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "category": "MARKET",
+   "shared": []
+  },
   {
    "id": "cb34f19e1978fa138",
    "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
@@ -170,12 +191,6 @@
   {
    "id": "c6103da62f039fb9e",
    "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "ccc137270dbb9d742",
-   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "category": "MARKET",
    "shared": []
   }

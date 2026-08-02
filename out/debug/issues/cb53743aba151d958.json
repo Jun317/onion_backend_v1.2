@@ -207,7 +207,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-02T14:05:47.814430+00:00",
+  "created_at": "2026-08-02T17:30:57.071074+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -220,14 +220,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"포드 실적 발표\",\n  \"one_liner\": \"포드가 예상보다 좋은 실적을 발표하고 올해 전망을 높였어요.\",\n  \"why_now\": \"기업의 실적 발표는 회사의 현재와 미래를 보여주기에 주가에 큰 영향을 줘요.\",\n  \"impact_line\": \"포드 주가가 하락해 투자자들의 관심이 쏠리고 있어요.\",\n  \"details\": [\n    \"포드 자동차의 주가가 2.3% 하락했어요.\",\n    \"포드는 생산량 증가에 힘입어 올해 실적 전망치를 상향했어요.\",\n    \"포드는 새로운 캐나다/멕시코 무역 협정을 원하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"포드 자동차의 주가 흐름이 앞으로 어떻게 될지 지켜봐야 할 것으로 보여요!\",\n    \"좋은 실적에도 불구하고 주가가 하락한 이유에 대한 분석이 이어질 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"실적\",\n      \"easy\": \"회사가 일정 기간 동안 얼마나 벌고 얼마나 썼는지 보여주는 결과예요.\",\n      \"example\": \"이번 분기 실적이 좋아서 회사 주가가 올랐어요.\"\n    },\n    {\n      \"term\": \"전망치\",\n      \"easy\": \"앞으로 얼마나 벌거나 팔 수 있을지 예상한 수치예요.\",\n      \"example\": \"올해 매출 전망치를 높여 잡았어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [2.3]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -250,11 +244,17 @@
   "fact_hash": "cbbbc5e6bc6e233d52895bd9fe43f1fd0b608548"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [2.3]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-02T14:05:47.814321+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-02T17:30:57.070948+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "category": "MARKET",
+   "shared": []
+  },
   {
    "id": "cb34f19e1978fa138",
    "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
@@ -274,14 +274,8 @@
    "shared": []
   },
   {
-   "id": "c6103da62f039fb9e",
-   "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "ccc137270dbb9d742",
-   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "id": "c2474b120b9d3d898",
+   "title": "Netflix : Record Buybacks , Rising Margins , and a Slate in Need of a Refresh",
    "category": "MARKET",
    "shared": []
   }

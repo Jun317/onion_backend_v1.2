@@ -871,7 +871,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-02T14:05:15.161825+00:00",
+  "created_at": "2026-08-02T17:30:38.629086+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,7 +887,7 @@
     "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank"
    ]
   },
-  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 2분기에 1.5% 성장하며 성장세가 둔화했어요.\",\n  \"why_now\": \"경제 성장 속도는 나라 경제의 건강 상태를 보여주는 중요한 지표 중 하나예요.\",\n  \"impact_line\": \"소비와 투자가 줄어들면 물가 상승세가 꺾일 수 있어요.\",\n  \"details\": [\n    \"미국 경제는 2분기에 1.5% 성장했어요.\",\n    \"이는 이전 분기보다 성장 속도가 느려진 거예요.\",\n    \"물가 상승률은 여전히 높은 수준을 유지하고 있어요.\",\n    \"하지만 미국 내 소비는 꾸준히 좋은 모습을 보였어요.\"\n  ],\n  \"visual_type\": \"usdkrw\",\n  \"effects\": [\n    \"미국 중앙은행이 금리를 바로 내리기 어려워할 수 있어요!\",\n    \"미국 경제 성장이 둔화하면 다른 나라 경제에도 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"미국 중앙은행\",\n      \"easy\": \"미국의 돈과 경제를 관리하는 기관이에요.\",\n      \"example\": \"미국 중앙은행이 금리를 올리면 대출 이자가 비싸져요.\"\n    },\n    {\n      \"term\": \"금리\",\n      \"easy\": \"돈을 빌리거나 맡길 때 내거나 받는 이자 비율이에요.\",\n      \"example\": \"금리가 오르면 대출 이자가 늘어나요.\"\n    },\n    {\n      \"term\": \"물가 상승률\",\n      \"easy\": \"물건이나 서비스 가격이 얼마나 오르는지를 나타내는 비율이에요.\",\n      \"example\": \"물가 상승률이 높으면 같은 돈으로 살 수 있는 물건이 줄어요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 2분기에 1.5% 성장하는 데 그쳤어요.\",\n  \"why_now\": \"미국 경제 성장률은 나라 경제의 건강 상태를 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"미국 경제 상황은 한국 수출과 환율에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"미국 경제는 2분기에 1.5% 성장했어요.\",\n    \"이는 이전 분기보다 성장 속도가 느려진 거예요.\",\n    \"하지만 미국 내 소비는 여전히 튼튼한 모습을 보였어요.\",\n    \"물가는 여전히 높은 수준을 유지하고 있어요.\"\n  ],\n  \"visual_type\": \"usdkrw\",\n  \"effects\": [\n    \"미국 중앙은행이 금리를 바로 내리기 어려워질 수 있어요!\",\n    \"미국 경제 둔화는 세계 경제에도 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"미국 중앙은행\",\n      \"easy\": \"미국의 돈과 금리를 관리하는 기관이에요.\",\n      \"example\": \"미국 중앙은행이 금리를 올리면 한국에도 영향이 있어요.\"\n    },\n    {\n      \"term\": \"물가\",\n      \"easy\": \"물건이나 서비스의 가격 수준을 말해요.\",\n      \"example\": \"물가가 오르면 우리가 사 먹는 음식값도 올라요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
@@ -918,7 +918,7 @@
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
-  "at": "2026-08-02T14:05:15.161725+00:00"
+  "at": "2026-08-02T17:30:38.628987+00:00"
  },
  "glossary": [],
  "related": [
@@ -947,19 +947,19 @@
    ]
   },
   {
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "category": "MARKET",
+   "shared": [
+    "FED"
+   ]
+  },
+  {
    "id": "cb3030e4a5acd0008",
    "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
    "category": "MACRO",
    "shared": [
     "FED",
-    "SEC"
-   ]
-  },
-  {
-   "id": "cb34f19e1978fa138",
-   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
-   "category": "MARKET",
-   "shared": [
     "SEC"
    ]
   }

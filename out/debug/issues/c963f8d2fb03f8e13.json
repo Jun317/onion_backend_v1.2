@@ -8,10 +8,20 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 2,
- "importance": 60,
+ "importance": 70,
  "created_at": "2026-07-30T22:32:46.857776+00:00",
- "last_update": "2026-07-30T22:32:46.861532+00:00",
+ "last_update": "2026-08-02T17:30:30.337989+00:00",
  "members": [
+  {
+   "id": "077756e9f8b580d140ef7bc6c2b5665d86ec688a",
+   "source": "tickerreport.com",
+   "tier": "wire",
+   "url": "https://www.tickerreport.com/banking-finance/13527388/tetra-technologies-nysetti-and-tidewater-nysetdw-critical-contrast.html",
+   "title": "Tetra Technologies ( NYSE : TTI ) and Tidewater ( NYSE : TDW ) Critical Contrast",
+   "published_at": "2026-08-02T15:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8881
+  },
   {
    "id": "9ca78c45c20026b0ffb860180be67f28d52d323a",
    "source": "dailypolitical.com",
@@ -20,7 +30,7 @@
    "title": "Cleantech Solutions International ( OTCMKTS : SEII ) vs . Keyence ( OTCMKTS : KYCCF ) Head to Head Contrast",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9953
+   "sim_to_centroid": 0.9937
   },
   {
    "id": "b30dd3c0dd6d2ef6fb916ec2153ea47da7137b85",
@@ -30,11 +40,18 @@
    "title": "Critical Comparison : Cleantech Solutions International ( OTCMKTS : SEII ) & Keyence ( OTCMKTS : KYCCF )",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9953
+   "sim_to_centroid": 0.9943
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Tetra Technologies ( NYSE : TTI ) and Tidewater ( NYSE : TDW ) Critical Contrast",
+   "source": "tickerreport.com",
+   "url": "https://www.tickerreport.com/banking-finance/13527388/tetra-technologies-nysetti-and-tidewater-nysetdw-critical-contrast.html",
+   "at": "2026-08-02T15:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Cleantech Solutions International ( OTCMKTS : SEII ) vs . Keyence ( OTCMKTS : KYCCF ) Head to Head Contrast",
@@ -51,38 +68,41 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-02T14:11:03.738494+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-02T17:32:52.525713+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
    "headlines": [
+    "Tetra Technologies ( NYSE : TTI ) and Tidewater ( NYSE : TDW ) Critical Contrast",
     "Cleantech Solutions International ( OTCMKTS : SEII ) vs . Keyence ( OTCMKTS : KYCCF ) Head to Head Contrast",
     "Critical Comparison : Cleantech Solutions International ( OTCMKTS : SEII ) & Keyence ( OTCMKTS : KYCCF )"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"외국계 기업 비교\",\n   \"one_liner\": \"미국과 일본 기업을 비교했어요\",\n   \"why_now\": \"기업 비교는 투자자에게 도움이 되요\",\n   \"impact_line\": \"주식 투자에 참고할 수 있어요\",\n   \"details\": [\n       \"Tetra Technologies와 Tidewater를 비교했어요\",\n       \"Cleantech Solutions International과 Keyence를 비교했어요\",\n       \"이러한 비교는 투자자에게 도움이 될 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주식 투자에 참고할 수 있어요!\",\n       \"기업 비교는 투자자에게 도움이 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Cleantech Solutions…",
-   "one_liner": "Cleantech Solutions International ( OTCMKTS :…",
-   "why_now": null,
+   "title": "외국계 기업 비교",
+   "one_liner": "미국과 일본 기업을 비교했어요",
+   "why_now": "기업 비교는 투자자에게 도움이 되요",
    "details": [
-    "Cleantech Solutions International ( OTCMKTS : SEII ) vs . Keyence ( OTCMKTS : KYCCF ) Head to Head Contrast",
-    "Critical Comparison : Cleantech Solutions International ( OTCMKTS : SEII ) & Keyence ( OTCMKTS : KYCCF )"
+    "Tetra Technologies와 Tidewater를 비교했어요",
+    "Cleantech Solutions International과 Keyence를 비교했어요",
+    "이러한 비교는 투자자에게 도움이 될 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "usdkrw"
+   "effects": [
+    "주식 투자에 참고할 수 있어요!",
+    "기업 비교는 투자자에게 도움이 될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "8309db931b46b9004c1804f5f8c08195c71dc5f9"
+  "fact_hash": "0f4ad8dc2b3c8fdb101dc86552dd126ab4a8f72b"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
