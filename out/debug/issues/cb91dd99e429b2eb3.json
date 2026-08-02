@@ -205,7 +205,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-02T10:17:31.233906+00:00",
+  "created_at": "2026-08-02T14:09:49.687256+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -218,8 +218,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기업들, 2026년 실적 전망 발표\",\n  \"one_liner\": \"여러 기업들이 2026년 실적 전망을 발표했어요.\",\n  \"why_now\": \"기업들의 실적 전망은 앞으로 회사가 얼마나 돈을 벌지 예상하는 것으로, 투자 결정에 중요한 정보가 돼요.\",\n  \"impact_line\": \"투자자라면 관심 기업의 실적 전망을 눈여겨볼 필요가 있어요.\",\n  \"details\": [\n    \"웨스코 인터내셔널은 2026년 실적 전망을 발표했어요.\",\n    \"크록스는 2026년 실적 전망을 업데이트했어요.\",\n    \"알트리아 그룹은 2026년 실적 전망을 업데이트했어요.\",\n    \"큐브스마트는 2026년 실적 전망을 발표했어요.\",\n    \"스트라이커는 2026년 실적 전망을 발표했어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"실적 전망이 좋으면 해당 기업 주가가 오를 수 있어요!\",\n    \"실적 전망이 예상보다 나쁘면 주가가 하락할 수 있어요!\"\n  ],\n  \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(58)"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -242,8 +248,8 @@
   "fact_hash": "68f193c91d3dc456d1e5fb60109de5b78d8ba2b8"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-02T10:17:31.233846+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(58)\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-02T14:09:49.687176+00:00"
  },
  "glossary": [],
  "related": [

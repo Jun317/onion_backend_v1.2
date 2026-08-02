@@ -275,8 +275,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-02T10:23:58.541737+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-02T14:05:18.540328+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -289,26 +289,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"엔비디아 주식 전망\",\n   \"one_liner\": \"엔비디아 주식이 오를 것이라는 전망이 나왔어요\",\n   \"why_now\": \"엔비디아가 만드는 기술이 인공지능에 많이 쓰여서 주식이 오를 수 있어요\",\n   \"impact_line\": \"엔비디아 주식을 가지고 있는 사람의 자산이 증가할 수 있어요\",\n   \"details\": [\n       \"엔비디아 주식이 8월 26일에 오를 것이라는 예측이 나왔어요\",\n       \"투자자 캐시 우드가 엔비디아 주식을 샀어요\",\n       \"엔비디아보다 빠르게 성장하는 인공지능 주식이 있다고 해요\",\n       \"마이크론 주식을 엔비디아 주식 대신 사는 게 좋을 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"엔비디아 주식이 오르면 투자자들이 더 많은 돈을 벌 수 있어요!\",\n       \"엔비디아 주식이 오르면 관련 기술이 더 발전할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Prediction : Nvidia…",
-   "one_liner": "Prediction : Nvidia Stock Will Skyrocket on Aug…",
-   "why_now": null,
+   "title": "엔비디아 주식 전망",
+   "one_liner": "엔비디아 주식이 오를 것이라는 전망이 나왔어요",
+   "why_now": "엔비디아가 만드는 기술이 인공지능에 많이 쓰여서 주식이 오를 수 있어요",
    "details": [
-    "Prediction : Nvidia Stock Will Skyrocket on Aug . 26",
-    "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
-    "Overlooked AI stock is growing faster than Nvidia"
+    "엔비디아 주식이 8월 26일에 오를 것이라는 예측이 나왔어요",
+    "투자자 캐시 우드가 엔비디아 주식을 샀어요",
+    "엔비디아보다 빠르게 성장하는 인공지능 주식이 있다고 해요",
+    "마이크론 주식을 엔비디아 주식 대신 사는 게 좋을 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "엔비디아 주식이 오르면 투자자들이 더 많은 돈을 벌 수 있어요!",
+    "엔비디아 주식이 오르면 관련 기술이 더 발전할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "b60bbe2abdab8bbe037f3e1a50f7141d7ab3fd93"
  },
