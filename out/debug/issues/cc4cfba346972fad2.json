@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-02T04:47:49.229962+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-02T10:15:48.376747+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,25 +881,32 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"기업 실적 발표\",\n\"one_liner\": \"여러 기업이 2026년 2분기 실적을 발표했어요.\",\n\"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\",\n\"impact_line\": \"주식 시장에 영향을 줄 수 있어요.\",\n\"details\": [\n\"피드몬트 오피스 리얼티 트러스트가 2026년 2분기 실적을 발표했어요.\",\n\"얼라이언스 번스타인이 2026년 2분기 실적을 발표했어요.\",\n\"스티븐 매든이 2026년 2분기 실적을 발표했어요.\"\n],\n\"visual_type\": \"earnings_quarterly\",\n\"effects\": [\n\"실적이 좋은 기업은 주가가 오를 수 있어요!\",\n\"실적이 나쁜 기업은 주가가 내릴 수 있어요!\"\n],\n\"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects[1] 느낌표 종결 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Piedmont Office…",
-   "one_liner": "Piedmont Office Realty Trust , Inc . Q2 2026…",
-   "why_now": null,
+   "title": "기업 실적 발표",
+   "one_liner": "여러 기업이 2026년 2분기 실적을 발표했어요.",
+   "why_now": "기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.",
    "details": [
-    "Piedmont Office Realty Trust , Inc . Q2 2026 Earnings Call Summary",
-    "2 High - Yield Dividend Stocks Worth Buying Before 2026 Ends",
-    "AllianceBernstein Holding L . P . Q2 2026 Earnings Call Summary"
+    "피드몬트 오피스 리얼티 트러스트가 2026년 2분기 실적을 발표했어요.",
+    "얼라이언스 번스타인이 2026년 2분기 실적을 발표했어요.",
+    "스티븐 매든이 2026년 2분기 실적을 발표했어요."
    ],
-   "effects": [],
+   "effects": [
+    "실적이 좋은 기업은 주가가 오를 수 있어요!",
+    "실적이 나쁜 기업은 주가가 내릴 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "bb5b45edd10310211ceca9f499b53e093044fa9e"
@@ -923,12 +930,6 @@
    "shared": []
   },
   {
-   "id": "c8b4b9d481b23c014",
-   "title": "Grupo Televisa Q2 Earnings Call Highlights",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
    "id": "c2e1f0924eab58cb9",
    "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
    "category": "EARNINGS",
@@ -937,6 +938,12 @@
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c13036d466bc3c560",
+   "title": "Starbucks reports strong quarterly sales and raises annual outlook",
    "category": "EARNINGS",
    "shared": []
   }

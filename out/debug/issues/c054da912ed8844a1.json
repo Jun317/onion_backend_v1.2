@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-02T04:47:30.560464+00:00",
+  "created_at": "2026-08-02T10:15:07.472607+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,12 +64,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"오라클 주가 하락\",\n\"one_liner\": \"오라클의 주가가 하락세를 보이고 있어요.\",\n\"why_now\": \"회사의 실적이 좋았음에도 주가가 떨어져 투자자들이 주목하고 있어요.\",\n\"impact_line\": \"오라클 관련 투자자들의 수익률에 영향을 줄 수 있어요.\",\n\"details\": [\n\"나이트뷰 캐피탈이 오라클의 주식을 일부 매도했어요.\",\n\"이는 클라우드 사업에서 큰 이익을 얻은 후 나온 결정이에요.\",\n\"오라클은 펜타곤과 70억 달러 규모의 계약을 체결했음에도 주가가 6.5% 하락했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"회사의 주가 하락은 투자자들의 손실로 이어질 수 있어요!\",\n\"향후 오라클의 클라우드 사업 성과와 계약 이행 여부가 주가에 영향을 미칠 것으로 예상돼요!\"\n],\n\"glossary\": [\n{\n\"term\": \"나이트뷰 캐피탈\",\n\"easy\": \"오라클의 주식을 일부 매도한 투자 회사예요.\",\n\"example\": \"나이트뷰 캐피탈은 여러 회사의 주식을 사고팔며 투자 수익을 추구해요.\"\n},\n{\n\"term\": \"펜타곤\",\n\"easy\": \"미국 국방부를 뜻하는 별칭이에요.\",\n\"example\": \"펜타곤은 미국의 국방 정책을 결정하고 군대를 지휘해요.\"\n}\n],\n\"impact_line\": \"오라클 관련 투자자들의 수익률에 영향을 줄 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "why_now 55자 초과(59)",
+     "입력에 없는 숫자: [6.5, 70.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [6.5, 70.0]"
     ]
    }
   ],
@@ -87,8 +94,8 @@
   "fact_hash": "e49da2f24d3e371a42e35e95cab890488739fb94"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-02T04:47:30.560346+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(59)\", \"입력에 없는 숫자: [6.5, 70.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [6.5, 70.0]\"]}]}",
+  "at": "2026-08-02T10:15:07.472507+00:00"
  },
  "glossary": [],
  "related": [
@@ -105,20 +112,20 @@
    "shared": []
   },
   {
-   "id": "ccc137270dbb9d742",
-   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "cb53743aba151d958",
-   "title": "The Hartford Insurance Group ( NYSE : HIG ) Reaches New 12 - Month High on Analyst Upgrade",
+   "id": "cb34f19e1978fa138",
+   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "category": "MARKET",
    "shared": []
   },
   {
    "id": "c6103da62f039fb9e",
    "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "category": "MARKET",
    "shared": []
   }

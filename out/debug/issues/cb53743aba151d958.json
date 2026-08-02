@@ -207,7 +207,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-02T04:45:54.908888+00:00",
+  "created_at": "2026-08-02T10:14:13.548008+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -220,19 +220,22 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"포드 주가 하락\",\n  \"one_liner\": \"미국 자동차 회사 포드의 주가가 2.3% 하락했어요.\",\n  \"why_now\": \"회사의 실적이나 전망이 좋지 않으면 주가가 떨어져 투자자들이 손해를 볼 수 있어요.\",\n  \"impact_line\": \"포드 주식을 가진 사람들의 자산 가치가 줄어들 수 있어요.\",\n  \"details\": [\n    \"포드 자동차의 주가가 2.3% 하락했습니다.\",\n    \"현재 주가 하락에 대한 매도 여부를 두고 논의가 있습니다.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"포드 자동차의 실적이 예상보다 좋지 않거나, 미래 전망이 어두워지면 주가가 더 하락할 수 있어요!\",\n    \"회사가 새로운 무역 협정을 원한다는 소식은 주가에 긍정적인 영향을 줄 수도 있습니다.\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주가\",\n      \"easy\": \"회사의 가치를 나타내는 가격이에요.\",\n      \"example\": \"회사의 실적이 좋으면 주가가 오르는 경우가 많아요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"포드 자동차 주가\",\n   \"one_liner\": \"포드 자동차의 주가가 하락했어요\",\n   \"why_now\": \"주가가 오르거나 내리면 투자자에게 영향을 주는 거예요\",\n   \"impact_line\": \"포드 자동차를 산 사람의 자산 가치가 줄 수 있어요\",\n   \"details\": [\n      \"포드 자동차의 주가가 2.3% 내렸어요\",\n      \"포드 자동차의 실적이 좋았지만 주가가 내렸어요\",\n      \"포드 자동차가 새로운 캐나다/멕시코 무역 협정을 원해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"포드 자동차의 주가가 더 내릴 수 있어요!\",\n      \"새로운 무역 협정으로 포드 자동차의 수출이 늘어날 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
+     "details[0] 어요체 아님",
+     "details[1] 어요체 아님",
+     "details[2] 어요체 아님",
+     "details[3] 어요체 아님",
+     "effects[1] 느낌표 종결 아님",
      "입력에 없는 숫자: [2.3]"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "details 3문장 미만",
-     "effects[1] 느낌표 종결 아님",
      "입력에 없는 숫자: [2.3]"
     ]
    }
@@ -252,8 +255,8 @@
   "fact_hash": "cbbbc5e6bc6e233d52895bd9fe43f1fd0b608548"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.3]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [2.3]\"]}]}",
-  "at": "2026-08-02T04:45:54.908738+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\", \"details[3] 어요체 아님\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [2.3]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.3]\"]}]}",
+  "at": "2026-08-02T10:14:13.547910+00:00"
  },
  "glossary": [],
  "related": [
@@ -270,8 +273,8 @@
    "shared": []
   },
   {
-   "id": "ccc137270dbb9d742",
-   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "id": "cb34f19e1978fa138",
+   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "category": "MARKET",
    "shared": []
   },
@@ -282,8 +285,8 @@
    "shared": []
   },
   {
-   "id": "cb34f19e1978fa138",
-   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "category": "MARKET",
    "shared": []
   }

@@ -2,16 +2,26 @@
  "id": "c2fd4263a9b959dce",
  "title": "FinancialContent - Illumina ( NASDAQ : ILMN ) Surprises With Q2 CY2026 Sales , Full - Year Outlook Slightly Exceeds Expectations",
  "category": "MARKET",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 50,
+ "seen_sources": 2,
+ "importance": 65,
  "created_at": "2026-07-30T22:32:46.857918+00:00",
- "last_update": "2026-07-31T01:01:23.801628+00:00",
+ "last_update": "2026-08-02T10:13:43.593381+00:00",
  "members": [
+  {
+   "id": "4e6710a08a14fbf46956da5b7e0b4e4ba0d67c3c",
+   "source": "saratogian.com",
+   "tier": "wire",
+   "url": "https://www.saratogian.com/2026/08/02/26-nissan-armada-nismo-a-bold-win-for-the-full-size-suv-consumer-2/",
+   "title": "Grasso Garage : 2026 Nissan Armada NISMO : This full - size SUV is a bold win – Saratogian",
+   "published_at": "2026-08-02T08:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8731
+  },
   {
    "id": "8a920051434cd6454bfc5bd4231ed2f562eb8c07",
    "source": "markets.financialcontent.com",
@@ -20,7 +30,7 @@
    "title": "FinancialContent - Standex ( NYSE : SXI ) Exceeds Q2 CY2026 Expectations",
    "published_at": "2026-07-30T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9327
+   "sim_to_centroid": 0.9317
   },
   {
    "id": "dfa5323daadde0dcf0233cb28ceb72a12b044051",
@@ -30,7 +40,7 @@
    "title": "FinancialContent - Schneider ( NYSE : SNDR ) Q2 CY2026 : Strong Sales",
    "published_at": "2026-07-30T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9234
+   "sim_to_centroid": 0.9231
   },
   {
    "id": "93da58e4e7ecc74d02164868041b848bf1e4b97f",
@@ -40,7 +50,7 @@
    "title": "FinancialContent - CNO Financial Group ( NYSE : CNO ) Q2 CY2026 Sales Beat Estimates",
    "published_at": "2026-07-30T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9352
+   "sim_to_centroid": 0.9335
   },
   {
    "id": "f3d38abd8ba03988d6a702d659b7c6f85ccc00fa",
@@ -50,7 +60,7 @@
    "title": "FinancialContent - Rivian ( NASDAQ : RIVN ) Reports Upbeat Q2 CY2026",
    "published_at": "2026-07-30T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9392
+   "sim_to_centroid": 0.9374
   },
   {
    "id": "c8d37a337ddbe01ccef777bf5127f57401988ed6",
@@ -60,7 +70,7 @@
    "title": "FinancialContent - Illumina ( NASDAQ : ILMN ) Surprises With Q2 CY2026 Sales , Full - Year Outlook Slightly Exceeds Expectations",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9736
+   "sim_to_centroid": 0.9713
   },
   {
    "id": "67450ec36a77d1e867dae9f3fc51613596db0d5d",
@@ -70,7 +80,7 @@
    "title": "FinancialContent - Grid Dynamics ( NASDAQ : GDYN ) Exceeds Q2 CY2026 Expectations , Full - Year Sales Guidance is Optimistic",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9664
+   "sim_to_centroid": 0.9657
   },
   {
    "id": "547425eccd92d9c7dbb5e696b1b4aa8c8ace8c8e",
@@ -80,11 +90,18 @@
    "title": "FinancialContent - Alignment Healthcare ( NASDAQ : ALHC ) Beats Q2 CY2026 Sales Expectations But Stock Drops",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9184
+   "sim_to_centroid": 0.9182
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Grasso Garage : 2026 Nissan Armada NISMO : This full - size SUV is a bold win – Saratogian",
+   "source": "saratogian.com",
+   "url": "https://www.saratogian.com/2026/08/02/26-nissan-armada-nismo-a-bold-win-for-the-full-size-suv-consumer-2/",
+   "at": "2026-08-02T08:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "FinancialContent - Standex ( NYSE : SXI ) Exceeds Q2 CY2026 Expectations",
@@ -135,7 +152,53 @@
    "at": "2026-07-30T20:45:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-02T10:15:22.405760+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "FinancialContent - Illumina ( NASDAQ : ILMN ) Surprises With Q2 CY2026 Sales , Full - Year Outlook Slightly Exceeds Expectations",
+    "FinancialContent - Grid Dynamics ( NASDAQ : GDYN ) Exceeds Q2 CY2026 Expectations , Full - Year Sales Guidance is Optimistic",
+    "FinancialContent - Rivian ( NASDAQ : RIVN ) Reports Upbeat Q2 CY2026",
+    "FinancialContent - CNO Financial Group ( NYSE : CNO ) Q2 CY2026 Sales Beat Estimates",
+    "FinancialContent - Standex ( NYSE : SXI ) Exceeds Q2 CY2026 Expectations"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"기업들 2분기 실적 예상치 상회\",\n  \"one_liner\": \"여러 기업이 2분기 실적 예상치를 웃도는 좋은 성적을 냈어요.\",\n  \"why_now\": \"기업 실적은 경기를 보여주는 중요한 지표로, 예상보다 좋으면 경제 회복에 대한 기대를 높여요.\",\n  \"impact_line\": \"주식 시장 전반에 긍정적인 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"일루미나의 2분기 매출과 연간 전망이 예상보다 좋았어요.\",\n    \"그리드 다이나믹스는 2분기 실적이 예상치를 웃돌았고 연간 전망도 밝아요.\",\n    \"리비안은 2분기 실적이 예상보다 좋게 나왔어요.\",\n    \"CNO 파이낸셜 그룹의 2분기 매출이 예상치를 상회했어요.\",\n    \"스탠덱스도 2분기 실적이 예상치를 웃돌았어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"기업들의 좋은 실적은 투자 심리를 개선시켜 주식 시장 상승을 이끌 수 있어요!\",\n    \"이는 소비와 투자 증가로 이어져 경제 성장에 긍정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"매출\",\n      \"easy\": \"기업이 상품이나 서비스를 팔아 벌어들인 돈이에요.\",\n      \"example\": \"이번 분기 매출이 지난 분기보다 10% 늘었어요.\"\n    },\n    {\n      \"term\": \"실적\",\n      \"easy\": \"기업이 일정 기간 동안 얼마나 돈을 벌고 썼는지 보여주는 성적표예요.\",\n      \"example\": \"이번 분기 실적이 좋아서 주가가 올랐어요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects[1] 느낌표 종결 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "기업들 2분기 실적 예상치 상회",
+   "one_liner": "여러 기업이 2분기 실적 예상치를 웃도는 좋은 성적을 냈어요.",
+   "why_now": "기업 실적은 경기를 보여주는 중요한 지표로, 예상보다 좋으면 경제 회복에 대한 기대를 높여요.",
+   "details": [
+    "일루미나의 2분기 매출과 연간 전망이 예상보다 좋았어요.",
+    "그리드 다이나믹스는 2분기 실적이 예상치를 웃돌았고 연간 전망도 밝아요.",
+    "리비안은 2분기 실적이 예상보다 좋게 나왔어요.",
+    "CNO 파이낸셜 그룹의 2분기 매출이 예상치를 상회했어요.",
+    "스탠덱스도 2분기 실적이 예상치를 웃돌았어요."
+   ],
+   "effects": [
+    "기업들의 좋은 실적은 투자 심리를 개선시켜 주식 시장 상승을 이끌 수 있어요!",
+    "이는 소비와 투자 증가로 이어져 경제 성장에 긍정적인 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "c8674fab8241fe2eac6366b46c32ba6dabd3c67f"
+ },
  "review": null,
  "glossary": [],
  "related": [
@@ -152,20 +215,20 @@
    "shared": []
   },
   {
-   "id": "ccc137270dbb9d742",
-   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "cb53743aba151d958",
-   "title": "The Hartford Insurance Group ( NYSE : HIG ) Reaches New 12 - Month High on Analyst Upgrade",
+   "id": "cb34f19e1978fa138",
+   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "category": "MARKET",
    "shared": []
   },
   {
    "id": "c6103da62f039fb9e",
    "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "category": "MARKET",
    "shared": []
   }
