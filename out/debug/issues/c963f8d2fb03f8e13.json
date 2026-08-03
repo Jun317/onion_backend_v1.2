@@ -103,7 +103,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-03T08:46:57.740449+00:00",
+  "created_at": "2026-08-03T12:41:02.881069+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -116,18 +116,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"기업 비교 분석\", \"one_liner\": \"여러 기업들의 주가와 사업 내용을 비교 분석했어요.\", \"why_now\": \"기업들의 장단점을 파악하면 투자 결정을 내리는 데 도움이 될 수 있어요.\", \"impact_line\": null, \"details\": [\"미국 증시에 상장된 루트와 하노버 루크의 사업을 비교했어요.\", \"아카스토르와 SLB의 사업을 비교 분석했어요.\", \"테트라 테크놀로지스와 타이더워터의 사업을 비교했어요.\", \"클린테크 솔루션스와 키엔스의 사업을 비교했어요.\", \"클린테크 솔루션스와 키엔스의 사업을 다시 한번 비교했어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"주가\", \"easy\": \"회사가 얼마나 잘나가고 있는지 보여주는 숫자예요.\", \"example\": \"삼성전자 주가가 많이 올랐어요.\"}, {\"term\": \"사업 내용\", \"easy\": \"회사가 무엇을 만들고 어떤 서비스를 제공하는지 설명하는 거예요.\", \"example\": \"이 회사는 스마트폰을 만드는 사업을 해요.\"}]}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "effects 1~2문장 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects 1~2문장 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -146,17 +140,11 @@
   "fact_hash": "cceed176413b173225d00e355b6e5fd0050587c6"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}]}",
-  "at": "2026-08-03T08:46:57.740339+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-03T12:41:02.881007+00:00"
  },
  "glossary": [],
  "related": [
-  {
-   "id": "c8f0b7cb0487a034d",
-   "title": "Finance minister reviews Pakistan economic progress with IMF",
-   "category": "FX",
-   "shared": []
-  },
   {
    "id": "c37ad01cf8a091a74",
    "title": "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions",
@@ -166,6 +154,12 @@
   {
    "id": "c8045461eaa3211ab",
    "title": "Fed keeps rates unchanged despite three dissents , expert calls it hawkish hold with fractured committee",
+   "category": "FX",
+   "shared": []
+  },
+  {
+   "id": "c8f0b7cb0487a034d",
+   "title": "Finance minister reviews Pakistan economic progress with IMF",
    "category": "FX",
    "shared": []
   }

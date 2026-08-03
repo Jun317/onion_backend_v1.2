@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03T08:56:58.855153+00:00",
+ "generated_at": "2026-08-03T12:51:11.130993+00:00",
  "issues": [
   {
    "id": "cea83213c8906724e",
@@ -108,6 +108,25 @@
    "one_liner": "일본 중앙은행이 금리를 그대로 유지했어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
+  },
+  {
+   "id": "eb1bdaa0b3cb70aec",
+   "title": "한국은행 기준금리 인상 (2.75%)",
+   "category": "RATE",
+   "status": "active",
+   "origin": "official_event",
+   "seen_sources": 0,
+   "importance": 140,
+   "entity_keys": [
+    "BOK"
+   ],
+   "created_at": "2026-08-03T11:32:57.816558+00:00",
+   "last_update": "2026-08-03T12:39:52.792567+00:00",
+   "members": 0,
+   "llm_title": "한국 기준금리 인상",
+   "one_liner": "한국은행이 기준금리를 올려 연 2.75%가 됐어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": false
   },
   {
    "id": "cb3030e4a5acd0008",
@@ -260,25 +279,6 @@
    "in_review": true
   },
   {
-   "id": "cafd0214ac01cc7f7",
-   "title": "BOJ governor Ueda says to expect to keep raising interest rates in response to economic , financial conditions",
-   "category": "RATE",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 125,
-   "entity_keys": [
-    "BOJ"
-   ],
-   "created_at": "2026-07-31T11:03:07.127583+00:00",
-   "last_update": "2026-07-31T11:03:07.127583+00:00",
-   "members": 2,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
    "id": "c01efb76fcd7102be",
    "title": "Preview : ECB set to hold rates in July , hints of September hike expected : ING",
    "category": "RATE",
@@ -337,6 +337,25 @@
    "in_review": true
   },
   {
+   "id": "cafd0214ac01cc7f7",
+   "title": "BOJ governor Ueda says to expect to keep raising interest rates in response to economic , financial conditions",
+   "category": "RATE",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 120,
+   "entity_keys": [
+    "BOJ"
+   ],
+   "created_at": "2026-07-31T11:03:07.127583+00:00",
+   "last_update": "2026-07-31T11:03:07.127583+00:00",
+   "members": 2,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
    "id": "c036692000e761edb",
    "title": "Fed holds rates steady ; 3 policymakers dissent in favor of a hike",
    "category": "POLICY",
@@ -354,31 +373,6 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
-  },
-  {
-   "id": "c8f0b7cb0487a034d",
-   "title": "Finance minister reviews Pakistan economic progress with IMF",
-   "category": "FX",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 27,
-   "importance": 120,
-   "entity_keys": [
-    "IMF",
-    "KRX:000660",
-    "KRX:034730",
-    "KRX:047810",
-    "MU",
-    "NVDA",
-    "SEC"
-   ],
-   "created_at": "2026-07-24T14:20:12.855565+00:00",
-   "last_update": "2026-07-29T12:26:40.900469+00:00",
-   "members": 44,
-   "llm_title": "아르헨티나 채무",
-   "one_liner": "국제통화기구(IMF) 총재가 아르헨티나가 채무를 잘 지킬 수 있을 거라고 했어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
   },
   {
    "id": "cddd63d8ad09a1af7",
@@ -443,25 +437,6 @@
    "in_review": true
   },
   {
-   "id": "c3d1f048671411eac",
-   "title": "Digital euro app to incorporate highest accessibility standards : ECB",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 115,
-   "entity_keys": [
-    "ECB"
-   ],
-   "created_at": "2026-07-30T18:53:39.733964+00:00",
-   "last_update": "2026-08-01T09:28:57.560214+00:00",
-   "members": 5,
-   "llm_title": "유럽중앙은행 경고",
-   "one_liner": "유럽중앙은행이 기후 위기가 금융에 위협이 된다고 경고했어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
    "id": "c8045461eaa3211ab",
    "title": "Fed keeps rates unchanged despite three dissents , expert calls it hawkish hold with fractured committee",
    "category": "FX",
@@ -503,6 +478,31 @@
    "in_review": true
   },
   {
+   "id": "c8f0b7cb0487a034d",
+   "title": "Finance minister reviews Pakistan economic progress with IMF",
+   "category": "FX",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 27,
+   "importance": 115,
+   "entity_keys": [
+    "IMF",
+    "KRX:000660",
+    "KRX:034730",
+    "KRX:047810",
+    "MU",
+    "NVDA",
+    "SEC"
+   ],
+   "created_at": "2026-07-24T14:20:12.855565+00:00",
+   "last_update": "2026-07-29T12:26:40.900469+00:00",
+   "members": 44,
+   "llm_title": "아르헨티나 채무",
+   "one_liner": "국제통화기구(IMF) 총재가 아르헨티나가 채무를 잘 지킬 수 있을 거라고 했어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
    "id": "cc9931e5da1b53be2",
    "title": "BOJ dissenter Asada sets bar for supporting next rate hike , wants demand - driven inflation",
    "category": "RATE",
@@ -539,6 +539,25 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "c3d1f048671411eac",
+   "title": "Digital euro app to incorporate highest accessibility standards : ECB",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 4,
+   "importance": 110,
+   "entity_keys": [
+    "ECB"
+   ],
+   "created_at": "2026-07-30T18:53:39.733964+00:00",
+   "last_update": "2026-08-01T09:28:57.560214+00:00",
+   "members": 5,
+   "llm_title": "유럽중앙은행 경고",
+   "one_liner": "유럽중앙은행이 기후 위기가 금융에 위협이 된다고 경고했어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
   },
   {
    "id": "cceb15b16363c0564",
@@ -727,28 +746,6 @@
    "in_review": true
   },
   {
-   "id": "c8759b0f51add9c4b",
-   "title": "CXMT becomes China most valuable listed company",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 29,
-   "importance": 105,
-   "entity_keys": [
-    "BA",
-    "CHINA",
-    "KRX:373220",
-    "SEC"
-   ],
-   "created_at": "2026-07-28T20:39:27.536272+00:00",
-   "last_update": "2026-07-30T12:10:40.427187+00:00",
-   "members": 46,
-   "llm_title": "2분기 실적 발표",
-   "one_liner": "여러 기업이 2분기 실적을 발표했어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
    "id": "c76068f5fb08a3e9a",
    "title": "A forced - labor crackdown or an end - run around Congress ? Dissecting Trump new tariffs",
    "category": "MARKET",
@@ -924,6 +921,28 @@
    "llm_title": "주택담보대출 금리 1년 만에 최고",
    "one_liner": "주택담보대출 금리가 1년 만에 가장 높은 수준으로 올랐어요.",
    "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "c8759b0f51add9c4b",
+   "title": "CXMT becomes China most valuable listed company",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 29,
+   "importance": 100,
+   "entity_keys": [
+    "BA",
+    "CHINA",
+    "KRX:373220",
+    "SEC"
+   ],
+   "created_at": "2026-07-28T20:39:27.536272+00:00",
+   "last_update": "2026-07-30T12:10:40.427187+00:00",
+   "members": 46,
+   "llm_title": "2분기 실적 발표",
+   "one_liner": "여러 기업이 2분기 실적을 발표했어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1358,44 +1377,6 @@
    "in_review": true
   },
   {
-   "id": "c2362a90772e95247",
-   "title": "US Launches Strikes on Iran",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 35,
-   "importance": 85,
-   "entity_keys": [
-    "IRAN"
-   ],
-   "created_at": "2026-07-30T06:47:58.372185+00:00",
-   "last_update": "2026-08-02T10:13:43.591172+00:00",
-   "members": 50,
-   "llm_title": "미국-이란 충돌",
-   "one_liner": "미국과 이란의 충돌로 유가가 오를 수 있어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "c8b4b9d481b23c014",
-   "title": "Grupo Televisa Q2 Earnings Call Highlights",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 5,
-   "importance": 85,
-   "entity_keys": [
-    "V"
-   ],
-   "created_at": "2026-07-28T22:30:32.690870+00:00",
-   "last_update": "2026-08-01T09:28:57.557618+00:00",
-   "members": 6,
-   "llm_title": "비자, 3분기 이익 증가",
-   "one_liner": "비자(Visa)의 3분기 이익이 예상보다 늘었어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "c197d406966c9b050",
    "title": "Micron : AI Panic , But Memory Supercycle Isnt Over Yet ( Upgrade ) ( NASDAQ : MU )",
    "category": "MARKET",
@@ -1448,23 +1429,6 @@
    "llm_title": "트럼프 관세에 대한 법적 도전",
    "one_liner": "트럼프 전 대통령의 새 관세에 대해 법적 소송이 제기될 가능성이 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "cd9e8d293d4fcfa7a",
-   "title": "Spin Master cancels price hikes for toys after tariff refund",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 37,
-   "importance": 85,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.858445+00:00",
-   "last_update": "2026-07-31T11:03:07.126211+00:00",
-   "members": 47,
-   "llm_title": "중국 공장 활동 감소",
-   "one_liner": "중국 공장 활동이 줄었어요",
-   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1664,15 +1628,15 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 6,
+   "seen_sources": 8,
    "importance": 80,
    "entity_keys": [],
    "created_at": "2026-07-30T22:32:46.857918+00:00",
-   "last_update": "2026-08-03T08:45:47.426380+00:00",
-   "members": 15,
-   "llm_title": "기업들 2분기 매출 예상 상회",
-   "one_liner": "일부 기업들이 2분기 매출 예상치를 웃돌았어요.",
-   "llm_model": "gemini-2.5-flash-lite",
+   "last_update": "2026-08-03T12:40:04.331411+00:00",
+   "members": 21,
+   "llm_title": "U . S . dollar…",
+   "one_liner": "U . S . dollar weakens sharply against the…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -1693,41 +1657,41 @@
    "in_review": true
   },
   {
-   "id": "c97584abcfb4e7d28",
-   "title": "South Korea KOSPI Is Trading Like a Meme Stock , and the S & P 500 or Nasdaq Composite May Be Next",
-   "category": "MARKET",
+   "id": "c2362a90772e95247",
+   "title": "US Launches Strikes on Iran",
+   "category": "GEO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 8,
+   "seen_sources": 35,
    "importance": 80,
    "entity_keys": [
-    "KOSPI"
+    "IRAN"
    ],
-   "created_at": "2026-07-28T00:16:00.853754+00:00",
-   "last_update": "2026-08-02T10:13:43.581867+00:00",
-   "members": 10,
-   "llm_title": "코스피, 단기 급등 후 조정",
-   "one_liner": "한국 주식 시장인 코스피가 단기간에 크게 올랐다가 현재는 조정받고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
+   "created_at": "2026-07-30T06:47:58.372185+00:00",
+   "last_update": "2026-08-02T10:13:43.591172+00:00",
+   "members": 50,
+   "llm_title": "미국-이란 충돌",
+   "one_liner": "미국과 이란의 충돌로 유가가 오를 수 있어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
-   "id": "c13036d466bc3c560",
-   "title": "Starbucks reports strong quarterly sales and raises annual outlook",
+   "id": "c8b4b9d481b23c014",
+   "title": "Grupo Televisa Q2 Earnings Call Highlights",
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 4,
+   "seen_sources": 5,
    "importance": 80,
    "entity_keys": [
-    "SBUX"
+    "V"
    ],
-   "created_at": "2026-07-29T22:26:52.626090+00:00",
-   "last_update": "2026-08-01T11:39:08.333977+00:00",
+   "created_at": "2026-07-28T22:30:32.690870+00:00",
+   "last_update": "2026-08-01T09:28:57.557618+00:00",
    "members": 6,
-   "llm_title": "스타벅스 실적 상승",
-   "one_liner": "스타벅스의 매출이 강세를 보이고 있어요",
-   "llm_model": "llama-3.3-70b-versatile",
+   "llm_title": "비자, 3분기 이익 증가",
+   "one_liner": "비자(Visa)의 3분기 이익이 예상보다 늘었어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -1748,6 +1712,23 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
+   "in_review": true
+  },
+  {
+   "id": "cd9e8d293d4fcfa7a",
+   "title": "Spin Master cancels price hikes for toys after tariff refund",
+   "category": "POLICY",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 37,
+   "importance": 80,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.858445+00:00",
+   "last_update": "2026-07-31T11:03:07.126211+00:00",
+   "members": 47,
+   "llm_title": "중국 공장 활동 감소",
+   "one_liner": "중국 공장 활동이 줄었어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1795,6 +1776,25 @@
    "in_review": false
   },
   {
+   "id": "cf6419c2d6a74b323",
+   "title": "Analyzing Air China ( AICAF ) and Its Rivals",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 4,
+   "importance": 75,
+   "entity_keys": [
+    "CHINA"
+   ],
+   "created_at": "2026-08-03T08:45:47.431691+00:00",
+   "last_update": "2026-08-03T12:40:04.330636+00:00",
+   "members": 4,
+   "llm_title": "Global Market :…",
+   "one_liner": "Global Market : China stocks slide as global AI…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c963f8d2fb03f8e13",
    "title": "Cleantech Solutions International ( OTCMKTS : SEII ) vs . Keyence ( OTCMKTS : KYCCF ) Head to Head Contrast",
    "category": "FX",
@@ -1812,20 +1812,41 @@
    "in_review": true
   },
   {
-   "id": "c1aedb709e69210c4",
-   "title": "Expedia Group Stock : Is Wall Street Bullish or Bearish ?",
+   "id": "c97584abcfb4e7d28",
+   "title": "South Korea KOSPI Is Trading Like a Meme Stock , and the S & P 500 or Nasdaq Composite May Be Next",
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 44,
+   "seen_sources": 8,
    "importance": 75,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.859519+00:00",
-   "last_update": "2026-08-01T11:39:08.346225+00:00",
-   "members": 50,
-   "llm_title": "주식 투자 조언",
-   "one_liner": "미국 증권 분석 매체가 여러 주식의 투자 방법을 조언했어요.",
+   "entity_keys": [
+    "KOSPI"
+   ],
+   "created_at": "2026-07-28T00:16:00.853754+00:00",
+   "last_update": "2026-08-02T10:13:43.581867+00:00",
+   "members": 10,
+   "llm_title": "코스피, 단기 급등 후 조정",
+   "one_liner": "한국 주식 시장인 코스피가 단기간에 크게 올랐다가 현재는 조정받고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "c13036d466bc3c560",
+   "title": "Starbucks reports strong quarterly sales and raises annual outlook",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 4,
+   "importance": 75,
+   "entity_keys": [
+    "SBUX"
+   ],
+   "created_at": "2026-07-29T22:26:52.626090+00:00",
+   "last_update": "2026-08-01T11:39:08.333977+00:00",
+   "members": 6,
+   "llm_title": "스타벅스 실적 상승",
+   "one_liner": "스타벅스의 매출이 강세를 보이고 있어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -2343,22 +2364,20 @@
    "in_review": true
   },
   {
-   "id": "c95a6fd0505b15f1a",
-   "title": "American Express vs . Berkshire Hathaway : Which Financial Stock Is a Better Buy in 2026 ?",
-   "category": "EARNINGS",
+   "id": "c1aedb709e69210c4",
+   "title": "Expedia Group Stock : Is Wall Street Bullish or Bearish ?",
+   "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 2,
+   "seen_sources": 44,
    "importance": 70,
-   "entity_keys": [
-    "BRK"
-   ],
-   "created_at": "2026-08-01T11:39:08.347156+00:00",
-   "last_update": "2026-08-01T11:39:08.348395+00:00",
-   "members": 2,
-   "llm_title": "Berkshire Hathaway…",
-   "one_liner": "Berkshire Hathaway Minimum Investment",
-   "llm_model": "template",
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.859519+00:00",
+   "last_update": "2026-08-01T11:39:08.346225+00:00",
+   "members": 50,
+   "llm_title": "주식 투자 조언",
+   "one_liner": "미국 증권 분석 매체가 여러 주식의 투자 방법을 조언했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -2610,25 +2629,6 @@
    "in_review": false
   },
   {
-   "id": "cf6419c2d6a74b323",
-   "title": "Analyzing Air China ( AICAF ) and Its Rivals",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 65,
-   "entity_keys": [
-    "CHINA"
-   ],
-   "created_at": "2026-08-03T08:45:47.431691+00:00",
-   "last_update": "2026-08-03T08:45:47.438999+00:00",
-   "members": 2,
-   "llm_title": "중국 증시 하락",
-   "one_liner": "중국 증시가 인공지능 관련주 하락으로 인해 떨어졌어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": false
-  },
-  {
    "id": "cb91dd99e429b2eb3",
    "title": "National Fuel Gas ( NYSE : NFG ) Releases FY 2026 Earnings Guidance",
    "category": "EARNINGS",
@@ -2663,19 +2663,21 @@
    "in_review": true
   },
   {
-   "id": "c2f2c81c3a9e9e7a0",
-   "title": "Steven Madden Q2 Earnings Call Highlights",
+   "id": "c95a6fd0505b15f1a",
+   "title": "American Express vs . Berkshire Hathaway : Which Financial Stock Is a Better Buy in 2026 ?",
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 31,
+   "seen_sources": 2,
    "importance": 65,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.858882+00:00",
-   "last_update": "2026-08-02T10:13:43.591431+00:00",
-   "members": 50,
-   "llm_title": "TriMas Q2 Earnings…",
-   "one_liner": "TriMas Q2 Earnings Call Highlights",
+   "entity_keys": [
+    "BRK"
+   ],
+   "created_at": "2026-08-01T11:39:08.347156+00:00",
+   "last_update": "2026-08-01T11:39:08.348395+00:00",
+   "members": 2,
+   "llm_title": "Berkshire Hathaway…",
+   "one_liner": "Berkshire Hathaway Minimum Investment",
    "llm_model": "template",
    "in_review": true
   },
@@ -3170,6 +3172,23 @@
    "in_review": true
   },
   {
+   "id": "c2f2c81c3a9e9e7a0",
+   "title": "Steven Madden Q2 Earnings Call Highlights",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 31,
+   "importance": 60,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.858882+00:00",
+   "last_update": "2026-08-02T10:13:43.591431+00:00",
+   "members": 50,
+   "llm_title": "TriMas Q2 Earnings…",
+   "one_liner": "TriMas Q2 Earnings Call Highlights",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "cc4cfba346972fad2",
    "title": "Piedmont Office Realty Trust , Inc . Q2 2026 Earnings Call Summary",
    "category": "EARNINGS",
@@ -3201,40 +3220,6 @@
    "llm_title": "Equitable ( NYSE :…",
    "one_liner": "Equitable ( NYSE : EQH ) versus Acmat ( OTCMKTS…",
    "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "ce3291eb85f70585a",
-   "title": "AUO ( OTCMKTS : AUOTY ) Issues Earnings Results , Beats Expectations By $0 . 05 EPS",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 36,
-   "importance": 60,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.860298+00:00",
-   "last_update": "2026-08-01T11:39:08.346056+00:00",
-   "members": 50,
-   "llm_title": "AUO ( OTCMKTS :…",
-   "one_liner": "AUO ( OTCMKTS : AUOTY ) Issues Earnings Results…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cf9c42e5d29f716f3",
-   "title": "Carvana ( NYSE : CVNA ) Announces Quarterly Earnings Results",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 36,
-   "importance": 60,
-   "entity_keys": [],
-   "created_at": "2026-07-30T00:17:27.085008+00:00",
-   "last_update": "2026-07-30T12:10:40.427040+00:00",
-   "members": 50,
-   "llm_title": "기업 실적 발표",
-   "one_liner": "여러 기업들이 2분기 실적을 발표했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -3444,6 +3429,23 @@
    "in_review": true
   },
   {
+   "id": "ce3291eb85f70585a",
+   "title": "AUO ( OTCMKTS : AUOTY ) Issues Earnings Results , Beats Expectations By $0 . 05 EPS",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 36,
+   "importance": 55,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.860298+00:00",
+   "last_update": "2026-08-01T11:39:08.346056+00:00",
+   "members": 50,
+   "llm_title": "AUO ( OTCMKTS :…",
+   "one_liner": "AUO ( OTCMKTS : AUOTY ) Issues Earnings Results…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c4838bc0034745a97",
    "title": "Playing for highest stakes",
    "category": "EARNINGS",
@@ -3458,6 +3460,23 @@
    "llm_title": "F5 Rises as AI…",
    "one_liner": "F5 Rises as AI Demand Turns into Revenue",
    "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "cf9c42e5d29f716f3",
+   "title": "Carvana ( NYSE : CVNA ) Announces Quarterly Earnings Results",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 36,
+   "importance": 55,
+   "entity_keys": [],
+   "created_at": "2026-07-30T00:17:27.085008+00:00",
+   "last_update": "2026-07-30T12:10:40.427040+00:00",
+   "members": 50,
+   "llm_title": "기업 실적 발표",
+   "one_liner": "여러 기업들이 2분기 실적을 발표했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -3873,42 +3892,6 @@
    "in_review": false
   },
   {
-   "id": "c1a2177ceea1d93fb",
-   "title": "Pentair plc Q2 2026 Earnings Call Summary",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 50,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.858741+00:00",
-   "last_update": "2026-08-02T10:13:43.593316+00:00",
-   "members": 3,
-   "llm_title": "Daily Horoscope for…",
-   "one_liner": "Daily Horoscope for August 2 , 2026",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c8cb00b3809145a8b",
-   "title": "3 Major Reasons for Investors to Buy AbbVie Stock Before July 31st",
-   "category": "EARNINGS",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 50,
-   "entity_keys": [
-    "ABBV"
-   ],
-   "created_at": "2026-07-29T12:26:40.901995+00:00",
-   "last_update": "2026-07-29T12:26:40.901995+00:00",
-   "members": 2,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
    "id": "c6857fd8f65c2ecfc",
    "title": "Market recap : Top - 10 firms shed Rs 2 . 74 lakh crore in value ; HDFC Bank takes biggest hit",
    "category": "MARKET",
@@ -4121,6 +4104,23 @@
    "in_review": true
   },
   {
+   "id": "c1a2177ceea1d93fb",
+   "title": "Pentair plc Q2 2026 Earnings Call Summary",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 45,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.858741+00:00",
+   "last_update": "2026-08-02T10:13:43.593316+00:00",
+   "members": 3,
+   "llm_title": "Daily Horoscope for…",
+   "one_liner": "Daily Horoscope for August 2 , 2026",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c509c0e24d1466ac0",
    "title": "Tech stocks roar , Nasdaq Composite jumps nearly 3 %",
    "category": "MARKET",
@@ -4170,6 +4170,25 @@
    "one_liner": "여러 기업들이 곧 분기별 실적을 발표할 예정이에요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
+  },
+  {
+   "id": "c8cb00b3809145a8b",
+   "title": "3 Major Reasons for Investors to Buy AbbVie Stock Before July 31st",
+   "category": "EARNINGS",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 45,
+   "entity_keys": [
+    "ABBV"
+   ],
+   "created_at": "2026-07-29T12:26:40.901995+00:00",
+   "last_update": "2026-07-29T12:26:40.901995+00:00",
+   "members": 2,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
   },
   {
    "id": "c97b66c85f24e90a2",

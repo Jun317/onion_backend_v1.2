@@ -1,0 +1,154 @@
+{
+ "id": "eb1bdaa0b3cb70aec",
+ "title": "한국은행 기준금리 인상 (2.75%)",
+ "category": "RATE",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "한국은행|RATE|2026-07",
+ "entity_keys": [
+  "BOK"
+ ],
+ "seen_sources": 0,
+ "importance": 140,
+ "created_at": "2026-08-03T11:32:57.816558+00:00",
+ "last_update": "2026-08-03T12:39:52.792567+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "한국은행",
+   "metric": "기준금리",
+   "value": 2.75,
+   "unit": "%",
+   "prev": 2.5,
+   "period": "2026-07",
+   "source": "ECOS",
+   "trust": "official",
+   "observed_at": "2026-08-03T11:32:57.816558+00:00"
+  },
+  {
+   "entity": "한국은행",
+   "metric": "변동폭",
+   "value": 0.25,
+   "unit": "%p",
+   "prev": null,
+   "period": "2026-07",
+   "source": "ECOS",
+   "trust": "official",
+   "observed_at": "2026-08-03T11:32:57.816558+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "한국은행 기준금리 2.75% (2026-07)",
+   "source": "ECOS",
+   "url": "https://ecos.bok.or.kr",
+   "at": "2026-08-03T11:32:57.816558+00:00"
+  }
+ ],
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-03T12:40:05.771233+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [
+    {
+     "entity": "한국은행",
+     "metric": "기준금리",
+     "value": 2.75,
+     "unit": "%",
+     "prev": 2.5,
+     "period": "2026-07",
+     "source": "ECOS"
+    },
+    {
+     "entity": "한국은행",
+     "metric": "변동폭",
+     "value": 0.25,
+     "unit": "%p",
+     "prev": null,
+     "period": "2026-07",
+     "source": "ECOS"
+    }
+   ],
+   "headlines": [
+    "한국은행 기준금리 인상 (2.75%)"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"한국 기준금리 인상\",\n   \"one_liner\": \"한국은행이 기준금리를 올려 연 2.75%가 됐어요\",\n   \"why_now\": \"금리가 오르면 대출 이자가 늘어나 가계 부담이 커지는 게 보통이에요\",\n   \"impact_line\": \"변동금리 대출의 이자 부담이 무거워질 수 있어요\",\n   \"details\": [\n      \"한국은행이 기준금리를 0.25%p 올렸어요\",\n      \"새 기준금리는 연 2.75%예요\",\n      \"직전 기준금리는 연 2.5%였어요\"\n   ],\n   \"visual_type\": \"kr_base_rate\",\n   \"effects\": [\n      \"은행 예금 이자도 따라 올라, 목돈을 예금에만 두면 이자 수익이 늘 수 있어요!\",\n      \"돈 빌리기가 어려워져 소비와 투자가 둔화될 것으로 예상돼요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"기준금리\",\n         \"easy\": \"한국은행이 정하는 나라의 기본 이자율이에요\",\n         \"example\": \"기준금리가 오르면 대출 이자도 보통 따라 올라요\"\n      }\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "한국 기준금리 인상",
+   "one_liner": "한국은행이 기준금리를 올려 연 2.75%가 됐어요",
+   "why_now": "금리가 오르면 대출 이자가 늘어나 가계 부담이 커지는 게 보통이에요",
+   "details": [
+    "한국은행이 기준금리를 0.25%p 올렸어요",
+    "새 기준금리는 연 2.75%예요",
+    "직전 기준금리는 연 2.5%였어요"
+   ],
+   "effects": [
+    "은행 예금 이자도 따라 올라, 목돈을 예금에만 두면 이자 수익이 늘 수 있어요!",
+    "돈 빌리기가 어려워져 소비와 투자가 둔화될 것으로 예상돼요!"
+   ],
+   "visual_type": "kr_base_rate"
+  },
+  "fact_hash": "71ecbcb358825a91c6c0b80572e000685b13472a"
+ },
+ "review": null,
+ "glossary": [
+  {
+   "term": "기준금리",
+   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
+   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
+  },
+  {
+   "term": "한국은행",
+   "easy": "우리나라 돈을 관리하는 중앙은행이에요.",
+   "example": "한국 기준금리를 여기서 정해요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
+ "related": [
+  {
+   "id": "cea83213c8906724e",
+   "title": "Fed Holds Interest Rates Steady Amid Inflation From Iran Conflict",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c03074aeed49bf60f",
+   "title": "World Bank confirms plan to phase out China lending by 2031",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c71b0b5d782052f63",
+   "title": "Bank Of Japan Maintains Key Rate",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c01efb76fcd7102be",
+   "title": "Preview : ECB set to hold rates in July , hints of September hike expected : ING",
+   "category": "RATE",
+   "shared": []
+  }
+ ]
+}
