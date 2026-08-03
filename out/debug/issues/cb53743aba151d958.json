@@ -206,8 +206,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-03T04:54:56.994151+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-03T08:46:14.344770+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -220,26 +220,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"포드 자동차 주가\",\n   \"one_liner\": \"포드 자동차가 수익 예상을 높였어요\",\n   \"why_now\": \"수익 예상이 높아지면 주가가 오를 수 있어요\",\n   \"impact_line\": \"자동차 구매자에게는 가격 영향이 있을 수 있어요\",\n   \"details\": [\n      \"포드 자동차가 2026년 수익 예상을 높였어요\",\n      \"포드 자동차의 주가가 하락했어요\",\n      \"포드 자동차는 새로운 캐나다·멕시코 무역 협정을 원해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"자동차 수출이 늘어나면 포드 자동차의 수익이 올라갈 수 있어요!\",\n      \"새 무역 협정으로 자동차 가격이 낮아질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "The Hartford…",
-   "one_liner": "The Hartford Insurance Group ( NYSE : HIG )…",
-   "why_now": null,
+   "title": "포드 자동차 주가",
+   "one_liner": "포드 자동차가 수익 예상을 높였어요",
+   "why_now": "수익 예상이 높아지면 주가가 오를 수 있어요",
    "details": [
-    "The Hartford Insurance Group ( NYSE : HIG ) Reaches New 12 - Month High on Analyst Upgrade",
-    "The Hartford Insurance Group ( NYSE : HIG ) Reaches New 1 - Year High Following Analyst Upgrade",
-    "Stock Market Today , July 29 : Ford Beats Earnings , Raises 2026 Guidance on Production Strength"
+    "포드 자동차가 2026년 수익 예상을 높였어요",
+    "포드 자동차의 주가가 하락했어요",
+    "포드 자동차는 새로운 캐나다·멕시코 무역 협정을 원해요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "자동차 수출이 늘어나면 포드 자동차의 수익이 올라갈 수 있어요!",
+    "새 무역 협정으로 자동차 가격이 낮아질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "cbbbc5e6bc6e233d52895bd9fe43f1fd0b608548"
  },

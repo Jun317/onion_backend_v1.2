@@ -851,7 +851,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-03T04:58:10.560343+00:00",
+  "created_at": "2026-08-03T08:48:43.451691+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -864,7 +864,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"기업들 실적 발표\", \"one_liner\": \"여러 기업들이 최근 분기 실적을 발표했어요.\", \"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\", \"impact_line\": null, \"details\": [\"SCI Engineered Materials가 실적을 발표했어요.\", \"Konica Minolta도 실적을 발표했어요.\", \"SES가 분기 실적을 발표했어요.\", \"Tokyo Gas Co., Ltd.가 분기 실적을 발표했어요.\", \"Vallourec도 실적을 발표했어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": []}",
+  "raw_response": "{\"title\": \"기업 실적 발표\", \"one_liner\": \"여러 기업들이 최근 분기 실적을 발표했어요.\", \"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\", \"impact_line\": null, \"details\": [\"SCI Engineered Materials가 실적을 발표했어요.\", \"Konica Minolta가 실적을 발표했어요.\", \"SES가 분기 실적을 발표했어요.\", \"Tokyo Gas Co., Ltd.가 분기 실적을 발표했어요.\", \"Vallourec가 실적을 발표했어요.\"], \"visual_type\": \"earnings_quarterly\", \"effects\": [], \"glossary\": []}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
@@ -895,7 +895,7 @@
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-03T04:58:10.560282+00:00"
+  "at": "2026-08-03T08:48:43.451603+00:00"
  },
  "glossary": [],
  "related": [

@@ -766,7 +766,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-03T04:54:38.505807+00:00",
+  "created_at": "2026-08-03T08:46:10.968834+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -779,17 +779,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"인플레이션 완화\",\n   \"one_liner\": \"미국 경제가 1.5% 성장했어요\",\n   \"why_now\": \"인플레이션이 낮아지면 물가 부담이 줄어드는 게 보통이에요\",\n   \"impact_line\": \"물가가 낮아져 소비자에게 좋을 수 있어요\",\n   \"details\": [\n       \"미국 경제가 1.5% 성장했어요\",\n       \"인플레이션이 2개월 만에 최저치에 도달했어요\",\n       \"영국 중앙은행이 금리를 올리지 않았지만 인플레이션이 높아질 수 있다고 경고했어요\",\n       \"인도의 금 수요가 6% 감소했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"인플레이션이 낮아져 소비자 물가 부담이 줄어들 수 있어요!\",\n       \"미국 경제 성장률이 낮아져 소비와 투자가 둔화될 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"인플레이션\",\n           \"easy\": \"물가가 계속 오르는 현상이에요\",\n           \"example\": \"인플레이션이 높으면 물건을 사기 더 어려워져요\"\n       }\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 1.5% 성장하는 데 그쳤어요.\",\n  \"why_now\": \"경제 성장이 둔화하면 일자리나 소득이 늘기 어려워질 수 있어요.\",\n  \"impact_line\": \"물가 상승 압력 속에서 경제 성장세가 약해질 수 있어요.\",\n  \"details\": [\n    \"미국 경제 성장률이 1.5%로 둔화했어요.\",\n    \"이는 예상보다 낮은 수치예요.\",\n    \"물가 상승 압력이 계속되는 가운데 경제 성장세가 약해졌어요.\",\n    \"하지만 소상공인들의 낙관적인 전망은 높아졌어요.\"\n  ],\n  \"visual_type\": \"us_gdp_growth\",\n  \"effects\": [\n    \"소비가 위축될 수 있어 물가 상승이 진정될 가능성이 있어요!\",\n    \"기업들의 투자나 고용이 줄어들 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"물가 상승 압력\",\n      \"easy\": \"물건 가격이 계속 오를 것 같은 분위기를 말해요.\",\n      \"example\": \"유가가 오르면서 물가 상승 압력이 커졌어요.\"\n    },\n    {\n      \"term\": \"소상공인\",\n      \"easy\": \"작은 규모로 사업을 하는 사람들을 말해요.\",\n      \"example\": \"소상공인들은 경기가 어려워지면 더 힘들어해요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
      "입력에 없는 숫자: [1.5]"
     ]
    },
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
+     "visual_type 'us_gdp_growth' 허용 목록 밖",
      "입력에 없는 숫자: [1.5]"
     ]
    }
@@ -809,8 +810,8 @@
   "fact_hash": "823ebedb6bbb88ebe7b22c00beeaf5862cb9e2a1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
-  "at": "2026-08-03T04:54:38.505743+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"visual_type 'us_gdp_growth' 허용 목록 밖\", \"입력에 없는 숫자: [1.5]\"]}]}",
+  "at": "2026-08-03T08:46:10.968744+00:00"
  },
  "glossary": [],
  "related": [
