@@ -122,7 +122,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-02T21:16:01.500060+00:00",
+  "created_at": "2026-08-03T01:02:30.601537+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -135,8 +135,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"넷플릭스 주가 변동\",\n  \"one_liner\": \"넷플릭스 주가가 여러 요인으로 인해 오르내리고 있어요.\",\n  \"why_now\": \"넷플릭스 주가 변동은 많은 사람들이 이용하는 서비스의 미래와 관련이 있어 주목받고 있어요.\",\n  \"impact_line\": \"넷플릭스 주가 변동은 구독료나 서비스 품질에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"넷플릭스 주가가 최근 38% 하락했다는 소식이 있어요.\",\n    \"이는 워너브라더스와의 거래가 지연된 영향으로 풀이돼요.\",\n    \"현재 넷플릭스 주가는 52주 최고가보다 43% 낮은 수준이에요.\",\n    \"한때 넷플릭스 지분 약 20%를 보유했던 인물이 있었어요.\",\n    \"그가 보유했던 지분은 현재 600억 달러까지 가치가 올랐을 수 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"넷플릭스 주가 하락은 회사의 투자 계획에 영향을 줄 수 있어요!\",\n    \"주가 변동은 향후 넷플릭스 서비스의 콘텐츠 투자나 요금 정책에 영향을 미칠 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"52주 최고가\",\n      \"easy\": \"주식이 지난 1년 동안 기록한 가장 높은 가격이에요.\",\n      \"example\": \"이 주식은 52주 최고가보다 지금 많이 떨어졌어요.\"\n    },\n    {\n      \"term\": \"지분\",\n      \"easy\": \"회사의 소유권 중 일부를 가지고 있는 것을 말해요.\",\n      \"example\": \"그는 이 회사의 지분을 많이 가지고 있어서 큰 영향력을 행사해요.\"\n    }\n  ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [600.0]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -159,8 +165,8 @@
   "fact_hash": "c7d0598d6a70a35502f48a8118806286a7302c9a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-02T21:16:01.499958+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [600.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-03T01:02:30.601433+00:00"
  },
  "glossary": [],
  "related": [
@@ -183,14 +189,14 @@
    "shared": []
   },
   {
-   "id": "c76068f5fb08a3e9a",
-   "title": "A forced - labor crackdown or an end - run around Congress ? Dissecting Trump new tariffs",
+   "id": "c6103da62f039fb9e",
+   "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c6103da62f039fb9e",
-   "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
+   "id": "c76068f5fb08a3e9a",
+   "title": "A forced - labor crackdown or an end - run around Congress ? Dissecting Trump new tariffs",
    "category": "MARKET",
    "shared": []
   }
