@@ -9,11 +9,21 @@
  "entity_keys": [
   "UBER"
  ],
- "seen_sources": 2,
- "importance": 70,
+ "seen_sources": 3,
+ "importance": 80,
  "created_at": "2026-08-01T17:29:19.508755+00:00",
- "last_update": "2026-08-01T17:29:19.509729+00:00",
+ "last_update": "2026-08-03T18:14:24.384489+00:00",
  "members": [
+  {
+   "id": "78dfdbe8992a103ebfc9534f7d8cd654b894d8fa",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/uber-reports-earnings-aug-5-150400366.html",
+   "title": "Uber Reports Earnings on Aug . 5 , Followed by Lyft on Aug . 6 . Here the Better Buy Now .",
+   "published_at": "2026-08-03T15:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8851
+  },
   {
    "id": "106ad409fb8d66cf212d8f27935ab02310f656fa",
    "source": "techcrunch.com",
@@ -22,7 +32,7 @@
    "title": "Uber is building an autonomous vehicle empire , and here every company it using to do it",
    "published_at": "2026-08-01T15:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9643
+   "sim_to_centroid": 0.9636
   },
   {
    "id": "ca4d3af6d60806376395b2dc6e1a36523d3101a7",
@@ -32,11 +42,18 @@
    "title": "Inside Uber - Waymo rift , there a battle over AVs in nation capital",
    "published_at": "2026-08-01T14:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9644
+   "sim_to_centroid": 0.9626
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Uber Reports Earnings on Aug . 5 , Followed by Lyft on Aug . 6 . Here the Better Buy Now .",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/uber-reports-earnings-aug-5-150400366.html",
+   "at": "2026-08-03T15:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Uber is building an autonomous vehicle empire , and here every company it using to do it",
@@ -53,41 +70,41 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-01T21:15:11.960183+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-03T18:14:47.427256+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Uber Reports Earnings on Aug . 5 , Followed by Lyft on Aug . 6 . Here the Better Buy Now .",
     "Uber is building an autonomous vehicle empire , and here every company it using to do it",
     "Inside Uber - Waymo rift , there a battle over AVs in nation capital"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"우버, 자율주행 기술 확장\",\n  \"one_liner\": \"우버가 자율주행 기술을 활용해 사업 영역을 넓히고 있어요.\",\n  \"why_now\": \"자율주행 기술은 미래 모빌리티의 핵심으로, 우버의 행보는 관련 산업에 큰 영향을 줄 수 있어요.\",\n  \"impact_line\": null,\n  \"details\": [\n    \"우버는 자율주행 기술을 바탕으로 사업을 확장하고 있어요.\",\n    \"우버는 이 목표를 위해 여러 기업들과 협력하고 있어요.\",\n    \"우버와 웨이모 간의 자율주행 기술 경쟁이 심화되고 있어요.\",\n    \"특히 수도권 지역에서 자율주행 기술을 둘러싼 경쟁이 치열해요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"자율주행 기술을 가진 기업들의 협력 및 경쟁 구도가 더욱 복잡해질 수 있어요!\",\n    \"미래 모빌리티 시장의 판도가 우버의 행보에 따라 달라질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"자율주행 기술\",\n      \"easy\": \"사람이 운전하지 않아도 스스로 움직이는 자동차 기술이에요.\",\n      \"example\": \"자율주행 기술이 발전하면 운전이 더 편해질 수 있어요.\"\n    },\n    {\n      \"term\": \"웨이모\",\n      \"easy\": \"구글의 모회사 알파벳이 만든 자율주행 자동차 회사예요.\",\n      \"example\": \"웨이모는 이미 일부 지역에서 자율주행 택시 서비스를 하고 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"우버·리프트 실적 발표\",\n   \"one_liner\": \"우버와 리프트가 실적을 발표했어요\",\n   \"why_now\": \"이 회사의 실적은 사람들이 타요나 음식을 주문하는 일이 얼마나 많아졌는지 알려줘요\",\n   \"impact_line\": \"우버나 리프트를 자주 이용하는 사람에게는 요금이나 서비스 품질에 영향을 줄 수 있어요\",\n   \"details\": [\n      \"우버의 실적 발표가 8월 5일에 있었어요\",\n      \"리프트의 실적 발표가 8월 6일에 있었어요\",\n      \"우버는 자율 주행차 사업을 확대하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"우버나 리프트의 실적이 좋으면 더 많은 사람이 이용할 수 있어요!\",\n      \"우버나 리프트의 자율 주행차 사업이 성공하면 교통이 편리해질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": []
    }
   ],
   "output": {
-   "title": "우버, 자율주행 기술 확장",
-   "one_liner": "우버가 자율주행 기술을 활용해 사업 영역을 넓히고 있어요.",
-   "why_now": "자율주행 기술은 미래 모빌리티의 핵심으로, 우버의 행보는 관련 산업에 큰 영향을 줄 수 있어요.",
+   "title": "우버·리프트 실적 발표",
+   "one_liner": "우버와 리프트가 실적을 발표했어요",
+   "why_now": "이 회사의 실적은 사람들이 타요나 음식을 주문하는 일이 얼마나 많아졌는지 알려줘요",
    "details": [
-    "우버는 자율주행 기술을 바탕으로 사업을 확장하고 있어요.",
-    "우버는 이 목표를 위해 여러 기업들과 협력하고 있어요.",
-    "우버와 웨이모 간의 자율주행 기술 경쟁이 심화되고 있어요.",
-    "특히 수도권 지역에서 자율주행 기술을 둘러싼 경쟁이 치열해요."
+    "우버의 실적 발표가 8월 5일에 있었어요",
+    "리프트의 실적 발표가 8월 6일에 있었어요",
+    "우버는 자율 주행차 사업을 확대하고 있어요"
    ],
    "effects": [
-    "자율주행 기술을 가진 기업들의 협력 및 경쟁 구도가 더욱 복잡해질 수 있어요!",
-    "미래 모빌리티 시장의 판도가 우버의 행보에 따라 달라질 수 있어요!"
+    "우버나 리프트의 실적이 좋으면 더 많은 사람이 이용할 수 있어요!",
+    "우버나 리프트의 자율 주행차 사업이 성공하면 교통이 편리해질 수 있어요!"
    ],
    "visual_type": "none"
   },
-  "fact_hash": "02415fdb4272980573e000c6fc9affd2635df36e"
+  "fact_hash": "6d1e20d035139a870ca8e7b735a6d40f64428b66"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
