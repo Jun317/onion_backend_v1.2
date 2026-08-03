@@ -766,7 +766,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-03T20:06:19.357438+00:00",
+  "created_at": "2026-08-03T23:33:56.084048+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -779,12 +779,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"인플레이션 완화\",\n   \"one_liner\": \"미국 경제가 1.5% 성장했어요\",\n   \"why_now\": \"인플레이션이 낮아지면 물가 부담이 줄어 가계 지출이 늘어날 수 있어요\",\n   \"impact_line\": \"물가가 낮아져 소비자 지갑에 좋을 수 있어요\",\n   \"details\": [\n      \"미국 경제가 1.5% 성장했어요\",\n      \"인플레이션이 2개월 만에 최저치에 도달했어요\",\n      \"영국 중앙은행은 금리를 유지했지만 인플레이션이 더 높아질 수 있다고 경고했어요\",\n      \"인도에서 금 수요가 6% 감소했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"인플레이션이 낮아져 소비자 물가 부담이 줄어들 수 있어요!\",\n      \"미국 경제 성장으로 소비와 투자가 살아날 것으로 예상돼요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"인플레이션\",\n         \"easy\": \"물가가 계속 오르는 현상이에요\",\n         \"example\": \"인플레이션이 높으면 물건값이 비싸져서 소비자가 부담이 커져요\"\n      }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [1.5]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [1.5]"
     ]
    }
   ],
@@ -803,8 +809,8 @@
   "fact_hash": "823ebedb6bbb88ebe7b22c00beeaf5862cb9e2a1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-03T20:06:19.357347+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
+  "at": "2026-08-03T23:33:56.083967+00:00"
  },
  "glossary": [],
  "related": [

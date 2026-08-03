@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03T21:36:17.190100+00:00",
+ "generated_at": "2026-08-03T23:40:29.588238+00:00",
  "issues": [
   {
    "id": "cea83213c8906724e",
@@ -95,25 +95,6 @@
    "in_review": true
   },
   {
-   "id": "c71b0b5d782052f63",
-   "title": "Bank Of Japan Maintains Key Rate",
-   "category": "RATE",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 5,
-   "importance": 145,
-   "entity_keys": [
-    "BOJ"
-   ],
-   "created_at": "2026-07-31T11:03:07.127309+00:00",
-   "last_update": "2026-07-31T23:28:15.381455+00:00",
-   "members": 5,
-   "llm_title": "일본 금리 유지",
-   "one_liner": "일본 중앙은행이 금리를 그대로 유지했어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
    "id": "eb1bdaa0b3cb70aec",
    "title": "한국은행 기준금리 인상 (2.75%)",
    "category": "RATE",
@@ -131,6 +112,25 @@
    "one_liner": "한국은행이 기준금리를 올려 연 2.75%가 됐어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": false
+  },
+  {
+   "id": "c71b0b5d782052f63",
+   "title": "Bank Of Japan Maintains Key Rate",
+   "category": "RATE",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 5,
+   "importance": 140,
+   "entity_keys": [
+    "BOJ"
+   ],
+   "created_at": "2026-07-31T11:03:07.127309+00:00",
+   "last_update": "2026-07-31T23:28:15.381455+00:00",
+   "members": 5,
+   "llm_title": "일본 금리 유지",
+   "one_liner": "일본 중앙은행이 금리를 그대로 유지했어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
   },
   {
    "id": "cb3030e4a5acd0008",
@@ -157,24 +157,24 @@
    "in_review": true
   },
   {
-   "id": "c811d33e8ed33762d",
-   "title": "Former Bank of Korea Notes",
-   "category": "RATE",
-   "status": "candidate",
+   "id": "cd6e96f9df3790928",
+   "title": "US economy cools in second quarter despite solid spending",
+   "category": "MARKET",
+   "status": "active",
    "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 140,
+   "seen_sources": 9,
+   "importance": 135,
    "entity_keys": [
-    "BOK",
-    "PG"
+    "ABBV",
+    "SEC"
    ],
-   "created_at": "2026-07-04T21:17:48.839164+00:00",
-   "last_update": "2026-07-04T22:17:30.487297+00:00",
-   "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "created_at": "2026-08-02T04:45:35.342282+00:00",
+   "last_update": "2026-08-03T23:33:39.010552+00:00",
+   "members": 13,
+   "llm_title": "미국 경제 둔화",
+   "one_liner": "미국 경제가 2분기에도 조금씩 둔화했어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
   },
   {
    "id": "cefc52d1b1dbc3f66",
@@ -212,26 +212,6 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
-   "in_review": true
-  },
-  {
-   "id": "cd6e96f9df3790928",
-   "title": "US economy cools in second quarter despite solid spending",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 130,
-   "entity_keys": [
-    "ABBV",
-    "SEC"
-   ],
-   "created_at": "2026-08-02T04:45:35.342282+00:00",
-   "last_update": "2026-08-03T21:36:16.369363+00:00",
-   "members": 7,
-   "llm_title": "AbbVie Earnings :…",
-   "one_liner": "AbbVie Earnings : Maintaining Our Fair Value…",
-   "llm_model": "template",
    "in_review": true
   },
   {
@@ -952,23 +932,6 @@
    "in_review": true
   },
   {
-   "id": "c005645a9b054915e",
-   "title": "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 62,
-   "importance": 95,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.860039+00:00",
-   "last_update": "2026-08-02T22:15:52.153844+00:00",
-   "members": 50,
-   "llm_title": "해양 방어 연합체 추진",
-   "one_liner": "사우디아라비아가 여러 나라와 함께 해양 방어 연합체를 만들자고 제안했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "cb53743aba151d958",
    "title": "The Hartford Insurance Group ( NYSE : HIG ) Reaches New 12 - Month High on Analyst Upgrade",
    "category": "MARKET",
@@ -1001,23 +964,6 @@
    "members": 50,
    "llm_title": "주택담보대출 금리 1년 만에 최고",
    "one_liner": "주택담보대출 금리가 1년 만에 가장 높은 수준으로 올랐어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "ccabc6b42e9ade3d7",
-   "title": "Seagate Shares Rise After Fourth - Quarter Results Beat Expectations and Outlook Surprises to the Upside",
-   "category": "MACRO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 47,
-   "importance": 95,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.858584+00:00",
-   "last_update": "2026-07-31T23:28:15.396012+00:00",
-   "members": 50,
-   "llm_title": "주택담보대출 금리 상승",
-   "one_liner": "주택담보대출 금리가 4주 연속 올라 1년 만에 최고치를 기록했어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -1118,6 +1064,25 @@
    "in_review": true
   },
   {
+   "id": "c38e2d535edc150a5",
+   "title": "Jamie Dimon Net Worth is the wealth and stock fortune facts of the JPMorgan CEO",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 90,
+   "entity_keys": [
+    "JPM"
+   ],
+   "created_at": "2026-08-03T23:33:39.011455+00:00",
+   "last_update": "2026-08-03T23:33:39.012309+00:00",
+   "members": 2,
+   "llm_title": "Here are some of…",
+   "one_liner": "Here are some of JPMorgan favorite stocks as…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c4026e84afc89a060",
    "title": "4 Dividend Energy Stocks to Buy This Month , Starting With ExxonMobil",
    "category": "MARKET",
@@ -1174,6 +1139,40 @@
    "members": 48,
    "llm_title": "구글, AI 투자 늘린다",
    "one_liner": "구글이 인공지능에 더 많은 돈을 쓰기로 했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "c005645a9b054915e",
+   "title": "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 62,
+   "importance": 90,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.860039+00:00",
+   "last_update": "2026-08-02T22:15:52.153844+00:00",
+   "members": 50,
+   "llm_title": "해양 방어 연합체 추진",
+   "one_liner": "사우디아라비아가 여러 나라와 함께 해양 방어 연합체를 만들자고 제안했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "ccabc6b42e9ade3d7",
+   "title": "Seagate Shares Rise After Fourth - Quarter Results Beat Expectations and Outlook Surprises to the Upside",
+   "category": "MACRO",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 47,
+   "importance": 90,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.858584+00:00",
+   "last_update": "2026-07-31T23:28:15.396012+00:00",
+   "members": 50,
+   "llm_title": "주택담보대출 금리 상승",
+   "one_liner": "주택담보대출 금리가 4주 연속 올라 1년 만에 최고치를 기록했어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -1308,14 +1307,14 @@
    "category": "FX",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 8,
+   "seen_sources": 40,
    "importance": 85,
    "entity_keys": [],
    "created_at": "2026-07-30T22:32:46.857776+00:00",
-   "last_update": "2026-08-03T21:36:16.372489+00:00",
-   "members": 13,
-   "llm_title": "Critical Comparison…",
-   "one_liner": "Critical Comparison : Cleantech Solutions…",
+   "last_update": "2026-08-03T23:33:39.010209+00:00",
+   "members": 50,
+   "llm_title": "Nasdaq shines as U .…",
+   "one_liner": "Nasdaq shines as U . S . stocks surge on opening…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1325,14 +1324,14 @@
    "category": "GEO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 13,
+   "seen_sources": 14,
    "importance": 85,
    "entity_keys": [
     "IRAN"
    ],
    "created_at": "2026-08-02T17:30:30.363728+00:00",
-   "last_update": "2026-08-03T20:05:39.131326+00:00",
-   "members": 16,
+   "last_update": "2026-08-03T23:33:39.003079+00:00",
+   "members": 17,
    "llm_title": "이란 공격 중지",
    "one_liner": "트럼프 대통령이 이란 공격을 중지시킬 것이라고 했어요",
    "llm_model": "llama-3.3-70b-versatile",
@@ -1415,26 +1414,6 @@
    "in_review": true
   },
   {
-   "id": "ca7e18652a27e4c6f",
-   "title": "Left - leaning group says state faces affordability crisis",
-   "category": "GEO",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 36,
-   "importance": 85,
-   "entity_keys": [
-    "C",
-    "F"
-   ],
-   "created_at": "2026-07-16T06:38:34.932120+00:00",
-   "last_update": "2026-07-28T22:30:32.685711+00:00",
-   "members": 43,
-   "llm_title": "주택 관련 정책 논쟁",
-   "one_liner": "미국에서 주택 가격 안정화 정책과 관세 부과를 둘러싼 논쟁이 벌어지고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "c6f9e57edbc5d69b6",
    "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
    "category": "GEO",
@@ -1511,40 +1490,21 @@
    "in_review": true
   },
   {
-   "id": "c021525fadfac0c47",
-   "title": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
-   "category": "POLICY",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 85,
-   "entity_keys": [
-    "FED"
-   ],
-   "created_at": "2026-07-04T21:17:48.836940+00:00",
-   "last_update": "2026-07-04T22:17:30.485941+00:00",
-   "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
    "id": "cf6419c2d6a74b323",
    "title": "Analyzing Air China ( AICAF ) and Its Rivals",
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 8,
+   "seen_sources": 10,
    "importance": 80,
    "entity_keys": [
     "CHINA"
    ],
    "created_at": "2026-08-03T08:45:47.431691+00:00",
-   "last_update": "2026-08-03T20:05:39.133879+00:00",
-   "members": 10,
-   "llm_title": "US companies cut…",
-   "one_liner": "US companies cut reliance on China for critical…",
+   "last_update": "2026-08-03T23:33:39.010359+00:00",
+   "members": 12,
+   "llm_title": "US faces new…",
+   "one_liner": "US faces new pressure to build weapons without…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1679,6 +1639,26 @@
    "in_review": false
   },
   {
+   "id": "ca7e18652a27e4c6f",
+   "title": "Left - leaning group says state faces affordability crisis",
+   "category": "GEO",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 36,
+   "importance": 80,
+   "entity_keys": [
+    "C",
+    "F"
+   ],
+   "created_at": "2026-07-16T06:38:34.932120+00:00",
+   "last_update": "2026-07-28T22:30:32.685711+00:00",
+   "members": 43,
+   "llm_title": "주택 관련 정책 논쟁",
+   "one_liner": "미국에서 주택 가격 안정화 정책과 관세 부과를 둘러싼 논쟁이 벌어지고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
    "id": "c7f9a22157d5febb4",
    "title": "EU forces Google to share search data and open Android to rival AI companies",
    "category": "GEO",
@@ -1702,25 +1682,6 @@
    "one_liner": "유럽 연합이 구글에 안드로이드를 다른 인공지능 회사에 열어야 한다고 했어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
-  },
-  {
-   "id": "c9a390d2acdbe0f73",
-   "title": "Fourth-design 100-hwan Note",
-   "category": "POLICY",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 80,
-   "entity_keys": [
-    "PG"
-   ],
-   "created_at": "2026-07-04T21:17:48.839846+00:00",
-   "last_update": "2026-07-04T22:17:30.487950+00:00",
-   "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
   },
   {
    "id": "cd4dfbe21e251d35b",
@@ -2261,26 +2222,6 @@
    "in_review": true
   },
   {
-   "id": "ce8476dc575107359",
-   "title": "Memory maker SK hynix profit rises 557 % amid global shortage , expansion costs climb to $27 billion shares slide despite mammoth earnings as expectations outpace reality and global AI selloffs continue",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 6,
-   "importance": 70,
-   "entity_keys": [
-    "KRX:000660",
-    "KRX:034730"
-   ],
-   "created_at": "2026-07-29T19:51:12.976035+00:00",
-   "last_update": "2026-07-29T22:26:52.617439+00:00",
-   "members": 6,
-   "llm_title": "SK 하이닉스 수익 증가",
-   "one_liner": "SK 하이닉스의 수익이 많이 늘었어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
    "id": "c40d8ef7189ada7a7",
    "title": "Curaçao Chronicle | CBCS Warns Financial Sector : Doing Business With Unlicensed Providers Can Create Serious Risks",
    "category": "GEO",
@@ -2408,81 +2349,21 @@
    "in_review": true
   },
   {
-   "id": "c88f8d571562aa6fe",
-   "title": "Eulyoo 1-yang Test Coin",
-   "category": "FX",
-   "status": "candidate",
+   "id": "c1a2177ceea1d93fb",
+   "title": "Pentair plc Q2 2026 Earnings Call Summary",
+   "category": "EARNINGS",
+   "status": "active",
    "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 70,
-   "entity_keys": [
-    "PG"
-   ],
-   "created_at": "2026-07-04T21:17:48.839442+00:00",
-   "last_update": "2026-07-04T22:17:30.488014+00:00",
-   "members": 4,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
-   "id": "cd3a3df287743a42a",
-   "title": "Commemorative Coins: Helsinki 1952 Summer Olympics",
-   "category": "FX",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 70,
-   "entity_keys": [
-    "PG"
-   ],
-   "created_at": "2026-07-04T21:17:48.839970+00:00",
-   "last_update": "2026-07-04T22:17:30.487871+00:00",
-   "members": 5,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
-   "id": "cd177c97eb7d670a5",
-   "title": "Key Charm",
-   "category": "FX",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 70,
-   "entity_keys": [
-    "PG"
-   ],
-   "created_at": "2026-07-04T21:17:48.839318+00:00",
-   "last_update": "2026-07-04T22:17:30.487722+00:00",
-   "members": 5,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
-   "id": "c5a613ab1daeeeae7",
-   "title": "Daming Tongxing Baochao",
-   "category": "GEO",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 70,
-   "entity_keys": [
-    "KRX:047810",
-    "PG"
-   ],
-   "created_at": "2026-07-04T21:17:48.840122+00:00",
-   "last_update": "2026-07-04T22:17:30.487436+00:00",
-   "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "seen_sources": 5,
+   "importance": 65,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.858741+00:00",
+   "last_update": "2026-08-03T23:33:39.008802+00:00",
+   "members": 7,
+   "llm_title": "Unum Group Q2 2026…",
+   "one_liner": "Unum Group Q2 2026 Earnings Call Summary",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "cef8ff9d9efde3f77",
@@ -2515,23 +2396,6 @@
    "members": 50,
    "llm_title": "WESCO International…",
    "one_liner": "WESCO International ( NYSE : WCC ) Releases FY…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cfb7974a38f280a96",
-   "title": "SES ( OTCMKTS : SGBAF ) Issues Quarterly Earnings Results",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 11,
-   "importance": 65,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.860155+00:00",
-   "last_update": "2026-08-02T22:15:52.152553+00:00",
-   "members": 49,
-   "llm_title": "SCI Engineered…",
-   "one_liner": "SCI Engineered Materials ( OTCMKTS : SCIA )…",
    "llm_model": "template",
    "in_review": true
   },
@@ -2606,23 +2470,24 @@
    "in_review": true
   },
   {
-   "id": "c2596239c9bef98e5",
-   "title": "9 Words From Jamie Dimon That Should Worry Investors After JPMorgan Record $21 . 2 Billion Quarter",
-   "category": "GEO",
-   "status": "candidate",
+   "id": "ce8476dc575107359",
+   "title": "Memory maker SK hynix profit rises 557 % amid global shortage , expansion costs climb to $27 billion shares slide despite mammoth earnings as expectations outpace reality and global AI selloffs continue",
+   "category": "EARNINGS",
+   "status": "stale",
    "origin": "cluster",
-   "seen_sources": 1,
+   "seen_sources": 6,
    "importance": 65,
    "entity_keys": [
-    "JPM"
+    "KRX:000660",
+    "KRX:034730"
    ],
-   "created_at": "2026-07-28T22:30:32.691120+00:00",
-   "last_update": "2026-07-28T22:30:32.691120+00:00",
-   "members": 2,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "created_at": "2026-07-29T19:51:12.976035+00:00",
+   "last_update": "2026-07-29T22:26:52.617439+00:00",
+   "members": 6,
+   "llm_title": "SK 하이닉스 수익 증가",
+   "one_liner": "SK 하이닉스의 수익이 많이 늘었어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
   },
   {
    "id": "ce87d8956118c46ca",
@@ -3007,21 +2872,21 @@
    "in_review": true
   },
   {
-   "id": "c56faa471ce6c017e",
-   "title": "비상경제본부 회의 겸 경제관계장관회의 겸 민생물가 특별관리 관계장관 TF 개최",
-   "category": "MACRO",
-   "status": "candidate",
+   "id": "cfb7974a38f280a96",
+   "title": "SES ( OTCMKTS : SGBAF ) Issues Quarterly Earnings Results",
+   "category": "EARNINGS",
+   "status": "active",
    "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 65,
+   "seen_sources": 11,
+   "importance": 60,
    "entity_keys": [],
-   "created_at": "2026-07-04T21:17:48.837358+00:00",
-   "last_update": "2026-07-04T22:17:30.487138+00:00",
-   "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "created_at": "2026-07-30T22:32:46.860155+00:00",
+   "last_update": "2026-08-02T22:15:52.152553+00:00",
+   "members": 49,
+   "llm_title": "SCI Engineered…",
+   "one_liner": "SCI Engineered Materials ( OTCMKTS : SCIA )…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c2f2c81c3a9e9e7a0",
@@ -3075,21 +2940,23 @@
    "in_review": true
   },
   {
-   "id": "c079935dcd37d8198",
-   "title": "The great gas race : Who is holding the keys to Europes energy future",
-   "category": "COMMODITY",
-   "status": "stale",
+   "id": "c2596239c9bef98e5",
+   "title": "9 Words From Jamie Dimon That Should Worry Investors After JPMorgan Record $21 . 2 Billion Quarter",
+   "category": "GEO",
+   "status": "candidate",
    "origin": "cluster",
-   "seen_sources": 89,
+   "seen_sources": 1,
    "importance": 60,
-   "entity_keys": [],
-   "created_at": "2026-07-26T11:41:44.660938+00:00",
-   "last_update": "2026-07-28T22:30:32.689881+00:00",
-   "members": 50,
-   "llm_title": "국제 유가 동결 가능성",
-   "one_liner": "주요 산유국 모임인 OPEC+가 국제 유가 생산량을 늘리지 않기로 결정할 것으로 보여요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
+   "entity_keys": [
+    "JPM"
+   ],
+   "created_at": "2026-07-28T22:30:32.691120+00:00",
+   "last_update": "2026-07-28T22:30:32.691120+00:00",
+   "members": 2,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
   },
   {
    "id": "cf4eea20fea5b267a",
@@ -3350,6 +3217,23 @@
    "llm_title": "Kia takes a Reddit…",
    "one_liner": "Kia takes a Reddit staple for a spin during WNBA…",
    "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c079935dcd37d8198",
+   "title": "The great gas race : Who is holding the keys to Europes energy future",
+   "category": "COMMODITY",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 89,
+   "importance": 55,
+   "entity_keys": [],
+   "created_at": "2026-07-26T11:41:44.660938+00:00",
+   "last_update": "2026-07-28T22:30:32.689881+00:00",
+   "members": 50,
+   "llm_title": "국제 유가 동결 가능성",
+   "one_liner": "주요 산유국 모임인 OPEC+가 국제 유가 생산량을 늘리지 않기로 결정할 것으로 보여요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -3695,57 +3579,6 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
-  },
-  {
-   "id": "cf2377d5f6ffa72de",
-   "title": "관계부처 합동 6월 일자리전담반(TF) 개최",
-   "category": "POLICY",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 55,
-   "entity_keys": [],
-   "created_at": "2026-07-04T21:17:48.837602+00:00",
-   "last_update": "2026-07-04T22:17:30.486999+00:00",
-   "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
-   "id": "c110b54c742880380",
-   "title": "'26년도 제7차 국유재산정책심의위원회 부동산분과위원회 개최",
-   "category": "POLICY",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 55,
-   "entity_keys": [],
-   "created_at": "2026-07-04T21:17:48.838378+00:00",
-   "last_update": "2026-07-04T22:17:30.486233+00:00",
-   "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
-   "id": "c1a2177ceea1d93fb",
-   "title": "Pentair plc Q2 2026 Earnings Call Summary",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 50,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.858741+00:00",
-   "last_update": "2026-08-03T20:05:39.126894+00:00",
-   "members": 4,
-   "llm_title": "NBT Bancorp Q2…",
-   "one_liner": "NBT Bancorp Q2 Earnings Call : Our Top 5 Analyst…",
-   "llm_model": "template",
-   "in_review": true
   },
   {
    "id": "c4838bc0034745a97",
@@ -4211,23 +4044,6 @@
    "in_review": true
   },
   {
-   "id": "cf571b4bb63a4b69d",
-   "title": "K-푸드 수출 모멘텀, 현장 맞춤형 지원으로 이어간다.",
-   "category": "FX",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 45,
-   "entity_keys": [],
-   "created_at": "2026-07-04T21:17:48.837482+00:00",
-   "last_update": "2026-07-04T22:17:30.486393+00:00",
-   "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
    "id": "c836354687bb176d2",
    "title": "Mohawk Industries , Inc .: Mohawk Industries Reports Q2 2026 Results",
    "category": "EARNINGS",
@@ -4371,23 +4187,6 @@
    "llm_title": "코스피 최고치",
    "one_liner": "한국 주식시장이 사상 최고치로 올랐어요",
    "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "c7e46135d144c235c",
-   "title": "Yum Brand sales rose last quarter , thanks to Taco Bell",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 35,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.859802+00:00",
-   "last_update": "2026-07-30T22:32:46.861769+00:00",
-   "members": 2,
-   "llm_title": "타코벨 매출 감소",
-   "one_liner": "타코벨의 매출이 2% 감소했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -4595,6 +4394,23 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "c7e46135d144c235c",
+   "title": "Yum Brand sales rose last quarter , thanks to Taco Bell",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 30,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.859802+00:00",
+   "last_update": "2026-07-30T22:32:46.861769+00:00",
+   "members": 2,
+   "llm_title": "타코벨 매출 감소",
+   "one_liner": "타코벨의 매출이 2% 감소했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
   },
   {
    "id": "e3892f7ce92b8b73a",

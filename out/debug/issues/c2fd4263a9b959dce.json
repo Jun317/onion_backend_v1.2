@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-03T20:06:58.253215+00:00",
+  "created_at": "2026-08-03T23:34:52.949296+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,8 +881,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"미국 달러 약세\", \"one_liner\": \"미국 달러 가치가 일본 엔화 대비 크게 떨어졌어요.\", \"why_now\": \"달러 가치가 떨어지면 해외여행이나 직구를 할 때 더 유리해질 수 있어요.\", \"impact_line\": \"해외여행 경비나 해외 직구 비용이 줄어들 수 있어요.\", \"details\": [\"일본 엔화 가치가 올라 미국 달러 가치가 떨어졌어요.\", \"미국 달러가 일본 엔화 대비 약세를 보이고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"수출 기업의 가격 경쟁력이 높아져 이익이 늘어날 수 있어요!\", \"수입 물가 상승으로 국내 소비자 물가에 영향을 줄 수 있어요!\"], \"glossary\": [{\"term\": \"미국 달러\", \"easy\": \"미국에서 사용하는 돈이에요.\", \"example\": \"미국 달러로 해외 물건을 살 수 있어요.\"}, {\"term\": \"일본 엔화\", \"easy\": \"일본에서 사용하는 돈이에요.\", \"example\": \"일본 여행을 가면 일본 엔화를 써야 해요.\"}], \"impact_line\": \"해외여행 경비나 해외 직구 비용이 줄어들 수 있어요.\"}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +911,8 @@
   "fact_hash": "58d54ddedd51d9665dc2a40867a0fae7da3c63c7"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-03T20:06:58.253136+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-03T23:34:52.949213+00:00"
  },
  "glossary": [],
  "related": [
