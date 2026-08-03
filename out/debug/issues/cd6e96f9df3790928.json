@@ -7,13 +7,24 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
+  "ABBV",
   "SEC"
  ],
- "seen_sources": 2,
- "importance": 90,
+ "seen_sources": 3,
+ "importance": 125,
  "created_at": "2026-08-02T04:45:35.342282+00:00",
- "last_update": "2026-08-02T07:43:25.589078+00:00",
+ "last_update": "2026-08-03T20:05:39.129644+00:00",
  "members": [
+  {
+   "id": "ce2c59b299302850ce3e0a9bad29b04eb90ffdac",
+   "source": "morningstar.com",
+   "tier": "wire",
+   "url": "https://www.morningstar.com/stocks/abbvie-earnings-maintaining-our-fair-value-estimate-following-steady-second-quarter",
+   "title": "AbbVie Earnings : Maintaining Our Fair Value Estimate Following a Steady Second Quarter",
+   "published_at": "2026-08-03T17:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8646
+  },
   {
    "id": "d2b3c74ec333f1c0ac94b3c841e675a37e56f533",
    "source": "sandiegosun.com",
@@ -22,7 +33,7 @@
    "title": "US economy cools in second quarter despite solid spending",
    "published_at": "2026-08-02T03:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.999
+   "sim_to_centroid": 0.9963
   },
   {
    "id": "74a019c59ef6095e336fc283edf9d149a14b0656",
@@ -32,7 +43,7 @@
    "title": "US economy cools in second quarter despite solid spending",
    "published_at": "2026-08-02T03:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.999
+   "sim_to_centroid": 0.9963
   },
   {
    "id": "fecd1f721a52c266cfa3603fafc5ac8af02edb46",
@@ -42,7 +53,7 @@
    "title": "US economy cools in second quarter despite solid spending",
    "published_at": "2026-08-02T03:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.999
+   "sim_to_centroid": 0.9963
   },
   {
    "id": "1d4b1fdcec48ef5dad8101b3d8fc48cefe48774d",
@@ -52,7 +63,7 @@
    "title": "US economy cools in second quarter despite solid spending",
    "published_at": "2026-08-02T03:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.999
+   "sim_to_centroid": 0.9963
   },
   {
    "id": "a000be54cfcc3cc73154b06e5872552babd5b762",
@@ -62,11 +73,18 @@
    "title": "CPKC income higher as revenue sets new second - quarter record",
    "published_at": "2026-07-31T21:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8632
+   "sim_to_centroid": 0.8742
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "AbbVie Earnings : Maintaining Our Fair Value Estimate Following a Steady Second Quarter",
+   "source": "morningstar.com",
+   "url": "https://www.morningstar.com/stocks/abbvie-earnings-maintaining-our-fair-value-estimate-following-steady-second-quarter",
+   "at": "2026-08-03T17:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "US economy cools in second quarter despite solid spending",
@@ -104,43 +122,45 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-02T07:43:26.844613+00:00",
+  "model": "template",
+  "created_at": "2026-08-03T20:18:08.650127+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "AbbVie Earnings : Maintaining Our Fair Value Estimate Following a Steady Second Quarter",
     "US economy cools in second quarter despite solid spending",
     "CPKC income higher as revenue sets new second - quarter record"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 경제 둔화\",\n   \"one_liner\": \"미국 경제가 2분기에 둔화했어요\",\n   \"why_now\": \"소비 지출이 좋았지만 경제가 느려진 건 다른 부분에서 영향을 받았어요\",\n   \"impact_line\": \"미국 물건의 가격이 낮아질 수 있어요\",\n   \"details\": [\n       \"미국 2분기 경제가 느려졌어요\",\n       \"소비 지출은 좋았어요\",\n       \"CPKC의 수입이 높아졌어요\",\n       \"CPKC의 매출이 2분기 새 기록을 세웠어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국 물건의 수출이 어려워질 수 있어요!\",\n       \"미국 물건의 가격이 낮아져 수입할 때 더 많이 살 수 있게 될 수도 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국 경제 둔화",
-   "one_liner": "미국 경제가 2분기에 둔화했어요",
-   "why_now": "소비 지출이 좋았지만 경제가 느려진 건 다른 부분에서 영향을 받았어요",
+   "title": "AbbVie Earnings :…",
+   "one_liner": "AbbVie Earnings : Maintaining Our Fair Value…",
+   "why_now": null,
    "details": [
-    "미국 2분기 경제가 느려졌어요",
-    "소비 지출은 좋았어요",
-    "CPKC의 수입이 높아졌어요",
-    "CPKC의 매출이 2분기 새 기록을 세웠어요"
+    "AbbVie Earnings : Maintaining Our Fair Value Estimate Following a Steady Second Quarter",
+    "US economy cools in second quarter despite solid spending",
+    "CPKC income higher as revenue sets new second - quarter record"
    ],
-   "effects": [
-    "미국 물건의 수출이 어려워질 수 있어요!",
-    "미국 물건의 가격이 낮아져 수입할 때 더 많이 살 수 있게 될 수도 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "a35498a70376500e74505c0f00666d2c1598d266"
+  "fact_hash": "587df925d22bf4f1eb9f6c3ab17eb65ed8e9b07a"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-03T20:18:08.650023+00:00"
+ },
  "glossary": [],
  "related": [
   {

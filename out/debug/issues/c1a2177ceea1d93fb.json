@@ -8,10 +8,20 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 2,
- "importance": 45,
+ "importance": 50,
  "created_at": "2026-07-30T22:32:46.858741+00:00",
- "last_update": "2026-08-02T10:13:43.593316+00:00",
+ "last_update": "2026-08-03T20:05:39.126894+00:00",
  "members": [
+  {
+   "id": "6059936a566faed1e0e77b4f149e16e7dc4a2f5a",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nbt-bancorp-q2-earnings-call-173322401.html",
+   "title": "NBT Bancorp Q2 Earnings Call : Our Top 5 Analyst Questions",
+   "published_at": "2026-08-03T18:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9081
+  },
   {
    "id": "9c866c901d21c4aba783c0b6f69730821c3660a3",
    "source": "denverpost.com",
@@ -20,7 +30,7 @@
    "title": "Daily Horoscope for August 2 , 2026",
    "published_at": "2026-08-02T08:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8739
+   "sim_to_centroid": 0.8725
   },
   {
    "id": "97ea58d42447d030e956ae57f73df8d45fda6a65",
@@ -30,7 +40,7 @@
    "title": "Pentair plc Q2 2026 Earnings Call Summary",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9791
+   "sim_to_centroid": 0.9777
   },
   {
    "id": "d7140a2153a4cea365823710c5c476ab546d25c5",
@@ -40,11 +50,18 @@
    "title": "Unum Group Q2 2026 Earnings Call Summary",
    "published_at": "2026-07-30T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9797
+   "sim_to_centroid": 0.9791
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "NBT Bancorp Q2 Earnings Call : Our Top 5 Analyst Questions",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nbt-bancorp-q2-earnings-call-173322401.html",
+   "at": "2026-08-03T18:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Daily Horoscope for August 2 , 2026",
@@ -69,11 +86,12 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-03T16:08:20.415825+00:00",
+  "created_at": "2026-08-03T20:14:16.916617+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "NBT Bancorp Q2 Earnings Call : Our Top 5 Analyst Questions",
     "Daily Horoscope for August 2 , 2026",
     "Pentair plc Q2 2026 Earnings Call Summary",
     "Unum Group Q2 2026 Earnings Call Summary"
@@ -90,22 +108,22 @@
    }
   ],
   "output": {
-   "title": "Daily Horoscope for…",
-   "one_liner": "Daily Horoscope for August 2 , 2026",
+   "title": "NBT Bancorp Q2…",
+   "one_liner": "NBT Bancorp Q2 Earnings Call : Our Top 5 Analyst…",
    "why_now": null,
    "details": [
+    "NBT Bancorp Q2 Earnings Call : Our Top 5 Analyst Questions",
     "Daily Horoscope for August 2 , 2026",
-    "Pentair plc Q2 2026 Earnings Call Summary",
-    "Unum Group Q2 2026 Earnings Call Summary"
+    "Pentair plc Q2 2026 Earnings Call Summary"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "7f418c369f308f56256a60f82abeaef196490fc1"
+  "fact_hash": "177339d6610be6e07e68ff1174ba239068de0be5"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-03T16:08:20.415762+00:00"
+  "at": "2026-08-03T20:14:16.916555+00:00"
  },
  "glossary": [],
  "related": [
