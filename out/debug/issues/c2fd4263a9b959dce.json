@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-04T03:47:13.641686+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-04T06:48:28.821164+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,26 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"달러 가치 하락\",\n\"one_liner\": \"미국 달러 가치가 일본 엔화 대비 크게 떨어졌어요.\",\n\"why_now\": \"달러 가치가 떨어지면 해외여행이나 직구가 더 저렴해질 수 있어요.\",\n\"impact_line\": \"해외여행이나 직구가 조금 더 저렴해질 수 있어요.\",\n\"details\": [\n\"미국 달러 가치가 일본 엔화 대비 크게 하락했어요.\",\n\"이러한 하락은 시장 개입 이후에 나타났어요.\",\n\"다른 아시아 시장은 혼조세를 보였어요.\",\n\"기술주 하락이 월스트리트 상승분을 상쇄했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"미국 달러 가치가 하락하면 한국에서 미국으로 가는 물건 가격이 오를 수 있어요!\",\n\"반대로 한국에서 미국으로 가는 물건은 더 저렴해질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"달러\",\n\"easy\": \"미국의 돈을 말해요. 세계에서 가장 많이 쓰이는 기축 통화예요.\",\n\"example\": \"달러 환율이 오르면 해외여행 경비가 더 많이 들어요.\"\n},\n{\n\"term\": \"엔화\",\n\"easy\": \"일본의 돈을 말해요.\",\n\"example\": \"엔화 가치가 오르면 일본 여행 경비가 더 많이 들어요.\"\n},\n{\n\"term\": \"시장 개입\",\n\"easy\": \"정부나 중앙은행이 외환 시장에 직접 돈을 사고팔아 환율을 조절하는 것을 말해요.\",\n\"example\": \"정부가 원화 가치가 너무 떨어지는 것을 막기 위해 시장에 개입했어요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "U . S . dollar…",
-   "one_liner": "U . S . dollar weakens sharply against the…",
-   "why_now": null,
+   "title": "달러 가치 하락",
+   "one_liner": "미국 달러 가치가 일본 엔화 대비 크게 떨어졌어요.",
+   "why_now": "달러 가치가 떨어지면 해외여행이나 직구가 더 저렴해질 수 있어요.",
    "details": [
-    "U . S . dollar weakens sharply against the Japanese yen after market interventions",
-    "Financial Contrast : Haleon ( NYSE : HLN ) versus Prenetics Global ( NASDAQ : PRE )",
-    "Semiconductors : Dont Ask Who Is Spending , Ask Who Is Collecting ( NASDAQ : SMH )"
+    "미국 달러 가치가 일본 엔화 대비 크게 하락했어요.",
+    "이러한 하락은 시장 개입 이후에 나타났어요.",
+    "다른 아시아 시장은 혼조세를 보였어요.",
+    "기술주 하락이 월스트리트 상승분을 상쇄했어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "미국 달러 가치가 하락하면 한국에서 미국으로 가는 물건 가격이 오를 수 있어요!",
+    "반대로 한국에서 미국으로 가는 물건은 더 저렴해질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "58d54ddedd51d9665dc2a40867a0fae7da3c63c7"
  },

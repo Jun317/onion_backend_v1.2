@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-04T03:57:54.011374+00:00",
+ "generated_at": "2026-08-04T06:58:36.973649+00:00",
  "issues": [
   {
    "id": "cea83213c8906724e",
@@ -162,15 +162,15 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 12,
+   "seen_sources": 16,
    "importance": 135,
    "entity_keys": [
     "ABBV",
     "SEC"
    ],
    "created_at": "2026-08-02T04:45:35.342282+00:00",
-   "last_update": "2026-08-04T03:45:54.277602+00:00",
-   "members": 21,
+   "last_update": "2026-08-04T06:47:08.906971+00:00",
+   "members": 35,
    "llm_title": "Spider - Man : Brand…",
    "one_liner": "Spider - Man : Brand New Day  nets second best…",
    "llm_model": "template",
@@ -1113,9 +1113,9 @@
    "created_at": "2026-07-30T22:32:46.857918+00:00",
    "last_update": "2026-08-03T18:14:24.390572+00:00",
    "members": 50,
-   "llm_title": "U . S . dollar…",
-   "one_liner": "U . S . dollar weakens sharply against the…",
-   "llm_model": "template",
+   "llm_title": "달러 가치 하락",
+   "one_liner": "미국 달러 가치가 일본 엔화 대비 크게 떨어졌어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -2354,14 +2354,14 @@
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 5,
+   "seen_sources": 12,
    "importance": 65,
    "entity_keys": [],
    "created_at": "2026-07-30T22:32:46.858741+00:00",
-   "last_update": "2026-08-03T23:33:39.008802+00:00",
-   "members": 7,
-   "llm_title": "Unum Group Q2 2026…",
-   "one_liner": "Unum Group Q2 2026 Earnings Call Summary",
+   "last_update": "2026-08-04T06:47:08.907207+00:00",
+   "members": 50,
+   "llm_title": "FinancialContent -…",
+   "one_liner": "FinancialContent - NN ( NNBR ) Q2 Earnings…",
    "llm_model": "template",
    "in_review": true
   },
@@ -2889,23 +2889,6 @@
    "in_review": true
   },
   {
-   "id": "cc4cfba346972fad2",
-   "title": "Piedmont Office Realty Trust , Inc . Q2 2026 Earnings Call Summary",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 33,
-   "importance": 60,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.859411+00:00",
-   "last_update": "2026-08-02T04:45:35.341170+00:00",
-   "members": 50,
-   "llm_title": "기업 실적 발표",
-   "one_liner": "여러 기업이 2026년 2분기 실적을 발표했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "caed901c2db4cec3d",
    "title": "Wall Street Closes With Stocks Higher on Tech Gains",
    "category": "MARKET",
@@ -2921,23 +2904,6 @@
    "one_liner": "월 스트리트의 주가가 기술 주로 인해 상승했어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": false
-  },
-  {
-   "id": "c5c3a7ff10fbec910",
-   "title": "Russian online retailer Wildberrie warehouse hit by drones",
-   "category": "GEO",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 40,
-   "importance": 60,
-   "entity_keys": [],
-   "created_at": "2026-07-26T11:41:44.660691+00:00",
-   "last_update": "2026-07-29T03:47:57.499405+00:00",
-   "members": 50,
-   "llm_title": "미국 증시 하락",
-   "one_liner": "미국 증시가 하락하며 100개 주요 기업 주가 지수가 조정 국면에 접어들었어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
   },
   {
    "id": "c2596239c9bef98e5",
@@ -3150,6 +3116,23 @@
    "in_review": true
   },
   {
+   "id": "cc4cfba346972fad2",
+   "title": "Piedmont Office Realty Trust , Inc . Q2 2026 Earnings Call Summary",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 33,
+   "importance": 55,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.859411+00:00",
+   "last_update": "2026-08-02T04:45:35.341170+00:00",
+   "members": 50,
+   "llm_title": "기업 실적 발표",
+   "one_liner": "여러 기업이 2026년 2분기 실적을 발표했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
    "id": "c535b232d511f0963",
    "title": "Critical Contrast : Liberty Silver ( OTCMKTS : BHLL ) and Fortuna Mining ( NYSE : FSM )",
    "category": "EARNINGS",
@@ -3217,6 +3200,23 @@
    "llm_title": "Kia takes a Reddit…",
    "one_liner": "Kia takes a Reddit staple for a spin during WNBA…",
    "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c5c3a7ff10fbec910",
+   "title": "Russian online retailer Wildberrie warehouse hit by drones",
+   "category": "GEO",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 40,
+   "importance": 55,
+   "entity_keys": [],
+   "created_at": "2026-07-26T11:41:44.660691+00:00",
+   "last_update": "2026-07-29T03:47:57.499405+00:00",
+   "members": 50,
+   "llm_title": "미국 증시 하락",
+   "one_liner": "미국 증시가 하락하며 100개 주요 기업 주가 지수가 조정 국면에 접어들었어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
