@@ -69,7 +69,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-04T12:30:08.542857+00:00",
+  "created_at": "2026-08-04T15:47:58.085465+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -80,8 +80,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"유럽의 가스 세금\",\n   \"one_liner\": \"유럽이 가스 세수를 늘리고 있어요.\",\n   \"why_now\": \"기후 변화로 인한 자연재해로 인해 보험 갭이 커지고 있어요.\",\n   \"impact_line\": \"에너지 비용이 오를 수 있어요\",\n   \"details\": [\n       \"유럽의 가스 세수가 증가하고 있어요.\",\n       \"기후 변화로 인한 자연재해로 인해 보험 갭이 커지고 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"에너지 가격이 오르면 소비자들이 더 많은 돈을 지불해야 해요!\",\n       \"기후 변화로 인한 재해로 인해 보험료가 증가할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -104,8 +110,8 @@
   "fact_hash": "256d75f522626781d2392cfab64f903625674488"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-04T12:30:08.542786+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-04T15:47:58.085408+00:00"
  },
  "glossary": [],
  "related": [

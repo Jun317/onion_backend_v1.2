@@ -238,8 +238,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-04T12:29:31.603853+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-04T15:42:40.283790+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -252,26 +252,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"인도 금리 결정\",\n   \"one_liner\": \"인도 중앙은행이 금리 결정할 예정이에요\",\n   \"why_now\": \"금리 결정은 은행 예금 이자에 영향을 줄 수 있어요\",\n   \"impact_line\": \"인도 은행 예금자들의 이자 수익에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"인도 중앙은행이 금리 결정할 예정이에요\",\n       \"은행 주가가 하락했어요\",\n       \"예금자들이 높은 이자율을 기대하고 있어요\",\n       \"금리 결정이 금융 시장에 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"은행 예금 이자가 높아질 가능성이 있어요!\",\n       \"금융 시장의 변동이 투자자들에게 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "The CAS conundrum :…",
-   "one_liner": "The CAS conundrum : Nifty down 250 pts , Sensex…",
-   "why_now": null,
+   "title": "인도 금리 결정",
+   "one_liner": "인도 중앙은행이 금리 결정할 예정이에요",
+   "why_now": "금리 결정은 은행 예금 이자에 영향을 줄 수 있어요",
    "details": [
-    "The CAS conundrum : Nifty down 250 pts , Sensex down 150 pts ; rare divergence between benchmarks explained",
-    "SBI , HDFC Bank , to ICICI Bank , Axis Bank : Bank stocks fall ahead of RBI monetary policy decision tomorrow",
-    "RBI MPC : Will FD investors get higher interest rates after the policy decision ? Here what depositors can expect"
+    "인도 중앙은행이 금리 결정할 예정이에요",
+    "은행 주가가 하락했어요",
+    "예금자들이 높은 이자율을 기대하고 있어요",
+    "금리 결정이 금융 시장에 영향을 줄 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "은행 예금 이자가 높아질 가능성이 있어요!",
+    "금융 시장의 변동이 투자자들에게 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "dd57c4e68023a74925de552e344d9fbf39c4deaa"
  },
@@ -279,7 +281,18 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-04T12:29:31.603775+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  }
+ ],
  "related": [
   {
    "id": "cea83213c8906724e",
@@ -300,14 +313,14 @@
    "shared": []
   },
   {
-   "id": "eb1bdaa0b3cb70aec",
-   "title": "한국은행 기준금리 인상 (2.75%)",
+   "id": "c71b0b5d782052f63",
+   "title": "Bank Of Japan Maintains Key Rate",
    "category": "RATE",
    "shared": []
   },
   {
-   "id": "c71b0b5d782052f63",
-   "title": "Bank Of Japan Maintains Key Rate",
+   "id": "eb1bdaa0b3cb70aec",
+   "title": "한국은행 기준금리 인상 (2.75%)",
    "category": "RATE",
    "shared": []
   }

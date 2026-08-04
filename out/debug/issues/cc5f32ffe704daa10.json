@@ -52,7 +52,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-04T10:06:20.272007+00:00",
+  "created_at": "2026-08-04T15:44:54.514185+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -62,21 +62,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"인플레이션 우려 완화\", \"one_liner\": \"인플레이션이 일시적 공급 문제로 인한 것이라면 금리를 신중하게 조절할 수 있다는 의견이 나왔어요.\", \"why_now\": \"물가 상승이 일시적이라면 금리를 올리지 않고 경제 상황을 지켜볼 수 있다는 뜻이에요.\", \"impact_line\": \"식료품 물가 상승이 당분간 이어질 수 있어요.\", \"details\": [\"물가 상승이 일시적인 공급 문제 때문이라면, 금리를 신중하게 조절할 수 있다는 의견이 나왔어요.\", \"이러한 물가 상승은 경제 전반에 큰 영향을 주지는 않을 것으로 보입니다.\", \"하지만 식료품 물가는 당분간 높은 수준을 유지할 수 있습니다.\"], \"visual_type\": \"none\", \"effects\": [\"물가 상승이 일시적 공급 문제 때문이라면, 금리 인상 부담이 줄어들 수 있어요!\", \"식료품 가격이 계속 오르면 장바구니 물가 부담이 커질 수 있어요!\"], \"glossary\": [{\"term\": \"MPC\", \"easy\": \"통화정책위원회로, 나라의 기준금리를 정하는 회의체예요.\", \"example\": \"MPC가 기준금리를 올릴지 내릴지 결정할 거예요.\"}, {\"term\": \"인플레이션\", \"easy\": \"물가가 전반적으로 계속 오르는 현상을 말해요.\", \"example\": \"인플레이션 때문에 예전보다 물건값이 많이 올랐어요.\"}], \"impact_line\": \"식료품 물가 상승이 당분간 이어질 수 있어요.\"}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "one_liner 50자 초과(55)",
-     "why_now 55자 초과(56)"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 50자 초과(54)",
-     "details[1] 어요체 아님",
-     "details[2] 어요체 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -94,8 +85,8 @@
   "fact_hash": "9a2ea51890433f6293aaeb1cff51a6d1c80c38e4"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(55)\", \"why_now 55자 초과(56)\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(54)\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\"]}]}",
-  "at": "2026-08-04T10:06:20.271912+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-04T15:44:54.514083+00:00"
  },
  "glossary": [],
  "related": [
@@ -124,8 +115,8 @@
    "shared": []
   },
   {
-   "id": "cc383537a98f45c47",
-   "title": "India Gold Demand Falls 6 % in Q2 as Higher Duty , Prices Weigh on Buyers",
+   "id": "c48db748fde00c8f7",
+   "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
    "category": "MACRO",
    "shared": []
   }
