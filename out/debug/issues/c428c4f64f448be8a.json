@@ -2,16 +2,26 @@
  "id": "c428c4f64f448be8a",
  "title": "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful",
  "category": "POLICY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 0,
- "importance": 70,
+ "seen_sources": 3,
+ "importance": 85,
  "created_at": "2026-08-04T10:05:33.922649+00:00",
- "last_update": "2026-08-04T10:05:33.922649+00:00",
+ "last_update": "2026-08-04T12:24:13.828514+00:00",
  "members": [
+  {
+   "id": "fce5143b7281b93d663a0b656a55f4e09d75db20",
+   "source": "riotimesonline.com",
+   "tier": "wire",
+   "url": "https://www.riotimesonline.com/us-states-sue-block-trump-tariffs-2026/",
+   "title": "25 US States Sue to Block Trump Tariffs on Africa",
+   "published_at": "2026-08-04T10:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9334
+  },
   {
    "id": "7da3f9afae3836c2bac05904faee8e1b8deeadcd",
    "source": "timesofoman.com",
@@ -20,7 +30,7 @@
    "title": "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.998
   },
   {
    "id": "7e59c89023f8af577188dffc0f68e910835786f0",
@@ -30,11 +40,38 @@
    "title": "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.998
+  },
+  {
+   "id": "e2e0396cbda0e08bda886401ee5915d12a122b7a",
+   "source": "en.tempo.co",
+   "tier": "wire",
+   "url": "https://en.tempo.co/read/2116639/us-25-states-sue-over-trumps-new-tariffs",
+   "title": "US : 25 States Sue Over Trump New Tariffs",
+   "published_at": "2026-08-04T07:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.959
+  },
+  {
+   "id": "62b2446ead909ba2fcc68984b322bfa8ff4bebd8",
+   "source": "middleeaststar.com",
+   "tier": "wire",
+   "url": "http://www.middleeaststar.com/news/279221595/us-25-states-sue-trump-administration-over-new-forced-labour-tariffs-on-eu-60-countries-call-probe-unlawful",
+   "title": "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful",
+   "published_at": "2026-08-04T07:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.998
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "25 US States Sue to Block Trump Tariffs on Africa",
+   "source": "riotimesonline.com",
+   "url": "https://www.riotimesonline.com/us-states-sue-block-trump-tariffs-2026/",
+   "at": "2026-08-04T10:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful",
@@ -48,11 +85,67 @@
    "source": "austinglobe.com",
    "url": "http://www.austinglobe.com/news/279221595/us-25-states-sue-trump-administration-over-new-forced-labour-tariffs-on-eu-60-countries-call-probe-unlawful",
    "at": "2026-08-04T07:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US : 25 States Sue Over Trump New Tariffs",
+   "source": "en.tempo.co",
+   "url": "https://en.tempo.co/read/2116639/us-25-states-sue-over-trumps-new-tariffs",
+   "at": "2026-08-04T07:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful",
+   "source": "middleeaststar.com",
+   "url": "http://www.middleeaststar.com/news/279221595/us-25-states-sue-trump-administration-over-new-forced-labour-tariffs-on-eu-60-countries-call-probe-unlawful",
+   "at": "2026-08-04T07:00:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-04T12:24:15.174438+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "25 US States Sue to Block Trump Tariffs on Africa",
+    "US : 25 States Sue Over Trump New Tariffs",
+    "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미국 관세 반대 소송\",\n   \"one_liner\": \"미국 25개 주가 아프리카에 부과된 트럼프 관세를 막으려고 소송을 냈어요\",\n   \"why_now\": \"이 소식이 중요한 이유는 미국의 관세가 다른 나라와의 무역에 영향을 줄 수 있어요\",\n   \"impact_line\": \"제조업과 수출입 업체에 영향을 줄 수 있어요\",\n   \"details\": [\n      \"미국 25개 주가 트럼프 관세에 반대하는 소송을 냈어요\",\n      \"이 관세는 아프리카에 부과된 거예요\",\n      \"60개국이 이 조사를 불법이라고 생각해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"미국과 아프리카 간의 무역이 어려워질 수 있어요!\",\n      \"제조업과 수출입 업체의 비용이 증가할 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"관세\",\n         \"easy\": \"수입된 물건에 부과하는 세예요\",\n         \"example\": \"관세가 높으면 수입된 물건의 가격이 올라가요\"\n      }\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "미국 관세 반대 소송",
+   "one_liner": "미국 25개 주가 아프리카에 부과된 트럼프 관세를 막으려고 소송을 냈어요",
+   "why_now": "이 소식이 중요한 이유는 미국의 관세가 다른 나라와의 무역에 영향을 줄 수 있어요",
+   "details": [
+    "미국 25개 주가 트럼프 관세에 반대하는 소송을 냈어요",
+    "이 관세는 아프리카에 부과된 거예요",
+    "60개국이 이 조사를 불법이라고 생각해요"
+   ],
+   "effects": [
+    "미국과 아프리카 간의 무역이 어려워질 수 있어요!",
+    "제조업과 수출입 업체의 비용이 증가할 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "7752e18846ef1b1a084de64aea5dd0bb5c092ba1"
+ },
  "review": null,
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "c3d1f048671411eac",
@@ -73,14 +166,14 @@
    "shared": []
   },
   {
-   "id": "c005645a9b054915e",
-   "title": "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition",
+   "id": "c21cdda28c0a66fb5",
+   "title": "US : 25 Democratic states move court against Trump forced - labour tariffs",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "c92d5d85856ed7a86",
-   "title": "Food Dive : Food Industry News and Analysis",
+   "id": "c1679b4adf76c1e20",
+   "title": "BankIslami Hosts Policy and Economic Experts for Strategic Dialogue on Pakistan FY2027 Outlook",
    "category": "POLICY",
    "shared": []
   }

@@ -2,16 +2,36 @@
  "id": "c293f04c6660f586b",
  "title": "Why gold prices edged higher today ( Aug . 4 ): Key factors driving gold and silver",
  "category": "COMMODITY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 3,
+ "importance": 75,
  "created_at": "2026-08-04T10:05:33.921190+00:00",
- "last_update": "2026-08-04T10:05:33.921190+00:00",
+ "last_update": "2026-08-04T12:24:13.828499+00:00",
  "members": [
+  {
+   "id": "43bf865cb53f33591e5a905e59801f6dac4b4d30",
+   "source": "riotimesonline.com",
+   "tier": "wire",
+   "url": "https://www.riotimesonline.com/latam-pre-open-tuesday-august-4-2026/",
+   "title": "Latin American markets : LatAm Pre - Open Tuesday , August 4",
+   "published_at": "2026-08-04T10:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.881
+  },
+  {
+   "id": "bd1799733400df27cb6ab080d59c68ca27ce9763",
+   "source": "ibtimes.co.in",
+   "tier": "wire",
+   "url": "https://www.ibtimes.co.in/gold-price-today-near-rs-1-43-lakh-why-small-paytm-gold-investments-are-gaining-ground-904431",
+   "title": "Gold price today near Rs 1 . 43 Lakh : Why small Paytm Gold investments are gaining ground",
+   "published_at": "2026-08-04T10:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9092
+  },
   {
    "id": "d517e139cbc59efef7580622d7352b124c657e93",
    "source": "moneycontrol.com",
@@ -20,7 +40,7 @@
    "title": "Why gold prices edged higher today ( Aug . 4 ): Key factors driving gold and silver",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9736
+   "sim_to_centroid": 0.9732
   },
   {
    "id": "7186c850f43f441442098ab8f0b84d2c5a85188d",
@@ -30,11 +50,25 @@
    "title": "Gold and silver price today , August 4 : Check rates of 24K , 22K gold in Delhi , Mumbai , Kolkata other cities",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9737
+   "sim_to_centroid": 0.9691
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Latin American markets : LatAm Pre - Open Tuesday , August 4",
+   "source": "riotimesonline.com",
+   "url": "https://www.riotimesonline.com/latam-pre-open-tuesday-august-4-2026/",
+   "at": "2026-08-04T10:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Gold price today near Rs 1 . 43 Lakh : Why small Paytm Gold investments are gaining ground",
+   "source": "ibtimes.co.in",
+   "url": "https://www.ibtimes.co.in/gold-price-today-near-rs-1-43-lakh-why-small-paytm-gold-investments-are-gaining-ground-904431",
+   "at": "2026-08-04T10:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Why gold prices edged higher today ( Aug . 4 ): Key factors driving gold and silver",
@@ -50,8 +84,53 @@
    "at": "2026-08-04T07:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-04T12:24:28.237999+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [],
+   "headlines": [
+    "Latin American markets : LatAm Pre - Open Tuesday , August 4",
+    "Gold price today near Rs 1 . 43 Lakh : Why small Paytm Gold investments are gaining ground",
+    "Why gold prices edged higher today ( Aug . 4 ): Key factors driving gold and silver",
+    "Gold and silver price today , August 4 : Check rates of 24K , 22K gold in Delhi , Mumbai , Kolkata other cities"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"금 가격\",\n   \"one_liner\": \"금 가격이 오늘 조금 올랐어요\",\n   \"why_now\": \"금 가격이 오르면 사람들이 금을 더 사고 싶어져요\",\n   \"impact_line\": \"금을 사고 싶은 사람이 더 많아질 수 있어요\",\n   \"details\": [\n       \"오늘 금 가격이 조금 올랐어요\",\n       \"금과 은 가격이 오늘 어떻게 바뀌었는지 확인할 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"금 가격이 오르면 사람들이 더 많이 사려고 해서 가격이 더 오를 수도 있어요!\",\n       \"금 가격이 오르면 사람들이 다른 물건을 사는 대신 금을 더 많이 사려고 할 수도 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "visual_type 'gold_price' 허용 목록 밖"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Latin American…",
+   "one_liner": "Latin American markets : LatAm Pre - Open…",
+   "why_now": null,
+   "details": [
+    "Latin American markets : LatAm Pre - Open Tuesday , August 4",
+    "Gold price today near Rs 1 . 43 Lakh : Why small Paytm Gold investments are gaining ground",
+    "Why gold prices edged higher today ( Aug . 4 ): Key factors driving gold and silver"
+   ],
+   "effects": [],
+   "visual_type": "wti"
+  },
+  "fact_hash": "fe7dc3ed9ea7ec462549ad6286cf707906e11146"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"visual_type 'gold_price' 허용 목록 밖\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-04T12:24:28.237822+00:00"
+ },
  "glossary": [],
  "related": [
   {

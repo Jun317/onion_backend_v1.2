@@ -50,8 +50,44 @@
    "at": "2026-08-04T07:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-04T12:26:20.090290+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Zalando reports lower Q2 net income ; narrows full - year guidance",
+    "Continental Q2 Net Income Declines"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Zalando reports…",
+   "one_liner": "Zalando reports lower Q2 net income ; narrows…",
+   "why_now": null,
+   "details": [
+    "Zalando reports lower Q2 net income ; narrows full - year guidance",
+    "Continental Q2 Net Income Declines"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "f2f35c7238af896ff58d7b6a75cd3d130f206d40"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-04T12:26:20.090183+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -75,12 +111,6 @@
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c8947a836ed75e541",
-   "title": "Inside Uber - Waymo rift , there a battle over AVs in nation capital",
    "category": "EARNINGS",
    "shared": []
   }

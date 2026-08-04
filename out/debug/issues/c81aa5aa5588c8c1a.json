@@ -2,16 +2,36 @@
  "id": "c81aa5aa5588c8c1a",
  "title": "Exide Industries Q1 EBITDA beats estimates ; Nomura retains  Buy , raises TP to Rs 492",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 45,
+ "seen_sources": 3,
+ "importance": 55,
  "created_at": "2026-08-04T10:05:33.921572+00:00",
- "last_update": "2026-08-04T10:05:33.921572+00:00",
+ "last_update": "2026-08-04T12:24:13.828529+00:00",
  "members": [
+  {
+   "id": "af217eb20840ff8b8ac534b166aa8fa58349f618",
+   "source": "telecom.economictimes.indiatimes.com",
+   "tier": "wire",
+   "url": "https://telecom.economictimes.indiatimes.com/news/devices/onsemi-forecasts-upbeat-revenue-on-surging-ai-data-center-chip-demand/132848132",
+   "title": "Onsemi Revenue Forecast : Onsemi Raises Q3 Revenue Outlook Amidst AI Chip Demand Surge , ETTelecom",
+   "published_at": "2026-08-04T10:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8917
+  },
+  {
+   "id": "d0309d0d925aa57410239f649168d79e0bcd437d",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/metro-bank-h1-earnings-call-090259296.html",
+   "title": "Metro Bank H1 Earnings Call Highlights",
+   "published_at": "2026-08-04T10:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8842
+  },
   {
    "id": "5e29c5fab09ab747fcc276fa57901543a75730f1",
    "source": "moneycontrol.com",
@@ -20,7 +40,7 @@
    "title": "Exide Industries Q1 EBITDA beats estimates ; Nomura retains  Buy , raises TP to Rs 492",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9574
+   "sim_to_centroid": 0.9522
   },
   {
    "id": "ac42f3db372f9fc0e106e3e2cd0c42c1d7043ef3",
@@ -30,11 +50,25 @@
    "title": "Q1 Results LIVE : Airtel , Nykaa , BSE among key firms to declare June quarter earnings today",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9574
+   "sim_to_centroid": 0.9568
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Onsemi Revenue Forecast : Onsemi Raises Q3 Revenue Outlook Amidst AI Chip Demand Surge , ETTelecom",
+   "source": "telecom.economictimes.indiatimes.com",
+   "url": "https://telecom.economictimes.indiatimes.com/news/devices/onsemi-forecasts-upbeat-revenue-on-surging-ai-data-center-chip-demand/132848132",
+   "at": "2026-08-04T10:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Metro Bank H1 Earnings Call Highlights",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/metro-bank-h1-earnings-call-090259296.html",
+   "at": "2026-08-04T10:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Exide Industries Q1 EBITDA beats estimates ; Nomura retains  Buy , raises TP to Rs 492",
@@ -50,8 +84,47 @@
    "at": "2026-08-04T07:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-04T12:26:01.656255+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Onsemi Revenue Forecast : Onsemi Raises Q3 Revenue Outlook Amidst AI Chip Demand Surge , ETTelecom",
+    "Metro Bank H1 Earnings Call Highlights",
+    "Exide Industries Q1 EBITDA beats estimates ; Nomura retains  Buy , raises TP to Rs 492",
+    "Q1 Results LIVE : Airtel , Nykaa , BSE among key firms to declare June quarter earnings today"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Onsemi Revenue…",
+   "one_liner": "Onsemi Revenue Forecast : Onsemi Raises Q3…",
+   "why_now": null,
+   "details": [
+    "Onsemi Revenue Forecast : Onsemi Raises Q3 Revenue Outlook Amidst AI Chip Demand Surge , ETTelecom",
+    "Metro Bank H1 Earnings Call Highlights",
+    "Exide Industries Q1 EBITDA beats estimates ; Nomura retains  Buy , raises TP to Rs 492"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "c27b9e535cfe6ddd48dccd2089eb8229617b39bb"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-04T12:26:01.656042+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -75,12 +148,6 @@
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c8947a836ed75e541",
-   "title": "Inside Uber - Waymo rift , there a battle over AVs in nation capital",
    "category": "EARNINGS",
    "shared": []
   }
