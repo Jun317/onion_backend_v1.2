@@ -69,7 +69,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-04T15:47:58.085465+00:00",
+  "created_at": "2026-08-04T20:09:21.147952+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -80,10 +80,10 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"유럽의 가스 세금\",\n   \"one_liner\": \"유럽이 가스 세수를 늘리고 있어요.\",\n   \"why_now\": \"기후 변화로 인한 자연재해로 인해 보험 갭이 커지고 있어요.\",\n   \"impact_line\": \"에너지 비용이 오를 수 있어요\",\n   \"details\": [\n       \"유럽의 가스 세수가 증가하고 있어요.\",\n       \"기후 변화로 인한 자연재해로 인해 보험 갭이 커지고 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"에너지 가격이 오르면 소비자들이 더 많은 돈을 지불해야 해요!\",\n       \"기후 변화로 인한 재해로 인해 보험료가 증가할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\"title\": \"유럽 산불 시즌, 기후 보험 격차 노출\", \"one_liner\": \"유럽의 산불 시즌이 기후 변화로 인한 보험의 부족한 점을 드러냈어요.\", \"why_now\": \"기후 변화로 인해 예측 불가능한 자연재해가 늘어나면서 보험으로도 대비하기 어려워지고 있어요.\", \"impact_line\": \"기후 변화로 인한 재해 발생 시 보험금 지급이 어려워질 수 있어요.\", \"details\": [\"유럽의 산불 시즌이 기후 변화로 인한 보험의 부족한 점을 드러냈어요.\", \"기후 변화로 인해 예측 불가능한 자연재해가 늘어나고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"자연재해 발생 시 피해 복구를 위한 사회적 비용이 늘어날 수 있어요!\", \"기후 변화에 대한 대비책 마련이 시급해질 것으로 예상돼요!\"], \"glossary\": [{\"term\": \"기후 변화\", \"easy\": \"지구의 평균 기온이 올라가면서 날씨가 바뀌는 현상이에요.\", \"example\": \"기후 변화 때문에 여름이 더 더워지고 겨울이 덜 추워질 수 있어요.\"}]}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
      "details 3문장 미만"
     ]
@@ -110,20 +110,14 @@
   "fact_hash": "256d75f522626781d2392cfab64f903625674488"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-04T15:47:58.085408+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-04T20:09:21.147884+00:00"
  },
  "glossary": [],
  "related": [
   {
    "id": "c21fbad53c2afa8f1",
    "title": "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets",
-   "category": "COMMODITY",
-   "shared": []
-  },
-  {
-   "id": "c293f04c6660f586b",
-   "title": "Why gold prices edged higher today ( Aug . 4 ): Key factors driving gold and silver",
    "category": "COMMODITY",
    "shared": []
   }

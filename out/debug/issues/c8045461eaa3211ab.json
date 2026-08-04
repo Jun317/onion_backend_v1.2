@@ -871,7 +871,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-04T15:43:40.450649+00:00",
+  "created_at": "2026-08-04T20:05:38.739525+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,8 +887,14 @@
     "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank"
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 2분기에 1.5% 성장하는 데 그쳤어요.\",\n  \"why_now\": \"경제 성장 속도가 느려지면 기업들의 수익이 줄고, 이는 곧 일자리 감소로 이어질 수 있어요.\",\n  \"impact_line\": \"물가 상승이 계속되면 소비 여력이 줄어들 수 있어요.\",\n  \"details\": [\n    \"미국 경제는 2분기에 1.5% 성장했어요.\",\n    \"이는 이전 분기보다 성장 속도가 둔화된 수치예요.\",\n    \"하지만 국내 수요는 견조한 모습을 보였어요.\",\n    \"물가는 여전히 높은 수준을 유지하고 있어요.\"\n  ],\n  \"visual_type\": \"usdkrw\",\n  \"effects\": [\n    \"미국 중앙은행이 금리를 바로 내리기 어려워, 고금리 기조가 이어질 수 있어요!\",\n    \"금리가 오르면 한국에서도 대출 이자가 늘어날 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"미국 중앙은행\",\n      \"easy\": \"미국의 중앙은행으로, 우리나라의 한국은행과 같은 역할을 해요.\",\n      \"example\": \"미국 중앙은행이 금리를 올리면 한국 은행도 영향을 받을 수 있어요.\"\n    },\n    {\n      \"term\": \"금리\",\n      \"easy\": \"돈을 빌리거나 맡길 때 적용되는 이자 비율이에요.\",\n      \"example\": \"금리가 오르면 대출 이자가 늘어나고, 예금 이자는 늘어나요.\"\n    }\n  ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [1.5]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -911,8 +917,8 @@
   "fact_hash": "63a23b84926d8182c0e9578910ec5097373cea82"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-04T15:43:40.450550+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-04T20:05:38.739392+00:00"
  },
  "glossary": [],
  "related": [

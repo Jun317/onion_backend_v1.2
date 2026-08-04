@@ -9,11 +9,21 @@
  "entity_keys": [
   "JPM"
  ],
- "seen_sources": 2,
- "importance": 90,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-08-03T23:33:39.011455+00:00",
- "last_update": "2026-08-03T23:33:39.012309+00:00",
+ "last_update": "2026-08-04T20:04:50.672282+00:00",
  "members": [
+  {
+   "id": "b89ba5e7e7f4945e06824515c519defedcd20542",
+   "source": "themarketsdaily.com",
+   "tier": "wire",
+   "url": "https://www.themarketsdaily.com/2026/08/04/phillips-edison-company-inc-nasdaqpeco-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says.html",
+   "title": "Phillips Edison & Company , Inc . ( NASDAQ : PECO ) Stock Price Expected to Rise , JPMorgan Chase & Co . Analyst Says",
+   "published_at": "2026-08-04T19:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.859
+  },
   {
    "id": "cedf43591634d51b7664bab09e4144b9edfab956",
    "source": "cnbc.com",
@@ -22,7 +32,7 @@
    "title": "Here are some of JPMorgan favorite stocks as August trading kicks off",
    "published_at": "2026-08-03T22:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9564
+   "sim_to_centroid": 0.9561
   },
   {
    "id": "d0c648b4d42b812fc38f406a785fa99a00478e2b",
@@ -32,11 +42,18 @@
    "title": "Jamie Dimon Net Worth is the wealth and stock fortune facts of the JPMorgan CEO",
    "published_at": "2026-08-03T18:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9563
+   "sim_to_centroid": 0.9535
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Phillips Edison & Company , Inc . ( NASDAQ : PECO ) Stock Price Expected to Rise , JPMorgan Chase & Co . Analyst Says",
+   "source": "themarketsdaily.com",
+   "url": "https://www.themarketsdaily.com/2026/08/04/phillips-edison-company-inc-nasdaqpeco-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says.html",
+   "at": "2026-08-04T19:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Here are some of JPMorgan favorite stocks as August trading kicks off",
@@ -53,38 +70,41 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-04T15:45:12.974838+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-04T20:05:42.446729+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Phillips Edison & Company , Inc . ( NASDAQ : PECO ) Stock Price Expected to Rise , JPMorgan Chase & Co . Analyst Says",
     "Here are some of JPMorgan favorite stocks as August trading kicks off",
     "Jamie Dimon Net Worth is the wealth and stock fortune facts of the JPMorgan CEO"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"JP모건, 주가 상승 예상\",\n\"one_liner\": \"JP모건 애널리스트가 필립스 에디슨 주가 상승을 예상했어요.\",\n\"why_now\": \"증권사 애널리스트의 긍정적인 전망은 해당 기업의 주가에 영향을 줄 수 있어요.\",\n\"impact_line\": \"관심 있는 기업의 주가 움직임을 지켜볼 필요가 있어요.\",\n\"details\": [\n\"JP모건 애널리스트가 필립스 에디슨의 주가 상승을 예상했어요.\",\n\"JP모건은 8월 거래를 시작하며 선호하는 주식 목록을 공개했어요.\",\n\"JP모건 CEO의 자산 규모에 대한 정보도 나왔어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"해당 기업의 주가가 오를 가능성이 있어요!\",\n\"JP모건이 선호하는 다른 주식들의 움직임도 주목할 필요가 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"애널리스트\",\n\"easy\": \"기업이나 시장을 분석하고 투자 의견을 내는 전문가예요.\",\n\"example\": \"증권사 애널리스트가 특정 주식의 목표 주가를 제시했어요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Here are some of…",
-   "one_liner": "Here are some of JPMorgan favorite stocks as…",
-   "why_now": null,
+   "title": "JP모건, 주가 상승 예상",
+   "one_liner": "JP모건 애널리스트가 필립스 에디슨 주가 상승을 예상했어요.",
+   "why_now": "증권사 애널리스트의 긍정적인 전망은 해당 기업의 주가에 영향을 줄 수 있어요.",
    "details": [
-    "Here are some of JPMorgan favorite stocks as August trading kicks off",
-    "Jamie Dimon Net Worth is the wealth and stock fortune facts of the JPMorgan CEO"
+    "JP모건 애널리스트가 필립스 에디슨의 주가 상승을 예상했어요.",
+    "JP모건은 8월 거래를 시작하며 선호하는 주식 목록을 공개했어요.",
+    "JP모건 CEO의 자산 규모에 대한 정보도 나왔어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "해당 기업의 주가가 오를 가능성이 있어요!",
+    "JP모건이 선호하는 다른 주식들의 움직임도 주목할 필요가 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "a053686d5661b3de4f97ccd3ecb4ab17bc238741"
+  "fact_hash": "5725e0ad29b48cea3db354b44cb76ae7579a5a9c"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

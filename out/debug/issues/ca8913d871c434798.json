@@ -272,48 +272,56 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-04T15:46:08.414741+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-04T20:07:46.867394+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "Oil prices gain and Asian shares are mixed after a rally on Wall Street",
     "Oil rebounds as markets trade mixed following Wall Street rally",
-    "Asian Markets Trade Mixed",
-    "Stocks mixed as Seoul stabilises , oil prices rise with eyes on Mideast",
-    "US stocks rally near a record as falling oil prices ease Wall Street worries about inflation"
+    "US stocks flirt with record as profits keep piling up , oil prices ease",
+    "US stocks rally near a record as falling oil prices ease Wall Street worries about inflation",
+    "Dow hits fresh record as oil prices tumble"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"국제 유가 상승, 아시아 증시 혼조\",\n  \"one_liner\": \"국제 유가가 오르고 아시아 증시는 엇갈리는 모습을 보였어요.\",\n  \"why_now\": \"국제 유가와 주식 시장은 서로 영향을 주고받으며 경제 상황을 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"국제 유가 변동은 기름값과 물가에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"미국 증시가 상승세를 보인 후 국제 유가가 올랐어요.\",\n    \"하지만 아시아 증시는 상승과 하락이 엇갈리는 혼조세를 보였어요.\",\n    \"미국 증시는 기업들의 좋은 실적 덕분에 최고치에 가까워졌어요.\",\n    \"국제 유가 하락은 인플레이션에 대한 우려를 덜어주며 미국 증시에 긍정적인 영향을 줬어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"국제 유가 상승은 운송비와 공산품 가격을 올릴 수 있어요!\",\n    \"아시아 증시의 혼조세는 투자 심리가 아직 불안정함을 보여줘요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"국제 유가\",\n      \"easy\": \"전 세계적으로 거래되는 석유의 가격이에요.\",\n      \"example\": \"국제 유가가 오르면 주유소의 휘발유 가격도 보통 올라요.\"\n    },\n    {\n      \"term\": \"아시아 증시\",\n      \"easy\": \"아시아 지역 국가들의 주식 시장을 말해요.\",\n      \"example\": \"아시아 증시가 오르면 해당 국가들의 경제 상황이 좋다고 볼 수 있어요.\"\n    },\n    {\n      \"term\": \"인플레이션\",\n      \"easy\": \"물건이나 서비스의 가격이 전반적으로 계속 오르는 현상이에요.\",\n      \"example\": \"인플레이션이 심해지면 같은 돈으로 살 수 있는 물건이 줄어들어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Oil prices gain and…",
-   "one_liner": "Oil prices gain and Asian shares are mixed after…",
-   "why_now": null,
+   "title": "국제 유가 상승, 아시아 증시 혼조",
+   "one_liner": "국제 유가가 오르고 아시아 증시는 엇갈리는 모습을 보였어요.",
+   "why_now": "국제 유가와 주식 시장은 서로 영향을 주고받으며 경제 상황을 보여주는 중요한 지표예요.",
    "details": [
-    "Oil prices gain and Asian shares are mixed after a rally on Wall Street",
-    "Oil rebounds as markets trade mixed following Wall Street rally",
-    "Asian Markets Trade Mixed"
+    "미국 증시가 상승세를 보인 후 국제 유가가 올랐어요.",
+    "하지만 아시아 증시는 상승과 하락이 엇갈리는 혼조세를 보였어요.",
+    "미국 증시는 기업들의 좋은 실적 덕분에 최고치에 가까워졌어요.",
+    "국제 유가 하락은 인플레이션에 대한 우려를 덜어주며 미국 증시에 긍정적인 영향을 줬어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "국제 유가 상승은 운송비와 공산품 가격을 올릴 수 있어요!",
+    "아시아 증시의 혼조세는 투자 심리가 아직 불안정함을 보여줘요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "b9c31178cd2bea2349ad83c9d939450fd6ef4db2"
+  "fact_hash": "e1130467a4b44edd167f55f1243a42550622ef7e"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-04T15:46:08.414687+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "인플레이션",
+   "easy": "물가가 전반적으로 계속 오르는 현상이에요.",
+   "example": "돈의 힘이 조금씩 약해지는 셈이에요."
+  }
+ ],
  "related": [
   {
    "id": "ccc137270dbb9d742",
