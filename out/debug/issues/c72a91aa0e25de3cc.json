@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-04T18:11:46.660394+00:00",
+  "created_at": "2026-08-04T21:46:12.438689+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,14 +881,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"주가 하락\",\n   \"one_liner\": \"여러 기업의 주가가 떨어졌어요\",\n   \"why_now\": \"주가가 떨어지면 투자자들이 손해를 볼 수 있어요\",\n   \"impact_line\": \"주식 투자자들의 손실이 늘 수 있어요\",\n   \"details\": [\n      \"Global Crossing Airlines Group의 주가가 4.9% 떨어졌어요\",\n      \"GE Aerospace의 주가가 3.9% 떨어졌어요\",\n      \"Dell Technologies의 주가가 5.2% 떨어졌어요\",\n      \"IREN의 주가가 9% 떨어졌어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"주식 투자자들이 손실을 볼 수 있어요!\",\n      \"기업의 재무 상태가 안 좋아질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [3.9, 4.9, 5.2]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -911,8 +905,8 @@
   "fact_hash": "4b5a1b15a393cf628518a4bc4a9106fdc82fa6ef"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [3.9, 4.9, 5.2]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-04T18:11:46.660253+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-04T21:46:12.438578+00:00"
  },
  "glossary": [],
  "related": [

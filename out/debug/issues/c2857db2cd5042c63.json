@@ -9,11 +9,21 @@
  "entity_keys": [
   "AMD"
  ],
- "seen_sources": 2,
- "importance": 75,
+ "seen_sources": 3,
+ "importance": 80,
  "created_at": "2026-08-04T12:24:13.827880+00:00",
- "last_update": "2026-08-04T12:24:13.828584+00:00",
+ "last_update": "2026-08-04T21:44:01.412113+00:00",
  "members": [
+  {
+   "id": "437e974ad0fe2e95d5b6566de1929f5f95e85507",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/08/04/why-amd-stock-popped-today/?source=iedfolrf0000001",
+   "title": "Why AMD Stock Popped Today | The Motley Fool",
+   "published_at": "2026-08-04T20:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8989
+  },
   {
    "id": "96ce5f5c1fe257efa885d4d4cc1e79c448c35b56",
    "source": "benzinga.com",
@@ -22,7 +32,7 @@
    "title": "Stock Market Today : S & P 500 , Dow and Nasdaq Futures Rise After Strong Monday Gains McDonald , AMD , Pala",
    "published_at": "2026-08-04T10:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.963
+   "sim_to_centroid": 0.9629
   },
   {
    "id": "1ac1696ba933e50a84d02ae7a600522063f02d3c",
@@ -32,11 +42,18 @@
    "title": "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week",
    "published_at": "2026-08-02T15:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.963
+   "sim_to_centroid": 0.9609
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Why AMD Stock Popped Today | The Motley Fool",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/08/04/why-amd-stock-popped-today/?source=iedfolrf0000001",
+   "at": "2026-08-04T20:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Stock Market Today : S & P 500 , Dow and Nasdaq Futures Rise After Strong Monday Gains McDonald , AMD , Pala",
@@ -53,42 +70,45 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-04T12:24:23.283736+00:00",
+  "model": "template",
+  "created_at": "2026-08-04T21:49:01.113297+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Why AMD Stock Popped Today | The Motley Fool",
     "Stock Market Today : S & P 500 , Dow and Nasdaq Futures Rise After Strong Monday Gains McDonald , AMD , Pala",
     "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"주식 시장 상승\",\n   \"one_liner\": \"주요 기업들의 실적 발표가 시작돼요.\",\n   \"why_now\": \"실적 발표는 주식 시장에 큰 영향을 미치기 때문에 중요해요.\",\n   \"impact_line\": \"주식 투자자들의 관심이 집중될 수 있어요\",\n   \"details\": [\n      \"주요 기업들의 실적 발표가 시작돼요.\",\n      \"실적 발표는 주식 시장의 방향을 결정하는 중요한 요소예요.\",\n      \"주식 투자자들은 실적 발표를 통해 기업의 미래를 예측할 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"실적이 좋으면 주가가 오를 수 있어요!\",\n      \"실적이 나쁘면 주가가 내릴 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "주식 시장 상승",
-   "one_liner": "주요 기업들의 실적 발표가 시작돼요.",
-   "why_now": "실적 발표는 주식 시장에 큰 영향을 미치기 때문에 중요해요.",
+   "title": "Why AMD Stock Popped…",
+   "one_liner": "Why AMD Stock Popped Today | The Motley Fool",
+   "why_now": null,
    "details": [
-    "주요 기업들의 실적 발표가 시작돼요.",
-    "실적 발표는 주식 시장의 방향을 결정하는 중요한 요소예요.",
-    "주식 투자자들은 실적 발표를 통해 기업의 미래를 예측할 수 있어요."
+    "Why AMD Stock Popped Today | The Motley Fool",
+    "Stock Market Today : S & P 500 , Dow and Nasdaq Futures Rise After Strong Monday Gains McDonald , AMD , Pala",
+    "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week"
    ],
-   "effects": [
-    "실적이 좋으면 주가가 오를 수 있어요!",
-    "실적이 나쁘면 주가가 내릴 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "7beb09b0064ccde0807f25f9f159b1f7fa13b932"
+  "fact_hash": "408f368c9a719b70f4133516bdd2f8b53a86c4ea"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-04T21:49:01.113229+00:00"
+ },
  "glossary": [],
  "related": [
   {
