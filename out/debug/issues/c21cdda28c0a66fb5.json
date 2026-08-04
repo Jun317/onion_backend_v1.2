@@ -1,0 +1,131 @@
+{
+ "id": "c21cdda28c0a66fb5",
+ "title": "US : 25 Democratic states move court against Trump forced - labour tariffs",
+ "category": "POLICY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 80,
+ "created_at": "2026-08-04T10:05:33.922468+00:00",
+ "last_update": "2026-08-04T10:05:33.925459+00:00",
+ "members": [
+  {
+   "id": "0567c15b913629743055e91ea4bf57c09e720fe6",
+   "source": "hindustantimes.com",
+   "tier": "wire",
+   "url": "https://www.hindustantimes.com/world-news/us-news/us-25-democratic-states-move-court-against-trump-s-forced-labour-tariffs-101785815224440.html",
+   "title": "US : 25 Democratic states move court against Trump forced - labour tariffs",
+   "published_at": "2026-08-04T07:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9898
+  },
+  {
+   "id": "bbd02e0bf6ae17dfd60fb4ecc23651fde263c750",
+   "source": "oneindia.com",
+   "tier": "wire",
+   "url": "https://www.oneindia.com/international/us-25-democratic-states-move-court-against-trumps-forced-labour-tariffs-on-60-countries-including-8165933.html",
+   "title": "US : 25 Democratic States Move Court Against Trump Forced - Labour Tariffs On 60 Countries , Including India",
+   "published_at": "2026-08-04T07:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9898
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "US : 25 Democratic states move court against Trump forced - labour tariffs",
+   "source": "hindustantimes.com",
+   "url": "https://www.hindustantimes.com/world-news/us-news/us-25-democratic-states-move-court-against-trump-s-forced-labour-tariffs-101785815224440.html",
+   "at": "2026-08-04T07:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US : 25 Democratic States Move Court Against Trump Forced - Labour Tariffs On 60 Countries , Including India",
+   "source": "oneindia.com",
+   "url": "https://www.oneindia.com/international/us-25-democratic-states-move-court-against-trumps-forced-labour-tariffs-on-60-countries-including-8165933.html",
+   "at": "2026-08-04T07:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-04T10:08:05.594422+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "US : 25 Democratic states move court against Trump forced - labour tariffs",
+    "US : 25 Democratic States Move Court Against Trump Forced - Labour Tariffs On 60 Countries , Including India"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미국, 강제노동 상품 수입 금지 소송\",\n  \"one_liner\": \"미국 민주당 주들이 트럼프 전 대통령의 강제 노동 상품 수입 금지 조치에 대해 소송을 제기했어요.\",\n  \"why_now\": \"강제 노동으로 만들어진 상품의 수입을 막으면 관련 산업의 공급망에 변화가 생길 수 있어요.\",\n  \"impact_line\": \"해외에서 값싼 상품 수입이 줄어 장바구니 물가가 오를 수 있어요.\",\n  \"details\": [\n    \"미국 민주당 소속 25개 주가 소송에 참여했어요.\",\n    \"이 조치는 60개국 상품에 영향을 미칠 수 있어요.\",\n    \"소송은 트럼프 전 대통령이 추진했던 정책에 대한 반발이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"수입 상품 가격이 오르거나, 국내 생산품의 가격이 상승할 수 있어요!\",\n    \"해외 공급망에 의존하던 기업들은 새로운 공급처를 찾아야 할 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"강제 노동\",\n      \"easy\": \"사람을 억지로 일하게 하고 임금을 제대로 주지 않는 것을 말해요.\",\n      \"example\": \"강제 노동으로 만든 물건은 사지 않기로 했어요.\"\n    },\n    {\n      \"term\": \"수입 금지 조치\",\n      \"easy\": \"특정 나라에서 만든 물건을 우리나라로 들여오지 못하게 막는 것을 말해요.\",\n      \"example\": \"정부가 특정 농산물의 수입 금지 조치를 발표했어요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 50자 초과(57)",
+     "why_now 55자 초과(59)"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 50자 초과(54)"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US : 25 Democratic…",
+   "one_liner": "US : 25 Democratic states move court against…",
+   "why_now": null,
+   "details": [
+    "US : 25 Democratic states move court against Trump forced - labour tariffs",
+    "US : 25 Democratic States Move Court Against Trump Forced - Labour Tariffs On 60 Countries , Including India"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "01888e038c5cdf9016da09de527637b4a1a210ed"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(57)\", \"why_now 55자 초과(59)\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(54)\"]}]}",
+  "at": "2026-08-04T10:08:05.594350+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c3d1f048671411eac",
+   "title": "Digital euro app to incorporate highest accessibility standards : ECB",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "cde343d4cab397faf",
+   "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c5c8d55ad4217ee1f",
+   "title": "Federal government grounds Billy Bishop airport expansion",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c005645a9b054915e",
+   "title": "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c92d5d85856ed7a86",
+   "title": "Food Dive : Food Industry News and Analysis",
+   "category": "POLICY",
+   "shared": []
+  }
+ ]
+}

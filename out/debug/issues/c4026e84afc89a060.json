@@ -12,8 +12,18 @@
  "seen_sources": 2,
  "importance": 90,
  "created_at": "2026-08-03T20:05:39.135451+00:00",
- "last_update": "2026-08-03T20:05:39.136277+00:00",
+ "last_update": "2026-08-04T10:05:33.914664+00:00",
  "members": [
+  {
+   "id": "117012203359b394a98667d945a3fdfffa834052",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/energy/articles/exxon-ceo-delivers-blunt-message-064700522.html",
+   "title": "Exxon CEO delivers blunt message on what coming for gas prices",
+   "published_at": "2026-08-04T07:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9
+  },
   {
    "id": "5a5504cb822e9ab35f14e0ea9d0612a4f76377c7",
    "source": "morningstar.com",
@@ -22,7 +32,7 @@
    "title": "ExxonMobil Earnings : Targets on Track Amid Benefits of Market Disruptions , Particularly Refining",
    "published_at": "2026-08-03T17:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9611
+   "sim_to_centroid": 0.9602
   },
   {
    "id": "ebdd5d8af75d93ca52f3e40d35c9a336dc7bd93e",
@@ -32,11 +42,18 @@
    "title": "4 Dividend Energy Stocks to Buy This Month , Starting With ExxonMobil",
    "published_at": "2026-08-02T23:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9611
+   "sim_to_centroid": 0.9596
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Exxon CEO delivers blunt message on what coming for gas prices",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/energy/articles/exxon-ceo-delivers-blunt-message-064700522.html",
+   "at": "2026-08-04T07:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "ExxonMobil Earnings : Targets on Track Amid Benefits of Market Disruptions , Particularly Refining",
@@ -53,38 +70,42 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-04T06:48:08.498624+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-04T10:06:33.375498+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Exxon CEO delivers blunt message on what coming for gas prices",
     "ExxonMobil Earnings : Targets on Track Amid Benefits of Market Disruptions , Particularly Refining",
     "4 Dividend Energy Stocks to Buy This Month , Starting With ExxonMobil"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"석유값 전망\",\n  \"one_liner\": \"엑손모빌 최고경영자가 앞으로 석유값에 대해 이야기했어요.\",\n  \"why_now\": \"석유값은 우리 생활 물가와 직결되어 있어 관심이 높아요.\",\n  \"impact_line\": \"주유비나 난방비가 오를 수 있어요.\",\n  \"details\": [\n    \"엑손모빌 최고경영자가 석유값에 대해 메시지를 전달했어요.\",\n    \"엑손모빌의 실적이 시장 혼란 속에서 목표를 달성했어요.\",\n    \"특히 정제 부문에서 이익이 컸어요.\",\n    \"이달에 사야 할 배당 에너지 주식 중 하나로 엑손모빌이 꼽혔어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"석유값이 오르면 운송비와 물건값이 전반적으로 상승할 수 있어요!\",\n    \"에너지 기업들의 실적이 개선될 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"엑손모빌\",\n      \"easy\": \"세계적인 석유 회사 이름이에요.\",\n      \"example\": \"엑손모빌 주가가 올랐다는 뉴스가 나왔어요.\"\n    },\n    {\n      \"term\": \"정제\",\n      \"easy\": \"원유를 우리가 쓰는 휘발유, 경유 등으로 만드는 과정이에요.\",\n      \"example\": \"정제 시설이 잘 돌아가면 석유 제품 가격이 안정될 수 있어요.\"\n    },\n    {\n      \"term\": \"배당\",\n      \"easy\": \"회사가 벌어들인 이익의 일부를 주주들에게 나눠주는 거예요.\",\n      \"example\": \"배당을 많이 주는 회사는 안정적인 수익을 기대할 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "ExxonMobil Earnings…",
-   "one_liner": "ExxonMobil Earnings : Targets on Track Amid…",
-   "why_now": null,
+   "title": "석유값 전망",
+   "one_liner": "엑손모빌 최고경영자가 앞으로 석유값에 대해 이야기했어요.",
+   "why_now": "석유값은 우리 생활 물가와 직결되어 있어 관심이 높아요.",
    "details": [
-    "ExxonMobil Earnings : Targets on Track Amid Benefits of Market Disruptions , Particularly Refining",
-    "4 Dividend Energy Stocks to Buy This Month , Starting With ExxonMobil"
+    "엑손모빌 최고경영자가 석유값에 대해 메시지를 전달했어요.",
+    "엑손모빌의 실적이 시장 혼란 속에서 목표를 달성했어요.",
+    "특히 정제 부문에서 이익이 컸어요.",
+    "이달에 사야 할 배당 에너지 주식 중 하나로 엑손모빌이 꼽혔어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "석유값이 오르면 운송비와 물건값이 전반적으로 상승할 수 있어요!",
+    "에너지 기업들의 실적이 개선될 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "ca9f6827b9edc2046b75506b7f3ae664e667b761"
+  "fact_hash": "dc1ff9090cccb8860c5248a946df3f8678740157"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

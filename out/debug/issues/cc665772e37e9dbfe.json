@@ -1,0 +1,118 @@
+{
+ "id": "cc665772e37e9dbfe",
+ "title": "Sanctions Update : August 3 , 2026",
+ "category": "GEO",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 70,
+ "created_at": "2026-08-04T10:05:33.922119+00:00",
+ "last_update": "2026-08-04T10:05:33.925373+00:00",
+ "members": [
+  {
+   "id": "673ab87c2134a5c139cb175d7ed58ced3c6ea345",
+   "source": "mondaq.com",
+   "tier": "wire",
+   "url": "https://www.mondaq.com:443/unitedstates/export-controls-trade-investment-sanctions/1826126/sanctions-update-august-3-2026",
+   "title": "Sanctions Update : August 3 , 2026",
+   "published_at": "2026-08-04T07:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9628
+  },
+  {
+   "id": "3375a598457ed6be1f8fd0d25adbf6a25d452027",
+   "source": "stockandland.com.au",
+   "tier": "wire",
+   "url": "https://www.stockandland.com.au/story/9323539/mutton-prices-july-2026-sees-new-inflation-adjusted-record/",
+   "title": "Mutton prices : July 2026 sees new inflation - adjusted record | Stock & Land",
+   "published_at": "2026-08-04T07:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9628
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Sanctions Update : August 3 , 2026",
+   "source": "mondaq.com",
+   "url": "https://www.mondaq.com:443/unitedstates/export-controls-trade-investment-sanctions/1826126/sanctions-update-august-3-2026",
+   "at": "2026-08-04T07:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Mutton prices : July 2026 sees new inflation - adjusted record | Stock & Land",
+   "source": "stockandland.com.au",
+   "url": "https://www.stockandland.com.au/story/9323539/mutton-prices-july-2026-sees-new-inflation-adjusted-record/",
+   "at": "2026-08-04T07:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-04T10:09:41.985598+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Sanctions Update : August 3 , 2026",
+    "Mutton prices : July 2026 sees new inflation - adjusted record | Stock & Land"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"양고기 가격 상승\",\n  \"one_liner\": \"7월에 양고기 가격이 물가 상승분을 반영해 역대 최고치를 기록했어요.\",\n  \"why_now\": \"생활 물가가 오르면 장바구니 부담이 커져 가계 경제에 직접적인 영향을 줄 수 있어요.\",\n  \"impact_line\": \"양고기 요리를 더 비싸게 즐겨야 할 수 있어요.\",\n  \"details\": [\n    \"7월에 양고기 가격이 역대 최고치를 기록했어요.\",\n    \"이는 물가 상승분을 반영한 결과예요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"양고기 소비가 줄어 관련 식당들의 매출이 감소할 수 있어요!\",\n    \"대체재인 다른 육류나 식재료의 가격이 오를 수도 있어요!\"\n  ],\n  \"glossary\": [],\n  \"impact_line\": \"양고기 요리를 더 비싸게 즐겨야 할 수 있어요.\"\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Sanctions Update :…",
+   "one_liner": "Sanctions Update : August 3 , 2026",
+   "why_now": null,
+   "details": [
+    "Sanctions Update : August 3 , 2026",
+    "Mutton prices : July 2026 sees new inflation - adjusted record | Stock & Land"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "6944ea8aedea9fb40ed644da6de9b4a212bfb095"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-04T10:09:41.985544+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cd7b762c4b0212485",
+   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "c0a3e3cac80938796",
+   "title": "Trump agenda now : Deliver crushing blow to Iran regime",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "c6f9e57edbc5d69b6",
+   "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
+   "category": "GEO",
+   "shared": []
+  }
+ ]
+}

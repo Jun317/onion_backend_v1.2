@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-04T06:47:50.062411+00:00",
+  "created_at": "2026-08-04T10:06:55.763785+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,12 +64,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"JP모건 추천 종목\", \"one_liner\": \"JP모건이 8월에 주목할 만한 주식들을 추천했어요.\", \"why_now\": \"증권사 추천 종목은 투자자들이 관심을 가질 만한 기업을 파악하는 데 도움이 돼요.\", \"impact_line\": \"JP모건 추천 종목에 관심이 쏠릴 수 있어요.\", \"details\": [\"JP모건이 8월에 주목할 만한 주식들을 선정했어요.\", \"JP모건 최고경영자(CEO) 제이미 다이먼의 자산 규모도 언급됐어요.\"], \"visual_type\": \"none\", \"effects\": [\"JP모건의 추천 종목에 투자자들의 관심이 쏠릴 수 있어요!\", \"이들 종목의 주가에 영향을 줄 수도 있어요.\"], \"glossary\": [{\"term\": \"주식\", \"easy\": \"회사의 소유권 일부를 나타내는 증서예요.\", \"example\": \"주식을 사면 그 회사의 주인이 되는 거예요.\"}, {\"term\": \"CEO\", \"easy\": \"회사의 최고 경영자를 뜻하는 말이에요.\", \"example\": \"CEO는 회사의 중요한 결정을 내려요.\"}], \"impact_line\": \"JP모건 추천 종목에 관심이 쏠릴 수 있어요.\"}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님"
     ]
    }
   ],
@@ -87,8 +94,8 @@
   "fact_hash": "a053686d5661b3de4f97ccd3ecb4ab17bc238741"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-04T06:47:50.062295+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}]}",
+  "at": "2026-08-04T10:06:55.763732+00:00"
  },
  "glossary": [],
  "related": [

@@ -1,0 +1,132 @@
+{
+ "id": "c1679b4adf76c1e20",
+ "title": "BankIslami Hosts Policy and Economic Experts for Strategic Dialogue on Pakistan FY2027 Outlook",
+ "category": "POLICY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 80,
+ "created_at": "2026-08-04T10:05:33.923528+00:00",
+ "last_update": "2026-08-04T10:05:33.925599+00:00",
+ "members": [
+  {
+   "id": "4492f8871b29bd8c2410c0b4804c087e96809a40",
+   "source": "propakistani.pk",
+   "tier": "wire",
+   "url": "https://propakistani.pk/2026/08/04/bankislami-hosts-policy-and-economic-experts-for-strategic-dialogue-on-pakistans-fy2027-outlook/",
+   "title": "BankIslami Hosts Policy and Economic Experts for Strategic Dialogue on Pakistan FY2027 Outlook",
+   "published_at": "2026-08-04T07:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.956
+  },
+  {
+   "id": "35efb3543d633fdbad7678604a028b56ee8c8c7d",
+   "source": "english.news.cn",
+   "tier": "wire",
+   "url": "https://english.news.cn/asiapacific/20260804/cfd2b3cc09ad4f51999aa417414902b2/c.html",
+   "title": "Pakistan headline inflation eases to 9 . 2 pct in July - Xinhua",
+   "published_at": "2026-08-04T07:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.956
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "BankIslami Hosts Policy and Economic Experts for Strategic Dialogue on Pakistan FY2027 Outlook",
+   "source": "propakistani.pk",
+   "url": "https://propakistani.pk/2026/08/04/bankislami-hosts-policy-and-economic-experts-for-strategic-dialogue-on-pakistans-fy2027-outlook/",
+   "at": "2026-08-04T07:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Pakistan headline inflation eases to 9 . 2 pct in July - Xinhua",
+   "source": "english.news.cn",
+   "url": "https://english.news.cn/asiapacific/20260804/cfd2b3cc09ad4f51999aa417414902b2/c.html",
+   "at": "2026-08-04T07:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-04T10:07:27.293990+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "BankIslami Hosts Policy and Economic Experts for Strategic Dialogue on Pakistan FY2027 Outlook",
+    "Pakistan headline inflation eases to 9 . 2 pct in July - Xinhua"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"파키스탄 물가 상승세 둔화\",\n  \"one_liner\": \"파키스탄의 물가 상승률이 9.2%로 낮아졌어요.\",\n  \"why_now\": \"물가 상승률이 낮아지면 국민들의 장바구니 부담이 줄어들 수 있어요.\",\n  \"impact_line\": \"생활 물가 부담이 조금은 줄어들 수 있어요.\",\n  \"details\": [\n    \"파키스탄의 7월 물가 상승률이 9.2%로 집계되었어요.\",\n    \"이는 이전보다 물가 상승세가 둔화된 결과예요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"물가 상승세가 둔화되면 국민들의 실질 구매력이 회복될 수 있어요!\",\n    \"정부의 물가 안정 정책이 효과를 보이고 있다는 신호일 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"물가 상승률\",\n      \"easy\": \"작년 같은 기간에 비해 물건 가격이 얼마나 올랐는지를 나타내는 비율이에요.\",\n      \"example\": \"올해 7월 물가 상승률은 9.2%로, 작년 7월보다 가격이 평균 9.2% 올랐다는 뜻이에요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "입력에 없는 숫자: [9.2]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "입력에 없는 숫자: [9.2]"
+    ]
+   }
+  ],
+  "output": {
+   "title": "BankIslami Hosts…",
+   "one_liner": "BankIslami Hosts Policy and Economic Experts for…",
+   "why_now": null,
+   "details": [
+    "BankIslami Hosts Policy and Economic Experts for Strategic Dialogue on Pakistan FY2027 Outlook",
+    "Pakistan headline inflation eases to 9 . 2 pct in July - Xinhua"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "d3f2d46d1971d3a810fd42b0ca414db56f9038fd"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [9.2]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [9.2]\"]}]}",
+  "at": "2026-08-04T10:07:27.293900+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c3d1f048671411eac",
+   "title": "Digital euro app to incorporate highest accessibility standards : ECB",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "cde343d4cab397faf",
+   "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c5c8d55ad4217ee1f",
+   "title": "Federal government grounds Billy Bishop airport expansion",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c005645a9b054915e",
+   "title": "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c92d5d85856ed7a86",
+   "title": "Food Dive : Food Industry News and Analysis",
+   "category": "POLICY",
+   "shared": []
+  }
+ ]
+}
