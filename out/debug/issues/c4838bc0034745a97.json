@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-04T12:26:45.076951+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-04T18:11:26.978721+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,26 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"F5, AI 수요로 매출 증가\",\n\"one_liner\": \"F5의 매출이 인공지능 관련 수요 증가로 늘었어요.\",\n\"why_now\": \"인공지능 기술이 발전하면서 관련 기업들의 실적이 좋아지는 추세예요.\",\n\"impact_line\": \"인공지능 관련 기업들의 성장이 기대돼요!\",\n\"details\": [\n\"F5의 매출이 인공지능 관련 수요 증가로 인해 늘었어요.\",\n\"이는 F5의 실적이 긍정적으로 변화하고 있음을 보여줘요.\",\n\"인공지능 기술의 발전이 실제 기업의 수익으로 이어지고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"인공지능 관련 기술 및 서비스에 대한 투자가 늘어날 수 있어요!\",\n\"관련 기업들의 주가 상승이 기대돼요!\"\n],\n\"glossary\": [\n{\n\"term\": \"AI\",\n\"easy\": \"사람처럼 생각하고 배우는 컴퓨터 기술을 말해요.\",\n\"example\": \"AI 스피커는 사람의 말을 알아듣고 음악을 틀어줘요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "F5 Rises as AI…",
-   "one_liner": "F5 Rises as AI Demand Turns into Revenue",
-   "why_now": null,
+   "title": "F5, AI 수요로 매출 증가",
+   "one_liner": "F5의 매출이 인공지능 관련 수요 증가로 늘었어요.",
+   "why_now": "인공지능 기술이 발전하면서 관련 기업들의 실적이 좋아지는 추세예요.",
    "details": [
-    "F5 Rises as AI Demand Turns into Revenue",
-    "Sinn Fein sounds warning over future of powersharing amid  DUP behaviour",
-    "Enel H1 Profit Rises"
+    "F5의 매출이 인공지능 관련 수요 증가로 인해 늘었어요.",
+    "이는 F5의 실적이 긍정적으로 변화하고 있음을 보여줘요.",
+    "인공지능 기술의 발전이 실제 기업의 수익으로 이어지고 있어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "인공지능 관련 기술 및 서비스에 대한 투자가 늘어날 수 있어요!",
+    "관련 기업들의 주가 상승이 기대돼요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "3f7346c0787c1e7cf012752c39ee497c38b5e631"
  },

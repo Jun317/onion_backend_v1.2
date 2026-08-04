@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 3,
- "importance": 85,
+ "seen_sources": 4,
+ "importance": 90,
  "created_at": "2026-08-04T10:05:33.922649+00:00",
- "last_update": "2026-08-04T12:24:13.828514+00:00",
+ "last_update": "2026-08-04T18:11:17.073079+00:00",
  "members": [
+  {
+   "id": "f2e29a4a4756b6eeb8d43ff4cc51b8bbcee18cb2",
+   "source": "themainewire.com",
+   "tier": "wire",
+   "url": "https://www.themainewire.com/2026/08/maine-joins-25-state-lawsuit-challenging-trump-administrations-new-global-tariffs/",
+   "title": "Maine Joins 25 - State Lawsuit Challenging Trump Administration New Global Tariffs",
+   "published_at": "2026-08-04T15:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9295
+  },
   {
    "id": "fce5143b7281b93d663a0b656a55f4e09d75db20",
    "source": "riotimesonline.com",
@@ -20,7 +30,7 @@
    "title": "25 US States Sue to Block Trump Tariffs on Africa",
    "published_at": "2026-08-04T10:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9334
+   "sim_to_centroid": 0.9376
   },
   {
    "id": "7da3f9afae3836c2bac05904faee8e1b8deeadcd",
@@ -30,7 +40,7 @@
    "title": "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.998
+   "sim_to_centroid": 0.996
   },
   {
    "id": "7e59c89023f8af577188dffc0f68e910835786f0",
@@ -40,7 +50,7 @@
    "title": "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.998
+   "sim_to_centroid": 0.996
   },
   {
    "id": "e2e0396cbda0e08bda886401ee5915d12a122b7a",
@@ -50,7 +60,7 @@
    "title": "US : 25 States Sue Over Trump New Tariffs",
    "published_at": "2026-08-04T07:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.959
+   "sim_to_centroid": 0.9629
   },
   {
    "id": "62b2446ead909ba2fcc68984b322bfa8ff4bebd8",
@@ -60,11 +70,18 @@
    "title": "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful",
    "published_at": "2026-08-04T07:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.998
+   "sim_to_centroid": 0.996
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Maine Joins 25 - State Lawsuit Challenging Trump Administration New Global Tariffs",
+   "source": "themainewire.com",
+   "url": "https://www.themainewire.com/2026/08/maine-joins-25-state-lawsuit-challenging-trump-administrations-new-global-tariffs/",
+   "at": "2026-08-04T15:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "25 US States Sue to Block Trump Tariffs on Africa",
@@ -102,50 +119,47 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-04T12:24:15.174438+00:00",
+  "model": "template",
+  "created_at": "2026-08-04T18:15:40.998608+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "Maine Joins 25 - State Lawsuit Challenging Trump Administration New Global Tariffs",
     "25 US States Sue to Block Trump Tariffs on Africa",
     "US : 25 States Sue Over Trump New Tariffs",
     "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 관세 반대 소송\",\n   \"one_liner\": \"미국 25개 주가 아프리카에 부과된 트럼프 관세를 막으려고 소송을 냈어요\",\n   \"why_now\": \"이 소식이 중요한 이유는 미국의 관세가 다른 나라와의 무역에 영향을 줄 수 있어요\",\n   \"impact_line\": \"제조업과 수출입 업체에 영향을 줄 수 있어요\",\n   \"details\": [\n      \"미국 25개 주가 트럼프 관세에 반대하는 소송을 냈어요\",\n      \"이 관세는 아프리카에 부과된 거예요\",\n      \"60개국이 이 조사를 불법이라고 생각해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"미국과 아프리카 간의 무역이 어려워질 수 있어요!\",\n      \"제조업과 수출입 업체의 비용이 증가할 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"관세\",\n         \"easy\": \"수입된 물건에 부과하는 세예요\",\n         \"example\": \"관세가 높으면 수입된 물건의 가격이 올라가요\"\n      }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국 관세 반대 소송",
-   "one_liner": "미국 25개 주가 아프리카에 부과된 트럼프 관세를 막으려고 소송을 냈어요",
-   "why_now": "이 소식이 중요한 이유는 미국의 관세가 다른 나라와의 무역에 영향을 줄 수 있어요",
+   "title": "Maine Joins 25 -…",
+   "one_liner": "Maine Joins 25 - State Lawsuit Challenging Trump…",
+   "why_now": null,
    "details": [
-    "미국 25개 주가 트럼프 관세에 반대하는 소송을 냈어요",
-    "이 관세는 아프리카에 부과된 거예요",
-    "60개국이 이 조사를 불법이라고 생각해요"
+    "Maine Joins 25 - State Lawsuit Challenging Trump Administration New Global Tariffs",
+    "25 US States Sue to Block Trump Tariffs on Africa",
+    "US : 25 States Sue Over Trump New Tariffs"
    ],
-   "effects": [
-    "미국과 아프리카 간의 무역이 어려워질 수 있어요!",
-    "제조업과 수출입 업체의 비용이 증가할 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "7752e18846ef1b1a084de64aea5dd0bb5c092ba1"
+  "fact_hash": "31e4cf395101fb2169140953b0ac6accaa65fbbd"
  },
- "review": null,
- "glossary": [
-  {
-   "term": "관세",
-   "easy": "수입 물건에 매기는 세금이에요.",
-   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
-  }
- ],
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-04T18:15:40.998479+00:00"
+ },
+ "glossary": [],
  "related": [
   {
    "id": "c3d1f048671411eac",

@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-04T10:14:40.130640+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-04T18:11:18.521807+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,26 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기업 비교\",\n   \"one_liner\": \"몇몇 기업을 비교했어요\",\n   \"why_now\": \"기업을 비교하면 어떤 기업이 더 좋은지 알 수 있어요\",\n   \"impact_line\": \"주식 투자 결정에 도움이 될 수 있어요\",\n   \"details\": [\n       \"Equitable과 Acmat을 비교했어요\",\n       \"Doximity와 OptimizeRx를 비교했어요\",\n       \"Nautilus Biotechnology와 Bio-Techne를 비교했어요\",\n       \"Avalyn Pharma와 경쟁사를 비교했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"기업 비교를 통해 투자자들이 더 나은 투자 결정을 내릴 수 있어요!\",\n       \"기업의 실적을 비교하면 어떤 산업이 더 성장할 가능성이 있는지 알 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Equitable ( NYSE :…",
-   "one_liner": "Equitable ( NYSE : EQH ) versus Acmat ( OTCMKTS…",
-   "why_now": null,
+   "title": "기업 비교",
+   "one_liner": "몇몇 기업을 비교했어요",
+   "why_now": "기업을 비교하면 어떤 기업이 더 좋은지 알 수 있어요",
    "details": [
-    "Equitable ( NYSE : EQH ) versus Acmat ( OTCMKTS : ACMTA ) Head to Head Analysis",
-    "Doximity ( NYSE : DOCS ) versus OptimizeRx ( NASDAQ : OPRX ) Head - To - Head Contrast",
-    "Head to Head Comparison : Equitable ( NYSE : EQH ) versus Acmat ( OTCMKTS : ACMTA )"
+    "Equitable과 Acmat을 비교했어요",
+    "Doximity와 OptimizeRx를 비교했어요",
+    "Nautilus Biotechnology와 Bio-Techne를 비교했어요",
+    "Avalyn Pharma와 경쟁사를 비교했어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "기업 비교를 통해 투자자들이 더 나은 투자 결정을 내릴 수 있어요!",
+    "기업의 실적을 비교하면 어떤 산업이 더 성장할 가능성이 있는지 알 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "936fcd86d083bec7b5b1ba2aadd9d0a3f1c5771b"
  },
