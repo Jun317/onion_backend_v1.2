@@ -873,8 +873,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-04T20:05:17.923483+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-04T23:30:44.285766+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -887,25 +887,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"이란, 트럼프의 전쟁 회피 희망\",\n  \"one_liner\": \"이란은 트럼프 대통령이 전쟁을 피하려 한다고 믿고 있어요.\",\n  \"why_now\": \"이란과 미국 간 긴장이 고조되면서 전쟁 가능성이 제기되고 있어요.\",\n  \"impact_line\": \"걸프 지역의 해상 운송이 불안정해질 수 있어요.\",\n  \"details\": [\n    \"이란은 트럼프 대통령이 전쟁을 피하려 한다고 보고 있어요.\",\n    \"걸프 지역의 긴장이 고조되고 있어요.\",\n    \"미국과 이란 간의 대화 가능성이 불확실해지고 있어요.\",\n    \"트럼프 대통령은 전쟁을 끝내기 위한 합의가 이루어지면 이란에 대한 공격을 중단하겠다고 말했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"걸프 지역의 해상 운송이 불안정해질 수 있어요!\",\n    \"국제 유가가 상승할 가능성이 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"걸프\",\n      \"easy\": \"페르시아만 지역을 말해요. 중동의 중요한 해상 교통로예요.\",\n      \"example\": \"걸프 지역의 정세 불안은 국제 유가에 영향을 줄 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Iran believes Donald…",
-   "one_liner": "Iran believes Donald Trump seeks to avoid war as…",
-   "why_now": null,
+   "title": "이란, 트럼프의 전쟁 회피 희망",
+   "one_liner": "이란은 트럼프 대통령이 전쟁을 피하려 한다고 믿고 있어요.",
+   "why_now": "이란과 미국 간 긴장이 고조되면서 전쟁 가능성이 제기되고 있어요.",
    "details": [
-    "Iran believes Donald Trump seeks to avoid war as tensions rise in Gulf",
-    "US - Iran talks in doubt as Hormuz shipping tensions rise again",
-    "Iran war : Trump says he will order strikes halt with a deal"
+    "이란은 트럼프 대통령이 전쟁을 피하려 한다고 보고 있어요.",
+    "걸프 지역의 긴장이 고조되고 있어요.",
+    "미국과 이란 간의 대화 가능성이 불확실해지고 있어요.",
+    "트럼프 대통령은 전쟁을 끝내기 위한 합의가 이루어지면 이란에 대한 공격을 중단하겠다고 말했어요."
    ],
-   "effects": [],
+   "effects": [
+    "걸프 지역의 해상 운송이 불안정해질 수 있어요!",
+    "국제 유가가 상승할 가능성이 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "3769b391633800fdba2ea2088c44d953c17d5eb5"

@@ -1,6 +1,63 @@
 {
- "generated_at": "2026-08-04T21:49:03.795858+00:00",
+ "generated_at": "2026-08-04T23:31:39.189640+00:00",
  "queue": [
+  {
+   "issue_id": "c8045461eaa3211ab",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-08-04T23:31:30.655455+00:00"
+  },
+  {
+   "issue_id": "c9708d02c75301d23",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "details 3문장 미만"
+      ]
+     },
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-08-04T23:31:12.126895+00:00"
+  },
+  {
+   "issue_id": "c37ad01cf8a091a74",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "입력에 없는 숫자: [6.4]"
+      ]
+     },
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "입력에 없는 숫자: [-3.7, 3.5, 6.4]"
+      ]
+     }
+    ]
+   },
+   "at": "2026-08-04T23:30:32.368626+00:00"
+  },
   {
    "issue_id": "c2857db2cd5042c63",
    "reason": {
@@ -756,27 +813,6 @@
    "at": "2026-08-04T20:06:11.425128+00:00"
   },
   {
-   "issue_id": "c8045461eaa3211ab",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "입력에 없는 숫자: [1.5]"
-      ]
-     },
-     {
-      "model": "",
-      "errors": [
-       "전 프로바이더 응답 실패"
-      ]
-     }
-    ]
-   },
-   "at": "2026-08-04T20:05:38.739392+00:00"
-  },
-  {
    "issue_id": "c0a3e3cac80938796",
    "reason": {
     "summary": "LLM 검증 실패 → 템플릿 폴백",
@@ -811,27 +847,6 @@
     ]
    },
    "at": "2026-08-04T20:04:59.381312+00:00"
-  },
-  {
-   "issue_id": "c37ad01cf8a091a74",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "llama-3.3-70b-versatile",
-      "errors": [
-       "입력에 없는 숫자: [-3.7, 3.5, 6.4]"
-      ]
-     },
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "입력에 없는 숫자: [3.5, 3.7, 6.4]"
-      ]
-     }
-    ]
-   },
-   "at": "2026-08-04T20:04:54.483350+00:00"
   },
   {
    "issue_id": "c6103da62f039fb9e",

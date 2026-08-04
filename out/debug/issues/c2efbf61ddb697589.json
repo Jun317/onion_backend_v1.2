@@ -104,50 +104,58 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-04T20:04:59.381437+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-04T23:30:27.096564+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
+    "Federal Reserve Board announces approval of the application by FS Bancorp, Inc.",
+    "Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.",
     "Divided federal appeals court says Trump administration was wrong to terminate climate funds – Brandon Sun",
     "Democratic attorneys general , governors sue feds over tariffs"
    ],
-   "official_lines": []
+   "official_lines": [
+    "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
+    "Federal Reserve Board announces approval of the application by FS Bancorp, Inc."
+   ]
   },
-  "raw_response": "{\n    \"title\": \"미국 관세 소송\",\n    \"one_liner\": \"미국 민주당 주지사들이 연방 정부의 관세 부과에 소송을 제기했어요.\",\n    \"why_now\": \"관세는 물건 가격을 올려 소비자의 부담을 늘릴 수 있기 때문이에요.\",\n    \"impact_line\": \"수입 물건 가격이 오를 수 있어요.\",\n    \"details\": [\n        \"민주당 소속 주지사들이 연방 정부를 상대로 소송을 냈어요.\",\n        \"소송 이유는 연방 정부의 관세 부과 때문이에요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"소송 결과에 따라 관세가 유지되거나 철회될 수 있어요!\",\n        \"관세가 유지되면 수입품 가격이 오르고, 소비자의 부담이 늘어날 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"관세\",\n            \"easy\": \"나라 밖에서 들어오는 물건에 붙는 세금이에요.\",\n            \"example\": \"관세가 붙으면 수입 과자 가격이 비싸져요.\"\n        }\n    ]\n}",
+  "raw_response": "{\n  \"title\": \"미국 금리\",\n   \"one_liner\": \"미국 연방준비제도이사회가 은행 인수를 승인했어요\",\n   \"why_now\": \"은행 인수는 금융 시스템에 영향을 줄 수 있어요\",\n   \"impact_line\": \"은행 서비스가 달라질 수 있어요\",\n   \"details\": [\n       \"미국 연방준비제도이사회가 Coastal Bend Bancshares, Inc.의 인수 신청을 승인했어요\",\n       \"미국 연방준비제도이사회가 FS Bancorp, Inc.의 인수 신청을 승인했어요\",\n       \"미국 연방준비제도이사회가 Banco Santander, S.A.와 Santander Holdings USA, Inc.의 인수 신청을 승인했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"은행 인수로 인해 금융 서비스가 다양해질 수 있어요!\",\n       \"은행 인수로 인해 금융 시스템이 안정될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Divided federal…",
-   "one_liner": "Divided federal appeals court says Trump…",
-   "why_now": null,
+   "title": "미국 금리",
+   "one_liner": "미국 연방준비제도이사회가 은행 인수를 승인했어요",
+   "why_now": "은행 인수는 금융 시스템에 영향을 줄 수 있어요",
    "details": [
-    "Divided federal appeals court says Trump administration was wrong to terminate climate funds – Brandon Sun",
-    "Democratic attorneys general , governors sue feds over tariffs"
+    "미국 연방준비제도이사회가 Coastal Bend Bancshares, Inc.의 인수 신청을요.",
+    "미국 연방준비제도이사회가 FS Bancorp, Inc.의 인수 신청을 승인했어요",
+    "미국 연방준비제도이사회가 Banco Santander, S.A.와 Santander요."
    ],
-   "effects": [],
+   "effects": [
+    "은행 인수로 인해 금융 서비스가 다양해질 수 있어요!",
+    "은행 인수로 인해 금융 시스템이 안정될 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "39328583a7d2f916af0becf41053e12ae966a623"
+  "fact_hash": "1b4ae4693284efae24cca27d9d2e41ee50e62264"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
   "at": "2026-08-04T20:04:59.381312+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "cea83213c8906724e",

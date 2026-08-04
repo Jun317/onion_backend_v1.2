@@ -187,8 +187,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-04T20:06:11.425198+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-04T23:31:34.598686+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -201,32 +201,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 25개주, 트럼프의 수입 금지 조치에 소송\",\n  \"one_liner\": \"미국 25개 주가 강제 노동으로 생산된 상품 수입을 막는 트럼프 행정부의 조치에 소송을 제기했어요.\",\n  \"why_now\": \"이 소송은 무역 정책과 인권 문제가 얽혀 있어 미국 경제와 국제 관계에 영향을 줄 수 있어요.\",\n  \"impact_line\": \"수입 물가에 영향을 줄 수 있어 장바구니 물가 변동 가능성이 있어요.\",\n  \"details\": [\n    \"미국 25개 민주당 주들이 소송에 참여했어요.\",\n    \"소송 대상은 60개국에서 생산된 상품이에요.\",\n    \"이 상품들은 강제 노동으로 만들어졌다는 의혹이 있어요.\",\n    \"트럼프 행정부가 이러한 상품의 수입을 금지하는 조치를 내렸어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"수입 금지 조치가 확대되면 관련 상품의 가격이 오를 수 있어요!\",\n    \"미국 내 기업들의 생산 비용이 늘어나거나 공급망에 차질이 생길 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"강제 노동\",\n      \"easy\": \"사람을 자유 의사에 반해 일하게 시키는 것을 말해요.\",\n      \"example\": \"억지로 일하게 하는 것은 법으로 금지되어 있어요.\"\n    },\n    {\n      \"term\": \"수입 금지 조치\",\n      \"easy\": \"특정 국가나 특정 물건의 국내 반입을 막는 정책이에요.\",\n      \"example\": \"안전 문제로 특정 농산물의 수입을 금지하기도 해요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"미국, 강제 노동 관련 관세 소송\",\n  \"one_liner\": \"미국 민주당 소속 25개 주가 트럼프 행정부의 강제 노동 관련 관세에 소송을 제기했어요.\",\n  \"why_now\": \"이 소송은 무역 정책과 인권 문제가 얽혀 있어 국제 사회의 주목을 받고 있어요.\",\n  \"impact_line\": \"수입 물가에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"미국 민주당 소속 25개 주가 소송을 제기했어요.\",\n    \"소송 대상은 트럼프 행정부가 60개국에 부과한 강제 노동 관련 관세예요.\",\n    \"인도 등 여러 나라가 이 관세 부과 대상에 포함되었어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"이 관세가 유지되면 해당 국가에서 수입되는 물건의 가격이 오를 수 있어요!\",\n    \"국제 무역 관계에 변화가 생길 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라에서 물건을 수입할 때 붙는 세금이에요.\",\n      \"example\": \"관세가 오르면 수입 과자 가격이 비싸질 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "title 22자 초과(26)",
-     "one_liner 50자 초과(55)"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "US : 25 Democratic…",
-   "one_liner": "US : 25 Democratic states move court against…",
-   "why_now": null,
+   "title": "미국, 강제 노동 관련 관세 소송",
+   "one_liner": "미국 민주당 소속 25개 주가 트럼프 행정부의 강제 노동 관련 관세에 소송을 제기했어요.",
+   "why_now": "이 소송은 무역 정책과 인권 문제가 얽혀 있어 국제 사회의 주목을 받고 있어요.",
    "details": [
-    "US : 25 Democratic states move court against Trump forced - labour tariffs",
-    "US : 25 Democratic States Move Court Against Trump Forced - Labour Tariffs On 60 Countries , Including India",
-    "US : 25 Democratic States sue Trump against forced - labour tariffs on 60 countries"
+    "미국 민주당 소속 25개 주가 소송을 제기했어요.",
+    "소송 대상은 트럼프 행정부가 60개국에 부과한 강제 노동 관련 관세예요.",
+    "인도 등 여러 나라가 이 관세 부과 대상에 포함되었어요."
    ],
-   "effects": [],
+   "effects": [
+    "이 관세가 유지되면 해당 국가에서 수입되는 물건의 가격이 오를 수 있어요!",
+    "국제 무역 관계에 변화가 생길 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "18cfaad4bdfd2dd5bcbd391b1d7283f2d71430dd"
@@ -235,7 +229,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(26)\", \"one_liner 50자 초과(55)\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-04T20:06:11.425128+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "c2efbf61ddb697589",
