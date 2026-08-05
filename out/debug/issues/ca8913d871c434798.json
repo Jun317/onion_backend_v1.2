@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-05T03:45:12.439008+00:00",
+  "model": "template",
+  "created_at": "2026-08-05T20:46:17.522966+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -876,38 +876,37 @@
     "US stocks flirt with record as profits keep piling up , oil prices ease",
     "US stocks leap toward a record as profits keep piling up and oil prices ease",
     "US stocks hit records as profits keep piling up",
-    "U . S . stock market rallies to records as oil prices ease",
-    "U . S . stocks leap toward record as profits keep piling up , oil prices ease"
+    "Wall Street rallies to records as profits pile up and oil prices ease",
+    "U . S . stock market rallies to records as oil prices ease"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 주식 시장 상승\",\n   \"one_liner\": \"미국 기업의 수익이 많아지며 주가가 오르고 있어요\",\n   \"why_now\": \"수익이 많아지면 투자자들이 주식을 더 사고 싶어 해서 주가가 오르는 게 보통이에요\",\n   \"impact_line\": \"주식 투자자들의 수익이 늘 수 있어요\",\n   \"details\": [\n       \"미국 기업의 수익이 많아지고 있어요\",\n       \"원유 가격이 내리고 있어요\",\n       \"미국 주식 시장에서 새로운 최고치가 형성되고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"기업의 수익이 많아지면 일자리도 늘어나고 소비도 늘어나서 경제가 더 활성화될 수 있어요!\",\n       \"주식 투자자들의 기대가 높아져서 더 많은 투자가 이루어질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국 주식 시장 상승",
-   "one_liner": "미국 기업의 수익이 많아지며 주가가 오르고 있어요",
-   "why_now": "수익이 많아지면 투자자들이 주식을 더 사고 싶어 해서 주가가 오르는 게 보통이에요",
+   "title": "US stocks flirt with…",
+   "one_liner": "US stocks flirt with record as profits keep…",
+   "why_now": null,
    "details": [
-    "미국 기업의 수익이 많아지고 있어요",
-    "원유 가격이 내리고 있어요",
-    "미국 주식 시장에서 새로운 최고치가 형성되고 있어요"
+    "US stocks flirt with record as profits keep piling up , oil prices ease",
+    "US stocks leap toward a record as profits keep piling up and oil prices ease",
+    "US stocks hit records as profits keep piling up"
    ],
-   "effects": [
-    "기업의 수익이 많아지면 일자리도 늘어나고 소비도 늘어나서 경제가 더 활성화될 수 있어요!",
-    "주식 투자자들의 기대가 높아져서 더 많은 투자가 이루어질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "718b63b84de74e26d498baebdc7372d407d04ec7"
+  "fact_hash": "f360da5748ae3f9922b15c8bb943b9708d7a241b"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-04T21:48:42.580247+00:00"
+  "at": "2026-08-05T20:46:17.522866+00:00"
  },
  "glossary": [],
  "related": [
