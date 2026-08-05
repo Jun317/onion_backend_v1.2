@@ -119,44 +119,47 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-04T12:24:39.813734+00:00",
+  "model": "template",
+  "created_at": "2026-08-05T12:25:19.370890+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
-    "Akhilesh Yadav : BJP poor performance in by - polls marks beginning of change",
     "Congress targets PM Modi over jobs crisis , says  reels wont create employment  for India youth",
-    "Everybody sees failure except Tinubu Ojo backs Onaiyekan",
-    "Congress alleges Modi government flawed policies caused deep job crisis , citing 27 % hiring drop"
+    "Akhilesh Yadav : BJP poor performance in by - polls marks beginning of change",
+    "Congress alleges Modi government flawed policies caused deep job crisis , citing 27 % hiring drop",
+    "World Insights : U . S . economic anxiety could reshape Congress in midterm elections",
+    "Congressman John James confident as Michiganders decide Republican nominee for governor"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"인도에서 일자리 위기\",\n   \"one_liner\": \"인도 정부가 일자리 위기에 대해 비판을 받고 있어요.\",\n   \"why_now\": \"일자리가 없으면 젊은이들이 취업하기 어려워져서 나라 전체에 영향을 미치게 돼요.\",\n   \"impact_line\": \"인도 젊은이들의 취업이 어려워질 수 있어요\",\n   \"details\": [\n      \"인도에서 일자리 위기가 심각하다고 비판이 나와요.\",\n      \"인도 정부의 정책이 일자리 위기를 만들어냈다고 하나요.\",\n      \"인도에서 일자리 창출이 부족하다고 말이에요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"인도 젊은이들이 일자리를 찾기 어려워져서 경제 활동에 참여하기 어려울 수 있어요!\",\n      \"일자리 위기가 심화하면 인도 경제에 부정적인 영향을 미칠 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "인도에서 일자리 위기",
-   "one_liner": "인도 정부가 일자리 위기에 대해 비판을 받고 있어요.",
-   "why_now": "일자리가 없으면 젊은이들이 취업하기 어려워져서 나라 전체에 영향을 미치게 돼요.",
+   "title": "Congress targets PM…",
+   "one_liner": "Congress targets PM Modi over jobs crisis , says…",
+   "why_now": null,
    "details": [
-    "인도에서 일자리 위기가 심각하다고 비판이 나와요.",
-    "인도 정부의 정책이 일자리 위기를 만들어냈다고 하나요.",
-    "인도에서 일자리 창출이 부족하다고 말이에요."
+    "Congress targets PM Modi over jobs crisis , says  reels wont create employment  for India youth",
+    "Akhilesh Yadav : BJP poor performance in by - polls marks beginning of change",
+    "Congress alleges Modi government flawed policies caused deep job crisis , citing 27 % hiring drop"
    ],
-   "effects": [
-    "인도 젊은이들이 일자리를 찾기 어려워져서 경제 활동에 참여하기 어려울 수 있어요!",
-    "일자리 위기가 심화하면 인도 경제에 부정적인 영향을 미칠 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "bc2fd0b7f993c6b5b0e8e12c844a50013d8cbd75"
+  "fact_hash": "db07ca657503ad6f6e8a16a68fe7de206dd8b524"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-05T12:25:19.370828+00:00"
+ },
  "glossary": [],
  "related": [
   {

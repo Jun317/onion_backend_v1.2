@@ -70,8 +70,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-04T20:16:27.049419+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-05T12:21:38.553034+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -82,26 +82,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기아차 소식\",\n   \"one_liner\": \"기아차가 멕시코에서 전기차 생산에 649백만 달러를 투자해요\",\n   \"why_now\": \"기아차가 전기차 생산을 늘리면 환경에 좋은 자동차가 더 많아질 수 있어요\",\n   \"impact_line\": \"기아차의 전기차가 더 많이 나와서 사람들이 살기 쉬워질 수 있어요\",\n   \"details\": [\n       \"기아차가 멕시코에서 전기차를 만들기 시작해요\",\n       \"기아차는 멕시코에 649백만 달러를 투자할 계획이에요\",\n       \"기아차의 전기차 생산이 늘어나면 기아차의 매출이 증가할 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"기아차의 전기차 생산이 늘어나면 환경이 더 깨끗해질 수 있어요!\",\n       \"기아차의 전기차가 더 많이 나와서 사람들이 전기차를 사기 더 쉬워질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Kia takes a Reddit…",
-   "one_liner": "Kia takes a Reddit staple for a spin during WNBA…",
-   "why_now": null,
+   "title": "기아차 소식",
+   "one_liner": "기아차가 멕시코에서 전기차 생산에 649백만 달러를 투자해요",
+   "why_now": "기아차가 전기차 생산을 늘리면 환경에 좋은 자동차가 더 많아질 수 있어요",
    "details": [
-    "Kia takes a Reddit staple for a spin during WNBA All - Star Weekend",
-    "Kia to invest US$649mil to start EV production in Mexico",
-    "Dont wait for Honda the Kia Telluride Hybrid is here with 329 horsepower and 33 MPG"
+    "기아차가 멕시코에서 전기차를 만들기 시작해요",
+    "기아차는 멕시코에 649백만 달러를 투자할 계획이에요",
+    "기아차의 전기차 생산이 늘어나면 기아차의 매출이 증가할 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "기아차의 전기차 생산이 늘어나면 환경이 더 깨끗해질 수 있어요!",
+    "기아차의 전기차가 더 많이 나와서 사람들이 전기차를 사기 더 쉬워질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "0753e0f078afac0f1d22e2a63fa909d1b2c8e73b"
  },

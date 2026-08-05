@@ -138,58 +138,51 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-04T23:30:27.096564+00:00",
+  "model": "template",
+  "created_at": "2026-08-05T12:24:42.317795+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
-    "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
-    "Federal Reserve Board announces approval of the application by FS Bancorp, Inc.",
-    "Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.",
+    "Democratic attorneys general , governors sue feds over tariffs",
     "Divided federal appeals court says Trump administration was wrong to terminate climate funds – Brandon Sun",
-    "Democratic attorneys general , governors sue feds over tariffs"
+    "States sue federal govt over new tariffs , seek refunds",
+    "Alaska lost federal jobs at one of the highest rates among states in 2025 , report finds",
+    "Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc."
    ],
    "official_lines": [
     "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
     "Federal Reserve Board announces approval of the application by FS Bancorp, Inc."
    ]
   },
-  "raw_response": "{\n  \"title\": \"미국 금리\",\n   \"one_liner\": \"미국 연방준비제도이사회가 은행 인수를 승인했어요\",\n   \"why_now\": \"은행 인수는 금융 시스템에 영향을 줄 수 있어요\",\n   \"impact_line\": \"은행 서비스가 달라질 수 있어요\",\n   \"details\": [\n       \"미국 연방준비제도이사회가 Coastal Bend Bancshares, Inc.의 인수 신청을 승인했어요\",\n       \"미국 연방준비제도이사회가 FS Bancorp, Inc.의 인수 신청을 승인했어요\",\n       \"미국 연방준비제도이사회가 Banco Santander, S.A.와 Santander Holdings USA, Inc.의 인수 신청을 승인했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"은행 인수로 인해 금융 서비스가 다양해질 수 있어요!\",\n       \"은행 인수로 인해 금융 시스템이 안정될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국 금리",
-   "one_liner": "미국 연방준비제도이사회가 은행 인수를 승인했어요",
-   "why_now": "은행 인수는 금융 시스템에 영향을 줄 수 있어요",
+   "title": "Democratic attorneys…",
+   "one_liner": "Democratic attorneys general , governors sue…",
+   "why_now": null,
    "details": [
-    "미국 연방준비제도이사회가 Coastal Bend Bancshares, Inc.의 인수 신청을요.",
-    "미국 연방준비제도이사회가 FS Bancorp, Inc.의 인수 신청을 승인했어요",
-    "미국 연방준비제도이사회가 Banco Santander, S.A.와 Santander요."
+    "Democratic attorneys general , governors sue feds over tariffs",
+    "Divided federal appeals court says Trump administration was wrong to terminate climate funds – Brandon Sun",
+    "States sue federal govt over new tariffs , seek refunds"
    ],
-   "effects": [
-    "은행 인수로 인해 금융 서비스가 다양해질 수 있어요!",
-    "은행 인수로 인해 금융 시스템이 안정될 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "1b4ae4693284efae24cca27d9d2e41ee50e62264"
+  "fact_hash": "1b82058fc2616b5efe8f570c6211f82ad311351d"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-08-04T20:04:59.381312+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-05T12:24:42.317735+00:00"
  },
- "glossary": [
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "cea83213c8906724e",

@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 36,
- "importance": 50,
+ "importance": 45,
  "created_at": "2026-07-30T22:32:46.860298+00:00",
  "last_update": "2026-08-01T11:39:08.346056+00:00",
  "members": [
@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-04T21:45:53.970629+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-05T12:21:57.054975+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,33 +881,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"기업 실적 발표\",\n  \"one_liner\": \"몇몇 기업들이 예상보다 좋은 실적을 발표했어요.\",\n  \"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"주가 변동에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"AUO는 예상보다 0.05달러 높은 주당순이익을 기록했어요.\",\n    \"모노리딕 파워 시스템즈는 2분기 실적이 좋았고 주가가 10.5% 올랐어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"실적이 좋은 기업은 주가가 오를 수 있어요!\",\n    \"실적이 좋지 않은 기업은 주가가 내릴 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주당순이익\",\n      \"easy\": \"회사가 벌어들인 돈을 발행한 주식 수로 나눈 값이에요.\",\n      \"example\": \"주당순이익이 높으면 회사가 돈을 잘 번다는 뜻이에요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"몇 개 기업 실적 발표\",\n   \"one_liner\": \"몇 개 기업이 기대 이상의 실적을 냈어요\",\n   \"why_now\": \"기업이 예상보다 좋은 실적을 내면 주가가 오를 수 있어요\",\n   \"impact_line\": \"주식 투자자에게 영향을 줄 수 있어요\",\n   \"details\": [\n      \"몇 개 기업이 실적 발표했어요\",\n      \"몇몇 기업은 기대 이상의 실적을 냈어요\",\n      \"몇몇 기업은 조사 대상이 되었어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"기업 실적이 좋으면 주가가 오를 수 있어요!\",\n      \"기업이 조사 대상이 되면 주가에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "입력에 없는 숫자: [0.05, 10.5]"
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [10.5]"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "입력에 없는 숫자: [0.05, 10.5]"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "AUO ( OTCMKTS :…",
-   "one_liner": "AUO ( OTCMKTS : AUOTY ) Issues Earnings Results…",
-   "why_now": null,
+   "title": "몇 개 기업 실적 발표",
+   "one_liner": "몇 개 기업이 기대 이상의 실적을 냈어요",
+   "why_now": "기업이 예상보다 좋은 실적을 내면 주가가 오를 수 있어요",
    "details": [
-    "AUO ( OTCMKTS : AUOTY ) Issues Earnings Results , Beats Expectations By $0 . 05 EPS",
-    "Altria Group Investigation Notice : Levi & Korsinsky Notifies Investors of Pending Investigation Into Altria Group ( MO )",
-    "Pharming Group Investigation Notice : Levi & Korsinsky Notifies Investors of Pending Investigation Into Pharming Group ( PHAR )"
+    "몇 개 기업이 실적 발표했어요",
+    "몇몇 기업은 기대 이상의 실적을 냈어요",
+    "몇몇 기업은 조사 대상이 되었어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "기업 실적이 좋으면 주가가 오를 수 있어요!",
+    "기업이 조사 대상이 되면 주가에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "fa0d6294f53a5d9a116219ae67f421ea2461cfde"
  },

@@ -7,11 +7,51 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 22,
+ "seen_sources": 25,
  "importance": 105,
  "created_at": "2026-08-04T10:05:33.922468+00:00",
- "last_update": "2026-08-05T10:03:35.530781+00:00",
+ "last_update": "2026-08-05T12:21:37.306504+00:00",
  "members": [
+  {
+   "id": "00ff94ad3e873cfe5bd59edf5f47f8e8e1cbdd49",
+   "source": "dailymaverick.co.za",
+   "tier": "wire",
+   "url": "https://www.dailymaverick.co.za/article/2026-08-05-sa-unlikely-to-reverse-trumps-new-125-tariff/",
+   "title": "SA unlikely to reverse Trump new 12 . 5 % tariff",
+   "published_at": "2026-08-05T11:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8781
+  },
+  {
+   "id": "498437335d2f0f0217d393067df4a76eaab33d52",
+   "source": "averyjournal.com",
+   "tier": "wire",
+   "url": "http://www.averyjournal.com/ap/national/ap-news-in-brief-at-12-04-a-m-edt/article_24870811-48e6-5ba1-bf03-f4915829385e.html",
+   "title": "AP News in Brief at 12 : 04 a . m . EDT",
+   "published_at": "2026-08-05T11:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8952
+  },
+  {
+   "id": "f45550e20c400637461dfd716eee5606bc955ae0",
+   "source": "riotimesonline.com",
+   "tier": "wire",
+   "url": "https://www.riotimesonline.com/grupo-cibest-avista-acquisition-2026/",
+   "title": "Grupo Cibest Closes Avista Acquisition",
+   "published_at": "2026-08-05T11:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.855
+  },
+  {
+   "id": "b98d6aab635cae15514eadc4352007da862896dd",
+   "source": "riotimesonline.com",
+   "tier": "wire",
+   "url": "https://www.riotimesonline.com/biya-cameroon-military-reshuffle-2026/",
+   "title": "Paul Biya Military Reshuffle Amid 58 - Day Absence",
+   "published_at": "2026-08-05T11:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8677
+  },
   {
    "id": "dce82d70debe08dfbcb2e66abe96530ca83b6e0e",
    "source": "kezj.com",
@@ -267,6 +307,34 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "SA unlikely to reverse Trump new 12 . 5 % tariff",
+   "source": "dailymaverick.co.za",
+   "url": "https://www.dailymaverick.co.za/article/2026-08-05-sa-unlikely-to-reverse-trumps-new-125-tariff/",
+   "at": "2026-08-05T11:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "AP News in Brief at 12 : 04 a . m . EDT",
+   "source": "averyjournal.com",
+   "url": "http://www.averyjournal.com/ap/national/ap-news-in-brief-at-12-04-a-m-edt/article_24870811-48e6-5ba1-bf03-f4915829385e.html",
+   "at": "2026-08-05T11:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Grupo Cibest Closes Avista Acquisition",
+   "source": "riotimesonline.com",
+   "url": "https://www.riotimesonline.com/grupo-cibest-avista-acquisition-2026/",
+   "at": "2026-08-05T11:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Paul Biya Military Reshuffle Amid 58 - Day Absence",
+   "source": "riotimesonline.com",
+   "url": "https://www.riotimesonline.com/biya-cameroon-military-reshuffle-2026/",
+   "at": "2026-08-05T11:30:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Victims in Twin Falls Shooting Were From Utah , California , Idaho",
    "source": "kezj.com",
    "url": "https://kezj.com/ixp/96/p/twin-falls-innout-shooting-victims-identified/",
@@ -442,55 +510,48 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-04T23:31:34.598686+00:00",
+  "model": "template",
+  "created_at": "2026-08-05T12:25:00.721149+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
     "US : 25 Democratic states move court against Trump forced - labour tariffs",
-    "US : 25 Democratic States Move Court Against Trump Forced - Labour Tariffs On 60 Countries , Including India",
     "US : 25 Democratic States sue Trump against forced - labour tariffs on 60 countries",
-    "Five states hold polls on Tuesday . Here what to know .",
-    "Trump takes economy , crime and border message to California , where Newsom rivalry awaits"
+    "US : 25 Democratic States Move Court Against Trump Forced - Labour Tariffs On 60 Countries , Including India",
+    "Trump is making a rare Western trip to to raise cash for Republicans and talk about the economy",
+    "Victims in Twin Falls Shooting Were From Utah , California , Idaho"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국, 강제 노동 관련 관세 소송\",\n  \"one_liner\": \"미국 민주당 소속 25개 주가 트럼프 행정부의 강제 노동 관련 관세에 소송을 제기했어요.\",\n  \"why_now\": \"이 소송은 무역 정책과 인권 문제가 얽혀 있어 국제 사회의 주목을 받고 있어요.\",\n  \"impact_line\": \"수입 물가에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"미국 민주당 소속 25개 주가 소송을 제기했어요.\",\n    \"소송 대상은 트럼프 행정부가 60개국에 부과한 강제 노동 관련 관세예요.\",\n    \"인도 등 여러 나라가 이 관세 부과 대상에 포함되었어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"이 관세가 유지되면 해당 국가에서 수입되는 물건의 가격이 오를 수 있어요!\",\n    \"국제 무역 관계에 변화가 생길 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라에서 물건을 수입할 때 붙는 세금이에요.\",\n      \"example\": \"관세가 오르면 수입 과자 가격이 비싸질 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국, 강제 노동 관련 관세 소송",
-   "one_liner": "미국 민주당 소속 25개 주가 트럼프 행정부의 강제 노동 관련 관세에 소송을 제기했어요.",
-   "why_now": "이 소송은 무역 정책과 인권 문제가 얽혀 있어 국제 사회의 주목을 받고 있어요.",
+   "title": "US : 25 Democratic…",
+   "one_liner": "US : 25 Democratic states move court against…",
+   "why_now": null,
    "details": [
-    "미국 민주당 소속 25개 주가 소송을 제기했어요.",
-    "소송 대상은 트럼프 행정부가 60개국에 부과한 강제 노동 관련 관세예요.",
-    "인도 등 여러 나라가 이 관세 부과 대상에 포함되었어요."
+    "US : 25 Democratic states move court against Trump forced - labour tariffs",
+    "US : 25 Democratic States sue Trump against forced - labour tariffs on 60 countries",
+    "US : 25 Democratic States Move Court Against Trump Forced - Labour Tariffs On 60 Countries , Including India"
    ],
-   "effects": [
-    "이 관세가 유지되면 해당 국가에서 수입되는 물건의 가격이 오를 수 있어요!",
-    "국제 무역 관계에 변화가 생길 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "18cfaad4bdfd2dd5bcbd391b1d7283f2d71430dd"
+  "fact_hash": "37559a1dd4a33ecc8be16158571ac367f5f98ad3"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(26)\", \"one_liner 50자 초과(55)\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-04T20:06:11.425128+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-05T12:25:00.721047+00:00"
  },
- "glossary": [
-  {
-   "term": "관세",
-   "easy": "수입 물건에 매기는 세금이에요.",
-   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "c2efbf61ddb697589",
