@@ -190,7 +190,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-05T06:49:19.601691+00:00",
+  "created_at": "2026-08-05T10:03:54.425586+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -203,7 +203,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"아마존 주식 매도\",\n   \"one_liner\": \"아마존의 베조스 회장이 아마존 주식을 판 매했어요\",\n   \"why_now\": \"대주주가 주식을 팔면 회사에 대한 신뢰가 떨어질 수 있어요\",\n   \"impact_line\": \"아마존의 주가에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"베조스가 아마존 주식을 판 매했어요\",\n       \"아마존의 주가에 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"아마존의 주가가 떨어질 수 있어요!\",\n       \"베조스의 아마존에 대한 의견이 변한 것일 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"아마존 창업자 주식 매도\",\n  \"one_liner\": \"아마존 창업자가 아마존 주식을 팔았어요.\",\n  \"why_now\": \"회사를 세운 사람이 주식을 팔면 투자자들의 관심이 쏠리는 경우가 많아요.\",\n  \"impact_line\": \"아마존 주가에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"아마존 창업자가 아마존 주식을 매도했어요.\",\n    \"이 소식은 여러 라디오 방송국을 통해 보도되었어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"아마존 주가가 하락할 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주식\",\n      \"easy\": \"회사의 소유권 일부를 나타내는 증서예요.\",\n      \"example\": \"주식을 사면 그 회사의 주인이 되는 거예요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
@@ -212,7 +212,7 @@
     ]
    },
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
      "details 3문장 미만"
     ]
@@ -233,8 +233,8 @@
   "fact_hash": "48aeb25482d59fab6d41a6f6b2f4fa7b0ea332c9"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-08-05T06:49:19.601570+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-05T10:03:54.425487+00:00"
  },
  "glossary": [],
  "related": [
@@ -245,6 +245,12 @@
    "shared": [
     "AMZN"
    ]
+  },
+  {
+   "id": "c473082d7f30acb2b",
+   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
+   "category": "MARKET",
+   "shared": []
   },
   {
    "id": "cd6e96f9df3790928",
@@ -265,12 +271,6 @@
    "shared": [
     "AMZN"
    ]
-  },
-  {
-   "id": "c473082d7f30acb2b",
-   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
-   "category": "MARKET",
-   "shared": []
   }
  ]
 }
