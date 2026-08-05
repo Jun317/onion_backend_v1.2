@@ -189,8 +189,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-05T19:11:35.570697+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-05T22:33:00.594223+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -206,25 +206,26 @@
     "Federal Reserve Board announces approval of the application by FS Bancorp, Inc."
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 정부 소송\",\n   \"one_liner\": \"미국 민주당 소속 법무장관과 주지사가 정부를 상대로 관세 소송을 냈어요\",\n   \"why_now\": \"새로운 관세가 기업과 소비자에게 부담을 줄 수 있어요\",\n   \"impact_line\": \"물가 상승이나 수출 감소가 나타날 수 있어요\",\n   \"details\": [\n       \"민주당 소속 법무장관과 주지사가 미국 정부를 상대로 관세 관련 소송을 냈어요\",\n       \"기후 변화 대책에 대한 자금 지원 중단이 문제가 됐어요\",\n       \"새로운 관세에 대한 환급을 요구하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"기업과 소비자에게 부담이 증가할 수 있어요!\",\n       \"수출이 어려워져 경제에 부정적인 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"관세\",\n           \"easy\": \"수입한 물건에 부과하는 세이에요\",\n           \"example\": \"수입품에 관세가 붙으면 그 물건의 가격이 올라가요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Democratic attorneys…",
-   "one_liner": "Democratic attorneys general , governors sue…",
-   "why_now": null,
+   "title": "미국 정부 소송",
+   "one_liner": "미국 민주당 소속 법무장관과 주지사가 정부를 상대로 관세 소송을 냈어요",
+   "why_now": "새로운 관세가 기업과 소비자에게 부담을 줄 수 있어요",
    "details": [
-    "Democratic attorneys general , governors sue feds over tariffs",
-    "Divided federal appeals court says Trump administration was wrong to terminate climate funds – Brandon Sun",
-    "States sue federal govt over new tariffs , seek refunds"
+    "민주당 소속 법무장관과 주지사가 미국 정부를 상대로 관세 관련 소송을 냈어요",
+    "기후 변화 대책에 대한 자금 지원 중단이 문제가 됐어요",
+    "새로운 관세에 대한 환급을 요구하고 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "기업과 소비자에게 부담이 증가할 수 있어요!",
+    "수출이 어려워져 경제에 부정적인 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "e726f51a5c50362c0edba9f496ca223dfd2cb855"
@@ -233,7 +234,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-05T19:11:35.570615+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cea83213c8906724e",
@@ -244,17 +251,17 @@
    ]
   },
   {
-   "id": "ccc137270dbb9d742",
-   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
-   "category": "MARKET",
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
    "shared": [
     "FED"
    ]
   },
   {
-   "id": "cb3030e4a5acd0008",
-   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
-   "category": "MACRO",
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "category": "MARKET",
    "shared": [
     "FED"
    ]

@@ -670,8 +670,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-05T19:11:54.068915+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-05T22:33:13.055827+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -684,25 +684,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"엔비디아 주가 전망\", \"one_liner\": \"엔비디아 주가가 크게 오를 것이라는 전망이 나왔어요.\", \"why_now\": \"AI 기술 발전으로 엔비디아의 인공지능 관련 사업이 주목받고 있어요.\", \"impact_line\": \"엔비디아 주가 변동은 관련 기술주 전반에 영향을 줄 수 있어요.\", \"details\": [\"엔비디아 주가가 크게 오를 것이라는 예측이 있어요.\", \"일부에서는 엔비디아보다 더 빠르게 성장하는 AI 관련 주식이 있다고 분석해요.\", \"최근 유명 투자자가 엔비디아 주식을 매수했다는 소식도 있어요.\", \"마이크론 등 다른 반도체 기업과 비교하며 투자처를 고민하는 의견도 있어요.\"], \"visual_type\": \"us_10y\", \"effects\": [\"AI 관련 기술주 전반의 투자 심리가 개선될 수 있어요!\", \"엔비디아의 실적 개선은 관련 산업의 성장을 이끌 것으로 예상돼요!\"], \"glossary\": [{\"term\": \"AI\", \"easy\": \"인공지능을 뜻하는 말이에요.\", \"example\": \"AI 스피커는 사람의 말을 알아듣고 작동해요.\"}, {\"term\": \"주가\", \"easy\": \"회사가 발행한 주식의 가격을 말해요.\", \"example\": \"주가가 오르면 회사의 가치가 높아졌다고 볼 수 있어요.\"}, {\"term\": \"투자자\", \"easy\": \"돈을 투자해 이익을 얻으려는 사람을 말해요.\", \"example\": \"투자를 잘하는 투자자는 시장 흐름을 잘 읽어요.\"}], \"impact_line\": \"엔비디아 주가 변동은 관련 기술주 전반에 영향을 줄 수 있어요.\"}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Overlooked AI stock…",
-   "one_liner": "Overlooked AI stock is growing faster than Nvidia",
-   "why_now": null,
+   "title": "엔비디아 주가 전망",
+   "one_liner": "엔비디아 주가가 크게 오를 것이라는 전망이 나왔어요.",
+   "why_now": "AI 기술 발전으로 엔비디아의 인공지능 관련 사업이 주목받고 있어요.",
    "details": [
-    "Overlooked AI stock is growing faster than Nvidia",
-    "Prediction : Nvidia Stock Will Skyrocket on Aug . 26",
-    "This Overlooked AI Trade Has Been Quietly Outperforming Nvidia Over the Last 6 Months"
+    "엔비디아 주가가 크게 오를 것이라는 예측이 있어요.",
+    "일부에서는 엔비디아보다 더 빠르게 성장하는 AI 관련 주식이 있다고 분석해요.",
+    "최근 유명 투자자가 엔비디아 주식을 매수했다는 소식도 있어요.",
+    "마이크론 등 다른 반도체 기업과 비교하며 투자처를 고민하는 의견도 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "AI 관련 기술주 전반의 투자 심리가 개선될 수 있어요!",
+    "엔비디아의 실적 개선은 관련 산업의 성장을 이끌 것으로 예상돼요!"
+   ],
    "visual_type": "us_10y"
   },
   "fact_hash": "b87b6c4345dae93e9bfe80261a7ce822c1370280"
@@ -722,6 +724,12 @@
    ]
   },
   {
+   "id": "c473082d7f30acb2b",
+   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
    "id": "ccc137270dbb9d742",
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "category": "MARKET",
@@ -730,12 +738,6 @@
     "GOOGL",
     "MSFT"
    ]
-  },
-  {
-   "id": "c473082d7f30acb2b",
-   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
-   "category": "MARKET",
-   "shared": []
   },
   {
    "id": "cd6e96f9df3790928",
