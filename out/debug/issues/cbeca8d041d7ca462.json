@@ -8,10 +8,30 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 2,
- "importance": 45,
+ "importance": 50,
  "created_at": "2026-08-04T10:05:33.920885+00:00",
- "last_update": "2026-08-04T10:05:33.925249+00:00",
+ "last_update": "2026-08-05T18:59:18.324307+00:00",
  "members": [
+  {
+   "id": "bc279afda71cf94bf5ccd9585452ac514ba44197",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/healthcare/articles/medline-q2-earnings-call-highlights-170445521.html",
+   "title": "Medline Q2 Earnings Call Highlights",
+   "published_at": "2026-08-05T18:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8958
+  },
+  {
+   "id": "b987fdc85c537afdecf711de177cd7d43bdd9da3",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/acacia-research-corporation-q2-2026-165100588.html",
+   "title": "Acacia Research Corporation Q2 2026 Earnings Call Summary",
+   "published_at": "2026-08-05T18:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8939
+  },
   {
    "id": "97a03ecedd6495691586dfb10fb8b67431a884a7",
    "source": "finance.yahoo.com",
@@ -20,7 +40,7 @@
    "title": "Zalando reports lower Q2 net income ; narrows full - year guidance",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9702
+   "sim_to_centroid": 0.9682
   },
   {
    "id": "2467bdda16956e9d09958e80c5c9aef303080053",
@@ -30,11 +50,25 @@
    "title": "Continental Q2 Net Income Declines",
    "published_at": "2026-08-04T07:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9702
+   "sim_to_centroid": 0.9654
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Medline Q2 Earnings Call Highlights",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/healthcare/articles/medline-q2-earnings-call-highlights-170445521.html",
+   "at": "2026-08-05T18:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Acacia Research Corporation Q2 2026 Earnings Call Summary",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/acacia-research-corporation-q2-2026-165100588.html",
+   "at": "2026-08-05T18:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Zalando reports lower Q2 net income ; narrows full - year guidance",
@@ -52,11 +86,13 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-05T14:58:25.888663+00:00",
+  "created_at": "2026-08-05T19:10:58.416874+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Medline Q2 Earnings Call Highlights",
+    "Acacia Research Corporation Q2 2026 Earnings Call Summary",
     "Zalando reports lower Q2 net income ; narrows full - year guidance",
     "Continental Q2 Net Income Declines"
    ],
@@ -72,24 +108,31 @@
    }
   ],
   "output": {
-   "title": "Zalando reports…",
-   "one_liner": "Zalando reports lower Q2 net income ; narrows…",
+   "title": "Medline Q2 Earnings…",
+   "one_liner": "Medline Q2 Earnings Call Highlights",
    "why_now": null,
    "details": [
-    "Zalando reports lower Q2 net income ; narrows full - year guidance",
-    "Continental Q2 Net Income Declines"
+    "Medline Q2 Earnings Call Highlights",
+    "Acacia Research Corporation Q2 2026 Earnings Call Summary",
+    "Zalando reports lower Q2 net income ; narrows full - year guidance"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "f2f35c7238af896ff58d7b6a75cd3d130f206d40"
+  "fact_hash": "fad4252121433e33182f1ee3c7977647db5bd5e7"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-05T14:58:25.888601+00:00"
+  "at": "2026-08-05T19:10:58.416796+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c13ff9296b0f3d9e3",
+   "title": "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
+   "category": "EARNINGS",
+   "shared": []
+  },
   {
    "id": "c2857db2cd5042c63",
    "title": "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week",
@@ -111,12 +154,6 @@
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c7a645d10bb827a8c",
-   "title": "Caterpillar Stock Rises 6 % After Strong Q2 Revenue And Profit Growth",
    "category": "EARNINGS",
    "shared": []
   }
