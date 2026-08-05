@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-05T14:58:30.634093+00:00",
+ "generated_at": "2026-08-05T16:59:57.415343+00:00",
  "issues": [
   {
    "id": "cea83213c8906724e",
@@ -124,7 +124,7 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 17,
+   "seen_sources": 19,
    "importance": 135,
    "entity_keys": [
     "CHINA",
@@ -132,11 +132,11 @@
     "SEC"
    ],
    "created_at": "2026-08-04T18:11:17.083326+00:00",
-   "last_update": "2026-08-05T12:21:37.305545+00:00",
-   "members": 37,
-   "llm_title": "Trump Officials Send…",
-   "one_liner": "Trump Officials Send Universities Second Policy…",
-   "llm_model": "template",
+   "last_update": "2026-08-05T16:56:48.238533+00:00",
+   "members": 41,
+   "llm_title": "제조업 기업 실적 발표",
+   "one_liner": "여러 제조업 기업이 2분기 실적을 발표했어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -153,9 +153,9 @@
    "created_at": "2026-08-04T20:04:50.675317+00:00",
    "last_update": "2026-08-05T06:48:44.682377+00:00",
    "members": 7,
-   "llm_title": "Democratic attorneys…",
-   "one_liner": "Democratic attorneys general , governors sue…",
-   "llm_model": "template",
+   "llm_title": "주 정부, 연방 정부 관세 소송",
+   "one_liner": "여러 주 정부가 연방 정부의 새로운 관세에 반발하며 소송을 제기했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -618,15 +618,15 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 25,
+   "seen_sources": 53,
    "importance": 105,
    "entity_keys": [],
    "created_at": "2026-08-04T10:05:33.922468+00:00",
-   "last_update": "2026-08-05T12:21:37.306504+00:00",
-   "members": 29,
-   "llm_title": "US : 25 Democratic…",
-   "one_liner": "US : 25 Democratic states move court against…",
-   "llm_model": "template",
+   "last_update": "2026-08-05T16:56:48.240341+00:00",
+   "members": 50,
+   "llm_title": "트럼프의 강제 노동 관세",
+   "one_liner": "미국 25개 민주당 주들이 트럼프의 강제 노동 관세에 대해 법원에 제소했어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1137,6 +1137,25 @@
    "in_review": true
   },
   {
+   "id": "c2857db2cd5042c63",
+   "title": "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 5,
+   "importance": 90,
+   "entity_keys": [
+    "AMD"
+   ],
+   "created_at": "2026-08-04T12:24:13.827880+00:00",
+   "last_update": "2026-08-05T16:56:48.225129+00:00",
+   "members": 5,
+   "llm_title": "Listen to the AMD Q2…",
+   "one_liner": "Listen to the AMD Q2 2026 earnings call here",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c942788cecb5c9e9d",
    "title": "Trump administration revokes visa of Brazil ambassador to US in spat with Lula",
    "category": "GEO",
@@ -1367,9 +1386,9 @@
    "created_at": "2026-08-04T10:05:33.923878+00:00",
    "last_update": "2026-08-05T06:48:44.687632+00:00",
    "members": 6,
-   "llm_title": "Congress targets PM…",
-   "one_liner": "Congress targets PM Modi over jobs crisis , says…",
-   "llm_model": "template",
+   "llm_title": "일자리 위기 논란",
+   "one_liner": "야당이 정부의 일자리 정책 실패를 비판하며 논란이 커지고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -1408,25 +1427,6 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
-  },
-  {
-   "id": "c2857db2cd5042c63",
-   "title": "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 85,
-   "entity_keys": [
-    "AMD"
-   ],
-   "created_at": "2026-08-04T12:24:13.827880+00:00",
-   "last_update": "2026-08-04T23:30:25.496288+00:00",
-   "members": 4,
-   "llm_title": "Listen to the AMD Q2…",
-   "one_liner": "Listen to the AMD Q2 2026 earnings call here",
-   "llm_model": "template",
-   "in_review": true
   },
   {
    "id": "c7a645d10bb827a8c",
@@ -1595,25 +1595,6 @@
    "in_review": false
   },
   {
-   "id": "c92185965ef65313f",
-   "title": "The Latest : Netanyahu will meet with Trump for first time since the Iran war began",
-   "category": "GEO",
-   "status": "archived",
-   "origin": "cluster",
-   "seen_sources": 13,
-   "importance": 85,
-   "entity_keys": [
-    "IRAN"
-   ],
-   "created_at": "2026-07-28T16:56:03.022441+00:00",
-   "last_update": "2026-07-29T15:25:45.556971+00:00",
-   "members": 0,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": true
-  },
-  {
    "id": "c6f9e57edbc5d69b6",
    "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
    "category": "GEO",
@@ -1659,12 +1640,12 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 7,
+   "seen_sources": 9,
    "importance": 80,
    "entity_keys": [],
    "created_at": "2026-08-04T10:05:33.923276+00:00",
-   "last_update": "2026-08-05T10:03:35.530432+00:00",
-   "members": 11,
+   "last_update": "2026-08-05T16:56:48.236992+00:00",
+   "members": 13,
    "llm_title": "Sensex Jumps 544…",
    "one_liner": "Sensex Jumps 544 Points , Nifty Soars 1 . 6 % as…",
    "llm_model": "template",
@@ -1676,11 +1657,11 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 31,
+   "seen_sources": 32,
    "importance": 80,
    "entity_keys": [],
    "created_at": "2026-08-04T10:05:33.920478+00:00",
-   "last_update": "2026-08-05T06:48:44.687096+00:00",
+   "last_update": "2026-08-05T16:56:48.223974+00:00",
    "members": 50,
    "llm_title": "미국 주식 시장 상승",
    "one_liner": "미국 기업의 수익이 많아지며 주가가 오르고 있어요",
@@ -1858,6 +1839,25 @@
    "in_review": true
   },
   {
+   "id": "c13ff9296b0f3d9e3",
+   "title": "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 75,
+   "entity_keys": [
+    "DIS"
+   ],
+   "created_at": "2026-08-05T16:56:48.241298+00:00",
+   "last_update": "2026-08-05T16:56:48.242123+00:00",
+   "members": 2,
+   "llm_title": "Disney  Toy Story 5…",
+   "one_liner": "Disney  Toy Story 5  fuels streaming business…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c6c5e838fe8708e1d",
    "title": "FinancialContent - What To Expect From Eli Lilly ( LLY ) Q2 Earnings",
    "category": "EARNINGS",
@@ -1947,23 +1947,6 @@
    "members": 6,
    "llm_title": "페이팔 주가 상승",
    "one_liner": "페이팔 주가가 화요일에 오르고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "ccdbc1807faec3f4f",
-   "title": "Were a pawn in a larger game : A legal challenge is likely on Trump new tariffs . It may be too late",
-   "category": "POLICY",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 41,
-   "importance": 75,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.859256+00:00",
-   "last_update": "2026-07-31T15:34:59.252622+00:00",
-   "members": 50,
-   "llm_title": "트럼프 관세에 대한 법적 도전",
-   "one_liner": "트럼프 전 대통령의 새 관세에 대해 법적 소송이 제기될 가능성이 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -2314,6 +2297,25 @@
    "in_review": true
   },
   {
+   "id": "c97589d8f9f75f888",
+   "title": "Amazon joins $3 trillion club after strong AI earnings",
+   "category": "EARNINGS",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 70,
+   "entity_keys": [
+    "AMZN"
+   ],
+   "created_at": "2026-08-04T23:30:25.507271+00:00",
+   "last_update": "2026-08-05T16:56:48.226893+00:00",
+   "members": 6,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
    "id": "cd4dfbe21e251d35b",
    "title": "Wall Street Closes With Stocks Higher on Tech Gains",
    "category": "MARKET",
@@ -2384,6 +2386,23 @@
    "members": 6,
    "llm_title": "비자, 3분기 이익 증가",
    "one_liner": "비자(Visa)의 3분기 이익이 예상보다 늘었어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "ccdbc1807faec3f4f",
+   "title": "Were a pawn in a larger game : A legal challenge is likely on Trump new tariffs . It may be too late",
+   "category": "POLICY",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 41,
+   "importance": 70,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.859256+00:00",
+   "last_update": "2026-07-31T15:34:59.252622+00:00",
+   "members": 50,
+   "llm_title": "트럼프 관세에 대한 법적 도전",
+   "one_liner": "트럼프 전 대통령의 새 관세에 대해 법적 소송이 제기될 가능성이 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -2501,12 +2520,12 @@
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 25,
+   "seen_sources": 45,
    "importance": 65,
    "entity_keys": [],
    "created_at": "2026-08-04T10:05:33.921056+00:00",
-   "last_update": "2026-08-05T12:21:37.306363+00:00",
-   "members": 35,
+   "last_update": "2026-08-05T16:56:48.239930+00:00",
+   "members": 50,
    "llm_title": "AI - driven profit…",
    "one_liner": "AI - driven profit growth may benefit…",
    "llm_model": "template",
@@ -2545,25 +2564,6 @@
    "one_liner": "TikTokers In Banking Halls : Why Nigerian banks…",
    "llm_model": "template",
    "in_review": true
-  },
-  {
-   "id": "c97589d8f9f75f888",
-   "title": "Amazon joins $3 trillion club after strong AI earnings",
-   "category": "EARNINGS",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 0,
-   "importance": 65,
-   "entity_keys": [
-    "AMZN"
-   ],
-   "created_at": "2026-08-04T23:30:25.507271+00:00",
-   "last_update": "2026-08-05T03:42:02.134356+00:00",
-   "members": 5,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
   },
   {
    "id": "cacf43d6153e0e55b",
@@ -3877,23 +3877,6 @@
    "in_review": true
   },
   {
-   "id": "c535b232d511f0963",
-   "title": "Critical Contrast : Liberty Silver ( OTCMKTS : BHLL ) and Fortuna Mining ( NYSE : FSM )",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 34,
-   "importance": 50,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.858246+00:00",
-   "last_update": "2026-08-01T15:33:54.883126+00:00",
-   "members": 50,
-   "llm_title": "기업 비교",
-   "one_liner": "몇몇 기업을 비교했어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
    "id": "cf0622156adcf37e2",
    "title": "Dont wait for Honda the Kia Telluride Hybrid is here with 329 horsepower and 33 MPG",
    "category": "EARNINGS",
@@ -4135,6 +4118,23 @@
    "llm_title": "Zalando reports…",
    "one_liner": "Zalando reports lower Q2 net income ; narrows…",
    "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c535b232d511f0963",
+   "title": "Critical Contrast : Liberty Silver ( OTCMKTS : BHLL ) and Fortuna Mining ( NYSE : FSM )",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 34,
+   "importance": 45,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.858246+00:00",
+   "last_update": "2026-08-01T15:33:54.883126+00:00",
+   "members": 50,
+   "llm_title": "기업 비교",
+   "one_liner": "몇몇 기업을 비교했어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {

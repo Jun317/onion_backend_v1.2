@@ -119,8 +119,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-05T12:25:19.370890+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-05T16:57:12.565908+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -133,25 +133,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"일자리 위기 논란\",\n  \"one_liner\": \"야당이 정부의 일자리 정책 실패를 비판하며 논란이 커지고 있어요.\",\n  \"why_now\": \"일자리는 국민들의 삶과 직결된 문제라 정부 정책에 대한 관심이 높아요.\",\n  \"impact_line\": \"청년들의 취업난이 심화될 수 있다는 우려가 나와요.\",\n  \"details\": [\n    \"야당은 정부의 정책이 청년 일자리 창출에 실패했다고 주장해요.\",\n    \"고용 증가율이 크게 둔화되었다는 지적이 있어요.\",\n    \"정부의 경제 정책 전반에 대한 비판이 제기되고 있어요.\",\n    \"정치권의 논쟁이 격화될 것으로 보여요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"정부의 일자리 대책 마련이 시급해질 수 있어요!\",\n    \"청년층의 경제적 어려움이 가중될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"고용 증가율\",\n      \"easy\": \"지난해보다 얼마나 많은 사람이 일자리를 얻었는지 보여주는 비율이에요.\",\n      \"example\": \"고용 증가율이 낮으면 경제 상황이 좋지 않다고 볼 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Congress targets PM…",
-   "one_liner": "Congress targets PM Modi over jobs crisis , says…",
-   "why_now": null,
+   "title": "일자리 위기 논란",
+   "one_liner": "야당이 정부의 일자리 정책 실패를 비판하며 논란이 커지고 있어요.",
+   "why_now": "일자리는 국민들의 삶과 직결된 문제라 정부 정책에 대한 관심이 높아요.",
    "details": [
-    "Congress targets PM Modi over jobs crisis , says  reels wont create employment  for India youth",
-    "Akhilesh Yadav : BJP poor performance in by - polls marks beginning of change",
-    "Congress alleges Modi government flawed policies caused deep job crisis , citing 27 % hiring drop"
+    "야당은 정부의 정책이 청년 일자리 창출에 실패했다고 주장해요.",
+    "고용 증가율이 크게 둔화되었다는 지적이 있어요.",
+    "정부의 경제 정책 전반에 대한 비판이 제기되고 있어요.",
+    "정치권의 논쟁이 격화될 것으로 보여요."
    ],
-   "effects": [],
+   "effects": [
+    "정부의 일자리 대책 마련이 시급해질 수 있어요!",
+    "청년층의 경제적 어려움이 가중될 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "db07ca657503ad6f6e8a16a68fe7de206dd8b524"

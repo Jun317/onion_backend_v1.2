@@ -11,11 +11,51 @@
   "GM",
   "SEC"
  ],
- "seen_sources": 17,
+ "seen_sources": 19,
  "importance": 135,
  "created_at": "2026-08-04T18:11:17.083326+00:00",
- "last_update": "2026-08-05T12:21:37.305545+00:00",
+ "last_update": "2026-08-05T16:56:48.238533+00:00",
  "members": [
+  {
+   "id": "a41c528bb178d0716ef4ae363360e984356eb988",
+   "source": "finanznachrichten.de",
+   "tier": "wire",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69226693-uk-services-sector-returns-to-growth-in-july-020.htm",
+   "title": "UK Services Sector Returns To Growth In July",
+   "published_at": "2026-08-05T16:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8634
+  },
+  {
+   "id": "18227ea622121e2bc346738612bdc90daac609b2",
+   "source": "finanznachrichten.de",
+   "tier": "wire",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69226935-china-international-supply-chain-expo-china-and-u-s-business-communities-strengthen-ties-explore-new-opportunities-for-supply-chain-cooperation-008.htm",
+   "title": "China International Supply Chain Expo : China and U . S . Business Communities Strengthen Ties , Explore New Opportunities for Supply Chain Cooperation",
+   "published_at": "2026-08-05T16:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8347
+  },
+  {
+   "id": "db9098648fde401107a159c4c7c811a827742556",
+   "source": "dailytrust.com",
+   "tier": "wire",
+   "url": "https://dailytrust.com/radda-swears-in-4-permanent-secretaries/",
+   "title": "Radda swears in 4 permanent secretaries",
+   "published_at": "2026-08-05T16:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8413
+  },
+  {
+   "id": "c67923f7020f6264d9f6a9178e132405413365bf",
+   "source": "philippinetimes.com",
+   "tier": "wire",
+   "url": "http://www.philippinetimes.com/news/279223656/china-and-us-business-communities-strengthen-ties-explore-new-opportunities-for-supply-chain-cooperation",
+   "title": "China and U . S . Business Communities Strengthen Ties , Explore New Opportunities for Supply Chain Cooperation",
+   "published_at": "2026-08-05T16:15:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.8304
+  },
   {
    "id": "ebea98bb007a32a69e8ff7fd972806cfae4fc06d",
    "source": "prnewswire.com",
@@ -391,6 +431,34 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "UK Services Sector Returns To Growth In July",
+   "source": "finanznachrichten.de",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69226693-uk-services-sector-returns-to-growth-in-july-020.htm",
+   "at": "2026-08-05T16:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "China International Supply Chain Expo : China and U . S . Business Communities Strengthen Ties , Explore New Opportunities for Supply Chain Cooperation",
+   "source": "finanznachrichten.de",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69226935-china-international-supply-chain-expo-china-and-u-s-business-communities-strengthen-ties-explore-new-opportunities-for-supply-chain-cooperation-008.htm",
+   "at": "2026-08-05T16:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Radda swears in 4 permanent secretaries",
+   "source": "dailytrust.com",
+   "url": "https://dailytrust.com/radda-swears-in-4-permanent-secretaries/",
+   "at": "2026-08-05T16:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "China and U . S . Business Communities Strengthen Ties , Explore New Opportunities for Supply Chain Cooperation",
+   "source": "philippinetimes.com",
+   "url": "http://www.philippinetimes.com/news/279223656/china-and-us-business-communities-strengthen-ties-explore-new-opportunities-for-supply-chain-cooperation",
+   "at": "2026-08-05T16:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "InMode Reports Second Quarter 2026 Financial Results : Quarterly GAAP Revenues of $95 . 6 Million , Consistent with the Second Quarter of 2025",
    "source": "prnewswire.com",
    "url": "http://www.prnewswire.com/news-releases/inmode-reports-second-quarter-2026-financial-results-quarterly-gaap-revenues-of-95-6-million-consistent-with-the-second-quarter-of-2025--302842958.html",
@@ -650,8 +718,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-05T12:24:23.888870+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-05T16:56:49.787872+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -664,26 +732,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"제조업 기업 실적 발표\",\n   \"one_liner\": \"여러 제조업 기업이 2분기 실적을 발표했어요\",\n   \"why_now\": \"기업 실적이 좋으면 주가가 오를 수 있어요\",\n   \"impact_line\": \"주식 투자자에게 관심이 가는 소식이 될 수 있어요\",\n   \"details\": [\n       \"여러 기업이 2분기 실적을 발표했어요\",\n       \"제조업 분야의 기업들이 포함돼 있어요\",\n       \"실적 발표는 주가에 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"기업 실적이 좋으면 주식 투자자에게 기회가 될 수 있어요!\",\n       \"실적이 좋지 않으면 주가가 떨어질 수도 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump Officials Send…",
-   "one_liner": "Trump Officials Send Universities Second Policy…",
-   "why_now": null,
+   "title": "제조업 기업 실적 발표",
+   "one_liner": "여러 제조업 기업이 2분기 실적을 발표했어요",
+   "why_now": "기업 실적이 좋으면 주가가 오를 수 있어요",
    "details": [
-    "Trump Officials Send Universities Second Policy Proposal",
-    "Trump Officials Send Universities Second Policy Proposal | News Radio 103 . 1 and 810 WGY",
-    "The Chemours Company Reports Second Quarter Results"
+    "여러 기업이 2분기 실적을 발표했어요",
+    "제조업 분야의 기업들이 포함돼 있어요",
+    "실적 발표는 주가에 영향을 줄 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "기업 실적이 좋으면 주식 투자자에게 기회가 될 수 있어요!",
+    "실적이 좋지 않으면 주가가 떨어질 수도 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "c01a2e0efbcdb957672783b487800bd24619e9dd"
  },
