@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-05T03:53:11.008199+00:00",
+  "created_at": "2026-08-05T07:01:00.356292+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,12 +881,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"기업 2분기 실적 발표\", \"one_liner\": \"여러 기업이 2분기 실적을 발표했어요.\", \"why_now\": \"기업 실적은 앞으로의 경제 상황을 예측하는 중요한 지표가 돼요.\", \"impact_line\": \"투자자들의 관심이 쏠릴 수 있어요.\", \"details\": [\"트라이마스, 스티븐 마든, 쿼드 그래픽스, A.O. 스미스, 세이프 벌커스 등 여러 기업이 2분기 실적을 발표했습니다.\"], \"visual_type\": \"earnings_quarterly\", \"effects\": [\"기업들의 실적이 좋으면 주가가 오를 수 있어요!\", \"실적이 예상보다 나쁘면 주가가 하락할 수 있어요.\"], \"glossary\": []}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects[0] 느낌표 종결 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님"
     ]
    }
   ],
@@ -905,8 +913,8 @@
   "fact_hash": "5ad831870bb12f09c76d57638da285e3232ae7d2"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-05T03:53:11.008123+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[0] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}]}",
+  "at": "2026-08-05T07:01:00.356210+00:00"
  },
  "glossary": [],
  "related": [

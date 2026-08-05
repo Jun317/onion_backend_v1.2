@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-05T03:53:14.979632+00:00",
+ "generated_at": "2026-08-05T07:01:44.240720+00:00",
  "issues": [
   {
    "id": "cea83213c8906724e",
@@ -119,6 +119,25 @@
    "in_review": true
   },
   {
+   "id": "c2efbf61ddb697589",
+   "title": "Democratic attorneys general , governors sue feds over tariffs",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 5,
+   "importance": 135,
+   "entity_keys": [
+    "FED"
+   ],
+   "created_at": "2026-08-04T20:04:50.675317+00:00",
+   "last_update": "2026-08-05T06:48:44.682377+00:00",
+   "members": 7,
+   "llm_title": "미국 금리",
+   "one_liner": "미국 연방준비제도이사회가 은행 인수를 승인했어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
    "id": "cd6e96f9df3790928",
    "title": "US economy cools in second quarter despite solid spending",
    "category": "MARKET",
@@ -213,25 +232,6 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
-   "in_review": true
-  },
-  {
-   "id": "c2efbf61ddb697589",
-   "title": "Democratic attorneys general , governors sue feds over tariffs",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 130,
-   "entity_keys": [
-    "FED"
-   ],
-   "created_at": "2026-08-04T20:04:50.675317+00:00",
-   "last_update": "2026-08-05T03:42:02.138232+00:00",
-   "members": 6,
-   "llm_title": "미국 금리",
-   "one_liner": "미국 연방준비제도이사회가 은행 인수를 승인했어요",
-   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -482,14 +482,15 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 5,
+   "seen_sources": 15,
    "importance": 110,
    "entity_keys": [
+    "CHINA",
     "SEC"
    ],
    "created_at": "2026-08-04T18:11:17.083326+00:00",
-   "last_update": "2026-08-05T03:42:02.136667+00:00",
-   "members": 12,
+   "last_update": "2026-08-05T06:48:44.834331+00:00",
+   "members": 33,
    "llm_title": "주식 시장 관련 소식",
    "one_liner": "주식 시장 하락 가능성과 관련된 여러 소식이 나왔어요.",
    "llm_model": "gemini-2.5-flash-lite",
@@ -689,25 +690,6 @@
    "in_review": true
   },
   {
-   "id": "cceb15b16363c0564",
-   "title": "Procter & Gamble Predicts Slower Growth Amid Rising Costs , ETRetail",
-   "category": "MACRO",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 105,
-   "entity_keys": [
-    "PG"
-   ],
-   "created_at": "2026-07-29T22:26:52.625086+00:00",
-   "last_update": "2026-08-01T06:48:10.708691+00:00",
-   "members": 3,
-   "llm_title": "프록터앤드갬블, 소비 둔화 우려",
-   "one_liner": "프록터앤드갬블이 원자재 가격 상승으로 소비가 줄어들까 걱정하고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "c3149033857922fc8",
    "title": "Walmart ( NYSE : WMT ), Costco ( NASDAQ : COST ), And Home Depot ( NYSE : HD ) Face Very Different Risk / Reward Profiles",
    "category": "MARKET",
@@ -896,6 +878,44 @@
    "in_review": false
   },
   {
+   "id": "c5b55b0e3265fc813",
+   "title": "U . S . revokes Brazil ambassador visa amid ongoing spat with Lula - National",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 100,
+   "entity_keys": [
+    "V"
+   ],
+   "created_at": "2026-08-05T03:42:02.144187+00:00",
+   "last_update": "2026-08-05T06:48:44.689637+00:00",
+   "members": 4,
+   "llm_title": "미국, 브라질 대사 비자 취소",
+   "one_liner": "미국이 브라질 대사의 비자를 취소하며 외교적 갈등을 빚고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": false
+  },
+  {
+   "id": "cceb15b16363c0564",
+   "title": "Procter & Gamble Predicts Slower Growth Amid Rising Costs , ETRetail",
+   "category": "MACRO",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 100,
+   "entity_keys": [
+    "PG"
+   ],
+   "created_at": "2026-07-29T22:26:52.625086+00:00",
+   "last_update": "2026-08-01T06:48:10.708691+00:00",
+   "members": 3,
+   "llm_title": "프록터앤드갬블, 소비 둔화 우려",
+   "one_liner": "프록터앤드갬블이 원자재 가격 상승으로 소비가 줄어들까 걱정하고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
    "id": "cd94ff3b008ca2f3a",
    "title": "Bank of America Just Raised Its Dividend 14 %. The Buyback Is the Bigger Story .",
    "category": "RATE",
@@ -958,15 +978,32 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 9,
+   "seen_sources": 18,
    "importance": 95,
    "entity_keys": [],
    "created_at": "2026-08-04T10:05:33.922468+00:00",
-   "last_update": "2026-08-05T03:42:02.129307+00:00",
-   "members": 11,
+   "last_update": "2026-08-05T06:48:44.687745+00:00",
+   "members": 21,
    "llm_title": "미국, 강제 노동 관련 관세 소송",
    "one_liner": "미국 민주당 소속 25개 주가 트럼프 행정부의 강제 노동 관련 관세에 소송을 제기했어요.",
    "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "c1679b4adf76c1e20",
+   "title": "BankIslami Hosts Policy and Economic Experts for Strategic Dialogue on Pakistan FY2027 Outlook",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 7,
+   "importance": 95,
+   "entity_keys": [],
+   "created_at": "2026-08-04T10:05:33.923528+00:00",
+   "last_update": "2026-08-05T06:48:44.687554+00:00",
+   "members": 8,
+   "llm_title": "Pakistan headline…",
+   "one_liner": "Pakistan headline inflation eases to 9 . 2 pct…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -1138,23 +1175,23 @@
    "in_review": true
   },
   {
-   "id": "c5b55b0e3265fc813",
-   "title": "U . S . revokes Brazil ambassador visa amid ongoing spat with Lula - National",
-   "category": "GEO",
-   "status": "candidate",
+   "id": "c29244f8d2449fa7c",
+   "title": "Maruti Suzuki shares decline over 2 % after Q1 . Morgan Stanley , Motilal Oswal decode the road ahead",
+   "category": "MARKET",
+   "status": "active",
    "origin": "cluster",
-   "seen_sources": 1,
+   "seen_sources": 2,
    "importance": 90,
    "entity_keys": [
-    "V"
+    "MS"
    ],
-   "created_at": "2026-08-05T03:42:02.144187+00:00",
-   "last_update": "2026-08-05T03:42:02.144187+00:00",
+   "created_at": "2026-08-05T06:48:44.688791+00:00",
+   "last_update": "2026-08-05T06:48:44.689709+00:00",
    "members": 2,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "llm_title": "Morgan Stanley India…",
+   "one_liner": "Morgan Stanley India equity playbook : Domestic…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c942788cecb5c9e9d",
@@ -1168,8 +1205,8 @@
     "V"
    ],
    "created_at": "2026-08-05T03:42:02.143951+00:00",
-   "last_update": "2026-08-05T03:42:02.143951+00:00",
-   "members": 2,
+   "last_update": "2026-08-05T06:48:44.685903+00:00",
+   "members": 3,
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
@@ -1193,23 +1230,6 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
-   "in_review": true
-  },
-  {
-   "id": "c1679b4adf76c1e20",
-   "title": "BankIslami Hosts Policy and Economic Experts for Strategic Dialogue on Pakistan FY2027 Outlook",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 90,
-   "entity_keys": [],
-   "created_at": "2026-08-04T10:05:33.923528+00:00",
-   "last_update": "2026-08-04T12:24:13.820376+00:00",
-   "members": 4,
-   "llm_title": "Thailand business…",
-   "one_liner": "Thailand business sentiment reaches 4 - month…",
-   "llm_model": "template",
    "in_review": true
   },
   {
@@ -1352,6 +1372,40 @@
    "in_review": true
   },
   {
+   "id": "c38d4b6d119d38236",
+   "title": "Akhilesh Yadav : BJP poor performance in by - polls marks beginning of change",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 5,
+   "importance": 85,
+   "entity_keys": [],
+   "created_at": "2026-08-04T10:05:33.923878+00:00",
+   "last_update": "2026-08-05T06:48:44.687632+00:00",
+   "members": 6,
+   "llm_title": "인도에서 일자리 위기",
+   "one_liner": "인도 정부가 일자리 위기에 대해 비판을 받고 있어요.",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": false
+  },
+  {
+   "id": "c293f04c6660f586b",
+   "title": "Why gold prices edged higher today ( Aug . 4 ): Key factors driving gold and silver",
+   "category": "COMMODITY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 5,
+   "importance": 85,
+   "entity_keys": [],
+   "created_at": "2026-08-04T10:05:33.921190+00:00",
+   "last_update": "2026-08-05T06:48:44.686241+00:00",
+   "members": 7,
+   "llm_title": "Gold and silver…",
+   "one_liner": "Gold and silver price today , August 4 : Check…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c829142dd4083896e",
    "title": "Trump slams Exxon , Chevron for making  too much money",
    "category": "COMMODITY",
@@ -1364,8 +1418,8 @@
     "XOM"
    ],
    "created_at": "2026-08-04T23:30:25.506665+00:00",
-   "last_update": "2026-08-04T23:30:25.506665+00:00",
-   "members": 2,
+   "last_update": "2026-08-05T06:48:44.681611+00:00",
+   "members": 3,
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
@@ -1633,37 +1687,54 @@
    "in_review": false
   },
   {
-   "id": "cc3750526bed0b5dc",
-   "title": "Nigerian stock market opens week on positive note as investors gain N288bn",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 5,
-   "importance": 80,
-   "entity_keys": [],
-   "created_at": "2026-08-04T10:05:33.923276+00:00",
-   "last_update": "2026-08-05T03:42:02.142680+00:00",
-   "members": 5,
-   "llm_title": "Flotek Industries (…",
-   "one_liner": "Flotek Industries ( NYSE : FTK ) Hits New 52 -…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "ca8913d871c434798",
    "title": "Oil rebounds as markets trade mixed following Wall Street rally",
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 22,
+   "seen_sources": 31,
    "importance": 80,
    "entity_keys": [],
    "created_at": "2026-08-04T10:05:33.920478+00:00",
-   "last_update": "2026-08-05T03:42:02.131409+00:00",
-   "members": 48,
+   "last_update": "2026-08-05T06:48:44.687096+00:00",
+   "members": 50,
    "llm_title": "미국 주식 시장 상승",
    "one_liner": "미국 기업의 수익이 많아지며 주가가 오르고 있어요",
    "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "c6908f4dd23e9ffa6",
+   "title": "SEBI Closing Auction Session Goes Live , Changing How Stock Closing Prices Are Determined",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 7,
+   "importance": 80,
+   "entity_keys": [],
+   "created_at": "2026-08-04T10:05:33.922782+00:00",
+   "last_update": "2026-08-05T06:48:44.685815+00:00",
+   "members": 7,
+   "llm_title": "SEBI Closing Auction…",
+   "one_liner": "SEBI Closing Auction Session Goes Live ,…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "cc3750526bed0b5dc",
+   "title": "Nigerian stock market opens week on positive note as investors gain N288bn",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 7,
+   "importance": 80,
+   "entity_keys": [],
+   "created_at": "2026-08-04T10:05:33.923276+00:00",
+   "last_update": "2026-08-05T06:48:44.685274+00:00",
+   "members": 10,
+   "llm_title": "Sensex Jumps 544…",
+   "one_liner": "Sensex Jumps 544 Points , Nifty Soars 1 . 6 % as…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -1697,40 +1768,6 @@
    "members": 41,
    "llm_title": "1 Russell 2000 Stock…",
    "one_liner": "1 Russell 2000 Stock on Our Watchlist and 2 That…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c293f04c6660f586b",
-   "title": "Why gold prices edged higher today ( Aug . 4 ): Key factors driving gold and silver",
-   "category": "COMMODITY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 80,
-   "entity_keys": [],
-   "created_at": "2026-08-04T10:05:33.921190+00:00",
-   "last_update": "2026-08-04T18:11:17.072672+00:00",
-   "members": 5,
-   "llm_title": "The Price of Gold…",
-   "one_liner": "The Price of Gold Today , August 4 , 2026",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c6908f4dd23e9ffa6",
-   "title": "SEBI Closing Auction Session Goes Live , Changing How Stock Closing Prices Are Determined",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 5,
-   "importance": 80,
-   "entity_keys": [],
-   "created_at": "2026-08-04T10:05:33.922782+00:00",
-   "last_update": "2026-08-04T12:24:13.820486+00:00",
-   "members": 5,
-   "llm_title": "ASX 200 Closes At…",
-   "one_liner": "ASX 200 Closes At Session High , As All Ords…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1785,25 +1822,6 @@
    "members": 50,
    "llm_title": "미국 주식 시장 상승",
    "one_liner": "미국 주식 시장이 새 주 첫날 상승했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c32be43a74d268864",
-   "title": "Why Is PayPal Stock Gaining Tuesday ? - PayPal Holdings ( NASDAQ : PYPL )",
-   "category": "MARKET",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 80,
-   "entity_keys": [
-    "PYPL"
-   ],
-   "created_at": "2026-07-28T18:53:01.536982+00:00",
-   "last_update": "2026-08-01T06:48:10.709751+00:00",
-   "members": 6,
-   "llm_title": "페이팔 주가 상승",
-   "one_liner": "페이팔 주가가 화요일에 오르고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -1873,21 +1891,42 @@
    "in_review": true
   },
   {
-   "id": "c38d4b6d119d38236",
-   "title": "Akhilesh Yadav : BJP poor performance in by - polls marks beginning of change",
+   "id": "c6c5e838fe8708e1d",
+   "title": "FinancialContent - What To Expect From Eli Lilly ( LLY ) Q2 Earnings",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 75,
+   "entity_keys": [
+    "LLY"
+   ],
+   "created_at": "2026-08-05T06:48:44.689000+00:00",
+   "last_update": "2026-08-05T06:48:44.689724+00:00",
+   "members": 2,
+   "llm_title": "Eli Lilly ( LLY )…",
+   "one_liner": "Eli Lilly ( LLY ) Wins FDA Breakthrough Tag For…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c5f82537f5f95872f",
+   "title": "Millions join Arbaeen pilgrimage in Iraq amid fears of US - Iran escalation",
    "category": "GEO",
    "status": "active",
    "origin": "cluster",
    "seen_sources": 3,
    "importance": 75,
-   "entity_keys": [],
-   "created_at": "2026-08-04T10:05:33.923878+00:00",
-   "last_update": "2026-08-04T12:24:13.828449+00:00",
-   "members": 4,
-   "llm_title": "인도에서 일자리 위기",
-   "one_liner": "인도 정부가 일자리 위기에 대해 비판을 받고 있어요.",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": false
+   "entity_keys": [
+    "IRAN"
+   ],
+   "created_at": "2026-08-04T23:30:25.507376+00:00",
+   "last_update": "2026-08-05T06:48:44.686878+00:00",
+   "members": 3,
+   "llm_title": "US has used…",
+   "one_liner": "US has used  virtually all  of its long - range…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c8947a836ed75e541",
@@ -1943,6 +1982,25 @@
    "members": 6,
    "llm_title": "비자, 3분기 이익 증가",
    "one_liner": "비자(Visa)의 3분기 이익이 예상보다 늘었어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "c32be43a74d268864",
+   "title": "Why Is PayPal Stock Gaining Tuesday ? - PayPal Holdings ( NASDAQ : PYPL )",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 75,
+   "entity_keys": [
+    "PYPL"
+   ],
+   "created_at": "2026-07-28T18:53:01.536982+00:00",
+   "last_update": "2026-08-01T06:48:10.709751+00:00",
+   "members": 6,
+   "llm_title": "페이팔 주가 상승",
+   "one_liner": "페이팔 주가가 화요일에 오르고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -2327,25 +2385,6 @@
    "in_review": true
   },
   {
-   "id": "c5f82537f5f95872f",
-   "title": "Millions join Arbaeen pilgrimage in Iraq amid fears of US - Iran escalation",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 70,
-   "entity_keys": [
-    "IRAN"
-   ],
-   "created_at": "2026-08-04T23:30:25.507376+00:00",
-   "last_update": "2026-08-04T23:30:25.508072+00:00",
-   "members": 2,
-   "llm_title": "Millions join…",
-   "one_liner": "Millions join Arbaeen pilgrimage in Iraq amid…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "cd4dfbe21e251d35b",
    "title": "Wall Street Closes With Stocks Higher on Tech Gains",
    "category": "MARKET",
@@ -2511,17 +2550,34 @@
    "in_review": true
   },
   {
+   "id": "c08063954ca2f2321",
+   "title": "AI - driven profit growth may benefit industrials , infrastructure , emerging markets : Report",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 22,
+   "importance": 65,
+   "entity_keys": [],
+   "created_at": "2026-08-04T10:05:33.921056+00:00",
+   "last_update": "2026-08-05T06:48:44.687488+00:00",
+   "members": 29,
+   "llm_title": "AI - driven profit…",
+   "one_liner": "AI - driven profit growth may benefit…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c81aa5aa5588c8c1a",
    "title": "Exide Industries Q1 EBITDA beats estimates ; Nomura retains  Buy , raises TP to Rs 492",
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 8,
+   "seen_sources": 11,
    "importance": 65,
    "entity_keys": [],
    "created_at": "2026-08-04T10:05:33.921572+00:00",
-   "last_update": "2026-08-05T03:42:02.142822+00:00",
-   "members": 17,
+   "last_update": "2026-08-05T06:48:44.686796+00:00",
+   "members": 44,
    "llm_title": "Navigator ( NYSE :…",
    "one_liner": "Navigator ( NYSE : NVGS ) Releases Quarterly…",
    "llm_model": "template",
@@ -2541,23 +2597,6 @@
    "members": 50,
    "llm_title": "TikTokers In Banking…",
    "one_liner": "TikTokers In Banking Halls : Why Nigerian banks…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c08063954ca2f2321",
-   "title": "AI - driven profit growth may benefit industrials , infrastructure , emerging markets : Report",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 11,
-   "importance": 65,
-   "entity_keys": [],
-   "created_at": "2026-08-04T10:05:33.921056+00:00",
-   "last_update": "2026-08-05T03:42:02.138994+00:00",
-   "members": 12,
-   "llm_title": "AI - driven profit…",
-   "one_liner": "AI - driven profit growth may benefit…",
    "llm_model": "template",
    "in_review": true
   },
@@ -2632,23 +2671,6 @@
    "in_review": true
   },
   {
-   "id": "c1a2177ceea1d93fb",
-   "title": "Pentair plc Q2 2026 Earnings Call Summary",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 12,
-   "importance": 65,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.858741+00:00",
-   "last_update": "2026-08-04T06:47:08.907207+00:00",
-   "members": 50,
-   "llm_title": "FinancialContent -…",
-   "one_liner": "FinancialContent - NN ( NNBR ) Q2 Earnings…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "c1aedb709e69210c4",
    "title": "Expedia Group Stock : Is Wall Street Bullish or Bearish ?",
    "category": "MARKET",
@@ -2683,32 +2705,6 @@
    "one_liner": "퀄컴이 휴대폰 부품 사업을 넘어 자동차 부품 사업을 넓히고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": false
-  },
-  {
-   "id": "cf92e75ea2709f911",
-   "title": "Meta Stock Is Down Nearly 10 % in 2026 . Should You Buy Before July 29 Q2 Earnings ?",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 27,
-   "importance": 65,
-   "entity_keys": [
-    "AAPL",
-    "AMD",
-    "AMZN",
-    "AVGO",
-    "META",
-    "MSFT",
-    "NVDA",
-    "TAIWAN"
-   ],
-   "created_at": "2026-07-26T19:42:01.899571+00:00",
-   "last_update": "2026-07-30T06:47:58.369994+00:00",
-   "members": 45,
-   "llm_title": "메타 주식 하락",
-   "one_liner": "메타의 주식이 많이 내렸어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
   },
   {
    "id": "c8fd5663a6f60c96e",
@@ -3129,6 +3125,23 @@
    "in_review": true
   },
   {
+   "id": "c1a2177ceea1d93fb",
+   "title": "Pentair plc Q2 2026 Earnings Call Summary",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 12,
+   "importance": 60,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.858741+00:00",
+   "last_update": "2026-08-04T06:47:08.907207+00:00",
+   "members": 50,
+   "llm_title": "FinancialContent -…",
+   "one_liner": "FinancialContent - NN ( NNBR ) Q2 Earnings…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "cef8ff9d9efde3f77",
    "title": "Crane Company Q2 2026 Earnings Call Summary",
    "category": "EARNINGS",
@@ -3213,6 +3226,32 @@
    "llm_title": "트럼프, 관세 정책 변화 시사",
    "one_liner": "트럼프 전 대통령이 관세 정책에 변화를 주겠다고 말했어요.",
    "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "cf92e75ea2709f911",
+   "title": "Meta Stock Is Down Nearly 10 % in 2026 . Should You Buy Before July 29 Q2 Earnings ?",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 27,
+   "importance": 60,
+   "entity_keys": [
+    "AAPL",
+    "AMD",
+    "AMZN",
+    "AVGO",
+    "META",
+    "MSFT",
+    "NVDA",
+    "TAIWAN"
+   ],
+   "created_at": "2026-07-26T19:42:01.899571+00:00",
+   "last_update": "2026-07-30T06:47:58.369994+00:00",
+   "members": 45,
+   "llm_title": "메타 주식 하락",
+   "one_liner": "메타의 주식이 많이 내렸어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -3439,23 +3478,6 @@
    "llm_title": "TriMas Q2 Earnings…",
    "one_liner": "TriMas Q2 Earnings Call Highlights",
    "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cc4cfba346972fad2",
-   "title": "Piedmont Office Realty Trust , Inc . Q2 2026 Earnings Call Summary",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 33,
-   "importance": 55,
-   "entity_keys": [],
-   "created_at": "2026-07-30T22:32:46.859411+00:00",
-   "last_update": "2026-08-02T04:45:35.341170+00:00",
-   "members": 50,
-   "llm_title": "기업 실적 발표",
-   "one_liner": "여러 기업이 2026년 2분기 실적을 발표했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -3868,6 +3890,23 @@
    "llm_title": "Zalando reports…",
    "one_liner": "Zalando reports lower Q2 net income ; narrows…",
    "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "cc4cfba346972fad2",
+   "title": "Piedmont Office Realty Trust , Inc . Q2 2026 Earnings Call Summary",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 33,
+   "importance": 50,
+   "entity_keys": [],
+   "created_at": "2026-07-30T22:32:46.859411+00:00",
+   "last_update": "2026-08-02T04:45:35.341170+00:00",
+   "members": 50,
+   "llm_title": "기업 실적 발표",
+   "one_liner": "여러 기업이 2026년 2분기 실적을 발표했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -4761,6 +4800,25 @@
    "created_at": "2026-07-22T16:53:58.411392+00:00",
    "last_update": "2026-07-22T18:39:10.426665+00:00",
    "members": 3,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
+   "id": "ccf324add49f61302",
+   "title": "China Announces Crackdown on Organized Crime",
+   "category": "MARKET",
+   "status": "archived",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 0,
+   "entity_keys": [
+    "CHINA"
+   ],
+   "created_at": "2026-08-05T06:48:44.689132+00:00",
+   "last_update": "2026-08-05T06:48:44.834366+00:00",
+   "members": 0,
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
