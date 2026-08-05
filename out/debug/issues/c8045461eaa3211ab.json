@@ -11,7 +11,7 @@
   "SEC"
  ],
  "seen_sources": 29,
- "importance": 105,
+ "importance": 100,
  "created_at": "2026-07-30T06:47:58.371988+00:00",
  "last_update": "2026-07-31T13:11:41.794554+00:00",
  "members": [
@@ -871,7 +871,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-05T10:03:59.616592+00:00",
+  "created_at": "2026-08-05T14:46:58.176955+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,19 +887,12 @@
     "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank"
    ]
   },
-  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 2분기에 1.5% 성장하며 성장세가 둔화했어요.\",\n  \"why_now\": \"경제 성장률은 나라 경제의 건강 상태를 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"물가 상승세가 계속되면 금리가 내려가지 않아 이자 부담이 커질 수 있어요.\",\n  \"details\": [\n    \"미국 경제는 2분기에 1.5% 성장했어요.\",\n    \"이는 이전 분기보다 성장 속도가 느려진 것입니다.\",\n    \"물가 상승률은 여전히 높은 수준을 유지하고 있어요.\",\n    \"하지만 미국 내 소비 수요는 튼튼한 편이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"미국 중앙은행이 금리를 바로 내리지 않을 가능성이 있어, 한국의 금리도 영향을 받을 수 있어요!\",\n    \"물가가 계속 오르면 생활 물가 부담이 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"미국 중앙은행\",\n      \"easy\": \"미국의 중앙은행으로, 나라 경제의 돈 흐름을 관리해요.\",\n      \"example\": \"미국 중앙은행이 금리를 올리면 한국의 대출 이자도 오를 수 있어요.\"\n    },\n    {\n      \"term\": \"물가 상승률\",\n      \"easy\": \"물건이나 서비스 가격이 얼마나 올랐는지 보여주는 비율이에요.\",\n      \"example\": \"물가 상승률이 높으면 장바구니 물가가 올라 부담이 커져요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [1.5]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details[1] 어요체 아님",
-     "입력에 없는 숫자: [1.5]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -918,8 +911,8 @@
   "fact_hash": "63a23b84926d8182c0e9578910ec5097373cea82"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[1] 어요체 아님\", \"입력에 없는 숫자: [1.5]\"]}]}",
-  "at": "2026-08-05T10:03:59.616501+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-05T14:46:58.176856+00:00"
  },
  "glossary": [],
  "related": [

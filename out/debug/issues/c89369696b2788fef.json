@@ -85,8 +85,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-05T10:07:44.108660+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-05T14:50:25.666870+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -98,26 +98,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"유럽 기후 관련 규제 논란\", \"one_liner\": \"유럽에서 기후 변화를 이유로 한 규제가 과도하다는 비판이 나오고 있어요.\", \"why_now\": \"기후 변화 관련 규제가 늘면서 경제적 부담이 커지고 있다는 지적이 있어요.\", \"impact_line\": \"환경 규제가 강화되면 관련 제품 가격이 오를 수 있어요.\", \"details\": [\"미국에서는 과도한 규제를 막기 위한 법안이 논의되고 있어요.\", \"유럽에서는 기후 변화 관련 보험 시장의 허점이 드러나고 있어요.\", \"유럽의 가스세 수입에 대한 분석도 나오고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"환경 규제가 강화되면 기업의 생산 비용이 늘어날 수 있어요!\", \"기후 변화로 인한 자연재해가 늘면서 보험료 인상 가능성도 제기돼요!\"], \"glossary\": [{\"term\": \"기후 변화\", \"easy\": \"지구의 날씨가 장기적으로 바뀌는 것을 말해요.\", \"example\": \"기후 변화 때문에 여름이 더 더워지고 있어요.\"}, {\"term\": \"가스세\", \"easy\": \"천연가스 사용에 붙는 세금을 말해요.\", \"example\": \"가스세가 오르면 난방비가 비싸질 수 있어요.\"}]}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "The End EPA Abuse…",
-   "one_liner": "The End EPA Abuse Act targets regulatory…",
-   "why_now": null,
+   "title": "유럽 기후 관련 규제 논란",
+   "one_liner": "유럽에서 기후 변화를 이유로 한 규제가 과도하다는 비판이 나오고 있어요.",
+   "why_now": "기후 변화 관련 규제가 늘면서 경제적 부담이 커지고 있다는 지적이 있어요.",
    "details": [
-    "The End EPA Abuse Act targets regulatory overreach and the climate hysteria baked into onerous regulations – NaturalNews . com",
-    "How Europe Grows Gas Tax Revenues",
-    "Analysis - Europe wildfire season exposes climate insurance gap | 1450 AM 99 . 7 FM WHTC"
+    "미국에서는 과도한 규제를 막기 위한 법안이 논의되고 있어요.",
+    "유럽에서는 기후 변화 관련 보험 시장의 허점이 드러나고 있어요.",
+    "유럽의 가스세 수입에 대한 분석도 나오고 있어요."
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "환경 규제가 강화되면 기업의 생산 비용이 늘어날 수 있어요!",
+    "기후 변화로 인한 자연재해가 늘면서 보험료 인상 가능성도 제기돼요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "b733a5200634113ea524baf10723c011608a3b8d"
  },

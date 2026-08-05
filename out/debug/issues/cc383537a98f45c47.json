@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 34,
- "importance": 95,
+ "importance": 90,
  "created_at": "2026-07-30T22:32:46.859123+00:00",
  "last_update": "2026-07-31T13:11:41.796448+00:00",
  "members": [
@@ -766,7 +766,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-05T10:04:20.326345+00:00",
+  "created_at": "2026-08-05T14:48:03.157545+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -779,18 +779,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 1.5% 성장하는 데 그쳤어요.\",\n  \"why_now\": \"경제 성장률이 낮아지면 일자리나 소득 증가세도 둔화될 수 있어요.\",\n  \"impact_line\": \"물건값 상승세가 둔화될 수 있어요.\",\n  \"details\": [\n    \"미국 경제가 1.5% 성장했어요.\",\n    \"이는 이전보다 낮은 성장률이에요.\",\n    \"물가 상승 압력이 계속되고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"물가 상승세가 둔화될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"Inflation\",\n      \"easy\": \"물건이나 서비스의 가격이 전반적으로 오르는 현상이에요.\",\n      \"example\": \"최근 몇 년간 물가 상승이 심해져서 장바구니 물가가 많이 올랐어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [1.5]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [1.5]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -809,8 +803,8 @@
   "fact_hash": "823ebedb6bbb88ebe7b22c00beeaf5862cb9e2a1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
-  "at": "2026-08-05T10:04:20.326288+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-05T14:48:03.157454+00:00"
  },
  "glossary": [],
  "related": [
