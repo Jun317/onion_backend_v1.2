@@ -136,12 +136,13 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-04T21:44:47.246726+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-05T03:42:44.226933+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "25 US states sue Trump admin over new tariffs",
     "Maine Joins 25 - State Lawsuit Challenging Trump Administration New Global Tariffs",
     "25 US States Sue to Block Trump Tariffs on Africa",
     "US : 25 States Sue Over Trump New Tariffs",
@@ -149,34 +150,41 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 25개 주, 트럼프 관세에 소송\",\n  \"one_liner\": \"미국 25개 주가 트럼프 행정부가 부과한 새 관세에 대해 소송을 제기했어요.\",\n  \"why_now\": \"정부가 부과한 관세가 부당하다고 판단되면, 경제 활동에 큰 영향을 줄 수 있어요.\",\n  \"impact_line\": \"수입 물가 상승으로 장바구니 물가가 오를 수 있어요.\",\n  \"details\": [\n    \"미국 25개 주가 트럼프 행정부의 새 관세 정책에 반발하며 소송을 냈어요.\",\n    \"이 소송은 유럽연합(EU)과 60개국에 부과된 강제 노동 관련 관세를 문제 삼고 있어요.\",\n    \"소송을 제기한 주들은 이번 관세가 불법이라고 주장하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"수입품 가격이 올라 소비자들의 부담이 커질 수 있어요!\",\n    \"기업들이 수입 원자재 가격 상승으로 어려움을 겪을 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 물건을 들여올 때 내는 세금이에요.\",\n      \"example\": \"관세가 오르면 수입품 가격이 비싸져요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Maine Joins 25 -…",
-   "one_liner": "Maine Joins 25 - State Lawsuit Challenging Trump…",
-   "why_now": null,
+   "title": "미국 25개 주, 트럼프 관세에 소송",
+   "one_liner": "미국 25개 주가 트럼프 행정부가 부과한 새 관세에 대해 소송을 제기했어요.",
+   "why_now": "정부가 부과한 관세가 부당하다고 판단되면, 경제 활동에 큰 영향을 줄 수 있어요.",
    "details": [
-    "Maine Joins 25 - State Lawsuit Challenging Trump Administration New Global Tariffs",
-    "25 US States Sue to Block Trump Tariffs on Africa",
-    "US : 25 States Sue Over Trump New Tariffs"
+    "미국 25개 주가 트럼프 행정부의 새 관세 정책에 반발하며 소송을 냈어요.",
+    "이 소송은 유럽연합(EU)과 60개국에 부과된 강제 노동 관련 관세를 문제 삼고 있어요.",
+    "소송을 제기한 주들은 이번 관세가 불법이라고 주장하고 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "수입품 가격이 올라 소비자들의 부담이 커질 수 있어요!",
+    "기업들이 수입 원자재 가격 상승으로 어려움을 겪을 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "31e4cf395101fb2169140953b0ac6accaa65fbbd"
+  "fact_hash": "ac3ca13bc3390480002f6e9d46a7d47b517833d7"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-04T21:44:47.246625+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "c2efbf61ddb697589",

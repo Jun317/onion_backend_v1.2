@@ -52,8 +52,44 @@
    "at": "2026-08-04T22:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-05T03:47:58.277356+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Millions join Arbaeen pilgrimage in Iraq amid fears of US - Iran escalation",
+    "How Iran is widening its pressure campaign to force U . S . concessions"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Millions join…",
+   "one_liner": "Millions join Arbaeen pilgrimage in Iraq amid…",
+   "why_now": null,
+   "details": [
+    "Millions join Arbaeen pilgrimage in Iraq amid fears of US - Iran escalation",
+    "How Iran is widening its pressure campaign to force U . S . concessions"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "1af8fb6f721d10e7b05a649a60e8ff7edac5800e"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-05T03:47:58.277246+00:00"
+ },
  "glossary": [],
  "related": [
   {
