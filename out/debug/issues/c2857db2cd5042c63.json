@@ -104,8 +104,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-05T22:34:30.509271+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-06T03:47:46.990619+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -118,26 +118,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"AMD, 서버 사업 두 배 성장\",\n  \"one_liner\": \"AMD의 서버용 컴퓨터 사업이 두 배 이상 성장했어요.\",\n  \"why_now\": \"AMD의 서버 사업 성장은 인공지능(AI) 기술 발전과 관련이 깊어요.\",\n  \"impact_line\": \"AMD 주가가 오르면서 관련 투자자들의 관심이 높아지고 있어요.\",\n  \"details\": [\n    \"AMD의 서버용 컴퓨터 사업 매출이 두 배 이상 늘었어요.\",\n    \"AMD의 게임 사업 부문은 상대적으로 부진했어요.\",\n    \"AMD는 2분기 실적 발표를 앞두고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"AMD의 서버 사업 성장은 인공지능 칩 수요 증가와 관련이 있을 수 있어요!\",\n    \"AMD의 실적 발표는 반도체 시장 전반의 흐름을 보여줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AMD\",\n      \"easy\": \"미국의 주요 반도체 회사 이름이에요.\",\n      \"example\": \"AMD는 컴퓨터에 들어가는 여러 부품을 만들어요.\"\n    },\n    {\n      \"term\": \"서버\",\n      \"easy\": \"많은 컴퓨터나 사람들에게 정보를 제공하는 컴퓨터를 말해요.\",\n      \"example\": \"인터넷 웹사이트가 잘 돌아가도록 서버가 도와줘요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "AMD data center…",
-   "one_liner": "AMD data center business just more than doubled…",
-   "why_now": null,
+   "title": "AMD, 서버 사업 두 배 성장",
+   "one_liner": "AMD의 서버용 컴퓨터 사업이 두 배 이상 성장했어요.",
+   "why_now": "AMD의 서버 사업 성장은 인공지능(AI) 기술 발전과 관련이 깊어요.",
    "details": [
-    "AMD data center business just more than doubled , and gaming is paying the price",
-    "Listen to the AMD Q2 2026 earnings call here",
-    "Why AMD Stock Popped Today | The Motley Fool"
+    "AMD의 서버용 컴퓨터 사업 매출이 두 배 이상 늘었어요.",
+    "AMD의 게임 사업 부문은 상대적으로 부진했어요.",
+    "AMD는 2분기 실적 발표를 앞두고 있어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "AMD의 서버 사업 성장은 인공지능 칩 수요 증가와 관련이 있을 수 있어요!",
+    "AMD의 실적 발표는 반도체 시장 전반의 흐름을 보여줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "e470af1be4339c2ba75929adb816499586c41ed5"
  },
