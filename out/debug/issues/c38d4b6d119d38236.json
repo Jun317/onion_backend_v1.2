@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-06T00:15:41.920367+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-06T10:04:49.125412+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -877,33 +877,33 @@
     "Pirro faces loyalty test by refuting Trump on reflecting pool",
     "Preakness Stakes Moving To Sunday In Triple Crown First",
     "The Trump admin just entered a surreal new phase",
-    "Jake Kalmin Warns : San Diego Military Borrowers Routinely Overpay on VA Loans Due to Costly Misconceptions"
+    "The three fragile pillars holding our economy up should worry you | The Scone Advocate"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"트럼프, 연못 훼손 주장 강행\",\n\"one_liner\": \"트럼프가 연못이 훼손되었다는 잘못된 주장을 계속하고 있어요.\",\n\"why_now\": \"정치인의 발언은 많은 사람들에게 영향을 미치기 때문에 사실 여부가 중요해요.\",\n\"impact_line\": \"정치인의 말 한마디에 여론이 흔들릴 수 있어요.\",\n\"details\": [\n\"트럼프가 연못이 훼손되었다는 주장을 굽히지 않고 있어요.\",\n\"이 주장은 사실이 아닌 것으로 알려졌어요.\",\n\"이번 일로 트럼프 행정부가 새로운 국면에 접어들었다는 평가가 나와요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"정치인의 발언이 사실과 다를 경우, 사회적 혼란이 커질 수 있어요!\",\n\"대중은 정치인의 발언을 비판적으로 받아들일 필요가 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"트럼프\",\n\"easy\": \"미국 전 대통령 이름이에요.\",\n\"example\": \"트럼프 전 대통령은 재임 시절 여러 정책을 추진했어요.\"\n}\n]\n}",
+  "raw_response": "{\n  \"title\": \"미국 경제 우려\",\n   \"one_liner\": \"미국 경제가 안정적이지 않다는 우려가 나오고 있어요.\",\n   \"why_now\": \"경제가 안정적이지 않으면 일상 생활에 영향을 줄 수 있어요.\",\n   \"impact_line\": \"일자리와 소비에 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"미국 경제에 대한 우려가 나오고 있어요.\",\n       \"일자리와 소비에 영향을 줄 수 있어요.\",\n       \"미국 경제의 안정성이 중요하다고 생각해요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"경제가 안정적이지 않으면 소비가 줄어들 수 있어요!\",\n       \"일자리도 줄어들 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": []
    }
   ],
   "output": {
-   "title": "트럼프, 연못 훼손 주장 강행",
-   "one_liner": "트럼프가 연못이 훼손되었다는 잘못된 주장을 계속하고 있어요.",
-   "why_now": "정치인의 발언은 많은 사람들에게 영향을 미치기 때문에 사실 여부가 중요해요.",
+   "title": "미국 경제 우려",
+   "one_liner": "미국 경제가 안정적이지 않다는 우려가 나오고 있어요.",
+   "why_now": "경제가 안정적이지 않으면 일상 생활에 영향을 줄 수 있어요.",
    "details": [
-    "트럼프가 연못이 훼손되었다는 주장을 굽히지 않고 있어요.",
-    "이 주장은 사실이 아닌 것으로 알려졌어요.",
-    "이번 일로 트럼프 행정부가 새로운 국면에 접어들었다는 평가가 나와요."
+    "미국 경제에 대한 우려가 나오고 있어요.",
+    "일자리와 소비에 영향을 줄 수 있어요.",
+    "미국 경제의 안정성이 중요하다고 생각해요."
    ],
    "effects": [
-    "정치인의 발언이 사실과 다를 경우, 사회적 혼란이 커질 수 있어요!",
-    "대중은 정치인의 발언을 비판적으로 받아들일 필요가 있어요!"
+    "경제가 안정적이지 않으면 소비가 줄어들 수 있어요!",
+    "일자리도 줄어들 수 있어요!"
    ],
    "visual_type": "none"
   },
-  "fact_hash": "136f90b97f292e66dca3e06a73ae1dae4fab328e"
+  "fact_hash": "8249cfbbb4f5f749d899a1bc440dbc530d69edc5"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
