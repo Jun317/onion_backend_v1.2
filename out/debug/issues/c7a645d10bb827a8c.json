@@ -104,8 +104,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-06T07:11:06.172950+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-06T12:25:16.620406+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -118,31 +118,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"캐터필러, 2분기 실적 호조\",\n  \"one_liner\": \"캐터필러의 2분기 매출과 이익이 크게 늘었어요.\",\n  \"why_now\": \"데이터 센터 건설 붐으로 캐터필러의 실적이 예상보다 좋게 나왔어요.\",\n  \"impact_line\": \"건설 장비 수요 증가로 관련 산업이 활기를 띨 수 있어요.\",\n  \"details\": [\n    \"캐터필러의 2분기 매출이 205억 달러를 기록했어요.\",\n    \"이는 시장 예상치를 뛰어넘는 기록적인 수치예요.\",\n    \"특히 데이터 센터 건설 붐이 실적을 견인했어요.\",\n    \"에너지 및 전력 부문도 좋은 성과를 보였어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"건설 장비 수요가 늘면서 관련 기업들의 실적도 좋아질 수 있어요!\",\n    \"캐터필러의 주가 상승은 다른 산업재 관련 주식에도 긍정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"매출\",\n      \"easy\": \"회사가 상품이나 서비스를 팔아 벌어들인 돈이에요.\",\n      \"example\": \"이번 달 매출이 지난달보다 10% 늘었어요.\"\n    },\n    {\n      \"term\": \"이익\",\n      \"easy\": \"회사가 돈을 벌고 나서 모든 비용을 빼고 남은 돈이에요.\",\n      \"example\": \"이번 분기 이익이 크게 늘어 주주들에게 배당금을 더 줄 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"캐터필러 실적\",\n   \"one_liner\": \"캐터필러의 매출과 이익이 올랐어요\",\n   \"why_now\": \"기업의 실적이 좋으면 주가가 오를 수 있어요\",\n   \"impact_line\": \"캐터필러 주주들이 주가 상승으로 이익을 볼 수 있어요\",\n   \"details\": [\n       \"캐터필러의 매출과 이익이 증가했어요\",\n       \"캐터필러의 주가가 6% 상승했어요\",\n       \"에너지와 전력 부문이 캐터필러의 성장에 기여했어요\",\n       \"캐터필러의 실적이 좋았어요\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n       \"캐터필러의 실적이 좋으면 관련 산업의 성장에도 기여할 수 있어요!\",\n       \"캐터필러의 주가 상승으로 투자자들이 이익을 볼 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [205.0]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [205.0]"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Advance Auto Parts…",
-   "one_liner": "Advance Auto Parts vs . Caterpillar : Which…",
-   "why_now": null,
+   "title": "캐터필러 실적",
+   "one_liner": "캐터필러의 매출과 이익이 올랐어요",
+   "why_now": "기업의 실적이 좋으면 주가가 오를 수 있어요",
    "details": [
-    "Advance Auto Parts vs . Caterpillar : Which Consumer Stock Is a Better Buy in 2026 ?",
-    "Caterpillar Earnings :  No One Is Slowing Down",
-    "PYMNTS | AI Data Center Boom Fuels Record $20 . 5B Quarter for Caterpillar"
+    "캐터필러의 매출과 이익이 증가했어요",
+    "캐터필러의 주가가 6% 상승했어요",
+    "에너지와 전력 부문이 캐터필러의 성장에 기여했어요",
+    "캐터필러의 실적이 좋았어요"
    ],
-   "effects": [],
+   "effects": [
+    "캐터필러의 실적이 좋으면 관련 산업의 성장에도 기여할 수 있어요!",
+    "캐터필러의 주가 상승으로 투자자들이 이익을 볼 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "0e0a961e1a47305c334ed2304cb1bda2d9188c16"
