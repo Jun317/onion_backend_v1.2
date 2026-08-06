@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-06T03:56:13.395388+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-06T07:17:07.495230+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,25 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기업들, 2026년 실적 전망 발표\",\n  \"one_liner\": \"여러 기업들이 2026년 실적에 대한 예상치를 발표했어요.\",\n  \"why_now\": \"기업들의 실적 전망은 앞으로 경기가 어떻게 흘러갈지 엿볼 수 있는 중요한 지표예요.\",\n  \"impact_line\": \"투자자들은 기업 실적 발표를 보고 투자 결정을 내릴 수 있어요.\",\n  \"details\": [\n    \"웨스코 인터내셔널은 2026년 연간 실적 전망을 내놓았어요.\",\n    \"스트라이커도 2026년 연간 실적에 대한 예상치를 발표했어요.\",\n    \"큐브스마트는 2026년 연간 실적 전망을 공개했어요.\",\n    \"스텔러스 캐피털 인베스트먼트는 2026년 2분기 실적 전망을 발표했어요.\",\n    \"크록스는 2026년 연간 실적 전망을 업데이트했어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"기업들의 실적 전망이 좋으면 해당 기업의 주가가 오를 수 있어요!\",\n    \"전반적인 실적 전망이 좋지 않으면 시장 전체가 위축될 수 있어요!\"\n  ],\n  \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "WESCO International…",
-   "one_liner": "WESCO International ( NYSE : WCC ) Releases FY…",
-   "why_now": null,
+   "title": "기업들, 2026년 실적 전망 발표",
+   "one_liner": "여러 기업들이 2026년 실적에 대한 예상치를 발표했어요.",
+   "why_now": "기업들의 실적 전망은 앞으로 경기가 어떻게 흘러갈지 엿볼 수 있는 중요한 지표예요.",
    "details": [
-    "WESCO International ( NYSE : WCC ) Releases FY 2026 Earnings Guidance",
-    "Stryker ( NYSE : SYK ) Issues FY 2026 Earnings Guidance",
-    "CubeSmart ( NYSE : CUBE ) Issues FY 2026 Earnings Guidance"
+    "웨스코 인터내셔널은 2026년 연간 실적 전망을 내놓았어요.",
+    "스트라이커도 2026년 연간 실적에 대한 예상치를 발표했어요.",
+    "큐브스마트는 2026년 연간 실적 전망을 공개했어요.",
+    "스텔러스 캐피털 인베스트먼트는 2026년 2분기 실적 전망을 발표했어요.",
+    "크록스는 2026년 연간 실적 전망을 업데이트했어요."
    ],
-   "effects": [],
+   "effects": [
+    "기업들의 실적 전망이 좋으면 해당 기업의 주가가 오를 수 있어요!",
+    "전반적인 실적 전망이 좋지 않으면 시장 전체가 위축될 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "c00516632ab6f1c5e877fb9f591ab5c765111378"

@@ -221,8 +221,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-06T03:48:29.058921+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-06T07:10:30.752420+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -235,32 +235,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"금값 소폭 상승\",\n    \"one_liner\": \"오늘 금값이 소폭 올랐어요.\",\n    \"why_now\": \"금값은 경제 상황이 불안정할 때 안전 자산으로 여겨져 오르는 경향이 있어요.\",\n    \"impact_line\": \"금 관련 상품에 투자했다면 수익이 늘 수 있어요.\",\n    \"details\": [\n        \"금값이 오늘 올랐어요.\",\n        \"금값은 최근 5개월 내 가장 큰 폭으로 올랐어요.\",\n        \"금값이 1.43만 루피에 가까워졌어요.\",\n        \"작은 금액으로 금에 투자하는 것이 인기를 얻고 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"금값이 더 오르면 금을 사려는 사람이 늘 수 있어요!\",\n        \"금값이 오르면 금을 팔려는 사람도 늘어날 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"금값\",\n            \"easy\": \"금의 시장 가격이에요.\",\n            \"example\": \"금값이 오르면 금반지를 살 때 더 많은 돈이 필요해요.\"\n        },\n        {\n            \"term\": \"안전 자산\",\n            \"easy\": \"경제 상황이 불안정할 때 가치가 떨어질 위험이 적은 자산을 말해요.\",\n            \"example\": \"주식 시장이 불안정할 때 사람들은 금이나 달러 같은 안전 자산으로 몰려가요.\"\n        }\n    ]\n}",
+  "raw_response": "{\n  \"title\": \"금값 상승\",\n   \"one_liner\": \"금값이 오늘 조금 올랐어요\",\n   \"why_now\": \"경제 불안정이 커지면 금값이 오르는 경우가 많아요\",\n   \"impact_line\": \"금을 가지고 있는 사람이 조금 더 부유해질 수 있어요\",\n   \"details\": [\n      \"오늘 금값이 조금 올랐어요\",\n      \"금값이 오르는 이유는 여러 가지 요인에 의해 결정돼요\",\n      \"금값이 오르면서 은값도 영향을 받을 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"금값이 오르면 금을 사두고 있던 사람이 더 많은 돈을 벌 수 있어요!\",\n      \"금값이 오르면 경제 불안정이 커지고 있는 것으로 보일 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [1.43]"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Why gold prices…",
-   "one_liner": "Why gold prices edged higher today ( Aug . 4 ):…",
-   "why_now": null,
+   "title": "금값 상승",
+   "one_liner": "금값이 오늘 조금 올랐어요",
+   "why_now": "경제 불안정이 커지면 금값이 오르는 경우가 많아요",
    "details": [
-    "Why gold prices edged higher today ( Aug . 4 ): Key factors driving gold and silver",
-    "Gold and silver price today , August 4 : Check rates of 24K , 22K gold in Delhi , Mumbai , Kolkata other cities",
-    "The Price of Gold Today , August 4 , 2026"
+    "오늘 금값이 조금 올랐어요",
+    "금값이 오르는 이유는 여러 가지 요인에 의해 결정돼요",
+    "금값이 오르면서 은값도 영향을 받을 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "금값이 오르면 금을 사두고 있던 사람이 더 많은 돈을 벌 수 있어요!",
+    "금값이 오르면 경제 불안정이 커지고 있는 것으로 보일 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "ebe82cb6e1f3b9a6b5760ce448b919f081d9c4f7"
  },

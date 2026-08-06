@@ -714,8 +714,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-06T03:50:20.950484+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-06T07:11:18.626592+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -728,26 +728,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"미국 주식 시장 동향\",\n    \"one_liner\": \"미국 주식 시장에서 주목할 만한 종목과 그렇지 않은 종목이 섞여 있어요.\",\n    \"why_now\": \"주식 시장은 경제 상황을 반영하며, 개별 종목의 움직임은 투자 심리에 영향을 줄 수 있어요.\",\n    \"impact_line\": \"주식 시장의 변동은 투자자들의 자산 가치에 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"러셀 2000 지수에 포함된 주식 중 하나가 주목받고 있어요.\",\n        \"반면, 다른 두 종목은 기대에 미치지 못하고 있어요.\",\n        \"특정 ETF 두 개가 사상 최고치를 기록했어요.\",\n        \"이 ETF들은 스페이스X와 관련이 있는 것으로 보여요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"주목받는 종목의 주가는 오를 수 있어요!\",\n        \"사상 최고치를 기록한 ETF에 투자하면 더 높은 수익을 기대할 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"러셀 2000\",\n            \"easy\": \"미국 중소형 주식 2000개를 모아 만든 주가 지수예요.\",\n            \"example\": \"러셀 2000 지수가 오르면 미국 중소형 기업들의 주가가 전반적으로 좋다는 뜻이에요.\"\n        },\n        {\n            \"term\": \"ETF\",\n            \"easy\": \"주식처럼 사고팔 수 있는 펀드예요. 여러 종목에 나눠 투자하는 효과가 있어요.\",\n            \"example\": \"ETF에 투자하면 한 번에 여러 회사의 주식을 사는 것과 같아요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "1 Russell 2000 Stock…",
-   "one_liner": "1 Russell 2000 Stock on Our Watchlist and 2 That…",
-   "why_now": null,
+   "title": "미국 주식 시장 동향",
+   "one_liner": "미국 주식 시장에서 주목할 만한 종목과 그렇지 않은 종목이 섞여 있어요.",
+   "why_now": "주식 시장은 경제 상황을 반영하며, 개별 종목의 움직임은 투자 심리에 영향을 줄 수 있어요.",
    "details": [
-    "1 Russell 2000 Stock on Our Watchlist and 2 That Underwhelm",
-    "Meet 2 Vanguard ETFs That Just Hit All - Time Highs . Here What They Have in Common ( Hint : It Has to Do With SpaceX ).",
-    "Will Elon Musk Bullish Starlink Bet Help SPCX Recover ? Billionaire Charts Ambitious Connectivity Plan A"
+    "러셀 2000 지수에 포함된 주식 중 하나가 주목받고 있어요.",
+    "반면, 다른 두 종목은 기대에 미치지 못하고 있어요.",
+    "특정 ETF 두 개가 사상 최고치를 기록했어요.",
+    "이 ETF들은 스페이스X와 관련이 있는 것으로 보여요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "주목받는 종목의 주가는 오를 수 있어요!",
+    "사상 최고치를 기록한 ETF에 투자하면 더 높은 수익을 기대할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "80e566b5889ef208675607babaed81432b361822"
  },

@@ -238,8 +238,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-06T03:51:53.754456+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-06T07:12:37.341502+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -252,26 +252,29 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"기업 실적 발표\", \"one_liner\": \"여러 기업들이 2분기 실적을 발표했어요.\", \"why_now\": \"기업의 실적은 앞으로의 성장 가능성을 보여주는 중요한 지표예요.\", \"impact_line\": \"관심 있는 기업의 실적 발표를 눈여겨볼 필요가 있어요.\", \"details\": [\"IDEXX Laboratories가 2분기 실적을 발표했어요.\", \"Thomson Reuters가 2분기 실적을 발표했어요.\", \"Zalando는 2분기 순이익이 줄었다고 발표했어요.\", \"Medline이 2분기 실적을 발표했어요.\", \"BeOne Medicines가 2분기 실적을 발표했어요.\"], \"visual_type\": \"none\", \"effects\": [\"실적이 좋은 기업은 주가가 오를 수 있어요!\", \"실적이 기대에 못 미친 기업은 주가가 하락할 수 있어요!\"], \"glossary\": []}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "IDEXX Laboratories…",
-   "one_liner": "IDEXX Laboratories Q2 Earnings Call Highlights",
-   "why_now": null,
+   "title": "기업 실적 발표",
+   "one_liner": "여러 기업들이 2분기 실적을 발표했어요.",
+   "why_now": "기업의 실적은 앞으로의 성장 가능성을 보여주는 중요한 지표예요.",
    "details": [
-    "IDEXX Laboratories Q2 Earnings Call Highlights",
-    "Thomson Reuters Q2 Earnings Call Highlights",
-    "Zalando reports lower Q2 net income ; narrows full - year guidance"
+    "IDEXX Laboratories가 2분기 실적을 발표했어요.",
+    "Thomson Reuters가 2분기 실적을 발표했어요.",
+    "Zalando는 2분기 순이익이 줄었다고 발표했어요.",
+    "Medline이 2분기 실적을 발표했어요.",
+    "BeOne Medicines가 2분기 실적을 발표했어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "실적이 좋은 기업은 주가가 오를 수 있어요!",
+    "실적이 기대에 못 미친 기업은 주가가 하락할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "f4c99368b45b0904c8b655507ea462ba337e3b3d"
  },
@@ -279,7 +282,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-06T03:51:53.754373+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "순이익",
+   "easy": "비용·세금까지 다 빼고 최종으로 남은 이익이에요.",
+   "example": ""
+  }
+ ],
  "related": [
   {
    "id": "c13ff9296b0f3d9e3",

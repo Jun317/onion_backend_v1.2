@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-06T03:49:06.067951+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-06T07:10:47.550988+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,26 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"국내외 증시 동향\",\n\"one_liner\": \"국내외 증시가 다양한 경제 지표와 이슈에 영향을 받고 있어요.\",\n\"why_now\": \"국제 유가와 환율 등 다양한 경제 지표가 증시에 영향을 미치고 있어요.\",\n\"impact_line\": \"주식 시장의 변동성이 커질 수 있어요.\",\n\"details\": [\n\"미국 증시는 금리 인하 기대감과 기업 실적 발표에 주목하고 있어요.\",\n\"유럽 증시는 경기 침체 우려와 지정학적 리스크로 약세를 보이고 있어요.\",\n\"중국 증시는 정부의 경기 부양책 기대감으로 상승세를 보이고 있어요.\",\n\"국내 증시는 외국인 투자자들의 동향에 따라 변동성이 커질 수 있어요.\"\n],\n\"visual_type\": \"kospi_close\",\n\"effects\": [\n\"금리가 인하되면 기업의 자금 조달 비용이 줄어 실적이 개선될 수 있어요!\",\n\"경기 침체 우려가 커지면 소비와 투자가 위축되어 경제 성장률이 둔화될 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"금리 인하\",\n\"easy\": \"나라의 기준금리가 낮아지는 것을 말해요.\",\n\"example\": \"금리가 내리면 대출 이자도 보통 따라 내려요.\"\n},\n{\n\"term\": \"경기 침체\",\n\"easy\": \"나라 경제가 전반적으로 어려워지는 것을 말해요.\",\n\"example\": \"경기가 안 좋으면 일자리가 줄고 물건값도 떨어질 수 있어요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trade Setup for…",
-   "one_liner": "Trade Setup for August 6 : Top 15 things to know…",
-   "why_now": null,
+   "title": "국내외 증시 동향",
+   "one_liner": "국내외 증시가 다양한 경제 지표와 이슈에 영향을 받고 있어요.",
+   "why_now": "국제 유가와 환율 등 다양한 경제 지표가 증시에 영향을 미치고 있어요.",
    "details": [
-    "Trade Setup for August 6 : Top 15 things to know before the opening bell",
-    "First Tick : Top global cues to watch in today trade",
-    "Lower real interest rates have not hurt deposit growth in India : SBI Research"
+    "미국 증시는 금리 인하 기대감과 기업 실적 발표에 주목하고 있어요.",
+    "유럽 증시는 경기 침체 우려와 지정학적 리스크로 약세를 보이고 있어요.",
+    "중국 증시는 정부의 경기 부양책 기대감으로 상승세를 보이고 있어요.",
+    "국내 증시는 외국인 투자자들의 동향에 따라 변동성이 커질 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "금리가 인하되면 기업의 자금 조달 비용이 줄어 실적이 개선될 수 있어요!",
+    "경기 침체 우려가 커지면 소비와 투자가 위축되어 경제 성장률이 둔화될 수 있어요!"
+   ],
+   "visual_type": "kospi_close"
   },
   "fact_hash": "74c57e7a975eb370c606fb9713cdfaeb656a4622"
  },
@@ -908,7 +910,18 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-06T03:49:06.067879+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "환율",
+   "easy": "우리 돈과 외국 돈을 바꾸는 비율이에요.",
+   "example": "오르면 외국 돈이 그만큼 비싸진 거예요."
+  },
+  {
+   "term": "금리 인하",
+   "easy": "이자의 기준을 낮추는 거예요.",
+   "example": "대출 이자가 줄어 돈 쓰기가 조금 수월해져요."
+  }
+ ],
  "related": [
   {
    "id": "c473082d7f30acb2b",

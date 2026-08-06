@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 12,
- "importance": 60,
+ "importance": 55,
  "created_at": "2026-07-30T22:32:46.858741+00:00",
  "last_update": "2026-08-04T06:47:08.907207+00:00",
  "members": [
@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-06T03:54:22.227152+00:00",
+  "created_at": "2026-08-06T07:16:55.763771+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,8 +881,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"기업 실적 발표 예정\", \"one_liner\": \"여러 기업이 2분기 실적을 발표할 예정이에요.\", \"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\", \"impact_line\": null, \"details\": [\"NN, Axon, Energy Recovery, Herbalife, Fluence Energy 등 여러 기업이 2분기 실적을 발표할 예정입니다.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": []}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +912,8 @@
   "fact_hash": "52ea28e1487ff875ead2642750f3d3b6f380e3e8"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-06T03:54:22.227031+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-06T07:16:55.763673+00:00"
  },
  "glossary": [],
  "related": [
