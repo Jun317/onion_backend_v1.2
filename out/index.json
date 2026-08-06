@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-08-06T12:33:50.055146+00:00",
+ "generated_at": "2026-08-06T15:44:32.558444+00:00",
  "attribution": "News metadata via GDELT (gdeltproject.org) · Data: FRED, 한국은행 ECOS, DART, SEC EDGAR",
  "issues": [
   {
@@ -59,41 +59,6 @@
    "headline_stat": null,
    "spark": null,
    "icon": "🇺🇸"
-  },
-  {
-   "id": "eb1bdaa0b3cb70aec",
-   "title": "한국 기준금리 인상",
-   "one_liner": "한국은행이 기준금리를 올려 연 2.75%가 됐어요",
-   "why_now": "금리가 오르면 대출 이자가 늘어나 가계 부담이 커지는 게 보통이에요",
-   "impact_line": "변동금리 대출의 이자 부담이 무거워질 수 있어요",
-   "raw_title": "한국은행 기준금리 인상 (2.75%)",
-   "category": "RATE",
-   "status": "active",
-   "origin": "official_event",
-   "sources": 0,
-   "importance": 130,
-   "last_update": "2026-08-03T12:39:52.792567+00:00",
-   "event_at": "2026-08-03T11:32:57.816558+00:00",
-   "has_visual": true,
-   "headline_stat": {
-    "label": "한국은행 기준금리",
-    "value": "2.75",
-    "unit": "%",
-    "delta_text": "+0.25%p",
-    "direction": "up",
-    "prev_text": "직전 2.5%"
-   },
-   "spark": [
-    2.5,
-    2.5,
-    2.5,
-    2.5,
-    2.5,
-    2.5,
-    2.5,
-    2.75
-   ],
-   "icon": "🏦"
   },
   {
    "id": "cd6e96f9df3790928",
@@ -470,14 +435,14 @@
    "has_visual": true,
    "headline_stat": null,
    "spark": [
-    6690.62,
     6755.75,
     6023.66,
     5663.24,
     5593.56,
     6595.45,
     6257.45,
-    6358.95
+    6358.95,
+    6598.26
    ],
    "icon": "📈"
   },
@@ -498,14 +463,14 @@
    "has_visual": true,
    "headline_stat": null,
    "spark": [
-    6690.62,
     6755.75,
     6023.66,
     5663.24,
     5593.56,
     6595.45,
     6257.45,
-    6358.95
+    6358.95,
+    6598.26
    ],
    "icon": "📈"
   },
@@ -859,6 +824,41 @@
    "headline_stat": null,
    "spark": null,
    "icon": "🇯🇵"
+  },
+  {
+   "id": "eb1bdaa0b3cb70aec",
+   "title": "한국 기준금리 인상",
+   "one_liner": "한국은행이 기준금리를 올려 연 2.75%가 됐어요",
+   "why_now": "금리가 오르면 대출 이자가 늘어나 가계 부담이 커지는 게 보통이에요",
+   "impact_line": "변동금리 대출의 이자 부담이 무거워질 수 있어요",
+   "raw_title": "한국은행 기준금리 인상 (2.75%)",
+   "category": "RATE",
+   "status": "stale",
+   "origin": "official_event",
+   "sources": 0,
+   "importance": 125,
+   "last_update": "2026-08-03T12:39:52.792567+00:00",
+   "event_at": "2026-08-03T11:32:57.816558+00:00",
+   "has_visual": true,
+   "headline_stat": {
+    "label": "한국은행 기준금리",
+    "value": "2.75",
+    "unit": "%",
+    "delta_text": "+0.25%p",
+    "direction": "up",
+    "prev_text": "직전 2.5%"
+   },
+   "spark": [
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.75
+   ],
+   "icon": "🏦"
   },
   {
    "id": "c01efb76fcd7102be",
@@ -1456,25 +1456,6 @@
    "icon": "🌡️"
   },
   {
-   "id": "c92d5d85856ed7a86",
-   "title": "중국, 호주 철광석 압박",
-   "one_liner": "중국이 호주산 철광석에 대한 압박 수위를 높이고 있어요.",
-   "why_now": "철광석은 철강 생산의 핵심 원료로, 가격 변동은 건설 및 제조업에 영향을 줄 수 있어요.",
-   "impact_line": "철강 가격이 오르면 자동차, 가전제품 가격도 오를 수 있어요.",
-   "raw_title": "Food Dive : Food Industry News and Analysis",
-   "category": "POLICY",
-   "status": "stale",
-   "origin": "cluster",
-   "sources": 39,
-   "importance": 80,
-   "last_update": "2026-07-31T13:11:41.798739+00:00",
-   "event_at": "2026-07-31T12:00:00+00:00",
-   "has_visual": false,
-   "headline_stat": null,
-   "spark": null,
-   "icon": "🏛️"
-  },
-  {
    "id": "ca7e18652a27e4c6f",
    "title": "주택 관련 정책 논쟁",
    "one_liner": "미국에서 주택 가격 안정화 정책과 관세 부과를 둘러싼 논쟁이 벌어지고 있어요.",
@@ -1511,6 +1492,25 @@
    "headline_stat": null,
    "spark": null,
    "icon": "🇨🇳"
+  },
+  {
+   "id": "c92d5d85856ed7a86",
+   "title": "중국, 호주 철광석 압박",
+   "one_liner": "중국이 호주산 철광석에 대한 압박 수위를 높이고 있어요.",
+   "why_now": "철광석은 철강 생산의 핵심 원료로, 가격 변동은 건설 및 제조업에 영향을 줄 수 있어요.",
+   "impact_line": "철강 가격이 오르면 자동차, 가전제품 가격도 오를 수 있어요.",
+   "raw_title": "Food Dive : Food Industry News and Analysis",
+   "category": "POLICY",
+   "status": "stale",
+   "origin": "cluster",
+   "sources": 39,
+   "importance": 75,
+   "last_update": "2026-07-31T13:11:41.798739+00:00",
+   "event_at": "2026-07-31T12:00:00+00:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🏛️"
   },
   {
    "id": "c034f3c6fc851a03c",
@@ -1792,14 +1792,14 @@
     "prev_text": null
    },
    "spark": [
-    6690.62,
     6755.75,
     6023.66,
     5663.24,
     5593.56,
     6595.45,
     6257.45,
-    6358.95
+    6358.95,
+    6598.26
    ],
    "icon": "🇰🇷"
   },
@@ -1821,25 +1821,6 @@
    "headline_stat": null,
    "spark": null,
    "icon": "📈"
-  },
-  {
-   "id": "ccdbc1807faec3f4f",
-   "title": "트럼프 관세에 대한 법적 도전",
-   "one_liner": "트럼프 전 대통령의 새 관세에 대해 법적 소송이 제기될 가능성이 있어요.",
-   "why_now": "이 관세가 미국 소비자들의 물건값에 영향을 줄 수 있기 때문이에요.",
-   "impact_line": "수입 물건값이 오를 수 있어요.",
-   "raw_title": "Were a pawn in a larger game : A legal challenge is likely on Trump new tariffs . It may be too late",
-   "category": "POLICY",
-   "status": "stale",
-   "origin": "cluster",
-   "sources": 41,
-   "importance": 70,
-   "last_update": "2026-07-31T15:34:59.252622+00:00",
-   "event_at": "2026-07-31T14:30:00+00:00",
-   "has_visual": false,
-   "headline_stat": null,
-   "spark": null,
-   "icon": "🏛️"
   },
   {
    "id": "c6ea1632cc08136b5",
@@ -1992,6 +1973,25 @@
    "headline_stat": null,
    "spark": null,
    "icon": "🧾"
+  },
+  {
+   "id": "ccdbc1807faec3f4f",
+   "title": "트럼프 관세에 대한 법적 도전",
+   "one_liner": "트럼프 전 대통령의 새 관세에 대해 법적 소송이 제기될 가능성이 있어요.",
+   "why_now": "이 관세가 미국 소비자들의 물건값에 영향을 줄 수 있기 때문이에요.",
+   "impact_line": "수입 물건값이 오를 수 있어요.",
+   "raw_title": "Were a pawn in a larger game : A legal challenge is likely on Trump new tariffs . It may be too late",
+   "category": "POLICY",
+   "status": "stale",
+   "origin": "cluster",
+   "sources": 41,
+   "importance": 65,
+   "last_update": "2026-07-31T15:34:59.252622+00:00",
+   "event_at": "2026-07-31T14:30:00+00:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🏛️"
   },
   {
    "id": "cd9e8d293d4fcfa7a",
@@ -2447,14 +2447,14 @@
    "has_visual": true,
    "headline_stat": null,
    "spark": [
-    6690.62,
     6755.75,
     6023.66,
     5663.24,
     5593.56,
     6595.45,
     6257.45,
-    6358.95
+    6358.95,
+    6598.26
    ],
    "icon": "🇰🇷"
   },
@@ -3300,25 +3300,6 @@
    "icon": "🧾"
   },
   {
-   "id": "c535b232d511f0963",
-   "title": "기업 비교",
-   "one_liner": "몇몇 기업을 비교했어요",
-   "why_now": "기업을 비교하면 어떤 기업이 더 좋은지 알 수 있어요",
-   "impact_line": "주식 투자 결정에 도움이 될 수 있어요",
-   "raw_title": "Critical Contrast : Liberty Silver ( OTCMKTS : BHLL ) and Fortuna Mining ( NYSE : FSM )",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "sources": 34,
-   "importance": 45,
-   "last_update": "2026-08-01T15:33:54.883126+00:00",
-   "event_at": "2026-08-01T14:15:00+00:00",
-   "has_visual": false,
-   "headline_stat": null,
-   "spark": null,
-   "icon": "🧾"
-  },
-  {
    "id": "cf9c42e5d29f716f3",
    "title": "기업 실적 발표",
    "one_liner": "여러 기업들이 2분기 실적을 발표했어요.",
@@ -3427,6 +3408,25 @@
    "importance": 45,
    "last_update": "2026-07-17T19:38:57.554622+00:00",
    "event_at": "2026-07-17T17:15:00+00:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🧾"
+  },
+  {
+   "id": "c535b232d511f0963",
+   "title": "기업 비교",
+   "one_liner": "몇몇 기업을 비교했어요",
+   "why_now": "기업을 비교하면 어떤 기업이 더 좋은지 알 수 있어요",
+   "impact_line": "주식 투자 결정에 도움이 될 수 있어요",
+   "raw_title": "Critical Contrast : Liberty Silver ( OTCMKTS : BHLL ) and Fortuna Mining ( NYSE : FSM )",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "sources": 34,
+   "importance": 40,
+   "last_update": "2026-08-01T15:33:54.883126+00:00",
+   "event_at": "2026-08-01T14:15:00+00:00",
    "has_visual": false,
    "headline_stat": null,
    "spark": null,
@@ -3776,6 +3776,10 @@
      {
       "t": "2026-08-04",
       "v": 6358.95
+     },
+     {
+      "t": "2026-08-05",
+      "v": 6598.26
      }
     ]
    },
