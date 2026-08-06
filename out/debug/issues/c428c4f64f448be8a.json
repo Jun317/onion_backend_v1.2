@@ -153,8 +153,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-05T20:45:40.715668+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-06T00:15:32.331296+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -167,25 +167,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"트럼프 관세에 소송\",\n   \"one_liner\": \"미국 25개 주가 트럼프 정부의 새로운 관세에 대해 소송을 냈어요\",\n   \"why_now\": \"이 소식이 중요한 이유는 관세가 높아지면 물건 값이 오를 수 있기 때문이에요\",\n   \"impact_line\": \"주유비·배송비가 오를 수 있어요\",\n   \"details\": [\n       \"미국 25개 주가 트럼프 정부의 새로운 관세에 대해 소송을 냈어요\",\n       \"이 관세는 유럽과 아프리카에서 들어오는 물건에 부과할 계획이에요\",\n       \"주들은 이 관세가 불법이라고 주장하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"물건 값이 오르면 소비자들이 물건을 사기 더 어려워질 수 있어요!\",\n       \"기업들이 수출을 더 어려워할 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"관세\",\n           \"easy\": \"수입한 물건에 부과하는 세이에요\",\n           \"example\": \"관세가 높으면 물건 값이 더 비싸져요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "US : 25 states sue…",
-   "one_liner": "US : 25 states sue Trump administration over new…",
-   "why_now": null,
+   "title": "트럼프 관세에 소송",
+   "one_liner": "미국 25개 주가 트럼프 정부의 새로운 관세에 대해 소송을 냈어요",
+   "why_now": "이 소식이 중요한 이유는 관세가 높아지면 물건 값이 오를 수 있기 때문이에요",
    "details": [
-    "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful",
-    "US : 25 States Sue Over Trump New Tariffs",
-    "25 US states sue Trump admin over new tariffs"
+    "미국 25개 주가 트럼프 정부의 새로운 관세에 대해 소송을 냈어요",
+    "이 관세는 유럽과 아프리카에서 들어오는 물건에 부과할 계획이에요",
+    "주들은 이 관세가 불법이라고 주장하고 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "물건 값이 오르면 소비자들이 물건을 사기 더 어려워질 수 있어요!",
+    "기업들이 수출을 더 어려워할 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "080897cd60bc964f2d3ca9ca0f9b61a84b37c29d"
@@ -194,7 +195,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-05T20:45:40.715605+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "c2efbf61ddb697589",

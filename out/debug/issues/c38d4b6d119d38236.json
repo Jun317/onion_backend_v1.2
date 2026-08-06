@@ -714,8 +714,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-05T20:45:59.096703+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-06T00:15:41.920367+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -728,25 +728,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"트럼프, 연못 훼손 주장 강행\",\n\"one_liner\": \"트럼프가 연못이 훼손되었다는 잘못된 주장을 계속하고 있어요.\",\n\"why_now\": \"정치인의 발언은 많은 사람들에게 영향을 미치기 때문에 사실 여부가 중요해요.\",\n\"impact_line\": \"정치인의 말 한마디에 여론이 흔들릴 수 있어요.\",\n\"details\": [\n\"트럼프가 연못이 훼손되었다는 주장을 굽히지 않고 있어요.\",\n\"이 주장은 사실이 아닌 것으로 알려졌어요.\",\n\"이번 일로 트럼프 행정부가 새로운 국면에 접어들었다는 평가가 나와요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"정치인의 발언이 사실과 다를 경우, 사회적 혼란이 커질 수 있어요!\",\n\"대중은 정치인의 발언을 비판적으로 받아들일 필요가 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"트럼프\",\n\"easy\": \"미국 전 대통령 이름이에요.\",\n\"example\": \"트럼프 전 대통령은 재임 시절 여러 정책을 추진했어요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump pushes ahead…",
-   "one_liner": "Trump pushes ahead on false claims that…",
-   "why_now": null,
+   "title": "트럼프, 연못 훼손 주장 강행",
+   "one_liner": "트럼프가 연못이 훼손되었다는 잘못된 주장을 계속하고 있어요.",
+   "why_now": "정치인의 발언은 많은 사람들에게 영향을 미치기 때문에 사실 여부가 중요해요.",
    "details": [
-    "Trump pushes ahead on false claims that Reflecting Pool was vandalized",
-    "Pirro faces loyalty test by refuting Trump on reflecting pool",
-    "Preakness Stakes Moving To Sunday In Triple Crown First"
+    "트럼프가 연못이 훼손되었다는 주장을 굽히지 않고 있어요.",
+    "이 주장은 사실이 아닌 것으로 알려졌어요.",
+    "이번 일로 트럼프 행정부가 새로운 국면에 접어들었다는 평가가 나와요."
    ],
-   "effects": [],
+   "effects": [
+    "정치인의 발언이 사실과 다를 경우, 사회적 혼란이 커질 수 있어요!",
+    "대중은 정치인의 발언을 비판적으로 받아들일 필요가 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "136f90b97f292e66dca3e06a73ae1dae4fab328e"
@@ -778,6 +779,12 @@
   {
    "id": "c6f9e57edbc5d69b6",
    "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "c5f82537f5f95872f",
+   "title": "Millions join Arbaeen pilgrimage in Iraq amid fears of US - Iran escalation",
    "category": "GEO",
    "shared": []
   }

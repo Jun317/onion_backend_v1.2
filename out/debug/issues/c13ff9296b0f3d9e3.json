@@ -121,8 +121,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-05T20:43:06.184355+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-06T00:15:38.070699+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -135,34 +135,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"디즈니, 장난감 사업·테마파크로 실적 개선\",\n  \"one_liner\": \"디즈니가 장난감 사업과 테마파크 덕분에 좋은 실적을 냈어요.\",\n  \"why_now\": \"디즈니의 실적은 영화뿐 아니라 테마파크, 상품 판매 등 다양한 사업에서 나오기 때문에 주목할 만해요.\",\n  \"impact_line\": \"디즈니 관련 상품이나 테마파크 방문 비용에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"토이 스토리 5가 스트리밍 사업과 상품 판매를 늘리는 데 기여했어요.\",\n    \"테마파크 사업도 좋은 실적을 이끌었어요.\",\n    \"하지만 모아나와 만달로리안의 흥행 부진은 아쉬움으로 남았어요.\",\n    \"디즈니는 틱톡과 콘텐츠 공유 계약을 맺었어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"디즈니의 스트리밍 서비스와 상품 판매가 더욱 늘어날 수 있어요!\",\n    \"테마파크 방문객 증가로 관련 매출이 더 오를 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"스트리밍 사업\",\n      \"easy\": \"인터넷으로 영화나 음악을 바로 볼 수 있게 해주는 사업이에요.\",\n      \"example\": \"넷플릭스나 유튜브 프리미엄이 대표적인 스트리밍 서비스예요.\"\n    },\n    {\n      \"term\": \"테마파크\",\n      \"easy\": \"특정 주제를 가지고 꾸며 놓은 놀이공원이나 유원지예요.\",\n      \"example\": \"디즈니랜드나 에버랜드가 테마파크의 예시예요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"디즈니 실적 상승\",\n   \"one_liner\": \"디즈니의 실적이 올라갔어요\",\n   \"why_now\": \"영화와 테마파크가 잘돼서 그런 거예요\",\n   \"impact_line\": \"디즈니 영화와 테마파크를 이용하는 사람이 많아질 수 있어요\",\n   \"details\": [\n       \"디즈니의 새로운 영화가 잘돼서 실적이 올라갔어요\",\n       \"테마파크도 잘돼서 실적에 기여했어요\",\n       \"디즈니의 스트리밍 사업도 잘돼서 실적이 올라갔어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"디즈니 영화와 테마파크를 이용하는 사람이 많아져서 관련 산업도 발전할 수 있어요!\",\n       \"디즈니의 실적 상승으로 주가도 올라갈 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "effects[0] 느낌표 종결 아님",
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
      "title 22자 초과(23)",
-     "why_now 55자 초과(56)"
+     "why_now 55자 초과(63)"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Disney  Toy Story 5…",
-   "one_liner": "Disney  Toy Story 5  fuels streaming business…",
-   "why_now": null,
+   "title": "디즈니 실적 상승",
+   "one_liner": "디즈니의 실적이 올라갔어요",
+   "why_now": "영화와 테마파크가 잘돼서 그런 거예요",
    "details": [
-    "Disney  Toy Story 5  fuels streaming business and merchandise sales for June quarter",
-    "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
-    "Toy Story 5 and theme parks drive strong Disney quarter"
+    "디즈니의 새로운 영화가 잘돼서 실적이 올라갔어요",
+    "테마파크도 잘돼서 실적에 기여했어요",
+    "디즈니의 스트리밍 사업도 잘돼서 실적이 올라갔어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "디즈니 영화와 테마파크를 이용하는 사람이 많아져서 관련 산업도 발전할 수 있어요!",
+    "디즈니의 실적 상승으로 주가도 올라갈 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "2068a274c743adec4eaed9852961c9f273943a2f"
  },
@@ -193,12 +193,6 @@
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c7a645d10bb827a8c",
-   "title": "Caterpillar Stock Rises 6 % After Strong Q2 Revenue And Profit Growth",
    "category": "EARNINGS",
    "shared": []
   }
