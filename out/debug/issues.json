@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T12:05:47.799222+00:00",
+ "generated_at": "2026-08-07T13:44:51.411429+00:00",
  "issues": [
   {
    "id": "cea83213c8906724e",
@@ -181,46 +181,6 @@
    "in_review": true
   },
   {
-   "id": "cd6e96f9df3790928",
-   "title": "US economy cools in second quarter despite solid spending",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 32,
-   "importance": 125,
-   "entity_keys": [
-    "ABBV",
-    "CHINA",
-    "SEC"
-   ],
-   "created_at": "2026-08-02T04:45:35.342282+00:00",
-   "last_update": "2026-08-04T12:24:13.824667+00:00",
-   "members": 50,
-   "llm_title": "외국인 투자 흐름",
-   "one_liner": "외국인 투자자들이 돈을 넣거나 뺄 때 환율에 영향을 미치나요.",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "eb1bdaa0b3cb70aec",
-   "title": "한국은행 기준금리 인상 (2.75%)",
-   "category": "RATE",
-   "status": "stale",
-   "origin": "official_event",
-   "seen_sources": 0,
-   "importance": 125,
-   "entity_keys": [
-    "BOK"
-   ],
-   "created_at": "2026-08-03T11:32:57.816558+00:00",
-   "last_update": "2026-08-03T12:39:52.792567+00:00",
-   "members": 0,
-   "llm_title": "한국 기준금리 인상",
-   "one_liner": "한국은행이 기준금리를 올려 연 2.75%가 됐어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": false
-  },
-  {
    "id": "c71b0b5d782052f63",
    "title": "Bank Of Japan Maintains Key Rate",
    "category": "RATE",
@@ -277,6 +237,46 @@
    "one_liner": "한국은행이 기준금리를 올렸어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
+  },
+  {
+   "id": "cd6e96f9df3790928",
+   "title": "US economy cools in second quarter despite solid spending",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 32,
+   "importance": 120,
+   "entity_keys": [
+    "ABBV",
+    "CHINA",
+    "SEC"
+   ],
+   "created_at": "2026-08-02T04:45:35.342282+00:00",
+   "last_update": "2026-08-04T12:24:13.824667+00:00",
+   "members": 50,
+   "llm_title": "외국인 투자 흐름",
+   "one_liner": "외국인 투자자들이 돈을 넣거나 뺄 때 환율에 영향을 미치나요.",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "eb1bdaa0b3cb70aec",
+   "title": "한국은행 기준금리 인상 (2.75%)",
+   "category": "RATE",
+   "status": "stale",
+   "origin": "official_event",
+   "seen_sources": 0,
+   "importance": 120,
+   "entity_keys": [
+    "BOK"
+   ],
+   "created_at": "2026-08-03T11:32:57.816558+00:00",
+   "last_update": "2026-08-03T12:39:52.792567+00:00",
+   "members": 0,
+   "llm_title": "한국 기준금리 인상",
+   "one_liner": "한국은행이 기준금리를 올려 연 2.75%가 됐어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": false
   },
   {
    "id": "c37ad01cf8a091a74",
@@ -509,17 +509,34 @@
    "in_review": true
   },
   {
+   "id": "c428c4f64f448be8a",
+   "title": "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 26,
+   "importance": 105,
+   "entity_keys": [],
+   "created_at": "2026-08-04T10:05:33.922649+00:00",
+   "last_update": "2026-08-07T13:44:47.209277+00:00",
+   "members": 34,
+   "llm_title": "Trump signs…",
+   "one_liner": "Trump signs executive order to impose 15 %…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "cc5f32ffe704daa10",
    "title": "Delayed monsoon unlikely to trigger broader economic impact , but food inflation may stay elevated : Report",
    "category": "MACRO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 7,
+   "seen_sources": 8,
    "importance": 105,
    "entity_keys": [],
    "created_at": "2026-08-04T10:05:33.920245+00:00",
-   "last_update": "2026-08-07T12:04:29.506504+00:00",
-   "members": 12,
+   "last_update": "2026-08-07T13:44:47.209082+00:00",
+   "members": 13,
    "llm_title": "MPC can judiciously…",
    "one_liner": "MPC can judiciously use its tolerance band to…",
    "llm_model": "template",
@@ -936,40 +953,42 @@
    "in_review": true
   },
   {
-   "id": "c428c4f64f448be8a",
-   "title": "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 25,
-   "importance": 95,
-   "entity_keys": [],
-   "created_at": "2026-08-04T10:05:33.922649+00:00",
-   "last_update": "2026-08-07T12:04:29.507799+00:00",
-   "members": 33,
-   "llm_title": "Trump signs…",
-   "one_liner": "Trump signs executive order to impose 15 %…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "c9b9de6553886cd90",
    "title": "UPDATE - LifeMD Reports Second Quarter 2026 Results",
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 7,
+   "seen_sources": 8,
    "importance": 95,
    "entity_keys": [
     "SEC"
    ],
    "created_at": "2026-08-07T03:26:37.921104+00:00",
-   "last_update": "2026-08-07T12:04:29.505533+00:00",
-   "members": 8,
+   "last_update": "2026-08-07T13:44:47.207735+00:00",
+   "members": 9,
    "llm_title": "UPDATE - LifeMD…",
    "one_liner": "UPDATE - LifeMD Reports Second Quarter 2026…",
    "llm_model": "template",
    "in_review": true
+  },
+  {
+   "id": "c76863e5c966d7abf",
+   "title": "Advanced Micro Devices vs . Intel : Which Technology Stock Is a Better Buy in 2026 ?",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 95,
+   "entity_keys": [
+    "INTC"
+   ],
+   "created_at": "2026-08-07T12:04:29.509051+00:00",
+   "last_update": "2026-08-07T13:44:47.207103+00:00",
+   "members": 3,
+   "llm_title": "기술 주식 뉴스",
+   "one_liner": "미국 정부가 인공지능 법안을 발표했어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": false
   },
   {
    "id": "c5bff098673c2dcec",
@@ -1041,25 +1060,6 @@
    "one_liner": "나이지리아의 금리 인하가 느려질 수 있다고 경고했어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
-  },
-  {
-   "id": "c76863e5c966d7abf",
-   "title": "Advanced Micro Devices vs . Intel : Which Technology Stock Is a Better Buy in 2026 ?",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 90,
-   "entity_keys": [
-    "INTC"
-   ],
-   "created_at": "2026-08-07T12:04:29.509051+00:00",
-   "last_update": "2026-08-07T12:04:29.510113+00:00",
-   "members": 2,
-   "llm_title": "기술 주식 비교",
-   "one_liner": "AMD와 인텔, 그리고 NIQ와 카드라이틱스 주식 비교가 나왔어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": false
   },
   {
    "id": "c13ff9296b0f3d9e3",
@@ -1246,6 +1246,25 @@
    "in_review": true
   },
   {
+   "id": "c189406147780dd69",
+   "title": "Startup funding in Greater China in H1 surpasses all of 2025",
+   "category": "COMMODITY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 7,
+   "importance": 85,
+   "entity_keys": [
+    "CHINA"
+   ],
+   "created_at": "2026-08-07T12:04:29.509292+00:00",
+   "last_update": "2026-08-07T13:44:47.208823+00:00",
+   "members": 8,
+   "llm_title": "China exports and…",
+   "one_liner": "China exports and imports surge in July",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c89369696b2788fef",
    "title": "Analysis - Europe wildfire season exposes climate insurance gap | 1450 AM 99 . 7 FM WHTC",
    "category": "COMMODITY",
@@ -1297,25 +1316,6 @@
    "one_liner": "금값이 오늘 조금 올랐어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
-  },
-  {
-   "id": "c942788cecb5c9e9d",
-   "title": "Trump administration revokes visa of Brazil ambassador to US in spat with Lula",
-   "category": "GEO",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 85,
-   "entity_keys": [
-    "V"
-   ],
-   "created_at": "2026-08-05T03:42:02.143951+00:00",
-   "last_update": "2026-08-05T12:21:37.306043+00:00",
-   "members": 4,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
   },
   {
    "id": "c38e2d535edc150a5",
@@ -1432,25 +1432,6 @@
    "in_review": false
   },
   {
-   "id": "c189406147780dd69",
-   "title": "Startup funding in Greater China in H1 surpasses all of 2025",
-   "category": "COMMODITY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 4,
-   "importance": 80,
-   "entity_keys": [
-    "CHINA"
-   ],
-   "created_at": "2026-08-07T12:04:29.509292+00:00",
-   "last_update": "2026-08-07T12:04:29.759555+00:00",
-   "members": 4,
-   "llm_title": "China exports and…",
-   "one_liner": "China exports and imports surge in July",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "cc3750526bed0b5dc",
    "title": "Nigerian stock market opens week on positive note as investors gain N288bn",
    "category": "MARKET",
@@ -1500,6 +1481,25 @@
    "one_liner": "미국 경제가 안정적이지 않다는 우려가 나오고 있어요.",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
+  },
+  {
+   "id": "c942788cecb5c9e9d",
+   "title": "Trump administration revokes visa of Brazil ambassador to US in spat with Lula",
+   "category": "GEO",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 80,
+   "entity_keys": [
+    "V"
+   ],
+   "created_at": "2026-08-05T03:42:02.143951+00:00",
+   "last_update": "2026-08-05T12:21:37.306043+00:00",
+   "members": 4,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
   },
   {
    "id": "c29244f8d2449fa7c",

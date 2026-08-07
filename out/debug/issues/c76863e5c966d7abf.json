@@ -9,10 +9,10 @@
  "entity_keys": [
   "INTC"
  ],
- "seen_sources": 2,
- "importance": 90,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-08-07T12:04:29.509051+00:00",
- "last_update": "2026-08-07T12:04:29.510113+00:00",
+ "last_update": "2026-08-07T13:44:47.207103+00:00",
  "members": [
   {
    "id": "e8565b10532b75a06d09ab288bea57a5b36df700",
@@ -22,7 +22,17 @@
    "title": "Critical Survey : NIQ Global Intelligence ( NYSE : NIQ ) and Cardlytics ( NASDAQ : CDLX )",
    "published_at": "2026-08-07T11:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9552
+   "sim_to_centroid": 0.9527
+  },
+  {
+   "id": "5aec46ef25cf4e21d4167ff713cd4105c22e569a",
+   "source": "meathchronicle.ie",
+   "tier": "wire",
+   "url": "https://www.meathchronicle.ie/2026/08/05/government-announce-artificial-intelligence-bill/",
+   "title": "Government announce Artificial Intelligence Bill",
+   "published_at": "2026-08-05T16:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.872
   },
   {
    "id": "5cdb89c579e121c05d883480cbfc02f027fcbcfb",
@@ -32,7 +42,7 @@
    "title": "Advanced Micro Devices vs . Intel : Which Technology Stock Is a Better Buy in 2026 ?",
    "published_at": "2026-08-04T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9552
+   "sim_to_centroid": 0.955
   }
  ],
  "anchors": [],
@@ -46,6 +56,13 @@
   },
   {
    "kind": "headline",
+   "title": "Government announce Artificial Intelligence Bill",
+   "source": "meathchronicle.ie",
+   "url": "https://www.meathchronicle.ie/2026/08/05/government-announce-artificial-intelligence-bill/",
+   "at": "2026-08-05T16:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Advanced Micro Devices vs . Intel : Which Technology Stock Is a Better Buy in 2026 ?",
    "source": "fool.com",
    "url": "https://www.fool.com/coverage/better-buy/2026/08/04/advanced-micro-devices-vs-intel-which-technology-stock-is-a-better-buy-in-2026/?source=iedfolrf0000001",
@@ -54,17 +71,18 @@
  ],
  "llm": {
   "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-07T12:04:30.890851+00:00",
+  "created_at": "2026-08-07T13:44:48.587029+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "Critical Survey : NIQ Global Intelligence ( NYSE : NIQ ) and Cardlytics ( NASDAQ : CDLX )",
+    "Government announce Artificial Intelligence Bill",
     "Advanced Micro Devices vs . Intel : Which Technology Stock Is a Better Buy in 2026 ?"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"기술 주식 비교\",\n   \"one_liner\": \"AMD와 인텔, 그리고 NIQ와 카드라이틱스 주식 비교가 나왔어요\",\n   \"why_now\": \"기술 주식은 시장의 관심을 많이 받고 있어요\",\n   \"impact_line\": \"주식 투자에 관심이 있는 사람들에게 도움이 될 수 있어요\",\n   \"details\": [\n      \"NIQ와 카드라이틱스 주식에 대한 조사 결과가 나왔어요\",\n      \"AMD와 인텔 주식 중 어떤 것이 더 좋은 투자처인지 비교했어요\",\n      \"2026년 기술 주식 투자에 대한 관심이 높아지고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"기술 주식의 성과가 향상되면 투자자에게 좋을 수 있어요!\",\n      \"새로운 기술 개발로 관련 주식이 오를 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"기술 주식 뉴스\",\n   \"one_liner\": \"미국 정부가 인공지능 법안을 발표했어요\",\n   \"why_now\": \"인공지능 법안은 기술 발전에 영향을 줄 수 있어요\",\n   \"impact_line\": \"인공지능 기술이 우리 생활에 더 많이 영향을 줄 수 있어요\",\n   \"details\": [\n      \"미국 정부가 인공지능 법안을 발표했어요\",\n      \"NIQ와 Cardlytics의 주식에 대한 조사 결과가 나왔어요\",\n      \"Advanced Micro Devices와 Intel 중 어떤 기술 주식이 더 좋은 선택일지 비교했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"인공지능 기술이 발전하면 일상 생활이 편리해질 수 있어요!\",\n      \"새로운 기술 주식이 등장하면 투자 기회가 늘어날 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
@@ -72,21 +90,21 @@
    }
   ],
   "output": {
-   "title": "기술 주식 비교",
-   "one_liner": "AMD와 인텔, 그리고 NIQ와 카드라이틱스 주식 비교가 나왔어요",
-   "why_now": "기술 주식은 시장의 관심을 많이 받고 있어요",
+   "title": "기술 주식 뉴스",
+   "one_liner": "미국 정부가 인공지능 법안을 발표했어요",
+   "why_now": "인공지능 법안은 기술 발전에 영향을 줄 수 있어요",
    "details": [
-    "NIQ와 카드라이틱스 주식에 대한 조사 결과가 나왔어요",
-    "AMD와 인텔 주식 중 어떤 것이 더 좋은 투자처인지 비교했어요",
-    "2026년 기술 주식 투자에 대한 관심이 높아지고 있어요"
+    "미국 정부가 인공지능 법안을 발표했어요",
+    "NIQ와 Cardlytics의 주식에 대한 조사 결과가 나왔어요",
+    "Advanced Micro Devices와 Intel 중 어떤 기술 주식이 더 좋은 선택일지요."
    ],
    "effects": [
-    "기술 주식의 성과가 향상되면 투자자에게 좋을 수 있어요!",
-    "새로운 기술 개발로 관련 주식이 오를 수 있어요!"
+    "인공지능 기술이 발전하면 일상 생활이 편리해질 수 있어요!",
+    "새로운 기술 주식이 등장하면 투자 기회가 늘어날 수 있어요!"
    ],
    "visual_type": "none"
   },
-  "fact_hash": "ed571830018ec6631e02bf4057118fd7f42c8860"
+  "fact_hash": "2536ce26e56d3c1b8ec4900b831ea7d74f54946c"
  },
  "review": null,
  "glossary": [],
