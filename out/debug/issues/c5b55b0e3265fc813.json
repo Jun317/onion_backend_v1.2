@@ -9,11 +9,21 @@
  "entity_keys": [
   "V"
  ],
- "seen_sources": 3,
- "importance": 90,
+ "seen_sources": 4,
+ "importance": 105,
  "created_at": "2026-08-05T03:42:02.144187+00:00",
- "last_update": "2026-08-05T06:48:44.689637+00:00",
+ "last_update": "2026-08-07T15:14:46.731892+00:00",
  "members": [
+  {
+   "id": "6151519bba1f21012ed053468ecc1daccd8be845",
+   "source": "scmp.com",
+   "tier": "wire",
+   "url": "https://www.scmp.com/economy/global-economy/article/3363327/us-universities-report-more-chinese-applicants-despite-visa-crackdown",
+   "title": "US universities report more Chinese applicants despite visa crackdown",
+   "published_at": "2026-08-07T13:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8555
+  },
   {
    "id": "dd6891d011183eb48fc8d4961735b2df6f8e0b32",
    "source": "prokerala.com",
@@ -22,7 +32,7 @@
    "title": "US revokes visa of Brazilian ambassador in diplomatic rift",
    "published_at": "2026-08-05T03:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9701
+   "sim_to_centroid": 0.9709
   },
   {
    "id": "73a5cf787987a150bd4b139151d5f221ae3a339b",
@@ -32,7 +42,7 @@
    "title": "US Revokes Brazil Ambassador Visa in Diplomatic Spat",
    "published_at": "2026-08-05T03:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9684
+   "sim_to_centroid": 0.9695
   },
   {
    "id": "0e894e36bfdff711d19615e79ddac417e814cf34",
@@ -42,7 +52,7 @@
    "title": "Trump administration revokes visa of Brazil ambassador to US in spat with Lula",
    "published_at": "2026-08-04T23:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9863
+   "sim_to_centroid": 0.9852
   },
   {
    "id": "9cb9c0507d41f8348d64564f6af52527ebb029bc",
@@ -52,11 +62,18 @@
    "title": "U . S . revokes Brazil ambassador visa amid ongoing spat with Lula - National",
    "published_at": "2026-08-04T23:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9819
+   "sim_to_centroid": 0.9784
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "US universities report more Chinese applicants despite visa crackdown",
+   "source": "scmp.com",
+   "url": "https://www.scmp.com/economy/global-economy/article/3363327/us-universities-report-more-chinese-applicants-despite-visa-crackdown",
+   "at": "2026-08-07T13:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "US revokes visa of Brazilian ambassador in diplomatic rift",
@@ -87,43 +104,46 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-05T06:49:49.972679+00:00",
+  "model": "template",
+  "created_at": "2026-08-07T15:26:34.813805+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "US universities report more Chinese applicants despite visa crackdown",
     "US revokes visa of Brazilian ambassador in diplomatic rift",
     "US Revokes Brazil Ambassador Visa in Diplomatic Spat",
     "U . S . revokes Brazil ambassador visa amid ongoing spat with Lula - National"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국, 브라질 대사 비자 취소\",\n  \"one_liner\": \"미국이 브라질 대사의 비자를 취소하며 외교적 갈등을 빚고 있어요.\",\n  \"why_now\": \"외교 관계에서 대사의 비자 취소는 매우 이례적인 일로, 양국 관계에 큰 영향을 줄 수 있어요.\",\n  \"impact_line\": \"양국 간 교류나 협력에 어려움이 생길 수 있어요.\",\n  \"details\": [\n    \"미국이 브라질 대사의 비자를 취소했어요.\",\n    \"이는 브라질과의 외교적 갈등 속에서 발생했어요.\",\n    \"브라질 대통령 룰라와의 관계에서 벌어진 일이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"양국 간 외교 관계가 더욱 경색될 수 있어요!\",\n    \"이로 인해 경제 협력이나 문화 교류 등 다양한 분야에서 차질이 생길 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"외교적 갈등\",\n      \"easy\": \"나라와 나라 사이에 의견 충돌이나 관계 악화가 생기는 것을 말해요.\",\n      \"example\": \"두 나라 정상의 발언 때문에 외교적 갈등이 깊어졌어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국, 브라질 대사 비자 취소",
-   "one_liner": "미국이 브라질 대사의 비자를 취소하며 외교적 갈등을 빚고 있어요.",
-   "why_now": "외교 관계에서 대사의 비자 취소는 매우 이례적인 일로, 양국 관계에 큰 영향을 줄 수 있어요.",
+   "title": "US universities…",
+   "one_liner": "US universities report more Chinese applicants…",
+   "why_now": null,
    "details": [
-    "미국이 브라질 대사의 비자를 취소했어요.",
-    "이는 브라질과의 외교적 갈등 속에서 발생했어요.",
-    "브라질 대통령 룰라와의 관계에서 벌어진 일이에요."
+    "US universities report more Chinese applicants despite visa crackdown",
+    "US revokes visa of Brazilian ambassador in diplomatic rift",
+    "US Revokes Brazil Ambassador Visa in Diplomatic Spat"
    ],
-   "effects": [
-    "양국 간 외교 관계가 더욱 경색될 수 있어요!",
-    "이로 인해 경제 협력이나 문화 교류 등 다양한 분야에서 차질이 생길 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "b4ab93af17014835d7e3b9f0c5a9e850d63eb45f"
+  "fact_hash": "fe644b291b0550f01b860f68847528fe9fd50bca"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-07T15:26:34.813736+00:00"
+ },
  "glossary": [],
  "related": [
   {

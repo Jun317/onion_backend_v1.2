@@ -9,11 +9,31 @@
  "entity_keys": [
   "SEC"
  ],
- "seen_sources": 8,
+ "seen_sources": 9,
  "importance": 95,
  "created_at": "2026-08-07T03:26:37.921104+00:00",
- "last_update": "2026-08-07T13:44:47.207735+00:00",
+ "last_update": "2026-08-07T15:14:46.732725+00:00",
  "members": [
+  {
+   "id": "2f3e4b6bd3332ebab953a8c1b9d7cd33e448af24",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/energy/articles/apa-raises-u-oil-forecast-040126345.html",
+   "title": "APA Raises U . S . Oil Forecast as Second - Quarter Output Beats Guidance",
+   "published_at": "2026-08-07T13:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8952
+  },
+  {
+   "id": "8cbd4c0a52778d3d8f93bfd0a7ebc214f9665cfa",
+   "source": "calcuttanews.net",
+   "tier": "wire",
+   "url": "http://www.calcuttanews.net/news/279226221/rbi-announces-underwriting-auction-results-for-two-government-securities-worth-rs-32000",
+   "title": "RBI announces underwriting auction results for two government securities worth Rs 32 , 000",
+   "published_at": "2026-08-07T13:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8929
+  },
   {
    "id": "cc0f1762f26078f21f9b8481de4a9b0c984689cf",
    "source": "fundsforngos.org",
@@ -22,7 +42,7 @@
    "title": "Applications Open for Sector Development Grants ( Canada )",
    "published_at": "2026-08-07T10:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8558
+   "sim_to_centroid": 0.8625
   },
   {
    "id": "036b2e793c40956d93197afd4890db0fa57bc14e",
@@ -32,7 +52,7 @@
    "title": "Gray Media Announces Second Quarter Financial Results",
    "published_at": "2026-08-07T10:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9202
+   "sim_to_centroid": 0.922
   },
   {
    "id": "8043724a1b66ec7ce241671fe62a64dc594e74c6",
@@ -42,7 +62,7 @@
    "title": "Iron Mountain Reports Second Quarter 2026 Results",
    "published_at": "2026-08-07T07:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9486
+   "sim_to_centroid": 0.9433
   },
   {
    "id": "9b7b071ad251d94fbe70ea24bf2b6a66f2889c78",
@@ -52,7 +72,7 @@
    "title": "CVS Health tops second - quarter estimates , raises full - year profit outlook",
    "published_at": "2026-08-07T03:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8989
+   "sim_to_centroid": 0.9049
   },
   {
    "id": "e176f63c88f779f2744a4ba72fc212ea5a90ea1f",
@@ -72,7 +92,7 @@
    "title": "Journey Energy Inc .: Journey Generates $18 . 5 Million of Net Income in the Second Quarter of 2026",
    "published_at": "2026-08-07T00:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9265
+   "sim_to_centroid": 0.9246
   },
   {
    "id": "fa72cbba63c4b5cd5ead87af3ed60818348b8404",
@@ -82,7 +102,7 @@
    "title": "Best Crypto Presale to Buy Before Listing : Pepeto Leads as Security Threats Reshape the Market",
    "published_at": "2026-08-07T00:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8578
+   "sim_to_centroid": 0.8611
   },
   {
    "id": "a18d9313578023497596d7832dd526f755aeb357",
@@ -92,7 +112,7 @@
    "title": "Network - 1 Reports Second Quarter 2026 Results",
    "published_at": "2026-08-07T00:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9657
+   "sim_to_centroid": 0.9593
   },
   {
    "id": "4fe736ad4d90210d9d56258aa46e5ac5958dac57",
@@ -102,11 +122,25 @@
    "title": "UPDATE - LifeMD Reports Second Quarter 2026 Results",
    "published_at": "2026-08-06T00:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9637
+   "sim_to_centroid": 0.9564
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "APA Raises U . S . Oil Forecast as Second - Quarter Output Beats Guidance",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/energy/articles/apa-raises-u-oil-forecast-040126345.html",
+   "at": "2026-08-07T13:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "RBI announces underwriting auction results for two government securities worth Rs 32 , 000",
+   "source": "calcuttanews.net",
+   "url": "http://www.calcuttanews.net/news/279226221/rbi-announces-underwriting-auction-results-for-two-government-securities-worth-rs-32000",
+   "at": "2026-08-07T13:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Applications Open for Sector Development Grants ( Canada )",
@@ -173,51 +207,45 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-07T11:14:32.011121+00:00",
+  "created_at": "2026-08-07T15:15:29.738899+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
-    "UPDATE - LifeMD Reports Second Quarter 2026 Results",
     "Network - 1 Reports Second Quarter 2026 Results",
+    "UPDATE - LifeMD Reports Second Quarter 2026 Results",
     "Iron Mountain Reports Second Quarter 2026 Results",
     "Journey Energy Inc .: Journey Generates $18 . 5 Million of Net Income in the Second Quarter of 2026",
-    "Nauticus Robotics , Inc . Announces Date for 2026 Second Quarter Earnings Conference Call"
+    "Gray Media Announces Second Quarter Financial Results"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"2026년 2분기 실적 발표\",\n   \"one_liner\": \"여러 기업이 2026년 2분기 실적을 발표했어요\",\n   \"why_now\": \"실적이 좋으면 주가가 오를 수 있어요\",\n   \"impact_line\": \"주식 투자자에게 영향을 줄 수 있어요\",\n   \"details\": [\n      \"LifeMD가 2026년 2분기 실적을 발표했어요\",\n      \"Network-1이 2026년 2분기 실적을 발표했어요\",\n      \"Iron Mountain이 2026년 2분기 실적을 발표했어요\",\n      \"Journey Energy가 2026년 2분기 실적을 발표했어요\",\n      \"Nauticus Robotics가 2026년 2분기 실적 발표 일정을 발표했어요\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n      \"실적이 좋으면 주가가 오를 수 있어요!\",\n      \"실적이 좋지 않으면 주가가 내릴 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [-1.0, 1850.0]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [-1.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
   "output": {
-   "title": "UPDATE - LifeMD…",
-   "one_liner": "UPDATE - LifeMD Reports Second Quarter 2026…",
+   "title": "Network - 1 Reports…",
+   "one_liner": "Network - 1 Reports Second Quarter 2026 Results",
    "why_now": null,
    "details": [
-    "UPDATE - LifeMD Reports Second Quarter 2026 Results",
     "Network - 1 Reports Second Quarter 2026 Results",
+    "UPDATE - LifeMD Reports Second Quarter 2026 Results",
     "Iron Mountain Reports Second Quarter 2026 Results"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "94bbd319788434c06c0c3ccf4d81e0e4044e973c"
+  "fact_hash": "bf7a4818ab2cf5c996134c2e6fb7c0229f4db309"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [-1.0, 1850.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [-1.0]\"]}]}",
-  "at": "2026-08-07T11:14:32.010998+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-07T15:15:29.738779+00:00"
  },
  "glossary": [],
  "related": [

@@ -871,7 +871,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-07T11:14:46.191072+00:00",
+  "created_at": "2026-08-07T15:15:48.267150+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,18 +887,12 @@
     "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank"
    ]
   },
-  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 2분기에 1.5% 성장하는 데 그쳤어요.\",\n  \"why_now\": \"경제 성장 속도가 느려지면 기업들의 수익이 줄어들 수 있어요.\",\n  \"impact_line\": \"물가 상승세가 이어지면서 소비 부담이 커질 수 있어요.\",\n  \"details\": [\n    \"미국 경제 성장률이 1.5%로 둔화했어요.\",\n    \"이는 지난 2분기 경제 성장률이에요.\",\n    \"물가 상승세는 여전히 높은 수준을 유지하고 있어요.\",\n    \"하지만 국내 수요는 견조한 모습을 보였어요.\"\n  ],\n  \"visual_type\": \"usdkrw\",\n  \"effects\": [\n    \"미국 중앙은행이 금리를 바로 내리지 않을 수 있어요!\",\n    \"소비자 물가가 계속 높으면 장바구니 물가가 오를 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"미국 중앙은행\",\n      \"easy\": \"미국의 돈을 관리하고 경제를 안정시키는 역할을 하는 곳이에요.\",\n      \"example\": \"미국 중앙은행이 금리를 올리면 대출 이자가 비싸져요.\"\n    },\n    {\n      \"term\": \"물가 상승세\",\n      \"easy\": \"물건이나 서비스 가격이 전반적으로 계속 오르는 현상이에요.\",\n      \"example\": \"물가 상승세가 계속되면 월급이 올라도 살기 힘들어져요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [1.5]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [1.5]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -917,8 +911,8 @@
   "fact_hash": "63a23b84926d8182c0e9578910ec5097373cea82"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
-  "at": "2026-08-07T11:14:46.190942+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-07T15:15:48.267014+00:00"
  },
  "glossary": [],
  "related": [

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T13:44:51.411429+00:00",
+ "generated_at": "2026-08-07T15:26:40.308867+00:00",
  "issues": [
   {
    "id": "cea83213c8906724e",
@@ -98,17 +98,17 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 10,
+   "seen_sources": 11,
    "importance": 135,
    "entity_keys": [
     "FED"
    ],
    "created_at": "2026-08-04T20:04:50.675317+00:00",
-   "last_update": "2026-08-07T12:04:29.505373+00:00",
-   "members": 12,
-   "llm_title": "미국 정부 소송",
-   "one_liner": "미국 민주당 소속 법무장관과 주지사가 정부를 상대로 관세 소송을 냈어요",
-   "llm_model": "llama-3.3-70b-versatile",
+   "last_update": "2026-08-07T15:14:46.729099+00:00",
+   "members": 13,
+   "llm_title": "Democratic attorneys…",
+   "one_liner": "Democratic attorneys general , governors sue…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -514,15 +514,15 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 26,
+   "seen_sources": 47,
    "importance": 105,
    "entity_keys": [],
    "created_at": "2026-08-04T10:05:33.922649+00:00",
-   "last_update": "2026-08-07T13:44:47.209277+00:00",
-   "members": 34,
-   "llm_title": "Trump signs…",
-   "one_liner": "Trump signs executive order to impose 15 %…",
-   "llm_model": "template",
+   "last_update": "2026-08-07T15:14:46.736004+00:00",
+   "members": 50,
+   "llm_title": "미국이 폴리실리콘에 관세 부과",
+   "one_liner": "트럼프 대통령이 폴리실리콘 수입에 15% 관세를 부과했어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -531,14 +531,33 @@
    "category": "MACRO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 8,
+   "seen_sources": 21,
    "importance": 105,
    "entity_keys": [],
    "created_at": "2026-08-04T10:05:33.920245+00:00",
-   "last_update": "2026-08-07T13:44:47.209082+00:00",
-   "members": 13,
-   "llm_title": "MPC can judiciously…",
-   "one_liner": "MPC can judiciously use its tolerance band to…",
+   "last_update": "2026-08-07T15:14:46.734661+00:00",
+   "members": 34,
+   "llm_title": "미국 주식시장 상승",
+   "one_liner": "미국 주식시장이 처음에는 강세를 보일 수 있어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "c5b55b0e3265fc813",
+   "title": "U . S . revokes Brazil ambassador visa amid ongoing spat with Lula - National",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 4,
+   "importance": 105,
+   "entity_keys": [
+    "V"
+   ],
+   "created_at": "2026-08-05T03:42:02.144187+00:00",
+   "last_update": "2026-08-07T15:14:46.731892+00:00",
+   "members": 5,
+   "llm_title": "US universities…",
+   "one_liner": "US universities report more Chinese applicants…",
    "llm_model": "template",
    "in_review": true
   },
@@ -958,16 +977,16 @@
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 8,
+   "seen_sources": 9,
    "importance": 95,
    "entity_keys": [
     "SEC"
    ],
    "created_at": "2026-08-07T03:26:37.921104+00:00",
-   "last_update": "2026-08-07T13:44:47.207735+00:00",
-   "members": 9,
-   "llm_title": "UPDATE - LifeMD…",
-   "one_liner": "UPDATE - LifeMD Reports Second Quarter 2026…",
+   "last_update": "2026-08-07T15:14:46.732725+00:00",
+   "members": 11,
+   "llm_title": "Network - 1 Reports…",
+   "one_liner": "Network - 1 Reports Second Quarter 2026 Results",
    "llm_model": "template",
    "in_review": true
   },
@@ -1100,25 +1119,6 @@
    "in_review": true
   },
   {
-   "id": "c5b55b0e3265fc813",
-   "title": "U . S . revokes Brazil ambassador visa amid ongoing spat with Lula - National",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 90,
-   "entity_keys": [
-    "V"
-   ],
-   "created_at": "2026-08-05T03:42:02.144187+00:00",
-   "last_update": "2026-08-05T06:48:44.689637+00:00",
-   "members": 4,
-   "llm_title": "미국, 브라질 대사 비자 취소",
-   "one_liner": "미국이 브라질 대사의 비자를 취소하며 외교적 갈등을 빚고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": false
-  },
-  {
    "id": "c4026e84afc89a060",
    "title": "4 Dividend Energy Stocks to Buy This Month , Starting With ExxonMobil",
    "category": "MARKET",
@@ -1249,18 +1249,38 @@
    "id": "c189406147780dd69",
    "title": "Startup funding in Greater China in H1 surpasses all of 2025",
    "category": "COMMODITY",
-   "status": "active",
+   "status": "archived",
    "origin": "cluster",
-   "seen_sources": 7,
+   "seen_sources": 8,
    "importance": 85,
    "entity_keys": [
     "CHINA"
    ],
    "created_at": "2026-08-07T12:04:29.509292+00:00",
-   "last_update": "2026-08-07T13:44:47.208823+00:00",
-   "members": 8,
-   "llm_title": "China exports and…",
-   "one_liner": "China exports and imports surge in July",
+   "last_update": "2026-08-07T15:14:47.007610+00:00",
+   "members": 0,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": true
+  },
+  {
+   "id": "c5f82537f5f95872f",
+   "title": "Millions join Arbaeen pilgrimage in Iraq amid fears of US - Iran escalation",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 20,
+   "importance": 85,
+   "entity_keys": [
+    "CHINA",
+    "IRAN"
+   ],
+   "created_at": "2026-08-04T23:30:25.507376+00:00",
+   "last_update": "2026-08-07T15:14:47.007548+00:00",
+   "members": 21,
+   "llm_title": "How Iran is widening…",
+   "one_liner": "How Iran is widening its pressure campaign to…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1270,33 +1290,14 @@
    "category": "COMMODITY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 6,
+   "seen_sources": 7,
    "importance": 85,
    "entity_keys": [],
    "created_at": "2026-08-04T10:05:33.923699+00:00",
-   "last_update": "2026-08-07T12:04:29.503317+00:00",
-   "members": 6,
+   "last_update": "2026-08-07T15:14:46.735127+00:00",
+   "members": 7,
    "llm_title": "Analysis - Europe…",
    "one_liner": "Analysis - Europe wildfire season exposes…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c5f82537f5f95872f",
-   "title": "Millions join Arbaeen pilgrimage in Iraq amid fears of US - Iran escalation",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 9,
-   "importance": 85,
-   "entity_keys": [
-    "IRAN"
-   ],
-   "created_at": "2026-08-04T23:30:25.507376+00:00",
-   "last_update": "2026-08-07T12:04:29.502223+00:00",
-   "members": 9,
-   "llm_title": "How Iran is widening…",
-   "one_liner": "How Iran is widening its pressure campaign to…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1619,6 +1620,44 @@
    "llm_title": "구글에 안드로이드 개방 요구",
    "one_liner": "유럽 연합이 구글에 안드로이드를 다른 인공지능 회사에 열어야 한다고 했어요",
    "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "c6fdad826562ed3e4",
+   "title": "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 75,
+   "entity_keys": [
+    "F"
+   ],
+   "created_at": "2026-08-07T15:14:46.737049+00:00",
+   "last_update": "2026-08-07T15:14:46.743980+00:00",
+   "members": 2,
+   "llm_title": "$109 , 796 In…",
+   "one_liner": "$109 , 796 In Earnings Needed To Afford Typical…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c7c8b991ccb21cb42",
+   "title": "Move Over Fall Classics , Starbucks Is Bringing ... Banana ?",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 75,
+   "entity_keys": [
+    "SBUX"
+   ],
+   "created_at": "2026-08-07T15:14:46.736782+00:00",
+   "last_update": "2026-08-07T15:14:46.743897+00:00",
+   "members": 2,
+   "llm_title": "Starbucks first…",
+   "one_liner": "Starbucks first ready - to - drink Pumpkin Spice…",
+   "llm_model": "template",
    "in_review": true
   },
   {
