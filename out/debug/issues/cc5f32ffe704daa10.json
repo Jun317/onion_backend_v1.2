@@ -7,11 +7,31 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 85,
+ "seen_sources": 4,
+ "importance": 100,
  "created_at": "2026-08-04T10:05:33.920245+00:00",
- "last_update": "2026-08-05T18:59:18.314495+00:00",
+ "last_update": "2026-08-07T07:50:22.722727+00:00",
  "members": [
+  {
+   "id": "2d884677f8a5abd3144e171f12bf269f2da092b4",
+   "source": "allafrica.com",
+   "tier": "wire",
+   "url": "https://allafrica.com/stories/202608070044.html",
+   "title": "Nigeria : Manufacturers Yet to Feel Significant Impact On Productivity From Increased Capital Spending - Report",
+   "published_at": "2026-08-07T07:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8817
+  },
+  {
+   "id": "d1890bb48e4e92e017f2f0b7a9172fc7c24dd617",
+   "source": "thehindubusinessline.com",
+   "tier": "wire",
+   "url": "https://www.thehindubusinessline.com/money-and-banking/rbi-likely-intervenes-to-shield-rupee-from-oil-jump-traders-say/article71316190.ece",
+   "title": "RBI likely intervenes to shield rupee from oil jump , traders say",
+   "published_at": "2026-08-07T07:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9003
+  },
   {
    "id": "f43398b921697779d6854824cc6d8d4eed91357e",
    "source": "jamaicantimes.com",
@@ -20,7 +40,7 @@
    "title": "Economists back RBI neutral stance , see lower inflation and stable rates supporting growth",
    "published_at": "2026-08-05T18:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9542
+   "sim_to_centroid": 0.9525
   },
   {
    "id": "23658fea9e6e8b91d2bb48ec777ea8af6f393533",
@@ -30,7 +50,7 @@
    "title": "Economists back RBI neutral stance , see lower inflation and stable rates supporting growth",
    "published_at": "2026-08-05T18:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9542
+   "sim_to_centroid": 0.9525
   },
   {
    "id": "a09f30b19e4af23eb45d932b77896466a2437486",
@@ -40,7 +60,7 @@
    "title": "Economists back RBI neutral stance , see lower inflation and stable rates supporting growth",
    "published_at": "2026-08-05T18:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9542
+   "sim_to_centroid": 0.9525
   },
   {
    "id": "e3f68a2dfaa63363377fcfa5c7ca6a7e356aa2ff",
@@ -50,7 +70,7 @@
    "title": "Economists back RBI neutral stance , see lower inflation and stable rates supporting growth",
    "published_at": "2026-08-05T17:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9542
+   "sim_to_centroid": 0.9525
   },
   {
    "id": "02fdc0fe4b1ddb79af073baa93f53c3fa4a66754",
@@ -60,7 +80,7 @@
    "title": "Economists back RBI neutral stance , see lower inflation and stable rates supporting growth",
    "published_at": "2026-08-05T17:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9542
+   "sim_to_centroid": 0.9525
   },
   {
    "id": "6ee2b1d1b65b77804d23a510c18db4914b4dbe64",
@@ -70,7 +90,7 @@
    "title": "MPC can judiciously use its tolerance band to look past temporary , supply - driven inflation spikes",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9387
+   "sim_to_centroid": 0.9355
   },
   {
    "id": "60f0eb6707123d8562ea8f936af635da1ae4edd9",
@@ -80,11 +100,25 @@
    "title": "Delayed monsoon unlikely to trigger broader economic impact , but food inflation may stay elevated : Report",
    "published_at": "2026-08-04T07:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9389
+   "sim_to_centroid": 0.9361
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Nigeria : Manufacturers Yet to Feel Significant Impact On Productivity From Increased Capital Spending - Report",
+   "source": "allafrica.com",
+   "url": "https://allafrica.com/stories/202608070044.html",
+   "at": "2026-08-07T07:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "RBI likely intervenes to shield rupee from oil jump , traders say",
+   "source": "thehindubusinessline.com",
+   "url": "https://www.thehindubusinessline.com/money-and-banking/rbi-likely-intervenes-to-shield-rupee-from-oil-jump-traders-say/article71316190.ece",
+   "at": "2026-08-07T07:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Economists back RBI neutral stance , see lower inflation and stable rates supporting growth",
@@ -136,51 +170,47 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-05T22:34:11.853692+00:00",
+  "model": "template",
+  "created_at": "2026-08-07T08:00:30.427607+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
+    "Nigeria : Manufacturers Yet to Feel Significant Impact On Productivity From Increased Capital Spending - Report",
+    "RBI likely intervenes to shield rupee from oil jump , traders say",
     "MPC can judiciously use its tolerance band to look past temporary , supply - driven inflation spikes",
     "Delayed monsoon unlikely to trigger broader economic impact , but food inflation may stay elevated : Report"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"인플레이션 일시적 상승 가능성\",\n    \"one_liner\": \"물가 상승이 일시적이고 공급 문제 때문이라면 경제 전반에 큰 영향은 없을 수 있어요.\",\n    \"why_now\": \"갑자기 물가가 오르면 생활비 부담이 커져 걱정하는 분들이 많기 때문이에요.\",\n    \"impact_line\": \"식료품 가격이 계속 오를 수 있다는 전망이 나왔어요.\",\n    \"details\": [\n        \"물가 상승이 일시적이고 공급 문제 때문이라면 경제 전반에 큰 영향은 없을 수 있다는 분석이 나왔어요.\",\n        \"하지만 식료품 물가는 계속 높게 유지될 가능성이 있다는 보고서가 있어요.\",\n        \"인도의 몬순(계절풍)이 늦어지는 것이 경제에 큰 영향을 주지는 않을 것으로 보이지만, 식료품 물가에는 영향을 줄 수 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"식료품 가격이 계속 오르면 장바구니 물가가 부담스러워질 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"MPC\",\n            \"easy\": \"통화정책을 결정하는 위원회예요.\",\n            \"example\": \"MPC가 금리를 올릴지 내릴지 결정해요.\"\n        },\n        {\n            \"term\": \"인플레이션\",\n            \"easy\": \"물건이나 서비스 가격이 전반적으로 오르는 현상이에요.\",\n            \"example\": \"인플레이션 때문에 예전보다 물건값이 많이 올랐어요.\"\n        },\n        {\n            \"term\": \"몬순\",\n            \"easy\": \"인도 등 남아시아 지역에 여름철에 부는 계절풍이에요.\",\n            \"example\": \"몬순이 오면 농사를 짓기 좋은 비가 많이 내려요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "인플레이션 일시적 상승 가능성",
-   "one_liner": "물가 상승이 일시적이고 공급 문제 때문이라면 경제 전반에 큰 영향은 없을 수 있어요.",
-   "why_now": "갑자기 물가가 오르면 생활비 부담이 커져 걱정하는 분들이 많기 때문이에요.",
+   "title": "Nigeria : Manufacture…",
+   "one_liner": "Nigeria : Manufacturers Yet to Feel Significant…",
+   "why_now": null,
    "details": [
-    "물가 상승이 일시적이고 공급 문제 때문이라면 경제 전반에 큰 영향은 없을 수 있다는 분석이요.",
-    "하지만 식료품 물가는 계속 높게 유지될 가능성이 있다는 보고서가 있어요.",
-    "인도의 몬순(계절풍)이 늦어지는 것이 경제에 큰 영향을 주지는 않을 것으로 보이지만, 식료품요."
+    "Nigeria : Manufacturers Yet to Feel Significant Impact On Productivity From Increased Capital Spending - Report",
+    "RBI likely intervenes to shield rupee from oil jump , traders say",
+    "MPC can judiciously use its tolerance band to look past temporary , supply - driven inflation spikes"
    ],
-   "effects": [
-    "식료품 가격이 계속 오르면 장바구니 물가가 부담스러워질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "9a2ea51890433f6293aaeb1cff51a6d1c80c38e4"
+  "fact_hash": "05e554cade9c18bfae24c63118382b17957b2411"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 해요체 아님\", \"details[1] 어요체 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-05T19:00:40.482805+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-07T08:00:30.427541+00:00"
  },
- "glossary": [
-  {
-   "term": "인플레이션",
-   "easy": "물가가 전반적으로 계속 오르는 현상이에요.",
-   "example": "돈의 힘이 조금씩 약해지는 셈이에요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "cb3030e4a5acd0008",

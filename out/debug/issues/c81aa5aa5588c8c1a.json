@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 11,
- "importance": 60,
+ "importance": 55,
  "created_at": "2026-08-04T10:05:33.921572+00:00",
  "last_update": "2026-08-05T06:48:44.686796+00:00",
  "members": [
@@ -766,7 +766,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-07T03:29:34.437042+00:00",
+  "created_at": "2026-08-07T07:55:06.475146+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -779,8 +779,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"기업들, 예상보다 좋은 실적 발표\",\n    \"one_liner\": \"몇몇 기업들이 예상보다 좋은 실적을 발표했어요.\",\n    \"why_now\": \"기업 실적은 해당 기업의 현재 가치를 보여주는 중요한 지표예요.\",\n    \"impact_line\": \"투자하려는 기업의 실적 발표를 눈여겨봐야 해요.\",\n    \"details\": [\n        \"내비게이터는 예상보다 0.32달러 높은 주당순이익을 기록했어요.\",\n        \"핀터레스트는 예상보다 0.07달러 높은 주당순이익을 기록했어요.\",\n        \"EPAM과 PAR 테크놀로지는 내일 실적을 발표할 예정이에요.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"주가 상승으로 이어질 수 있어요!\",\n        \"투자자들의 관심이 높아질 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"주당순이익\",\n            \"easy\": \"회사가 벌어들인 돈을 발행한 주식 수로 나눈 값이에요.\",\n            \"example\": \"주당순이익이 높으면 회사가 그만큼 돈을 잘 벌었다는 뜻이에요.\"\n        }\n    ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [0.07, 0.32]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -803,14 +809,20 @@
   "fact_hash": "800104270315db3c45055c1212c970c126847890"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-07T03:29:34.436974+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [0.07, 0.32]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-07T07:55:06.475081+00:00"
  },
  "glossary": [],
  "related": [
   {
    "id": "c9b9de6553886cd90",
    "title": "UPDATE - LifeMD Reports Second Quarter 2026 Results",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c13ff9296b0f3d9e3",
+   "title": "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
    "category": "EARNINGS",
    "shared": []
   },
@@ -829,12 +841,6 @@
   {
    "id": "c2e1f0924eab58cb9",
    "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c2fe47d2110ccdaa3",
-   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
    "category": "EARNINGS",
    "shared": []
   }

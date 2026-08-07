@@ -102,8 +102,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-07T03:36:39.662624+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-07T07:51:10.310251+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -116,26 +116,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"유럽 가뭄, 산업에 영향\",\n    \"one_liner\": \"유럽의 극심한 가뭄과 폭염으로 주요 강 수위가 낮아져 산업 생산에 차질이 생기고 있어요.\",\n    \"why_now\": \"가뭄은 물을 많이 쓰는 공장 가동을 어렵게 하고, 전력 생산에도 영향을 줄 수 있어요.\",\n    \"impact_line\": \"물가 상승이나 생산품 부족으로 이어질 수 있어요.\",\n    \"details\": [\n        \"라인강과 다뉴브강의 수위가 역대 최저 수준으로 떨어졌어요.\",\n        \"이로 인해 산업 생산에 '불가항력'이 선언되는 경우가 발생하고 있어요.\",\n        \"원자력 발전소 가동에도 어려움이 생기고 있어요.\",\n        \"유럽의 여름철 산불 시즌이 기후 관련 보험의 부족함을 드러내고 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"물류 운송 비용이 늘어나 상품 가격이 오를 수 있어요!\",\n        \"전력 생산에 차질이 생겨 에너지 가격이 불안정해질 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"불가항력\",\n            \"easy\": \"예측하거나 막을 수 없는 자연재해나 사고 때문에 계약을 이행할 수 없게 되는 것을 말해요.\",\n            \"example\": \"갑작스러운 태풍으로 농작물 피해가 커져 농산물 납품 계약을 이행할 수 없게 되었어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Record low Rhine ,…",
-   "one_liner": "Record low Rhine , Danube plus extreme heat…",
-   "why_now": null,
+   "title": "유럽 가뭄, 산업에 영향",
+   "one_liner": "유럽의 극심한 가뭄과 폭염으로 주요 강 수위가 낮아져 산업 생산에 차질이 생기고 있어요.",
+   "why_now": "가뭄은 물을 많이 쓰는 공장 가동을 어렵게 하고, 전력 생산에도 영향을 줄 수 있어요.",
    "details": [
-    "Record low Rhine , Danube plus extreme heat cause force majeures and nuclear shutdowns",
-    "The End EPA Abuse Act targets regulatory overreach and the climate hysteria baked into onerous regulations – NaturalNews . com",
-    "How Europe Grows Gas Tax Revenues"
+    "라인강과 다뉴브강의 수위가 역대 최저 수준으로 떨어졌어요.",
+    "이로 인해 산업 생산에 '불가항력'이 선언되는 경우가 발생하고 있어요.",
+    "원자력 발전소 가동에도 어려움이 생기고 있어요.",
+    "유럽의 여름철 산불 시즌이 기후 관련 보험의 부족함을 드러내고 있어요."
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "물류 운송 비용이 늘어나 상품 가격이 오를 수 있어요!",
+    "전력 생산에 차질이 생겨 에너지 가격이 불안정해질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "6a97177a8b39fc3bf56de2566fa9f5666025074d"
  },

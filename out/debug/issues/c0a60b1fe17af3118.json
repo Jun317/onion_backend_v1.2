@@ -851,7 +851,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-07T03:32:02.669034+00:00",
+  "created_at": "2026-08-07T07:56:30.341874+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -864,8 +864,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"인도 기업, 순환 경제로 수익 모색\",\n    \"one_liner\": \"인도 기업들이 자원을 다시 사용하고 폐기물을 줄이는 순환 경제 모델로 수익을 창출하려 하고 있어요.\",\n    \"why_now\": \"자원 낭비를 줄이고 환경 보호에 기여하면서도 새로운 사업 기회를 만들 수 있기 때문이에요.\",\n    \"impact_line\": \"친환경 제품이나 서비스에 대한 관심이 높아질 수 있어요.\",\n    \"details\": [\n        \"인도 기업들은 순환 경제를 통해 이익을 얻는 방법을 찾고 있어요.\",\n        \"이는 자원을 효율적으로 사용하고 폐기물을 최소화하는 경제 모델이에요.\",\n        \"이러한 움직임은 환경 보호와 경제 성장을 동시에 추구하는 방향이에요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"자원 재활용 및 재사용 관련 산업이 성장할 수 있어요!\",\n        \"소비자들은 더 지속 가능한 제품을 선택할 기회가 늘어날 것으로 예상돼요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"순환 경제\",\n            \"easy\": \"제품을 만들고 쓰고 버리는 대신, 자원을 계속해서 다시 사용하고 재활용하는 경제 방식이에요.\",\n            \"example\": \"쓰던 옷을 모아 새 옷을 만들거나, 폐플라스틱으로 가구를 만드는 것이 순환 경제의 한 예예요.\"\n        }\n    ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 50자 초과(55)"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -888,14 +894,20 @@
   "fact_hash": "7097d79cfacc51f216b75413714790bc100b0e0c"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-07T03:32:02.668963+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(55)\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-07T07:56:30.341812+00:00"
  },
  "glossary": [],
  "related": [
   {
    "id": "c9b9de6553886cd90",
    "title": "UPDATE - LifeMD Reports Second Quarter 2026 Results",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c13ff9296b0f3d9e3",
+   "title": "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
    "category": "EARNINGS",
    "shared": []
   },
@@ -914,12 +926,6 @@
   {
    "id": "c2e1f0924eab58cb9",
    "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c2fe47d2110ccdaa3",
-   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
    "category": "EARNINGS",
    "shared": []
   }

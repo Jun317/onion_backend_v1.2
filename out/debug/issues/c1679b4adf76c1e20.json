@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-07T03:36:02.712572+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-07T07:50:29.941570+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,25 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"소비자 신용 전망 어둡다\",\n   \"one_liner\": \"소비자 신용 전망이 어둡게 보이는 이유가 있어요\",\n   \"why_now\": \"금리와 물가가 오르면 소비자들이 돈을借り기 어렵고, 물건을 살 돈이 줄어들어요\",\n   \"impact_line\": \"대출이자 부담이 커져서 생활비가 부담될 수 있어요\",\n   \"details\": [\n       \"소비자 신용 전망이 어둡게 보인대요\",\n       \"주택담보대출 금리가 계속 오르고 있어요\",\n       \"원자재 가격 변동성이 물가 상승의 주요 위험요소로 남아있어요\",\n       \"국민들이 경제 성장의 혜택을 제대로 느끼지 못하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"소비자들이 물건을 살 돈이 줄어들어 소비가 줄어들 수 있어요!\",\n       \"대출금리 상승으로 주택시장이 둔화될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Why the consumer…",
-   "one_liner": "Why the consumer credit outlook for 2H looks…",
-   "why_now": null,
+   "title": "소비자 신용 전망 어둡다",
+   "one_liner": "소비자 신용 전망이 어둡게 보이는 이유가 있어요",
+   "why_now": "금리와 물가가 오르면 소비자들이 돈을借り기 어렵고, 물건을 살 돈이 줄어들어요",
    "details": [
-    "Why the consumer credit outlook for 2H looks cloudier",
-    "Mortgage rates keep rising , nearing last July peak",
-    "NNPC : Grade Inflation | Naija247news"
+    "소비자 신용 전망이 어둡게 보인대요",
+    "주택담보대출 금리가 계속 오르고 있어요",
+    "원자재 가격 변동성이 물가 상승의 주요 위험요소로 남아있어요",
+    "국민들이 경제 성장의 혜택을 제대로 느끼지 못하고 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "소비자들이 물건을 살 돈이 줄어들어 소비가 줄어들 수 있어요!",
+    "대출금리 상승으로 주택시장이 둔화될 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "e49f7b456fce0bcb43faef47bd91c58f692b50bb"
@@ -908,7 +910,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-07T03:36:02.712501+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "c2efbf61ddb697589",

@@ -121,8 +121,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-07T03:36:21.187118+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-07T07:50:44.117781+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -135,25 +135,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"AMD 실적 발표\",\n    \"one_liner\": \"AMD가 2분기 실적을 발표했는데, 데이터 센터 사업이 크게 성장했어요.\",\n    \"why_now\": \"기업의 실적은 회사의 현재와 미래를 보여주는 중요한 지표이기 때문이에요.\",\n    \"impact_line\": \"AMD 주가에 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"AMD는 2분기 실적 발표를 했어요.\",\n        \"데이터 센터 사업 부문이 두 배 이상 성장했어요.\",\n        \"이로 인해 게이밍 사업 부문이 영향을 받았어요.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"AMD의 데이터 센터 사업 성장이 계속되면 관련 기술 시장이 더욱 활성화될 수 있어요!\",\n        \"AMD의 실적 발표는 반도체 업계 전반에 영향을 줄 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"AMD\",\n            \"easy\": \"미국의 유명한 컴퓨터 중앙처리장치(CPU)와 그래픽처리장치(GPU) 설계 회사예요.\",\n            \"example\": \"AMD는 컴퓨터의 핵심 부품을 만드는 회사로 유명해요.\"\n        },\n        {\n            \"term\": \"데이터 센터\",\n            \"easy\": \"기업이나 기관이 사용하는 컴퓨터 서버와 관련 장비를 모아 놓은 곳이에요.\",\n            \"example\": \"데이터 센터는 인터넷 서비스나 대규모 데이터 처리를 가능하게 해요.\"\n        },\n        {\n            \"term\": \"게이밍\",\n            \"easy\": \"컴퓨터나 게임기 등으로 즐기는 오락 활동을 말해요.\",\n            \"example\": \"최신 게임을 즐기려면 고성능 그래픽 카드가 필요한 경우가 많아요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Earnings Season…",
-   "one_liner": "Earnings Season Heats Up With ( NYSE : CAT ), (…",
-   "why_now": null,
+   "title": "AMD 실적 발표",
+   "one_liner": "AMD가 2분기 실적을 발표했는데, 데이터 센터 사업이 크게 성장했어요.",
+   "why_now": "기업의 실적은 회사의 현재와 미래를 보여주는 중요한 지표이기 때문이에요.",
    "details": [
-    "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week",
-    "Stock Market Today : S & P 500 , Dow and Nasdaq Futures Rise After Strong Monday Gains McDonald , AMD , Pala",
-    "Why AMD Stock Popped Today | The Motley Fool"
+    "AMD는 2분기 실적 발표를 했어요.",
+    "데이터 센터 사업 부문이 두 배 이상 성장했어요.",
+    "이로 인해 게이밍 사업 부문이 영향을 받았어요."
    ],
-   "effects": [],
+   "effects": [
+    "AMD의 데이터 센터 사업 성장이 계속되면 관련 기술 시장이 더욱 활성화될 수 있어요!",
+    "AMD의 실적 발표는 반도체 업계 전반에 영향을 줄 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "978b6791c8796bc76184fb6e8df303851b41249c"
@@ -179,6 +180,12 @@
    "shared": []
   },
   {
+   "id": "c13ff9296b0f3d9e3",
+   "title": "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
    "id": "c8759b0f51add9c4b",
    "title": "CXMT becomes China most valuable listed company",
    "category": "EARNINGS",
@@ -191,12 +198,6 @@
    "shared": [
     "AMD"
    ]
-  },
-  {
-   "id": "c2fe47d2110ccdaa3",
-   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
-   "category": "EARNINGS",
-   "shared": []
   }
  ]
 }

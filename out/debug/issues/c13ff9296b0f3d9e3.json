@@ -9,11 +9,21 @@
  "entity_keys": [
   "DIS"
  ],
- "seen_sources": 6,
- "importance": 85,
+ "seen_sources": 7,
+ "importance": 90,
  "created_at": "2026-08-05T16:56:48.241298+00:00",
- "last_update": "2026-08-05T20:43:01.806496+00:00",
+ "last_update": "2026-08-07T07:50:22.723446+00:00",
  "members": [
+  {
+   "id": "a4cb11763cf81b11afac1f8bb12c1f7d35ccb1a9",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/disney-stock-stay-above-100-184200908.html",
+   "title": "Can Disney Stock Stay Above $100 This Time ?",
+   "published_at": "2026-08-07T07:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9142
+  },
   {
    "id": "e5f03996d674bdcd8cc5c141b33e000e895753a0",
    "source": "cnet.com",
@@ -22,7 +32,7 @@
    "title": "The Disney Plus App Is Getting TikToks . Is a Free Plan Next ?",
    "published_at": "2026-08-05T19:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8953
+   "sim_to_centroid": 0.8983
   },
   {
    "id": "61a1ebb9d55867a2d7f57505bd82236e3b5dba49",
@@ -32,7 +42,7 @@
    "title": "Disney Executives On Disappointing Box Office For  Moana ,  Mandalorian",
    "published_at": "2026-08-05T17:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9008
+   "sim_to_centroid": 0.9021
   },
   {
    "id": "b207c37a9930b57e6abc277b81d36ac356f229ef",
@@ -42,7 +52,7 @@
    "title": "Disney  Toy Story 5  fuels streaming business and merchandise sales for June quarter",
    "published_at": "2026-08-05T16:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9515
+   "sim_to_centroid": 0.9478
   },
   {
    "id": "888cec23bbf493468b15bebb3b91d78d3a30c7b4",
@@ -52,7 +62,7 @@
    "title": "Disney , TikTok Strike Content - Sharing Deal : Marvel , Star Wars & More",
    "published_at": "2026-08-05T16:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8995
+   "sim_to_centroid": 0.9017
   },
   {
    "id": "9c7e085cd7ab4ac36e51cc4ebfecb689cfccaffd",
@@ -62,7 +72,7 @@
    "title": "Toy Story 5 and theme parks drive strong Disney quarter",
    "published_at": "2026-08-05T14:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.92
+   "sim_to_centroid": 0.9204
   },
   {
    "id": "3ce77481e01c52fb16ce8c3014bcdce89e94781a",
@@ -72,11 +82,18 @@
    "title": "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
    "published_at": "2026-08-04T19:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9476
+   "sim_to_centroid": 0.9467
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Can Disney Stock Stay Above $100 This Time ?",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/disney-stock-stay-above-100-184200908.html",
+   "at": "2026-08-07T07:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "The Disney Plus App Is Getting TikToks . Is a Free Plan Next ?",
@@ -121,8 +138,8 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-06T00:15:38.070699+00:00",
+  "model": "template",
+  "created_at": "2026-08-07T08:01:07.401980+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -130,45 +147,37 @@
     "Disney  Toy Story 5  fuels streaming business and merchandise sales for June quarter",
     "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
     "Toy Story 5 and theme parks drive strong Disney quarter",
-    "Disney Executives On Disappointing Box Office For  Moana ,  Mandalorian",
-    "Disney , TikTok Strike Content - Sharing Deal : Marvel , Star Wars & More"
+    "Can Disney Stock Stay Above $100 This Time ?",
+    "Disney Executives On Disappointing Box Office For  Moana ,  Mandalorian"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"디즈니 실적 상승\",\n   \"one_liner\": \"디즈니의 실적이 올라갔어요\",\n   \"why_now\": \"영화와 테마파크가 잘돼서 그런 거예요\",\n   \"impact_line\": \"디즈니 영화와 테마파크를 이용하는 사람이 많아질 수 있어요\",\n   \"details\": [\n       \"디즈니의 새로운 영화가 잘돼서 실적이 올라갔어요\",\n       \"테마파크도 잘돼서 실적에 기여했어요\",\n       \"디즈니의 스트리밍 사업도 잘돼서 실적이 올라갔어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"디즈니 영화와 테마파크를 이용하는 사람이 많아져서 관련 산업도 발전할 수 있어요!\",\n       \"디즈니의 실적 상승으로 주가도 올라갈 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "title 22자 초과(23)",
-     "why_now 55자 초과(63)"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
    }
   ],
   "output": {
-   "title": "디즈니 실적 상승",
-   "one_liner": "디즈니의 실적이 올라갔어요",
-   "why_now": "영화와 테마파크가 잘돼서 그런 거예요",
+   "title": "Disney  Toy Story 5…",
+   "one_liner": "Disney  Toy Story 5  fuels streaming business…",
+   "why_now": null,
    "details": [
-    "디즈니의 새로운 영화가 잘돼서 실적이 올라갔어요",
-    "테마파크도 잘돼서 실적에 기여했어요",
-    "디즈니의 스트리밍 사업도 잘돼서 실적이 올라갔어요"
+    "Disney  Toy Story 5  fuels streaming business and merchandise sales for June quarter",
+    "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
+    "Toy Story 5 and theme parks drive strong Disney quarter"
    ],
-   "effects": [
-    "디즈니 영화와 테마파크를 이용하는 사람이 많아져서 관련 산업도 발전할 수 있어요!",
-    "디즈니의 실적 상승으로 주가도 올라갈 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "2068a274c743adec4eaed9852961c9f273943a2f"
+  "fact_hash": "adce13bb9fb0839eadf94546b14802f6cabf0f98"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(23)\", \"why_now 55자 초과(56)\"]}]}",
-  "at": "2026-08-05T20:43:06.184196+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-07T08:01:07.401908+00:00"
  },
  "glossary": [],
  "related": [
