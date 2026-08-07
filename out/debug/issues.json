@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T21:05:40.017327+00:00",
+ "generated_at": "2026-08-07T22:01:37.607666+00:00",
  "issues": [
   {
    "id": "cea83213c8906724e",
@@ -98,16 +98,16 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 11,
+   "seen_sources": 12,
    "importance": 135,
    "entity_keys": [
     "FED"
    ],
    "created_at": "2026-08-04T20:04:50.675317+00:00",
-   "last_update": "2026-08-07T15:14:46.729099+00:00",
-   "members": 13,
-   "llm_title": "미국 관세 소송",
-   "one_liner": "미국 민주당 소속 법무장관과 주지사가 연방정부를 관세 문제로 소송했어요",
+   "last_update": "2026-08-07T22:01:18.603598+00:00",
+   "members": 16,
+   "llm_title": "미국 정책 소식",
+   "one_liner": "미국 정부와 연방준비제도에 대한 여러 소식이 있어요.",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
@@ -131,32 +131,6 @@
    "in_review": true
   },
   {
-   "id": "ccc137270dbb9d742",
-   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
-   "category": "MARKET",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 30,
-   "importance": 130,
-   "entity_keys": [
-    "AAPL",
-    "AMZN",
-    "FED",
-    "GOOGL",
-    "GS",
-    "META",
-    "MSFT",
-    "WMT"
-   ],
-   "created_at": "2026-07-31T01:01:23.821423+00:00",
-   "last_update": "2026-08-03T21:36:16.371049+00:00",
-   "members": 50,
-   "llm_title": "아마존·애플 주가 반대 행보",
-   "one_liner": "아마존 주가가 올랐고 애플 주가는 떨어졌어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
    "id": "c473082d7f30acb2b",
    "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
    "category": "MARKET",
@@ -177,6 +151,32 @@
    "members": 50,
    "llm_title": "제조업 기업 실적 발표",
    "one_liner": "여러 제조업 기업이 2분기 실적을 발표했어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 30,
+   "importance": 125,
+   "entity_keys": [
+    "AAPL",
+    "AMZN",
+    "FED",
+    "GOOGL",
+    "GS",
+    "META",
+    "MSFT",
+    "WMT"
+   ],
+   "created_at": "2026-07-31T01:01:23.821423+00:00",
+   "last_update": "2026-08-03T21:36:16.371049+00:00",
+   "members": 50,
+   "llm_title": "아마존·애플 주가 반대 행보",
+   "one_liner": "아마존 주가가 올랐고 애플 주가는 떨어졌어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
@@ -343,23 +343,6 @@
    "in_review": true
   },
   {
-   "id": "c57459dd01283ce90",
-   "title": "SBI , HDFC Bank , to ICICI Bank , Axis Bank : Bank stocks fall ahead of RBI monetary policy decision tomorrow",
-   "category": "RATE",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 24,
-   "importance": 115,
-   "entity_keys": [],
-   "created_at": "2026-08-04T10:05:33.919951+00:00",
-   "last_update": "2026-08-04T21:44:01.416241+00:00",
-   "members": 50,
-   "llm_title": "인도 주식시장 하락",
-   "one_liner": "인도 주식시장이 하락했어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
    "id": "e97d4b796b4855660",
    "title": "한국 소비자물가 2026-07 발표",
    "category": "MACRO",
@@ -377,6 +360,23 @@
    "one_liner": "한국의 물가가 조금 내렸어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": false
+  },
+  {
+   "id": "c57459dd01283ce90",
+   "title": "SBI , HDFC Bank , to ICICI Bank , Axis Bank : Bank stocks fall ahead of RBI monetary policy decision tomorrow",
+   "category": "RATE",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 24,
+   "importance": 110,
+   "entity_keys": [],
+   "created_at": "2026-08-04T10:05:33.919951+00:00",
+   "last_update": "2026-08-04T21:44:01.416241+00:00",
+   "members": 50,
+   "llm_title": "인도 주식시장 하락",
+   "one_liner": "인도 주식시장이 하락했어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
   },
   {
    "id": "cb34f19e1978fa138",
@@ -872,29 +872,6 @@
    "in_review": false
   },
   {
-   "id": "c0a3e3cac80938796",
-   "title": "Trump agenda now : Deliver crushing blow to Iran regime",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 44,
-   "importance": 100,
-   "entity_keys": [
-    "AMZN",
-    "CHINA",
-    "CVX",
-    "IRAN",
-    "XOM"
-   ],
-   "created_at": "2026-08-02T17:30:30.363728+00:00",
-   "last_update": "2026-08-04T21:44:01.417538+00:00",
-   "members": 50,
-   "llm_title": "이란, 트럼프의 전쟁 회피 희망",
-   "one_liner": "이란은 트럼프 대통령이 전쟁을 피하려 한다고 믿고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "cd94ff3b008ca2f3a",
    "title": "Bank of America Just Raised Its Dividend 14 %. The Buyback Is the Bigger Story .",
    "category": "RATE",
@@ -1022,6 +999,29 @@
    "llm_title": "미국 경제 소식",
    "one_liner": "미국 경제에 여러 소식이 있어요.",
    "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "c0a3e3cac80938796",
+   "title": "Trump agenda now : Deliver crushing blow to Iran regime",
+   "category": "GEO",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 44,
+   "importance": 95,
+   "entity_keys": [
+    "AMZN",
+    "CHINA",
+    "CVX",
+    "IRAN",
+    "XOM"
+   ],
+   "created_at": "2026-08-02T17:30:30.363728+00:00",
+   "last_update": "2026-08-04T21:44:01.417538+00:00",
+   "members": 50,
+   "llm_title": "이란, 트럼프의 전쟁 회피 희망",
+   "one_liner": "이란은 트럼프 대통령이 전쟁을 피하려 한다고 믿고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -1249,14 +1249,33 @@
    "category": "COMMODITY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 30,
+   "seen_sources": 65,
    "importance": 85,
    "entity_keys": [],
    "created_at": "2026-08-04T10:05:33.923699+00:00",
-   "last_update": "2026-08-07T21:05:35.942749+00:00",
-   "members": 40,
+   "last_update": "2026-08-07T22:01:18.605499+00:00",
+   "members": 50,
    "llm_title": "Analysis - Europe…",
    "one_liner": "Analysis - Europe wildfire season exposes…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c6fdad826562ed3e4",
+   "title": "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 4,
+   "importance": 85,
+   "entity_keys": [
+    "F"
+   ],
+   "created_at": "2026-08-07T15:14:46.737049+00:00",
+   "last_update": "2026-08-07T22:01:18.604525+00:00",
+   "members": 4,
+   "llm_title": "Wicklow Ashford…",
+   "one_liner": "Wicklow Ashford Studios fails in bid to double…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1371,25 +1390,6 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
-  },
-  {
-   "id": "c6fdad826562ed3e4",
-   "title": "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 80,
-   "entity_keys": [
-    "F"
-   ],
-   "created_at": "2026-08-07T15:14:46.737049+00:00",
-   "last_update": "2026-08-07T16:14:04.457552+00:00",
-   "members": 3,
-   "llm_title": "Wicklow Ashford…",
-   "one_liner": "Wicklow Ashford Studios fails in bid to double…",
-   "llm_model": "template",
-   "in_review": true
   },
   {
    "id": "cc3750526bed0b5dc",
@@ -1520,25 +1520,6 @@
    "in_review": true
   },
   {
-   "id": "cb53743aba151d958",
-   "title": "The Hartford Insurance Group ( NYSE : HIG ) Reaches New 12 - Month High on Analyst Upgrade",
-   "category": "MARKET",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 10,
-   "importance": 80,
-   "entity_keys": [
-    "F"
-   ],
-   "created_at": "2026-07-29T17:45:27.158116+00:00",
-   "last_update": "2026-08-01T21:14:28.506601+00:00",
-   "members": 11,
-   "llm_title": "포드 자동차 주가",
-   "one_liner": "포드 자동차가 수익 예상을 높였어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
    "id": "ca7e18652a27e4c6f",
    "title": "Left - leaning group says state faces affordability crisis",
    "category": "GEO",
@@ -1582,6 +1563,25 @@
    "one_liner": "유럽 연합이 구글에 안드로이드를 다른 인공지능 회사에 열어야 한다고 했어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
+  },
+  {
+   "id": "c1fa383d96e0f4793",
+   "title": "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
+   "category": "EARNINGS",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 75,
+   "entity_keys": [
+    "SEC"
+   ],
+   "created_at": "2026-08-07T22:01:18.606374+00:00",
+   "last_update": "2026-08-07T22:01:18.606374+00:00",
+   "members": 2,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
   },
   {
    "id": "c7c8b991ccb21cb42",
@@ -1661,23 +1661,6 @@
    "in_review": true
   },
   {
-   "id": "cc665772e37e9dbfe",
-   "title": "Sanctions Update : August 3 , 2026",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 35,
-   "importance": 75,
-   "entity_keys": [],
-   "created_at": "2026-08-04T10:05:33.922119+00:00",
-   "last_update": "2026-08-04T21:44:01.416118+00:00",
-   "members": 42,
-   "llm_title": "양고기 가격 최고치 기록",
-   "one_liner": "지난 7월 양고기 가격이 물가 상승분을 반영한 역대 최고치를 기록했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "c005645a9b054915e",
    "title": "Saudi Arabia Leads International Initiative to Establish  Maritime Defense Coalition",
    "category": "POLICY",
@@ -1692,6 +1675,25 @@
    "llm_title": "해양 방어 연합체 추진",
    "one_liner": "사우디아라비아가 여러 나라와 함께 해양 방어 연합체를 만들자고 제안했어요.",
    "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "cb53743aba151d958",
+   "title": "The Hartford Insurance Group ( NYSE : HIG ) Reaches New 12 - Month High on Analyst Upgrade",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 10,
+   "importance": 75,
+   "entity_keys": [
+    "F"
+   ],
+   "created_at": "2026-07-29T17:45:27.158116+00:00",
+   "last_update": "2026-08-01T21:14:28.506601+00:00",
+   "members": 11,
+   "llm_title": "포드 자동차 주가",
+   "one_liner": "포드 자동차가 수익 예상을 높였어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -2106,6 +2108,23 @@
    "llm_title": "미국 주식 시장 상승",
    "one_liner": "미국 주식 시장의 수익이 많아지며 주가가 오르고 있어요",
    "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "cc665772e37e9dbfe",
+   "title": "Sanctions Update : August 3 , 2026",
+   "category": "GEO",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 35,
+   "importance": 70,
+   "entity_keys": [],
+   "created_at": "2026-08-04T10:05:33.922119+00:00",
+   "last_update": "2026-08-04T21:44:01.416118+00:00",
+   "members": 42,
+   "llm_title": "양고기 가격 최고치 기록",
+   "one_liner": "지난 7월 양고기 가격이 물가 상승분을 반영한 역대 최고치를 기록했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
