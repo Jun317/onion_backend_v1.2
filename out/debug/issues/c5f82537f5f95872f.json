@@ -9,11 +9,41 @@
  "entity_keys": [
   "IRAN"
  ],
- "seen_sources": 4,
- "importance": 75,
+ "seen_sources": 7,
+ "importance": 85,
  "created_at": "2026-08-04T23:30:25.507376+00:00",
- "last_update": "2026-08-05T18:59:18.323651+00:00",
+ "last_update": "2026-08-07T03:26:37.914580+00:00",
  "members": [
+  {
+   "id": "19b2f86078b858d28bd1779b46713eafec9938fd",
+   "source": "scmp.com",
+   "tier": "wire",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3363226/iran-seeks-bar-us-ships-hormuz-deal-oman-advances",
+   "title": "Iran seeks to bar US ships as Hormuz deal with Oman advances",
+   "published_at": "2026-08-07T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9133
+  },
+  {
+   "id": "7fe7f2e3f1ea79bab6106e93f0604a092ff8f20e",
+   "source": "postandcourier.com",
+   "tier": "wire",
+   "url": "https://www.postandcourier.com/opinion/commentary/war-iran-us-politics/article_a6bbf00d-2571-456f-981c-f1090ca79bd9.html",
+   "title": "The outcome of US - Iran war will affect US politics for years",
+   "published_at": "2026-08-07T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9231
+  },
+  {
+   "id": "93767ed62c42fbe4ec395532d03c92039e2a3a92",
+   "source": "yahoo.com",
+   "tier": "wire",
+   "url": "https://www.yahoo.com/news/politics/articles/iran-war-rattling-republicans-white-232545844.html",
+   "title": "The Iran war is rattling Republicans and they say the White House isnt helping",
+   "published_at": "2026-08-07T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9197
+  },
   {
    "id": "339eb2553b90a16c779d22f42db99323dd5d0e51",
    "source": "abc7chicago.com",
@@ -22,7 +52,7 @@
    "title": "US - Iran war news today : President Donald Trump says deal to reopen the Strait of Hormuz could come as early as Wednesday",
    "published_at": "2026-08-05T18:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.884
+   "sim_to_centroid": 0.8925
   },
   {
    "id": "92b4868dee4a88e09df1cf0d7ce3a76262f743fa",
@@ -32,7 +62,7 @@
    "title": "US has used  virtually all  of its long - range precision missiles during Iran war , sources say",
    "published_at": "2026-08-05T03:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8853
+   "sim_to_centroid": 0.8904
   },
   {
    "id": "338d836ffe84cdfada0fdccb772a97cae83414f1",
@@ -42,7 +72,7 @@
    "title": "Millions join Arbaeen pilgrimage in Iraq amid fears of US - Iran escalation",
    "published_at": "2026-08-04T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9573
+   "sim_to_centroid": 0.9487
   },
   {
    "id": "49812528bb20e7786a69687208bbda0ff12e65f2",
@@ -52,11 +82,32 @@
    "title": "How Iran is widening its pressure campaign to force U . S . concessions",
    "published_at": "2026-08-04T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9617
+   "sim_to_centroid": 0.9576
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Iran seeks to bar US ships as Hormuz deal with Oman advances",
+   "source": "scmp.com",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3363226/iran-seeks-bar-us-ships-hormuz-deal-oman-advances",
+   "at": "2026-08-07T00:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "The outcome of US - Iran war will affect US politics for years",
+   "source": "postandcourier.com",
+   "url": "https://www.postandcourier.com/opinion/commentary/war-iran-us-politics/article_a6bbf00d-2571-456f-981c-f1090ca79bd9.html",
+   "at": "2026-08-07T00:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "The Iran war is rattling Republicans and they say the White House isnt helping",
+   "source": "yahoo.com",
+   "url": "https://www.yahoo.com/news/politics/articles/iran-war-rattling-republicans-white-232545844.html",
+   "at": "2026-08-07T00:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "US - Iran war news today : President Donald Trump says deal to reopen the Strait of Hormuz could come as early as Wednesday",
@@ -87,47 +138,46 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-06T07:10:51.884221+00:00",
+  "model": "template",
+  "created_at": "2026-08-07T03:36:58.216102+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
-    "US - Iran war news today : President Donald Trump says deal to reopen the Strait of Hormuz could come as early as Wednesday",
-    "US has used  virtually all  of its long - range precision missiles during Iran war , sources say",
+    "How Iran is widening its pressure campaign to force U . S . concessions",
     "Millions join Arbaeen pilgrimage in Iraq amid fears of US - Iran escalation",
-    "How Iran is widening its pressure campaign to force U . S . concessions"
+    "The outcome of US - Iran war will affect US politics for years",
+    "The Iran war is rattling Republicans and they say the White House isnt helping",
+    "Iran seeks to bar US ships as Hormuz deal with Oman advances"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국-이란 긴장 고조\",\n  \"one_liner\": \"미국과 이란의 긴장이 고조되며 국제 사회의 우려가 커지고 있어요.\",\n  \"why_now\": \"이란과의 전쟁 소식이 전해지면서 국제 유가와 세계 경제에 미칠 영향에 관심이 쏠리고 있어요.\",\n  \"impact_line\": \"국제 유가가 오르면 국내 주유비와 생필품 가격이 오를 수 있어요.\",\n  \"details\": [\n    \"도널드 트럼프 미국 대통령은 호르무즈 해협 재개방 합의가 수요일에 나올 수 있다고 말했어요.\",\n    \"이란 전쟁에서 미국이 장거리 정밀 미사일을 거의 다 사용했다는 소식도 나왔어요.\",\n    \"이란과의 긴장 고조 속에 수백만 명이 이라크에서 종교 행사에 참여했어요.\",\n    \"이란이 미국의 양보를 얻어내기 위해 압박 작전을 확대하고 있다는 분석도 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"국제 유가가 오르면 항공료, 해상 운송비 등이 올라 전반적인 물가 상승을 부추길 수 있어요!\",\n    \"전쟁 위험이 커지면 안전 자산 선호 심리가 강해져 주식 시장이 불안정해질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"호르무즈 해협\",\n      \"easy\": \"페르시아만과 오만만을 잇는 좁은 해협으로, 석유 수송의 요충지예요.\",\n      \"example\": \"호르무즈 해협이 막히면 국제 유가가 크게 오를 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국-이란 긴장 고조",
-   "one_liner": "미국과 이란의 긴장이 고조되며 국제 사회의 우려가 커지고 있어요.",
-   "why_now": "이란과의 전쟁 소식이 전해지면서 국제 유가와 세계 경제에 미칠 영향에 관심이 쏠리고 있어요.",
+   "title": "How Iran is widening…",
+   "one_liner": "How Iran is widening its pressure campaign to…",
+   "why_now": null,
    "details": [
-    "도널드 트럼프 미국 대통령은 호르무즈 해협 재개방 합의가 수요일에 나올 수 있다고 말했어요.",
-    "이란 전쟁에서 미국이 장거리 정밀 미사일을 거의 다 사용했다는 소식도 나왔어요.",
-    "이란과의 긴장 고조 속에 수백만 명이 이라크에서 종교 행사에 참여했어요.",
-    "이란이 미국의 양보를 얻어내기 위해 압박 작전을 확대하고 있다는 분석도 있어요."
+    "How Iran is widening its pressure campaign to force U . S . concessions",
+    "Millions join Arbaeen pilgrimage in Iraq amid fears of US - Iran escalation",
+    "The outcome of US - Iran war will affect US politics for years"
    ],
-   "effects": [
-    "국제 유가가 오르면 항공료, 해상 운송비 등이 올라 전반적인 물가 상승을 부추길 수 있어요!",
-    "전쟁 위험이 커지면 안전 자산 선호 심리가 강해져 주식 시장이 불안정해질 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "4f61eb763978e798fcc797bf377534c4987b120c"
+  "fact_hash": "20a18f8168c9119b9f1d5117ea891eaa220f22b0"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-06T03:49:24.541279+00:00"
+  "at": "2026-08-07T03:36:58.216047+00:00"
  },
  "glossary": [],
  "related": [

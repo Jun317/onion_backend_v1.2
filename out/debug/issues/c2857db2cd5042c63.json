@@ -9,11 +9,21 @@
  "entity_keys": [
   "AMD"
  ],
- "seen_sources": 5,
- "importance": 85,
+ "seen_sources": 6,
+ "importance": 90,
  "created_at": "2026-08-04T12:24:13.827880+00:00",
- "last_update": "2026-08-05T16:56:48.225129+00:00",
+ "last_update": "2026-08-07T03:26:37.912584+00:00",
  "members": [
+  {
+   "id": "e2b1a1ac86ca04de5f07ec6089556051657353f4",
+   "source": "themarketsdaily.com",
+   "tier": "wire",
+   "url": "https://www.themarketsdaily.com/2026/08/06/amada-otcmktsamdly-issues-quarterly-earnings-results.html",
+   "title": "Amada ( OTCMKTS : AMDLY ) Issues Quarterly Earnings Results",
+   "published_at": "2026-08-07T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8702
+  },
   {
    "id": "90c7b34d2d644e3d40d35fd89c81308c25adee79",
    "source": "techspot.com",
@@ -22,7 +32,7 @@
    "title": "AMD data center business just more than doubled , and gaming is paying the price",
    "published_at": "2026-08-05T16:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9012
+   "sim_to_centroid": 0.9011
   },
   {
    "id": "e508e81a691b7d70ba14ff3d72ef93cf6487aa91",
@@ -32,7 +42,7 @@
    "title": "Listen to the AMD Q2 2026 earnings call here",
    "published_at": "2026-08-04T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9022
+   "sim_to_centroid": 0.9089
   },
   {
    "id": "437e974ad0fe2e95d5b6566de1929f5f95e85507",
@@ -42,7 +52,7 @@
    "title": "Why AMD Stock Popped Today | The Motley Fool",
    "published_at": "2026-08-04T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9106
+   "sim_to_centroid": 0.9127
   },
   {
    "id": "96ce5f5c1fe257efa885d4d4cc1e79c448c35b56",
@@ -52,7 +62,7 @@
    "title": "Stock Market Today : S & P 500 , Dow and Nasdaq Futures Rise After Strong Monday Gains McDonald , AMD , Pala",
    "published_at": "2026-08-04T10:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9571
+   "sim_to_centroid": 0.9531
   },
   {
    "id": "1ac1696ba933e50a84d02ae7a600522063f02d3c",
@@ -62,11 +72,18 @@
    "title": "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week",
    "published_at": "2026-08-02T15:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.958
+   "sim_to_centroid": 0.956
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Amada ( OTCMKTS : AMDLY ) Issues Quarterly Earnings Results",
+   "source": "themarketsdaily.com",
+   "url": "https://www.themarketsdaily.com/2026/08/06/amada-otcmktsamdly-issues-quarterly-earnings-results.html",
+   "at": "2026-08-07T00:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "AMD data center business just more than doubled , and gaming is paying the price",
@@ -104,47 +121,46 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-06T03:47:46.990619+00:00",
+  "model": "template",
+  "created_at": "2026-08-07T03:36:21.187118+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
-    "AMD data center business just more than doubled , and gaming is paying the price",
-    "Listen to the AMD Q2 2026 earnings call here",
-    "Why AMD Stock Popped Today | The Motley Fool",
+    "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week",
     "Stock Market Today : S & P 500 , Dow and Nasdaq Futures Rise After Strong Monday Gains McDonald , AMD , Pala",
-    "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week"
+    "Why AMD Stock Popped Today | The Motley Fool",
+    "Listen to the AMD Q2 2026 earnings call here",
+    "AMD data center business just more than doubled , and gaming is paying the price"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"AMD, 서버 사업 두 배 성장\",\n  \"one_liner\": \"AMD의 서버용 컴퓨터 사업이 두 배 이상 성장했어요.\",\n  \"why_now\": \"AMD의 서버 사업 성장은 인공지능(AI) 기술 발전과 관련이 깊어요.\",\n  \"impact_line\": \"AMD 주가가 오르면서 관련 투자자들의 관심이 높아지고 있어요.\",\n  \"details\": [\n    \"AMD의 서버용 컴퓨터 사업 매출이 두 배 이상 늘었어요.\",\n    \"AMD의 게임 사업 부문은 상대적으로 부진했어요.\",\n    \"AMD는 2분기 실적 발표를 앞두고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"AMD의 서버 사업 성장은 인공지능 칩 수요 증가와 관련이 있을 수 있어요!\",\n    \"AMD의 실적 발표는 반도체 시장 전반의 흐름을 보여줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AMD\",\n      \"easy\": \"미국의 주요 반도체 회사 이름이에요.\",\n      \"example\": \"AMD는 컴퓨터에 들어가는 여러 부품을 만들어요.\"\n    },\n    {\n      \"term\": \"서버\",\n      \"easy\": \"많은 컴퓨터나 사람들에게 정보를 제공하는 컴퓨터를 말해요.\",\n      \"example\": \"인터넷 웹사이트가 잘 돌아가도록 서버가 도와줘요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "AMD, 서버 사업 두 배 성장",
-   "one_liner": "AMD의 서버용 컴퓨터 사업이 두 배 이상 성장했어요.",
-   "why_now": "AMD의 서버 사업 성장은 인공지능(AI) 기술 발전과 관련이 깊어요.",
+   "title": "Earnings Season…",
+   "one_liner": "Earnings Season Heats Up With ( NYSE : CAT ), (…",
+   "why_now": null,
    "details": [
-    "AMD의 서버용 컴퓨터 사업 매출이 두 배 이상 늘었어요.",
-    "AMD의 게임 사업 부문은 상대적으로 부진했어요.",
-    "AMD는 2분기 실적 발표를 앞두고 있어요."
+    "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week",
+    "Stock Market Today : S & P 500 , Dow and Nasdaq Futures Rise After Strong Monday Gains McDonald , AMD , Pala",
+    "Why AMD Stock Popped Today | The Motley Fool"
    ],
-   "effects": [
-    "AMD의 서버 사업 성장은 인공지능 칩 수요 증가와 관련이 있을 수 있어요!",
-    "AMD의 실적 발표는 반도체 시장 전반의 흐름을 보여줄 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "e470af1be4339c2ba75929adb816499586c41ed5"
+  "fact_hash": "978b6791c8796bc76184fb6e8df303851b41249c"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-05T22:34:30.509165+00:00"
+  "at": "2026-08-07T03:36:21.187046+00:00"
  },
  "glossary": [],
  "related": [

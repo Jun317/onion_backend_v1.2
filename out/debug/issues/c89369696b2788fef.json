@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 4,
- "importance": 70,
+ "seen_sources": 5,
+ "importance": 85,
  "created_at": "2026-08-04T10:05:33.923699+00:00",
- "last_update": "2026-08-04T23:30:25.502669+00:00",
+ "last_update": "2026-08-07T03:26:37.919523+00:00",
  "members": [
+  {
+   "id": "fb15ac81bdec578fe2e0bdd51c0c756300988278",
+   "source": "hellenicshippingnews.com",
+   "tier": "wire",
+   "url": "https://www.hellenicshippingnews.com/record-low-rhine-danube-plus-extreme-heat-cause-force-majeures-and-nuclear-shutdowns/",
+   "title": "Record low Rhine , Danube plus extreme heat cause force majeures and nuclear shutdowns",
+   "published_at": "2026-08-07T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8923
+  },
   {
    "id": "df0526bf85bacd1508005254336519cc5765ffe8",
    "source": "naturalnews.com",
@@ -20,7 +30,7 @@
    "title": "The End EPA Abuse Act targets regulatory overreach and the climate hysteria baked into onerous regulations – NaturalNews . com",
    "published_at": "2026-08-04T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8913
+   "sim_to_centroid": 0.8945
   },
   {
    "id": "c58b3d008031495a1318a4183d38776e402ff446",
@@ -30,7 +40,7 @@
    "title": "How Europe Grows Gas Tax Revenues",
    "published_at": "2026-08-04T10:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8652
+   "sim_to_centroid": 0.8696
   },
   {
    "id": "fd192ee002d7439067464ea7a467954faffc3d06",
@@ -40,7 +50,7 @@
    "title": "Analysis - Europe wildfire season exposes climate insurance gap | 1450 AM 99 . 7 FM WHTC",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9909
+   "sim_to_centroid": 0.9887
   },
   {
    "id": "2b4dcd65a029963580c1e10eebbf026cbd2eba81",
@@ -50,11 +60,18 @@
    "title": "Analysis - Europe wildfire season exposes climate insurance gap | 100 . 7 MIX - FM | Today Hit Music",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9896
+   "sim_to_centroid": 0.9872
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Record low Rhine , Danube plus extreme heat cause force majeures and nuclear shutdowns",
+   "source": "hellenicshippingnews.com",
+   "url": "https://www.hellenicshippingnews.com/record-low-rhine-danube-plus-extreme-heat-cause-force-majeures-and-nuclear-shutdowns/",
+   "at": "2026-08-07T00:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "The End EPA Abuse Act targets regulatory overreach and the climate hysteria baked into onerous regulations – NaturalNews . com",
@@ -85,12 +102,13 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-05T14:50:25.666870+00:00",
+  "model": "template",
+  "created_at": "2026-08-07T03:36:39.662624+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
+    "Record low Rhine , Danube plus extreme heat cause force majeures and nuclear shutdowns",
     "The End EPA Abuse Act targets regulatory overreach and the climate hysteria baked into onerous regulations – NaturalNews . com",
     "How Europe Grows Gas Tax Revenues",
     "Analysis - Europe wildfire season exposes climate insurance gap | 1450 AM 99 . 7 FM WHTC",
@@ -98,33 +116,32 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"유럽 기후 관련 규제 논란\", \"one_liner\": \"유럽에서 기후 변화를 이유로 한 규제가 과도하다는 비판이 나오고 있어요.\", \"why_now\": \"기후 변화 관련 규제가 늘면서 경제적 부담이 커지고 있다는 지적이 있어요.\", \"impact_line\": \"환경 규제가 강화되면 관련 제품 가격이 오를 수 있어요.\", \"details\": [\"미국에서는 과도한 규제를 막기 위한 법안이 논의되고 있어요.\", \"유럽에서는 기후 변화 관련 보험 시장의 허점이 드러나고 있어요.\", \"유럽의 가스세 수입에 대한 분석도 나오고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"환경 규제가 강화되면 기업의 생산 비용이 늘어날 수 있어요!\", \"기후 변화로 인한 자연재해가 늘면서 보험료 인상 가능성도 제기돼요!\"], \"glossary\": [{\"term\": \"기후 변화\", \"easy\": \"지구의 날씨가 장기적으로 바뀌는 것을 말해요.\", \"example\": \"기후 변화 때문에 여름이 더 더워지고 있어요.\"}, {\"term\": \"가스세\", \"easy\": \"천연가스 사용에 붙는 세금을 말해요.\", \"example\": \"가스세가 오르면 난방비가 비싸질 수 있어요.\"}]}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "유럽 기후 관련 규제 논란",
-   "one_liner": "유럽에서 기후 변화를 이유로 한 규제가 과도하다는 비판이 나오고 있어요.",
-   "why_now": "기후 변화 관련 규제가 늘면서 경제적 부담이 커지고 있다는 지적이 있어요.",
+   "title": "Record low Rhine ,…",
+   "one_liner": "Record low Rhine , Danube plus extreme heat…",
+   "why_now": null,
    "details": [
-    "미국에서는 과도한 규제를 막기 위한 법안이 논의되고 있어요.",
-    "유럽에서는 기후 변화 관련 보험 시장의 허점이 드러나고 있어요.",
-    "유럽의 가스세 수입에 대한 분석도 나오고 있어요."
+    "Record low Rhine , Danube plus extreme heat cause force majeures and nuclear shutdowns",
+    "The End EPA Abuse Act targets regulatory overreach and the climate hysteria baked into onerous regulations – NaturalNews . com",
+    "How Europe Grows Gas Tax Revenues"
    ],
-   "effects": [
-    "환경 규제가 강화되면 기업의 생산 비용이 늘어날 수 있어요!",
-    "기후 변화로 인한 자연재해가 늘면서 보험료 인상 가능성도 제기돼요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "wti"
   },
-  "fact_hash": "b733a5200634113ea524baf10723c011608a3b8d"
+  "fact_hash": "6a97177a8b39fc3bf56de2566fa9f5666025074d"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-05T10:07:44.108600+00:00"
+  "at": "2026-08-07T03:36:39.662560+00:00"
  },
  "glossary": [],
  "related": [
