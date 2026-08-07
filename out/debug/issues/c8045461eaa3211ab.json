@@ -871,7 +871,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-07T15:15:48.267150+00:00",
+  "created_at": "2026-08-07T19:27:39.154100+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,8 +887,14 @@
     "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank"
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n   \"one_liner\": \"미국 경제가 2분기에 1.5% 성장했어요\",\n   \"why_now\": \"미국 경제 성장이 느려지면 소비자 물가가 낮아질 수 있어요\",\n   \"impact_line\": \"물가가 낮아져 소비자 물품 가격이 낮아질 수 있어요\",\n   \"details\": [\n      \"미국 경제가 2분기에 1.5% 성장했어요\",\n      \"미국 연방준비제도이사회가 금리 인하를 서두르지 않는 상황이에요\",\n      \"미국 내 수요가 강한 상황이에요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"미국 경제 성장 둔화로 소비자 물가가 낮아질 수 있어요!\",\n      \"미국 경제 성장 둔화로 미국 달러 가치가 영향을 받을 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [1.5]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -911,8 +917,8 @@
   "fact_hash": "63a23b84926d8182c0e9578910ec5097373cea82"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-07T15:15:48.267014+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-07T19:27:39.153932+00:00"
  },
  "glossary": [],
  "related": [

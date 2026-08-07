@@ -701,8 +701,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-07T15:16:25.174561+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-07T19:27:07.025294+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -715,25 +715,32 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"이란과 미국의 긴장\",\n   \"one_liner\": \"이란이 미국에 압력을 넣고 있어요\",\n   \"why_now\": \"이란과 미국의 관계가 어렵게 되면 세계 경제에 영향을 줄 수 있어요\",\n   \"impact_line\": \"유가가 오를 수 있어요\",\n   \"details\": [\n      \"이란이 미국에 압력을 넣고 있어요\",\n      \"이란과 미국의 관계가 어렵게 되면 세계 경제에 영향을 줄 수 있어요\",\n      \"이란은 미국 배를 호르무즈 해협에 들어오지 못하게 할 계획이에요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"유가가 오르면 물건 값도 오를 수 있어요!\",\n      \"이란과 미국의 관계가 더 악화되면 세계 경제에 큰 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "why_now 55자 초과(57)"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "How Iran is widening…",
-   "one_liner": "How Iran is widening its pressure campaign to…",
-   "why_now": null,
+   "title": "이란과 미국의 긴장",
+   "one_liner": "이란이 미국에 압력을 넣고 있어요",
+   "why_now": "이란과 미국의 관계가 어렵게 되면 세계 경제에 영향을 줄 수 있어요",
    "details": [
-    "How Iran is widening its pressure campaign to force U . S . concessions",
-    "Iran seeks to bar US ships as Hormuz deal with Oman advances",
-    "Iran deal over the Strait of Hormuz may require compromise from Trump"
+    "이란이 미국에 압력을 넣고 있어요",
+    "이란과 미국의 관계가 어렵게 되면 세계 경제에 영향을 줄 수 있어요",
+    "이란은 미국 배를 호르무즈 해협에 들어오지 못하게 할 계획이에요"
    ],
-   "effects": [],
+   "effects": [
+    "유가가 오르면 물건 값도 오를 수 있어요!",
+    "이란과 미국의 관계가 더 악화되면 세계 경제에 큰 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "34fc2a199dcd4030d1eea8660289149cb5234f49"

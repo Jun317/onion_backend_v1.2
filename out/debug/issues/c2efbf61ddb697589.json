@@ -240,8 +240,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-07T15:26:16.393678+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-07T19:26:57.032607+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -257,25 +257,27 @@
     "Federal Reserve Board announces approval of the application by FS Bancorp, Inc."
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 관세 소송\",\n   \"one_liner\": \"미국 민주당 소속 법무장관과 주지사가 연방정부를 관세 문제로 소송했어요\",\n   \"why_now\": \"관세가 높으면 물건 값이 오르는데, 이게 소비자에게 영향을 줄 수 있어요\",\n   \"impact_line\": \"물건 값이 오를 수 있어요\",\n   \"details\": [\n       \"미국 민주당 소속 법무장관과 주지사가 연방정부를 관세 문제로 소송했어요\",\n       \"새로운 관세에 대한 환불을 요구하고 있어요\",\n       \"분열된 연방 항소법원이 트럼프 행정부가 기후 기금을 종료한 것이 잘못되었다고 말했어요\",\n       \"미 연방준비제도 이사회가 Coastal Bend Bancshares와 FS Bancorp의 신청을 승인했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"물건 값이 오르면 소비자가 부담이 늘어날 수 있어요!\",\n       \"기업도 수출이 어려워질 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"관세\",\n           \"easy\": \"수입된 물건에 부과하는 세이에요\",\n           \"example\": \"관세가 높으면 수입 물건의 가격이 오를 수 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Democratic attorneys…",
-   "one_liner": "Democratic attorneys general , governors sue…",
-   "why_now": null,
+   "title": "미국 관세 소송",
+   "one_liner": "미국 민주당 소속 법무장관과 주지사가 연방정부를 관세 문제로 소송했어요",
+   "why_now": "관세가 높으면 물건 값이 오르는데, 이게 소비자에게 영향을 줄 수 있어요",
    "details": [
-    "Democratic attorneys general , governors sue feds over tariffs",
-    "States sue federal govt over new tariffs , seek refunds",
-    "Divided federal appeals court says Trump administration was wrong to terminate climate funds – Brandon Sun"
+    "미국 민주당 소속 법무장관과 주지사가 연방정부를 관세 문제로 소송했어요",
+    "새로운 관세에 대한 환불을 요구하고 있어요",
+    "분열된 연방 항소법원이 트럼프 행정부가 기후 기금을 종료한 것이 잘못되었다고 말했어요",
+    "미 연방준비제도 이사회가 Coastal Bend Bancshares와 FS Bancorp의 신청을요."
    ],
-   "effects": [],
+   "effects": [
+    "물건 값이 오르면 소비자가 부담이 늘어날 수 있어요!",
+    "기업도 수출이 어려워질 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "2d784292eefad5f0860f16511f9f1426714275de"
@@ -284,7 +286,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-07T15:26:16.393602+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cea83213c8906724e",
