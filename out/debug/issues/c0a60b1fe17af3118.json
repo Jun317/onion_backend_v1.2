@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 32,
- "importance": 60,
+ "importance": 55,
  "created_at": "2026-08-04T10:05:33.921960+00:00",
  "last_update": "2026-08-04T20:04:50.674252+00:00",
  "members": [
@@ -851,7 +851,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-06T15:39:14.651449+00:00",
+  "created_at": "2026-08-07T00:26:28.091601+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -864,18 +864,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"인도 기업, 순환 경제로 수익 모색\", \"one_liner\": \"인도 기업들이 자원을 다시 사용하고 폐기물을 줄이는 순환 경제 모델로 수익을 창출하려 하고 있어요.\", \"why_now\": \"자원 낭비를 줄이고 환경 보호에 기여하면서도 새로운 사업 기회를 만들 수 있기 때문이에요.\", \"impact_line\": \"친환경 제품이나 서비스의 선택지가 늘어날 수 있어요.\", \"details\": [\"인도 기업들이 순환 경제 모델을 적극적으로 도입하고 있습니다.\", \"이는 자원을 효율적으로 사용하고 폐기물을 최소화하는 방식입니다.\", \"이러한 움직임은 새로운 사업 기회를 창출할 것으로 기대됩니다.\", \"환경 보호와 경제적 이익을 동시에 추구하는 방향입니다.\"], \"visual_type\": \"none\", \"effects\": [\"기업들은 재활용, 재사용, 수리 등을 통해 새로운 가치를 창출할 수 있습니다!\", \"소비자들은 더 지속 가능한 제품과 서비스를 이용할 기회를 얻을 수 있습니다!\"], \"glossary\": [{\"term\": \"순환 경제\", \"easy\": \"물건을 쓰고 버리는 대신, 다시 사용하고 고쳐 쓰는 경제 방식이에요.\", \"example\": \"다 쓴 플라스틱 병을 모아 다시 옷을 만드는 것이 순환 경제의 한 예예요.\"}]}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 50자 초과(55)",
-     "details[0] 어요체 아님",
-     "details[1] 어요체 아님",
-     "details[2] 어요체 아님",
-     "details[3] 어요체 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -898,23 +888,11 @@
   "fact_hash": "7097d79cfacc51f216b75413714790bc100b0e0c"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(55)\", \"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\", \"details[3] 어요체 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-06T15:39:14.651388+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-07T00:26:28.091539+00:00"
  },
  "glossary": [],
  "related": [
-  {
-   "id": "c13ff9296b0f3d9e3",
-   "title": "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c2857db2cd5042c63",
-   "title": "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week",
-   "category": "EARNINGS",
-   "shared": []
-  },
   {
    "id": "c8759b0f51add9c4b",
    "title": "CXMT becomes China most valuable listed company",
@@ -930,6 +908,18 @@
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c13ff9296b0f3d9e3",
+   "title": "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c2857db2cd5042c63",
+   "title": "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week",
    "category": "EARNINGS",
    "shared": []
   }

@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 45,
- "importance": 65,
+ "importance": 60,
  "created_at": "2026-08-04T10:05:33.921056+00:00",
  "last_update": "2026-08-05T16:56:48.239930+00:00",
  "members": [
@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-06T15:37:20.905325+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-07T00:23:42.145531+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,26 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"글로벌 주식 시장 상승\",\n   \"one_liner\": \"글로벌 경제가 회복하면서 주식 시장에 좋게 작용했어요\",\n   \"why_now\": \"글로벌 경제 회복이 주식 시장에 긍정적인 영향을 줄 수 있어요\",\n   \"impact_line\": \"주식 투자자에게 기회가 늘어날 수 있어요\",\n   \"details\": [\n      \"인공지능 기술이 산업과 인프라에 긍정적인 영향을 줄 수 있어요\",\n      \"인도 주식 시장에서 국내 투자자들이 영향력을 키웠어요\",\n      \"미국 주식 시장에서 인공지능 관련 주가가 상승했어요\",\n      \"글로벌 경제 회복으로 주식 시장에 호재가 생겼어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"글로벌 경제가 회복하면서 주식 시장에 긍정적인 영향을 줄 수 있어요!\",\n      \"주식 투자자들이 다양한 기회를 찾을 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "AI - driven profit…",
-   "one_liner": "AI - driven profit growth may benefit…",
-   "why_now": null,
+   "title": "글로벌 주식 시장 상승",
+   "one_liner": "글로벌 경제가 회복하면서 주식 시장에 좋게 작용했어요",
+   "why_now": "글로벌 경제 회복이 주식 시장에 긍정적인 영향을 줄 수 있어요",
    "details": [
-    "AI - driven profit growth may benefit industrials , infrastructure , emerging markets : Report",
-    "DIIs tighten grip on Indian equities , raise holding across healthcare , auto , capital goods",
-    "AI - linked earnings , Mideast deal hopes send Dow , S & P 500 to record highs"
+    "인공지능 기술이 산업과 인프라에 긍정적인 영향을 줄 수 있어요",
+    "인도 주식 시장에서 국내 투자자들이 영향력을 키웠어요",
+    "미국 주식 시장에서 인공지능 관련 주가가 상승했어요",
+    "글로벌 경제 회복으로 주식 시장에 호재가 생겼어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "글로벌 경제가 회복하면서 주식 시장에 긍정적인 영향을 줄 수 있어요!",
+    "주식 투자자들이 다양한 기회를 찾을 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "e06029b5eff1e130344a3f580c9de940e5ea82e8"
  },
@@ -910,18 +912,6 @@
  },
  "glossary": [],
  "related": [
-  {
-   "id": "c13ff9296b0f3d9e3",
-   "title": "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c2857db2cd5042c63",
-   "title": "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week",
-   "category": "EARNINGS",
-   "shared": []
-  },
   {
    "id": "c8759b0f51add9c4b",
    "title": "CXMT becomes China most valuable listed company",
@@ -937,6 +927,18 @@
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c13ff9296b0f3d9e3",
+   "title": "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c2857db2cd5042c63",
+   "title": "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week",
    "category": "EARNINGS",
    "shared": []
   }
