@@ -122,7 +122,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-07T07:50:34.800520+00:00",
+  "created_at": "2026-08-07T11:14:32.011121+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -135,13 +135,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"2분기 실적 발표\",\n   \"one_liner\": \"여러 기업이 2분기 실적을 발표했어요\",\n   \"why_now\": \"실적 발표로 기업의 현재 상태를 알 수 있어요\",\n   \"impact_line\": \"주식시장에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"LifeMD가 2분기 실적을 발표했어요\",\n       \"Network-1이 2분기 실적을 발표했어요\",\n       \"Iron Mountain이 2분기 실적을 발표했어요\",\n       \"Journey Energy가 2분기 실적을 발표했어요\",\n       \"Nauticus Robotics가 2분기 실적 발표 일정 발표했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"기업의 실적이 좋으면 주가가 오를 수 있어요!\",\n       \"실적이 좋지 않으면 주가가 내릴 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"2026년 2분기 실적 발표\",\n   \"one_liner\": \"여러 기업이 2026년 2분기 실적을 발표했어요\",\n   \"why_now\": \"실적이 좋으면 주가가 오를 수 있어요\",\n   \"impact_line\": \"주식 투자자에게 영향을 줄 수 있어요\",\n   \"details\": [\n      \"LifeMD가 2026년 2분기 실적을 발표했어요\",\n      \"Network-1이 2026년 2분기 실적을 발표했어요\",\n      \"Iron Mountain이 2026년 2분기 실적을 발표했어요\",\n      \"Journey Energy가 2026년 2분기 실적을 발표했어요\",\n      \"Nauticus Robotics가 2026년 2분기 실적 발표 일정을 발표했어요\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n      \"실적이 좋으면 주가가 오를 수 있어요!\",\n      \"실적이 좋지 않으면 주가가 내릴 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "effects[1] 느낌표 종결 아님",
-     "입력에 없는 숫자: [1850.0]"
+     "입력에 없는 숫자: [-1.0, 1850.0]"
     ]
    },
    {
@@ -166,8 +165,8 @@
   "fact_hash": "94bbd319788434c06c0c3ccf4d81e0e4044e973c"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [1850.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [-1.0]\"]}]}",
-  "at": "2026-08-07T07:50:34.800404+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [-1.0, 1850.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [-1.0]\"]}]}",
+  "at": "2026-08-07T11:14:32.010998+00:00"
  },
  "glossary": [],
  "related": [

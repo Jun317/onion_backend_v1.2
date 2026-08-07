@@ -681,7 +681,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-07T07:52:56.299019+00:00",
+  "created_at": "2026-08-07T11:17:06.053881+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -694,14 +694,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"기업 실적 발표\", \"one_liner\": \"여러 기업들이 2분기 실적을 발표했어요.\", \"why_now\": \"기업들의 실적은 경제 상황을 보여주는 중요한 지표예요.\", \"impact_line\": null, \"details\": [\"글로벌 인뎀니티 그룹의 2분기 실적 발표가 있었어요.\", \"톰슨 로이터의 2분기 실적 발표가 있었어요.\", \"아이덱스 래버러토리스의 2분기 실적 발표가 있었어요.\", \"메드라인의 2분기 실적 발표가 있었어요.\", \"비원 메디슨의 2분기 실적 발표가 있었어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": []}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects 1~2문장 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -724,8 +718,8 @@
   "fact_hash": "b31f393f74258497a4ed12f8fbf3e812196486c8"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-07T07:52:56.298965+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-07T11:17:06.053766+00:00"
  },
  "glossary": [],
  "related": [

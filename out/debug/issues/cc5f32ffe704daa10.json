@@ -170,8 +170,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-07T08:00:30.427607+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-07T11:14:06.920700+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -183,26 +183,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"경제 영향\",\n   \"one_liner\": \"몇몇 나라의 경제 상황이 변하고 있어요\",\n   \"why_now\": \"경제가 어떻게 변하는지 알고 있으면 우리 생활에 도움이 되요\",\n   \"impact_line\": \"식품 가격이 오를 수 있어요\",\n   \"details\": [\n       \"나이지리아의 제조업은 아직 생산성의 큰 영향을 못 받았어요\",\n       \"인도의 중앙은행이 원유 가격 상승으로 인해 루피화 가치 하락을 막으려고干预할 수 있어요\",\n       \"인플레이션은 일시적이고 공급에 의해 발생한 가격 상승일 수 있어요\",\n       \"지연된 모기가 경제에 큰 영향을 미치지 않을 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"식품 가격이 오르면 장바구니 비용이 증가할 수 있어요!\",\n       \"경제 상황이 안정되면 소비와 투자가 증가할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Nigeria : Manufacture…",
-   "one_liner": "Nigeria : Manufacturers Yet to Feel Significant…",
-   "why_now": null,
+   "title": "경제 영향",
+   "one_liner": "몇몇 나라의 경제 상황이 변하고 있어요",
+   "why_now": "경제가 어떻게 변하는지 알고 있으면 우리 생활에 도움이 되요",
    "details": [
-    "Nigeria : Manufacturers Yet to Feel Significant Impact On Productivity From Increased Capital Spending - Report",
-    "RBI likely intervenes to shield rupee from oil jump , traders say",
-    "MPC can judiciously use its tolerance band to look past temporary , supply - driven inflation spikes"
+    "나이지리아의 제조업은 아직 생산성의 큰 영향을 못 받았어요",
+    "인도의 중앙은행이 원유 가격 상승으로 인해 루피화 가치 하락을 막으려고干预할 수 있어요",
+    "인플레이션은 일시적이고 공급에 의해 발생한 가격 상승일 수 있어요",
+    "지연된 모기가 경제에 큰 영향을 미치지 않을 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "식품 가격이 오르면 장바구니 비용이 증가할 수 있어요!",
+    "경제 상황이 안정되면 소비와 투자가 증가할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "05e554cade9c18bfae24c63118382b17957b2411"
  },
@@ -210,7 +212,18 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-07T08:00:30.427541+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "인플레이션",
+   "easy": "물가가 전반적으로 계속 오르는 현상이에요.",
+   "example": "돈의 힘이 조금씩 약해지는 셈이에요."
+  }
+ ],
  "related": [
   {
    "id": "cb3030e4a5acd0008",

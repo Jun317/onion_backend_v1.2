@@ -2,13 +2,13 @@
  "id": "ca9a7496f517bc23a",
  "title": "Truth Social API : Is fast policy access fair for markets ? | Stock & Land",
  "category": "POLICY",
- "status": "active",
+ "status": "stale",
  "origin": "cluster",
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 2,
- "importance": 70,
+ "importance": 65,
  "created_at": "2026-08-04T10:05:33.923147+00:00",
  "last_update": "2026-08-04T10:05:33.925550+00:00",
  "members": [
@@ -52,7 +52,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-07T07:52:36.701058+00:00",
+  "created_at": "2026-08-07T11:17:25.631435+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -62,20 +62,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"트럼프 소셜 미디어 정책 접근\",\n\"one_liner\": \"트럼프의 소셜 미디어 정책 접근이 시장에 공정한지에 대한 논의가 있어요.\",\n\"why_now\": \"정책에 대한 빠른 접근은 시장 참여자들에게 정보 비대칭을 일으킬 수 있어요.\",\n\"impact_line\": null,\n\"details\": [\n\"트럼프의 소셜 미디어 정책 접근에 대한 논의가 있어요.\",\n\"이 정책 접근이 시장에 공정한지에 대한 질문이 제기되고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"정책 결정 과정에 대한 투명성이 높아지면 시장 참여자들이 더 공정하게 경쟁할 수 있을 것으로 예상돼요!\",\n\"정보 접근의 공정성은 시장의 신뢰도를 높이는 데 중요해요!\"\n],\n\"glossary\": [\n{\n\"term\": \"API\",\n\"easy\": \"컴퓨터 프로그램끼리 정보를 주고받을 수 있게 하는 연결 통로예요.\",\n\"example\": \"날씨 앱이 기상청 API를 이용해 날씨 정보를 보여줘요.\"\n}\n],\n\"impact_line\": null\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "why_now 55자 초과(61)",
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -93,8 +85,8 @@
   "fact_hash": "c3343e5d238248b5291292b884e29033faff099a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(61)\", \"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-08-07T07:52:36.700955+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-07T11:17:25.631369+00:00"
  },
  "glossary": [],
  "related": [
