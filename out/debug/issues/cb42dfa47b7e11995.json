@@ -2,16 +2,36 @@
  "id": "cb42dfa47b7e11995",
  "title": "AI - driven profit growth may benefit industrials , infrastructure , emerging markets : Report",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 45,
+ "seen_sources": 2,
+ "importance": 50,
  "created_at": "2026-08-04T10:05:33.921781+00:00",
- "last_update": "2026-08-07T12:04:29.507986+00:00",
+ "last_update": "2026-08-08T04:33:28.961871+00:00",
  "members": [
+  {
+   "id": "b914a6518d9d31971cee129b483ca8a919f20e2f",
+   "source": "cleantechnica.com",
+   "tier": "wire",
+   "url": "https://cleantechnica.com/2026/08/07/waymo-ceo-dont-move-fast-break-things-with-physical-ai/",
+   "title": "Waymo CEO : Dont Move Fast & Break Things With Physical AI",
+   "published_at": "2026-08-08T03:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8636
+  },
+  {
+   "id": "e0e848f82d35c56f203c16ce0cec3b05f5791bf2",
+   "source": "cleantechnica.com",
+   "tier": "wire",
+   "url": "https://cleantechnica.com/2026/08/07/u-s-battery-storage-capacity-averaged-70-growth-over-the-last-three-years/",
+   "title": "U . S . Battery Storage Capacity Averaged 70 % Growth Over The Last Three Years",
+   "published_at": "2026-08-08T03:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8658
+  },
   {
    "id": "9f2f651f2399ca0030f15c6968181e3a22b51e3b",
    "source": "srilankasource.com",
@@ -20,7 +40,7 @@
    "title": "Revature Hosted AI Academy in a Box National Summit 2026 to Drive the Future of AI - Native Engineering Education in India",
    "published_at": "2026-08-07T10:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8599
+   "sim_to_centroid": 0.8699
   },
   {
    "id": "a1da1eeede1162777989da108d04eae6c59e2156",
@@ -30,7 +50,7 @@
    "title": "AI - driven profit growth may benefit industrials , infrastructure , emerging markets : Report",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9984
+   "sim_to_centroid": 0.9931
   },
   {
    "id": "bdc7951a0105cd9d6c1eaaf7f022ad925a749733",
@@ -40,7 +60,7 @@
    "title": "AI - driven profit growth may benefit industrials , infrastructure , emerging markets : Report",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9984
+   "sim_to_centroid": 0.9931
   },
   {
    "id": "ed4c3e571987f708b833780a83476c130ebd5f58",
@@ -50,11 +70,25 @@
    "title": "AI - driven profit growth may benefit industrials , infrastructure , emerging markets : Report",
    "published_at": "2026-08-04T07:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9984
+   "sim_to_centroid": 0.9931
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Waymo CEO : Dont Move Fast & Break Things With Physical AI",
+   "source": "cleantechnica.com",
+   "url": "https://cleantechnica.com/2026/08/07/waymo-ceo-dont-move-fast-break-things-with-physical-ai/",
+   "at": "2026-08-08T03:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "U . S . Battery Storage Capacity Averaged 70 % Growth Over The Last Three Years",
+   "source": "cleantechnica.com",
+   "url": "https://cleantechnica.com/2026/08/07/u-s-battery-storage-capacity-averaged-70-growth-over-the-last-three-years/",
+   "at": "2026-08-08T03:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Revature Hosted AI Academy in a Box National Summit 2026 to Drive the Future of AI - Native Engineering Education in India",
@@ -84,7 +118,43 @@
    "at": "2026-08-04T07:15:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-08T04:33:30.401938+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Waymo CEO : Dont Move Fast & Break Things With Physical AI",
+    "U . S . Battery Storage Capacity Averaged 70 % Growth Over The Last Three Years",
+    "Revature Hosted AI Academy in a Box National Summit 2026 to Drive the Future of AI - Native Engineering Education in India"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"AI 관련 소식\",\n   \"one_liner\": \"미국 배터리 저장 용량이 최근 3년간 평균 70% 성장했어요\",\n   \"why_now\": \"인공지능 기술이 발전하면서 관련 산업도 함께 성장하고 있어요\",\n   \"impact_line\": \"자동차나 전기 저장 기술이 발전할 수 있어요\",\n   \"details\": [\n       \"미국 배터리 저장 용량이 최근 3년간 평균 70% 성장했어요\",\n       \"Waymo의 CEO는 물리적인 인공지능 기술 개발에서 속도보다 안전을 우선해야 한다고 말했어요\",\n       \"Revature는 인도에서 AI 네이티브 엔지니어링 교육을 위한 아카데미를 열었어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국의 배터리 저장 기술이 발전하면 전기차나 재생에너지 산업이 성장할 수 있어요!\",\n       \"인공지능 기술이 발전하면 관련 산업의 자동화와 효율성이提高될 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "AI 관련 소식",
+   "one_liner": "미국 배터리 저장 용량이 최근 3년간 평균 70% 성장했어요",
+   "why_now": "인공지능 기술이 발전하면서 관련 산업도 함께 성장하고 있어요",
+   "details": [
+    "미국 배터리 저장 용량이 최근 3년간 평균 70% 성장했어요",
+    "Waymo의 CEO는 물리적인 인공지능 기술 개발에서 속도보다 안전을 우선해야 한다고 말했어요",
+    "Revature는 인도에서 AI 네이티브 엔지니어링 교육을 위한 아카데미를 열었어요"
+   ],
+   "effects": [
+    "미국의 배터리 저장 기술이 발전하면 전기차나 재생에너지 산업이 성장할 수 있어요!",
+    "인공지능 기술이 발전하면 관련 산업의 자동화와 효율성이提高될 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "a028197677c7d9fd613b31fa6628f99eb31cc412"
+ },
  "review": null,
  "glossary": [],
  "related": [
@@ -101,12 +171,6 @@
    "shared": []
   },
   {
-   "id": "c2857db2cd5042c63",
-   "title": "Earnings Season Heats Up With ( NYSE : CAT ), ( NASDAQ : AMD ), And SpaceX ( NASDAQ : SPCX ) Among Major Reporters This Week",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
    "id": "c8759b0f51add9c4b",
    "title": "CXMT becomes China most valuable listed company",
    "category": "EARNINGS",
@@ -115,6 +179,12 @@
   {
    "id": "c2e1f0924eab58cb9",
    "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c2fe47d2110ccdaa3",
+   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
    "category": "EARNINGS",
    "shared": []
   }
