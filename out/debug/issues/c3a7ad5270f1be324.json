@@ -2,15 +2,15 @@
  "id": "c3a7ad5270f1be324",
  "title": "Shani Abeysekara promoted to Deputy Inspector General of Police",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 45,
+ "seen_sources": 2,
+ "importance": 50,
  "created_at": "2026-08-08T09:07:02.139480+00:00",
- "last_update": "2026-08-08T09:07:02.139480+00:00",
+ "last_update": "2026-08-08T09:59:57.724976+00:00",
  "members": [
   {
    "id": "0e76b4ce9921fab4bb8b6c6c67b90c5081fdba74",
@@ -20,7 +20,7 @@
    "title": "Shani Abeysekara promoted to Deputy Inspector General of Police",
    "published_at": "2026-08-08T08:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9575
+   "sim_to_centroid": 0.9553
   },
   {
    "id": "5f2d011c60b42c9ab9fc0bd68b58bdf465131f46",
@@ -30,7 +30,17 @@
    "title": "New legal guidance on protecting personal data in State institutions",
    "published_at": "2026-08-08T08:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9575
+   "sim_to_centroid": 0.9566
+  },
+  {
+   "id": "d07fcde9a0307f12c204a5c36524f398eff8ec96",
+   "source": "dailypost.ng",
+   "tier": "wire",
+   "url": "https://dailypost.ng/2026/08/08/report-of-40-nigerian-children-under-5-being-stunted-stirs-conversations/",
+   "title": "Report of 40 % Nigerian children under 5 being stunted stirs conversations",
+   "published_at": "2026-08-08T08:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8629
   }
  ],
  "anchors": [],
@@ -48,15 +58,72 @@
    "source": "srilankamirror.com",
    "url": "https://srilankamirror.com/news/new-legal-guidance-on-protecting-personal-data-in-state-institutions/",
    "at": "2026-08-08T08:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Report of 40 % Nigerian children under 5 being stunted stirs conversations",
+   "source": "dailypost.ng",
+   "url": "https://dailypost.ng/2026/08/08/report-of-40-nigerian-children-under-5-being-stunted-stirs-conversations/",
+   "at": "2026-08-08T08:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-08T10:00:33.223436+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Shani Abeysekara promoted to Deputy Inspector General of Police",
+    "New legal guidance on protecting personal data in State institutions",
+    "Report of 40 % Nigerian children under 5 being stunted stirs conversations"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"나이지리아 아동 영양실조 심각\", \"one_liner\": \"나이지리아 어린이 5명 중 2명 이상이 성장에 필요한 영양을 제대로 공급받지 못하고 있어요.\", \"why_now\": \"어린이 영양실조는 건강뿐 아니라 장기적인 성장과 발달에 큰 영향을 미쳐요.\", \"impact_line\": null, \"details\": [\"나이지리아의 5세 미만 어린이 40%가 영양실조 상태라는 보고가 나왔어요.\", \"이는 어린이들의 정상적인 성장에 필요한 영양분이 부족하다는 뜻이에요.\", \"이 보고는 관련 논의를 불러일으키고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"어린이들의 건강과 학습 능력 저하로 이어질 수 있어요!\", \"국가 전체의 미래 성장 동력 약화라는 장기적인 문제로 이어질 수 있어요!\"], \"glossary\": []}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 50자 초과(51)"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Shani Abeysekara…",
+   "one_liner": "Shani Abeysekara promoted to Deputy Inspector…",
+   "why_now": null,
+   "details": [
+    "Shani Abeysekara promoted to Deputy Inspector General of Police",
+    "New legal guidance on protecting personal data in State institutions",
+    "Report of 40 % Nigerian children under 5 being stunted stirs conversations"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "82a1ab7e27d4361b682a0044996ca87c1a7723e8"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(51)\"]}]}",
+  "at": "2026-08-08T10:00:33.223341+00:00"
+ },
  "glossary": [],
  "related": [
   {
    "id": "c6fdad826562ed3e4",
    "title": "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "cc7a847a31a119032",
+   "title": "Meta Had Six Weeks to Stop Japan $804M Scam Crisis : It Chose Revenue",
    "category": "EARNINGS",
    "shared": []
   },
@@ -75,12 +142,6 @@
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c13ff9296b0f3d9e3",
-   "title": "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
    "category": "EARNINGS",
    "shared": []
   }

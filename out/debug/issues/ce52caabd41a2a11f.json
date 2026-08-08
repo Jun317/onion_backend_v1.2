@@ -2,15 +2,15 @@
  "id": "ce52caabd41a2a11f",
  "title": "Contrasting BRT Apartments ( NYSE : BRT ) & Ingenia Communities Group ( OTCMKTS : INGEF )",
  "category": "MARKET",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 60,
+ "seen_sources": 2,
+ "importance": 65,
  "created_at": "2026-08-08T09:07:02.139260+00:00",
- "last_update": "2026-08-08T09:07:02.139260+00:00",
+ "last_update": "2026-08-08T09:59:57.724930+00:00",
  "members": [
   {
    "id": "aa3c891244d908ed95f528f1c346d3c68f53c523",
@@ -20,7 +20,7 @@
    "title": "Contrasting BRT Apartments ( NYSE : BRT ) & Ingenia Communities Group ( OTCMKTS : INGEF )",
    "published_at": "2026-08-08T08:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.967
+   "sim_to_centroid": 0.965
   },
   {
    "id": "9934e6727ba4a37e1cd938b5b95d1beec86aaee1",
@@ -30,7 +30,17 @@
    "title": "Contrasting International Flavors & Fragrances ( NYSE : IFF ) & EMS - CHEMIE ( OTCMKTS : EMSHF )",
    "published_at": "2026-08-08T08:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.967
+   "sim_to_centroid": 0.966
+  },
+  {
+   "id": "f229c227e132f12d3f9b559f8264243c024f7d58",
+   "source": "koimoi.com",
+   "tier": "wire",
+   "url": "https://www.koimoi.com/box-office/spider-man-brand-new-day-india-box-office-day-9-crosses-350-crore-mark-inches-away-from-becoming-mcus-highest-grosser/",
+   "title": "Spider - Man : Brand New Day India Box Office Day 9 : Crosses 350 Crore Mark , Inches Away From Becoming MCU Highest - Grosser !",
+   "published_at": "2026-08-08T08:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8583
   }
  ],
  "anchors": [],
@@ -48,10 +58,61 @@
    "source": "dailypolitical.com",
    "url": "https://www.dailypolitical.com/2026/08/08/contrasting-international-flavors-ems-chemie-otcmktsemshf.html",
    "at": "2026-08-08T08:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Spider - Man : Brand New Day India Box Office Day 9 : Crosses 350 Crore Mark , Inches Away From Becoming MCU Highest - Grosser !",
+   "source": "koimoi.com",
+   "url": "https://www.koimoi.com/box-office/spider-man-brand-new-day-india-box-office-day-9-crosses-350-crore-mark-inches-away-from-becoming-mcus-highest-grosser/",
+   "at": "2026-08-08T08:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-08T10:00:01.423395+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Contrasting BRT Apartments ( NYSE : BRT ) & Ingenia Communities Group ( OTCMKTS : INGEF )",
+    "Contrasting International Flavors & Fragrances ( NYSE : IFF ) & EMS - CHEMIE ( OTCMKTS : EMSHF )",
+    "Spider - Man : Brand New Day India Box Office Day 9 : Crosses 350 Crore Mark , Inches Away From Becoming MCU Highest - Grosser !"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"기업 비교 뉴스\", \"one_liner\": \"두 기업의 주가와 사업 현황을 비교하는 뉴스가 나왔어요.\", \"why_now\": \"기업의 실적과 전망을 비교하는 것은 투자 결정에 중요한 정보가 될 수 있어요.\", \"impact_line\": null, \"details\": [\"BRT와 Ingenia Communities Group의 주가와 사업을 비교했어요.\", \"International Flavors & Fragrances와 EMS-CHEMIE의 주가와 사업을 비교했어요.\", \"영화 '스파이더맨'의 인도 박스오피스 수익이 350억 루피를 넘었어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"BRT\", \"easy\": \"뉴욕증권거래소에 상장된 기업의 종목 코드예요.\", \"example\": \"BRT 주가가 올랐다는 뉴스가 나왔어요.\"}, {\"term\": \"NYSE\", \"easy\": \"미국 뉴욕에 있는 세계 최대 증권거래소예요.\", \"example\": \"NYSE 상장 기업들의 주가 변동이 커요.\"}, {\"term\": \"OTCMKTS\", \"easy\": \"미국 장외주식시장에 상장된 기업들의 거래를 보여주는 정보예요.\", \"example\": \"OTCMKTS 종목은 변동성이 클 수 있어요.\"}, {\"term\": \"MCU\", \"easy\": \"마블 시네마틱 유니버스의 줄임말로, 마블 영화 세계관을 뜻해요.\", \"example\": \"MCU 영화는 전 세계적으로 인기가 많아요.\"}], \"impact_line\": null}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 에 한자/가나 포함"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects 1~2문장 아님"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Contrasting BRT…",
+   "one_liner": "Contrasting BRT Apartments ( NYSE : BRT ) &…",
+   "why_now": null,
+   "details": [
+    "Contrasting BRT Apartments ( NYSE : BRT ) & Ingenia Communities Group ( OTCMKTS : INGEF )",
+    "Contrasting International Flavors & Fragrances ( NYSE : IFF ) & EMS - CHEMIE ( OTCMKTS : EMSHF )",
+    "Spider - Man : Brand New Day India Box Office Day 9 : Crosses 350 Crore Mark , Inches Away From Becoming MCU Highest - Grosser !"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "565ea0dc6ea2851d442801260ae8bcd96d301e80"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}]}",
+  "at": "2026-08-08T10:00:01.423108+00:00"
+ },
  "glossary": [],
  "related": [
   {
