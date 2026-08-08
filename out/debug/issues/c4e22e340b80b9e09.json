@@ -1,0 +1,126 @@
+{
+ "id": "c4e22e340b80b9e09",
+ "title": "Why Wall Street Prices Coca - Cola and PepsiCo Differently",
+ "category": "MARKET",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "PEP"
+ ],
+ "seen_sources": 2,
+ "importance": 90,
+ "created_at": "2026-08-08T13:19:28.845771+00:00",
+ "last_update": "2026-08-08T13:19:28.846665+00:00",
+ "members": [
+  {
+   "id": "d6bdf04a88d519ec4107755c55a0576566a2aa0a",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-pepsico-110527623.html",
+   "title": "Are Wall Street Analysts Predicting PepsiCo Stock Will Climb or Sink ?",
+   "published_at": "2026-08-08T12:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9686
+  },
+  {
+   "id": "e4febac35956fb5d6beb0686e8d8d34fcbd1aa0e",
+   "source": "insidermonkey.com",
+   "tier": "wire",
+   "url": "https://www.insidermonkey.com/blog/why-wall-street-prices-coca-cola-and-pepsico-differently-1807478/",
+   "title": "Why Wall Street Prices Coca - Cola and PepsiCo Differently",
+   "published_at": "2026-08-05T19:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9686
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Are Wall Street Analysts Predicting PepsiCo Stock Will Climb or Sink ?",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-pepsico-110527623.html",
+   "at": "2026-08-08T12:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Why Wall Street Prices Coca - Cola and PepsiCo Differently",
+   "source": "insidermonkey.com",
+   "url": "https://www.insidermonkey.com/blog/why-wall-street-prices-coca-cola-and-pepsico-differently-1807478/",
+   "at": "2026-08-05T19:45:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-08T13:20:22.124985+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Are Wall Street Analysts Predicting PepsiCo Stock Will Climb or Sink ?",
+    "Why Wall Street Prices Coca - Cola and PepsiCo Differently"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Are Wall Street…",
+   "one_liner": "Are Wall Street Analysts Predicting PepsiCo…",
+   "why_now": null,
+   "details": [
+    "Are Wall Street Analysts Predicting PepsiCo Stock Will Climb or Sink ?",
+    "Why Wall Street Prices Coca - Cola and PepsiCo Differently"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "53b2faf13f4e4b6ce0b285cd3295dd1fd5443001"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-08T13:20:22.124874+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c473082d7f30acb2b",
+   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cd6e96f9df3790928",
+   "title": "US economy cools in second quarter despite solid spending",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cb34f19e1978fa138",
+   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c6103da62f039fb9e",
+   "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
+   "category": "MARKET",
+   "shared": []
+  }
+ ]
+}

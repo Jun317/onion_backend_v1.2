@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-08T11:50:59.448590+00:00",
+ "generated_at": "2026-08-08T13:31:13.400413+00:00",
  "issues": [
   {
    "id": "cea83213c8906724e",
@@ -244,59 +244,20 @@
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 10,
+   "seen_sources": 13,
    "importance": 120,
    "entity_keys": [
+    "BRK",
     "F",
     "SEC"
    ],
    "created_at": "2026-08-07T15:14:46.737049+00:00",
-   "last_update": "2026-08-08T09:59:57.721781+00:00",
-   "members": 10,
+   "last_update": "2026-08-08T13:19:28.843659+00:00",
+   "members": 16,
    "llm_title": "$109 , 796 In…",
    "one_liner": "$109 , 796 In Earnings Needed To Afford Typical…",
    "llm_model": "template",
    "in_review": true
-  },
-  {
-   "id": "cd6e96f9df3790928",
-   "title": "US economy cools in second quarter despite solid spending",
-   "category": "MARKET",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 32,
-   "importance": 120,
-   "entity_keys": [
-    "ABBV",
-    "CHINA",
-    "SEC"
-   ],
-   "created_at": "2026-08-02T04:45:35.342282+00:00",
-   "last_update": "2026-08-04T12:24:13.824667+00:00",
-   "members": 50,
-   "llm_title": "외국인 투자 흐름",
-   "one_liner": "외국인 투자자들이 돈을 넣거나 뺄 때 환율에 영향을 미치나요.",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "eb1bdaa0b3cb70aec",
-   "title": "한국은행 기준금리 인상 (2.75%)",
-   "category": "RATE",
-   "status": "stale",
-   "origin": "official_event",
-   "seen_sources": 0,
-   "importance": 120,
-   "entity_keys": [
-    "BOK"
-   ],
-   "created_at": "2026-08-03T11:32:57.816558+00:00",
-   "last_update": "2026-08-03T12:39:52.792567+00:00",
-   "members": 0,
-   "llm_title": "한국 기준금리 인상",
-   "one_liner": "한국은행이 기준금리를 올려 연 2.75%가 됐어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": false
   },
   {
    "id": "c37ad01cf8a091a74",
@@ -361,6 +322,46 @@
    "one_liner": "이란이 미국에 압력을 넣고 있어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
+  },
+  {
+   "id": "cd6e96f9df3790928",
+   "title": "US economy cools in second quarter despite solid spending",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 32,
+   "importance": 115,
+   "entity_keys": [
+    "ABBV",
+    "CHINA",
+    "SEC"
+   ],
+   "created_at": "2026-08-02T04:45:35.342282+00:00",
+   "last_update": "2026-08-04T12:24:13.824667+00:00",
+   "members": 50,
+   "llm_title": "외국인 투자 흐름",
+   "one_liner": "외국인 투자자들이 돈을 넣거나 뺄 때 환율에 영향을 미치나요.",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "eb1bdaa0b3cb70aec",
+   "title": "한국은행 기준금리 인상 (2.75%)",
+   "category": "RATE",
+   "status": "stale",
+   "origin": "official_event",
+   "seen_sources": 0,
+   "importance": 115,
+   "entity_keys": [
+    "BOK"
+   ],
+   "created_at": "2026-08-03T11:32:57.816558+00:00",
+   "last_update": "2026-08-03T12:39:52.792567+00:00",
+   "members": 0,
+   "llm_title": "한국 기준금리 인상",
+   "one_liner": "한국은행이 기준금리를 올려 연 2.75%가 됐어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": false
   },
   {
    "id": "c57459dd01283ce90",
@@ -493,6 +494,30 @@
    "in_review": true
   },
   {
+   "id": "c6103da62f039fb9e",
+   "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 23,
+   "importance": 105,
+   "entity_keys": [
+    "AMZN",
+    "GOOGL",
+    "MSFT",
+    "MU",
+    "NVDA",
+    "ORCL"
+   ],
+   "created_at": "2026-07-30T03:40:01.659273+00:00",
+   "last_update": "2026-08-08T13:19:28.838708+00:00",
+   "members": 42,
+   "llm_title": "엔비디아 주가 전망",
+   "one_liner": "엔비디아 주가가 크게 오를 것이라는 전망이 나왔어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
    "id": "cc5f32ffe704daa10",
    "title": "Delayed monsoon unlikely to trigger broader economic impact , but food inflation may stay elevated : Report",
    "category": "MACRO",
@@ -507,30 +532,6 @@
    "llm_title": "미국 주식시장 상승",
    "one_liner": "미국 주식시장이 처음에는 강세를 보일 수 있어요",
    "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "c6103da62f039fb9e",
-   "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 22,
-   "importance": 105,
-   "entity_keys": [
-    "AMZN",
-    "GOOGL",
-    "MSFT",
-    "MU",
-    "NVDA",
-    "ORCL"
-   ],
-   "created_at": "2026-07-30T03:40:01.659273+00:00",
-   "last_update": "2026-08-07T18:08:50.437729+00:00",
-   "members": 41,
-   "llm_title": "엔비디아 주가 전망",
-   "one_liner": "엔비디아 주가가 크게 오를 것이라는 전망이 나왔어요.",
-   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -915,14 +916,14 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 13,
+   "seen_sources": 31,
    "importance": 95,
    "entity_keys": [],
    "created_at": "2026-08-08T09:07:02.139696+00:00",
-   "last_update": "2026-08-08T10:57:13.936820+00:00",
-   "members": 14,
-   "llm_title": "Saudi Arabia ,…",
-   "one_liner": "Saudi Arabia , Turkiye , Pakistan sign joint…",
+   "last_update": "2026-08-08T13:19:28.845020+00:00",
+   "members": 50,
+   "llm_title": "Foreign flows into…",
+   "one_liner": "Foreign flows into Indian bonds may remain muted…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1076,6 +1077,42 @@
    "llm_title": "나이지리아 금리 인하 느려질 수 있어",
    "one_liner": "나이지리아의 금리 인하가 느려질 수 있다고 경고했어요",
    "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "c4e22e340b80b9e09",
+   "title": "Why Wall Street Prices Coca - Cola and PepsiCo Differently",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 90,
+   "entity_keys": [
+    "PEP"
+   ],
+   "created_at": "2026-08-08T13:19:28.845771+00:00",
+   "last_update": "2026-08-08T13:19:28.846665+00:00",
+   "members": 2,
+   "llm_title": "Are Wall Street…",
+   "one_liner": "Are Wall Street Analysts Predicting PepsiCo…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c1995b72f85b2c36b",
+   "title": "Europe Roundup : Dollar steady ahead of US jobs report , European shares climbs , Gold gains , Oil drops - August 7th , 2026",
+   "category": "MACRO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 90,
+   "entity_keys": [],
+   "created_at": "2026-08-08T09:07:02.139064+00:00",
+   "last_update": "2026-08-08T13:19:28.846574+00:00",
+   "members": 4,
+   "llm_title": "US equity funds see…",
+   "one_liner": "US equity funds see outflows as investors take…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -1242,36 +1279,19 @@
    "in_review": true
   },
   {
-   "id": "c1995b72f85b2c36b",
-   "title": "Europe Roundup : Dollar steady ahead of US jobs report , European shares climbs , Gold gains , Oil drops - August 7th , 2026",
-   "category": "MACRO",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 85,
-   "entity_keys": [],
-   "created_at": "2026-08-08T09:07:02.139064+00:00",
-   "last_update": "2026-08-08T09:07:02.139064+00:00",
-   "members": 2,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
    "id": "c47ecc1fee5dc473c",
    "title": "US Treasury Targets Currency Exchanges , Shell Companies Tied To Iran",
    "category": "FX",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 7,
+   "seen_sources": 8,
    "importance": 85,
    "entity_keys": [
     "IRAN"
    ],
    "created_at": "2026-08-08T04:33:28.961088+00:00",
-   "last_update": "2026-08-08T09:07:02.135687+00:00",
-   "members": 9,
+   "last_update": "2026-08-08T13:19:28.842564+00:00",
+   "members": 10,
    "llm_title": "미국, 이란 환전소 제재",
    "one_liner": "미국 재무부가 이란과 관련된 환전소와 유령 회사를 제재했어요.",
    "llm_model": "gemini-2.5-flash-lite",
@@ -1414,14 +1434,14 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 13,
+   "seen_sources": 28,
    "importance": 80,
    "entity_keys": [],
    "created_at": "2026-08-08T09:07:02.139870+00:00",
-   "last_update": "2026-08-08T11:50:58.612230+00:00",
-   "members": 15,
-   "llm_title": "Cordless handheld…",
-   "one_liner": "Cordless handheld vacuum with  brilliant running…",
+   "last_update": "2026-08-08T13:19:28.844555+00:00",
+   "members": 37,
+   "llm_title": "How to get  soft to…",
+   "one_liner": "How to get  soft to touch  Dunelm bedding set…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1441,25 +1461,6 @@
    "one_liner": "금값이 오늘 조금 올랐어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
-  },
-  {
-   "id": "c942788cecb5c9e9d",
-   "title": "Trump administration revokes visa of Brazil ambassador to US in spat with Lula",
-   "category": "GEO",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 80,
-   "entity_keys": [
-    "V"
-   ],
-   "created_at": "2026-08-05T03:42:02.143951+00:00",
-   "last_update": "2026-08-05T12:21:37.306043+00:00",
-   "members": 4,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
   },
   {
    "id": "cf6419c2d6a74b323",
@@ -1544,6 +1545,40 @@
    "one_liner": "유럽 연합이 구글에 안드로이드를 다른 인공지능 회사에 열어야 한다고 했어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
+  },
+  {
+   "id": "ce52caabd41a2a11f",
+   "title": "Contrasting BRT Apartments ( NYSE : BRT ) & Ingenia Communities Group ( OTCMKTS : INGEF )",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 4,
+   "importance": 75,
+   "entity_keys": [],
+   "created_at": "2026-08-08T09:07:02.139260+00:00",
+   "last_update": "2026-08-08T13:19:28.844058+00:00",
+   "members": 12,
+   "llm_title": "Contrasting BRT…",
+   "one_liner": "Contrasting BRT Apartments ( NYSE : BRT ) &…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "ccb22b90d790f20c9",
+   "title": "Brazil as Euro Africa on American soil",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 75,
+   "entity_keys": [],
+   "created_at": "2026-08-08T09:07:02.140422+00:00",
+   "last_update": "2026-08-08T13:19:28.840115+00:00",
+   "members": 3,
+   "llm_title": "브라질-아르헨티나 관계 악화",
+   "one_liner": "브라질과 아르헨티나의 관계가 나빠지면서 남미 협력에 어려움이 예상돼요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": false
   },
   {
    "id": "c71be4b20900d177d",
@@ -1652,6 +1687,25 @@
    "one_liner": "미국 경제가 안정적이지 않다는 우려가 나오고 있어요.",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
+  },
+  {
+   "id": "c942788cecb5c9e9d",
+   "title": "Trump administration revokes visa of Brazil ambassador to US in spat with Lula",
+   "category": "GEO",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 75,
+   "entity_keys": [
+    "V"
+   ],
+   "created_at": "2026-08-05T03:42:02.143951+00:00",
+   "last_update": "2026-08-05T12:21:37.306043+00:00",
+   "members": 4,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
   },
   {
    "id": "c29244f8d2449fa7c",
@@ -2087,23 +2141,6 @@
    "in_review": true
   },
   {
-   "id": "ccb22b90d790f20c9",
-   "title": "Brazil as Euro Africa on American soil",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 70,
-   "entity_keys": [],
-   "created_at": "2026-08-08T09:07:02.140422+00:00",
-   "last_update": "2026-08-08T09:07:02.141695+00:00",
-   "members": 2,
-   "llm_title": "브라질-아르헨티나 관계 악화",
-   "one_liner": "브라질과 아르헨티나의 관계가 나빠지면서 남미 협력에 어려움이 예상돼요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": false
-  },
-  {
    "id": "cf0bbd1f16a588d60",
    "title": "Pfizer Earnings : Strong Growth for Newer Drugs Counters Covid Declines",
    "category": "EARNINGS",
@@ -2385,19 +2422,19 @@
    "in_review": true
   },
   {
-   "id": "ce52caabd41a2a11f",
-   "title": "Contrasting BRT Apartments ( NYSE : BRT ) & Ingenia Communities Group ( OTCMKTS : INGEF )",
+   "id": "c55fd0aa0cfaeeca5",
+   "title": "Nordea Bank AB ( OTCMKTS : NRDBY ) Receives Average Recommendation of  Hold  from Brokerages",
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
    "seen_sources": 2,
    "importance": 65,
    "entity_keys": [],
-   "created_at": "2026-08-08T09:07:02.139260+00:00",
-   "last_update": "2026-08-08T09:59:57.724930+00:00",
+   "created_at": "2026-08-08T09:07:02.140239+00:00",
+   "last_update": "2026-08-08T13:19:28.846627+00:00",
    "members": 3,
-   "llm_title": "Contrasting BRT…",
-   "one_liner": "Contrasting BRT Apartments ( NYSE : BRT ) &…",
+   "llm_title": "Corsair Gaming (…",
+   "one_liner": "Corsair Gaming ( NASDAQ : CRSR ) Updates FY 2026…",
    "llm_model": "template",
    "in_review": true
   },
@@ -2415,23 +2452,6 @@
    "members": 50,
    "llm_title": "Cboe ( CBOE ) Q2…",
    "one_liner": "Cboe ( CBOE ) Q2 2026 Earnings Call Transcript",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cbeca8d041d7ca462",
-   "title": "Continental Q2 Net Income Declines",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 26,
-   "importance": 65,
-   "entity_keys": [],
-   "created_at": "2026-08-04T10:05:33.920885+00:00",
-   "last_update": "2026-08-07T12:04:29.508146+00:00",
-   "members": 50,
-   "llm_title": "Global Indemnity…",
-   "one_liner": "Global Indemnity Group Q2 Earnings Call Highlights",
    "llm_model": "template",
    "in_review": true
   },
@@ -2941,21 +2961,21 @@
    "in_review": true
   },
   {
-   "id": "c55fd0aa0cfaeeca5",
-   "title": "Nordea Bank AB ( OTCMKTS : NRDBY ) Receives Average Recommendation of  Hold  from Brokerages",
-   "category": "MARKET",
-   "status": "candidate",
+   "id": "cbeca8d041d7ca462",
+   "title": "Continental Q2 Net Income Declines",
+   "category": "EARNINGS",
+   "status": "active",
    "origin": "cluster",
-   "seen_sources": 1,
+   "seen_sources": 26,
    "importance": 60,
    "entity_keys": [],
-   "created_at": "2026-08-08T09:07:02.140239+00:00",
-   "last_update": "2026-08-08T09:07:02.140239+00:00",
-   "members": 2,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "created_at": "2026-08-04T10:05:33.920885+00:00",
+   "last_update": "2026-08-07T12:04:29.508146+00:00",
+   "members": 50,
+   "llm_title": "Global Indemnity…",
+   "one_liner": "Global Indemnity Group Q2 Earnings Call Highlights",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c6c5e838fe8708e1d",
@@ -4089,8 +4109,8 @@
    "importance": 45,
    "entity_keys": [],
    "created_at": "2026-08-08T09:07:02.140629+00:00",
-   "last_update": "2026-08-08T10:57:13.936321+00:00",
-   "members": 5,
+   "last_update": "2026-08-08T13:19:28.844426+00:00",
+   "members": 7,
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,

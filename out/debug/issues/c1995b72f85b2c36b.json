@@ -2,16 +2,36 @@
  "id": "c1995b72f85b2c36b",
  "title": "Europe Roundup : Dollar steady ahead of US jobs report , European shares climbs , Gold gains , Oil drops - August 7th , 2026",
  "category": "MACRO",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 85,
+ "seen_sources": 2,
+ "importance": 90,
  "created_at": "2026-08-08T09:07:02.139064+00:00",
- "last_update": "2026-08-08T09:07:02.139064+00:00",
+ "last_update": "2026-08-08T13:19:28.846574+00:00",
  "members": [
+  {
+   "id": "445a1a58038509ad1c3f99bef410292b7e99a2ab",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-funds-see-outflows-101228432.html",
+   "title": "US equity funds see outflows as investors take profits ahead of jobs data",
+   "published_at": "2026-08-08T12:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8847
+  },
+  {
+   "id": "0740874c62ed80b037807ca2679161e06aa9b630",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-8-2026-rates-mixed-this-weekend-100000461.html",
+   "title": "Mortgage and refinance interest rates today , Saturday , August 8 , 2026 : Rates mixed this weekend",
+   "published_at": "2026-08-08T12:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8868
+  },
   {
    "id": "d5ee26212bace5b9295330305fbf96f58ef2e72b",
    "source": "econotimes.com",
@@ -20,7 +40,7 @@
    "title": "Europe Roundup : Dollar steady ahead of US jobs report , European shares climbs , Gold gains , Oil drops - August 7th , 2026",
    "published_at": "2026-08-08T08:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9549
+   "sim_to_centroid": 0.956
   },
   {
    "id": "be173ce6f073653b35054d35593171961c4e24d9",
@@ -30,11 +50,25 @@
    "title": "Oil Prices Set for Steep Weekly Losses as Hormuz Deal Stalls",
    "published_at": "2026-08-08T08:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9549
+   "sim_to_centroid": 0.9486
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "US equity funds see outflows as investors take profits ahead of jobs data",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-funds-see-outflows-101228432.html",
+   "at": "2026-08-08T12:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Mortgage and refinance interest rates today , Saturday , August 8 , 2026 : Rates mixed this weekend",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-8-2026-rates-mixed-this-weekend-100000461.html",
+   "at": "2026-08-08T12:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Europe Roundup : Dollar steady ahead of US jobs report , European shares climbs , Gold gains , Oil drops - August 7th , 2026",
@@ -50,8 +84,47 @@
    "at": "2026-08-08T08:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-08T13:20:40.676462+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [],
+   "headlines": [
+    "US equity funds see outflows as investors take profits ahead of jobs data",
+    "Mortgage and refinance interest rates today , Saturday , August 8 , 2026 : Rates mixed this weekend",
+    "Europe Roundup : Dollar steady ahead of US jobs report , European shares climbs , Gold gains , Oil drops - August 7th , 2026",
+    "Oil Prices Set for Steep Weekly Losses as Hormuz Deal Stalls"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US equity funds see…",
+   "one_liner": "US equity funds see outflows as investors take…",
+   "why_now": null,
+   "details": [
+    "US equity funds see outflows as investors take profits ahead of jobs data",
+    "Mortgage and refinance interest rates today , Saturday , August 8 , 2026 : Rates mixed this weekend",
+    "Europe Roundup : Dollar steady ahead of US jobs report , European shares climbs , Gold gains , Oil drops - August 7th , 2026"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "53039d461745f7282b728939925500a56ea04b4a"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-08T13:20:40.676410+00:00"
+ },
  "glossary": [],
  "related": [
   {

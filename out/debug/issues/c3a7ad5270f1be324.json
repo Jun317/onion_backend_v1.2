@@ -69,7 +69,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-08T10:00:33.223436+00:00",
+  "created_at": "2026-08-08T13:26:30.953769+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -80,18 +80,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"나이지리아 아동 영양실조 심각\", \"one_liner\": \"나이지리아 어린이 5명 중 2명 이상이 성장에 필요한 영양을 제대로 공급받지 못하고 있어요.\", \"why_now\": \"어린이 영양실조는 건강뿐 아니라 장기적인 성장과 발달에 큰 영향을 미쳐요.\", \"impact_line\": null, \"details\": [\"나이지리아의 5세 미만 어린이 40%가 영양실조 상태라는 보고가 나왔어요.\", \"이는 어린이들의 정상적인 성장에 필요한 영양분이 부족하다는 뜻이에요.\", \"이 보고는 관련 논의를 불러일으키고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"어린이들의 건강과 학습 능력 저하로 이어질 수 있어요!\", \"국가 전체의 미래 성장 동력 약화라는 장기적인 문제로 이어질 수 있어요!\"], \"glossary\": []}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 50자 초과(51)"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -110,8 +104,8 @@
   "fact_hash": "82a1ab7e27d4361b682a0044996ca87c1a7723e8"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(51)\"]}]}",
-  "at": "2026-08-08T10:00:33.223341+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-08T13:26:30.953713+00:00"
  },
  "glossary": [],
  "related": [

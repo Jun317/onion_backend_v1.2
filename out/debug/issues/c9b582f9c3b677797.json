@@ -69,31 +69,23 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-08T09:09:14.975174+00:00",
+  "created_at": "2026-08-08T13:23:26.426846+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
     "Having 31 govs wont give Tinubu victory in 2027 Dalung",
+    "Why Cross River reversed Local Govt teacher salary adjustment",
     "PANDEF hails Tinubu over landmark 15 - year gas deal for UTM FLNG"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"나이지리아 대선 관련 소식\",\n    \"one_liner\": \"나이지리아의 2027년 대선 결과와 관련된 의견이 나왔어요.\",\n    \"why_now\": \"대통령 선거 결과에 대한 예측은 향후 정치적 방향을 가늠하는 데 중요해요.\",\n    \"impact_line\": null,\n    \"details\": [\n        \"한 인사가 2027년 대선에서 31명의 주지사가 승리를 가져다주지 못할 것이라고 말했어요.\",\n        \"다른 소식으로는, 특정 단체가 UTM FLNG를 위한 15년간의 가스 계약에 대해 긍정적으로 평가했어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [],\n    \"glossary\": [\n        {\n            \"term\": \"주지사\",\n            \"easy\": \"주를 다스리는 최고 책임자를 말해요.\",\n            \"example\": \"주지사는 주의 정책을 결정하고 집행해요.\"\n        },\n        {\n            \"term\": \"대선\",\n            \"easy\": \"대통령을 뽑는 선거를 말해요.\",\n            \"example\": \"대선 결과에 따라 나라의 리더가 바뀌어요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "why_now 55자 초과(56)",
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -103,16 +95,17 @@
    "why_now": null,
    "details": [
     "Having 31 govs wont give Tinubu victory in 2027 Dalung",
+    "Why Cross River reversed Local Govt teacher salary adjustment",
     "PANDEF hails Tinubu over landmark 15 - year gas deal for UTM FLNG"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "25c193588ef89bd5fe67a5bd74b48520cead8471"
+  "fact_hash": "c468126821fefbaff36263cc56aa038c6eb2fc82"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(56)\", \"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}]}",
-  "at": "2026-08-08T09:09:14.975080+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-08T13:23:26.426774+00:00"
  },
  "glossary": [],
  "related": [
