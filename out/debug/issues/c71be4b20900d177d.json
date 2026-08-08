@@ -2,18 +2,28 @@
  "id": "c71be4b20900d177d",
  "title": "Interview : China zero - tariff treatment for African products opens new chapter in economic cooperation , says Nigerien expert",
  "category": "POLICY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "CHINA"
  ],
- "seen_sources": 1,
- "importance": 75,
+ "seen_sources": 2,
+ "importance": 80,
  "created_at": "2026-08-08T07:26:36.939560+00:00",
- "last_update": "2026-08-08T07:26:36.939560+00:00",
+ "last_update": "2026-08-08T17:52:58.725763+00:00",
  "members": [
+  {
+   "id": "aea8ccbf2a4fbadd1b9c054216bf4108cbf5f594",
+   "source": "tribuneonlineng.com",
+   "tier": "wire",
+   "url": "https://tribuneonlineng.com/nigeria-china-expand-partnership-to-science-technology-fg/",
+   "title": "Nigeria , China expand partnership to science , technology - FG",
+   "published_at": "2026-08-08T17:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8803
+  },
   {
    "id": "9e7f9c97942a74a2c92eca5e49bc3e08b73a06c3",
    "source": "sierraleonetimes.com",
@@ -22,7 +32,7 @@
    "title": "Interview : China zero - tariff treatment for African products opens new chapter in economic cooperation , says Nigerien expert",
    "published_at": "2026-08-08T05:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9986
   },
   {
    "id": "3a8f7b10bb206ba03436edc32ac39d53eda3f27d",
@@ -32,11 +42,18 @@
    "title": "Interview : China zero - tariff treatment for African products opens new chapter in economic cooperation , says Nigerien expert",
    "published_at": "2026-08-08T03:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9986
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Nigeria , China expand partnership to science , technology - FG",
+   "source": "tribuneonlineng.com",
+   "url": "https://tribuneonlineng.com/nigeria-china-expand-partnership-to-science-technology-fg/",
+   "at": "2026-08-08T17:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Interview : China zero - tariff treatment for African products opens new chapter in economic cooperation , says Nigerien expert",
@@ -52,9 +69,50 @@
    "at": "2026-08-08T03:15:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-08T17:52:59.993481+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Nigeria , China expand partnership to science , technology - FG",
+    "Interview : China zero - tariff treatment for African products opens new chapter in economic cooperation , says Nigerien expert"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"나이지리아-중국 협력\",\n   \"one_liner\": \"나이지리아와 중국이 과학·기술 분야에서 협력을 확대했어요\",\n   \"why_now\": \"나이지리아와 중국이 협력하면 경제가 발전할 수 있어요\",\n   \"impact_line\": \"아프리카 제품 수출이 늘어날 수 있어요\",\n   \"details\": [\n       \"나이지리아와 중국이 과학·기술 분야에서 협력을 확대했어요\",\n       \"중국은 아프리카 제품에 무관세 혜택을 주고 있어요\",\n       \"이 협력으로 경제 협력이 새로운 단계에 들어섰다고 전문가가 말했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"아프리카 제품 수출이 늘어나 아프리카 경제가 좋아질 수 있어요!\",\n       \"과학·기술 분야의 협력이 둘 사이의 관계를 강화할 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "나이지리아-중국 협력",
+   "one_liner": "나이지리아와 중국이 과학·기술 분야에서 협력을 확대했어요",
+   "why_now": "나이지리아와 중국이 협력하면 경제가 발전할 수 있어요",
+   "details": [
+    "나이지리아와 중국이 과학·기술 분야에서 협력을 확대했어요",
+    "중국은 아프리카 제품에 무관세 혜택을 주고 있어요",
+    "이 협력으로 경제 협력이 새로운 단계에 들어섰다고 전문가가 말했어요"
+   ],
+   "effects": [
+    "아프리카 제품 수출이 늘어나 아프리카 경제가 좋아질 수 있어요!",
+    "과학·기술 분야의 협력이 둘 사이의 관계를 강화할 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "63ec26110d8b3ede98cc6839c408bf22ebac886c"
+ },
  "review": null,
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "c03074aeed49bf60f",

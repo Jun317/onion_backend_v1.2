@@ -69,7 +69,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-08T14:05:02.871766+00:00",
+  "created_at": "2026-08-08T17:53:18.482560+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -80,14 +80,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"브라질-멕시코 관계 강화\",\n\"one_liner\": \"브라질과 멕시코가 관계를 강화하고 있어요.\",\n\"why_now\": \"두 나라의 관계 강화는 국제 정세 변화 속에서 주목받고 있어요.\",\n\"impact_line\": null,\n\"details\": [\n\"브라질과 멕시코가 관계를 강화하고 있어요.\",\n\"이는 미국과 브라질 간의 긴장 속에서 이루어지고 있어요.\",\n\"브라질과 아르헨티나의 관계 악화도 라틴 아메리카 협력에 영향을 주고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [],\n\"glossary\": [\n{\n\"term\": \"LatAm\",\n\"easy\": \"라틴 아메리카를 줄여 부르는 말이에요.\",\n\"example\": \"라틴 아메리카 국가들은 경제 협력을 강화하고 있어요.\"\n}\n],\n\"impact_line\": null\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects 1~2문장 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -110,8 +104,8 @@
   "fact_hash": "756bd5052e59f7eb3e8ee807006306adc1164411"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-08T14:05:02.871656+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-08T17:53:18.482252+00:00"
  },
  "glossary": [],
  "related": [
@@ -136,6 +130,12 @@
   {
    "id": "c0a3e3cac80938796",
    "title": "Trump agenda now : Deliver crushing blow to Iran regime",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "c6f9e57edbc5d69b6",
+   "title": "Could The US - Iran Battle For Hormuz Be A Win For Russia And China",
    "category": "GEO",
    "shared": []
   }
