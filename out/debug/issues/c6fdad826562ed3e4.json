@@ -702,54 +702,57 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-08T16:58:49.872068+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-08T20:54:58.850001+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "America is actually hurting its own interest : India economy well - insulated against US tariffs on Russian oil , says Kotak Securities Expert",
     "$109 , 796 In Earnings Needed To Afford Typical US Home",
+    "Berkshire Hathaway Just Did Something It Hasnt Done in More Than 3 Years",
     "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
-    "3 Social Security changes are headed for boomers in 2027 and Trump promises wont stop them",
-    "Trump Administration Plans $1 Billion Security Aid Package for Colombia",
-    "Climate crisis : The everyday Aussies who cant afford another flood , drought or fire disaster"
+    "US Treasury Targets Currency Exchanges , Shell Companies Tied To Iran"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"집값 부담 늘어\",\n    \"one_liner\": \"미국에서 집 한 채를 사려면 1억 9796만원이 필요해요.\",\n    \"why_now\": \"집값이 너무 올라서 일반 사람들이 감당하기 어려워지고 있어요.\",\n    \"impact_line\": \"집값 부담이 커져 내 집 마련이 더 어려워질 수 있어요.\",\n    \"details\": [\n        \"미국에서 일반적인 집 한 채를 사려면 10만 9796달러가 필요해요.\",\n        \"이는 약 1억 4900만원에 해당하는 금액이에요.\",\n        \"집값이 오르면서 일반 서민들의 주거비 부담이 커지고 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"집값 상승으로 주거비 부담이 늘어날 수 있어요!\",\n        \"주택 구매력이 낮아져 부동산 시장이 위축될 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"주거비\",\n            \"easy\": \"집을 사고 유지하는 데 드는 모든 비용을 말해요.\",\n            \"example\": \"주거비가 오르면 생활비 부담이 커져요.\"\n        }\n    ]\n}",
+  "raw_response": "{\n  \"title\": \"미국 경제 소식\",\n   \"one_liner\": \"미국 경제에 여러 가지 일이 있었어요\",\n   \"why_now\": \"미국 경제는 세계 경제에 큰 영향을 미치기 때문에 중요해요\",\n   \"impact_line\": \"미국 경제가 어려워지면 우리나라 수출도 영향을 받을 수 있어요\",\n   \"details\": [\n      \"미국은 러시아산 유정에 관세를 부과했어요\",\n      \"미국에서 집을 사려면 많은 돈이 필요해요\",\n      \"버크셔 해서웨이에서 3년 만에 새로운 일을 했어요\",\n      \"미국 오하이오의 시골 지역에서 의료 보험 가입이 줄었어요\",\n      \"미국 재무부가 이란과 관련된 환전 업체를 조사하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"미국 경제가 어려워지면 세계 경제에도 영향을 줄 수 있어요!\",\n      \"의료 보험 가입이 줄면 사람들의 건강이 더 안 좋아질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 에 한자/가나 포함"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [4900.0, 9796.0]"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "$109 , 796 In…",
-   "one_liner": "$109 , 796 In Earnings Needed To Afford Typical…",
-   "why_now": null,
+   "title": "미국 경제 소식",
+   "one_liner": "미국 경제에 여러 가지 일이 있었어요",
+   "why_now": "미국 경제는 세계 경제에 큰 영향을 미치기 때문에 중요해요",
    "details": [
-    "$109 , 796 In Earnings Needed To Afford Typical US Home",
-    "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
-    "3 Social Security changes are headed for boomers in 2027 and Trump promises wont stop them"
+    "미국은 러시아산 유정에 관세를 부과했어요",
+    "미국에서 집을 사려면 많은 돈이 필요해요",
+    "버크셔 해서웨이에서 3년 만에 새로운 일을 했어요",
+    "미국 오하이오의 시골 지역에서 의료 보험 가입이 줄었어요",
+    "미국 재무부가 이란과 관련된 환전 업체를 조사하고 있어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "미국 경제가 어려워지면 세계 경제에도 영향을 줄 수 있어요!",
+    "의료 보험 가입이 줄면 사람들의 건강이 더 안 좋아질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "d59b362fbde9df93e6e2160bc0dc87044afe4de9"
+  "fact_hash": "7dbb0b19f0b0a668a1b27a678038e502830a924f"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [4900.0, 9796.0]\"]}]}",
   "at": "2026-08-08T16:58:49.871922+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "cea83213c8906724e",
@@ -785,11 +788,10 @@
    ]
   },
   {
-   "id": "c473082d7f30acb2b",
-   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
-   "category": "MARKET",
+   "id": "c826b1c1944a1c619",
+   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
+   "category": "RATE",
    "shared": [
-    "F",
     "SEC"
    ]
   }

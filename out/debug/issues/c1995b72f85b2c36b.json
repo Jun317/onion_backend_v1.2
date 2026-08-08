@@ -136,41 +136,49 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-08T17:00:23.234375+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-08T20:55:16.969251+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
-    "US equity funds see outflows as investors take profits ahead of jobs data",
-    "Mortgage and refinance interest rates today , Saturday , August 8 , 2026 : Rates mixed this weekend",
     "Europe Roundup : Dollar steady ahead of US jobs report , European shares climbs , Gold gains , Oil drops - August 7th , 2026",
-    "Oil Prices Set for Steep Weekly Losses as Hormuz Deal Stalls"
+    "Oil Prices Set for Steep Weekly Losses as Hormuz Deal Stalls",
+    "America In Focus : US employers unexpectedly cut 23 , 000 jobs ; mortgage rates rise again",
+    "US equity funds see outflows as investors take profits ahead of jobs data",
+    "Mortgage and refinance interest rates today , Saturday , August 8 , 2026 : Rates mixed this weekend"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"유로저널\",\n   \"one_liner\": \"유럽 주식이 오르고, 금값은 올라서 금값이 높아졌어요.\",\n   \"why_now\": \"주식과 금값이 오르면 사람들이 더 많은 돈을 벌 수 있어요.\",\n   \"impact_line\": \"주식 투자자들이 기뻐할 수 있어요.\",\n   \"details\": [\n       \"유로저널에서 유럽 주식이 오른다고 보도했어요.\",\n       \"금값이 올라서 사람들이 더 많은 돈을 벌 수 있어요.\",\n       \"유럽 주식은 주식 투자자들에게 좋은 소식이에요.\",\n       \"금값이 오르면 사람들이 더 많은 돈을 벌 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주식 투자자들이 기뻐할 수 있어요!\",\n       \"금값이 오르면 사람들이 더 많은 돈을 벌 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "why_now 55자 초과(56)"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "US equity funds see…",
-   "one_liner": "US equity funds see outflows as investors take…",
-   "why_now": null,
+   "title": "유로저널",
+   "one_liner": "유럽 주식이 오르고, 금값은 올라서 금값이 높아졌어요.",
+   "why_now": "주식과 금값이 오르면 사람들이 더 많은 돈을 벌 수 있어요.",
    "details": [
-    "US equity funds see outflows as investors take profits ahead of jobs data",
-    "Mortgage and refinance interest rates today , Saturday , August 8 , 2026 : Rates mixed this weekend",
-    "Europe Roundup : Dollar steady ahead of US jobs report , European shares climbs , Gold gains , Oil drops - August 7th , 2026"
+    "유로저널에서 유럽 주식이 오른다고 보도했어요.",
+    "금값이 올라서 사람들이 더 많은 돈을 벌 수 있어요.",
+    "유럽 주식은 주식 투자자들에게 좋은 소식이에요.",
+    "금값이 오르면 사람들이 더 많은 돈을 벌 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "주식 투자자들이 기뻐할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "53039d461745f7282b728939925500a56ea04b4a"
+  "fact_hash": "a228fbb0d43250cbb0ee04f6568e71de9c350237"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
