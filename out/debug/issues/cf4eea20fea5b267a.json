@@ -1,0 +1,135 @@
+{
+ "id": "cf4eea20fea5b267a",
+ "title": "Morgan Stanley sees shift coming for Big Tech investors",
+ "category": "MARKET",
+ "status": "stale",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "MS"
+ ],
+ "seen_sources": 2,
+ "importance": 60,
+ "created_at": "2026-07-28T18:53:01.536814+00:00",
+ "last_update": "2026-07-28T18:53:01.544496+00:00",
+ "members": [
+  {
+   "id": "c572b5a1b852e58ceb25401995e4e95b6c2ac9b3",
+   "source": "insidermonkey.com",
+   "tier": "wire",
+   "url": "https://www.insidermonkey.com/blog/wall-streets-trading-boom-just-got-a-new-leader-can-morgan-stanley-ms-keep-it-1802785/",
+   "title": "Wall Street Trading Boom Just Got a New Leader : Can Morgan Stanley ( MS ) Keep It ?",
+   "published_at": "2026-07-28T17:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.963
+  },
+  {
+   "id": "cf138714c8028185995d04c304225ba004e4a82d",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-sees-shift-coming-163300500.html",
+   "title": "Morgan Stanley sees shift coming for Big Tech investors",
+   "published_at": "2026-07-26T17:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9629
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Wall Street Trading Boom Just Got a New Leader : Can Morgan Stanley ( MS ) Keep It ?",
+   "source": "insidermonkey.com",
+   "url": "https://www.insidermonkey.com/blog/wall-streets-trading-boom-just-got-a-new-leader-can-morgan-stanley-ms-keep-it-1802785/",
+   "at": "2026-07-28T17:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Morgan Stanley sees shift coming for Big Tech investors",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-sees-shift-coming-163300500.html",
+   "at": "2026-07-26T17:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-07-30T20:39:54.400560+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Wall Street Trading Boom Just Got a New Leader : Can Morgan Stanley ( MS ) Keep It ?",
+    "Morgan Stanley sees shift coming for Big Tech investors"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n\"title\": \"모건스탠리, 시장 변화 예고\",\n\"one_liner\": \"모건스탠리가 큰 기술 기업 투자자들에게 시장 변화가 올 것이라고 내다봤어요.\",\n\"why_now\": \"시장의 큰 손인 모건스탠리의 전망은 투자자들이 주목할 만한 신호가 될 수 있어요.\",\n\"impact_line\": \"기술주 투자에 변화가 생길 수 있다는 전망이 나왔어요.\",\n\"details\": [\n\"모건스탠리가 월스트리트 거래 시장의 새로운 선두 주자가 될 수 있다고 분석했어요.\",\n\"모건스탠리는 큰 기술 기업 투자자들에게 시장의 변화를 예상하고 있어요.\",\n\"이러한 전망은 투자자들의 전략 변화를 시사할 수 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"기술 기업들의 주가 흐름이 달라질 수 있어요!\",\n\"투자자들이 기존의 기술주 투자 방식을 바꿀 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"월스트리트\",\n\"easy\": \"미국 뉴욕에 있는 금융 중심지를 말해요.\",\n\"example\": \"월스트리트의 움직임은 전 세계 금융 시장에 영향을 줘요.\"\n},\n{\n\"term\": \"기술 기업\",\n\"easy\": \"컴퓨터, 인터넷, 소프트웨어 등 기술을 기반으로 하는 회사를 말해요.\",\n\"example\": \"애플, 마이크로소프트 같은 회사가 기술 기업에 속해요.\"\n}\n],\n\"impact_line\": \"기술주 투자에 변화가 생길 수 있다는 전망이 나왔어요.\"\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 에 한자/가나 포함",
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "모건스탠리, 시장 변화 예고",
+   "one_liner": "모건스탠리가 큰 기술 기업 투자자들에게 시장 변화가 올 것이라고 내다봤어요.",
+   "why_now": "시장의 큰 손인 모건스탠리의 전망은 투자자들이 주목할 만한 신호가 될 수 있어요.",
+   "details": [
+    "모건스탠리가 월스트리트 거래 시장의 새로운 선두 주자가 될 수 있다고 분석했어요.",
+    "모건스탠리는 큰 기술 기업 투자자들에게 시장의 변화를 예상하고 있어요.",
+    "이러한 전망은 투자자들의 전략 변화를 시사할 수 있어요."
+   ],
+   "effects": [
+    "기술 기업들의 주가 흐름이 달라질 수 있어요!",
+    "투자자들이 기존의 기술주 투자 방식을 바꿀 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "f461e9a03c9a07ca4f04bff77f4dc22b2d218e5d"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-07-30T16:56:33.336031+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c473082d7f30acb2b",
+   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cd6e96f9df3790928",
+   "title": "US economy cools in second quarter despite solid spending",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cb34f19e1978fa138",
+   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c6103da62f039fb9e",
+   "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
+   "category": "MARKET",
+   "shared": []
+  }
+ ]
+}

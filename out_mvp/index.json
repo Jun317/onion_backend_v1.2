@@ -1,0 +1,4347 @@
+{
+ "schema_version": 4,
+ "generated_at": "2026-07-17T00:00:00+09:00",
+ "attribution": "onion MVP 콘텐츠 패키지 (기준일 2026.7.17) · 출처: 한국은행·통계청·한국거래소·부동산원·최저임금위원회·DART, 연준·미 노동통계국·USTR·EIA 및 국내외 언론 보도",
+ "categories": [
+  {
+   "code": "RATES",
+   "label": "금리",
+   "emoji": "💰",
+   "description": "한국은행·연준·일본은행의 금리 결정과 그 이유"
+  },
+  {
+   "code": "STOCKS",
+   "label": "주식",
+   "emoji": "📈",
+   "description": "코스피·코스닥·미국 증시의 큰 사건"
+  },
+  {
+   "code": "CRYPTO",
+   "label": "코인",
+   "emoji": "🪙",
+   "description": "비트코인 중심의 가상자산 시장"
+  },
+  {
+   "code": "HOUSING",
+   "label": "부동산",
+   "emoji": "🏠",
+   "description": "집값·전세·대출 규제·부동산 세금"
+  },
+  {
+   "code": "AI_CHIPS",
+   "label": "AI·반도체",
+   "emoji": "🤖",
+   "description": "엔비디아·삼성전자·SK하이닉스와 AI 붐"
+  },
+  {
+   "code": "PRICES",
+   "label": "물가·내 지갑",
+   "emoji": "🛒",
+   "description": "물가·최저임금·지원금·예금 제도 등 생활 돈 문제"
+  },
+  {
+   "code": "FX_WORLD",
+   "label": "환율·세계",
+   "emoji": "🌍",
+   "description": "환율, 전쟁, 관세, 유가 — 바깥에서 오는 충격"
+  }
+ ],
+ "scoreboard": [
+  {
+   "name": "코스피",
+   "value": "7,284.41",
+   "compare": "사상 최고 9,385.59 · 7.13 종가 6,806",
+   "as_of": "7.15 종가",
+   "status_line": "폭락 뒤 반등 중이에요. 아직 고점보다 22% 낮아요"
+  },
+  {
+   "name": "원·달러 환율",
+   "value": "1,482원",
+   "compare": "52주 범위 1,365~1,562원",
+   "as_of": "7.14 마감",
+   "status_line": "1,500원 문턱에서 줄다리기 중이에요"
+  },
+  {
+   "name": "한국 기준금리",
+   "value": "연 2.75%",
+   "compare": "7.16에 0.25%p 인상",
+   "as_of": "7.16",
+   "status_line": "3년 6개월 만에 올렸어요. 더 올릴 수 있대요"
+  },
+  {
+   "name": "미국 기준금리",
+   "value": "연 3.50~3.75%",
+   "compare": "연말 전망 중간값 3.8%",
+   "as_of": "6.17",
+   "status_line": "동결 중인데, 올해 안에 올릴 수도 있대요"
+  },
+  {
+   "name": "국제유가(WTI)",
+   "value": "약 80달러",
+   "compare": "3.9 최고 111달러 · 6월 저점 65달러 안팎",
+   "as_of": "7.15 안팎",
+   "status_line": "중동 충돌이 다시 격해지며 오르는 중이에요"
+  },
+  {
+   "name": "비트코인",
+   "value": "약 6.1만 달러",
+   "compare": "사상 최고 12.6만 달러(25.10.6)",
+   "as_of": "7월 중순",
+   "status_line": "고점의 절반 수준이에요. 약세장이에요"
+  },
+  {
+   "name": "금 / 은",
+   "value": "4,033 / 58.5달러",
+   "compare": "금 사상 최고 4,381달러(25.10.20)",
+   "as_of": "7월 중순",
+   "status_line": "전쟁 불안으로 다시 들썩이고 있어요"
+  },
+  {
+   "name": "삼성전자",
+   "value": "254,000원",
+   "compare": "7.13 하루 -10.7% · 1년 전 7만 원대",
+   "as_of": "7.13 종가",
+   "status_line": "1년 새 3배 넘게 올랐다가 급락을 맞았어요"
+  },
+  {
+   "name": "SK하이닉스",
+   "value": "1,845,000원",
+   "compare": "6.18 장중 270만 원 · ADR 193.92달러(7.14)",
+   "as_of": "7.13 종가",
+   "status_line": "미국 상장 직후 롤러코스터 중이에요"
+  },
+  {
+   "name": "엔비디아",
+   "value": "207.40달러",
+   "compare": "5.14 최고 235.47달러(시총 5.73조 달러)",
+   "as_of": "7.16 종가",
+   "status_line": "고점 대비 조정 중이에요. PER은 5년 내 최저예요"
+  },
+  {
+   "name": "해외 지수",
+   "value": "S&P500 7,559 · 나스닥100 29,792 · 닛케이 68,755",
+   "compare": "연초 대비 +9.6% / +16% / +39%(작년)",
+   "as_of": "7월 중순",
+   "status_line": "미국·일본도 올랐지만 한국이 제일 극적이에요"
+  },
+  {
+   "name": "한국 물가",
+   "value": "6월 3.2%",
+   "compare": "목표 2.0% · 생활물가 3.4%",
+   "as_of": "7.2 발표",
+   "status_line": "30개월 만에 가장 많이 올랐어요"
+  },
+  {
+   "name": "미국 물가",
+   "value": "6월 3.5%",
+   "compare": "5월 4.2%에서 둔화",
+   "as_of": "7.14 발표",
+   "status_line": "유가가 잠시 빠지며 한숨 돌렸어요"
+  }
+ ],
+ "issues": [
+  {
+   "id": "i-b8",
+   "title": "중동 충돌 격화에 비트코인 또 하락 — 6만 달러 안팎",
+   "one_liner": "중동 충돌 격화에 비트코인 또 하락 — 6만 달러 안팎",
+   "why_now": null,
+   "impact_line": "급락장에서 계획 없는 '물타기'는 손실만 키워요. 현금 관리가 먼저예요",
+   "raw_title": "중동 충돌 격화에 비트코인 또 하락 — 6만 달러 안팎",
+   "category": "CRYPTO",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 3007,
+   "last_update": "2026-07-17T09:00:00+09:00",
+   "event_at": "2026-07-17T09:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    116,
+    126.2,
+    80.6,
+    87,
+    61.5,
+    72,
+    61.5,
+    61
+   ],
+   "icon": "🪙",
+   "period_tier": "weekly",
+   "date_label": "2026.7.17(금)",
+   "date_label_short": "7.17(금)",
+   "key_stats": [
+    {
+     "value": "약 6.1만 달러",
+     "label": "현재가 (변동 큼)",
+     "direction": "down"
+    },
+    {
+     "value": "-52%",
+     "label": "사상 최고가 대비",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": [
+    "st-us-iran-war"
+   ]
+  },
+  {
+   "id": "i-a8",
+   "title": "TSMC 실적이 좋았는데도 반도체주는 급락했어요",
+   "one_liner": "TSMC 실적이 좋았는데도 반도체주는 급락했어요",
+   "why_now": null,
+   "impact_line": "삼성전자·하이닉스를 든 계좌라면 미국 반도체 뉴스가 곧 내 뉴스예요",
+   "raw_title": "TSMC 실적이 좋았는데도 반도체주는 급락했어요",
+   "category": "AI_CHIPS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 3006,
+   "last_update": "2026-07-16T23:00:00+09:00",
+   "event_at": "2026-07-16T23:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    4.0,
+    5.0,
+    4.4,
+    4.8,
+    5.73,
+    4.8,
+    5.02
+   ],
+   "icon": "🤖",
+   "period_tier": "weekly",
+   "date_label": "2026.7.16(목 · 미국 현지)",
+   "date_label_short": "7.16(목)",
+   "key_stats": [
+    {
+     "value": "600억~640억 달러",
+     "label": "TSMC 2026년 설비투자 (상향)",
+     "direction": "up"
+    },
+    {
+     "value": "-2.4%",
+     "label": "엔비디아 시간외 하락",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": [
+    "st-ai-chips"
+   ]
+  },
+  {
+   "id": "i-r8",
+   "title": "한국은행, 3년 6개월 만에 금리 인상 — 연 2.75%",
+   "one_liner": "한국은행, 3년 6개월 만에 금리 인상 — 연 2.75%",
+   "why_now": null,
+   "impact_line": "변동금리 대출이 있다면 이자 부담이 바로 커져요. 고정금리 전환·상환 계획을 점검할 때예요",
+   "raw_title": "한국은행, 3년 6개월 만에 금리 인상 — 연 2.75%",
+   "category": "RATES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 3005,
+   "last_update": "2026-07-16T10:00:00+09:00",
+   "event_at": "2026-07-16T10:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.75
+   ],
+   "icon": "💰",
+   "period_tier": "weekly",
+   "date_label": "2026.7.16(목) 오전 · 금통위",
+   "date_label_short": "7.16(목)",
+   "key_stats": [
+    {
+     "value": "+0.25%p",
+     "label": "2.50 → 2.75%",
+     "direction": "up"
+    },
+    {
+     "value": "7명 전원",
+     "label": "만장일치 찬성",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": [
+    "st-rate-uturn"
+   ]
+  },
+  {
+   "id": "i-g10",
+   "title": "호르무즈 충돌 격화 — 봉쇄 재개에 \"통행세 20%\"까지",
+   "one_liner": "호르무즈 충돌 격화 — 봉쇄 재개에 \"통행세 20%\"까지",
+   "why_now": null,
+   "impact_line": "주유비·전기요금·배송비가 다시 오를 수 있는 신호예요",
+   "raw_title": "호르무즈 충돌 격화 — 봉쇄 재개에 \"통행세 20%\"까지",
+   "category": "FX_WORLD",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 3004,
+   "last_update": "2026-07-15T05:00:00+09:00",
+   "event_at": "2026-07-15T05:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    62,
+    111.2,
+    88,
+    75,
+    65,
+    68,
+    74.5,
+    80.3
+   ],
+   "icon": "🌍",
+   "period_tier": "weekly",
+   "date_label": "2026.7.12~15 (봉쇄 재개: 7.15 새벽)",
+   "date_label_short": "7.12~15",
+   "key_stats": [
+    {
+     "value": "6척",
+     "label": "해협 통과 선박 (5주 만의 최저)",
+     "direction": "down"
+    },
+    {
+     "value": "74 → 80달러",
+     "label": "이번 주 유가(WTI) 급등",
+     "direction": "up"
+    }
+   ],
+   "steady_ids": [
+    "st-us-iran-war"
+   ]
+  },
+  {
+   "id": "i-p8",
+   "title": "2027년 최저임금, 시급 10,700원으로 정해졌어요",
+   "one_liner": "2027년 최저임금, 시급 10,700원으로 정해졌어요",
+   "why_now": null,
+   "impact_line": "알바비도, 외식값도 함께 움직이는 숫자예요",
+   "raw_title": "2027년 최저임금, 시급 10,700원으로 정해졌어요",
+   "category": "PRICES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 3003,
+   "last_update": "2026-07-14T23:00:00+09:00",
+   "event_at": "2026-07-14T23:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    9620,
+    9860,
+    10030,
+    10320,
+    10700
+   ],
+   "icon": "🛒",
+   "period_tier": "weekly",
+   "date_label": "2026.7.14(화) 밤 의결",
+   "date_label_short": "7.14(화)",
+   "key_stats": [
+    {
+     "value": "10,700원",
+     "label": "시급 (+380원, +3.7%)",
+     "direction": "up"
+    },
+    {
+     "value": "223만 6,300원",
+     "label": "월급 환산 (주 40시간)",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-h7",
+   "title": "\"초고가 기준, 30억이냐 50억이냐\" — 보유세 선긋기 논쟁",
+   "one_liner": "\"초고가 기준, 30억이냐 50억이냐\" — 보유세 선긋기 논쟁",
+   "why_now": null,
+   "impact_line": "발표 전 '설왕설래' 단계의 뉴스는 확정이 아니에요. 7월 말 최종안을 꼭 다시 확인하세요",
+   "raw_title": "\"초고가 기준, 30억이냐 50억이냐\" — 보유세 선긋기 논쟁",
+   "category": "HOUSING",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 3002,
+   "last_update": "2026-07-14T12:00:00+09:00",
+   "event_at": "2026-07-14T12:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🏠",
+   "period_tier": "weekly",
+   "date_label": "2026.7.13~15",
+   "date_label_short": "7.13~15",
+   "key_stats": [
+    {
+     "value": "30억 vs 50억",
+     "label": "초고가 1주택 과세 기준 후보",
+     "direction": "flat"
+    },
+    {
+     "value": "1주택자",
+     "label": "논쟁의 핵심 대상",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-s8",
+   "title": "코스피 하루 -8.95% 폭락 — 올해 7번째 서킷브레이커",
+   "one_liner": "코스피 하루 -8.95% 폭락 — 올해 7번째 서킷브레이커",
+   "why_now": null,
+   "impact_line": "하루 -9% 다음 +6% — 이런 장에선 '몰빵'과 빚투가 계좌를 지울 수 있어요",
+   "raw_title": "코스피 하루 -8.95% 폭락 — 올해 7번째 서킷브레이커",
+   "category": "STOCKS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 3001,
+   "last_update": "2026-07-13T15:30:00+09:00",
+   "event_at": "2026-07-13T15:30:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    6084,
+    5900,
+    5808,
+    8229,
+    9064,
+    9385,
+    6806,
+    7284
+   ],
+   "icon": "📈",
+   "period_tier": "weekly",
+   "date_label": "2026.7.13(월) 13:28 서킷브레이커",
+   "date_label_short": "7.13(월)",
+   "key_stats": [
+    {
+     "value": "6,806",
+     "label": "이날 종가 (고점 대비 -27%)",
+     "direction": "down"
+    },
+    {
+     "value": "-10.7% / -15.4%",
+     "label": "삼성전자 / SK하이닉스",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": [
+    "st-kospi-rally",
+    "st-ai-chips"
+   ]
+  },
+  {
+   "id": "i-r7",
+   "title": "워시, 의회에서도 \"금리 올릴 수 있다\" 재확인",
+   "one_liner": "워시, 의회에서도 \"금리 올릴 수 있다\" 재확인",
+   "why_now": null,
+   "impact_line": "미국의 말 한마디가 이틀 뒤 한국 금리 결정까지 이어졌어요",
+   "raw_title": "워시, 의회에서도 \"금리 올릴 수 있다\" 재확인",
+   "category": "RATES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2016,
+   "last_update": "2026-07-15T03:00:00+09:00",
+   "event_at": "2026-07-15T03:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.75
+   ],
+   "icon": "💰",
+   "period_tier": "monthly",
+   "date_label": "2026.7.14 (미국 현지)",
+   "date_label_short": "7.14",
+   "key_stats": [
+    {
+     "value": "연 3.8%",
+     "label": "연말 금리 전망 중간값(점도표)",
+     "direction": "up"
+    },
+    {
+     "value": "3.5%",
+     "label": "같은 날 나온 6월 미국 물가",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": [
+    "st-rate-uturn"
+   ]
+  },
+  {
+   "id": "i-p7",
+   "title": "미국 물가 4.2% → 3.5%로 뚝 — 유가 덕분이에요",
+   "one_liner": "미국 물가 4.2% → 3.5%로 뚝 — 유가 덕분이에요",
+   "why_now": null,
+   "impact_line": "다만 7월엔 전쟁이 다시 격해지고 유가가 80달러라, 다음 달 물가는 다시 오를 수 있어요",
+   "raw_title": "미국 물가 4.2% → 3.5%로 뚝 — 유가 덕분이에요",
+   "category": "PRICES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2015,
+   "last_update": "2026-07-14T21:30:00+09:00",
+   "event_at": "2026-07-14T21:30:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    2.4,
+    2.2,
+    1.9,
+    1.9,
+    2.3,
+    2.7,
+    3.1,
+    3.2
+   ],
+   "icon": "🛒",
+   "period_tier": "monthly",
+   "date_label": "2026.7.14(화 · 미국 현지) 발표",
+   "date_label_short": "7.14",
+   "key_stats": [
+    {
+     "value": "3.5%",
+     "label": "6월 물가 (예상 3.8%보다 낮음)",
+     "direction": "down"
+    },
+    {
+     "value": "-0.4%",
+     "label": "전월 대비 — 6년 만의 최대 하락",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": [
+    "st-rate-uturn",
+    "st-us-iran-war"
+   ]
+  },
+  {
+   "id": "i-p6",
+   "title": "취업자는 늘었는데, 청년만 20만 명 가까이 줄었어요",
+   "one_liner": "취업자는 늘었는데, 청년만 20만 명 가까이 줄었어요",
+   "why_now": null,
+   "impact_line": "첫 직장 진입이 늦어질수록 생애 소득 격차가 커져요. 청년 지원 정책 뉴스를 챙기세요",
+   "raw_title": "취업자는 늘었는데, 청년만 20만 명 가까이 줄었어요",
+   "category": "PRICES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2014,
+   "last_update": "2026-07-12T09:00:00+09:00",
+   "event_at": "2026-07-12T09:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🛒",
+   "period_tier": "monthly",
+   "date_label": "2026.7월 중순 (6월 고용동향)",
+   "date_label_short": "7월 중순",
+   "key_stats": [
+    {
+     "value": "+6.3만 명",
+     "label": "6월 전체 취업자 증가",
+     "direction": "up"
+    },
+    {
+     "value": "-19.7만 명",
+     "label": "청년 취업자 감소",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-s7",
+   "title": "SK하이닉스, 나스닥 입성 — 외국 기업 역대 최대 공모",
+   "one_liner": "SK하이닉스, 나스닥 입성 — 외국 기업 역대 최대 공모",
+   "why_now": null,
+   "impact_line": "달러로, 미국 주식 앱에서 하이닉스를 살 수 있게 됐어요",
+   "raw_title": "SK하이닉스, 나스닥 입성 — 외국 기업 역대 최대 공모",
+   "category": "STOCKS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2013,
+   "last_update": "2026-07-10T23:00:00+09:00",
+   "event_at": "2026-07-10T23:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "📈",
+   "period_tier": "monthly",
+   "date_label": "2026.7.10(금 · 미국 현지)",
+   "date_label_short": "7.10",
+   "key_stats": [
+    {
+     "value": "265억 달러",
+     "label": "공모 규모 (약 40조 원)",
+     "direction": "up"
+    },
+    {
+     "value": "149달러",
+     "label": "ADR 공모가 (10주 = 국내 1주)",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": [
+    "st-ai-chips",
+    "st-kospi-rally"
+   ]
+  },
+  {
+   "id": "i-a7",
+   "title": "엔비디아, 두 달 새 시총 1조 달러 증발",
+   "one_liner": "엔비디아, 두 달 새 시총 1조 달러 증발",
+   "why_now": null,
+   "impact_line": "서학개미 1위 종목의 조정이라 미국 주식 계좌 수익률에 직접 영향이 있어요",
+   "raw_title": "엔비디아, 두 달 새 시총 1조 달러 증발",
+   "category": "AI_CHIPS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2012,
+   "last_update": "2026-07-08T23:00:00+09:00",
+   "event_at": "2026-07-08T23:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    4.0,
+    5.0,
+    4.4,
+    4.8,
+    5.73,
+    4.8,
+    5.02
+   ],
+   "icon": "🤖",
+   "period_tier": "monthly",
+   "date_label": "2026.7.8(수 · 미국 현지 보도)",
+   "date_label_short": "7.8",
+   "key_stats": [
+    {
+     "value": "-16%",
+     "label": "5.14 고점 대비 주가",
+     "direction": "down"
+    },
+    {
+     "value": "PER 18배",
+     "label": "2019년 이후 최저",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": [
+    "st-ai-chips"
+   ]
+  },
+  {
+   "id": "i-h6",
+   "title": "규제 예고에도 집값은 계속 올라요",
+   "one_liner": "규제 예고에도 집값은 계속 올라요",
+   "why_now": null,
+   "impact_line": "매수·매도 타이밍 판단에 지금 가장 필요한 팩트예요",
+   "raw_title": "규제 예고에도 집값은 계속 올라요",
+   "category": "HOUSING",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2011,
+   "last_update": "2026-07-08T12:00:00+09:00",
+   "event_at": "2026-07-08T12:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🏠",
+   "period_tier": "monthly",
+   "date_label": "2026.7월 1주 (부동산원 주간)",
+   "date_label_short": "7월 1주",
+   "key_stats": [
+    {
+     "value": "+0.19%",
+     "label": "전국 아파트 주간 상승률",
+     "direction": "up"
+    },
+    {
+     "value": "10명 중 10명",
+     "label": "\"하반기 서울 강세\" 전문가 전망",
+     "direction": "up"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-b7",
+   "title": "\"미국이 안 사요\" — 코인베이스 프리미엄 50일 연속 마이너스",
+   "one_liner": "\"미국이 안 사요\" — 코인베이스 프리미엄 50일 연속 마이너스",
+   "why_now": null,
+   "impact_line": "한국에서 유명한 '김치프리미엄'과 같은 원리의 미국판이에요",
+   "raw_title": "\"미국이 안 사요\" — 코인베이스 프리미엄 50일 연속 마이너스",
+   "category": "CRYPTO",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2010,
+   "last_update": "2026-07-07T12:00:00+09:00",
+   "event_at": "2026-07-07T12:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    116,
+    126.2,
+    80.6,
+    87,
+    61.5,
+    72,
+    61.5,
+    61
+   ],
+   "icon": "🪙",
+   "period_tier": "monthly",
+   "date_label": "2026.7.7(화) 보도 기준",
+   "date_label_short": "7.7",
+   "key_stats": [
+    {
+     "value": "50일 연속",
+     "label": "미국 거래소가 더 싼 기간",
+     "direction": "down"
+    },
+    {
+     "value": "8주 연속",
+     "label": "미국 현물 ETF 순유출",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-a6",
+   "title": "삼성전자 2분기 영업이익 89.4조 — 세계 1위",
+   "one_liner": "삼성전자 2분기 영업이익 89.4조 — 세계 1위",
+   "why_now": null,
+   "impact_line": "메모리 원가 부담이 스마트폰·가전값 인상으로 이어질 수 있어요",
+   "raw_title": "삼성전자 2분기 영업이익 89.4조 — 세계 1위",
+   "category": "AI_CHIPS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2009,
+   "last_update": "2026-07-07T09:00:00+09:00",
+   "event_at": "2026-07-07T09:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    6.7,
+    4.7,
+    12.2,
+    57.2,
+    89.4
+   ],
+   "icon": "🤖",
+   "period_tier": "monthly",
+   "date_label": "2026.7.7(화) 오전 공시",
+   "date_label_short": "7.7",
+   "key_stats": [
+    {
+     "value": "89.4조 원",
+     "label": "영업이익 (매출 171조)",
+     "direction": "up"
+    },
+    {
+     "value": "+1,810%",
+     "label": "1년 전 같은 분기 대비",
+     "direction": "up"
+    }
+   ],
+   "steady_ids": [
+    "st-ai-chips"
+   ]
+  },
+  {
+   "id": "i-g9",
+   "title": "원·달러 시장, 평일 24시간 체제로 바뀌었어요",
+   "one_liner": "원·달러 시장, 평일 24시간 체제로 바뀌었어요",
+   "why_now": null,
+   "impact_line": "환율 뉴스의 '주간 종가(오후 3시 반)'와 '야간 시세'가 다를 수 있어요. 기준 시점을 확인하세요",
+   "raw_title": "원·달러 시장, 평일 24시간 체제로 바뀌었어요",
+   "category": "FX_WORLD",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2008,
+   "last_update": "2026-07-06T09:00:00+09:00",
+   "event_at": "2026-07-06T09:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    1470,
+    1440,
+    1460,
+    1562,
+    1489,
+    1501,
+    1530,
+    1482
+   ],
+   "icon": "🌍",
+   "period_tier": "monthly",
+   "date_label": "2026.7.6(월) 시행",
+   "date_label_short": "7.6",
+   "key_stats": [
+    {
+     "value": "24시간",
+     "label": "평일 거래 시간 (주말 제외)",
+     "direction": "flat"
+    },
+    {
+     "value": "1,530.3원",
+     "label": "첫날 주간 종가",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-p5",
+   "title": "6월 물가 3.2% — 30개월 만에 가장 많이 올랐어요",
+   "one_liner": "6월 물가 3.2% — 30개월 만에 가장 많이 올랐어요",
+   "why_now": null,
+   "impact_line": "장바구니·교통비가 실제로 더 가파르게 오르고 있어요",
+   "raw_title": "6월 물가 3.2% — 30개월 만에 가장 많이 올랐어요",
+   "category": "PRICES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2007,
+   "last_update": "2026-07-02T09:00:00+09:00",
+   "event_at": "2026-07-02T09:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    2.4,
+    2.2,
+    1.9,
+    1.9,
+    2.3,
+    2.7,
+    3.1,
+    3.2
+   ],
+   "icon": "🛒",
+   "period_tier": "monthly",
+   "date_label": "2026.7.2(목) 발표",
+   "date_label_short": "7.2",
+   "key_stats": [
+    {
+     "value": "3.2%",
+     "label": "6월 소비자물가 상승률",
+     "direction": "up"
+    },
+    {
+     "value": "3.4%",
+     "label": "생활물가 상승률 (밥상·교통 등)",
+     "direction": "up"
+    }
+   ],
+   "steady_ids": [
+    "st-rate-uturn"
+   ]
+  },
+  {
+   "id": "i-h5",
+   "title": "정부, 보유세 인상 예고 — \"우리나라 보유세는 낮다\"",
+   "one_liner": "정부, 보유세 인상 예고 — \"우리나라 보유세는 낮다\"",
+   "why_now": null,
+   "impact_line": "'보유세'라는 단어가 하반기 내내 뉴스에 나올 거예요. 지금 개념을 잡아 두면 편해요",
+   "raw_title": "정부, 보유세 인상 예고 — \"우리나라 보유세는 낮다\"",
+   "category": "HOUSING",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2006,
+   "last_update": "2026-07-01T12:00:00+09:00",
+   "event_at": "2026-07-01T12:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🏠",
+   "period_tier": "monthly",
+   "date_label": "2026.6월 말~7월 (개편안은 7월 말 발표)",
+   "date_label_short": "26.7월",
+   "key_stats": [
+    {
+     "value": "2배 이상",
+     "label": "고가 아파트 보유세 증가 전망",
+     "direction": "up"
+    },
+    {
+     "value": "7월 말",
+     "label": "세제개편안 발표 예정",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-s6",
+   "title": "코스피 사상 첫 9,000 — 올해만 +115%, G20 1위",
+   "one_liner": "코스피 사상 첫 9,000 — 올해만 +115%, G20 1위",
+   "why_now": null,
+   "impact_line": "수익 실현이냐 유지냐 — 자산 리밸런싱을 고민해야 했던 결정적 시점이에요",
+   "raw_title": "코스피 사상 첫 9,000 — 올해만 +115%, G20 1위",
+   "category": "STOCKS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2005,
+   "last_update": "2026-06-18T15:30:00+09:00",
+   "event_at": "2026-06-18T15:30:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    6084,
+    5900,
+    5808,
+    8229,
+    9064,
+    9385,
+    6806,
+    7284
+   ],
+   "icon": "📈",
+   "period_tier": "monthly",
+   "date_label": "2026.6.18(목) 12:53 첫 돌파",
+   "date_label_short": "6.18",
+   "key_stats": [
+    {
+     "value": "9,063.84",
+     "label": "종가 (장중 9,106)",
+     "direction": "up"
+    },
+    {
+     "value": "7,413조 원",
+     "label": "코스피 시가총액 (역대 최대)",
+     "direction": "up"
+    }
+   ],
+   "steady_ids": [
+    "st-kospi-rally",
+    "st-us-iran-war"
+   ]
+  },
+  {
+   "id": "i-r6",
+   "title": "워시의 첫 회의: 동결했지만 \"올해 안에 올릴 수도\"",
+   "one_liner": "워시의 첫 회의: 동결했지만 \"올해 안에 올릴 수도\"",
+   "why_now": null,
+   "impact_line": "하반기 대출 금리가 더 오를 수 있다는 첫 공식 신호예요",
+   "raw_title": "워시의 첫 회의: 동결했지만 \"올해 안에 올릴 수도\"",
+   "category": "RATES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2004,
+   "last_update": "2026-06-18T03:00:00+09:00",
+   "event_at": "2026-06-18T03:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.75
+   ],
+   "icon": "💰",
+   "period_tier": "monthly",
+   "date_label": "2026.6.17 (미국 현지)",
+   "date_label_short": "6.17",
+   "key_stats": [
+    {
+     "value": "연 3.50~3.75%",
+     "label": "동결된 미국 금리",
+     "direction": "flat"
+    },
+    {
+     "value": "9명 vs 8명",
+     "label": "연내 인상 vs 동결 (위원 전망)",
+     "direction": "up"
+    }
+   ],
+   "steady_ids": [
+    "st-rate-uturn"
+   ]
+  },
+  {
+   "id": "i-g8",
+   "title": "미국과 이란이 전쟁을 멈췄어요",
+   "one_liner": "미국과 이란이 전쟁을 멈췄어요",
+   "why_now": null,
+   "impact_line": "'MOU'와 '조약'의 차이가 왜 중요한지 한 달 뒤 바로 드러나요",
+   "raw_title": "미국과 이란이 전쟁을 멈췄어요",
+   "category": "FX_WORLD",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2003,
+   "last_update": "2026-06-15T12:00:00+09:00",
+   "event_at": "2026-06-15T12:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    62,
+    111.2,
+    88,
+    75,
+    65,
+    68,
+    74.5,
+    80.3
+   ],
+   "icon": "🌍",
+   "period_tier": "monthly",
+   "date_label": "2026.6월 중순 (체결)",
+   "date_label_short": "26.6월",
+   "key_stats": [
+    {
+     "value": "MOU",
+     "label": "정식 조약이 아닌 '약속 문서'",
+     "direction": "flat"
+    },
+    {
+     "value": "-40%",
+     "label": "유가 하락 (3월 고점 → 6월 60달러대)",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": [
+    "st-us-iran-war"
+   ]
+  },
+  {
+   "id": "i-b6",
+   "title": "스페이스X 상장이 코인 돈을 빨아들였어요",
+   "one_liner": "스페이스X 상장이 코인 돈을 빨아들였어요",
+   "why_now": null,
+   "impact_line": "코인 투자자와 IPO 투자자는 사실 같은 사람들이라는 분석이 나왔어요",
+   "raw_title": "스페이스X 상장이 코인 돈을 빨아들였어요",
+   "category": "CRYPTO",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2002,
+   "last_update": "2026-06-04T12:00:00+09:00",
+   "event_at": "2026-06-04T12:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    116,
+    126.2,
+    80.6,
+    87,
+    61.5,
+    72,
+    61.5,
+    61
+   ],
+   "icon": "🪙",
+   "period_tier": "monthly",
+   "date_label": "2026.6.4(목)",
+   "date_label_short": "6.4",
+   "key_stats": [
+    {
+     "value": "61,500달러",
+     "label": "4개월 만의 최저 동률",
+     "direction": "down"
+    },
+    {
+     "value": "-44억 달러",
+     "label": "ETF 13거래일 연속 유출 (역대 최장)",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-g7",
+   "title": "미국, 한국에 12.5% 추가 관세 예고 — 이유는 '강제노동'",
+   "one_liner": "미국, 한국에 12.5% 추가 관세 예고 — 이유는 '강제노동'",
+   "why_now": null,
+   "impact_line": "정부는 \"합쳐도 15%를 넘지 않게\" 협상 중이에요. 확정 여부와 품목을 추적해야 해요",
+   "raw_title": "미국, 한국에 12.5% 추가 관세 예고 — 이유는 '강제노동'",
+   "category": "FX_WORLD",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 2001,
+   "last_update": "2026-06-03T05:00:00+09:00",
+   "event_at": "2026-06-03T05:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🌍",
+   "period_tier": "monthly",
+   "date_label": "2026.6.2(화 · 미국 현지) 발표",
+   "date_label_short": "6.2",
+   "key_stats": [
+    {
+     "value": "+12.5%",
+     "label": "예고된 추가 관세율",
+     "direction": "up"
+    },
+    {
+     "value": "60개 경제권",
+     "label": "같은 조사 대상",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-h4",
+   "title": "30대의 '영끌'이 돌아왔어요 — 서울 매수의 절반",
+   "one_liner": "30대의 '영끌'이 돌아왔어요 — 서울 매수의 절반",
+   "why_now": null,
+   "impact_line": "'지금 못 사면 영영 못 산다'는 불안이 시장을 움직이고 있어요",
+   "raw_title": "30대의 '영끌'이 돌아왔어요 — 서울 매수의 절반",
+   "category": "HOUSING",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1034,
+   "last_update": "2026-06-20T12:00:00+09:00",
+   "event_at": "2026-06-20T12:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🏠",
+   "period_tier": "yearly",
+   "date_label": "2026.4월 통계 (6월 공개)",
+   "date_label_short": "26.4월",
+   "key_stats": [
+    {
+     "value": "45.8%",
+     "label": "서울 아파트 매수 중 30대 비중",
+     "direction": "up"
+    },
+    {
+     "value": "+80%",
+     "label": "30대 매수 건수 (1월 대비)",
+     "direction": "up"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-h3",
+   "title": "전세 대란 경보 — 물건은 줄고 보증금은 뛰었어요",
+   "one_liner": "전세 대란 경보 — 물건은 줄고 보증금은 뛰었어요",
+   "why_now": null,
+   "impact_line": "전세 대출 금리도 오르는 국면이라 이중 부담이에요. 갱신청구권 사용 여부를 미리 계산하세요",
+   "raw_title": "전세 대란 경보 — 물건은 줄고 보증금은 뛰었어요",
+   "category": "HOUSING",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1033,
+   "last_update": "2026-06-15T12:00:00+09:00",
+   "event_at": "2026-06-15T12:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🏠",
+   "period_tier": "yearly",
+   "date_label": "2026.6월 (부동산원 주간 통계)",
+   "date_label_short": "26.6월",
+   "key_stats": [
+    {
+     "value": "122.5",
+     "label": "서울 전세수급지수 (5년 6개월 최고)",
+     "direction": "up"
+    },
+    {
+     "value": "+19.1%",
+     "label": "서울 평균 전세 보증금 (2년 전 대비)",
+     "direction": "up"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-s5",
+   "title": "스페이스X, 역대 최대 IPO로 나스닥 상장",
+   "one_liner": "스페이스X, 역대 최대 IPO로 나스닥 상장",
+   "why_now": null,
+   "impact_line": "대형 IPO 전후엔 내가 가진 다른 자산까지 출렁일 수 있어요",
+   "raw_title": "스페이스X, 역대 최대 IPO로 나스닥 상장",
+   "category": "STOCKS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1032,
+   "last_update": "2026-06-10T09:00:00+09:00",
+   "event_at": "2026-06-10T09:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    116,
+    126.2,
+    80.6,
+    87,
+    61.5,
+    72,
+    61.5,
+    61
+   ],
+   "icon": "📈",
+   "period_tier": "yearly",
+   "date_label": "2026.6월 둘째 주 (상장)",
+   "date_label_short": "26.6월",
+   "key_stats": [
+    {
+     "value": "사상 최대",
+     "label": "IPO 공모 규모 기준",
+     "direction": "up"
+    },
+    {
+     "value": "-44억 달러",
+     "label": "같은 기간 비트코인 ETF 유출",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-p4",
+   "title": "한국 물가, 2년여 만에 3%대로 올라섰어요",
+   "one_liner": "한국 물가, 2년여 만에 3%대로 올라섰어요",
+   "why_now": null,
+   "impact_line": "밥값·교통비 체감 상승이 공식 숫자로 확인됐어요",
+   "raw_title": "한국 물가, 2년여 만에 3%대로 올라섰어요",
+   "category": "PRICES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1031,
+   "last_update": "2026-06-02T09:00:00+09:00",
+   "event_at": "2026-06-02T09:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    2.4,
+    2.2,
+    1.9,
+    1.9,
+    2.3,
+    2.7,
+    3.1,
+    3.2
+   ],
+   "icon": "🛒",
+   "period_tier": "yearly",
+   "date_label": "2026.6.2 (5월치 발표)",
+   "date_label_short": "26.6.2",
+   "key_stats": [
+    {
+     "value": "3.1%",
+     "label": "5월 소비자물가 상승률",
+     "direction": "up"
+    },
+    {
+     "value": "3월부터",
+     "label": "목표(2.0%) 초과 시작 — 전쟁 여파",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": [
+    "st-rate-uturn",
+    "st-us-iran-war"
+   ]
+  },
+  {
+   "id": "i-s4",
+   "title": "한 달 새 7,000 → 8,000 — 광란의 5월 랠리",
+   "one_liner": "한 달 새 7,000 → 8,000 — 광란의 5월 랠리",
+   "why_now": null,
+   "impact_line": "\"오르면 2배\"는 \"내리면 2배\"이기도 해요. 구조를 모르면 사지 않는 게 안전해요",
+   "raw_title": "한 달 새 7,000 → 8,000 — 광란의 5월 랠리",
+   "category": "STOCKS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1030,
+   "last_update": "2026-05-26T15:30:00+09:00",
+   "event_at": "2026-05-26T15:30:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    6084,
+    5900,
+    5808,
+    8229,
+    9064,
+    9385,
+    6806,
+    7284
+   ],
+   "icon": "📈",
+   "period_tier": "yearly",
+   "date_label": "2026.5.26(화)",
+   "date_label_short": "5.26",
+   "key_stats": [
+    {
+     "value": "8,000 돌파",
+     "label": "5.6 7,000 이후 20일 만",
+     "direction": "up"
+    },
+    {
+     "value": "14.4조 원",
+     "label": "삼전·하이닉스 2배 레버리지 ETF 순자산",
+     "direction": "up"
+    }
+   ],
+   "steady_ids": [
+    "st-kospi-rally"
+   ]
+  },
+  {
+   "id": "i-r5",
+   "title": "한국은행 새 총재 신현송 — 인상을 예고했어요",
+   "one_liner": "한국은행 새 총재 신현송 — 인상을 예고했어요",
+   "why_now": null,
+   "impact_line": "총재의 예고 발언만 챙겨도 대출·예금 타이밍을 앞서 잡을 수 있어요",
+   "raw_title": "한국은행 새 총재 신현송 — 인상을 예고했어요",
+   "category": "RATES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1029,
+   "last_update": "2026-05-20T09:00:00+09:00",
+   "event_at": "2026-05-20T09:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.75
+   ],
+   "icon": "💰",
+   "period_tier": "yearly",
+   "date_label": "2026.5월 (취임 · 첫 회의)",
+   "date_label_short": "26.5월",
+   "key_stats": [
+    {
+     "value": "8연속",
+     "label": "당시까지 금리 동결",
+     "direction": "flat"
+    },
+    {
+     "value": "2번째 회의",
+     "label": "취임 후 인상까지 걸린 횟수",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": [
+    "st-rate-uturn"
+   ]
+  },
+  {
+   "id": "i-r4",
+   "title": "미국 중앙은행 새 수장 워시 — 예상과 반대로 가요",
+   "one_liner": "미국 중앙은행 새 수장 워시 — 예상과 반대로 가요",
+   "why_now": null,
+   "impact_line": "미국발 금리 뉴스의 변동성이 커져 대출·환전 계획을 더 자주 점검해야 해요",
+   "raw_title": "미국 중앙은행 새 수장 워시 — 예상과 반대로 가요",
+   "category": "RATES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1028,
+   "last_update": "2026-05-15T09:00:00+09:00",
+   "event_at": "2026-05-15T09:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.75
+   ],
+   "icon": "💰",
+   "period_tier": "yearly",
+   "date_label": "2026.5월 (취임)",
+   "date_label_short": "26.5월",
+   "key_stats": [
+    {
+     "value": "4년",
+     "label": "연준 의장 임기",
+     "direction": "flat"
+    },
+    {
+     "value": "0번",
+     "label": "취임 후 금리 인하 횟수",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": [
+    "st-rate-uturn"
+   ]
+  },
+  {
+   "id": "i-a5",
+   "title": "엔비디아 사상 최고가 — 시총 5조 7,285억 달러",
+   "one_liner": "엔비디아 사상 최고가 — 시총 5조 7,285억 달러",
+   "why_now": null,
+   "impact_line": "대장주도 조정을 피하지 못해요. 최고가 뉴스 뒤를 조심하세요",
+   "raw_title": "엔비디아 사상 최고가 — 시총 5조 7,285억 달러",
+   "category": "AI_CHIPS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1027,
+   "last_update": "2026-05-15T05:00:00+09:00",
+   "event_at": "2026-05-15T05:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    4.0,
+    5.0,
+    4.4,
+    4.8,
+    5.73,
+    4.8,
+    5.02
+   ],
+   "icon": "🤖",
+   "period_tier": "yearly",
+   "date_label": "2026.5.14(목 · 미국 현지)",
+   "date_label_short": "5.14",
+   "key_stats": [
+    {
+     "value": "235.47달러",
+     "label": "장중 사상 최고가",
+     "direction": "up"
+    },
+    {
+     "value": "5.73조 달러",
+     "label": "시가총액 정점",
+     "direction": "up"
+    }
+   ],
+   "steady_ids": [
+    "st-ai-chips"
+   ]
+  },
+  {
+   "id": "i-s3",
+   "title": "전쟁에 급락 — 그런데 두 달 만에 다 회복했어요",
+   "one_liner": "전쟁에 급락 — 그런데 두 달 만에 다 회복했어요",
+   "why_now": null,
+   "impact_line": "전쟁 뉴스에 판 사람과 버틴 사람의 수익률이 크게 갈렸어요",
+   "raw_title": "전쟁에 급락 — 그런데 두 달 만에 다 회복했어요",
+   "category": "STOCKS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1026,
+   "last_update": "2026-04-13T15:30:00+09:00",
+   "event_at": "2026-04-13T15:30:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    6084,
+    5900,
+    5808,
+    8229,
+    9064,
+    9385,
+    6806,
+    7284
+   ],
+   "icon": "📈",
+   "period_tier": "yearly",
+   "date_label": "2026.3월~4월 중순 (전쟁 쇼크 구간)",
+   "date_label_short": "26.3~4월",
+   "key_stats": [
+    {
+     "value": "5,808",
+     "label": "4.13 종가 (급락 저점)",
+     "direction": "down"
+    },
+    {
+     "value": "6차례",
+     "label": "상반기 서킷브레이커",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": [
+    "st-kospi-rally",
+    "st-us-iran-war"
+   ]
+  },
+  {
+   "id": "i-g6",
+   "title": "유가 111달러·환율 1,562원 — 에너지 쇼크의 정점",
+   "one_liner": "유가 111달러·환율 1,562원 — 에너지 쇼크의 정점",
+   "why_now": null,
+   "impact_line": "환율이 오르면 해외직구·여행은 비싸지고, 달러 자산 가진 사람은 이득이에요",
+   "raw_title": "유가 111달러·환율 1,562원 — 에너지 쇼크의 정점",
+   "category": "FX_WORLD",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1025,
+   "last_update": "2026-03-09T12:00:00+09:00",
+   "event_at": "2026-03-09T12:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    1470,
+    1440,
+    1460,
+    1562,
+    1489,
+    1501,
+    1530,
+    1482
+   ],
+   "icon": "🌍",
+   "period_tier": "yearly",
+   "date_label": "2026.3.9(월) 유가 정점",
+   "date_label_short": "3.9",
+   "key_stats": [
+    {
+     "value": "111.24달러",
+     "label": "WTI — 전쟁 9일 만",
+     "direction": "up"
+    },
+    {
+     "value": "1,562원",
+     "label": "원·달러 52주 최고",
+     "direction": "up"
+    }
+   ],
+   "steady_ids": [
+    "st-us-iran-war",
+    "st-rate-uturn"
+   ]
+  },
+  {
+   "id": "i-g5",
+   "title": "미국·이스라엘, 이란 기습 공습 — 전쟁이 시작됐어요",
+   "one_liner": "미국·이스라엘, 이란 기습 공습 — 전쟁이 시작됐어요",
+   "why_now": null,
+   "impact_line": "먼 나라 전쟁이 내 밥값·기름값으로 이어지는 경로를 보여 줘요",
+   "raw_title": "미국·이스라엘, 이란 기습 공습 — 전쟁이 시작됐어요",
+   "category": "FX_WORLD",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1024,
+   "last_update": "2026-02-28T12:00:00+09:00",
+   "event_at": "2026-02-28T12:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    62,
+    111.2,
+    88,
+    75,
+    65,
+    68,
+    74.5,
+    80.3
+   ],
+   "icon": "🌍",
+   "period_tier": "yearly",
+   "date_label": "2026.2.28(토)",
+   "date_label_short": "2.28",
+   "key_stats": [
+    {
+     "value": "2.28",
+     "label": "전쟁 발발일",
+     "direction": "flat"
+    },
+    {
+     "value": "호르무즈 봉쇄",
+     "label": "이란의 반격 카드",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": [
+    "st-us-iran-war"
+   ]
+  },
+  {
+   "id": "i-g4",
+   "title": "미 대법원 \"트럼프식 일괄 관세는 위법\"",
+   "one_liner": "미 대법원 \"트럼프식 일괄 관세는 위법\"",
+   "why_now": null,
+   "impact_line": "대통령 권한도 법원이 멈출 수 있다는, 미국 시스템의 작동 사례예요",
+   "raw_title": "미 대법원 \"트럼프식 일괄 관세는 위법\"",
+   "category": "FX_WORLD",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1023,
+   "last_update": "2026-02-15T09:00:00+09:00",
+   "event_at": "2026-02-15T09:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🌍",
+   "period_tier": "yearly",
+   "date_label": "2026.2월 (판결)",
+   "date_label_short": "26.2월",
+   "key_stats": [
+    {
+     "value": "위법",
+     "label": "상호관세의 법적 근거 부정",
+     "direction": "flat"
+    },
+    {
+     "value": "301조",
+     "label": "정부가 꺼낸 우회 카드",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-b5",
+   "title": "6만 1,500달러 — 고점의 반 토막, 공식 약세장",
+   "one_liner": "6만 1,500달러 — 고점의 반 토막, 공식 약세장",
+   "why_now": null,
+   "impact_line": "\"위험 회피 = 코인 상승\"이 아니라는 게 확인됐어요",
+   "raw_title": "6만 1,500달러 — 고점의 반 토막, 공식 약세장",
+   "category": "CRYPTO",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1022,
+   "last_update": "2026-02-06T12:00:00+09:00",
+   "event_at": "2026-02-06T12:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    116,
+    126.2,
+    80.6,
+    87,
+    61.5,
+    72,
+    61.5,
+    61
+   ],
+   "icon": "🪙",
+   "period_tier": "yearly",
+   "date_label": "2026.2.6",
+   "date_label_short": "26.2.6",
+   "key_stats": [
+    {
+     "value": "61,500달러",
+     "label": "이날 저점",
+     "direction": "down"
+    },
+    {
+     "value": "-51%",
+     "label": "사상 최고가 대비",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-s2",
+   "title": "석 달 만에 5,000 돌파 — 랠리가 본격화됐어요",
+   "one_liner": "석 달 만에 5,000 돌파 — 랠리가 본격화됐어요",
+   "why_now": null,
+   "impact_line": "\"지금이라도 사야 하나\"라는 고민이 전국적으로 시작된 시점이에요",
+   "raw_title": "석 달 만에 5,000 돌파 — 랠리가 본격화됐어요",
+   "category": "STOCKS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1021,
+   "last_update": "2026-01-27T15:30:00+09:00",
+   "event_at": "2026-01-27T15:30:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    6084,
+    5900,
+    5808,
+    8229,
+    9064,
+    9385,
+    6806,
+    7284
+   ],
+   "icon": "📈",
+   "period_tier": "yearly",
+   "date_label": "2026.1.27(화) 종가",
+   "date_label_short": "26.1.27",
+   "key_stats": [
+    {
+     "value": "5,084.85",
+     "label": "1.27 종가",
+     "direction": "up"
+    },
+    {
+     "value": "3개월",
+     "label": "4,000 → 5,000 소요 기간",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": [
+    "st-kospi-rally"
+   ]
+  },
+  {
+   "id": "i-a4",
+   "title": "삼성전자, '사상 최대 실적' 행진이 시작됐어요",
+   "one_liner": "삼성전자, '사상 최대 실적' 행진이 시작됐어요",
+   "why_now": null,
+   "impact_line": "'주가가 왜 오르지?'의 답이 실적에 있다는 걸 보여 주는 교과서 사례예요",
+   "raw_title": "삼성전자, '사상 최대 실적' 행진이 시작됐어요",
+   "category": "AI_CHIPS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1020,
+   "last_update": "2026-01-08T09:00:00+09:00",
+   "event_at": "2026-01-08T09:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    6.7,
+    4.7,
+    12.2,
+    57.2,
+    89.4
+   ],
+   "icon": "🤖",
+   "period_tier": "yearly",
+   "date_label": "2026.1.8 (4분기 잠정실적)",
+   "date_label_short": "26.1.8",
+   "key_stats": [
+    {
+     "value": "3분기 연속",
+     "label": "역대 최대 영업이익 (25.4Q~26.2Q)",
+     "direction": "up"
+    },
+    {
+     "value": "폭등",
+     "label": "메모리 가격 — 공급 부족 지속",
+     "direction": "up"
+    }
+   ],
+   "steady_ids": [
+    "st-ai-chips"
+   ]
+  },
+  {
+   "id": "i-r3",
+   "title": "일본도 금리를 올렸어요 — 연 0.75%",
+   "one_liner": "일본도 금리를 올렸어요 — 연 0.75%",
+   "why_now": null,
+   "impact_line": "일본 여행 환전은 엔화가 더 비싸지기 전 타이밍 계산이 필요해요",
+   "raw_title": "일본도 금리를 올렸어요 — 연 0.75%",
+   "category": "RATES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1019,
+   "last_update": "2025-12-19T12:00:00+09:00",
+   "event_at": "2025-12-19T12:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.75
+   ],
+   "icon": "💰",
+   "period_tier": "yearly",
+   "date_label": "2025.12.19",
+   "date_label_short": "25.12.19",
+   "key_stats": [
+    {
+     "value": "+0.25%p",
+     "label": "인상 폭",
+     "direction": "up"
+    },
+    {
+     "value": "연 0.75%",
+     "label": "일본 기준금리",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-r2",
+   "title": "미국, 석 달 새 세 번째 인하 — 이게 마지막이었어요",
+   "one_liner": "미국, 석 달 새 세 번째 인하 — 이게 마지막이었어요",
+   "why_now": null,
+   "impact_line": "금리 방향이 바뀌는 순간을 놓치면 예금·대출 타이밍을 놓쳐요",
+   "raw_title": "미국, 석 달 새 세 번째 인하 — 이게 마지막이었어요",
+   "category": "RATES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1018,
+   "last_update": "2025-12-11T04:00:00+09:00",
+   "event_at": "2025-12-11T04:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.75
+   ],
+   "icon": "💰",
+   "period_tier": "yearly",
+   "date_label": "2025.12.10 (미국 현지)",
+   "date_label_short": "25.12.10",
+   "key_stats": [
+    {
+     "value": "연 3.50~3.75%",
+     "label": "미국 기준금리",
+     "direction": "flat"
+    },
+    {
+     "value": "-0.75%p",
+     "label": "9~12월 누적 인하",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": [
+    "st-rate-uturn"
+   ]
+  },
+  {
+   "id": "i-b4",
+   "title": "8만 달러 붕괴 직전 — 한 달 반 만에 -36%",
+   "one_liner": "8만 달러 붕괴 직전 — 한 달 반 만에 -36%",
+   "why_now": null,
+   "impact_line": "ETF 자금 흐름은 코인 시장의 새 나침반이에요. 유출이 이어지면 조심해야 해요",
+   "raw_title": "8만 달러 붕괴 직전 — 한 달 반 만에 -36%",
+   "category": "CRYPTO",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1017,
+   "last_update": "2025-11-21T12:00:00+09:00",
+   "event_at": "2025-11-21T12:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    116,
+    126.2,
+    80.6,
+    87,
+    61.5,
+    72,
+    61.5,
+    61
+   ],
+   "icon": "🪙",
+   "period_tier": "yearly",
+   "date_label": "2025.11.21(금)",
+   "date_label_short": "25.11.21",
+   "key_stats": [
+    {
+     "value": "80,553달러",
+     "label": "이날 저점",
+     "direction": "down"
+    },
+    {
+     "value": "-70억 달러",
+     "label": "11월 미국 현물 ETF 순유출",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-g2",
+   "title": "미국 정부가 43일 멈췄어요 — 역대 최장 셧다운",
+   "one_liner": "미국 정부가 43일 멈췄어요 — 역대 최장 셧다운",
+   "why_now": null,
+   "impact_line": "올해 11월 미국 중간선거를 앞두고 예산 갈등은 또 반복될 수 있어요",
+   "raw_title": "미국 정부가 43일 멈췄어요 — 역대 최장 셧다운",
+   "category": "FX_WORLD",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1016,
+   "last_update": "2025-11-12T09:00:00+09:00",
+   "event_at": "2025-11-12T09:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    2.4,
+    2.2,
+    1.9,
+    1.9,
+    2.3,
+    2.7,
+    3.1,
+    3.2
+   ],
+   "icon": "🌍",
+   "period_tier": "yearly",
+   "date_label": "2025.10.1~11.12 (43일)",
+   "date_label_short": "25.10~11월",
+   "key_stats": [
+    {
+     "value": "43일",
+     "label": "역대 최장 기록",
+     "direction": "flat"
+    },
+    {
+     "value": "10월 CPI 결번",
+     "label": "물가 통계 사상 첫 미발표",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-g3",
+   "title": "트럼프·시진핑 부산 회담 — 미중 1년 휴전",
+   "one_liner": "트럼프·시진핑 부산 회담 — 미중 1년 휴전",
+   "why_now": null,
+   "impact_line": "세계 1·2위의 휴전이 한국 수출과 내 주식 계좌까지 흔드는 변수예요",
+   "raw_title": "트럼프·시진핑 부산 회담 — 미중 1년 휴전",
+   "category": "FX_WORLD",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1015,
+   "last_update": "2025-10-30T12:00:00+09:00",
+   "event_at": "2025-10-30T12:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🌍",
+   "period_tier": "yearly",
+   "date_label": "2025.10.30(목) · 부산",
+   "date_label_short": "25.10.30",
+   "key_stats": [
+    {
+     "value": "1년",
+     "label": "관세 휴전 기간",
+     "direction": "flat"
+    },
+    {
+     "value": "20% → 10%",
+     "label": "펜타닐 관련 대중 관세",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-a3",
+   "title": "엔비디아, 세계 최초 시가총액 5조 달러",
+   "one_liner": "엔비디아, 세계 최초 시가총액 5조 달러",
+   "why_now": null,
+   "impact_line": "회사 하나가 한국 주식시장 전체만큼 커질 수 있다는 걸 보여 줘요",
+   "raw_title": "엔비디아, 세계 최초 시가총액 5조 달러",
+   "category": "AI_CHIPS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1014,
+   "last_update": "2025-10-30T05:00:00+09:00",
+   "event_at": "2025-10-30T05:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    4.0,
+    5.0,
+    4.4,
+    4.8,
+    5.73,
+    4.8,
+    5.02
+   ],
+   "icon": "🤖",
+   "period_tier": "yearly",
+   "date_label": "2025.10.29(수 · 미국 현지)",
+   "date_label_short": "25.10.29",
+   "key_stats": [
+    {
+     "value": "5조 달러",
+     "label": "세계 기업 역사상 처음",
+     "direction": "up"
+    },
+    {
+     "value": "약 7,000조 원",
+     "label": "원화 환산 — 코스피 전체와 비슷",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": [
+    "st-ai-chips"
+   ]
+  },
+  {
+   "id": "i-s1",
+   "title": "코스피, 사상 처음 4,000을 넘었어요",
+   "one_liner": "코스피, 사상 처음 4,000을 넘었어요",
+   "why_now": null,
+   "impact_line": "국민연금부터 개인 펀드까지, 나라 전체의 투자 성적표가 좋아지던 출발점이에요",
+   "raw_title": "코스피, 사상 처음 4,000을 넘었어요",
+   "category": "STOCKS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1013,
+   "last_update": "2025-10-27T15:30:00+09:00",
+   "event_at": "2025-10-27T15:30:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    6084,
+    5900,
+    5808,
+    8229,
+    9064,
+    9385,
+    6806,
+    7284
+   ],
+   "icon": "📈",
+   "period_tier": "yearly",
+   "date_label": "2025.10.27(월) 장 마감",
+   "date_label_short": "25.10.27",
+   "key_stats": [
+    {
+     "value": "4,042.83",
+     "label": "이날 종가",
+     "direction": "up"
+    },
+    {
+     "value": "약 +68%",
+     "label": "2025년 연초 대비",
+     "direction": "up"
+    }
+   ],
+   "steady_ids": [
+    "st-kospi-rally"
+   ]
+  },
+  {
+   "id": "i-p3",
+   "title": "미국 물가 3% 도달 — 그리고 통계가 끊겼어요",
+   "one_liner": "미국 물가 3% 도달 — 그리고 통계가 끊겼어요",
+   "why_now": null,
+   "impact_line": "물가 통계 하나가 멈추면 세계 금리 결정까지 흔들려요",
+   "raw_title": "미국 물가 3% 도달 — 그리고 통계가 끊겼어요",
+   "category": "PRICES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1012,
+   "last_update": "2025-10-24T21:30:00+09:00",
+   "event_at": "2025-10-24T21:30:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    2.4,
+    2.2,
+    1.9,
+    1.9,
+    2.3,
+    2.7,
+    3.1,
+    3.2
+   ],
+   "icon": "🛒",
+   "period_tier": "yearly",
+   "date_label": "2025.10.24(금 · 미국 9월치 발표)",
+   "date_label_short": "25.10.24",
+   "key_stats": [
+    {
+     "value": "3.0%",
+     "label": "미국 9월 물가 상승률",
+     "direction": "up"
+    },
+    {
+     "value": "결번",
+     "label": "10월 물가 — 셧다운으로 사상 첫 미발표",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": [
+    "st-rate-uturn"
+   ]
+  },
+  {
+   "id": "i-h2",
+   "title": "10·15 대책: 서울 전체가 규제지역이 됐어요",
+   "one_liner": "10·15 대책: 서울 전체가 규제지역이 됐어요",
+   "why_now": null,
+   "impact_line": "집을 살 계획이 없어도 전월세 가격으로 영향이 돌아와요",
+   "raw_title": "10·15 대책: 서울 전체가 규제지역이 됐어요",
+   "category": "HOUSING",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1011,
+   "last_update": "2025-10-15T12:00:00+09:00",
+   "event_at": "2025-10-15T12:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🏠",
+   "period_tier": "yearly",
+   "date_label": "2025.10.15(수)",
+   "date_label_short": "25.10.15",
+   "key_stats": [
+    {
+     "value": "서울 25개 구",
+     "label": "+ 경기 12곳 규제지역·토지거래허가",
+     "direction": "flat"
+    },
+    {
+     "value": "최대 2억 원",
+     "label": "25억 초과 주택의 주담대 한도",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-b3",
+   "title": "사상 최대 강제청산 — 하루 새 190억 달러가 사라졌어요",
+   "one_liner": "사상 최대 강제청산 — 하루 새 190억 달러가 사라졌어요",
+   "why_now": null,
+   "impact_line": "'청산'은 빚내서 산 포지션이 내 의지와 상관없이 강제로 팔리는 거예요",
+   "raw_title": "사상 최대 강제청산 — 하루 새 190억 달러가 사라졌어요",
+   "category": "CRYPTO",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1010,
+   "last_update": "2025-10-10T12:00:00+09:00",
+   "event_at": "2025-10-10T12:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    116,
+    126.2,
+    80.6,
+    87,
+    61.5,
+    72,
+    61.5,
+    61
+   ],
+   "icon": "🪙",
+   "period_tier": "yearly",
+   "date_label": "2025.10.10~11",
+   "date_label_short": "25.10.10",
+   "key_stats": [
+    {
+     "value": "190억 달러+",
+     "label": "청산 규모 (역대 최대)",
+     "direction": "down"
+    },
+    {
+     "value": "-14%",
+     "label": "이틀간 비트코인 낙폭",
+     "direction": "down"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-b2",
+   "title": "비트코인 사상 최고가 — 12만 6,251달러",
+   "one_liner": "비트코인 사상 최고가 — 12만 6,251달러",
+   "why_now": null,
+   "impact_line": "\"전고점 돌파\" 뉴스만 보고 진입하면 물릴 확률이 높다는 걸 보여 준 해였어요",
+   "raw_title": "비트코인 사상 최고가 — 12만 6,251달러",
+   "category": "CRYPTO",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1009,
+   "last_update": "2025-10-06T12:00:00+09:00",
+   "event_at": "2025-10-06T12:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    116,
+    126.2,
+    80.6,
+    87,
+    61.5,
+    72,
+    61.5,
+    61
+   ],
+   "icon": "🪙",
+   "period_tier": "yearly",
+   "date_label": "2025.10.6(월)",
+   "date_label_short": "25.10.6",
+   "key_stats": [
+    {
+     "value": "126,251달러",
+     "label": "역대 최고가",
+     "direction": "up"
+    },
+    {
+     "value": "약 1.7억 원",
+     "label": "당시 원화 환산 (1개 기준)",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-a2",
+   "title": "오픈AI가 삼성·SK와 손잡았어요 — 메모리 싹쓸이 예약",
+   "one_liner": "오픈AI가 삼성·SK와 손잡았어요 — 메모리 싹쓸이 예약",
+   "why_now": null,
+   "impact_line": "챗GPT가 잘될수록 한국 반도체가 돈을 버는 구조가 만들어졌어요",
+   "raw_title": "오픈AI가 삼성·SK와 손잡았어요 — 메모리 싹쓸이 예약",
+   "category": "AI_CHIPS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1008,
+   "last_update": "2025-10-01T12:00:00+09:00",
+   "event_at": "2025-10-01T12:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    6.7,
+    4.7,
+    12.2,
+    57.2,
+    89.4
+   ],
+   "icon": "🤖",
+   "period_tier": "yearly",
+   "date_label": "2025.10.1(수)",
+   "date_label_short": "25.10.1",
+   "key_stats": [
+    {
+     "value": "스타게이트",
+     "label": "오픈AI 초대형 AI 데이터센터 프로젝트",
+     "direction": "flat"
+    },
+    {
+     "value": "삼성+SK",
+     "label": "메모리 공급 파트너",
+     "direction": "up"
+    }
+   ],
+   "steady_ids": [
+    "st-ai-chips"
+   ]
+  },
+  {
+   "id": "i-r1",
+   "title": "미국이 9개월 만에 다시 금리를 내렸어요",
+   "one_liner": "미국이 9개월 만에 다시 금리를 내렸어요",
+   "why_now": null,
+   "impact_line": "대출 이자 부담이 줄고, 예금 이자도 함께 낮아지는 흐름이 시작됐어요",
+   "raw_title": "미국이 9개월 만에 다시 금리를 내렸어요",
+   "category": "RATES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1007,
+   "last_update": "2025-09-18T03:00:00+09:00",
+   "event_at": "2025-09-18T03:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.75
+   ],
+   "icon": "💰",
+   "period_tier": "yearly",
+   "date_label": "2025.9.17 (미국 현지 · 한국시간 9.18 새벽)",
+   "date_label_short": "25.9.17",
+   "key_stats": [
+    {
+     "value": "-0.25%p",
+     "label": "인하 폭",
+     "direction": "down"
+    },
+    {
+     "value": "연 4.00~4.25%",
+     "label": "미국 기준금리",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": [
+    "st-rate-uturn"
+   ]
+  },
+  {
+   "id": "i-h1",
+   "title": "9·7 대책: 정부가 \"집을 많이 짓겠다\"고 했어요",
+   "one_liner": "9·7 대책: 정부가 \"집을 많이 짓겠다\"고 했어요",
+   "why_now": null,
+   "impact_line": "입주까지의 시차 때문에 전월세 시장은 그동안 계속 빡빡할 수 있어요",
+   "raw_title": "9·7 대책: 정부가 \"집을 많이 짓겠다\"고 했어요",
+   "category": "HOUSING",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1006,
+   "last_update": "2025-09-07T12:00:00+09:00",
+   "event_at": "2025-09-07T12:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🏠",
+   "period_tier": "yearly",
+   "date_label": "2025.9.7(일)",
+   "date_label_short": "25.9.7",
+   "key_stats": [
+    {
+     "value": "공공 주도",
+     "label": "공급 방식의 축",
+     "direction": "flat"
+    },
+    {
+     "value": "수도권 집중",
+     "label": "공급 계획의 핵심",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-p2",
+   "title": "예금자보호 한도가 1억 원으로 올랐어요",
+   "one_liner": "예금자보호 한도가 1억 원으로 올랐어요",
+   "why_now": null,
+   "impact_line": "한 은행에 2억을 넣으면 1억은 보호 밖이에요. 쪼개기 기준을 다시 잡으세요",
+   "raw_title": "예금자보호 한도가 1억 원으로 올랐어요",
+   "category": "PRICES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1005,
+   "last_update": "2025-09-01T09:00:00+09:00",
+   "event_at": "2025-09-01T09:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🛒",
+   "period_tier": "yearly",
+   "date_label": "2025.9.1(월) 시행",
+   "date_label_short": "25.9.1",
+   "key_stats": [
+    {
+     "value": "5,000만 → 1억 원",
+     "label": "은행이 망해도 보호받는 금액",
+     "direction": "up"
+    },
+    {
+     "value": "24년 만",
+     "label": "한도 상향",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-g1",
+   "title": "한미 관세 합의 — 25% 대신 15%로 막았어요",
+   "one_liner": "한미 관세 합의 — 25% 대신 15%로 막았어요",
+   "why_now": null,
+   "impact_line": "'관세'라는 단어가 왜 매일 뉴스에 나오는지, 그 출발점이에요",
+   "raw_title": "한미 관세 합의 — 25% 대신 15%로 막았어요",
+   "category": "FX_WORLD",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1004,
+   "last_update": "2025-07-31T05:00:00+09:00",
+   "event_at": "2025-07-31T05:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🌍",
+   "period_tier": "yearly",
+   "date_label": "2025.7.30 합의 · 8.7 발효",
+   "date_label_short": "25.7.30",
+   "key_stats": [
+    {
+     "value": "15%",
+     "label": "한국산 제품에 붙는 미국 관세",
+     "direction": "flat"
+    },
+    {
+     "value": "3,500억 달러",
+     "label": "한국의 대미 투자 약속",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-a1",
+   "title": "삼성전자, 테슬라와 22조 8천억 원 계약을 맺었어요",
+   "one_liner": "삼성전자, 테슬라와 22조 8천억 원 계약을 맺었어요",
+   "why_now": null,
+   "impact_line": "국민주 삼성전자 1년 3배 상승의 출발점이 된 계약이에요",
+   "raw_title": "삼성전자, 테슬라와 22조 8천억 원 계약을 맺었어요",
+   "category": "AI_CHIPS",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1003,
+   "last_update": "2025-07-28T12:00:00+09:00",
+   "event_at": "2025-07-28T12:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    6.7,
+    4.7,
+    12.2,
+    57.2,
+    89.4
+   ],
+   "icon": "🤖",
+   "period_tier": "yearly",
+   "date_label": "2025.7.28(월)",
+   "date_label_short": "25.7.28",
+   "key_stats": [
+    {
+     "value": "165억 달러",
+     "label": "계약 규모 (약 22.8조 원)",
+     "direction": "up"
+    },
+    {
+     "value": "AI6 칩",
+     "label": "테슬라 차세대 AI 반도체 생산",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": [
+    "st-ai-chips"
+   ]
+  },
+  {
+   "id": "i-p1",
+   "title": "전 국민 소비쿠폰이 풀렸어요 — 1인 15만 원부터",
+   "one_liner": "전 국민 소비쿠폰이 풀렸어요 — 1인 15만 원부터",
+   "why_now": null,
+   "impact_line": "직접 받아서 쓴 돈이에요. 정부 지원금은 신청 기한이 생명이에요",
+   "raw_title": "전 국민 소비쿠폰이 풀렸어요 — 1인 15만 원부터",
+   "category": "PRICES",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1002,
+   "last_update": "2025-07-21T09:00:00+09:00",
+   "event_at": "2025-07-21T09:00:00+09:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🛒",
+   "period_tier": "yearly",
+   "date_label": "2025.7.21(월) 지급 시작",
+   "date_label_short": "25.7.21",
+   "key_stats": [
+    {
+     "value": "15만~55만 원",
+     "label": "1인당 지급액 (소득·지역별)",
+     "direction": "flat"
+    },
+    {
+     "value": "2차례",
+     "label": "7월 1차 · 9월 2차",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": []
+  },
+  {
+   "id": "i-b1",
+   "title": "미국, 첫 코인 전용법에 서명했어요 (지니어스법)",
+   "one_liner": "미국, 첫 코인 전용법에 서명했어요 (지니어스법)",
+   "why_now": null,
+   "impact_line": "거래소에서 쓰는 USDT·USDC 같은 달러코인이 이 법의 대상이에요",
+   "raw_title": "미국, 첫 코인 전용법에 서명했어요 (지니어스법)",
+   "category": "CRYPTO",
+   "status": "active",
+   "origin": "curated",
+   "sources": 1,
+   "importance": 1001,
+   "last_update": "2025-07-19T09:00:00+09:00",
+   "event_at": "2025-07-19T09:00:00+09:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    116,
+    126.2,
+    80.6,
+    87,
+    61.5,
+    72,
+    61.5,
+    61
+   ],
+   "icon": "🪙",
+   "period_tier": "yearly",
+   "date_label": "2025.7.18(금 · 미국 현지)",
+   "date_label_short": "25.7.18",
+   "key_stats": [
+    {
+     "value": "1호",
+     "label": "미국의 코인 관련 연방법",
+     "direction": "flat"
+    },
+    {
+     "value": "1달러 = 1코인",
+     "label": "스테이블코인 가치 고정 원칙",
+     "direction": "flat"
+    }
+   ],
+   "steady_ids": []
+  }
+ ],
+ "steady": [
+  {
+   "id": "st-us-iran-war",
+   "icon": "🕌",
+   "title": "미국-이란 전쟁",
+   "one_liner": "미국·이스라엘이 이란을 공습해 시작된 전쟁이, 세계 기름길(호르무즈)을 볼모로 5개월째 이어지는 이야기예요.",
+   "status_note": "STEADY ISSUE 01 · 2026.2.28 ~ 진행 중",
+   "visual": {
+    "id": "C7",
+    "kind": "chart",
+    "chart": "line",
+    "title": "국제유가 WTI (이벤트 기준)",
+    "unit": "달러",
+    "source": "NYMEX 시세 · 외신 보도",
+    "note": "전쟁 9일 만에 111달러(3.9) → 하루 만에 88달러. 종전 기대로 60달러대까지 내렸다가, 7월 충돌 재개로 80달러선이에요.",
+    "color_role": "ink",
+    "markers": [
+     {
+      "index": 4,
+      "color_role": "up"
+     },
+     {
+      "index": 7,
+      "color_role": "green"
+     },
+     {
+      "index": 9,
+      "color_role": "up"
+     },
+     {
+      "index": 10,
+      "color_role": "up"
+     }
+    ],
+    "series": [
+     {
+      "t": "2025-07-15",
+      "v": 69,
+      "label": "25.7"
+     },
+     {
+      "t": "2025-10-15",
+      "v": 60,
+      "label": "25.10"
+     },
+     {
+      "t": "2025-12-15",
+      "v": 57,
+      "label": "25.12"
+     },
+     {
+      "t": "2026-02-27",
+      "v": 62,
+      "label": "개전 직전"
+     },
+     {
+      "t": "2026-03-09",
+      "v": 111.2,
+      "label": "3.9"
+     },
+     {
+      "t": "2026-03-10",
+      "v": 88,
+      "label": "3.10"
+     },
+     {
+      "t": "2026-04-15",
+      "v": 75,
+      "label": "26.4"
+     },
+     {
+      "t": "2026-06-15",
+      "v": 65,
+      "label": "종전MOU"
+     },
+     {
+      "t": "2026-07-06",
+      "v": 68,
+      "label": "7.6"
+     },
+     {
+      "t": "2026-07-13",
+      "v": 74.5,
+      "label": "7.13"
+     },
+     {
+      "t": "2026-07-15",
+      "v": 80.3,
+      "label": "7.15"
+     }
+    ]
+   },
+   "detail": [],
+   "definition": "미국·이스라엘이 이란을 공습해 시작된 전쟁이, 세계 기름길(호르무즈)을 볼모로 5개월째 이어지는 이야기예요.",
+   "score": [
+    {
+     "value": "WTI 약 80달러",
+     "label": "유가 (3월 정점 111달러)",
+     "direction": "up"
+    },
+    {
+     "value": "선박 6척",
+     "label": "호르무즈 통과량 — 5주 최저",
+     "direction": "down"
+    },
+    {
+     "value": "1,482원",
+     "label": "원·달러 (3월 고점 1,562원)",
+     "direction": "flat"
+    }
+   ],
+   "story": [
+    "2월, 미국·이스라엘의 기습 공습으로 하메네이가 사망하고 전쟁이 터졌어요. 유가 111달러·환율 1,562원까지 갔어요.",
+    "4월 휴전, 6월 종전 문서(MOU)로 시장은 안도했고 코스피 9,000의 배경이 됐어요.",
+    "그런데 7월, 호르무즈에서 충돌이 재개됐어요. 미국은 봉쇄를 다시 걸고 \"통행세 20%\"까지 꺼냈어요."
+   ],
+   "timeline": [
+    {
+     "date_label": "7.12~15",
+     "text": "호르무즈 격화·봉쇄 재개·통행세 20%",
+     "links": [
+      {
+       "issue_id": "i-g10"
+      },
+      {
+       "issue_id": "i-b8",
+       "label": "코인 하락(7.17)"
+      }
+     ],
+     "hot": true
+    },
+    {
+     "date_label": "7.14",
+     "text": "미국 6월 물가 3.5% (유가 하락 반영)",
+     "links": [
+      {
+       "issue_id": "i-p7"
+      }
+     ]
+    },
+    {
+     "date_label": "6월 중순",
+     "text": "종전 양해각서 체결 → 코스피 9,000(6.18)",
+     "links": [
+      {
+       "issue_id": "i-g8"
+      },
+      {
+       "issue_id": "i-s6",
+       "label": "코스피 9,000"
+      }
+     ]
+    },
+    {
+     "date_label": "5~6월",
+     "text": "한국 물가 3%대 진입",
+     "links": [
+      {
+       "issue_id": "i-p4"
+      }
+     ]
+    },
+    {
+     "date_label": "3.9",
+     "text": "유가 111달러·환율 1,562원 / 증시 전쟁 쇼크",
+     "links": [
+      {
+       "issue_id": "i-g6"
+      },
+      {
+       "issue_id": "i-s3",
+       "label": "증시 쇼크"
+      }
+     ]
+    },
+    {
+     "date_label": "2.28",
+     "text": "공습·하메네이 사망 — 전쟁 발발",
+     "links": [
+      {
+       "issue_id": "i-g5"
+      }
+     ]
+    }
+   ],
+   "impact": [
+    "유가 → 물가 → 금리의 첫 도미노예요. 이 전쟁이 대출금리까지 밀어 올리고 있어요.",
+    "기름값·환율(여행·직구)·증시 변동성이 전부 이 이슈 하나에 물려 있어요."
+   ],
+   "next_up": [
+    "\"호르무즈 통과 선박 증가/전면 봉쇄\" — 유가 방향 결정",
+    "\"미-이란 협상 재개\" — 안도 랠리 가능",
+    "\"이란, 걸프국·유조선 추가 공격\" — 유가 100달러 재도전 위험"
+   ],
+   "visuals": [
+    {
+     "id": "TL2",
+     "kind": "timeline",
+     "title": "미국-이란 전쟁 일지",
+     "source": "뉴스 종합",
+     "entries": [
+      {
+       "date_label": "2026.2.28",
+       "text": "미국·이스라엘, 이란 전역 기습 공습 — 최고지도자 하메네이 사망. 전쟁 시작"
+      },
+      {
+       "date_label": "2026.3월 초",
+       "text": "이란, 호르무즈 해협 봉쇄 + 중동 미군기지 공격 → 유가 111달러(3.9)·환율 1,562원"
+      },
+      {
+       "date_label": "2026.4.8",
+       "text": "휴전 → 4.13 미국의 대이란 해상봉쇄 개시"
+      },
+      {
+       "date_label": "2026.6월 중순",
+       "text": "종전 양해각서(MOU) 체결 — 시장 안도, 코스피 9,000 배경"
+      },
+      {
+       "date_label": "2026.6월 말~7.8",
+       "text": "호르무즈에서 충돌 재개 — 미, 이란 해안 90개 목표 타격(7.8)"
+      },
+      {
+       "date_label": "2026.7.12~15",
+       "text": "격화 — 미, 이란 중서부까지 공습 · 이란, 걸프국·유조선 공격 · 미, 봉쇄 재개+\"통행세 20%\" 예고. MOU 사실상 붕괴",
+       "hot": true
+      }
+     ]
+    },
+    {
+     "id": "C7",
+     "kind": "chart",
+     "chart": "line",
+     "title": "국제유가 WTI (이벤트 기준)",
+     "unit": "달러",
+     "source": "NYMEX 시세 · 외신 보도",
+     "note": "전쟁 9일 만에 111달러(3.9) → 하루 만에 88달러. 종전 기대로 60달러대까지 내렸다가, 7월 충돌 재개로 80달러선이에요.",
+     "color_role": "ink",
+     "markers": [
+      {
+       "index": 4,
+       "color_role": "up"
+      },
+      {
+       "index": 7,
+       "color_role": "green"
+      },
+      {
+       "index": 9,
+       "color_role": "up"
+      },
+      {
+       "index": 10,
+       "color_role": "up"
+      }
+     ],
+     "series": [
+      {
+       "t": "2025-07-15",
+       "v": 69,
+       "label": "25.7"
+      },
+      {
+       "t": "2025-10-15",
+       "v": 60,
+       "label": "25.10"
+      },
+      {
+       "t": "2025-12-15",
+       "v": 57,
+       "label": "25.12"
+      },
+      {
+       "t": "2026-02-27",
+       "v": 62,
+       "label": "개전 직전"
+      },
+      {
+       "t": "2026-03-09",
+       "v": 111.2,
+       "label": "3.9"
+      },
+      {
+       "t": "2026-03-10",
+       "v": 88,
+       "label": "3.10"
+      },
+      {
+       "t": "2026-04-15",
+       "v": 75,
+       "label": "26.4"
+      },
+      {
+       "t": "2026-06-15",
+       "v": 65,
+       "label": "종전MOU"
+      },
+      {
+       "t": "2026-07-06",
+       "v": 68,
+       "label": "7.6"
+      },
+      {
+       "t": "2026-07-13",
+       "v": 74.5,
+       "label": "7.13"
+      },
+      {
+       "t": "2026-07-15",
+       "v": 80.3,
+       "label": "7.15"
+      }
+     ]
+    },
+    {
+     "id": "C6",
+     "kind": "chart",
+     "chart": "line",
+     "title": "원·달러 환율 (이벤트 기준)",
+     "unit": "원",
+     "source": "서울외국환중개",
+     "note": "전쟁이 터진 3월에 1,562원(52주 최고)까지 치솟았고, 지금도 1,500원 문턱이에요.",
+     "color_role": "down",
+     "markers": [
+      {
+       "index": 5,
+       "color_role": "up"
+      }
+     ],
+     "series": [
+      {
+       "t": "2025-07-31",
+       "v": 1383,
+       "label": "25.7"
+      },
+      {
+       "t": "2025-10-31",
+       "v": 1424,
+       "label": "25.10"
+      },
+      {
+       "t": "2025-11-30",
+       "v": 1470,
+       "label": "25.11"
+      },
+      {
+       "t": "2025-12-31",
+       "v": 1440,
+       "label": "25.12"
+      },
+      {
+       "t": "2026-02-28",
+       "v": 1460,
+       "label": "26.2"
+      },
+      {
+       "t": "2026-03-15",
+       "v": 1562,
+       "label": "고점"
+      },
+      {
+       "t": "2026-04-13",
+       "v": 1489,
+       "label": "4.13"
+      },
+      {
+       "t": "2026-05-27",
+       "v": 1501,
+       "label": "5.27"
+      },
+      {
+       "t": "2026-07-06",
+       "v": 1530,
+       "label": "7.6"
+      },
+      {
+       "t": "2026-07-14",
+       "v": 1482,
+       "label": "7.14"
+      }
+     ]
+    },
+    {
+     "id": "T8",
+     "kind": "table",
+     "title": "안전자산 보드",
+     "source": "거래소 시세 (7월 중순)",
+     "columns": [
+      "자산",
+      "값"
+     ],
+     "rows": [
+      [
+       "금",
+       "4,033달러 (사상 최고 4,381 · 25.10.20)"
+      ],
+      [
+       "은",
+       "58.5달러 (급등세)"
+      ],
+      [
+       "달러지수",
+       "100.7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "st-kospi-rally",
+   "icon": "📈",
+   "title": "코스피 슈퍼랠리, 그리고 7월 폭락",
+   "one_liner": "코스피가 8개월 만에 4,000에서 9,385까지 2배가 됐다가, 3주 만에 27% 무너진 롤러코스터 이야기예요.",
+   "status_note": "STEADY ISSUE 02 · 2025.10 ~ 진행 중",
+   "visual": {
+    "id": "C3",
+    "kind": "chart",
+    "chart": "line",
+    "title": "코스피 12개월",
+    "unit": "pt",
+    "source": "한국거래소",
+    "note": "연초 4,310에서 6개월 만에 9,000선(+115%)까지 갔다가, 7월에 고점 대비 27% 급락했어요.",
+    "markers": [
+     {
+      "index": 12,
+      "color_role": "gold"
+     },
+     {
+      "index": 13,
+      "color_role": "up"
+     }
+    ],
+    "series": [
+     {
+      "t": "2025-07-31",
+      "v": 3210,
+      "label": "25.7"
+     },
+     {
+      "t": "2025-08-31",
+      "v": 3186,
+      "label": "25.8"
+     },
+     {
+      "t": "2025-09-30",
+      "v": 3424,
+      "label": "25.9"
+     },
+     {
+      "t": "2025-10-27",
+      "v": 4042,
+      "label": "10.27"
+     },
+     {
+      "t": "2025-11-30",
+      "v": 3930,
+      "label": "25.11"
+     },
+     {
+      "t": "2025-12-30",
+      "v": 4310,
+      "label": "25.12"
+     },
+     {
+      "t": "2026-01-27",
+      "v": 5085,
+      "label": "1.27"
+     },
+     {
+      "t": "2026-02-25",
+      "v": 6084,
+      "label": "2.25"
+     },
+     {
+      "t": "2026-03-31",
+      "v": 5900,
+      "label": "26.3"
+     },
+     {
+      "t": "2026-04-13",
+      "v": 5808,
+      "label": "4.13"
+     },
+     {
+      "t": "2026-05-27",
+      "v": 8229,
+      "label": "5.27"
+     },
+     {
+      "t": "2026-06-18",
+      "v": 9064,
+      "label": "6.18"
+     },
+     {
+      "t": "2026-06-30",
+      "v": 9385,
+      "label": "고점"
+     },
+     {
+      "t": "2026-07-13",
+      "v": 6806,
+      "label": "7.13"
+     },
+     {
+      "t": "2026-07-15",
+      "v": 7284,
+      "label": "7.15"
+     }
+    ]
+   },
+   "detail": [],
+   "definition": "코스피가 8개월 만에 4,000에서 9,385까지 2배가 됐다가, 3주 만에 27% 무너진 롤러코스터 이야기예요.",
+   "score": [
+    {
+     "value": "7,284",
+     "label": "현재 지수 (7.15)",
+     "direction": "flat"
+    },
+    {
+     "value": "-22%",
+     "label": "사상 최고(9,385) 대비",
+     "direction": "down"
+    },
+    {
+     "value": "7회",
+     "label": "올해 서킷브레이커 (역대 13회 중)",
+     "direction": "up"
+    }
+   ],
+   "story": [
+    "반도체 슈퍼사이클을 연료로 코스피가 매달 1,000포인트씩 계단을 올랐어요. 4,000(10월) → 9,000(6월), 올해만 +115%로 G20 1위였어요.",
+    "삼전·하이닉스 2배 레버리지 ETF에 개인 돈 8조 원이 몰릴 만큼 과열됐어요.",
+    "7.13, 반도체 버블 경계감에 하루 -8.95% 폭락하며 축제가 멈췄어요. 지금은 급등락을 반복 중이에요."
+   ],
+   "timeline": [
+    {
+     "date_label": "7.13",
+     "text": "-8.95% 폭락·서킷브레이커 (→7.15 +6.24% 반등)",
+     "links": [
+      {
+       "issue_id": "i-s8"
+      }
+     ],
+     "hot": true
+    },
+    {
+     "date_label": "7.10",
+     "text": "SK하이닉스 나스닥 ADR 상장 (역대 최대 공모)",
+     "links": [
+      {
+       "issue_id": "i-s7"
+      }
+     ]
+    },
+    {
+     "date_label": "6.18",
+     "text": "사상 첫 9,000 돌파 — 시총 7,413조",
+     "links": [
+      {
+       "issue_id": "i-s6"
+      }
+     ]
+    },
+    {
+     "date_label": "5.6 / 5.26",
+     "text": "7,000·8,000 연속 돌파 — 레버리지 열풍",
+     "links": [
+      {
+       "issue_id": "i-s4"
+      }
+     ]
+    },
+    {
+     "date_label": "3~4월",
+     "text": "전쟁 쇼크 급락 → V자 회복",
+     "links": [
+      {
+       "issue_id": "i-s3"
+      }
+     ]
+    },
+    {
+     "date_label": "1.27 · 25.10.27",
+     "text": "5,000 돌파 · 4,000 첫 돌파",
+     "links": [
+      {
+       "issue_id": "i-s2",
+       "label": "5,000"
+      },
+      {
+       "issue_id": "i-s1",
+       "label": "4,000"
+      }
+     ]
+    }
+   ],
+   "impact": [
+    "연금·펀드 수익률이 1년 새 급등→급락을 다 겪었어요. 지금은 '지키는 전략'을 점검할 때예요.",
+    "올해 주식을 시작한 사람일수록 고점 근처 진입이에요. 레버리지·빚투 여부가 생존을 갈라요."
+   ],
+   "next_up": [
+    "\"외국인 순매수 복귀\" — 반등의 최우선 조건",
+    "\"레버리지 ETF 규제 확정\" — 변동성 완화 여부",
+    "\"삼성·하이닉스 3분기 실적 전망\" — 랠리 재개 vs 피크아웃 판정"
+   ],
+   "visuals": [
+    {
+     "id": "C3",
+     "kind": "chart",
+     "chart": "line",
+     "title": "코스피 12개월",
+     "unit": "pt",
+     "source": "한국거래소",
+     "note": "연초 4,310에서 6개월 만에 9,000선(+115%)까지 갔다가, 7월에 고점 대비 27% 급락했어요.",
+     "markers": [
+      {
+       "index": 12,
+       "color_role": "gold"
+      },
+      {
+       "index": 13,
+       "color_role": "up"
+      }
+     ],
+     "series": [
+      {
+       "t": "2025-07-31",
+       "v": 3210,
+       "label": "25.7"
+      },
+      {
+       "t": "2025-08-31",
+       "v": 3186,
+       "label": "25.8"
+      },
+      {
+       "t": "2025-09-30",
+       "v": 3424,
+       "label": "25.9"
+      },
+      {
+       "t": "2025-10-27",
+       "v": 4042,
+       "label": "10.27"
+      },
+      {
+       "t": "2025-11-30",
+       "v": 3930,
+       "label": "25.11"
+      },
+      {
+       "t": "2025-12-30",
+       "v": 4310,
+       "label": "25.12"
+      },
+      {
+       "t": "2026-01-27",
+       "v": 5085,
+       "label": "1.27"
+      },
+      {
+       "t": "2026-02-25",
+       "v": 6084,
+       "label": "2.25"
+      },
+      {
+       "t": "2026-03-31",
+       "v": 5900,
+       "label": "26.3"
+      },
+      {
+       "t": "2026-04-13",
+       "v": 5808,
+       "label": "4.13"
+      },
+      {
+       "t": "2026-05-27",
+       "v": 8229,
+       "label": "5.27"
+      },
+      {
+       "t": "2026-06-18",
+       "v": 9064,
+       "label": "6.18"
+      },
+      {
+       "t": "2026-06-30",
+       "v": 9385,
+       "label": "고점"
+      },
+      {
+       "t": "2026-07-13",
+       "v": 6806,
+       "label": "7.13"
+      },
+      {
+       "t": "2026-07-15",
+       "v": 7284,
+       "label": "7.15"
+      }
+     ]
+    },
+    {
+     "id": "T3",
+     "kind": "table",
+     "title": "서킷브레이커 발동 이력 (코스피)",
+     "source": "한국거래소",
+     "note": "지수가 하루 8% 이상 떨어지면 20분간 거래를 멈추는 장치예요. 역대 13번 중 7번이 올해 몰렸어요.",
+     "columns": [
+      "구분",
+      "내용"
+     ],
+     "rows": [
+      [
+       "역대 발동",
+       "총 13회 (2000년 도입 이후)"
+      ],
+      [
+       "2026년 발동",
+       "7회 — 1~6회는 3~4월 전쟁 쇼크 구간, 7회차 26.7.13"
+      ],
+      [
+       "최근 발동(7회차)",
+       "26.7.13 13:28, 코스피 -8.08% 시점 → 당일 -8.95%(6,806) 마감"
+      ],
+      [
+       "동반 장치",
+       "같은 날 오전 매도 사이드카(프로그램 매도 일시정지) 선발동"
+      ]
+     ]
+    },
+    {
+     "id": "T6",
+     "kind": "table",
+     "title": "반도체 스코어보드",
+     "source": "거래소 시세 (7월 중순)",
+     "columns": [
+      "항목",
+      "값"
+     ],
+     "rows": [
+      [
+       "SK하이닉스 ADR",
+       "193.92달러(7.14, +27.3%) · 국내 주가 대비 프리미엄 51%"
+      ],
+      [
+       "마이크론",
+       "올해 +229% (HBM 효과)"
+      ],
+      [
+       "삼성전자 2분기 영업익",
+       "89.4조 원 — 분기 기준 세계 1위"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "st-ai-chips",
+   "icon": "🤖",
+   "title": "AI·반도체 슈퍼사이클과 버블 논쟁",
+   "one_liner": "AI가 만든 사상 최대 반도체 호황이, 이제 \"진짜 실력이냐 거품이냐\" 시험대에 오른 이야기예요.",
+   "status_note": "STEADY ISSUE 03 · 2025.7 ~ 진행 중",
+   "visual": {
+    "id": "C4",
+    "kind": "chart",
+    "chart": "bar",
+    "title": "삼성전자 분기 영업이익",
+    "unit": "조 원",
+    "source": "삼성전자 잠정실적 공시",
+    "note": "1년 전 분기 4.7조 → 이번 분기 89.4조. AI 메모리 슈퍼사이클의 크기를 이 그래프 하나로 설명할 수 있어요.",
+    "series": [
+     {
+      "t": "2025-Q1",
+      "v": 6.7,
+      "label": "25.1Q",
+      "role": "muted"
+     },
+     {
+      "t": "2025-Q2",
+      "v": 4.7,
+      "label": "25.2Q",
+      "role": "muted"
+     },
+     {
+      "t": "2025-Q3",
+      "v": 12.2,
+      "label": "25.3Q",
+      "role": "accent"
+     },
+     {
+      "t": "2025-Q4",
+      "v": null,
+      "label": "확인중",
+      "role": "muted"
+     },
+     {
+      "t": "2026-Q1",
+      "v": 57.2,
+      "label": "26.1Q",
+      "role": "accent"
+     },
+     {
+      "t": "2026-Q2",
+      "v": 89.4,
+      "label": "26.2Q",
+      "role": "up"
+     }
+    ]
+   },
+   "detail": [],
+   "definition": "AI가 만든 사상 최대 반도체 호황이, 이제 \"진짜 실력이냐 거품이냐\" 시험대에 오른 이야기예요.",
+   "score": [
+    {
+     "value": "89.4조 원",
+     "label": "삼성전자 2분기 영업이익 (세계 1위)",
+     "direction": "up"
+    },
+    {
+     "value": "5.02조 달러",
+     "label": "엔비디아 시총 (고점 5.73조)",
+     "direction": "down"
+    },
+    {
+     "value": "+51%",
+     "label": "하이닉스 ADR 프리미엄 (7.14)",
+     "direction": "up"
+    }
+   ],
+   "story": [
+    "테슬라 수주(25.7)와 오픈AI 협력(25.10)으로 한국 반도체가 AI 붐의 중심이 됐어요. 메모리 값이 뛰며 삼성은 분기마다 기록을 새로 썼어요.",
+    "엔비디아는 시총 5조 달러를 처음 넘었고, 하이닉스는 나스닥까지 진출했어요.",
+    "그런데 7월, \"실적이 좋아도 주가가 너무 비싸다\"는 경계감에 한미 반도체주가 동반 급락했어요."
+   ],
+   "timeline": [
+    {
+     "date_label": "7.16",
+     "text": "TSMC 호실적에도 반도체주 급락",
+     "links": [
+      {
+       "issue_id": "i-a8"
+      }
+     ],
+     "hot": true
+    },
+    {
+     "date_label": "7.13",
+     "text": "코스피 폭락 — 삼전 -10.7%, 하이닉스 -15.4%",
+     "links": [
+      {
+       "issue_id": "i-s8"
+      }
+     ]
+    },
+    {
+     "date_label": "7.7~8",
+     "text": "삼성 영업익 89.4조 · 엔비디아 시총 1조 달러 증발",
+     "links": [
+      {
+       "issue_id": "i-a6",
+       "label": "삼성 89.4조"
+      },
+      {
+       "issue_id": "i-a7",
+       "label": "엔비디아 -1조 달러"
+      }
+     ]
+    },
+    {
+     "date_label": "7.10",
+     "text": "하이닉스 ADR 상장",
+     "links": [
+      {
+       "issue_id": "i-s7"
+      }
+     ]
+    },
+    {
+     "date_label": "5.14",
+     "text": "엔비디아 사상 최고 (5.73조 달러)",
+     "links": [
+      {
+       "issue_id": "i-a5"
+      }
+     ]
+    },
+    {
+     "date_label": "25.10~26.1",
+     "text": "오픈AI 협력 · 엔비디아 5조 달러 · 삼성 최대 실적 행진",
+     "links": [
+      {
+       "issue_id": "i-a2",
+       "label": "오픈AI"
+      },
+      {
+       "issue_id": "i-a3",
+       "label": "5조 달러"
+      },
+      {
+       "issue_id": "i-a4",
+       "label": "최대 실적"
+      }
+     ]
+    },
+    {
+     "date_label": "25.7.28",
+     "text": "삼성-테슬라 22.8조 계약",
+     "links": [
+      {
+       "issue_id": "i-a1"
+      }
+     ]
+    }
+   ],
+   "impact": [
+    "반도체는 한국 수출·세수·증시의 엔진이에요. 이 사이클의 수명이 곧 한국 경제의 하반기예요.",
+    "관련 학과·직군 채용과 국민 대다수가 보유한 삼전 주가가 여기 걸려 있어요."
+   ],
+   "next_up": [
+    "\"엔비디아 실적 발표(8.26)\" — AI 수요의 공식 성적표",
+    "\"메모리 가격 하락 전환\" — 슈퍼사이클 피크아웃 신호",
+    "\"삼성 확정 실적·사업부별 숫자(7월 말)\" — 89.4조의 내용 검증"
+   ],
+   "visuals": [
+    {
+     "id": "C4",
+     "kind": "chart",
+     "chart": "bar",
+     "title": "삼성전자 분기 영업이익",
+     "unit": "조 원",
+     "source": "삼성전자 잠정실적 공시",
+     "note": "1년 전 분기 4.7조 → 이번 분기 89.4조. AI 메모리 슈퍼사이클의 크기를 이 그래프 하나로 설명할 수 있어요.",
+     "series": [
+      {
+       "t": "2025-Q1",
+       "v": 6.7,
+       "label": "25.1Q",
+       "role": "muted"
+      },
+      {
+       "t": "2025-Q2",
+       "v": 4.7,
+       "label": "25.2Q",
+       "role": "muted"
+      },
+      {
+       "t": "2025-Q3",
+       "v": 12.2,
+       "label": "25.3Q",
+       "role": "accent"
+      },
+      {
+       "t": "2025-Q4",
+       "v": null,
+       "label": "확인중",
+       "role": "muted"
+      },
+      {
+       "t": "2026-Q1",
+       "v": 57.2,
+       "label": "26.1Q",
+       "role": "accent"
+      },
+      {
+       "t": "2026-Q2",
+       "v": 89.4,
+       "label": "26.2Q",
+       "role": "up"
+      }
+     ]
+    },
+    {
+     "id": "C8",
+     "kind": "chart",
+     "chart": "line",
+     "title": "엔비디아 시가총액",
+     "unit": "조 달러",
+     "source": "거래소 시세 · 블룸버그 보도",
+     "note": "세계 최초 5조 달러(25.10) → 최고 5.73조(26.5.14) → 두 달 새 1조 달러 증발 → 일부 회복. AI 대장주의 체온계예요.",
+     "color_role": "green",
+     "markers": [
+      {
+       "index": 1,
+       "color_role": "accent"
+      },
+      {
+       "index": 4,
+       "color_role": "up"
+      }
+     ],
+     "series": [
+      {
+       "t": "2025-07-09",
+       "v": 4.0,
+       "label": "25.7"
+      },
+      {
+       "t": "2025-10-29",
+       "v": 5.0,
+       "label": "5조"
+      },
+      {
+       "t": "2025-11-30",
+       "v": 4.4,
+       "label": "25.11"
+      },
+      {
+       "t": "2026-01-31",
+       "v": 4.8,
+       "label": "26.1"
+      },
+      {
+       "t": "2026-05-14",
+       "v": 5.73,
+       "label": "최고"
+      },
+      {
+       "t": "2026-07-07",
+       "v": 4.8,
+       "label": "7.7"
+      },
+      {
+       "t": "2026-07-16",
+       "v": 5.02,
+       "label": "7.16"
+      }
+     ]
+    },
+    {
+     "id": "T6",
+     "kind": "table",
+     "title": "반도체 스코어보드",
+     "source": "거래소 시세 (7월 중순)",
+     "columns": [
+      "항목",
+      "값"
+     ],
+     "rows": [
+      [
+       "SK하이닉스 ADR",
+       "193.92달러(7.14, +27.3%) · 국내 주가 대비 프리미엄 51%"
+      ],
+      [
+       "마이크론",
+       "올해 +229% (HBM 효과)"
+      ],
+      [
+       "삼성전자 2분기 영업익",
+       "89.4조 원 — 분기 기준 세계 1위"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "st-rate-uturn",
+   "icon": "💰",
+   "title": "물가 쇼크와 금리 U턴",
+   "one_liner": "\"금리 내리는 시대\"가 전쟁발 물가 때문에 끝나고, 미국도 한국도 핸들을 인상 쪽으로 꺾은 이야기예요.",
+   "status_note": "STEADY ISSUE 04 · 2025.9 ~ 진행 중",
+   "visual": {
+    "id": "C1",
+    "kind": "chart",
+    "chart": "step",
+    "title": "한·미·일 기준금리 추이",
+    "unit": "%",
+    "source": "한국은행 · 연준 · 일본은행",
+    "note": "25년 말까지 미국이 내리다 멈췄고, 26.7월 한국이 먼저 올렸어요. 한미 격차는 1.00%p로 줄었어요.",
+    "series_multi": [
+     {
+      "name": "한국",
+      "color_role": "accent",
+      "series": [
+       {
+        "t": "2025-07",
+        "v": 2.5,
+        "label": "25.7"
+       },
+       {
+        "t": "2025-08",
+        "v": 2.5,
+        "label": "25.8"
+       },
+       {
+        "t": "2025-09",
+        "v": 2.5,
+        "label": "25.9"
+       },
+       {
+        "t": "2025-10",
+        "v": 2.5,
+        "label": "25.10"
+       },
+       {
+        "t": "2025-11",
+        "v": 2.5,
+        "label": "25.11"
+       },
+       {
+        "t": "2025-12",
+        "v": 2.5,
+        "label": "25.12"
+       },
+       {
+        "t": "2026-01",
+        "v": 2.5,
+        "label": "26.1"
+       },
+       {
+        "t": "2026-02",
+        "v": 2.5,
+        "label": "26.2"
+       },
+       {
+        "t": "2026-03",
+        "v": 2.5,
+        "label": "26.3"
+       },
+       {
+        "t": "2026-04",
+        "v": 2.5,
+        "label": "26.4"
+       },
+       {
+        "t": "2026-05",
+        "v": 2.5,
+        "label": "26.5"
+       },
+       {
+        "t": "2026-06",
+        "v": 2.5,
+        "label": "26.6"
+       },
+       {
+        "t": "2026-07",
+        "v": 2.75,
+        "label": "26.7"
+       }
+      ]
+     },
+     {
+      "name": "미국(상단)",
+      "color_role": "up",
+      "series": [
+       {
+        "t": "2025-07",
+        "v": 4.5,
+        "label": "25.7"
+       },
+       {
+        "t": "2025-08",
+        "v": 4.5,
+        "label": "25.8"
+       },
+       {
+        "t": "2025-09",
+        "v": 4.25,
+        "label": "25.9"
+       },
+       {
+        "t": "2025-10",
+        "v": 4.0,
+        "label": "25.10"
+       },
+       {
+        "t": "2025-11",
+        "v": 4.0,
+        "label": "25.11"
+       },
+       {
+        "t": "2025-12",
+        "v": 3.75,
+        "label": "25.12"
+       },
+       {
+        "t": "2026-01",
+        "v": 3.75,
+        "label": "26.1"
+       },
+       {
+        "t": "2026-02",
+        "v": 3.75,
+        "label": "26.2"
+       },
+       {
+        "t": "2026-03",
+        "v": 3.75,
+        "label": "26.3"
+       },
+       {
+        "t": "2026-04",
+        "v": 3.75,
+        "label": "26.4"
+       },
+       {
+        "t": "2026-05",
+        "v": 3.75,
+        "label": "26.5"
+       },
+       {
+        "t": "2026-06",
+        "v": 3.75,
+        "label": "26.6"
+       },
+       {
+        "t": "2026-07",
+        "v": 3.75,
+        "label": "26.7"
+       }
+      ]
+     },
+     {
+      "name": "일본",
+      "color_role": "green",
+      "series": [
+       {
+        "t": "2025-07",
+        "v": 0.5,
+        "label": "25.7"
+       },
+       {
+        "t": "2025-08",
+        "v": 0.5,
+        "label": "25.8"
+       },
+       {
+        "t": "2025-09",
+        "v": 0.5,
+        "label": "25.9"
+       },
+       {
+        "t": "2025-10",
+        "v": 0.5,
+        "label": "25.10"
+       },
+       {
+        "t": "2025-11",
+        "v": 0.5,
+        "label": "25.11"
+       },
+       {
+        "t": "2025-12",
+        "v": 0.75,
+        "label": "25.12"
+       },
+       {
+        "t": "2026-01",
+        "v": 0.75,
+        "label": "26.1"
+       },
+       {
+        "t": "2026-02",
+        "v": 0.75,
+        "label": "26.2"
+       },
+       {
+        "t": "2026-03",
+        "v": 0.75,
+        "label": "26.3"
+       },
+       {
+        "t": "2026-04",
+        "v": 0.75,
+        "label": "26.4"
+       },
+       {
+        "t": "2026-05",
+        "v": 0.75,
+        "label": "26.5"
+       },
+       {
+        "t": "2026-06",
+        "v": 0.75,
+        "label": "26.6"
+       },
+       {
+        "t": "2026-07",
+        "v": 0.75,
+        "label": "26.7"
+       }
+      ]
+     }
+    ]
+   },
+   "detail": [],
+   "definition": "\"금리 내리는 시대\"가 전쟁발 물가 때문에 끝나고, 미국도 한국도 핸들을 인상 쪽으로 꺾은 이야기예요.",
+   "score": [
+    {
+     "value": "韓 2.75%",
+     "label": "기준금리 (7.16 인상)",
+     "direction": "up"
+    },
+    {
+     "value": "美 3.50~3.75%",
+     "label": "기준금리 (연말 전망 3.8%)",
+     "direction": "flat"
+    },
+    {
+     "value": "3.2% / 3.5%",
+     "label": "한·미 6월 물가",
+     "direction": "up"
+    }
+   ],
+   "story": [
+    "미국은 작년 9~12월 금리를 세 번 내렸어요. 시장은 \"계속 내리겠지\"라며 자산을 사들였어요.",
+    "그런데 2월 전쟁으로 에너지값이 뛰며 물가가 다시 3~4%대로 올라왔어요.",
+    "새 연준 의장 워시는 \"물가부터\"를 외치고, 한국은행은 7.16에 3년 6개월 만의 인상을 단행했어요. 이제 방향은 위쪽이에요."
+   ],
+   "timeline": [
+    {
+     "date_label": "7.16",
+     "text": "한국은행 인상 — 2.75%, \"인상 기조 계속\"",
+     "links": [
+      {
+       "issue_id": "i-r8"
+      }
+     ],
+     "hot": true
+    },
+    {
+     "date_label": "7.14",
+     "text": "워시 의회 증언 · 미국 물가 3.5% 둔화 · 최저임금 +3.7%",
+     "links": [
+      {
+       "issue_id": "i-r7",
+       "label": "워시 증언"
+      },
+      {
+       "issue_id": "i-p7",
+       "label": "미 물가"
+      },
+      {
+       "issue_id": "i-p8",
+       "label": "최저임금"
+      }
+     ]
+    },
+    {
+     "date_label": "7.2",
+     "text": "한국 6월 물가 3.2% — 30개월 최고",
+     "links": [
+      {
+       "issue_id": "i-p5"
+      }
+     ]
+    },
+    {
+     "date_label": "6.17",
+     "text": "워시 첫 FOMC — \"연내 인상 가능\"",
+     "links": [
+      {
+       "issue_id": "i-r6"
+      }
+     ]
+    },
+    {
+     "date_label": "5~6월",
+     "text": "한국 물가 3%대 진입 · 신현송 총재 인상 예고",
+     "links": [
+      {
+       "issue_id": "i-p4",
+       "label": "물가 3%대"
+      },
+      {
+       "issue_id": "i-r5",
+       "label": "총재 예고"
+      }
+     ]
+    },
+    {
+     "date_label": "25.9~12",
+     "text": "미국 3연속 인하 → 그게 마지막이었어요",
+     "links": [
+      {
+       "issue_id": "i-r1",
+       "label": "3연속 인하"
+      },
+      {
+       "issue_id": "i-r2",
+       "label": "마지막 인하"
+      }
+     ]
+    }
+   ],
+   "impact": [
+    "변동금리 대출 이자가 올라요. 반대로 예금·채권 투자엔 기회가 열려요.",
+    "\"금리 인상기 = 주식·코인 역풍\"이 기본 공식이에요. 현금 비중의 가치가 커지는 시기예요."
+   ],
+   "next_up": [
+    "\"7.28~29 FOMC\" — 미국이 실제로 올리는지 (하반기 최대 이벤트)",
+    "\"8월 한국은행 금통위\" — 연속 인상 여부",
+    "\"7월 물가 (유가 80달러 반영)\" — 재가속 vs 둔화"
+   ],
+   "visuals": [
+    {
+     "id": "C1",
+     "kind": "chart",
+     "chart": "step",
+     "title": "한·미·일 기준금리 추이",
+     "unit": "%",
+     "source": "한국은행 · 연준 · 일본은행",
+     "note": "25년 말까지 미국이 내리다 멈췄고, 26.7월 한국이 먼저 올렸어요. 한미 격차는 1.00%p로 줄었어요.",
+     "series_multi": [
+      {
+       "name": "한국",
+       "color_role": "accent",
+       "series": [
+        {
+         "t": "2025-07",
+         "v": 2.5,
+         "label": "25.7"
+        },
+        {
+         "t": "2025-08",
+         "v": 2.5,
+         "label": "25.8"
+        },
+        {
+         "t": "2025-09",
+         "v": 2.5,
+         "label": "25.9"
+        },
+        {
+         "t": "2025-10",
+         "v": 2.5,
+         "label": "25.10"
+        },
+        {
+         "t": "2025-11",
+         "v": 2.5,
+         "label": "25.11"
+        },
+        {
+         "t": "2025-12",
+         "v": 2.5,
+         "label": "25.12"
+        },
+        {
+         "t": "2026-01",
+         "v": 2.5,
+         "label": "26.1"
+        },
+        {
+         "t": "2026-02",
+         "v": 2.5,
+         "label": "26.2"
+        },
+        {
+         "t": "2026-03",
+         "v": 2.5,
+         "label": "26.3"
+        },
+        {
+         "t": "2026-04",
+         "v": 2.5,
+         "label": "26.4"
+        },
+        {
+         "t": "2026-05",
+         "v": 2.5,
+         "label": "26.5"
+        },
+        {
+         "t": "2026-06",
+         "v": 2.5,
+         "label": "26.6"
+        },
+        {
+         "t": "2026-07",
+         "v": 2.75,
+         "label": "26.7"
+        }
+       ]
+      },
+      {
+       "name": "미국(상단)",
+       "color_role": "up",
+       "series": [
+        {
+         "t": "2025-07",
+         "v": 4.5,
+         "label": "25.7"
+        },
+        {
+         "t": "2025-08",
+         "v": 4.5,
+         "label": "25.8"
+        },
+        {
+         "t": "2025-09",
+         "v": 4.25,
+         "label": "25.9"
+        },
+        {
+         "t": "2025-10",
+         "v": 4.0,
+         "label": "25.10"
+        },
+        {
+         "t": "2025-11",
+         "v": 4.0,
+         "label": "25.11"
+        },
+        {
+         "t": "2025-12",
+         "v": 3.75,
+         "label": "25.12"
+        },
+        {
+         "t": "2026-01",
+         "v": 3.75,
+         "label": "26.1"
+        },
+        {
+         "t": "2026-02",
+         "v": 3.75,
+         "label": "26.2"
+        },
+        {
+         "t": "2026-03",
+         "v": 3.75,
+         "label": "26.3"
+        },
+        {
+         "t": "2026-04",
+         "v": 3.75,
+         "label": "26.4"
+        },
+        {
+         "t": "2026-05",
+         "v": 3.75,
+         "label": "26.5"
+        },
+        {
+         "t": "2026-06",
+         "v": 3.75,
+         "label": "26.6"
+        },
+        {
+         "t": "2026-07",
+         "v": 3.75,
+         "label": "26.7"
+        }
+       ]
+      },
+      {
+       "name": "일본",
+       "color_role": "green",
+       "series": [
+        {
+         "t": "2025-07",
+         "v": 0.5,
+         "label": "25.7"
+        },
+        {
+         "t": "2025-08",
+         "v": 0.5,
+         "label": "25.8"
+        },
+        {
+         "t": "2025-09",
+         "v": 0.5,
+         "label": "25.9"
+        },
+        {
+         "t": "2025-10",
+         "v": 0.5,
+         "label": "25.10"
+        },
+        {
+         "t": "2025-11",
+         "v": 0.5,
+         "label": "25.11"
+        },
+        {
+         "t": "2025-12",
+         "v": 0.75,
+         "label": "25.12"
+        },
+        {
+         "t": "2026-01",
+         "v": 0.75,
+         "label": "26.1"
+        },
+        {
+         "t": "2026-02",
+         "v": 0.75,
+         "label": "26.2"
+        },
+        {
+         "t": "2026-03",
+         "v": 0.75,
+         "label": "26.3"
+        },
+        {
+         "t": "2026-04",
+         "v": 0.75,
+         "label": "26.4"
+        },
+        {
+         "t": "2026-05",
+         "v": 0.75,
+         "label": "26.5"
+        },
+        {
+         "t": "2026-06",
+         "v": 0.75,
+         "label": "26.6"
+        },
+        {
+         "t": "2026-07",
+         "v": 0.75,
+         "label": "26.7"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "C2",
+     "kind": "chart",
+     "chart": "line",
+     "title": "한·미 소비자물가 상승률 (전년 대비)",
+     "unit": "%",
+     "source": "통계청 · 미 노동통계국",
+     "note": "26.3월 전쟁 뒤 에너지값이 물가를 밀어 올렸어요. 미국은 5월 4.2% 피크 뒤 6월 3.5%, 한국은 6월 3.2%로 30개월 최고예요. (미국 25.10월은 셧다운으로 미발표)",
+     "series_multi": [
+      {
+       "name": "한국",
+       "color_role": "accent",
+       "series": [
+        {
+         "t": "2025-07",
+         "v": 2.1,
+         "label": "25.7"
+        },
+        {
+         "t": "2025-08",
+         "v": 1.7,
+         "label": "25.8"
+        },
+        {
+         "t": "2025-09",
+         "v": 2.1,
+         "label": "25.9"
+        },
+        {
+         "t": "2025-10",
+         "v": 2.4,
+         "label": "25.10"
+        },
+        {
+         "t": "2025-11",
+         "v": 2.4,
+         "label": "25.11"
+        },
+        {
+         "t": "2025-12",
+         "v": 2.2,
+         "label": "25.12"
+        },
+        {
+         "t": "2026-01",
+         "v": 1.9,
+         "label": "26.1"
+        },
+        {
+         "t": "2026-02",
+         "v": 1.9,
+         "label": "26.2"
+        },
+        {
+         "t": "2026-03",
+         "v": 2.3,
+         "label": "26.3"
+        },
+        {
+         "t": "2026-04",
+         "v": 2.7,
+         "label": "26.4"
+        },
+        {
+         "t": "2026-05",
+         "v": 3.1,
+         "label": "26.5"
+        },
+        {
+         "t": "2026-06",
+         "v": 3.2,
+         "label": "26.6"
+        }
+       ]
+      },
+      {
+       "name": "미국",
+       "color_role": "up",
+       "series": [
+        {
+         "t": "2025-07",
+         "v": 2.7,
+         "label": "25.7"
+        },
+        {
+         "t": "2025-08",
+         "v": 2.9,
+         "label": "25.8"
+        },
+        {
+         "t": "2025-09",
+         "v": 3.0,
+         "label": "25.9"
+        },
+        {
+         "t": "2025-10",
+         "v": null,
+         "label": "결번"
+        },
+        {
+         "t": "2025-11",
+         "v": 2.8,
+         "label": "25.11"
+        },
+        {
+         "t": "2025-12",
+         "v": 2.9,
+         "label": "25.12"
+        },
+        {
+         "t": "2026-01",
+         "v": 3.0,
+         "label": "26.1"
+        },
+        {
+         "t": "2026-02",
+         "v": 3.2,
+         "label": "26.2"
+        },
+        {
+         "t": "2026-03",
+         "v": 3.7,
+         "label": "26.3"
+        },
+        {
+         "t": "2026-04",
+         "v": 4.0,
+         "label": "26.4"
+        },
+        {
+         "t": "2026-05",
+         "v": 4.2,
+         "label": "26.5"
+        },
+        {
+         "t": "2026-06",
+         "v": 3.5,
+         "label": "26.6"
+        }
+       ]
+      },
+      {
+       "name": "물가 목표 2%",
+       "color_role": "muted",
+       "dashed": true,
+       "series": [
+        {
+         "t": "2025-07",
+         "v": 2.0,
+         "label": "25.7"
+        },
+        {
+         "t": "2026-06",
+         "v": 2.0,
+         "label": "26.6"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
