@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-07T23:03:02.040254+00:00",
+  "created_at": "2026-08-08T02:28:00.746049+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,14 +64,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"스타벅스, 가을 음료 출시\",\n    \"one_liner\": \"스타벅스가 가을을 맞아 새로운 음료를 선보였어요.\",\n    \"why_now\": \"계절 음료는 소비 심리를 자극해 관련 상품 매출을 늘리는 효과가 있어요.\",\n    \"impact_line\": \"가을 시즌 음료를 마시며 계절감을 느낄 수 있어요.\",\n    \"details\": [\n        \"스타벅스가 가을을 대표하는 음료인 '펌킨 스파이스 프라푸치노'를 출시했어요.\",\n        \"올해는 전통적인 가을 음료 외에 '바나나'를 활용한 새로운 음료도 선보여요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"새로운 음료 출시로 스타벅스 매장 방문객이 늘어날 수 있어요!\",\n        \"가을 시즌 음료 판매가 늘면서 관련 상품 매출도 함께 증가할 것으로 예상돼요!\"\n    ],\n    \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -93,8 +87,8 @@
   "fact_hash": "4a1d50f3c821a3106f6a588aa0e003b3fb75f72b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-07T23:03:02.040199+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-08T02:28:00.745994+00:00"
  },
  "glossary": [],
  "related": [

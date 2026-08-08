@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-07T23:02:07.470049+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-08T02:27:23.842090+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -881,26 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"유럽 산불 시즌\",\n   \"one_liner\": \"유럽의 산불 시즌이 기후 보험의 빈틈을 드러냈어요\",\n   \"why_now\": \"기후 변화로 자연 재해가 많아지면서 보험도 중요해지고 있어요\",\n   \"impact_line\": \"산불로 인한 피해가 늘어나면 보험료도 오를 수 있어요\",\n   \"details\": [\n      \"유럽의 산불 시즌이 기후 보험의 문제를 보여줬어요\",\n      \"기후 변화로 자연 재해가 많아지고 있어요\",\n      \"보험도 중요해지고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"기후 변화로 인한 자연 재해가 많아지면 보험료가 오를 수 있어요!\",\n      \"재해로 인한 경제 손실이 증가할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Analysis - Europe…",
-   "one_liner": "Analysis - Europe wildfire season exposes…",
-   "why_now": null,
+   "title": "유럽 산불 시즌",
+   "one_liner": "유럽의 산불 시즌이 기후 보험의 빈틈을 드러냈어요",
+   "why_now": "기후 변화로 자연 재해가 많아지면서 보험도 중요해지고 있어요",
    "details": [
-    "Analysis - Europe wildfire season exposes climate insurance gap | 1450 AM 99 . 7 FM WHTC",
-    "Analysis - Europe wildfire season exposes climate insurance gap | 100 . 7 MIX - FM | Today Hit Music",
-    "This Asset Class Crushed the Stock Market Last Month . Can It Continue in August ?"
+    "유럽의 산불 시즌이 기후 보험의 문제를 보여줬어요",
+    "기후 변화로 자연 재해가 많아지고 있어요",
+    "보험도 중요해지고 있어요"
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "기후 변화로 인한 자연 재해가 많아지면 보험료가 오를 수 있어요!",
+    "재해로 인한 경제 손실이 증가할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "cc58f0b49381543575d3a1bd8dcbc78a6d834c83"
  },
