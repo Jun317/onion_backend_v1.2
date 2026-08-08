@@ -9,11 +9,31 @@
  "entity_keys": [
   "IRAN"
  ],
- "seen_sources": 5,
+ "seen_sources": 7,
  "importance": 85,
  "created_at": "2026-08-08T04:33:28.961088+00:00",
- "last_update": "2026-08-08T07:26:36.934298+00:00",
+ "last_update": "2026-08-08T09:07:02.135687+00:00",
  "members": [
+  {
+   "id": "74308c4443e90abe4c44024fffc02ba48698ddd8",
+   "source": "bostonglobe.com",
+   "tier": "wire",
+   "url": "https://www.bostonglobe.com/2026/08/08/world/irans-leaders-believe-victory-within-reach/",
+   "title": "Iran leaders believe victory within reach",
+   "published_at": "2026-08-08T08:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9013
+  },
+  {
+   "id": "6ed6beed57671c646984c1c398ad2e289c7fcbdd",
+   "source": "idahostatejournal.com",
+   "tier": "wire",
+   "url": "https://www.idahostatejournal.com/news/national/irans-leaders-think-they-have-trump-cornered-but-their-strategy-carries-great-risks/article_5c09a3b8-f730-587a-8c8c-1ef1cb2d0244.html",
+   "title": "Iran leaders think they have Trump cornered , but their strategy carries great risks",
+   "published_at": "2026-08-08T08:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9137
+  },
   {
    "id": "3b691b1740e356a457c291c0b394c0a656f0341b",
    "source": "thegazette.com",
@@ -22,7 +42,7 @@
    "title": "Iran leaders believe a victory is within reach , and that time is on their side | National news coverage",
    "published_at": "2026-08-08T05:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8678
+   "sim_to_centroid": 0.8893
   },
   {
    "id": "091fff398bef2b3852550a8f3bd2b5a7bb7ca347",
@@ -32,7 +52,7 @@
    "title": "The Unwinnable Iran War | Armstrong Economics",
    "published_at": "2026-08-08T05:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8862
+   "sim_to_centroid": 0.8898
   },
   {
    "id": "0cea4b6c48c488e94325d8d361cc3b1ec16d5e42",
@@ -42,7 +62,7 @@
    "title": "Travelling through Iran reveals no single narrative about the US - Israel war",
    "published_at": "2026-08-08T05:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9071
+   "sim_to_centroid": 0.9084
   },
   {
    "id": "f17bf2324ebe69760e290b6092f8e950fff86ddd",
@@ -52,7 +72,7 @@
    "title": "US anticipates Iran - Oman deal so oil traffic can resume",
    "published_at": "2026-08-08T03:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9719
+   "sim_to_centroid": 0.9649
   },
   {
    "id": "132345d31592bda8d98b77b507c621c3bcb2cb37",
@@ -62,7 +82,7 @@
    "title": "US anticipates Iran - Oman deal so oil traffic can resume",
    "published_at": "2026-08-08T03:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9719
+   "sim_to_centroid": 0.9649
   },
   {
    "id": "5d72916dc04b2c81a9bcba7b79412f728bcdcaec",
@@ -72,7 +92,7 @@
    "title": "US anticipates Iran - Oman deal so oil traffic can resume",
    "published_at": "2026-08-08T03:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9719
+   "sim_to_centroid": 0.9649
   },
   {
    "id": "5433adfe0369d802a518a4fe5b988b9540580d3b",
@@ -82,11 +102,25 @@
    "title": "US Treasury Targets Currency Exchanges , Shell Companies Tied To Iran",
    "published_at": "2026-08-07T19:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9456
+   "sim_to_centroid": 0.9399
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Iran leaders believe victory within reach",
+   "source": "bostonglobe.com",
+   "url": "https://www.bostonglobe.com/2026/08/08/world/irans-leaders-believe-victory-within-reach/",
+   "at": "2026-08-08T08:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Iran leaders think they have Trump cornered , but their strategy carries great risks",
+   "source": "idahostatejournal.com",
+   "url": "https://www.idahostatejournal.com/news/national/irans-leaders-think-they-have-trump-cornered-but-their-strategy-carries-great-risks/article_5c09a3b8-f730-587a-8c8c-1ef1cb2d0244.html",
+   "at": "2026-08-08T08:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Iran leaders believe a victory is within reach , and that time is on their side | National news coverage",
@@ -138,38 +172,43 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-08T06:04:18.599547+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-08T09:07:26.387411+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
    "headlines": [
     "US anticipates Iran - Oman deal so oil traffic can resume",
-    "US Treasury Targets Currency Exchanges , Shell Companies Tied To Iran"
+    "US Treasury Targets Currency Exchanges , Shell Companies Tied To Iran",
+    "Iran leaders think they have Trump cornered , but their strategy carries great risks",
+    "Travelling through Iran reveals no single narrative about the US - Israel war",
+    "Iran leaders believe victory within reach"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"미국, 이란 환전소 제재\",\n\"one_liner\": \"미국 재무부가 이란과 관련된 환전소와 유령 회사를 제재했어요.\",\n\"why_now\": \"이란의 자금줄을 막아 경제적 압박을 가하려는 움직임으로 보여요.\",\n\"impact_line\": \"이란의 경제 상황이 더 어려워질 수 있어요.\",\n\"details\": [\n\"미국 재무부가 이란과 관련된 환전소와 유령 회사를 제재 대상으로 지정했어요.\",\n\"이번 제재는 이란의 자금 흐름을 차단하기 위한 조치로 풀이돼요.\",\n\"이란 지도부는 미국과의 관계에서 유리한 고지를 점했다고 생각하지만, 위험 부담도 커요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"이란의 석유 거래가 정상화되지 못할 수 있어요!\",\n\"이란의 경제적 어려움이 더 커질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"유령 회사\",\n\"easy\": \"실제 사업 활동 없이 서류상으로만 존재하는 회사를 말해요.\",\n\"example\": \"유령 회사를 이용해 세금을 내지 않거나 불법 자금을 숨기기도 해요.\"\n}\n],\n\"impact_line\": \"이란의 경제 상황이 더 어려워질 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "US anticipates Iran…",
-   "one_liner": "US anticipates Iran - Oman deal so oil traffic…",
-   "why_now": null,
+   "title": "미국, 이란 환전소 제재",
+   "one_liner": "미국 재무부가 이란과 관련된 환전소와 유령 회사를 제재했어요.",
+   "why_now": "이란의 자금줄을 막아 경제적 압박을 가하려는 움직임으로 보여요.",
    "details": [
-    "US anticipates Iran - Oman deal so oil traffic can resume",
-    "US Treasury Targets Currency Exchanges , Shell Companies Tied To Iran"
+    "미국 재무부가 이란과 관련된 환전소와 유령 회사를 제재 대상으로 지정했어요.",
+    "이번 제재는 이란의 자금 흐름을 차단하기 위한 조치로 풀이돼요.",
+    "이란 지도부는 미국과의 관계에서 유리한 고지를 점했다고 생각하지만, 위험 부담도 커요."
    ],
-   "effects": [],
-   "visual_type": "usdkrw"
+   "effects": [
+    "이란의 석유 거래가 정상화되지 못할 수 있어요!",
+    "이란의 경제적 어려움이 더 커질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "773316f355da25117c347e52cb9acd33b7707763"
+  "fact_hash": "62e681c6742b63e70499b594c8e4b1a8d6c97daa"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

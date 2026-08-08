@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-08T06:02:54.175184+00:00",
+  "created_at": "2026-08-08T09:08:19.912611+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,12 +64,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"스타벅스 신메뉴 출시\",\n\"one_liner\": \"스타벅스가 가을 대표 메뉴인 호박 라떼 대신 바나나 맛 음료를 출시했어요.\",\n\"why_now\": \"매년 가을이면 호박 맛 음료가 인기인데, 올해는 다른 맛으로 소비자의 관심을 끌려는 시도예요.\",\n\"impact_line\": \"새로운 맛 음료를 맛볼 기회가 생겼어요.\",\n\"details\": [\n\"스타벅스가 가을 시즌을 맞아 신메뉴를 선보였어요.\",\n\"올해 신메뉴는 호박 맛 대신 바나나 맛을 활용했어요.\",\n\"가을 대표 음료인 호박 라떼 대신 바나나 맛 음료를 출시했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"새로운 맛에 대한 소비자의 반응에 따라 다른 음료 출시에도 영향을 줄 수 있어요!\",\n\"인기 메뉴의 변화는 관련 원재료 수요에도 영향을 미칠 수 있어요.\"\n],\n\"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects[1] 느낌표 종결 아님"
     ]
    }
   ],
@@ -87,20 +93,14 @@
   "fact_hash": "4a1d50f3c821a3106f6a588aa0e003b3fb75f72b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-08T06:02:54.175125+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}]}",
+  "at": "2026-08-08T09:08:19.912496+00:00"
  },
  "glossary": [],
  "related": [
   {
    "id": "c6fdad826562ed3e4",
    "title": "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c13ff9296b0f3d9e3",
-   "title": "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
    "category": "EARNINGS",
    "shared": []
   },
@@ -119,6 +119,12 @@
   {
    "id": "c2fe47d2110ccdaa3",
    "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c13ff9296b0f3d9e3",
+   "title": "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
    "category": "EARNINGS",
    "shared": []
   }

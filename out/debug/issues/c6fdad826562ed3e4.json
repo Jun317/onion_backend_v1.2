@@ -7,13 +7,24 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
-  "F"
+  "F",
+  "SEC"
  ],
- "seen_sources": 5,
- "importance": 90,
+ "seen_sources": 6,
+ "importance": 120,
  "created_at": "2026-08-07T15:14:46.737049+00:00",
- "last_update": "2026-08-07T23:01:03.280852+00:00",
+ "last_update": "2026-08-08T09:07:02.134835+00:00",
  "members": [
+  {
+   "id": "874085b7b49b3948b6e1b05d858221e721b159bb",
+   "source": "bbc.co.uk",
+   "tier": "wire",
+   "url": "https://www.bbc.co.uk/news/articles/czxe31e3enqo",
+   "title": "Romford shop selling second - hand school uniforms for only £5",
+   "published_at": "2026-08-08T08:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8703
+  },
   {
    "id": "00a463eba55384360f78ed3ab2d0e07be04281a8",
    "source": "brisbanetimes.com.au",
@@ -22,7 +33,7 @@
    "title": "Climate crisis : The everyday Aussies who cant afford another flood , drought or fire disaster",
    "published_at": "2026-08-07T21:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8891
+   "sim_to_centroid": 0.8917
   },
   {
    "id": "8bb2e73d96661a78e5d46b2537079c7d0f1c9f68",
@@ -32,7 +43,7 @@
    "title": "Wicklow Ashford Studios fails in bid to double in size",
    "published_at": "2026-08-07T13:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8726
+   "sim_to_centroid": 0.8788
   },
   {
    "id": "864561dd020852bb3cfa3a4aeae0f42d110b0690",
@@ -42,7 +53,7 @@
    "title": "$109 , 796 In Earnings Needed To Afford Typical US Home",
    "published_at": "2026-08-07T13:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.947
+   "sim_to_centroid": 0.9451
   },
   {
    "id": "f2dd9893e169c80bbcdf500111a813a935d01c2e",
@@ -52,7 +63,7 @@
    "title": "Stanford Saumitra Jha among Falling Walls 2026 finalists",
    "published_at": "2026-08-07T13:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8564
+   "sim_to_centroid": 0.8581
   },
   {
    "id": "344fc44f7b82c0b22ebb68f5edfa93489f214185",
@@ -62,11 +73,18 @@
    "title": "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
    "published_at": "2026-08-07T03:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9502
+   "sim_to_centroid": 0.9459
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Romford shop selling second - hand school uniforms for only £5",
+   "source": "bbc.co.uk",
+   "url": "https://www.bbc.co.uk/news/articles/czxe31e3enqo",
+   "at": "2026-08-08T08:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Climate crisis : The everyday Aussies who cant afford another flood , drought or fire disaster",
@@ -104,50 +122,49 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-08T06:02:15.788517+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-08T09:07:04.933989+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
+    "$109 , 796 In Earnings Needed To Afford Typical US Home",
     "Climate crisis : The everyday Aussies who cant afford another flood , drought or fire disaster",
     "Wicklow Ashford Studios fails in bid to double in size",
-    "$109 , 796 In Earnings Needed To Afford Typical US Home",
-    "Stanford Saumitra Jha among Falling Walls 2026 finalists",
-    "Rural Ohioans hit hard as Affordable Care Act enrollment declines"
+    "Romford shop selling second - hand school uniforms for only £5"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"미국 주택 구매 부담 증가\", \"one_liner\": \"미국에서 집을 사려면 연 소득이 1억 1천만 원이 넘어야 해요.\", \"why_now\": \"집값이 너무 올라서 일반 사람들이 집을 사기 어려워지고 있어요.\", \"impact_line\": \"집값 상승으로 내 집 마련이 더 어려워질 수 있어요.\", \"details\": [\"미국에서 일반적인 집을 사려면 연 소득이 109,796달러가 필요해요.\", \"이는 약 1억 1천만 원에 해당하는 금액이에요.\"], \"visual_type\": \"none\", \"effects\": [\"주택 구매 부담이 커지면서 주거 불안정이 심화될 수 있어요!\", \"주택 시장의 침체가 장기화될 가능성도 있어요.\"], \"glossary\": [{\"term\": \"연 소득\", \"easy\": \"1년 동안 벌어들인 돈을 말해요.\", \"example\": \"연 소득이 높을수록 세금을 더 많이 내야 할 수 있어요.\"}]}",
+  "raw_response": "{\n\"title\": \"미국 주택 구매 비용 상승\",\n\"one_liner\": \"미국에서 집을 사려면 연 소득 1억 7천만 원이 필요해요.\",\n\"why_now\": \"집값이 너무 올라서 일반 서민들이 집을 사기 어려워졌어요.\",\n\"impact_line\": \"내 집 마련의 꿈이 더 멀어질 수 있어요.\",\n\"details\": [\n\"미국에서 일반적인 집을 사려면 연 소득이 1억 7천만 원이 필요해요.\",\n\"이는 지난해보다 1억 2천만 원 늘어난 금액이에요.\",\n\"집값이 크게 올라서 일반 서민들이 집을 사기 어려워졌어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"집값 상승으로 인해 주택 구매 부담이 커질 수 있어요!\",\n\"주택 구매가 어려워지면서 관련 소비가 줄어들 수 있어요!\"\n],\n\"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "입력에 없는 숫자: [109796.0]"
+     "one_liner 에 한자/가나 포함"
     ]
    },
    {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects[1] 느낌표 종결 아님",
-     "입력에 없는 숫자: [109796.0]"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Climate crisis : The…",
-   "one_liner": "Climate crisis : The everyday Aussies who cant…",
-   "why_now": null,
+   "title": "미국 주택 구매 비용 상승",
+   "one_liner": "미국에서 집을 사려면 연 소득 1억 7천만 원이 필요해요.",
+   "why_now": "집값이 너무 올라서 일반 서민들이 집을 사기 어려워졌어요.",
    "details": [
-    "Climate crisis : The everyday Aussies who cant afford another flood , drought or fire disaster",
-    "Wicklow Ashford Studios fails in bid to double in size",
-    "$109 , 796 In Earnings Needed To Afford Typical US Home"
+    "미국에서 일반적인 집을 사려면 연 소득이 1억 7천만 원이 필요해요.",
+    "이는 지난해보다 1억 2천만 원 늘어난 금액이에요.",
+    "집값이 크게 올라서 일반 서민들이 집을 사기 어려워졌어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "집값 상승으로 인해 주택 구매 부담이 커질 수 있어요!",
+    "주택 구매가 어려워지면서 관련 소비가 줄어들 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "b4fa3d9d7c0f6c4eefa70d07dec07be4f6692d62"
+  "fact_hash": "42cc0bff5cf0207bdca1f98c16236a7c03f00da9"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [109796.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [109796.0]\"]}]}",
@@ -156,36 +173,45 @@
  "glossary": [],
  "related": [
   {
+   "id": "c03074aeed49bf60f",
+   "title": "World Bank confirms plan to phase out China lending by 2031",
+   "category": "RATE",
+   "shared": [
+    "SEC"
+   ]
+  },
+  {
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
+   "category": "RATE",
+   "shared": [
+    "SEC"
+   ]
+  },
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": [
+    "SEC"
+   ]
+  },
+  {
    "id": "c473082d7f30acb2b",
    "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
    "category": "MARKET",
    "shared": [
-    "F"
+    "F",
+    "SEC"
    ]
   },
   {
-   "id": "c13ff9296b0f3d9e3",
-   "title": "Disney Q3 Preview : Stock Priced for More Pain , But  Doomsday  Is Coming ( And That A Good Thing ) - Walt",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c8759b0f51add9c4b",
-   "title": "CXMT becomes China most valuable listed company",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c2e1f0924eab58cb9",
-   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c2fe47d2110ccdaa3",
-   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
-   "category": "EARNINGS",
-   "shared": []
+   "id": "c826b1c1944a1c619",
+   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
+   "category": "RATE",
+   "shared": [
+    "SEC"
+   ]
   }
  ]
 }
