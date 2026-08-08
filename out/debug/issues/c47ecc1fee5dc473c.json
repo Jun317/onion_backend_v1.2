@@ -2,18 +2,28 @@
  "id": "c47ecc1fee5dc473c",
  "title": "US Treasury Targets Currency Exchanges , Shell Companies Tied To Iran",
  "category": "FX",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "IRAN"
  ],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 2,
+ "importance": 70,
  "created_at": "2026-08-08T04:33:28.961088+00:00",
- "last_update": "2026-08-08T04:33:28.961088+00:00",
+ "last_update": "2026-08-08T06:02:01.097935+00:00",
  "members": [
+  {
+   "id": "f17bf2324ebe69760e290b6092f8e950fff86ddd",
+   "source": "theadvocate.com.au",
+   "tier": "wire",
+   "url": "https://www.theadvocate.com.au/story/9326299/us-anticipates-iran-oman-deal-so-oil-traffic-can-resume/",
+   "title": "US anticipates Iran - Oman deal so oil traffic can resume",
+   "published_at": "2026-08-08T03:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9774
+  },
   {
    "id": "132345d31592bda8d98b77b507c621c3bcb2cb37",
    "source": "singletonargus.com.au",
@@ -22,7 +32,17 @@
    "title": "US anticipates Iran - Oman deal so oil traffic can resume",
    "published_at": "2026-08-08T03:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9658
+   "sim_to_centroid": 0.9774
+  },
+  {
+   "id": "5d72916dc04b2c81a9bcba7b79412f728bcdcaec",
+   "source": "naroomanewsonline.com.au",
+   "tier": "wire",
+   "url": "https://www.naroomanewsonline.com.au/story/9326299/us-anticipates-iran-oman-deal-so-oil-traffic-can-resume/",
+   "title": "US anticipates Iran - Oman deal so oil traffic can resume",
+   "published_at": "2026-08-08T03:15:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.9774
   },
   {
    "id": "5433adfe0369d802a518a4fe5b988b9540580d3b",
@@ -32,7 +52,7 @@
    "title": "US Treasury Targets Currency Exchanges , Shell Companies Tied To Iran",
    "published_at": "2026-08-07T19:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9658
+   "sim_to_centroid": 0.9517
   }
  ],
  "anchors": [],
@@ -46,14 +66,64 @@
   },
   {
    "kind": "headline",
+   "title": "US anticipates Iran - Oman deal so oil traffic can resume",
+   "source": "theadvocate.com.au",
+   "url": "https://www.theadvocate.com.au/story/9326299/us-anticipates-iran-oman-deal-so-oil-traffic-can-resume/",
+   "at": "2026-08-08T03:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US anticipates Iran - Oman deal so oil traffic can resume",
+   "source": "naroomanewsonline.com.au",
+   "url": "https://www.naroomanewsonline.com.au/story/9326299/us-anticipates-iran-oman-deal-so-oil-traffic-can-resume/",
+   "at": "2026-08-08T03:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "US Treasury Targets Currency Exchanges , Shell Companies Tied To Iran",
    "source": "shanghainews.net",
    "url": "http://www.shanghainews.net/news/279226690/us-treasury-targets-currency-exchanges-shell-companies-tied-to-iran",
    "at": "2026-08-07T19:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-08T06:04:18.599547+00:00",
+  "payload": {
+   "category": "FX",
+   "anchors": [],
+   "headlines": [
+    "US anticipates Iran - Oman deal so oil traffic can resume",
+    "US Treasury Targets Currency Exchanges , Shell Companies Tied To Iran"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US anticipates Iran…",
+   "one_liner": "US anticipates Iran - Oman deal so oil traffic…",
+   "why_now": null,
+   "details": [
+    "US anticipates Iran - Oman deal so oil traffic can resume",
+    "US Treasury Targets Currency Exchanges , Shell Companies Tied To Iran"
+   ],
+   "effects": [],
+   "visual_type": "usdkrw"
+  },
+  "fact_hash": "773316f355da25117c347e52cb9acd33b7707763"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-08T06:04:18.599460+00:00"
+ },
  "glossary": [],
  "related": [
   {
