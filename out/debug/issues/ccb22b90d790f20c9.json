@@ -68,42 +68,51 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-08T09:09:02.263271+00:00",
+  "model": "template",
+  "created_at": "2026-08-08T14:05:02.871766+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "Brazil , Mexico strengthen ties amid tension between Lula and Trump",
     "Brazil as Euro Africa on American soil",
     "World Insights : Brazil - Argentina rift tests LatAm cooperation"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"브라질-아르헨티나 관계 악화\",\n\"one_liner\": \"브라질과 아르헨티나의 관계가 나빠지면서 남미 협력에 어려움이 예상돼요.\",\n\"why_now\": \"두 나라의 관계는 남미 전체의 협력과 안정에 중요한 영향을 미치기 때문이에요.\",\n\"impact_line\": \"남미 지역의 경제 협력이 둔화될 수 있어요.\",\n\"details\": [\n\"브라질과 아르헨티나의 관계가 틀어졌어요.\",\n\"이는 남미 국가 간 협력에 시험대가 될 것으로 보여요.\",\n\"두 나라의 갈등은 남미 지역의 협력에 대한 우려를 낳고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"남미 국가 간 경제 협력이 약화될 수 있어요!\",\n\"지역 내 정치적 불안정성이 커질 가능성이 있어요!\"\n],\n\"glossary\": []\n}",
+  "raw_response": "{\n\"title\": \"브라질-멕시코 관계 강화\",\n\"one_liner\": \"브라질과 멕시코가 관계를 강화하고 있어요.\",\n\"why_now\": \"두 나라의 관계 강화는 국제 정세 변화 속에서 주목받고 있어요.\",\n\"impact_line\": null,\n\"details\": [\n\"브라질과 멕시코가 관계를 강화하고 있어요.\",\n\"이는 미국과 브라질 간의 긴장 속에서 이루어지고 있어요.\",\n\"브라질과 아르헨티나의 관계 악화도 라틴 아메리카 협력에 영향을 주고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [],\n\"glossary\": [\n{\n\"term\": \"LatAm\",\n\"easy\": \"라틴 아메리카를 줄여 부르는 말이에요.\",\n\"example\": \"라틴 아메리카 국가들은 경제 협력을 강화하고 있어요.\"\n}\n],\n\"impact_line\": null\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "errors": [
+     "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "브라질-아르헨티나 관계 악화",
-   "one_liner": "브라질과 아르헨티나의 관계가 나빠지면서 남미 협력에 어려움이 예상돼요.",
-   "why_now": "두 나라의 관계는 남미 전체의 협력과 안정에 중요한 영향을 미치기 때문이에요.",
+   "title": "Brazil , Mexico…",
+   "one_liner": "Brazil , Mexico strengthen ties amid tension…",
+   "why_now": null,
    "details": [
-    "브라질과 아르헨티나의 관계가 틀어졌어요.",
-    "이는 남미 국가 간 협력에 시험대가 될 것으로 보여요.",
-    "두 나라의 갈등은 남미 지역의 협력에 대한 우려를 낳고 있어요."
+    "Brazil , Mexico strengthen ties amid tension between Lula and Trump",
+    "Brazil as Euro Africa on American soil",
+    "World Insights : Brazil - Argentina rift tests LatAm cooperation"
    ],
-   "effects": [
-    "남미 국가 간 경제 협력이 약화될 수 있어요!",
-    "지역 내 정치적 불안정성이 커질 가능성이 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "d87a5204da1dd84fabb5aa8cd28766e9c9b52566"
+  "fact_hash": "756bd5052e59f7eb3e8ee807006306adc1164411"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-08T14:05:02.871656+00:00"
+ },
  "glossary": [],
  "related": [
   {

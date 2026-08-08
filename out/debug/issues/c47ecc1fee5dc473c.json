@@ -189,8 +189,8 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-08T09:07:26.387411+00:00",
+  "model": "template",
+  "created_at": "2026-08-08T14:04:26.791624+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -198,38 +198,37 @@
     "US anticipates Iran - Oman deal so oil traffic can resume",
     "US Treasury Targets Currency Exchanges , Shell Companies Tied To Iran",
     "Iran leaders think they have Trump cornered , but their strategy carries great risks",
-    "Travelling through Iran reveals no single narrative about the US - Israel war",
-    "Iran leaders believe victory within reach"
+    "Trump Top General Seeks  Off - Ramp  From Iran War , CNN Reports",
+    "Travelling through Iran reveals no single narrative about the US - Israel war"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"미국, 이란 환전소 제재\",\n\"one_liner\": \"미국 재무부가 이란과 관련된 환전소와 유령 회사를 제재했어요.\",\n\"why_now\": \"이란의 자금줄을 막아 경제적 압박을 가하려는 움직임으로 보여요.\",\n\"impact_line\": \"이란의 경제 상황이 더 어려워질 수 있어요.\",\n\"details\": [\n\"미국 재무부가 이란과 관련된 환전소와 유령 회사를 제재 대상으로 지정했어요.\",\n\"이번 제재는 이란의 자금 흐름을 차단하기 위한 조치로 풀이돼요.\",\n\"이란 지도부는 미국과의 관계에서 유리한 고지를 점했다고 생각하지만, 위험 부담도 커요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"이란의 석유 거래가 정상화되지 못할 수 있어요!\",\n\"이란의 경제적 어려움이 더 커질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"유령 회사\",\n\"easy\": \"실제 사업 활동 없이 서류상으로만 존재하는 회사를 말해요.\",\n\"example\": \"유령 회사를 이용해 세금을 내지 않거나 불법 자금을 숨기기도 해요.\"\n}\n],\n\"impact_line\": \"이란의 경제 상황이 더 어려워질 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국, 이란 환전소 제재",
-   "one_liner": "미국 재무부가 이란과 관련된 환전소와 유령 회사를 제재했어요.",
-   "why_now": "이란의 자금줄을 막아 경제적 압박을 가하려는 움직임으로 보여요.",
+   "title": "US anticipates Iran…",
+   "one_liner": "US anticipates Iran - Oman deal so oil traffic…",
+   "why_now": null,
    "details": [
-    "미국 재무부가 이란과 관련된 환전소와 유령 회사를 제재 대상으로 지정했어요.",
-    "이번 제재는 이란의 자금 흐름을 차단하기 위한 조치로 풀이돼요.",
-    "이란 지도부는 미국과의 관계에서 유리한 고지를 점했다고 생각하지만, 위험 부담도 커요."
+    "US anticipates Iran - Oman deal so oil traffic can resume",
+    "US Treasury Targets Currency Exchanges , Shell Companies Tied To Iran",
+    "Iran leaders think they have Trump cornered , but their strategy carries great risks"
    ],
-   "effects": [
-    "이란의 석유 거래가 정상화되지 못할 수 있어요!",
-    "이란의 경제적 어려움이 더 커질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "usdkrw"
   },
-  "fact_hash": "62e681c6742b63e70499b594c8e4b1a8d6c97daa"
+  "fact_hash": "a4b9674cb0b373941e25a72d417c065129b376d5"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-08T06:04:18.599460+00:00"
+  "at": "2026-08-08T14:04:26.791250+00:00"
  },
  "glossary": [],
  "related": [
