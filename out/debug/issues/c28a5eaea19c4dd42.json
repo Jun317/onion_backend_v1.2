@@ -53,8 +53,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-09T14:58:14.254884+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-09T19:08:56.176604+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,30 +64,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"엘리 릴리 실적 好調\",\n   \"one_liner\": \"엘리 릴리 회사가 예상보다 좋은 실적을 냈어요\",\n   \"why_now\": \"회사의 실적이 좋으면 주가가 오를 수 있어요\",\n   \"impact_line\": \"의약품 개발에 관심 있는 사람들에게 기대가 생길 수 있어요\",\n   \"details\": [\n       \"엘리 릴리 회사의 실적이 좋았어요\",\n       \"회사는 예상보다 높은 수익을 냈어요\",\n       \"회사의 주가에 긍정적인 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"의약품 개발에 투자하는 사람들이 기대할 수 있어요!\",\n       \"의약품 개발에 관심 있는 사람들에게 기대가 생길 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n    \"title\": \"릴리, 실적 크게 늘고 전망도 상향\",\n    \"one_liner\": \"릴리가 예상보다 훨씬 좋은 실적을 발표하고 올해 전망을 높였어요.\",\n    \"why_now\": \"기업의 실적 발표는 현재 사업 성과를 보여주며 미래 전망을 가늠하게 해줘요.\",\n    \"impact_line\": \"릴리 제품을 쓰는 환자들의 치료 접근성이 더 좋아질 수 있어요.\",\n    \"details\": [\n        \"릴리의 이번 분기 실적이 크게 성장했어요.\",\n        \"회사는 올해 연간 실적 전망을 상향 조정했어요.\",\n        \"이는 회사의 주요 제품들이 좋은 성과를 내고 있음을 보여줘요.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"회사의 성장세가 지속되면 관련 산업의 투자도 늘어날 수 있어요!\",\n        \"주요 의약품의 생산 및 공급이 확대될 것으로 예상돼요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"실적\",\n            \"easy\": \"회사가 일정 기간 동안 벌어들인 돈과 쓴 돈을 합쳐서 얼마나 이익을 냈는지 보여주는 결과예요.\",\n            \"example\": \"이번 분기 실적이 좋아서 주가가 올랐어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "title 에 한자/가나 포함"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Eli Lilly ( LLY )…",
-   "one_liner": "Eli Lilly ( LLY ) Posts Blowout Growth And…",
-   "why_now": null,
+   "title": "릴리, 실적 크게 늘고 전망도 상향",
+   "one_liner": "릴리가 예상보다 훨씬 좋은 실적을 발표하고 올해 전망을 높였어요.",
+   "why_now": "기업의 실적 발표는 현재 사업 성과를 보여주며 미래 전망을 가늠하게 해줘요.",
    "details": [
-    "Eli Lilly ( LLY ) Posts Blowout Growth And Raises Its Outlook",
-    "Eli Lilly and Company Q2 Earnings Call Highlights"
+    "릴리의 이번 분기 실적이 크게 성장했어요.",
+    "회사는 올해 연간 실적 전망을 상향 조정했어요.",
+    "이는 회사의 주요 제품들이 좋은 성과를 내고 있음을 보여줘요."
    ],
-   "effects": [],
+   "effects": [
+    "회사의 성장세가 지속되면 관련 산업의 투자도 늘어날 수 있어요!",
+    "주요 의약품의 생산 및 공급이 확대될 것으로 예상돼요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "030f85dbb4e44507101eb683041aac57bf2aedd4"
