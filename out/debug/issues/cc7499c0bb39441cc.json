@@ -9,11 +9,41 @@
  "entity_keys": [
   "IRAN"
  ],
- "seen_sources": 2,
- "importance": 65,
+ "seen_sources": 5,
+ "importance": 80,
  "created_at": "2026-08-09T10:58:40.037765+00:00",
- "last_update": "2026-08-09T10:58:40.038873+00:00",
+ "last_update": "2026-08-09T11:52:23.801016+00:00",
  "members": [
+  {
+   "id": "0834a98d6d3896088c3c928e1ebe5ecaa26b57ef",
+   "source": "azernews.az",
+   "tier": "wire",
+   "url": "https://www.azernews.az/region/262160.html",
+   "title": "UK economy set for 0 . 4 % growth despite Iran war pressures",
+   "published_at": "2026-08-09T11:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8987
+  },
+  {
+   "id": "8074d4a4fd8217cae2ebbc99ac5f14825d5da0ab",
+   "source": "clevelandjewishnews.com",
+   "tier": "wire",
+   "url": "https://www.clevelandjewishnews.com/jns/iran-conditions-opening-the-strait-of-hormuz-on-us-meeting-its-demands/article_9a4886a6-0424-59c2-8482-e4e0ae9d5b3d.html",
+   "title": "Iran conditions opening the Strait of Hormuz on US meeting its demands",
+   "published_at": "2026-08-09T11:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8617
+  },
+  {
+   "id": "e5472146353f7460eea681c3289c90d87a73ce25",
+   "source": "naharnet.com",
+   "tier": "wire",
+   "url": "https://www.naharnet.com:443/stories/en/321727-iran-issues-demands-for-reopening-of-hormuz",
+   "title": "Iran issues demands for reopening of Hormuz",
+   "published_at": "2026-08-09T10:15:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.8474
+  },
   {
    "id": "31d78c2e85d8bd6d8841d53df3fa204dc5d0b701",
    "source": "samaa.tv",
@@ -22,7 +52,7 @@
    "title": "Iran war depletes US weapons stockpiles : Report",
    "published_at": "2026-08-09T10:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9612
+   "sim_to_centroid": 0.96
   },
   {
    "id": "605cd3c33a088dd7c7507bdb70385dae9da5ea7b",
@@ -32,11 +62,42 @@
    "title": "Indian stock market : How are Sensex and Nifty 50 likely to perform next week amid ongoing US - Iran war ?",
    "published_at": "2026-08-09T07:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9612
+   "sim_to_centroid": 0.96
+  },
+  {
+   "id": "3d571ce6a785b23080b1359e9b450b3b9605ca53",
+   "source": "tribune.com.pk",
+   "tier": "wire",
+   "url": "https://tribune.com.pk/story/2622898/iran-says-deal-on-strait-of-hormuz-close",
+   "title": "Iran says deal on Strait of Hormuz close",
+   "published_at": "2026-08-09T07:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8527
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "UK economy set for 0 . 4 % growth despite Iran war pressures",
+   "source": "azernews.az",
+   "url": "https://www.azernews.az/region/262160.html",
+   "at": "2026-08-09T11:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Iran conditions opening the Strait of Hormuz on US meeting its demands",
+   "source": "clevelandjewishnews.com",
+   "url": "https://www.clevelandjewishnews.com/jns/iran-conditions-opening-the-strait-of-hormuz-on-us-meeting-its-demands/article_9a4886a6-0424-59c2-8482-e4e0ae9d5b3d.html",
+   "at": "2026-08-09T11:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Iran issues demands for reopening of Hormuz",
+   "source": "naharnet.com",
+   "url": "https://www.naharnet.com:443/stories/en/321727-iran-issues-demands-for-reopening-of-hormuz",
+   "at": "2026-08-09T10:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Iran war depletes US weapons stockpiles : Report",
@@ -50,21 +111,31 @@
    "source": "livemint.com",
    "url": "https://www.livemint.com/market/stock-market-news/indian-stock-market-how-are-sensex-and-nifty-50-likely-to-perform-next-week-amid-ongoing-us-iran-war-11786249461743.html",
    "at": "2026-08-09T07:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Iran says deal on Strait of Hormuz close",
+   "source": "tribune.com.pk",
+   "url": "https://tribune.com.pk/story/2622898/iran-says-deal-on-strait-of-hormuz-close",
+   "at": "2026-08-09T07:00:00+00:00"
   }
  ],
  "llm": {
   "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-09T10:58:46.110797+00:00",
+  "created_at": "2026-08-09T11:52:25.319464+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "UK economy set for 0 . 4 % growth despite Iran war pressures",
+    "Iran conditions opening the Strait of Hormuz on US meeting its demands",
     "Iran war depletes US weapons stockpiles : Report",
-    "Indian stock market : How are Sensex and Nifty 50 likely to perform next week amid ongoing US - Iran war ?"
+    "Indian stock market : How are Sensex and Nifty 50 likely to perform next week amid ongoing US - Iran war ?",
+    "Iran says deal on Strait of Hormuz close"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국과 이란 전쟁\",\n   \"one_liner\": \"미국과 이란의 전쟁으로 미국의 무기 보급량이 줄었어요\",\n   \"why_now\": \"전쟁이 국가의 자원을 소모시키는 게 보통이에요\",\n   \"impact_line\": \"무기 수출이 줄어들 수 있어요\",\n   \"details\": [\n       \"미국과 이란의 전쟁이 진행 중이에요\",\n       \"이 전쟁으로 미국의 무기 보급량이 줄었어요\",\n       \"인도의 주식 시장은 미국과 이란의 전쟁으로 영향을 받을 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"전쟁이 장기화하면 미국의 경제에 부담이 갈 수 있어요!\",\n       \"무기 수출이 줄어들면 관련 산업의 수출이 어려워질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"이란-미국 전쟁\",\n   \"one_liner\": \"이란과 미국의 전쟁이 계속되고 있어요.\",\n   \"why_now\": \"이 전쟁이 세계 경제에 영향을 줄 수 있어요.\",\n   \"impact_line\": \"유가가 오를 수 있어요.\",\n   \"details\": [\n       \"이란이 미국의 요구를 들어주면 호르무즈 해협을 열어주겠다고 했어요.\",\n       \"이란과 미국의 전쟁으로 미국의 무기 재고가 줄었어요.\",\n       \"이 전쟁이 영국 경제에 영향을 주지 않을 것이라고 예상돼요.\",\n       \"인도의 주식 시장은 다음 주에 어떻게 될지 예상하기 어렵해요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"유가가 오르면 물건의 가격도 오를 수 있어요!\",\n       \"전쟁이 장기화되면 경제에 부정적인 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"호르무즈 해협\",\n           \"easy\": \"중동의 중요한 해상 통로예요.\",\n           \"example\": \"이곳을 통과하는 유조선이 많아요.\"\n       }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
@@ -72,21 +143,22 @@
    }
   ],
   "output": {
-   "title": "미국과 이란 전쟁",
-   "one_liner": "미국과 이란의 전쟁으로 미국의 무기 보급량이 줄었어요",
-   "why_now": "전쟁이 국가의 자원을 소모시키는 게 보통이에요",
+   "title": "이란-미국 전쟁",
+   "one_liner": "이란과 미국의 전쟁이 계속되고 있어요.",
+   "why_now": "이 전쟁이 세계 경제에 영향을 줄 수 있어요.",
    "details": [
-    "미국과 이란의 전쟁이 진행 중이에요",
-    "이 전쟁으로 미국의 무기 보급량이 줄었어요",
-    "인도의 주식 시장은 미국과 이란의 전쟁으로 영향을 받을 수 있어요"
+    "이란이 미국의 요구를 들어주면 호르무즈 해협을 열어주겠다고 했어요.",
+    "이란과 미국의 전쟁으로 미국의 무기 재고가 줄었어요.",
+    "이 전쟁이 영국 경제에 영향을 주지 않을 것이라고 예상돼요.",
+    "인도의 주식 시장은 다음 주에 어떻게 될지 예상하기 어렵해요."
    ],
    "effects": [
-    "전쟁이 장기화하면 미국의 경제에 부담이 갈 수 있어요!",
-    "무기 수출이 줄어들면 관련 산업의 수출이 어려워질 수 있어요!"
+    "유가가 오르면 물건의 가격도 오를 수 있어요!",
+    "전쟁이 장기화되면 경제에 부정적인 영향을 줄 수 있어요!"
    ],
    "visual_type": "none"
   },
-  "fact_hash": "1e17455e5631a5fddab4c2674942c1a0e066f91a"
+  "fact_hash": "4db5b148b164cc6a03705b4b5ce3bec4dc896217"
  },
  "review": null,
  "glossary": [],
