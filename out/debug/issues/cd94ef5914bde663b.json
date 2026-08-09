@@ -2,18 +2,28 @@
  "id": "cd94ef5914bde663b",
  "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "GOOGL"
  ],
- "seen_sources": 1,
- "importance": 70,
+ "seen_sources": 2,
+ "importance": 75,
  "created_at": "2026-08-09T20:58:14.783879+00:00",
- "last_update": "2026-08-09T20:58:14.783879+00:00",
+ "last_update": "2026-08-09T22:56:13.234194+00:00",
  "members": [
+  {
+   "id": "d51ad13b500f9de961663c5fe76844920ed6a6b9",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/08/09/alphabets-cloud-computing-business-just-posted-82/?source=iedfolrf0000001",
+   "title": "Alphabet Cloud Computing Business Just Posted 82 % Revenue Growth . Next Quarter Could Be Even Better .",
+   "published_at": "2026-08-09T22:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9186
+  },
   {
    "id": "82f90431e9654f65c66c0d1eb44a167499c402ab",
    "source": "finance.yahoo.com",
@@ -22,7 +32,7 @@
    "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
    "published_at": "2026-08-09T20:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.999
   },
   {
    "id": "245a046e72fd2374bdec7cbf8ac34780400988af",
@@ -32,11 +42,18 @@
    "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
    "published_at": "2026-08-09T20:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.999
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Alphabet Cloud Computing Business Just Posted 82 % Revenue Growth . Next Quarter Could Be Even Better .",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/08/09/alphabets-cloud-computing-business-just-posted-82/?source=iedfolrf0000001",
+   "at": "2026-08-09T22:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
@@ -52,8 +69,44 @@
    "at": "2026-08-09T20:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-09T22:57:01.556956+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Alphabet Cloud Computing Business Just Posted 82 % Revenue Growth . Next Quarter Could Be Even Better .",
+    "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet ."
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Alphabet Cloud…",
+   "one_liner": "Alphabet Cloud Computing Business Just Posted 82…",
+   "why_now": null,
+   "details": [
+    "Alphabet Cloud Computing Business Just Posted 82 % Revenue Growth . Next Quarter Could Be Even Better .",
+    "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet ."
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "c1c49ddd6a11e0b94145e60e592895e17328318e"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-09T22:57:01.556851+00:00"
+ },
  "glossary": [],
  "related": [
   {

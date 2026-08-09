@@ -9,11 +9,21 @@
  "entity_keys": [
   "IRAN"
  ],
- "seen_sources": 12,
+ "seen_sources": 14,
  "importance": 80,
  "created_at": "2026-08-09T10:58:40.037765+00:00",
- "last_update": "2026-08-09T20:58:14.781254+00:00",
+ "last_update": "2026-08-09T22:56:13.495794+00:00",
  "members": [
+  {
+   "id": "f97c605303b5aa6fb7eb9b1782932160c723532a",
+   "source": "kashmirreader.com",
+   "tier": "wire",
+   "url": "https://kashmirreader.com/2026/08/10/tehran-says-wont-reopen-hormuz-until-us-accepts-irans-conditions/",
+   "title": "Tehran says wont reopen Hormuz until US accepts Iran conditions",
+   "published_at": "2026-08-09T22:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9003
+  },
   {
    "id": "70127a9ad4152776a961d65d4a166293dbfa3c0e",
    "source": "fortune.com",
@@ -255,6 +265,26 @@
    "sim_to_centroid": 0.9158
   },
   {
+   "id": "72a149a074603aa761e5d1ecb47962a99cc48e7c",
+   "source": "ecr.co.za",
+   "tier": "wire",
+   "url": "https://www.ecr.co.za/news/news/iran-issues-demands-for-reopening-of-hormuz/",
+   "title": "Iran issues demands for reopening of Hormuz",
+   "published_at": "2026-08-09T10:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8885
+  },
+  {
+   "id": "425a7de89986ac560108b4a63bdbd61cf5100083",
+   "source": "naharnet.com",
+   "tier": "wire",
+   "url": "https://naharnet.com/stories/en/321727-iran-issues-demands-for-reopening-of-hormuz",
+   "title": "Iran issues demands for reopening of Hormuz",
+   "published_at": "2026-08-09T10:00:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.8885
+  },
+  {
    "id": "605cd3c33a088dd7c7507bdb70385dae9da5ea7b",
    "source": "livemint.com",
    "tier": "wire",
@@ -277,6 +307,13 @@
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Tehran says wont reopen Hormuz until US accepts Iran conditions",
+   "source": "kashmirreader.com",
+   "url": "https://kashmirreader.com/2026/08/10/tehran-says-wont-reopen-hormuz-until-us-accepts-irans-conditions/",
+   "at": "2026-08-09T22:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Trump is betting that the US naval blockade choking Iran economy can do what missiles couldnt",
@@ -447,6 +484,20 @@
   },
   {
    "kind": "headline",
+   "title": "Iran issues demands for reopening of Hormuz",
+   "source": "naharnet.com",
+   "url": "https://naharnet.com/stories/en/321727-iran-issues-demands-for-reopening-of-hormuz",
+   "at": "2026-08-09T10:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Iran issues demands for reopening of Hormuz",
+   "source": "ecr.co.za",
+   "url": "https://www.ecr.co.za/news/news/iran-issues-demands-for-reopening-of-hormuz/",
+   "at": "2026-08-09T10:00:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Indian stock market : How are Sensex and Nifty 50 likely to perform next week amid ongoing US - Iran war ?",
    "source": "livemint.com",
    "url": "https://www.livemint.com/market/stock-market-news/indian-stock-market-how-are-sensex-and-nifty-50-likely-to-perform-next-week-amid-ongoing-us-iran-war-11786249461743.html",
@@ -461,48 +512,44 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-09T19:08:44.408498+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-09T22:56:43.101156+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Iran says Oman deal is in final stages , but US must act",
     "Haunted by Hoover , Trump searches for an endgame in Iran",
-    "Iran war depletes US weapons stockpiles : Report",
-    "Indian stock market : How are Sensex and Nifty 50 likely to perform next week amid ongoing US - Iran war ?",
-    "UK economy set for 0 . 4 % growth despite Iran war pressures",
-    "Iran conditions opening the Strait of Hormuz on US meeting its demands"
+    "Donald Trump says US  only semi - negotiating  with Iran",
+    "Trump : US Uses  Low - Key  Approach on Iran , Eyes Economic Pre",
+    "Trump is betting that the US naval blockade choking Iran economy can do what missiles couldnt"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"이란 전쟁 관련 시장 동향\",\n  \"one_liner\": \"이란 전쟁이 미국 무기 재고를 줄이고 세계 경제에 영향을 미치고 있어요.\",\n  \"why_now\": \"전쟁은 물가 상승과 공급망 불안을 일으켜 우리 생활에 영향을 줄 수 있어요.\",\n  \"impact_line\": \"국제 유가와 환율 변동에 주목해야 해요.\",\n  \"details\": [\n    \"이란 전쟁으로 미국의 무기 재고가 줄었다는 보고가 있어요.\",\n    \"인도 주식 시장은 다음 주 미국-이란 전쟁 상황을 지켜볼 것으로 보여요.\",\n    \"영국 경제는 이란 전쟁의 압박에도 불구하고 0.4% 성장이 예상돼요.\",\n    \"이란은 미국이 요구를 들어주면 호르무즈 해협을 열 수 있다고 해요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"국제 유가가 오르면 항공료, 배송비, 공산품 가격이 오를 수 있어요!\",\n    \"전쟁 상황에 따라 원자재 가격 변동성이 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"호르무즈 해협\",\n      \"easy\": \"페르시아만과 오만만을 잇는 좁은 해협으로, 석유 수송로로 매우 중요해요.\",\n      \"example\": \"이 해협이 막히면 국제 유가가 크게 오를 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"미국, 이란 경제 압박 강화\",\n  \"one_liner\": \"미국이 이란 경제를 옥죄는 방식으로 압박을 강화하고 있어요.\",\n  \"why_now\": \"이란 경제에 대한 압박은 국제 유가에 영향을 줄 수 있어 주목해야 해요.\",\n  \"impact_line\": \"국제 유가 변동으로 주유비나 배송비가 오를 수 있어요.\",\n  \"details\": [\n    \"미국은 이란과의 협상에 대해 '매우 낮은 수준'이라고 말했어요.\",\n    \"이란은 오만과의 협상이 마무리 단계에 있다고 밝혔어요.\",\n    \"미국은 이란 경제를 압박하는 데 초점을 맞추고 있어요.\",\n    \"이란 경제를 옥죄는 해상 봉쇄가 미사일 공격보다 효과적일 수 있다고 보고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"이란 경제 압박이 심해지면 국제 유가가 상승할 수 있어요!\",\n    \"국제 유가 상승은 전 세계 물가 상승으로 이어질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"경제 압박\",\n      \"easy\": \"특정 국가의 경제 활동을 어렵게 만들어 원하는 방향으로 움직이게 하는 것을 말해요.\",\n      \"example\": \"경제 제재로 특정 국가의 물건을 사기 어려워졌어요.\"\n    },\n    {\n      \"term\": \"해상 봉쇄\",\n      \"easy\": \"바다를 통해 이루어지는 물자 수송을 막는 것을 말해요.\",\n      \"example\": \"해상 봉쇄로 인해 필요한 물건을 제때 구하지 못할 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [0.4]"
-    ]
-   },
-   {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [0.4]"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Haunted by Hoover ,…",
-   "one_liner": "Haunted by Hoover , Trump searches for an…",
-   "why_now": null,
+   "title": "미국, 이란 경제 압박 강화",
+   "one_liner": "미국이 이란 경제를 옥죄는 방식으로 압박을 강화하고 있어요.",
+   "why_now": "이란 경제에 대한 압박은 국제 유가에 영향을 줄 수 있어 주목해야 해요.",
    "details": [
-    "Haunted by Hoover , Trump searches for an endgame in Iran",
-    "Iran war depletes US weapons stockpiles : Report",
-    "Indian stock market : How are Sensex and Nifty 50 likely to perform next week amid ongoing US - Iran war ?"
+    "미국은 이란과의 협상에 대해 '매우 낮은 수준'이라고 말했어요.",
+    "이란은 오만과의 협상이 마무리 단계에 있다고 밝혔어요.",
+    "미국은 이란 경제를 압박하는 데 초점을 맞추고 있어요.",
+    "이란 경제를 옥죄는 해상 봉쇄가 미사일 공격보다 효과적일 수 있다고 보고 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "이란 경제 압박이 심해지면 국제 유가가 상승할 수 있어요!",
+    "국제 유가 상승은 전 세계 물가 상승으로 이어질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "4270a59949b05f7fd037d49373126a58d29118a7"
+  "fact_hash": "b18292e85f7c0dcf34a2fa798af5bf81aaf378de"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [0.4]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [0.4]\"]}]}",

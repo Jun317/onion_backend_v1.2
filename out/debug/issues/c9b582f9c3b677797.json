@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-09T19:53:43.961979+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-09T22:56:31.034955+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,25 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"필리핀 경제 성장 둔화\",\n\"one_liner\": \"필리핀 경제가 성장세가 둔화되고 물가는 오르는 등 어려움을 겪고 있어요.\",\n\"why_now\": \"경제 성장이 둔화되면 일자리와 소득이 줄어들 수 있어 서민 경제에 부담이 될 수 있어요.\",\n\"impact_line\": \"물가 상승으로 장바구니 물가가 올라 생활비 부담이 커질 수 있어요.\",\n\"details\": [\n\"필리핀 경제 성장률이 둔화되고 있어요.\",\n\"동시에 물가 상승률은 높아지고 있어요.\",\n\"이러한 경제 상황은 필리핀 경제의 변동성을 보여줘요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"경제 성장 둔화는 기업의 투자와 고용을 위축시킬 수 있어요!\",\n\"높은 물가는 소비 심리를 위축시켜 경제 회복을 더디게 할 수 있어요!\"\n],\n\"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "PANDEF hails Tinubu…",
-   "one_liner": "PANDEF hails Tinubu over landmark 15 - year gas…",
-   "why_now": null,
+   "title": "필리핀 경제 성장 둔화",
+   "one_liner": "필리핀 경제가 성장세가 둔화되고 물가는 오르는 등 어려움을 겪고 있어요.",
+   "why_now": "경제 성장이 둔화되면 일자리와 소득이 줄어들 수 있어 서민 경제에 부담이 될 수 있어요.",
    "details": [
-    "PANDEF hails Tinubu over landmark 15 - year gas deal for UTM FLNG",
-    "Manila Bulletin - PH economy ebbs and flows : Faltering growth , rising prices",
-    "Atiku to Tinubu : Stop governing Nigeria through  PowerPoint economics"
+    "필리핀 경제 성장률이 둔화되고 있어요.",
+    "동시에 물가 상승률은 높아지고 있어요.",
+    "이러한 경제 상황은 필리핀 경제의 변동성을 보여줘요."
    ],
-   "effects": [],
+   "effects": [
+    "경제 성장 둔화는 기업의 투자와 고용을 위축시킬 수 있어요!",
+    "높은 물가는 소비 심리를 위축시켜 경제 회복을 더디게 할 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "61cfdded05cf7592cafe0d4fe49089874f0847b8"

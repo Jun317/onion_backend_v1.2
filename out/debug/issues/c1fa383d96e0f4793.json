@@ -88,50 +88,52 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-09T19:53:25.201820+00:00",
+  "created_at": "2026-08-09T22:56:19.355169+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "1 in 6 Southern Nevada residents deemed to be food insecure in 2024 , new report finds",
     "Telangana Economy Registers 10 . 8 % Growth in 2025 - 26 as Services and Allied Sectors Surge : RBI Report",
     "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
     "Senvest Capital Inc . Reports Results for the Second Quarter Ended June 30 , 2026"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"기업 실적 발표\",\n  \"one_liner\": \"두 회사가 2분기 실적을 발표했어요.\",\n  \"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"관심 있는 회사의 실적 발표를 확인해 보세요.\",\n  \"details\": [\n    \"NI Holdings, Inc.가 2026년 6월 30일까지인 2분기 실적을 발표했어요.\",\n    \"Senvest Capital Inc.도 같은 날짜까지인 2분기 실적을 발표했어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"실적이 좋으면 해당 회사의 주가가 오를 수 있어요!\",\n    \"실적이 예상보다 나쁘면 주가가 떨어질 수 있어요.\"\n  ],\n  \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"미국 남부 네바다 주 식품 불안정\",\n   \"one_liner\": \"미국 남부 네바다 주에서 6명 중 1명이 식량이 부족한 것으로 나타났어요\",\n   \"why_now\": \"식량 부족은 가계의 생활을 어렵게 할 수 있어요\",\n   \"impact_line\": \"주민들의 식품 구매력이 낮아질 수 있어요\",\n   \"details\": [\n       \"미국 남부 네바다 주의 식품 불안정 현象이 보고됐어요\",\n       \"텔랑가나 주 경제가 10.8% 성장했어요\",\n       \"NI 홀딩스와 센베스트 캐피탈의 2분기 실적이 발표됐어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"식품 가격 상승으로 주민들의 생활이 어려워질 수 있어요!\",\n       \"지역 경제 성장으로 새로운 일자리와 기회가 생길 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "title 22자 초과(24)",
+     "why_now 55자 초과(57)",
+     "why_now 어요체 아님"
+    ]
+   },
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
      "입력에 없는 숫자: [10.8]"
     ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects[1] 느낌표 종결 아님"
-    ]
    }
   ],
   "output": {
-   "title": "Telangana Economy…",
-   "one_liner": "Telangana Economy Registers 10 . 8 % Growth in…",
+   "title": "1 in 6 Southern…",
+   "one_liner": "1 in 6 Southern Nevada residents deemed to be…",
    "why_now": null,
    "details": [
+    "1 in 6 Southern Nevada residents deemed to be food insecure in 2024 , new report finds",
     "Telangana Economy Registers 10 . 8 % Growth in 2025 - 26 as Services and Allied Sectors Surge : RBI Report",
-    "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
-    "Senvest Capital Inc . Reports Results for the Second Quarter Ended June 30 , 2026"
+    "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "2b76ae92d7ec3d105693b09eb3c2207c314fdf2b"
+  "fact_hash": "98721379590a6f739ff59ac61d6ba516b3c538c9"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [10.8]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}]}",
-  "at": "2026-08-09T19:53:25.201659+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(24)\", \"why_now 55자 초과(57)\", \"why_now 어요체 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [10.8]\"]}]}",
+  "at": "2026-08-09T22:56:19.355000+00:00"
  },
  "glossary": [],
  "related": [
@@ -168,9 +170,9 @@
    ]
   },
   {
-   "id": "c6fdad826562ed3e4",
-   "title": "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
-   "category": "EARNINGS",
+   "id": "c37ad01cf8a091a74",
+   "title": "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions",
+   "category": "FX",
    "shared": [
     "SEC"
    ]
