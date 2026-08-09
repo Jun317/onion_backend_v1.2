@@ -1,0 +1,133 @@
+{
+ "id": "ca2696857c59592ad",
+ "title": "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground",
+ "category": "POLICY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "KRX:000270",
+  "TAIWAN"
+ ],
+ "seen_sources": 2,
+ "importance": 105,
+ "created_at": "2026-08-09T09:08:23.143075+00:00",
+ "last_update": "2026-08-09T09:08:23.143802+00:00",
+ "members": [
+  {
+   "id": "e55363307877ae42b33f99848861f2302ec63c44",
+   "source": "focustaiwan.tw",
+   "tier": "wire",
+   "url": "https://focustaiwan.tw:443/society/202608090002",
+   "title": "Taiwan headline news - Focus Taiwan",
+   "published_at": "2026-08-09T07:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9563
+  },
+  {
+   "id": "7bc5a376b44eea1da4faadd33eaa68c6258bbf44",
+   "source": "insidermonkey.com",
+   "tier": "wire",
+   "url": "https://www.insidermonkey.com/blog/nokias-nok-ai-network-bet-gets-a-taiwan-proving-ground-1808369/",
+   "title": "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground",
+   "published_at": "2026-08-08T22:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9563
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Taiwan headline news - Focus Taiwan",
+   "source": "focustaiwan.tw",
+   "url": "https://focustaiwan.tw:443/society/202608090002",
+   "at": "2026-08-09T07:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground",
+   "source": "insidermonkey.com",
+   "url": "https://www.insidermonkey.com/blog/nokias-nok-ai-network-bet-gets-a-taiwan-proving-ground-1808369/",
+   "at": "2026-08-08T22:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-09T09:08:32.738818+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Taiwan headline news - Focus Taiwan",
+    "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"대만, AI 네트워크 시험장으로\", \"one_liner\": \"대만이 노키아의 인공지능 네트워크 시험 장소로 선정되었어요.\", \"why_now\": \"새로운 기술을 시험하는 장소가 생기면 관련 산업이 발전할 수 있어요.\", \"impact_line\": \"AI 기술 발전으로 우리 생활이 더 편리해질 수 있어요.\", \"details\": [\"노키아가 대만을 인공지능 네트워크 시험 장소로 정했어요.\", \"이번 결정은 노키아의 인공지능 네트워크 사업에 중요한 발판이 될 것으로 보여요.\"], \"visual_type\": \"none\", \"effects\": [\"대만에서 개발된 새로운 인공지능 네트워크 기술이 다른 나라로 확산될 수 있어요!\", \"관련 기술 발전으로 더 빠르고 똑똑한 통신 서비스가 가능해질 것으로 예상돼요!\"], \"glossary\": [{\"term\": \"인공지능 네트워크\", \"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 인공지능 기술이 적용된 통신망이에요.\", \"example\": \"인공지능 네트워크는 더 똑똑한 추천 서비스를 가능하게 해요.\"}]}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Taiwan headline news…",
+   "one_liner": "Taiwan headline news - Focus Taiwan",
+   "why_now": null,
+   "details": [
+    "Taiwan headline news - Focus Taiwan",
+    "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "bd08081a4ff6d6ef5c73499c6ed0c02930bea464"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-09T09:08:32.738711+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c2efbf61ddb697589",
+   "title": "Democratic attorneys general , governors sue feds over tariffs",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "cde343d4cab397faf",
+   "title": "Takaichi Faces Diet Endgame As BOJ And Imperial House Issues Converge",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c5c8d55ad4217ee1f",
+   "title": "Federal government grounds Billy Bishop airport expansion",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c428c4f64f448be8a",
+   "title": "US : 25 states sue Trump administration over new  forced - labour  tariffs on EU , 60 countries call probe unlawful",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c3d1f048671411eac",
+   "title": "Digital euro app to incorporate highest accessibility standards : ECB",
+   "category": "POLICY",
+   "shared": []
+  }
+ ]
+}

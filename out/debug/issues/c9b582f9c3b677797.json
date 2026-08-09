@@ -119,8 +119,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-09T06:06:37.474081+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-09T09:09:23.929743+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -133,25 +133,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"나이지리아 정치권 공방\",\n  \"one_liner\": \"나이지리아 정치인들이 2027년 선거와 경제 정책을 두고 서로 비판하고 있어요.\",\n  \"why_now\": \"대통령의 경제 정책이 국민들의 삶을 어렵게 만들고 있다는 주장이 나오고 있어요.\",\n  \"impact_line\": \"정치적 불안정은 경제에 부정적인 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"한 정치인은 2027년 선거에서 현 대통령이 승리하기 어려울 것이라고 말했어요.\",\n    \"다른 정치인은 현 대통령이 15년간의 가스 거래를 칭찬했어요.\",\n    \"또 다른 정치인은 현 대통령이 보여주기식 경제 정책을 펼친다고 비판했어요.\",\n    \"현 대통령의 경제 정책으로 인해 국민들이 제대로 살기 어려워졌다는 주장도 나왔어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"정치적 갈등이 심화되면 경제 정책의 일관성이 떨어질 수 있어요!\",\n    \"국민들의 생활 안정과 관련된 정책 결정이 늦어질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"2027\",\n      \"easy\": \"2027년에 있을 나이지리아 대통령 선거를 말해요.\",\n      \"example\": \"2027년 선거를 준비하는 정치인들이 많아요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Having 31 govs wont…",
-   "one_liner": "Having 31 govs wont give Tinubu victory in 2027…",
-   "why_now": null,
+   "title": "나이지리아 정치권 공방",
+   "one_liner": "나이지리아 정치인들이 2027년 선거와 경제 정책을 두고 서로 비판하고 있어요.",
+   "why_now": "대통령의 경제 정책이 국민들의 삶을 어렵게 만들고 있다는 주장이 나오고 있어요.",
    "details": [
-    "Having 31 govs wont give Tinubu victory in 2027 Dalung",
-    "PANDEF hails Tinubu over landmark 15 - year gas deal for UTM FLNG",
-    "Atiku to Tinubu : Stop governing Nigeria through  PowerPoint economics"
+    "한 정치인은 2027년 선거에서 현 대통령이 승리하기 어려울 것이라고 말했어요.",
+    "다른 정치인은 현 대통령이 15년간의 가스 거래를 칭찬했어요.",
+    "또 다른 정치인은 현 대통령이 보여주기식 경제 정책을 펼친다고 비판했어요.",
+    "현 대통령의 경제 정책으로 인해 국민들이 제대로 살기 어려워졌다는 주장도 나왔어요."
    ],
-   "effects": [],
+   "effects": [
+    "정치적 갈등이 심화되면 경제 정책의 일관성이 떨어질 수 있어요!",
+    "국민들의 생활 안정과 관련된 정책 결정이 늦어질 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "3592d9f4484e492f9523a85328603b8cc545c5f4"

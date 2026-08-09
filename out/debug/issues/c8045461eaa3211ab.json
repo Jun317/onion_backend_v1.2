@@ -871,7 +871,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-09T06:05:09.713832+00:00",
+  "created_at": "2026-08-09T09:08:37.990467+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,7 +887,7 @@
     "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank"
    ]
   },
-  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n   \"one_liner\": \"미국 경제가 2분기에 1.5% 성장했어요.\",\n   \"why_now\": \"미국 경제 성장이 느려지면 금리 인하가 더딜 수 있어요.\",\n   \"impact_line\": \"미국과 거래하는 우리나라 기업의 수출이 어려워질 수 있어요\",\n   \"details\": [\n      \"미국 경제가 2분기에 1.5% 성장했어요.\",\n      \"미국은행은 금리 인하를 서두르지 않는 상황이에요.\",\n      \"미국 내 수요는 여전히 강한 편이에요.\",\n      \"미국 물가 상승은 여전히 높게 유지되고 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"미국 경제 성장 둔화로 글로벌 경제에도 영향을 줄 수 있어요!\",\n      \"미국 물가 상승이 높게 유지되면 미국은행이 금리 인상을 고려할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 2분기에 1.5% 성장하는 데 그쳤어요.\",\n  \"why_now\": \"경제 성장 속도가 느려지면 물가 상승 압력이 커질 수 있어요.\",\n  \"impact_line\": \"물가가 계속 오르면 장바구니 물가가 비싸질 수 있어요.\",\n  \"details\": [\n    \"미국 경제가 2분기에 1.5% 성장했어요.\",\n    \"이는 예상보다 낮은 성장률이에요.\",\n    \"하지만 국내 수요는 견조한 모습을 보였어요.\",\n    \"물가 상승률은 여전히 높은 수준을 유지했어요.\"\n  ],\n  \"visual_type\": \"usdkrw\",\n  \"effects\": [\n    \"미국 중앙은행이 금리를 내리는 것을 서두르지 않을 수 있어요!\",\n    \"금리가 높게 유지되면 미국 달러 가치가 강세를 보일 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"미국 중앙은행\",\n      \"easy\": \"미국의 중앙은행으로, 나라 경제를 관리하고 금리를 결정해요.\",\n      \"example\": \"미국 중앙은행이 금리를 올리면 한국에도 영향이 올 수 있어요.\"\n    },\n    {\n      \"term\": \"물가 상승률\",\n      \"easy\": \"물건이나 서비스 가격이 얼마나 올랐는지를 나타내는 비율이에요.\",\n      \"example\": \"물가 상승률이 높으면 같은 돈으로 살 수 있는 물건이 줄어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
@@ -896,7 +896,7 @@
     ]
    },
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
      "입력에 없는 숫자: [1.5]"
     ]
@@ -917,8 +917,8 @@
   "fact_hash": "63a23b84926d8182c0e9578910ec5097373cea82"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
-  "at": "2026-08-09T06:05:09.713738+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
+  "at": "2026-08-09T09:08:37.990372+00:00"
  },
  "glossary": [],
  "related": [
