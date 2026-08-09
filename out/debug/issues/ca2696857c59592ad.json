@@ -72,7 +72,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-09T13:27:28.564527+00:00",
+  "created_at": "2026-08-09T17:02:02.365696+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -83,14 +83,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"대만 국방 예산 증가\",\n   \"one_liner\": \"대만 정부가 역대 최고의 국방 예산을 승인할 예정이에요.\",\n   \"why_now\": \"국방 예산이 늘어나면 대만의 안보를 강화하는 데 도움이 될 수 있어요.\",\n   \"impact_line\": \"대만의 군사력과 안보가 강화될 수 있어요\",\n   \"details\": [\n      \"대만이 역대 최고의 국방 예산을 승인할 예정이에요.\",\n      \"새 국방 예산은 1.1조 뉴 타이완 달러를 넘을 것으로 예상돼요.\",\n      \"대만의 국방 예산 증가가 안보를 강화하는 데 도움이 될 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"대만의 군사력 강화로 인해 지역 안정성이 높아질 수 있어요!\",\n      \"대만의 경제에도 긍정적인 영향을 미칠 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [1.1]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -113,8 +107,8 @@
   "fact_hash": "2e8f494ea18f1000bbf2fd73501b33a684d0157f"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.1]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-09T13:27:28.564418+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-09T17:02:02.365589+00:00"
  },
  "glossary": [],
  "related": [

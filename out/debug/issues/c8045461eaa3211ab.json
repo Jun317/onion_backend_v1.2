@@ -871,7 +871,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-09T13:28:05.500517+00:00",
+  "created_at": "2026-08-09T17:02:58.224836+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,8 +887,15 @@
     "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank"
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 2분기에 1.5% 성장하며 성장세가 둔화했어요.\",\n  \"why_now\": \"경제 성장이 둔화하면 소비와 투자가 줄어 물가 상승 압력이 낮아질 수 있어요.\",\n  \"impact_line\": \"물가 상승세가 꺾이면 금리가 내려 이자 부담이 줄어들 수 있어요.\",\n  \"details\": [\n    \"미국 경제는 2분기에 1.5% 성장했어요.\",\n    \"이는 이전 분기보다 성장 속도가 느려진 것입니다.\",\n    \"하지만 국내 수요는 여전히 견조한 모습을 보였어요.\",\n    \"물가 상승률은 여전히 높은 수준을 유지하고 있어요.\"\n  ],\n  \"visual_type\": \"usdkrw\",\n  \"effects\": [\n    \"미국 중앙은행이 금리를 내리지 않을 수 있어, 한국은행도 금리 인하 결정에 신중해질 수 있어요!\",\n    \"미국 경제 성장 둔화는 한국 수출에도 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"연준\",\n      \"easy\": \"미국의 중앙은행을 말하며, 나라 경제의 기준금리를 정하는 등 중요한 역할을 해요.\",\n      \"example\": \"연준이 금리를 올리면 한국의 대출 이자도 오를 수 있어요.\"\n    },\n    {\n      \"term\": \"물가 상승률\",\n      \"easy\": \"물건이나 서비스 가격이 얼마나 올랐는지를 나타내는 비율이에요.\",\n      \"example\": \"물가 상승률이 높으면 같은 돈으로 살 수 있는 물건이 줄어들어요.\"\n    }\n  ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details[1] 어요체 아님",
+     "입력에 없는 숫자: [1.5]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -911,8 +918,8 @@
   "fact_hash": "63a23b84926d8182c0e9578910ec5097373cea82"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-09T13:28:05.500406+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[1] 어요체 아님\", \"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-09T17:02:58.224723+00:00"
  },
  "glossary": [],
  "related": [
