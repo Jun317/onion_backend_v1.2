@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 26,
- "importance": 60,
+ "importance": 55,
  "created_at": "2026-08-04T10:05:33.920885+00:00",
  "last_update": "2026-08-07T12:04:29.508146+00:00",
  "members": [
@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-09T09:12:07.694376+00:00",
+  "created_at": "2026-08-09T13:32:45.775462+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,8 +881,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"기업 실적 발표\",\n\"one_liner\": \"여러 기업들이 2분기 실적을 발표했어요.\",\n\"why_now\": \"기업의 실적은 앞으로의 성장 가능성을 보여주기 때문에 중요해요.\",\n\"impact_line\": null,\n\"details\": [\n\"글로벌 인뎀니티 그룹의 2분기 실적 발표가 있었어요.\",\n\"톰슨 로이터의 2분기 실적 발표가 있었어요.\",\n\"아이덱스 래버러토리스의 2분기 실적 발표가 있었어요.\",\n\"메드라인의 2분기 실적 발표가 있었어요.\",\n\"비원 메디슨의 2분기 실적 발표가 있었어요.\"\n],\n\"visual_type\": \"earnings_quarterly\",\n\"effects\": [\n\"기업들의 실적 발표는 투자자들이 앞으로의 주가 방향을 예측하는 데 도움을 줄 수 있어요!\",\n\"실적이 좋은 기업은 주가가 오르고, 실적이 나쁜 기업은 주가가 내릴 수 있어요.\"\n],\n\"glossary\": [\n{\n\"term\": \"실적\",\n\"easy\": \"회사가 돈을 얼마나 벌고 썼는지 보여주는 결과예요.\",\n\"example\": \"이번 분기 실적이 좋아서 주가가 올랐어요.\"\n}\n]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects[1] 느낌표 종결 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +911,8 @@
   "fact_hash": "b31f393f74258497a4ed12f8fbf3e812196486c8"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-09T09:12:07.694286+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-09T13:32:45.775338+00:00"
  },
  "glossary": [],
  "related": [

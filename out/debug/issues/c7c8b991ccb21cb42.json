@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-09T09:11:01.084710+00:00",
+  "created_at": "2026-08-09T13:30:33.079691+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,18 +64,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"스타벅스 신메뉴 출시\",\n    \"one_liner\": \"스타벅스가 가을 메뉴로 호박 라떼와 바나나 음료를 선보였어요.\",\n    \"why_now\": \"계절 한정 메뉴는 소비 심리를 자극해 매출을 늘리는 효과가 있어요.\",\n    \"impact_line\": \"새로운 음료를 맛보고 싶어 하는 소비자들이 늘어날 수 있어요.\",\n    \"details\": [\n        \"스타벅스가 가을을 맞아 새로운 음료를 출시했어요.\",\n        \"이번 신메뉴에는 호박 라떼와 바나나 음료가 포함돼요.\",\n        \"이는 가을 시즌에 맞춰 나온 한정 메뉴예요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"인기 메뉴의 경우, 예상보다 많은 사람이 몰려 품절 사태가 발생할 수 있어요!\",\n        \"새로운 맛에 대한 관심이 높아지면서 관련 상품 판매도 늘어날 수 있어요.\"\n    ],\n    \"glossary\": [],\n    \"impact_line\": \"새로운 음료를 맛보고 싶어 하는 소비자들이 늘어날 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects[1] 느낌표 종결 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -93,8 +87,8 @@
   "fact_hash": "4a1d50f3c821a3106f6a588aa0e003b3fb75f72b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}]}",
-  "at": "2026-08-09T09:11:01.084633+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-09T13:30:33.079628+00:00"
  },
  "glossary": [],
  "related": [

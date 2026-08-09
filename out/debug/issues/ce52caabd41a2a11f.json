@@ -749,7 +749,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-09T09:09:37.362359+00:00",
+  "created_at": "2026-08-09T13:29:00.699113+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -762,18 +762,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"기업 비교 분석\", \"one_liner\": \"여러 기업들의 재무 상태와 사업 현황을 비교 분석했어요.\", \"why_now\": \"기업들의 장단점을 비교하면 투자 결정을 내리는 데 도움을 받을 수 있어요.\", \"impact_line\": null, \"details\": [\"국제 향료·향수 기업인 IFF와 EMS-CHEMIE를 비교했어요.\", \"Magnera와 Mercer International의 재무 상태를 분석했어요.\", \"BRT Apartments와 Ingenia Communities Group을 비교했어요.\", \"Northrop Grumman과 XTI Aerospace의 사업을 분석했어요.\", \"Adamas Trust와 Arbor Realty Trust의 재무 분석을 했어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"NYSE\", \"easy\": \"뉴욕 증권거래소에서 거래되는 주식을 말해요.\", \"example\": \"NYSE 상장 기업은 보통 규모가 큰 회사들이 많아요.\"}, {\"term\": \"OTCMKTS\", \"easy\": \"장외주식시장에서 거래되는 주식을 말해요.\", \"example\": \"OTCMKTS 종목은 가격 변동이 클 수 있어요.\"}, {\"term\": \"NASDAQ\", \"easy\": \"나스닥 증권거래소에서 거래되는 주식을 말해요.\", \"example\": \"나스닥에는 기술주들이 많이 상장되어 있어요.\"}], \"impact_line\": null}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "effects 1~2문장 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects 1~2문장 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -792,8 +786,8 @@
   "fact_hash": "b413d8bed0ff1ce9a5edb7a33591ecbc07933cdb"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}]}",
-  "at": "2026-08-09T09:09:37.362278+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-09T13:29:00.699046+00:00"
  },
  "glossary": [],
  "related": [

@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-09T09:11:19.481243+00:00",
+  "created_at": "2026-08-09T13:31:12.161960+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -876,13 +876,20 @@
     "PM Modi speaks to JD Vance , discusses ways to deepen India - US partnership",
     "PFIPC scandal : Govt more interested in damage control than investigation – ADC – Daily Trust",
     "Shani Abeysekara promoted to Deputy Inspector General of Police",
-    "Report of 40 % Nigerian children under 5 being stunted stirs conversations",
-    "Edo : Police Turn Down Bribe , Recover Pistol From Suspect Bag – Daily Trust"
+    "India Challenges US Russian - Oil Tariff Bill as Double Standard",
+    "Report of 40 % Nigerian children under 5 being stunted stirs conversations"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"인도, 미국 러시아산 원유 관세에 이의 제기\",\n\"one_liner\": \"인도가 미국이 러시아산 원유에 부과한 관세가 이중 기준이라며 문제를 제기했어요.\",\n\"why_now\": \"국가 간 무역에서 공정한 경쟁을 위한 기준이 중요하기 때문이에요.\",\n\"impact_line\": \"국제 유가나 관련 상품 가격에 영향을 줄 수 있어요.\",\n\"details\": [\n\"인도는 미국이 러시아산 원유에 부과한 관세가 이중 기준이라고 주장했어요.\",\n\"인도는 미국이 러시아산 원유에 부과한 관세에 대해 이의를 제기했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"국제 무역 관계에 긴장이 생길 수 있어요!\",\n\"관련 국가들의 경제 정책 변화를 지켜봐야 할 것으로 보여요!\"\n],\n\"glossary\": [\n{\n\"term\": \"관세\",\n\"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 돈이에요.\",\n\"example\": \"수입 과자 가격이 비싸지는 이유 중 하나는 관세 때문이에요.\"\n}\n]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "title 22자 초과(24)",
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -902,11 +909,11 @@
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "7273715970467c85c44462dce79b4e5f29cedddd"
+  "fact_hash": "5bb3cc2b792c57f5468feac3fa53abad8a2cb4cd"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-09T09:11:19.481186+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(24)\", \"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-09T13:31:12.161895+00:00"
  },
  "glossary": [],
  "related": [

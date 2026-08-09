@@ -868,51 +868,45 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-09T09:09:12.054311+00:00",
+  "created_at": "2026-08-09T13:28:42.342862+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Genpact Q2 Earnings Call Highlights",
     "Jim Cramer Is Telling Investors to Accumulate SpaceX for the Long Term",
     "Multibagger stock to be in focus on Monday ; here why",
     "RealReal ( REAL ) Raised Full Year Guidance After Strong Q2 2026 Growth",
-    "Nutrien Q2 Earnings Call Highlights",
-    "LLY Q2 Deep Dive : Key Products and Pipeline Expansion"
+    "Nutrien Q2 Earnings Call Highlights"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"주식 시장 동향\", \"one_liner\": \"전문가들이 장기 투자를 위해 특정 주식을 사 모으라고 조언했어요.\", \"why_now\": \"주식 시장은 경제 상황과 기업 실적에 따라 변동하기 때문에 전문가들의 의견을 참고하는 것이 중요해요.\", \"impact_line\": \"주식 시장의 움직임에 따라 투자 수익이 달라질 수 있어요.\", \"details\": [\"전문가가 장기 투자를 위해 스페이스X 주식을 사 모으라고 했어요.\", \"어떤 주식이 월요일에 주목받을지 이유가 나왔어요.\", \"리얼리얼은 2분기 성장으로 연간 전망치를 높였어요.\", \"뉴트리엔은 2분기 실적 발표를 했어요.\", \"릴리는 2분기 주요 제품과 파이프라인 확장에 대해 자세히 다뤘어요.\"], \"visual_type\": \"none\", \"effects\": [\"주요 기업들의 실적 발표와 전망이 주가에 영향을 줄 수 있어요!\", \"전문가들의 투자 조언은 시장 분위기를 형성하는 데 영향을 줄 수 있어요!\"], \"glossary\": [{\"term\": \"스페이스X\", \"easy\": \"미국의 우주 탐사 기업이에요.\", \"example\": \"스페이스X의 로켓 발사가 성공적으로 이루어졌어요.\"}, {\"term\": \"실적 발표\", \"easy\": \"기업이 일정 기간 동안 얼마나 돈을 벌고 썼는지 공개하는 것이에요.\", \"example\": \"실적 발표 후 주가가 오르거나 내릴 수 있어요.\"}], \"impact_line\": \"주식 시장의 움직임에 따라 투자 수익이 달라질 수 있어요.\"}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "why_now 55자 초과(56)"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
   "output": {
-   "title": "Jim Cramer Is…",
-   "one_liner": "Jim Cramer Is Telling Investors to Accumulate…",
+   "title": "Genpact Q2 Earnings…",
+   "one_liner": "Genpact Q2 Earnings Call Highlights",
    "why_now": null,
    "details": [
+    "Genpact Q2 Earnings Call Highlights",
     "Jim Cramer Is Telling Investors to Accumulate SpaceX for the Long Term",
-    "Multibagger stock to be in focus on Monday ; here why",
-    "RealReal ( REAL ) Raised Full Year Guidance After Strong Q2 2026 Growth"
+    "Multibagger stock to be in focus on Monday ; here why"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "cec1c85e5abbca75b0ba7ef4e00668c2211be986"
+  "fact_hash": "3670013ba3937151a83b6ec5f84b57dc22672f33"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(56)\"]}]}",
-  "at": "2026-08-09T09:09:12.054255+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-09T13:28:42.342797+00:00"
  },
  "glossary": [],
  "related": [
