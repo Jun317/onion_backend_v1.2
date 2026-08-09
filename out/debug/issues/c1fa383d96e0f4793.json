@@ -2,18 +2,28 @@
  "id": "c1fa383d96e0f4793",
  "title": "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "SEC"
  ],
- "seen_sources": 1,
- "importance": 70,
+ "seen_sources": 2,
+ "importance": 80,
  "created_at": "2026-08-07T22:01:18.606374+00:00",
- "last_update": "2026-08-07T22:01:18.606374+00:00",
+ "last_update": "2026-08-09T19:53:22.847608+00:00",
  "members": [
+  {
+   "id": "4edb4cf8675fbe2080d5e0acd6e81c2cea3da2fd",
+   "source": "deccanchronicle.com",
+   "tier": "wire",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-economy-registers-108-growth-in-2025-26-as-services-and-allied-sectors-surge-rbi-report-1977962",
+   "title": "Telangana Economy Registers 10 . 8 % Growth in 2025 - 26 as Services and Allied Sectors Surge : RBI Report",
+   "published_at": "2026-08-09T19:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8582
+  },
   {
    "id": "29ab3e53f842e671d9f40dbb727354fad87950c3",
    "source": "manilatimes.net",
@@ -22,7 +32,7 @@
    "title": "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
    "published_at": "2026-08-07T21:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9791
+   "sim_to_centroid": 0.9768
   },
   {
    "id": "f9dbfa8a1197c9086634e014d79ed7bbcb3accf6",
@@ -32,11 +42,18 @@
    "title": "Senvest Capital Inc . Reports Results for the Second Quarter Ended June 30 , 2026",
    "published_at": "2026-08-07T21:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9791
+   "sim_to_centroid": 0.9783
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Telangana Economy Registers 10 . 8 % Growth in 2025 - 26 as Services and Allied Sectors Surge : RBI Report",
+   "source": "deccanchronicle.com",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-economy-registers-108-growth-in-2025-26-as-services-and-allied-sectors-surge-rbi-report-1977962",
+   "at": "2026-08-09T19:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
@@ -52,8 +69,53 @@
    "at": "2026-08-07T21:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-09T19:53:25.201820+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Telangana Economy Registers 10 . 8 % Growth in 2025 - 26 as Services and Allied Sectors Surge : RBI Report",
+    "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
+    "Senvest Capital Inc . Reports Results for the Second Quarter Ended June 30 , 2026"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"기업 실적 발표\",\n  \"one_liner\": \"두 회사가 2분기 실적을 발표했어요.\",\n  \"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"관심 있는 회사의 실적 발표를 확인해 보세요.\",\n  \"details\": [\n    \"NI Holdings, Inc.가 2026년 6월 30일까지인 2분기 실적을 발표했어요.\",\n    \"Senvest Capital Inc.도 같은 날짜까지인 2분기 실적을 발표했어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"실적이 좋으면 해당 회사의 주가가 오를 수 있어요!\",\n    \"실적이 예상보다 나쁘면 주가가 떨어질 수 있어요.\"\n  ],\n  \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [10.8]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Telangana Economy…",
+   "one_liner": "Telangana Economy Registers 10 . 8 % Growth in…",
+   "why_now": null,
+   "details": [
+    "Telangana Economy Registers 10 . 8 % Growth in 2025 - 26 as Services and Allied Sectors Surge : RBI Report",
+    "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
+    "Senvest Capital Inc . Reports Results for the Second Quarter Ended June 30 , 2026"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "2b76ae92d7ec3d105693b09eb3c2207c314fdf2b"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [10.8]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}]}",
+  "at": "2026-08-09T19:53:25.201659+00:00"
+ },
  "glossary": [],
  "related": [
   {
