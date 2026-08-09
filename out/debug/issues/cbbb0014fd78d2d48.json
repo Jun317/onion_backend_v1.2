@@ -2,18 +2,28 @@
  "id": "cbbb0014fd78d2d48",
  "title": "Country passing through Amrit Kaal ...: Uttarakhand CM Dhami at  Tiranga Yatra  in Dehradun",
  "category": "GEO",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "IRAN"
  ],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 2,
+ "importance": 70,
  "created_at": "2026-08-09T10:58:40.038072+00:00",
- "last_update": "2026-08-09T10:58:40.038072+00:00",
+ "last_update": "2026-08-09T20:58:14.784860+00:00",
  "members": [
+  {
+   "id": "d4c01acf4ede57f9de5e0dade63e88600d8c9393",
+   "source": "indiagazette.com",
+   "tier": "wire",
+   "url": "http://www.indiagazette.com/news/279228329/har-ghar-tiranga-yatra-cm-dhami-urges-uttarakhand-people-to-hoist-tricolour-at-homes-on-independence-day",
+   "title": "Har Ghar Tiranga Yatra : CM Dhami urges Uttarakhand people to hoist Tricolour at homes on Independence Day",
+   "published_at": "2026-08-09T20:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9069
+  },
   {
    "id": "850f96ed824f04dce0f03146d5d3c2993f76929a",
    "source": "news.webindia123.com",
@@ -22,7 +32,7 @@
    "title": "Country passing through Amrit Kaal ...: Uttarakhand CM Dhami at  Tiranga Yatra  in Dehradun",
    "published_at": "2026-08-09T10:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9989
   },
   {
    "id": "0c80415fa6af75f0a2d4bd643c111239c7151895",
@@ -32,11 +42,18 @@
    "title": "Country passing through Amrit Kaal ...: Uttarakhand CM Dhami at  Tiranga Yatra  in Dehradun",
    "published_at": "2026-08-09T10:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9989
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Har Ghar Tiranga Yatra : CM Dhami urges Uttarakhand people to hoist Tricolour at homes on Independence Day",
+   "source": "indiagazette.com",
+   "url": "http://www.indiagazette.com/news/279228329/har-ghar-tiranga-yatra-cm-dhami-urges-uttarakhand-people-to-hoist-tricolour-at-homes-on-independence-day",
+   "at": "2026-08-09T20:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Country passing through Amrit Kaal ...: Uttarakhand CM Dhami at  Tiranga Yatra  in Dehradun",
@@ -52,8 +69,44 @@
    "at": "2026-08-09T10:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-09T21:01:54.514356+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Har Ghar Tiranga Yatra : CM Dhami urges Uttarakhand people to hoist Tricolour at homes on Independence Day",
+    "Country passing through Amrit Kaal ...: Uttarakhand CM Dhami at  Tiranga Yatra  in Dehradun"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Har Ghar Tiranga…",
+   "one_liner": "Har Ghar Tiranga Yatra : CM Dhami urges…",
+   "why_now": null,
+   "details": [
+    "Har Ghar Tiranga Yatra : CM Dhami urges Uttarakhand people to hoist Tricolour at homes on Independence Day",
+    "Country passing through Amrit Kaal ...: Uttarakhand CM Dhami at  Tiranga Yatra  in Dehradun"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "2ebb737c421bc22123905e5732d72311849baece"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-09T21:01:54.514256+00:00"
+ },
  "glossary": [],
  "related": [
   {

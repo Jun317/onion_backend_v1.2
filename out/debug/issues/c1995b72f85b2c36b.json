@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-09T17:02:21.456622+00:00",
+  "created_at": "2026-08-09T20:59:07.259330+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -881,8 +881,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"집값 하락에 봄철 매물 부족\", \"one_liner\": \"집값 하락세가 이어지면서 봄철에 내놓을 집이 부족해지고 있어요.\", \"why_now\": \"집값이 떨어지면 집주인들이 집을 팔기보다 기다리려는 경향이 강해져요.\", \"impact_line\": \"집 구하기가 더 어려워질 수 있어요.\", \"details\": [\"집값 하락세가 이어지면서 봄철에 시장에 나올 집이 줄어들고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"집값이 더 오르기 어려워질 수 있어요!\", \"집을 사려는 사람들은 선택의 폭이 좁아질 수 있어요!\"], \"glossary\": [], \"impact_line\": \"집 구하기가 더 어려워질 수 있어요.\"}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +911,8 @@
   "fact_hash": "8023e61aa8440b96bcb016c17a57166d30d6d4ac"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-09T17:02:21.456558+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-09T20:59:07.259204+00:00"
  },
  "glossary": [],
  "related": [

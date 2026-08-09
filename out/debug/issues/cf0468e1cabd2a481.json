@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-09T17:04:13.589077+00:00",
+  "created_at": "2026-08-09T21:00:40.108135+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,14 +881,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"주식 시장 대폭락 경고\", \"one_liner\": \"투자가 마이클 버리가 1987년과 같은 주식 시장 대폭락을 경고했어요.\", \"why_now\": \"과거 대폭락은 많은 사람들의 투자 자산을 순식간에 사라지게 했어요.\", \"impact_line\": \"주식 시장이 크게 흔들릴 수 있어요.\", \"details\": [\"투자가 마이클 버리가 1987년과 같은 주식 시장 대폭락을 경고했어요.\", \"그는 현재 경제 상황이 당시와 비슷하다고 보고 있어요.\"], \"visual_type\": \"us_10y\", \"effects\": [\"주식 시장이 크게 하락할 수 있어 투자 자산 가치가 줄어들 수 있어요!\", \"경제 전반에 대한 불안감이 커질 수 있어요!\"], \"glossary\": [{\"term\": \"주식 시장\", \"easy\": \"기업의 소유권을 나누어 놓은 것을 사고파는 곳이에요.\", \"example\": \"주식 시장이 오르면 내 투자 자산 가치도 보통 올라요.\"}, {\"term\": \"투자가\", \"easy\": \"자신의 돈을 여러 곳에 투자해 더 큰 이익을 얻으려는 사람이에요.\", \"example\": \"유명 투자가의 투자 방식을 따라 하는 사람들도 많아요.\"}], \"market_sentiment\": \"negative\"}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -911,20 +905,20 @@
   "fact_hash": "4f17b9c73d48cb9ed354d631cec3c66239c98bd8"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-09T17:04:13.588968+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-09T21:00:40.108014+00:00"
  },
  "glossary": [],
  "related": [
   {
-   "id": "c473082d7f30acb2b",
-   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "ccc137270dbb9d742",
-   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "id": "c473082d7f30acb2b",
+   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
    "category": "MARKET",
    "shared": []
   },

@@ -9,11 +9,21 @@
  "entity_keys": [
   "META"
  ],
- "seen_sources": 5,
- "importance": 85,
+ "seen_sources": 6,
+ "importance": 90,
  "created_at": "2026-08-08T09:07:02.138764+00:00",
- "last_update": "2026-08-08T09:59:57.720176+00:00",
+ "last_update": "2026-08-09T20:58:14.771899+00:00",
  "members": [
+  {
+   "id": "5880d38bc75b26f96ba0cb98eb488472925ef085",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/technology/ai/articles/heres-why-iren-edge-neocloud-192000275.html",
+   "title": "Here Why Iren Has an Edge in the Neocloud Market , According to Meta Mark Zuckerberg",
+   "published_at": "2026-08-09T20:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8988
+  },
   {
    "id": "5aef3f189fe06cf17d2d8837624c28972c81c9d1",
    "source": "heraldglobe.com",
@@ -22,7 +32,7 @@
    "title": "MetaOptics Sharpens Focus on Metalens Commercialisation ; Withdraws Nasdaq Listing Application , and Defers U . S . Dual Listing Plan",
    "published_at": "2026-08-08T08:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9555
+   "sim_to_centroid": 0.952
   },
   {
    "id": "03a29600f601e8ddbee6ad8b06f4b5d0b46c1754",
@@ -32,7 +42,7 @@
    "title": "Metalpha Technology ( NASDAQ : MATH ) Trading Up 3 . 2 % – Should You Buy ?",
    "published_at": "2026-08-08T05:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8906
+   "sim_to_centroid": 0.8927
   },
   {
    "id": "73384689d5ef612b631ebdf709dc0f2393f05c77",
@@ -42,7 +52,7 @@
    "title": "Sanctuary Metals Releases Mid - 2026 Gold IRA and Silver IRA Rollover Guide as Investors Research Reviews , Fees and Precious Metals IRAs",
    "published_at": "2026-08-07T13:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8828
+   "sim_to_centroid": 0.8841
   },
   {
    "id": "a300d2f5697541345771f87d2b74d3021efb3c7c",
@@ -52,7 +62,7 @@
    "title": "Meta Had Six Weeks to Stop Japan $804M Scam Crisis : It Chose Revenue",
    "published_at": "2026-08-07T13:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9481
+   "sim_to_centroid": 0.9473
   },
   {
    "id": "396f99a818d9ef02d81c49bacf71b24d6cd1ec78",
@@ -62,11 +72,18 @@
    "title": "Ucore Rare Metals , Inc .: Ucore Announces $60 Million Bought Deal Public Offering of Common Shares",
    "published_at": "2026-08-07T00:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8619
+   "sim_to_centroid": 0.8641
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Here Why Iren Has an Edge in the Neocloud Market , According to Meta Mark Zuckerberg",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/technology/ai/articles/heres-why-iren-edge-neocloud-192000275.html",
+   "at": "2026-08-09T20:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "MetaOptics Sharpens Focus on Metalens Commercialisation ; Withdraws Nasdaq Listing Application , and Defers U . S . Dual Listing Plan",
@@ -104,47 +121,46 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-08T20:56:35.453052+00:00",
+  "model": "template",
+  "created_at": "2026-08-09T21:09:37.692247+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
     "MetaOptics Sharpens Focus on Metalens Commercialisation ; Withdraws Nasdaq Listing Application , and Defers U . S . Dual Listing Plan",
-    "Metalpha Technology ( NASDAQ : MATH ) Trading Up 3 . 2 % – Should You Buy ?",
-    "Sanctuary Metals Releases Mid - 2026 Gold IRA and Silver IRA Rollover Guide as Investors Research Reviews , Fees and Precious Metals IRAs",
     "Meta Had Six Weeks to Stop Japan $804M Scam Crisis : It Chose Revenue",
-    "Ucore Rare Metals , Inc .: Ucore Announces $60 Million Bought Deal Public Offering of Common Shares"
+    "Here Why Iren Has an Edge in the Neocloud Market , According to Meta Mark Zuckerberg",
+    "Metalpha Technology ( NASDAQ : MATH ) Trading Up 3 . 2 % – Should You Buy ?",
+    "Sanctuary Metals Releases Mid - 2026 Gold IRA and Silver IRA Rollover Guide as Investors Research Reviews , Fees and Precious Metals IRAs"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"메타옵틱스, 나스닥 상장 계획 철회\",\n  \"one_liner\": \"메타옵틱스가 미국 증권 시장 상장 계획을 잠정 연기했어요.\",\n  \"why_now\": \"상장 계획 연기는 회사의 자금 조달이나 성장 전략에 영향을 줄 수 있어요.\",\n  \"impact_line\": \"투자자들의 관심이 다른 곳으로 옮겨갈 수 있어요.\",\n  \"details\": [\n    \"메타옵틱스는 금속 렌즈 사업에 집중하기로 했어요.\",\n    \"미국 나스닥 상장 신청을 철회했어요.\",\n    \"미국 증시 동시 상장 계획도 잠정 연기했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"회사의 향후 사업 방향에 대한 불확실성이 커질 수 있어요!\",\n    \"투자자들은 회사의 실적 발표나 사업 계획 변화를 더 주의 깊게 지켜볼 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"나스닥\",\n      \"easy\": \"미국에 있는 세계적인 전자 주식 거래소예요.\",\n      \"example\": \"나스닥에 상장하면 많은 투자자들이 회사를 알게 돼요.\"\n    },\n    {\n      \"term\": \"금속 렌즈\",\n      \"easy\": \"금속으로 만든 렌즈로, 기존 렌즈보다 얇고 가볍게 만들 수 있어요.\",\n      \"example\": \"스마트폰 카메라나 VR 기기에 사용될 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "메타옵틱스, 나스닥 상장 계획 철회",
-   "one_liner": "메타옵틱스가 미국 증권 시장 상장 계획을 잠정 연기했어요.",
-   "why_now": "상장 계획 연기는 회사의 자금 조달이나 성장 전략에 영향을 줄 수 있어요.",
+   "title": "MetaOptics Sharpens…",
+   "one_liner": "MetaOptics Sharpens Focus on Metalens…",
+   "why_now": null,
    "details": [
-    "메타옵틱스는 금속 렌즈 사업에 집중하기로 했어요.",
-    "미국 나스닥 상장 신청을 철회했어요.",
-    "미국 증시 동시 상장 계획도 잠정 연기했어요."
+    "MetaOptics Sharpens Focus on Metalens Commercialisation ; Withdraws Nasdaq Listing Application , and Defers U . S . Dual Listing Plan",
+    "Meta Had Six Weeks to Stop Japan $804M Scam Crisis : It Chose Revenue",
+    "Here Why Iren Has an Edge in the Neocloud Market , According to Meta Mark Zuckerberg"
    ],
-   "effects": [
-    "회사의 향후 사업 방향에 대한 불확실성이 커질 수 있어요!",
-    "투자자들은 회사의 실적 발표나 사업 계획 변화를 더 주의 깊게 지켜볼 것으로 예상돼요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "3f227af4cbc616eae11d2348872adf42a7185ca5"
+  "fact_hash": "303f1ea091d9ae9c758bb5466e2f8ced4691e4f4"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-08T17:00:41.711773+00:00"
+  "at": "2026-08-09T21:09:37.692185+00:00"
  },
  "glossary": [],
  "related": [
