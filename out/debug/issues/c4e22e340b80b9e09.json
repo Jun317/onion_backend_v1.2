@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-08T20:56:23.763293+00:00",
+  "created_at": "2026-08-09T02:35:00.837860+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,12 +64,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"페프시 주식 전망\",\n   \"one_liner\": \"월 스트리트 전문가들이 페프시 주식이 오를지 내릴지 예측하고 있어요\",\n   \"why_now\": \"주식 전망은 투자자들에게 중요한 정보예요\",\n   \"impact_line\": \"주식 투자에 관심 있는 사람들에게 영향을 줄 수 있어요\",\n   \"details\": [\n       \"월 스트리트 전문가들이 페프시 주식에 대해 예측하고 있어요\",\n       \"페프시와 코카콜라 주식이 다르게 가격이 결정돼요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"페프시 주식이 오르면 투자자들에게 수익이 늘 수 있어요!\",\n       \"페프시 주식이 내리면 투자자들에게 손실이 날 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -87,8 +93,8 @@
   "fact_hash": "53b2faf13f4e4b6ce0b285cd3295dd1fd5443001"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-08T20:56:23.763224+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-09T02:35:00.837804+00:00"
  },
  "glossary": [],
  "related": [
