@@ -53,8 +53,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-09T02:34:47.930214+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-09T06:05:22.284982+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,7 +64,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"삼성전자 관련 해외 기사\", \"one_liner\": \"해외에서 삼성전자와 경쟁사들에 대한 분석 기사가 나왔어요.\", \"why_now\": \"해외 언론이 국내 기업을 다룰 때, 우리 경제 상황을 엿볼 수 있어요.\", \"impact_line\": \"삼성전자 주가에 대한 해외 투자자들의 관심이 높아질 수 있어요.\", \"details\": [\"해외 언론에서 삼성전자와 넷앱을 비교 분석했어요.\", \"삼성전자의 경쟁사들에 대한 분석도 함께 다뤄졌어요.\"], \"visual_type\": \"none\", \"effects\": [\"삼성전자에 대한 해외 투자자들의 관심이 높아지면 주가에 긍정적인 영향을 줄 수 있어요!\", \"경쟁사들과의 비교 분석 결과에 따라 삼성전자의 사업 전략이 달라질 수 있어요!\"], \"glossary\": [{\"term\": \"삼성전자\", \"easy\": \"한국을 대표하는 전자제품 제조 기업이에요.\", \"example\": \"삼성전자 스마트폰은 전 세계적으로 인기가 많아요.\"}, {\"term\": \"경쟁사\", \"easy\": \"같은 종류의 상품이나 서비스를 팔며 서로 겨루는 회사예요.\", \"example\": \"자동차 회사들은 서로 더 좋은 차를 만들기 위해 경쟁해요.\"}, {\"term\": \"분석 기사\", \"easy\": \"어떤 사안에 대해 자세히 조사하고 그 내용을 설명하는 글이에요.\", \"example\": \"경제 전문가가 최근 물가 상승에 대한 분석 기사를 냈어요.\"}], \"impact_line\": \"삼성전자 주가에 대한 해외 투자자들의 관심이 높아질 수 있어요.\"}",
+  "raw_response": "{\"title\": \"삼성전자 관련 해외 기사\", \"one_liner\": \"해외에서 삼성전자와 경쟁사들에 대한 분석 기사가 나왔어요.\", \"why_now\": \"해외 언론이 삼성전자를 다루는 것은 우리 경제에 미치는 영향이 커서 중요해요.\", \"impact_line\": \"삼성전자 주가에 영향을 줄 수 있어요.\", \"details\": [\"해외 언론에서 삼성전자와 넷앱을 비교 분석했어요.\", \"삼성전자가 해외 증시에서 SSNLF라는 이름으로 거래되고 있어요.\", \"넷앱은 나스닥 시장에서 NTAP라는 이름으로 거래되고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"삼성전자 주가에 긍정적 또는 부정적 영향을 줄 수 있어요!\"], \"glossary\": [{\"term\": \"SSNLF\", \"easy\": \"삼성전자가 해외 증시에서 사용하는 종목 코드예요.\", \"example\": \"해외에서 삼성전자 주식을 살 때 이 코드를 사용해요.\"}, {\"term\": \"NTAP\", \"easy\": \"넷앱이라는 회사가 나스닥 시장에서 사용하는 종목 코드예요.\", \"example\": \"넷앱 주식을 거래할 때 이 코드를 사용해요.\"}], \"impact_line\": \"삼성전자 주가에 영향을 줄 수 있어요.\"}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
@@ -74,21 +74,22 @@
    },
    {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Analyzing Samsung…",
-   "one_liner": "Analyzing Samsung Electronics ( SSNLF ) and Its…",
-   "why_now": null,
+   "title": "삼성전자 관련 해외 기사",
+   "one_liner": "해외에서 삼성전자와 경쟁사들에 대한 분석 기사가 나왔어요.",
+   "why_now": "해외 언론이 삼성전자를 다루는 것은 우리 경제에 미치는 영향이 커서 중요해요.",
    "details": [
-    "Analyzing Samsung Electronics ( SSNLF ) and Its Peers",
-    "Reviewing Samsung Electronics ( OTCMKTS : SSNLF ) & NetApp ( NASDAQ : NTAP )"
+    "해외 언론에서 삼성전자와 넷앱을 비교 분석했어요.",
+    "삼성전자가 해외 증시에서 SSNLF라는 이름으로 거래되고 있어요.",
+    "넷앱은 나스닥 시장에서 NTAP라는 이름으로 거래되고 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "삼성전자 주가에 긍정적 또는 부정적 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "17d178b38c3402d0512f16e65ffb901153db7ff2"
  },
