@@ -1,0 +1,132 @@
+{
+ "id": "c28a5eaea19c4dd42",
+ "title": "Eli Lilly and Company Q2 Earnings Call Highlights",
+ "category": "EARNINGS",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "LLY"
+ ],
+ "seen_sources": 2,
+ "importance": 75,
+ "created_at": "2026-08-09T10:58:40.037502+00:00",
+ "last_update": "2026-08-09T10:58:40.038825+00:00",
+ "members": [
+  {
+   "id": "88150c7e288897ebe9b805d959377d4845c351ee",
+   "source": "insidermonkey.com",
+   "tier": "wire",
+   "url": "https://www.insidermonkey.com/blog/eli-lilly-lly-posts-blowout-growth-and-raises-its-outlook-1808392/",
+   "title": "Eli Lilly ( LLY ) Posts Blowout Growth And Raises Its Outlook",
+   "published_at": "2026-08-09T10:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9736
+  },
+  {
+   "id": "0dc7412ae1634759b95e4d88d1d1350db586b501",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-company-q2-earnings-160404200.html",
+   "title": "Eli Lilly and Company Q2 Earnings Call Highlights",
+   "published_at": "2026-08-08T17:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9736
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Eli Lilly ( LLY ) Posts Blowout Growth And Raises Its Outlook",
+   "source": "insidermonkey.com",
+   "url": "https://www.insidermonkey.com/blog/eli-lilly-lly-posts-blowout-growth-and-raises-its-outlook-1808392/",
+   "at": "2026-08-09T10:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Eli Lilly and Company Q2 Earnings Call Highlights",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-company-q2-earnings-160404200.html",
+   "at": "2026-08-08T17:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-09T10:58:43.086789+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Eli Lilly ( LLY ) Posts Blowout Growth And Raises Its Outlook",
+    "Eli Lilly and Company Q2 Earnings Call Highlights"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n    \"title\": \"릴리, 실적 크게 늘려 전망 상향\",\n    \"one_liner\": \"릴리가 예상보다 훨씬 좋은 실적을 내고 전망을 높였어요.\",\n    \"why_now\": \"기업 실적이 좋으면 주가가 오르고 경제 전반에 긍정적인 영향을 줄 수 있어요.\",\n    \"impact_line\": \"릴리 주가가 오르면 관련 투자자들의 수익이 늘어날 수 있어요.\",\n    \"details\": [\n        \"릴리가 예상보다 훨씬 좋은 실적을 발표했어요.\",\n        \"릴리가 앞으로의 실적 전망을 더 높게 잡았어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"릴리의 실적 개선은 제약 산업 전반에 긍정적인 신호로 해석될 수 있어요!\",\n        \"이러한 실적 호조가 계속되면 릴리의 시장 점유율 확대에 도움이 될 것으로 보여요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"릴리\",\n            \"easy\": \"미국의 유명한 제약 회사 이름이에요.\",\n            \"example\": \"릴리에서 만든 신약이 많은 환자들에게 도움이 되고 있어요.\"\n        }\n    ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Eli Lilly ( LLY )…",
+   "one_liner": "Eli Lilly ( LLY ) Posts Blowout Growth And…",
+   "why_now": null,
+   "details": [
+    "Eli Lilly ( LLY ) Posts Blowout Growth And Raises Its Outlook",
+    "Eli Lilly and Company Q2 Earnings Call Highlights"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "030f85dbb4e44507101eb683041aac57bf2aedd4"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-09T10:58:43.086696+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c6fdad826562ed3e4",
+   "title": "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c8759b0f51add9c4b",
+   "title": "CXMT becomes China most valuable listed company",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c2e1f0924eab58cb9",
+   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c2fe47d2110ccdaa3",
+   "title": "Prediction : Apple Will Become the Second Company in History to Reach a $5 Trillion Market Cap . Here the Math .",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "cc7a847a31a119032",
+   "title": "Meta Had Six Weeks to Stop Japan $804M Scam Crisis : It Chose Revenue",
+   "category": "EARNINGS",
+   "shared": []
+  }
+ ]
+}

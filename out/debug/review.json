@@ -1,6 +1,48 @@
 {
- "generated_at": "2026-08-09T10:03:14.263345+00:00",
+ "generated_at": "2026-08-09T10:59:24.905856+00:00",
  "queue": [
+  {
+   "issue_id": "c71be4b20900d177d",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "title 22자 초과(23)"
+      ]
+     },
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-08-09T10:59:21.987682+00:00"
+  },
+  {
+   "issue_id": "c28a5eaea19c4dd42",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "details 3문장 미만"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "details 3문장 미만"
+      ]
+     }
+    ]
+   },
+   "at": "2026-08-09T10:58:43.086696+00:00"
+  },
   {
    "issue_id": "c12fc720a63926713",
    "reason": {

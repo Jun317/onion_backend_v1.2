@@ -9,11 +9,21 @@
  "entity_keys": [
   "CHINA"
  ],
- "seen_sources": 2,
- "importance": 80,
+ "seen_sources": 3,
+ "importance": 85,
  "created_at": "2026-08-08T07:26:36.939560+00:00",
- "last_update": "2026-08-08T17:52:58.725763+00:00",
+ "last_update": "2026-08-09T10:58:40.015706+00:00",
  "members": [
+  {
+   "id": "cd5ec20ecdef0d3aa2c332a5202ea88aaf1940a3",
+   "source": "slguardian.org",
+   "tier": "wire",
+   "url": "https://slguardian.org/germany-china-trade-deficit-widens-as-chinese-industry-cuts-reliance-on-europe/",
+   "title": "Germany - China Trade Deficit Widens as Chinese Industry Cuts Reliance on Europe",
+   "published_at": "2026-08-09T10:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8543
+  },
   {
    "id": "aea8ccbf2a4fbadd1b9c054216bf4108cbf5f594",
    "source": "tribuneonlineng.com",
@@ -22,7 +32,7 @@
    "title": "Nigeria , China expand partnership to science , technology - FG",
    "published_at": "2026-08-08T17:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8803
+   "sim_to_centroid": 0.8867
   },
   {
    "id": "9e7f9c97942a74a2c92eca5e49bc3e08b73a06c3",
@@ -32,7 +42,7 @@
    "title": "Interview : China zero - tariff treatment for African products opens new chapter in economic cooperation , says Nigerien expert",
    "published_at": "2026-08-08T05:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9986
+   "sim_to_centroid": 0.9961
   },
   {
    "id": "3a8f7b10bb206ba03436edc32ac39d53eda3f27d",
@@ -42,11 +52,18 @@
    "title": "Interview : China zero - tariff treatment for African products opens new chapter in economic cooperation , says Nigerien expert",
    "published_at": "2026-08-08T03:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9986
+   "sim_to_centroid": 0.9961
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Germany - China Trade Deficit Widens as Chinese Industry Cuts Reliance on Europe",
+   "source": "slguardian.org",
+   "url": "https://slguardian.org/germany-china-trade-deficit-widens-as-chinese-industry-cuts-reliance-on-europe/",
+   "at": "2026-08-09T10:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Nigeria , China expand partnership to science , technology - FG",
@@ -70,49 +87,52 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-08T17:52:59.993481+00:00",
+  "model": "template",
+  "created_at": "2026-08-09T10:59:21.987740+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "Germany - China Trade Deficit Widens as Chinese Industry Cuts Reliance on Europe",
     "Nigeria , China expand partnership to science , technology - FG",
     "Interview : China zero - tariff treatment for African products opens new chapter in economic cooperation , says Nigerien expert"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"나이지리아-중국 협력\",\n   \"one_liner\": \"나이지리아와 중국이 과학·기술 분야에서 협력을 확대했어요\",\n   \"why_now\": \"나이지리아와 중국이 협력하면 경제가 발전할 수 있어요\",\n   \"impact_line\": \"아프리카 제품 수출이 늘어날 수 있어요\",\n   \"details\": [\n       \"나이지리아와 중국이 과학·기술 분야에서 협력을 확대했어요\",\n       \"중국은 아프리카 제품에 무관세 혜택을 주고 있어요\",\n       \"이 협력으로 경제 협력이 새로운 단계에 들어섰다고 전문가가 말했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"아프리카 제품 수출이 늘어나 아프리카 경제가 좋아질 수 있어요!\",\n       \"과학·기술 분야의 협력이 둘 사이의 관계를 강화할 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"중국, 유럽 의존도 낮추며 무역 적자 확대\",\n  \"one_liner\": \"중국이 유럽 제품 수입을 줄이면서 독일과의 무역 적자가 늘었어요.\",\n  \"why_now\": \"중국이 유럽 대신 다른 나라와의 협력을 늘리면서 경제 관계가 바뀌고 있어요.\",\n  \"impact_line\": \"유럽 제품 가격이 오르거나 구하기 어려워질 수 있어요.\",\n  \"details\": [\n    \"독일과 중국 간 무역 적자가 더 커졌어요.\",\n    \"중국 산업이 유럽 제품에 대한 의존도를 줄이고 있어요.\",\n    \"나이지리아와 중국은 과학 기술 분야 협력을 확대하기로 했어요.\",\n    \"니제르 전문가에 따르면, 중국의 아프리카 제품 무관세 정책이 협력의 새 장을 열었어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"중국이 유럽 제품 수입을 줄이면, 유럽 기업들의 수출이 줄어들 수 있어요!\",\n    \"중국이 아프리카 국가들과의 경제 협력을 강화하면서 새로운 무역 흐름이 생겨날 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"무역 적자\",\n      \"easy\": \"나라가 다른 나라에서 물건을 사 오는 금액이, 다른 나라에 물건을 파는 금액보다 많을 때를 말해요.\",\n      \"example\": \"무역 적자가 계속되면 나라 경제에 좋지 않은 영향을 줄 수 있어요.\"\n    },\n    {\n      \"term\": \"의존도\",\n      \"easy\": \"어떤 것에 도움을 받거나 그것에 기대는 정도를 말해요.\",\n      \"example\": \"특정 나라에만 의존하면 경제가 불안정해질 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "title 22자 초과(23)"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "나이지리아-중국 협력",
-   "one_liner": "나이지리아와 중국이 과학·기술 분야에서 협력을 확대했어요",
-   "why_now": "나이지리아와 중국이 협력하면 경제가 발전할 수 있어요",
+   "title": "Germany - China…",
+   "one_liner": "Germany - China Trade Deficit Widens as Chinese…",
+   "why_now": null,
    "details": [
-    "나이지리아와 중국이 과학·기술 분야에서 협력을 확대했어요",
-    "중국은 아프리카 제품에 무관세 혜택을 주고 있어요",
-    "이 협력으로 경제 협력이 새로운 단계에 들어섰다고 전문가가 말했어요"
+    "Germany - China Trade Deficit Widens as Chinese Industry Cuts Reliance on Europe",
+    "Nigeria , China expand partnership to science , technology - FG",
+    "Interview : China zero - tariff treatment for African products opens new chapter in economic cooperation , says Nigerien expert"
    ],
-   "effects": [
-    "아프리카 제품 수출이 늘어나 아프리카 경제가 좋아질 수 있어요!",
-    "과학·기술 분야의 협력이 둘 사이의 관계를 강화할 것으로 예상돼요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "63ec26110d8b3ede98cc6839c408bf22ebac886c"
+  "fact_hash": "15de249998dd780b1bc3f203c385fb38b86996a4"
  },
- "review": null,
- "glossary": [
-  {
-   "term": "관세",
-   "easy": "수입 물건에 매기는 세금이에요.",
-   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
-  }
- ],
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(23)\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-09T10:59:21.987682+00:00"
+ },
+ "glossary": [],
  "related": [
   {
    "id": "c03074aeed49bf60f",
