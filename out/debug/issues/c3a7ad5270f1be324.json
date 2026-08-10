@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-10T06:53:08.985166+00:00",
+  "created_at": "2026-08-10T10:45:31.272219+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,12 +881,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"인도, 미국 러시아산 원유 관세에 이의 제기\",\n\"one_liner\": \"인도가 미국이 러시아산 원유에 부과한 관세가 이중 기준이라며 문제를 제기했어요.\",\n\"why_now\": \"다른 나라의 무역 정책에 대한 이의 제기는 국제 관계나 물가에 영향을 줄 수 있어요.\",\n\"impact_line\": \"국제 유가나 관련 상품 가격에 영향을 줄 수 있어요.\",\n\"details\": [\n\"인도 정부가 미국이 러시아산 원유에 부과한 관세에 대해 이중 기준이라고 주장했어요.\",\n\"인도는 이 관세 부과가 국제 무역 원칙에 어긋난다고 보고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"국제 유가나 석유 관련 상품의 가격 변동성이 커질 수 있어요!\",\n\"인도와 미국 간의 무역 관계에 긴장이 생길 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"관세\",\n\"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 돈이에요.\",\n\"example\": \"수입 과자에 관세가 붙으면 과자 가격이 더 비싸져요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "title 22자 초과(24)",
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "title 22자 초과(24)",
+     "details 3문장 미만"
     ]
    }
   ],
@@ -905,8 +913,8 @@
   "fact_hash": "5bb3cc2b792c57f5468feac3fa53abad8a2cb4cd"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-10T06:53:08.985109+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(24)\", \"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(24)\", \"details 3문장 미만\"]}]}",
+  "at": "2026-08-10T10:45:31.272162+00:00"
  },
  "glossary": [],
  "related": [

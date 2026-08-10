@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-10T06:48:50.119638+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-10T10:41:40.017929+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,31 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"호주 담배 밀수 문제 심각\",\n    \"one_liner\": \"호주에서 불법 담배 문제를 어떻게 해결할지 의견이 나뉘고 있어요.\",\n    \"why_now\": \"불법 담배는 세금 손실과 함께 건강에도 좋지 않은 영향을 줄 수 있어요.\",\n    \"impact_line\": null,\n    \"details\": [\n        \"호주에서 불법 담배 문제가 심각한 상황이에요.\",\n        \"이 문제에 대한 해결 방안을 두고 호주 내에서 의견이 갈리고 있어요.\",\n        \"이 소식은 2026년 8월 10일에 나왔어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [],\n    \"glossary\": [\n        {\n            \"term\": \"불법 담배\",\n            \"easy\": \"세금을 내지 않고 몰래 들여오거나 만들어 파는 담배를 말해요.\",\n            \"example\": \"불법 담배는 일반 담배보다 훨씬 싸게 팔릴 수 있어요.\"\n        }\n    ]\n}",
+  "raw_response": "{\n\"title\": \"호주 담배 밀수 문제 심각\",\n\"one_liner\": \"호주에서 불법 담배 문제를 어떻게 해결할지 의견이 나뉘고 있어요.\",\n\"why_now\": \"불법 담배는 세금 손실과 함께 건강에도 좋지 않은 영향을 줄 수 있어요.\",\n\"impact_line\": \"불법 담배 유통이 늘면 서민들의 건강이 위협받을 수 있어요.\",\n\"details\": [\n\"호주에서 불법 담배 유통 문제가 심각한 상황이에요.\",\n\"이 문제를 어떻게 해결해야 할지 사회적 논의가 필요한 상태예요.\",\n\"정부의 단속 강화와 국민들의 관심이 필요한 시점이에요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"불법 담배 유통이 늘면 합법적인 담배 시장이 위축될 수 있어요!\",\n\"정부의 세수 감소로 이어져 사회적 비용이 증가할 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"불법 담배\",\n\"easy\": \"세금을 내지 않고 몰래 들여오거나 만들어 파는 담배를 말해요.\",\n\"example\": \"단속을 피해 몰래 파는 담배는 건강에도 해로울 수 있어요.\"\n}\n]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects 1~2문장 아님"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Australia is divided…",
-   "one_liner": "Australia is divided over how to tackle its…",
-   "why_now": null,
+   "title": "호주 담배 밀수 문제 심각",
+   "one_liner": "호주에서 불법 담배 문제를 어떻게 해결할지 의견이 나뉘고 있어요.",
+   "why_now": "불법 담배는 세금 손실과 함께 건강에도 좋지 않은 영향을 줄 수 있어요.",
    "details": [
-    "Australia is divided over how to tackle its illegal tobacco crisis - 10 - Aug - 2026",
-    "Coal stocks at power plants may fall 20 % by Sept - end",
-    "Hyperliquid RWA perps boom is eating into the revenue that backs HYPE"
+    "호주에서 불법 담배 유통 문제가 심각한 상황이에요.",
+    "이 문제를 어떻게 해결해야 할지 사회적 논의가 필요한 상태예요.",
+    "정부의 단속 강화와 국민들의 관심이 필요한 시점이에요."
    ],
-   "effects": [],
+   "effects": [
+    "불법 담배 유통이 늘면 합법적인 담배 시장이 위축될 수 있어요!",
+    "정부의 세수 감소로 이어져 사회적 비용이 증가할 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "df48d3d55df56e273c55bb0772ae149205a38594"
