@@ -55,7 +55,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-10T02:42:45.520470+00:00",
+  "created_at": "2026-08-10T06:50:22.617073+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -65,14 +65,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"엔비디아, AI 주식 시장의 핵심\", \"one_liner\": \"엔비디아는 AI 주식 시장에서 매우 중요한 역할을 하고 있어요.\", \"why_now\": \"AI 기술 발전으로 엔비디아의 중요성이 더욱 커지고 있어요.\", \"impact_line\": \"AI 관련 기술주에 대한 관심이 높아질 수 있어요.\", \"details\": [\"엔비디아가 AI 주식 시장에서 큰 주목을 받고 있어요.\", \"엔비디아는 AI 기술 발전에 핵심적인 역할을 하고 있어요.\", \"AI 관련 기업들의 실적과 성장에 대한 기대감이 커지고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"AI 기술 관련 기업들의 주가 상승이 기대돼요!\", \"AI 기술 발전이 더욱 가속화될 수 있어요.\"], \"glossary\": [{\"term\": \"AI\", \"easy\": \"인공지능을 뜻하는 말로, 컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\", \"example\": \"AI 스피커는 사람의 말을 알아듣고 대답해줘요.\"}, {\"term\": \"IPO\", \"easy\": \"기업이 처음으로 주식 시장에 나와 주식을 공개적으로 파는 것을 말해요.\", \"example\": \"새로운 회사가 IPO를 통해 투자자들에게 주식을 팔았어요.\"}]}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -94,8 +88,8 @@
   "fact_hash": "dae13fbfe0b377ea39ed681c50d1d1f3bf9ea041"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-10T02:42:45.520374+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-10T06:50:22.617019+00:00"
  },
  "glossary": [],
  "related": [

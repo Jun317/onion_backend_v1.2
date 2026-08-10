@@ -121,8 +121,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-10T02:41:11.459273+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-10T06:48:22.227350+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -135,26 +135,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"메타옵틱스 상장 계획 철회\",\n\"one_liner\": \"메타옵틱스가 나스닥 상장 신청을 철회하고 미국 상장 계획을 연기했어요.\",\n\"why_now\": \"기업이 주식 시장에 상장하면 자금을 더 쉽게 조달하고 기업 인지도를 높일 수 있어요.\",\n\"impact_line\": null,\n\"details\": [\n\"메타옵틱스가 렌즈 사업에 집중하기로 결정했어요.\",\n\"미국 나스닥 시장 상장 신청을 철회했어요.\",\n\"미국 증시 상장 계획을 잠시 미루기로 했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"기업의 자금 조달 계획에 차질이 생길 수 있어요!\",\n\"투자자들의 관심이 다른 곳으로 옮겨갈 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"나스닥\",\n\"easy\": \"미국에 있는 세계적인 주식 시장 중 하나예요.\",\n\"example\": \"나스닥에 상장된 회사들은 기술주가 많은 것으로 알려져 있어요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects[0] 느낌표 종결 아님",
+     "effects[1] 느낌표 종결 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "MetaOptics Sharpens…",
-   "one_liner": "MetaOptics Sharpens Focus on Metalens…",
-   "why_now": null,
+   "title": "메타옵틱스 상장 계획 철회",
+   "one_liner": "메타옵틱스가 나스닥 상장 신청을 철회하고 미국 상장 계획을 연기했어요.",
+   "why_now": "기업이 주식 시장에 상장하면 자금을 더 쉽게 조달하고 기업 인지도를 높일 수 있어요.",
    "details": [
-    "MetaOptics Sharpens Focus on Metalens Commercialisation ; Withdraws Nasdaq Listing Application , and Defers U . S . Dual Listing Plan",
-    "Meta Had Six Weeks to Stop Japan $804M Scam Crisis : It Chose Revenue",
-    "Here Why Iren Has an Edge in the Neocloud Market , According to Meta Mark Zuckerberg"
+    "메타옵틱스가 렌즈 사업에 집중하기로 결정했어요.",
+    "미국 나스닥 시장 상장 신청을 철회했어요.",
+    "미국 증시 상장 계획을 잠시 미루기로 했어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "기업의 자금 조달 계획에 차질이 생길 수 있어요!",
+    "투자자들의 관심이 다른 곳으로 옮겨갈 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "303f1ea091d9ae9c758bb5466e2f8ced4691e4f4"
  },
