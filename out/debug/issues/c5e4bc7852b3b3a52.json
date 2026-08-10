@@ -2,18 +2,28 @@
  "id": "c5e4bc7852b3b3a52",
  "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "AAPL"
  ],
- "seen_sources": 1,
- "importance": 70,
+ "seen_sources": 2,
+ "importance": 75,
  "created_at": "2026-08-10T21:08:06.100666+00:00",
- "last_update": "2026-08-10T22:03:39.507576+00:00",
+ "last_update": "2026-08-10T23:02:10.511661+00:00",
  "members": [
+  {
+   "id": "7d3e6901ab88b2a3757c2b40c2c159daa6123076",
+   "source": "wccftech.com",
+   "tier": "wire",
+   "url": "https://wccftech.com/tsmc-apple-a20-pro-dram-shortage-1-billion-refuted/",
+   "title": "TSMC Holding $1 Billion Of Apple A20 Pro Supply Refuted By Analyst , Says That DRAM Shortage Is Very Real , But Report Underestimates The Two Robust Operational Planning",
+   "published_at": "2026-08-10T22:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8626
+  },
   {
    "id": "034c1a57bf2dbfe790cbd26b3d67b973175218d7",
    "source": "finance.yahoo.com",
@@ -22,7 +32,7 @@
    "title": "Apple Stock Falls Amid Concerns About iPhone Setback",
    "published_at": "2026-08-10T20:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9613
+   "sim_to_centroid": 0.9611
   },
   {
    "id": "d3d4f0283cf5ec8a0fae1825670026b0898706e7",
@@ -32,7 +42,7 @@
    "title": "Apple tests CXMT Chinese memory chips for iPhones , MacBooks",
    "published_at": "2026-08-10T14:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8797
+   "sim_to_centroid": 0.8878
   },
   {
    "id": "5ff44ac08a9fb4ed7d637a5cc3419152cdd81eeb",
@@ -42,11 +52,18 @@
    "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
    "published_at": "2026-08-09T23:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9593
+   "sim_to_centroid": 0.9545
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "TSMC Holding $1 Billion Of Apple A20 Pro Supply Refuted By Analyst , Says That DRAM Shortage Is Very Real , But Report Underestimates The Two Robust Operational Planning",
+   "source": "wccftech.com",
+   "url": "https://wccftech.com/tsmc-apple-a20-pro-dram-shortage-1-billion-refuted/",
+   "at": "2026-08-10T22:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Apple Stock Falls Amid Concerns About iPhone Setback",
@@ -69,9 +86,54 @@
    "at": "2026-08-09T23:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
- "glossary": [],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-10T23:02:48.785762+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "TSMC Holding $1 Billion Of Apple A20 Pro Supply Refuted By Analyst , Says That DRAM Shortage Is Very Real , But Report Underestimates The Two Robust Operational Planning",
+    "Apple Stock Falls Amid Concerns About iPhone Setback",
+    "Apple tests CXMT Chinese memory chips for iPhones , MacBooks",
+    "Apple CEO Tim Cook Just Passed His Successor a Mess"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "TSMC Holding $1…",
+   "one_liner": "TSMC Holding $1 Billion Of Apple A20 Pro Supply…",
+   "why_now": null,
+   "details": [
+    "TSMC Holding $1 Billion Of Apple A20 Pro Supply Refuted By Analyst , Says That DRAM Shortage Is Very Real , But Report Underestimates The Two Robust Operational Planning",
+    "Apple Stock Falls Amid Concerns About iPhone Setback",
+    "Apple tests CXMT Chinese memory chips for iPhones , MacBooks"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "3210ba9d6a66b337c8dce2921ef431d465412057"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-10T23:02:48.785591+00:00"
+ },
+ "glossary": [
+  {
+   "term": "DRAM",
+   "easy": "컴퓨터·스마트폰에 들어가는 기본 메모리 반도체예요.",
+   "example": ""
+  }
+ ],
  "related": [
   {
    "id": "c03074aeed49bf60f",
@@ -82,18 +144,18 @@
    ]
   },
   {
-   "id": "c6fdad826562ed3e4",
-   "title": "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
    "id": "ccc137270dbb9d742",
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "category": "MARKET",
    "shared": [
     "AAPL"
    ]
+  },
+  {
+   "id": "c6fdad826562ed3e4",
+   "title": "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
+   "category": "EARNINGS",
+   "shared": []
   },
   {
    "id": "c7b7e590611a1bac4",
