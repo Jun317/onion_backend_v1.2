@@ -1,6 +1,63 @@
 {
- "generated_at": "2026-08-10T10:52:21.048442+00:00",
+ "generated_at": "2026-08-10T12:07:02.643605+00:00",
  "queue": [
+  {
+   "issue_id": "c7789323e6d45d6a9",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-08-10T12:06:59.689940+00:00"
+  },
+  {
+   "issue_id": "c31b18e8aebe7808a",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "입력에 없는 숫자: [11.4, 49.7]"
+      ]
+     },
+     {
+      "model": "",
+      "errors": [
+       "전 프로바이더 응답 실패"
+      ]
+     }
+    ]
+   },
+   "at": "2026-08-10T12:06:41.219766+00:00"
+  },
+  {
+   "issue_id": "c33c62fddf556b2cc",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "입력에 없는 숫자: [18.0]"
+      ]
+     },
+     {
+      "model": "gemini-2.5-flash-lite",
+      "errors": [
+       "입력에 없는 숫자: [18.0]"
+      ]
+     }
+    ]
+   },
+   "at": "2026-08-10T12:06:21.336576+00:00"
+  },
   {
    "issue_id": "c15b01b3fb6dca64c",
    "reason": {
@@ -600,48 +657,6 @@
     ]
    },
    "at": "2026-08-10T10:41:22.392331+00:00"
-  },
-  {
-   "issue_id": "c31b18e8aebe7808a",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "입력에 없는 숫자: [7100.0]"
-      ]
-     },
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "입력에 없는 숫자: [7100.0]"
-      ]
-     }
-    ]
-   },
-   "at": "2026-08-10T08:56:25.056989+00:00"
-  },
-  {
-   "issue_id": "c33c62fddf556b2cc",
-   "reason": {
-    "summary": "LLM 검증 실패 → 템플릿 폴백",
-    "attempts": [
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "입력에 없는 숫자: [18.0]"
-      ]
-     },
-     {
-      "model": "gemini-2.5-flash-lite",
-      "errors": [
-       "입력에 없는 숫자: [18.0]"
-      ]
-     }
-    ]
-   },
-   "at": "2026-08-10T08:56:11.203102+00:00"
   },
   {
    "issue_id": "c71be4b20900d177d",

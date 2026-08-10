@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-10T08:56:25.057088+00:00",
+  "created_at": "2026-08-10T12:06:41.219889+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,18 +881,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"푸나왈라 핀코프 순이익 급증\",\n  \"one_liner\": \"푸나왈라 핀코프의 1분기 순이익이 380% 늘어 307억 7100만 루피가 됐어요.\",\n  \"why_now\": \"기업의 순이익 증가는 회사의 성장과 재무 건전성을 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"이 회사의 실적 개선은 관련 산업에 긍정적인 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"푸나왈라 핀코프의 1분기 순이익은 307억 7100만 루피예요.\",\n    \"이는 지난해 같은 기간보다 380% 증가한 수치예요.\",\n    \"회사의 순이익이 크게 늘어난 것은 긍정적인 신호로 볼 수 있어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"이 회사의 실적 개선은 투자자들의 관심을 끌 수 있어요!\",\n    \"관련 금융 서비스 분야의 경쟁이 심화될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"순이익\",\n      \"easy\": \"회사가 모든 비용을 빼고 최종적으로 남은 이익이에요.\",\n      \"example\": \"이번 달 순이익이 많이 남아서 사고 싶었던 물건을 살 수 있었어요.\"\n    },\n    {\n      \"term\": \"루피\",\n      \"easy\": \"인도에서 사용하는 돈 단위예요.\",\n      \"example\": \"인도 여행을 가서 물건을 살 때 루피를 사용했어요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"기업 실적\",\n   \"one_liner\": \"여러 기업의 실적과 투자 소식이 나왔어요\",\n   \"why_now\": \"이 소식은 기업의 성장과 투자 방향을 알려주고 있어요\",\n   \"impact_line\": \"기업의 성과가 좋아지면 일자리와 소비에도 영향을 줄 수 있어요\",\n   \"details\": [\n      \"PhotonPay가 브라질 상파울루 사무소를 열었어요\",\n      \"Csquare, Inc.의 초기 공모가가 결정되었어요\",\n      \"Poonawalla Fincorp의 1분기 순이익이 380% 증가했어요\",\n      \"EQT의 영속적 비즈니스 자산이 11.4억 달러로 증가했어요\",\n      \"HSBC 홀딩스가 Chesapeake Utilities Corporation에 49.7만 달러를 투자했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"기업의 성과가 좋아지면 경제에도 긍정적인 영향을 줄 수 있어요!\",\n      \"투자와 일자리가 증가하면 소비도 활성화될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "입력에 없는 숫자: [7100.0]"
+     "입력에 없는 숫자: [11.4, 49.7]"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [7100.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -911,8 +911,8 @@
   "fact_hash": "b9f6a58bf7b81c580b0728081e07bf17d15ea71d"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [7100.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [7100.0]\"]}]}",
-  "at": "2026-08-10T08:56:25.056989+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [11.4, 49.7]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-10T12:06:41.219766+00:00"
  },
  "glossary": [],
  "related": [
