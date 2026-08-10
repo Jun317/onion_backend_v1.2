@@ -867,42 +867,45 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-09T23:54:57.884787+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-10T05:01:19.253573+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
     "3 Big Mistakes IRA Savers Make -- and How to Fix Them",
-    "Analyzing Consumer Purchasing Habits for Better Marketing Strategies",
-    "Rising Calls to Tax Billionaires : Is There Better Way ?",
-    "Are domestic flights getting more expensive ? Here the data",
-    "Subsidy Removal Best Thing To Happen To Nigeria NRS Chairman Says"
-   ],
-   "official_lines": []
-  },
-  "raw_response": "",
-  "attempts": [
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
-   }
-  ],
-  "output": {
-   "title": "3 Big Mistakes IRA…",
-   "one_liner": "3 Big Mistakes IRA Savers Make -- and How to Fix…",
-   "why_now": null,
-   "details": [
-    "3 Big Mistakes IRA Savers Make -- and How to Fix Them",
+    "How modern infrastructure is reshaping Jammu and Kashmir",
+    "Why Trump Waiver of the Jones Act Is Unlikely To Lower Gas Prices",
     "Analyzing Consumer Purchasing Habits for Better Marketing Strategies",
     "Rising Calls to Tax Billionaires : Is There Better Way ?"
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "official_lines": []
   },
-  "fact_hash": "0d3943e7dfd5eb8426128514c8344c01fe6e470c"
+  "raw_response": "{\n  \"title\": \"경제 관련 다양한 소식\",\n   \"one_liner\": \"여러 경제 관련 소식이 나왔어요\",\n   \"why_now\": \"이 소식들이 왜 중요한지 알려드릴게요\",\n   \"impact_line\": \"가계 예산과 소비에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"여러 경제 관련 기사가 나왔어요\",\n       \"IRA 저축자들이 하는 실수에 대해 알려줘요\",\n       \"잠무와 카슈미르의 현대 인프라에 대해 다루고 있어요\",\n       \"트럼프의 존스법 면제가 가스 가격에 영향을 미칠지에 대해 분석하고 있어요\",\n       \"소비자 구매 습관을 분석하여 마케팅 전략을 개선하는 방법에 대해 알려줘요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"가계 예산과 소비에 영향을 줄 수 있어요!\",\n       \"새로운 경제 정책이 나오면 소비자에게 다양한 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "경제 관련 다양한 소식",
+   "one_liner": "여러 경제 관련 소식이 나왔어요",
+   "why_now": "이 소식들이 왜 중요한지 알려드릴게요",
+   "details": [
+    "여러 경제 관련 기사가 나왔어요",
+    "IRA 저축자들이 하는 실수에 대해 알려줘요",
+    "잠무와 카슈미르의 현대 인프라에 대해 다루고 있어요",
+    "트럼프의 존스법 면제가 가스 가격에 영향을 미칠지에 대해 분석하고 있어요",
+    "소비자 구매 습관을 분석하여 마케팅 전략을 개선하는 방법에 대해 알려줘요"
+   ],
+   "effects": [
+    "가계 예산과 소비에 영향을 줄 수 있어요!",
+    "새로운 경제 정책이 나오면 소비자에게 다양한 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "f7d1b3452c07a8940660239c6c5045622c4d0e84"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
@@ -929,14 +932,14 @@
    "shared": []
   },
   {
-   "id": "e97d4b796b4855660",
-   "title": "한국 소비자물가 2026-07 발표",
+   "id": "c48db748fde00c8f7",
+   "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
    "category": "MACRO",
    "shared": []
   },
   {
-   "id": "c48db748fde00c8f7",
-   "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
+   "id": "cc5f32ffe704daa10",
+   "title": "Delayed monsoon unlikely to trigger broader economic impact , but food inflation may stay elevated : Report",
    "category": "MACRO",
    "shared": []
   }
