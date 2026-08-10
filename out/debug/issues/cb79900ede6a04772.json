@@ -2,18 +2,28 @@
  "id": "cb79900ede6a04772",
  "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "BRK"
  ],
- "seen_sources": 1,
- "importance": 70,
+ "seen_sources": 2,
+ "importance": 75,
  "created_at": "2026-08-09T22:56:13.231717+00:00",
- "last_update": "2026-08-09T22:56:13.231717+00:00",
+ "last_update": "2026-08-10T22:03:39.558251+00:00",
  "members": [
+  {
+   "id": "6edf6b03fd5a32e732f064567735182e7d0e82fc",
+   "source": "dailymail.com",
+   "tier": "wire",
+   "url": "https://www.dailymail.com/yourmoney/article-16042315/warren-buffett-greg-abel-berkshire-hathaway-spending.html",
+   "title": "Warren Buffett successor finally starts spending Berkshire Hathaway giant cash pile - and it could be boosting your 401 ( k )",
+   "published_at": "2026-08-10T21:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9035
+  },
   {
    "id": "1a26275b5c3e80c5f6ea0c45ff75727fcb1a1716",
    "source": "butlereagle.com",
@@ -22,7 +32,7 @@
    "title": "Berkshire Hathaway new CEO Greg Abel spends a chunk of the company massive cashpile",
    "published_at": "2026-08-09T22:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.96
+   "sim_to_centroid": 0.9618
   },
   {
    "id": "7ce4402922fccc268d7e1cb9962bfee16d8ad8ca",
@@ -32,11 +42,18 @@
    "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "published_at": "2026-08-09T20:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.96
+   "sim_to_centroid": 0.9561
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Warren Buffett successor finally starts spending Berkshire Hathaway giant cash pile - and it could be boosting your 401 ( k )",
+   "source": "dailymail.com",
+   "url": "https://www.dailymail.com/yourmoney/article-16042315/warren-buffett-greg-abel-berkshire-hathaway-spending.html",
+   "at": "2026-08-10T21:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Berkshire Hathaway new CEO Greg Abel spends a chunk of the company massive cashpile",
@@ -52,8 +69,51 @@
    "at": "2026-08-09T20:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-10T22:03:57.654939+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Warren Buffett successor finally starts spending Berkshire Hathaway giant cash pile - and it could be boosting your 401 ( k )",
+    "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"버크셔 해서웨이의 현금 쌓기\",\n   \"one_liner\": \"버크셔 해서웨이가巨額의 현금을 투자하기 시작했어요\",\n   \"why_now\": \"버크shire 해서웨이의巨額 현금이 투자되면 주식 시장에 영향을 줄 수 있어요\",\n   \"impact_line\": \"401(k) 펀드의 가치가 증가할 수 있어요\",\n   \"details\": [\n       \"버크셔 해서웨이가 14분기 동안 이어졌던 주식 매도 행진을 멈췄어요\",\n       \"버크셔 해서웨이는 23.5억 달러의 주식을 매수했어요\",\n       \"10억 달러는 한 회사에 투자되었어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주식 시장의 활성화로 투자자들에게 기회가 늘어날 수 있어요!\",\n       \"버크셔 해서웨이의 투자로 관련 기업의 가치가 상승할 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"401(k)\",\n           \"easy\": \"미국에서 회사원들이 사용하는 퇴직금 저축 계좌예요\",\n           \"example\": \"401(k)에 투자하면 미래의 퇴직금을 마련할 수 있어요\"\n       }\n   ]\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 에 한자/가나 포함",
+     "입력에 없는 숫자: [23.5]"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Warren Buffett…",
+   "one_liner": "Warren Buffett successor finally starts spending…",
+   "why_now": null,
+   "details": [
+    "Warren Buffett successor finally starts spending Berkshire Hathaway giant cash pile - and it could be boosting your 401 ( k )",
+    "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "8836b9375925e98279c51896c38bde8870168dfc"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"입력에 없는 숫자: [23.5]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-10T22:03:57.654594+00:00"
+ },
  "glossary": [],
  "related": [
   {
