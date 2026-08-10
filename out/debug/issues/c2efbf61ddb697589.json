@@ -733,8 +733,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-10T15:30:11.365178+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-10T19:27:24.070233+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -750,25 +750,26 @@
     "Federal Reserve Board announces approval of the application by FS Bancorp, Inc."
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 고용 감소\",\n   \"one_liner\": \"미국에서 일하는 사람들이 예상보다 줄었어요\",\n   \"why_now\": \"일자리 수에 따라 금리 결정이 달라질 수 있어요\",\n   \"impact_line\": \"금리가 낮아질 수도 있어요\",\n   \"details\": [\n       \"미국의 일자리가 예상보다 줄었어요\",\n       \"미국 중앙은행의 금리 올리기 결정이 달라질 수 있어요\",\n       \"미국 정부가 중앙은행 임원 교체를 시도하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"금리가 낮아져서 대출이 쉬워질 수 있어요!\",\n       \"경제가 더 활발해질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "US payrolls…",
-   "one_liner": "US payrolls unexpectedly fall , easing Fed hike…",
-   "why_now": null,
+   "title": "미국 고용 감소",
+   "one_liner": "미국에서 일하는 사람들이 예상보다 줄었어요",
+   "why_now": "일자리 수에 따라 금리 결정이 달라질 수 있어요",
    "details": [
-    "US payrolls unexpectedly fall , easing Fed hike expectations",
-    "White House renews its attempt to remove Fed Governor Lisa Cook",
-    "Trump renews effort to remove US Fed Governor Lisa Cook"
+    "미국의 일자리가 예상보다 줄었어요",
+    "미국 중앙은행의 금리 올리기 결정이 달라질 수 있어요",
+    "미국 정부가 중앙은행 임원 교체를 시도하고 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "금리가 낮아져서 대출이 쉬워질 수 있어요!",
+    "경제가 더 활발해질 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "4a41709a0387425df56d7853cb2786d09b7757cb"
@@ -777,7 +778,18 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-10T15:30:11.365052+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  }
+ ],
  "related": [
   {
    "id": "cea83213c8906724e",
