@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-09T20:59:07.259330+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-10T02:40:30.181245+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -881,32 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"집값 하락에 봄철 매물 부족\", \"one_liner\": \"집값 하락세가 이어지면서 봄철에 내놓을 집이 부족해지고 있어요.\", \"why_now\": \"집값이 떨어지면 집주인들이 집을 팔기보다 기다리려는 경향이 강해져요.\", \"impact_line\": \"집 구하기가 더 어려워질 수 있어요.\", \"details\": [\"집값 하락세가 이어지면서 봄철에 시장에 나올 집이 줄어들고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"집값이 더 오르기 어려워질 수 있어요!\", \"집을 사려는 사람들은 선택의 폭이 좁아질 수 있어요!\"], \"glossary\": [], \"impact_line\": \"집 구하기가 더 어려워질 수 있어요.\"}",
+  "raw_response": "{\n  \"title\": \"미국 고용 보고서 약화\",\n   \"one_liner\": \"미국에서 최근 일자리 창출이 예상보다 적게 나왔어요\",\n   \"why_now\": \"일자리 창출이 적으면 금리 인상이 느려질 수 있어요\",\n   \"impact_line\": \"대출이자 부담이 줄어들 수 있어요\",\n   \"details\": [\n      \"미국에서 최근 일자리 창출이 예상보다 적게 나왔어요\",\n      \"이로 인해 금리 인상이 느려질 수 있어요\",\n      \"미국 경제에 대한 우려가 커지고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"대출이자가 낮아져서 가계 부담이 줄어들 수 있어요!\",\n      \"경제 성장에 대한 우려가 커져서 소비가 줄어들 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "House - hunters face…",
-   "one_liner": "House - hunters face spring sale shortage in…",
-   "why_now": null,
+   "title": "미국 고용 보고서 약화",
+   "one_liner": "미국에서 최근 일자리 창출이 예상보다 적게 나왔어요",
+   "why_now": "일자리 창출이 적으면 금리 인상이 느려질 수 있어요",
    "details": [
-    "House - hunters face spring sale shortage in market slump",
-    "Burnham to kick off national tour to hear cost - of - living concerns",
-    "Inflation numbers to bring relief for mortgage holders"
+    "미국에서 최근 일자리 창출이 예상보다 적게 나왔어요",
+    "이로 인해 금리 인상이 느려질 수 있어요",
+    "미국 경제에 대한 우려가 커지고 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "대출이자가 낮아져서 가계 부담이 줄어들 수 있어요!",
+    "경제 성장에 대한 우려가 커져서 소비가 줄어들 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "8023e61aa8440b96bcb016c17a57166d30d6d4ac"
  },
@@ -914,7 +909,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-09T20:59:07.259204+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리 인상",
+   "easy": "이자의 기준을 올리는 거예요.",
+   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
+  }
+ ],
  "related": [
   {
    "id": "cb3030e4a5acd0008",

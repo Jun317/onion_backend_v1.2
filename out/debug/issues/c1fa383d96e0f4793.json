@@ -9,11 +9,21 @@
  "entity_keys": [
   "SEC"
  ],
- "seen_sources": 3,
- "importance": 85,
+ "seen_sources": 5,
+ "importance": 95,
  "created_at": "2026-08-07T22:01:18.606374+00:00",
- "last_update": "2026-08-09T23:53:59.602644+00:00",
+ "last_update": "2026-08-10T02:40:18.501437+00:00",
  "members": [
+  {
+   "id": "61eb9edbafdeb31630df3ef8a50c149ad63cf1ef",
+   "source": "prnewswire.com",
+   "tier": "wire",
+   "url": "https://www.prnewswire.com/news-releases/second-pics-gmp-certification--mabwell-passes-brazilian-gmp-inspection-for-its-denosumab-injections-302846053.html",
+   "title": "Second PIC / S GMP Certification | Mabwell Passes Brazilian GMP Inspection for Its Denosumab Injections",
+   "published_at": "2026-08-10T01:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8607
+  },
   {
    "id": "217d8044dc37f7a65f0ae77a18a8cbe46d710643",
    "source": "manilatimes.net",
@@ -22,7 +32,7 @@
    "title": "Riot Announces New Date for Second Quarter 2026 Earnings Conference Call",
    "published_at": "2026-08-09T23:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9041
+   "sim_to_centroid": 0.9072
   },
   {
    "id": "640e31f8615de4c475ff6fe34383cfa4539956a5",
@@ -32,7 +42,7 @@
    "title": "1 in 6 Southern Nevada residents deemed to be food insecure in 2024 , new report finds",
    "published_at": "2026-08-09T19:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8564
+   "sim_to_centroid": 0.8636
   },
   {
    "id": "4edb4cf8675fbe2080d5e0acd6e81c2cea3da2fd",
@@ -42,7 +52,17 @@
    "title": "Telangana Economy Registers 10 . 8 % Growth in 2025 - 26 as Services and Allied Sectors Surge : RBI Report",
    "published_at": "2026-08-09T19:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8671
+   "sim_to_centroid": 0.88
+  },
+  {
+   "id": "7e930189977fcca8271e9ccd5f746feca835ff0f",
+   "source": "inewsgr.com",
+   "tier": "wire",
+   "url": "https://www.inewsgr.com/184/Theodorikakos-Industry-boost-key-to-growth-security-and-better-wages.htm",
+   "title": "Theodorikakos : Industry boost key to growth , security and better wages",
+   "published_at": "2026-08-09T19:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8603
   },
   {
    "id": "29ab3e53f842e671d9f40dbb727354fad87950c3",
@@ -52,7 +72,7 @@
    "title": "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
    "published_at": "2026-08-07T21:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9723
+   "sim_to_centroid": 0.9635
   },
   {
    "id": "f9dbfa8a1197c9086634e014d79ed7bbcb3accf6",
@@ -62,11 +82,18 @@
    "title": "Senvest Capital Inc . Reports Results for the Second Quarter Ended June 30 , 2026",
    "published_at": "2026-08-07T21:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9745
+   "sim_to_centroid": 0.9676
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Second PIC / S GMP Certification | Mabwell Passes Brazilian GMP Inspection for Its Denosumab Injections",
+   "source": "prnewswire.com",
+   "url": "https://www.prnewswire.com/news-releases/second-pics-gmp-certification--mabwell-passes-brazilian-gmp-inspection-for-its-denosumab-injections-302846053.html",
+   "at": "2026-08-10T01:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Riot Announces New Date for Second Quarter 2026 Earnings Conference Call",
@@ -90,6 +117,13 @@
   },
   {
    "kind": "headline",
+   "title": "Theodorikakos : Industry boost key to growth , security and better wages",
+   "source": "inewsgr.com",
+   "url": "https://www.inewsgr.com/184/Theodorikakos-Industry-boost-key-to-growth-security-and-better-wages.htm",
+   "at": "2026-08-09T19:00:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
    "source": "manilatimes.net",
    "url": "https://www.manilatimes.net/2026/08/08/tmt-newswire/globenewswire/ni-holdings-inc-reports-results-for-second-quarter-ended-june-30-2026/2401243",
@@ -104,49 +138,42 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-09T22:56:19.355169+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-10T02:40:33.495980+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
-    "1 in 6 Southern Nevada residents deemed to be food insecure in 2024 , new report finds",
-    "Telangana Economy Registers 10 . 8 % Growth in 2025 - 26 as Services and Allied Sectors Surge : RBI Report",
+    "Senvest Capital Inc . Reports Results for the Second Quarter Ended June 30 , 2026",
     "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
-    "Senvest Capital Inc . Reports Results for the Second Quarter Ended June 30 , 2026"
+    "Riot Announces New Date for Second Quarter 2026 Earnings Conference Call",
+    "Telangana Economy Registers 10 . 8 % Growth in 2025 - 26 as Services and Allied Sectors Surge : RBI Report",
+    "1 in 6 Southern Nevada residents deemed to be food insecure in 2024 , new report finds"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 남부 네바다 주 식품 불안정\",\n   \"one_liner\": \"미국 남부 네바다 주에서 6명 중 1명이 식량이 부족한 것으로 나타났어요\",\n   \"why_now\": \"식량 부족은 가계의 생활을 어렵게 할 수 있어요\",\n   \"impact_line\": \"주민들의 식품 구매력이 낮아질 수 있어요\",\n   \"details\": [\n       \"미국 남부 네바다 주의 식품 불안정 현象이 보고됐어요\",\n       \"텔랑가나 주 경제가 10.8% 성장했어요\",\n       \"NI 홀딩스와 센베스트 캐피탈의 2분기 실적이 발표됐어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"식품 가격 상승으로 주민들의 생활이 어려워질 수 있어요!\",\n       \"지역 경제 성장으로 새로운 일자리와 기회가 생길 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\"title\": \"주요 기업 실적 발표\", \"one_liner\": \"여러 기업들이 2분기 실적을 발표하거나 관련 소식을 알렸어요.\", \"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\", \"impact_line\": null, \"details\": [\"센베스트 캐피탈이 6월 30일에 끝난 2분기 실적을 발표했어요.\", \"NI 홀딩스가 6월 30일에 끝난 2분기 실적을 발표했어요.\", \"라이엇은 2분기 실적 발표 전화회의 날짜를 새로 알렸어요.\"], \"visual_type\": \"earnings_quarterly\", \"effects\": [\"기업들의 실적 발표는 투자자들에게 중요한 정보를 제공할 수 있어요!\"], \"glossary\": []}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "title 22자 초과(24)",
-     "why_now 55자 초과(57)",
-     "why_now 어요체 아님"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [10.8]"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "1 in 6 Southern…",
-   "one_liner": "1 in 6 Southern Nevada residents deemed to be…",
-   "why_now": null,
+   "title": "주요 기업 실적 발표",
+   "one_liner": "여러 기업들이 2분기 실적을 발표하거나 관련 소식을 알렸어요.",
+   "why_now": "기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.",
    "details": [
-    "1 in 6 Southern Nevada residents deemed to be food insecure in 2024 , new report finds",
-    "Telangana Economy Registers 10 . 8 % Growth in 2025 - 26 as Services and Allied Sectors Surge : RBI Report",
-    "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026"
+    "센베스트 캐피탈이 6월 30일에 끝난 2분기 실적을 발표했어요.",
+    "NI 홀딩스가 6월 30일에 끝난 2분기 실적을 발표했어요.",
+    "라이엇은 2분기 실적 발표 전화회의 날짜를 새로 알렸어요."
    ],
-   "effects": [],
+   "effects": [
+    "기업들의 실적 발표는 투자자들에게 중요한 정보를 제공할 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "98721379590a6f739ff59ac61d6ba516b3c538c9"
+  "fact_hash": "ad9d741dc4a1d44a2555785eb1639c979683af80"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(24)\", \"why_now 55자 초과(57)\", \"why_now 어요체 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [10.8]\"]}]}",
