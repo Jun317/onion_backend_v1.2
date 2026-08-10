@@ -1,6 +1,27 @@
 {
- "generated_at": "2026-08-10T23:03:28.600473+00:00",
+ "generated_at": "2026-08-10T23:56:24.599200+00:00",
  "queue": [
+  {
+   "issue_id": "cd9e738c59cd0da89",
+   "reason": {
+    "summary": "LLM 검증 실패 → 템플릿 폴백",
+    "attempts": [
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "details 3문장 미만"
+      ]
+     },
+     {
+      "model": "llama-3.3-70b-versatile",
+      "errors": [
+       "details 3문장 미만"
+      ]
+     }
+    ]
+   },
+   "at": "2026-08-10T23:56:21.571659+00:00"
+  },
   {
    "issue_id": "c31b18e8aebe7808a",
    "reason": {
