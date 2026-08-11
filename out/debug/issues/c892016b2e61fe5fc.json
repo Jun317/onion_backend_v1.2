@@ -868,27 +868,21 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-11T17:20:45.536737+00:00",
+  "created_at": "2026-08-11T21:11:40.036497+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
     "Wind farm could have  significant  impact on islands , conservation chiefs warn",
     "Nearly three - quarters of England is in drought amid extreme heat",
+    "Extreme heat strains Italy  cheese banks , where Parmigiano backs farm loans",
     "Eclipse on Wednesday  not worth risk  new warning issued",
-    "Colombia declares state of emergency after deadly earthquakes",
-    "Plans for overnight motorhome bays at Llangollen car park"
+    "Colombia declares state of emergency after deadly earthquakes"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"영국, 극심한 더위로 가뭄 심화\", \"one_liner\": \"영국 땅의 4분의 3이 극심한 더위로 인해 가뭄 상태에 놓였어요.\", \"why_now\": \"가뭄이 심해지면 물 부족으로 일상생활과 농업에 어려움이 생길 수 있어요.\", \"impact_line\": \"물 사용 제한으로 불편을 겪을 수 있어요.\", \"details\": [\"영국 전역의 약 4분의 3이 가뭄 상태예요.\", \"극심한 더위가 가뭄을 심화시키고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"가뭄이 장기화되면 식수 부족 문제가 심각해질 수 있어요!\", \"농작물 생산에 차질이 생겨 식료품 가격이 오를 수 있어요!\"], \"glossary\": [], \"impact_line\": \"물 사용 제한으로 불편을 겪을 수 있어요.\"}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -903,16 +897,16 @@
    "details": [
     "Wind farm could have  significant  impact on islands , conservation chiefs warn",
     "Nearly three - quarters of England is in drought amid extreme heat",
-    "Eclipse on Wednesday  not worth risk  new warning issued"
+    "Extreme heat strains Italy  cheese banks , where Parmigiano backs farm loans"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "1dee851f846a9c3e71a692b9d0e933e213ad0365"
+  "fact_hash": "6de32c55ebec15ee1d32e35e31dc35e6e30da358"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-11T17:20:45.536633+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-11T21:11:40.036339+00:00"
  },
  "glossary": [],
  "related": [
