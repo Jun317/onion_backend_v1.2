@@ -748,8 +748,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-11T06:14:44.202643+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-11T09:30:25.926109+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -762,26 +762,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"미국 주식 비교 분석\", \"one_liner\": \"미국 증시에서 여러 기업들의 주가를 비교 분석했어요.\", \"why_now\": \"기업들의 주가를 비교하면 어떤 기업이 더 나은 투자 기회를 제공하는지 알 수 있어요.\", \"impact_line\": \"투자 결정을 내리는 데 도움이 될 수 있어요.\", \"details\": [\"국제 향료·향수 기업 IFF와 EMS-CHEMIE의 주가를 비교했어요.\", \"부동산 기업 매그너라와 머서 인터내셔널의 주가를 비교했어요.\", \"주택 기업 BRT 아파트먼트와 인제니아 커뮤니티스 그룹의 주가를 비교했어요.\", \"항공우주 기업 노스롭 그루먼과 XTI 에어로스페이스의 주가를 비교했어요.\", \"금융 기업 아담스 트러스트와 아버 리얼티 트러스트의 주가를 비교했어요.\"], \"visual_type\": \"none\", \"effects\": [\"투자자들은 여러 기업의 주가 흐름을 비교하며 투자 결정을 내릴 수 있어요!\"], \"glossary\": [{\"term\": \"주가\", \"easy\": \"회사가 발행한 주식의 가격이에요.\", \"example\": \"주가가 오르면 투자한 돈이 늘어나요.\"}], \"impact_line\": \"투자 결정을 내리는 데 도움이 될 수 있어요.\"}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Contrasting…",
-   "one_liner": "Contrasting International Flavors & Fragrances (…",
-   "why_now": null,
+   "title": "미국 주식 비교 분석",
+   "one_liner": "미국 증시에서 여러 기업들의 주가를 비교 분석했어요.",
+   "why_now": "기업들의 주가를 비교하면 어떤 기업이 더 나은 투자 기회를 제공하는지 알 수 있어요.",
    "details": [
-    "Contrasting International Flavors & Fragrances ( NYSE : IFF ) & EMS - CHEMIE ( OTCMKTS : EMSHF )",
-    "Comparing Magnera ( NYSE : MAGN ) & Mercer International ( NASDAQ : MERC )",
-    "Contrasting BRT Apartments ( NYSE : BRT ) & Ingenia Communities Group ( OTCMKTS : INGEF )"
+    "국제 향료·향수 기업 IFF와 EMS-CHEMIE의 주가를 비교했어요.",
+    "부동산 기업 매그너라와 머서 인터내셔널의 주가를 비교했어요.",
+    "주택 기업 BRT 아파트먼트와 인제니아 커뮤니티스 그룹의 주가를 비교했어요.",
+    "항공우주 기업 노스롭 그루먼과 XTI 에어로스페이스의 주가를 비교했어요.",
+    "금융 기업 아담스 트러스트와 아버 리얼티 트러스트의 주가를 비교했어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "투자자들은 여러 기업의 주가 흐름을 비교하며 투자 결정을 내릴 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "b413d8bed0ff1ce9a5edb7a33591ecbc07933cdb"
  },

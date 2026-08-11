@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-11T06:12:24.526107+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-11T09:28:43.212164+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,25 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 증시, 최고치 근접\",\n  \"one_liner\": \"미국 증시가 최고치에 가까워지고 있어요.\",\n  \"why_now\": \"주가가 오르면 투자자들의 자산 가치가 높아지는 효과가 있어요.\",\n  \"impact_line\": \"주식 투자자들의 자산 가치가 오를 수 있어요.\",\n  \"details\": [\n    \"미국 증시가 최고치에 근접한 수준에서 움직이고 있어요.\",\n    \"기술주에 대한 투자자들의 믿음이 계속되고 있어요.\",\n    \"미국 소비자 지출과 심리에 대한 발표가 예정되어 있어요.\",\n    \"인도 제약 회사들은 미국 관세 위협 속에서도 인도에 기반을 두고 있어요.\"\n  ],\n  \"visual_type\": \"us_10y\",\n  \"effects\": [\n    \"주가가 더 오르면 투자자들의 자산 가치가 상승할 수 있어요!\",\n    \"소비자 심리 지표 발표에 따라 시장의 변동성이 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"RBI Repo Rate\",\n      \"easy\": \"인도 중앙은행이 정하는 기준금리예요. 이 금리가 오르면 돈을 빌리는 비용이 늘어나요.\",\n      \"example\": \"인도에서 집을 사려면 대출 이자가 오를 수 있어요.\"\n    },\n    {\n      \"term\": \"Dow Jones\",\n      \"easy\": \"미국 주요 기업들의 주가를 모아 만든 지수예요. 미국 경제의 흐름을 보여줘요.\",\n      \"example\": \"다우존스 지수가 오르면 미국 경제가 좋다고 볼 수 있어요.\"\n    },\n    {\n      \"term\": \"Tech stocks\",\n      \"easy\": \"인공지능, 컴퓨터, 인터넷 등 기술 관련 회사들의 주식을 말해요.\",\n      \"example\": \"새로운 스마트폰이 나오면 관련 기술주 주가가 오를 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "RBI Repo Rate Hold…",
-   "one_liner": "RBI Repo Rate Hold at 5 . 25 percent Anchors…",
-   "why_now": null,
+   "title": "미국 증시, 최고치 근접",
+   "one_liner": "미국 증시가 최고치에 가까워지고 있어요.",
+   "why_now": "주가가 오르면 투자자들의 자산 가치가 높아지는 효과가 있어요.",
    "details": [
-    "RBI Repo Rate Hold at 5 . 25 percent Anchors Real Estate Growth Amid Global Uncertainty",
-    "Tech stocks still have plenty of believers on Wall Street , inflow data shows",
-    "What to Expect in Markets This Week : July Inflation Data , Plus Updates on US Consumer Spending and Sentiment"
+    "미국 증시가 최고치에 근접한 수준에서 움직이고 있어요.",
+    "기술주에 대한 투자자들의 믿음이 계속되고 있어요.",
+    "미국 소비자 지출과 심리에 대한 발표가 예정되어 있어요.",
+    "인도 제약 회사들은 미국 관세 위협 속에서도 인도에 기반을 두고 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "주가가 더 오르면 투자자들의 자산 가치가 상승할 수 있어요!",
+    "소비자 심리 지표 발표에 따라 시장의 변동성이 커질 수 있어요!"
+   ],
    "visual_type": "us_10y"
   },
   "fact_hash": "485f08208178be1a2938a6fc42cfbea42b6ae11a"
@@ -908,7 +910,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-11T06:12:24.526024+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "ccc137270dbb9d742",

@@ -867,46 +867,49 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-11T04:45:42.574555+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-11T09:27:48.807004+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
     "Bunker Hill Adopts Amended and Restated By - Laws",
-    "The Evolution of Hunter - Killers - The Daily Reckoning"
+    "Child Care Deserts Found Across Central Minnesota Four Counties",
+    "Bangkok Post - X shifts monetisation focus to original content",
+    "Hanwha Makes Offer For Austal united states",
+    "Māori - Indigenous economic partnership hailed as  seismic shift"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"벙커 힐 규정 변경\",\n   \"one_liner\": \"벙커 힐이 새로운 규정을採用했어요\",\n   \"why_now\": \"회사의 규정은 그 회사의 방향을 결정할 수 있어요\",\n   \"impact_line\": null,\n   \"details\": [\n       \"벙커 힐이 새로운 규정을採用했어요\",\n       \"새로운 규정은 회사 운영에 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"회사의 규정 변경은 투자자들에게 새로운 기회를 가져다줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n\"title\": \"마오리, 경제 협력 새 시대\",\n\"one_liner\": \"마오리족과 경제 협력이 새로운 시대를 열었다고 평가받고 있어요.\",\n\"why_now\": \"원주민과의 경제 협력은 사회 통합과 경제 발전에 긍정적인 영향을 줄 수 있어요.\",\n\"impact_line\": \"새로운 경제 협력 모델이 다른 지역에도 영향을 줄 수 있어요.\",\n\"details\": [\n\"마오리족과 경제 협력에 대한 새로운 논의가 있었어요.\",\n\"이 협력이 큰 변화를 가져올 것으로 기대돼요.\",\n\"이 소식은 뉴질랜드의 경제 정책에 대한 논의를 촉발했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"원주민의 경제적 권익 향상에 기여할 수 있어요!\",\n\"새로운 경제 모델이 다른 국가의 원주민 정책에도 영감을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"마오리\",\n\"easy\": \"뉴질랜드의 원주민을 뜻해요.\",\n\"example\": \"마오리 문화는 뉴질랜드의 중요한 부분이에요.\"\n}\n]\n}",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "why_now 55자 초과(56)",
-     "details 3문장 미만"
-    ]
-   },
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "one_liner 에 한자/가나 포함",
-     "details 3문장 미만"
+     "title 에 한자/가나 포함"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Bunker Hill Adopts…",
-   "one_liner": "Bunker Hill Adopts Amended and Restated By - Laws",
-   "why_now": null,
+   "title": "마오리, 경제 협력 새 시대",
+   "one_liner": "마오리족과 경제 협력이 새로운 시대를 열었다고 평가받고 있어요.",
+   "why_now": "원주민과의 경제 협력은 사회 통합과 경제 발전에 긍정적인 영향을 줄 수 있어요.",
    "details": [
-    "Bunker Hill Adopts Amended and Restated By - Laws",
-    "The Evolution of Hunter - Killers - The Daily Reckoning"
+    "마오리족과 경제 협력에 대한 새로운 논의가 있었어요.",
+    "이 협력이 큰 변화를 가져올 것으로 기대돼요.",
+    "이 소식은 뉴질랜드의 경제 정책에 대한 논의를 촉발했어요."
    ],
-   "effects": [],
+   "effects": [
+    "원주민의 경제적 권익 향상에 기여할 수 있어요!",
+    "새로운 경제 모델이 다른 국가의 원주민 정책에도 영감을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "6092b6158fe340927d3e6f0b4124c69bc4037f76"
+  "fact_hash": "65f819674cc9b36ece92c2ec0d4e7de124420171"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(56)\", \"details 3문장 미만\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"details 3문장 미만\"]}]}",
@@ -921,14 +924,14 @@
    "shared": []
   },
   {
-   "id": "ca2696857c59592ad",
-   "title": "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground",
+   "id": "c71be4b20900d177d",
+   "title": "Interview : China zero - tariff treatment for African products opens new chapter in economic cooperation , says Nigerien expert",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "c71be4b20900d177d",
-   "title": "Interview : China zero - tariff treatment for African products opens new chapter in economic cooperation , says Nigerien expert",
+   "id": "ca2696857c59592ad",
+   "title": "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground",
    "category": "POLICY",
    "shared": []
   },

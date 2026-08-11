@@ -766,7 +766,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-11T06:11:47.623306+00:00",
+  "created_at": "2026-08-11T09:28:12.878550+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -779,12 +779,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 1.5% 성장하는 데 그쳤어요.\",\n  \"why_now\": \"경제 성장률이 낮아지면 일자리나 소득이 늘어나는 속도가 더뎌질 수 있어요.\",\n  \"impact_line\": \"물가 상승 압력이 계속될 수 있어 소비 부담이 커질 수 있어요.\",\n  \"details\": [\n    \"미국 경제 성장률이 1.5%로 둔화했어요.\",\n    \"이는 지난 2분기 동안의 성장률이에요.\",\n    \"소규모 사업체들의 기대감은 높아졌어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"물가 상승 압력이 지속될 수 있어 소비 심리가 위축될 수 있어요!\",\n    \"기업들이 투자를 줄일 수 있어 경제 회복이 더뎌질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"물가 상승 압력\",\n      \"easy\": \"물건 가격이 계속 오를 것 같은 분위기를 말해요.\",\n      \"example\": \"장바구니 물가 상승 압력이 커져서 걱정이에요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "visual_type 'us_gdp_growth' 허용 목록 밖",
+     "입력에 없는 숫자: [1.5]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [1.5]"
     ]
    }
   ],
@@ -803,8 +810,8 @@
   "fact_hash": "823ebedb6bbb88ebe7b22c00beeaf5862cb9e2a1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-11T06:11:47.623231+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"visual_type 'us_gdp_growth' 허용 목록 밖\", \"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
+  "at": "2026-08-11T09:28:12.878488+00:00"
  },
  "glossary": [],
  "related": [

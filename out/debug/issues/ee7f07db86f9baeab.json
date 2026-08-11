@@ -12,10 +12,17 @@
  "seen_sources": 0,
  "importance": 75,
  "created_at": "2026-08-10T05:56:15.067917+00:00",
- "last_update": "2026-08-11T06:11:01.977666+00:00",
+ "last_update": "2026-08-11T09:27:34.309439+00:00",
  "members": [],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "official",
+   "title": "SK증권제13호스팩 반기보고서 (2026.06)",
+   "source": "DART",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811000458",
+   "at": "2026-08-11T07:48:50.908434+00:00"
+  },
   {
    "kind": "official",
    "title": "SK증권제12호스팩 반기보고서 (2026.06)",
@@ -33,7 +40,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-11T06:12:43.006688+00:00",
+  "created_at": "2026-08-11T09:28:55.836469+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -42,12 +49,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"SK증권제11호스팩 실적 발표\",\n\"one_liner\": \"SK증권제11호스팩이 2026년 2분기 실적을 발표했어요.\",\n\"why_now\": \"기업의 실적 발표는 회사의 현재 재정 상태와 미래 전망을 엿볼 수 있는 중요한 정보예요.\",\n\"impact_line\": \"투자자라면 이 실적 발표를 통해 투자 결정을 내리는 데 참고할 수 있어요.\",\n\"details\": [\n\"SK증권제11호스팩은 2026년 2분기 실적을 공시했습니다.\"\n],\n\"visual_type\": \"earnings_quarterly\",\n\"effects\": [\n\"실적 발표 결과에 따라 회사의 주가가 변동될 수 있어요!\",\n\"투자자들은 이 발표를 바탕으로 향후 투자 전략을 세울 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"스팩\",\n\"easy\": \"기업 인수만을 목적으로 설립된 회사예요. 상장 후 합병할 회사를 찾아요.\",\n\"example\": \"스팩은 상장 후 3년 안에 합병하지 못하면 해산해요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -64,8 +78,8 @@
   "fact_hash": "e81ee8b153511770e7c5dd1a8d255e3d2fd3104a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-11T06:12:43.006625+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-11T09:28:55.836403+00:00"
  },
  "glossary": [],
  "related": [
