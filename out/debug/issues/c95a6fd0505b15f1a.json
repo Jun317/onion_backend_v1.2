@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-11T02:41:16.661782+00:00",
+  "created_at": "2026-08-11T06:19:20.485022+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,15 +64,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"버크셔 해서웨이 투자\",\n\"one_liner\": \"버크셔 해서웨이의 최소 투자 금액에 대한 정보가 나왔어요.\",\n\"why_now\": \"버크셔 해서웨이는 워렌 버핏이 이끄는 유명한 투자 회사라 많은 사람들이 관심을 가져요.\",\n\"impact_line\": null,\n\"details\": [\n\"버크셔 해서웨이에 투자하려면 얼마가 필요한지 알려주고 있어요.\",\n\"아메리칸 익스프레스와 버크셔 해서웨이 중 어떤 주식이 더 나은 투자인지 비교하고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [],\n\"glossary\": [\n{\n\"term\": \"버크셔 해서웨이\",\n\"easy\": \"워렌 버핏이 이끄는 미국의 유명한 투자 회사예요.\",\n\"example\": \"버크셔 해서웨이는 다양한 회사의 주식을 사서 모으는 것으로 유명해요.\"\n}\n]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -94,8 +87,8 @@
   "fact_hash": "418f7cd998b28fce5a1caa7f466d392fb02ca609"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-11T02:41:16.661710+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-11T06:19:20.484939+00:00"
  },
  "glossary": [],
  "related": [
