@@ -87,44 +87,43 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-10T23:56:21.571819+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-11T04:45:38.448481+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "JBS Reports Second Quarter 2026 Results | The Manila Times",
+    "TAFEA Economic Sector Development Plan 2026 – 2030 launched",
     "Empress Reports 2026 Second Quarter Financial Results",
     "Empress Royalty Corp .: Empress Reports 2026 Second Quarter Financial Results"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"Empress 2분기 실적\",\n   \"one_liner\": \"Empress Royalty Corp.이 2026년 2분기 실적을 발표했어요\",\n   \"why_now\": \"기업 실적은 투자자와 고객에게 중요한 정보예요\",\n   \"impact_line\": \"주주们의 이익이 영향을 받을 수 있어요\",\n   \"details\": [\n      \"Empress Royalty Corp.이 2026년 2분기 실적을 발표했어요\",\n      \"실적에는 수익과 비용, 이익 등이 포함돼요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"기업의 주가에 영향을 줄 수 있어요!\",\n      \"투자자들의 의사 결정에 도움이 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"기업 실적 발표\",\n   \"one_liner\": \"여러 기업이 2026년 2분기 실적을 발표했어요\",\n   \"why_now\": \"기업 실적이 좋으면 주가가 오를 수 있어요\",\n   \"impact_line\": \"주식 투자자에게 관심이 가는 소식일 수 있어요\",\n   \"details\": [\n       \"JBS가 2026년 2분기 실적을 발표했어요\",\n       \"Empress Royalty Corp.도 2026년 2분기 실적을 발표했어요\",\n       \"기업 실적은 투자자에게 중요한 정보예요\",\n       \"실적이 좋으면 기업의 미래가 밝아질 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"기업 실적이 좋으면 주식시장이 활성화될 수 있어요!\",\n       \"투자자들이 기업에 더 관심을 가질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 3문장 미만"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Empress Reports 2026…",
-   "one_liner": "Empress Reports 2026 Second Quarter Financial…",
-   "why_now": null,
+   "title": "기업 실적 발표",
+   "one_liner": "여러 기업이 2026년 2분기 실적을 발표했어요",
+   "why_now": "기업 실적이 좋으면 주가가 오를 수 있어요",
    "details": [
-    "Empress Reports 2026 Second Quarter Financial Results",
-    "Empress Royalty Corp .: Empress Reports 2026 Second Quarter Financial Results"
+    "JBS가 2026년 2분기 실적을 발표했어요",
+    "Empress Royalty Corp.도 2026년 2분기 실적을 발표했어요",
+    "기업 실적은 투자자에게 중요한 정보예요",
+    "실적이 좋으면 기업의 미래가 밝아질 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "기업 실적이 좋으면 주식시장이 활성화될 수 있어요!",
+    "투자자들이 기업에 더 관심을 가질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "f1b41a4e349a0568d5c8228b0a5444d05ee5696f"
+  "fact_hash": "3c04aa7ff751446888f35280babe51284d07f7e5"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}]}",
