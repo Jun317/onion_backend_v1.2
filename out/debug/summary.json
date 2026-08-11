@@ -1,9 +1,48 @@
 {
- "generated_at": "2026-08-11T09:38:27.070519+00:00",
+ "generated_at": "2026-08-11T11:11:33.765914+00:00",
  "run_history": [
   {
    "kind": "pipeline",
-   "at": "2026-08-11T09:38:27.070502+00:00",
+   "at": "2026-08-11T11:11:33.765891+00:00",
+   "ok": true,
+   "stats": {
+    "raw_loaded": 1023,
+    "inserted": 15,
+    "near_dups": 0,
+    "express": 0,
+    "embedded": 400,
+    "express_centroids": 0,
+    "assign": {
+     "joined": 10,
+     "held": 16,
+     "pooled": 294
+    },
+    "seeded": 0,
+    "promoted": 0,
+    "classified": 0,
+    "merged": 0,
+    "lifecycle": {
+     "stale": 0,
+     "archived": 0
+    },
+    "importance": 269,
+    "llm": {
+     "generated": 0,
+     "cached": 210,
+     "template": 0,
+     "deferred": 0,
+     "backoff": 36
+    },
+    "export": {
+     "issues": 178,
+     "removed": 0,
+     "thin_skipped": 22
+    }
+   }
+  },
+  {
+   "kind": "pipeline",
+   "at": "2026-08-11T09:38:27.547293+00:00",
    "ok": true,
    "stats": {
     "raw_loaded": 1107,
@@ -37,8 +76,15 @@
      "issues": 178,
      "removed": 0,
      "thin_skipped": 22
-    }
-   }
+    },
+    "export_debug": {
+     "issues": 285,
+     "removed": 0,
+     "reviews": 315
+    },
+    "pruned": 330
+   },
+   "error": ""
   },
   {
    "kind": "pipeline",
@@ -913,52 +959,6 @@
     "pruned": 300
    },
    "error": ""
-  },
-  {
-   "kind": "pipeline",
-   "at": "2026-08-09T23:55:21.209607+00:00",
-   "ok": true,
-   "stats": {
-    "raw_loaded": 509,
-    "inserted": 55,
-    "near_dups": 22,
-    "express": 0,
-    "embedded": 400,
-    "express_centroids": 0,
-    "assign": {
-     "joined": 65,
-     "held": 20,
-     "pooled": 26
-    },
-    "seeded": 0,
-    "promoted": 3,
-    "classified": 0,
-    "merged": 0,
-    "lifecycle": {
-     "stale": 0,
-     "archived": 0
-    },
-    "importance": 265,
-    "llm": {
-     "generated": 1,
-     "cached": 194,
-     "template": 4,
-     "deferred": 0,
-     "backoff": 40
-    },
-    "export": {
-     "issues": 169,
-     "removed": 3,
-     "thin_skipped": 31
-    },
-    "export_debug": {
-     "issues": 278,
-     "removed": 0,
-     "reviews": 305
-    },
-    "pruned": 345
-   },
-   "error": ""
   }
  ],
  "issue_counts": {
@@ -968,11 +968,11 @@
   "stale": 211
  },
  "article_counts": {
-  "total": 17538,
+  "total": 17553,
   "dup": 3042,
-  "assigned": 14130,
-  "held": 254,
-  "unassigned": 112
+  "assigned": 14138,
+  "held": 262,
+  "unassigned": 111
  },
  "llm_calls_today": 143,
  "review_queue": 315,
