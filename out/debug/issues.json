@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-11T18:33:58.752947+00:00",
+ "generated_at": "2026-08-11T19:32:20.384611+00:00",
  "issues": [
   {
    "id": "cea83213c8906724e",
@@ -480,7 +480,7 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 15,
+   "seen_sources": 16,
    "importance": 105,
    "entity_keys": [
     "AMD",
@@ -490,8 +490,8 @@
     "NVDA"
    ],
    "created_at": "2026-08-07T12:04:29.509051+00:00",
-   "last_update": "2026-08-11T18:13:43.938454+00:00",
-   "members": 25,
+   "last_update": "2026-08-11T19:31:38.930213+00:00",
+   "members": 26,
    "llm_title": "주요 기술주 주가 변동",
    "one_liner": "인텔 주가가 크게 떨어졌고, AMD 주가도 하락했어요.",
    "llm_model": "gemini-2.5-flash-lite",
@@ -859,41 +859,41 @@
    "in_review": true
   },
   {
-   "id": "ce2323a18ae0fddb4",
-   "title": "India must shape its AI journey rather than be shaped by default : RBI Governor Sanjay Malhotra",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 5,
-   "importance": 95,
-   "entity_keys": [],
-   "created_at": "2026-08-11T13:49:46.890210+00:00",
-   "last_update": "2026-08-11T18:13:43.940224+00:00",
-   "members": 13,
-   "llm_title": "인도 AI 정책",
-   "one_liner": "인도 중앙은행 총재가 인도가 자체 AI 정책을 세워야 한다고 말했어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": false
-  },
-  {
    "id": "cd9e738c59cd0da89",
    "title": "Empress Reports 2026 Second Quarter Financial Results",
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 13,
+   "seen_sources": 27,
    "importance": 95,
    "entity_keys": [
     "IRAN",
     "SEC"
    ],
    "created_at": "2026-08-10T23:56:10.773980+00:00",
-   "last_update": "2026-08-11T18:13:43.937771+00:00",
-   "members": 22,
-   "llm_title": "Empress Reports 2026…",
-   "one_liner": "Empress Reports 2026 Second Quarter Financial…",
-   "llm_model": "template",
+   "last_update": "2026-08-11T19:31:38.936617+00:00",
+   "members": 50,
+   "llm_title": "2분기 실적 발표",
+   "one_liner": "여러 기업이 2분기 실적을 발표했어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
+  },
+  {
+   "id": "ce2323a18ae0fddb4",
+   "title": "India must shape its AI journey rather than be shaped by default : RBI Governor Sanjay Malhotra",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 6,
+   "importance": 95,
+   "entity_keys": [],
+   "created_at": "2026-08-11T13:49:46.890210+00:00",
+   "last_update": "2026-08-11T19:31:38.930771+00:00",
+   "members": 14,
+   "llm_title": "인도, 인공지능 정책",
+   "one_liner": "인도 중앙은행 총재가 인공지능 정책을 주도해야 한다고 말했어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": false
   },
   {
    "id": "c299cf15385ae4886",
@@ -1124,6 +1124,44 @@
    "in_review": true
   },
   {
+   "id": "c0050a4f2bd256792",
+   "title": "Bank of America Promotions : Get Up to $600",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 90,
+   "entity_keys": [
+    "BAC"
+   ],
+   "created_at": "2026-08-11T19:31:38.941494+00:00",
+   "last_update": "2026-08-11T19:31:38.942219+00:00",
+   "members": 2,
+   "llm_title": "AppLovin shares drop…",
+   "one_liner": "AppLovin shares drop on Bank of America downgrade",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "cc7a847a31a119032",
+   "title": "Meta Had Six Weeks to Stop Japan $804M Scam Crisis : It Chose Revenue",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 10,
+   "importance": 90,
+   "entity_keys": [
+    "META"
+   ],
+   "created_at": "2026-08-08T09:07:02.138764+00:00",
+   "last_update": "2026-08-11T19:31:38.939082+00:00",
+   "members": 10,
+   "llm_title": "메타의 뉴스",
+   "one_liner": "메타가 새로운 인공지능 모델을 출시했어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
    "id": "cd94ef5914bde663b",
    "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
    "category": "EARNINGS",
@@ -1140,25 +1178,6 @@
    "llm_title": "알파벳 클라우드 사업 성장",
    "one_liner": "알파벳의 클라우드 사업 매출이 1년 전보다 82% 늘었어요.",
    "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "cc7a847a31a119032",
-   "title": "Meta Had Six Weeks to Stop Japan $804M Scam Crisis : It Chose Revenue",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 9,
-   "importance": 90,
-   "entity_keys": [
-    "META"
-   ],
-   "created_at": "2026-08-08T09:07:02.138764+00:00",
-   "last_update": "2026-08-11T02:33:01.614271+00:00",
-   "members": 9,
-   "llm_title": "메타의 뉴스",
-   "one_liner": "메타가 새로운 인공지능 모델을 출시했어요",
-   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1293,12 +1312,12 @@
    "category": "GEO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 31,
+   "seen_sources": 56,
    "importance": 85,
    "entity_keys": [],
    "created_at": "2026-08-11T13:49:46.890420+00:00",
-   "last_update": "2026-08-11T18:13:43.941422+00:00",
-   "members": 43,
+   "last_update": "2026-08-11T19:31:38.940586+00:00",
+   "members": 50,
    "llm_title": "Wind farm could have…",
    "one_liner": "Wind farm could have  significant  impact on…",
    "llm_model": "template",
@@ -2415,12 +2434,12 @@
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 20,
+   "seen_sources": 30,
    "importance": 65,
    "entity_keys": [],
    "created_at": "2026-08-11T13:49:46.890673+00:00",
-   "last_update": "2026-08-11T18:13:43.940771+00:00",
-   "members": 36,
+   "last_update": "2026-08-11T19:31:38.940248+00:00",
+   "members": 50,
    "llm_title": "GSK Share Price : Q2…",
    "one_liner": "GSK Share Price : Q2 Results , Cambridge R & D…",
    "llm_model": "template",
@@ -3530,23 +3549,6 @@
    "in_review": true
   },
   {
-   "id": "ca8913d871c434798",
-   "title": "Oil rebounds as markets trade mixed following Wall Street rally",
-   "category": "MARKET",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 37,
-   "importance": 55,
-   "entity_keys": [],
-   "created_at": "2026-08-04T10:05:33.920478+00:00",
-   "last_update": "2026-08-05T18:59:18.321473+00:00",
-   "members": 50,
-   "llm_title": "미국 주식 시장 상승",
-   "one_liner": "미국 주식 시장의 수익이 많아지며 주가가 오르고 있어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
    "id": "c829142dd4083896e",
    "title": "Trump slams Exxon , Chevron for making  too much money",
    "category": "COMMODITY",
@@ -4048,6 +4050,23 @@
    "llm_title": "미국 고용 지표 부진",
    "one_liner": "미국의 고용 지표가 예상보다 좋지 않게 나왔어요.",
    "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "ca8913d871c434798",
+   "title": "Oil rebounds as markets trade mixed following Wall Street rally",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 37,
+   "importance": 50,
+   "entity_keys": [],
+   "created_at": "2026-08-04T10:05:33.920478+00:00",
+   "last_update": "2026-08-05T18:59:18.321473+00:00",
+   "members": 50,
+   "llm_title": "미국 주식 시장 상승",
+   "one_liner": "미국 주식 시장의 수익이 많아지며 주가가 오르고 있어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
