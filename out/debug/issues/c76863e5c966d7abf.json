@@ -431,8 +431,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-11T13:49:57.299746+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-11T17:20:06.993843+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -445,32 +445,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"인텔 주가 하락\",\n  \"one_liner\": \"인텔 주가가 5% 하락했어요.\",\n  \"why_now\": \"회사가 대규모 주식 판매를 계획하면서 투자자들이 우려하고 있어요.\",\n  \"impact_line\": \"관련 기술주들의 움직임도 주목할 필요가 있어요.\",\n  \"details\": [\n    \"인텔이 150억 달러 규모의 주식 판매를 제안했어요.\",\n    \"이 소식에 인텔 주가는 5% 하락했어요.\",\n    \"경쟁사인 AMD와 NVIDIA, 브로드컴의 주가는 큰 변동이 없었어요.\",\n    \"AMD 주가는 지난 7월 18% 하락한 바 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"인텔의 대규모 주식 판매 계획은 시장에 매물 부담을 줄 수 있어요!\",\n    \"AI 분야의 대규모 투자는 관련 기업들의 성장을 이끌 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"NVIDIA\",\n      \"easy\": \"인공지능(AI) 칩을 만드는 유명한 회사예요.\",\n      \"example\": \"AI 기술 발전으로 NVIDIA의 중요성이 커지고 있어요.\"\n    },\n    {\n      \"term\": \"AMD\",\n      \"easy\": \"인텔과 경쟁하는 컴퓨터 중앙처리장치(CPU)와 그래픽 처리장치(GPU) 회사예요.\",\n      \"example\": \"AMD는 게임용 그래픽 카드 시장에서 인기를 얻고 있어요.\"\n    },\n    {\n      \"term\": \"Broadcom\",\n      \"easy\": \"반도체와 통신 장비를 만드는 회사예요.\",\n      \"example\": \"Broadcom은 통신 인프라 구축에 필요한 부품을 공급해요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"주요 기술주 주가 변동\",\n  \"one_liner\": \"인텔 주가가 크게 떨어졌고, AMD 주가도 하락했어요.\",\n  \"why_now\": \"기술주들은 앞으로의 성장 가능성에 따라 주가가 크게 변동하는 경향이 있어요.\",\n  \"impact_line\": \"관심 있는 기술 기업의 주가 변동 소식을 접할 수 있어요.\",\n  \"details\": [\n    \"인텔 주가가 5% 하락했어요.\",\n    \"AMD 주가는 7월에 18% 하락했어요.\",\n    \"엔비디아와 브로드컴 주가는 안정세를 유지했어요.\",\n    \"엔비디아는 인공지능(AI) 분야에 5천억 달러를 투자할 것으로 알려졌어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"인텔의 대규모 주식 판매 계획이 주가 하락의 원인으로 분석돼요!\",\n    \"AMD의 주가 하락은 투자자들의 관심이 다른 기술주로 옮겨갈 가능성을 보여줘요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"인공지능(AI)\",\n      \"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n      \"example\": \"인공지능 스피커가 날씨를 알려줘요.\"\n    },\n    {\n      \"term\": \"주식 판매\",\n      \"easy\": \"회사가 돈을 마련하기 위해 자신의 회사 조각(주식)을 파는 거예요.\",\n      \"example\": \"회사가 새 공장을 짓기 위해 주식을 팔아 돈을 모았어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [150.0]"
-    ]
-   },
-   {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [150.0]"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Intel Falls 5 % on…",
-   "one_liner": "Intel Falls 5 % on Proposed $15B Share Sale as…",
-   "why_now": null,
+   "title": "주요 기술주 주가 변동",
+   "one_liner": "인텔 주가가 크게 떨어졌고, AMD 주가도 하락했어요.",
+   "why_now": "기술주들은 앞으로의 성장 가능성에 따라 주가가 크게 변동하는 경향이 있어요.",
    "details": [
-    "Intel Falls 5 % on Proposed $15B Share Sale as AMD , NVIDIA , Broadcom Hold Steady",
-    "Advanced Micro Devices vs . Intel : Which Technology Stock Is a Better Buy in 2026 ?",
-    "Top Wall Street Firms Reportedly Partnering With Nvidia for $500 Billion AI Investment"
+    "인텔 주가가 5% 하락했어요.",
+    "AMD 주가는 7월에 18% 하락했어요.",
+    "엔비디아와 브로드컴 주가는 안정세를 유지했어요.",
+    "엔비디아는 인공지능(AI) 분야에 5천억 달러를 투자할 것으로 알려졌어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "인텔의 대규모 주식 판매 계획이 주가 하락의 원인으로 분석돼요!",
+    "AMD의 주가 하락은 투자자들의 관심이 다른 기술주로 옮겨갈 가능성을 보여줘요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "1ccc48826dd361abf4484923ca3dbe0b2c1932ee"
  },
