@@ -1,0 +1,130 @@
+{
+ "id": "c2fb98b4467881c26",
+ "title": "According to CAA Manitoba survey , high gas prices changing Summer vacation plans - PembinaValleyOnline . com - Local news , Weather , Sports , Free Classifieds and Business Listings for the Pembina Valley , Manitoba",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 90,
+ "created_at": "2026-08-11T23:09:25.585753+00:00",
+ "last_update": "2026-08-11T23:09:25.587429+00:00",
+ "members": [
+  {
+   "id": "5efe74f4e11f1cdf5a4de201cf5f31059f44baf8",
+   "source": "pembinavalleyonline.com",
+   "tier": "wire",
+   "url": "https://pembinavalleyonline.com/articles/according-to-caa-manitoba-survey-high-gas-prices-changing-summer-vacation-plans",
+   "title": "According to CAA Manitoba survey , high gas prices changing Summer vacation plans - PembinaValleyOnline . com - Local news , Weather , Sports , Free Classifieds and Business Listings for the Pembina Valley , Manitoba",
+   "published_at": "2026-08-11T22:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9578
+  },
+  {
+   "id": "e3c02b1f5fa09184c1db9919b4d1aaee2c369d3b",
+   "source": "brantfordexpositor.ca",
+   "tier": "wire",
+   "url": "https://www.brantfordexpositor.ca:443/life/fashion/canada-goose-review-haida-gwaii",
+   "title": "Canada Goose Review : Testing summer gear in Haida Gwaii , BC .",
+   "published_at": "2026-08-11T22:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9577
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "According to CAA Manitoba survey , high gas prices changing Summer vacation plans - PembinaValleyOnline . com - Local news , Weather , Sports , Free Classifieds and Business Listings for the Pembina Valley , Manitoba",
+   "source": "pembinavalleyonline.com",
+   "url": "https://pembinavalleyonline.com/articles/according-to-caa-manitoba-survey-high-gas-prices-changing-summer-vacation-plans",
+   "at": "2026-08-11T22:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Canada Goose Review : Testing summer gear in Haida Gwaii , BC .",
+   "source": "brantfordexpositor.ca",
+   "url": "https://www.brantfordexpositor.ca:443/life/fashion/canada-goose-review-haida-gwaii",
+   "at": "2026-08-11T22:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-11T23:09:28.704601+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [],
+   "headlines": [
+    "According to CAA Manitoba survey , high gas prices changing Summer vacation plans - PembinaValleyOnline . com - Local news , Weather , Sports , Free Classifieds and Business Listings for the Pembina Valley , Manitoba",
+    "Canada Goose Review : Testing summer gear in Haida Gwaii , BC ."
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"고유가로 여름휴가 계획 변경\", \"one_liner\": \"높은 기름값 때문에 여름휴가 계획을 바꾸는 사람들이 늘고 있어요.\", \"why_now\": \"기름값이 오르면 자동차로 떠나는 여행 비용이 부담스러워져 다른 계획을 세우게 돼요.\", \"impact_line\": \"올여름 자동차 여행 대신 다른 방법을 고려해야 할 수 있어요.\", \"details\": [\"캐나다의 한 조사에 따르면 높은 기름값이 여름휴가 계획에 영향을 주고 있어요.\", \"사람들이 기름값 부담 때문에 여름휴가 계획을 바꾸고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"기름값이 계속 오르면 국내 여행이나 가까운 곳으로 떠나는 휴가가 늘어날 수 있어요!\", \"자동차 대신 대중교통을 이용하는 사람들이 많아질 것으로 예상돼요!\"], \"glossary\": [{\"term\": \"고유가\", \"easy\": \"기름값이 아주 많이 오른 상태를 말해요.\", \"example\": \"고유가 때문에 차를 덜 타게 됐어요.\"}], \"extra_20240724_161957\": null}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "According to CAA…",
+   "one_liner": "According to CAA Manitoba survey , high gas…",
+   "why_now": null,
+   "details": [
+    "According to CAA Manitoba survey , high gas prices changing Summer vacation plans - PembinaValleyOnline . com - Local news , Weather , Sports , Free Classifieds and Business Listings for the Pembina Valley , Manitoba",
+    "Canada Goose Review : Testing summer gear in Haida Gwaii , BC ."
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "4c38f9cab69d88467836f8154407dd8ef55846d4"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-11T23:09:28.704439+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c78e1232ed3794f70",
+   "title": "What Means That Americans May Have to Wait Longer for Rate Relief",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c4a06e144229d2074",
+   "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c8f5b7c6b682bdde6",
+   "title": "Analyzing Consumer Purchasing Habits for Better Marketing Strategies",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c48db748fde00c8f7",
+   "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}

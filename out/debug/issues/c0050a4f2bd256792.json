@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-11T19:31:53.383901+00:00",
+  "created_at": "2026-08-11T23:10:25.514983+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,18 +64,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"AppLovin 주가 하락\",\n\"one_liner\": \"미국 은행이 AppLovin의 주식 등급을 낮추면서 주가가 떨어졌어요.\",\n\"why_now\": \"증권사에서 주식 등급을 낮추면 해당 회사 주가가 하락하는 경우가 많아요.\",\n\"impact_line\": \"AppLovin 관련 투자자들의 손실이 커질 수 있어요.\",\n\"details\": [\n\"미국 은행이 AppLovin의 주식 등급을 낮췄어요.\",\n\"이로 인해 AppLovin의 주가가 하락했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"AppLovin의 향후 실적 전망이 어두워질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"주식 등급\",\n\"easy\": \"증권사가 특정 회사의 주식에 대해 앞으로 오를지 내릴지 예측해 매기는 점수예요.\",\n\"example\": \"증권사가 이 회사 주식 등급을 '매수'에서 '중립'으로 낮췄어요.\"\n}\n],\n\"impact_line\": \"AppLovin 관련 투자자들의 손실이 커질 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -93,8 +87,8 @@
   "fact_hash": "441561ef71963b4655d5472ebaa222388d5a77c7"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-08-11T19:31:53.383724+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-11T23:10:25.514927+00:00"
  },
  "glossary": [],
  "related": [
@@ -105,14 +99,14 @@
    "shared": []
   },
   {
-   "id": "cc7499c0bb39441cc",
-   "title": "Indian stock market : How are Sensex and Nifty 50 likely to perform next week amid ongoing US - Iran war ?",
+   "id": "c76863e5c966d7abf",
+   "title": "Advanced Micro Devices vs . Intel : Which Technology Stock Is a Better Buy in 2026 ?",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c76863e5c966d7abf",
-   "title": "Advanced Micro Devices vs . Intel : Which Technology Stock Is a Better Buy in 2026 ?",
+   "id": "cc7499c0bb39441cc",
+   "title": "Indian stock market : How are Sensex and Nifty 50 likely to perform next week amid ongoing US - Iran war ?",
    "category": "MARKET",
    "shared": []
   },
