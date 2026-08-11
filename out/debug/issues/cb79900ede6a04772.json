@@ -71,7 +71,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-10T22:03:57.654939+00:00",
+  "created_at": "2026-08-11T02:34:47.503871+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -81,15 +81,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"버크셔 해서웨이의 현금 쌓기\",\n   \"one_liner\": \"버크셔 해서웨이가巨額의 현금을 투자하기 시작했어요\",\n   \"why_now\": \"버크shire 해서웨이의巨額 현금이 투자되면 주식 시장에 영향을 줄 수 있어요\",\n   \"impact_line\": \"401(k) 펀드의 가치가 증가할 수 있어요\",\n   \"details\": [\n       \"버크셔 해서웨이가 14분기 동안 이어졌던 주식 매도 행진을 멈췄어요\",\n       \"버크셔 해서웨이는 23.5억 달러의 주식을 매수했어요\",\n       \"10억 달러는 한 회사에 투자되었어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주식 시장의 활성화로 투자자들에게 기회가 늘어날 수 있어요!\",\n       \"버크셔 해서웨이의 투자로 관련 기업의 가치가 상승할 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"401(k)\",\n           \"easy\": \"미국에서 회사원들이 사용하는 퇴직금 저축 계좌예요\",\n           \"example\": \"401(k)에 투자하면 미래의 퇴직금을 마련할 수 있어요\"\n       }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 에 한자/가나 포함",
-     "입력에 없는 숫자: [23.5]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -111,8 +104,8 @@
   "fact_hash": "8836b9375925e98279c51896c38bde8870168dfc"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\", \"입력에 없는 숫자: [23.5]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-10T22:03:57.654594+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-11T02:34:47.503800+00:00"
  },
  "glossary": [],
  "related": [
@@ -131,6 +124,12 @@
    "shared": []
   },
   {
+   "id": "cd9e738c59cd0da89",
+   "title": "Empress Reports 2026 Second Quarter Financial Results",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
    "id": "cc7a847a31a119032",
    "title": "Meta Had Six Weeks to Stop Japan $804M Scam Crisis : It Chose Revenue",
    "category": "EARNINGS",
@@ -139,12 +138,6 @@
   {
    "id": "c8759b0f51add9c4b",
    "title": "CXMT becomes China most valuable listed company",
-   "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c2e1f0924eab58cb9",
-   "title": "Taiwan Semiconductor Manufacturing Company Limited ( TSM ) Doubled Since Giverny Capital Asset Management Entry",
    "category": "EARNINGS",
    "shared": []
   }

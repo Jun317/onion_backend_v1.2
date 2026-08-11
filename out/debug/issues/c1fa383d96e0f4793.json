@@ -869,42 +869,45 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-10T22:04:16.192715+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-11T02:33:13.186073+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
     "Senvest Capital Inc . Reports Results for the Second Quarter Ended June 30 , 2026",
     "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
+    "Team , Inc . Reports Second Quarter 2026 Results",
     "Pangaea Logistics Solutions Ltd . Reports Financial Results for the Second Quarter Ended June 30 , 2026",
-    "American Vanguard Reports Second Quarter 2026 Results",
-    "What Retirees Should Expect From Social Security 3 . 8 % COLA in 2027"
+    "American Vanguard Reports Second Quarter 2026 Results"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"2분기 실적 발표\",\n   \"one_liner\": \"여러 기업이 2분기 실적을 발표했어요\",\n   \"why_now\": \"실적 발표로 기업의 최근 상황과 앞으로의 전망을 알 수 있어요\",\n   \"impact_line\": \"주식 투자자에게 중요한 정보가 될 수 있어요\",\n   \"details\": [\n       \"Senvest Capital Inc.이 2분기 실적을 발표했어요\",\n       \"NI Holdings, Inc.도 2분기 실적을 발표했어요\",\n       \"Team, Inc.의 2분기 실적도 나왔어요\",\n       \"Pangaea Logistics Solutions Ltd.의 2분기 실적이 발표되었어요\",\n       \"American Vanguard의 2분기 실적도 발표했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"실적이 좋으면 주가가 오를 수 있어요!\",\n       \"실적이 나쁘면 투자자들이 주의할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Senvest Capital Inc…",
-   "one_liner": "Senvest Capital Inc . Reports Results for the…",
-   "why_now": null,
+   "title": "2분기 실적 발표",
+   "one_liner": "여러 기업이 2분기 실적을 발표했어요",
+   "why_now": "실적 발표로 기업의 최근 상황과 앞으로의 전망을 알 수 있어요",
    "details": [
-    "Senvest Capital Inc . Reports Results for the Second Quarter Ended June 30 , 2026",
-    "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
-    "Pangaea Logistics Solutions Ltd . Reports Financial Results for the Second Quarter Ended June 30 , 2026"
+    "Senvest Capital Inc.이 2분기 실적을 발표했어요",
+    "NI Holdings, Inc.도 2분기 실적을 발표했어요",
+    "Team, Inc.의 2분기 실적도 나왔어요",
+    "Pangaea Logistics Solutions Ltd.의 2분기 실적이 발표되었어요",
+    "American Vanguard의 2분기 실적도 발표했어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "실적이 좋으면 주가가 오를 수 있어요!",
+    "실적이 나쁘면 투자자들이 주의할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "687684b95406bb1305232820079ff34b570453a9"
+  "fact_hash": "7dbf8c6a31cd25e7c2bb2f98298d418c2d2eb6d9"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
