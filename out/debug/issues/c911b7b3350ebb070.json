@@ -137,7 +137,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-12T10:37:19.425073+00:00",
+  "created_at": "2026-08-12T13:59:55.145274+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -150,8 +150,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기업 실적 발표\",\n  \"one_liner\": \"여러 기업들이 2분기 실적 발표를 진행했어요.\",\n  \"why_now\": \"기업들의 실적은 앞으로의 주가와 경제 흐름을 예측하는 데 중요한 지표가 돼요.\",\n  \"impact_line\": \"실적 발표는 투자 결정에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"인스파이어 메디컬 시스템즈는 2분기 실적 발표에서 분석가들의 질문이 있었어요.\",\n    \"아슈어런트, 암피우스, 아카디아 파마슈티컬스는 2분기 실적 발표 내용을 공개했어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"기업들의 실적 발표 결과에 따라 주가가 오르거나 내릴 수 있어요!\",\n    \"좋은 실적은 해당 기업의 투자 가치를 높이는 요인이 될 수 있어요!\"\n  ],\n  \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -174,20 +180,20 @@
   "fact_hash": "dc3c4cc28097d933c147f6bf14950fcf229aa980"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-12T10:37:19.424998+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-12T13:59:55.145217+00:00"
  },
  "glossary": [],
  "related": [
   {
-   "id": "c6fdad826562ed3e4",
-   "title": "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
+   "id": "c82a3b5d145e7a47c",
+   "title": "Armanino Foods of Distinction , Inc .: Armanino Foods Reports Record Second Quarter 2026 Net Sales",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c82a3b5d145e7a47c",
-   "title": "Armanino Foods of Distinction , Inc .: Armanino Foods Reports Record Second Quarter 2026 Net Sales",
+   "id": "c6fdad826562ed3e4",
+   "title": "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
    "category": "EARNINGS",
    "shared": []
   },
