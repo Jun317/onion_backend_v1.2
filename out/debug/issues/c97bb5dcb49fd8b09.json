@@ -171,7 +171,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-12T12:06:31.080751+00:00",
+  "created_at": "2026-08-12T15:27:01.679275+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -184,18 +184,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"캘거리 경찰, 조직범죄 연루 8명 체포\", \"one_liner\": \"캐나다 캘거리 경찰이 조직범죄와 관련하여 8명을 체포했어요.\", \"why_now\": \"조직범죄는 사회 안전을 위협하고 경제 활동을 방해할 수 있어요.\", \"impact_line\": \"지역 사회의 안전이 강화될 수 있어요.\", \"details\": [\"캘거리 경찰이 8명을 체포했습니다.\", \"이들은 조직범죄와 연루된 것으로 알려졌습니다.\"], \"visual_type\": \"none\", \"effects\": [\"지역 사회의 안전이 강화될 수 있어요!\"], \"glossary\": [{\"term\": \"조직범죄\", \"easy\": \"계획적으로 범죄를 저지르는 집단이에요.\", \"example\": \"조직범죄는 마약 거래, 사기 등 다양한 범죄를 저질러요.\"}], \"impact_line\": \"지역 사회의 안전이 강화될 수 있어요.\"}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -214,8 +208,8 @@
   "fact_hash": "321ef42613aed4d1f27e3526737500f197285464"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-08-12T12:06:31.080632+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-12T15:27:01.679150+00:00"
  },
  "glossary": [],
  "related": [

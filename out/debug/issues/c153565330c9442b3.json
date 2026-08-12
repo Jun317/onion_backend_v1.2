@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-12T12:06:09.872525+00:00",
+  "created_at": "2026-08-12T15:26:15.121796+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -881,12 +881,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"미국 경제 전망 불확실\", \"one_liner\": \"미국 경제가 곧 침체될 수 있다는 전망이 나왔어요.\", \"why_now\": \"경제 침체는 물가 상승, 실업 증가 등 우리 생활에 직접적인 영향을 줄 수 있어요.\", \"impact_line\": \"물가가 오르고 일자리가 줄어들 수 있어요.\", \"details\": [\"미국 경제가 곧 침체될 수 있다는 전망이 나왔어요.\", \"경제 침체는 소비와 투자가 줄어드는 현상을 말해요.\"], \"visual_type\": \"none\", \"effects\": [\"소비가 줄어 기업들의 매출이 감소할 수 있어요!\", \"실업률이 올라 일자리를 구하기 어려워질 수 있어요!\"], \"glossary\": [{\"term\": \"경제 침체\", \"easy\": \"나라 경제가 전반적으로 나빠지는 것을 말해요. 물건을 사거나 투자를 덜 하게 돼요.\", \"example\": \"경제 침체가 오면 물건값이 오르고 실업자가 늘어날 수 있어요.\"}], \"impact_line\": \"물가가 오르고 일자리가 줄어들 수 있어요.\"}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "one_liner 에 한자/가나 포함"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -905,8 +911,8 @@
   "fact_hash": "790902b8751c72d0ba7def815ad2076c8fac203a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-12T12:06:09.872455+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-12T15:26:15.121734+00:00"
  },
  "glossary": [],
  "related": [
