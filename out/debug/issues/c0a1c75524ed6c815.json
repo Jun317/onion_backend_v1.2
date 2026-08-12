@@ -7,11 +7,31 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 90,
+ "seen_sources": 4,
+ "importance": 100,
  "created_at": "2026-08-11T23:09:25.584446+00:00",
- "last_update": "2026-08-11T23:09:25.587306+00:00",
+ "last_update": "2026-08-12T00:05:15.014698+00:00",
  "members": [
+  {
+   "id": "6eea7badd59dec05548a45853a6043761212fc6f",
+   "source": "marketplace.org",
+   "tier": "wire",
+   "url": "https://www.marketplace.org/story/2026/08/11/credit-card-delinquencies-approach-great-recession-levels",
+   "title": "Credit card delinquencies approach Great Recession levels",
+   "published_at": "2026-08-11T23:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.875
+  },
+  {
+   "id": "753b3e779b6b446e5e37772e343ef54928574cd5",
+   "source": "thenorthlines.com",
+   "tier": "wire",
+   "url": "https://thenorthlines.com/india-6th-largest-economy-with-usd-3-92-tn-gdp/",
+   "title": "India 6th - largest economy with USD 3 . 92 Tn GDP",
+   "published_at": "2026-08-11T23:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8857
+  },
   {
    "id": "351b27dcf5b8e360d06db043185072fbd921976d",
    "source": "thesouthafrican.com",
@@ -20,7 +40,7 @@
    "title": "The number of unemployed people has nearly doubled in 18 years",
    "published_at": "2026-08-11T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9651
+   "sim_to_centroid": 0.9617
   },
   {
    "id": "6e0187921688a1b71ee52657a56e4e6f168dfacb",
@@ -30,11 +50,25 @@
    "title": "Youth unemployment : Global rate rose in 2025 , UN says",
    "published_at": "2026-08-11T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9651
+   "sim_to_centroid": 0.9621
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Credit card delinquencies approach Great Recession levels",
+   "source": "marketplace.org",
+   "url": "https://www.marketplace.org/story/2026/08/11/credit-card-delinquencies-approach-great-recession-levels",
+   "at": "2026-08-11T23:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "India 6th - largest economy with USD 3 . 92 Tn GDP",
+   "source": "thenorthlines.com",
+   "url": "https://thenorthlines.com/india-6th-largest-economy-with-usd-3-92-tn-gdp/",
+   "at": "2026-08-11T23:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "The number of unemployed people has nearly doubled in 18 years",
@@ -51,53 +85,63 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-11T23:09:48.775838+00:00",
+  "model": "template",
+  "created_at": "2026-08-12T00:07:54.536708+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
+    "Credit card delinquencies approach Great Recession levels",
+    "India 6th - largest economy with USD 3 . 92 Tn GDP",
     "The number of unemployed people has nearly doubled in 18 years",
     "Youth unemployment : Global rate rose in 2025 , UN says"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"청년 실업률 상승\",\n  \"one_liner\": \"2025년 전 세계 청년 실업률이 올랐다고 유엔이 발표했어요.\",\n  \"why_now\": \"청년 실업률이 오르면 젊은 사람들이 일자리를 구하기 어려워져 사회 전체의 활력이 떨어질 수 있어요.\",\n  \"impact_line\": \"취업 준비 기간이 길어지거나 취업이 더 어려워질 수 있어요.\",\n  \"details\": [\n    \"2025년 전 세계 청년 실업률이 상승했어요.\",\n    \"이는 18년 만에 실업자 수가 거의 두 배로 늘어난 수치예요.\",\n    \"유엔이 발표한 내용이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"젊은 사람들이 일자리를 구하기 어려워져 경제 활동이 위축될 수 있어요!\",\n    \"사회적으로는 청년층의 소득 감소와 불안정성이 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"실업률\",\n      \"easy\": \"일할 능력이 있고 일자리를 찾고 있지만, 일자리가 없어 일하지 못하는 사람의 비율이에요.\",\n      \"example\": \"실업률이 높으면 경제가 어렵다는 신호일 수 있어요.\"\n    },\n    {\n      \"term\": \"유엔\",\n      \"easy\": \"전 세계 나라들이 모여 평화와 협력을 위해 만든 국제기구예요.\",\n      \"example\": \"유엔은 기후 변화나 빈곤 같은 전 지구적 문제를 해결하기 위해 노력해요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "청년 실업률 상승",
-   "one_liner": "2025년 전 세계 청년 실업률이 올랐다고 유엔이 발표했어요.",
-   "why_now": "청년 실업률이 오르면 젊은 사람들이 일자리를 구하기 어려워져 사회 전체의 활력이 떨어질 수 있어요.",
+   "title": "Credit card…",
+   "one_liner": "Credit card delinquencies approach Great…",
+   "why_now": null,
    "details": [
-    "2025년 전 세계 청년 실업률이 상승했어요.",
-    "이는 18년 만에 실업자 수가 거의 두 배로 늘어난 수치예요.",
-    "유엔이 발표한 내용이에요."
+    "Credit card delinquencies approach Great Recession levels",
+    "India 6th - largest economy with USD 3 . 92 Tn GDP",
+    "The number of unemployed people has nearly doubled in 18 years"
    ],
-   "effects": [
-    "젊은 사람들이 일자리를 구하기 어려워져 경제 활동이 위축될 수 있어요!",
-    "사회적으로는 청년층의 소득 감소와 불안정성이 커질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "e00d60992ba51611a77dcb6567a8b24ec85c9293"
+  "fact_hash": "4e9ebbfcc8897da37f73203a2390f9e0b86a76f3"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-12T00:07:54.536620+00:00"
+ },
  "glossary": [
   {
-   "term": "실업률",
-   "easy": "일하고 싶은 사람 중 일자리를 못 구한 비율이에요.",
-   "example": "높을수록 경기가 나쁘다는 신호예요."
+   "term": "GDP",
+   "easy": "한 나라가 일정 기간 벌어들인 값의 총합이에요.",
+   "example": "경제 규모가 얼마나 큰지 보여줘요."
   }
  ],
  "related": [
   {
    "id": "cb3030e4a5acd0008",
    "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c2fb98b4467881c26",
+   "title": "According to CAA Manitoba survey , high gas prices changing Summer vacation plans - PembinaValleyOnline . com - Local news , Weather , Sports , Free Classifieds and Business Listings for the Pembina Valley , Manitoba",
    "category": "MACRO",
    "shared": []
   },
@@ -116,12 +160,6 @@
   {
    "id": "c8f5b7c6b682bdde6",
    "title": "Analyzing Consumer Purchasing Habits for Better Marketing Strategies",
-   "category": "MACRO",
-   "shared": []
-  },
-  {
-   "id": "c48db748fde00c8f7",
-   "title": "Walmart is lowering prices on thousands of items , including beef , soda and household goods",
    "category": "MACRO",
    "shared": []
   }

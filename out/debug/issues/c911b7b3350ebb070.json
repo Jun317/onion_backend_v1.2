@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 50,
+ "seen_sources": 4,
+ "importance": 60,
  "created_at": "2026-08-11T23:09:25.584096+00:00",
- "last_update": "2026-08-11T23:09:25.587267+00:00",
+ "last_update": "2026-08-12T00:05:15.019867+00:00",
  "members": [
+  {
+   "id": "2568d30961b75824ae4bbc16784706a5aa59e7b1",
+   "source": "calgarysun.com",
+   "tier": "wire",
+   "url": "https://calgarysun.com/entertainment/celebrity/office-star-lucy-davis-cancer-diagnosis",
+   "title": "The Office star Lucy Davis reveals terminal cancer diagnosis",
+   "published_at": "2026-08-11T23:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8628
+  },
   {
    "id": "9ad4ec8fac92491faf8bbfa285d206956d7e3b0a",
    "source": "finance.yahoo.com",
@@ -20,7 +30,17 @@
    "title": "5 Insightful Analyst Questions From Inspire Medical Systems Q2 Earnings Call",
    "published_at": "2026-08-11T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9562
+   "sim_to_centroid": 0.9553
+  },
+  {
+   "id": "937385d2abdd288a5d615c79965c84f0c9ac299f",
+   "source": "interest.co.nz",
+   "tier": "wire",
+   "url": "https://www.interest.co.nz/economy/139767/us-data-uninspiring-us-50-tariffs-canada-imminent-singapore-malaysia-industry",
+   "title": "Breakfast briefing : Ignoring Hormuz & hoping for the best",
+   "published_at": "2026-08-11T22:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8863
   },
   {
    "id": "8ad055c19b9914a2cb1f769f5b60202d0752b9d6",
@@ -30,11 +50,18 @@
    "title": "How to move from EMS to healthcare administration",
    "published_at": "2026-08-11T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9563
+   "sim_to_centroid": 0.9503
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "The Office star Lucy Davis reveals terminal cancer diagnosis",
+   "source": "calgarysun.com",
+   "url": "https://calgarysun.com/entertainment/celebrity/office-star-lucy-davis-cancer-diagnosis",
+   "at": "2026-08-11T23:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "5 Insightful Analyst Questions From Inspire Medical Systems Q2 Earnings Call",
@@ -48,10 +75,56 @@
    "source": "ems1.com",
    "url": "https://www.ems1.com/emt-ems-paramedic-jobs-and-careers/beyond-the-rig-the-path-from-ems-to-healthcare-administration",
    "at": "2026-08-11T22:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Breakfast briefing : Ignoring Hormuz & hoping for the best",
+   "source": "interest.co.nz",
+   "url": "https://www.interest.co.nz/economy/139767/us-data-uninspiring-us-50-tariffs-canada-imminent-singapore-malaysia-industry",
+   "at": "2026-08-11T22:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-12T00:06:59.172216+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "The Office star Lucy Davis reveals terminal cancer diagnosis",
+    "5 Insightful Analyst Questions From Inspire Medical Systems Q2 Earnings Call",
+    "Breakfast briefing : Ignoring Hormuz & hoping for the best",
+    "How to move from EMS to healthcare administration"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "The Office star Lucy…",
+   "one_liner": "The Office star Lucy Davis reveals terminal…",
+   "why_now": null,
+   "details": [
+    "The Office star Lucy Davis reveals terminal cancer diagnosis",
+    "5 Insightful Analyst Questions From Inspire Medical Systems Q2 Earnings Call",
+    "Breakfast briefing : Ignoring Hormuz & hoping for the best"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "42482d163d8114032933987f0c2e951d46ef3f85"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-12T00:06:59.172147+00:00"
+ },
  "glossary": [],
  "related": [
   {
