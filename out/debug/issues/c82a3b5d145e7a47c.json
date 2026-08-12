@@ -189,42 +189,45 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-12T03:02:51.597407+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-12T06:50:09.205398+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
     "Peraso Inc .: Peraso Announces Second Quarter 2026 Results",
-    "Armanino Foods of Distinction , Inc .: Armanino Foods Reports Record Second Quarter 2026 Net Sales",
     "Peyto Reports Second Quarter 2026 Results",
+    "Armanino Foods of Distinction , Inc .: Armanino Foods Reports Record Second Quarter 2026 Net Sales",
     "The Eastern Company Reports Second Quarter 2026 Results",
     "Gladstone Land Corporation : Gladstone Land Announces Second Quarter 2026 Results"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"2분기 실적 발표\",\n   \"one_liner\": \"여러 기업이 2분기 실적을 발표했어요\",\n   \"why_now\": \"실적 발표는 기업의 최근 상황을 알 수 있어요\",\n   \"impact_line\": \"주식 투자자에게 중요한 소식이에요\",\n   \"details\": [\n      \"Peraso Inc.가 2분기 실적을 발표했어요\",\n      \"Peyto도 2분기 실적을 발표했어요\",\n      \"Armanino Foods의 2분기 매출이 역대 최고였어요\",\n      \"The Eastern Company의 2분기 실적도 발표됐어요\",\n      \"Gladstone Land Corporation도 2분기 실적을 발표했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"기업의 실적이 좋으면 주가가 오를 수 있어요!\",\n      \"실적이 좋지 않으면 투자자들이 주의할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Peraso Inc .: Peraso…",
-   "one_liner": "Peraso Inc .: Peraso Announces Second Quarter…",
-   "why_now": null,
+   "title": "2분기 실적 발표",
+   "one_liner": "여러 기업이 2분기 실적을 발표했어요",
+   "why_now": "실적 발표는 기업의 최근 상황을 알 수 있어요",
    "details": [
-    "Peraso Inc .: Peraso Announces Second Quarter 2026 Results",
-    "Armanino Foods of Distinction , Inc .: Armanino Foods Reports Record Second Quarter 2026 Net Sales",
-    "Peyto Reports Second Quarter 2026 Results"
+    "Peraso Inc.가 2분기 실적을 발표했어요",
+    "Peyto도 2분기 실적을 발표했어요",
+    "Armanino Foods의 2분기 매출이 역대 최고였어요",
+    "The Eastern Company의 2분기 실적도 발표됐어요",
+    "Gladstone Land Corporation도 2분기 실적을 발표했어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "기업의 실적이 좋으면 주가가 오를 수 있어요!",
+    "실적이 좋지 않으면 투자자들이 주의할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "0a7567e12ffab04ed5ee4b4995a9f96b99b90aa4"
+  "fact_hash": "110364904d9e675e0fdb67bd7a4fb4d71f19c1e1"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

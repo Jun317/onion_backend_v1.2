@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-12T03:13:02.425591+00:00",
+  "created_at": "2026-08-12T07:00:39.723423+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,12 +64,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"존슨앤드존슨 주식 거래\", \"one_liner\": \"존슨앤드존슨 주식이 거래되었어요.\", \"why_now\": \"기업의 주식 거래는 회사의 가치나 전망에 대한 시장의 평가를 보여줄 수 있어요.\", \"impact_line\": \"존슨앤드존슨 주가에 영향을 줄 수 있어요.\", \"details\": [\"존슨앤드존슨 주식이 거래되었어요.\", \"메인 스트리트 리서치가 존슨앤드존슨 주식을 매입했어요.\"], \"visual_type\": \"none\", \"effects\": [\"주식 거래량이나 가격 변동에 영향을 줄 수 있어요!\"], \"glossary\": [{\"term\": \"주식\", \"easy\": \"회사의 소유권 일부를 나타내는 증서예요.\", \"example\": \"주식을 사면 그 회사의 주인이 되는 거예요.\"}, {\"term\": \"매입\", \"easy\": \"물건이나 권리 등을 돈을 주고 사는 것을 말해요.\", \"example\": \"새로운 노트북을 매입했어요.\"}]}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -87,8 +93,8 @@
   "fact_hash": "ee6d7b3273cd8c796dd4d5c4b31ea35c2d53d52d"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-12T03:13:02.425519+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-12T07:00:39.723368+00:00"
  },
  "glossary": [],
  "related": [
