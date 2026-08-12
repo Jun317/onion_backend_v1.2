@@ -120,7 +120,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-12T05:11:52.753310+00:00",
+  "created_at": "2026-08-12T08:46:11.124400+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -133,7 +133,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"다양한 사건\",\n   \"one_liner\": \"여러 나라에서 범죄와 의혹 관련 뉴스가 나왔어요\",\n   \"why_now\": \"이런 소식은 범죄와 안전에 관심이 많은 사람들에게 중요해요\",\n   \"impact_line\": \"생활과 안전에 영향을 줄 수 있어요\",\n   \"details\": [\n      \"오순 주지사 아델레케가 오예톨라 전 주지사가 오순 주 계좌를 동결했다고 주장했어요\",\n      \"아델레케 주지사가 상원에서 주 경찰을 도입했다고 말했어요\",\n      \"캘거리 경찰이 조직 범죄와 관련된 8명을 체포했어요\",\n      \"인도에서人力車 운전手を 체포했어요\",\n      \"항공 박물관에서 5개의 기념プレート가 도난당했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"범죄가 증가하면 안전이 떨어져 생활에 영향을 줄 수 있어요\",\n      \"경찰의 조직 범죄 대응이 강화되면 범죄율이 낮아질 수 있어요\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\"title\": \"캘거리 경찰, 범죄 조직 연루 8명 체포\", \"one_liner\": \"캐나다 캘거리 경찰이 범죄 조직과 관련된 8명을 체포했습니다.\", \"why_now\": \"경찰이 범죄 조직을 소탕하면 지역 사회의 안전이 높아지는 효과가 있어요.\", \"impact_line\": \"지역 사회의 안전이 더 높아질 것으로 기대돼요.\", \"details\": [\"캘거리 경찰이 범죄 조직과 관련된 8명을 체포했습니다.\", \"이번 체포는 조직 범죄 소탕을 위한 노력의 일환입니다.\"], \"visual_type\": \"none\", \"effects\": [\"지역 사회의 안전이 향상될 것으로 예상돼요!\"], \"glossary\": [{\"term\": \"범죄 조직\", \"easy\": \"여러 사람이 모여 불법적인 일을 하는 집단이에요.\", \"example\": \"경찰이 범죄 조직을 소탕하면 동네가 더 안전해져요.\"}]}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
@@ -142,10 +142,10 @@
     ]
    },
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "effects[0] 느낌표 종결 아님",
-     "effects[1] 느낌표 종결 아님"
+     "one_liner 해요체 아님",
+     "details 3문장 미만"
     ]
    }
   ],
@@ -164,14 +164,20 @@
   "fact_hash": "43a57e95ad9c6f7f5edfb44bd4696ef8791771f5"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\"]}]}",
-  "at": "2026-08-12T05:11:52.753234+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 해요체 아님\", \"details 3문장 미만\"]}]}",
+  "at": "2026-08-12T08:46:11.124339+00:00"
  },
  "glossary": [],
  "related": [
   {
    "id": "cd7b762c4b0212485",
    "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "c0acdd1f546d084c1",
+   "title": "Oracle Has Drawn Plans for Another Round of Job Cuts This Month",
    "category": "GEO",
    "shared": []
   },

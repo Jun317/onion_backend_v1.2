@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-12T05:15:35.699085+00:00",
+  "created_at": "2026-08-12T08:45:29.205293+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -881,12 +881,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"미국 경제 전망 불확실\", \"one_liner\": \"미국 경제가 곧 어려워질 수 있다는 전망이 나왔어요.\", \"why_now\": \"경제 전망은 소비와 투자 심리에 영향을 미쳐요.\", \"impact_line\": \"소비와 투자가 위축될 수 있다는 우려가 나와요.\", \"details\": [\"미국 경제가 곧 어려워질 수 있다는 전망이 나왔어요.\", \"이러한 전망은 미국 경제의 미래에 대한 불확실성을 보여줘요.\"], \"visual_type\": \"none\", \"effects\": [\"소비 심리가 위축되면 물건을 사려는 사람이 줄어 경제 활동이 둔화될 수 있어요!\", \"기업들이 투자를 줄이면 일자리 창출이 어려워질 수 있어요!\"], \"glossary\": [{\"term\": \"경제 전망\", \"easy\": \"앞으로 경제가 어떻게 될지 예상하는 것을 말해요.\", \"example\": \"경제 전망이 좋으면 사람들이 돈을 더 쓰려고 해요.\"}], \"impact_line\": \"소비와 투자가 위축될 수 있다는 우려가 나와요.\"}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -905,8 +911,8 @@
   "fact_hash": "790902b8751c72d0ba7def815ad2076c8fac203a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-12T05:15:35.699018+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-12T08:45:29.205174+00:00"
  },
  "glossary": [],
  "related": [

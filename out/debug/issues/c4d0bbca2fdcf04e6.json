@@ -10,8 +10,28 @@
  "seen_sources": 9,
  "importance": 65,
  "created_at": "2026-08-11T23:09:25.583342+00:00",
- "last_update": "2026-08-12T05:11:13.353306+00:00",
+ "last_update": "2026-08-12T08:44:41.555717+00:00",
  "members": [
+  {
+   "id": "e844c06ba9aad2331b253b832121af0ec0df98a6",
+   "source": "themarketsdaily.com",
+   "tier": "wire",
+   "url": "https://www.themarketsdaily.com/2026/08/12/beam-global-beem-projected-to-post-quarterly-earnings-on-thursday.html",
+   "title": "Beam Global ( BEEM ) Projected to Post Quarterly Earnings on Thursday",
+   "published_at": "2026-08-12T07:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8769
+  },
+  {
+   "id": "739c0aa8e9b29320b6f9bd5b13abe278bc115785",
+   "source": "themarketsdaily.com",
+   "tier": "wire",
+   "url": "https://www.themarketsdaily.com/2026/08/12/cadiz-cdzi-projected-to-release-quarterly-earnings-on-thursday.html",
+   "title": "Cadiz ( CDZI ) Projected to Release Quarterly Earnings on Thursday",
+   "published_at": "2026-08-12T07:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8931
+  },
   {
    "id": "bb3ba5a9da8f2d8452b6654792a75f2ae049b2f1",
    "source": "themarketsdaily.com",
@@ -277,6 +297,20 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Beam Global ( BEEM ) Projected to Post Quarterly Earnings on Thursday",
+   "source": "themarketsdaily.com",
+   "url": "https://www.themarketsdaily.com/2026/08/12/beam-global-beem-projected-to-post-quarterly-earnings-on-thursday.html",
+   "at": "2026-08-12T07:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Cadiz ( CDZI ) Projected to Release Quarterly Earnings on Thursday",
+   "source": "themarketsdaily.com",
+   "url": "https://www.themarketsdaily.com/2026/08/12/cadiz-cdzi-projected-to-release-quarterly-earnings-on-thursday.html",
+   "at": "2026-08-12T07:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Purple Innovation Q2 Earnings Call Highlights",
    "source": "themarketsdaily.com",
    "url": "https://www.themarketsdaily.com/2026/08/12/purple-innovation-q2-earnings-call-highlights.html",
@@ -460,7 +494,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-12T05:12:30.116346+00:00",
+  "created_at": "2026-08-12T08:46:49.727438+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -473,8 +507,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기업들, 분기 실적 발표\",\n  \"one_liner\": \"여러 기업들이 예상보다 좋거나 나쁜 분기 실적을 발표했어요.\",\n  \"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"투자하려는 회사의 실적 발표를 잘 살펴보는 것이 중요해요.\",\n  \"details\": [\n    \"Eupraxia Pharmaceuticals는 예상보다 0.02달러 더 높은 주당순이익을 기록했어요.\",\n    \"Fold는 예상보다 0.04달러 낮은 주당순이익을 기록했어요.\",\n    \"Spectral AI는 예상보다 0.01달러 더 높은 주당순이익을 기록했어요.\",\n    \"Bolt Biotherapeutics는 예상보다 1.18달러 낮은 주당순이익을 기록했어요.\",\n    \"Codexis는 예상보다 0.01달러 더 높은 주당순이익을 기록했어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"실적이 좋은 기업은 주가가 오를 수 있어요!\",\n    \"실적이 나쁜 기업은 주가가 내릴 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주당순이익\",\n      \"easy\": \"회사가 벌어들인 돈을 발행된 주식 수로 나눈 값이에요.\",\n      \"example\": \"주당순이익이 높으면 회사가 돈을 잘 벌었다는 뜻이에요.\"\n    },\n    {\n      \"term\": \"EPS\",\n      \"easy\": \"주당순이익을 줄여서 부르는 말이에요.\",\n      \"example\": \"EPS가 높으면 회사의 수익성이 좋다는 의미예요.\"\n    }\n  ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [0.01, 0.02, 0.04, 1.18]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -497,8 +537,8 @@
   "fact_hash": "c236750f3ef6e715dc873cfa9bc00970daf3d3f8"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-12T05:12:30.116194+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [0.01, 0.02, 0.04, 1.18]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-12T08:46:49.727375+00:00"
  },
  "glossary": [],
  "related": [
