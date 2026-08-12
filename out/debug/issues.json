@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-12T22:08:32.052429+00:00",
+ "generated_at": "2026-08-12T23:07:10.936231+00:00",
  "issues": [
   {
    "id": "cea83213c8906724e",
@@ -175,15 +175,16 @@
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 26,
+   "seen_sources": 32,
    "importance": 120,
    "entity_keys": [
+    "CHINA",
     "SEC",
     "UBER"
    ],
    "created_at": "2026-08-11T22:10:59.330923+00:00",
-   "last_update": "2026-08-12T21:09:51.090281+00:00",
-   "members": 35,
+   "last_update": "2026-08-12T23:07:09.500234+00:00",
+   "members": 50,
    "llm_title": "Peraso Inc .: Peraso…",
    "one_liner": "Peraso Inc .: Peraso Announces Second Quarter…",
    "llm_model": "template",
@@ -433,18 +434,35 @@
    "category": "MACRO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 17,
+   "seen_sources": 20,
    "importance": 105,
    "entity_keys": [
     "IRAN"
    ],
    "created_at": "2026-08-12T21:09:51.092206+00:00",
-   "last_update": "2026-08-12T22:08:30.956239+00:00",
-   "members": 19,
+   "last_update": "2026-08-12T23:07:09.501974+00:00",
+   "members": 24,
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "c0a1c75524ed6c815",
+   "title": "The number of unemployed people has nearly doubled in 18 years",
+   "category": "MACRO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 9,
+   "importance": 105,
+   "entity_keys": [],
+   "created_at": "2026-08-11T23:09:25.584446+00:00",
+   "last_update": "2026-08-12T23:07:09.498333+00:00",
+   "members": 9,
+   "llm_title": "청년 실업률 급증",
+   "one_liner": "청년 실업률이 크게 올라 가장 큰 타격을 받고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
   },
   {
    "id": "c2fb98b4467881c26",
@@ -461,23 +479,6 @@
    "llm_title": "여행 계획 변경",
    "one_liner": "캐나다에서 가솔린 가격이 높아지면서 여름 휴가 계획이 바뀌고 있어요.",
    "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "c0a1c75524ed6c815",
-   "title": "The number of unemployed people has nearly doubled in 18 years",
-   "category": "MACRO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 5,
-   "importance": 105,
-   "entity_keys": [],
-   "created_at": "2026-08-11T23:09:25.584446+00:00",
-   "last_update": "2026-08-12T05:11:13.354559+00:00",
-   "members": 5,
-   "llm_title": "청년 실업률 급증",
-   "one_liner": "청년 실업률이 크게 올라 가장 큰 타격을 받고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -502,49 +503,6 @@
    "llm_title": "주요 기술주 주가 변동",
    "one_liner": "인텔 주가가 크게 떨어졌고, AMD 주가도 하락했어요.",
    "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "cc7499c0bb39441cc",
-   "title": "Indian stock market : How are Sensex and Nifty 50 likely to perform next week amid ongoing US - Iran war ?",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 41,
-   "importance": 105,
-   "entity_keys": [
-    "IRAN",
-    "SEC"
-   ],
-   "created_at": "2026-08-09T10:58:40.037765+00:00",
-   "last_update": "2026-08-10T23:02:10.508578+00:00",
-   "members": 50,
-   "llm_title": "미국, 이란과 제한적 협상",
-   "one_liner": "미국이 이란과 제한적으로 협상 중이라고 도널드 트럼프 대통령이 밝혔어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c6fdad826562ed3e4",
-   "title": "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 35,
-   "importance": 105,
-   "entity_keys": [
-    "AVGO",
-    "BRK",
-    "F",
-    "IRAN",
-    "SEC"
-   ],
-   "created_at": "2026-08-07T15:14:46.737049+00:00",
-   "last_update": "2026-08-08T22:53:44.336436+00:00",
-   "members": 47,
-   "llm_title": "미국 경제 소식",
-   "one_liner": "미국 경제에 여러 가지 일이 있었어요",
-   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -821,6 +779,49 @@
    "in_review": true
   },
   {
+   "id": "cc7499c0bb39441cc",
+   "title": "Indian stock market : How are Sensex and Nifty 50 likely to perform next week amid ongoing US - Iran war ?",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 41,
+   "importance": 100,
+   "entity_keys": [
+    "IRAN",
+    "SEC"
+   ],
+   "created_at": "2026-08-09T10:58:40.037765+00:00",
+   "last_update": "2026-08-10T23:02:10.508578+00:00",
+   "members": 50,
+   "llm_title": "미국, 이란과 제한적 협상",
+   "one_liner": "미국이 이란과 제한적으로 협상 중이라고 도널드 트럼프 대통령이 밝혔어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "c6fdad826562ed3e4",
+   "title": "Rural Ohioans hit hard as Affordable Care Act enrollment declines",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 35,
+   "importance": 100,
+   "entity_keys": [
+    "AVGO",
+    "BRK",
+    "F",
+    "IRAN",
+    "SEC"
+   ],
+   "created_at": "2026-08-07T15:14:46.737049+00:00",
+   "last_update": "2026-08-08T22:53:44.336436+00:00",
+   "members": 47,
+   "llm_title": "미국 경제 소식",
+   "one_liner": "미국 경제에 여러 가지 일이 있었어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
    "id": "cd94ff3b008ca2f3a",
    "title": "Bank of America Just Raised Its Dividend 14 %. The Buyback Is the Bigger Story .",
    "category": "RATE",
@@ -928,23 +929,6 @@
    "llm_title": "Is California slow…",
    "one_liner": "Is California slow road to high - speed rail…",
    "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "ce2323a18ae0fddb4",
-   "title": "India must shape its AI journey rather than be shaped by default : RBI Governor Sanjay Malhotra",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 57,
-   "importance": 95,
-   "entity_keys": [],
-   "created_at": "2026-08-11T13:49:46.890210+00:00",
-   "last_update": "2026-08-11T22:10:59.329807+00:00",
-   "members": 50,
-   "llm_title": "주가 하락",
-   "one_liner": "미국 주가가 내렸어요",
-   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1086,8 +1070,8 @@
     "NVDA"
    ],
    "created_at": "2026-08-12T21:09:51.091981+00:00",
-   "last_update": "2026-08-12T21:09:51.092782+00:00",
-   "members": 2,
+   "last_update": "2026-08-12T23:07:09.490857+00:00",
+   "members": 3,
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
@@ -1152,22 +1136,20 @@
    "in_review": true
   },
   {
-   "id": "c1d7b10a7cce18b93",
-   "title": "Dont Assume Micron Will Share SanDisk Fate . Here Why .",
-   "category": "MARKET",
+   "id": "ce2323a18ae0fddb4",
+   "title": "India must shape its AI journey rather than be shaped by default : RBI Governor Sanjay Malhotra",
+   "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 2,
+   "seen_sources": 57,
    "importance": 90,
-   "entity_keys": [
-    "MU"
-   ],
-   "created_at": "2026-08-11T21:11:00.097703+00:00",
-   "last_update": "2026-08-11T22:10:59.317206+00:00",
-   "members": 3,
-   "llm_title": "Micron Technology…",
-   "one_liner": "Micron Technology Stock Is Cheaper Than the S &…",
-   "llm_model": "template",
+   "entity_keys": [],
+   "created_at": "2026-08-11T13:49:46.890210+00:00",
+   "last_update": "2026-08-11T22:10:59.329807+00:00",
+   "members": 50,
+   "llm_title": "주가 하락",
+   "one_liner": "미국 주가가 내렸어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1205,25 +1187,6 @@
    "llm_title": "마오리, 경제 협력 새 시대",
    "one_liner": "마오리족과 경제 협력이 새로운 시대를 열었다고 평가받고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c1fa383d96e0f4793",
-   "title": "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 24,
-   "importance": 90,
-   "entity_keys": [
-    "SEC"
-   ],
-   "created_at": "2026-08-07T22:01:18.606374+00:00",
-   "last_update": "2026-08-10T23:02:10.507263+00:00",
-   "members": 50,
-   "llm_title": "2분기 실적 발표",
-   "one_liner": "여러 기업이 2분기 실적을 발표했어요",
-   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1503,6 +1466,25 @@
    "in_review": true
   },
   {
+   "id": "c1d7b10a7cce18b93",
+   "title": "Dont Assume Micron Will Share SanDisk Fate . Here Why .",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 85,
+   "entity_keys": [
+    "MU"
+   ],
+   "created_at": "2026-08-11T21:11:00.097703+00:00",
+   "last_update": "2026-08-11T22:10:59.317206+00:00",
+   "members": 3,
+   "llm_title": "Micron Technology…",
+   "one_liner": "Micron Technology Stock Is Cheaper Than the S &…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c0050a4f2bd256792",
    "title": "Bank of America Promotions : Get Up to $600",
    "category": "MARKET",
@@ -1519,6 +1501,25 @@
    "llm_title": "AppLovin shares drop…",
    "one_liner": "AppLovin shares drop on Bank of America downgrade",
    "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c1fa383d96e0f4793",
+   "title": "NI Holdings , Inc . Reports Results for Second Quarter Ended June 30 , 2026",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 24,
+   "importance": 85,
+   "entity_keys": [
+    "SEC"
+   ],
+   "created_at": "2026-08-07T22:01:18.606374+00:00",
+   "last_update": "2026-08-10T23:02:10.507263+00:00",
+   "members": 50,
+   "llm_title": "2분기 실적 발표",
+   "one_liner": "여러 기업이 2분기 실적을 발표했어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -1618,6 +1619,23 @@
    "in_review": true
   },
   {
+   "id": "ce6098bc3d523faf6",
+   "title": "New Zealand set for historic prime minister vote",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 80,
+   "entity_keys": [],
+   "created_at": "2026-08-11T23:09:25.585377+00:00",
+   "last_update": "2026-08-12T23:07:09.504083+00:00",
+   "members": 5,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
    "id": "c5e4bc7852b3b3a52",
    "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
    "category": "EARNINGS",
@@ -1633,25 +1651,6 @@
    "members": 6,
    "llm_title": "Apple Stock Falls…",
    "one_liner": "Apple Stock Falls Amid Concerns About iPhone…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cb79900ede6a04772",
-   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 80,
-   "entity_keys": [
-    "BRK"
-   ],
-   "created_at": "2026-08-09T22:56:13.231717+00:00",
-   "last_update": "2026-08-11T22:10:59.323603+00:00",
-   "members": 5,
-   "llm_title": "Berkshire Hathaway…",
-   "one_liner": "Berkshire Hathaway Inc ( BRK - B ) Stock News &…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1811,6 +1810,25 @@
    "in_review": true
   },
   {
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 75,
+   "entity_keys": [
+    "META"
+   ],
+   "created_at": "2026-08-12T23:07:09.503222+00:00",
+   "last_update": "2026-08-12T23:07:09.504127+00:00",
+   "members": 2,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
    "id": "c214de51af1e9a9b6",
    "title": "Amazon Stock : What Next After Post - Earnings Rally | Investor Business Daily",
    "category": "EARNINGS",
@@ -1847,23 +1865,6 @@
    "one_liner": "한화오션 매출액 32099.4억원으로 발표됐어요",
    "llm_model": "template",
    "in_review": true
-  },
-  {
-   "id": "ce6098bc3d523faf6",
-   "title": "New Zealand set for historic prime minister vote",
-   "category": "POLICY",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 75,
-   "entity_keys": [],
-   "created_at": "2026-08-11T23:09:25.585377+00:00",
-   "last_update": "2026-08-12T08:44:41.555980+00:00",
-   "members": 4,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
   },
   {
    "id": "e88ae80e25a0c4cb6",
@@ -1917,6 +1918,25 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 75,
+   "entity_keys": [
+    "BRK"
+   ],
+   "created_at": "2026-08-09T22:56:13.231717+00:00",
+   "last_update": "2026-08-11T22:10:59.323603+00:00",
+   "members": 5,
+   "llm_title": "Berkshire Hathaway…",
+   "one_liner": "Berkshire Hathaway Inc ( BRK - B ) Stock News &…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c7789323e6d45d6a9",
@@ -2718,17 +2738,34 @@
    "in_review": true
   },
   {
+   "id": "c1b7cbc70ff19293f",
+   "title": "U . S . stocks close lower as Nasdaq underperforms with 160 - point drop",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 65,
+   "entity_keys": [],
+   "created_at": "2026-08-11T23:09:25.582954+00:00",
+   "last_update": "2026-08-12T23:07:09.504030+00:00",
+   "members": 14,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
    "id": "c911b7b3350ebb070",
    "title": "5 Insightful Analyst Questions From Inspire Medical Systems Q2 Earnings Call",
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 15,
+   "seen_sources": 44,
    "importance": 65,
    "entity_keys": [],
    "created_at": "2026-08-11T23:09:25.584096+00:00",
-   "last_update": "2026-08-12T21:09:51.088567+00:00",
-   "members": 45,
+   "last_update": "2026-08-12T23:07:09.502159+00:00",
+   "members": 50,
    "llm_title": "5 Insightful Analyst…",
    "one_liner": "5 Insightful Analyst Questions From Inspire…",
    "llm_model": "template",
@@ -2744,8 +2781,8 @@
    "importance": 65,
    "entity_keys": [],
    "created_at": "2026-08-11T23:09:25.585167+00:00",
-   "last_update": "2026-08-12T21:09:51.088489+00:00",
-   "members": 8,
+   "last_update": "2026-08-12T23:07:09.499888+00:00",
+   "members": 9,
    "llm_title": "Torrent Capital Ltd…",
    "one_liner": "Torrent Capital Ltd .: Torrent Capital Reports…",
    "llm_model": "template",
@@ -3778,23 +3815,6 @@
    "in_review": true
   },
   {
-   "id": "c1b7cbc70ff19293f",
-   "title": "U . S . stocks close lower as Nasdaq underperforms with 160 - point drop",
-   "category": "MARKET",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 0,
-   "importance": 55,
-   "entity_keys": [],
-   "created_at": "2026-08-11T23:09:25.582954+00:00",
-   "last_update": "2026-08-12T00:05:15.011710+00:00",
-   "members": 7,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
    "id": "cbbb0014fd78d2d48",
    "title": "Country passing through Amrit Kaal ...: Uttarakhand CM Dhami at  Tiranga Yatra  in Dehradun",
    "category": "GEO",
@@ -4352,6 +4372,23 @@
    "in_review": true
   },
   {
+   "id": "ca61f18b6d1f8b318",
+   "title": "Biggest bank lender likely heading for record profit",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 50,
+   "entity_keys": [],
+   "created_at": "2026-08-11T23:09:25.582740+00:00",
+   "last_update": "2026-08-12T23:07:09.504111+00:00",
+   "members": 12,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
    "id": "c12fc720a63926713",
    "title": "Czech National Bank Buys 4 , 122 Shares of Automatic Data Processing , Inc . $ADP",
    "category": "EARNINGS",
@@ -4785,23 +4822,6 @@
    "created_at": "2026-08-11T23:09:25.583525+00:00",
    "last_update": "2026-08-12T21:09:51.083257+00:00",
    "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
-   "id": "ca61f18b6d1f8b318",
-   "title": "Biggest bank lender likely heading for record profit",
-   "category": "EARNINGS",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 45,
-   "entity_keys": [],
-   "created_at": "2026-08-11T23:09:25.582740+00:00",
-   "last_update": "2026-08-12T00:05:15.010536+00:00",
-   "members": 9,
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
