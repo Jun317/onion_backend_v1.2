@@ -7,11 +7,31 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 9,
+ "seen_sources": 10,
  "importance": 65,
  "created_at": "2026-08-11T23:09:25.583342+00:00",
- "last_update": "2026-08-12T10:32:31.107377+00:00",
+ "last_update": "2026-08-12T12:05:24.610476+00:00",
  "members": [
+  {
+   "id": "6c85e66c4fe189e65643e8909ed693e9ebd47faf",
+   "source": "finanznachrichten.de",
+   "tier": "wire",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69289751-nexteer-automotive-group-ltd-h1-income-advances-020.htm",
+   "title": "Nexteer Automotive Group Ltd H1 Income Advances",
+   "published_at": "2026-08-12T11:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8847
+  },
+  {
+   "id": "d68286edd5fa25c17aec48d1475c725c634a63b6",
+   "source": "investegate.co.uk",
+   "tier": "wire",
+   "url": "https://www.investegate.co.uk/announcement/eqs/cairn-homes-cdi---crn/cairn-homes-plc-holding-s-in-company/9718368",
+   "title": "Cairn Homes Plc : Holding ( s ) in Company | Company Announcement",
+   "published_at": "2026-08-12T11:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8586
+  },
   {
    "id": "5545d75b779b3a572fa2afecb91538705a01f664",
    "source": "dailypolitical.com",
@@ -317,6 +337,20 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Nexteer Automotive Group Ltd H1 Income Advances",
+   "source": "finanznachrichten.de",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69289751-nexteer-automotive-group-ltd-h1-income-advances-020.htm",
+   "at": "2026-08-12T11:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Cairn Homes Plc : Holding ( s ) in Company | Company Announcement",
+   "source": "investegate.co.uk",
+   "url": "https://www.investegate.co.uk/announcement/eqs/cairn-homes-cdi---crn/cairn-homes-plc-holding-s-in-company/9718368",
+   "at": "2026-08-12T11:30:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "ZIM Integrated Shipping Services ( ZIM ) Projected to Announce Earnings on Wednesday",
    "source": "dailypolitical.com",
    "url": "https://www.dailypolitical.com/2026/08/12/zim-integrated-shipping-services-zim-projected-to-announce-earnings-on-wednesday.html",
@@ -528,7 +562,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-12T08:46:49.727438+00:00",
+  "created_at": "2026-08-12T12:07:08.833110+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -541,14 +575,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"기업들, 분기 실적 발표\",\n  \"one_liner\": \"여러 기업들이 예상보다 좋거나 나쁜 분기 실적을 발표했어요.\",\n  \"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"투자하려는 회사의 실적 발표를 잘 살펴보는 것이 중요해요.\",\n  \"details\": [\n    \"Eupraxia Pharmaceuticals는 예상보다 0.02달러 더 높은 주당순이익을 기록했어요.\",\n    \"Fold는 예상보다 0.04달러 낮은 주당순이익을 기록했어요.\",\n    \"Spectral AI는 예상보다 0.01달러 더 높은 주당순이익을 기록했어요.\",\n    \"Bolt Biotherapeutics는 예상보다 1.18달러 낮은 주당순이익을 기록했어요.\",\n    \"Codexis는 예상보다 0.01달러 더 높은 주당순이익을 기록했어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"실적이 좋은 기업은 주가가 오를 수 있어요!\",\n    \"실적이 나쁜 기업은 주가가 내릴 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주당순이익\",\n      \"easy\": \"회사가 벌어들인 돈을 발행된 주식 수로 나눈 값이에요.\",\n      \"example\": \"주당순이익이 높으면 회사가 돈을 잘 벌었다는 뜻이에요.\"\n    },\n    {\n      \"term\": \"EPS\",\n      \"easy\": \"주당순이익을 줄여서 부르는 말이에요.\",\n      \"example\": \"EPS가 높으면 회사의 수익성이 좋다는 의미예요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [0.01, 0.02, 0.04, 1.18]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -571,8 +599,8 @@
   "fact_hash": "c236750f3ef6e715dc873cfa9bc00970daf3d3f8"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [0.01, 0.02, 0.04, 1.18]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-12T08:46:49.727375+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-12T12:07:08.833046+00:00"
  },
  "glossary": [],
  "related": [

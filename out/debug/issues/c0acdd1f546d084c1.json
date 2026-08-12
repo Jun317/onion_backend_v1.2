@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-12T08:45:15.918839+00:00",
+  "created_at": "2026-08-12T12:05:51.310933+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -64,7 +64,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"오라클 감원 계획\", \"one_liner\": \"오라클이 이번 달에 또 직원을 줄일 계획을 세웠어요.\", \"why_now\": \"회사가 직원을 줄이는 것은 사업에 어려움이 있거나 비용을 절감하려는 신호일 수 있어요.\", \"impact_line\": \"오라클 관련 기업들의 주가도 영향을 받을 수 있어요.\", \"details\": [\"오라클이 이번 달에 또 직원을 줄일 계획을 세웠어요.\"], \"visual_type\": \"none\", \"effects\": [\"오라클의 주가가 2.10% 하락했어요!\"], \"glossary\": []}",
+  "raw_response": "{\n\"title\": \"오라클 감원 계획\",\n\"one_liner\": \"오라클이 이번 달에 또 직원을 줄일 계획을 세웠어요.\",\n\"why_now\": \"회사가 직원을 줄이는 것은 보통 경영 상황이 좋지 않다는 신호로 해석될 수 있어요.\",\n\"impact_line\": \"오라클 관련 기업의 주가가 하락할 수 있어요.\",\n\"details\": [\n\"오라클이 이번 달에 또 직원을 줄일 계획을 세웠어요.\",\n\"이 소식이 전해지자 오라클 금융 서비스 소프트웨어 주가가 2.10% 하락했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"회사가 직원을 줄이면 비용 절감 효과가 있을 수 있어요!\",\n\"이는 회사의 재무 상태 개선에 도움이 될 수 있어요!\"\n],\n\"glossary\": [],\n\"impact_line\": null\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
@@ -74,10 +74,9 @@
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만",
-     "입력에 없는 숫자: [2.1]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -95,8 +94,8 @@
   "fact_hash": "22f0bdb1c80adf9b5a3a3f4956ccb97c787306f5"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [2.1]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [2.1]\"]}]}",
-  "at": "2026-08-12T08:45:15.918742+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [2.1]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-12T12:05:51.310616+00:00"
  },
  "glossary": [],
  "related": [
@@ -107,18 +106,18 @@
    "shared": []
   },
   {
+   "id": "c5f82537f5f95872f",
+   "title": "Millions join Arbaeen pilgrimage in Iraq amid fears of US - Iran escalation",
+   "category": "GEO",
+   "shared": []
+  },
+  {
    "id": "c6103da62f039fb9e",
    "title": "Cathie Wood Just Bought Nvidia Stock , Is It Finally Time to Buy ?",
    "category": "MARKET",
    "shared": [
     "ORCL"
    ]
-  },
-  {
-   "id": "c5f82537f5f95872f",
-   "title": "Millions join Arbaeen pilgrimage in Iraq amid fears of US - Iran escalation",
-   "category": "GEO",
-   "shared": []
   }
  ]
 }
