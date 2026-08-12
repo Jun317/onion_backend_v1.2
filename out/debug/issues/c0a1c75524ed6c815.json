@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 4,
- "importance": 100,
+ "seen_sources": 5,
+ "importance": 105,
  "created_at": "2026-08-11T23:09:25.584446+00:00",
- "last_update": "2026-08-12T00:05:15.014698+00:00",
+ "last_update": "2026-08-12T05:11:13.354559+00:00",
  "members": [
+  {
+   "id": "648852d10df2eced17db0704ed967e674588651d",
+   "source": "sowetan.co.za",
+   "tier": "wire",
+   "url": "https://www.sowetan.co.za/news/2026-08-12-youth-hardest-hit-as-unemployment-surges-higher/",
+   "title": "Youth hardest hit as unemployment surges higher",
+   "published_at": "2026-08-12T04:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9321
+  },
   {
    "id": "6eea7badd59dec05548a45853a6043761212fc6f",
    "source": "marketplace.org",
@@ -20,7 +30,7 @@
    "title": "Credit card delinquencies approach Great Recession levels",
    "published_at": "2026-08-11T23:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.875
+   "sim_to_centroid": 0.8762
   },
   {
    "id": "753b3e779b6b446e5e37772e343ef54928574cd5",
@@ -30,7 +40,7 @@
    "title": "India 6th - largest economy with USD 3 . 92 Tn GDP",
    "published_at": "2026-08-11T23:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8857
+   "sim_to_centroid": 0.8834
   },
   {
    "id": "351b27dcf5b8e360d06db043185072fbd921976d",
@@ -40,7 +50,7 @@
    "title": "The number of unemployed people has nearly doubled in 18 years",
    "published_at": "2026-08-11T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9617
+   "sim_to_centroid": 0.9606
   },
   {
    "id": "6e0187921688a1b71ee52657a56e4e6f168dfacb",
@@ -50,11 +60,18 @@
    "title": "Youth unemployment : Global rate rose in 2025 , UN says",
    "published_at": "2026-08-11T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9621
+   "sim_to_centroid": 0.9616
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Youth hardest hit as unemployment surges higher",
+   "source": "sowetan.co.za",
+   "url": "https://www.sowetan.co.za/news/2026-08-12-youth-hardest-hit-as-unemployment-surges-higher/",
+   "at": "2026-08-12T04:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Credit card delinquencies approach Great Recession levels",
@@ -86,11 +103,12 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-12T00:07:54.536708+00:00",
+  "created_at": "2026-08-12T05:11:17.521162+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
+    "Youth hardest hit as unemployment surges higher",
     "Credit card delinquencies approach Great Recession levels",
     "India 6th - largest economy with USD 3 . 92 Tn GDP",
     "The number of unemployed people has nearly doubled in 18 years",
@@ -98,32 +116,38 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"청년 실업률 급증\",\n  \"one_liner\": \"전 세계 청년 실업률이 2025년에 크게 올랐어요.\",\n  \"why_now\": \"청년 실업률이 높아지면 사회 초년생들의 경제적 어려움이 커질 수 있어요.\",\n  \"impact_line\": \"취업 준비생들의 어려움이 더 커질 수 있어요.\",\n  \"details\": [\n    \"청년 실업률이 18년 만에 거의 두 배로 늘었어요.\",\n    \"특히 청년층이 실업률 상승으로 가장 큰 타격을 입었어요.\",\n    \"신용카드 연체율도 금융위기 때와 비슷한 수준에 가까워지고 있어요.\",\n    \"인도의 국내총생산(GDP)은 3조 9200억 달러로 세계 6위예요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"취업이 어려워지면서 사회 초년생들의 경제적 기반 마련이 힘들어질 수 있어요!\",\n    \"경제 활동이 위축되어 전반적인 소비 심리가 약해질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"실업률\",\n      \"easy\": \"일할 의사와 능력이 있지만 일자리를 구하지 못한 사람의 비율이에요.\",\n      \"example\": \"실업률이 낮으면 경제가 좋다는 신호로 볼 수 있어요.\"\n    },\n    {\n      \"term\": \"신용카드 연체율\",\n      \"easy\": \"신용카드로 쓴 돈을 제때 갚지 못하는 비율이에요.\",\n      \"example\": \"연체율이 높아지면 사람들이 돈을 갚기 어려워하는 상황으로 볼 수 있어요.\"\n    },\n    {\n      \"term\": \"국내총생산(GDP)\",\n      \"easy\": \"한 나라 안에서 일정 기간 동안 생산된 모든 상품과 서비스의 시장 가치를 합한 거예요.\",\n      \"example\": \"GDP가 늘면 그 나라 경제가 성장했다고 볼 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [3.92]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [9200.0]"
     ]
    }
   ],
   "output": {
-   "title": "Credit card…",
-   "one_liner": "Credit card delinquencies approach Great…",
+   "title": "Youth hardest hit as…",
+   "one_liner": "Youth hardest hit as unemployment surges higher",
    "why_now": null,
    "details": [
+    "Youth hardest hit as unemployment surges higher",
     "Credit card delinquencies approach Great Recession levels",
-    "India 6th - largest economy with USD 3 . 92 Tn GDP",
-    "The number of unemployed people has nearly doubled in 18 years"
+    "India 6th - largest economy with USD 3 . 92 Tn GDP"
    ],
    "effects": [],
    "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "4e9ebbfcc8897da37f73203a2390f9e0b86a76f3"
+  "fact_hash": "eaf030c2b21f77267865b7df8faf752f18309e3e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-12T00:07:54.536620+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [3.92]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [9200.0]\"]}]}",
+  "at": "2026-08-12T05:11:17.521020+00:00"
  },
  "glossary": [
   {

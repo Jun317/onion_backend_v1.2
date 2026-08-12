@@ -120,45 +120,52 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-12T00:06:21.248753+00:00",
+  "created_at": "2026-08-12T05:11:52.753310+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
-    "Five memorial plaques stolen from The Hangar Flight Museum",
-    "Calgary police arrest eight people in connection to organized crime",
-    "The Sahel Solution : Girl Education and Conflict Prevention",
+    "Oyetola Behind Freezing of Osun Account  Adeleke Alleges",
     "I Introduced State Policing in Senate  Adeleke",
-    "Oyetola Behind Freezing of Osun Account  Adeleke Alleges"
+    "Calgary police arrest eight people in connection to organized crime",
+    "Rickshaw driver arrested for rape",
+    "Five memorial plaques stolen from The Hangar Flight Museum"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"다양한 사건\",\n   \"one_liner\": \"여러 나라에서 범죄와 의혹 관련 뉴스가 나왔어요\",\n   \"why_now\": \"이런 소식은 범죄와 안전에 관심이 많은 사람들에게 중요해요\",\n   \"impact_line\": \"생활과 안전에 영향을 줄 수 있어요\",\n   \"details\": [\n      \"오순 주지사 아델레케가 오예톨라 전 주지사가 오순 주 계좌를 동결했다고 주장했어요\",\n      \"아델레케 주지사가 상원에서 주 경찰을 도입했다고 말했어요\",\n      \"캘거리 경찰이 조직 범죄와 관련된 8명을 체포했어요\",\n      \"인도에서人力車 운전手を 체포했어요\",\n      \"항공 박물관에서 5개의 기념プレート가 도난당했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"범죄가 증가하면 안전이 떨어져 생활에 영향을 줄 수 있어요\",\n      \"경찰의 조직 범죄 대응이 강화되면 범죄율이 낮아질 수 있어요\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "effects[0] 느낌표 종결 아님",
+     "effects[1] 느낌표 종결 아님"
     ]
    }
   ],
   "output": {
-   "title": "Five memorial…",
-   "one_liner": "Five memorial plaques stolen from The Hangar…",
+   "title": "Oyetola Behind…",
+   "one_liner": "Oyetola Behind Freezing of Osun Account  Adeleke…",
    "why_now": null,
    "details": [
-    "Five memorial plaques stolen from The Hangar Flight Museum",
-    "Calgary police arrest eight people in connection to organized crime",
-    "The Sahel Solution : Girl Education and Conflict Prevention"
+    "Oyetola Behind Freezing of Osun Account  Adeleke Alleges",
+    "I Introduced State Policing in Senate  Adeleke",
+    "Calgary police arrest eight people in connection to organized crime"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "9677e0393b122a7aaba4a989a8e4eda47df48a92"
+  "fact_hash": "43a57e95ad9c6f7f5edfb44bd4696ef8791771f5"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-12T00:06:21.248649+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\"]}]}",
+  "at": "2026-08-12T05:11:52.753234+00:00"
  },
  "glossary": [],
  "related": [
