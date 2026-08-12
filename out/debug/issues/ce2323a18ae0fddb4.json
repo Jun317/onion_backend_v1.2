@@ -867,42 +867,49 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-11T21:23:06.871539+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-12T03:02:27.467276+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
-    "India must shape its AI journey rather than be shaped by default : RBI Governor Sanjay Malhotra",
-    "India Must Shape AI Journey : RBI Governor",
-    "SBI Chairman CS Setty calls for AI - led banking to reach rural India , small businesses",
-    "Amid the Emerging AI Economy , We Need a Skilled Trades Pipeline in High School",
-    "Black Buffalo Inc . Named to the 2026 Inc . 5000 List , the Most Prestigious Ranking of America Fastest - Growing Private Companies"
+    "Prediction : 3 Dividend Stocks That Will Cut Their Payouts Within the Next 3 Years",
+    "U . S . Stocks Move To The Downside As Crude Oil Prices Jump",
+    "US stocks edge further from their records as oil prices keep swinging",
+    "ASX 200 LIVE : ASX poised to open lower , oil rises , reporting results : AGL Energy , Arena REIT , Commonwealth Bank , Computershare , Bravura Solutions , Seek , Suncorp",
+    "Mortgage Rates Predicted To Rise Before Settling Back to 6 . 5 % Next Year"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"주가 하락\",\n   \"one_liner\": \"미국 주가가 내렸어요\",\n   \"why_now\": \"주가가 내리면 투자자들이 손해를 볼 수 있어요\",\n   \"impact_line\": \"주식 투자자들의 손실이 늘 수 있어요\",\n   \"details\": [\n       \"미국 주가가 내렸어요\",\n       \"원유 가격이 오르면서 주가가 영향을 받았어요\",\n       \"주식 시장의 불안정이 계속되고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"투자자들이 주식시장에서 손해를 볼 가능성이 커질 수 있어요!\",\n       \"경제가 불안정해질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "why_now 55자 초과(56)"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "India must shape its…",
-   "one_liner": "India must shape its AI journey rather than be…",
-   "why_now": null,
+   "title": "주가 하락",
+   "one_liner": "미국 주가가 내렸어요",
+   "why_now": "주가가 내리면 투자자들이 손해를 볼 수 있어요",
    "details": [
-    "India must shape its AI journey rather than be shaped by default : RBI Governor Sanjay Malhotra",
-    "India Must Shape AI Journey : RBI Governor",
-    "SBI Chairman CS Setty calls for AI - led banking to reach rural India , small businesses"
+    "미국 주가가 내렸어요",
+    "원유 가격이 오르면서 주가가 영향을 받았어요",
+    "주식 시장의 불안정이 계속되고 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "투자자들이 주식시장에서 손해를 볼 가능성이 커질 수 있어요!",
+    "경제가 불안정해질 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "1d3929675d31e7a6d07a1e7f634b9f23f29dcf3d"
+  "fact_hash": "4222c9ea78f82a9792a6ff901e0a226b67fc17a9"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

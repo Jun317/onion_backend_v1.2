@@ -122,62 +122,47 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-11T21:12:20.920072+00:00",
+  "created_at": "2026-08-12T03:04:44.174954+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
-    "Apple ( AAPL ) raises its dividend to $0 . 27 , marking 14 straight years of increases",
-    "TSMC Holding $1 Billion Of Apple A20 Pro Supply Refuted By Analyst , Says That DRAM Shortage Is Very Real , But Report Underestimates The Two Robust Operational Planning",
     "Apple Stock Falls Amid Concerns About iPhone Setback",
+    "Apple CEO Tim Cook Just Passed His Successor a Mess",
+    "Apple downgraded , HPE upgraded : Wall Street top analyst calls",
     "Apple tests CXMT Chinese memory chips for iPhones , MacBooks",
-    "Apple CEO Tim Cook Just Passed His Successor a Mess"
+    "Apple ( AAPL ) raises its dividend to $0 . 27 , marking 14 straight years of increases"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"Apple, 배당금 인상\",\n    \"one_liner\": \"Apple이 배당금을 0.27달러로 올리며 14년 연속 인상을 기록했어요.\",\n    \"why_now\": \"배당금은 회사가 이익의 일부를 주주에게 나눠주는 것으로, 꾸준히 늘린다는 것은 회사가 안정적이라고 볼 수 있어요.\",\n    \"impact_line\": \"Apple 주주라면 배당금으로 더 많은 돈을 받을 수 있어요.\",\n    \"details\": [\n        \"Apple이 배당금을 0.27달러로 올렸어요.\",\n        \"이는 14년 연속 배당금을 인상한 기록이에요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"회사의 꾸준한 이익 증가와 주주 환원 의지를 보여줄 수 있어요!\",\n        \"이는 투자자들에게 긍정적인 신호로 작용할 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"배당금\",\n            \"easy\": \"회사가 벌어들인 돈의 일부를 주주들에게 나눠주는 돈이에요.\",\n            \"example\": \"주식 투자를 해서 배당금을 받으면 용돈이 생기는 것과 같아요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만",
-     "입력에 없는 숫자: [0.27]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "why_now 55자 초과(63)",
-     "details 3문장 미만",
-     "입력에 없는 숫자: [0.27]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
   "output": {
-   "title": "Apple ( AAPL )…",
-   "one_liner": "Apple ( AAPL ) raises its dividend to $0 . 27 ,…",
+   "title": "Apple Stock Falls…",
+   "one_liner": "Apple Stock Falls Amid Concerns About iPhone…",
    "why_now": null,
    "details": [
-    "Apple ( AAPL ) raises its dividend to $0 . 27 , marking 14 straight years of increases",
-    "TSMC Holding $1 Billion Of Apple A20 Pro Supply Refuted By Analyst , Says That DRAM Shortage Is Very Real , But Report Underestimates The Two Robust Operational Planning",
-    "Apple Stock Falls Amid Concerns About iPhone Setback"
+    "Apple Stock Falls Amid Concerns About iPhone Setback",
+    "Apple CEO Tim Cook Just Passed His Successor a Mess",
+    "Apple downgraded , HPE upgraded : Wall Street top analyst calls"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "b57ad8120662a00f77ff8eebebe81c257951ba29"
+  "fact_hash": "2a28ecc2ac1930abc5d00066af8ec4e7df23c9be"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [0.27]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(63)\", \"details 3문장 미만\", \"입력에 없는 숫자: [0.27]\"]}]}",
-  "at": "2026-08-11T21:12:20.919986+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-12T03:04:44.174892+00:00"
  },
- "glossary": [
-  {
-   "term": "DRAM",
-   "easy": "컴퓨터·스마트폰에 들어가는 기본 메모리 반도체예요.",
-   "example": ""
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "c03074aeed49bf60f",

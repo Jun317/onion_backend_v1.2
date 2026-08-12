@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-11T21:14:40.556836+00:00",
+  "created_at": "2026-08-12T03:06:53.325263+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,14 +881,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"기업들 2분기 실적 발표\",\n\"one_liner\": \"여러 기업들이 2분기 실적을 발표하며 투자자들의 관심을 받고 있어요.\",\n\"why_now\": \"기업의 실적은 회사의 현재와 미래 가치를 보여주는 중요한 지표이기 때문이에요.\",\n\"impact_line\": \"관심 있는 기업의 실적 발표를 확인해 보세요.\",\n\"details\": [\n\"GSK는 2분기 실적과 함께 연구 개발 투자 소식을 알렸어요.\",\n\"NexPoint Residential Trust는 2분기 실적 발표를 진행했어요.\",\n\"Murphy United States는 2분기 실적 발표 내용을 공개했어요.\",\n\"Northwest Natural Gas도 2분기 실적 발표 하이라이트를 전했어요.\",\n\"Wix는 2분기 실적 발표를 마쳤어요.\"\n],\n\"visual_type\": \"earnings_quarterly\",\n\"effects\": [\n\"실적이 좋은 기업은 주가가 오를 수 있어요!\",\n\"실적이 기대에 미치지 못하면 주가가 하락할 수 있어요.\"\n],\n\"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -911,8 +905,8 @@
   "fact_hash": "41472022ce86eb14b6edadfaf2f701e6a0ecf18b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-11T21:14:40.556509+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-12T03:06:53.325192+00:00"
  },
  "glossary": [],
  "related": [
