@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T12:15:22.184062+00:00",
+ "generated_at": "2026-08-13T14:01:55.444024+00:00",
  "issues": [
   {
    "id": "cea83213c8906724e",
@@ -80,8 +80,8 @@
     "ECB"
    ],
    "created_at": "2026-08-13T10:34:09.528856+00:00",
-   "last_update": "2026-08-13T12:06:00.905947+00:00",
-   "members": 6,
+   "last_update": "2026-08-13T13:55:05.325903+00:00",
+   "members": 9,
    "llm_title": "ECB to raise…",
    "one_liner": "ECB to raise interest rates – Shafaqna English |…",
    "llm_model": "template",
@@ -129,6 +129,25 @@
    "one_liner": "미국에서 일하는 사람들이 예상보다 줄었어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
+  },
+  {
+   "id": "cdc7817ae002bbd0a",
+   "title": "EMEA Morning Briefing : Stock Futures Rise as Fed Rate - Hike Expectations Fade",
+   "category": "MACRO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 125,
+   "entity_keys": [
+    "FED"
+   ],
+   "created_at": "2026-08-13T12:06:00.905021+00:00",
+   "last_update": "2026-08-13T13:55:05.307461+00:00",
+   "members": 3,
+   "llm_title": "미국 금리 인상 기대감 축소",
+   "one_liner": "미국에서 금리를 더 올릴 것이라는 기대감이 줄어들고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": false
   },
   {
    "id": "c71b0b5d782052f63",
@@ -187,25 +206,6 @@
    "one_liner": "한국은행이 기준금리를 올렸어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
-  },
-  {
-   "id": "cdc7817ae002bbd0a",
-   "title": "EMEA Morning Briefing : Stock Futures Rise as Fed Rate - Hike Expectations Fade",
-   "category": "MACRO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 120,
-   "entity_keys": [
-    "FED"
-   ],
-   "created_at": "2026-08-13T12:06:00.905021+00:00",
-   "last_update": "2026-08-13T12:06:00.905965+00:00",
-   "members": 2,
-   "llm_title": "미국 금리 인상 기대감 축소",
-   "one_liner": "미국에서 금리를 더 올릴 것이라는 기대감이 줄어들고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": false
   },
   {
    "id": "c82a3b5d145e7a47c",
@@ -361,15 +361,16 @@
    "category": "GEO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 17,
+   "seen_sources": 20,
    "importance": 110,
    "entity_keys": [
     "CHINA",
-    "F"
+    "F",
+    "XOM"
    ],
    "created_at": "2026-08-12T13:54:48.078613+00:00",
-   "last_update": "2026-08-13T12:06:00.899553+00:00",
-   "members": 24,
+   "last_update": "2026-08-13T13:55:05.329929+00:00",
+   "members": 28,
    "llm_title": "Zhu Rongji , who…",
    "one_liner": "Zhu Rongji , who drove China 1990s economic…",
    "llm_model": "template",
@@ -492,17 +493,17 @@
    "category": "MACRO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 28,
+   "seen_sources": 30,
    "importance": 105,
    "entity_keys": [
     "IRAN"
    ],
    "created_at": "2026-08-12T21:09:51.092206+00:00",
-   "last_update": "2026-08-13T12:06:00.898881+00:00",
-   "members": 37,
-   "llm_title": "New report shows…",
-   "one_liner": "New report shows where inflation is headed as…",
-   "llm_model": "template",
+   "last_update": "2026-08-13T13:55:05.326083+00:00",
+   "members": 39,
+   "llm_title": "이란 전쟁과 물가",
+   "one_liner": "이란 전쟁이 계속되면서 물가가 어떻게 될지 새로운 보고서가 나왔어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -794,6 +795,25 @@
    "in_review": true
   },
   {
+   "id": "cf6faa92b292fbefd",
+   "title": "Nirmala Sitharaman meets Indonesian Vice Minister of Finance Juda Agung ; Discusses financial sector ties and local currency transactions",
+   "category": "FX",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 100,
+   "entity_keys": [
+    "SEC"
+   ],
+   "created_at": "2026-08-13T05:15:02.149320+00:00",
+   "last_update": "2026-08-13T13:55:05.334112+00:00",
+   "members": 13,
+   "llm_title": "India In Contact…",
+   "one_liner": "India In Contact With US Over Trade Deal Talks ,…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c76863e5c966d7abf",
    "title": "Advanced Micro Devices vs . Intel : Which Technology Stock Is a Better Buy in 2026 ?",
    "category": "MARKET",
@@ -935,19 +955,38 @@
    "in_review": true
   },
   {
+   "id": "c753b258ca52aad08",
+   "title": "Global Water Resources Reports Second Quarter 2026 Results",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 14,
+   "importance": 95,
+   "entity_keys": [
+    "SEC"
+   ],
+   "created_at": "2026-08-13T05:15:02.149122+00:00",
+   "last_update": "2026-08-13T13:55:05.332740+00:00",
+   "members": 21,
+   "llm_title": "The Elmet Group Co .…",
+   "one_liner": "The Elmet Group Co . Reports Second Quarter 2026…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "ce6098bc3d523faf6",
    "title": "New Zealand set for historic prime minister vote",
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 11,
+   "seen_sources": 19,
    "importance": 95,
    "entity_keys": [],
    "created_at": "2026-08-11T23:09:25.585377+00:00",
-   "last_update": "2026-08-13T12:06:00.903415+00:00",
-   "members": 19,
-   "llm_title": "Zambia election puts…",
-   "one_liner": "Zambia election puts president economic record…",
+   "last_update": "2026-08-13T13:55:05.332573+00:00",
+   "members": 29,
+   "llm_title": "Government to…",
+   "one_liner": "Government to announce first anti - money…",
    "llm_model": "template",
    "in_review": true
   },
@@ -965,48 +1004,10 @@
    "created_at": "2026-08-11T19:31:38.941494+00:00",
    "last_update": "2026-08-13T12:06:00.900917+00:00",
    "members": 3,
-   "llm_title": "AppLovin shares drop…",
-   "one_liner": "AppLovin shares drop on Bank of America downgrade",
+   "llm_title": "Bank of America to…",
+   "one_liner": "Bank of America to deploy $250 billion to…",
    "llm_model": "template",
    "in_review": true
-  },
-  {
-   "id": "c753b258ca52aad08",
-   "title": "Global Water Resources Reports Second Quarter 2026 Results",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 7,
-   "importance": 95,
-   "entity_keys": [
-    "SEC"
-   ],
-   "created_at": "2026-08-13T05:15:02.149122+00:00",
-   "last_update": "2026-08-13T12:06:00.898588+00:00",
-   "members": 8,
-   "llm_title": "SGX securities…",
-   "one_liner": "SGX securities market turnover jumps 37 % YoY to…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cf6faa92b292fbefd",
-   "title": "Nirmala Sitharaman meets Indonesian Vice Minister of Finance Juda Agung ; Discusses financial sector ties and local currency transactions",
-   "category": "FX",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 95,
-   "entity_keys": [
-    "SEC"
-   ],
-   "created_at": "2026-08-13T05:15:02.149320+00:00",
-   "last_update": "2026-08-13T08:49:07.452501+00:00",
-   "members": 12,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
   },
   {
    "id": "cad425da121baed31",
@@ -1569,12 +1570,12 @@
    "category": "GEO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 28,
+   "seen_sources": 66,
    "importance": 85,
    "entity_keys": [],
    "created_at": "2026-08-11T23:09:25.572822+00:00",
-   "last_update": "2026-08-13T12:06:00.903556+00:00",
-   "members": 45,
+   "last_update": "2026-08-13T13:55:05.332393+00:00",
+   "members": 50,
    "llm_title": "AI boom , productivit…",
    "one_liner": "AI boom , productivity malaise making RBA job…",
    "llm_model": "template",
@@ -1806,6 +1807,25 @@
    "in_review": true
   },
   {
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 80,
+   "entity_keys": [
+    "META"
+   ],
+   "created_at": "2026-08-12T23:07:09.503222+00:00",
+   "last_update": "2026-08-13T13:55:05.308499+00:00",
+   "members": 4,
+   "llm_title": "International…",
+   "one_liner": "International Battery Metals Ltd . Reports First…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c344cdcdf6679a4f3",
    "title": "Texas cuts child care subsidy program . Here what that means .",
    "category": "POLICY",
@@ -2016,25 +2036,6 @@
    "in_review": true
   },
   {
-   "id": "cd71d798bc262d461",
-   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 75,
-   "entity_keys": [
-    "META"
-   ],
-   "created_at": "2026-08-12T23:07:09.503222+00:00",
-   "last_update": "2026-08-13T12:06:00.897854+00:00",
-   "members": 3,
-   "llm_title": "Bolt Metals to…",
-   "one_liner": "Bolt Metals to Rebrand as 26 Metals Inc . and…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "e58252720d6b2373d",
    "title": "고려아연 2026-1Q 실적 공시",
    "category": "EARNINGS",
@@ -2185,23 +2186,6 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
-   "in_review": true
-  },
-  {
-   "id": "c5238924740617444",
-   "title": "Ukraine Agrees to Protect Kazakhstan Oil Exports via Black Sea",
-   "category": "POLICY",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 31,
-   "importance": 75,
-   "entity_keys": [],
-   "created_at": "2026-08-08T09:07:02.139696+00:00",
-   "last_update": "2026-08-08T13:19:28.845020+00:00",
-   "members": 50,
-   "llm_title": "인도에 대한 미국의 관세",
-   "one_liner": "미국이 인도에 100% 관세를 부과할 수 있어요.",
-   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -2818,22 +2802,20 @@
    "in_review": true
   },
   {
-   "id": "c4e22e340b80b9e09",
-   "title": "Why Wall Street Prices Coca - Cola and PepsiCo Differently",
-   "category": "MARKET",
+   "id": "c5238924740617444",
+   "title": "Ukraine Agrees to Protect Kazakhstan Oil Exports via Black Sea",
+   "category": "POLICY",
    "status": "stale",
    "origin": "cluster",
-   "seen_sources": 2,
+   "seen_sources": 31,
    "importance": 70,
-   "entity_keys": [
-    "PEP"
-   ],
-   "created_at": "2026-08-08T13:19:28.845771+00:00",
-   "last_update": "2026-08-08T13:19:28.846665+00:00",
-   "members": 2,
-   "llm_title": "펩시 주가 전망",
-   "one_liner": "월가 전문가들이 펩시 주가 상승 또는 하락을 예측하고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
+   "entity_keys": [],
+   "created_at": "2026-08-08T09:07:02.139696+00:00",
+   "last_update": "2026-08-08T13:19:28.845020+00:00",
+   "members": 50,
+   "llm_title": "인도에 대한 미국의 관세",
+   "one_liner": "미국이 인도에 100% 관세를 부과할 수 있어요.",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -3108,6 +3090,25 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "c4e22e340b80b9e09",
+   "title": "Why Wall Street Prices Coca - Cola and PepsiCo Differently",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 65,
+   "entity_keys": [
+    "PEP"
+   ],
+   "created_at": "2026-08-08T13:19:28.845771+00:00",
+   "last_update": "2026-08-08T13:19:28.846665+00:00",
+   "members": 2,
+   "llm_title": "펩시 주가 전망",
+   "one_liner": "월가 전문가들이 펩시 주가 상승 또는 하락을 예측하고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
   },
   {
    "id": "c005645a9b054915e",

@@ -9,11 +9,31 @@
  "entity_keys": [
   "IRAN"
  ],
- "seen_sources": 28,
+ "seen_sources": 30,
  "importance": 105,
  "created_at": "2026-08-12T21:09:51.092206+00:00",
- "last_update": "2026-08-13T12:06:00.898881+00:00",
+ "last_update": "2026-08-13T13:55:05.326083+00:00",
  "members": [
+  {
+   "id": "de2cee0b0b839bbc3d35933e1a1308e564672fea",
+   "source": "cnbc.com",
+   "tier": "wire",
+   "url": "https://www.cnbc.com/2026/08/13/iran-war-g7s-fastest-growing-economy.html",
+   "title": "The Iran war risks bringing the G7 fastest - growing economy to a halt",
+   "published_at": "2026-08-13T12:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9302
+  },
+  {
+   "id": "729ada9de64af4d28e6b5f7b511607bc6f80107e",
+   "source": "lancashiretelegraph.co.uk",
+   "tier": "wire",
+   "url": "https://www.lancashiretelegraph.co.uk/news/national/26461566.economy-gets-world-cup-hot-weather-boost-fears-grow-iran-war-hit/",
+   "title": "Economy gets World Cup and hot weather boost but fears grow over Iran war hit",
+   "published_at": "2026-08-13T12:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9159
+  },
   {
    "id": "193a75f2c83e90b9b5a01d67aa32d6480f0fd32e",
    "source": "clevelandjewishnews.com",
@@ -389,6 +409,20 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "The Iran war risks bringing the G7 fastest - growing economy to a halt",
+   "source": "cnbc.com",
+   "url": "https://www.cnbc.com/2026/08/13/iran-war-g7s-fastest-growing-economy.html",
+   "at": "2026-08-13T12:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Economy gets World Cup and hot weather boost but fears grow over Iran war hit",
+   "source": "lancashiretelegraph.co.uk",
+   "url": "https://www.lancashiretelegraph.co.uk/news/national/26461566.economy-gets-world-cup-hot-weather-boost-fears-grow-iran-war-hit/",
+   "at": "2026-08-13T12:45:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Trump vows to maintain  wall of steel  blockade on Iran",
    "source": "clevelandjewishnews.com",
    "url": "https://www.clevelandjewishnews.com/jns/trump-vows-to-maintain-wall-of-steel-blockade-on-iran/article_9b4f555e-9aaa-50cd-90ad-c00265fd7127.html",
@@ -648,42 +682,45 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-13T10:45:43.958882+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-13T13:55:12.377528+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
     "New report shows where inflation is headed as Iran War continues",
+    "The Iran war risks bringing the G7 fastest - growing economy to a halt",
     "July Inflation Cools as Energy Prices Drop Despite Ongoing Iran War",
     "World Cup and June hot weather help united kingdom economy withstand Iran war pressures",
-    "Trump claims US controls Iranian money",
-    "Iran faces growing isolation and uncertain future amid  dire  economic situation"
+    "Trump claims US controls Iranian money"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"이란 전쟁과 물가\",\n   \"one_liner\": \"이란 전쟁이 계속되면서 물가가 어떻게 될지 새로운 보고서가 나왔어요\",\n   \"why_now\": \"전쟁이 계속되면 물가가 어떻게 변할지 예상할 수 있어요\",\n   \"impact_line\": \"물가가 오르면 생활비가 부담이 될 수 있어요\",\n   \"details\": [\n       \"이란 전쟁으로 물가가 어떻게 변할지 새로운 보고서가 나왔어요\",\n       \"이란 전쟁이 계속되면 세계에서 가장 빠르게 성장하는 경제가 멈출 수 있어요\",\n       \"7월 물가는 에너지 가격이 떨어지면서 낮아졌어요\",\n       \"월드컵과 6월 더운 날씨로 영국 경제가 이란 전쟁의 압력을 견디시겠어요\",\n       \"트럼프는 미국이 이란의 돈을 통제한다고 주장했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"이란 전쟁이 계속되면 물가가 더 오를 수 있어요!\",\n       \"에너지 가격이 떨어지면 물가가 낮아질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "New report shows…",
-   "one_liner": "New report shows where inflation is headed as…",
-   "why_now": null,
+   "title": "이란 전쟁과 물가",
+   "one_liner": "이란 전쟁이 계속되면서 물가가 어떻게 될지 새로운 보고서가 나왔어요",
+   "why_now": "전쟁이 계속되면 물가가 어떻게 변할지 예상할 수 있어요",
    "details": [
-    "New report shows where inflation is headed as Iran War continues",
-    "July Inflation Cools as Energy Prices Drop Despite Ongoing Iran War",
-    "World Cup and June hot weather help united kingdom economy withstand Iran war pressures"
+    "이란 전쟁으로 물가가 어떻게 변할지 새로운 보고서가 나왔어요",
+    "이란 전쟁이 계속되면 세계에서 가장 빠르게 성장하는 경제가 멈출 수 있어요",
+    "7월 물가는 에너지 가격이 떨어지면서 낮아졌어요",
+    "월드컵과 6월 더운 날씨로 영국 경제가 이란 전쟁의 압력을 견디시겠어요",
+    "트럼프는 미국이 이란의 돈을 통제한다고 주장했어요"
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "이란 전쟁이 계속되면 물가가 더 오를 수 있어요!",
+    "에너지 가격이 떨어지면 물가가 낮아질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "688ec41be459deb473b7798d1d1744327e54813d"
+  "fact_hash": "e2c42d64836d6017f79837520c080c763711d2a1"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
