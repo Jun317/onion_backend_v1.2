@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-13T03:13:24.251935+00:00",
+  "created_at": "2026-08-13T07:01:04.157670+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,12 +64,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"Chevron 주가 전망\", \"one_liner\": \"Chevron의 주가 전망에 대한 분석이 나왔어요.\", \"why_now\": \"투자자들은 특정 기업의 주가가 앞으로 어떻게 될지 궁금해해요.\", \"impact_line\": null, \"details\": [\"Chevron의 주가 전망에 대한 기사가 나왔어요.\"], \"visual_type\": \"none\", \"effects\": [\"Chevron의 주가 흐름에 따라 관련 투자자들의 수익률이 달라질 수 있어요!\"], \"glossary\": []}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -87,8 +94,8 @@
   "fact_hash": "a757530d0736d9e0b80199486f1aa1641b223eb4"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-13T03:13:24.251872+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-13T07:01:04.157570+00:00"
  },
  "glossary": [],
  "related": [

@@ -71,7 +71,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-13T03:07:52.380893+00:00",
+  "created_at": "2026-08-13T06:56:30.524927+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -82,8 +82,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"마이크론 주가 분석\", \"one_liner\": \"마이크론 주가가 S&P 500과 나스닥 100보다 저렴하다는 분석이 나왔어요.\", \"why_now\": \"마이크론의 현재 주가 수준이 다른 주요 지수 대비 매력적인지 살펴보는 것은 투자 판단에 도움이 될 수 있어요.\", \"impact_line\": null, \"details\": [\"마이크론 주가가 S&P 500과 나스닥 100 지수보다 저렴하다는 분석이 있어요.\", \"하지만 일부 분석가는 여전히 마이크론 주식 매수를 망설이고 있어요.\", \"샌디스크의 과거 사례와 마이크론을 직접 비교하는 것은 주의해야 한다는 의견도 있어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"S&P 500\", \"easy\": \"미국 증시에 상장된 대표적인 500개 기업의 주가를 모아 보여주는 지수예요.\", \"example\": \"S&P 500 지수가 오르면 미국 주식 시장 전체가 좋다고 볼 수 있어요.\"}, {\"term\": \"나스닥 100\", \"easy\": \"미국 나스닥 시장에 상장된 기술주 중심 100개 기업의 주가를 보여주는 지수예요.\", \"example\": \"나스닥 100 지수는 기술주 동향을 파악하는 데 중요해요.\"}], \"impact_line\": null}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(61)",
+     "effects 1~2문장 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -106,8 +113,8 @@
   "fact_hash": "3fb8e4ddc53c032f223e2a3550ec7a32b5ac1bfb"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-13T03:07:52.380821+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(61)\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-13T06:56:30.524864+00:00"
  },
  "glossary": [],
  "related": [

@@ -9,10 +9,10 @@
  "entity_keys": [
   "CHINA"
  ],
- "seen_sources": 4,
- "importance": 80,
+ "seen_sources": 6,
+ "importance": 85,
  "created_at": "2026-08-12T13:54:48.078613+00:00",
- "last_update": "2026-08-13T05:15:02.147528+00:00",
+ "last_update": "2026-08-13T06:53:16.230911+00:00",
  "members": [
   {
    "id": "9c5062ed43605a028cc1753ee20d995a906a59fb",
@@ -22,7 +22,7 @@
    "title": "Chevrolet Leaves China - CleanTechnica",
    "published_at": "2026-08-13T04:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8638
+   "sim_to_centroid": 0.8773
   },
   {
    "id": "e14c302c7dd4e9a52043729860eac2c5df78d586",
@@ -32,7 +32,17 @@
    "title": "China Closes America Drone Skies",
    "published_at": "2026-08-13T03:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8863
+   "sim_to_centroid": 0.9005
+  },
+  {
+   "id": "3a018152abdfb7ba9cb8aa920c6a866897948bd1",
+   "source": "scmp.com",
+   "tier": "wire",
+   "url": "https://www.scmp.com/news/us/article/3363832/china-projects-outward-confidence-amid-economic-anxiety-us-congressional-panel-says",
+   "title": "China projects  outward confidence  amid economic anxiety , US congressional panel says",
+   "published_at": "2026-08-12T22:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8723
   },
   {
    "id": "15b7bdaf5da6ef3b1628e8f2885ebd96d0adc9e6",
@@ -42,7 +52,7 @@
    "title": "Typhoon Dolphin sweeps through China flooding key roads and disrupting travel",
    "published_at": "2026-08-12T12:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9728
+   "sim_to_centroid": 0.966
   },
   {
    "id": "6f621c6c0796ad75cdf81af2867fbec8059d4ec9",
@@ -52,7 +62,17 @@
    "title": "Rain pounds Beijing as typhoon sweeps through China",
    "published_at": "2026-08-12T08:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9674
+   "sim_to_centroid": 0.9583
+  },
+  {
+   "id": "261b893ec82658706e34d0085a4ed14c04122234",
+   "source": "sbr.com.sg",
+   "tier": "wire",
+   "url": "https://sbr.com.sg/commercial-property/news/capitaland-investment-winds-dormant-china-subsidiary",
+   "title": "CapitaLand Investment winds up dormant China subsidiary",
+   "published_at": "2026-08-12T07:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8735
   }
  ],
  "anchors": [],
@@ -73,6 +93,13 @@
   },
   {
    "kind": "headline",
+   "title": "China projects  outward confidence  amid economic anxiety , US congressional panel says",
+   "source": "scmp.com",
+   "url": "https://www.scmp.com/news/us/article/3363832/china-projects-outward-confidence-amid-economic-anxiety-us-congressional-panel-says",
+   "at": "2026-08-12T22:00:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Typhoon Dolphin sweeps through China flooding key roads and disrupting travel",
    "source": "theglobeandmail.com",
    "url": "https://www.theglobeandmail.com/world/article-typhoon-dolphin-china-beijing-rains/",
@@ -84,41 +111,55 @@
    "source": "bordermail.com.au",
    "url": "https://www.bordermail.com.au/story/9329322/rain-pounds-beijing-as-typhoon-sweeps-through-china/",
    "at": "2026-08-12T08:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "CapitaLand Investment winds up dormant China subsidiary",
+   "source": "sbr.com.sg",
+   "url": "https://sbr.com.sg/commercial-property/news/capitaland-investment-winds-dormant-china-subsidiary",
+   "at": "2026-08-12T07:15:00+00:00"
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-13T03:13:04.769932+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-13T06:55:25.181116+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
     "Typhoon Dolphin sweeps through China flooding key roads and disrupting travel",
-    "Rain pounds Beijing as typhoon sweeps through China"
+    "Rain pounds Beijing as typhoon sweeps through China",
+    "China Closes America Drone Skies",
+    "Chevrolet Leaves China - CleanTechnica",
+    "CapitaLand Investment winds up dormant China subsidiary"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"중국에 태풍\",\n   \"one_liner\": \"중국에 태풍이 불어와 주요 도로가 물에 잠기고 여행이 방해받았어요\",\n   \"why_now\": \"태풍 때문에 일상 생활에 영향을 받을 수 있어요\",\n   \"impact_line\": \"중국 여행이나 중국과 거래하는 비즈니스에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"중국에 태풍이 불어와 주요 도로가 물에 잠겼어요\",\n       \"중국에서 여행이 방해받았어요\",\n       \"중국에서 미국 드론의 하늘 이용이 금지되었어요\",\n       \"중국에서 Шевроле가 철수했어요\",\n       \"중국에 있는 한 회사의 미활용 자회사 폐쇄했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"중국과 거래하는 비즈니스에 영향을 줄 수 있어요!\",\n       \"중국 여행이 어려워질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Typhoon Dolphin…",
-   "one_liner": "Typhoon Dolphin sweeps through China flooding…",
-   "why_now": null,
+   "title": "중국에 태풍",
+   "one_liner": "중국에 태풍이 불어와 주요 도로가 물에 잠기고 여행이 방해받았어요",
+   "why_now": "태풍 때문에 일상 생활에 영향을 받을 수 있어요",
    "details": [
-    "Typhoon Dolphin sweeps through China flooding key roads and disrupting travel",
-    "Rain pounds Beijing as typhoon sweeps through China"
+    "중국에 태풍이 불어와 주요 도로가 물에 잠겼어요",
+    "중국에서 여행이 방해받았어요",
+    "중국에서 미국 드론의 하늘 이용이 금지되었어요",
+    "중국에서 Шевроле가 철수했어요",
+    "중국에 있는 한 회사의 미활용 자회사 폐쇄했어요"
    ],
-   "effects": [],
+   "effects": [
+    "중국과 거래하는 비즈니스에 영향을 줄 수 있어요!",
+    "중국 여행이 어려워질 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "433bc8c1978191e52b0fe253bfa8f5b9e5cdb798"
+  "fact_hash": "b91ab1d5c63027d3dd843407f7bbc91484b9c4e3"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

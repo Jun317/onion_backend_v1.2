@@ -2,17 +2,17 @@
  "id": "c753b258ca52aad08",
  "title": "Global Water Resources Reports Second Quarter 2026 Results",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "SEC"
  ],
- "seen_sources": 1,
- "importance": 75,
+ "seen_sources": 2,
+ "importance": 80,
  "created_at": "2026-08-13T05:15:02.149122+00:00",
- "last_update": "2026-08-13T05:15:02.149122+00:00",
+ "last_update": "2026-08-13T06:53:16.257459+00:00",
  "members": [
   {
    "id": "3e35849072d9f23a602d091038e7daec22385925",
@@ -22,7 +22,7 @@
    "title": "Global Water Resources Reports Second Quarter 2026 Results",
    "published_at": "2026-08-13T03:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.972
+   "sim_to_centroid": 0.9707
   },
   {
    "id": "4ad171fa3196b819c09d20a9a452415927125975",
@@ -32,7 +32,17 @@
    "title": "G Mining Ventures Reports Second Quarter 2026 Results – Strong Quarterly Free Cash Flow Reflects Solid Operational Performance",
    "published_at": "2026-08-13T03:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.972
+   "sim_to_centroid": 0.9703
+  },
+  {
+   "id": "5b5930b56b814f3c2f20560ce1b38e0afcee22df",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/retirement/2026/08/12/update-incredible-news-social-security-2027-cola/?source=iedfolrf0000001",
+   "title": "The Latest Inflation Update Offers Incredible News for Social Security 2027 COLA",
+   "published_at": "2026-08-13T01:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8665
   }
  ],
  "anchors": [],
@@ -50,10 +60,55 @@
    "source": "leaderpost.com",
    "url": "https://leaderpost.com/press-releases/globe-newswire/g-mining-ventures-reports-second-quarter-2026-results-strong-quarterly-free-cash-flow-reflects-solid-operational-performance/",
    "at": "2026-08-13T03:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "The Latest Inflation Update Offers Incredible News for Social Security 2027 COLA",
+   "source": "fool.com",
+   "url": "https://www.fool.com/retirement/2026/08/12/update-incredible-news-social-security-2027-cola/?source=iedfolrf0000001",
+   "at": "2026-08-13T01:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-13T06:57:25.710336+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Global Water Resources Reports Second Quarter 2026 Results",
+    "G Mining Ventures Reports Second Quarter 2026 Results – Strong Quarterly Free Cash Flow Reflects Solid Operational Performance",
+    "The Latest Inflation Update Offers Incredible News for Social Security 2027 COLA"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Global Water…",
+   "one_liner": "Global Water Resources Reports Second Quarter…",
+   "why_now": null,
+   "details": [
+    "Global Water Resources Reports Second Quarter 2026 Results",
+    "G Mining Ventures Reports Second Quarter 2026 Results – Strong Quarterly Free Cash Flow Reflects Solid Operational Performance",
+    "The Latest Inflation Update Offers Incredible News for Social Security 2027 COLA"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "3a0f4222067a5a011a9ae2b859488a45b9ddfab9"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-13T06:57:25.710233+00:00"
+ },
  "glossary": [],
  "related": [
   {
