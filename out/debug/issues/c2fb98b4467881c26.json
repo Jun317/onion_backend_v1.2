@@ -816,8 +816,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-13T05:20:32.223234+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-13T08:49:13.355195+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -830,26 +830,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"여행 계획 변경\",\n   \"one_liner\": \"캐나다의 높은 기름값으로 여름 휴가 계획이 달라지고 있어요.\",\n   \"why_now\": \"기름값이 오르면 여행 비용이 늘어나서 사람들이 계획을 변경하는 게 보통이에요.\",\n   \"impact_line\": \"주유비가 오를 수 있어요\",\n   \"details\": [\n      \"캐나다에서 기름값이 높아져서 여름 휴가 계획이 달라지고 있어요.\",\n      \"여행 비용이 기름값에 영향을 받아요.\",\n      \"기름값이 오르면 여행 계획을 변경해야 할 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"기름값이 오르면 여행 비용이 늘어나서 사람들이 여행을 덜 갈 수 있어요!\",\n      \"여행업계가 기름값 오름에 대비해야 할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Canada Goose Review…",
-   "one_liner": "Canada Goose Review : Testing summer gear in…",
-   "why_now": null,
+   "title": "여행 계획 변경",
+   "one_liner": "캐나다의 높은 기름값으로 여름 휴가 계획이 달라지고 있어요.",
+   "why_now": "기름값이 오르면 여행 비용이 늘어나서 사람들이 계획을 변경하는 게 보통이에요.",
    "details": [
-    "Canada Goose Review : Testing summer gear in Haida Gwaii , BC .",
-    "SpaceX ( SPCX ) and Northrop Grumman ( NOC ) Clear Golden Dome Test : Who Has More to Gain ?",
-    "According to CAA Manitoba survey , high gas prices changing Summer vacation plans - PembinaValleyOnline . com - Local news , Weather , Sports , Free Classifieds and Business Listings for the Pembina Valley , Manitoba"
+    "캐나다에서 기름값이 높아져서 여름 휴가 계획이 달라지고 있어요.",
+    "여행 비용이 기름값에 영향을 받아요.",
+    "기름값이 오르면 여행 계획을 변경해야 할 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "기름값이 오르면 여행 비용이 늘어나서 사람들이 여행을 덜 갈 수 있어요!",
+    "여행업계가 기름값 오름에 대비해야 할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "159d0ad5f6c45ce9e3b412e11d77a7eafbdf13f1"
  },

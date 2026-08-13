@@ -9,11 +9,21 @@
  "entity_keys": [
   "NVDA"
  ],
- "seen_sources": 2,
- "importance": 90,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-08-12T21:09:51.091981+00:00",
- "last_update": "2026-08-12T23:07:09.490857+00:00",
+ "last_update": "2026-08-13T08:49:07.449252+00:00",
  "members": [
+  {
+   "id": "45309d4de76eef61e2b05bd734129d5bd885da5f",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/08/12/my-shocking-nvidia-stock-update/",
+   "title": "My Shocking Nvidia Stock Update | The Motley Fool",
+   "published_at": "2026-08-13T07:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9074
+  },
   {
    "id": "ab2df2598e78cfd9c34d3107a4832e25f64b4f08",
    "source": "finance.yahoo.com",
@@ -22,7 +32,7 @@
    "title": "S & P 500 opens higher as Nvidia rallies on AI infrastructure deal",
    "published_at": "2026-08-12T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9094
+   "sim_to_centroid": 0.912
   },
   {
    "id": "46dd62228379bac0a3323e2ca890cc7d7bb2ddab",
@@ -32,7 +42,7 @@
    "title": "Nvidia found a new way to keep the AI boom funded : your retirement money",
    "published_at": "2026-08-12T19:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9665
+   "sim_to_centroid": 0.9664
   },
   {
    "id": "3a7d68b9c18763b3e57125b7f8a5384e31bdcc64",
@@ -42,11 +52,18 @@
    "title": "Nvidia $70 billion bet on OpenAI , Anthropic , and others could pay off big for shareholders",
    "published_at": "2026-08-12T15:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9671
+   "sim_to_centroid": 0.9644
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "My Shocking Nvidia Stock Update | The Motley Fool",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/08/12/my-shocking-nvidia-stock-update/",
+   "at": "2026-08-13T07:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "S & P 500 opens higher as Nvidia rallies on AI infrastructure deal",
@@ -70,49 +87,46 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-13T00:04:37.177938+00:00",
+  "model": "template",
+  "created_at": "2026-08-13T08:56:56.438815+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "My Shocking Nvidia Stock Update | The Motley Fool",
     "S & P 500 opens higher as Nvidia rallies on AI infrastructure deal",
     "Nvidia found a new way to keep the AI boom funded : your retirement money",
     "Nvidia $70 billion bet on OpenAI , Anthropic , and others could pay off big for shareholders"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"Nvidia 주가 상승\",\n   \"one_liner\": \"인공지능 관련 사업으로 Nvidia가 주가가 올랐어요\",\n   \"why_now\": \"인공지능 기술이 발전하면서 관련 기업의 가치가 높아지고 있어요\",\n   \"impact_line\": \"투자자들의 자산 가치가 증가할 수 있어요\",\n   \"details\": [\n       \"Nvidia가 인공지능 인프라 사업을 통해 주가가 상승했어요\",\n       \"Nvidia의 인공지능 관련 투자가 대규모로 이루어졌어요\",\n       \"Nvidia의 주가 상승이 투자자들에게 긍정적 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"인공지능 기술의 발전이 관련 산업의 성장에 기여할 수 있어요!\",\n       \"투자자들의 자산 가치가 증가하면서 소비가 늘어날 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [700.0]"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
    }
   ],
   "output": {
-   "title": "Nvidia 주가 상승",
-   "one_liner": "인공지능 관련 사업으로 Nvidia가 주가가 올랐어요",
-   "why_now": "인공지능 기술이 발전하면서 관련 기업의 가치가 높아지고 있어요",
+   "title": "My Shocking Nvidia…",
+   "one_liner": "My Shocking Nvidia Stock Update | The Motley Fool",
+   "why_now": null,
    "details": [
-    "Nvidia가 인공지능 인프라 사업을 통해 주가가 상승했어요",
-    "Nvidia의 인공지능 관련 투자가 대규모로 이루어졌어요",
-    "Nvidia의 주가 상승이 투자자들에게 긍정적 영향을 줄 수 있어요"
+    "My Shocking Nvidia Stock Update | The Motley Fool",
+    "S & P 500 opens higher as Nvidia rallies on AI infrastructure deal",
+    "Nvidia found a new way to keep the AI boom funded : your retirement money"
    ],
-   "effects": [
-    "인공지능 기술의 발전이 관련 산업의 성장에 기여할 수 있어요!",
-    "투자자들의 자산 가치가 증가하면서 소비가 늘어날 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "1dd481628ea21ee535b146912f60671f6adaed60"
+  "fact_hash": "bf4b1a3cc67c56729a08b0987c4fa2c2ea29dc67"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-13T08:56:56.438743+00:00"
+ },
  "glossary": [],
  "related": [
   {
