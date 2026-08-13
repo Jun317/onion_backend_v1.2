@@ -53,8 +53,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-13T00:07:57.101681+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-13T03:10:35.722694+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,25 +64,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"아마존 주가 상승\",\n   \"one_liner\": \"아마존의 수익이 좋자 주가가 올랐어요\",\n   \"why_now\": \"수익이 좋으면 주가가 오를 수 있어요\",\n   \"impact_line\": \"아마존을 사용하는 사람들은 서비스 가격이 오를 수 있어요\",\n   \"details\": [\n       \"아마존의 수익이 좋았어요\",\n       \"아마존의 주가가 13% 올랐어요\",\n       \"아마존의 수익은 AWS业务로 인해 좋았어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"아마존의 주가 상승으로 투자자들이 돈을 벌 수 있어요!\",\n       \"아마존의 서비스 가격이 오르면 소비자들이 부담을 느끼게 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Amazon Just Exploded…",
-   "one_liner": "Amazon Just Exploded 13 % on Its AWS Quarter .…",
-   "why_now": null,
+   "title": "아마존 주가 상승",
+   "one_liner": "아마존의 수익이 좋자 주가가 올랐어요",
+   "why_now": "수익이 좋으면 주가가 오를 수 있어요",
    "details": [
-    "Amazon Just Exploded 13 % on Its AWS Quarter . This Fund Pays You Every Friday to Own It",
-    "Amazon Stock : What Next After Post - Earnings Rally | Investor Business Daily"
+    "아마존의 수익이 좋았어요",
+    "아마존의 주가가 13% 올랐어요",
+    "아마존의 수익은 AWS业务로 인해 좋았어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "아마존의 주가 상승으로 투자자들이 돈을 벌 수 있어요!",
+    "아마존의 서비스 가격이 오르면 소비자들이 부담을 느끼게 될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "a6b424e785e98f8ec70f385bd0345bc38f60188c"
  },

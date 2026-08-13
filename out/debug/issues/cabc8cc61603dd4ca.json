@@ -2,16 +2,26 @@
  "id": "cabc8cc61603dd4ca",
  "title": "Palau Renewable Energy - The Borgen Project",
  "category": "POLICY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 75,
+ "seen_sources": 2,
+ "importance": 80,
  "created_at": "2026-08-11T23:09:25.584268+00:00",
- "last_update": "2026-08-12T00:05:15.006665+00:00",
+ "last_update": "2026-08-13T03:05:27.309080+00:00",
  "members": [
+  {
+   "id": "24d8e813e2514176d29bd239be51afe4206e3184",
+   "source": "theatlantic.com",
+   "tier": "wire",
+   "url": "https://www.theatlantic.com/technology/2026/08/mark-zuckerberg-ai-manifesto/688269/",
+   "title": "Mark Zuckerberg Convenient Truth - The Atlantic",
+   "published_at": "2026-08-13T01:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8685
+  },
   {
    "id": "74ecfc20091bb0aaff79c849df445154191d79f1",
    "source": "borgenproject.org",
@@ -20,7 +30,7 @@
    "title": "Palau Renewable Energy - The Borgen Project",
    "published_at": "2026-08-11T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.961
+   "sim_to_centroid": 0.9594
   },
   {
    "id": "db183c7d0324297b3855848963beb2fe59b37a91",
@@ -30,7 +40,7 @@
    "title": "USAID Programs in Kazakhstan - The Borgen Project",
    "published_at": "2026-08-11T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9628
+   "sim_to_centroid": 0.9606
   },
   {
    "id": "8a099bc0b0621456eeedbbc206948b056514fb8e",
@@ -40,11 +50,18 @@
    "title": "Vocational Education Training Centers in Barbados",
    "published_at": "2026-08-11T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8662
+   "sim_to_centroid": 0.8688
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Mark Zuckerberg Convenient Truth - The Atlantic",
+   "source": "theatlantic.com",
+   "url": "https://www.theatlantic.com/technology/2026/08/mark-zuckerberg-ai-manifesto/688269/",
+   "at": "2026-08-13T01:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Palau Renewable Energy - The Borgen Project",
@@ -67,8 +84,47 @@
    "at": "2026-08-11T22:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-13T03:08:48.856150+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Mark Zuckerberg Convenient Truth - The Atlantic",
+    "Palau Renewable Energy - The Borgen Project",
+    "USAID Programs in Kazakhstan - The Borgen Project",
+    "Vocational Education Training Centers in Barbados"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Mark Zuckerberg…",
+   "one_liner": "Mark Zuckerberg Convenient Truth - The Atlantic",
+   "why_now": null,
+   "details": [
+    "Mark Zuckerberg Convenient Truth - The Atlantic",
+    "Palau Renewable Energy - The Borgen Project",
+    "USAID Programs in Kazakhstan - The Borgen Project"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "ea438a49e533895960d2bae8e623ae40d80e2812"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-13T03:08:48.856048+00:00"
+ },
  "glossary": [],
  "related": [
   {

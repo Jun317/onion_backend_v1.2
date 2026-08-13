@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-13T00:07:38.672658+00:00",
+  "created_at": "2026-08-13T03:10:32.732014+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,8 +64,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"볼트메탈스, 26메탈스로 사명 변경\",\n  \"one_liner\": \"볼트메탈스가 26메탈스로 사명을 바꾸고 주식 종목 코드도 IRON으로 변경했어요.\",\n  \"why_now\": \"회사가 주요 사업에 집중하기 위해 이름을 바꾸는 것은 흔한 일이에요.\",\n  \"impact_line\": null,\n  \"details\": [\n    \"볼트메탈스는 이제 26메탈스라는 새 이름을 사용해요.\",\n    \"회사의 주식 종목 코드는 IRON으로 변경돼요.\",\n    \"이번 변경은 브라질의 플로랄리아 철광 프로젝트에 집중하기 위한 거예요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [],\n  \"glossary\": [\n    {\n      \"term\": \"종목 코드\",\n      \"easy\": \"주식 시장에서 회사를 구분하기 위해 부여된 고유한 번호나 글자예요.\",\n      \"example\": \"삼성전자의 종목 코드는 005930이에요.\"\n    }\n  ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects 1~2문장 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -87,8 +93,8 @@
   "fact_hash": "4ca2e21d18691eabefa7b13ba06d935b8d44b10d"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-13T00:07:38.672594+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-13T03:10:32.731779+00:00"
  },
  "glossary": [],
  "related": [
