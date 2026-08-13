@@ -12,7 +12,7 @@
  "seen_sources": 1,
  "importance": 80,
  "created_at": "2026-08-10T05:56:15.067917+00:00",
- "last_update": "2026-08-13T08:49:07.474681+00:00",
+ "last_update": "2026-08-13T10:34:09.792734+00:00",
  "members": [
   {
    "id": "127791e3517ed3ff72c4b351bae75ec27f6a0fa7",
@@ -26,6 +26,72 @@
   }
  ],
  "anchors": [
+  {
+   "entity": "SK가스",
+   "metric": "매출액",
+   "value": 26352.6,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-08-13T09:17:08.401318+00:00"
+  },
+  {
+   "entity": "SK가스",
+   "metric": "영업이익",
+   "value": 2276.9,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-08-13T09:17:08.401318+00:00"
+  },
+  {
+   "entity": "SK텔레콤",
+   "metric": "매출액",
+   "value": 43923.1,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-08-13T09:16:41.055614+00:00"
+  },
+  {
+   "entity": "SK텔레콤",
+   "metric": "영업이익",
+   "value": 5375.9,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-08-13T09:16:41.055614+00:00"
+  },
+  {
+   "entity": "SK디스커버리",
+   "metric": "매출액",
+   "value": 32892.5,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-08-13T09:16:37.288168+00:00"
+  },
+  {
+   "entity": "SK디스커버리",
+   "metric": "영업이익",
+   "value": 1897.6,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-08-13T09:16:37.288168+00:00"
+  },
   {
    "entity": "SK바이오사이언스",
    "metric": "매출액",
@@ -118,6 +184,27 @@
  "timeline": [
   {
    "kind": "official",
+   "title": "SK가스 반기보고서 (2026.06)",
+   "source": "DART",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001641",
+   "at": "2026-08-13T09:17:08.401318+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "SK텔레콤 반기보고서 (2026.06)",
+   "source": "DART",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001728",
+   "at": "2026-08-13T09:16:41.055614+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "SK디스커버리 반기보고서 (2026.06)",
+   "source": "DART",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001756",
+   "at": "2026-08-13T09:16:37.288168+00:00"
+  },
+  {
+   "kind": "official",
    "title": "SK바이오사이언스 반기보고서 (2026.06)",
    "source": "DART",
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001292",
@@ -175,23 +262,77 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-13T06:58:21.031839+00:00",
+  "created_at": "2026-08-13T10:38:22.844268+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
     {
-     "entity": "SK이터닉스",
+     "entity": "SK가스",
      "metric": "매출액",
-     "value": 275.2,
+     "value": 26352.6,
      "unit": "억원",
      "prev": null,
      "period": "2026-1Q",
      "source": "DART"
     },
     {
-     "entity": "SK이터닉스",
+     "entity": "SK가스",
      "metric": "영업이익",
-     "value": 49.1,
+     "value": 2276.9,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "SK텔레콤",
+     "metric": "매출액",
+     "value": 43923.1,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "SK텔레콤",
+     "metric": "영업이익",
+     "value": 5375.9,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "SK디스커버리",
+     "metric": "매출액",
+     "value": 32892.5,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "SK디스커버리",
+     "metric": "영업이익",
+     "value": 1897.6,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "SK바이오사이언스",
+     "metric": "매출액",
+     "value": 1686.1,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "SK바이오사이언스",
+     "metric": "영업이익",
+     "value": -445.4,
      "unit": "억원",
      "prev": null,
      "period": "2026-1Q",
@@ -199,7 +340,7 @@
     }
    ],
    "headlines": [
-    "SK증권제11호스팩 2026-2Q 실적 공시"
+    "SK Bioscience narrows loss in Q2 upon German unit improvement"
    ],
    "official_lines": []
   },
@@ -213,21 +354,23 @@
    }
   ],
   "output": {
-   "title": "SK이터닉스 매출액 275.2억원",
-   "one_liner": "SK이터닉스 매출액 275.2억원으로 발표됐어요",
+   "title": "SK가스 매출액 26352.6억원",
+   "one_liner": "SK가스 매출액 26352.6억원으로 발표됐어요",
    "why_now": null,
    "details": [
-    "SK이터닉스 매출액: 275.2억원",
-    "SK이터닉스 영업이익: 49.1억원"
+    "SK가스 매출액: 26352.6억원",
+    "SK가스 영업이익: 2276.9억원",
+    "SK텔레콤 매출액: 43923.1억원",
+    "SK텔레콤 영업이익: 5375.9억원"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "fc56b2e2122cf0919e691457a77e6739d920fdb7"
+  "fact_hash": "f96fdf6978a7a99cb442c415392358b49307250f"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-13T06:58:21.031730+00:00"
+  "at": "2026-08-13T10:38:22.844140+00:00"
  },
  "glossary": [
   {

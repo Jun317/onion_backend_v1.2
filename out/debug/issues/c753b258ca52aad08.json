@@ -9,10 +9,10 @@
  "entity_keys": [
   "SEC"
  ],
- "seen_sources": 3,
- "importance": 85,
+ "seen_sources": 4,
+ "importance": 90,
  "created_at": "2026-08-13T05:15:02.149122+00:00",
- "last_update": "2026-08-13T08:49:07.452871+00:00",
+ "last_update": "2026-08-13T10:34:09.522309+00:00",
  "members": [
   {
    "id": "6398aae8723645c303e2d38610f3ac47384061ea",
@@ -22,7 +22,7 @@
    "title": "SGX securities market turnover jumps 37 % YoY to $46 . 2b in July",
    "published_at": "2026-08-13T07:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8665
+   "sim_to_centroid": 0.871
   },
   {
    "id": "3e35849072d9f23a602d091038e7daec22385925",
@@ -32,7 +32,17 @@
    "title": "Global Water Resources Reports Second Quarter 2026 Results",
    "published_at": "2026-08-13T03:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.968
+   "sim_to_centroid": 0.9659
+  },
+  {
+   "id": "4d8175af6474b6381adc25b8082f1e454740c39d",
+   "source": "lankanewspapers.com",
+   "tier": "wire",
+   "url": "https://www.lankanewspapers.com/2026/08/13/sri-lanka-avoids-power-cuts-after-securing-coal-supplies-and-hydropower-gains",
+   "title": "Sri Lanka Avoids Power Cuts After Securing Coal Supplies and Hydropower Gains",
+   "published_at": "2026-08-13T03:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.855
   },
   {
    "id": "4ad171fa3196b819c09d20a9a452415927125975",
@@ -42,7 +52,7 @@
    "title": "G Mining Ventures Reports Second Quarter 2026 Results – Strong Quarterly Free Cash Flow Reflects Solid Operational Performance",
    "published_at": "2026-08-13T03:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9679
+   "sim_to_centroid": 0.9635
   },
   {
    "id": "5b5930b56b814f3c2f20560ce1b38e0afcee22df",
@@ -52,7 +62,7 @@
    "title": "The Latest Inflation Update Offers Incredible News for Social Security 2027 COLA",
    "published_at": "2026-08-13T01:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8747
+   "sim_to_centroid": 0.8827
   }
  ],
  "anchors": [],
@@ -80,6 +90,13 @@
   },
   {
    "kind": "headline",
+   "title": "Sri Lanka Avoids Power Cuts After Securing Coal Supplies and Hydropower Gains",
+   "source": "lankanewspapers.com",
+   "url": "https://www.lankanewspapers.com/2026/08/13/sri-lanka-avoids-power-cuts-after-securing-coal-supplies-and-hydropower-gains",
+   "at": "2026-08-13T03:45:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "The Latest Inflation Update Offers Incredible News for Social Security 2027 COLA",
    "source": "fool.com",
    "url": "https://www.fool.com/retirement/2026/08/12/update-incredible-news-social-security-2027-cola/?source=iedfolrf0000001",
@@ -88,12 +105,14 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-13T06:57:25.710336+00:00",
+  "created_at": "2026-08-13T10:34:57.049401+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "SGX securities market turnover jumps 37 % YoY to $46 . 2b in July",
     "Global Water Resources Reports Second Quarter 2026 Results",
+    "Sri Lanka Avoids Power Cuts After Securing Coal Supplies and Hydropower Gains",
     "G Mining Ventures Reports Second Quarter 2026 Results – Strong Quarterly Free Cash Flow Reflects Solid Operational Performance",
     "The Latest Inflation Update Offers Incredible News for Social Security 2027 COLA"
    ],
@@ -109,22 +128,22 @@
    }
   ],
   "output": {
-   "title": "Global Water…",
-   "one_liner": "Global Water Resources Reports Second Quarter…",
+   "title": "SGX securities…",
+   "one_liner": "SGX securities market turnover jumps 37 % YoY to…",
    "why_now": null,
    "details": [
+    "SGX securities market turnover jumps 37 % YoY to $46 . 2b in July",
     "Global Water Resources Reports Second Quarter 2026 Results",
-    "G Mining Ventures Reports Second Quarter 2026 Results – Strong Quarterly Free Cash Flow Reflects Solid Operational Performance",
-    "The Latest Inflation Update Offers Incredible News for Social Security 2027 COLA"
+    "Sri Lanka Avoids Power Cuts After Securing Coal Supplies and Hydropower Gains"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "3a0f4222067a5a011a9ae2b859488a45b9ddfab9"
+  "fact_hash": "72779b24e9aa2060832ee700a5319786c451fe02"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-13T06:57:25.710233+00:00"
+  "at": "2026-08-13T10:34:57.049285+00:00"
  },
  "glossary": [],
  "related": [
