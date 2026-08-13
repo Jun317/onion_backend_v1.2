@@ -766,7 +766,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-12T17:23:46.867847+00:00",
+  "created_at": "2026-08-13T00:06:42.968513+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -779,14 +779,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 1.5% 성장하는 데 그쳤어요.\",\n  \"why_now\": \"경제 성장이 둔화하면 일자리 증가나 소득 상승이 더뎌질 수 있어요.\",\n  \"impact_line\": \"물가 상승 압력에도 불구하고 경제 성장이 둔화될 수 있어요.\",\n  \"details\": [\n    \"미국 경제 성장률이 1.5%로 둔화했어요.\",\n    \"이는 예상보다 낮은 수치예요.\",\n    \"물가 상승 압력에도 불구하고 경제 성장이 둔화될 가능성이 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"소비 심리가 위축될 수 있어요!\",\n    \"기업들의 투자나 신규 채용이 줄어들 수 있어요!\"\n  ],\n  \"glossary\": [],\n  \"impact_line\": null\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [1.5]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -809,8 +803,8 @@
   "fact_hash": "823ebedb6bbb88ebe7b22c00beeaf5862cb9e2a1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-12T17:23:46.867766+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-13T00:06:42.968438+00:00"
  },
  "glossary": [],
  "related": [
@@ -821,14 +815,14 @@
    "shared": []
   },
   {
-   "id": "c3e0383999f08c6f3",
-   "title": "Iran faces growing isolation and uncertain future amid  dire  economic situation",
+   "id": "c0a1c75524ed6c815",
+   "title": "The number of unemployed people has nearly doubled in 18 years",
    "category": "MACRO",
    "shared": []
   },
   {
-   "id": "c0a1c75524ed6c815",
-   "title": "The number of unemployed people has nearly doubled in 18 years",
+   "id": "c3e0383999f08c6f3",
+   "title": "Iran faces growing isolation and uncertain future amid  dire  economic situation",
    "category": "MACRO",
    "shared": []
   },

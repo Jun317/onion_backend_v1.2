@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-12T15:26:15.121796+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-13T00:04:10.367781+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -881,32 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"미국 경제 전망 불확실\", \"one_liner\": \"미국 경제가 곧 침체될 수 있다는 전망이 나왔어요.\", \"why_now\": \"경제 침체는 물가 상승, 실업 증가 등 우리 생활에 직접적인 영향을 줄 수 있어요.\", \"impact_line\": \"물가가 오르고 일자리가 줄어들 수 있어요.\", \"details\": [\"미국 경제가 곧 침체될 수 있다는 전망이 나왔어요.\", \"경제 침체는 소비와 투자가 줄어드는 현상을 말해요.\"], \"visual_type\": \"none\", \"effects\": [\"소비가 줄어 기업들의 매출이 감소할 수 있어요!\", \"실업률이 올라 일자리를 구하기 어려워질 수 있어요!\"], \"glossary\": [{\"term\": \"경제 침체\", \"easy\": \"나라 경제가 전반적으로 나빠지는 것을 말해요. 물건을 사거나 투자를 덜 하게 돼요.\", \"example\": \"경제 침체가 오면 물건값이 오르고 실업자가 늘어날 수 있어요.\"}], \"impact_line\": \"물가가 오르고 일자리가 줄어들 수 있어요.\"}",
+  "raw_response": "{\n  \"title\": \"미국 경제\",\n   \"one_liner\": \"미국 경제가 불안정할 수 있어요.\",\n   \"why_now\": \"미국 경제가 안정적이면 우리나라 경제에도 좋아요.\",\n   \"impact_line\": \"우리나라 수출이 줄어들 수 있어요.\",\n   \"details\": [\n       \"미국 경제가 불안정하면 세계 경제에도 영향을 미칠 수 있어요.\",\n       \"미국 경제가 안정적이면 투자와 소비가 증가할 수 있어요.\",\n       \"미국 경제의 안정성은 우리나라 경제에도 영향을 미칠 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국 경제가 불안정하면 우리나라 수출이 줄어들 수 있어요!\",\n       \"미국 경제가 안정적이면 우리나라 경제에도 긍정적인 영향을 미칠 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 에 한자/가나 포함"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Is California slow…",
-   "one_liner": "Is California slow road to high - speed rail…",
-   "why_now": null,
+   "title": "미국 경제",
+   "one_liner": "미국 경제가 불안정할 수 있어요.",
+   "why_now": "미국 경제가 안정적이면 우리나라 경제에도 좋아요.",
    "details": [
-    "Is California slow road to high - speed rail worth chipping in $1 billion a year ? | Dan Walters | Dan - walters",
-    "The Military Branches Hit Their 2026 Recruiting Goals Months Early",
-    "Is the U . S . Economy About to Crash ? | The Motley Fool"
+    "미국 경제가 불안정하면 세계 경제에도 영향을 미칠 수 있어요.",
+    "미국 경제가 안정적이면 투자와 소비가 증가할 수 있어요.",
+    "미국 경제의 안정성은 우리나라 경제에도 영향을 미칠 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "usdkrw"
+   "effects": [
+    "미국 경제가 불안정하면 우리나라 수출이 줄어들 수 있어요!",
+    "미국 경제가 안정적이면 우리나라 경제에도 긍정적인 영향을 미칠 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "790902b8751c72d0ba7def815ad2076c8fac203a"
  },

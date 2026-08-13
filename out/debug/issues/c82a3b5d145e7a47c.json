@@ -871,8 +871,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-12T15:30:24.627970+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-13T00:03:44.673548+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,32 +881,33 @@
     "The Eastern Company Reports Second Quarter 2026 Results",
     "Peyto Reports Second Quarter 2026 Results",
     "Armanino Foods of Distinction , Inc .: Armanino Foods Reports Record Second Quarter 2026 Net Sales",
-    "Air Canada Reports Second Quarter 2026 Financial Results"
+    "Tecogen , Inc .: Tecogen Reports Second Quarter 2026 Financial Results"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"2분기 실적 발표\",\n   \"one_liner\": \"여러 기업이 2분기 실적을 발표했어요\",\n   \"why_now\": \"실적 발표로 기업의 최근 상황을 알 수 있어요\",\n   \"impact_line\": \"주식 투자자에게 중요한 소식이에요\",\n   \"details\": [\n      \"Peraso Inc.가 2분기 실적을 발표했어요\",\n      \"The Eastern Company도 2분기 실적을 발표했어요\",\n      \"Peyto와 Armanino Foods, Tecogen도 2분기 실적을 발표했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"기업의 실적이 좋으면 주가가 오를 수 있어요!\",\n      \"실적이 나쁘면 주가가 내릴 수도 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Peraso Inc .: Peraso…",
-   "one_liner": "Peraso Inc .: Peraso Announces Second Quarter…",
-   "why_now": null,
+   "title": "2분기 실적 발표",
+   "one_liner": "여러 기업이 2분기 실적을 발표했어요",
+   "why_now": "실적 발표로 기업의 최근 상황을 알 수 있어요",
    "details": [
-    "Peraso Inc .: Peraso Announces Second Quarter 2026 Results",
-    "The Eastern Company Reports Second Quarter 2026 Results",
-    "Peyto Reports Second Quarter 2026 Results"
+    "Peraso Inc.가 2분기 실적을 발표했어요",
+    "The Eastern Company도 2분기 실적을 발표했어요",
+    "Peyto와 Armanino Foods, Tecogen도 2분기 실적을 발표했어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "기업의 실적이 좋으면 주가가 오를 수 있어요!",
+    "실적이 나쁘면 주가가 내릴 수도 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "5f9c635f8b8ed3adcd7101d3e52b6e2bae18df02"
+  "fact_hash": "b2c92f14ecf60b3a0895ae484c0175af2a8ac827"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

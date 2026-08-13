@@ -867,42 +867,43 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-12T15:27:01.679275+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-13T00:05:09.921725+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "Trump says US will  keep  control of the Strait of Hormuz",
     "Oyetola Behind Freezing of Osun Account  Adeleke Alleges",
     "I Introduced State Policing in Senate  Adeleke",
-    "Calgary police arrest eight people in connection to organized crime",
-    "Reporter Settles Lawsuit For $850K",
-    "Five memorial plaques stolen from The Hangar Flight Museum"
+    "Trump Says US Has Total Control of Strait of Hormuz",
+    "AP News Summary at 2 : 33 p . m . EDT"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"호르무즈 해협\",\n   \"one_liner\": \"트럼프 대통령이 미국이 호르무즈 해협을 통제할 것이라고 했어요\",\n   \"why_now\": \"호르무즈 해협은 중요한 유전이 있는 지역이에요\",\n   \"impact_line\": \"유가가 영향을 받을 수 있어요\",\n   \"details\": [\n       \"트럼프 대통령이 미국이 호르무즈 해협을 통제할 것이라고 말했어요\",\n       \"호르무즈 해협은 중동의 유전을 통해 많은 유류가 운송되는 지역이에요\",\n       \"해협의 통제권은 글로벌 에너지 시장에 큰 영향을 미칠 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"유가가 오를 수 있어요, 그래서 주유비가 증가할 수도 있어요!\",\n       \"글로벌 경제에 영향을 미칠 수 있어요, 그래서 물가가 상승할 수도 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Oyetola Behind…",
-   "one_liner": "Oyetola Behind Freezing of Osun Account  Adeleke…",
-   "why_now": null,
+   "title": "호르무즈 해협",
+   "one_liner": "트럼프 대통령이 미국이 호르무즈 해협을 통제할 것이라고 했어요",
+   "why_now": "호르무즈 해협은 중요한 유전이 있는 지역이에요",
    "details": [
-    "Oyetola Behind Freezing of Osun Account  Adeleke Alleges",
-    "I Introduced State Policing in Senate  Adeleke",
-    "Calgary police arrest eight people in connection to organized crime"
+    "트럼프 대통령이 미국이 호르무즈 해협을 통제할 것이라고 말했어요",
+    "호르무즈 해협은 중동의 유전을 통해 많은 유류가 운송되는 지역이에요",
+    "해협의 통제권은 글로벌 에너지 시장에 큰 영향을 미칠 수 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "유가가 오를 수 있어요, 그래서 주유비가 증가할 수도 있어요!",
+    "글로벌 경제에 영향을 미칠 수 있어요, 그래서 물가가 상승할 수도 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "321ef42613aed4d1f27e3526737500f197285464"
+  "fact_hash": "178fe8af56ae4ae0853f6716f1c687d571aa6106"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

@@ -69,7 +69,49 @@
    "at": "2026-08-12T15:30:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-13T00:04:37.177938+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "S & P 500 opens higher as Nvidia rallies on AI infrastructure deal",
+    "Nvidia found a new way to keep the AI boom funded : your retirement money",
+    "Nvidia $70 billion bet on OpenAI , Anthropic , and others could pay off big for shareholders"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"Nvidia 주가 상승\",\n   \"one_liner\": \"인공지능 관련 사업으로 Nvidia가 주가가 올랐어요\",\n   \"why_now\": \"인공지능 기술이 발전하면서 관련 기업의 가치가 높아지고 있어요\",\n   \"impact_line\": \"투자자들의 자산 가치가 증가할 수 있어요\",\n   \"details\": [\n       \"Nvidia가 인공지능 인프라 사업을 통해 주가가 상승했어요\",\n       \"Nvidia의 인공지능 관련 투자가 대규모로 이루어졌어요\",\n       \"Nvidia의 주가 상승이 투자자들에게 긍정적 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"인공지능 기술의 발전이 관련 산업의 성장에 기여할 수 있어요!\",\n       \"투자자들의 자산 가치가 증가하면서 소비가 늘어날 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [700.0]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "Nvidia 주가 상승",
+   "one_liner": "인공지능 관련 사업으로 Nvidia가 주가가 올랐어요",
+   "why_now": "인공지능 기술이 발전하면서 관련 기업의 가치가 높아지고 있어요",
+   "details": [
+    "Nvidia가 인공지능 인프라 사업을 통해 주가가 상승했어요",
+    "Nvidia의 인공지능 관련 투자가 대규모로 이루어졌어요",
+    "Nvidia의 주가 상승이 투자자들에게 긍정적 영향을 줄 수 있어요"
+   ],
+   "effects": [
+    "인공지능 기술의 발전이 관련 산업의 성장에 기여할 수 있어요!",
+    "투자자들의 자산 가치가 증가하면서 소비가 늘어날 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "1dd481628ea21ee535b146912f60671f6adaed60"
+ },
  "review": null,
  "glossary": [],
  "related": [

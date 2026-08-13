@@ -254,9 +254,51 @@
    "at": "2026-08-11T22:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
- "glossary": [],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-13T00:11:21.307049+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "US stocks mostly up after data shows slightly lower inflation in July",
+    "U . S . stocks end divided as CPI reading comes in as expected"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US stocks mostly up…",
+   "one_liner": "US stocks mostly up after data shows slightly…",
+   "why_now": null,
+   "details": [
+    "US stocks mostly up after data shows slightly lower inflation in July",
+    "U . S . stocks end divided as CPI reading comes in as expected"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "b4449b9d08bcb98759e7d6950f4211ec0e8be029"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-13T00:11:21.306946+00:00"
+ },
+ "glossary": [
+  {
+   "term": "CPI",
+   "easy": "물가가 얼마나 올랐는지 보여주는 대표 성적표예요.",
+   "example": "높으면 생활비 부담이 커진 거예요."
+  }
+ ],
  "related": [
   {
    "id": "ccc137270dbb9d742",
