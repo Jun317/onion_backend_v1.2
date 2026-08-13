@@ -816,47 +816,46 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-12T13:54:55.107030+00:00",
+  "model": "template",
+  "created_at": "2026-08-13T05:20:32.223234+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
     "Canada Goose Review : Testing summer gear in Haida Gwaii , BC .",
-    "According to CAA Manitoba survey , high gas prices changing Summer vacation plans - PembinaValleyOnline . com - Local news , Weather , Sports , Free Classifieds and Business Listings for the Pembina Valley , Manitoba",
     "SpaceX ( SPCX ) and Northrop Grumman ( NOC ) Clear Golden Dome Test : Who Has More to Gain ?",
-    "From Forest Residuals to Hydrogen and Compute : LCH2 Advances a 150 - Acre Washington Energy Campus",
-    "When we drill , we spill : Coastal leaders call Trump administration coastal agency review unprecedented"
+    "According to CAA Manitoba survey , high gas prices changing Summer vacation plans - PembinaValleyOnline . com - Local news , Weather , Sports , Free Classifieds and Business Listings for the Pembina Valley , Manitoba",
+    "Prediction : This Storage Stock Could Be a Surprising AI Winner",
+    "Morenoite  balance sheet  on Greece Syriza : a cover for popular frontism in Argentina"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"여행 계획 변경\",\n   \"one_liner\": \"캐나다에서 가솔린 가격이 높아지면서 여름 휴가 계획이 바뀌고 있어요.\",\n   \"why_now\": \"가솔린 값이 오르면 여행 비용이 늘어나서 사람들이 계획을 변경할 수 있어요.\",\n   \"impact_line\": \"여행 비용이 더 많이 들 수 있어요.\",\n   \"details\": [\n      \"캐나다 매니토바에서 가솔린 가격이 높아져서 여름 휴가 계획이 바뀌고 있어요.\",\n      \"여행 계획을 변경하는 이유는 주유 비용이 많이 들기 때문이에요.\",\n      \"여행 계획을 변경하는 사람들은 더 저렴한 여행지나 날짜를 선택할 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"여행 비용이 증가하면 소비자들이 다른 곳에 돈을 쓸 수 있는 기회가 줄어들 수 있어요!\",\n      \"가솔린 가격이 높아지면 여행 산업이 어려워질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "여행 계획 변경",
-   "one_liner": "캐나다에서 가솔린 가격이 높아지면서 여름 휴가 계획이 바뀌고 있어요.",
-   "why_now": "가솔린 값이 오르면 여행 비용이 늘어나서 사람들이 계획을 변경할 수 있어요.",
+   "title": "Canada Goose Review…",
+   "one_liner": "Canada Goose Review : Testing summer gear in…",
+   "why_now": null,
    "details": [
-    "캐나다 매니토바에서 가솔린 가격이 높아져서 여름 휴가 계획이 바뀌고 있어요.",
-    "여행 계획을 변경하는 이유는 주유 비용이 많이 들기 때문이에요.",
-    "여행 계획을 변경하는 사람들은 더 저렴한 여행지나 날짜를 선택할 수 있어요."
+    "Canada Goose Review : Testing summer gear in Haida Gwaii , BC .",
+    "SpaceX ( SPCX ) and Northrop Grumman ( NOC ) Clear Golden Dome Test : Who Has More to Gain ?",
+    "According to CAA Manitoba survey , high gas prices changing Summer vacation plans - PembinaValleyOnline . com - Local news , Weather , Sports , Free Classifieds and Business Listings for the Pembina Valley , Manitoba"
    ],
-   "effects": [
-    "여행 비용이 증가하면 소비자들이 다른 곳에 돈을 쓸 수 있는 기회가 줄어들 수 있어요!",
-    "가솔린 가격이 높아지면 여행 산업이 어려워질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "35642c124cd7f76765b375e37508c143b00c25df"
+  "fact_hash": "159d0ad5f6c45ce9e3b412e11d77a7eafbdf13f1"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-12T10:44:27.910446+00:00"
+  "at": "2026-08-13T05:20:32.223118+00:00"
  },
  "glossary": [],
  "related": [

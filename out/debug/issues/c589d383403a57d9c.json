@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-12T12:05:31.392395+00:00",
+  "model": "template",
+  "created_at": "2026-08-13T05:20:50.663461+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -877,38 +877,36 @@
     "ACN : Priced Like A Decline , Paying Like A Machine",
     "AICC Opposes Latest Containerboard Price Increase",
     "Premiums rising at double inflation rate , insurer says",
-    "Taiex ends higher but turnover capped ahead of U . S . inflation data"
+    "Cryptos Slip Amidst In - line CPI"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"물가\",\n   \"one_liner\": \"물가가 오르고 있어요.\",\n   \"why_now\": \"물가가 오르면 물건을 사는 데 더 많은 돈이 필요해져요.\",\n   \"impact_line\": \"장바구니 비용이 늘 수 있어요\",\n   \"details\": [\n       \"물가가 두 배 이상 오르고 있어요.\",\n       \"보험료가 물가에 비해 더 빠르게 오르고 있어요.\",\n       \"컨테이너 가격이 오르는 걸 반대하는 목소리가 있어요.\",\n       \"미국의 물가 데이터가 곧 나올 예정이어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"물건을 사는 데 더 많은 돈이 들 수 있어요!\",\n       \"생활비가 부담이 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "물가",
-   "one_liner": "물가가 오르고 있어요.",
-   "why_now": "물가가 오르면 물건을 사는 데 더 많은 돈이 필요해져요.",
+   "title": "While Rivals Cut…",
+   "one_liner": "While Rivals Cut Fees , IHG Takes a Different…",
+   "why_now": null,
    "details": [
-    "물가가 두 배 이상 오르고 있어요.",
-    "보험료가 물가에 비해 더 빠르게 오르고 있어요.",
-    "컨테이너 가격이 오르는 걸 반대하는 목소리가 있어요.",
-    "미국의 물가 데이터가 곧 나올 예정이어요."
+    "While Rivals Cut Fees , IHG Takes a Different Route on Owner Economics",
+    "ACN : Priced Like A Decline , Paying Like A Machine",
+    "AICC Opposes Latest Containerboard Price Increase"
    ],
-   "effects": [
-    "물건을 사는 데 더 많은 돈이 들 수 있어요!",
-    "생활비가 부담이 될 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "wti"
   },
-  "fact_hash": "9eac4291131f69ac68a21388ef9abe0b1e1eb4ca"
+  "fact_hash": "1be0b7c4f92e13f10208ddb192926430465da3da"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-12T08:49:16.914294+00:00"
+  "at": "2026-08-13T05:20:50.663399+00:00"
  },
  "glossary": [],
  "related": [

@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-12T14:03:17.750415+00:00",
+  "created_at": "2026-08-13T05:15:08.863929+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,12 +881,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기업 실적 발표\",\n   \"one_liner\": \"여러 기업의 실적이 나왔어요\",\n   \"why_now\": \"실적이 좋으면 주가가 오를 수 있어요\",\n   \"impact_line\": \"주식 투자에 참고할 수 있어요\",\n   \"details\": [\n       \"여러 기업의 실적 발표가 예상돼요\",\n       \"실적이 좋은 기업의 주가는 오를 수 있어요\",\n       \"투자자들은 실적을 참고해 주식을 고를 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"실적이 좋은 기업의 주가는 오를 수 있어요!\",\n       \"투자자들은 실적을 참고해 주식을 고를 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "effects 가 details 반복 (새 정보 없음)"
     ]
    }
   ],
@@ -905,8 +911,8 @@
   "fact_hash": "2694b3304d4ad9e38a4ebd7d56379bd4eabceb0f"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-12T14:03:17.750316+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"effects 가 details 반복 (새 정보 없음)\"]}]}",
+  "at": "2026-08-13T05:15:08.863766+00:00"
  },
  "glossary": [],
  "related": [
