@@ -78,10 +78,28 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-13T08:51:05.836668+00:00",
+  "created_at": "2026-08-13T12:09:28.132347+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
+    {
+     "entity": "메타랩스",
+     "metric": "매출액",
+     "value": 303.7,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "메타랩스",
+     "metric": "영업이익",
+     "value": 5.0,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
     {
      "entity": "메타케어",
      "metric": "매출액",
@@ -106,14 +124,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"메타케어 실적 발표\",\n  \"one_liner\": \"메타케어가 2026년 1분기에 매출 101.2억원, 영업이익 5.8억원을 기록했어요.\",\n  \"why_now\": \"기업의 실적은 회사의 성장성과 수익성을 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"메타케어의 실적 발표는 관련 산업의 동향을 파악하는 데 도움이 될 수 있어요.\",\n  \"details\": [\n    \"메타케어의 2026년 1분기 매출액은 101.2억원이에요.\",\n    \"같은 기간 영업이익은 5.8억원을 기록했어요.\",\n    \"이 정보는 금융감독원 전자공시시스템(DART)에 공시되었어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"메타케어의 실적이 좋으면 관련 기업들의 주가에도 긍정적인 영향을 줄 수 있어요!\",\n    \"반대로 실적이 예상보다 좋지 않으면 관련 산업 전반에 대한 투자 심리가 위축될 수 있어요.\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"매출액\",\n      \"easy\": \"회사가 상품이나 서비스를 팔아 벌어들인 돈이에요.\",\n      \"example\": \"이번 달 매출액이 지난달보다 늘었어요.\"\n    },\n    {\n      \"term\": \"영업이익\",\n      \"easy\": \"회사가 상품이나 서비스를 팔아 얻은 이익에서, 상품을 만들거나 서비스를 제공하는 데 든 비용을 뺀 돈이에요.\",\n      \"example\": \"영업이익이 늘면 회사가 더 많은 돈을 벌었다는 뜻이에요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -122,21 +134,23 @@
    }
   ],
   "output": {
-   "title": "메타케어 매출액 101.2억원",
-   "one_liner": "메타케어 매출액 101.2억원으로 발표됐어요",
+   "title": "메타랩스 매출액 303.7억원",
+   "one_liner": "메타랩스 매출액 303.7억원으로 발표됐어요",
    "why_now": null,
    "details": [
+    "메타랩스 매출액: 303.7억원",
+    "메타랩스 영업이익: 5.0억원",
     "메타케어 매출액: 101.2억원",
     "메타케어 영업이익: 5.8억원"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "9ca975de01073f8030d3c71dd5dea47e8afffdd5"
+  "fact_hash": "22d58d6a3899c37e03e3847ee2581d1e45ed23b1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-13T08:51:05.836564+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-13T12:09:28.132285+00:00"
  },
  "glossary": [
   {

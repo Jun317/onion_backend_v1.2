@@ -2,16 +2,36 @@
  "id": "cd873103a0a41f748",
  "title": "Small business optimism rebounds in July , led by stronger hiring plans",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 45,
+ "seen_sources": 3,
+ "importance": 55,
  "created_at": "2026-08-11T23:09:25.583525+00:00",
- "last_update": "2026-08-12T21:09:51.083257+00:00",
+ "last_update": "2026-08-13T12:06:00.905922+00:00",
  "members": [
+  {
+   "id": "e26f026dc822cc7ea9fb81513fe923120881b8be",
+   "source": "moneycontrol.com",
+   "tier": "wire",
+   "url": "https://www.moneycontrol.com/news/india/edible-oil-imports-hit-10-month-high-in-july-on-festival-demand-14004652.html",
+   "title": "Edible oil imports hit 10 - month high in July on festival demand",
+   "published_at": "2026-08-13T11:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8708
+  },
+  {
+   "id": "679d24370fbff5d0c936800f41669c12b5026054",
+   "source": "nltimes.nl",
+   "tier": "wire",
+   "url": "https://nltimes.nl/2026/08/13/big-funds-well-new-pension-system-expect-modest-pension-increase-next-year",
+   "title": "Big funds doing well on new pension system ; Expect modest pension increase next year",
+   "published_at": "2026-08-13T11:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8644
+  },
   {
    "id": "593c4b7a986bd60ab02941189b77eed298e6c654",
    "source": "fortune.com",
@@ -20,7 +40,7 @@
    "title": "The majority of U . S . employers say they plan to increase hiring this year these are the top roles",
    "published_at": "2026-08-12T19:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8828
+   "sim_to_centroid": 0.8939
   },
   {
    "id": "951b7408838b8d77bdbf213b49101f5607d162b5",
@@ -30,7 +50,7 @@
    "title": "Small business optimism rebounds in July , led by stronger hiring plans",
    "published_at": "2026-08-11T22:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9986
+   "sim_to_centroid": 0.9935
   },
   {
    "id": "6c4c54918d3eb0d17feefbca9b24ad26df1a15e9",
@@ -40,11 +60,25 @@
    "title": "Small business optimism rebounds in July , led by stronger hiring plans",
    "published_at": "2026-08-11T22:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9986
+   "sim_to_centroid": 0.9935
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Edible oil imports hit 10 - month high in July on festival demand",
+   "source": "moneycontrol.com",
+   "url": "https://www.moneycontrol.com/news/india/edible-oil-imports-hit-10-month-high-in-july-on-festival-demand-14004652.html",
+   "at": "2026-08-13T11:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Big funds doing well on new pension system ; Expect modest pension increase next year",
+   "source": "nltimes.nl",
+   "url": "https://nltimes.nl/2026/08/13/big-funds-well-new-pension-system-expect-modest-pension-increase-next-year",
+   "at": "2026-08-13T11:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "The majority of U . S . employers say they plan to increase hiring this year these are the top roles",
@@ -67,8 +101,46 @@
    "at": "2026-08-11T22:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-13T12:10:23.522232+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Edible oil imports hit 10 - month high in July on festival demand",
+    "Big funds doing well on new pension system ; Expect modest pension increase next year",
+    "The majority of U . S . employers say they plan to increase hiring this year these are the top roles"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Edible oil imports…",
+   "one_liner": "Edible oil imports hit 10 - month high in July…",
+   "why_now": null,
+   "details": [
+    "Edible oil imports hit 10 - month high in July on festival demand",
+    "Big funds doing well on new pension system ; Expect modest pension increase next year",
+    "The majority of U . S . employers say they plan to increase hiring this year these are the top roles"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "7c04b428980f729da2f06dbd6b2dfb0539f65048"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-13T12:10:23.522170+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -90,14 +162,14 @@
    "shared": []
   },
   {
-   "id": "cd94ef5914bde663b",
-   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
+   "id": "c5e4bc7852b3b3a52",
+   "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "cd9e738c59cd0da89",
-   "title": "Empress Reports 2026 Second Quarter Financial Results",
+   "id": "cd94ef5914bde663b",
+   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
    "category": "EARNINGS",
    "shared": []
   }

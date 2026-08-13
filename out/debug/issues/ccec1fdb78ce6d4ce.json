@@ -2,18 +2,58 @@
  "id": "ccec1fdb78ce6d4ce",
  "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
  "category": "RATE",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "ECB"
  ],
- "seen_sources": 1,
- "importance": 135,
+ "seen_sources": 2,
+ "importance": 140,
  "created_at": "2026-08-13T10:34:09.528856+00:00",
- "last_update": "2026-08-13T10:34:09.528856+00:00",
+ "last_update": "2026-08-13T12:06:00.905947+00:00",
  "members": [
+  {
+   "id": "149c04cd92555adc0fa173a39cfb0d72f9d8c1fb",
+   "source": "parisguardian.com",
+   "tier": "wire",
+   "url": "http://www.parisguardian.com/news/279237682/ecb-sees-no-grounds-to-block-unicredit-commerzbank-deal",
+   "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
+   "published_at": "2026-08-13T11:30:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.9991
+  },
+  {
+   "id": "e34cbe61b19c8d9c0e0a2035441d12a1ce2be0af",
+   "source": "en.shafaqna.com",
+   "tier": "wire",
+   "url": "https://en.shafaqna.com/470632/ecb-to-raise-interest-rates/",
+   "title": "ECB to raise interest rates – Shafaqna English | International Shia News & Fatwas",
+   "published_at": "2026-08-13T11:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8474
+  },
+  {
+   "id": "eff835359a784414e147f77d96426a435a88a249",
+   "source": "stlouisstar.com",
+   "tier": "wire",
+   "url": "http://www.stlouisstar.com/news/279237682/ecb-sees-no-grounds-to-block-unicredit-commerzbank-deal",
+   "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
+   "published_at": "2026-08-13T11:15:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.9991
+  },
+  {
+   "id": "f96f16cb6b6860dee37c79e9dfb51b13cc939809",
+   "source": "russiaherald.com",
+   "tier": "wire",
+   "url": "http://www.russiaherald.com/news/279237682/ecb-sees-no-grounds-to-block-unicredit-commerzbank-deal",
+   "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
+   "published_at": "2026-08-13T11:15:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.9991
+  },
   {
    "id": "ac784f11a5480c5d2cd7be8ede7d11aef43a746f",
    "source": "taiwansun.com",
@@ -22,7 +62,7 @@
    "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
    "published_at": "2026-08-13T08:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9991
   },
   {
    "id": "90848141664a03487cc45d5320957d34502723ad",
@@ -32,11 +72,39 @@
    "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
    "published_at": "2026-08-13T08:45:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9991
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
+   "source": "parisguardian.com",
+   "url": "http://www.parisguardian.com/news/279237682/ecb-sees-no-grounds-to-block-unicredit-commerzbank-deal",
+   "at": "2026-08-13T11:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "ECB to raise interest rates – Shafaqna English | International Shia News & Fatwas",
+   "source": "en.shafaqna.com",
+   "url": "https://en.shafaqna.com/470632/ecb-to-raise-interest-rates/",
+   "at": "2026-08-13T11:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
+   "source": "stlouisstar.com",
+   "url": "http://www.stlouisstar.com/news/279237682/ecb-sees-no-grounds-to-block-unicredit-commerzbank-deal",
+   "at": "2026-08-13T11:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
+   "source": "russiaherald.com",
+   "url": "http://www.russiaherald.com/news/279237682/ecb-sees-no-grounds-to-block-unicredit-commerzbank-deal",
+   "at": "2026-08-13T11:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
@@ -52,8 +120,52 @@
    "at": "2026-08-13T08:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-13T12:06:03.906988+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [],
+   "headlines": [
+    "ECB to raise interest rates – Shafaqna English | International Shia News & Fatwas",
+    "ECB sees no grounds to block UniCredit - Commerzbank deal"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n\"title\": \"유럽중앙은행 금리 인상\",\n\"one_liner\": \"유럽중앙은행이 금리를 올릴 것으로 보입니다.\",\n\"why_now\": \"금리가 오르면 돈을 빌리는 비용이 늘어나 경제 활동이 위축될 수 있습니다.\",\n\"impact_line\": \"유럽 관련 상품의 가격이 오를 수 있습니다.\",\n\"details\": [],\n\"visual_type\": \"none\",\n\"effects\": [\n\"유럽 지역의 대출 이자 부담이 커질 수 있습니다!\",\n\"기업들의 투자 심리가 위축될 수 있습니다!\"\n],\n\"glossary\": [\n{\n\"term\": \"유럽중앙은행\",\n\"easy\": \"유럽 연합 회원국들의 통화 정책을 담당하는 중앙은행입니다.\",\n\"example\": \"유럽중앙은행이 금리를 올리면 유럽 내 대출 이자가 오를 수 있습니다.\"\n}\n],\n\"impact_line\": \"유럽 관련 상품의 가격이 오를 수 있습니다.\"\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 해요체 아님",
+     "why_now 어요체 아님",
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "ECB to raise…",
+   "one_liner": "ECB to raise interest rates – Shafaqna English |…",
+   "why_now": null,
+   "details": [
+    "ECB to raise interest rates – Shafaqna English | International Shia News & Fatwas",
+    "ECB sees no grounds to block UniCredit - Commerzbank deal"
+   ],
+   "effects": [],
+   "visual_type": "kr_base_rate"
+  },
+  "fact_hash": "a412f45b17f967d502b666e2fd4758401661f595"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 해요체 아님\", \"why_now 어요체 아님\", \"details 3문장 미만\"]}]}",
+  "at": "2026-08-13T12:06:03.906826+00:00"
+ },
  "glossary": [],
  "related": [
   {

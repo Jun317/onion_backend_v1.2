@@ -2,16 +2,26 @@
  "id": "c344cdcdf6679a4f3",
  "title": "Texas cuts child care subsidy program . Here what that means .",
  "category": "POLICY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 70,
+ "seen_sources": 2,
+ "importance": 80,
  "created_at": "2026-08-11T23:09:25.584618+00:00",
- "last_update": "2026-08-11T23:09:25.584618+00:00",
+ "last_update": "2026-08-13T12:06:00.905865+00:00",
  "members": [
+  {
+   "id": "be82d671b40eff702f29fb1d1294f717199f883a",
+   "source": "riotimesonline.com",
+   "tier": "wire",
+   "url": "https://www.riotimesonline.com/germany-fuel-subsidy-inflation/",
+   "title": "How Ending a Fuel Subsidy Turns Into Inflation",
+   "published_at": "2026-08-13T11:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8676
+  },
   {
    "id": "7f680d3f126288940abe6af36346fddc3e4c4dcb",
    "source": "ksat.com",
@@ -20,7 +30,7 @@
    "title": "Texas cuts child care subsidy program . Here what that means .",
    "published_at": "2026-08-11T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9985
   },
   {
    "id": "d086b685087ef267de0ededb6a7f44533d02a87d",
@@ -30,11 +40,18 @@
    "title": "Texas cuts child care subsidy program . Here what that means .",
    "published_at": "2026-08-11T22:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9985
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "How Ending a Fuel Subsidy Turns Into Inflation",
+   "source": "riotimesonline.com",
+   "url": "https://www.riotimesonline.com/germany-fuel-subsidy-inflation/",
+   "at": "2026-08-13T11:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Texas cuts child care subsidy program . Here what that means .",
@@ -50,8 +67,44 @@
    "at": "2026-08-11T22:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-13T12:08:51.182811+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "How Ending a Fuel Subsidy Turns Into Inflation",
+    "Texas cuts child care subsidy program . Here what that means ."
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "How Ending a Fuel…",
+   "one_liner": "How Ending a Fuel Subsidy Turns Into Inflation",
+   "why_now": null,
+   "details": [
+    "How Ending a Fuel Subsidy Turns Into Inflation",
+    "Texas cuts child care subsidy program . Here what that means ."
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "6a3fc8d8cb2fd5831c4c1da7fb224f7e6b19f985"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-13T12:08:51.182707+00:00"
+ },
  "glossary": [],
  "related": [
   {

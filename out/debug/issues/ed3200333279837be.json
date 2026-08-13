@@ -201,10 +201,46 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-13T08:50:10.539741+00:00",
+  "created_at": "2026-08-13T12:09:09.654720+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
+    {
+     "entity": "HLB생명과학",
+     "metric": "매출액",
+     "value": 152.0,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "HLB생명과학",
+     "metric": "영업이익",
+     "value": -64.5,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "HLB테라퓨틱스",
+     "metric": "매출액",
+     "value": 130.5,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "HLB테라퓨틱스",
+     "metric": "영업이익",
+     "value": -32.4,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
     {
      "entity": "HLB제약",
      "metric": "매출액",
@@ -240,42 +276,6 @@
      "prev": null,
      "period": "2026-1Q",
      "source": "DART"
-    },
-    {
-     "entity": "HLB이노베이션",
-     "metric": "매출액",
-     "value": 94.5,
-     "unit": "억원",
-     "prev": null,
-     "period": "2026-1Q",
-     "source": "DART"
-    },
-    {
-     "entity": "HLB이노베이션",
-     "metric": "영업이익",
-     "value": -103.8,
-     "unit": "억원",
-     "prev": null,
-     "period": "2026-1Q",
-     "source": "DART"
-    },
-    {
-     "entity": "HLB글로벌",
-     "metric": "매출액",
-     "value": 266.7,
-     "unit": "억원",
-     "prev": null,
-     "period": "2026-1Q",
-     "source": "DART"
-    },
-    {
-     "entity": "HLB글로벌",
-     "metric": "영업이익",
-     "value": -25.1,
-     "unit": "억원",
-     "prev": null,
-     "period": "2026-1Q",
-     "source": "DART"
     }
    ],
    "headlines": [
@@ -293,23 +293,23 @@
    }
   ],
   "output": {
-   "title": "HLB제약 매출액 656.5억원",
-   "one_liner": "HLB제약 매출액 656.5억원으로 발표됐어요",
+   "title": "HLB생명과학 매출액 152.0억원",
+   "one_liner": "HLB생명과학 매출액 152.0억원으로 발표됐어요",
    "why_now": null,
    "details": [
-    "HLB제약 매출액: 656.5억원",
-    "HLB제약 영업이익: 10.3억원",
-    "HLB제넥스 매출액: 116.7억원",
-    "HLB제넥스 영업이익: 10.0억원"
+    "HLB생명과학 매출액: 152.0억원",
+    "HLB생명과학 영업이익: -64.5억원",
+    "HLB테라퓨틱스 매출액: 130.5억원",
+    "HLB테라퓨틱스 영업이익: -32.4억원"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "3235a94227c17fad9d3ee221ab3b0bb6d2abde86"
+  "fact_hash": "5b0ff8e21b82ae4d03afa1a8ef431779054da1e8"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-13T08:50:10.539611+00:00"
+  "at": "2026-08-13T12:09:09.654650+00:00"
  },
  "glossary": [
   {
@@ -338,14 +338,14 @@
    "shared": []
   },
   {
-   "id": "cd94ef5914bde663b",
-   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
+   "id": "c5e4bc7852b3b3a52",
+   "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "cd9e738c59cd0da89",
-   "title": "Empress Reports 2026 Second Quarter Financial Results",
+   "id": "cd94ef5914bde663b",
+   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
    "category": "EARNINGS",
    "shared": []
   }
