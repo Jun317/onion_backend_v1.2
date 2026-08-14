@@ -2,17 +2,17 @@
  "id": "c7266c151b435f02a",
  "title": "Stock Market Today , Aug . 14 : Rally Stalls on Disappointing Consumer Data , Broadcom Falls 6 %",
  "category": "MARKET",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "AVGO"
  ],
- "seen_sources": 1,
- "importance": 85,
+ "seen_sources": 2,
+ "importance": 90,
  "created_at": "2026-08-14T22:46:12.667641+00:00",
- "last_update": "2026-08-14T22:46:12.667641+00:00",
+ "last_update": "2026-08-14T23:44:06.104507+00:00",
  "members": [
   {
    "id": "b6c3de4b600e3ad8ea22e9b2d3421c9a7968f931",
@@ -22,7 +22,7 @@
    "title": "Stock Market Today , Aug . 14 : Rally Stalls on Disappointing Consumer Data , Broadcom Falls 6 %",
    "published_at": "2026-08-14T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9985
   },
   {
    "id": "5f321beb7da15543529d91212aeb5e55289243cb",
@@ -32,7 +32,17 @@
    "title": "Stock Market Today , Aug . 14 : Rally Stalls on Disappointing Consumer Data , Broadcom Falls 6 %",
    "published_at": "2026-08-14T22:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9985
+  },
+  {
+   "id": "885b6004a967c6fddff1fa7180cfc2caba2b8583",
+   "source": "tickerreport.com",
+   "tier": "wire",
+   "url": "https://www.tickerreport.com/banking-finance/13543589/broadcom-nasdaqavgo-shares-down-5-9-heres-why.html",
+   "title": "Broadcom ( NASDAQ : AVGO ) Shares Down 5 . 9 % – Here Why",
+   "published_at": "2026-08-14T21:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8723
   }
  ],
  "anchors": [],
@@ -50,6 +60,13 @@
    "source": "fool.com",
    "url": "https://www.fool.com/coverage/stock-market-today/2026/08/14/stock-market-today-aug-14-stocks-slip-as-consumer-data-disappoints-broadcom-falls-6/?source=iedfolrf0000001",
    "at": "2026-08-14T22:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Broadcom ( NASDAQ : AVGO ) Shares Down 5 . 9 % – Here Why",
+   "source": "tickerreport.com",
+   "url": "https://www.tickerreport.com/banking-finance/13543589/broadcom-nasdaqavgo-shares-down-5-9-heres-why.html",
+   "at": "2026-08-14T21:45:00+00:00"
   }
  ],
  "llm": null,
@@ -59,6 +76,12 @@
   {
    "id": "ccc137270dbb9d742",
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cad425da121baed31",
+   "title": "Nvidia $70 billion bet on OpenAI , Anthropic , and others could pay off big for shareholders",
    "category": "MARKET",
    "shared": []
   },
@@ -77,12 +100,6 @@
   {
    "id": "cd6e96f9df3790928",
    "title": "US economy cools in second quarter despite solid spending",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "cb34f19e1978fa138",
-   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "category": "MARKET",
    "shared": []
   }
