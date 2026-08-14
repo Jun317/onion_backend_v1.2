@@ -2,15 +2,15 @@
  "id": "c0a6a6416ebefafff",
  "title": "The money investors borrow to trade in the U . S . stock market is at an all - time high",
  "category": "MARKET",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 60,
+ "seen_sources": 4,
+ "importance": 75,
  "created_at": "2026-08-14T12:03:19.864668+00:00",
- "last_update": "2026-08-14T12:03:19.864668+00:00",
+ "last_update": "2026-08-14T13:51:00.788386+00:00",
  "members": [
   {
    "id": "29272130e56a3380fa1151923f241d7858434dea",
@@ -20,7 +20,37 @@
    "title": "Tokyo stocks end higher after soft U . S . inflation data",
    "published_at": "2026-08-14T10:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9601
+   "sim_to_centroid": 0.9515
+  },
+  {
+   "id": "cebc129527f9f0a570c32445507c5508ccd0d769",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/news/gold-heads-weekly-loss-investors-055257076.html",
+   "title": "Gold heads for weekly loss as investors unwind inflation - fuelled rally",
+   "published_at": "2026-08-14T10:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8802
+  },
+  {
+   "id": "6fa1603a39a3b5bb3c6f9244c4fba48ea4732a2c",
+   "source": "theshillongtimes.com",
+   "tier": "wire",
+   "url": "https://theshillongtimes.com/2026/08/14/markets-end-mixed-amid-geopolitical-uncertainty/",
+   "title": "Markets end mixed amid geopolitical uncertainty - The Shillong Times",
+   "published_at": "2026-08-14T10:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8871
+  },
+  {
+   "id": "f3eb6c9bc4e22dd42278d0dc442ae2afb47ee536",
+   "source": "kvnf.org",
+   "tier": "wire",
+   "url": "https://www.kvnf.org/2026-08-14/the-money-investors-borrow-to-trade-in-the-u-s-stock-market-is-at-an-all-time-high",
+   "title": "The money investors borrow to trade in the U . S . stock market is at an all - time high",
+   "published_at": "2026-08-14T10:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.963
   },
   {
    "id": "a954dc250ca15d72fd9266851c74eeba7f6f0c11",
@@ -30,7 +60,7 @@
    "title": "The money investors borrow to trade in the U . S . stock market is at an all - time high",
    "published_at": "2026-08-14T10:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9601
+   "sim_to_centroid": 0.963
   }
  ],
  "anchors": [],
@@ -48,10 +78,70 @@
    "source": "wfdd.org",
    "url": "https://www.wfdd.org/economy/2026-08-14/the-money-investors-borrow-to-trade-in-the-u-s-stock-market-is-at-an-all-time-high",
    "at": "2026-08-14T10:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Gold heads for weekly loss as investors unwind inflation - fuelled rally",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/news/gold-heads-weekly-loss-investors-055257076.html",
+   "at": "2026-08-14T10:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Markets end mixed amid geopolitical uncertainty - The Shillong Times",
+   "source": "theshillongtimes.com",
+   "url": "https://theshillongtimes.com/2026/08/14/markets-end-mixed-amid-geopolitical-uncertainty/",
+   "at": "2026-08-14T10:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "The money investors borrow to trade in the U . S . stock market is at an all - time high",
+   "source": "kvnf.org",
+   "url": "https://www.kvnf.org/2026-08-14/the-money-investors-borrow-to-trade-in-the-u-s-stock-market-is-at-an-all-time-high",
+   "at": "2026-08-14T10:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-14T13:53:29.413276+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Tokyo stocks end higher after soft U . S . inflation data",
+    "Gold heads for weekly loss as investors unwind inflation - fuelled rally",
+    "Markets end mixed amid geopolitical uncertainty - The Shillong Times",
+    "The money investors borrow to trade in the U . S . stock market is at an all - time high"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Tokyo stocks end…",
+   "one_liner": "Tokyo stocks end higher after soft U . S .…",
+   "why_now": null,
+   "details": [
+    "Tokyo stocks end higher after soft U . S . inflation data",
+    "Gold heads for weekly loss as investors unwind inflation - fuelled rally",
+    "Markets end mixed amid geopolitical uncertainty - The Shillong Times"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "a613fd51dd7c7619f0e68f940ade5ac3099b98d5"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-14T13:53:29.413165+00:00"
+ },
  "glossary": [],
  "related": [
   {

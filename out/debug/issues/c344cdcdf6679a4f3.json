@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T10:31:16.516229+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-14T13:51:07.458369+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,31 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"텍사스 보육 지원 축소\",\n  \"one_liner\": \"텍사스주가 보육 지원 프로그램을 줄인다고 해요.\",\n  \"why_now\": \"보육 지원이 줄면 아이를 맡기는 데 드는 비용이 늘어날 수 있어요.\",\n  \"impact_line\": \"부모님들의 양육비 부담이 커질 수 있어요.\",\n  \"details\": [\n    \"텍사스주가 보육 지원 프로그램을 축소하기로 결정했어요.\",\n    \"이 결정이 어떤 의미인지 자세히 알려드릴게요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"부모님들의 양육비 부담이 늘어날 수 있어요!\",\n    \"보육 시설 운영에도 어려움이 생길 수 있어요!\"\n  ],\n  \"glossary\": []\n}",
+  "raw_response": "{\n  \"title\": \"미국 텍사스 주의 아동 보육 보조금 축소\",\n   \"one_liner\": \"미국 텍사스 주가 아동 보육 보조금을 줄였어요.\",\n   \"why_now\": \"보육 비용이 줄면 가계 예산에 도움이 될 수 있어요.\",\n   \"impact_line\": \"보육 비용이 부담스러워질 수 있어요.\",\n   \"details\": [\n       \"미국 텍사스 주에서 아동 보육 보조금을 축소했어요.\",\n       \"이 결정으로 보육 비용이 더 부담스러워질 수 있어요.\",\n       \"텍사스 주의 이 결정이 가계 예산에 미치는 영향이 관심사예요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"보육 비용이 더 비싸져서 가계 예산에 부담이 될 수 있어요!\",\n       \"가계가 더 많은 돈을 보육에 쓰게 되어 소비가 줄어들 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Texas cuts child…",
-   "one_liner": "Texas cuts child care subsidy program . Here…",
-   "why_now": null,
+   "title": "미국 텍사스 주의 아동 보육 보조금 축소",
+   "one_liner": "미국 텍사스 주가 아동 보육 보조금을 줄였어요.",
+   "why_now": "보육 비용이 줄면 가계 예산에 도움이 될 수 있어요.",
    "details": [
-    "Texas cuts child care subsidy program . Here what that means .",
-    "American Healthcare REIT ( AHR ) Q2 2026 Earnings Call Transcript",
-    "QYLD 12 % Yield Looks Great . The Long - Term Cost Is Much Higher"
+    "미국 텍사스 주에서 아동 보육 보조금을 축소했어요.",
+    "이 결정으로 보육 비용이 더 부담스러워질 수 있어요.",
+    "텍사스 주의 이 결정이 가계 예산에 미치는 영향이 관심사예요."
    ],
-   "effects": [],
+   "effects": [
+    "보육 비용이 더 비싸져서 가계 예산에 부담이 될 수 있어요!",
+    "가계가 더 많은 돈을 보육에 쓰게 되어 소비가 줄어들 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "40a1be0528086cde29926d6343344c0ea7b29e59"
