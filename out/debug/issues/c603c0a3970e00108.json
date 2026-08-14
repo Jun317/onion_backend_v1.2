@@ -1,0 +1,118 @@
+{
+ "id": "c603c0a3970e00108",
+ "title": "People with more than £12 , 500 savings given urgent HMRC alert",
+ "category": "GEO",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 70,
+ "created_at": "2026-08-14T12:03:19.865005+00:00",
+ "last_update": "2026-08-14T12:03:19.866602+00:00",
+ "members": [
+  {
+   "id": "cc3fccafdebb54a52b9226159cfa6d44aaa2c457",
+   "source": "express.co.uk",
+   "tier": "wire",
+   "url": "https://www.express.co.uk/finance/personalfinance/2239134/people-more-than-12500-savings",
+   "title": "People with more than £12 , 500 savings given urgent HMRC alert",
+   "published_at": "2026-08-14T10:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9856
+  },
+  {
+   "id": "27fccf19b1b6ef7de5aada355896eff6f74a80d9",
+   "source": "dailyrecord.co.uk",
+   "tier": "wire",
+   "url": "https://www.dailyrecord.co.uk/lifestyle/money/savings-warning-people-12-500-37550756",
+   "title": "Savings warning for people with £12 , 500 or more in the bank",
+   "published_at": "2026-08-14T10:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9856
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "People with more than £12 , 500 savings given urgent HMRC alert",
+   "source": "express.co.uk",
+   "url": "https://www.express.co.uk/finance/personalfinance/2239134/people-more-than-12500-savings",
+   "at": "2026-08-14T10:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Savings warning for people with £12 , 500 or more in the bank",
+   "source": "dailyrecord.co.uk",
+   "url": "https://www.dailyrecord.co.uk/lifestyle/money/savings-warning-people-12-500-37550756",
+   "at": "2026-08-14T10:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-14T12:12:43.596059+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "People with more than £12 , 500 savings given urgent HMRC alert",
+    "Savings warning for people with £12 , 500 or more in the bank"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "People with more…",
+   "one_liner": "People with more than £12 , 500 savings given…",
+   "why_now": null,
+   "details": [
+    "People with more than £12 , 500 savings given urgent HMRC alert",
+    "Savings warning for people with £12 , 500 or more in the bank"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "a87ec8e5a31f80e778956bd6222524b32924a60f"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-14T12:12:43.595995+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c98bd778c694ae7cd",
+   "title": "Rain pounds Beijing as typhoon sweeps through China",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "cd7b762c4b0212485",
+   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "c0acdd1f546d084c1",
+   "title": "Oracle Has Drawn Plans for Another Round of Job Cuts This Month",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "c02ea08d4dc90b65d",
+   "title": "Analysis - Bolivia Paz tests fragile coalition with reform push , IMF deal",
+   "category": "GEO",
+   "shared": []
+  }
+ ]
+}

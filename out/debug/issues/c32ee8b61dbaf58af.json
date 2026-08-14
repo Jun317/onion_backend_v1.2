@@ -53,8 +53,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T08:43:28.323656+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-14T12:05:55.032034+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,25 +64,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"마이크로소프트, AI 투자 과도\",\n\"one_liner\": \"마이크로소프트 내부에서 AI에 너무 많은 돈을 쓰고 있다는 내용의 이메일이 나왔어요.\",\n\"why_now\": \"AI 기술 개발 경쟁이 치열해지면서 기업들이 관련 투자를 늘리고 있어요.\",\n\"impact_line\": \"AI 관련 기업들의 주가 변동성이 커질 수 있어요.\",\n\"details\": [\n\"마이크로소프트 내부 이메일에서 AI 투자에 대한 언급이 있었어요.\",\n\"이 이메일은 기술 기업들이 AI에 과도하게 투자하고 있다는 의혹을 뒷받침해요.\",\n\"마이크로소프트 주가는 7월 29일 이후 26% 상승했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"AI 기술 개발 경쟁이 심화되면서 관련 기업들의 비용 부담이 커질 수 있어요!\",\n\"AI 기술 발전 속도가 빨라지면서 새로운 서비스와 제품이 등장할 것으로 예상돼요!\"\n],\n\"glossary\": [\n{\n\"term\": \"AI\",\n\"easy\": \"인공지능으로, 컴퓨터가 사람처럼 생각하고 배울 수 있게 하는 기술이에요.\",\n\"example\": \"요즘 AI 스피커로 음악을 듣거나 날씨를 물어볼 수 있어요.\"\n},\n{\n\"term\": \"과도하게\",\n\"easy\": \"필요한 것보다 지나치게 많은 것을 의미해요.\",\n\"example\": \"과도하게 많은 양의 음식을 먹으면 배탈이 날 수 있어요.\"\n}\n],\n\"impact_line\": \"AI 관련 기업들의 주가 변동성이 커질 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "A Recent Email…",
-   "one_liner": "A Recent Email Within Microsoft Seems to Confirm…",
-   "why_now": null,
+   "title": "마이크로소프트, AI 투자 과도",
+   "one_liner": "마이크로소프트 내부에서 AI에 너무 많은 돈을 쓰고 있다는 내용의 이메일이 나왔어요.",
+   "why_now": "AI 기술 개발 경쟁이 치열해지면서 기업들이 관련 투자를 늘리고 있어요.",
    "details": [
-    "A Recent Email Within Microsoft Seems to Confirm What Many Suspected : Tech Companies Are Overspending on AI",
-    "Up 26 % Since July 29 , Is It Too Late to Buy Microsoft Stock ?"
+    "마이크로소프트 내부 이메일에서 AI 투자에 대한 언급이 있었어요.",
+    "이 이메일은 기술 기업들이 AI에 과도하게 투자하고 있다는 의혹을 뒷받침해요.",
+    "마이크로소프트 주가는 7월 29일 이후 26% 상승했어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "AI 기술 개발 경쟁이 심화되면서 관련 기업들의 비용 부담이 커질 수 있어요!",
+    "AI 기술 발전 속도가 빨라지면서 새로운 서비스와 제품이 등장할 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "d1e051d5cd4809423d6de79e5e1d52baf3fc1e16"
  },
