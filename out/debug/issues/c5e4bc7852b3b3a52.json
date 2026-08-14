@@ -191,8 +191,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T00:06:37.452239+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-14T05:11:59.086442+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -205,26 +205,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"애플 실적\",\n   \"one_liner\": \"애플의 실적이 걱정돼 주가가 떨어졌어요\",\n   \"why_now\": \"애플의 실적이 좋지 않으면 다른 기업에도 영향을 줄 수 있어요\",\n   \"impact_line\": \"애플 제품의 가격이나 품질에 변동이 생길 수 있어요\",\n   \"details\": [\n       \"애플 주가가 떨어졌어요\",\n       \"아이폰 관련 문제가 걱정돼요\",\n       \"애플의 경영진이 바뀔 수 있어요\",\n       \"타사 제품이 애플 제품과 경쟁할 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"애플 제품의 가격이 오를 수 있어요!\",\n       \"다른 기술 기업의 실적에도 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Apple Stock Falls…",
-   "one_liner": "Apple Stock Falls Amid Concerns About iPhone…",
-   "why_now": null,
+   "title": "애플 실적",
+   "one_liner": "애플의 실적이 걱정돼 주가가 떨어졌어요",
+   "why_now": "애플의 실적이 좋지 않으면 다른 기업에도 영향을 줄 수 있어요",
    "details": [
-    "Apple Stock Falls Amid Concerns About iPhone Setback",
-    "Apple CEO Tim Cook Just Passed His Successor a Mess",
-    "Apple downgraded , HPE upgraded : Wall Street top analyst calls"
+    "애플 주가가 떨어졌어요",
+    "아이폰 관련 문제가 걱정돼요",
+    "애플의 경영진이 바뀔 수 있어요",
+    "타사 제품이 애플 제품과 경쟁할 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "애플 제품의 가격이 오를 수 있어요!",
+    "다른 기술 기업의 실적에도 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "d5faf7f1166379300e9809a719513c74f4ab3cc8"
  },

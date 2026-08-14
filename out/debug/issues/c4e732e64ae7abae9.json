@@ -53,8 +53,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T00:13:05.905708+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-14T05:18:58.847803+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -64,25 +64,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"아시아 증시 혼조세\",\n  \"one_liner\": \"아시아 증시가 혼조세를 보이며 엇갈린 흐름을 나타냈어요.\",\n  \"why_now\": \"미국 증시가 오른 뒤 아시아 증시가 이에 영향을 받아 움직이는 경우가 많아요.\",\n  \"impact_line\": \"주식 투자 수익률이 달라질 수 있어요.\",\n  \"details\": [\n    \"한국 증시인 코스피는 4% 이상 상승하며 좋은 흐름을 보였어요.\",\n    \"다른 아시아 증시는 대부분 올랐지만, 상승폭은 달랐어요.\",\n    \"국제 유가도 함께 오르는 모습을 보였어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"국제 유가 상승은 운송비나 관련 제품 가격에 영향을 줄 수 있어요!\",\n    \"증시 흐름에 따라 투자자들의 자산 가치가 달라질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"코스피\",\n      \"easy\": \"한국의 대표적인 주가지수예요.\",\n      \"example\": \"코스피가 오르면 한국 주식 시장 전체가 활기를 띠는 것으로 봐요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Asian stock markets…",
-   "one_liner": "Asian stock markets diverge following Wall…",
-   "why_now": null,
+   "title": "아시아 증시 혼조세",
+   "one_liner": "아시아 증시가 혼조세를 보이며 엇갈린 흐름을 나타냈어요.",
+   "why_now": "미국 증시가 오른 뒤 아시아 증시가 이에 영향을 받아 움직이는 경우가 많아요.",
    "details": [
-    "Asian stock markets diverge following Wall Street rally ; KOSPI outperfo",
-    "Shares are mostly higher in Asia , with Kospi up 4 %, while oil prices gain"
+    "한국 증시인 코스피는 4% 이상 상승하며 좋은 흐름을 보였어요.",
+    "다른 아시아 증시는 대부분 올랐지만, 상승폭은 달랐어요.",
+    "국제 유가도 함께 오르는 모습을 보였어요."
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "국제 유가 상승은 운송비나 관련 제품 가격에 영향을 줄 수 있어요!",
+    "증시 흐름에 따라 투자자들의 자산 가치가 달라질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "6cfcdcdddce55f2418d25d388971f3caec4d465f"
  },
@@ -90,11 +92,23 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-14T00:13:05.905657+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "코스피",
+   "easy": "한국 대표 기업들의 주가를 묶어 보여주는 값이에요.",
+   "example": "오르면 큰 기업 주가가 대체로 올랐다는 뜻이에요."
+  }
+ ],
  "related": [
   {
    "id": "c21fbad53c2afa8f1",
    "title": "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets",
+   "category": "COMMODITY",
+   "shared": []
+  },
+  {
+   "id": "c589d383403a57d9c",
+   "title": "AICC Opposes Latest Containerboard Price Increase",
    "category": "COMMODITY",
    "shared": []
   }
