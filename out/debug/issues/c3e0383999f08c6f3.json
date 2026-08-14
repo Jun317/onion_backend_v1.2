@@ -9,11 +9,41 @@
  "entity_keys": [
   "IRAN"
  ],
- "seen_sources": 32,
+ "seen_sources": 34,
  "importance": 105,
  "created_at": "2026-08-12T21:09:51.092206+00:00",
- "last_update": "2026-08-13T23:09:00.101398+00:00",
+ "last_update": "2026-08-14T03:04:27.880210+00:00",
  "members": [
+  {
+   "id": "4f26c5f3f49cdab86ac24d7bd7f6bcf0aa6586be",
+   "source": "freemalaysiatoday.com",
+   "tier": "wire",
+   "url": "https://www.freemalaysiatoday.com/category/business/2026/08/14/vance-says-low-oil-prices-are-top-us-goal-in-iran-conflict",
+   "title": "Vance says low oil prices are top US goal in Iran conflict",
+   "published_at": "2026-08-14T01:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9064
+  },
+  {
+   "id": "035fbfe638de865fb1da79b097d44282f9394d46",
+   "source": "independent.co.uk",
+   "tier": "wire",
+   "url": "https://www.independent.co.uk/news/world/americas/us-politics/fox-news-fake-quote-ahmad-vahidi-iran-war-b3032889.html",
+   "title": "Fox News airs fake quote from an Iranian general",
+   "published_at": "2026-08-14T01:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8964
+  },
+  {
+   "id": "3035a537bd1687f46b856dbb3f9f8705bb8df6bc",
+   "source": "arabnews.com",
+   "tier": "wire",
+   "url": "https://www.arabnews.com/node/2654601/world",
+   "title": "US says it can keep naval blockade on Iran  indefinitely , vows more economic pressure",
+   "published_at": "2026-08-14T01:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9158
+  },
   {
    "id": "9a55c4d8a08844eeaa3d0c8e6a3debe47c838996",
    "source": "calcuttanews.net",
@@ -479,6 +509,27 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Vance says low oil prices are top US goal in Iran conflict",
+   "source": "freemalaysiatoday.com",
+   "url": "https://www.freemalaysiatoday.com/category/business/2026/08/14/vance-says-low-oil-prices-are-top-us-goal-in-iran-conflict",
+   "at": "2026-08-14T01:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Fox News airs fake quote from an Iranian general",
+   "source": "independent.co.uk",
+   "url": "https://www.independent.co.uk/news/world/americas/us-politics/fox-news-fake-quote-ahmad-vahidi-iran-war-b3032889.html",
+   "at": "2026-08-14T01:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US says it can keep naval blockade on Iran  indefinitely , vows more economic pressure",
+   "source": "arabnews.com",
+   "url": "https://www.arabnews.com/node/2654601/world",
+   "at": "2026-08-14T01:45:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "US can maintain naval blockade on Iran",
    "source": "calcuttanews.net",
    "url": "http://www.calcuttanews.net/news/279240408/us-can-maintain-naval-blockade-on-iran-indefinitely-says-war-secretary-hegseth",
@@ -801,8 +852,8 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-13T13:55:12.377528+00:00",
+  "model": "template",
+  "created_at": "2026-08-14T03:15:13.737893+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -810,40 +861,37 @@
     "New report shows where inflation is headed as Iran War continues",
     "The Iran war risks bringing the G7 fastest - growing economy to a halt",
     "July Inflation Cools as Energy Prices Drop Despite Ongoing Iran War",
-    "World Cup and June hot weather help united kingdom economy withstand Iran war pressures",
-    "Trump claims US controls Iranian money"
+    "Iran updates : Tehran vows to prolong war until Trump is out of office",
+    "World Cup and June hot weather help united kingdom economy withstand Iran war pressures"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"이란 전쟁과 물가\",\n   \"one_liner\": \"이란 전쟁이 계속되면서 물가가 어떻게 될지 새로운 보고서가 나왔어요\",\n   \"why_now\": \"전쟁이 계속되면 물가가 어떻게 변할지 예상할 수 있어요\",\n   \"impact_line\": \"물가가 오르면 생활비가 부담이 될 수 있어요\",\n   \"details\": [\n       \"이란 전쟁으로 물가가 어떻게 변할지 새로운 보고서가 나왔어요\",\n       \"이란 전쟁이 계속되면 세계에서 가장 빠르게 성장하는 경제가 멈출 수 있어요\",\n       \"7월 물가는 에너지 가격이 떨어지면서 낮아졌어요\",\n       \"월드컵과 6월 더운 날씨로 영국 경제가 이란 전쟁의 압력을 견디시겠어요\",\n       \"트럼프는 미국이 이란의 돈을 통제한다고 주장했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"이란 전쟁이 계속되면 물가가 더 오를 수 있어요!\",\n       \"에너지 가격이 떨어지면 물가가 낮아질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "이란 전쟁과 물가",
-   "one_liner": "이란 전쟁이 계속되면서 물가가 어떻게 될지 새로운 보고서가 나왔어요",
-   "why_now": "전쟁이 계속되면 물가가 어떻게 변할지 예상할 수 있어요",
+   "title": "New report shows…",
+   "one_liner": "New report shows where inflation is headed as…",
+   "why_now": null,
    "details": [
-    "이란 전쟁으로 물가가 어떻게 변할지 새로운 보고서가 나왔어요",
-    "이란 전쟁이 계속되면 세계에서 가장 빠르게 성장하는 경제가 멈출 수 있어요",
-    "7월 물가는 에너지 가격이 떨어지면서 낮아졌어요",
-    "월드컵과 6월 더운 날씨로 영국 경제가 이란 전쟁의 압력을 견디시겠어요",
-    "트럼프는 미국이 이란의 돈을 통제한다고 주장했어요"
+    "New report shows where inflation is headed as Iran War continues",
+    "The Iran war risks bringing the G7 fastest - growing economy to a halt",
+    "July Inflation Cools as Energy Prices Drop Despite Ongoing Iran War"
    ],
-   "effects": [
-    "이란 전쟁이 계속되면 물가가 더 오를 수 있어요!",
-    "에너지 가격이 떨어지면 물가가 낮아질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "e2c42d64836d6017f79837520c080c763711d2a1"
+  "fact_hash": "10ff922ee112f74ea76912e1f59f38033e09c03d"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-13T10:45:43.958614+00:00"
+  "at": "2026-08-14T03:15:13.737821+00:00"
  },
  "glossary": [],
  "related": [

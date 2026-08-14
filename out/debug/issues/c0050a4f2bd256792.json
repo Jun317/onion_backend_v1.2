@@ -88,7 +88,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-14T00:04:57.230460+00:00",
+  "created_at": "2026-08-14T03:05:34.852563+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -100,18 +100,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국은행 투자\",\n   \"one_liner\": \"미국은행이 인공지능과 에너지 시설에 2500조 원을 투자해요\",\n   \"why_now\": \"은행이 새로운 기술에 투자하면 더 많은 고객을 끌어올 수 있어요\",\n   \"impact_line\": \"은행 서비스가 더 좋아질 수 있어요\",\n   \"details\": [\n       \"미국은행이 인공지능과 에너지 시설에 큰 돈을 투자해요\",\n       \"이 투자로 은행의 서비스가 더 좋아질 수 있어요\",\n       \"은행이 새로운 기술에 투자하는 이유는 더 많은 고객을 끌어오기 위해서예요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"은행의 투자가 성공하면 더 많은 일자리가 생길 수 있어요!\",\n       \"은행 서비스가 더 좋아져서 고객이 더 편해질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [2500.0]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [2500.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -130,8 +124,8 @@
   "fact_hash": "d34219f1fd98f9f5c667441e7f290ea1fe65a46e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2500.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2500.0]\"]}]}",
-  "at": "2026-08-14T00:04:57.230417+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-14T03:05:34.852459+00:00"
  },
  "glossary": [],
  "related": [
