@@ -632,44 +632,48 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-14T00:05:09.016813+00:00",
+  "model": "template",
+  "created_at": "2026-08-14T08:50:42.643341+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
    "headlines": [
+    "Nirmala Sitharaman meets Indonesian Vice Minister of Finance Juda Agung ; Discusses financial sector ties and local currency transactions",
     "India In Contact With US Over Trade Deal Talks , Says Commerce Secretary",
-    "Nirmala Sitharaman meets Indonesian Vice Minister of Finance Juda Agung ; Discusses financial sector ties and local currency transactions"
+    "Private Market Talks : Manager Selection , Secondaries , And The Power Law With CF Private Equity Mark Hoeing ( Podcast )",
+    "Federal Reserve Board issues enforcement action with former employee of Regions Bank",
+    "Jaguar Mining Delivers Strong Second Quarter 2026 Results Reflecting Increased Production at the Turmalina Mine , Minas Gerais , Brazil"
    ],
-   "official_lines": []
+   "official_lines": [
+    "Federal Reserve Board issues enforcement action with former employee of Regions Bank"
+   ]
   },
-  "raw_response": "{\n  \"title\": \"인도-미국 통상 협상\",\n   \"one_liner\": \"인도가 미국과 통상 협상을 논의하고 있어요\",\n   \"why_now\": \"국제 통상 협상은 경제 관계를 강화하는 데 도움이 되어요\",\n   \"impact_line\": \"국제 거래가 쉬워질 수 있어요\",\n   \"details\": [\n       \"인도는 미국과 통상 협상을 논의 중이에요\",\n       \"인도는 인도네시아와도 금융 분야 협력을 논의했어요\",\n       \"인도네시아와의 협의는 현지 통화 거래를 포함해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"국제 협력이 강화되면 경제가 발전할 수 있어요!\",\n       \"국제 거래가 활발해지면 물가가 안정될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "인도-미국 통상 협상",
-   "one_liner": "인도가 미국과 통상 협상을 논의하고 있어요",
-   "why_now": "국제 통상 협상은 경제 관계를 강화하는 데 도움이 되어요",
+   "title": "Nirmala Sitharaman…",
+   "one_liner": "Nirmala Sitharaman meets Indonesian Vice…",
+   "why_now": null,
    "details": [
-    "인도는 미국과 통상 협상을 논의 중이에요",
-    "인도는 인도네시아와도 금융 분야 협력을 논의했어요",
-    "인도네시아와의 협의는 현지 통화 거래를 포함해요"
+    "Nirmala Sitharaman meets Indonesian Vice Minister of Finance Juda Agung ; Discusses financial sector ties and local currency transactions",
+    "India In Contact With US Over Trade Deal Talks , Says Commerce Secretary",
+    "Private Market Talks : Manager Selection , Secondaries , And The Power Law With CF Private Equity Mark Hoeing ( Podcast )"
    ],
-   "effects": [
-    "국제 협력이 강화되면 경제가 발전할 수 있어요!",
-    "국제 거래가 활발해지면 물가가 안정될 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "usdkrw"
   },
-  "fact_hash": "928e3b0d9da37c4d87ddf8b9c60c7d6b1ac208b6"
+  "fact_hash": "6d0771351f7f5c386f59b121f82cf0757b7e8c9e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-13T13:55:32.331757+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-14T08:50:42.643259+00:00"
  },
  "glossary": [],
  "related": [

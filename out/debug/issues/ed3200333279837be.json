@@ -12,9 +12,31 @@
  "seen_sources": 0,
  "importance": 75,
  "created_at": "2026-08-13T07:47:38.208660+00:00",
- "last_update": "2026-08-13T10:34:09.792886+00:00",
+ "last_update": "2026-08-14T08:42:05.319978+00:00",
  "members": [],
  "anchors": [
+  {
+   "entity": "HLB바이오스텝",
+   "metric": "매출액",
+   "value": 134.9,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-08-14T07:43:55.689239+00:00"
+  },
+  {
+   "entity": "HLB바이오스텝",
+   "metric": "영업이익",
+   "value": -26.1,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-08-14T07:43:55.689239+00:00"
+  },
   {
    "entity": "HLB생명과학",
    "metric": "매출액",
@@ -151,6 +173,13 @@
  "timeline": [
   {
    "kind": "official",
+   "title": "HLB바이오스텝 반기보고서 (2026.06)",
+   "source": "DART",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003288",
+   "at": "2026-08-14T07:43:55.689239+00:00"
+  },
+  {
+   "kind": "official",
    "title": "HLB생명과학 반기보고서 (2026.06)",
    "source": "DART",
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001586",
@@ -201,10 +230,28 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-14T05:17:32.445385+00:00",
+  "created_at": "2026-08-14T08:45:41.982917+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
+    {
+     "entity": "HLB바이오스텝",
+     "metric": "매출액",
+     "value": 134.9,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "HLB바이오스텝",
+     "metric": "영업이익",
+     "value": -26.1,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
     {
      "entity": "HLB생명과학",
      "metric": "매출액",
@@ -258,24 +305,6 @@
      "prev": null,
      "period": "2026-1Q",
      "source": "DART"
-    },
-    {
-     "entity": "HLB제넥스",
-     "metric": "매출액",
-     "value": 116.7,
-     "unit": "억원",
-     "prev": null,
-     "period": "2026-1Q",
-     "source": "DART"
-    },
-    {
-     "entity": "HLB제넥스",
-     "metric": "영업이익",
-     "value": 10.0,
-     "unit": "억원",
-     "prev": null,
-     "period": "2026-1Q",
-     "source": "DART"
     }
    ],
    "headlines": [
@@ -293,23 +322,23 @@
    }
   ],
   "output": {
-   "title": "HLB생명과학 매출액 152.0억원",
-   "one_liner": "HLB생명과학 매출액 152.0억원으로 발표됐어요",
+   "title": "HLB바이오스텝 매출액 134.9억원",
+   "one_liner": "HLB바이오스텝 매출액 134.9억원으로 발표됐어요",
    "why_now": null,
    "details": [
+    "HLB바이오스텝 매출액: 134.9억원",
+    "HLB바이오스텝 영업이익: -26.1억원",
     "HLB생명과학 매출액: 152.0억원",
-    "HLB생명과학 영업이익: -64.5억원",
-    "HLB테라퓨틱스 매출액: 130.5억원",
-    "HLB테라퓨틱스 영업이익: -32.4억원"
+    "HLB생명과학 영업이익: -64.5억원"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "5b0ff8e21b82ae4d03afa1a8ef431779054da1e8"
+  "fact_hash": "43a166ea6a8b5b0c02859a2b5eb8a5f827af823a"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-14T05:17:32.445319+00:00"
+  "at": "2026-08-14T08:45:41.982844+00:00"
  },
  "glossary": [
   {
@@ -338,14 +367,14 @@
    "shared": []
   },
   {
-   "id": "c5e4bc7852b3b3a52",
-   "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
+   "id": "cd94ef5914bde663b",
+   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "cd94ef5914bde663b",
-   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
+   "id": "c5e4bc7852b3b3a52",
+   "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
    "category": "EARNINGS",
    "shared": []
   }

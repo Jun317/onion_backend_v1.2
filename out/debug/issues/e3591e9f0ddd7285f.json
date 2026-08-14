@@ -13,9 +13,31 @@
  "seen_sources": 0,
  "importance": 75,
  "created_at": "2026-08-13T07:47:37.178805+00:00",
- "last_update": "2026-08-14T00:03:36.403245+00:00",
+ "last_update": "2026-08-14T08:42:05.320245+00:00",
  "members": [],
  "anchors": [
+  {
+   "entity": "카카오모빌리티",
+   "metric": "매출액",
+   "value": 1826.4,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-08-14T07:43:46.478236+00:00"
+  },
+  {
+   "entity": "카카오모빌리티",
+   "metric": "영업이익",
+   "value": 283.6,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-08-14T07:43:46.478236+00:00"
+  },
   {
    "entity": "카카오게임즈",
    "metric": "매출액",
@@ -42,6 +64,13 @@
  "timeline": [
   {
    "kind": "official",
+   "title": "카카오모빌리티 반기보고서 (2026.06)",
+   "source": "DART",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003362",
+   "at": "2026-08-14T07:43:46.478236+00:00"
+  },
+  {
+   "kind": "official",
    "title": "카카오뱅크 [기재정정]분기보고서 (2026.03)",
    "source": "DART",
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000011",
@@ -57,10 +86,28 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-14T05:16:18.604407+00:00",
+  "created_at": "2026-08-14T08:45:23.535979+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
+    {
+     "entity": "카카오모빌리티",
+     "metric": "매출액",
+     "value": 1826.4,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "카카오모빌리티",
+     "metric": "영업이익",
+     "value": 283.6,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
     {
      "entity": "카카오게임즈",
      "metric": "매출액",
@@ -95,21 +142,23 @@
    }
   ],
   "output": {
-   "title": "카카오게임즈 매출액 829.3억원",
-   "one_liner": "카카오게임즈 매출액 829.3억원으로 발표됐어요",
+   "title": "카카오모빌리티 매출액 1826.4억원",
+   "one_liner": "카카오모빌리티 매출액 1826.4억원으로 발표됐어요",
    "why_now": null,
    "details": [
+    "카카오모빌리티 매출액: 1826.4억원",
+    "카카오모빌리티 영업이익: 283.6억원",
     "카카오게임즈 매출액: 829.3억원",
     "카카오게임즈 영업이익: -254.6억원"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "fa3eaddc88784b4aa32375654bd3638cefb3cd3a"
+  "fact_hash": "ed0f5e9d7653065bf3c5a357f279be3e684b223e"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-14T05:16:18.604341+00:00"
+  "at": "2026-08-14T08:45:23.535904+00:00"
  },
  "glossary": [
   {
@@ -138,14 +187,14 @@
    "shared": []
   },
   {
-   "id": "c5e4bc7852b3b3a52",
-   "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
+   "id": "cd94ef5914bde663b",
+   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "cd94ef5914bde663b",
-   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
+   "id": "c5e4bc7852b3b3a52",
+   "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
    "category": "EARNINGS",
    "shared": []
   }

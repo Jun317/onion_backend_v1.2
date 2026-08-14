@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-14T05:16:55.572596+00:00",
+  "created_at": "2026-08-14T08:47:15.233492+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,14 +64,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"시스코, AI 주문 증가\",\n  \"one_liner\": \"시스코의 매출이 18% 늘었고, AI 관련 주문이 93억 달러에 달했어요.\",\n  \"why_now\": \"AI 관련 주문 증가는 기업의 미래 성장 가능성을 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"AI 관련 기술 기업들의 주가에 긍정적인 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"시스코의 매출이 18% 증가했어요.\",\n    \"AI 관련 주문액이 93억 달러에 달했어요.\",\n    \"나스닥 지수는 상승세를 보였어요.\",\n    \"시스코 주가는 실적 발표 후 하락했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"AI 관련 기술 기업들의 매출과 이익이 늘어날 것으로 예상돼요!\",\n    \"AI 기술 발전에 대한 기대감이 커지면서 관련 시장이 성장할 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AI\",\n      \"easy\": \"인공지능을 뜻하는 말로, 컴퓨터가 사람처럼 생각하고 학습하는 기술이에요.\",\n      \"example\": \"AI 스피커는 사람의 말을 알아듣고 음악을 틀어줘요.\"\n    },\n    {\n      \"term\": \"나스닥\",\n      \"easy\": \"미국에서 기술주 중심의 주식 시장을 말해요.\",\n      \"example\": \"나스닥 지수가 오르면 기술주 가격이 전반적으로 상승하는 편이에요.\"\n    },\n    {\n      \"term\": \"매출\",\n      \"easy\": \"기업이 물건을 팔거나 서비스를 제공해서 벌어들인 돈이에요.\",\n      \"example\": \"이번 달 매출이 지난달보다 20% 늘었어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [93.0]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -93,8 +87,8 @@
   "fact_hash": "993b7818931c7d055c1d2140369b9a6850b61f20"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [93.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-14T05:16:55.572526+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-14T08:47:15.233420+00:00"
  },
  "glossary": [],
  "related": [
@@ -117,14 +111,14 @@
    "shared": []
   },
   {
-   "id": "c5e4bc7852b3b3a52",
-   "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
+   "id": "cd94ef5914bde663b",
+   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "cd94ef5914bde663b",
-   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
+   "id": "c5e4bc7852b3b3a52",
+   "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
    "category": "EARNINGS",
    "shared": []
   }

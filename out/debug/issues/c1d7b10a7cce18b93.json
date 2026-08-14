@@ -87,8 +87,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T05:12:45.679208+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-14T08:42:20.766050+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -99,26 +99,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미크론 주식\",\n   \"one_liner\": \"미크론 주식이 싸졌지만 사야 할까 말아야 할까 고민이네요.\",\n   \"why_now\": \"주식이 싸면 더 사고 싶어질 수 있어요.\",\n   \"impact_line\": \"미크론 주식에 투자할지 말지 고민하는 사람들에게 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"미크론 주식이 S&P 500과 나스닥 100보다 싸졌어요.\",\n       \"미크론 주식을 사면 백만장자가 될 수 있을지 고민이네요.\",\n       \"미크론이 산디스크와 같은 운명을 타지 않을 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미크론 주식이 싸져서 더 많이 사게 될 수 있어요!\",\n       \"미크론 주식의 미래가 밝다면 투자자들이 더 많이 투자할 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"S&P 500\",\n           \"easy\": \"미국 주식시장의 대표적인 지수예요.\",\n           \"example\": \"S&P 500이 오르면 미국 경제가 좋다는 뜻이에요.\"\n       },\n       {\n           \"term\": \"나스닥 100\",\n           \"easy\": \"미국 기술 주식시장의 대표적인 지수예요.\",\n           \"example\": \"나스닥 100이 오르면 기술 산업이 좋다는 뜻이에요.\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Micron Technology…",
-   "one_liner": "Micron Technology Stock Is Cheaper Than the S &…",
-   "why_now": null,
+   "title": "미크론 주식",
+   "one_liner": "미크론 주식이 싸졌지만 사야 할까 말아야 할까 고민이네요.",
+   "why_now": "주식이 싸면 더 사고 싶어질 수 있어요.",
    "details": [
-    "Micron Technology Stock Is Cheaper Than the S & P 500 and the Nasdaq - 100 . Here Why Im Still Not Buying It .",
-    "Could $25 , 000 Invested in Micron Stock Make You a Millionaire ?",
-    "Dont Assume Micron Will Share SanDisk Fate . Here Why ."
+    "미크론 주식이 S&P 500과 나스닥 100보다 싸졌어요.",
+    "미크론 주식을 사면 백만장자가 될 수 있을지 고민이네요.",
+    "미크론이 산디스크와 같은 운명을 타지 않을 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "미크론 주식이 싸져서 더 많이 사게 될 수 있어요!",
+    "미크론 주식의 미래가 밝다면 투자자들이 더 많이 투자할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "3fb8e4ddc53c032f223e2a3550ec7a32b5ac1bfb"
  },
