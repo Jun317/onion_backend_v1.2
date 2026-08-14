@@ -565,48 +565,55 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-13T12:06:52.920612+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-14T00:04:05.126964+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
-    "Zhu Rongji , who drove China 1990s economic reforms , has died at 97",
-    "Ford to Relocate Lincoln Production from China to the US by 2030 Amid Tariff Challenges , ETAuto",
     "Trump tariffs force Ford to move some production from China to US",
-    "China Closes America Drone Skies",
-    "China Lenovo posts 43 per cent jump in Q1 revenue , highest in five years"
+    "Ford to Relocate Lincoln Production from China to the US by 2030 Amid Tariff Challenges , ETAuto",
+    "Zhu Rongji , who drove China 1990s economic reforms , has died at 97",
+    "China projects  outward confidence  amid economic anxiety , US congressional panel says",
+    "Late former premier Zhu Rongji used economics to tighten China grip on Tibet"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"포드, 중국 생산 일부 미국 이전\",\n  \"one_liner\": \"포드가 중국에서 만들던 자동차 일부를 미국으로 옮기기로 했어요.\",\n  \"why_now\": \"미국이 중국산 제품에 관세를 매기면서 생산 비용이 늘어난 것이 원인이에요.\",\n  \"impact_line\": \"국내 자동차 생산이 늘어날 수 있어요.\",\n  \"details\": [\n    \"포드는 2030년까지 링컨 차량 생산을 중국에서 미국으로 옮길 계획이에요.\",\n    \"미국의 관세 정책이 이러한 결정에 영향을 미쳤어요.\",\n    \"이전 결정은 중국의 경제적 불안감 속에서 나왔어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"미국 내 자동차 생산이 늘어나면 관련 일자리가 늘어날 수 있어요!\",\n    \"중국에서의 생산 비용이 늘어나면서 차량 가격이 오를 가능성도 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 간 물건을 사고팔 때 붙는 세금이에요.\",\n      \"example\": \"수입 과자에 관세가 붙으면 과자 가격이 올라요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Zhu Rongji , who…",
-   "one_liner": "Zhu Rongji , who drove China 1990s economic…",
-   "why_now": null,
+   "title": "포드, 중국 생산 일부 미국 이전",
+   "one_liner": "포드가 중국에서 만들던 자동차 일부를 미국으로 옮기기로 했어요.",
+   "why_now": "미국이 중국산 제품에 관세를 매기면서 생산 비용이 늘어난 것이 원인이에요.",
    "details": [
-    "Zhu Rongji , who drove China 1990s economic reforms , has died at 97",
-    "Ford to Relocate Lincoln Production from China to the US by 2030 Amid Tariff Challenges , ETAuto",
-    "Trump tariffs force Ford to move some production from China to US"
+    "포드는 2030년까지 링컨 차량 생산을 중국에서 미국으로 옮길 계획이에요.",
+    "미국의 관세 정책이 이러한 결정에 영향을 미쳤어요.",
+    "이전 결정은 중국의 경제적 불안감 속에서 나왔어요."
    ],
-   "effects": [],
+   "effects": [
+    "미국 내 자동차 생산이 늘어나면 관련 일자리가 늘어날 수 있어요!",
+    "중국에서의 생산 비용이 늘어나면서 차량 가격이 오를 가능성도 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "6da7e5737d67a67c69d676f83c3da0d85b3e93f5"
+  "fact_hash": "231e679c276d417db3d91fc54e65267678d383a0"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-13T12:06:52.920506+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "c03074aeed49bf60f",

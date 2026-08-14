@@ -308,8 +308,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-13T12:08:14.138032+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-14T00:06:19.020269+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -318,32 +318,33 @@
     "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
     "Alphabet Cloud Computing Business Just Posted 82 % Revenue Growth . Next Quarter Could Be Even Better .",
     "Berkshire cuts cash pile after Google bet and buybacks",
-    "Berkshire rises after buybacks , Alphabet bet and profit jump"
+    "Wealthcare Advisory Partners LLC Sells 4 , 337 Shares of Alphabet Inc . $GOOG"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"구글 클라우드 수익\",\n   \"one_liner\": \"구글 클라우드의 수익이 82% 올랐어요\",\n   \"why_now\": \"클라우드 수익이 오르면 회사의 투자 가치가 올라가는 게 보통이에요\",\n   \"impact_line\": \"구글 서비스를 이용하는 비용이 바뀔 수 있어요\",\n   \"details\": [\n      \"구글 클라우드의 수익이 82% 올랐어요\",\n      \"구글의 수장인 순다르 피차이가 클라우드 수익 증가를 높게 평가했어요\",\n      \"구글 클라우드의 수익 증가가 다음 분기에 더 높아질 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"클라우드 수익이 오르면 회사의 투자 가치가 올라, 투자자들에게 기회가 될 수 있어요!\",\n      \"클라우드 수익 증가로 인해 구글의 서비스가 더 다양해질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Google co - founder…",
-   "one_liner": "Google co - founder Sergey Brin spending more…",
-   "why_now": null,
+   "title": "구글 클라우드 수익",
+   "one_liner": "구글 클라우드의 수익이 82% 올랐어요",
+   "why_now": "클라우드 수익이 오르면 회사의 투자 가치가 올라가는 게 보통이에요",
    "details": [
-    "Google co - founder Sergey Brin spending more than $100 million fighting California wealth tax",
-    "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
-    "Alphabet Cloud Computing Business Just Posted 82 % Revenue Growth . Next Quarter Could Be Even Better ."
+    "구글 클라우드의 수익이 82% 올랐어요",
+    "구글의 수장인 순다르 피차이가 클라우드 수익 증가를 높게 평가했어요",
+    "구글 클라우드의 수익 증가가 다음 분기에 더 높아질 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "클라우드 수익이 오르면 회사의 투자 가치가 올라, 투자자들에게 기회가 될 수 있어요!",
+    "클라우드 수익 증가로 인해 구글의 서비스가 더 다양해질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "26be488530856d9938739794b619156f46884335"
+  "fact_hash": "fd6bdd934328a42620515baa4e0b28aef9463dfb"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

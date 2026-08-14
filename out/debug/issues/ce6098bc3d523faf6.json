@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-13T13:56:18.728133+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-14T00:05:35.174064+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -877,32 +877,34 @@
     "Road safety plan promises to halve death toll by 2030",
     "Morning news brief",
     "Ladbrokes owner Entain says new gambling taxes to have  massive impact",
-    "Here what to know before the market opens Thursday"
+    "Equilibrium between traditional and new drivers key for growth"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"정부 정책\",\n   \"one_liner\": \"정부가 새로운 정책을 발표했어요\",\n   \"why_now\": \"정부가 정책을 발표하면 우리 생활에 영향을 줄 수 있어요\",\n   \"impact_line\": \"도박에 대한 세금이 증가할 수 있어요\",\n   \"details\": [\n       \"정부가 처음으로 돈 세탁 방지 전략을 발표할 예정이에요\",\n       \"도로 안전 계획은 2030년까지 사망자 수를 절반으로 줄이겠다고 약속했어요\",\n       \"엔테인이라는 회사는 새로운 도박 세금이 큰 영향을 미칠 것이라고 nói했어요\",\n       \"전통적인 것과 새로운 것이 균형을 이루는 것이 성장에 중요해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"새로운 정책으로 도박에 대한 규제가 강화될 수 있어요!\",\n       \"도로 안전 계획으로 교통 사고가 줄어들 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Government to…",
-   "one_liner": "Government to announce first anti - money…",
-   "why_now": null,
+   "title": "정부 정책",
+   "one_liner": "정부가 새로운 정책을 발표했어요",
+   "why_now": "정부가 정책을 발표하면 우리 생활에 영향을 줄 수 있어요",
    "details": [
-    "Government to announce first anti - money laundering strategy",
-    "Road safety plan promises to halve death toll by 2030",
-    "Morning news brief"
+    "정부가 처음으로 돈 세탁 방지 전략을 발표할 예정이에요",
+    "도로 안전 계획은 2030년까지 사망자 수를 절반으로 줄이겠다고 약속했어요",
+    "엔테인이라는 회사는 새로운 도박 세금이 큰 영향을 미칠 것이라고 nói했어요",
+    "전통적인 것과 새로운 것이 균형을 이루는 것이 성장에 중요해요"
    ],
-   "effects": [],
+   "effects": [
+    "새로운 정책으로 도박에 대한 규제가 강화될 수 있어요!",
+    "도로 안전 계획으로 교통 사고가 줄어들 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "887dd5a68b18bced7209efacc11a2e10a712c726"
+  "fact_hash": "e9c1bcd2ce6ed3fffbf9c6b26d9c3f5fee6443d5"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

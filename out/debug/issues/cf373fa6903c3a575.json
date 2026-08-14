@@ -70,38 +70,41 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-13T13:58:09.307519+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-14T00:05:23.928623+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "2 Core Reasons Tesla Investors Should Be Getting Nervous",
     "Tesla to US$2600 : Cathie Wood on Elon next big bet",
     "Tesla Stock Deepest Fall Was Worse Than Its Worst Market Crash"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"테슬라 주식\",\n   \"one_liner\": \"테슬라 주식이 많이 떨어졌어요\",\n   \"why_now\": \"주가가 떨어지면 투자자들이 손해를 볼 수 있어요\",\n   \"impact_line\": \"테슬라 주식을 가지고 있는 사람들의 자산이 줄 수 있어요\",\n   \"details\": [\n       \"테슬라 주식이 많이 떨어졌어요\",\n       \"테슬라 주식의 가격이 많이 변동했어요\",\n       \"테슬라에 투자한 사람들이 주의해야 할 이유가 생겼어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"테슬라 주식이 더 떨어질 수 있어요!\",\n       \"테슬라에 투자한 사람들이 더 손해를 볼 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Tesla to US$2600 :…",
-   "one_liner": "Tesla to US$2600 : Cathie Wood on Elon next big…",
-   "why_now": null,
+   "title": "테슬라 주식",
+   "one_liner": "테슬라 주식이 많이 떨어졌어요",
+   "why_now": "주가가 떨어지면 투자자들이 손해를 볼 수 있어요",
    "details": [
-    "Tesla to US$2600 : Cathie Wood on Elon next big bet",
-    "Tesla Stock Deepest Fall Was Worse Than Its Worst Market Crash"
+    "테슬라 주식이 많이 떨어졌어요",
+    "테슬라 주식의 가격이 많이 변동했어요",
+    "테슬라에 투자한 사람들이 주의해야 할 이유가 생겼어요"
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "테슬라 주식이 더 떨어질 수 있어요!",
+    "테슬라에 투자한 사람들이 더 손해를 볼 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "8ed0854e2e38523cd9d3292d2dd047ac61368e49"
+  "fact_hash": "54b57c6b571d6c65ad57bf18f22e45fdb4cfd1a0"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

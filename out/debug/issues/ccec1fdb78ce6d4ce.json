@@ -173,7 +173,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-13T12:06:03.906988+00:00",
+  "created_at": "2026-08-14T00:03:39.573605+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -183,7 +183,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"유럽중앙은행 금리 인상\",\n\"one_liner\": \"유럽중앙은행이 금리를 올릴 것으로 보입니다.\",\n\"why_now\": \"금리가 오르면 돈을 빌리는 비용이 늘어나 경제 활동이 위축될 수 있습니다.\",\n\"impact_line\": \"유럽 관련 상품의 가격이 오를 수 있습니다.\",\n\"details\": [],\n\"visual_type\": \"none\",\n\"effects\": [\n\"유럽 지역의 대출 이자 부담이 커질 수 있습니다!\",\n\"기업들의 투자 심리가 위축될 수 있습니다!\"\n],\n\"glossary\": [\n{\n\"term\": \"유럽중앙은행\",\n\"easy\": \"유럽 연합 회원국들의 통화 정책을 담당하는 중앙은행입니다.\",\n\"example\": \"유럽중앙은행이 금리를 올리면 유럽 내 대출 이자가 오를 수 있습니다.\"\n}\n],\n\"impact_line\": \"유럽 관련 상품의 가격이 오를 수 있습니다.\"\n}",
+  "raw_response": "{\"title\": \"유럽중앙은행 금리 인상\", \"one_liner\": \"유럽중앙은행이 금리를 올릴 것으로 보입니다.\", \"why_now\": \"금리가 오르면 돈을 빌리는 비용이 늘어나 경제 활동이 위축될 수 있습니다.\", \"impact_line\": \"대출 이자 부담이 커질 수 있어요.\", \"details\": [\"유럽중앙은행이 금리를 인상할 것이라는 전망이 나왔습니다.\"], \"visual_type\": \"none\", \"effects\": [\"기업들의 자금 조달 비용이 늘어나 투자나 사업 확장이 어려워질 수 있습니다!\", \"물가가 너무 오르는 것을 막기 위한 조치로 볼 수 있습니다.\"], \"glossary\": [{\"term\": \"유럽중앙은행\", \"easy\": \"유럽연합 회원국의 중앙은행 역할을 하는 곳이에요.\", \"example\": \"유럽중앙은행의 결정은 유럽 경제 전반에 큰 영향을 미칩니다.\"}, {\"term\": \"금리\", \"easy\": \"돈을 빌리거나 맡길 때 내거나 받는 이자의 비율이에요.\", \"example\": \"금리가 오르면 대출 이자가 늘어나고 예금 이자는 늘어납니다.\"}]}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
@@ -196,7 +196,8 @@
     "errors": [
      "one_liner 해요체 아님",
      "why_now 어요체 아님",
-     "details 3문장 미만"
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님"
     ]
    }
   ],
@@ -214,8 +215,8 @@
   "fact_hash": "a412f45b17f967d502b666e2fd4758401661f595"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 해요체 아님\", \"why_now 어요체 아님\", \"details 3문장 미만\"]}]}",
-  "at": "2026-08-13T12:06:03.906826+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 해요체 아님\", \"why_now 어요체 아님\", \"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}]}",
+  "at": "2026-08-14T00:03:39.573475+00:00"
  },
  "glossary": [],
  "related": [

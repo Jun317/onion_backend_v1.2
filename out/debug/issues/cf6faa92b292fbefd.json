@@ -240,8 +240,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-13T13:55:32.331890+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-14T00:05:09.016813+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -251,31 +251,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"인도, 미국과 무역 협상 논의\", \"one_liner\": \"인도 상무장관이 미국과 무역 협상에 대해 이야기하고 있다고 밝혔어요.\", \"why_now\": \"나라 간 무역 협상은 물건 가격이나 수출입에 영향을 줄 수 있어요.\", \"impact_line\": \"앞으로 인도와 미국에서 물건을 사거나 팔 때 조건이 달라질 수 있어요.\", \"details\": [\"인도 상무장관이 미국과 무역 협상에 대해 이야기하고 있다고 말했어요.\", \"인도 재무장관은 인도네시아 재무차관을 만나 금융 분야 협력과 현지 통화 거래에 대해 논의했어요.\"], \"visual_type\": \"none\", \"effects\": [\"나라 간 무역 조건이 바뀌면 우리가 쓰는 물건의 가격이 오르내릴 수 있어요!\"], \"glossary\": [{\"term\": \"무역 협상\", \"easy\": \"나라와 나라끼리 물건을 사고팔 때 지켜야 할 규칙을 정하는 거예요.\", \"example\": \"무역 협상이 잘 되면 물건 값이 싸질 수도 있어요.\"}], \"impact_line\": \"앞으로 인도와 미국에서 물건을 사거나 팔 때 조건이 달라질 수 있어요.\"}",
+  "raw_response": "{\n  \"title\": \"인도-미국 통상 협상\",\n   \"one_liner\": \"인도가 미국과 통상 협상을 논의하고 있어요\",\n   \"why_now\": \"국제 통상 협상은 경제 관계를 강화하는 데 도움이 되어요\",\n   \"impact_line\": \"국제 거래가 쉬워질 수 있어요\",\n   \"details\": [\n       \"인도는 미국과 통상 협상을 논의 중이에요\",\n       \"인도는 인도네시아와도 금융 분야 협력을 논의했어요\",\n       \"인도네시아와의 협의는 현지 통화 거래를 포함해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"국제 협력이 강화되면 경제가 발전할 수 있어요!\",\n       \"국제 거래가 활발해지면 물가가 안정될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "India In Contact…",
-   "one_liner": "India In Contact With US Over Trade Deal Talks ,…",
-   "why_now": null,
+   "title": "인도-미국 통상 협상",
+   "one_liner": "인도가 미국과 통상 협상을 논의하고 있어요",
+   "why_now": "국제 통상 협상은 경제 관계를 강화하는 데 도움이 되어요",
    "details": [
-    "India In Contact With US Over Trade Deal Talks , Says Commerce Secretary",
-    "Nirmala Sitharaman meets Indonesian Vice Minister of Finance Juda Agung ; Discusses financial sector ties and local currency transactions"
+    "인도는 미국과 통상 협상을 논의 중이에요",
+    "인도는 인도네시아와도 금융 분야 협력을 논의했어요",
+    "인도네시아와의 협의는 현지 통화 거래를 포함해요"
    ],
-   "effects": [],
-   "visual_type": "usdkrw"
+   "effects": [
+    "국제 협력이 강화되면 경제가 발전할 수 있어요!",
+    "국제 거래가 활발해지면 물가가 안정될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "928e3b0d9da37c4d87ddf8b9c60c7d6b1ac208b6"
  },

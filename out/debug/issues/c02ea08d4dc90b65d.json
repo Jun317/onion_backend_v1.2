@@ -52,8 +52,44 @@
    "at": "2026-08-11T11:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-14T00:04:44.627505+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Govt exceeds IMF surplus target",
+    "Analysis - Bolivia Paz tests fragile coalition with reform push , IMF deal"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Govt exceeds IMF…",
+   "one_liner": "Govt exceeds IMF surplus target",
+   "why_now": null,
+   "details": [
+    "Govt exceeds IMF surplus target",
+    "Analysis - Bolivia Paz tests fragile coalition with reform push , IMF deal"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "4f31157787a360897e4453f23c7be2baa76a931a"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-14T00:04:44.627430+00:00"
+ },
  "glossary": [],
  "related": [
   {
