@@ -173,7 +173,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-14T03:04:30.532882+00:00",
+  "created_at": "2026-08-14T06:50:15.870572+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -183,7 +183,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"유럽중앙은행 금리 인상\", \"one_liner\": \"유럽중앙은행이 금리를 올릴 것으로 보입니다.\", \"why_now\": \"금리가 오르면 돈을 빌리는 비용이 늘어나 경제 활동이 위축될 수 있습니다.\", \"impact_line\": \"유럽 관련 대출 이자가 오를 수 있어요.\", \"details\": [], \"visual_type\": \"none\", \"effects\": [\"유럽의 대출 금리가 오르면 기업들의 투자나 개인의 소비가 줄어들 수 있습니다!\", \"물가가 너무 오르는 것을 막기 위한 조치로 해석됩니다.\"], \"glossary\": [{\"term\": \"ECB\", \"easy\": \"유럽중앙은행을 말해요. 유럽연합 국가들의 중앙은행 역할을 해요.\", \"example\": \"ECB가 금리를 올리면 유럽의 대출 이자가 오를 수 있어요.\"}]}",
+  "raw_response": "{\"title\": \"유럽중앙은행 금리 인상\", \"one_liner\": \"유럽중앙은행이 기준금리를 올릴 것으로 보여요.\", \"why_now\": \"금리가 오르면 돈을 빌리는 비용이 늘어나 경제 활동이 위축될 수 있어요.\", \"impact_line\": \"유럽 관련 상품 가격이 오를 수 있어요.\", \"details\": [\"유럽중앙은행이 기준금리를 인상할 것으로 예상돼요.\"], \"visual_type\": \"none\", \"effects\": [\"유럽의 대출 금리가 오르고 기업들의 자금 조달 비용이 늘어날 수 있어요!\", \"소비와 투자가 줄어 경제 성장세가 둔화될 가능성이 있어요!\"], \"glossary\": [{\"term\": \"기준금리\", \"easy\": \"한국은행이 정하는 나라의 기본 이자율이에요.\", \"example\": \"기준금리가 내리면 대출 이자도 보통 따라 내려요.\"}]}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
@@ -194,10 +194,7 @@
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "one_liner 해요체 아님",
-     "why_now 어요체 아님",
-     "details 3문장 미만",
-     "effects[1] 느낌표 종결 아님"
+     "details 3문장 미만"
     ]
    }
   ],
@@ -215,8 +212,8 @@
   "fact_hash": "a412f45b17f967d502b666e2fd4758401661f595"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 해요체 아님\", \"why_now 어요체 아님\", \"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}]}",
-  "at": "2026-08-14T03:04:30.532715+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-14T06:50:15.870409+00:00"
  },
  "glossary": [],
  "related": [

@@ -850,8 +850,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T03:13:02.855706+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-14T07:01:24.562977+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -864,26 +864,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"인도 기업, 순환 경제로 수익 모색\", \"one_liner\": \"인도 기업들이 환경을 보호하면서 돈을 버는 순환 경제에 주목하고 있어요.\", \"why_now\": \"자원을 아끼고 폐기물을 줄이는 순환 경제는 미래 성장 동력으로 떠오르고 있어요.\", \"details\": [\"인도 기업들이 순환 경제 모델을 통해 새로운 수익 기회를 찾고 있어요.\", \"이는 환경 보호와 경제 성장을 동시에 추구하는 방식이에요.\", \"자원 재활용 및 재사용을 통해 비용을 절감하고 새로운 시장을 개척할 수 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"기업들이 친환경 사업에 투자하면서 관련 일자리가 늘어날 수 있어요!\", \"소비자들은 재활용 제품이나 친환경 서비스를 더 쉽게 접할 수 있게 될 것으로 예상돼요!\"], \"glossary\": [{\"term\": \"순환 경제\", \"easy\": \"제품을 만들고 쓰고 버리는 대신, 다시 사용하고 고쳐서 오래 쓰는 경제 방식이에요.\", \"example\": \"다 쓴 페트병을 모아 새 옷을 만드는 것도 순환 경제의 한 예시예요.\"}], \"impact_line\": \"친환경 제품이나 서비스의 선택지가 늘어날 수 있어요.\"}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "one_liner 50자 초과(55)"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "How Indian businesses…",
-   "one_liner": "How Indian businesses are looking to profit from…",
-   "why_now": null,
+   "title": "인도 기업, 순환 경제로 수익 모색",
+   "one_liner": "인도 기업들이 환경을 보호하면서 돈을 버는 순환 경제에 주목하고 있어요.",
+   "why_now": "자원을 아끼고 폐기물을 줄이는 순환 경제는 미래 성장 동력으로 떠오르고 있어요.",
    "details": [
-    "How Indian businesses are looking to profit from a circular economy",
-    "India should prepare for that poles vault - The Economic Times",
-    "No tax link as investors strike gold with first payout"
+    "인도 기업들이 순환 경제 모델을 통해 새로운 수익 기회를 찾고 있어요.",
+    "이는 환경 보호와 경제 성장을 동시에 추구하는 방식이에요.",
+    "자원 재활용 및 재사용을 통해 비용을 절감하고 새로운 시장을 개척할 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "기업들이 친환경 사업에 투자하면서 관련 일자리가 늘어날 수 있어요!",
+    "소비자들은 재활용 제품이나 친환경 서비스를 더 쉽게 접할 수 있게 될 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "7097d79cfacc51f216b75413714790bc100b0e0c"
  },
@@ -912,14 +919,14 @@
    "shared": []
   },
   {
-   "id": "cd94ef5914bde663b",
-   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
+   "id": "c5e4bc7852b3b3a52",
+   "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c5e4bc7852b3b3a52",
-   "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
+   "id": "cd94ef5914bde663b",
+   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
    "category": "EARNINGS",
    "shared": []
   }

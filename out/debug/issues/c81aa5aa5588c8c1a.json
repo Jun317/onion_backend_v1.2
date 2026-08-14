@@ -766,7 +766,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-14T03:11:48.202212+00:00",
+  "created_at": "2026-08-14T07:00:40.823988+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -779,12 +779,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"기업들 실적 발표\",\n\"one_liner\": \"여러 기업들이 예상보다 좋은 실적을 발표했어요.\",\n\"why_now\": \"기업 실적은 경제 상황을 보여주는 중요한 지표 중 하나예요.\",\n\"impact_line\": \"주가 변동성이 커질 수 있으니 투자에 유의해야 해요.\",\n\"details\": [\n\"내비게이터는 예상보다 주당 0.32달러 더 높은 실적을 발표했어요.\",\n\"핀터레스트는 예상보다 주당 0.07달러 더 높은 실적을 발표했어요.\",\n\"EPAM과 PAR 테크놀로지는 내일 실적을 발표할 예정이에요.\"\n],\n\"visual_type\": \"earnings_quarterly\",\n\"effects\": [\n\"실적이 좋은 기업은 주가가 오를 수 있어요!\",\n\"실적이 예상보다 나쁘면 주가가 떨어질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"EPS\",\n\"easy\": \"기업이 벌어들인 돈에서 모든 비용을 빼고 남은 이익을 주식 수로 나눈 값이에요.\",\n\"example\": \"EPS가 높으면 기업의 수익성이 좋다고 볼 수 있어요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [0.07, 0.32]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [0.07, 0.32]"
     ]
    }
   ],
@@ -803,8 +809,8 @@
   "fact_hash": "800104270315db3c45055c1212c970c126847890"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-14T03:11:48.202144+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [0.07, 0.32]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [0.07, 0.32]\"]}]}",
+  "at": "2026-08-14T07:00:40.823931+00:00"
  },
  "glossary": [],
  "related": [
@@ -827,14 +833,14 @@
    "shared": []
   },
   {
-   "id": "cd94ef5914bde663b",
-   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
+   "id": "c5e4bc7852b3b3a52",
+   "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c5e4bc7852b3b3a52",
-   "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
+   "id": "cd94ef5914bde663b",
+   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
    "category": "EARNINGS",
    "shared": []
   }

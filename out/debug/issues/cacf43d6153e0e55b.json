@@ -748,8 +748,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T03:12:25.519131+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-14T07:00:56.857303+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -762,25 +762,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"기업 실적 발표\",\n    \"one_liner\": \"여러 기업들이 최근 실적을 발표했어요.\",\n    \"why_now\": \"기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\",\n    \"impact_line\": \"실적 발표는 주가에 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"ADTRAN은 예상보다 주당순이익이 낮게 나왔어요.\",\n        \"Entegris는 예상보다 주당순이익이 높게 나왔어요.\",\n        \"Strata Critical Medical은 실적을 발표했어요.\",\n        \"Snapchat은 예상보다 높은 매출을 기록했어요.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"실적이 좋은 기업은 주가가 오를 수 있어요!\",\n        \"실적이 기대에 못 미친 기업은 주가가 내릴 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"주당순이익\",\n            \"easy\": \"회사가 벌어들인 돈을 발행한 주식 수로 나눈 값이에요.\",\n            \"example\": \"주당순이익이 높으면 회사가 돈을 잘 번 것으로 볼 수 있어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "ADTRAN ( NASDAQ :…",
-   "one_liner": "ADTRAN ( NASDAQ : ADTN ) Announces Earnings…",
-   "why_now": null,
+   "title": "기업 실적 발표",
+   "one_liner": "여러 기업들이 최근 실적을 발표했어요.",
+   "why_now": "기업 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.",
    "details": [
-    "ADTRAN ( NASDAQ : ADTN ) Announces Earnings Results , Misses Estimates By $0 . 06 EPS",
-    "Entegris ( NASDAQ : ENTG ) Issues Earnings Results , Beats Estimates By $0 . 11 EPS",
-    "Strata Critical Medical ( NASDAQ : SRTA ) Issues Earnings Results"
+    "ADTRAN은 예상보다 주당순이익이 낮게 나왔어요.",
+    "Entegris는 예상보다 주당순이익이 높게 나왔어요.",
+    "Strata Critical Medical은 실적을 발표했어요.",
+    "Snapchat은 예상보다 높은 매출을 기록했어요."
    ],
-   "effects": [],
+   "effects": [
+    "실적이 좋은 기업은 주가가 오를 수 있어요!",
+    "실적이 기대에 못 미친 기업은 주가가 내릴 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "5aaeff95ebe56d16668e77d54f0eb6e58eca9108"
@@ -789,7 +791,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-14T03:12:25.519064+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "순이익",
+   "easy": "비용·세금까지 다 빼고 최종으로 남은 이익이에요.",
+   "example": ""
+  }
+ ],
  "related": [
   {
    "id": "e7dc95bcb919f5113",
@@ -810,14 +818,14 @@
    "shared": []
   },
   {
-   "id": "cd94ef5914bde663b",
-   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
+   "id": "c5e4bc7852b3b3a52",
+   "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c5e4bc7852b3b3a52",
-   "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
+   "id": "cd94ef5914bde663b",
+   "title": "Sundar Pichai Alphabet Has Grown Google Cloud Revenue 82 % Year Over Year . Here Why That Growth Rate Justifies the Company Capex Bet .",
    "category": "EARNINGS",
    "shared": []
   }

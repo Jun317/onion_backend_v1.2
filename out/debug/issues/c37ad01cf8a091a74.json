@@ -874,7 +874,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-14T03:04:44.355483+00:00",
+  "created_at": "2026-08-14T06:50:21.340286+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,18 +887,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"인도 경제 성장\",\n   \"one_liner\": \"국제 통화 기구가 인도 경제 성장률을 6.4%로 낮췄어요\",\n   \"why_now\": \"인도는 세계에서 가장 빠르게 성장하는 주요 경제국이에요\",\n   \"impact_line\": \"인도에서 수출하는 물건의 가격이 오를 수 있어요\",\n   \"details\": [\n       \"인도는 세계에서 가장 빠르게 성장하는 주요 경제국이에요\",\n       \"국제 통화 기구는 인도 경제 성장률을 6.4%로 낮췄어요\",\n       \"인도 경제는 내수 수요가 강해서 성장할 것으로 예상돼요\",\n       \"인도 경제 성장률은 다른 주요 경제국보다 높을 것으로 예상돼요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"인도에서 수출하는 물건의 가격이 오르면 우리나라 물가도 영향을 받을 수 있어요!\",\n       \"인도 경제가 성장하면 인도와의 무역도 증가할 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"GDP\",\n           \"easy\": \"한 나라의 전체 경제 규모를 나타내는 수치예요\",\n           \"example\": \"한 나라의 GDP가 높으면 그 나라가 부유한 나라일 수 있어요\"\n       }\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"IMF, 인도 경제 성장률 전망 하향\",\n  \"one_liner\": \"IMF가 인도의 올해 경제 성장률 전망치를 6.4%로 낮췄어요.\",\n  \"why_now\": \"인도는 세계에서 가장 빠르게 성장하는 경제 중 하나로 꼽히기 때문이에요.\",\n  \"impact_line\": \"인도 경제 상황은 한국 수출입에도 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"IMF는 인도의 올해 경제 성장률 전망치를 6.4%로 예상했어요.\",\n    \"하지만 여전히 세계 주요 경제국 중 가장 빠른 성장세를 보일 것으로 전망했어요.\",\n    \"이는 인도 국내의 강한 수요 덕분으로 분석했어요.\",\n    \"IMF는 파키스탄의 성장률 전망치도 3.5~3.7%로 낮췄어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"인도 경제 성장세가 둔화되면 한국의 수출이 줄어들 수 있어요!\",\n    \"인도 경제가 여전히 빠르게 성장하면 한국 기업들의 수출 기회가 늘어날 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"IMF\",\n      \"easy\": \"국제통화기금으로, 세계 경제의 안정을 위해 나라 간 협력을 돕는 국제기구예요.\",\n      \"example\": \"IMF는 나라별 경제 상황을 분석하고 전망을 발표해요.\"\n    },\n    {\n      \"term\": \"GDP\",\n      \"easy\": \"나라 안에서 생산된 모든 상품과 서비스의 시장 가치를 합한 것으로, 나라 경제 규모를 나타내요.\",\n      \"example\": \"GDP가 늘면 나라 경제가 성장했다고 볼 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "입력에 없는 숫자: [6.4]"
+     "입력에 없는 숫자: [-3.7, 3.5, 6.4]"
     ]
    },
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "입력에 없는 숫자: [6.4]"
+     "입력에 없는 숫자: [3.5, 3.7, 6.4]"
     ]
    }
   ],
@@ -917,8 +917,8 @@
   "fact_hash": "cfd78157cf896eed094d7420fa8b3e8a7f9b1246"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}]}",
-  "at": "2026-08-14T03:04:44.355370+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [-3.7, 3.5, 6.4]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [3.5, 3.7, 6.4]\"]}]}",
+  "at": "2026-08-14T06:50:21.340174+00:00"
  },
  "glossary": [
   {
@@ -954,15 +954,6 @@
    ]
   },
   {
-   "id": "cdc7817ae002bbd0a",
-   "title": "EMEA Morning Briefing : Stock Futures Rise as Fed Rate - Hike Expectations Fade",
-   "category": "MACRO",
-   "shared": [
-    "FED",
-    "SEC"
-   ]
-  },
-  {
    "id": "cb3030e4a5acd0008",
    "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
    "category": "MACRO",
@@ -971,6 +962,14 @@
     "FED",
     "SEC",
     "TSLA"
+   ]
+  },
+  {
+   "id": "e7dc95bcb919f5113",
+   "title": "메타케어 2026-2Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": [
+    "SEC"
    ]
   }
  ]
