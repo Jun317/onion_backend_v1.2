@@ -205,7 +205,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-15T01:56:09.861065+00:00",
+  "created_at": "2026-08-15T05:47:42.282509+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -213,23 +213,25 @@
     "Indonesia Prabowo proposes deficit at 2 . 4 % of GDP in 2027 budget",
     "Economic consultant Negrescu says Romania could record a slight economic decline in Q3 and Q4",
     "INDONESIA - JAKARTA - PRESIDENT - ECONOMY - GROWTH",
-    "Dutch economy projected to grow 1 . 4 pct in 2026 : economic institute",
-    "Taxpayers are doing their part , government needs to deliver"
+    "Taxpayers are doing their part , government needs to deliver",
+    "Dutch economy projected to grow 1 . 4 pct in 2026 : economic institute"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"국가 경제 예측\",\n   \"one_liner\": \"인도네시아와 네덜란드의 경제 성장률이 예측됐어요\",\n   \"why_now\": \"국가의 경제 성장률은 사람들이 돈을 쓸 여유가 있는지와 관련돼요\",\n   \"impact_line\": \"국가 경제가 잘 돌아가면 사람들의 생활이 좋아질 수 있어요\",\n   \"details\": [\n       \"인도네시아는 2027년 예산에서 적자 규모를 GDP의 2.4%로 제안했어요\",\n       \"루마니아의 경제는 3분기와 4분기에 약간의 경제적 하락을 기록할 수 있어요\",\n       \"네덜란드의 경제 성장률은 2026년에 1.4%로 예상돼요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"국가의 경제 성장률이 높아지면 사람들이 더 많은 일자리를 찾을 수 있어요!\",\n       \"경제 성장률이 낮아지면 사람들의 소득이 줄어들 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"GDP\",\n           \"easy\": \"한 나라에서 한 해 동안 만들어진 모든 재화와 서비스의 가치예요\",\n           \"example\": \"GDP가 높으면 나라의 경제가 잘 돌아가는 거예요\"\n       }\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"인도네시아 예산 적자\",\n   \"one_liner\": \"인도네시아 대통령이 2027년 예산에서 GDP의 2.4%만큼의 적자를 제안했어요\",\n   \"why_now\": \"국가 예산이 어떻게 짜이는지 알려면 중요해요\",\n   \"impact_line\": \"인도네시아의 경제 성장에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"인도네시아 대통령은 2027년 예산에서 GDP의 2.4%만큼의 적자를 제안했어요\",\n       \"루마니아의 경제 컨설턴트는 루마니아가 3분기와 4분기에 약간의 경제 하락을 기록할 수 있다고 말했어요\",\n       \"네덜란드 경제 연구소는 네덜란드 경제가 2026년에 1.4% 성장할 것으로 예상했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"인도네시아의 경제 성장이 둔화할 수 있어요\",\n       \"루마니아의 경제 하락이 유럽 경제에 영향을 줄 수 있어요\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"GDP\",\n           \"easy\": \"한 나라의 전체 경제 규모를 나타내는 수치예요\",\n           \"example\": \"GDP가 증가하면 나라의 경제가 성장하고 있는 거예요\"\n       }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
+     "effects[0] 느낌표 종결 아님",
+     "effects[1] 느낌표 종결 아님",
      "입력에 없는 숫자: [1.4, 2.4]"
     ]
    },
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [1.4, 2.4]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -245,11 +247,11 @@
    "effects": [],
    "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "6ec6232cbbc767264142a85af4e26529ae89b636"
+  "fact_hash": "f8ae75403d4b78d777f347dd72c643a065a5b7e7"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.4, 2.4]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.4, 2.4]\"]}]}",
-  "at": "2026-08-15T01:56:09.860892+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [1.4, 2.4]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T05:47:42.282398+00:00"
  },
  "glossary": [
   {
