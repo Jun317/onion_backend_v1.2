@@ -867,61 +867,48 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-15T01:55:23.486729+00:00",
+  "model": "template",
+  "created_at": "2026-08-15T07:54:15.697324+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
    "headlines": [
     "Mortgage Rates Today , Friday , August 14 : A Little Lower",
+    "Morning Briefing : Aug . 15 , 2026",
     "Infrastructure Stocks To Follow Now – August 13th",
     "How major US stock indexes fared Friday 8 / 14 / 2026",
-    "Mortgage rates see first drop in six weeks : Mortgage and refinance interest rates today , Thursday , August 13 , 2026",
-    "Trump America keeps getting worse - Chicago Sun - Times"
+    "Mortgage rates see first drop in six weeks : Mortgage and refinance interest rates today , Thursday , August 13 , 2026"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"주택담보대출 금리 하락\",\n  \"one_liner\": \"주택담보대출 금리가 6주 만에 처음으로 하락했어요.\",\n  \"why_now\": \"주택담보대출 금리가 내리면 집을 사거나 돈을 빌릴 때 이자 부담이 줄어들 수 있어요.\",\n  \"impact_line\": \"주택 구매 부담이 조금 가벼워질 수 있어요.\",\n  \"details\": [\n    \"주택담보대출 금리가 6주 만에 처음으로 떨어졌어요.\",\n    \"지난 목요일(8월 13일)에 금리가 하락했어요.\",\n    \"금리가 조금 낮아졌다는 소식이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"주택 구매를 고려하는 사람들의 이자 부담이 줄어들 수 있어요!\",\n    \"주택 시장에 긍정적인 영향을 줄 수 있을 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주택담보대출\",\n      \"easy\": \"집을 담보로 돈을 빌리는 대출이에요.\",\n      \"example\": \"주택담보대출 금리가 오르면 이자 부담이 커져요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
    }
   ],
   "output": {
-   "title": "주택담보대출 금리 하락",
-   "one_liner": "주택담보대출 금리가 6주 만에 처음으로 하락했어요.",
-   "why_now": "주택담보대출 금리가 내리면 집을 사거나 돈을 빌릴 때 이자 부담이 줄어들 수 있어요.",
+   "title": "Mortgage Rates Today…",
+   "one_liner": "Mortgage Rates Today , Friday , August 14 : A…",
+   "why_now": null,
    "details": [
-    "주택담보대출 금리가 6주 만에 처음으로 떨어졌어요.",
-    "지난 목요일(8월 13일)에 금리가 하락했어요.",
-    "금리가 조금 낮아졌다는 소식이에요."
+    "Mortgage Rates Today , Friday , August 14 : A Little Lower",
+    "Morning Briefing : Aug . 15 , 2026",
+    "Infrastructure Stocks To Follow Now – August 13th"
    ],
-   "effects": [
-    "주택 구매를 고려하는 사람들의 이자 부담이 줄어들 수 있어요!",
-    "주택 시장에 긍정적인 영향을 줄 수 있을 것으로 예상돼요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "kr_base_rate"
   },
-  "fact_hash": "12ad55d8966e3c6d16ecb354b88c396912812f7a"
+  "fact_hash": "a3b4ca5776a9c94d7b910e2d0a17d34a4d75c61e"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-14T12:04:01.629470+00:00"
+  "at": "2026-08-15T07:54:15.697214+00:00"
  },
- "glossary": [
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "ccec1fdb78ce6d4ce",

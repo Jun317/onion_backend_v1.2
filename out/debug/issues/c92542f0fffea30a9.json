@@ -2,18 +2,28 @@
  "id": "c92542f0fffea30a9",
  "title": "Exclusive - US to tell partners they must pick sides in AI race with China",
  "category": "GEO",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "CHINA"
  ],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 2,
+ "importance": 70,
  "created_at": "2026-08-15T07:05:03.445821+00:00",
- "last_update": "2026-08-15T07:05:03.445821+00:00",
+ "last_update": "2026-08-15T07:49:19.904968+00:00",
  "members": [
+  {
+   "id": "0b872a931368d80da4658241e1c56a0db7ae2dc3",
+   "source": "livemint.com",
+   "tier": "wire",
+   "url": "https://www.livemint.com/newsletters/trumps-hidden-flight-netanyahu-s-defiance-and-india-s-china-problem-11786707645679.html",
+   "title": "Trump hidden flight , Netanyahu defiance and India China problem",
+   "published_at": "2026-08-15T05:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8722
+  },
   {
    "id": "b1b4a94ca05029e7b723e9365bf7ada3313248d3",
    "source": "economictimes.indiatimes.com",
@@ -22,7 +32,7 @@
    "title": "US to tell partners they must pick sides in AI race with China",
    "published_at": "2026-08-15T05:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9964
+   "sim_to_centroid": 0.9948
   },
   {
    "id": "fc2680b7f76d586d49c9ac745c422ec6f8c1d3ef",
@@ -32,11 +42,18 @@
    "title": "Exclusive - US to tell partners they must pick sides in AI race with China",
    "published_at": "2026-08-14T23:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9964
+   "sim_to_centroid": 0.9952
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Trump hidden flight , Netanyahu defiance and India China problem",
+   "source": "livemint.com",
+   "url": "https://www.livemint.com/newsletters/trumps-hidden-flight-netanyahu-s-defiance-and-india-s-china-problem-11786707645679.html",
+   "at": "2026-08-15T05:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "US to tell partners they must pick sides in AI race with China",
@@ -52,8 +69,50 @@
    "at": "2026-08-14T23:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-15T07:49:37.585740+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Trump hidden flight , Netanyahu defiance and India China problem",
+    "US to tell partners they must pick sides in AI race with China"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미국과 중국의 AI 경쟁\",\n   \"one_liner\": \"미국이 중국과 인공지능 경쟁에서 편을 고르라고 동맹국에 말했다고 해요.\",\n   \"why_now\": \"미국과 중국의 경쟁이 심해지고 있어요.\",\n   \"impact_line\": \"기술 개발에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"미국과 중국은 인공지능 기술 개발에서 경쟁하고 있어요.\",\n       \"미국은 동맹국에 중국과 미국 중 하나를 선택하라고 말했다고 해요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국과 중국의 경쟁이 심해지면 기술 개발이 더 빠르게 진행될 수 있어요!\",\n       \"경쟁이 심해지면 기술 가격이 더 비싸질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Trump hidden flight…",
+   "one_liner": "Trump hidden flight , Netanyahu defiance and…",
+   "why_now": null,
+   "details": [
+    "Trump hidden flight , Netanyahu defiance and India China problem",
+    "US to tell partners they must pick sides in AI race with China"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "d69f1aeb7f910d9e9b87331bbabfa6924f998e18"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T07:49:37.585433+00:00"
+ },
  "glossary": [],
  "related": [
   {
