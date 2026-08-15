@@ -9,11 +9,21 @@
  "entity_keys": [
   "ORCL"
  ],
- "seen_sources": 3,
- "importance": 100,
+ "seen_sources": 4,
+ "importance": 105,
  "created_at": "2026-08-12T08:44:41.556897+00:00",
- "last_update": "2026-08-14T23:44:06.095824+00:00",
+ "last_update": "2026-08-15T08:51:27.685901+00:00",
  "members": [
+  {
+   "id": "61193dde1fbd83c55abe4397a38a7a5218c65e82",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/08/15/if-youd-invested-10000-in-oracle-a-year-ago-heres/?source=iedfolrf0000001",
+   "title": "If Youd Invested $10 , 000 in Oracle a Year Ago , Here What It Would Be Worth Today",
+   "published_at": "2026-08-15T08:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8923
+  },
   {
    "id": "bfcf943983148087dee9b30cc1089116cd11e181",
    "source": "finance.yahoo.com",
@@ -22,7 +32,7 @@
    "title": "Why Oracle Stock Got Trounced Today",
    "published_at": "2026-08-14T22:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9148
+   "sim_to_centroid": 0.9203
   },
   {
    "id": "94772136f9de4d1550978f9c6e20620ea5aeaf16",
@@ -42,7 +52,7 @@
    "title": "Oracle Financial Services Software Shares Fall 2 . 10 % on Wednesday - Moneycontrol . com",
    "published_at": "2026-08-12T07:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9517
+   "sim_to_centroid": 0.9503
   },
   {
    "id": "25be6f129fe65fa7c669e3c62df464816c249b84",
@@ -52,11 +62,18 @@
    "title": "Oracle Has Drawn Plans for Another Round of Job Cuts This Month",
    "published_at": "2026-08-11T20:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9628
+   "sim_to_centroid": 0.96
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "If Youd Invested $10 , 000 in Oracle a Year Ago , Here What It Would Be Worth Today",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/08/15/if-youd-invested-10000-in-oracle-a-year-ago-heres/?source=iedfolrf0000001",
+   "at": "2026-08-15T08:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Why Oracle Stock Got Trounced Today",
@@ -88,11 +105,12 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-15T05:48:30.083154+00:00",
+  "created_at": "2026-08-15T08:52:08.947744+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "If Youd Invested $10 , 000 in Oracle a Year Ago , Here What It Would Be Worth Today",
     "Why Oracle Stock Got Trounced Today",
     "Oracle planning new round of layoffs in August 2026",
     "Oracle Financial Services Software Shares Fall 2 . 10 % on Wednesday - Moneycontrol . com",
@@ -100,38 +118,32 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"오라클, 또 직원 감축 계획\",\n    \"one_liner\": \"오라클이 8월에 또 직원을 줄이는 계획을 세우고 있어요.\",\n    \"why_now\": \"회사가 직원을 줄인다는 소식은 보통 주가에 부정적인 영향을 줘요.\",\n    \"impact_line\": \"오라클 주가가 하락하며 투자자들이 불안해하고 있어요.\",\n    \"details\": [\n        \"오라클이 8월에 직원 감축을 계획하고 있다는 보도가 나왔어요.\",\n        \"이 소식으로 오라클 주가가 2.10% 하락했어요.\",\n        \"이전에도 오라클은 직원 감축을 진행한 적이 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"회사의 실적이 좋지 않다는 신호로 해석될 수 있어요!\",\n        \"직원 감축은 회사의 미래 성장 전망에 대한 우려를 키울 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"오라클\",\n            \"easy\": \"미국의 유명한 컴퓨터 소프트웨어 및 클라우드 서비스 회사예요.\",\n            \"example\": \"오라클은 기업용 데이터베이스 관리 시스템으로 유명해요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [2.1]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [2.1]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
   "output": {
-   "title": "Why Oracle Stock Got…",
-   "one_liner": "Why Oracle Stock Got Trounced Today",
+   "title": "If Youd Invested $10…",
+   "one_liner": "If Youd Invested $10 , 000 in Oracle a Year Ago…",
    "why_now": null,
    "details": [
+    "If Youd Invested $10 , 000 in Oracle a Year Ago , Here What It Would Be Worth Today",
     "Why Oracle Stock Got Trounced Today",
-    "Oracle planning new round of layoffs in August 2026",
-    "Oracle Financial Services Software Shares Fall 2 . 10 % on Wednesday - Moneycontrol . com"
+    "Oracle planning new round of layoffs in August 2026"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "b6084f8fdc5ebd278c6f52f72cbc7f8e7d7dc46a"
+  "fact_hash": "cbb2e53fef8a09e6c12070dc59f4fc6e788dd669"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.1]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [2.1]\"]}]}",
-  "at": "2026-08-15T05:48:30.083049+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T08:52:08.947628+00:00"
  },
  "glossary": [],
  "related": [
