@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-15T07:54:15.697324+00:00",
+  "created_at": "2026-08-15T11:41:20.448531+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -881,8 +881,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 주택담보대출 금리 하락\",\n   \"one_liner\": \"미국 주택담보대출 금리가 조금 내렸어요\",\n   \"why_now\": \"주택담보대출 금리가 내리면 집 사는 사람이 부담하는 이자가 줄어들 수 있어요\",\n   \"impact_line\": \"미국에서 집을 사거나 재융자하는 사람이 부담하는 이자가 줄어들 수 있어요\",\n   \"details\": [\n       \"미국 주택담보대출 금리가 6주 만에 처음으로 내렸어요\",\n       \"미국 주택담보대출 금리 하락으로 주택 시장이 활성화될 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주택담보대출 금리 하락으로 집을 사거나 재융자하는 사람이 늘어날 수 있어요!\",\n       \"주택 시장이 활성화되면 관련 산업도 함께 성장할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +911,8 @@
   "fact_hash": "a3b4ca5776a9c94d7b910e2d0a17d34a4d75c61e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-15T07:54:15.697214+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T11:41:20.448169+00:00"
  },
  "glossary": [],
  "related": [
@@ -935,8 +941,8 @@
    "shared": []
   },
   {
-   "id": "c71b0b5d782052f63",
-   "title": "Bank Of Japan Maintains Key Rate",
+   "id": "cbc556bb9223e0519",
+   "title": "US Sells 30 - Year Bonds at Highest Interest Rate Since 2001",
    "category": "RATE",
    "shared": []
   }

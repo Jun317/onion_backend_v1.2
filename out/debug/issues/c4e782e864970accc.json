@@ -2,107 +2,23 @@
  "id": "c4e782e864970accc",
  "title": "Walmart set for in - line Q2 as investors eye tariff refund plans , 2H guidance",
  "category": "EARNINGS",
- "status": "active",
+ "status": "archived",
  "origin": "cluster",
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
+  "FED",
+  "HD",
   "WMT"
  ],
- "seen_sources": 2,
+ "seen_sources": 3,
  "importance": 75,
  "created_at": "2026-08-14T21:46:28.469695+00:00",
- "last_update": "2026-08-14T22:46:12.668278+00:00",
- "members": [
-  {
-   "id": "703756d8b23f091a93d71f59baac536faf424c85",
-   "source": "investors.com",
-   "tier": "wire",
-   "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-ready-to-run-sandisk-skyrockets-but-must-do-this-walmart-target-due/",
-   "title": "Dow Jones Futures : Market Ready To Run ? Sandisk Skyrockets , But Must Do This ; Walmart , Target Due",
-   "published_at": "2026-08-14T21:00:00+00:00",
-   "is_dup": 0,
-   "sim_to_centroid": 0.9701
-  },
-  {
-   "id": "7111487120024a23eb1b64120cc143fffceb6ec1",
-   "source": "investors.com",
-   "tier": "wire",
-   "url": "https://www.investors.com:443/market-trend/stock-market-today/dow-jones-futures-market-ready-to-run-sandisk-skyrockets-but-must-do-this-walmart-target-due/",
-   "title": "Dow Jones Futures : Market Ready To Run ? Sandisk Skyrockets , But Must Do This ; Walmart , Target Due",
-   "published_at": "2026-08-14T21:00:00+00:00",
-   "is_dup": 1,
-   "sim_to_centroid": 0.9701
-  },
-  {
-   "id": "bf686c79f0b7254806cddbb3c6bce5a230c5ab6f",
-   "source": "finance.yahoo.com",
-   "tier": "wire",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-set-line-q2-investors-143800559.html",
-   "title": "Walmart set for in - line Q2 as investors eye tariff refund plans , 2H guidance",
-   "published_at": "2026-08-14T15:15:00+00:00",
-   "is_dup": 0,
-   "sim_to_centroid": 0.9555
-  }
- ],
+ "last_update": "2026-08-15T11:41:02.666987+00:00",
+ "members": [],
  "anchors": [],
- "timeline": [
-  {
-   "kind": "headline",
-   "title": "Dow Jones Futures : Market Ready To Run ? Sandisk Skyrockets , But Must Do This ; Walmart , Target Due",
-   "source": "investors.com",
-   "url": "https://www.investors.com:443/market-trend/stock-market-today/dow-jones-futures-market-ready-to-run-sandisk-skyrockets-but-must-do-this-walmart-target-due/",
-   "at": "2026-08-14T21:00:00+00:00"
-  },
-  {
-   "kind": "headline",
-   "title": "Dow Jones Futures : Market Ready To Run ? Sandisk Skyrockets , But Must Do This ; Walmart , Target Due",
-   "source": "investors.com",
-   "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-ready-to-run-sandisk-skyrockets-but-must-do-this-walmart-target-due/",
-   "at": "2026-08-14T21:00:00+00:00"
-  },
-  {
-   "kind": "headline",
-   "title": "Walmart set for in - line Q2 as investors eye tariff refund plans , 2H guidance",
-   "source": "finance.yahoo.com",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-set-line-q2-investors-143800559.html",
-   "at": "2026-08-14T15:15:00+00:00"
-  }
- ],
- "llm": {
-  "model": "template",
-  "created_at": "2026-08-15T08:58:42.597047+00:00",
-  "payload": {
-   "category": "EARNINGS",
-   "anchors": [],
-   "headlines": [
-    "Dow Jones Futures : Market Ready To Run ? Sandisk Skyrockets , But Must Do This ; Walmart , Target Due",
-    "Walmart set for in - line Q2 as investors eye tariff refund plans , 2H guidance"
-   ],
-   "official_lines": []
-  },
-  "raw_response": "",
-  "attempts": [
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
-   }
-  ],
-  "output": {
-   "title": "Dow Jones Futures :…",
-   "one_liner": "Dow Jones Futures : Market Ready To Run ?…",
-   "why_now": null,
-   "details": [
-    "Dow Jones Futures : Market Ready To Run ? Sandisk Skyrockets , But Must Do This ; Walmart , Target Due",
-    "Walmart set for in - line Q2 as investors eye tariff refund plans , 2H guidance"
-   ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
-  },
-  "fact_hash": "3525587e559a8c4ab1db0c8d88431323d806efc3"
- },
+ "timeline": [],
+ "llm": null,
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-15T08:58:42.596982+00:00"
@@ -114,7 +30,16 @@
    "title": "Fed Holds Interest Rates Steady Amid Inflation From Iran Conflict",
    "category": "RATE",
    "shared": [
+    "FED",
     "WMT"
+   ]
+  },
+  {
+   "id": "cb3030e4a5acd0008",
+   "title": "Fed Governor Lisa D Cook reaffirms 2 % inflation target as price risks outweigh employment concerns",
+   "category": "MACRO",
+   "shared": [
+    "FED"
    ]
   },
   {
@@ -124,24 +49,20 @@
    "shared": []
   },
   {
-   "id": "ccc137270dbb9d742",
-   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
-   "category": "MARKET",
+   "id": "c2efbf61ddb697589",
+   "title": "Democratic attorneys general , governors sue feds over tariffs",
+   "category": "POLICY",
    "shared": [
-    "WMT"
+    "FED"
    ]
   },
   {
-   "id": "c82a3b5d145e7a47c",
-   "title": "Armanino Foods of Distinction , Inc .: Armanino Foods Reports Record Second Quarter 2026 Net Sales",
+   "id": "c1731cf1ebf398959",
+   "title": "Home Depot CEO Ted Decker takes medical leave , two execs take over temporarily",
    "category": "EARNINGS",
-   "shared": []
-  },
-  {
-   "id": "c71be4b20900d177d",
-   "title": "Interview : China zero - tariff treatment for African products opens new chapter in economic cooperation , says Nigerien expert",
-   "category": "POLICY",
    "shared": [
+    "FED",
+    "HD",
     "WMT"
    ]
   }
