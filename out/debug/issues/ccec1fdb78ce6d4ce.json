@@ -206,62 +206,47 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-14T10:30:39.421999+00:00",
+  "model": "template",
+  "created_at": "2026-08-15T04:03:09.252829+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
    "headlines": [
+    "ECB Finds Crypto Payment Acceptance Below 1 % in Euro Area",
+    "Will the ECB Raise Interest Rates Again in 2026 , but Cut Them in 2027 ?",
     "ECB to raise interest rates – Shafaqna English | International Shia News & Fatwas",
     "ECB sees no grounds to block UniCredit - Commerzbank deal"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"유럽 금리 인상\",\n   \"one_liner\": \"유럽 중앙은행이 금리를 올리려고 해요\",\n   \"why_now\": \"금리가 오르면 물가가 상승하는 걸 막을 수 있어요\",\n   \"impact_line\": \"유럽에서 돈을 빌리거나 예금을 할 때 영향을 받을 수 있어요\",\n   \"details\": [\n       \"유럽 중앙은행이 금리를 인상할 계획이라고 보도했어요\",\n       \"유럽에서 금리가 오르면 대출이 더 어려워질 수 있어요\",\n       \"유럽의 경제 상황에 따라 금리 결정이 달라질 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"유럽의 물가가 더 오르지 않도록 할 수 있어요!\",\n       \"유럽에서 사업을 하는 기업에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "유럽 금리 인상",
-   "one_liner": "유럽 중앙은행이 금리를 올리려고 해요",
-   "why_now": "금리가 오르면 물가가 상승하는 걸 막을 수 있어요",
+   "title": "ECB Finds Crypto…",
+   "one_liner": "ECB Finds Crypto Payment Acceptance Below 1 % in…",
+   "why_now": null,
    "details": [
-    "유럽 중앙은행이 금리를 인상할 계획이라고 보도했어요",
-    "유럽에서 금리가 오르면 대출이 더 어려워질 수 있어요",
-    "유럽의 경제 상황에 따라 금리 결정이 달라질 수 있어요"
+    "ECB Finds Crypto Payment Acceptance Below 1 % in Euro Area",
+    "Will the ECB Raise Interest Rates Again in 2026 , but Cut Them in 2027 ?",
+    "ECB to raise interest rates – Shafaqna English | International Shia News & Fatwas"
    ],
-   "effects": [
-    "유럽의 물가가 더 오르지 않도록 할 수 있어요!",
-    "유럽에서 사업을 하는 기업에 영향을 줄 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "kr_base_rate"
   },
-  "fact_hash": "a412f45b17f967d502b666e2fd4758401661f595"
+  "fact_hash": "f5c06ad2800b91b26401897bf61cedcc3cda311e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-08-14T06:50:15.870409+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T04:03:09.252706+00:00"
  },
- "glossary": [
-  {
-   "term": "금리 인상",
-   "easy": "이자의 기준을 올리는 거예요.",
-   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
-  },
-  {
-   "term": "중앙은행",
-   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
-   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
-  },
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "cea83213c8906724e",

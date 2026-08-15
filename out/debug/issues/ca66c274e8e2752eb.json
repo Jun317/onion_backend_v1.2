@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-14T10:40:11.277507+00:00",
+  "created_at": "2026-08-15T04:00:23.188926+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,8 +881,16 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기업 소식\",\n   \"one_liner\": \"여러 기업의 소식이 나왔어요\",\n   \"why_now\": \"이 소식은 투자자들에게 중요한 정보를 제공해요\",\n   \"impact_line\": \"주식 시장에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"Prologis가 Segro를 인수하기 위해 187억 달러의 최종 제안을 했어요\",\n       \"BP의 셰일 가스 사업이 240억 달러 이상의 가치가 있다고 분석했어요\",\n       \"투자자들이 PPL의 콜 옵션을大量으로 샀어요\",\n       \"MACC가 KWAP의 eFishery 투자 손실에 대한 문서를 검토하고 있어요\",\n       \"BlackRock Smaller Companies Trust Plc의 포트폴리오가 업데이트 되었어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주식 시장의 변동이 예상돼요\",\n       \"투자자들의 관심이 집중될 수 있어요\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "effects[0] 느낌표 종결 아님",
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [187.0, 240.0]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +913,8 @@
   "fact_hash": "788e7d46f43fc0b46e49fc6b223c00a6ad6bf84e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-14T10:40:11.277421+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [187.0, 240.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T04:00:23.188649+00:00"
  },
  "glossary": [
   {

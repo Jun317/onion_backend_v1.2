@@ -87,45 +87,45 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-14T10:30:48.585622+00:00",
+  "model": "template",
+  "created_at": "2026-08-15T04:04:04.603515+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "Japan eyes nonartificial intelligence",
     "How Indonesia Can Get Ahead in the Artificial Intelligence Race",
     "Hold Intel And Strictly Follow These Binary Catalysts",
     "Nigeria banking technology market in 2027 : The shift from digital channels to intelligent infrastructure"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"인공지능 경쟁력 강화 방안\", \"one_liner\": \"인도네시아가 인공지능 경쟁에서 앞서나가기 위한 방안을 모색하고 있어요.\", \"why_now\": \"인공지능 기술은 미래 산업의 핵심으로, 국가 경쟁력을 좌우할 수 있어요.\", \"impact_line\": \"인공지능 기술 발전은 우리 생활을 더 편리하게 만들 수 있어요.\", \"details\": [\"인도네시아가 인공지능 경쟁에서 앞서나가기 위한 방안을 모색하고 있어요.\", \"인공지능 기술은 미래 산업의 핵심으로 여겨지고 있어요.\", \"인공지능 기술 발전은 국가 경쟁력을 높이는 데 중요해요.\"], \"visual_type\": \"none\", \"effects\": [\"인공지능 기술 발전은 새로운 산업과 일자리를 창출할 수 있어요!\", \"인공지능 기술은 교육, 의료, 교통 등 다양한 분야에서 혁신을 가져올 수 있어요!\"], \"glossary\": [{\"term\": \"인공지능\", \"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\", \"example\": \"인공지능 스피커에게 날씨를 물어볼 수 있어요.\"}]}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "인공지능 경쟁력 강화 방안",
-   "one_liner": "인도네시아가 인공지능 경쟁에서 앞서나가기 위한 방안을 모색하고 있어요.",
-   "why_now": "인공지능 기술은 미래 산업의 핵심으로, 국가 경쟁력을 좌우할 수 있어요.",
+   "title": "Japan eyes nonartific…",
+   "one_liner": "Japan eyes nonartificial intelligence",
+   "why_now": null,
    "details": [
-    "인도네시아가 인공지능 경쟁에서 앞서나가기 위한 방안을 모색하고 있어요.",
-    "인공지능 기술은 미래 산업의 핵심으로 여겨지고 있어요.",
-    "인공지능 기술 발전은 국가 경쟁력을 높이는 데 중요해요."
+    "Japan eyes nonartificial intelligence",
+    "How Indonesia Can Get Ahead in the Artificial Intelligence Race",
+    "Hold Intel And Strictly Follow These Binary Catalysts"
    ],
-   "effects": [
-    "인공지능 기술 발전은 새로운 산업과 일자리를 창출할 수 있어요!",
-    "인공지능 기술은 교육, 의료, 교통 등 다양한 분야에서 혁신을 가져올 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "9d84f59f275b951438808479c561e4b3b8acb136"
+  "fact_hash": "82c2547c81c78f39ddf2db8b6727d0e6133e6979"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}]}",
-  "at": "2026-08-14T06:50:43.724429+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T04:04:04.603400+00:00"
  },
  "glossary": [],
  "related": [
