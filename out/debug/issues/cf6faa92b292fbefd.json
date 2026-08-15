@@ -632,8 +632,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T12:03:23.061764+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-15T01:55:26.479751+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -648,32 +648,27 @@
     "Federal Reserve Board issues enforcement action with former employee of Regions Bank"
    ]
   },
-  "raw_response": "{\"title\": \"미국 연준, 전 직원 제재\", \"one_liner\": \"미국 연준이 지역 은행 전 직원에 대해 제재 조치를 내렸어요.\", \"why_now\": \"금융 기관 직원의 부적절한 행위에 대한 제재는 금융 시장의 신뢰를 지키는 데 중요해요.\", \"impact_line\": \"금융 시장의 신뢰가 유지될 것으로 예상돼요.\", \"details\": [\"미국 연준이 지역 은행 전 직원에 대한 제재 조치를 발표했어요.\", \"이번 조치는 금융 시장의 건전성을 유지하기 위한 것으로 보여요.\"], \"visual_type\": \"none\", \"effects\": [\"금융 기관의 규정 준수 중요성이 더욱 강조될 것으로 예상돼요!\"], \"glossary\": [{\"term\": \"연준\", \"easy\": \"미국의 중앙은행을 말해요. 금리를 정하고 통화량을 조절하는 역할을 해요.\", \"example\": \"연준이 금리를 올리면 대출 이자가 비싸질 수 있어요.\"}, {\"term\": \"제재 조치\", \"easy\": \"규칙을 어기거나 잘못했을 때 내리는 벌이나 금지 조치예요.\", \"example\": \"음주운전을 하면 면허 정지라는 제재 조치를 받게 돼요.\"}], \"impact_line\": \"금융 시장의 신뢰가 유지될 것으로 예상돼요.\"}",
+  "raw_response": "{\n  \"title\": \"미국 중앙은행 조치\",\n   \"one_liner\": \"미국 중앙은행이 한 은행 직원을 처분했어요\",\n   \"why_now\": \"은행 직원이 규칙을 어렸기 때문이에요\",\n   \"impact_line\": \"은행 업무에 신뢰가 높아질 수 있어요\",\n   \"details\": [\n      \"미국 중앙은행이 한 은행 직원을 처분했어요\",\n      \"처분은 규칙을 어긴 직원에게 내려졌어요\",\n      \"은행 업무의 투명성과 안정성이 중요해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"은행의 내부 통제가 강화될 수 있어요!\",\n      \"은행의 신뢰도가 높아져 고객이 늘 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 에 한자/가나 포함"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Nirmala Sitharaman…",
-   "one_liner": "Nirmala Sitharaman meets Indonesian Vice…",
-   "why_now": null,
+   "title": "미국 중앙은행 조치",
+   "one_liner": "미국 중앙은행이 한 은행 직원을 처분했어요",
+   "why_now": "은행 직원이 규칙을 어렸기 때문이에요",
    "details": [
-    "Nirmala Sitharaman meets Indonesian Vice Minister of Finance Juda Agung ; Discusses financial sector ties and local currency transactions",
-    "India In Contact With US Over Trade Deal Talks , Says Commerce Secretary",
-    "Private Market Talks : Manager Selection , Secondaries , And The Power Law With CF Private Equity Mark Hoeing ( Podcast )"
+    "미국 중앙은행이 한 은행 직원을 처분했어요",
+    "처분은 규칙을 어긴 직원에게 내려졌어요",
+    "은행 업무의 투명성과 안정성이 중요해요"
    ],
-   "effects": [],
-   "visual_type": "usdkrw"
+   "effects": [
+    "은행의 내부 통제가 강화될 수 있어요!",
+    "은행의 신뢰도가 높아져 고객이 늘 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "6d0771351f7f5c386f59b121f82cf0757b7e8c9e"
  },
@@ -681,7 +676,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
   "at": "2026-08-14T12:03:23.061590+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  }
+ ],
  "related": [
   {
    "id": "cea83213c8906724e",

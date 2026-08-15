@@ -52,8 +52,44 @@
    "at": "2026-08-13T03:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-15T02:05:10.832729+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Eli Lilly Stock Nears Buy Point After Earnings - Fueled Gains",
+    "Eli Lilly ( LLY ) Q2 2026 Earnings Call Transcript"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Eli Lilly Stock…",
+   "one_liner": "Eli Lilly Stock Nears Buy Point After Earnings -…",
+   "why_now": null,
+   "details": [
+    "Eli Lilly Stock Nears Buy Point After Earnings - Fueled Gains",
+    "Eli Lilly ( LLY ) Q2 2026 Earnings Call Transcript"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "b25064a27fb3ecabb803818a2d273996213708f7"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T02:05:10.832663+00:00"
+ },
  "glossary": [],
  "related": [
   {

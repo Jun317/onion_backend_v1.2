@@ -69,8 +69,46 @@
    "at": "2026-08-10T23:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-15T02:04:33.877584+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Caterpillar ( NYSE : CAT ) Trading Up 1 . 7 % Following Analyst Upgrade",
+    "Caterpillar ( CAT ) Q2 2026 Earnings Call Transcript",
+    "A $72 Billion Reason to Buy Caterpillar Stock Now"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Caterpillar ( NYSE :…",
+   "one_liner": "Caterpillar ( NYSE : CAT ) Trading Up 1 . 7 %…",
+   "why_now": null,
+   "details": [
+    "Caterpillar ( NYSE : CAT ) Trading Up 1 . 7 % Following Analyst Upgrade",
+    "Caterpillar ( CAT ) Q2 2026 Earnings Call Transcript",
+    "A $72 Billion Reason to Buy Caterpillar Stock Now"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "6fb91e940433bbed58c74158b253721cd240447f"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T02:04:33.877518+00:00"
+ },
  "glossary": [],
  "related": [
   {

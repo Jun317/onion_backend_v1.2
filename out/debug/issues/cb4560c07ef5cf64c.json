@@ -799,38 +799,51 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T12:06:32.629990+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-15T01:57:38.962787+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "N65bn counterpart funds , N267bn education grants lying idle – UBEC – Daily Trust",
     "Ministry of Economy eliminated 2 million lei turnover condition from SME Eco - Tech programme",
-    "N65bn counterpart funds , N267bn education grants lying idle – UBEC – Daily Trust"
+    "Zambia suspends vote counting in election over reports of violence and the theft of ballot papers – Brandon Sun",
+    "NDC Hasnt Delivered Youth Manifesto Promises – Scanty – Ghanamma . com",
+    "Tinubu to Diaspora : Remittances not enough , invest in Nigeria"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"정부 정책\",\n   \"one_liner\": \"각국 정부가 여러 정책을 발표했어요\",\n   \"why_now\": \"정부 정책은 나라의 발전과 국민의 삶에 영향을 미치기 때문이에요\",\n   \"impact_line\": \"나라의 경제와 교육, 투자 환경이 바뀔 수 있어요\",\n   \"details\": [\n       \"나이지리아 정부가 교육 기금을 투자하지 않고 있어요\",\n       \"루마니아 정부가 중소기업 지원 프로그램의 조건을 완화했어요\",\n       \"잠비아 정부가 선거에서 폭력과 부정 투표가 발생해 투표 집계를 중단했어요\",\n       \"가나 정부가 청년 대책을 제대로 시행하지 못했어요\",\n       \"나이지리아 대통령이 해외에 거주하는 국민에게 투자할 것을 촉구했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"나라의 경제와 교육, 투자 환경이 바뀌어 국민의 삶에 영향을 미칠 수 있어요!\",\n       \"각국 정부의 정책이 나라의 발전과 국제 관계에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [200.0, 6500.0]"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Ministry of Economy…",
-   "one_liner": "Ministry of Economy eliminated 2 million lei…",
-   "why_now": null,
+   "title": "정부 정책",
+   "one_liner": "각국 정부가 여러 정책을 발표했어요",
+   "why_now": "정부 정책은 나라의 발전과 국민의 삶에 영향을 미치기 때문이에요",
    "details": [
-    "Ministry of Economy eliminated 2 million lei turnover condition from SME Eco - Tech programme",
-    "N65bn counterpart funds , N267bn education grants lying idle – UBEC – Daily Trust"
+    "나이지리아 정부가 교육 기금을 투자하지 않고 있어요",
+    "루마니아 정부가 중소기업 지원 프로그램의 조건을 완화했어요",
+    "잠비아 정부가 선거에서 폭력과 부정 투표가 발생해 투표 집계를 중단했어요",
+    "가나 정부가 청년 대책을 제대로 시행하지 못했어요",
+    "나이지리아 대통령이 해외에 거주하는 국민에게 투자할 것을 촉구했어요"
    ],
-   "effects": [],
+   "effects": [
+    "나라의 경제와 교육, 투자 환경이 바뀌어 국민의 삶에 영향을 미칠 수 있어요!",
+    "각국 정부의 정책이 나라의 발전과 국제 관계에 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "22efd4a7f9035dccd3e372b90510f79862d7c8b5"
+  "fact_hash": "ee62859c85eb246a62c81dd641c6853dbf5cbe0b"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

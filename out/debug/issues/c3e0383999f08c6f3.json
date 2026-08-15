@@ -852,8 +852,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T13:51:26.120939+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-15T01:56:26.256797+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -866,26 +866,29 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"이란 전쟁과 물가\",\n   \"one_liner\": \"이란 전쟁이 계속되는데도 7월 물가가 조금 낮아졌어요\",\n   \"why_now\": \"전쟁이 장기화하면 물가가 오를 수 있어요\",\n   \"impact_line\": \"생활 물품 가격이 오를 수 있어요\",\n   \"details\": [\n       \"이란 전쟁으로 물가가 어떻게 변할지 새로운 보고서가 나왔어요\",\n       \"이란 전쟁이 계속되면 세계에서 가장 빠르게 성장하는 경제에 영향을 줄 수 있어요\",\n       \"7월에 에너지 가격이 떨어지면서 물가가 조금 낮아졌어요\",\n       \"이란이 전쟁을 더 길게 할 계획이라고 발표했어요\",\n       \"월드컵과 더운 여름 날씨로 영국 경제가 이란 전쟁의 압력을 잘 버텨내고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"에너지 가격이 더 떨어질 수 있으면 물가가 더 낮아질 수 있어요!\",\n       \"전쟁이 길어지면 경제 성장이 더딘 것으로 예상돼요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "New report shows…",
-   "one_liner": "New report shows where inflation is headed as…",
-   "why_now": null,
+   "title": "이란 전쟁과 물가",
+   "one_liner": "이란 전쟁이 계속되는데도 7월 물가가 조금 낮아졌어요",
+   "why_now": "전쟁이 장기화하면 물가가 오를 수 있어요",
    "details": [
-    "New report shows where inflation is headed as Iran War continues",
-    "The Iran war risks bringing the G7 fastest - growing economy to a halt",
-    "July Inflation Cools as Energy Prices Drop Despite Ongoing Iran War"
+    "이란 전쟁으로 물가가 어떻게 변할지 새로운 보고서가 나왔어요",
+    "이란 전쟁이 계속되면 세계에서 가장 빠르게 성장하는 경제에 영향을 줄 수 있어요",
+    "7월에 에너지 가격이 떨어지면서 물가가 조금 낮아졌어요",
+    "이란이 전쟁을 더 길게 할 계획이라고 발표했어요",
+    "월드컵과 더운 여름 날씨로 영국 경제가 이란 전쟁의 압력을 잘 버텨내고 있어요"
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "에너지 가격이 더 떨어질 수 있으면 물가가 더 낮아질 수 있어요!",
+    "전쟁이 길어지면 경제 성장이 더딘 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "10ff922ee112f74ea76912e1f59f38033e09c03d"
  },
@@ -928,12 +931,10 @@
    ]
   },
   {
-   "id": "c5c8d55ad4217ee1f",
-   "title": "Federal government grounds Billy Bishop airport expansion",
-   "category": "POLICY",
-   "shared": [
-    "IRAN"
-   ]
+   "id": "cadc3cc699b3037d2",
+   "title": "Indonesia Prabowo proposes deficit at 2 . 4 % of GDP in 2027 budget",
+   "category": "MACRO",
+   "shared": []
   }
  ]
 }

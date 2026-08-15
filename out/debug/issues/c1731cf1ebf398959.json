@@ -69,8 +69,46 @@
    "at": "2026-08-12T19:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-15T02:04:52.314637+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Home Depot Inc ( HD ) Stock News & Articles",
+    "Home Depot , Baidu , and Klarna Lead a Busy 103 - Company Earnings Week",
+    "Home Depot CEO Ted Decker takes medical leave , two execs take over temporarily"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Home Depot Inc ( HD…",
+   "one_liner": "Home Depot Inc ( HD ) Stock News & Articles",
+   "why_now": null,
+   "details": [
+    "Home Depot Inc ( HD ) Stock News & Articles",
+    "Home Depot , Baidu , and Klarna Lead a Busy 103 - Company Earnings Week",
+    "Home Depot CEO Ted Decker takes medical leave , two execs take over temporarily"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "9cc2124a13ced1034f212faf8520ae6caafe1ede"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T02:04:52.314576+00:00"
+ },
  "glossary": [],
  "related": [
   {

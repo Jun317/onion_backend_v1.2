@@ -867,38 +867,49 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T12:07:10.612029+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-15T01:57:06.646314+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
-    "McDonald Faces Competition As Burger King Sales Rise",
-    "Trump tariffs return : Food industry faces legal battles"
+    "Surprise Drop In U . S . Retail Sales In July | News Talk 1090 WKBZ - AM",
+    "Surprise Drop In U . S . Retail Sales In July | Newsradio 970 KFBX - AM",
+    "Surprise Drop In U . S . Retail Sales In July | News Radio 690 KTSM",
+    "Surprise Drop In U . S . Retail Sales In July | News Talk 550 KFYI",
+    "Surprise Drop In U . S . Retail Sales In July | NewsRadio WKCY"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 소비자 물가\",\n   \"one_liner\": \"미국의 소비자 물가가 예상과 다르게 떨어졌어요\",\n   \"why_now\": \"소비자 물가가 떨어지면 경제가 둔화할 수 있어요\",\n   \"impact_line\": \"물건값이 내리면 장바구니 비용이 줄어들 수 있어요\",\n   \"details\": [\n      \"미국의 소비자 물가가 예상과 다르게 떨어졌어요\",\n      \"이것은 미국 경제에 영향을 미칠 수 있어요\",\n      \"소비자 물가가 떨어지면 경제가 둔화할 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"경제 둔화로 취업이 어려워질 수 있어요!\",\n      \"물건값이 내리면 소비자들이 더 많이 구매할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "McDonald Faces…",
-   "one_liner": "McDonald Faces Competition As Burger King Sales…",
-   "why_now": null,
+   "title": "미국 소비자 물가",
+   "one_liner": "미국의 소비자 물가가 예상과 다르게 떨어졌어요",
+   "why_now": "소비자 물가가 떨어지면 경제가 둔화할 수 있어요",
    "details": [
-    "McDonald Faces Competition As Burger King Sales Rise",
-    "Trump tariffs return : Food industry faces legal battles"
+    "미국의 소비자 물가가 예상과 다르게 떨어졌어요",
+    "이것은 미국 경제에 영향을 미칠 수 있어요",
+    "소비자 물가가 떨어지면 경제가 둔화할 수 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "경제 둔화로 취업이 어려워질 수 있어요!",
+    "물건값이 내리면 소비자들이 더 많이 구매할 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "153e9f136cc2d2d964769114b813d7c78a6195dc"
+  "fact_hash": "574f6831f3298c02c59c8f36747f707980efdc80"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

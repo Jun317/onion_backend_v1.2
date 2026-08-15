@@ -7,11 +7,31 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 110,
+ "seen_sources": 4,
+ "importance": 120,
  "created_at": "2026-08-14T12:03:19.864008+00:00",
- "last_update": "2026-08-14T12:03:19.866481+00:00",
+ "last_update": "2026-08-15T01:55:20.670978+00:00",
  "members": [
+  {
+   "id": "d8105b6f0344de1f230ba6b1ab7c53c507f24550",
+   "source": "foxbusiness.com",
+   "tier": "wire",
+   "url": "https://www.foxbusiness.com/politics/trump-linked-world-liberty-crypto-venture-gets-preliminary-approval-from-currency-comptroller",
+   "title": "OCC approves World Liberty Financial national bank charter for USD1",
+   "published_at": "2026-08-15T01:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8599
+  },
+  {
+   "id": "ac94b7eadb104f42550e686ff9ee5db48e8d4634",
+   "source": "hjnews.com",
+   "tier": "wire",
+   "url": "https://www.hjnews.com/news/local/utah-s-intense-dangerous-fire-season-could-be-its-most-expensive/article_cf2e4802-aa75-4e01-af99-37d6fa9a5f9e.html",
+   "title": "Utah intense , dangerous fire season could be its most expensive | Local News",
+   "published_at": "2026-08-15T01:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8706
+  },
   {
    "id": "11c6a0537f3fce712949c9d5c49806f3049fe410",
    "source": "theepochtimes.com",
@@ -20,7 +40,7 @@
    "title": "US Sells 30 - Year Bonds at Highest Interest Rate Since 2001",
    "published_at": "2026-08-14T10:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.976
+   "sim_to_centroid": 0.9717
   },
   {
    "id": "c335db59cfbd1ec5f563d381651c733ebb35f406",
@@ -30,11 +50,25 @@
    "title": "Manus on Markets : Costliest US bond sale since 2001",
    "published_at": "2026-08-14T10:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.976
+   "sim_to_centroid": 0.9733
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "OCC approves World Liberty Financial national bank charter for USD1",
+   "source": "foxbusiness.com",
+   "url": "https://www.foxbusiness.com/politics/trump-linked-world-liberty-crypto-venture-gets-preliminary-approval-from-currency-comptroller",
+   "at": "2026-08-15T01:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Utah intense , dangerous fire season could be its most expensive | Local News",
+   "source": "hjnews.com",
+   "url": "https://www.hjnews.com/news/local/utah-s-intense-dangerous-fire-season-could-be-its-most-expensive/article_cf2e4802-aa75-4e01-af99-37d6fa9a5f9e.html",
+   "at": "2026-08-15T01:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "US Sells 30 - Year Bonds at Highest Interest Rate Since 2001",
@@ -51,50 +85,73 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T12:03:43.153475+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-15T01:55:39.705505+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
    "headlines": [
+    "OCC approves World Liberty Financial national bank charter for USD1",
+    "Utah intense , dangerous fire season could be its most expensive | Local News",
     "US Sells 30 - Year Bonds at Highest Interest Rate Since 2001",
     "Manus on Markets : Costliest US bond sale since 2001"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 장기 국채 금리 상승\",\n   \"one_liner\": \"미국이 30년 만기 국채를 2001년 이후最高 금리로 판매했어요\",\n   \"why_now\": \"금리가 높아지면 돈을 빌리기가 어려워져서 물가가 상승하는 걸 막을 수 있어요\",\n   \"impact_line\": \"미국에서 돈을 빌리기가 어려워질 수 있어요\",\n   \"details\": [\n       \"미국이 30년 만기 국채를 판매했어요\",\n       \"판매한 국채의 금리는 2001년 이후最高이에요\",\n       \"이번 국채 판매가 미국에서 가장 비싼 국채 판매였어요\"\n   ],\n   \"visual_type\": \"us_10y\",\n   \"effects\": [\n       \"미국에서 돈을 빌리기가 어려워져서 소비와 투자가 줄어들 수 있어요!\",\n       \"미국 경제에 영향을 미쳐서 다른 나라의 경제에도 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"국채\",\n           \"easy\": \"국가가 발행해서 돈을 모으는 채권이에요\",\n           \"example\": \"국가가 국채를 발행해서 돈을 모아 국가의 사업을 운영해요\"\n       }\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"미국 국채 금리 상승\",\n   \"one_liner\": \"미국이 30년 만기 국채를 가장 높은 금리로 판매했어요\",\n   \"why_now\": \"금리가 오르면 돈을 빌리기가 어려워져요\",\n   \"impact_line\": \"대출금리와 장기 저축금리가 오를 수 있어요\",\n   \"details\": [\n       \"미국이 30년 만기 국채를 판매했어요\",\n       \"판매한 국채의 금리는 2001년 이후 가장 높아요\",\n       \"미국 국채 판매는 자금을 모으는 방법이에요\",\n       \"금리 상승은 경제에 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"us_10y\",\n   \"effects\": [\n       \"금리가 오르면 대출을 받기가 어려워져서 소비가 줄어들 수 있어요!\",\n       \"금리가 오르면 은행 예금 이자가 높아져서 저축이 유리해질 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"국채\",\n           \"easy\": \"정부가 발행하는 채권이에요\",\n           \"example\": \"국채를 사면 정부가 발행한 돈을 빌려주는 거예요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "one_liner 에 한자/가나 포함"
+     "why_now 55자 초과(56)",
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님"
     ]
    },
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "US Sells 30 - Year…",
-   "one_liner": "US Sells 30 - Year Bonds at Highest Interest…",
-   "why_now": null,
+   "title": "미국 국채 금리 상승",
+   "one_liner": "미국이 30년 만기 국채를 가장 높은 금리로 판매했어요",
+   "why_now": "금리가 오르면 돈을 빌리기가 어려워져요",
    "details": [
-    "US Sells 30 - Year Bonds at Highest Interest Rate Since 2001",
-    "Manus on Markets : Costliest US bond sale since 2001"
+    "미국이 30년 만기 국채를 판매했어요",
+    "판매한 국채의 금리는 2001년 이후 가장 높아요",
+    "미국 국채 판매는 자금을 모으는 방법이에요",
+    "금리 상승은 경제에 영향을 줄 수 있어요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "금리가 오르면 대출을 받기가 어려워져서 소비가 줄어들 수 있어요!",
+    "금리가 오르면 은행 예금 이자가 높아져서 저축이 유리해질 수 있어요!"
+   ],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "e9ee2046f66cb94f300a5e583636bfd697af8e49"
+  "fact_hash": "e82deda6336b15fe6d664f729923b2625a579bb3"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-14T12:03:43.153356+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "국채 금리",
+   "easy": "정부가 빌린 돈에 붙는 이자의 비율이에요.",
+   "example": "시장 전체 이자의 대표 잣대예요."
+  },
+  {
+   "term": "국채",
+   "easy": "정부가 돈을 빌리며 써준 '나라의 차용증'이에요.",
+   "example": "여기 붙는 이자가 시장 이자의 기준이 돼요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "ccec1fdb78ce6d4ce",

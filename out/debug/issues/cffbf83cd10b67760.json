@@ -867,44 +867,55 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T12:12:06.539875+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-15T01:57:17.849163+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
-    "Nationwide direct debit alert issued to all customers",
-    "Too far , too fast : alarm as NDIS revamp moves closer"
+    "Too far , too fast : alarm as NDIS revamp moves closer",
+    "Great anxiety to Viksit Bharat : Tracing India changing economic narrative",
+    "U . S . Dollar Slides As Near - Term Rate Hike Expectations Fade",
+    "India ride - hailing industry weighs zero commission as drivers eye Rs 1 . 36 lakh more",
+    "Nationwide direct debit alert issued to all customers"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"달러화 가치 하락\",\n   \"one_liner\": \"미국 달러화 가치가 떨어졌어요\",\n   \"why_now\": \"미국에서 금리를 올릴 가능성이 줄어들었어요\",\n   \"impact_line\": \"달러화 가치가 떨어지면 수출이 늘어날 수 있어요\",\n   \"details\": [\n       \"미국 달러화 가치가 떨어졌어요\",\n       \"미국에서 금리를 올릴 가능성이 줄어들었어요\",\n       \"달러화 가치가 떨어지면 수출이 늘어날 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"달러화 가치가 떨어지면 해외여행이 더 싸질 수 있어요!\",\n       \"달러화 가치가 떨어지면 수입품의 가격이 더 비싸질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Nationwide direct…",
-   "one_liner": "Nationwide direct debit alert issued to all…",
-   "why_now": null,
+   "title": "달러화 가치 하락",
+   "one_liner": "미국 달러화 가치가 떨어졌어요",
+   "why_now": "미국에서 금리를 올릴 가능성이 줄어들었어요",
    "details": [
-    "Nationwide direct debit alert issued to all customers",
-    "Too far , too fast : alarm as NDIS revamp moves closer"
+    "미국 달러화 가치가 떨어졌어요",
+    "미국에서 금리를 올릴 가능성이 줄어들었어요",
+    "달러화 가치가 떨어지면 수출이 늘어날 수 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "달러화 가치가 떨어지면 해외여행이 더 싸질 수 있어요!",
+    "달러화 가치가 떨어지면 수입품의 가격이 더 비싸질 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "7a57554de6496289091183ad0fcfa72aae6da99d"
+  "fact_hash": "94903a46de1e80910ffca44a25f3b16ebdc9203f"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-14T12:12:06.539812+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "c98bd778c694ae7cd",

@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 70,
+ "seen_sources": 3,
+ "importance": 75,
  "created_at": "2026-08-14T12:03:19.865601+00:00",
- "last_update": "2026-08-14T15:12:30.078452+00:00",
+ "last_update": "2026-08-15T01:55:20.676309+00:00",
  "members": [
+  {
+   "id": "19ade4ef635b28ec663efbea2142e60d170a58cc",
+   "source": "greatlakesadvocate.com.au",
+   "tier": "wire",
+   "url": "https://www.greatlakesadvocate.com.au/story/9327770/social-media-is-shining-a-light-on-tourists-behaving-badly/",
+   "title": "Social media is shining a light on tourists behaving badly | Great Lakes Advocate",
+   "published_at": "2026-08-15T01:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8521
+  },
   {
    "id": "399ef145ee4b35ce72317db5b7142c2941e10313",
    "source": "pagesix.com",
@@ -20,7 +30,7 @@
    "title": "Shannon Elizabeth teases how shell  push boundarie on OnlyFans",
    "published_at": "2026-08-14T14:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8681
+   "sim_to_centroid": 0.8772
   },
   {
    "id": "e425aeb40e8a30a3bd5202c25dac9dd137bcdbb8",
@@ -30,7 +40,7 @@
    "title": "Drag Race star Bimini warns nightclub closures  erode the soul  of LGBTQ+ communities",
    "published_at": "2026-08-14T10:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9985
+   "sim_to_centroid": 0.9956
   },
   {
    "id": "3a4bdedf3a98825a58abc3fdaab06454328a57fa",
@@ -40,11 +50,18 @@
    "title": "Drag Race star Bimini warns nightclub closures  erode the soul  of LGBTQ+ communities",
    "published_at": "2026-08-14T10:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9985
+   "sim_to_centroid": 0.9956
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Social media is shining a light on tourists behaving badly | Great Lakes Advocate",
+   "source": "greatlakesadvocate.com.au",
+   "url": "https://www.greatlakesadvocate.com.au/story/9327770/social-media-is-shining-a-light-on-tourists-behaving-badly/",
+   "at": "2026-08-15T01:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Shannon Elizabeth teases how shell  push boundarie on OnlyFans",
@@ -67,8 +84,46 @@
    "at": "2026-08-14T10:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-15T02:03:20.089121+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Social media is shining a light on tourists behaving badly | Great Lakes Advocate",
+    "Shannon Elizabeth teases how shell  push boundarie on OnlyFans",
+    "Drag Race star Bimini warns nightclub closures  erode the soul  of LGBTQ+ communities"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Social media is…",
+   "one_liner": "Social media is shining a light on tourists…",
+   "why_now": null,
+   "details": [
+    "Social media is shining a light on tourists behaving badly | Great Lakes Advocate",
+    "Shannon Elizabeth teases how shell  push boundarie on OnlyFans",
+    "Drag Race star Bimini warns nightclub closures  erode the soul  of LGBTQ+ communities"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "e8068be57969c7fdf04ecac481e106cc0485cf82"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T02:03:20.089038+00:00"
+ },
  "glossary": [],
  "related": [
   {

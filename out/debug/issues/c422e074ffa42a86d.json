@@ -732,25 +732,21 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-14T12:14:44.077461+00:00",
+  "created_at": "2026-08-15T02:02:06.174680+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
-    "Trump Media & Technology , Joby Aviation , and Archer Aviation Lead Small Cap Losers On Wednesday",
-    "Vanguard Mid - Cap Growth ETF ( NYSEARCA : VOT ) Reaches New 12 - Month High – Here What Happened"
+    "DocGo Inc ( DCGO ) Stock News & Articles",
+    "XP Inc - Class A ( XP ) Stock News & Articles",
+    "Baidu Inc ( BIDU ) Stock News & Articles",
+    "Flexsteel Industries Inc ( FLXS ) Stock News & Articles",
+    "BitFuFu Inc . Class A Ordinary Shares ( FUFU ) Stock News & Articles"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"소형주, 중형주 성장 ETF 상승\", \"one_liner\": \"미국 증시에서 소형주들이 하락하고 중형주 성장 ETF는 최고치를 기록했어요.\", \"why_now\": \"개별 종목의 등락과 특정 ETF의 상승은 시장 전반의 흐름을 보여줄 수 있어요.\", \"impact_line\": \"투자하는 펀드나 주식의 가치가 달라질 수 있어요.\", \"details\": [\"트럼프 미디어 기술 그룹과 조비 에비에이션, 아처 에비에이션 등 소형주들이 하락했어요.\", \"뱅가드 중형주 성장 ETF는 12개월 최고치를 경신했어요.\"], \"visual_type\": \"none\", \"effects\": [\"개별 소형주들은 하락했지만, 중형주에 투자하는 ETF는 상승하며 시장의 자금 흐름이 달라지고 있음을 보여줘요!\", \"투자자들은 시장 상황에 맞춰 투자 전략을 재검토할 필요가 있을 수 있어요.\"], \"glossary\": [{\"term\": \"ETF\", \"easy\": \"특정 지수를 따라 움직이도록 만들어진 펀드예요.\", \"example\": \"코스피 지수를 따라가는 ETF에 투자하면 코스피 지수가 오를 때 수익을 얻을 수 있어요.\"}]}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -759,21 +755,22 @@
    }
   ],
   "output": {
-   "title": "Trump Media &…",
-   "one_liner": "Trump Media & Technology , Joby Aviation , and…",
+   "title": "DocGo Inc ( DCGO )…",
+   "one_liner": "DocGo Inc ( DCGO ) Stock News & Articles",
    "why_now": null,
    "details": [
-    "Trump Media & Technology , Joby Aviation , and Archer Aviation Lead Small Cap Losers On Wednesday",
-    "Vanguard Mid - Cap Growth ETF ( NYSEARCA : VOT ) Reaches New 12 - Month High – Here What Happened"
+    "DocGo Inc ( DCGO ) Stock News & Articles",
+    "XP Inc - Class A ( XP ) Stock News & Articles",
+    "Baidu Inc ( BIDU ) Stock News & Articles"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "04c155cd09cbea4475cb072e4e6dfc74dbbb68e9"
+  "fact_hash": "f73a193e014f2cc72c4bbd16f25ca247e0e60bf1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-14T12:14:44.077395+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T02:02:06.174617+00:00"
  },
  "glossary": [],
  "related": [

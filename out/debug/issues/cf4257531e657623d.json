@@ -867,38 +867,43 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T12:06:51.702494+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-15T01:57:49.936827+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "Stakeholders demand transparency over $2 . 5bn livestock deal",
+    "Wensleydale Creamery owners sell united kingdom dairy division",
+    "Investigating cost of action in Afghanistan , who actually received taxpayer dollars",
     "Nigel Farage Documentary Set at 5 Amid Standards Probe",
-    "Stakeholders demand transparency over $2 . 5bn livestock deal"
+    "Navy replacing USS Lincoln after reports of psychological breakdown"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"대형 가축 거래 투명성 요구\",\n   \"one_liner\": \"가축 거래에 대한 투명성이 요구되고 있어요\",\n   \"why_now\": \"대형 거래는 많은 돈이 움직이기 때문에 투명성이 중요해요\",\n   \"impact_line\": \"식품 가격에 영향을 줄 수 있어요\",\n   \"details\": [\n      \"가축 거래에 대한 투명성이 요구되고 있어요\",\n      \"대형 가축 거래는 많은 돈이 움직여요\",\n      \"투명성이 중요해지고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"식품 가격에 영향을 줄 수 있어요!\",\n      \"투명성이 높아지면 소비자에게 좋을 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Nigel Farage…",
-   "one_liner": "Nigel Farage Documentary Set at 5 Amid Standards…",
-   "why_now": null,
+   "title": "대형 가축 거래 투명성 요구",
+   "one_liner": "가축 거래에 대한 투명성이 요구되고 있어요",
+   "why_now": "대형 거래는 많은 돈이 움직이기 때문에 투명성이 중요해요",
    "details": [
-    "Nigel Farage Documentary Set at 5 Amid Standards Probe",
-    "Stakeholders demand transparency over $2 . 5bn livestock deal"
+    "가축 거래에 대한 투명성이 요구되고 있어요",
+    "대형 가축 거래는 많은 돈이 움직여요",
+    "투명성이 중요해지고 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "식품 가격에 영향을 줄 수 있어요!",
+    "투명성이 높아지면 소비자에게 좋을 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "094137862f97a14680ff00a8d1da91c10d27cb17"
+  "fact_hash": "73b3fd96072440feb8325b649edb4d82c70fa259"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

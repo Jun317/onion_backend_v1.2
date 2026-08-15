@@ -88,19 +88,26 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-14T13:51:44.860840+00:00",
+  "created_at": "2026-08-15T01:56:54.339711+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "Why Oracle Stock Got Trounced Today",
     "Oracle planning new round of layoffs in August 2026",
     "Oracle Financial Services Software Shares Fall 2 . 10 % on Wednesday - Moneycontrol . com",
     "Oracle Has Drawn Plans for Another Round of Job Cuts This Month"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"오라클 구조조정\",\n   \"one_liner\": \"오라클이 다시 직원 감원을 할 계획이에요.\",\n   \"why_now\": \"회사 구조조정은 보통 비용을 줄이려고 해요.\",\n   \"impact_line\": \"오라클 직원들의 일자리가 불안해질 수 있어요.\",\n   \"details\": [\n       \"오라클이 2026년 8월에 다시 직원 감원을 할 계획이라고 보도됐어요.\",\n       \"오라클의 재무 서비스 소프트웨어 주가가 2.10% 떨어졌어요.\",\n       \"오라클이 이번에 또 직원 감원을 할 거라는 보도가 나왔어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"오라클 직원들이 해고될 가능성이 높아져서 생활이 어려워질 수 있어요!\",\n       \"오라클의 서비스 품질이 떨어질 가능성이 높아져서 고객들이 불편을 겪을 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [2.1]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -109,22 +116,22 @@
    }
   ],
   "output": {
-   "title": "Oracle planning new…",
-   "one_liner": "Oracle planning new round of layoffs in August…",
+   "title": "Why Oracle Stock Got…",
+   "one_liner": "Why Oracle Stock Got Trounced Today",
    "why_now": null,
    "details": [
+    "Why Oracle Stock Got Trounced Today",
     "Oracle planning new round of layoffs in August 2026",
-    "Oracle Financial Services Software Shares Fall 2 . 10 % on Wednesday - Moneycontrol . com",
-    "Oracle Has Drawn Plans for Another Round of Job Cuts This Month"
+    "Oracle Financial Services Software Shares Fall 2 . 10 % on Wednesday - Moneycontrol . com"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "d37251245c7510cf833abbc45163234f622864bd"
+  "fact_hash": "b6084f8fdc5ebd278c6f52f72cbc7f8e7d7dc46a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-14T13:51:44.860723+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.1]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T01:56:54.339578+00:00"
  },
  "glossary": [],
  "related": [

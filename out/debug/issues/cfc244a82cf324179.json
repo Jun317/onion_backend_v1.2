@@ -868,25 +868,21 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-14T12:13:11.794225+00:00",
+  "created_at": "2026-08-15T01:59:56.860008+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
    "headlines": [
-    "10 Bizarre Alternative Currencies That Actually Worked",
-    "Your Advisor Collects 1 % Every Year Whether You Make Money or Not . These 3 ETFs Fire the Middleman and Pay You Instead"
+    "We learned 5 important things about the economy this week",
+    "The Case for Putting Your Money Where Your Heart Already Is",
+    "Financial struggle : Five emergency moves that could save you thousands",
+    "2 Small - Cap Stocks on Our Watchlist and 1 We Turn Down",
+    "Reddit Shares Jump 15 % As It Joins The S & P 500 Next Week Here What To Know"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"대체 화폐 이야기\", \"one_liner\": \"세상에는 돈처럼 쓰였던 신기한 대체 화폐들이 있었어요.\", \"why_now\": \"돈의 가치와 쓰임새는 시대와 상황에 따라 달라질 수 있다는 것을 보여줘요.\", \"impact_line\": null, \"details\": [\"어떤 나라에서는 10가지의 독특한 대체 화폐가 실제로 사용된 적이 있어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"대체 화폐\", \"easy\": \"정식 화폐가 아닌 다른 것으로 대신해서 사용된 돈이에요.\", \"example\": \"물물교환 대신 조개껍데기를 돈처럼 썼던 것이 대체 화폐의 한 예예요.\"}]}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -895,21 +891,22 @@
    }
   ],
   "output": {
-   "title": "10 Bizarre Alternativ…",
-   "one_liner": "10 Bizarre Alternative Currencies That Actually…",
+   "title": "We learned 5…",
+   "one_liner": "We learned 5 important things about the economy…",
    "why_now": null,
    "details": [
-    "10 Bizarre Alternative Currencies That Actually Worked",
-    "Your Advisor Collects 1 % Every Year Whether You Make Money or Not . These 3 ETFs Fire the Middleman and Pay You Instead"
+    "We learned 5 important things about the economy this week",
+    "The Case for Putting Your Money Where Your Heart Already Is",
+    "Financial struggle : Five emergency moves that could save you thousands"
    ],
    "effects": [],
    "visual_type": "usdkrw"
   },
-  "fact_hash": "e7aa3afba21598f3994b748f2c5f454815d3dc8f"
+  "fact_hash": "e5a50cb2a9ee994514c80a51d2734a90d1bdf0df"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-14T12:13:11.794144+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T01:59:56.859936+00:00"
  },
  "glossary": [],
  "related": [

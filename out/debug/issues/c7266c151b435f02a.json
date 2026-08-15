@@ -69,8 +69,44 @@
    "at": "2026-08-14T21:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-15T01:59:01.482130+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Stock Market Today , Aug . 14 : Rally Stalls on Disappointing Consumer Data , Broadcom Falls 6 %",
+    "Broadcom ( NASDAQ : AVGO ) Shares Down 5 . 9 % – Here Why"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Stock Market Today ,…",
+   "one_liner": "Stock Market Today , Aug . 14 : Rally Stalls on…",
+   "why_now": null,
+   "details": [
+    "Stock Market Today , Aug . 14 : Rally Stalls on Disappointing Consumer Data , Broadcom Falls 6 %",
+    "Broadcom ( NASDAQ : AVGO ) Shares Down 5 . 9 % – Here Why"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "2d85547ca47472d9f84e9148b80b35c7871a67fa"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T01:59:01.481996+00:00"
+ },
  "glossary": [],
  "related": [
   {

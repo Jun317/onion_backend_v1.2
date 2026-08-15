@@ -53,8 +53,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-14T13:52:03.485484+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-15T01:58:01.430655+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -64,24 +64,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"볼리비아 정부의 IMF 목표 초과\",\n   \"one_liner\": \"볼리비아 정부가 IMF의 초과 목표를 달성했어요\",\n   \"why_now\": \"정부가 IMF의 목표를 달성하면 경제 안정에 도움이 되요\",\n   \"impact_line\": \"볼리비아의 경제 안정이 좋아질 수 있어요\",\n   \"details\": [\n       \"볼리비아 정부가 IMF의 초과 목표를 달성했어요\",\n       \"이것은 볼리비아의 경제 안정에 긍정적인 영향을 미칠 수 있어요\",\n       \"정부의 경제 개혁이 성공적으로 진행되고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"볼리비아의 경제 안정이 좋아져 외국 투자가 증가할 수 있어요!\",\n       \"정부의 경제 개혁이 성공하면 국민의 생활 수준이 향상될 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"IMF\",\n           \"easy\": \"국제 통화 기구예요\",\n           \"example\": \"IMF는 국가의 경제 안정을 도와주는 기구예요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Govt exceeds IMF…",
-   "one_liner": "Govt exceeds IMF surplus target",
-   "why_now": null,
+   "title": "볼리비아 정부의 IMF 목표 초과",
+   "one_liner": "볼리비아 정부가 IMF의 초과 목표를 달성했어요",
+   "why_now": "정부가 IMF의 목표를 달성하면 경제 안정에 도움이 되요",
    "details": [
-    "Govt exceeds IMF surplus target",
-    "Analysis - Bolivia Paz tests fragile coalition with reform push , IMF deal"
+    "볼리비아 정부가 IMF의 초과 목표를 달성했어요",
+    "이것은 볼리비아의 경제 안정에 긍정적인 영향을 미칠 수 있어요",
+    "정부의 경제 개혁이 성공적으로 진행되고 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "볼리비아의 경제 안정이 좋아져 외국 투자가 증가할 수 있어요!",
+    "정부의 경제 개혁이 성공하면 국민의 생활 수준이 향상될 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "4f31157787a360897e4453f23c7be2baa76a931a"

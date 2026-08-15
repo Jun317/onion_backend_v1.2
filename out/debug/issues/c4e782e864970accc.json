@@ -69,8 +69,44 @@
    "at": "2026-08-14T15:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-15T02:04:15.415905+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Dow Jones Futures : Market Ready To Run ? Sandisk Skyrockets , But Must Do This ; Walmart , Target Due",
+    "Walmart set for in - line Q2 as investors eye tariff refund plans , 2H guidance"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Dow Jones Futures :…",
+   "one_liner": "Dow Jones Futures : Market Ready To Run ?…",
+   "why_now": null,
+   "details": [
+    "Dow Jones Futures : Market Ready To Run ? Sandisk Skyrockets , But Must Do This ; Walmart , Target Due",
+    "Walmart set for in - line Q2 as investors eye tariff refund plans , 2H guidance"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "3525587e559a8c4ab1db0c8d88431323d806efc3"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T02:04:15.415845+00:00"
+ },
  "glossary": [],
  "related": [
   {
