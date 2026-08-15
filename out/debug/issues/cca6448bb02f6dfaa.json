@@ -120,49 +120,51 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-15T07:08:51.551725+00:00",
+  "created_at": "2026-08-15T10:45:06.601335+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
+    "Dockside LLC Buys Shares of 22 , 654 OGE Energy Corporation $OGE",
+    "Dockside LLC Makes New Investment in Onto Innovation Inc . $ONTO",
     "State bond advances to fund sweeping improvements at La Brea Tar Pits",
     "FGN Bond : DMO raises N5 . 86bn in August",
     "New incentive to unlock FDIs , 3m barrels oil output Ojulari – Daily Trust"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"국채 발행 늘어\",\n\"one_liner\": \"정부가 국채 발행을 늘려 자금을 조달하고 있어요.\",\n\"why_now\": \"국채 발행 증가는 정부 지출 확대나 재정 적자 보전 등 다양한 이유로 이루어질 수 있어요.\",\n\"impact_line\": \"국채 발행 증가는 시중 금리에 영향을 줄 수 있어요.\",\n\"details\": [\n\"정부가 국채 발행을 늘려 자금을 조달하고 있어요.\",\n\"8월에만 58억 6천만 달러의 국채가 발행되었어요.\",\n\"이는 투자를 유치하고 석유 생산량을 늘리기 위한 조치와 관련이 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"국채 발행 증가는 시중 금리 상승으로 이어질 수 있어요!\",\n\"정부의 재정 지출 확대는 경제 성장을 촉진할 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"국채\",\n\"easy\": \"나라에서 돈을 빌리기 위해 발행하는 증서예요.\",\n\"example\": \"국채를 사면 나라에 돈을 빌려주고 이자를 받을 수 있어요.\"\n},\n{\n\"term\": \"FGN Bond\",\n\"easy\": \"나이지리아 연방 정부가 발행하는 국채를 말해요.\",\n\"example\": \"나이지리아 정부는 FGN Bond 발행으로 자금을 조달해요.\"\n},\n{\n\"term\": \"DMO\",\n\"easy\": \"나이지리아의 국채 발행을 담당하는 기관이에요.\",\n\"example\": \"DMO는 나이지리아 정부의 빚 관리를 맡고 있어요.\"\n},\n{\n\"term\": \"FDIs\",\n\"easy\": \"외국인 직접 투자를 의미해요.\",\n\"example\": \"FDIs가 늘면 국내 경제에 새로운 기술과 자본이 들어올 수 있어요.\"\n}\n]\n}",
+  "raw_response": "{\n\"title\": \"원유 생산량 증대 유인책\",\n\"one_liner\": \"새로운 유인책으로 하루 300만 배럴의 원유 생산을 늘릴 수 있다고 해요.\",\n\"why_now\": \"원유 생산이 늘면 국제 유가가 안정될 수 있고, 관련 산업에도 영향을 줄 수 있어요.\",\n\"impact_line\": \"국제 유가 변동에 따라 주유비나 항공료가 달라질 수 있어요.\",\n\"details\": [\n\"새로운 유인책이 마련될 예정이에요.\",\n\"하루 300만 배럴의 원유 생산을 늘리는 것을 목표로 하고 있어요.\",\n\"이는 외국인 직접 투자를 늘리는 데 도움이 될 것으로 기대돼요.\"\n],\n\"visual_type\": \"wti\",\n\"effects\": [\n\"원유 생산이 늘면 국제 유가가 하락할 수 있어요!\",\n\"국제 유가 하락은 항공, 운송 등 관련 산업의 비용 절감으로 이어질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"FDIs\",\n\"easy\": \"외국인 투자자가 국내 기업에 직접 투자하는 것을 말해요.\",\n\"example\": \"정부는 외국인 직접 투자를 늘리기 위해 세금 감면 혜택을 제공하고 있어요.\"\n},\n{\n\"term\": \"원유\",\n\"easy\": \"땅속에서 캐내는 기름으로, 다양한 제품의 원료가 돼요.\",\n\"example\": \"원유 가격이 오르면 휘발유 가격도 함께 오르는 경우가 많아요.\"\n}\n],\n\"impact_line\": \"국제 유가 변동에 따라 주유비나 항공료가 달라질 수 있어요.\"\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "입력에 없는 숫자: [58.0]"
+     "입력에 없는 숫자: [300.0]"
     ]
    },
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [300.0]"
     ]
    }
   ],
   "output": {
-   "title": "State bond advances…",
-   "one_liner": "State bond advances to fund sweeping…",
+   "title": "Dockside LLC Buys…",
+   "one_liner": "Dockside LLC Buys Shares of 22 , 654 OGE Energy…",
    "why_now": null,
    "details": [
-    "State bond advances to fund sweeping improvements at La Brea Tar Pits",
-    "FGN Bond : DMO raises N5 . 86bn in August",
-    "New incentive to unlock FDIs , 3m barrels oil output Ojulari – Daily Trust"
+    "Dockside LLC Buys Shares of 22 , 654 OGE Energy Corporation $OGE",
+    "Dockside LLC Makes New Investment in Onto Innovation Inc . $ONTO",
+    "State bond advances to fund sweeping improvements at La Brea Tar Pits"
    ],
    "effects": [],
    "visual_type": "wti"
   },
-  "fact_hash": "488464cbdcaeb34dfbc85fe7dd7ed4cca03d1404"
+  "fact_hash": "92cbda5f09e72291e54a8c5bf95382fd03264390"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [58.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-15T07:08:51.551665+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [300.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [300.0]\"]}]}",
+  "at": "2026-08-15T10:45:06.601226+00:00"
  },
  "glossary": [],
  "related": [
