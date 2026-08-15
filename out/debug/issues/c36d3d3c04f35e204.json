@@ -118,8 +118,44 @@
    "at": "2026-08-14T10:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-15T03:15:14.743744+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Carers have days left to act as DWP plans major benefits shake - up",
+    "DWP  days left  deadline alert for one group of claimants"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Carers have days…",
+   "one_liner": "Carers have days left to act as DWP plans major…",
+   "why_now": null,
+   "details": [
+    "Carers have days left to act as DWP plans major benefits shake - up",
+    "DWP  days left  deadline alert for one group of claimants"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "a26d96e9087e1bc5b6cdc4897aceac824e934f52"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-15T03:15:14.743587+00:00"
+ },
  "glossary": [],
  "related": [
   {
