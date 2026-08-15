@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 70,
+ "seen_sources": 3,
+ "importance": 75,
  "created_at": "2026-08-14T12:03:19.865101+00:00",
- "last_update": "2026-08-14T16:11:17.088877+00:00",
+ "last_update": "2026-08-15T07:05:03.440846+00:00",
  "members": [
+  {
+   "id": "a48c0406aad3de28f5c4c128ecd8005bf865bb3e",
+   "source": "aol.co.uk",
+   "tier": "wire",
+   "url": "https://www.aol.co.uk/articles/dwp-issues-statement-over-major-054812000.html",
+   "title": "DWP issues statement over major £6 , 200 change to pensions policy",
+   "published_at": "2026-08-15T06:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.898
+  },
   {
    "id": "edf92eab713a9835d70cf3fbf2372cce6eb0d2a4",
    "source": "yourlocalguardian.co.uk",
@@ -20,7 +30,7 @@
    "title": "Carers have days left to act as DWP plans major benefits shake - up",
    "published_at": "2026-08-14T15:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9589
+   "sim_to_centroid": 0.9606
   },
   {
    "id": "4470c116a357f7ba68574898b8c7be164cd3fe95",
@@ -30,7 +40,7 @@
    "title": "Carers have days left to act as DWP plans major benefits shake - up",
    "published_at": "2026-08-14T15:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9589
+   "sim_to_centroid": 0.9606
   },
   {
    "id": "239969a72697146747b9aa96409779546d8a04b3",
@@ -40,7 +50,7 @@
    "title": "Carers have days left to act as DWP plans major benefits shake - up",
    "published_at": "2026-08-14T15:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9589
+   "sim_to_centroid": 0.9606
   },
   {
    "id": "2501b60e838ad5e7419235881d60a0e2122240c0",
@@ -50,7 +60,7 @@
    "title": "Carers have days left to act as DWP plans major benefits shake - up",
    "published_at": "2026-08-14T15:30:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9589
+   "sim_to_centroid": 0.9606
   },
   {
    "id": "1b926716c9edf2a0d6c0bee775bec0a2aed2d0c1",
@@ -60,7 +70,7 @@
    "title": "DWP  days left  deadline alert for one group of claimants",
    "published_at": "2026-08-14T10:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9891
+   "sim_to_centroid": 0.9865
   },
   {
    "id": "f12e25e6c57049b01491deba375c8558414087f0",
@@ -70,11 +80,18 @@
    "title": "DWP  days left  deadline alert for one group of claimants",
    "published_at": "2026-08-14T10:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9891
+   "sim_to_centroid": 0.9865
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "DWP issues statement over major £6 , 200 change to pensions policy",
+   "source": "aol.co.uk",
+   "url": "https://www.aol.co.uk/articles/dwp-issues-statement-over-major-054812000.html",
+   "at": "2026-08-15T06:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Carers have days left to act as DWP plans major benefits shake - up",
@@ -120,41 +137,49 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-15T03:15:14.743744+00:00",
+  "created_at": "2026-08-15T07:06:29.063335+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "DWP issues statement over major £6 , 200 change to pensions policy",
     "Carers have days left to act as DWP plans major benefits shake - up",
     "DWP  days left  deadline alert for one group of claimants"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"영국 연금 정책 변경\",\n\"one_liner\": \"영국 정부가 연금 정책에 큰 변화를 예고했어요.\",\n\"why_now\": \"연금 정책 변경은 많은 사람들의 노후 생활에 직접적인 영향을 줄 수 있어요.\",\n\"impact_line\": \"연금 수령액이나 수급 조건이 달라질 수 있어요.\",\n\"details\": [\n\"영국 정부가 연금 정책을 크게 바꿀 예정이에요.\",\n\"이번 변경으로 약 6,200파운드의 영향이 있을 것으로 보여요.\",\n\"특정 수급자 그룹에게는 중요한 마감일이 다가오고 있어요.\",\n\"정부는 관련 내용을 담은 성명을 발표했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"연금 수급 방식이나 금액에 변화가 생길 수 있어요!\",\n\"정책 변경으로 인해 일부 수급자들은 서둘러 조치를 취해야 할 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"DWP\",\n\"easy\": \"영국 정부의 노동연금부예요. 연금과 복지 관련 업무를 담당해요.\",\n\"example\": \"DWP는 실업 수당 지급을 담당하는 부서예요.\"\n},\n{\n\"term\": \"연금\",\n\"easy\": \"일하거나 보험료를 낸 사람에게 나라에서 주는 돈이에요. 주로 노후에 받아요.\",\n\"example\": \"국민연금은 우리나라의 대표적인 연금 제도예요.\"\n}\n],\n\"impact_line\": \"연금 수령액이나 수급 조건이 달라질 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [6200.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [6200.0]"
     ]
    }
   ],
   "output": {
-   "title": "Carers have days…",
-   "one_liner": "Carers have days left to act as DWP plans major…",
+   "title": "DWP issues statement…",
+   "one_liner": "DWP issues statement over major £6 , 200 change…",
    "why_now": null,
    "details": [
+    "DWP issues statement over major £6 , 200 change to pensions policy",
     "Carers have days left to act as DWP plans major benefits shake - up",
     "DWP  days left  deadline alert for one group of claimants"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "a26d96e9087e1bc5b6cdc4897aceac824e934f52"
+  "fact_hash": "95c0853b428ce6d2de7c9a570b4b48d572c4775d"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-15T03:15:14.743587+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [6200.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [6200.0]\"]}]}",
+  "at": "2026-08-15T07:06:29.063238+00:00"
  },
  "glossary": [],
  "related": [

@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-15T03:13:23.728229+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-15T07:07:32.022365+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -881,26 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 물가 상승세 둔화\",\n  \"one_liner\": \"미국의 물가 상승세가 예상대로 둔화했어요.\",\n  \"why_now\": \"물가 상승세가 둔화하면 금리를 내릴 가능성이 커져 경제에 긍정적이에요.\",\n  \"impact_line\": \"유가와 식료품 가격이 내려 장바구니 부담이 줄 수 있어요.\",\n  \"details\": [\n    \"7월 미국의 물가 상승세가 둔화했어요.\",\n    \"특히 유가와 식료품 가격이 내렸어요.\",\n    \"이는 시장 예상과 비슷한 수준이에요.\",\n    \"미국 주식 시장이 소폭 상승했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"미국 주식 시장이 상승세를 보일 수 있어요!\",\n    \"미국 달러화 가치가 하락할 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"유가\",\n      \"easy\": \"석유 가격을 말해요.\",\n      \"example\": \"국제 유가가 오르면 주유비가 오를 수 있어요.\"\n    },\n    {\n      \"term\": \"식료품\",\n      \"easy\": \"먹는 데 필요한 물건들을 말해요.\",\n      \"example\": \"식료품 가격이 오르면 장 보는 비용이 늘어나요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Inflation eases in…",
-   "one_liner": "Inflation eases in July as gasoline and grocery…",
-   "why_now": null,
+   "title": "미국 물가 상승세 둔화",
+   "one_liner": "미국의 물가 상승세가 예상대로 둔화했어요.",
+   "why_now": "물가 상승세가 둔화하면 금리를 내릴 가능성이 커져 경제에 긍정적이에요.",
    "details": [
-    "Inflation eases in July as gasoline and grocery prices fall",
-    "U . S . Stocks Seeing Modest Strength Following Tame Inflation Data",
-    "Stocks steady as US inflation cools as expected"
+    "7월 미국의 물가 상승세가 둔화했어요.",
+    "특히 유가와 식료품 가격이 내렸어요.",
+    "이는 시장 예상과 비슷한 수준이에요.",
+    "미국 주식 시장이 소폭 상승했어요."
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "미국 주식 시장이 상승세를 보일 수 있어요!",
+    "미국 달러화 가치가 하락할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "c0e54df92b9a5e92cc1a6137f34cc15d848e9ecf"
  },
@@ -908,7 +910,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-15T03:13:23.728117+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "c21fbad53c2afa8f1",

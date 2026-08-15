@@ -7,11 +7,31 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 70,
+ "seen_sources": 3,
+ "importance": 75,
  "created_at": "2026-08-14T12:03:19.865005+00:00",
- "last_update": "2026-08-14T12:03:19.866602+00:00",
+ "last_update": "2026-08-15T07:05:03.442760+00:00",
  "members": [
+  {
+   "id": "3993992f614322b0c901c65d7f7341be73f780aa",
+   "source": "manchestereveningnews.co.uk",
+   "tier": "wire",
+   "url": "https://www.manchestereveningnews.co.uk/news/uk-news/andy-burnham-reveals-who-asked-34463708",
+   "title": "Andy Burnham reveals who asked for emergency alert to be sent to every united kingdom phone",
+   "published_at": "2026-08-15T06:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8835
+  },
+  {
+   "id": "b745022491de0f470a35760363bc67f9cb9c4130",
+   "source": "express.co.uk",
+   "tier": "wire",
+   "url": "https://www.express.co.uk/finance/personalfinance/2238749/two-groups-given-100000-tax",
+   "title": "Two groups given £100 , 000 tax warning ahead of Budget",
+   "published_at": "2026-08-15T05:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9204
+  },
   {
    "id": "cc3fccafdebb54a52b9226159cfa6d44aaa2c457",
    "source": "express.co.uk",
@@ -20,7 +40,7 @@
    "title": "People with more than £12 , 500 savings given urgent HMRC alert",
    "published_at": "2026-08-14T10:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9856
+   "sim_to_centroid": 0.9838
   },
   {
    "id": "27fccf19b1b6ef7de5aada355896eff6f74a80d9",
@@ -30,11 +50,25 @@
    "title": "Savings warning for people with £12 , 500 or more in the bank",
    "published_at": "2026-08-14T10:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9856
+   "sim_to_centroid": 0.9819
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Andy Burnham reveals who asked for emergency alert to be sent to every united kingdom phone",
+   "source": "manchestereveningnews.co.uk",
+   "url": "https://www.manchestereveningnews.co.uk/news/uk-news/andy-burnham-reveals-who-asked-34463708",
+   "at": "2026-08-15T06:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Two groups given £100 , 000 tax warning ahead of Budget",
+   "source": "express.co.uk",
+   "url": "https://www.express.co.uk/finance/personalfinance/2238749/two-groups-given-100000-tax",
+   "at": "2026-08-15T05:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "People with more than £12 , 500 savings given urgent HMRC alert",
@@ -52,41 +86,52 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-15T03:15:33.226098+00:00",
+  "created_at": "2026-08-15T07:06:14.655424+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "Andy Burnham reveals who asked for emergency alert to be sent to every united kingdom phone",
+    "Two groups given £100 , 000 tax warning ahead of Budget",
     "People with more than £12 , 500 savings given urgent HMRC alert",
     "Savings warning for people with £12 , 500 or more in the bank"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"영국 저축 경고\",\n  \"one_liner\": \"영국에서 12,500파운드 이상 저축한 사람들에게 세금 관련 경고가 전달됐어요.\",\n  \"why_now\": \"세금 경고는 예상치 못한 추가 납부를 막기 위해 미리 알아두는 것이 중요해요.\",\n  \"impact_line\": \"저축액이 많으면 세금 관련 안내를 꼼꼼히 확인해야 할 수 있어요.\",\n  \"details\": [\n    \"12,500파운드 이상 저축한 사람들에게 긴급 세금 안내가 갔어요.\",\n    \"예산안 발표를 앞두고 두 단체는 10만 파운드의 세금 경고를 받았어요.\",\n    \"이 경고는 영국 국세청(HMRC)에서 보낸 것이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"세금 관련 규정을 미리 확인하지 않으면 예상치 못한 세금을 더 내야 할 수도 있어요!\",\n    \"정부의 세금 정책 변화를 주의 깊게 살펴볼 필요가 있어요.\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"파운드\",\n      \"easy\": \"영국에서 사용하는 돈의 단위예요.\",\n      \"example\": \"100파운드는 약 17만원 정도예요.\"\n    },\n    {\n      \"term\": \"세금\",\n      \"easy\": \"나라를 운영하기 위해 국민들이 내는 돈이에요.\",\n      \"example\": \"소득이 있으면 소득세를 내야 해요.\"\n    },\n    {\n      \"term\": \"영국 국세청(HMRC)\",\n      \"easy\": \"영국의 세금을 관리하고 걷는 기관이에요.\",\n      \"example\": \"영국 국세청은 세금 신고를 안내하고 관리해요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "one_liner 50자 초과(55)",
+     "입력에 없는 숫자: [12500.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [12500.0]"
     ]
    }
   ],
   "output": {
-   "title": "People with more…",
-   "one_liner": "People with more than £12 , 500 savings given…",
+   "title": "Andy Burnham reveals…",
+   "one_liner": "Andy Burnham reveals who asked for emergency…",
    "why_now": null,
    "details": [
-    "People with more than £12 , 500 savings given urgent HMRC alert",
-    "Savings warning for people with £12 , 500 or more in the bank"
+    "Andy Burnham reveals who asked for emergency alert to be sent to every united kingdom phone",
+    "Two groups given £100 , 000 tax warning ahead of Budget",
+    "People with more than £12 , 500 savings given urgent HMRC alert"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "a87ec8e5a31f80e778956bd6222524b32924a60f"
+  "fact_hash": "096b30fc735ec4050f5fcd798040b3cd02f645ec"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-15T03:15:33.225982+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(55)\", \"입력에 없는 숫자: [12500.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [12500.0]\"]}]}",
+  "at": "2026-08-15T07:06:14.655323+00:00"
  },
  "glossary": [],
  "related": [

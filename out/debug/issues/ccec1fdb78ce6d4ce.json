@@ -206,8 +206,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-15T04:03:09.252829+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-15T07:05:05.023429+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -219,26 +219,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"유럽 중앙은행\",\n   \"one_liner\": \"유럽 중앙은행이 금리를 올릴 수도 있어요\",\n   \"why_now\": \"금리 결정은 경제에 큰 영향을 미쳐요\",\n   \"impact_line\": \"유럽에서 돈을 빌리거나 빌려줄 때 영향을 받을 수 있어요\",\n   \"details\": [\n       \"유럽 중앙은행이 금리를 올릴 수도 있다고 예상돼요\",\n       \"유럽에서 암호화폐로 결제하는 비율이 낮아요\",\n       \"유럽 중앙은행은 금리 결정에 영향을 받는 여러 요소를 고려해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"유럽 경제에 영향을 미쳐 소비와 투자가 달라질 수 있어요!\",\n       \"금리 결정은 유럽의 가계와 기업에 다양한 영향을 미칠 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "ECB Finds Crypto…",
-   "one_liner": "ECB Finds Crypto Payment Acceptance Below 1 % in…",
-   "why_now": null,
+   "title": "유럽 중앙은행",
+   "one_liner": "유럽 중앙은행이 금리를 올릴 수도 있어요",
+   "why_now": "금리 결정은 경제에 큰 영향을 미쳐요",
    "details": [
-    "ECB Finds Crypto Payment Acceptance Below 1 % in Euro Area",
-    "Will the ECB Raise Interest Rates Again in 2026 , but Cut Them in 2027 ?",
-    "ECB to raise interest rates – Shafaqna English | International Shia News & Fatwas"
+    "유럽 중앙은행이 금리를 올릴 수도 있다고 예상돼요",
+    "유럽에서 암호화폐로 결제하는 비율이 낮아요",
+    "유럽 중앙은행은 금리 결정에 영향을 받는 여러 요소를 고려해요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "유럽 경제에 영향을 미쳐 소비와 투자가 달라질 수 있어요!",
+    "금리 결정은 유럽의 가계와 기업에 다양한 영향을 미칠 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "f5c06ad2800b91b26401897bf61cedcc3cda311e"
  },
@@ -246,7 +247,18 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-15T04:03:09.252706+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "cea83213c8906724e",

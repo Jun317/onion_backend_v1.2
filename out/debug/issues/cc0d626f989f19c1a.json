@@ -242,8 +242,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-15T04:04:59.908540+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-15T07:05:59.426643+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -256,26 +256,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"넷플릭스 주가 전망\",\n    \"one_liner\": \"넷플릭스의 주가 전망에 대한 다양한 분석이 나오고 있어요.\",\n    \"why_now\": \"넷플릭스 주가에 대한 관심이 높아지면서 앞으로의 성장 가능성을 예측하려는 움직임이 있어요.\",\n    \"impact_line\": \"넷플릭스 주가 변동은 관련 투자자들의 자산에 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"넷플릭스 주식이 5년 뒤 어디에 있을지에 대한 전망이 있어요.\",\n        \"솔라나가 금융 분야의 넷플릭스가 되려는 계획을 발표했어요.\",\n        \"넷플릭스의 장기적인 우위가 위협받고 있다는 분석도 있어요.\",\n        \"빌 액크먼이 넷플릭스에서 손실을 본 후 다시 매수를 고려하고 있다는 소식도 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"넷플릭스 주가 전망에 따라 투자자들의 매수 또는 매도 결정에 영향을 줄 수 있어요!\",\n        \"솔라나의 금융 분야 진출 계획은 암호화폐 시장에 새로운 경쟁 구도를 만들 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"주가\",\n            \"easy\": \"회사가 발행한 주식의 가격을 말해요.\",\n            \"example\": \"주가가 오르면 회사의 가치가 높아졌다고 볼 수 있어요.\"\n        },\n        {\n            \"term\": \"암호화폐\",\n            \"easy\": \"블록체인 기술을 기반으로 만들어진 디지털 자산이에요.\",\n            \"example\": \"비트코인, 이더리움 등이 대표적인 암호화폐예요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Where Will Netflix…",
-   "one_liner": "Where Will Netflix Stock Be in 5 Years ?",
-   "why_now": null,
+   "title": "넷플릭스 주가 전망",
+   "one_liner": "넷플릭스의 주가 전망에 대한 다양한 분석이 나오고 있어요.",
+   "why_now": "넷플릭스 주가에 대한 관심이 높아지면서 앞으로의 성장 가능성을 예측하려는 움직임이 있어요.",
    "details": [
-    "Where Will Netflix Stock Be in 5 Years ?",
-    "Solana Has Plans to Become  The Netflix of Finance . What Does That Mean for the Price of SOL ?",
-    "Is Netflix ( NFLX ) Long - Term Dominance Under Threat ?"
+    "넷플릭스 주식이 5년 뒤 어디에 있을지에 대한 전망이 있어요.",
+    "솔라나가 금융 분야의 넷플릭스가 되려는 계획을 발표했어요.",
+    "넷플릭스의 장기적인 우위가 위협받고 있다는 분석도 있어요.",
+    "빌 액크먼이 넷플릭스에서 손실을 본 후 다시 매수를 고려하고 있다는 소식도 있어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "넷플릭스 주가 전망에 따라 투자자들의 매수 또는 매도 결정에 영향을 줄 수 있어요!",
+    "솔라나의 금융 분야 진출 계획은 암호화폐 시장에 새로운 경쟁 구도를 만들 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "9192eda6ee6ab94db10b73b1bcb84cd2b9398d7b"
  },

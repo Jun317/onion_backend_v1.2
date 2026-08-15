@@ -87,8 +87,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-15T04:04:41.460083+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-15T07:05:55.272038+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -99,26 +99,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"마이크로소프트, AI 투자 과도 우려\",\n  \"one_liner\": \"마이크로소프트가 인공지능에 너무 많은 돈을 쓰고 있다는 이야기가 나오고 있어요.\",\n  \"why_now\": \"AI 기술은 미래 성장의 핵심이지만, 과도한 투자는 회사의 수익성에 부담을 줄 수 있어요.\",\n  \"impact_line\": \"AI 관련 기술주들의 주가 변동성이 커질 수 있어요.\",\n  \"details\": [\n    \"마이크로소프트 내부에서도 AI에 대한 투자가 과도하다는 의견이 나온 것으로 알려졌어요.\",\n    \"최근 7월 29일 이후 마이크로소프트 주가가 26% 올랐다는 분석도 있어요.\",\n    \"마이크로소프트는 AI 학습과 혁신을 위해 여러 연구소를 운영하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"AI 기술 발전 속도가 빨라질 수 있어요!\",\n    \"과도한 투자로 인한 비용 부담이 회사의 이익에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AI\",\n      \"easy\": \"인공지능은 컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n      \"example\": \"AI 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n    },\n    {\n      \"term\": \"주가\",\n      \"easy\": \"회사의 가치를 나타내는 가격으로, 사고팔 수 있어요.\",\n      \"example\": \"좋은 실적 발표에 회사 주가가 올랐어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "why_now 55자 초과(57)"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Five Microsoft Labs…",
-   "one_liner": "Five Microsoft Labs to Transform AI Learning and…",
-   "why_now": null,
+   "title": "마이크로소프트, AI 투자 과도 우려",
+   "one_liner": "마이크로소프트가 인공지능에 너무 많은 돈을 쓰고 있다는 이야기가 나오고 있어요.",
+   "why_now": "AI 기술은 미래 성장의 핵심이지만, 과도한 투자는 회사의 수익성에 부담을 줄 수 있어요.",
    "details": [
-    "Five Microsoft Labs to Transform AI Learning and Innovation Across MAHE",
-    "A Recent Email Within Microsoft Seems to Confirm What Many Suspected : Tech Companies Are Overspending on AI",
-    "Up 26 % Since July 29 , Is It Too Late to Buy Microsoft Stock ?"
+    "마이크로소프트 내부에서도 AI에 대한 투자가 과도하다는 의견이 나온 것으로 알려졌어요.",
+    "최근 7월 29일 이후 마이크로소프트 주가가 26% 올랐다는 분석도 있어요.",
+    "마이크로소프트는 AI 학습과 혁신을 위해 여러 연구소를 운영하고 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "AI 기술 발전 속도가 빨라질 수 있어요!",
+    "과도한 투자로 인한 비용 부담이 회사의 이익에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "901adf5aed445ea50feac261aebd87501c21e01d"
  },
