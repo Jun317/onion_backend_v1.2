@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T03:26:28.386702+00:00",
+  "created_at": "2026-08-16T07:14:27.968891+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,14 +881,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"기업들, 분기별 실적 발표\",\n  \"one_liner\": \"여러 기업들이 분기별 실적을 발표하며 예상치를 웃돌거나 밑도는 결과를 내놓았어요.\",\n  \"why_now\": \"기업들의 실적은 회사의 현재와 미래 가치를 보여주는 중요한 지표이기 때문이에요.\",\n  \"impact_line\": \"투자자들은 이 실적을 바탕으로 주식 거래 결정을 내릴 수 있어요.\",\n  \"details\": [\n    \"Eupraxia Pharmaceuticals는 예상보다 주당 0.02달러 더 높은 실적을 발표했어요.\",\n    \"Fold는 예상보다 주당 0.04달러 낮은 실적을 발표했어요.\",\n    \"Spectral AI는 예상보다 주당 0.01달러 더 높은 실적을 발표했어요.\",\n    \"Bolt Biotherapeutics는 예상보다 주당 1.18달러 낮은 실적을 발표했어요.\",\n    \"Codexis는 예상보다 주당 0.01달러 더 높은 실적을 발표했어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"주가가 예상치보다 좋거나 나쁜 실적에 따라 오르거나 내릴 수 있어요!\",\n    \"투자자들은 기업의 성장 가능성을 보고 투자 결정을 내릴 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"EPS\",\n      \"easy\": \"주식 한 주당 얼마만큼의 이익을 냈는지 나타내는 수치예요.\",\n      \"example\": \"회사의 EPS가 오르면 주가도 오르는 경우가 많아요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [0.01, 0.02, 0.04, 1.18]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -911,8 +905,8 @@
   "fact_hash": "c236750f3ef6e715dc873cfa9bc00970daf3d3f8"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [0.01, 0.02, 0.04, 1.18]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T03:26:28.386635+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T07:14:27.968815+00:00"
  },
  "glossary": [],
  "related": [
@@ -935,14 +929,14 @@
    "shared": []
   },
   {
-   "id": "cb79900ede6a04772",
-   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c2512f781a025d326",
-   "title": "Cisco revenue rises 18 % as hyperscaler AI orders reach $9 . 3 billion",
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "category": "EARNINGS",
    "shared": []
   }

@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T03:23:23.437446+00:00",
+  "created_at": "2026-08-16T07:11:40.593346+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,16 +881,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"기업 실적 및 배당 소식\", \"one_liner\": \"여러 기업의 실적 발표와 배당 소식이 나왔어요.\", \"why_now\": \"기업의 실적은 주가에 직접적인 영향을 주기 때문에 투자자들의 관심이 높아요.\", \"impact_line\": null, \"details\": [\"아메스 내셔널 코퍼레이션은 분기 배당금으로 0.24달러를 지급하기로 했어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"배당금\", \"easy\": \"기업이 이익의 일부를 주주들에게 나눠주는 돈이에요.\", \"example\": \"배당금을 받으면 은행 이자처럼 추가 수입이 생겨요.\"}]}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님",
-     "입력에 없는 숫자: [0.24]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -913,8 +905,8 @@
   "fact_hash": "bc4f020062cc07de5aa0c5aa5bdbca087a8d96ce"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\", \"입력에 없는 숫자: [0.24]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T03:23:23.437382+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T07:11:40.593269+00:00"
  },
  "glossary": [],
  "related": [
@@ -937,14 +929,14 @@
    "shared": []
   },
   {
-   "id": "cb79900ede6a04772",
-   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c2512f781a025d326",
-   "title": "Cisco revenue rises 18 % as hyperscaler AI orders reach $9 . 3 billion",
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "category": "EARNINGS",
    "shared": []
   }

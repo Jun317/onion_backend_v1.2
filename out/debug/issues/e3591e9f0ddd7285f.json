@@ -85,8 +85,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-16T03:18:48.091743+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-16T07:07:11.210240+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -132,26 +132,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"카카오 실적 발표\",\n  \"one_liner\": \"카카오모빌리티와 카카오게임즈의 2026년 1분기 실적이 발표됐어요.\",\n  \"why_now\": \"카카오 계열사들의 실적은 카카오 주가와 투자 심리에 영향을 줄 수 있어요.\",\n  \"impact_line\": \"카카오 관련 서비스 이용에 변화가 생길 수 있어요.\",\n  \"details\": [\n    \"카카오모빌리티의 1분기 매출액은 1826.4억원이에요.\",\n    \"카카오모빌리티의 1분기 영업이익은 283.6억원이에요.\",\n    \"카카오게임즈의 1분기 매출액은 829.3억원이에요.\",\n    \"카카오게임즈의 1분기 영업이익은 -254.6억원이에요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"카카오모빌리티의 실적이 좋으면 관련 서비스 이용이 더 늘어날 수 있어요!\",\n    \"카카오게임즈의 영업이익이 줄어들면 게임 신작 출시나 투자에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"매출액\",\n      \"easy\": \"회사가 상품이나 서비스를 팔아 벌어들인 돈이에요.\",\n      \"example\": \"이번 달 가게 매출액이 지난달보다 늘었어요.\"\n    },\n    {\n      \"term\": \"영업이익\",\n      \"easy\": \"회사가 물건을 팔고 남은 돈에서 월급, 임대료 등 운영 비용을 뺀 금액이에요.\",\n      \"example\": \"영업이익이 늘면 회사가 더 많은 돈을 벌었다고 볼 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "카카오모빌리티 매출액 1826.4억원",
-   "one_liner": "카카오모빌리티 매출액 1826.4억원으로 발표됐어요",
-   "why_now": null,
+   "title": "카카오 실적 발표",
+   "one_liner": "카카오모빌리티와 카카오게임즈의 2026년 1분기 실적이 발표됐어요.",
+   "why_now": "카카오 계열사들의 실적은 카카오 주가와 투자 심리에 영향을 줄 수 있어요.",
    "details": [
-    "카카오모빌리티 매출액: 1826.4억원",
-    "카카오모빌리티 영업이익: 283.6억원",
-    "카카오게임즈 매출액: 829.3억원",
-    "카카오게임즈 영업이익: -254.6억원"
+    "카카오모빌리티의 1분기 매출액은 1826.4억원이에요.",
+    "카카오모빌리티의 1분기 영업이익은 283.6억원이에요.",
+    "카카오게임즈의 1분기 매출액은 829.3억원이에요.",
+    "카카오게임즈의 1분기 영업이익은 -254.6억원이에요."
    ],
-   "effects": [],
+   "effects": [
+    "카카오모빌리티의 실적이 좋으면 관련 서비스 이용이 더 늘어날 수 있어요!",
+    "카카오게임즈의 영업이익이 줄어들면 게임 신작 출시나 투자에 영향을 줄 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "ed0f5e9d7653065bf3c5a357f279be3e684b223e"
@@ -187,14 +188,14 @@
    "shared": []
   },
   {
-   "id": "cb79900ede6a04772",
-   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c2512f781a025d326",
-   "title": "Cisco revenue rises 18 % as hyperscaler AI orders reach $9 . 3 billion",
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "category": "EARNINGS",
    "shared": []
   }

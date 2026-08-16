@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T03:28:00.576847+00:00",
+  "created_at": "2026-08-16T07:16:19.873545+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,8 +881,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"미국 기업 실적 부진\",\n\"one_liner\": \"미국 기업들이 2분기에 큰 손실을 기록하며 실적이 좋지 않았어요.\",\n\"why_now\": \"기업들의 실적이 나빠지면 주가 하락이나 일자리 감소로 이어질 수 있어요.\",\n\"impact_line\": \"생활 물가가 오르거나 고용 시장이 불안해질 수 있어요.\",\n\"details\": [\n\"트럼프 미디어 회사가 2분기에 2억 3,800만 달러의 손실을 냈어요.\",\n\"미국 내 섬유 산업의 면화 생산이 여전히 약한 모습을 보였어요.\",\n\"미국이 미사일 부족이 아니라 공장 부족에 직면했다는 분석이 나왔어요.\",\n\"컨테이너보드 가격 인상에 대한 비판이 있었어요.\",\n\"실업률이 33.6%로 악화되었고, 청년 실업률도 심각했어요.\"\n],\n\"visual_type\": \"earnings_quarterly\",\n\"effects\": [\n\"기업들의 생산 능력 부족은 물건 가격 상승으로 이어질 수 있어요!\",\n\"높은 실업률은 가계 소득 감소와 소비 위축을 불러올 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"컨테이너보드\",\n\"easy\": \"종이 상자를 만드는 데 쓰이는 두꺼운 종이에요.\",\n\"example\": \"컨테이너보드 가격이 오르면 택배 상자 가격도 오를 수 있어요.\"\n}\n]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [33.6, 3800.0]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +911,8 @@
   "fact_hash": "b2682c34546c2f51f843c777720095d2d7228509"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T03:28:00.576782+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [33.6, 3800.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T07:16:19.873466+00:00"
  },
  "glossary": [],
  "related": [
@@ -929,14 +935,14 @@
    "shared": []
   },
   {
-   "id": "cb79900ede6a04772",
-   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c2512f781a025d326",
-   "title": "Cisco revenue rises 18 % as hyperscaler AI orders reach $9 . 3 billion",
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "category": "EARNINGS",
    "shared": []
   }

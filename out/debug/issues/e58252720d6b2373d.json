@@ -338,7 +338,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T03:21:52.279351+00:00",
+  "created_at": "2026-08-16T07:10:23.476273+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -420,8 +420,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"고려아연 실적 감소\",\n  \"one_liner\": \"고려아연의 올해 1분기 매출과 영업이익이 줄었어요.\",\n  \"why_now\": \"기업의 실적은 주가에 직접적인 영향을 미치기 때문에 투자자들이 주목하는 지표예요.\",\n  \"impact_line\": \"고려아연의 실적 부진은 관련 산업에도 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"고려아연의 올해 1분기 매출액은 25,273억원이에요.\",\n    \"작년 같은 기간 매출액은 26,614억원이었어요.\",\n    \"올해 1분기 영업이익은 1,457억원이에요.\",\n    \"작년 같은 기간 영업이익은 2,847억원이었어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"실적이 좋지 않으면 기업의 주가가 하락할 수 있어요!\",\n    \"관련 산업의 투자 심리가 위축될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"매출액\",\n      \"easy\": \"기업이 상품이나 서비스를 팔아 벌어들인 돈이에요.\",\n      \"example\": \"이번 달 매출액은 지난달보다 10% 늘었어요.\"\n    },\n    {\n      \"term\": \"영업이익\",\n      \"easy\": \"기업이 핵심 사업을 해서 번 돈에서 관련 비용을 뺀 금액이에요.\",\n      \"example\": \"영업이익이 늘면 회사가 본업으로 돈을 잘 벌고 있다는 뜻이에요.\"\n    }\n  ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [1457.0]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -445,8 +451,8 @@
   "fact_hash": "47e2fb7cbb0267d7953fd9547461466dc96deadb"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T03:21:52.279277+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1457.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T07:10:23.476206+00:00"
  },
  "glossary": [
   {
@@ -475,14 +481,14 @@
    "shared": []
   },
   {
-   "id": "cb79900ede6a04772",
-   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c2512f781a025d326",
-   "title": "Cisco revenue rises 18 % as hyperscaler AI orders reach $9 . 3 billion",
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "category": "EARNINGS",
    "shared": []
   }

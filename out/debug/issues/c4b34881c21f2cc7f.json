@@ -833,8 +833,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-16T03:21:15.462363+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-16T07:08:17.737979+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -847,25 +847,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"기업 실적 발표\", \"one_liner\": \"여러 기업들이 최근 실적을 발표하며 사업 현황을 공유했어요.\", \"why_now\": \"기업 실적은 회사의 현재 상황과 미래 전망을 보여주는 중요한 지표예요.\", \"impact_line\": null, \"details\": [\"샤크닌자와 가민의 실적을 분석하는 기사가 나왔어요.\", \"서비스나우의 주가가 54% 이상 올랐다는 소식이 있어요.\", \"아비바의 실적이 24% 증가했다는 발표가 있었어요.\", \"COHR은 데이터센터 수요와 생산 능력 확대를 중심으로 실적을 발표했어요.\", \"KTB는 헬리 한센 통합과 신규 유통망 확대를 통해 성장했다고 밝혔어요.\"], \"visual_type\": \"earnings_quarterly\", \"effects\": [\"기업들의 실적 발표는 해당 기업의 주가에 영향을 줄 수 있어요!\", \"실적 발표는 관련 산업의 동향을 파악하는 데 도움을 줄 수 있어요!\"], \"glossary\": [{\"term\": \"실적\", \"easy\": \"회사가 일정 기간 동안 얼마나 돈을 벌고 썼는지 보여주는 결과예요.\", \"example\": \"이번 분기 실적이 좋아서 회사 주가가 올랐어요.\"}, {\"term\": \"주가\", \"easy\": \"회사의 가치를 나타내는 가격으로, 사고팔 수 있어요.\", \"example\": \"실적이 좋으면 주가가 오르는 경우가 많아요.\"}]}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects[1] 느낌표 종결 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Analyzing SharkNinja…",
-   "one_liner": "Analyzing SharkNinja ( NYSE : SN ) and Garmin (…",
-   "why_now": null,
+   "title": "기업 실적 발표",
+   "one_liner": "여러 기업들이 최근 실적을 발표하며 사업 현황을 공유했어요.",
+   "why_now": "기업 실적은 회사의 현재 상황과 미래 전망을 보여주는 중요한 지표예요.",
    "details": [
-    "Analyzing SharkNinja ( NYSE : SN ) and Garmin ( NYSE : GRMN )",
-    "NOW Stock Has Rebounded Over 54 % Why ServiceNow Rally Could Have Further Room to Run",
-    "Aviva earnings jump by 24 % amid swift progress on Direct Line turnaround"
+    "샤크닌자와 가민의 실적을 분석하는 기사가 나왔어요.",
+    "서비스나우의 주가가 54% 이상 올랐다는 소식이 있어요.",
+    "아비바의 실적이 24% 증가했다는 발표가 있었어요.",
+    "COHR은 데이터센터 수요와 생산 능력 확대를 중심으로 실적을 발표했어요.",
+    "KTB는 헬리 한센 통합과 신규 유통망 확대를 통해 성장했다고 밝혔어요."
    ],
-   "effects": [],
+   "effects": [
+    "기업들의 실적 발표는 해당 기업의 주가에 영향을 줄 수 있어요!",
+    "실적 발표는 관련 산업의 동향을 파악하는 데 도움을 줄 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "918eebc89f45c65ae24e7fec071cdb2a886eed7a"
@@ -895,14 +904,14 @@
    "shared": []
   },
   {
-   "id": "cb79900ede6a04772",
-   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c2512f781a025d326",
-   "title": "Cisco revenue rises 18 % as hyperscaler AI orders reach $9 . 3 billion",
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "category": "EARNINGS",
    "shared": []
   }

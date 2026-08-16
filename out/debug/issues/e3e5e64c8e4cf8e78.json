@@ -49,7 +49,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T03:19:24.892402+00:00",
+  "created_at": "2026-08-16T07:07:37.217219+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -77,12 +77,21 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"삼성바이오로직스 실적 발표\",\n    \"one_liner\": \"삼성바이오로직스가 2026년 1분기 매출 1조 2571억원을 기록했어요.\",\n    \"why_now\": \"기업의 실적은 앞으로의 성장 가능성을 보여주는 중요한 지표예요.\",\n    \"impact_line\": null,\n    \"details\": [\n        \"삼성바이오로직스의 2026년 1분기 매출액은 1조 2571억 2천만원이에요.\",\n        \"같은 기간 영업이익은 5807억 5천만원을 기록했어요.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"회사의 매출과 이익이 늘어나면 주가 상승으로 이어질 수 있어요!\",\n        \"이익이 늘어난 만큼 배당금이 늘어날 가능성도 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"매출액\",\n            \"easy\": \"회사가 물건을 팔거나 서비스를 제공해서 벌어들인 돈이에요.\",\n            \"example\": \"이번 달 매출액이 지난달보다 늘었어요.\"\n        },\n        {\n            \"term\": \"영업이익\",\n            \"easy\": \"회사가 물건을 만들고 파는 등 본업으로 벌어들인 돈에서 관련 비용을 뺀 금액이에요.\",\n            \"example\": \"영업이익이 늘었다는 것은 회사가 본업을 잘하고 있다는 뜻이에요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [2571.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "입력에 없는 숫자: [2571.0, 5807.0]"
     ]
    }
   ],
@@ -100,8 +109,8 @@
   "fact_hash": "0151654e9f40e2ab92c341ddab7f07ef0443e73a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T03:19:24.892338+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [2571.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [2571.0, 5807.0]\"]}]}",
+  "at": "2026-08-16T07:07:37.217140+00:00"
  },
  "glossary": [
   {
@@ -130,14 +139,14 @@
    "shared": []
   },
   {
-   "id": "cb79900ede6a04772",
-   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c2512f781a025d326",
-   "title": "Cisco revenue rises 18 % as hyperscaler AI orders reach $9 . 3 billion",
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "category": "EARNINGS",
    "shared": []
   }
