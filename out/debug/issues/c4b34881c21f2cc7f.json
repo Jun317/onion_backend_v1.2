@@ -832,8 +832,48 @@
    "at": "2026-08-14T10:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-16T03:21:15.462363+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Analyzing SharkNinja ( NYSE : SN ) and Garmin ( NYSE : GRMN )",
+    "NOW Stock Has Rebounded Over 54 % Why ServiceNow Rally Could Have Further Room to Run",
+    "Aviva earnings jump by 24 % amid swift progress on Direct Line turnaround",
+    "COHR Q2 Deep Dive : Data Center Demand and Capacity Expansion Define Outlook",
+    "KTB Q2 Deep Dive : Helly Hansen Integration , Core Denim Focus , and New Distribution Propel Growth"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Analyzing SharkNinja…",
+   "one_liner": "Analyzing SharkNinja ( NYSE : SN ) and Garmin (…",
+   "why_now": null,
+   "details": [
+    "Analyzing SharkNinja ( NYSE : SN ) and Garmin ( NYSE : GRMN )",
+    "NOW Stock Has Rebounded Over 54 % Why ServiceNow Rally Could Have Further Room to Run",
+    "Aviva earnings jump by 24 % amid swift progress on Direct Line turnaround"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "918eebc89f45c65ae24e7fec071cdb2a886eed7a"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T03:21:15.462257+00:00"
+ },
  "glossary": [],
  "related": [
   {

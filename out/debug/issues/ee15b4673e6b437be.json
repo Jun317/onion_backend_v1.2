@@ -26,7 +26,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-15T10:47:17.654752+00:00",
+  "created_at": "2026-08-16T03:19:06.529410+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -35,16 +35,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"우리금융지주 실적 발표\",\n   \"one_liner\": \"우리금융지주가 2026년 2분기 실적을 발표했어요\",\n   \"why_now\": \"기업 실적은 투자자와 고객에게 중요한 정보예요\",\n   \"impact_line\": \"우리금융지주와 관련된 투자나 금융 서비스에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"우리금융지주는 2026년 2분기 실적을 공시했어요\",\n       \"이번 실적은 투자자와 고객에게 중요한 정보가 될 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"우리금융지주 주가에 영향을 줄 수 있어요\",\n       \"금융 서비스 이용자에게도 영향을 미칠 수 있어요\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 3문장 미만",
-     "effects[0] 느낌표 종결 아님",
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -65,8 +57,8 @@
   "fact_hash": "d103001a20ecd1ec02a5817adb3e12d9a4e7da12"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\", \"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-15T10:47:17.654620+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T03:19:06.529347+00:00"
  },
  "glossary": [],
  "related": [
