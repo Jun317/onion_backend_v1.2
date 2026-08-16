@@ -191,51 +191,52 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T02:05:34.652268+00:00",
+  "created_at": "2026-08-16T05:52:18.354304+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
-    "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
     "Berkshire Hathaway Turns Buyer As Buffett Backs Alphabet",
+    "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+    "Berkshire Hathaway reshuffles portfolio , raises Alphabet and homebuilder stakes",
     "3 Obvious Reasons Warren Buffett Berkshire Hathaway Owns Nearly 152 Million Shares in This Winning Financial Stock",
-    "Warren Buffett successor finally starts spending Berkshire Hathaway giant cash pile - and it could be boosting your 401 ( k )",
     "Berkshire Hathaway Inc ( BRK - A ) Stock News & Articles"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"버크셔 해서웨이 주식 매수\",\n   \"one_liner\": \"버크셔 해서웨이가 14분기 만에 주식 매수 행진을 시작했어요\",\n   \"why_now\": \"버크셔 해서웨이의 주식 매수는 시장의 분위기를 나타내는 중요한 지표예요\",\n   \"impact_line\": \"주식 투자자들에게 긍정적인 신호가 될 수 있어요\",\n   \"details\": [\n      \"버크셔 해서웨이는 14분기 만에 주식 매수 행진을 시작했어요\",\n      \"버크셔 해서웨이는 23.5억 달러의 주식을 매수했어요\",\n      \"버크shire 해서웨이의 매수 대상 중 하나는 알파벳 公司이었어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"버크셔 해서웨이의 주식 매수는 시장의 분위기를 좋게 할 수 있어요!\",\n      \"버크셔 해서웨이의 매수 행진은 주식 투자자들에게 긍정적인 신호가 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "{\n    \"title\": \"버크셔 해서웨이 주식 매수 전환\",\n    \"one_liner\": \"워렌 버핏의 버크셔 해서웨이가 14분기 연속 주식 매도 행진을 멈추고 235억 달러를 주식 매수에 썼어요.\",\n    \"why_now\": \"워렌 버핏이 주식을 사기 시작했다는 것은 시장에 대한 긍정적인 신호로 해석될 수 있어요.\",\n    \"impact_line\": \"주식 시장에 긍정적인 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"버크셔 해서웨이는 14분기 연속 이어온 주식 매도세를 멈췄어요.\",\n        \"총 235억 달러를 주식 매수에 사용했어요.\",\n        \"이 중 100억 달러는 특정 기업에 투자되었어요.\",\n        \"알파벳과 주택 건설 관련 기업의 지분을 늘렸어요.\",\n        \"특정 금융주도 매수했어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"주식 시장 전반에 긍정적인 분위기가 확산될 수 있어요!\",\n        \"버크셔 해서웨이가 투자한 기업들의 주가가 오를 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"버크셔 해서웨이\",\n            \"easy\": \"워렌 버핏이 이끄는 미국의 대형 지주회사예요.\",\n            \"example\": \"버크셔 해서웨이는 보험, 철도, 에너지 등 다양한 사업을 하고 있어요.\"\n        },\n        {\n            \"term\": \"알파벳\",\n            \"easy\": \"구글의 모회사로, IT 및 인터넷 관련 사업을 하는 미국의 거대 기업이에요.\",\n            \"example\": \"알파벳은 검색 엔진, 광고, 클라우드 서비스 등을 제공해요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "입력에 없는 숫자: [23.5]"
+     "one_liner 50자 초과(59)",
+     "입력에 없는 숫자: [100.0, 235.0]"
     ]
    },
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [23.5]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
   "output": {
    "title": "Berkshire Hathaway…",
-   "one_liner": "Berkshire Hathaway killed a 14 - quarter selling…",
+   "one_liner": "Berkshire Hathaway Turns Buyer As Buffett Backs…",
    "why_now": null,
    "details": [
-    "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
     "Berkshire Hathaway Turns Buyer As Buffett Backs Alphabet",
-    "3 Obvious Reasons Warren Buffett Berkshire Hathaway Owns Nearly 152 Million Shares in This Winning Financial Stock"
+    "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+    "Berkshire Hathaway reshuffles portfolio , raises Alphabet and homebuilder stakes"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "993f705206631f0164ee747a08d3b188f7d134c7"
+  "fact_hash": "d2ffe83f6c6d28ffdf31a69bcc5150993f1aba44"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [23.5]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [23.5]\"]}]}",
-  "at": "2026-08-16T02:05:34.652160+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(59)\", \"입력에 없는 숫자: [100.0, 235.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T05:52:18.354199+00:00"
  },
  "glossary": [],
  "related": [

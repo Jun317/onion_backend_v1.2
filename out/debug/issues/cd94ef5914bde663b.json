@@ -874,7 +874,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T02:05:09.471418+00:00",
+  "created_at": "2026-08-16T05:52:55.172984+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -887,18 +887,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"구글 소식\",\n   \"one_liner\": \"구글의 창립자 세르지 브린이 캘리포니아 주 재산세에 맞서 1억 달러 이상을 투입했어요.\",\n   \"why_now\": \"재산세는 부유한 사람들에게 더 많은 세금을 부과해 국가 예산에 기여해요.\",\n   \"impact_line\": \"구글의 기술 개발이 더 발전할 수 있어요.\",\n   \"details\": [\n      \"구글의 창립자 세르지 브린이 캘리포니아 주 재산세에 맞서 1억 달러 이상을 투입했어요.\",\n      \"구글 클라우드의 매출이 전년 대비 82% 증가했어요.\",\n      \"구글이 저렴한 Gemini 3.7 Flash AI 모델을 공개했어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"구글의 기술 개발 투자가 더 tăng해져서 새로운 기술이 등장할 수 있어요!\",\n      \"구글 클라우드의 성장률이 높아져서 기업의 디지털 변혁을 도와줄 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"재산세\",\n         \"easy\": \"부유한 사람들에게 부과하는 세금이에요.\",\n         \"example\": \"재산세를 내면 국가 예산에 기여할 수 있어요.\"\n      }\n   ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [3.7]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [3.7]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -917,8 +911,8 @@
   "fact_hash": "ee87b1aeb2ddffd2e06199c068a3260948bed343"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [3.7]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [3.7]\"]}]}",
-  "at": "2026-08-16T02:05:09.471312+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T05:52:55.172895+00:00"
  },
  "glossary": [],
  "related": [

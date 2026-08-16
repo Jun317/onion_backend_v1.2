@@ -293,31 +293,25 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T02:02:35.652519+00:00",
+  "created_at": "2026-08-16T05:50:44.322123+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
     "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground",
     "Taiwan headline news - Focus Taiwan",
+    "Taiwan detects 2 Chinese aircraft , 7 naval vessels near island",
     "Taiwan Set to Approve Record Defence Budget Exceeding NT$1 . 1 Trillion",
-    "Taiwan ups 2026 GDP growth forecast to 11 . 05 %, a 39 - year high",
-    "Renewed Consolidation Expected For Taiwan Stock Market"
+    "Taiwan detects 11 Chinese aircraft , eight naval vessels operating near its territory"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"대만 경제 소식\",\n   \"one_liner\": \"대만이 2026년 경제 성장률을 11.05%로 올려 예측했어요\",\n   \"why_now\": \"대만의 경제 성장률이 올라가면 사람들이 더 많이 소비하고 투자할 수 있어요\",\n   \"impact_line\": \"대만과 거래하는 한국 기업의 수출이 늘어날 수 있어요\",\n   \"details\": [\n      \"대만이 2026년 경제 성장률을 11.05%로 올려 예측했어요\",\n      \"이것은 39년 만에 최고 성장률이에요\",\n      \"대만은 국방 예산을 1.1조 뉴 대만 달러로 늘릴 계획이에요\",\n      \"대만의 경제 성장률이 올라가면 아시아 경제에도 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"대만의 경제 성장률이 올라가면 한국과 대만의 교역이 늘어날 수 있어요!\",\n      \"대만의 국방 예산이 늘어나면 관련 산업이 발전할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [1.1, 11.05]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [1.1, 11.05]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -328,16 +322,16 @@
    "details": [
     "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground",
     "Taiwan headline news - Focus Taiwan",
-    "Taiwan Set to Approve Record Defence Budget Exceeding NT$1 . 1 Trillion"
+    "Taiwan detects 2 Chinese aircraft , 7 naval vessels near island"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "da4adc964013187074de824c9b6f63f67a45b5fb"
+  "fact_hash": "497625f4128b0aff290528790abdb61157a96498"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.1, 11.05]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.1, 11.05]\"]}]}",
-  "at": "2026-08-16T02:02:35.652437+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T05:50:44.322013+00:00"
  },
  "glossary": [],
  "related": [
@@ -354,14 +348,14 @@
    "shared": []
   },
   {
-   "id": "c71be4b20900d177d",
-   "title": "Interview : China zero - tariff treatment for African products opens new chapter in economic cooperation , says Nigerien expert",
+   "id": "c5c8d55ad4217ee1f",
+   "title": "Federal government grounds Billy Bishop airport expansion",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "c5c8d55ad4217ee1f",
-   "title": "Federal government grounds Billy Bishop airport expansion",
+   "id": "c71be4b20900d177d",
+   "title": "Interview : China zero - tariff treatment for African products opens new chapter in economic cooperation , says Nigerien expert",
    "category": "POLICY",
    "shared": []
   },
