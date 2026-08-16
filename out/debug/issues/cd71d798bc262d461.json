@@ -172,8 +172,8 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-16T02:05:46.069082+00:00",
+  "model": "template",
+  "created_at": "2026-08-16T07:53:27.315150+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -181,38 +181,37 @@
     "Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker  IRON , ...",
     "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
     "Contrasting Avalon Rare Metals ( OTCMKTS : AVLNF ) and Greenland Mines Ltd . Common Stock ( NASDAQ : GRML )",
-    "Meta Funds Controversial Content , Impact on Your Feed",
-    "Analyst Says Meta ( META ) AI Gains Are an  Illusion , Company Isnt Well Positioned in AI Race"
+    "Freedom Metals Acquisition Corp . Quiet Period Will Expire Tomorrow ( NASDAQ : FDMMU )",
+    "International Battery Metals Ltd . Reports First Quarter of Fiscal Year 2027 Financial Results"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"볼트 메탈스 이름 변경\",\n   \"one_liner\": \"볼트 메탈스가 이름을 26 메탈스로 바꾸고요\",\n   \"why_now\": \"회사가 하는 일에 맞게 이름을 바꾸는 게 보통이에요\",\n   \"impact_line\": \"회사 이름이 달라져도 주주들에게 큰 영향은 없을 수도 있어요\",\n   \"details\": [\n      \"볼트 메탈스가 이름을 26 메탈스로 바꾸어요\",\n      \"新的 이름은 브라질 철 사각형 지역의 플로랄리아 철 프로젝트에 중점을 두고 있어요\",\n      \"회사의 주식 표기 또한 IRON으로 변경될 예정이에요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"회사 이름 변경으로 투자자들의 관심이 증가할 수 있어요!\",\n      \"회사의 브랜드 인지도가 높아질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "볼트 메탈스 이름 변경",
-   "one_liner": "볼트 메탈스가 이름을 26 메탈스로 바꾸고요",
-   "why_now": "회사가 하는 일에 맞게 이름을 바꾸는 게 보통이에요",
+   "title": "Bolt Metals to…",
+   "one_liner": "Bolt Metals to Rebrand as 26 Metals Inc . and…",
+   "why_now": null,
    "details": [
-    "볼트 메탈스가 이름을 26 메탈스로 바꾸어요",
-    "新的 이름은 브라질 철 사각형 지역의 플로랄리아 철 프로젝트에 중점을 두고 있어요",
-    "회사의 주식 표기 또한 IRON으로 변경될 예정이에요"
+    "Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker  IRON , ...",
+    "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+    "Contrasting Avalon Rare Metals ( OTCMKTS : AVLNF ) and Greenland Mines Ltd . Common Stock ( NASDAQ : GRML )"
    ],
-   "effects": [
-    "회사 이름 변경으로 투자자들의 관심이 증가할 수 있어요!",
-    "회사의 브랜드 인지도가 높아질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "0a05d37f0bf0d6ddf70e4ccda452812d6f8ce66d"
+  "fact_hash": "37e1ffec495755c484677c314147d9ea23628e15"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-15T08:53:43.255943+00:00"
+  "at": "2026-08-16T07:53:27.315026+00:00"
  },
  "glossary": [],
  "related": [

@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T04:06:21.521952+00:00",
+  "created_at": "2026-08-16T07:51:54.033625+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,8 +881,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"기업 실적 발표 예정\", \"one_liner\": \"여러 기업들이 곧 2분기 실적을 발표할 예정이에요.\", \"why_now\": \"기업들의 실적은 회사의 성장성과 미래 전망을 보여주는 중요한 지표예요.\", \"impact_line\": null, \"details\": [\"NN, AXON, ERII, HLF, FLNC 등 여러 기업들의 2분기 실적 발표가 예정되어 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"기업 실적 발표를 통해 해당 기업의 현재 재정 상태와 미래 성장 가능성을 엿볼 수 있어요.\"], \"glossary\": []}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects[0] 느낌표 종결 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +912,8 @@
   "fact_hash": "52ea28e1487ff875ead2642750f3d3b6f380e3e8"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T04:06:21.521832+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[0] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T07:51:54.033493+00:00"
  },
  "glossary": [],
  "related": [
