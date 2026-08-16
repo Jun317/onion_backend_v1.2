@@ -172,8 +172,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-16T07:53:27.315150+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-16T11:41:19.607563+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -186,26 +186,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기업명 변경\",\n   \"one_liner\": \"볼트 메탈즈가 26 메탈즈로 이름을 바꾸었어요\",\n   \"why_now\": \"새 이름이 회사의 비전이나 사업 분야를 더 잘 나타낼 수 있어요\",\n   \"impact_line\": \"주주나 투자자에게 새로운 정보가 될 수 있어요\",\n   \"details\": [\n      \"볼트 메탈즈가 26 메탈즈로 이름을 바꾸었어요\",\n      \"新的 이름은 브라질의 철 광산 프로젝트와 관련이 있어요\",\n      \"새로운 이름과 함께 새로운 티커를 사용할 예정이어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"기업의 브랜드 인지도가 높아질 수 있어요!\",\n      \"새로운 이름으로 인해 투자자들의 관심이 증가할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Bolt Metals to…",
-   "one_liner": "Bolt Metals to Rebrand as 26 Metals Inc . and…",
-   "why_now": null,
+   "title": "기업명 변경",
+   "one_liner": "볼트 메탈즈가 26 메탈즈로 이름을 바꾸었어요",
+   "why_now": "새 이름이 회사의 비전이나 사업 분야를 더 잘 나타낼 수 있어요",
    "details": [
-    "Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker  IRON , ...",
-    "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
-    "Contrasting Avalon Rare Metals ( OTCMKTS : AVLNF ) and Greenland Mines Ltd . Common Stock ( NASDAQ : GRML )"
+    "볼트 메탈즈가 26 메탈즈로 이름을 바꾸었어요",
+    "新的 이름은 브라질의 철 광산 프로젝트와 관련이 있어요",
+    "새로운 이름과 함께 새로운 티커를 사용할 예정이어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "기업의 브랜드 인지도가 높아질 수 있어요!",
+    "새로운 이름으로 인해 투자자들의 관심이 증가할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "37e1ffec495755c484677c314147d9ea23628e15"
  },

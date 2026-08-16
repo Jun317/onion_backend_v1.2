@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-16T07:53:46.557390+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-16T11:41:23.426685+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,25 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"선거 공약 발표\",\n\"one_liner\": \"정당들이 선거를 앞두고 공약을 발표하고 있어요.\",\n\"why_now\": \"선거 공약은 앞으로 나라가 어떻게 운영될지 보여주는 중요한 지표예요.\",\n\"impact_line\": \"내가 지지하는 정당의 공약에 따라 미래의 세금이나 복지 혜택이 달라질 수 있어요.\",\n\"details\": [\n\"각 정당은 선거에서 이기기 위해 다양한 공약을 내놓고 있어요.\",\n\"이번 선거에서는 통행료 상한선과 전직 경찰관 채용에 대한 공약이 공개되었어요.\",\n\"한 정치인은 몇 주 전에 당 대표직에서 물러났다고 밝혔어요.\",\n\"한 연설에서는 특정 정당들을 '동물 농장'에 비유하며 비판했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"정당들의 공약 발표는 유권자들의 표심에 영향을 줄 수 있어요!\",\n\"공약 내용에 따라 앞으로의 경제 정책 방향이 결정될 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"통행료\",\n\"easy\": \"도로를 이용할 때 내는 돈이에요.\",\n\"example\": \"고속도로 통행료가 너무 비싸서 부담스러워요.\"\n},\n{\n\"term\": \"공약\",\n\"easy\": \"선거 때 유권자들에게 내세우는 약속이에요.\",\n\"example\": \"대통령 후보가 공약을 지키지 않아 실망했어요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Toll caps , ex - cop…",
-   "one_liner": "Toll caps , ex - cop recruits unveiled in…",
-   "why_now": null,
+   "title": "선거 공약 발표",
+   "one_liner": "정당들이 선거를 앞두고 공약을 발표하고 있어요.",
+   "why_now": "선거 공약은 앞으로 나라가 어떻게 운영될지 보여주는 중요한 지표예요.",
    "details": [
-    "Toll caps , ex - cop recruits unveiled in election pitch",
-    "Flynn reveals he resigned as Westminster leader weeks before Holyrood election",
-    "Winston Peter Speech :  The Labour , Green , Māori , Opportunity - Antipodean Animal Farm"
+    "각 정당은 선거에서 이기기 위해 다양한 공약을 내놓고 있어요.",
+    "이번 선거에서는 통행료 상한선과 전직 경찰관 채용에 대한 공약이 공개되었어요.",
+    "한 정치인은 몇 주 전에 당 대표직에서 물러났다고 밝혔어요.",
+    "한 연설에서는 특정 정당들을 '동물 농장'에 비유하며 비판했어요."
    ],
-   "effects": [],
+   "effects": [
+    "정당들의 공약 발표는 유권자들의 표심에 영향을 줄 수 있어요!",
+    "공약 내용에 따라 앞으로의 경제 정책 방향이 결정될 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "809629d61edc37c02c04ad7023179122bbe0e8d6"

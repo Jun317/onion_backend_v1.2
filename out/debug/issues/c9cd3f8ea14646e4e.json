@@ -2,16 +2,36 @@
  "id": "c9cd3f8ea14646e4e",
  "title": "Beauty , cosmetics segment to be key growth driver for EPL ; raises near - term revenue guidance - Moneycontrol . com",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 45,
+ "seen_sources": 3,
+ "importance": 55,
  "created_at": "2026-08-16T10:45:49.456677+00:00",
- "last_update": "2026-08-16T10:45:49.456677+00:00",
+ "last_update": "2026-08-16T11:41:11.505139+00:00",
  "members": [
+  {
+   "id": "de44fc0d87058c74b749ef1d8375fb1197fdefbb",
+   "source": "standardmedia.co.ke",
+   "tier": "wire",
+   "url": "https://www.standardmedia.co.ke/business/article/2001555436/auto-dealer-caetano-kenya-targets-coast-with-french-chinese-trucks",
+   "title": "Auto dealer Caetano Kenya targets Coast with French , Chinese trucks",
+   "published_at": "2026-08-16T10:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8739
+  },
+  {
+   "id": "e457be6308ec65577bba3931d9d3f4f617e2987e",
+   "source": "economictimes.indiatimes.com",
+   "tier": "wire",
+   "url": "https://economictimes.indiatimes.com/industry/telecom/airtel-prepaid-plan-tweaks-brokerages-estimate-per-user-revenue-lifts-ranging-from-rs-4-to-rs-12/articleshow/133272857.cms",
+   "title": "Airtel prepaid plan tweaks : Brokerages estimate per - user revenue lifts ranging from Rs 4 to Rs 12",
+   "published_at": "2026-08-16T10:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8741
+  },
   {
    "id": "30e21ab84bf1aab4b7a6b29615f9915b433ace0f",
    "source": "moneycontrol.com",
@@ -20,7 +40,7 @@
    "title": "Beauty , cosmetics segment to be key growth driver for EPL ; raises near - term revenue guidance - Moneycontrol . com",
    "published_at": "2026-08-16T09:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9563
+   "sim_to_centroid": 0.9486
   },
   {
    "id": "9c3d51a064f6f298a38946d866b9ffd40518a215",
@@ -30,11 +50,35 @@
    "title": "Fuel , input costs squeeze cement companie margins despite healthy volume growth - Moneycontrol . com",
    "published_at": "2026-08-16T09:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9563
+   "sim_to_centroid": 0.9531
+  },
+  {
+   "id": "cba87d8f89d0a7af67465f8fee77beb3d8f91948",
+   "source": "business-standard.com",
+   "tier": "wire",
+   "url": "https://www.business-standard.com/companies/news/india-a-key-growth-focus-market-orix-corporation-president-group-ceo-hidetake-takahashi-126081600123_1.html",
+   "title": "India a key growth focus market : ORIX Corporation President & Group CEO Hidetake Takahashi",
+   "published_at": "2026-08-16T09:00:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.8698
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Auto dealer Caetano Kenya targets Coast with French , Chinese trucks",
+   "source": "standardmedia.co.ke",
+   "url": "https://www.standardmedia.co.ke/business/article/2001555436/auto-dealer-caetano-kenya-targets-coast-with-french-chinese-trucks",
+   "at": "2026-08-16T10:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Airtel prepaid plan tweaks : Brokerages estimate per - user revenue lifts ranging from Rs 4 to Rs 12",
+   "source": "economictimes.indiatimes.com",
+   "url": "https://economictimes.indiatimes.com/industry/telecom/airtel-prepaid-plan-tweaks-brokerages-estimate-per-user-revenue-lifts-ranging-from-rs-4-to-rs-12/articleshow/133272857.cms",
+   "at": "2026-08-16T10:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Beauty , cosmetics segment to be key growth driver for EPL ; raises near - term revenue guidance - Moneycontrol . com",
@@ -48,10 +92,56 @@
    "source": "moneycontrol.com",
    "url": "https://www.moneycontrol.com/news/business/companies/fuel-input-costs-squeeze-cement-companies-margins-despite-healthy-volume-growth-14006658.html",
    "at": "2026-08-16T09:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "India a key growth focus market : ORIX Corporation President & Group CEO Hidetake Takahashi",
+   "source": "business-standard.com",
+   "url": "https://www.business-standard.com/companies/news/india-a-key-growth-focus-market-orix-corporation-president-group-ceo-hidetake-takahashi-126081600123_1.html",
+   "at": "2026-08-16T09:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-16T11:42:48.833474+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Auto dealer Caetano Kenya targets Coast with French , Chinese trucks",
+    "Airtel prepaid plan tweaks : Brokerages estimate per - user revenue lifts ranging from Rs 4 to Rs 12",
+    "Beauty , cosmetics segment to be key growth driver for EPL ; raises near - term revenue guidance - Moneycontrol . com",
+    "Fuel , input costs squeeze cement companie margins despite healthy volume growth - Moneycontrol . com"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Auto dealer Caetano…",
+   "one_liner": "Auto dealer Caetano Kenya targets Coast with…",
+   "why_now": null,
+   "details": [
+    "Auto dealer Caetano Kenya targets Coast with French , Chinese trucks",
+    "Airtel prepaid plan tweaks : Brokerages estimate per - user revenue lifts ranging from Rs 4 to Rs 12",
+    "Beauty , cosmetics segment to be key growth driver for EPL ; raises near - term revenue guidance - Moneycontrol . com"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "b5a5dc566139a1f35eac5fcd1bd6cdc120aef842"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T11:42:48.833365+00:00"
+ },
  "glossary": [],
  "related": [
   {
