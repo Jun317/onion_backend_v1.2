@@ -2,16 +2,26 @@
  "id": "c699ad9c63d56f1c0",
  "title": "Electric trucks could deliver a billion - dollar payload",
  "category": "FX",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 2,
+ "importance": 70,
  "created_at": "2026-08-14T12:03:19.865214+00:00",
- "last_update": "2026-08-15T22:43:48.039802+00:00",
+ "last_update": "2026-08-16T04:56:03.502793+00:00",
  "members": [
+  {
+   "id": "82ca1697382468167f9bc5947f29e63304b5cef1",
+   "source": "businesstoday.in",
+   "tier": "wire",
+   "url": "https://www.businesstoday.in/latest/economy/story/mileage-depends-on-more-than-fuel-alone-oil-ministry-defends-e20-calls-it-validated-549441-2026-08-16",
+   "title": "Mileage depends on more than fuel alone : Oil Ministry defends E20 , calls it validated",
+   "published_at": "2026-08-16T04:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8538
+  },
   {
    "id": "6afee38d9a4277f009931fe0895185c5d8075bec",
    "source": "utilitydive.com",
@@ -20,7 +30,7 @@
    "title": "Utility and Energy Transmission & Distribution News",
    "published_at": "2026-08-15T22:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.8725
+   "sim_to_centroid": 0.8805
   },
   {
    "id": "1e6579a6dd3452cee0229669c8eece955a9f7509",
@@ -30,7 +40,7 @@
    "title": "Electric trucks could deliver a billion - dollar payload",
    "published_at": "2026-08-14T10:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9985
+   "sim_to_centroid": 0.9958
   },
   {
    "id": "25437ad683ba5e62c80dffebfedcc46b75238f65",
@@ -40,7 +50,7 @@
    "title": "Electric trucks could deliver a billion - dollar payload",
    "published_at": "2026-08-14T10:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9985
+   "sim_to_centroid": 0.9958
   },
   {
    "id": "53b5b250b863a1c000052fd5313971dc15adbfa5",
@@ -50,11 +60,18 @@
    "title": "Electric trucks could deliver a billion - dollar payload",
    "published_at": "2026-08-14T10:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9985
+   "sim_to_centroid": 0.9958
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Mileage depends on more than fuel alone : Oil Ministry defends E20 , calls it validated",
+   "source": "businesstoday.in",
+   "url": "https://www.businesstoday.in/latest/economy/story/mileage-depends-on-more-than-fuel-alone-oil-ministry-defends-e20-calls-it-validated-549441-2026-08-16",
+   "at": "2026-08-16T04:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Utility and Energy Transmission & Distribution News",
@@ -84,8 +101,50 @@
    "at": "2026-08-14T10:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-16T04:56:33.181722+00:00",
+  "payload": {
+   "category": "FX",
+   "anchors": [],
+   "headlines": [
+    "Mileage depends on more than fuel alone : Oil Ministry defends E20 , calls it validated",
+    "Electric trucks could deliver a billion - dollar payload"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"연료 외 다른 요인도 고려해야\", \"one_liner\": \"석유부가 E20 연료가 검증됐다며, 마일리지도 연료 외 다른 요인으로 결정된다고 주장했어요.\", \"why_now\": \"자동차 연비는 단순히 연료 종류뿐 아니라 다양한 요인에 따라 달라질 수 있다는 점을 알려줘요.\", \"impact_line\": null, \"details\": [\"석유부는 E20 연료가 검증되었다고 말했어요.\", \"자동차 연비는 연료 외 다른 요인으로도 결정될 수 있다고 주장했어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"마일리지\", \"easy\": \"자동차의 연비를 말해요. 1리터의 연료로 얼마나 멀리 갈 수 있는지를 나타내요.\", \"example\": \"이 차는 마일리지가 좋아서 기름값이 적게 들어요.\"}, {\"term\": \"E20\", \"easy\": \"바이오 에탄올을 20% 섞은 연료예요.\", \"example\": \"E20 연료는 기존 휘발유보다 친환경적이라고 해요.\"}}]}], \"impact_line\": null}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "JSON 파스 실패"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Mileage depends on…",
+   "one_liner": "Mileage depends on more than fuel alone : Oil…",
+   "why_now": null,
+   "details": [
+    "Mileage depends on more than fuel alone : Oil Ministry defends E20 , calls it validated",
+    "Electric trucks could deliver a billion - dollar payload"
+   ],
+   "effects": [],
+   "visual_type": "usdkrw"
+  },
+  "fact_hash": "292429f01b216cacc8f28130ef3d0af092a02443"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"JSON 파스 실패\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T04:56:33.181426+00:00"
+ },
  "glossary": [],
  "related": [
   {
