@@ -867,42 +867,44 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-16T06:00:01.938613+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-16T09:48:10.235103+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
    "headlines": [
-    "3 Bank Stocks We Find Risky",
-    "Jobs data and a fireside chat : the economic week ahead",
     "The US Is Implementing The NATO 3 . 0 Concept In Asia Through AUKUS+",
+    "Jobs data and a fireside chat : the economic week ahead",
+    "3 Bank Stocks We Find Risky",
     "2 Growth Stocks to Add to Your Roster and 1 We Avoid",
     "Central banks are stuck in a rinse - and - repeat cycle of crises"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 금융 소식\",\n   \"one_liner\": \"미국에서 여러 금융 관련 뉴스가 나왔어요\",\n   \"why_now\": \"금융 뉴스는 우리의 돈과 관련되어 중요해요\",\n   \"impact_line\": \"주식·대출 등에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"미국은 NATO 3.0 개념을 아시아에서 시행하고 있어요\",\n       \"미국은 금융 위기를 반복하는 것 같아요\",\n       \"일자리 데이터와 경제 관련 이야기가 나왔어요\",\n       \"은행 주식과 성장 주식에 대한 이야기가 나왔어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주식 시장에 영향을 줄 수 있어요!\",\n       \"은행 대출과 예금에 변화가 생길 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "3 Bank Stocks We…",
-   "one_liner": "3 Bank Stocks We Find Risky",
-   "why_now": null,
+   "title": "미국 금융 소식",
+   "one_liner": "미국에서 여러 금융 관련 뉴스가 나왔어요",
+   "why_now": "금융 뉴스는 우리의 돈과 관련되어 중요해요",
    "details": [
-    "3 Bank Stocks We Find Risky",
-    "Jobs data and a fireside chat : the economic week ahead",
-    "The US Is Implementing The NATO 3 . 0 Concept In Asia Through AUKUS+"
+    "미국은 NATO 3.0 개념을 아시아에서 시행하고 있어요",
+    "미국은 금융 위기를 반복하는 것 같아요",
+    "일자리 데이터와 경제 관련 이야기가 나왔어요",
+    "은행 주식과 성장 주식에 대한 이야기가 나왔어요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "주식 시장에 영향을 줄 수 있어요!",
+    "은행 대출과 예금에 변화가 생길 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "25c6a99ff86de6175dad6d45b444b09498528da6"
+  "fact_hash": "2bc0c2590515434b9cae92bb456d8e567c8f4514"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

@@ -1,0 +1,135 @@
+{
+ "id": "c78ab0773636aa1d7",
+ "title": "IFP Advisors Inc Acquires 2 , 652 Shares of JPMorgan Chase & Co . $JPM",
+ "category": "MARKET",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "JPM"
+ ],
+ "seen_sources": 2,
+ "importance": 90,
+ "created_at": "2026-08-16T09:48:08.959655+00:00",
+ "last_update": "2026-08-16T09:48:08.960441+00:00",
+ "members": [
+  {
+   "id": "8fb400b66c326048c574b70211bb660f31a4fe15",
+   "source": "moneyweek.com",
+   "tier": "wire",
+   "url": "https://moneyweek.com/investments/small-cap-stocks/should-you-buy-jpmorgan-uk-small-cap-growth-and-income-trust",
+   "title": "Buy united kingdom small caps with JPMorgan united kingdom Small Cap Growth & Income",
+   "published_at": "2026-08-16T09:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9607
+  },
+  {
+   "id": "2f398b8da115e990befaab06db617d1727917abf",
+   "source": "themarketsdaily.com",
+   "tier": "wire",
+   "url": "https://www.themarketsdaily.com/2026/08/15/ifp-advisors-inc-acquires-2652-shares-of-jpmorgan-chase-co-jpm.html",
+   "title": "IFP Advisors Inc Acquires 2 , 652 Shares of JPMorgan Chase & Co . $JPM",
+   "published_at": "2026-08-15T11:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9607
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Buy united kingdom small caps with JPMorgan united kingdom Small Cap Growth & Income",
+   "source": "moneyweek.com",
+   "url": "https://moneyweek.com/investments/small-cap-stocks/should-you-buy-jpmorgan-uk-small-cap-growth-and-income-trust",
+   "at": "2026-08-16T09:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "IFP Advisors Inc Acquires 2 , 652 Shares of JPMorgan Chase & Co . $JPM",
+   "source": "themarketsdaily.com",
+   "url": "https://www.themarketsdaily.com/2026/08/15/ifp-advisors-inc-acquires-2652-shares-of-jpmorgan-chase-co-jpm.html",
+   "at": "2026-08-15T11:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-16T09:48:23.341006+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Buy united kingdom small caps with JPMorgan united kingdom Small Cap Growth & Income",
+    "IFP Advisors Inc Acquires 2 , 652 Shares of JPMorgan Chase & Co . $JPM"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"JPM 주식 매수\", \"one_liner\": \"IFP Advisors Inc가 JP모건 체이스 주식 2,652주를 매수했어요.\", \"why_now\": \"주요 투자 회사가 특정 기업의 주식을 사들이는 것은 해당 기업의 미래 가치를 긍정적으로 보기 때문일 수 있어요.\", \"impact_line\": \"JP모건 주가가 오를 수 있어요.\", \"details\": [\"IFP Advisors Inc가 JP모건 체이스 주식 2,652주를 사들였어요.\"], \"visual_type\": \"none\", \"effects\": [\"JP모건 체이스의 주가가 상승할 가능성이 있어요!\"], \"glossary\": [{\"term\": \"주식\", \"easy\": \"회사의 소유권 일부를 나타내는 증서예요. 이걸 사면 회사의 주인이 되는 거예요.\", \"example\": \"삼성전자 주식을 사면 삼성전자의 주인이 되는 거예요.\"}, {\"term\": \"JP모건 체이스\", \"easy\": \"미국을 대표하는 세계적인 금융 회사예요.\", \"example\": \"JP모건 체이스는 은행, 투자, 자산 관리 등 다양한 금융 서비스를 제공해요.\"}], \"impact_line\": \"JP모건 주가가 오를 수 있어요.\"}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(62)",
+     "details 3문장 미만",
+     "입력에 없는 숫자: [2652.0]"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Buy united kingdom…",
+   "one_liner": "Buy united kingdom small caps with JPMorgan…",
+   "why_now": null,
+   "details": [
+    "Buy united kingdom small caps with JPMorgan united kingdom Small Cap Growth & Income",
+    "IFP Advisors Inc Acquires 2 , 652 Shares of JPMorgan Chase & Co . $JPM"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "cd6b7f3b0d1f139987fc5ff87d1b32d66e67a17e"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(62)\", \"details 3문장 미만\", \"입력에 없는 숫자: [2652.0]\"]}]}",
+  "at": "2026-08-16T09:48:23.340815+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cad425da121baed31",
+   "title": "Nvidia $70 billion bet on OpenAI , Anthropic , and others could pay off big for shareholders",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c473082d7f30acb2b",
+   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cd6e96f9df3790928",
+   "title": "US economy cools in second quarter despite solid spending",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cb34f19e1978fa138",
+   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
+   "category": "MARKET",
+   "shared": []
+  }
+ ]
+}
