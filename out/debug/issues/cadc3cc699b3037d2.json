@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-15T08:51:50.257033+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-16T02:03:14.817080+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -881,26 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"인도 경제 계획\",\n   \"one_liner\": \"인도 총리가 2047년까지의 경제 목표를 발표했어요\",\n   \"why_now\": \"나라의 장기 계획이 경제와 생활에 영향을 줄 수 있어요\",\n   \"impact_line\": \"인도의 경제 성장과 기술 발전이 세계에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"인도 총리는 2047년까지 50개의 글로벌 대기업을 만들고 싶어해요\",\n       \"인도는 2030년까지 재생에너지 목표를 500GW로 설정했어요\",\n       \"인도는 2047년까지 핵발전 능력을 100GW로 늘리려고 해요\",\n       \"인도 총리는 2047년까지 세계 5대 은행 중 하나가 되고 싶어해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"인도의 경제 성장이 세계 시장에 긍정적인 영향을 줄 수 있어요!\",\n       \"인도의 기술 발전이 새로운 기회를 만들 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"GDP\",\n           \"easy\": \"한 나라의 전체 경제 규모를 나타내는 수치예요\",\n           \"example\": \"GDP가 증가하면 나라의 경제가 성장하고 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Indonesia Prabowo…",
-   "one_liner": "Indonesia Prabowo proposes deficit at 2 . 4 % of…",
-   "why_now": null,
+   "title": "인도 경제 계획",
+   "one_liner": "인도 총리가 2047년까지의 경제 목표를 발표했어요",
+   "why_now": "나라의 장기 계획이 경제와 생활에 영향을 줄 수 있어요",
    "details": [
-    "Indonesia Prabowo proposes deficit at 2 . 4 % of GDP in 2027 budget",
-    "PM Modi I - Day Speech : 500 GW Renewable Energy Target by 2030 , Solar Capacity at 160 GW",
-    "PM Modi Sets 2047 Goals : 50 Fortune 500 Companies , Top 5 Global Bank , 100 GW Nuclear Power"
+    "인도 총리는 2047년까지 50개의 글로벌 대기업을 만들고 싶어해요",
+    "인도는 2030년까지 재생에너지 목표를 500GW로 설정했어요",
+    "인도는 2047년까지 핵발전 능력을 100GW로 늘리려고 해요",
+    "인도 총리는 2047년까지 세계 5대 은행 중 하나가 되고 싶어해요"
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "인도의 경제 성장이 세계 시장에 긍정적인 영향을 줄 수 있어요!",
+    "인도의 기술 발전이 새로운 기회를 만들 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "2fe1561466a88bb749df254a1fe18fc894e1db7e"
  },
@@ -908,13 +910,7 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-15T08:51:50.256916+00:00"
  },
- "glossary": [
-  {
-   "term": "GDP",
-   "easy": "한 나라가 일정 기간 벌어들인 값의 총합이에요.",
-   "example": "경제 규모가 얼마나 큰지 보여줘요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "cb3030e4a5acd0008",

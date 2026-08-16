@@ -868,51 +868,45 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-15T10:45:06.601335+00:00",
+  "created_at": "2026-08-16T02:08:41.484797+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
-    "Dockside LLC Buys Shares of 22 , 654 OGE Energy Corporation $OGE",
-    "Dockside LLC Makes New Investment in Onto Innovation Inc . $ONTO",
-    "State bond advances to fund sweeping improvements at La Brea Tar Pits",
+    "New incentive to unlock FDIs , 3m barrels oil output Ojulari – Daily Trust",
     "FGN Bond : DMO raises N5 . 86bn in August",
-    "New incentive to unlock FDIs , 3m barrels oil output Ojulari – Daily Trust"
+    "Talanx Q2 Earnings Call Highlights",
+    "Editorial : Budget on precipice of catastrophe",
+    "The Top 5 Analyst Questions From iRhythm Q2 Earnings Call"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"원유 생산량 증대 유인책\",\n\"one_liner\": \"새로운 유인책으로 하루 300만 배럴의 원유 생산을 늘릴 수 있다고 해요.\",\n\"why_now\": \"원유 생산이 늘면 국제 유가가 안정될 수 있고, 관련 산업에도 영향을 줄 수 있어요.\",\n\"impact_line\": \"국제 유가 변동에 따라 주유비나 항공료가 달라질 수 있어요.\",\n\"details\": [\n\"새로운 유인책이 마련될 예정이에요.\",\n\"하루 300만 배럴의 원유 생산을 늘리는 것을 목표로 하고 있어요.\",\n\"이는 외국인 직접 투자를 늘리는 데 도움이 될 것으로 기대돼요.\"\n],\n\"visual_type\": \"wti\",\n\"effects\": [\n\"원유 생산이 늘면 국제 유가가 하락할 수 있어요!\",\n\"국제 유가 하락은 항공, 운송 등 관련 산업의 비용 절감으로 이어질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"FDIs\",\n\"easy\": \"외국인 투자자가 국내 기업에 직접 투자하는 것을 말해요.\",\n\"example\": \"정부는 외국인 직접 투자를 늘리기 위해 세금 감면 혜택을 제공하고 있어요.\"\n},\n{\n\"term\": \"원유\",\n\"easy\": \"땅속에서 캐내는 기름으로, 다양한 제품의 원료가 돼요.\",\n\"example\": \"원유 가격이 오르면 휘발유 가격도 함께 오르는 경우가 많아요.\"\n}\n],\n\"impact_line\": \"국제 유가 변동에 따라 주유비나 항공료가 달라질 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [300.0]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [300.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
   "output": {
-   "title": "Dockside LLC Buys…",
-   "one_liner": "Dockside LLC Buys Shares of 22 , 654 OGE Energy…",
+   "title": "New incentive to…",
+   "one_liner": "New incentive to unlock FDIs , 3m barrels oil…",
    "why_now": null,
    "details": [
-    "Dockside LLC Buys Shares of 22 , 654 OGE Energy Corporation $OGE",
-    "Dockside LLC Makes New Investment in Onto Innovation Inc . $ONTO",
-    "State bond advances to fund sweeping improvements at La Brea Tar Pits"
+    "New incentive to unlock FDIs , 3m barrels oil output Ojulari – Daily Trust",
+    "FGN Bond : DMO raises N5 . 86bn in August",
+    "Talanx Q2 Earnings Call Highlights"
    ],
    "effects": [],
    "visual_type": "wti"
   },
-  "fact_hash": "92cbda5f09e72291e54a8c5bf95382fd03264390"
+  "fact_hash": "c993f4acda0b6f3945107cdaad0fc51db46dcf7b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [300.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [300.0]\"]}]}",
-  "at": "2026-08-15T10:45:06.601226+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T02:08:41.484735+00:00"
  },
  "glossary": [],
  "related": [

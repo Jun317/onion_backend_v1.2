@@ -105,7 +105,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-15T08:52:08.947744+00:00",
+  "created_at": "2026-08-16T02:03:35.572308+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -118,12 +118,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"오라클\",\n   \"one_liner\": \"오라클이 또 한 번의 구조조정을 할 계획이에요.\",\n   \"why_now\": \"오라클의 구조조정은 회사 경영에 영향을 줄 수 있어요.\",\n   \"impact_line\": \"오라클에 종속된 업체나 파트너사의 사업이 어려워질 수 있어요\",\n   \"details\": [\n      \"오라클이 2026년 8월에 새로운 구조조정을 할 계획이라고 알려졌어요.\",\n      \"오라클의 주가가 최근에 떨어졌어요.\",\n      \"오라클의 재무 서비스 소프트웨어 주가가 2.10% 떨어졌어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"오라클의 구조조정이 더 많은 사람들의 일자리를 위협할 수 있어요!\",\n      \"오라클의 사업이 어려워지면 그와 관련된 다른 회사의 사업에도 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [2.1]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [2.1]"
     ]
    }
   ],
@@ -142,8 +148,8 @@
   "fact_hash": "cbb2e53fef8a09e6c12070dc59f4fc6e788dd669"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-15T08:52:08.947628+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.1]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.1]\"]}]}",
+  "at": "2026-08-16T02:03:35.572196+00:00"
  },
  "glossary": [],
  "related": [

@@ -360,48 +360,56 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-15T11:41:38.969426+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-16T02:02:47.359326+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
     "US to tell partners they must pick sides in AI race with China",
-    "Trump hidden flight , Netanyahu defiance and India China problem",
-    "Xi Calls for Improving Disaster Prevention as Floods , Landslides Batter China",
-    "China 20 , 000 - mile solar trade route that battled US tariffs",
-    "Ugly Sister Citie : White House Puts Pune , Gujarat , Chennai in China Transshipment Scam Report"
+    "Latin America Steel Slips on China Tariff Trade",
+    "China shaping the future of open - source technology – including AI",
+    "Trump 100 % tariff on drones deepens US - China tech decoupling – Hartford Courant",
+    "Xi Calls for Improving Disaster Prevention as Floods , Landslides Batter China"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미·중 기술 경쟁\",\n   \"one_liner\": \"미국이 중국과의 기술 경쟁에서 동맹국이 어느 편을 들지 선택하라고 했어요\",\n   \"why_now\": \"미국과 중국의 기술 경쟁이 심해지고 있어요\",\n   \"impact_line\": \"중국 제품의 가격이 오를 수 있어요\",\n   \"details\": [\n       \"미국은 중국과의 기술 경쟁에서 어느 편을 들지 선택하라고 동맹국에 했어요\",\n       \"중국은 개방형 기술, 특히 인공지능 분야에서 앞서가고 있어요\",\n       \"미국은 중국 제품에 대한 관세를 높여서 기술 분리 현상이 심해지고 있어요\",\n       \"중국은 자연 재해 예방을 강화해야 한다고 했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"중국 제품의 수출이 어려워져 중국 경제에 영향을 줄 수 있어요!\",\n       \"미국과 중국의 기술 경쟁이 심해져서 새로운 기술 개발이 가속화될 것으로 예상돼요!\"\n   ],\n   \"glossary\": [\n       {\"term\": \"인공지능\", \"easy\": \"기계가 사람처럼 생각하고 행동하게 만든 기술이에요\", \"example\": \"인공지능을 사용하면 기계가 사람처럼 사진을 인식할 수 있어요\"}\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "US to tell partners…",
-   "one_liner": "US to tell partners they must pick sides in AI…",
-   "why_now": null,
+   "title": "미·중 기술 경쟁",
+   "one_liner": "미국이 중국과의 기술 경쟁에서 동맹국이 어느 편을 들지 선택하라고 했어요",
+   "why_now": "미국과 중국의 기술 경쟁이 심해지고 있어요",
    "details": [
-    "US to tell partners they must pick sides in AI race with China",
-    "Trump hidden flight , Netanyahu defiance and India China problem",
-    "Xi Calls for Improving Disaster Prevention as Floods , Landslides Batter China"
+    "미국은 중국과의 기술 경쟁에서 어느 편을 들지 선택하라고 동맹국에 했어요",
+    "중국은 개방형 기술, 특히 인공지능 분야에서 앞서가고 있어요",
+    "미국은 중국 제품에 대한 관세를 높여서 기술 분리 현상이 심해지고 있어요",
+    "중국은 자연 재해 예방을 강화해야 한다고 했어요"
    ],
-   "effects": [],
+   "effects": [
+    "중국 제품의 수출이 어려워져 중국 경제에 영향을 줄 수 있어요!",
+    "미국과 중국의 기술 경쟁이 심해져서 새로운 기술 개발이 가속화될 것으로 예상돼요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "976d3fbe2fa29aec60163f6086d1e81c00fab29e"
+  "fact_hash": "6edcef89455d198f23ec738a8058fe09906d4ea4"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-15T11:41:38.969288+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "c03074aeed49bf60f",

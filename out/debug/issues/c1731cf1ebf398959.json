@@ -412,46 +412,56 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-15T08:59:20.133572+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-16T02:02:09.449204+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
-    "Home Depot Inc ( HD ) Stock News & Articles",
+    "Wall Street week ahead : Home Depot and Walmart report earnings , minutes of Fed meeting are released",
+    "US producer prices unchanged as markets pare Fed hike bets",
+    "Bill Gate Portfolio Just Added Home Depot ( HD ) Despite Risks . Time to Buy ?",
     "Home Depot , Baidu , and Klarna Lead a Busy 103 - Company Earnings Week",
-    "Home Depot CEO Ted Decker takes medical leave , two execs take over temporarily"
+    "Oil prices rally , US data dents chances of Fed rate hike"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"홈디포 실적 발표\",\n   \"one_liner\": \"홈디포와 월마트의 실적이 발표됐어요\",\n   \"why_now\": \"대기업의 실적은 경제 전망에 영향을 미치는 중요한 지표예요\",\n   \"impact_line\": \"소비자 물가에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"홈디포와 월마트의 실적이 발표됐어요\",\n       \"미국 생산자 물가는 변동이 없어요\",\n       \"미국 데이터로 인해 금리 인상 가능성이 낮아졌어요\",\n       \"오일 가격이 상승했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"소비자 물가가 영향을 받을 수 있어요!\",\n       \"기업의 실적이 좋으면 소비자에게도 긍정적인 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Home Depot Inc ( HD…",
-   "one_liner": "Home Depot Inc ( HD ) Stock News & Articles",
-   "why_now": null,
+   "title": "홈디포 실적 발표",
+   "one_liner": "홈디포와 월마트의 실적이 발표됐어요",
+   "why_now": "대기업의 실적은 경제 전망에 영향을 미치는 중요한 지표예요",
    "details": [
-    "Home Depot Inc ( HD ) Stock News & Articles",
-    "Home Depot , Baidu , and Klarna Lead a Busy 103 - Company Earnings Week",
-    "Home Depot CEO Ted Decker takes medical leave , two execs take over temporarily"
+    "홈디포와 월마트의 실적이 발표됐어요",
+    "미국 생산자 물가는 변동이 없어요",
+    "미국 데이터로 인해 금리 인상 가능성이 낮아졌어요",
+    "오일 가격이 상승했어요"
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "소비자 물가가 영향을 받을 수 있어요!",
+    "기업의 실적이 좋으면 소비자에게도 긍정적인 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "9cc2124a13ced1034f212faf8520ae6caafe1ede"
+  "fact_hash": "0fd9287740b23123e10791977781f226e66d7ec9"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-15T08:59:20.133505+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리 인상",
+   "easy": "이자의 기준을 올리는 거예요.",
+   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
+  }
+ ],
  "related": [
   {
    "id": "cea83213c8906724e",

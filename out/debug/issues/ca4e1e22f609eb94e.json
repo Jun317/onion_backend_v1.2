@@ -853,42 +853,44 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-15T08:54:02.160817+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-16T02:02:58.479884+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
     "The US threatens  indefinite naval blockade  of Iran as oil crisis resurges",
-    "Iran economy is buckling under the weight of war",
-    "US eyes indefinite Iran naval blockade as oil supply shortfall deepens",
-    "Trump says US will claim Strait of Hormuz after Iran war",
-    "Will declare Hormuz  US territory  after defeating Iran : Trump"
-   ],
-   "official_lines": []
-  },
-  "raw_response": "",
-  "attempts": [
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
-   }
-  ],
-  "output": {
-   "title": "The US threatens…",
-   "one_liner": "The US threatens  indefinite naval blockade  of…",
-   "why_now": null,
-   "details": [
-    "The US threatens  indefinite naval blockade  of Iran as oil crisis resurges",
+    "Iran calls on US to accept defeat over Strait of Hormuz",
+    "Iran fires back at Trump threat to declare Hormuz a US territory",
     "Iran economy is buckling under the weight of war",
     "US eyes indefinite Iran naval blockade as oil supply shortfall deepens"
    ],
-   "effects": [],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미국과 이란의 해상 충돌\",\n   \"one_liner\": \"미국이 이란에 대해 무기한 해상 봉쇄를 위협했어요.\",\n   \"why_now\": \"이란과 미국의 충돌이 심해지면 세계 유가에 영향을 줄 수 있어요.\",\n   \"impact_line\": \"유가가 오르면 주유비·배송비가 오를 수 있어요\",\n   \"details\": [\n      \"미국이 이란에 대해 무기한 해상 봉쇄를 위협했어요.\",\n      \"이란이 미국의 위협에 강하게 반발했어요.\",\n      \"이란 경제가 전쟁으로 인해 어려움을 겪고 있어요.\",\n      \"미국과 이란의 충돌이 심해지면서 유가가 오를 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"유가가 오르면 물가 상승으로 소비자들이 더 어려워질 수 있어요!\",\n      \"해상 충돌이 심해지면 국제 물류가 어려워질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "미국과 이란의 해상 충돌",
+   "one_liner": "미국이 이란에 대해 무기한 해상 봉쇄를 위협했어요.",
+   "why_now": "이란과 미국의 충돌이 심해지면 세계 유가에 영향을 줄 수 있어요.",
+   "details": [
+    "미국이 이란에 대해 무기한 해상 봉쇄를 위협했어요.",
+    "이란이 미국의 위협에 강하게 반발했어요.",
+    "이란 경제가 전쟁으로 인해 어려움을 겪고 있어요.",
+    "미국과 이란의 충돌이 심해지면서 유가가 오를 수 있어요."
+   ],
+   "effects": [
+    "유가가 오르면 물가 상승으로 소비자들이 더 어려워질 수 있어요!",
+    "해상 충돌이 심해지면 국제 물류가 어려워질 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "931441cbef018320d93a777112c4bd2b356d6117"
+  "fact_hash": "e1e2919af293c32c9f5b067f15d3daccddcbbb1c"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

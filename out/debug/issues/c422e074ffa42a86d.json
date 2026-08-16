@@ -732,7 +732,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-15T08:56:31.659921+00:00",
+  "created_at": "2026-08-16T02:11:18.155148+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -745,8 +745,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"주식 뉴스\",\n   \"one_liner\": \"DocGo, XP, Baidu, Flexsteel, BitFuFu 등 여러 기업의 주식 관련 뉴스가 나왔어요\",\n   \"why_now\": \"주식 뉴스를 통해 기업의 상황과 시장 동향을 알 수 있어요\",\n   \"impact_line\": \"주식 투자자들에게 관심이 가는 소식이에요\",\n   \"details\": [\n       \"DocGo Inc의 주식 관련 뉴스가 나왔어요\",\n       \"XP Inc - Class A의 주식 관련 뉴스가 나왔어요\",\n       \"Baidu Inc의 주식 관련 뉴스가 나왔어요\",\n       \"Flexsteel Industries Inc의 주식 관련 뉴스가 나왔어요\",\n       \"BitFuFu Inc. Class A Ordinary Shares의 주식 관련 뉴스가 나왔어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"주식 투자자들이 관심을 가질 수 있어요!\",\n       \"기업의 주가에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 50자 초과(60)"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -769,8 +775,8 @@
   "fact_hash": "f73a193e014f2cc72c4bbd16f25ca247e0e60bf1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-15T08:56:31.659853+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 50자 초과(60)\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T02:11:18.155085+00:00"
  },
  "glossary": [],
  "related": [

@@ -157,45 +157,51 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-15T08:54:39.541540+00:00",
+  "created_at": "2026-08-16T02:05:34.652268+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+    "Berkshire Hathaway Turns Buyer As Buffett Backs Alphabet",
     "3 Obvious Reasons Warren Buffett Berkshire Hathaway Owns Nearly 152 Million Shares in This Winning Financial Stock",
-    "Berkshire Hathaway Inc ( BRK - B ) Stock News & Articles",
-    "Berkshire Hathaway Inc ( BRK - A ) Stock News & Articles",
     "Warren Buffett successor finally starts spending Berkshire Hathaway giant cash pile - and it could be boosting your 401 ( k )",
-    "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get"
+    "Berkshire Hathaway Inc ( BRK - A ) Stock News & Articles"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"버크셔 해서웨이 주식 매수\",\n   \"one_liner\": \"버크셔 해서웨이가 14분기 만에 주식 매수 행진을 시작했어요\",\n   \"why_now\": \"버크셔 해서웨이의 주식 매수는 시장의 분위기를 나타내는 중요한 지표예요\",\n   \"impact_line\": \"주식 투자자들에게 긍정적인 신호가 될 수 있어요\",\n   \"details\": [\n      \"버크셔 해서웨이는 14분기 만에 주식 매수 행진을 시작했어요\",\n      \"버크셔 해서웨이는 23.5억 달러의 주식을 매수했어요\",\n      \"버크shire 해서웨이의 매수 대상 중 하나는 알파벳 公司이었어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"버크셔 해서웨이의 주식 매수는 시장의 분위기를 좋게 할 수 있어요!\",\n      \"버크셔 해서웨이의 매수 행진은 주식 투자자들에게 긍정적인 신호가 될 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [23.5]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [23.5]"
     ]
    }
   ],
   "output": {
-   "title": "3 Obvious Reasons…",
-   "one_liner": "3 Obvious Reasons Warren Buffett Berkshire…",
+   "title": "Berkshire Hathaway…",
+   "one_liner": "Berkshire Hathaway killed a 14 - quarter selling…",
    "why_now": null,
    "details": [
-    "3 Obvious Reasons Warren Buffett Berkshire Hathaway Owns Nearly 152 Million Shares in This Winning Financial Stock",
-    "Berkshire Hathaway Inc ( BRK - B ) Stock News & Articles",
-    "Berkshire Hathaway Inc ( BRK - A ) Stock News & Articles"
+    "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+    "Berkshire Hathaway Turns Buyer As Buffett Backs Alphabet",
+    "3 Obvious Reasons Warren Buffett Berkshire Hathaway Owns Nearly 152 Million Shares in This Winning Financial Stock"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "293a9d172a1ddde8a83dfc69726861df64b049e0"
+  "fact_hash": "993f705206631f0164ee747a08d3b188f7d134c7"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-15T08:54:39.541462+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [23.5]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [23.5]\"]}]}",
+  "at": "2026-08-16T02:05:34.652160+00:00"
  },
  "glossary": [],
  "related": [
