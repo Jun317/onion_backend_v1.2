@@ -1,0 +1,120 @@
+{
+ "id": "c166b830deee78221",
+ "title": "Critical Survey : Curbline Properties ( NYSE : CURB ) versus Region Group ( OTCMKTS : SCPAF )",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 90,
+ "created_at": "2026-08-16T10:45:49.455942+00:00",
+ "last_update": "2026-08-16T10:45:49.458137+00:00",
+ "members": [
+  {
+   "id": "391f4fa034e16a4c1ea0f3397575ab5870ed70cb",
+   "source": "tickerreport.com",
+   "tier": "wire",
+   "url": "https://www.tickerreport.com/banking-finance/13545369/critical-survey-curbline-properties-nysecurb-versus-region-group-otcmktsscpaf.html",
+   "title": "Critical Survey : Curbline Properties ( NYSE : CURB ) versus Region Group ( OTCMKTS : SCPAF )",
+   "published_at": "2026-08-16T09:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9775
+  },
+  {
+   "id": "26d297befcd7f47d5bc7ba6f0963f9085129632b",
+   "source": "themarketsdaily.com",
+   "tier": "wire",
+   "url": "https://www.themarketsdaily.com/2026/08/16/analyzing-capital-realty-income-nyseo.html",
+   "title": "Analyzing Capital & Regional ( OTCMKTS : CRPLF ) & Realty Income ( NYSE : O )",
+   "published_at": "2026-08-16T09:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9775
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Critical Survey : Curbline Properties ( NYSE : CURB ) versus Region Group ( OTCMKTS : SCPAF )",
+   "source": "tickerreport.com",
+   "url": "https://www.tickerreport.com/banking-finance/13545369/critical-survey-curbline-properties-nysecurb-versus-region-group-otcmktsscpaf.html",
+   "at": "2026-08-16T09:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Analyzing Capital & Regional ( OTCMKTS : CRPLF ) & Realty Income ( NYSE : O )",
+   "source": "themarketsdaily.com",
+   "url": "https://www.themarketsdaily.com/2026/08/16/analyzing-capital-realty-income-nyseo.html",
+   "at": "2026-08-16T09:45:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-16T10:46:14.075544+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [],
+   "headlines": [
+    "Critical Survey : Curbline Properties ( NYSE : CURB ) versus Region Group ( OTCMKTS : SCPAF )",
+    "Analyzing Capital & Regional ( OTCMKTS : CRPLF ) & Realty Income ( NYSE : O )"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"부동산 기업 분석\", \"one_liner\": \"두 부동산 기업의 자본과 수익성을 비교 분석했어요.\", \"why_now\": \"부동산 시장의 흐름을 파악하는 데 도움이 될 수 있어요.\", \"impact_line\": null, \"details\": [\"커브라인 프로퍼티스와 리전 그룹의 비교 분석 결과가 나왔어요.\", \"캐피탈 & 리저널과 리얼티 인컴의 분석도 함께 나왔어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"부동산 기업\", \"easy\": \"건물이나 땅을 사고팔거나 임대하는 사업을 하는 회사예요.\", \"example\": \"부동산 기업의 주가는 시장 상황에 따라 변동할 수 있어요.\"}, {\"term\": \"자본\", \"easy\": \"회사를 운영하는 데 필요한 돈이나 자산을 말해요.\", \"example\": \"자본이 많을수록 회사의 규모가 크다고 볼 수 있어요.\"}, {\"term\": \"수익성\", \"easy\": \"회사가 돈을 얼마나 잘 버는지 나타내는 정도예요.\", \"example\": \"수익성이 좋은 회사는 투자자들에게 인기가 많아요.\"}], \"impact_line\": null}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Critical Survey :…",
+   "one_liner": "Critical Survey : Curbline Properties ( NYSE :…",
+   "why_now": null,
+   "details": [
+    "Critical Survey : Curbline Properties ( NYSE : CURB ) versus Region Group ( OTCMKTS : SCPAF )",
+    "Analyzing Capital & Regional ( OTCMKTS : CRPLF ) & Realty Income ( NYSE : O )"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "ccab2b0c6ab9f78a6253a27cd784f59e1b0e465f"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}]}",
+  "at": "2026-08-16T10:46:14.075443+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c4a06e144229d2074",
+   "title": "Trump shifts his tone on Jimmy Carter while grappling with Iran , inflation and his own legacy",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "cadc3cc699b3037d2",
+   "title": "Indonesia Prabowo proposes deficit at 2 . 4 % of GDP in 2027 budget",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c3e0383999f08c6f3",
+   "title": "Iran faces growing isolation and uncertain future amid  dire  economic situation",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}

@@ -49,7 +49,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T07:08:59.726948+00:00",
+  "created_at": "2026-08-16T10:52:22.723859+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -77,16 +77,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"에코프로에이치엔 실적 발표\",\n  \"one_liner\": \"에코프로에이치엔이 2026년 1분기에 매출 346.7억원, 영업이익 50.3억원을 기록했어요.\",\n  \"why_now\": \"기업의 실적은 회사의 현재 상태와 미래 전망을 보여주는 중요한 지표예요.\",\n  \"impact_line\": null,\n  \"details\": [\n    \"에코프로에이치엔의 2026년 1분기 매출액은 346.7억원이에요.\",\n    \"같은 기간 영업이익은 50.3억원을 기록했어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [],\n  \"glossary\": [\n    {\n      \"term\": \"매출액\",\n      \"easy\": \"회사가 상품이나 서비스를 팔아서 벌어들인 돈이에요.\",\n      \"example\": \"이번 달 매출액이 지난달보다 늘었어요.\"\n    },\n    {\n      \"term\": \"영업이익\",\n      \"easy\": \"회사가 물건을 만들고 파는 과정에서 남긴 이익이에요.\",\n      \"example\": \"영업이익이 늘면 회사가 더 잘 운영되고 있다고 볼 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 50자 초과(52)",
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -108,8 +100,8 @@
   "fact_hash": "8b49fb88207ea247835ec88bc3232792e4fdd317"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(52)\", \"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T07:08:59.726872+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T10:52:22.723757+00:00"
  },
  "glossary": [
   {
@@ -138,14 +130,14 @@
    "shared": []
   },
   {
-   "id": "cd71d798bc262d461",
-   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "id": "cc0d626f989f19c1a",
+   "title": "Where Will Netflix Stock Be in 5 Years ?",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "cb79900ede6a04772",
-   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
    "category": "EARNINGS",
    "shared": []
   }

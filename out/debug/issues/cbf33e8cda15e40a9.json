@@ -1,0 +1,131 @@
+{
+ "id": "cbf33e8cda15e40a9",
+ "title": "Comparing Electric Power Development ( EPWDF ) and Its Rivals",
+ "category": "RATE",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 110,
+ "created_at": "2026-08-16T10:45:49.456346+00:00",
+ "last_update": "2026-08-16T10:45:49.458220+00:00",
+ "members": [
+  {
+   "id": "7f9d7cc55d1dfc48a2c02f5aeead8bfe049ba2ff",
+   "source": "livemint.com",
+   "tier": "wire",
+   "url": "https://www.livemint.com/money/personal-finance/ssy-vs-ppf-in-2026-compare-interest-rates-tax-benefits-returns-and-key-differences-11786864252832.html",
+   "title": "SSY vs PPF in 2026 : Compare interest rates , tax benefits , returns and key differences",
+   "published_at": "2026-08-16T10:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9613
+  },
+  {
+   "id": "950535ec0d3b1b0d329c35e04c9aff2b95184a9b",
+   "source": "dailypolitical.com",
+   "tier": "wire",
+   "url": "https://www.dailypolitical.com/2026/08/16/comparing-electric-power-development-epwdf-and-its-rivals.html",
+   "title": "Comparing Electric Power Development ( EPWDF ) and Its Rivals",
+   "published_at": "2026-08-16T09:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9612
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "SSY vs PPF in 2026 : Compare interest rates , tax benefits , returns and key differences",
+   "source": "livemint.com",
+   "url": "https://www.livemint.com/money/personal-finance/ssy-vs-ppf-in-2026-compare-interest-rates-tax-benefits-returns-and-key-differences-11786864252832.html",
+   "at": "2026-08-16T10:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Comparing Electric Power Development ( EPWDF ) and Its Rivals",
+   "source": "dailypolitical.com",
+   "url": "https://www.dailypolitical.com/2026/08/16/comparing-electric-power-development-epwdf-and-its-rivals.html",
+   "at": "2026-08-16T09:45:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-16T10:45:52.737466+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [],
+   "headlines": [
+    "SSY vs PPF in 2026 : Compare interest rates , tax benefits , returns and key differences",
+    "Comparing Electric Power Development ( EPWDF ) and Its Rivals"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"금리 비교 정보\", \"one_liner\": \"2026년 금리, 세금 혜택, 수익률 등을 비교하는 정보가 나왔어요.\", \"why_now\": \"어떤 금융 상품에 돈을 맡길지 결정하는 데 중요한 참고 자료가 될 수 있어요.\", \"impact_line\": \"어떤 금융 상품이 나에게 유리할지 판단하는 데 도움이 될 수 있어요.\", \"details\": [\"2026년의 금리, 세금 혜택, 수익률을 비교하는 정보가 나왔어요.\", \"전기 발전 회사들의 경쟁력도 비교 분석했어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"금리\", \"easy\": \"돈을 빌리거나 맡길 때 붙는 이자 비율이에요.\", \"example\": \"금리가 오르면 대출 이자가 늘어나고, 예금 이자는 늘어나요.\"}, {\"term\": \"세금 혜택\", \"easy\": \"세금을 덜 내게 해주는 제도나 조건이에요.\", \"example\": \"연금 저축 상품은 세금 혜택이 있어서 노후 준비에 좋아요.\"}, {\"term\": \"수익률\", \"easy\": \"투자한 돈 대비 얼마만큼의 이익을 얻었는지 보여주는 비율이에요.\", \"example\": \"수익률이 높을수록 투자해서 얻는 돈이 많아져요.\"}], \"impact_line\": \"어떤 금융 상품이 나에게 유리할지 판단하는 데 도움이 될 수 있어요.\"}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   }
+  ],
+  "output": {
+   "title": "SSY vs PPF in 2026 :…",
+   "one_liner": "SSY vs PPF in 2026 : Compare interest rates ,…",
+   "why_now": null,
+   "details": [
+    "SSY vs PPF in 2026 : Compare interest rates , tax benefits , returns and key differences",
+    "Comparing Electric Power Development ( EPWDF ) and Its Rivals"
+   ],
+   "effects": [],
+   "visual_type": "kr_base_rate"
+  },
+  "fact_hash": "ba6e329a4aedac6c647b7c738e55402126e40e54"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}]}",
+  "at": "2026-08-16T10:45:52.737306+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cea83213c8906724e",
+   "title": "Fed Holds Interest Rates Steady Amid Inflation From Iran Conflict",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c03074aeed49bf60f",
+   "title": "World Bank confirms plan to phase out China lending by 2031",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "ccec1fdb78ce6d4ce",
+   "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c340e7c5658dc5cc0",
+   "title": "US producer inflation cools as September rate hike odds fall",
+   "category": "RATE",
+   "shared": []
+  }
+ ]
+}

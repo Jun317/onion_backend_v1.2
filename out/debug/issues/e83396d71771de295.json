@@ -26,7 +26,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T07:08:03.362928+00:00",
+  "created_at": "2026-08-16T10:52:04.318266+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -35,19 +35,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"신한지주 실적 발표\",\n    \"one_liner\": \"신한지주가 2026년 2분기 실적을 발표했어요.\",\n    \"why_now\": \"회사의 성적표인 실적 발표는 앞으로의 주가 향방을 가늠하는 중요한 지표가 돼요.\",\n    \"impact_line\": \"신한지주 주가에 영향을 줄 수 있어요.\",\n    \"details\": [],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"실적이 좋으면 주가가 오를 수 있어요!\",\n        \"실적이 예상보다 나쁘면 주가가 내릴 수 있어요!\"\n    ],\n    \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -64,8 +57,8 @@
   "fact_hash": "6624c0ceac728195ffb2476044d8264240919462"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-08-16T07:08:03.362868+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T10:52:04.318207+00:00"
  },
  "glossary": [],
  "related": [
@@ -88,14 +81,14 @@
    "shared": []
   },
   {
-   "id": "cd71d798bc262d461",
-   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "id": "cc0d626f989f19c1a",
+   "title": "Where Will Netflix Stock Be in 5 Years ?",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "cb79900ede6a04772",
-   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
    "category": "EARNINGS",
    "shared": []
   }

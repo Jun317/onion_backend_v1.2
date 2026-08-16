@@ -71,7 +71,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T07:06:20.644494+00:00",
+  "created_at": "2026-08-16T10:47:46.233146+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -82,18 +82,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"Caterpillar 실적 발표\",\n    \"one_liner\": \"Caterpillar가 2분기 실적 발표 후 주가가 올랐어요.\",\n    \"why_now\": \"기업의 실적 발표는 회사의 현재와 미래를 보여주기 때문에 투자자들이 주목해요.\",\n    \"impact_line\": \"Caterpillar 주가에 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"Caterpillar의 2분기 실적 발표가 있었어요.\",\n        \"실적 발표 후 Caterpillar 주가가 1.7% 올랐어요.\",\n        \"증권사에서 Caterpillar 주식을 좋게 평가했어요.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"Caterpillar의 주가가 더 오를 수 있어요!\",\n        \"투자자들의 관심이 Caterpillar에 쏠릴 것으로 예상돼요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"Caterpillar\",\n            \"easy\": \"건설 및 광산 장비를 만드는 미국의 유명한 회사예요.\",\n            \"example\": \"Caterpillar 굴착기는 건설 현장에서 자주 볼 수 있어요.\"\n        },\n        {\n            \"term\": \"증권사\",\n            \"easy\": \"주식이나 채권 같은 금융 상품을 사고팔도록 돕는 회사예요.\",\n            \"example\": \"증권사 직원이 주식 투자 방법을 알려줬어요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [1.7]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [1.7]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -112,8 +106,8 @@
   "fact_hash": "6fb91e940433bbed58c74158b253721cd240447f"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.7]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.7]\"]}]}",
-  "at": "2026-08-16T07:06:20.644333+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T10:47:46.233034+00:00"
  },
  "glossary": [],
  "related": [
@@ -136,14 +130,14 @@
    "shared": []
   },
   {
-   "id": "cd71d798bc262d461",
-   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "id": "cc0d626f989f19c1a",
+   "title": "Where Will Netflix Stock Be in 5 Years ?",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "cb79900ede6a04772",
-   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
    "category": "EARNINGS",
    "shared": []
   }

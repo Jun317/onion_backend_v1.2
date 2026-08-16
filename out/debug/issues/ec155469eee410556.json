@@ -49,7 +49,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T07:09:28.106150+00:00",
+  "created_at": "2026-08-16T10:52:41.142584+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -77,15 +77,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"CJ제일제당 실적 발표\",\n    \"one_liner\": \"CJ제일제당의 2026년 1분기 매출액은 7조 1111억원, 영업이익은 2381억원이었어요.\",\n    \"why_now\": \"기업의 실적은 앞으로의 성장 가능성을 보여주는 중요한 지표이기 때문이에요.\",\n    \"impact_line\": \"CJ제일제당 주가에 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"CJ제일제당의 2026년 1분기 매출액은 7조 1111억 2천만원이에요.\",\n        \"같은 기간 영업이익은 2381억 3천만원을 기록했어요.\",\n        \"이 정보는 금융감독원 전자공시시스템(DART)을 통해 발표되었어요.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"실적이 좋으면 주가가 오를 수 있어요!\",\n        \"실적이 예상보다 나쁘면 주가가 내릴 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"매출액\",\n            \"easy\": \"기업이 물건을 팔거나 서비스를 제공해서 벌어들인 돈이에요.\",\n            \"example\": \"이번 달 매출액이 지난달보다 늘었어요.\"\n        },\n        {\n            \"term\": \"영업이익\",\n            \"easy\": \"기업이 물건을 만들고 파는 과정에서 실제로 번 돈이에요.\",\n            \"example\": \"영업이익이 늘면 회사가 더 잘 운영되고 있다는 뜻이에요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 50자 초과(51)",
-     "입력에 없는 숫자: [1111.0]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -107,8 +100,8 @@
   "fact_hash": "a43ab52a0def41a031c21fa4bc2bd72eb0f4f064"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(51)\", \"입력에 없는 숫자: [1111.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T07:09:28.105832+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T10:52:41.142527+00:00"
  },
  "glossary": [
   {
@@ -137,14 +130,14 @@
    "shared": []
   },
   {
-   "id": "cd71d798bc262d461",
-   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "id": "cc0d626f989f19c1a",
+   "title": "Where Will Netflix Stock Be in 5 Years ?",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "cb79900ede6a04772",
-   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
    "category": "EARNINGS",
    "shared": []
   }
