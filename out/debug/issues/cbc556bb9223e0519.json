@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-16T05:50:25.908179+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-16T08:53:26.574407+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -881,32 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 장기 국채 금리 상승\",\n   \"one_liner\": \"미국이 30년 만기 국채를 2001년 이후最高 금리로 발행했어요\",\n   \"why_now\": \"금리가 오르면 국가의 부채 비용이 늘어나게 돼요\",\n   \"impact_line\": \"미국 국채의 금리가 오르면 투자자들의 투자 선택이 달라질 수 있어요\",\n   \"details\": [\n      \"미국이 30년 만기 국채를 발행했어요\",\n      \"발행한 국채의 금리는 2001년 이후最高이에요\",\n      \"미국의 국채 금리가 오르면 다른 국가의 금리에도 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"us_10y\",\n   \"effects\": [\n      \"미국 국채의 금리가 오르면 다른 국가의 국채 금리도 따라 오를 수 있어요!\",\n      \"금리가 오르면 투자자들이 국채를 더 많이 사들일 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"국채\",\n         \"easy\": \"国家가 발행하는 채권이에요\",\n         \"example\": \"국채를 사면 국가에 돈을 빌려주는 것이에요\"\n      }\n   ]\n}",
+  "raw_response": "{\n  \"title\": \"미국 장기 국채 금리 상승\",\n   \"one_liner\": \"미국이 2001년 이후 가장 높은 금리로 30년 만기 국채를 발행했어요\",\n   \"why_now\": \"금리가 높아지면 투자자들이 더 높은 이자 수익을 기대할 수 있어요\",\n   \"impact_line\": \"미국 국채의 이자 비용이 더 높아질 수 있어요\",\n   \"details\": [\n      \"미국이 30년 만기 국채를 발행했어요\",\n      \"발행한 국채의 금리가 2001년 이후最高이에요\",\n      \"금리 상승은 투자자들의 기대와 관련이 있어요\"\n   ],\n   \"visual_type\": \"us_10y\",\n   \"effects\": [\n      \"미국 국채의 금리가 높아져서 투자자들이 더 높은 이자 수익을 기대할 수 있어요!\",\n      \"금리 상승으로 미국의 국채 발행 비용이 더 높아질 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"국채\",\n         \"easy\": \"정부가 발행하는 채권이에요\",\n         \"example\": \"정부가 돈을借り기 위해 발행하는 채권이에요\"\n      }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "one_liner 에 한자/가나 포함"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Manus on Markets :…",
-   "one_liner": "Manus on Markets : Costliest US bond sale since…",
-   "why_now": null,
+   "title": "미국 장기 국채 금리 상승",
+   "one_liner": "미국이 2001년 이후 가장 높은 금리로 30년 만기 국채를 발행했어요",
+   "why_now": "금리가 높아지면 투자자들이 더 높은 이자 수익을 기대할 수 있어요",
    "details": [
-    "Manus on Markets : Costliest US bond sale since 2001",
-    "US Sells 30 - Year Bonds at Highest Interest Rate Since 2001",
-    "Rambus Stock Has Been on a Wild Ride . Here What Happens Next"
+    "미국이 30년 만기 국채를 발행했어요",
+    "발행한 국채의 금리가 2001년 이후最高이에요",
+    "금리 상승은 투자자들의 기대와 관련이 있어요"
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "미국 국채의 금리가 높아져서 투자자들이 더 높은 이자 수익을 기대할 수 있어요!",
+    "금리 상승으로 미국의 국채 발행 비용이 더 높아질 수 있어요!"
+   ],
+   "visual_type": "us_10y"
   },
   "fact_hash": "364fddb89a98dd7c8d640911d51d7b26f02c73c8"
  },
@@ -914,7 +909,23 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 에 한자/가나 포함\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-16T05:50:25.907710+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "국채 금리",
+   "easy": "정부가 빌린 돈에 붙는 이자의 비율이에요.",
+   "example": "시장 전체 이자의 대표 잣대예요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "국채",
+   "easy": "정부가 돈을 빌리며 써준 '나라의 차용증'이에요.",
+   "example": "여기 붙는 이자가 시장 이자의 기준이 돼요."
+  }
+ ],
  "related": [
   {
    "id": "cea83213c8906724e",

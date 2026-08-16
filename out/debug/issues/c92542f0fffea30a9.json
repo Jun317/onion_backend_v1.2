@@ -13,8 +13,18 @@
  "seen_sources": 23,
  "importance": 110,
  "created_at": "2026-08-15T07:05:03.445821+00:00",
- "last_update": "2026-08-16T07:06:17.573719+00:00",
+ "last_update": "2026-08-16T08:53:25.319226+00:00",
  "members": [
+  {
+   "id": "9ee4c4354c9c48122f9d572b4b23761a2c93cb13",
+   "source": "nigeriasun.com",
+   "tier": "wire",
+   "url": "http://www.nigeriasun.com/news/279244612/interview-cooperation-with-china-opens-new-opportunities-for-s-africa-agricultural-growth-says-industry-representative",
+   "title": "Interview : Cooperation with China opens new opportunities for S . Africa agricultural growth , says industry representative",
+   "published_at": "2026-08-16T08:00:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.8785
+  },
   {
    "id": "a7e0103e9b2c1dd85827bb7acc861306d211dff5",
    "source": "english.news.cn",
@@ -290,6 +300,13 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Interview : Cooperation with China opens new opportunities for S . Africa agricultural growth , says industry representative",
+   "source": "nigeriasun.com",
+   "url": "http://www.nigeriasun.com/news/279244612/interview-cooperation-with-china-opens-new-opportunities-for-s-africa-agricultural-growth-says-industry-representative",
+   "at": "2026-08-16T08:00:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Interview : Cooperation with China opens new opportunities for S . Africa agricultural growth , says industry representative - Xinhua",
    "source": "english.news.cn",
    "url": "https://english.news.cn/africa/20260816/7f889f904d8442f583257f83ec268c85/c.html",
@@ -480,21 +497,29 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T04:56:51.653178+00:00",
+  "created_at": "2026-08-16T08:54:22.322717+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
     "US to tell partners they must pick sides in AI race with China",
     "US asks countries to pick sides in AI race with China or face consequences",
+    "US or China : Washington to tell partners they must pick sides in AI race",
     "Latin America Steel Slips on China Tariff Trade",
-    "China shaping the future of open - source technology – including AI",
-    "Trump 100 % tariff on drones deepens US - China tech decoupling – Hartford Courant"
+    "China shaping the future of open - source technology – including AI"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국, AI 경쟁서 중국과 편 가르기 요구\",\n  \"one_liner\": \"미국이 동맹국들에게 인공지능(AI) 경쟁에서 중국과 어느 한쪽을 선택하라고 요구하고 있어요.\",\n  \"why_now\": \"AI 기술은 미래 산업의 핵심으로, 어느 나라가 주도권을 잡느냐에 따라 경제와 안보에 큰 영향을 미치기 때문이에요.\",\n  \"impact_line\": \"AI 기술을 둘러싼 국가 간 경쟁이 심화될 수 있어요.\",\n  \"details\": [\n    \"미국은 동맹국들에게 AI 기술 경쟁에서 중국과 편을 가르라고 요청했어요.\",\n    \"이를 따르지 않을 경우 불이익이 있을 수 있다고 경고했어요.\",\n    \"중국은 오픈소스 기술, 특히 AI 분야에서 미래를 만들어가고 있어요.\",\n    \"이러한 움직임은 국제 사회에서 AI 기술의 영향력을 보여줘요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"AI 기술 개발 및 보급에 국가별로 다른 정책이 적용될 수 있어요!\",\n    \"기술 표준이나 규제가 달라져 글로벌 협력이 어려워질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AI\",\n      \"easy\": \"인공지능으로, 컴퓨터가 사람처럼 생각하고 배울 수 있게 하는 기술이에요.\",\n      \"example\": \"AI 스피커는 사람의 말을 알아듣고 음악을 틀어줘요.\"\n    },\n    {\n      \"term\": \"오픈소스\",\n      \"easy\": \"누구나 프로그램을 자유롭게 사용하고 수정할 수 있도록 공개된 기술이에요.\",\n      \"example\": \"오픈소스 운영체제는 많은 개발자들이 함께 발전시켜요.\"\n    }\n  ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "title 22자 초과(23)",
+     "one_liner 50자 초과(51)",
+     "why_now 55자 초과(64)"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -509,16 +534,16 @@
    "details": [
     "US to tell partners they must pick sides in AI race with China",
     "US asks countries to pick sides in AI race with China or face consequences",
-    "Latin America Steel Slips on China Tariff Trade"
+    "US or China : Washington to tell partners they must pick sides in AI race"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "4c84fd2c2daec52cc4a6a6db88a1e76d7065cc68"
+  "fact_hash": "e6c862eab71bbefd92c08f51d464a2833bdfd0f4"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T04:56:51.653117+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(23)\", \"one_liner 50자 초과(51)\", \"why_now 55자 초과(64)\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T08:54:22.322652+00:00"
  },
  "glossary": [],
  "related": [
@@ -539,6 +564,12 @@
    ]
   },
   {
+   "id": "c7465c605cefc2941",
+   "title": "Iran kicks As Trump Says Hormuz Will Become US Territory After War – Daily Trust",
+   "category": "GEO",
+   "shared": []
+  },
+  {
    "id": "ca4e1e22f609eb94e",
    "title": "Vance puts cheap energy ahead of Iran nuclear threat as US tightens pressure",
    "category": "GEO",
@@ -548,14 +579,6 @@
    "id": "cd7b762c4b0212485",
    "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
    "category": "GEO",
-   "shared": [
-    "CHINA"
-   ]
-  },
-  {
-   "id": "c21fbad53c2afa8f1",
-   "title": "Markets today : Wall Street hit by AI slump as China Moonshot shakes markets",
-   "category": "COMMODITY",
    "shared": [
     "CHINA"
    ]

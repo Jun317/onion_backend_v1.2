@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T05:54:30.522340+00:00",
+  "created_at": "2026-08-16T08:57:26.629446+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,14 +881,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"영국 저축 과세 경고\",\n    \"one_liner\": \"영국에서 1만 2500파운드 이상 저축한 사람들에게 세금 경고가 내려졌어요.\",\n    \"why_now\": \"저축액이 일정 금액을 넘으면 세금을 내야 할 수도 있다는 점을 미리 알리는 거예요.\",\n    \"impact_line\": \"저축액이 많으면 예상치 못한 세금 고지서를 받을 수 있어요.\",\n    \"details\": [\n        \"1만 2500파운드 이상 저축한 사람들에게 긴급 알림이 갔어요.\",\n        \"500만 개 이상의 계좌가 세금 폭탄 위험에 처할 수 있다고 해요.\",\n        \"정확한 금액은 개인의 저축액에 따라 달라질 수 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"저축액이 많은 사람들은 세금 신고를 꼼꼼히 해야 할 수 있어요!\",\n        \"세금 관련 규정을 미리 확인하는 것이 도움이 될 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"저축\",\n            \"easy\": \"돈을 쓰지 않고 모아두는 것을 말해요.\",\n            \"example\": \"매달 월급에서 일부를 저축해서 비상 자금을 마련하고 있어요.\"\n        },\n        {\n            \"term\": \"세금\",\n            \"easy\": \"나라를 운영하기 위해 국민이나 기업이 내는 돈이에요.\",\n            \"example\": \"소득세, 재산세 등 다양한 종류의 세금이 있어요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [2500.0]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -911,11 +905,17 @@
   "fact_hash": "f093062e3115dbf01d37da9dd4a1baed7aca11ac"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [2500.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T05:54:30.522240+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-16T08:57:26.629332+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c7465c605cefc2941",
+   "title": "Iran kicks As Trump Says Hormuz Will Become US Territory After War – Daily Trust",
+   "category": "GEO",
+   "shared": []
+  },
   {
    "id": "c92542f0fffea30a9",
    "title": "Exclusive - US to tell partners they must pick sides in AI race with China",
@@ -931,12 +931,6 @@
   {
    "id": "cd7b762c4b0212485",
    "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
-   "category": "GEO",
-   "shared": []
-  },
-  {
-   "id": "c0acdd1f546d084c1",
-   "title": "Oracle Has Drawn Plans for Another Round of Job Cuts This Month",
    "category": "GEO",
    "shared": []
   },
