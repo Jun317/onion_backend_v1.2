@@ -224,7 +224,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-17T07:29:13.763105+00:00",
+  "created_at": "2026-08-17T10:54:05.094320+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -237,15 +237,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"볼트 메탈스, 26 메탈스로 사명 변경\",\n    \"one_liner\": \"볼트 메탈스가 26 메탈스로 사명을 바꾸고 티커도 IRON으로 변경했어요.\",\n    \"why_now\": \"회사의 이름이 바뀌면 사업 방향이 달라졌다는 신호일 수 있어요.\",\n    \"impact_line\": null,\n    \"details\": [\n        \"볼트 메탈스가 26 메탈스로 사명을 변경합니다.\",\n        \"새로운 티커는 IRON을 사용하게 됩니다.\",\n        \"이는 브라질의 플로랄리아 철광 프로젝트에 집중하겠다는 의지를 보여줍니다.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [],\n    \"glossary\": [\n        {\n            \"term\": \"티커\",\n            \"easy\": \"주식 시장에서 회사를 나타내는 짧은 이름이에요.\",\n            \"example\": \"삼성전자는 '005930'이라는 티커를 사용해요.\"\n        }\n    ]\n}",
+  "raw_response": "{\n\"title\": \"볼트 메탈스, 26 메탈스로 사명 변경\",\n\"one_liner\": \"볼트 메탈스가 26 메탈스로 사명을 바꾸고 티커도 IRON으로 변경했어요.\",\n\"why_now\": \"회사의 주요 사업이 브라질의 철광석 프로젝트에 집중된다는 점을 강조하기 위한 결정이에요.\",\n\"impact_line\": null,\n\"details\": [\n\"볼트 메탈스가 26 메탈스 주식회사로 사명을 변경합니다.\",\n\"새로운 티커는 IRON을 사용하게 됩니다.\",\n\"이는 브라질의 플로랄리아 철광석 프로젝트에 집중하는 것을 보여주기 위함입니다.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [],\n\"glossary\": [\n{\n\"term\": \"티커\",\n\"easy\": \"주식 시장에서 회사를 나타내는 짧은 이름표예요.\",\n\"example\": \"삼성전자는 '005930'이라는 티커를 사용해요.\"\n}\n]\n}",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
@@ -253,6 +246,12 @@
      "details[1] 어요체 아님",
      "details[2] 어요체 아님",
      "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -271,8 +270,8 @@
   "fact_hash": "c586e84bc6d353db17ecd235a2a7c1be81513aec"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\", \"effects 1~2문장 아님\"]}]}",
-  "at": "2026-08-17T07:29:13.762974+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-17T10:54:05.094044+00:00"
  },
  "glossary": [],
  "related": [
