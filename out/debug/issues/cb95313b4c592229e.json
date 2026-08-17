@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-17T04:09:34.339944+00:00",
+  "created_at": "2026-08-17T09:13:02.535004+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,14 +881,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"주가 관련 소식 모음\", \"one_liner\": \"주가 관련 다양한 소식이 나왔어요.\", \"why_now\": \"주가 소식은 투자자들의 관심이 높은 경제 정보예요.\", \"impact_line\": null, \"details\": [\"엘루티아와 해밀턴 손의 주가 정보를 검토했어요.\", \"프로셉트 바이오로보틱스 주식 투자 손실 관련 문의가 있어요.\", \"1950년 이후 주요 주식 시장 하락과 회복 기간에 대한 내용이 있어요.\", \"제론과 샤턱 랩스의 주가 정보를 비교했어요.\", \"인도 GIFT 시티의 패밀리 오피스가 아프리카 투자를 위한 방법을 논의했어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"패밀리 오피스\", \"easy\": \"자산이 많은 개인이나 가문이 돈을 관리하도록 돕는 회사예요.\", \"example\": \"패밀리 오피스는 상속, 투자, 세금 등 전반적인 재산 관리를 도와줘요.\"}]}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects 1~2문장 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -911,8 +905,8 @@
   "fact_hash": "16225e9d28e74737ca07c8faa3726ff19e0d2ca9"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-17T04:09:34.339828+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-17T09:13:02.534922+00:00"
  },
  "glossary": [],
  "related": [
