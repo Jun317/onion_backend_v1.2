@@ -748,46 +748,43 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-16T10:46:14.075544+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-17T02:00:23.906422+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
+    "Analyzing Capital & Regional ( OTCMKTS : CRPLF ) & Realty Income ( NYSE : O )",
     "Critical Survey : Curbline Properties ( NYSE : CURB ) versus Region Group ( OTCMKTS : SCPAF )",
-    "Analyzing Capital & Regional ( OTCMKTS : CRPLF ) & Realty Income ( NYSE : O )"
+    "Head to Head Review : RPC Group ( OTCMKTS : RPCGF ) & Ranpak ( NYSE : PACK )",
+    "Realty Income ( NYSE : O ) versus Unibail - Rodamco - Westfield ( OTCMKTS : UNBLF ) Head to Head Review",
+    "Head - To - Head Review : AusNet Services ( OTCMKTS : SAUNF ) versus Sempra Energy ( NYSE : SRE )"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"부동산 기업 분석\", \"one_liner\": \"두 부동산 기업의 자본과 수익성을 비교 분석했어요.\", \"why_now\": \"부동산 시장의 흐름을 파악하는 데 도움이 될 수 있어요.\", \"impact_line\": null, \"details\": [\"커브라인 프로퍼티스와 리전 그룹의 비교 분석 결과가 나왔어요.\", \"캐피탈 & 리저널과 리얼티 인컴의 분석도 함께 나왔어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"부동산 기업\", \"easy\": \"건물이나 땅을 사고팔거나 임대하는 사업을 하는 회사예요.\", \"example\": \"부동산 기업의 주가는 시장 상황에 따라 변동할 수 있어요.\"}, {\"term\": \"자본\", \"easy\": \"회사를 운영하는 데 필요한 돈이나 자산을 말해요.\", \"example\": \"자본이 많을수록 회사의 규모가 크다고 볼 수 있어요.\"}, {\"term\": \"수익성\", \"easy\": \"회사가 돈을 얼마나 잘 버는지 나타내는 정도예요.\", \"example\": \"수익성이 좋은 회사는 투자자들에게 인기가 많아요.\"}], \"impact_line\": null}",
+  "raw_response": "{\n  \"title\": \"기업 비교\",\n   \"one_liner\": \"여러 기업을 비교했어요\",\n   \"why_now\": \"기업을 비교하면 투자할 곳을 찾기 쉬워져요\",\n   \"impact_line\": \"주식 투자에 참고할 수 있어요\",\n   \"details\": [\n       \"여러 기업을 비교分析했어요\",\n       \"기업 비교는 투자 결정에 도움이 될 수 있어요\",\n       \"기업의 실적과 전망을 비교했어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"기업 비교를 통해 좋은 투자 기회를 찾을 수 있어요!\",\n       \"기업의 가치를 더 잘 이해할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Critical Survey :…",
-   "one_liner": "Critical Survey : Curbline Properties ( NYSE :…",
-   "why_now": null,
+   "title": "기업 비교",
+   "one_liner": "여러 기업을 비교했어요",
+   "why_now": "기업을 비교하면 투자할 곳을 찾기 쉬워져요",
    "details": [
-    "Critical Survey : Curbline Properties ( NYSE : CURB ) versus Region Group ( OTCMKTS : SCPAF )",
-    "Analyzing Capital & Regional ( OTCMKTS : CRPLF ) & Realty Income ( NYSE : O )"
+    "여러 기업을 비교分析했어요",
+    "기업 비교는 투자 결정에 도움이 될 수 있어요",
+    "기업의 실적과 전망을 비교했어요"
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "기업 비교를 통해 좋은 투자 기회를 찾을 수 있어요!",
+    "기업의 가치를 더 잘 이해할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "ccab2b0c6ab9f78a6253a27cd784f59e1b0e465f"
+  "fact_hash": "e8f3b9c5d087839bcb44b219815c065f538dcee3"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}]}",

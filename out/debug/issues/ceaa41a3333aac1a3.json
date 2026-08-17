@@ -193,7 +193,7 @@
    "title": "How India social security network expanded to 100 crore",
    "published_at": "2026-08-16T16:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.847
+   "sim_to_centroid": 0.8471
   },
   {
    "id": "5c7534c830ccd0acd634ce642d76399f3cdff5d3",
@@ -733,7 +733,45 @@
    "at": "2026-08-14T22:00:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-17T02:00:21.061563+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Iran calls on US to accept defeat as Trump tells Americans to accept high gasoline prices",
+    "Gulf nations growing impatient with Trump diplomatic efforts regarding truce with Iran : Report - Moneycontrol . com",
+    "Trump wants more economic pressure on Iran and has several options – Ya Libnan",
+    "Donald Trump : Return challenges Australia US security reliance | Harden Murrumburrah Express",
+    "Trump wants more economic pressure on Iran . What are his options ?"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"이란, 미국에 패배 인정 촉구\",\n  \"one_liner\": \"이란이 미국에 패배를 인정하라고 촉구했어요.\",\n  \"why_now\": \"이란과 미국 간의 긴장 상황이 계속되고 있어 국제 사회의 이목이 쏠리고 있어요.\",\n  \"impact_line\": \"국제 유가 변동에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"트럼프 전 대통령은 미국인들에게 높은 휘발유 가격을 받아들이라고 말했어요.\",\n    \"걸프 국가들은 이란과의 휴전에 대한 트럼프 전 대통령의 외교적 노력에 참을성이 없어지고 있다는 보도가 나왔어요.\",\n    \"트럼프 전 대통령은 이란에 대한 경제적 압박을 더 가하기를 원하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"이란에 대한 경제적 압박이 강화될 경우, 국제 유가에 영향을 줄 수 있어요!\",\n    \"미국과 이란 간의 외교적 긴장이 고조될 경우, 지역 안보에 대한 우려가 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"휘발유\",\n      \"easy\": \"자동차 연료로 쓰이는 석유 제품이에요.\",\n      \"example\": \"휘발유 가격이 오르면 주유비 부담이 커져요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "이란, 미국에 패배 인정 촉구",
+   "one_liner": "이란이 미국에 패배를 인정하라고 촉구했어요.",
+   "why_now": "이란과 미국 간의 긴장 상황이 계속되고 있어 국제 사회의 이목이 쏠리고 있어요.",
+   "details": [
+    "트럼프 전 대통령은 미국인들에게 높은 휘발유 가격을 받아들이라고 말했어요.",
+    "걸프 국가들은 이란과의 휴전에 대한 트럼프 전 대통령의 외교적 노력에 참을성이 없어지고 있다는요.",
+    "트럼프 전 대통령은 이란에 대한 경제적 압박을 더 가하기를 원하고 있어요."
+   ],
+   "effects": [
+    "이란에 대한 경제적 압박이 강화될 경우, 국제 유가에 영향을 줄 수 있어요!",
+    "미국과 이란 간의 외교적 긴장이 고조될 경우, 지역 안보에 대한 우려가 커질 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "a9510ebd7c41f39ff6a07914e4c06ac980bfd760"
+ },
  "review": null,
  "glossary": [],
  "related": [
@@ -762,8 +800,8 @@
    ]
   },
   {
-   "id": "c7465c605cefc2941",
-   "title": "Iran kicks As Trump Says Hormuz Will Become US Territory After War – Daily Trust",
+   "id": "c92542f0fffea30a9",
+   "title": "Exclusive - US to tell partners they must pick sides in AI race with China",
    "category": "GEO",
    "shared": [
     "IRAN",
@@ -771,10 +809,11 @@
    ]
   },
   {
-   "id": "e7dc95bcb919f5113",
-   "title": "메타케어 2026-2Q 실적 공시",
-   "category": "EARNINGS",
+   "id": "c7465c605cefc2941",
+   "title": "Iran kicks As Trump Says Hormuz Will Become US Territory After War – Daily Trust",
+   "category": "GEO",
    "shared": [
+    "IRAN",
     "SEC"
    ]
   }

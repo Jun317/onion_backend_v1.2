@@ -874,7 +874,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T08:53:43.506094+00:00",
+  "created_at": "2026-08-17T02:00:17.386281+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,18 +887,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"IMF, 인도 경제 성장률 전망 하향\",\n  \"one_liner\": \"IMF가 인도의 올해 경제 성장률 전망치를 6.4%로 낮췄어요.\",\n  \"why_now\": \"인도는 세계에서 가장 빠르게 성장하는 경제 중 하나로 꼽히기 때문이에요.\",\n  \"impact_line\": \"인도 경제의 성장세 둔화는 관련 상품 가격에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"IMF는 인도의 올해 경제 성장률 전망치를 6.4%로 예상했어요.\",\n    \"이는 이전 전망치보다 낮아진 수치예요.\",\n    \"하지만 IMF는 여전히 인도를 가장 빠르게 성장하는 주요 경제국으로 평가했어요.\",\n    \"강한 국내 수요가 성장을 뒷받침할 것으로 보이기 때문이에요.\",\n    \"IMF는 파키스탄의 경제 성장률 전망치도 3.5~3.7%로 낮췄어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"인도 경제 성장세가 예상보다 둔화되면, 원자재 등 관련 상품의 수요 감소로 이어질 수 있어요!\",\n    \"하지만 여전히 높은 성장률을 유지할 것으로 보여, 인도 시장에 대한 투자는 계속될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"IMF\",\n      \"easy\": \"국제통화기금으로, 세계 경제 안정을 위해 나라 간 협력을 돕는 국제기구예요.\",\n      \"example\": \"IMF는 나라의 경제 상황을 분석하고 조언을 해주기도 해요.\"\n    },\n    {\n      \"term\": \"GDP\",\n      \"easy\": \"한 나라 안에서 일정 기간 동안 생산된 모든 상품과 서비스의 시장 가치를 합한 거예요.\",\n      \"example\": \"GDP가 늘면 나라 경제가 성장했다고 볼 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"인도 경제 성장\",\n   \"one_liner\": \"인도는 세계에서 가장 빠르게 성장하는 주요 경제국이에요.\",\n   \"why_now\": \"인도의 경제 성장은 국내 수요가 강하기 때문이에요.\",\n   \"impact_line\": \"인도에 수출하는 기업의 매출이 늘 수 있어요\",\n   \"details\": [\n       \"인도의 경제 성장률은 6.4%로 예상돼요.\",\n       \"인도는 주요 경제국 중에서 가장 빠르게 성장할 것으로 예상돼요.\",\n       \"인도의 성장률은 강한 국내 수요로 이뤄졌어요.\",\n       \"인도는 세계에서 가장 빠르게 성장하는 주요 경제국이에요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"인도의 성장으로 인해 인도에 수출하는 기업의 매출이 늘 수 있어요!\",\n       \"인도의 경제 성장은 세계 경제에도 긍정적인 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"GDP\",\n           \"easy\": \"한 나라의 전체 경제 규모를 나타내는 지표예요.\",\n           \"example\": \"한 나라의 GDP가 증가하면 그 나라의 경제가 성장했다고 할 수 있어요.\"\n       }\n   ]\n}",
   "attempts": [
    {
     "model": "llama-3.3-70b-versatile",
     "errors": [
-     "입력에 없는 숫자: [-3.7, 3.5, 6.4]"
+     "입력에 없는 숫자: [3.5, 3.7, 6.4]"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "입력에 없는 숫자: [3.5, 3.7, 6.4]"
+     "입력에 없는 숫자: [6.4]"
     ]
    }
   ],
@@ -917,8 +917,8 @@
   "fact_hash": "cfd78157cf896eed094d7420fa8b3e8a7f9b1246"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [-3.7, 3.5, 6.4]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [3.5, 3.7, 6.4]\"]}]}",
-  "at": "2026-08-16T08:53:43.505948+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [3.5, 3.7, 6.4]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [6.4]\"]}]}",
+  "at": "2026-08-17T02:00:17.386107+00:00"
  },
  "glossary": [
   {
@@ -954,17 +954,18 @@
    ]
   },
   {
-   "id": "c7465c605cefc2941",
-   "title": "Iran kicks As Trump Says Hormuz Will Become US Territory After War – Daily Trust",
+   "id": "c92542f0fffea30a9",
+   "title": "Exclusive - US to tell partners they must pick sides in AI race with China",
    "category": "GEO",
    "shared": [
+    "CHINA",
     "SEC"
    ]
   },
   {
-   "id": "e7dc95bcb919f5113",
-   "title": "메타케어 2026-2Q 실적 공시",
-   "category": "EARNINGS",
+   "id": "c7465c605cefc2941",
+   "title": "Iran kicks As Trump Says Hormuz Will Become US Territory After War – Daily Trust",
+   "category": "GEO",
    "shared": [
     "SEC"
    ]

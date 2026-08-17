@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 51,
- "importance": 85,
+ "importance": 80,
  "created_at": "2026-08-14T12:03:19.865601+00:00",
  "last_update": "2026-08-15T23:40:54.816999+00:00",
  "members": [
@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-16T08:56:49.763755+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-17T02:06:58.648508+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,25 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"트럼프의 행동\",\n   \"one_liner\": \"미국 대통령 트럼프의 행동이 호주에도 영향을 미치고 있어요.\",\n   \"why_now\": \"한 나라의 행동이 다른 나라에 영향을 줄 수 있어요.\",\n   \"impact_line\": \"호주와 미국의 관계가 달라질 수 있어요.\",\n   \"details\": [\n      \"트럼프의 행동이 호주에도 영향을 미치고 있어요.\",\n      \"호주와 미국의 관계가 중요해요.\",\n      \"트럼프의 행동이 다른 나라에도 영향을 줄 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"호주와 미국의 관계가 달라져서 경제에 영향을 줄 수 있어요!\",\n      \"다른 나라에서도 트럼프의 행동에 관심을 가지고 있을 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Mark Kenny | Trump…",
-   "one_liner": "Mark Kenny | Trump adventurism exposes Australia…",
-   "why_now": null,
+   "title": "트럼프의 행동",
+   "one_liner": "미국 대통령 트럼프의 행동이 호주에도 영향을 미치고 있어요.",
+   "why_now": "한 나라의 행동이 다른 나라에 영향을 줄 수 있어요.",
    "details": [
-    "Mark Kenny | Trump adventurism exposes Australia , too | The Daily Advertiser",
-    "Mark Kenny | Trump adventurism exposes Australia , too | Bendigo Advertiser",
-    "Mark Kenny | Trump adventurism exposes Australia , too | Magnet"
+    "트럼프의 행동이 호주에도 영향을 미치고 있어요.",
+    "호주와 미국의 관계가 중요해요.",
+    "트럼프의 행동이 다른 나라에도 영향을 줄 수 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "호주와 미국의 관계가 달라져서 경제에 영향을 줄 수 있어요!",
+    "다른 나라에서도 트럼프의 행동에 관심을 가지고 있을 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "4199add2cd80a66951001eae36bbec9e0c478162"
@@ -911,6 +912,12 @@
  "glossary": [],
  "related": [
   {
+   "id": "c92542f0fffea30a9",
+   "title": "Exclusive - US to tell partners they must pick sides in AI race with China",
+   "category": "GEO",
+   "shared": []
+  },
+  {
    "id": "c7465c605cefc2941",
    "title": "Iran kicks As Trump Says Hormuz Will Become US Territory After War – Daily Trust",
    "category": "GEO",
@@ -919,12 +926,6 @@
   {
    "id": "ceaa41a3333aac1a3",
    "title": "Gulf nations growing impatient with Trump diplomatic efforts regarding truce with Iran : Report - Moneycontrol . com",
-   "category": "GEO",
-   "shared": []
-  },
-  {
-   "id": "c92542f0fffea30a9",
-   "title": "Exclusive - US to tell partners they must pick sides in AI race with China",
    "category": "GEO",
    "shared": []
   },

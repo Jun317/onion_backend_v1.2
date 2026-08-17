@@ -173,7 +173,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T08:55:54.472499+00:00",
+  "created_at": "2026-08-17T02:03:01.358490+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -186,12 +186,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"시스코 매출 증가\",\n   \"one_liner\": \"시스코의 매출이 18% 올랐어요\",\n   \"why_now\": \"시스코의 수익이 증가하면 투자자와 고객에게 호재가 될 수 있어요\",\n   \"impact_line\": \"인터넷과 네트워크 장비 수요가 증가할 수 있어요\",\n   \"details\": [\n      \"시스코의 매출이 18% 증가했어요\",\n      \"하이퍼스케일러 AI 주문이 93억 달러에 달했어요\",\n      \"AI 판매额가 거의 두 배로 증가해 75억 달러가 됐어요\",\n      \"Oppenheimer Asset Management이 시스코에 8158만 달러를 투자했어요\"\n   ],\n   \"visual_type\": \"earnings_quarterly\",\n   \"effects\": [\n      \"인터넷과 네트워크 장비 수요가 증가해 관련 기업의 매출이 늘어날 수 있어요!\",\n      \"시스코의 수익 증가로 직원과 고객에게 긍정적인 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": [\n      {\n         \"term\": \"하이퍼스케일러\",\n         \"easy\": \"대규모 컴퓨팅 자원을 제공하는 기업이에요\",\n         \"example\": \"구글, 아마존, 마이크로소프트 등이 하이퍼스케일러에요\"\n      }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [93.0]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [75.0, 93.0, 8158.0]"
     ]
    }
   ],
@@ -210,20 +216,20 @@
   "fact_hash": "f131f3762ed78799abb0638e4a92e69bca0a2df8"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T08:55:54.472390+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [93.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [75.0, 93.0, 8158.0]\"]}]}",
+  "at": "2026-08-17T02:03:01.358355+00:00"
  },
  "glossary": [],
  "related": [
   {
-   "id": "e7dc95bcb919f5113",
-   "title": "메타케어 2026-2Q 실적 공시",
+   "id": "c1731cf1ebf398959",
+   "title": "Home Depot CEO Ted Decker takes medical leave , two execs take over temporarily",
    "category": "EARNINGS",
    "shared": []
   },
   {
-   "id": "c1731cf1ebf398959",
-   "title": "Home Depot CEO Ted Decker takes medical leave , two execs take over temporarily",
+   "id": "e7dc95bcb919f5113",
+   "title": "메타케어 2026-2Q 실적 공시",
    "category": "EARNINGS",
    "shared": []
   },

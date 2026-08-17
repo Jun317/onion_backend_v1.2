@@ -867,38 +867,45 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-16T10:46:32.509837+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-17T02:00:48.865987+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "Five things you need to know about the Canada - U . S . trade talks",
     "US economy remains resilient despite challenges – Shafaqna English | International Shia News & Fatwas",
-    "ONGC gets US licence to resume full Venezuela operations , eyes operatorship - Moneycontrol . com"
+    "Rove : Trump must stop  gaslighting  Americans over economy",
+    "PRESIDENT RUTO : WE WILL INVEST IN BLUE ECONOMY TO CREATE JOBS AND EMPOWER THE PEOPLE",
+    "Op - Ed : Climate Change Diminishing the risk and averting harm"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"경제 정책\",\n   \"one_liner\": \"각국이 경제와 환경 정책에 대해 논의하고 있어요\",\n   \"why_now\": \"경제와 환경이 우리 생활에 큰 영향을 주니까요\",\n   \"impact_line\": \"일자리와 환경이 좋아질 수 있어요\",\n   \"details\": [\n       \"미국과 캐나다가 무역 협상을 하고 있어요\",\n       \"미국의 경제가 도전을 받고 있지만 여전히 강하다고 보는 시각이 있어요\",\n       \"경제에 대한 잘못된 정보를 주의해야 해요\",\n       \"케냐 대통령이 블루 이코노미에 투자해 일자리를 만들고 국민을 힘쓰게 하겠다고 약속했어요\",\n       \"기후 변화의 위험을 줄이고 피해를 막기 위해 노력해야 해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"경제 성장이 일자리 창출과 소비 증가로 이어질 수 있어요!\",\n       \"환경 정책이 잘되면 우리의 건강과 미래가 더 좋아질 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"블루 이코노미\",\n           \"easy\": \"바다와 관련된 산업을 말해요\",\n           \"example\": \"어업이나 해양 관광이 블루 이코노미의 예에요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "US economy remains…",
-   "one_liner": "US economy remains resilient despite challenges…",
-   "why_now": null,
+   "title": "경제 정책",
+   "one_liner": "각국이 경제와 환경 정책에 대해 논의하고 있어요",
+   "why_now": "경제와 환경이 우리 생활에 큰 영향을 주니까요",
    "details": [
-    "US economy remains resilient despite challenges – Shafaqna English | International Shia News & Fatwas",
-    "ONGC gets US licence to resume full Venezuela operations , eyes operatorship - Moneycontrol . com"
+    "미국과 캐나다가 무역 협상을 하고 있어요",
+    "미국의 경제가 도전을 받고 있지만 여전히 강하다고 보는 시각이 있어요",
+    "경제에 대한 잘못된 정보를 주의해야 해요",
+    "케냐 대통령이 블루 이코노미에 투자해 일자리를 만들고 국민을 힘쓰게 하겠다고 약속했어요",
+    "기후 변화의 위험을 줄이고 피해를 막기 위해 노력해야 해요"
    ],
-   "effects": [],
+   "effects": [
+    "경제 성장이 일자리 창출과 소비 증가로 이어질 수 있어요!",
+    "환경 정책이 잘되면 우리의 건강과 미래가 더 좋아질 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "5226dbd82d240956f3aea495da002e735717b2d6"
+  "fact_hash": "9d62cb6dbf4a331ddee0fd704bddc93d04a45e5f"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

@@ -105,7 +105,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T08:54:40.743173+00:00",
+  "created_at": "2026-08-17T02:00:36.682326+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -118,12 +118,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"오라클 구조조정\",\n   \"one_liner\": \"오라클이 다시 직원 감원을 할 계획이에요.\",\n   \"why_now\": \"회사가 어려워지면 구조조정을 하게 되요.\",\n   \"impact_line\": \"오라클 직원의 일자리가 불안정해질 수 있어요\",\n   \"details\": [\n      \"오라클이 2026년 8월에 다시 직원 감원을 할 계획이에요.\",\n      \"오라클의 주가가 떨어졌어요.\",\n      \"오라클의 재무 서비스 소프트웨어 주가가 2.10% 떨어졌어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"오라클 직원들이 일자리를 잃을 수 있어요!\",\n      \"오라클의 사업이 어려워질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [2.1]"
+    ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "입력에 없는 숫자: [2.1]"
     ]
    }
   ],
@@ -142,11 +148,17 @@
   "fact_hash": "cbb2e53fef8a09e6c12070dc59f4fc6e788dd669"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T08:54:40.743072+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [2.1]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [2.1]\"]}]}",
+  "at": "2026-08-17T02:00:36.682154+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c92542f0fffea30a9",
+   "title": "Exclusive - US to tell partners they must pick sides in AI race with China",
+   "category": "GEO",
+   "shared": []
+  },
   {
    "id": "c7465c605cefc2941",
    "title": "Iran kicks As Trump Says Hormuz Will Become US Territory After War – Daily Trust",
@@ -156,12 +168,6 @@
   {
    "id": "ceaa41a3333aac1a3",
    "title": "Gulf nations growing impatient with Trump diplomatic efforts regarding truce with Iran : Report - Moneycontrol . com",
-   "category": "GEO",
-   "shared": []
-  },
-  {
-   "id": "c92542f0fffea30a9",
-   "title": "Exclusive - US to tell partners they must pick sides in AI race with China",
    "category": "GEO",
    "shared": []
   },

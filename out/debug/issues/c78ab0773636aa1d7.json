@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T09:48:23.341006+00:00",
+  "created_at": "2026-08-17T02:02:32.273354+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,21 +64,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"JPM 주식 매수\", \"one_liner\": \"IFP Advisors Inc가 JP모건 체이스 주식 2,652주를 매수했어요.\", \"why_now\": \"주요 투자 회사가 특정 기업의 주식을 사들이는 것은 해당 기업의 미래 가치를 긍정적으로 보기 때문일 수 있어요.\", \"impact_line\": \"JP모건 주가가 오를 수 있어요.\", \"details\": [\"IFP Advisors Inc가 JP모건 체이스 주식 2,652주를 사들였어요.\"], \"visual_type\": \"none\", \"effects\": [\"JP모건 체이스의 주가가 상승할 가능성이 있어요!\"], \"glossary\": [{\"term\": \"주식\", \"easy\": \"회사의 소유권 일부를 나타내는 증서예요. 이걸 사면 회사의 주인이 되는 거예요.\", \"example\": \"삼성전자 주식을 사면 삼성전자의 주인이 되는 거예요.\"}, {\"term\": \"JP모건 체이스\", \"easy\": \"미국을 대표하는 세계적인 금융 회사예요.\", \"example\": \"JP모건 체이스는 은행, 투자, 자산 관리 등 다양한 금융 서비스를 제공해요.\"}], \"impact_line\": \"JP모건 주가가 오를 수 있어요.\"}",
+  "raw_response": "{\n  \"title\": \"영국 주식 시장\",\n   \"one_liner\": \"제이피모간이 영국 소형주를 추천했어요\",\n   \"why_now\": \"외국계 기업이 국내 시장에 관심을 가져서요\",\n   \"impact_line\": \"외국인 투자자들이 국내 주식 시장에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"제이피모간은 영국 소형주를 사라고 했어요\",\n       \"제이피모간은 좋은 성과를 내는 기업을 찾아주려고 해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"외국인 투자자들이 국내 주식 시장에 영향을 줄 수 있어요!\",\n       \"국내 기업들의 주가가 올라갈 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
+     "details 3문장 미만"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "why_now 55자 초과(62)",
-     "details 3문장 미만",
-     "입력에 없는 숫자: [2652.0]"
+     "details 3문장 미만"
     ]
    }
   ],
@@ -96,8 +93,8 @@
   "fact_hash": "cd6b7f3b0d1f139987fc5ff87d1b32d66e67a17e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(62)\", \"details 3문장 미만\", \"입력에 없는 숫자: [2652.0]\"]}]}",
-  "at": "2026-08-16T09:48:23.340815+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-17T02:02:32.273242+00:00"
  },
  "glossary": [],
  "related": [

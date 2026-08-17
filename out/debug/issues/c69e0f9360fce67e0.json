@@ -816,38 +816,49 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-16T10:47:27.797826+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-17T02:03:21.709051+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
     "Trump  golden age  economy pitch fizzles with US voters - Las Vegas Sun News",
-    "German companies cut US investment to three - year low , data show"
+    "German companies cut US investment to three - year low : Data",
+    "German companie investment in US falls to 3 - year low in H1",
+    "German companies cut US investment to three - year low , data show",
+    "How Trump Left America Vulnerable to Cyberattacks"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국에 대한 독일 투자 감소\",\n   \"one_liner\": \"독일 기업들이 미국에 대한 투자를 3년 만에 가장 낮은 수준으로 줄였어요.\",\n   \"why_now\": \"외국 기업의 투자가 줄면 경제 성장에 영향을 줄 수 있어요.\",\n   \"impact_line\": \"미국 경제에 영향을 줄 수 있어요.\",\n   \"details\": [\n       \"독일 기업들이 미국에 대한 투자를 줄였어요.\",\n       \"이 투자 감소는 3년 만에 가장 낮은 수준이에요.\",\n       \"이러한 투자 감소는 미국 경제에 영향을 줄 수 있어요.\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"미국 경제 성장이 둔화될 수 있어요!\",\n       \"미국에서 일자리 창출이 어려워질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "llama-3.3-70b-versatile",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump  golden age…",
-   "one_liner": "Trump  golden age  economy pitch fizzles with US…",
-   "why_now": null,
+   "title": "미국에 대한 독일 투자 감소",
+   "one_liner": "독일 기업들이 미국에 대한 투자를 3년 만에 가장 낮은 수준으로 줄였어요.",
+   "why_now": "외국 기업의 투자가 줄면 경제 성장에 영향을 줄 수 있어요.",
    "details": [
-    "Trump  golden age  economy pitch fizzles with US voters - Las Vegas Sun News",
-    "German companies cut US investment to three - year low , data show"
+    "독일 기업들이 미국에 대한 투자를 줄였어요.",
+    "이 투자 감소는 3년 만에 가장 낮은 수준이에요.",
+    "이러한 투자 감소는 미국 경제에 영향을 줄 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "미국 경제 성장이 둔화될 수 있어요!",
+    "미국에서 일자리 창출이 어려워질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "2d39a73ee22cbc2ab55283d5bfa5e2eed42cb545"
+  "fact_hash": "9ad634534537d55de943ba0880538d79c838c61e"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

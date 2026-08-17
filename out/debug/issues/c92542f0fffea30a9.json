@@ -9,13 +9,35 @@
  "entity_keys": [
   "CHINA",
   "F",
-  "PYPL"
+  "IRAN",
+  "PYPL",
+  "SEC"
  ],
- "seen_sources": 33,
- "importance": 110,
+ "seen_sources": 34,
+ "importance": 140,
  "created_at": "2026-08-15T07:05:03.445821+00:00",
- "last_update": "2026-08-16T22:43:08.259870+00:00",
+ "last_update": "2026-08-17T01:59:48.762460+00:00",
  "members": [
+  {
+   "id": "d489aeb7b1e1aa925f3fec35d796e737e833260c",
+   "source": "economictimes.indiatimes.com",
+   "tier": "wire",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/chemical-sector-although-long-there-is-a-way-around-china-trouble-combine-20-stocks-to-get-your-portfolios-chemistry-right/articleshow/133284241.cms",
+   "title": "Nifty Chemical Index stocks : Chemical sector : Although long , there is a way around China trouble ; combine 20 stocks to get your portfolio chemistry right",
+   "published_at": "2026-08-17T01:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8769
+  },
+  {
+   "id": "7fcb5b0cf839feebfd30a12b766d7edf9590f3db",
+   "source": "greanvillepost.com",
+   "tier": "wire",
+   "url": "https://www.greanvillepost.com/how-america-is-blowing-up-its-military-in-iran-and-cant-replace-it-without-china/",
+   "title": "How America Is Blowing Up Its Military ( In Iran ) and Cant Replace It ( Without China ) – The Greanville Post",
+   "published_at": "2026-08-17T00:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8823
+  },
   {
    "id": "4c91b3f229b035de114a98999986b14ac7fa2d29",
    "source": "smallbiztrends.com",
@@ -471,6 +493,20 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Nifty Chemical Index stocks : Chemical sector : Although long , there is a way around China trouble ; combine 20 stocks to get your portfolio chemistry right",
+   "source": "economictimes.indiatimes.com",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/chemical-sector-although-long-there-is-a-way-around-china-trouble-combine-20-stocks-to-get-your-portfolios-chemistry-right/articleshow/133284241.cms",
+   "at": "2026-08-17T01:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "How America Is Blowing Up Its Military ( In Iran ) and Cant Replace It ( Without China ) – The Greanville Post",
+   "source": "greanvillepost.com",
+   "url": "https://www.greanvillepost.com/how-america-is-blowing-up-its-military-in-iran-and-cant-replace-it-without-china/",
+   "at": "2026-08-17T00:45:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "US Travelers Can Now Use PayPal App for Local Payments in China",
    "source": "smallbiztrends.com",
    "url": "https://smallbiztrends.com/us-travelers-can-now-use-paypal-app-for-local-payments-in-china/",
@@ -786,8 +822,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-16T08:54:22.322717+00:00",
+  "model": "llama-3.3-70b-versatile",
+  "created_at": "2026-08-17T01:59:50.170990+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -800,33 +836,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국, AI 경쟁서 중국과 편 가르기 요구\",\n  \"one_liner\": \"미국이 동맹국들에게 인공지능(AI) 경쟁에서 중국과 어느 한쪽을 선택하라고 요구하고 있어요.\",\n  \"why_now\": \"AI 기술은 미래 산업의 핵심으로, 어느 나라가 주도권을 잡느냐에 따라 경제와 안보에 큰 영향을 미치기 때문이에요.\",\n  \"impact_line\": \"AI 기술을 둘러싼 국가 간 경쟁이 심화될 수 있어요.\",\n  \"details\": [\n    \"미국은 동맹국들에게 AI 기술 경쟁에서 중국과 편을 가르라고 요청했어요.\",\n    \"이를 따르지 않을 경우 불이익이 있을 수 있다고 경고했어요.\",\n    \"중국은 오픈소스 기술, 특히 AI 분야에서 미래를 만들어가고 있어요.\",\n    \"이러한 움직임은 국제 사회에서 AI 기술의 영향력을 보여줘요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"AI 기술 개발 및 보급에 국가별로 다른 정책이 적용될 수 있어요!\",\n    \"기술 표준이나 규제가 달라져 글로벌 협력이 어려워질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AI\",\n      \"easy\": \"인공지능으로, 컴퓨터가 사람처럼 생각하고 배울 수 있게 하는 기술이에요.\",\n      \"example\": \"AI 스피커는 사람의 말을 알아듣고 음악을 틀어줘요.\"\n    },\n    {\n      \"term\": \"오픈소스\",\n      \"easy\": \"누구나 프로그램을 자유롭게 사용하고 수정할 수 있도록 공개된 기술이에요.\",\n      \"example\": \"오픈소스 운영체제는 많은 개발자들이 함께 발전시켜요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"미·중 AI 경쟁\",\n   \"one_liner\": \"미국이 중국과의 인공지능 경쟁에서 편을 고르라고 동맹국에 요청했어요\",\n   \"why_now\": \"미국과 중국이 인공지능 분야에서 경쟁을 벌이고 있어요\",\n   \"impact_line\": \"기술 개발과 투자가 달라질 수 있어요\",\n   \"details\": [\n       \"미국이 중국과의 인공지능 경쟁에서 동맹국이 편을 고르라고 요청했어요\",\n       \"미국은 동맹국이 중국과 함께할 경우 불이익을 받을 수 있다고 했어요\",\n       \"중국은 공개된 기술, 포함하여 인공지능 분야에서 미래를 결정하고 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"기술 개발과 투자가 달라질 수 있어요!\",\n       \"인공지능 분야에서 경쟁이 심해질 수 있어요!\"\n   ],\n   \"glossary\": [\n       {\n           \"term\": \"인공지능\",\n           \"easy\": \"기계가 사람처럼 생각하고 행동하게 만든 기술이에요\",\n           \"example\": \"인공지능을 이용한 로봇이 일할 수 있어요\"\n       }\n   ]\n}",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "title 22자 초과(23)",
-     "one_liner 50자 초과(51)",
-     "why_now 55자 초과(64)"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "llama-3.3-70b-versatile",
+    "errors": []
    }
   ],
   "output": {
-   "title": "US to tell partners…",
-   "one_liner": "US to tell partners they must pick sides in AI…",
-   "why_now": null,
+   "title": "미·중 AI 경쟁",
+   "one_liner": "미국이 중국과의 인공지능 경쟁에서 편을 고르라고 동맹국에 요청했어요",
+   "why_now": "미국과 중국이 인공지능 분야에서 경쟁을 벌이고 있어요",
    "details": [
-    "US to tell partners they must pick sides in AI race with China",
-    "US asks countries to pick sides in AI race with China or face consequences",
-    "US or China : Washington to tell partners they must pick sides in AI race"
+    "미국이 중국과의 인공지능 경쟁에서 동맹국이 편을 고르라고 요청했어요",
+    "미국은 동맹국이 중국과 함께할 경우 불이익을 받을 수 있다고 했어요",
+    "중국은 공개된 기술, 포함하여 인공지능 분야에서 미래를 결정하고 있어요"
    ],
-   "effects": [],
+   "effects": [
+    "기술 개발과 투자가 달라질 수 있어요!",
+    "인공지능 분야에서 경쟁이 심해질 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "e6c862eab71bbefd92c08f51d464a2833bdfd0f4"
@@ -838,39 +867,45 @@
  "glossary": [],
  "related": [
   {
+   "id": "cea83213c8906724e",
+   "title": "Fed Holds Interest Rates Steady Amid Inflation From Iran Conflict",
+   "category": "RATE",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
    "id": "c03074aeed49bf60f",
    "title": "World Bank confirms plan to phase out China lending by 2031",
    "category": "RATE",
    "shared": [
-    "CHINA"
+    "CHINA",
+    "SEC"
+   ]
+  },
+  {
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
+   "category": "RATE",
+   "shared": [
+    "SEC"
    ]
   },
   {
    "id": "c7465c605cefc2941",
    "title": "Iran kicks As Trump Says Hormuz Will Become US Territory After War – Daily Trust",
    "category": "GEO",
-   "shared": []
-  },
-  {
-   "id": "c37ad01cf8a091a74",
-   "title": "IMF Says Tokenization Will Reshape Financial Markets , Not Replace Traditional Institutions",
-   "category": "FX",
    "shared": [
-    "CHINA"
+    "IRAN",
+    "SEC"
    ]
   },
   {
-   "id": "ceaa41a3333aac1a3",
-   "title": "Gulf nations growing impatient with Trump diplomatic efforts regarding truce with Iran : Report - Moneycontrol . com",
-   "category": "GEO",
-   "shared": []
-  },
-  {
-   "id": "cd7b762c4b0212485",
-   "title": "Rubio Attends ASEAN As Iran War Fuels Energy Security Fears",
-   "category": "GEO",
+   "id": "c826b1c1944a1c619",
+   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
+   "category": "RATE",
    "shared": [
-    "CHINA"
+    "SEC"
    ]
   }
  ]
