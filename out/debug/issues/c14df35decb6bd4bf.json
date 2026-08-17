@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T10:48:04.701631+00:00",
+  "created_at": "2026-08-17T03:20:46.227836+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,8 +64,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"릴리 실적 발표\",\n    \"one_liner\": \"릴리가 2026년 2분기 실적을 발표했어요.\",\n    \"why_now\": \"기업의 실적은 주가에 직접적인 영향을 주기 때문에 투자자들이 주목해요.\",\n    \"impact_line\": null,\n    \"details\": [\n        \"릴리의 주가가 실적 발표 이후 상승했어요.\",\n        \"릴리는 2026년 2분기 실적을 발표했습니다.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"릴리의 주가가 더 오를 수 있을 것으로 예상돼요!\",\n        \"향후 릴리의 실적이 좋으면 주가 상승세가 이어질 수 있어요!\"\n    ],\n    \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -87,8 +93,8 @@
   "fact_hash": "b25064a27fb3ecabb803818a2d273996213708f7"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T10:48:04.701564+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-17T03:20:46.227783+00:00"
  },
  "glossary": [],
  "related": [

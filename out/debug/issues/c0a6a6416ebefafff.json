@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-16T09:01:07.727740+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-17T03:17:47.795679+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,26 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 소매 판매 감소\",\n  \"one_liner\": \"미국의 7월 소매 판매가 예상과 달리 크게 줄었어요.\",\n  \"why_now\": \"소매 판매는 소비자들이 얼마나 지갑을 열었는지 보여주는 지표로, 경제 상황을 파악하는 데 중요해요.\",\n  \"impact_line\": \"소비가 줄면 기업들의 매출도 감소할 수 있어요.\",\n  \"details\": [\n    \"미국의 7월 소매 판매가 예상보다 많이 감소했어요.\",\n    \"이는 1년여 만에 가장 큰 폭의 하락이에요.\",\n    \"정부의 세금 환급이 줄어든 것이 영향을 준 것으로 보여요.\",\n    \"소비자들의 심리도 3개월 만에 처음으로 하락했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"소비가 줄면 기업들의 생산과 투자도 감소할 수 있어요!\",\n    \"경제 성장세가 둔화될 가능성이 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"소매 판매\",\n      \"easy\": \"소비자들이 가게에서 물건을 사거나 서비스를 이용한 금액을 말해요.\",\n      \"example\": \"옷 가게나 식당에서 돈을 쓰는 것이 소매 판매에 포함돼요.\"\n    },\n    {\n      \"term\": \"세금 환급\",\n      \"easy\": \"정부가 세금을 너무 많이 걷었을 때 돌려주는 돈이에요.\",\n      \"example\": \"연말정산 때 세금을 돌려받는 것이 세금 환급의 한 예예요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Shoppers Close Their…",
-   "one_liner": "Shoppers Close Their Wallets in July as US…",
-   "why_now": null,
+   "title": "미국 소매 판매 감소",
+   "one_liner": "미국의 7월 소매 판매가 예상과 달리 크게 줄었어요.",
+   "why_now": "소매 판매는 소비자들이 얼마나 지갑을 열었는지 보여주는 지표로, 경제 상황을 파악하는 데 중요해요.",
    "details": [
-    "Shoppers Close Their Wallets in July as US Retail Sales Unexpectedly Fall",
-    "Consumer Sentiment Falls For First Time In 3 Months | Twin Cities News Talk",
-    "Retail sales unexpectedly fall in July as government tax refunds fade"
+    "미국의 7월 소매 판매가 예상보다 많이 감소했어요.",
+    "이는 1년여 만에 가장 큰 폭의 하락이에요.",
+    "정부의 세금 환급이 줄어든 것이 영향을 준 것으로 보여요.",
+    "소비자들의 심리도 3개월 만에 처음으로 하락했어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "소비가 줄면 기업들의 생산과 투자도 감소할 수 있어요!",
+    "경제 성장세가 둔화될 가능성이 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "ee4a7c3fb7fca62274d30ce11230e184cef2bace"
  },
