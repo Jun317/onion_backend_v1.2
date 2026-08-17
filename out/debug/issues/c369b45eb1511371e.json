@@ -257,48 +257,46 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-17T07:29:32.366291+00:00",
+  "model": "template",
+  "created_at": "2026-08-17T10:04:55.459811+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
+    "Azets : Ongoing war in Iran pushing up borrowing costs",
     "Indian Shares Set For Cautious Start Amid Renewed US - Iran Tensions",
-    "Asian shares little changed as Iran war keeps oil prices up",
     "The long boat to school gets longer as Iran war drives up the price of fuel",
-    "Trump has options to squeeze Iran economy but each carries risks"
+    "Asian shares little changed as Iran war keeps oil prices up"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"이란 관련 긴장 고조\",\n\"one_liner\": \"이란을 둘러싼 긴장이 고조되며 국제 유가가 오르고 아시아 증시가 영향을 받고 있어요.\",\n\"why_now\": \"국제 유가가 오르면 운송비와 물가가 올라 서민들의 장바구니 부담이 커질 수 있어요.\",\n\"impact_line\": \"기름값이 오르면 교통비와 배송비가 오를 수 있어요.\",\n\"details\": [\n\"이란과 관련된 긴장이 다시 높아지고 있어요.\",\n\"이로 인해 국제 유가가 상승세를 보이고 있어요.\",\n\"아시아 주요국 증시는 이러한 상황 속에서 조심스러운 움직임을 보이고 있어요.\",\n\"이란을 둘러싼 갈등은 국제 사회에 여러 위험 요소를 안고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"국제 유가가 계속 오르면 항공편이나 해상 운송 비용이 늘어날 수 있어요!\",\n\"물가 상승으로 이어져 전반적인 소비 심리가 위축될 가능성도 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"국제 유가\",\n\"easy\": \"전 세계에서 거래되는 석유의 가격이에요.\",\n\"example\": \"국제 유가가 오르면 주유소에서 기름값이 비싸져요.\"\n}\n],\n\"impact_line\": \"기름값이 오르면 교통비와 배송비가 오를 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "이란 관련 긴장 고조",
-   "one_liner": "이란을 둘러싼 긴장이 고조되며 국제 유가가 오르고 아시아 증시가 영향을 받고 있어요.",
-   "why_now": "국제 유가가 오르면 운송비와 물가가 올라 서민들의 장바구니 부담이 커질 수 있어요.",
+   "title": "Iran Demands Access…",
+   "one_liner": "Iran Demands Access To Qatar In Dispute Over…",
+   "why_now": null,
    "details": [
-    "이란과 관련된 긴장이 다시 높아지고 있어요.",
-    "이로 인해 국제 유가가 상승세를 보이고 있어요.",
-    "아시아 주요국 증시는 이러한 상황 속에서 조심스러운 움직임을 보이고 있어요.",
-    "이란을 둘러싼 갈등은 국제 사회에 여러 위험 요소를 안고 있어요."
+    "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
+    "Azets : Ongoing war in Iran pushing up borrowing costs",
+    "Indian Shares Set For Cautious Start Amid Renewed US - Iran Tensions"
    ],
-   "effects": [
-    "국제 유가가 계속 오르면 항공편이나 해상 운송 비용이 늘어날 수 있어요!",
-    "물가 상승으로 이어져 전반적인 소비 심리가 위축될 가능성도 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "a0033e7cf9af382ddacd423c567842af223edab1"
+  "fact_hash": "601ed3e037d63095117b4b05fc468bd8ab7cd63e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 해요체 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(23)\"]}]}",
-  "at": "2026-08-17T04:08:57.835773+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-17T10:04:55.459752+00:00"
  },
  "glossary": [],
  "related": [

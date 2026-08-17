@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-17T04:10:49.024848+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-17T10:03:21.939591+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,25 +881,32 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"기업 실적 발표 예정\",\n\"one_liner\": \"다음 주에 여러 기업이 1분기 실적을 발표할 예정이에요.\",\n\"why_now\": \"기업의 실적 발표는 앞으로의 주가 흐름을 예측하는 중요한 지표가 될 수 있어요.\",\n\"impact_line\": \"관심 있는 기업의 실적 발표 소식을 눈여겨볼 필요가 있어요.\",\n\"details\": [\n\"다음 주에 보도될 기업 실적 발표 목록에는 보다폰 아이디어가 포함되어 있어요.\",\n\"RVNL도 다음 주에 1분기 실적을 발표할 예정이에요.\",\n\"이 외에도 여러 기업이 1분기 실적을 발표할 예정이에요.\"\n],\n\"visual_type\": \"earnings_quarterly\",\n\"effects\": [\n\"실적이 좋으면 해당 기업의 주가가 오를 수 있어요!\",\n\"기대보다 실적이 나쁘면 주가가 하락할 가능성이 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"1분기\",\n\"easy\": \"회계연도에서 첫 3개월을 말해요.\",\n\"example\": \"1분기 실적 발표를 보면 회사의 연초 성적을 알 수 있어요.\"\n},\n{\n\"term\": \"실적\",\n\"easy\": \"회사가 돈을 얼마나 벌고 썼는지 보여주는 성적표예요.\",\n\"example\": \"실적이 좋으면 회사의 주가가 오르는 경우가 많아요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects[1] 느낌표 종결 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Down 29 %, Is…",
-   "one_liner": "Down 29 %, Is MercadoLibre Stock a Better Buy…",
-   "why_now": null,
+   "title": "기업 실적 발표 예정",
+   "one_liner": "다음 주에 여러 기업이 1분기 실적을 발표할 예정이에요.",
+   "why_now": "기업의 실적 발표는 앞으로의 주가 흐름을 예측하는 중요한 지표가 될 수 있어요.",
    "details": [
-    "Down 29 %, Is MercadoLibre Stock a Better Buy Than SpaceX and the  Magnificent Seven  Stocks in August ?",
-    "Medtronic vs . Intuitive Surgical : Which MedTech Stock Is the Better Buy Right Now ?",
-    "Stocks to buy : Sun Pharma , BEL among 4 shares Bajaj Broking expert recommends for next 6 months"
+    "다음 주에 보도될 기업 실적 발표 목록에는 보다폰 아이디어가 포함되어 있어요.",
+    "RVNL도 다음 주에 1분기 실적을 발표할 예정이에요.",
+    "이 외에도 여러 기업이 1분기 실적을 발표할 예정이에요."
    ],
-   "effects": [],
+   "effects": [
+    "실적이 좋으면 해당 기업의 주가가 오를 수 있어요!",
+    "기대보다 실적이 나쁘면 주가가 하락할 가능성이 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "2694b3304d4ad9e38a4ebd7d56379bd4eabceb0f"
