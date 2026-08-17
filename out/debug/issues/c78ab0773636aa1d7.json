@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-17T02:02:32.273354+00:00",
+  "created_at": "2026-08-17T05:06:10.495250+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,18 +64,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"영국 주식 시장\",\n   \"one_liner\": \"제이피모간이 영국 소형주를 추천했어요\",\n   \"why_now\": \"외국계 기업이 국내 시장에 관심을 가져서요\",\n   \"impact_line\": \"외국인 투자자들이 국내 주식 시장에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"제이피모간은 영국 소형주를 사라고 했어요\",\n       \"제이피모간은 좋은 성과를 내는 기업을 찾아주려고 해요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"외국인 투자자들이 국내 주식 시장에 영향을 줄 수 있어요!\",\n       \"국내 기업들의 주가가 올라갈 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -93,8 +87,8 @@
   "fact_hash": "cd6b7f3b0d1f139987fc5ff87d1b32d66e67a17e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-08-17T02:02:32.273242+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-17T05:06:10.495146+00:00"
  },
  "glossary": [],
  "related": [

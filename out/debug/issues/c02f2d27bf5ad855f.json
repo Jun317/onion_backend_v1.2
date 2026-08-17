@@ -156,7 +156,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-17T02:02:11.911574+00:00",
+  "created_at": "2026-08-17T05:05:52.084081+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -169,18 +169,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"우버 주식 매수\",\n   \"one_liner\": \"여러 투자자와 기업이 우버 주식을 샀어요\",\n   \"why_now\": \"주식을 산다는 건 해당 기업의 미래가 밝다고 생각하는 거예요\",\n   \"impact_line\": \"우버 이용객이나 직원에게는 큰 영향이 없을 수도 있어요\",\n   \"details\": [\n      \"Keystone Financial Group이 우버 주식을 샀어요\",\n      \"LTC Properties의 한 임원이 500주를 샀어요\",\n      \"Meiji Yasuda America Inc가 우버 주식 17,818주를 샀어요\",\n      \"CapitalatWork S.A.가 우버 주식 482,296주를 샀어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"우버의 주가가 오를 수 있어요!\",\n      \"투자자들이 우버에 대한 기대가 높아질 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [17818.0, 482296.0]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [17818.0, 482296.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -199,8 +193,8 @@
   "fact_hash": "8c3ec08795381859d0a81e363a3dd17cb6af30cd"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [17818.0, 482296.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [17818.0, 482296.0]\"]}]}",
-  "at": "2026-08-17T02:02:11.911471+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-17T05:05:52.083980+00:00"
  },
  "glossary": [],
  "related": [

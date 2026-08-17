@@ -105,7 +105,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-17T02:01:01.263357+00:00",
+  "created_at": "2026-08-17T05:04:56.310792+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -118,18 +118,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 은행 뉴스\",\n   \"one_liner\": \"미국 은행의 주가가 1.3% 올랐어요\",\n   \"why_now\": \"은행의 주가가 오르면 투자자들이 돈을 벌 수 있어요\",\n   \"impact_line\": \"은행의 서비스 이용료가 바뀔 수 있어요\",\n   \"details\": [\n       \"미국 은행의 주가가 1.3% 올랐어요\",\n       \"미국 은행이 인공지능과 에너지 인프라에 2500억 달러를 투자할 계획이에요\",\n       \"미국 은행의 프로모션이 변경될 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"은행의 서비스가 더 좋아질 수 있어요!\",\n       \"은행의 수익이 증가할 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [1.3, 2500.0]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [1.3, 2500.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -148,8 +142,8 @@
   "fact_hash": "68d52a09ea564b39833d2a4aa47068baad93a93c"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.3, 2500.0]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [1.3, 2500.0]\"]}]}",
-  "at": "2026-08-17T02:01:01.263240+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-17T05:04:56.310698+00:00"
  },
  "glossary": [],
  "related": [

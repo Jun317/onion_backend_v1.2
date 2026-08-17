@@ -328,31 +328,25 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-17T02:01:43.157067+00:00",
+  "created_at": "2026-08-17T05:05:33.368854+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
     "Berkshire Hathaway Turns Buyer As Buffett Backs Alphabet",
-    "Berkshire Hathaway reshuffles portfolio , raises Alphabet and homebuilder stakes",
     "Sundar Pichai Raised Alphabet Capex Guidance to $205 Billion the Same Quarter Google Cloud Backlog Hit $514 Billion . Here Which Number Actually Matters More .",
+    "Berkshire Hathaway reshuffles portfolio , raises Alphabet and homebuilder stakes",
     "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
-    "3 Obvious Reasons Warren Buffett Berkshire Hathaway Owns Nearly 152 Million Shares in This Winning Financial Stock"
+    "Alphabet Stock to $515 : 3 Reasons the Bull Case Is Getting Stronger"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"버크셔 해서웨이 주식 매수\",\n   \"one_liner\": \"버크셔 해서웨이가 알파벳 주식을 매수했어요\",\n   \"why_now\": \"버크셔 해서웨이의 주식 매수는 투자 전략의 변화일 수 있어요\",\n   \"impact_line\": \"알파벳 주식의 가치가 오를 수 있어요\",\n   \"details\": [\n      \"버크셔 해서웨이가 14분기 만에 주식 매수를 재개했어요\",\n      \"버크셔 해서웨이는 알파벳 주식에 100억 달러를 투자했어요\",\n      \"버크셔 해서웨이의 총 주식 매수 금액은 235억 달러예요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n      \"버크셔 해서웨이의 주식 매수가 알파벳 주식의 가치에 긍정적인 영향을 줄 수 있어요!\",\n      \"버크셔 해서웨이의 투자 전략이 변경되면 다른 투자자들의 투자 결정에 영향을 줄 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [23.5]"
-    ]
-   },
-   {
-    "model": "llama-3.3-70b-versatile",
-    "errors": [
-     "입력에 없는 숫자: [100.0, 235.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -362,17 +356,17 @@
    "why_now": null,
    "details": [
     "Berkshire Hathaway Turns Buyer As Buffett Backs Alphabet",
-    "Berkshire Hathaway reshuffles portfolio , raises Alphabet and homebuilder stakes",
-    "Sundar Pichai Raised Alphabet Capex Guidance to $205 Billion the Same Quarter Google Cloud Backlog Hit $514 Billion . Here Which Number Actually Matters More ."
+    "Sundar Pichai Raised Alphabet Capex Guidance to $205 Billion the Same Quarter Google Cloud Backlog Hit $514 Billion . Here Which Number Actually Matters More .",
+    "Berkshire Hathaway reshuffles portfolio , raises Alphabet and homebuilder stakes"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "8ab643e11c377506234e214083a308bccd0b4922"
+  "fact_hash": "e815bee2803b8bd05f92e92f5e13b364419b5039"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [23.5]\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"입력에 없는 숫자: [100.0, 235.0]\"]}]}",
-  "at": "2026-08-17T02:01:43.156961+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-17T05:05:33.368769+00:00"
  },
  "glossary": [],
  "related": [
