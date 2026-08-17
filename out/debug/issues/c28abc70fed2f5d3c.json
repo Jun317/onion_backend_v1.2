@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-17T03:18:38.298736+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-17T07:29:57.113555+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,26 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"기업 실적 비교 분석\", \"one_liner\": \"여러 기업들의 실적을 서로 비교하는 분석이 나왔어요.\", \"why_now\": \"기업 실적 비교는 투자 결정을 내리는 데 중요한 정보가 될 수 있어요.\", \"impact_line\": \"투자 결정을 내릴 때 참고할 수 있는 정보가 늘었어요.\", \"details\": [\"야콥스 솔루션스와 부즈 앨런 해밀턴의 실적을 비교했어요.\", \"햄버거 하펜 운트 로지스틱과 경쟁사들의 재무 상태를 비교했어요.\", \"내셔널 헬스케어 프로퍼티스와 헬스케어 트러스트의 재무 상태를 비교했어요.\", \"엑셀 브랜드와 스와치 그룹의 실적을 비교했어요.\", \"체서피크 유틸리티스와 ENN 에너지의 실적을 비교했어요.\"], \"visual_type\": \"none\", \"effects\": [\"기업들의 재무 상태를 파악하는 데 도움이 될 수 있어요!\"], \"glossary\": []}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Head - To - Head…",
-   "one_liner": "Head - To - Head Contrast : Jacobs Solutions (…",
-   "why_now": null,
+   "title": "기업 실적 비교 분석",
+   "one_liner": "여러 기업들의 실적을 서로 비교하는 분석이 나왔어요.",
+   "why_now": "기업 실적 비교는 투자 결정을 내리는 데 중요한 정보가 될 수 있어요.",
    "details": [
-    "Head - To - Head Contrast : Jacobs Solutions ( NYSE : J ) vs . Booz Allen Hamilton ( NYSE : BAH )",
-    "Hamburger Hafen und Logistik Aktiengesellschaft ( HHULY ) versus The Competition Financial Contrast",
-    "Financial Contrast : National Healthcare Properties ( NASDAQ : NHP ) and Healthcare Trust ( NASDAQ : HTIA )"
+    "야콥스 솔루션스와 부즈 앨런 해밀턴의 실적을 비교했어요.",
+    "햄버거 하펜 운트 로지스틱과 경쟁사들의 재무 상태를 비교했어요.",
+    "내셔널 헬스케어 프로퍼티스와 헬스케어 트러스트의 재무 상태를 비교했어요.",
+    "엑셀 브랜드와 스와치 그룹의 실적을 비교했어요.",
+    "체서피크 유틸리티스와 ENN 에너지의 실적을 비교했어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "기업들의 재무 상태를 파악하는 데 도움이 될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "31a95c45ba0cde8a6c2a8f5ac909eb7eadda00c1"
  },

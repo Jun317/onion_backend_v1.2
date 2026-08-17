@@ -119,8 +119,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-17T03:19:51.904619+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-17T07:30:29.734467+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -133,26 +133,29 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"기업 5곳, 증권사 추천 등급 공개\",\n\"one_liner\": \"증권사들이 5개 기업에 대해 매수 또는 보유 의견을 냈어요.\",\n\"why_now\": \"증권사들의 추천 등급은 투자자들이 해당 기업의 가치를 판단하는 데 참고 자료가 돼요.\",\n\"impact_line\": \"투자자들의 관심 기업에 대한 정보가 공개됐어요.\",\n\"details\": [\n\"노스웨스턴은 증권사들로부터 '적정 매수' 등급을 받았어요.\",\n\"브이넷 그룹은 '적정 매수' 등급을 받았어요.\",\n\"버 바이오테크놀로지는 '적정 매수' 등급을 받았어요.\",\n\"래더 캐피탈은 '보유' 등급을 받았어요.\",\n\"아웃셋 메디컬은 '보유' 등급으로 상향 조정됐어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"증권사들의 긍정적인 추천은 해당 기업들의 주가에 긍정적인 영향을 줄 수 있어요!\",\n\"투자자들의 관심이 높아지면서 거래량이 늘어날 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"적정 매수\",\n\"easy\": \"증권사들이 해당 기업의 주가가 현재보다 오를 가능성이 있다고 보며 매수를 추천하는 등급이에요.\",\n\"example\": \"증권사 리포트에서 '적정 매수' 의견을 보면 해당 주식을 사볼까 고민하게 돼요.\"\n},\n{\n\"term\": \"보유\",\n\"easy\": \"증권사들이 해당 기업의 주가가 현재 수준을 유지하거나 큰 변동이 없을 것으로 예상하며 매수나 매도를 추천하지 않는 등급이에요.\",\n\"example\": \"주가가 많이 올랐거나, 앞으로 크게 변동이 없을 것 같으면 증권사에서 '보유' 의견을 내기도 해요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "NorthWestern…",
-   "one_liner": "NorthWestern Corporation ( NASDAQ : NWE )…",
-   "why_now": null,
+   "title": "기업 5곳, 증권사 추천 등급 공개",
+   "one_liner": "증권사들이 5개 기업에 대해 매수 또는 보유 의견을 냈어요.",
+   "why_now": "증권사들의 추천 등급은 투자자들이 해당 기업의 가치를 판단하는 데 참고 자료가 돼요.",
    "details": [
-    "NorthWestern Corporation ( NASDAQ : NWE ) Receives Consensus Rating of  Moderate Buy  from Brokerages",
-    "VNET Group , Inc . – Unsponsored ADR ( NASDAQ : VNET ) Receives Average Recommendation of  Moderate Buy  from Brokerages",
-    "Vir Biotechnology , Inc . ( NASDAQ : VIR ) Receives Average Recommendation of  Moderate Buy  from Analysts"
+    "노스웨스턴은 증권사들로부터 '적정 매수' 등급을 받았어요.",
+    "브이넷 그룹은 '적정 매수' 등급을 받았어요.",
+    "버 바이오테크놀로지는 '적정 매수' 등급을 받았어요.",
+    "래더 캐피탈은 '보유' 등급을 받았어요.",
+    "아웃셋 메디컬은 '보유' 등급으로 상향 조정됐어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "증권사들의 긍정적인 추천은 해당 기업들의 주가에 긍정적인 영향을 줄 수 있어요!",
+    "투자자들의 관심이 높아지면서 거래량이 늘어날 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "37ce4039ee23e9130212dcab4cd0135942710e2c"
  },

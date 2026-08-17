@@ -71,7 +71,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-17T03:20:10.265492+00:00",
+  "created_at": "2026-08-17T07:30:42.596376+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -82,12 +82,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"Caterpillar 실적 발표\",\n    \"one_liner\": \"Caterpillar의 2분기 실적 발표가 있었어요.\",\n    \"why_now\": \"기업의 실적은 회사의 현재와 미래 가치를 보여주는 중요한 지표예요.\",\n    \"impact_line\": null,\n    \"details\": [\n        \"Caterpillar의 2분기 실적 발표가 있었습니다.\",\n        \"이 발표 이후 Caterpillar 주가가 1.7% 올랐어요.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"실적 발표 이후 주가에 긍정적인 영향을 줄 수 있어요!\",\n        \"향후 Caterpillar 주가 흐름에 대한 기대감을 높일 수 있어요!\"\n    ],\n    \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [1.7]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "입력에 없는 숫자: [1.7]"
     ]
    }
   ],
@@ -106,8 +113,8 @@
   "fact_hash": "6fb91e940433bbed58c74158b253721cd240447f"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-17T03:20:10.265397+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.7]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [1.7]\"]}]}",
+  "at": "2026-08-17T07:30:42.596278+00:00"
  },
  "glossary": [],
  "related": [

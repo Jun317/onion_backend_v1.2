@@ -45,7 +45,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-17T03:21:04.747657+00:00",
+  "created_at": "2026-08-17T07:31:09.915416+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -64,12 +64,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"파라택시스코리아 영업이익 적자\",\n  \"one_liner\": \"파라택시스코리아의 영업이익이 20.5억원 적자를 기록했어요.\",\n  \"why_now\": \"기업의 영업이익은 회사가 돈을 얼마나 잘 버는지 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"회사의 이익이 줄면 주가에도 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"파라택시스코리아의 2026년 1분기 영업이익은 20.5억원 적자예요.\",\n    \"이전 분기 영업이익 정보는 없어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"회사의 이익이 줄면 주가 하락으로 이어질 수 있어요!\",\n    \"투자자들은 회사의 실적을 보고 앞으로의 전망을 판단할 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"영업이익\",\n      \"easy\": \"회사가 물건을 팔거나 서비스를 제공해서 번 돈에서, 그 물건을 만들거나 서비스를 제공하는 데 든 돈을 뺀 금액이에요.\",\n      \"example\": \"영업이익이 늘면 회사가 돈을 잘 벌고 있다는 뜻이에요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "입력에 없는 숫자: [20.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -86,8 +93,8 @@
   "fact_hash": "d57ce6addb85411cfa7895732c818a48aebd0b97"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-17T03:21:04.747553+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [20.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-17T07:31:09.915321+00:00"
  },
  "glossary": [
   {
