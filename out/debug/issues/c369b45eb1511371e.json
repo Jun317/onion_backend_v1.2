@@ -2,18 +2,28 @@
  "id": "c369b45eb1511371e",
  "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
  "category": "MARKET",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "IRAN"
  ],
- "seen_sources": 1,
- "importance": 60,
+ "seen_sources": 2,
+ "importance": 65,
  "created_at": "2026-08-16T14:45:14.312042+00:00",
- "last_update": "2026-08-16T14:45:14.312042+00:00",
+ "last_update": "2026-08-17T04:08:54.568409+00:00",
  "members": [
+  {
+   "id": "f10bb0223f081bbbe360b0fb850999081e5cc783",
+   "source": "rttnews.com",
+   "tier": "wire",
+   "url": "https://www.rttnews.com/3680893/indian-shares-set-for-cautious-start-amid-renewed-us-iran-tensions.aspx",
+   "title": "Indian Shares Set For Cautious Start Amid Renewed US - Iran Tensions",
+   "published_at": "2026-08-17T03:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8591
+  },
   {
    "id": "7838325328c536d0ce1381e637e1b04883f554b6",
    "source": "beijingbulletin.com",
@@ -22,7 +32,7 @@
    "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
    "published_at": "2026-08-16T14:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9984
   },
   {
    "id": "a73c3bcdccf64d71edaaf3f8396bf9593c68aa14",
@@ -32,11 +42,18 @@
    "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
    "published_at": "2026-08-16T13:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9984
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Indian Shares Set For Cautious Start Amid Renewed US - Iran Tensions",
+   "source": "rttnews.com",
+   "url": "https://www.rttnews.com/3680893/indian-shares-set-for-cautious-start-amid-renewed-us-iran-tensions.aspx",
+   "at": "2026-08-17T03:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
@@ -52,8 +69,50 @@
    "at": "2026-08-16T13:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-17T04:08:57.835924+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Indian Shares Set For Cautious Start Amid Renewed US - Iran Tensions",
+    "Iran Demands Access To Qatar In Dispute Over Downed Pilots"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n\"title\": \"인도 주식 시장, 긴장 속 조심스러운 시작\",\n\"one_liner\": \"미국과 이란의 긴장이 고조되면서 인도 주식 시장이 조심스럽게 출발했어요.\",\n\"why_now\": \"국제적인 긴장 상황은 투자 심리를 위축시켜 주식 시장에 영향을 줄 수 있어요.\",\n\"impact_line\": \"국제 정세 불안으로 투자 심리가 위축될 수 있어요.\",\n\"details\": [\n\"미국과 이란 간의 긴장이 다시 높아지고 있어요.\",\n\"이란은 격추된 조종사 문제로 카타르에 대한 접근을 요구하고 있어요.\",\n\"이러한 국제적 긴장감이 인도 주식 시장의 출발에 영향을 주고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"국제적인 긴장 상황이 지속되면 투자자들이 안전 자산으로 이동하면서 주식 시장이 불안정해질 수 있어요!\",\n\"원자재 가격 변동성이 커지면서 관련 산업에 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"주식 시장\",\n\"easy\": \"기업의 소유권 일부를 사고팔 수 있는 곳이에요.\",\n\"example\": \"주식 시장이 오르면 내 투자 가치도 오를 수 있어요.\"\n}\n],\n\"impact_line\": \"국제 정세 불안으로 투자 심리가 위축될 수 있어요.\"\n}",
+  "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "one_liner 해요체 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "title 22자 초과(23)"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Indian Shares Set…",
+   "one_liner": "Indian Shares Set For Cautious Start Amid…",
+   "why_now": null,
+   "details": [
+    "Indian Shares Set For Cautious Start Amid Renewed US - Iran Tensions",
+    "Iran Demands Access To Qatar In Dispute Over Downed Pilots"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "1d6733052f19e40a71e04a9f5a37d9d040e5dd3c"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"one_liner 해요체 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(23)\"]}]}",
+  "at": "2026-08-17T04:08:57.835773+00:00"
+ },
  "glossary": [],
  "related": [
   {

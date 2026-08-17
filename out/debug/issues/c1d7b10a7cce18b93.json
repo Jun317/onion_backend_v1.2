@@ -155,48 +155,46 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-16T07:50:59.374076+00:00",
+  "model": "template",
+  "created_at": "2026-08-17T04:14:02.928428+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
-    "SpaceX vs . Micron : Which High - Growth Titan Is the Better Buy ?",
-    "Social Media Went Negative on Memory Stocks like SanDisk & Micron Last Weekend . Then They Rallied .",
-    "Micron Technology Stock Is Cheaper Than the S & P 500 and the Nasdaq - 100 . Here Why Im Still Not Buying It .",
+    "Dont Assume Micron Will Share SanDisk Fate . Here Why .",
     "Could $25 , 000 Invested in Micron Stock Make You a Millionaire ?",
-    "Dont Assume Micron Will Share SanDisk Fate . Here Why ."
+    "Micron Technology Stock Is Cheaper Than the S & P 500 and the Nasdaq - 100 . Here Why Im Still Not Buying It .",
+    "Social Media Went Negative on Memory Stocks like SanDisk & Micron Last Weekend . Then They Rallied .",
+    "SpaceX vs . Micron : Which High - Growth Titan Is the Better Buy ?"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"마이크론 주가 동향\",\n  \"one_liner\": \"마이크론 주가가 최근 변동성을 보이며 시장의 관심을 받고 있어요.\",\n  \"why_now\": \"마이크론 주가는 최근 큰 폭으로 올랐다 내리는 등 변동성이 커서 투자자들의 이목을 끌고 있어요.\",\n  \"impact_line\": \"마이크론 주가 변동은 관련 산업의 투자 심리에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"마이크론 주가는 최근 주말 동안 하락세를 보였어요.\",\n    \"하지만 이후 반등에 성공하며 다시 상승세를 보였어요.\",\n    \"일부에서는 마이크론 주가가 S&P 500 및 나스닥 100 지수보다 저렴하다는 분석도 나와요.\",\n    \"일부 투자자들은 마이크론 주가 상승 가능성에 주목하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"마이크론 주가가 계속 상승하면 관련 반도체 업종의 투자 심리가 개선될 수 있어요!\",\n    \"반대로 주가가 다시 하락하면 반도체 관련 기업들의 주가에도 부정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"S&P 500\",\n      \"easy\": \"미국 증시에 상장된 500개 주요 기업의 주가를 모아놓은 지수예요.\",\n      \"example\": \"S&P 500 지수가 오르면 미국 경제가 전반적으로 좋다고 볼 수 있어요.\"\n    },\n    {\n      \"term\": \"나스닥 100\",\n      \"easy\": \"미국 나스닥 시장에 상장된 기술주 중심의 100개 기업 주가를 모아놓은 지수예요.\",\n      \"example\": \"나스닥 100 지수는 기술주들의 성장성을 보여주는 지표로 활용돼요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "마이크론 주가 동향",
-   "one_liner": "마이크론 주가가 최근 변동성을 보이며 시장의 관심을 받고 있어요.",
-   "why_now": "마이크론 주가는 최근 큰 폭으로 올랐다 내리는 등 변동성이 커서 투자자들의 이목을 끌고 있어요.",
+   "title": "Dont Assume Micron…",
+   "one_liner": "Dont Assume Micron Will Share SanDisk Fate .…",
+   "why_now": null,
    "details": [
-    "마이크론 주가는 최근 주말 동안 하락세를 보였어요.",
-    "하지만 이후 반등에 성공하며 다시 상승세를 보였어요.",
-    "일부에서는 마이크론 주가가 S&P 500 및 나스닥 100 지수보다 저렴하다는 분석도 나와요.",
-    "일부 투자자들은 마이크론 주가 상승 가능성에 주목하고 있어요."
+    "Dont Assume Micron Will Share SanDisk Fate . Here Why .",
+    "Could $25 , 000 Invested in Micron Stock Make You a Millionaire ?",
+    "Micron Technology Stock Is Cheaper Than the S & P 500 and the Nasdaq - 100 . Here Why Im Still Not Buying It ."
    ],
-   "effects": [
-    "마이크론 주가가 계속 상승하면 관련 반도체 업종의 투자 심리가 개선될 수 있어요!",
-    "반대로 주가가 다시 하락하면 반도체 관련 기업들의 주가에도 부정적인 영향을 줄 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "2f1925ec81c04cdda9c270a9eddbdb04dc4f79df"
+  "fact_hash": "422dcca88d967f104ce55e0602833c33acabf620"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T04:07:36.629207+00:00"
+  "at": "2026-08-17T04:14:02.928361+00:00"
  },
  "glossary": [],
  "related": [

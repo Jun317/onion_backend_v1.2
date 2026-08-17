@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-16T07:18:30.855757+00:00",
+  "created_at": "2026-08-17T04:11:53.614028+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,8 +881,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"제약·의료 기업 실적 발표\",\n   \"one_liner\": \"여러 제약·의료 기업이 2분기 실적을 발표했어요\",\n   \"why_now\": \"기업 실적은 투자자에게 중요한 정보예요\",\n   \"impact_line\": \"의약품 가격이나 수급에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"여러 제약·의료 기업이 2분기 실적을 발표했어요\",\n       \"실적 발표에는 Global Indemnity Group, Thomson Reuters, IDEXX Laboratories, Medline, BeOne Medicines가 포함돼요\",\n       \"각 기업의 실적은 투자자와 시장에 중요한 정보예요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"의약품 개발이나 투자에 영향을 줄 수 있어요\",\n       \"의료 서비스나 제품의 수급에 변동이 생길 수 있어요\"\n   ],\n   \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "llama-3.3-70b-versatile",
+    "errors": [
+     "effects[0] 느낌표 종결 아님",
+     "effects[1] 느낌표 종결 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +912,8 @@
   "fact_hash": "b31f393f74258497a4ed12f8fbf3e812196486c8"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T07:18:30.855638+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"effects[0] 느낌표 종결 아님\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-17T04:11:53.613915+00:00"
  },
  "glossary": [],
  "related": [

@@ -650,47 +650,46 @@
   }
  ],
  "llm": {
-  "model": "llama-3.3-70b-versatile",
-  "created_at": "2026-08-16T11:41:12.711242+00:00",
+  "model": "template",
+  "created_at": "2026-08-17T04:13:44.514197+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
     "Wall Street week ahead : Home Depot and Walmart report earnings , minutes of Fed meeting are released",
-    "Bill Gate Portfolio Just Added Home Depot ( HD ) Despite Risks . Time to Buy ?",
-    "Home Depot , Baidu , and Klarna Lead a Busy 103 - Company Earnings Week",
+    "Wall Street Week Ahead : Fed minutes , retail earnings and key economic data to drive markets",
+    "West Asia developments , Fed minutes set to shape bullion next move : Analysts",
     "Oil prices rally , US data dents chances of Fed rate hike",
-    "Markets eye Fed hold after retail sales , consumer confidence fall"
+    "Bill Gate Portfolio Just Added Home Depot ( HD ) Despite Risks . Time to Buy ?"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"홈디포 실적 발표\",\n   \"one_liner\": \"홈디포와 월마트의 실적 발표가 예정돼요\",\n   \"why_now\": \"대형 기업의 실적은 전체 경제에 영향을 줄 수 있어요\",\n   \"impact_line\": \"소비자 물가에 영향을 줄 수 있어요\",\n   \"details\": [\n       \"홈디포와 월마트의 실적 발표가 예정돼요\",\n       \"미 연방준비제도(Fed)의 회의록이 공개될 예정이에요\",\n       \"제품 가격과 소비자 물가에 영향을 줄 수 있어요\"\n   ],\n   \"visual_type\": \"none\",\n   \"effects\": [\n       \"소비자 물가가 오를 수 있어요!\",\n       \"기업의 실적이 좋으면 주가가 오를 수 있어요!\"\n   ],\n   \"glossary\": []\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "llama-3.3-70b-versatile",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "홈디포 실적 발표",
-   "one_liner": "홈디포와 월마트의 실적 발표가 예정돼요",
-   "why_now": "대형 기업의 실적은 전체 경제에 영향을 줄 수 있어요",
+   "title": "Wall Street week…",
+   "one_liner": "Wall Street week ahead : Home Depot and Walmart…",
+   "why_now": null,
    "details": [
-    "홈디포와 월마트의 실적 발표가 예정돼요",
-    "미 연방준비제도(Fed)의 회의록이 공개될 예정이에요",
-    "제품 가격과 소비자 물가에 영향을 줄 수 있어요"
+    "Wall Street week ahead : Home Depot and Walmart report earnings , minutes of Fed meeting are released",
+    "Wall Street Week Ahead : Fed minutes , retail earnings and key economic data to drive markets",
+    "West Asia developments , Fed minutes set to shape bullion next move : Analysts"
    ],
-   "effects": [
-    "소비자 물가가 오를 수 있어요!",
-    "기업의 실적이 좋으면 주가가 오를 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "f415826eca6e241de0e1115377c68178c97bef01"
+  "fact_hash": "388d2b8a4182c2427ec8f4e94952449fbea12dbf"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-16T07:53:08.478897+00:00"
+  "at": "2026-08-17T04:13:44.514094+00:00"
  },
  "glossary": [],
  "related": [
