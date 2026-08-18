@@ -871,8 +871,8 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-17T11:46:40.358462+00:00",
+  "model": "template",
+  "created_at": "2026-08-18T04:05:56.305778+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -880,47 +880,39 @@
     "Wall Street week ahead : Home Depot and Walmart report earnings , minutes of Fed meeting are released",
     "Wall Street Week Ahead : Fed minutes , retail earnings and key economic data to drive markets",
     "West Asia developments , Fed minutes set to shape bullion next move : Analysts",
-    "US Stock Futures Mixed as Fed Rate Hike Bets Fade , AI Deals in Focus",
-    "US Stock Market : Fed uncertainty , oil prices in focus as earnings sustain market optimism"
+    "Nasdaq Ticks Higher as Wall Street Awaits Retail Earnings and Weighs Fed Next Move at Jackson Hole Meeting",
+    "US Stock Futures Mixed as Fed Rate Hike Bets Fade , AI Deals in Focus"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"미국 증시, 기업 실적 발표 주목\",\n\"one_liner\": \"미국 증시가 기업들의 실적 발표와 연준 회의록 공개를 앞두고 주목하고 있어요.\",\n\"why_now\": \"기업들의 실적은 앞으로 경기가 좋을지 나쁠지를 보여주는 중요한 지표가 돼요.\",\n\"impact_line\": \"주요 기업들의 실적 발표에 따라 주가 변동성이 커질 수 있어요.\",\n\"details\": [\n\"홈디포와 월마트 등 주요 기업들의 실적 발표가 예정되어 있어요.\",\n\"미국 연방준비제도(Fed)의 회의록도 공개될 예정이에요.\",\n\"이러한 소식들이 시장의 방향을 결정할 것으로 보여요.\",\n\"인공지능 관련 소식도 시장의 관심을 받고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"기업들의 실적이 좋으면 주가가 오르고, 나쁘면 내릴 수 있어요!\",\n\"연준 회의록 내용에 따라 금리 인상 가능성에 대한 전망이 달라질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"연준\",\n\"easy\": \"미국의 중앙은행으로, 나라 경제를 관리하고 금리를 결정해요.\",\n\"example\": \"연준이 금리를 올리면 대출 이자가 비싸질 수 있어요.\"\n},\n{\n\"term\": \"실적\",\n\"easy\": \"기업이 일정 기간 동안 얼마나 돈을 벌고 썼는지 보여주는 성적표예요.\",\n\"example\": \"실적이 좋은 기업은 주가가 오르는 경우가 많아요.\"\n}\n]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국 증시, 기업 실적 발표 주목",
-   "one_liner": "미국 증시가 기업들의 실적 발표와 연준 회의록 공개를 앞두고 주목하고 있어요.",
-   "why_now": "기업들의 실적은 앞으로 경기가 좋을지 나쁠지를 보여주는 중요한 지표가 돼요.",
+   "title": "Wall Street week…",
+   "one_liner": "Wall Street week ahead : Home Depot and Walmart…",
+   "why_now": null,
    "details": [
-    "홈디포와 월마트 등 주요 기업들의 실적 발표가 예정되어 있어요.",
-    "미국 연방준비제도(Fed)의 회의록도 공개될 예정이에요.",
-    "이러한 소식들이 시장의 방향을 결정할 것으로 보여요.",
-    "인공지능 관련 소식도 시장의 관심을 받고 있어요."
+    "Wall Street week ahead : Home Depot and Walmart report earnings , minutes of Fed meeting are released",
+    "Wall Street Week Ahead : Fed minutes , retail earnings and key economic data to drive markets",
+    "West Asia developments , Fed minutes set to shape bullion next move : Analysts"
    ],
-   "effects": [
-    "기업들의 실적이 좋으면 주가가 오르고, 나쁘면 내릴 수 있어요!",
-    "연준 회의록 내용에 따라 금리 인상 가능성에 대한 전망이 달라질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "566cc5e1428d9fd1d25637afda4a93d340322464"
+  "fact_hash": "60851ea8328fa11c5a3c179e081db5fe0418efec"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-17T04:13:44.514094+00:00"
+  "at": "2026-08-18T04:05:56.305657+00:00"
  },
- "glossary": [
-  {
-   "term": "연준",
-   "easy": "미국의 돈을 관리하는 중앙은행(Fed)이에요.",
-   "example": "미국의 이자를 여기서 정해요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "cea83213c8906724e",

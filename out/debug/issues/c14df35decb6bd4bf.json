@@ -87,45 +87,45 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-17T10:54:19.745769+00:00",
+  "model": "template",
+  "created_at": "2026-08-18T04:06:17.144655+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Eli Lilly ( NYSE : LLY ) Builds Multi - Product GLP - 1 Platform As Revenue Surges 48 % And Global Approvals Mount",
     "Eli Lilly and Company ( NYSE : LLY ) Stock Rating Upgraded by Wall Street Zen",
     "Eli Lilly Stock Nears Buy Point After Earnings - Fueled Gains",
     "Eli Lilly ( LLY ) Q2 2026 Earnings Call Transcript"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"릴리 실적 발표\",\n  \"one_liner\": \"릴리가 2026년 2분기 실적 발표에서 좋은 성과를 냈어요.\",\n  \"why_now\": \"기업의 실적은 주가에 직접적인 영향을 주기 때문에 투자자들이 주목하는 중요한 정보예요.\",\n  \"impact_line\": \"릴리 주가에 긍정적인 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"릴리의 2026년 2분기 실적이 발표되었어요.\",\n    \"이번 실적 발표 이후 릴리의 주가가 상승했어요.\",\n    \"월스트리트젠에서 릴리의 주식 등급을 상향 조정했어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"실적이 좋으면 주가가 더 오를 수 있어요!\",\n    \"투자자들의 관심이 높아져 거래량이 늘어날 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"실적 발표\",\n      \"easy\": \"기업이 일정 기간 동안 벌어들인 돈과 쓴 돈을 공개하는 것을 말해요.\",\n      \"example\": \"실적 발표 후 주가가 오르거나 내리는 경우가 많아요.\"\n    },\n    {\n      \"term\": \"주식 등급\",\n      \"easy\": \"증권사나 전문가들이 특정 주식에 대해 '사세요', '파세요', '보유하세요' 등으로 평가한 것을 말해요.\",\n      \"example\": \"주식 등급이 올라가면 해당 주식의 가격이 오르기도 해요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "릴리 실적 발표",
-   "one_liner": "릴리가 2026년 2분기 실적 발표에서 좋은 성과를 냈어요.",
-   "why_now": "기업의 실적은 주가에 직접적인 영향을 주기 때문에 투자자들이 주목하는 중요한 정보예요.",
+   "title": "Eli Lilly ( NYSE :…",
+   "one_liner": "Eli Lilly ( NYSE : LLY ) Builds Multi - Product…",
+   "why_now": null,
    "details": [
-    "릴리의 2026년 2분기 실적이 발표되었어요.",
-    "이번 실적 발표 이후 릴리의 주가가 상승했어요.",
-    "월스트리트젠에서 릴리의 주식 등급을 상향 조정했어요."
+    "Eli Lilly ( NYSE : LLY ) Builds Multi - Product GLP - 1 Platform As Revenue Surges 48 % And Global Approvals Mount",
+    "Eli Lilly and Company ( NYSE : LLY ) Stock Rating Upgraded by Wall Street Zen",
+    "Eli Lilly Stock Nears Buy Point After Earnings - Fueled Gains"
    ],
-   "effects": [
-    "실적이 좋으면 주가가 더 오를 수 있어요!",
-    "투자자들의 관심이 높아져 거래량이 늘어날 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "40b55fa32ccd8485d8c97aba22fa875adb37860f"
+  "fact_hash": "6b66a848e41f6fa812062c101eb90beb83190c41"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}]}",
-  "at": "2026-08-17T07:30:56.062191+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-18T04:06:17.144573+00:00"
  },
  "glossary": [],
  "related": [
@@ -154,8 +154,8 @@
    "shared": []
   },
   {
-   "id": "c02f2d27bf5ad855f",
-   "title": "LTC Properties ( NYSE : LTC ) Director David Gruber Acquires 500 Shares",
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "category": "EARNINGS",
    "shared": []
   }
