@@ -71,28 +71,23 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-18T07:11:48.323461+00:00",
+  "created_at": "2026-08-18T10:52:29.253509+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
     "Britain Can No Longer Afford The Welfare State It Created",
+    "Make AI adoption Britain national economic priority , says CBI | Bradford Telegraph and Argus",
     "Affordability Pressures Keep Builder Confidence Low"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"영국 복지국가 유지 어려움\",\n  \"one_liner\": \"영국이 만든 복지 시스템을 유지하기 어려워지고 있어요.\",\n  \"why_now\": \"복지 시스템은 많은 사람에게 혜택을 주지만, 유지하는 데 많은 돈이 필요하기 때문이에요.\",\n  \"impact_line\": \"영국 국민들의 복지 혜택이 줄어들 수 있어요.\",\n  \"details\": [\n    \"영국이 만든 복지 시스템을 더 이상 감당하기 어렵다는 분석이 나왔어요.\",\n    \"집을 짓는 사람들의 자신감도 낮은 상태를 유지하고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"영국 정부가 복지 지출을 줄이거나 세금을 올릴 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"복지국가\",\n      \"easy\": \"국가가 국민들의 삶을 책임지고 지원하는 나라를 말해요.\",\n      \"example\": \"아프거나 늙었을 때 나라에서 치료비나 연금을 지원해 주는 것이 복지국가의 한 모습이에요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -102,16 +97,17 @@
    "why_now": null,
    "details": [
     "Britain Can No Longer Afford The Welfare State It Created",
+    "Make AI adoption Britain national economic priority , says CBI | Bradford Telegraph and Argus",
     "Affordability Pressures Keep Builder Confidence Low"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "c09f1533461edd6e36a6f02aa2830685a33e2276"
+  "fact_hash": "32424bd7eb1eea11666d8fd97b06591409c405e9"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-08-18T07:11:48.323338+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-18T10:52:29.253157+00:00"
  },
  "glossary": [],
  "related": [
