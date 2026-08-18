@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-18T02:02:48.389219+00:00",
+  "created_at": "2026-08-18T05:04:16.378493+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,15 +64,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"GM 주식 관련 소식\",\n    \"one_liner\": \"GM 주식에 대한 새로운 소식들이 나오고 있어요.\",\n    \"why_now\": \"주식 시장에서는 기업의 인수합병이나 전문가의 추천이 주가에 영향을 줄 수 있어요.\",\n    \"impact_line\": null,\n    \"details\": [\n        \"한 투자 회사가 제너럴 모터스(GM)의 주식을 추가로 매수했어요.\",\n        \"한 경제 전문가는 스텔란티스 주식을 팔고 GM 주식을 사라고 조언했어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"GM 주식에 대한 관심이 높아질 수 있어요!\",\n        \"이러한 소식들이 GM 주가에 영향을 줄 수 있어요.\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"주식\",\n            \"easy\": \"회사의 소유권 일부를 나타내는 증서예요.\",\n            \"example\": \"주식을 사면 그 회사의 주인이 되는 거예요.\"\n        },\n        {\n            \"term\": \"인수합병\",\n            \"easy\": \"회사가 다른 회사를 사들이거나 합치는 것을 말해요.\",\n            \"example\": \"큰 회사가 작은 회사를 사들이는 것이 인수합병이에요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -94,8 +87,8 @@
   "fact_hash": "9f12750afc780382f00ba396d16d61a5b9fed96e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-18T02:02:48.389168+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-18T05:04:16.378427+00:00"
  },
  "glossary": [],
  "related": [
