@@ -9,11 +9,21 @@
  "entity_keys": [
   "JPM"
  ],
- "seen_sources": 2,
- "importance": 85,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-08-16T09:48:08.959655+00:00",
- "last_update": "2026-08-16T09:48:08.960441+00:00",
+ "last_update": "2026-08-18T01:56:05.589273+00:00",
  "members": [
+  {
+   "id": "7c19ea27ffa85d55ab9281cdfb9ba73670d8e1c4",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-raises-p-500-target-134100944.html",
+   "title": "JPMorgan Raises S & P 500 Target to 8 , 000 as Earnings and AI Growth Strengthen Outlook",
+   "published_at": "2026-08-18T01:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9129
+  },
   {
    "id": "8fb400b66c326048c574b70211bb660f31a4fe15",
    "source": "moneyweek.com",
@@ -22,7 +32,7 @@
    "title": "Buy united kingdom small caps with JPMorgan united kingdom Small Cap Growth & Income",
    "published_at": "2026-08-16T09:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9607
+   "sim_to_centroid": 0.961
   },
   {
    "id": "2f398b8da115e990befaab06db617d1727917abf",
@@ -32,11 +42,18 @@
    "title": "IFP Advisors Inc Acquires 2 , 652 Shares of JPMorgan Chase & Co . $JPM",
    "published_at": "2026-08-15T11:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9607
+   "sim_to_centroid": 0.9584
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "JPMorgan Raises S & P 500 Target to 8 , 000 as Earnings and AI Growth Strengthen Outlook",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-raises-p-500-target-134100944.html",
+   "at": "2026-08-18T01:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Buy united kingdom small caps with JPMorgan united kingdom Small Cap Growth & Income",
@@ -54,11 +71,12 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-17T13:14:26.632524+00:00",
+  "created_at": "2026-08-18T01:57:35.072000+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "JPMorgan Raises S & P 500 Target to 8 , 000 as Earnings and AI Growth Strengthen Outlook",
     "Buy united kingdom small caps with JPMorgan united kingdom Small Cap Growth & Income",
     "IFP Advisors Inc Acquires 2 , 652 Shares of JPMorgan Chase & Co . $JPM"
    ],
@@ -74,21 +92,22 @@
    }
   ],
   "output": {
-   "title": "Buy united kingdom…",
-   "one_liner": "Buy united kingdom small caps with JPMorgan…",
+   "title": "JPMorgan Raises S &…",
+   "one_liner": "JPMorgan Raises S & P 500 Target to 8 , 000 as…",
    "why_now": null,
    "details": [
+    "JPMorgan Raises S & P 500 Target to 8 , 000 as Earnings and AI Growth Strengthen Outlook",
     "Buy united kingdom small caps with JPMorgan united kingdom Small Cap Growth & Income",
     "IFP Advisors Inc Acquires 2 , 652 Shares of JPMorgan Chase & Co . $JPM"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "cd6b7f3b0d1f139987fc5ff87d1b32d66e67a17e"
+  "fact_hash": "ef21a211c4480e502a328cb67c9ee392fff3687a"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-17T13:14:26.632471+00:00"
+  "at": "2026-08-18T01:57:35.071895+00:00"
  },
  "glossary": [],
  "related": [

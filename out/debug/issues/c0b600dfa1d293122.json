@@ -104,8 +104,48 @@
    "at": "2026-08-17T19:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-18T01:57:14.278576+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "BlackRock ( BLK ) & NVIDIA Corporation ( NVDA ): BlackRock Larry Fink Says the US Alone Needs 70 Gigawatts of Power for AI",
+    "Microsoft Maia 300 Chip Targets NVIDIA AI Dominance",
+    "Nvidia stock has started to come alive . Here 3 reasons why it can continue",
+    "Nvidia : One Number In Q2 Decides Where This Stock Goes ( NASDAQ : NVDA )",
+    "SpaceX Is Spending Big on AI . The Biggest Winner From That Could Be Nvidia"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "BlackRock ( BLK ) &…",
+   "one_liner": "BlackRock ( BLK ) & NVIDIA Corporation ( NVDA ):…",
+   "why_now": null,
+   "details": [
+    "BlackRock ( BLK ) & NVIDIA Corporation ( NVDA ): BlackRock Larry Fink Says the US Alone Needs 70 Gigawatts of Power for AI",
+    "Microsoft Maia 300 Chip Targets NVIDIA AI Dominance",
+    "Nvidia stock has started to come alive . Here 3 reasons why it can continue"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "65b1844029b006dfa90c9ef124d08ae465b5f59d"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-18T01:57:14.278286+00:00"
+ },
  "glossary": [],
  "related": [
   {

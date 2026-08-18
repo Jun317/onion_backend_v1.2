@@ -52,8 +52,44 @@
    "at": "2026-08-17T20:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-18T01:57:45.466734+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Disney Has Restored My Hope For Star Wars : The Hunt For Ben Solo Actually Happening",
+    "Disney Legends 2026 Airs on Disney Plus : Goldberg Induction Marks Return to Hand - Drawn Animation"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Disney Has Restored…",
+   "one_liner": "Disney Has Restored My Hope For Star Wars : The…",
+   "why_now": null,
+   "details": [
+    "Disney Has Restored My Hope For Star Wars : The Hunt For Ben Solo Actually Happening",
+    "Disney Legends 2026 Airs on Disney Plus : Goldberg Induction Marks Return to Hand - Drawn Animation"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "c4124693a007e426998737cadaf10419b91de10e"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-18T01:57:45.466681+00:00"
+ },
  "glossary": [],
  "related": [
   {
