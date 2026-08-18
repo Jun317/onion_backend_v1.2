@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-18T03:20:15.708983+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-18T07:17:51.868595+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,25 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"기업 실적 발표\",\n\"one_liner\": \"여러 기업들이 2분기 실적을 발표했어요.\",\n\"why_now\": \"기업의 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\",\n\"impact_line\": null,\n\"details\": [\n\"GSK는 2분기 실적과 함께 연구개발 투자를 발표했어요.\",\n\"NexPoint Residential Trust는 2분기 실적 발표를 진행했어요.\",\n\"Murphy United States는 2분기 실적 발표 내용을 공유했어요.\",\n\"Northwest Natural Gas도 2분기 실적 발표를 했어요.\",\n\"Wix는 2분기 실적 발표를 진행했어요.\"\n],\n\"visual_type\": \"earnings_quarterly\",\n\"effects\": [\n\"기업들의 실적 발표는 해당 기업의 주가에 영향을 줄 수 있어요!\",\n\"투자자들은 실적을 바탕으로 향후 기업의 성장 가능성을 판단할 수 있어요!\"\n],\n\"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "GSK Share Price : Q2…",
-   "one_liner": "GSK Share Price : Q2 Results , Cambridge R & D…",
-   "why_now": null,
+   "title": "기업 실적 발표",
+   "one_liner": "여러 기업들이 2분기 실적을 발표했어요.",
+   "why_now": "기업의 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.",
    "details": [
-    "GSK Share Price : Q2 Results , Cambridge R & D Investment",
-    "NexPoint Residential Trust ( NXRT ) Q2 2026 Earnings Call Transcript",
-    "Murphy united states Q2 Earnings Call Highlights"
+    "GSK는 2분기 실적과 함께 연구개발 투자를 발표했어요.",
+    "NexPoint Residential Trust는 2분기 실적 발표를 진행했어요.",
+    "Murphy United States는 2분기 실적 발표 내용을 공유했어요.",
+    "Northwest Natural Gas도 2분기 실적 발표를 했어요.",
+    "Wix는 2분기 실적 발표를 진행했어요."
    ],
-   "effects": [],
+   "effects": [
+    "기업들의 실적 발표는 해당 기업의 주가에 영향을 줄 수 있어요!",
+    "투자자들은 실적을 바탕으로 향후 기업의 성장 가능성을 판단할 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "41472022ce86eb14b6edadfaf2f701e6a0ecf18b"
@@ -935,8 +938,8 @@
    "shared": []
   },
   {
-   "id": "cd71d798bc262d461",
-   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "category": "EARNINGS",
    "shared": []
   }

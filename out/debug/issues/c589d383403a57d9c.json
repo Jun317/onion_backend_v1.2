@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-18T03:14:45.317640+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-18T07:12:38.325291+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -881,26 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"물가 상승률과 암호화폐 가격\", \"one_liner\": \"미국의 물가 상승률이 예상대로 나와 암호화폐 가격이 하락했어요.\", \"why_now\": \"물가 상승률은 중앙은행의 금리 결정에 영향을 주기 때문에 시장의 큰 관심사예요.\", \"impact_line\": \"암호화폐 투자에 신중할 필요가 있어요.\", \"details\": [\"미국의 소비자물가지수가 예상치와 비슷하게 나왔어요.\", \"이로 인해 암호화폐 가격이 하락세를 보이고 있어요.\", \"다른 나라들도 비슷한 물가 상승 압력을 겪고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"물가 상승률이 높게 유지되면 중앙은행이 금리를 올릴 수 있어, 암호화폐 같은 위험 자산의 가격이 더 하락할 수 있어요!\"], \"glossary\": [{\"term\": \"암호화폐\", \"easy\": \"인터넷에서 거래되는 가상 화폐를 말해요.\", \"example\": \"비트코인, 이더리움 등이 대표적인 암호화폐예요.\"}, {\"term\": \"소비자물가지수\", \"easy\": \"소비자들이 자주 사는 상품과 서비스의 가격 변화를 나타내는 지표예요.\", \"example\": \"소비자물가지수가 오르면 장바구니 물가가 오른다고 볼 수 있어요.\"}], \"impact_line\": \"암호화폐 투자에 신중할 필요가 있어요.\"}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "While Rivals Cut…",
-   "one_liner": "While Rivals Cut Fees , IHG Takes a Different…",
-   "why_now": null,
+   "title": "물가 상승률과 암호화폐 가격",
+   "one_liner": "미국의 물가 상승률이 예상대로 나와 암호화폐 가격이 하락했어요.",
+   "why_now": "물가 상승률은 중앙은행의 금리 결정에 영향을 주기 때문에 시장의 큰 관심사예요.",
    "details": [
-    "While Rivals Cut Fees , IHG Takes a Different Route on Owner Economics",
-    "ACN : Priced Like A Decline , Paying Like A Machine",
-    "AICC Opposes Latest Containerboard Price Increase"
+    "미국의 소비자물가지수가 예상치와 비슷하게 나왔어요.",
+    "이로 인해 암호화폐 가격이 하락세를 보이고 있어요.",
+    "다른 나라들도 비슷한 물가 상승 압력을 겪고 있어요."
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "물가 상승률이 높게 유지되면 중앙은행이 금리를 올릴 수 있어, 암호화폐 같은 위험 자산의 가격이 더 하락할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "1be0b7c4f92e13f10208ddb192926430465da3da"
  },
@@ -908,7 +908,23 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-18T03:14:45.317528+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "소비자물가",
+   "easy": "우리가 사는 물건·서비스 값이 오른 정도예요.",
+   "example": "오르면 같은 돈으로 살 수 있는 게 줄어요."
+  }
+ ],
  "related": [
   {
    "id": "c4290744458a41e2b",

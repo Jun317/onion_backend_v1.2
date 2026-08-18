@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-18T03:14:55.929861+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-18T07:12:42.062102+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,25 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"인플레이션, 원인 두고 논쟁\",\n\"one_liner\": \"미국 민주당이 인플레이션 상승의 원인으로 지목되고 있어요.\",\n\"why_now\": \"물가 상승은 장바구니 물가에 직접적인 영향을 주기 때문에 중요해요.\",\n\"impact_line\": \"물가가 계속 오르면 생활비 부담이 커질 수 있어요.\",\n\"details\": [\n\"미국 민주당이 인플레이션 상승의 원인으로 지목되고 있어요.\",\n\"인플레이션은 경제 전반에 걸쳐 나타나는 물가 상승 현상이에요.\",\n\"일부에서는 노동부의 음모가 인플레이션의 원인이라고 주장하기도 해요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"물가가 계속 오르면 소비 심리가 위축될 수 있어요!\",\n\"정부의 물가 안정 정책이 중요해질 것으로 예상돼요!\"\n],\n\"glossary\": [\n{\n\"term\": \"인플레이션\",\n\"easy\": \"물가가 전반적으로 계속 오르는 현상이에요.\",\n\"example\": \"인플레이션 때문에 과자값이 많이 올랐어요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "AI boom , productivit…",
-   "one_liner": "AI boom , productivity malaise making RBA job…",
-   "why_now": null,
+   "title": "인플레이션, 원인 두고 논쟁",
+   "one_liner": "미국 민주당이 인플레이션 상승의 원인으로 지목되고 있어요.",
+   "why_now": "물가 상승은 장바구니 물가에 직접적인 영향을 주기 때문에 중요해요.",
    "details": [
-    "AI boom , productivity malaise making RBA job harder",
-    "Rupee falls 12 paise to close at 95 . 45 against US dollar",
-    "Democrats Cast Blame While Being The Cause Of Inflation Rise"
+    "미국 민주당이 인플레이션 상승의 원인으로 지목되고 있어요.",
+    "인플레이션은 경제 전반에 걸쳐 나타나는 물가 상승 현상이에요.",
+    "일부에서는 노동부의 음모가 인플레이션의 원인이라고 주장하기도 해요."
    ],
-   "effects": [],
+   "effects": [
+    "물가가 계속 오르면 소비 심리가 위축될 수 있어요!",
+    "정부의 물가 안정 정책이 중요해질 것으로 예상돼요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "cd695f19d9e6d0694191e5df8574be1008f7be34"
@@ -908,7 +909,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-18T03:14:55.929744+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "인플레이션",
+   "easy": "물가가 전반적으로 계속 오르는 현상이에요.",
+   "example": "돈의 힘이 조금씩 약해지는 셈이에요."
+  }
+ ],
  "related": [
   {
    "id": "c92542f0fffea30a9",

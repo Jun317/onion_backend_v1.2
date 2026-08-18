@@ -49,7 +49,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-18T03:16:10.848408+00:00",
+  "created_at": "2026-08-18T07:13:47.106737+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -77,8 +77,16 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"삼성바이오로직스 실적 발표\",\n  \"one_liner\": \"삼성바이오로직스의 2026년 1분기 매출액은 12,571억원, 영업이익은 5,807억원이었어요.\",\n  \"why_now\": \"기업의 실적은 앞으로의 성장 가능성을 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"삼성바이오로직스 주가에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"삼성바이오로직스의 2026년 1분기 매출액은 12,571.2억원이에요.\",\n    \"같은 기간 영업이익은 5,807.5억원을 기록했어요.\",\n    \"이 정보는 금융감독원 전자공시시스템(DART)을 통해 공개됐어요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"실적이 좋으면 주가가 오를 수 있어요!\",\n    \"반대로 실적이 기대에 미치지 못하면 주가가 하락할 수 있어요.\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"매출액\",\n      \"easy\": \"기업이 물건을 팔거나 서비스를 제공해서 벌어들인 돈이에요.\",\n      \"example\": \"이번 달 가게 매출액이 지난달보다 늘었어요.\"\n    },\n    {\n      \"term\": \"영업이익\",\n      \"easy\": \"기업이 물건을 만들거나 서비스를 제공하는 본업으로 벌어들인 돈이에요.\",\n      \"example\": \"영업이익이 늘면 회사가 그만큼 잘 운영되고 있다는 뜻이에요.\"\n    }\n  ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 50자 초과(53)",
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [5807.0]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -100,8 +108,8 @@
   "fact_hash": "0151654e9f40e2ab92c341ddab7f07ef0443e73a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-18T03:16:10.848348+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(53)\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [5807.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-18T07:13:47.106667+00:00"
  },
  "glossary": [
   {
@@ -136,8 +144,8 @@
    "shared": []
   },
   {
-   "id": "cd71d798bc262d461",
-   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "category": "EARNINGS",
    "shared": []
   }

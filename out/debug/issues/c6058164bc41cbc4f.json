@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-18T03:17:25.089421+00:00",
+  "created_at": "2026-08-18T07:14:39.514045+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,8 +881,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"기업 실적 비교 분석\", \"one_liner\": \"여러 기업들의 실적과 경쟁사들을 비교 분석하는 기사가 나왔어요.\", \"why_now\": \"기업 실적은 회사의 현재 상태와 미래 전망을 보여주는 중요한 지표예요.\", \"impact_line\": null, \"details\": [\"북쪽 발전(Northland Power)의 경쟁사 분석 기사가 나왔어요.\", \"오리존(Aurizon)과 경쟁사들의 비교 분석 기사가 나왔어요.\", \"뉴에라 에너지 앤 디지털(New Era Energy & Digital)과 경쟁사 분석 기사가 나왔어요.\", \"PHX 에너지 서비스(PHX Energy Services)와 경쟁사들의 재무 상태를 비교했어요.\", \"북쪽 발전(Northland Power)의 목표 주가가 24.70 캐나다 달러로 제시됐어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"북쪽 발전\", \"easy\": \"북쪽 지역의 에너지를 생산하는 회사를 말해요.\", \"example\": \"북쪽 발전 회사는 친환경 에너지 생산에 힘쓰고 있어요.\"}, {\"term\": \"오리존\", \"easy\": \"호주의 철도 및 운송 회사예요.\", \"example\": \"오리존은 호주 전역의 물류 운송을 담당하고 있어요.\"}, {\"term\": \"뉴에라 에너지 앤 디지털\", \"easy\": \"새로운 시대의 에너지와 디지털 기술을 다루는 회사예요.\", \"example\": \"뉴에라 에너지 앤 디지털은 스마트 그리드 기술 개발에 집중하고 있어요.\"}, {\"term\": \"PHX 에너지 서비스\", \"easy\": \"에너지 산업에 서비스를 제공하는 회사예요.\", \"example\": \"PHX 에너지 서비스는 석유 및 가스 시추 장비 임대에 주력하고 있어요.\"}]}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects 1~2문장 아님",
+     "입력에 없는 숫자: [24.7]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +912,8 @@
   "fact_hash": "bb7a67520c3b20abc13c267255c571b982ea69f9"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-18T03:17:25.089332+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\", \"입력에 없는 숫자: [24.7]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-18T07:14:39.513937+00:00"
  },
  "glossary": [],
  "related": [
@@ -935,8 +942,8 @@
    "shared": []
   },
   {
-   "id": "cd71d798bc262d461",
-   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "category": "EARNINGS",
    "shared": []
   }

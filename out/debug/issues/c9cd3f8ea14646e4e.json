@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-18T03:15:16.964405+00:00",
+  "created_at": "2026-08-18T07:12:51.539415+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,12 +881,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"화장품 사업 성장 동력 전망\",\n    \"one_liner\": \"화장품 사업이 회사의 주요 성장 동력이 될 것으로 보여요.\",\n    \"why_now\": \"새로운 사업 분야가 회사의 미래 수익을 크게 늘릴 수 있다는 기대감이 커지고 있어요.\",\n    \"impact_line\": null,\n    \"details\": [\n        \"회사의 화장품 사업 부문이 성장을 이끌 것으로 예상돼요.\",\n        \"회사는 가까운 미래의 예상 매출을 상향 조정했어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"회사의 전체 매출이 늘어날 것으로 예상돼요!\",\n        \"새로운 사업 분야에 대한 투자가 늘어날 수 있어요!\"\n    ],\n    \"glossary\": []\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -905,8 +911,8 @@
   "fact_hash": "9c694f40299b0101a039c17319a898e877fa21e9"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-18T03:15:16.964290+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-18T07:12:51.539340+00:00"
  },
  "glossary": [],
  "related": [
@@ -935,8 +941,8 @@
    "shared": []
   },
   {
-   "id": "cd71d798bc262d461",
-   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "category": "EARNINGS",
    "shared": []
   }

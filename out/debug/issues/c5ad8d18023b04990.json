@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-18T03:14:14.170461+00:00",
+  "created_at": "2026-08-18T07:12:20.389637+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,12 +881,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기업들 실적 발표\",\n  \"one_liner\": \"여러 기업들이 예상보다 좋거나 나쁜 실적을 발표했어요.\",\n  \"why_now\": \"기업들의 실적은 회사의 현재와 미래를 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"주식 시장의 변동성이 커질 수 있어요.\",\n  \"details\": [\n    \"브라이트 마인즈 바이오사이언스는 예상보다 주당 1.11달러 더 많은 이익을 냈어요.\",\n    \"GRI 바이오도 예상보다 주당 0.29달러 더 많은 이익을 기록했어요.\",\n    \"투후라 바이오사이언스는 예상보다 주당 0.01달러 더 많은 이익을 발표했어요.\",\n    \"갤럭틴 테라퓨틱스는 예상보다 주당 0.05달러 적은 이익을 냈어요.\",\n    \"센티 바이오사이언스는 예상보다 주당 0.08달러 적은 이익을 기록했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"실적이 좋은 기업들의 주가는 오를 수 있어요!\",\n    \"실적이 나쁜 기업들의 주가는 내릴 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"EPS\",\n      \"easy\": \"회사가 벌어들인 돈에서 모든 비용을 빼고 남은 이익을 발행한 주식 수로 나눈 값이에요.\",\n      \"example\": \"주당순이익이 높으면 회사가 그만큼 돈을 잘 벌었다는 뜻이에요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [0.01, 0.05, 0.08, 0.29, 1.11]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [0.01, 0.05, 0.08, 0.29, 1.11]"
     ]
    }
   ],
@@ -905,8 +911,8 @@
   "fact_hash": "c001cbd46cbc83b42e701efb27f4fbed5fdfc672"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-18T03:14:14.170385+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [0.01, 0.05, 0.08, 0.29, 1.11]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [0.01, 0.05, 0.08, 0.29, 1.11]\"]}]}",
+  "at": "2026-08-18T07:12:20.389555+00:00"
  },
  "glossary": [],
  "related": [
@@ -929,14 +935,14 @@
    "shared": []
   },
   {
-   "id": "cad425da121baed31",
-   "title": "Nvidia $70 billion bet on OpenAI , Anthropic , and others could pay off big for shareholders",
+   "id": "c473082d7f30acb2b",
+   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c473082d7f30acb2b",
-   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
+   "id": "cd6e96f9df3790928",
+   "title": "US economy cools in second quarter despite solid spending",
    "category": "MARKET",
    "shared": []
   }
