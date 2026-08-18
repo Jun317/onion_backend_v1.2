@@ -9,11 +9,21 @@
  "entity_keys": [
   "BOJ"
  ],
- "seen_sources": 2,
- "importance": 100,
+ "seen_sources": 3,
+ "importance": 105,
  "created_at": "2026-08-17T09:06:25.600793+00:00",
- "last_update": "2026-08-17T09:06:25.601639+00:00",
+ "last_update": "2026-08-18T08:59:41.403946+00:00",
  "members": [
+  {
+   "id": "a53e189aae9fd6f82338b1c11ef8296f5f12eaef",
+   "source": "asahi.com",
+   "tier": "wire",
+   "url": "https://www.asahi.com/ajw/articles/16815306",
+   "title": "Japanese bond sell - off ignites as bets surge on BOJ rate hike | The Asahi Shimbun : Breaking News , Japan News and Analysis",
+   "published_at": "2026-08-18T08:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9111
+  },
   {
    "id": "67a2adf52c55b5f81556da631a7127ed21cefd6a",
    "source": "businesstimes.com.sg",
@@ -22,7 +32,7 @@
    "title": "Bank of Japan should raise rates at every meeting , ex - currency chief says",
    "published_at": "2026-08-17T07:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9679
+   "sim_to_centroid": 0.9646
   },
   {
    "id": "251750b02f92a1e7734b9d927a9b8fc4d7f195d4",
@@ -32,11 +42,18 @@
    "title": "Global Market | Bank of Japan could raise rates in September , eye faster hikes : Reports",
    "published_at": "2026-08-14T10:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9679
+   "sim_to_centroid": 0.969
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Japanese bond sell - off ignites as bets surge on BOJ rate hike | The Asahi Shimbun : Breaking News , Japan News and Analysis",
+   "source": "asahi.com",
+   "url": "https://www.asahi.com/ajw/articles/16815306",
+   "at": "2026-08-18T08:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Bank of Japan should raise rates at every meeting , ex - currency chief says",
@@ -53,59 +70,46 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-17T09:06:59.972441+00:00",
+  "model": "template",
+  "created_at": "2026-08-18T09:01:13.234686+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
    "headlines": [
+    "Japanese bond sell - off ignites as bets surge on BOJ rate hike | The Asahi Shimbun : Breaking News , Japan News and Analysis",
     "Bank of Japan should raise rates at every meeting , ex - currency chief says",
     "Global Market | Bank of Japan could raise rates in September , eye faster hikes : Reports"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"일본 중앙은행 금리 인상 가능성\",\n  \"one_liner\": \"일본 중앙은행이 오는 9월 금리를 올릴 수 있다는 보도가 나왔어요.\",\n  \"why_now\": \"금리가 오르면 돈을 빌리는 비용이 늘어나 경제 활동이 위축될 수 있어요.\",\n  \"impact_line\": \"일본 엔화 가치가 오르면 한국 여행이나 물건 구매 비용이 늘 수 있어요.\",\n  \"details\": [\n    \"일본 중앙은행이 9월에 금리를 인상할 가능성이 있다고 해요.\",\n    \"더 빠른 금리 인상 가능성도 거론되고 있어요.\",\n    \"전 중앙은행 통화 책임자는 모든 회의에서 금리를 올려야 한다고 주장했어요.\"\n  ],\n  \"visual_type\": \"usdkrw\",\n  \"effects\": [\n    \"일본 엔화 가치가 오르면 한국에서 일본 상품을 사거나 일본으로 여행 가는 비용이 늘어날 수 있어요!\",\n    \"일본의 금리 인상은 세계 경제에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"금리\",\n      \"easy\": \"돈을 빌리거나 맡길 때 붙는 이자 비율이에요.\",\n      \"example\": \"금리가 오르면 대출 이자가 늘어나요.\"\n    },\n    {\n      \"term\": \"엔화\",\n      \"easy\": \"일본의 돈 단위예요.\",\n      \"example\": \"엔화 가치가 오르면 일본 여행이 비싸져요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "일본 중앙은행 금리 인상 가능성",
-   "one_liner": "일본 중앙은행이 오는 9월 금리를 올릴 수 있다는 보도가 나왔어요.",
-   "why_now": "금리가 오르면 돈을 빌리는 비용이 늘어나 경제 활동이 위축될 수 있어요.",
+   "title": "Japanese bond sell -…",
+   "one_liner": "Japanese bond sell - off ignites as bets surge…",
+   "why_now": null,
    "details": [
-    "일본 중앙은행이 9월에 금리를 인상할 가능성이 있다고 해요.",
-    "더 빠른 금리 인상 가능성도 거론되고 있어요.",
-    "전 중앙은행 통화 책임자는 모든 회의에서 금리를 올려야 한다고 주장했어요."
+    "Japanese bond sell - off ignites as bets surge on BOJ rate hike | The Asahi Shimbun : Breaking News , Japan News and Analysis",
+    "Bank of Japan should raise rates at every meeting , ex - currency chief says",
+    "Global Market | Bank of Japan could raise rates in September , eye faster hikes : Reports"
    ],
-   "effects": [
-    "일본 엔화 가치가 오르면 한국에서 일본 상품을 사거나 일본으로 여행 가는 비용이 늘어날 수 있어요!",
-    "일본의 금리 인상은 세계 경제에 영향을 줄 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "usdkrw"
   },
-  "fact_hash": "77056c0eeaf671996d01573a0cd27abc2977aea4"
+  "fact_hash": "4638cbe5df0dde3ad721b10111a1326a36b55de4"
  },
- "review": null,
- "glossary": [
-  {
-   "term": "중앙은행",
-   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
-   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
-  },
-  {
-   "term": "금리 인상",
-   "easy": "이자의 기준을 올리는 거예요.",
-   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
-  },
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  }
- ],
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-18T09:01:13.234557+00:00"
+ },
+ "glossary": [],
  "related": [
   {
    "id": "c71b0b5d782052f63",
