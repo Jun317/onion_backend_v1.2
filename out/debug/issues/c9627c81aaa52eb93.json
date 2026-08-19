@@ -2,16 +2,36 @@
  "id": "c9627c81aaa52eb93",
  "title": "Toasty profit for appliance maker after rocky year",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 45,
+ "seen_sources": 3,
+ "importance": 55,
  "created_at": "2026-08-19T03:16:54.792567+00:00",
- "last_update": "2026-08-19T03:16:54.792567+00:00",
+ "last_update": "2026-08-19T04:57:30.067009+00:00",
  "members": [
+  {
+   "id": "e2a6a84cd79b718dad5d7fea68284b2416694a94",
+   "source": "businesstimes.com.sg",
+   "tier": "wire",
+   "url": "https://www.businesstimes.com.sg/singapore/five-japan-home-stores-shutter-staff-say-valu-taking-over-operations",
+   "title": "Japan Home stores closing outlets ; staff say Valu$ taking over operations",
+   "published_at": "2026-08-19T03:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8911
+  },
+  {
+   "id": "c7dec2a13be7c4b27f9aeb0c47dcbdec73769435",
+   "source": "aol.co.uk",
+   "tier": "wire",
+   "url": "https://www.aol.co.uk/articles/uk-high-street-giant-collapsed-012844000.html",
+   "title": "UK high street giant collapsed into administration owing £46m",
+   "published_at": "2026-08-19T02:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8782
+  },
   {
    "id": "83dd4778580d04706fab7648c365c1b6e0a5424e",
    "source": "kfvs12.com",
@@ -20,7 +40,7 @@
    "title": "Heartland pet food pantry temporarily closes after food allegedly taken for resale",
    "published_at": "2026-08-19T02:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9567
+   "sim_to_centroid": 0.9539
   },
   {
    "id": "5f952fea5413851ae29a869e214c4422e829a70f",
@@ -30,16 +50,30 @@
    "title": "Toasty profit for appliance maker after rocky year",
    "published_at": "2026-08-19T02:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9567
+   "sim_to_centroid": 0.9534
   }
  ],
  "anchors": [],
  "timeline": [
   {
    "kind": "headline",
+   "title": "Japan Home stores closing outlets ; staff say Valu$ taking over operations",
+   "source": "businesstimes.com.sg",
+   "url": "https://www.businesstimes.com.sg/singapore/five-japan-home-stores-shutter-staff-say-valu-taking-over-operations",
+   "at": "2026-08-19T03:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Heartland pet food pantry temporarily closes after food allegedly taken for resale",
    "source": "kfvs12.com",
    "url": "https://www.kfvs12.com/2026/08/19/heartland-pet-food-pantry-temporarily-closes-after-food-allegedly-taken-resale/",
+   "at": "2026-08-19T02:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "UK high street giant collapsed into administration owing £46m",
+   "source": "aol.co.uk",
+   "url": "https://www.aol.co.uk/articles/uk-high-street-giant-collapsed-012844000.html",
    "at": "2026-08-19T02:15:00+00:00"
   },
   {
@@ -50,8 +84,46 @@
    "at": "2026-08-19T02:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-19T04:58:43.375681+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Japan Home stores closing outlets ; staff say Valu$ taking over operations",
+    "UK high street giant collapsed into administration owing £46m",
+    "Heartland pet food pantry temporarily closes after food allegedly taken for resale"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Japan Home stores…",
+   "one_liner": "Japan Home stores closing outlets ; staff say…",
+   "why_now": null,
+   "details": [
+    "Japan Home stores closing outlets ; staff say Valu$ taking over operations",
+    "UK high street giant collapsed into administration owing £46m",
+    "Heartland pet food pantry temporarily closes after food allegedly taken for resale"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "1c7faaf86813a72daff2aa7e3fa263bbe91495af"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T04:58:43.375620+00:00"
+ },
  "glossary": [],
  "related": [
   {

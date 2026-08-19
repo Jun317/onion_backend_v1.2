@@ -2,16 +2,46 @@
  "id": "cf8ab262108f73ed4",
  "title": "Wisconsin governor race : Candidates differ on data center guardrails",
  "category": "MARKET",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 60,
+ "seen_sources": 3,
+ "importance": 70,
  "created_at": "2026-08-19T03:16:54.790176+00:00",
- "last_update": "2026-08-19T03:16:54.790176+00:00",
+ "last_update": "2026-08-19T04:57:30.067127+00:00",
  "members": [
+  {
+   "id": "9a3c2961734ac68846da205f17c70c4e614b960c",
+   "source": "wxow.com",
+   "tier": "wire",
+   "url": "https://www.wxow.com/news/national-politics/florida-holds-primaries-for-governor-and-congress-testing-trumps-grip-on-adopted-state/article_ebaa0aab-95a6-5543-a254-070a67a0d3dc.html",
+   "title": "Florida holds primaries for governor and Congress , testing Trump grip on adopted state",
+   "published_at": "2026-08-19T03:15:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.8884
+  },
+  {
+   "id": "17100ac4d76ab89d88cd26c8401dd0c6dece160f",
+   "source": "zerohedge.com",
+   "tier": "wire",
+   "url": "https://www.zerohedge.com/political/jeffries-drops-mask-signals-democrats-are-coming-court",
+   "title": "Minority Leader Jeffries Drops The Mask , Signals Democrats Are Coming For The Court",
+   "published_at": "2026-08-19T02:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8914
+  },
+  {
+   "id": "3eb0a9ca1a7dd0e0fbcaa6277f9a1bb9d3f1517e",
+   "source": "punchng.com",
+   "tier": "wire",
+   "url": "https://punchng.com/2027-tinubu-meets-akpabio-doguwa-others-as-presidential-campaigns-begin-today/",
+   "title": "Tinubu meets Akpabio , Doguwa as 2027 campaigns begin",
+   "published_at": "2026-08-19T02:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8788
+  },
   {
    "id": "85acdae7341954854b37fdf69e2452f8980a76cc",
    "source": "dailycamera.com",
@@ -20,7 +50,7 @@
    "title": "Minnesota governor signs order to slow down any mining efforts near Boundary Waters wilderness",
    "published_at": "2026-08-19T02:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.954
+   "sim_to_centroid": 0.9461
   },
   {
    "id": "ffd1a68894c9fae827da8179212ab8e64ab750c8",
@@ -30,16 +60,37 @@
    "title": "Wisconsin governor race : Candidates differ on data center guardrails",
    "published_at": "2026-08-19T02:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.954
+   "sim_to_centroid": 0.9503
   }
  ],
  "anchors": [],
  "timeline": [
   {
    "kind": "headline",
+   "title": "Florida holds primaries for governor and Congress , testing Trump grip on adopted state",
+   "source": "wxow.com",
+   "url": "https://www.wxow.com/news/national-politics/florida-holds-primaries-for-governor-and-congress-testing-trumps-grip-on-adopted-state/article_ebaa0aab-95a6-5543-a254-070a67a0d3dc.html",
+   "at": "2026-08-19T03:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Minnesota governor signs order to slow down any mining efforts near Boundary Waters wilderness",
    "source": "dailycamera.com",
    "url": "https://www.dailycamera.com/2026/08/18/mining-boundary-waters-order/",
+   "at": "2026-08-19T02:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Minority Leader Jeffries Drops The Mask , Signals Democrats Are Coming For The Court",
+   "source": "zerohedge.com",
+   "url": "https://www.zerohedge.com/political/jeffries-drops-mask-signals-democrats-are-coming-court",
+   "at": "2026-08-19T02:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Tinubu meets Akpabio , Doguwa as 2027 campaigns begin",
+   "source": "punchng.com",
+   "url": "https://punchng.com/2027-tinubu-meets-akpabio-doguwa-others-as-presidential-campaigns-begin-today/",
    "at": "2026-08-19T02:15:00+00:00"
   },
   {
@@ -50,8 +101,46 @@
    "at": "2026-08-19T02:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-19T04:58:22.652641+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Minority Leader Jeffries Drops The Mask , Signals Democrats Are Coming For The Court",
+    "Tinubu meets Akpabio , Doguwa as 2027 campaigns begin",
+    "Wisconsin governor race : Candidates differ on data center guardrails"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Minority Leader…",
+   "one_liner": "Minority Leader Jeffries Drops The Mask ,…",
+   "why_now": null,
+   "details": [
+    "Minority Leader Jeffries Drops The Mask , Signals Democrats Are Coming For The Court",
+    "Tinubu meets Akpabio , Doguwa as 2027 campaigns begin",
+    "Wisconsin governor race : Candidates differ on data center guardrails"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "6267c8a637c1e585d889e0b6f16eeb6d299861bd"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T04:58:22.652528+00:00"
+ },
  "glossary": [],
  "related": [
   {

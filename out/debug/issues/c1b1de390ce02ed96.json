@@ -2,15 +2,15 @@
  "id": "c1b1de390ce02ed96",
  "title": "US Rep Byron Donalds wins GOP nod for governor and former Rep . David Jolly the Democratic nomination",
  "category": "POLICY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 75,
+ "seen_sources": 2,
+ "importance": 80,
  "created_at": "2026-08-19T03:16:54.791599+00:00",
- "last_update": "2026-08-19T03:16:54.791599+00:00",
+ "last_update": "2026-08-19T04:57:30.066727+00:00",
  "members": [
   {
    "id": "7a3d27efa5cf7fcbbe9e7c3ca021f0929a1a23d9",
@@ -20,7 +20,7 @@
    "title": "US Rep Byron Donalds wins GOP nod for governor and former Rep . David Jolly the Democratic nomination",
    "published_at": "2026-08-19T02:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9997
   },
   {
    "id": "d65daf9fb434873917e535a07218554524619786",
@@ -30,7 +30,17 @@
    "title": "US Rep Byron Donalds wins GOP nod for governor and former Rep . David Jolly the Democratic nomination",
    "published_at": "2026-08-19T02:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9997
+  },
+  {
+   "id": "e6a546d0fd65c69dd345e613bdff234c812f7be3",
+   "source": "dailyadvance.com",
+   "tier": "wire",
+   "url": "http://www.dailyadvance.com/news/national/us-rep-byron-donalds-wins-gop-nod-for-florida-governor-against-ex-rep-david-jolly/article_e7718477-24f7-5e05-a150-db4cf01d3ac8.html",
+   "title": "US Rep Byron Donalds wins GOP nod for Florida governor against Ex - Rep David Jolly for the Democrats",
+   "published_at": "2026-08-19T02:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9777
   }
  ],
  "anchors": [],
@@ -48,10 +58,53 @@
    "source": "kcra.com",
    "url": "https://www.kcra.com/article/florida-governor-results-donalds-jolly/73468886",
    "at": "2026-08-19T02:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US Rep Byron Donalds wins GOP nod for Florida governor against Ex - Rep David Jolly for the Democrats",
+   "source": "dailyadvance.com",
+   "url": "http://www.dailyadvance.com/news/national/us-rep-byron-donalds-wins-gop-nod-for-florida-governor-against-ex-rep-david-jolly/article_e7718477-24f7-5e05-a150-db4cf01d3ac8.html",
+   "at": "2026-08-19T02:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-19T04:57:46.300718+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "US Rep Byron Donalds wins GOP nod for governor and former Rep . David Jolly the Democratic nomination",
+    "US Rep Byron Donalds wins GOP nod for Florida governor against Ex - Rep David Jolly for the Democrats"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US Rep Byron Donalds…",
+   "one_liner": "US Rep Byron Donalds wins GOP nod for governor…",
+   "why_now": null,
+   "details": [
+    "US Rep Byron Donalds wins GOP nod for governor and former Rep . David Jolly the Democratic nomination",
+    "US Rep Byron Donalds wins GOP nod for Florida governor against Ex - Rep David Jolly for the Democrats"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "f15841bde0d63d9b726e65914f9bb129f8d4ab72"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T04:57:46.300402+00:00"
+ },
  "glossary": [],
  "related": [
   {

@@ -2,16 +2,26 @@
  "id": "cce14294adf996ba6",
  "title": "Trump is threatening to bomb Oman , but why ?",
  "category": "GEO",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 4,
+ "importance": 80,
  "created_at": "2026-08-19T03:16:54.791420+00:00",
- "last_update": "2026-08-19T03:16:54.791420+00:00",
+ "last_update": "2026-08-19T04:57:30.066844+00:00",
  "members": [
+  {
+   "id": "6c60329d564cb719146f29dcaf8b05bc1f83b81c",
+   "source": "freebeacon.com",
+   "tier": "wire",
+   "url": "https://freebeacon.com/media/dog-rape-new-york-times-columnist-delivers-another-dud-as-harvard-prepares-to-honor-him/",
+   "title": "Dog Rape  New York Times Columnist Delivers Another Dud as Harvard Prepares to Honor Him",
+   "published_at": "2026-08-19T02:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8723
+  },
   {
    "id": "db11a422787cac0356568db27613ab282035829e",
    "source": "zerohedge.com",
@@ -20,7 +30,27 @@
    "title": "Inside The DSA Dilemma : Grow The Democratic Party Or Become It",
    "published_at": "2026-08-19T02:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9578
+   "sim_to_centroid": 0.9505
+  },
+  {
+   "id": "04fedcb8b585b7b6c240fa2798fc921b40eb95bd",
+   "source": "beijingbulletin.com",
+   "tier": "wire",
+   "url": "http://www.beijingbulletin.com/news/279249815/why-trump-is-mad-at-south-korea",
+   "title": "Why Trump is mad at South Korea",
+   "published_at": "2026-08-19T02:15:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.9053
+  },
+  {
+   "id": "ae23f2898db1aa62b320375c97653f4683874672",
+   "source": "mondaq.com",
+   "tier": "wire",
+   "url": "https://www.mondaq.com:443/unitedstates/real-estate/1832540/podcast-unlocking-the-potential-of-washingtons-waterfront-district",
+   "title": "Podcast - Unlocking The Potential Of Washington Waterfront District",
+   "published_at": "2026-08-19T02:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8679
   },
   {
    "id": "9ad84c89b3989d3087c62cfe44ab1aa24700bc09",
@@ -30,7 +60,17 @@
    "title": "Trump is threatening to bomb Oman , but why ?",
    "published_at": "2026-08-19T02:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9578
+   "sim_to_centroid": 0.951
+  },
+  {
+   "id": "eeae5cc40ee4d58a20ab9f1ed675908e160baebe",
+   "source": "turnto23.com",
+   "tier": "wire",
+   "url": "https://www.turnto23.com/politics/america-votes/florida-primaries-could-shape-trumps-influence-ahead-of-november",
+   "title": "Florida primaries could shape Trump influence ahead of November",
+   "published_at": "2026-08-18T19:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8686
   }
  ],
  "anchors": [],
@@ -44,13 +84,79 @@
   },
   {
    "kind": "headline",
+   "title": "Dog Rape  New York Times Columnist Delivers Another Dud as Harvard Prepares to Honor Him",
+   "source": "freebeacon.com",
+   "url": "https://freebeacon.com/media/dog-rape-new-york-times-columnist-delivers-another-dud-as-harvard-prepares-to-honor-him/",
+   "at": "2026-08-19T02:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Why Trump is mad at South Korea",
+   "source": "beijingbulletin.com",
+   "url": "http://www.beijingbulletin.com/news/279249815/why-trump-is-mad-at-south-korea",
+   "at": "2026-08-19T02:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Podcast - Unlocking The Potential Of Washington Waterfront District",
+   "source": "mondaq.com",
+   "url": "https://www.mondaq.com:443/unitedstates/real-estate/1832540/podcast-unlocking-the-potential-of-washingtons-waterfront-district",
+   "at": "2026-08-19T02:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Trump is threatening to bomb Oman , but why ?",
    "source": "dailyadvance.com",
    "url": "http://www.dailyadvance.com/news/national/trump-is-threatening-to-bomb-oman-but-why/article_05b4c0ea-6366-530a-b402-4ec98667c627.html",
    "at": "2026-08-19T02:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Florida primaries could shape Trump influence ahead of November",
+   "source": "turnto23.com",
+   "url": "https://www.turnto23.com/politics/america-votes/florida-primaries-could-shape-trumps-influence-ahead-of-november",
+   "at": "2026-08-18T19:00:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-19T04:57:35.969119+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Dog Rape  New York Times Columnist Delivers Another Dud as Harvard Prepares to Honor Him",
+    "Inside The DSA Dilemma : Grow The Democratic Party Or Become It",
+    "Podcast - Unlocking The Potential Of Washington Waterfront District",
+    "Florida primaries could shape Trump influence ahead of November"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n\"title\": \"미국 정치권, 민주당 분열 우려\",\n\"one_liner\": \"미국 민주당 내부에서 당의 방향을 두고 논쟁이 벌어지고 있어요.\",\n\"why_now\": \"민주당의 분열은 다가오는 선거 결과에 영향을 줄 수 있기 때문이에요.\",\n\"impact_line\": \"정치권의 논쟁은 정책 결정에 영향을 줄 수 있어요.\",\n\"details\": [\n\"민주당 내부에서 당의 성장 방향에 대한 의견 충돌이 있어요.\",\n\"일각에서는 민주당이 더 커져야 한다고 주장해요.\",\n\"다른 한편에서는 민주당이 현재의 모습 그대로여야 한다고 봐요.\",\n\"이러한 논쟁은 다가오는 11월 선거에 영향을 줄 수 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"민주당의 분열은 선거 결과에 영향을 미쳐 정책 방향이 바뀔 수 있어요!\",\n\"정치권의 논쟁은 국민들의 관심사에 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"민주당\",\n\"easy\": \"미국을 대표하는 주요 정당 중 하나예요.\",\n\"example\": \"민주당 후보가 대통령 선거에 출마했어요.\"\n}\n]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "미국 정치권, 민주당 분열 우려",
+   "one_liner": "미국 민주당 내부에서 당의 방향을 두고 논쟁이 벌어지고 있어요.",
+   "why_now": "민주당의 분열은 다가오는 선거 결과에 영향을 줄 수 있기 때문이에요.",
+   "details": [
+    "민주당 내부에서 당의 성장 방향에 대한 의견 충돌이 있어요.",
+    "일각에서는 민주당이 더 커져야 한다고 주장해요.",
+    "다른 한편에서는 민주당이 현재의 모습 그대로여야 한다고 봐요.",
+    "이러한 논쟁은 다가오는 11월 선거에 영향을 줄 수 있어요."
+   ],
+   "effects": [
+    "민주당의 분열은 선거 결과에 영향을 미쳐 정책 방향이 바뀔 수 있어요!",
+    "정치권의 논쟁은 국민들의 관심사에 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "60c49f091b4ad10ae43c6e8f644fa89d2031c786"
+ },
  "review": null,
  "glossary": [],
  "related": [

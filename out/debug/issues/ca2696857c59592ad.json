@@ -462,48 +462,46 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-17T10:53:53.390738+00:00",
+  "model": "template",
+  "created_at": "2026-08-19T05:03:13.307795+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
     "Taiwan headline news - Focus Taiwan",
     "Taiwan headline news - Focus Taiwan",
-    "The next global trade choke point could be Taiwan - Investment Watch Blog",
     "Taiwan detects 2 Chinese aircraft , 7 naval vessels near island",
+    "The next global trade choke point could be Taiwan - Investment Watch Blog",
     "Taiwan detects one PLA aircraft , nine PLAN vessels around its territory"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"대만 주변 중국 군사 활동 감지\",\n    \"one_liner\": \"대만 국방부가 중국 군용기 2대와 군함 9척이 대만 주변에서 활동하는 것을 감지했어요.\",\n    \"why_now\": \"대만과 중국 간의 긴장은 세계 경제에 큰 영향을 미칠 수 있어요.\",\n    \"impact_line\": \"대만 해협의 긴장 고조는 글로벌 공급망에 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"대만 국방부는 중국 군용기 2대가 대만 주변에서 활동하는 것을 감지했어요.\",\n        \"또한 중국 해군 함정 9척도 대만 주변에서 활동하는 것을 확인했어요.\",\n        \"이전에도 중국 군용기와 군함이 대만 주변에서 감지된 바 있어요.\",\n        \"대만은 중국의 군사적 위협에 지속적으로 노출되어 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"대만 해협의 긴장이 고조되면 반도체 등 주요 물자 공급에 차질이 생길 수 있어요!\",\n        \"이는 전 세계 물가 상승으로 이어질 가능성이 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"군용기\",\n            \"easy\": \"군사 작전에 사용되는 비행기나 헬리콥터 등을 말해요.\",\n            \"example\": \"군용기가 영공을 침범하면 안 돼요.\"\n        },\n        {\n            \"term\": \"군함\",\n            \"easy\": \"군사 작전에 사용되는 배를 말해요.\",\n            \"example\": \"군함이 해상 경계를 순찰하고 있어요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "대만 주변 중국 군사 활동 감지",
-   "one_liner": "대만 국방부가 중국 군용기 2대와 군함 9척이 대만 주변에서 활동하는 것을 감지했어요.",
-   "why_now": "대만과 중국 간의 긴장은 세계 경제에 큰 영향을 미칠 수 있어요.",
+   "title": "Taiwan headline news…",
+   "one_liner": "Taiwan headline news - Focus Taiwan",
+   "why_now": null,
    "details": [
-    "대만 국방부는 중국 군용기 2대가 대만 주변에서 활동하는 것을 감지했어요.",
-    "또한 중국 해군 함정 9척도 대만 주변에서 활동하는 것을 확인했어요.",
-    "이전에도 중국 군용기와 군함이 대만 주변에서 감지된 바 있어요.",
-    "대만은 중국의 군사적 위협에 지속적으로 노출되어 있어요."
+    "Taiwan headline news - Focus Taiwan",
+    "Taiwan headline news - Focus Taiwan",
+    "Taiwan detects 2 Chinese aircraft , 7 naval vessels near island"
    ],
-   "effects": [
-    "대만 해협의 긴장이 고조되면 반도체 등 주요 물자 공급에 차질이 생길 수 있어요!",
-    "이는 전 세계 물가 상승으로 이어질 가능성이 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "39167b4067d6eb3c8b2b4064b0cd4b01665d0120"
+  "fact_hash": "f4639f411c670083785aebb2d186dee7219357a7"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(63)\"]}, {\"model\": \"llama-3.3-70b-versatile\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-08-17T07:28:45.284764+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T05:03:13.307733+00:00"
  },
  "glossary": [],
  "related": [

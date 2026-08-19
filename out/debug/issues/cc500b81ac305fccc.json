@@ -7,10 +7,10 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 110,
+ "seen_sources": 6,
+ "importance": 125,
  "created_at": "2026-08-19T03:16:54.788272+00:00",
- "last_update": "2026-08-19T03:16:54.794121+00:00",
+ "last_update": "2026-08-19T04:57:30.053871+00:00",
  "members": [
   {
    "id": "0c32fa44b38749460e9feb7d40a76da286ef7509",
@@ -20,7 +20,27 @@
    "title": "US stocks retreated with underperformance in tech as yields remained elevated - Newsquawk Daily Asia - Pac Market Open",
    "published_at": "2026-08-19T02:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.961
+   "sim_to_centroid": 0.9562
+  },
+  {
+   "id": "be28199f943e9d8c355c9c998f55b670c753ab93",
+   "source": "247wallst.com",
+   "tier": "wire",
+   "url": "https://247wallst.com/investing/2026/08/18/drone-stocks-see-limited-losses-tuesday-during-nasdaq-sell-off-red-cat-ondas-flat-while-aerovironment-tumbles/",
+   "title": "Drone Stocks See Limited Losses Tuesday During Nasdaq Sell - Off : Red Cat , Ondas Flat While AeroVironment Tumbles",
+   "published_at": "2026-08-19T02:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8973
+  },
+  {
+   "id": "37a5d5c794dbe65965e48d0b9e7cbe55fecc5a25",
+   "source": "peakoil.com",
+   "tier": "wire",
+   "url": "https://peakoil.com/production/crude-markets-underpricing-an-impending-supply-tightness",
+   "title": "Crude markets underpricing an impending supply tightness  | Peak Oil News and Message Boards",
+   "published_at": "2026-08-19T02:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9036
   },
   {
    "id": "108cf2f8984570180237c0e1674581e5408c5d3d",
@@ -30,7 +50,27 @@
    "title": "Stocks mostly drop as Mideast hopes dim , interest rates rise",
    "published_at": "2026-08-19T02:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.961
+   "sim_to_centroid": 0.9524
+  },
+  {
+   "id": "4ac5bf73fbd958e5eb64a8a3f6a1fca551f2ea2d",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-seagate-142235583.html",
+   "title": "Is Wall Street Bullish or Bearish on Seagate Technology Stock ?",
+   "published_at": "2026-08-19T02:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8765
+  },
+  {
+   "id": "83d8f84745fc1de83c62c9bf378247ba7d43bfab",
+   "source": "koreaherald.com",
+   "tier": "wire",
+   "url": "https://www.koreaherald.com/article/10844900",
+   "title": "Seoul shares open sharply lower on US tech sell - off",
+   "published_at": "2026-08-19T01:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9001
   }
  ],
  "anchors": [],
@@ -44,56 +84,83 @@
   },
   {
    "kind": "headline",
+   "title": "Drone Stocks See Limited Losses Tuesday During Nasdaq Sell - Off : Red Cat , Ondas Flat While AeroVironment Tumbles",
+   "source": "247wallst.com",
+   "url": "https://247wallst.com/investing/2026/08/18/drone-stocks-see-limited-losses-tuesday-during-nasdaq-sell-off-red-cat-ondas-flat-while-aerovironment-tumbles/",
+   "at": "2026-08-19T02:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Crude markets underpricing an impending supply tightness  | Peak Oil News and Message Boards",
+   "source": "peakoil.com",
+   "url": "https://peakoil.com/production/crude-markets-underpricing-an-impending-supply-tightness",
+   "at": "2026-08-19T02:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Stocks mostly drop as Mideast hopes dim , interest rates rise",
    "source": "channelnewsasia.com",
    "url": "https://www.channelnewsasia.com/world/us-stocks-wall-street-market-retail-6326581",
    "at": "2026-08-19T02:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Is Wall Street Bullish or Bearish on Seagate Technology Stock ?",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-seagate-142235583.html",
+   "at": "2026-08-19T02:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Seoul shares open sharply lower on US tech sell - off",
+   "source": "koreaherald.com",
+   "url": "https://www.koreaherald.com/article/10844900",
+   "at": "2026-08-19T01:00:00+00:00"
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-19T03:16:57.543621+00:00",
+  "model": "template",
+  "created_at": "2026-08-19T05:03:02.998349+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
    "headlines": [
     "US stocks retreated with underperformance in tech as yields remained elevated - Newsquawk Daily Asia - Pac Market Open",
-    "Stocks mostly drop as Mideast hopes dim , interest rates rise"
+    "Stocks mostly drop as Mideast hopes dim , interest rates rise",
+    "Crude markets underpricing an impending supply tightness  | Peak Oil News and Message Boards",
+    "Seoul shares open sharply lower on US tech sell - off",
+    "Drone Stocks See Limited Losses Tuesday During Nasdaq Sell - Off : Red Cat , Ondas Flat While AeroVironment Tumbles"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"미국 금리 상승에 주가 하락\",\n\"one_liner\": \"미국 금리가 오르면서 주식 시장이 하락했어요.\",\n\"why_now\": \"금리가 오르면 돈을 빌리는 비용이 늘어나 기업 실적이 나빠질 수 있어요.\",\n\"impact_line\": \"주식 투자 수익률이 낮아지거나 손실이 발생할 수 있어요.\",\n\"details\": [\n\"미국 금리가 높은 수준을 유지하고 있어요.\",\n\"기술주를 포함한 미국 주식 시장이 부진했어요.\",\n\"중동 지역의 불안감이 커지면서 투자 심리가 위축됐어요.\"\n],\n\"visual_type\": \"us_policy_rate\",\n\"effects\": [\n\"금리가 오르면 기업들이 돈을 빌리는 데 더 많은 비용을 지출하게 되어 이익이 줄어들 수 있어요!\",\n\"주식 시장의 불확실성이 커지면서 투자자들이 안전 자산으로 이동할 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"금리\",\n\"easy\": \"돈을 빌리거나 맡길 때 적용되는 이자 비율이에요.\",\n\"example\": \"금리가 오르면 대출 이자도 보통 따라 올라요.\"\n},\n{\n\"term\": \"기술주\",\n\"easy\": \"컴퓨터, 인터넷, 소프트웨어 등 기술 관련 사업을 하는 회사의 주식을 말해요.\",\n\"example\": \"새로운 기술 개발 소식에 기술주 주가가 크게 오르기도 해요.\"\n}\n],\n\"impact_line\": \"주식 투자 수익률이 낮아지거나 손실이 발생할 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국 금리 상승에 주가 하락",
-   "one_liner": "미국 금리가 오르면서 주식 시장이 하락했어요.",
-   "why_now": "금리가 오르면 돈을 빌리는 비용이 늘어나 기업 실적이 나빠질 수 있어요.",
+   "title": "US stocks retreated…",
+   "one_liner": "US stocks retreated with underperformance in…",
+   "why_now": null,
    "details": [
-    "미국 금리가 높은 수준을 유지하고 있어요.",
-    "기술주를 포함한 미국 주식 시장이 부진했어요.",
-    "중동 지역의 불안감이 커지면서 투자 심리가 위축됐어요."
+    "US stocks retreated with underperformance in tech as yields remained elevated - Newsquawk Daily Asia - Pac Market Open",
+    "Stocks mostly drop as Mideast hopes dim , interest rates rise",
+    "Crude markets underpricing an impending supply tightness  | Peak Oil News and Message Boards"
    ],
-   "effects": [
-    "금리가 오르면 기업들이 돈을 빌리는 데 더 많은 비용을 지출하게 되어 이익이 줄어들 수 있어요!",
-    "주식 시장의 불확실성이 커지면서 투자자들이 안전 자산으로 이동할 수 있어요!"
-   ],
-   "visual_type": "us_policy_rate"
+   "effects": [],
+   "visual_type": "kr_base_rate"
   },
-  "fact_hash": "41c3cddb203f98d16ad67237f7fc4d0a6ddf53ca"
+  "fact_hash": "9e2fed34f03cd4814c9e1edf4efee051cd66d28e"
  },
- "review": null,
- "glossary": [
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  }
- ],
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T05:03:02.998295+00:00"
+ },
+ "glossary": [],
  "related": [
   {
    "id": "ccec1fdb78ce6d4ce",

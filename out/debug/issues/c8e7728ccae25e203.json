@@ -2,16 +2,36 @@
  "id": "c8e7728ccae25e203",
  "title": "San Diego County Supervisors end gun range agreements with ICE and CBP",
  "category": "GEO",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 3,
+ "importance": 75,
  "created_at": "2026-08-19T03:16:54.791771+00:00",
- "last_update": "2026-08-19T03:16:54.791771+00:00",
+ "last_update": "2026-08-19T04:57:30.067054+00:00",
  "members": [
+  {
+   "id": "831f727d56fb3f1300103f5c3c27cd648f47833d",
+   "source": "siasat.com",
+   "tier": "wire",
+   "url": "https://www.siasat.com/unseen-unheard-the-jeedimetla-migrants-building-a-pharma-hub-3526979/",
+   "title": "Unseen , unheard : The Jeedimetla migrants building a pharma hub",
+   "published_at": "2026-08-19T03:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8664
+  },
+  {
+   "id": "d2d8b20e54f02ece244fefb0535a53b6301a1c32",
+   "source": "marinelink.com",
+   "tier": "wire",
+   "url": "https://www.marinelink.com/news/data-center-projects-boost-port-los-542212",
+   "title": "Data Center Projects Boost Port Of Los Angeles July",
+   "published_at": "2026-08-19T02:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.86
+  },
   {
    "id": "01d41367dd71d544b63e31ff992f8d5a25494626",
    "source": "fox35orlando.com",
@@ -20,7 +40,7 @@
    "title": "CBP officers seize $67 million in illegal drugs at San Diego border ports , DHS says",
    "published_at": "2026-08-19T02:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9647
+   "sim_to_centroid": 0.9639
   },
   {
    "id": "b76f2ce07538826d306fb2e169a489f1d620e904",
@@ -30,16 +50,30 @@
    "title": "San Diego County Supervisors end gun range agreements with ICE and CBP",
    "published_at": "2026-08-19T02:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9647
+   "sim_to_centroid": 0.958
   }
  ],
  "anchors": [],
  "timeline": [
   {
    "kind": "headline",
+   "title": "Unseen , unheard : The Jeedimetla migrants building a pharma hub",
+   "source": "siasat.com",
+   "url": "https://www.siasat.com/unseen-unheard-the-jeedimetla-migrants-building-a-pharma-hub-3526979/",
+   "at": "2026-08-19T03:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "CBP officers seize $67 million in illegal drugs at San Diego border ports , DHS says",
    "source": "fox35orlando.com",
    "url": "https://www.fox35orlando.com/news/officers-seize-illegal-drugs-san-diego-border",
+   "at": "2026-08-19T02:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Data Center Projects Boost Port Of Los Angeles July",
+   "source": "marinelink.com",
+   "url": "https://www.marinelink.com/news/data-center-projects-boost-port-los-542212",
    "at": "2026-08-19T02:15:00+00:00"
   },
   {
@@ -50,8 +84,46 @@
    "at": "2026-08-19T02:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-19T04:57:56.861382+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Unseen , unheard : The Jeedimetla migrants building a pharma hub",
+    "Data Center Projects Boost Port Of Los Angeles July",
+    "San Diego County Supervisors end gun range agreements with ICE and CBP"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Unseen , unheard :…",
+   "one_liner": "Unseen , unheard : The Jeedimetla migrants…",
+   "why_now": null,
+   "details": [
+    "Unseen , unheard : The Jeedimetla migrants building a pharma hub",
+    "Data Center Projects Boost Port Of Los Angeles July",
+    "San Diego County Supervisors end gun range agreements with ICE and CBP"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "80216e90d72c87b06546a0636fc06cfa9de4670b"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T04:57:56.861271+00:00"
+ },
  "glossary": [
   {
    "term": "bp",
