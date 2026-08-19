@@ -2,19 +2,39 @@
  "id": "cb22ab4362dc7db3b",
  "title": "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
  "category": "COMMODITY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "FED",
   "IRAN"
  ],
- "seen_sources": 1,
- "importance": 95,
+ "seen_sources": 3,
+ "importance": 105,
  "created_at": "2026-08-19T01:58:12.278381+00:00",
- "last_update": "2026-08-19T01:58:12.278381+00:00",
+ "last_update": "2026-08-19T03:16:54.793995+00:00",
  "members": [
+  {
+   "id": "398586f21ea9e1eaa3c9ea6906bdf8f273f46d01",
+   "source": "scmp.com",
+   "tier": "wire",
+   "url": "https://www.scmp.com/business/china-business/article/3364498/hong-kong-stocks-decline-rising-bond-yields-and-stalemate-iran-war-dent-sentiment",
+   "title": "Hong Kong stocks decline as rising bond yields and stalemate in Iran war dent sentiment",
+   "published_at": "2026-08-19T02:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9105
+  },
+  {
+   "id": "0ee1add0289d5c22eb165e6aee1762a6e7eaaa5c",
+   "source": "nbcdfw.com",
+   "tier": "wire",
+   "url": "https://www.nbcdfw.com/news/national-international/donald-trump-threatens-bomb-oman/4064514/",
+   "title": "Why is Donald Trump threatening to bomb Oman amid Iran war ? – NBC 5 Dallas - Fort Worth",
+   "published_at": "2026-08-19T02:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8739
+  },
   {
    "id": "06726895c2149acb8e900b6afe4ccdb50b758187",
    "source": "econotimes.com",
@@ -23,7 +43,7 @@
    "title": "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
    "published_at": "2026-08-19T00:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9663
+   "sim_to_centroid": 0.9569
   },
   {
    "id": "9cb95eb9a0ce06208eea4882f5e5c0ea39f73c0a",
@@ -33,11 +53,35 @@
    "title": "US Dollar Holds Steady as Fed Rate Bets and Iran Tensions Drive Markets",
    "published_at": "2026-08-19T00:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9663
+   "sim_to_centroid": 0.9634
+  },
+  {
+   "id": "b7621f01033dd5d2e50d2ecd60d7a5b041be76db",
+   "source": "econotimes.com",
+   "tier": "wire",
+   "url": "http://www.econotimes.com/Trump-Says-Iran-Talks-Halted-as-Hormuz-Dispute-Pushes-Oil-Higher-1749834",
+   "title": "Trump Says Iran Talks Halted as Hormuz Dispute Pushes Oil Higher",
+   "published_at": "2026-08-19T00:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8937
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Hong Kong stocks decline as rising bond yields and stalemate in Iran war dent sentiment",
+   "source": "scmp.com",
+   "url": "https://www.scmp.com/business/china-business/article/3364498/hong-kong-stocks-decline-rising-bond-yields-and-stalemate-iran-war-dent-sentiment",
+   "at": "2026-08-19T02:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Why is Donald Trump threatening to bomb Oman amid Iran war ? – NBC 5 Dallas - Fort Worth",
+   "source": "nbcdfw.com",
+   "url": "https://www.nbcdfw.com/news/national-international/donald-trump-threatens-bomb-oman/4064514/",
+   "at": "2026-08-19T02:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
@@ -51,10 +95,57 @@
    "source": "econotimes.com",
    "url": "http://www.econotimes.com/US-Dollar-Holds-Steady-as-Fed-Rate-Bets-and-Iran-Tensions-Drive-Markets-1749824",
    "at": "2026-08-19T00:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Trump Says Iran Talks Halted as Hormuz Dispute Pushes Oil Higher",
+   "source": "econotimes.com",
+   "url": "http://www.econotimes.com/Trump-Says-Iran-Talks-Halted-as-Hormuz-Dispute-Pushes-Oil-Higher-1749834",
+   "at": "2026-08-19T00:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-19T03:17:13.883821+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [],
+   "headlines": [
+    "Hong Kong stocks decline as rising bond yields and stalemate in Iran war dent sentiment",
+    "Why is Donald Trump threatening to bomb Oman amid Iran war ? – NBC 5 Dallas - Fort Worth",
+    "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
+    "US Dollar Holds Steady as Fed Rate Bets and Iran Tensions Drive Markets",
+    "Trump Says Iran Talks Halted as Hormuz Dispute Pushes Oil Higher"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Hong Kong stocks…",
+   "one_liner": "Hong Kong stocks decline as rising bond yields…",
+   "why_now": null,
+   "details": [
+    "Hong Kong stocks decline as rising bond yields and stalemate in Iran war dent sentiment",
+    "Why is Donald Trump threatening to bomb Oman amid Iran war ? – NBC 5 Dallas - Fort Worth",
+    "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus"
+   ],
+   "effects": [],
+   "visual_type": "wti"
+  },
+  "fact_hash": "ca7357f3e4701ad500534f330cd48c36618ad9a6"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T03:17:13.883666+00:00"
+ },
  "glossary": [],
  "related": [
   {

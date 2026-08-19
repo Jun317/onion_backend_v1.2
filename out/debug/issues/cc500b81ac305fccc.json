@@ -1,0 +1,129 @@
+{
+ "id": "cc500b81ac305fccc",
+ "title": "Stocks mostly drop as Mideast hopes dim , interest rates rise",
+ "category": "RATE",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 110,
+ "created_at": "2026-08-19T03:16:54.788272+00:00",
+ "last_update": "2026-08-19T03:16:54.794121+00:00",
+ "members": [
+  {
+   "id": "0c32fa44b38749460e9feb7d40a76da286ef7509",
+   "source": "zerohedge.com",
+   "tier": "wire",
+   "url": "https://www.zerohedge.com/markets/us-stocks-retreated-underperformance-tech-yields-remained-elevated-newsquawk-daily-asia-pac",
+   "title": "US stocks retreated with underperformance in tech as yields remained elevated - Newsquawk Daily Asia - Pac Market Open",
+   "published_at": "2026-08-19T02:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.961
+  },
+  {
+   "id": "108cf2f8984570180237c0e1674581e5408c5d3d",
+   "source": "channelnewsasia.com",
+   "tier": "wire",
+   "url": "https://www.channelnewsasia.com/world/us-stocks-wall-street-market-retail-6326581",
+   "title": "Stocks mostly drop as Mideast hopes dim , interest rates rise",
+   "published_at": "2026-08-19T02:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.961
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "US stocks retreated with underperformance in tech as yields remained elevated - Newsquawk Daily Asia - Pac Market Open",
+   "source": "zerohedge.com",
+   "url": "https://www.zerohedge.com/markets/us-stocks-retreated-underperformance-tech-yields-remained-elevated-newsquawk-daily-asia-pac",
+   "at": "2026-08-19T02:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Stocks mostly drop as Mideast hopes dim , interest rates rise",
+   "source": "channelnewsasia.com",
+   "url": "https://www.channelnewsasia.com/world/us-stocks-wall-street-market-retail-6326581",
+   "at": "2026-08-19T02:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-19T03:16:57.543621+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [],
+   "headlines": [
+    "US stocks retreated with underperformance in tech as yields remained elevated - Newsquawk Daily Asia - Pac Market Open",
+    "Stocks mostly drop as Mideast hopes dim , interest rates rise"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n\"title\": \"미국 금리 상승에 주가 하락\",\n\"one_liner\": \"미국 금리가 오르면서 주식 시장이 하락했어요.\",\n\"why_now\": \"금리가 오르면 돈을 빌리는 비용이 늘어나 기업 실적이 나빠질 수 있어요.\",\n\"impact_line\": \"주식 투자 수익률이 낮아지거나 손실이 발생할 수 있어요.\",\n\"details\": [\n\"미국 금리가 높은 수준을 유지하고 있어요.\",\n\"기술주를 포함한 미국 주식 시장이 부진했어요.\",\n\"중동 지역의 불안감이 커지면서 투자 심리가 위축됐어요.\"\n],\n\"visual_type\": \"us_policy_rate\",\n\"effects\": [\n\"금리가 오르면 기업들이 돈을 빌리는 데 더 많은 비용을 지출하게 되어 이익이 줄어들 수 있어요!\",\n\"주식 시장의 불확실성이 커지면서 투자자들이 안전 자산으로 이동할 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"금리\",\n\"easy\": \"돈을 빌리거나 맡길 때 적용되는 이자 비율이에요.\",\n\"example\": \"금리가 오르면 대출 이자도 보통 따라 올라요.\"\n},\n{\n\"term\": \"기술주\",\n\"easy\": \"컴퓨터, 인터넷, 소프트웨어 등 기술 관련 사업을 하는 회사의 주식을 말해요.\",\n\"example\": \"새로운 기술 개발 소식에 기술주 주가가 크게 오르기도 해요.\"\n}\n],\n\"impact_line\": \"주식 투자 수익률이 낮아지거나 손실이 발생할 수 있어요.\"\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "미국 금리 상승에 주가 하락",
+   "one_liner": "미국 금리가 오르면서 주식 시장이 하락했어요.",
+   "why_now": "금리가 오르면 돈을 빌리는 비용이 늘어나 기업 실적이 나빠질 수 있어요.",
+   "details": [
+    "미국 금리가 높은 수준을 유지하고 있어요.",
+    "기술주를 포함한 미국 주식 시장이 부진했어요.",
+    "중동 지역의 불안감이 커지면서 투자 심리가 위축됐어요."
+   ],
+   "effects": [
+    "금리가 오르면 기업들이 돈을 빌리는 데 더 많은 비용을 지출하게 되어 이익이 줄어들 수 있어요!",
+    "주식 시장의 불확실성이 커지면서 투자자들이 안전 자산으로 이동할 수 있어요!"
+   ],
+   "visual_type": "us_policy_rate"
+  },
+  "fact_hash": "41c3cddb203f98d16ad67237f7fc4d0a6ddf53ca"
+ },
+ "review": null,
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
+ "related": [
+  {
+   "id": "ccec1fdb78ce6d4ce",
+   "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "cea83213c8906724e",
+   "title": "Fed Holds Interest Rates Steady Amid Inflation From Iran Conflict",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c03074aeed49bf60f",
+   "title": "World Bank confirms plan to phase out China lending by 2031",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "cb00a5f20e2c800d5",
+   "title": "Where Social Security cuts could have the greatest economic impact",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "c71b0b5d782052f63",
+   "title": "Bank Of Japan Maintains Key Rate",
+   "category": "RATE",
+   "shared": []
+  }
+ ]
+}
