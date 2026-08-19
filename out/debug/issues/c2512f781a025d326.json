@@ -872,7 +872,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-19T05:53:06.952761+00:00",
+  "created_at": "2026-08-19T09:01:39.190868+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -885,18 +885,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"시스코 AI 매출 급증\",\n  \"one_liner\": \"시스코의 인공지능 관련 매출이 크게 늘어 75억 달러를 기록했어요.\",\n  \"why_now\": \"인공지능 기술이 발전하면서 관련 장비와 서비스에 대한 수요가 늘고 있기 때문이에요.\",\n  \"impact_line\": \"인공지능 관련 기업들의 성장이 기대될 수 있어요.\",\n  \"details\": [\n    \"시스코의 인공지능 관련 매출은 거의 두 배로 늘었어요.\",\n    \"총 매출은 75억 달러에 달했어요.\",\n    \"인공지능 기반 설비에 대한 지출이 폭발적으로 증가하고 있어요.\",\n    \"시스코의 전체 매출은 18% 증가했어요.\",\n    \"인공지능 관련 주문액은 93억 달러에 달했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"인공지능 관련 기술 및 서비스에 대한 투자가 늘어날 수 있어요!\",\n    \"관련 기업들의 실적이 개선될 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"인공지능\",\n      \"easy\": \"컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n      \"example\": \"인공지능 스피커가 날씨를 알려줘요.\"\n    },\n    {\n      \"term\": \"매출\",\n      \"easy\": \"회사가 물건을 팔거나 서비스를 제공해서 벌어들인 돈이에요.\",\n      \"example\": \"이번 달 매출이 지난달보다 늘었어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [75.0, 93.0]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [75.0, 93.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -915,11 +909,19 @@
   "fact_hash": "0b4d3706deaf5dc620e5f06ca3aa3cd5662e614b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [75.0, 93.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [75.0, 93.0]\"]}]}",
-  "at": "2026-08-19T05:53:06.952616+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T09:01:39.190752+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "ccec1fdb78ce6d4ce",
+   "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
+   "category": "RATE",
+   "shared": [
+    "SEC"
+   ]
+  },
   {
    "id": "c03074aeed49bf60f",
    "title": "World Bank confirms plan to phase out China lending by 2031",
@@ -950,14 +952,6 @@
    "id": "c7465c605cefc2941",
    "title": "Iran kicks As Trump Says Hormuz Will Become US Territory After War – Daily Trust",
    "category": "GEO",
-   "shared": [
-    "SEC"
-   ]
-  },
-  {
-   "id": "c826b1c1944a1c619",
-   "title": "Bank of Korea Raises Rates for First Time Since 2023 Update",
-   "category": "RATE",
    "shared": [
     "SEC"
    ]
