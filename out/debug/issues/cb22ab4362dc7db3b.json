@@ -224,72 +224,48 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-19T07:12:30.142846+00:00",
+  "model": "template",
+  "created_at": "2026-08-19T09:55:49.219766+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
     "US Dollar Holds Steady as Fed Rate Bets and Iran Tensions Drive Markets",
     "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
+    "Markets Update : Kingspan leads Iseq but Europe mixed on US - Iran tensions",
     "Hong Kong stocks decline as rising bond yields and stalemate in Iran war dent sentiment",
-    "Trump Says Iran Talks Halted as Hormuz Dispute Pushes Oil Higher",
-    "UK inflation rises to 2 . 9 % as Iran war fuels living costs squeeze"
+    "Trump Says Iran Talks Halted as Hormuz Dispute Pushes Oil Higher"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"국제 유가 상승\",\n  \"one_liner\": \"이란과의 갈등으로 국제 유가가 오르고 있어요.\",\n  \"why_now\": \"전쟁이나 갈등은 원유 공급에 대한 불안감을 높여 유가를 끌어올리는 경향이 있어요.\",\n  \"impact_line\": \"기름값이 올라 장바구니 물가 부담이 커질 수 있어요.\",\n  \"details\": [\n    \"이란과의 갈등이 심화되면서 국제 유가가 상승했어요.\",\n    \"이란과 관련된 분쟁이 유가 상승의 주요 원인으로 꼽혀요.\",\n    \"미국 달러화는 연준의 금리 결정과 이란 관련 소식에 영향을 받고 있어요.\",\n    \"홍콩 주식 시장은 채권 금리 상승과 이란 관련 소식에 하락했어요.\"\n  ],\n  \"visual_type\": \"wti\",\n  \"effects\": [\n    \"국제 유가가 오르면 휘발유, 경유 등 운송 연료 가격이 상승할 수 있어요!\",\n    \"원유 가격 상승은 수입 물가 상승으로 이어져 전반적인 생활비 부담을 늘릴 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"국제 유가\",\n      \"easy\": \"나라 밖에서 거래되는 석유 가격이에요.\",\n      \"example\": \"국제 유가가 오르면 주유소에서 파는 기름값도 보통 올라요.\"\n    },\n    {\n      \"term\": \"이란\",\n      \"easy\": \"중동에 있는 나라 이름이에요.\",\n      \"example\": \"이란과 관련된 뉴스가 나오면 국제 유가에 영향을 줄 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [2.9]"
+     "전 프로바이더 응답 실패"
     ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
    }
   ],
   "output": {
-   "title": "국제 유가 상승",
-   "one_liner": "이란과의 갈등으로 국제 유가가 오르고 있어요.",
-   "why_now": "전쟁이나 갈등은 원유 공급에 대한 불안감을 높여 유가를 끌어올리는 경향이 있어요.",
+   "title": "US Dollar Holds…",
+   "one_liner": "US Dollar Holds Steady as Fed Rate Bets and Iran…",
+   "why_now": null,
    "details": [
-    "이란과의 갈등이 심화되면서 국제 유가가 상승했어요.",
-    "이란과 관련된 분쟁이 유가 상승의 주요 원인으로 꼽혀요.",
-    "미국 달러화는 연준의 금리 결정과 이란 관련 소식에 영향을 받고 있어요.",
-    "홍콩 주식 시장은 채권 금리 상승과 이란 관련 소식에 하락했어요."
+    "US Dollar Holds Steady as Fed Rate Bets and Iran Tensions Drive Markets",
+    "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
+    "Markets Update : Kingspan leads Iseq but Europe mixed on US - Iran tensions"
    ],
-   "effects": [
-    "국제 유가가 오르면 휘발유, 경유 등 운송 연료 가격이 상승할 수 있어요!",
-    "원유 가격 상승은 수입 물가 상승으로 이어져 전반적인 생활비 부담을 늘릴 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "wti"
   },
-  "fact_hash": "41313002d7575baa070a51d98f25c36e221c00d0"
+  "fact_hash": "14cc4466ec368b36e3e4b136da5130422cc7cf8c"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-19T03:17:13.883666+00:00"
+  "at": "2026-08-19T09:55:49.219673+00:00"
  },
- "glossary": [
-  {
-   "term": "연준",
-   "easy": "미국의 돈을 관리하는 중앙은행(Fed)이에요.",
-   "example": "미국의 이자를 여기서 정해요."
-  },
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  },
-  {
-   "term": "채권",
-   "easy": "돈을 빌리면서 '언제까지 갚겠다'고 써주는 증서예요.",
-   "example": "정부나 기업이 돈을 모을 때 발행해요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "cea83213c8906724e",
