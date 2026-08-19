@@ -52,8 +52,44 @@
    "at": "2026-08-16T11:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-19T02:03:57.402732+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Boeing contract offer  just not enough , some SPEEA workers say",
+    "Pacific Sage Partners LLC Invests $1 . 86 Million in The Boeing Company $BA"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Boeing contract…",
+   "one_liner": "Boeing contract offer  just not enough , some…",
+   "why_now": null,
+   "details": [
+    "Boeing contract offer  just not enough , some SPEEA workers say",
+    "Pacific Sage Partners LLC Invests $1 . 86 Million in The Boeing Company $BA"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "fa84475eaa6748aa066b552b8ed51dbe599a6b39"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T02:03:57.402660+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -83,8 +119,8 @@
    ]
   },
   {
-   "id": "cc0d626f989f19c1a",
-   "title": "Where Will Netflix Stock Be in 5 Years ?",
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "category": "EARNINGS",
    "shared": []
   }

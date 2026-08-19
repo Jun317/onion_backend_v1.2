@@ -9,11 +9,21 @@
  "entity_keys": [
   "NKE"
  ],
- "seen_sources": 2,
- "importance": 90,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-08-18T22:46:25.786836+00:00",
- "last_update": "2026-08-18T22:46:25.790025+00:00",
+ "last_update": "2026-08-19T01:58:12.272401+00:00",
  "members": [
+  {
+   "id": "bef7a9abb22d20d5776ed11b41a56b5dbe7d1090",
+   "source": "vladtv.com",
+   "tier": "wire",
+   "url": "https://www.vladtv.com/article/315791/vladstocks-nike-stock-hits-a-12-year-low-am-i-buying-shares",
+   "title": "EXCLUSIVE : VladStocks : Nike Stock Hits a 12 - Year Low , Am I Buying Shares ?",
+   "published_at": "2026-08-19T01:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9373
+  },
   {
    "id": "929a4e141c59dc7f946813d915e0611acb097c90",
    "source": "finance.yahoo.com",
@@ -22,7 +32,7 @@
    "title": "Nike Historic Selloff Just Sent Another Warning",
    "published_at": "2026-08-18T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.962
+   "sim_to_centroid": 0.9583
   },
   {
    "id": "439f01a479d0043a15456b89b1f00fc0e06cab94",
@@ -32,11 +42,18 @@
    "title": "Nike Just Hit a 12 - Year Low . Is the Bottom Near ?",
    "published_at": "2026-08-18T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9621
+   "sim_to_centroid": 0.9643
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "EXCLUSIVE : VladStocks : Nike Stock Hits a 12 - Year Low , Am I Buying Shares ?",
+   "source": "vladtv.com",
+   "url": "https://www.vladtv.com/article/315791/vladstocks-nike-stock-hits-a-12-year-low-am-i-buying-shares",
+   "at": "2026-08-19T01:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Nike Historic Selloff Just Sent Another Warning",
@@ -52,8 +69,52 @@
    "at": "2026-08-18T20:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-19T02:00:25.429337+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "EXCLUSIVE : VladStocks : Nike Stock Hits a 12 - Year Low , Am I Buying Shares ?",
+    "Nike Historic Selloff Just Sent Another Warning",
+    "Nike Just Hit a 12 - Year Low . Is the Bottom Near ?"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n    \"title\": \"나이키 주가 12년 만에 최저\",\n    \"one_liner\": \"나이키 주가가 12년 만에 가장 낮은 수준으로 떨어졌어요.\",\n    \"why_now\": \"주가가 크게 떨어지면 회사의 현재 상황이나 미래 전망에 대한 우려가 커지고 있다는 신호일 수 있어요.\",\n    \"impact_line\": \"나이키 관련 상품 구매를 고려한다면 가격 변동을 지켜볼 수 있어요.\",\n    \"details\": [\n        \"나이키 주가가 12년 만에 최저치를 기록했어요.\",\n        \"이는 나이키의 주가 하락이 심상치 않음을 보여주는 신호로 해석될 수 있어요.\",\n        \"현재 주가 수준이 바닥인지에 대한 시장의 관심이 높아지고 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"나이키의 실적 부진이 계속되면 관련 상품의 가격이 조정될 수 있어요!\",\n        \"주가 하락이 지속되면 투자자들의 불안감이 커질 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"주가\",\n            \"easy\": \"회사가 발행한 주식의 가격을 말해요.\",\n            \"example\": \"삼성전자 주가가 많이 올랐다는 뉴스를 봤어요.\"\n        }\n    ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(56)"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "EXCLUSIVE :…",
+   "one_liner": "EXCLUSIVE : VladStocks : Nike Stock Hits a 12 -…",
+   "why_now": null,
+   "details": [
+    "EXCLUSIVE : VladStocks : Nike Stock Hits a 12 - Year Low , Am I Buying Shares ?",
+    "Nike Historic Selloff Just Sent Another Warning",
+    "Nike Just Hit a 12 - Year Low . Is the Bottom Near ?"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "dc632f57ff4c1870ef64d8d37c09ea41c42efd70"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(56)\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T02:00:25.429234+00:00"
+ },
  "glossary": [],
  "related": [
   {

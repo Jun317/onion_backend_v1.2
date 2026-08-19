@@ -768,8 +768,48 @@
    "at": "2026-08-18T08:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-19T01:58:27.611752+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Vance Pitches New Objective for Iran War : Lower U . S . Gas Prices",
+    "Oil rises as US - Iran peace hopes fade",
+    "Gold , silver prices fall as investors weigh Fed rate outlook , rising oil and US - Iran tensions",
+    "Yields Rose and Tensions With Iran Remained High . Stocks Fell .",
+    "Iran threatens military attacks while US rules out extending temporary cease - fire"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Vance Pitches New…",
+   "one_liner": "Vance Pitches New Objective for Iran War : Lower…",
+   "why_now": null,
+   "details": [
+    "Vance Pitches New Objective for Iran War : Lower U . S . Gas Prices",
+    "Oil rises as US - Iran peace hopes fade",
+    "Gold , silver prices fall as investors weigh Fed rate outlook , rising oil and US - Iran tensions"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "c14cbb9816bceba8a236575a11d1f0613131805b"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T01:58:27.611616+00:00"
+ },
  "glossary": [],
  "related": [
   {

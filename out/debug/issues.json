@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T23:43:19.054210+00:00",
+ "generated_at": "2026-08-19T02:05:26.942576+00:00",
  "issues": [
   {
    "id": "ccec1fdb78ce6d4ce",
@@ -222,8 +222,8 @@
     "TAIWAN"
    ],
    "created_at": "2026-08-09T09:08:23.143075+00:00",
-   "last_update": "2026-08-18T20:45:46.170042+00:00",
-   "members": 25,
+   "last_update": "2026-08-19T01:58:12.272501+00:00",
+   "members": 26,
    "llm_title": "대만 주변 중국 군사 활동 감지",
    "one_liner": "대만 국방부가 중국 군용기 2대와 군함 9척이 대만 주변에서 활동하는 것을 감지했어요.",
    "llm_model": "gemini-2.5-flash-lite",
@@ -306,10 +306,10 @@
    "created_at": "2026-08-18T09:54:59.449071+00:00",
    "last_update": "2026-08-18T23:43:16.810429+00:00",
    "members": 44,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "llm_title": "Vance Pitches New…",
+   "one_liner": "Vance Pitches New Objective for Iran War : Lower…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "cbf33e8cda15e40a9",
@@ -343,26 +343,6 @@
    "llm_title": "미국 금융 소식",
    "one_liner": "미국에서 여러 금융 관련 뉴스가 나왔어요",
    "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "e7dc95bcb919f5113",
-   "title": "메타케어 2026-2Q 실적 공시",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "official_event",
-   "seen_sources": 23,
-   "importance": 115,
-   "entity_keys": [
-    "META",
-    "SEC"
-   ],
-   "created_at": "2026-08-13T07:47:46.176260+00:00",
-   "last_update": "2026-08-14T23:44:06.076364+00:00",
-   "members": 44,
-   "llm_title": "메타랩스·메타케어 실적 발표",
-   "one_liner": "메타랩스와 메타케어가 2026년 1분기 실적을 발표했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -481,6 +461,26 @@
    "members": 50,
    "llm_title": "미국 주택담보대출 금리 하락",
    "one_liner": "미국의 주택담보대출 금리가 6주 만에 처음으로 내려갔어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "e7dc95bcb919f5113",
+   "title": "메타케어 2026-2Q 실적 공시",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "official_event",
+   "seen_sources": 23,
+   "importance": 110,
+   "entity_keys": [
+    "META",
+    "SEC"
+   ],
+   "created_at": "2026-08-13T07:47:46.176260+00:00",
+   "last_update": "2026-08-14T23:44:06.076364+00:00",
+   "members": 44,
+   "llm_title": "메타랩스·메타케어 실적 발표",
+   "one_liner": "메타랩스와 메타케어가 2026년 1분기 실적을 발표했어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -610,9 +610,9 @@
    "created_at": "2026-08-17T09:06:25.600793+00:00",
    "last_update": "2026-08-18T08:59:41.403946+00:00",
    "members": 3,
-   "llm_title": "Japanese bond sell -…",
-   "one_liner": "Japanese bond sell - off ignites as bets surge…",
-   "llm_model": "template",
+   "llm_title": "일본 금리 인상 가능성",
+   "one_liner": "일본 중앙은행이 금리를 올릴 수 있다는 전망이 나오고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -944,8 +944,8 @@
    "created_at": "2026-08-14T22:46:12.667641+00:00",
    "last_update": "2026-08-18T22:46:25.779992+00:00",
    "members": 6,
-   "llm_title": "Broadcom AI…",
-   "one_liner": "Broadcom AI Financing Could Reach $370 Billion .…",
+   "llm_title": "Broadcom Brilliant…",
+   "one_liner": "Broadcom Brilliant Strategy Keeps Me Buying ,…",
    "llm_model": "template",
    "in_review": true
   },
@@ -963,8 +963,8 @@
    "created_at": "2026-08-17T23:45:57.349621+00:00",
    "last_update": "2026-08-18T19:47:02.260138+00:00",
    "members": 4,
-   "llm_title": "Disney Has Restored…",
-   "one_liner": "Disney Has Restored My Hope For Star Wars : The…",
+   "llm_title": "The Latest : Disney…",
+   "one_liner": "The Latest : Disney sues Trump FCC over…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1068,6 +1068,45 @@
    "in_review": false
   },
   {
+   "id": "cb22ab4362dc7db3b",
+   "title": "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
+   "category": "COMMODITY",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 95,
+   "entity_keys": [
+    "FED",
+    "IRAN"
+   ],
+   "created_at": "2026-08-19T01:58:12.278381+00:00",
+   "last_update": "2026-08-19T01:58:12.278381+00:00",
+   "members": 2,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
+   "id": "c54751c7b590be42b",
+   "title": "Nike Just Hit a 12 - Year Low . Is the Bottom Near ?",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 95,
+   "entity_keys": [
+    "NKE"
+   ],
+   "created_at": "2026-08-18T22:46:25.786836+00:00",
+   "last_update": "2026-08-19T01:58:12.272401+00:00",
+   "members": 3,
+   "llm_title": "EXCLUSIVE :…",
+   "one_liner": "EXCLUSIVE : VladStocks : Nike Stock Hits a 12 -…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c4af375582362ae09",
    "title": "Why Intel Stock Is Falling Today | The Motley Fool",
    "category": "MARKET",
@@ -1081,10 +1120,10 @@
    "created_at": "2026-08-18T22:46:25.789230+00:00",
    "last_update": "2026-08-18T23:43:16.538262+00:00",
    "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "llm_title": "Intel ( NASDAQ :…",
+   "one_liner": "Intel ( NASDAQ : INTC ) Shares Down 6 . 6 % –…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c654fe41e8f3b14e8",
@@ -1272,6 +1311,32 @@
    "in_review": true
   },
   {
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 22,
+   "importance": 90,
+   "entity_keys": [
+    "AAPL",
+    "AMZN",
+    "BRK",
+    "CHINA",
+    "GOOGL",
+    "META",
+    "MSFT",
+    "NVDA"
+   ],
+   "created_at": "2026-08-09T22:56:13.231717+00:00",
+   "last_update": "2026-08-19T01:58:12.271928+00:00",
+   "members": 40,
+   "llm_title": "Why Google is making…",
+   "one_liner": "Why Google is making headlines in Berkshire…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "cc0d626f989f19c1a",
    "title": "Where Will Netflix Stock Be in 5 Years ?",
    "category": "EARNINGS",
@@ -1287,8 +1352,8 @@
    "created_at": "2026-08-11T21:11:00.097869+00:00",
    "last_update": "2026-08-18T23:43:16.794969+00:00",
    "members": 23,
-   "llm_title": "Where Will Netflix…",
-   "one_liner": "Where Will Netflix Stock Be in 5 Years ?",
+   "llm_title": "ChatGPT and…",
+   "one_liner": "ChatGPT and Billionaire Bill Ackman Agree on…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1306,52 +1371,8 @@
    "created_at": "2026-08-12T23:07:09.503222+00:00",
    "last_update": "2026-08-18T23:43:16.760639+00:00",
    "members": 19,
-   "llm_title": "Bolt Metals to…",
-   "one_liner": "Bolt Metals to Rebrand as 26 Metals Inc . and…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c54751c7b590be42b",
-   "title": "Nike Just Hit a 12 - Year Low . Is the Bottom Near ?",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 90,
-   "entity_keys": [
-    "NKE"
-   ],
-   "created_at": "2026-08-18T22:46:25.786836+00:00",
-   "last_update": "2026-08-18T22:46:25.790025+00:00",
-   "members": 2,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
-   "id": "cb79900ede6a04772",
-   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 21,
-   "importance": 90,
-   "entity_keys": [
-    "AAPL",
-    "AMZN",
-    "BRK",
-    "GOOGL",
-    "META",
-    "MSFT",
-    "NVDA"
-   ],
-   "created_at": "2026-08-09T22:56:13.231717+00:00",
-   "last_update": "2026-08-18T22:46:25.781569+00:00",
-   "members": 39,
-   "llm_title": "Why Google is making…",
-   "one_liner": "Why Google is making headlines in Berkshire…",
+   "llm_title": "Canada considering…",
+   "one_liner": "Canada considering reduced auto , metals tariffs…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1369,27 +1390,8 @@
    "created_at": "2026-08-18T13:15:46.914065+00:00",
    "last_update": "2026-08-18T22:46:25.778538+00:00",
    "members": 9,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
-   "id": "c02f2d27bf5ad855f",
-   "title": "LTC Properties ( NYSE : LTC ) Director David Gruber Acquires 500 Shares",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 8,
-   "importance": 90,
-   "entity_keys": [
-    "UBER"
-   ],
-   "created_at": "2026-08-15T11:41:02.492904+00:00",
-   "last_update": "2026-08-18T01:56:05.590286+00:00",
-   "members": 11,
-   "llm_title": "Uber Technologies ,…",
-   "one_liner": "Uber Technologies , Inc . $UBER Shares Acquired…",
+   "llm_title": "Home Depot sales…",
+   "one_liner": "Home Depot sales lifted by customers focusing on…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1688,16 +1690,16 @@
    "category": "GEO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 17,
+   "seen_sources": 68,
    "importance": 85,
    "entity_keys": [],
    "created_at": "2026-08-18T20:45:46.178803+00:00",
-   "last_update": "2026-08-18T23:43:16.816844+00:00",
-   "members": 19,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "last_update": "2026-08-19T01:58:12.277163+00:00",
+   "members": 50,
+   "llm_title": "Three Teens Work For…",
+   "one_liner": "Three Teens Work For Their Dream Pool , Then…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c343e9c838d765a34",
@@ -1730,6 +1732,25 @@
    "members": 50,
    "llm_title": "Why the rent - vs -…",
    "one_liner": "Why the rent - vs - buy math is starting to turn",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c02f2d27bf5ad855f",
+   "title": "LTC Properties ( NYSE : LTC ) Director David Gruber Acquires 500 Shares",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 8,
+   "importance": 85,
+   "entity_keys": [
+    "UBER"
+   ],
+   "created_at": "2026-08-15T11:41:02.492904+00:00",
+   "last_update": "2026-08-18T01:56:05.590286+00:00",
+   "members": 11,
+   "llm_title": "Uber Technologies ,…",
+   "one_liner": "Uber Technologies , Inc . $UBER Shares Acquired…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1876,10 +1897,10 @@
    "created_at": "2026-08-17T20:49:21.531739+00:00",
    "last_update": "2026-08-18T23:43:16.821646+00:00",
    "members": 50,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "llm_title": "Big four banks :…",
+   "one_liner": "Big four banks : Home loan applications plunge…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "cb89b0a34f1563e5d",
@@ -1895,8 +1916,8 @@
    "created_at": "2026-08-15T11:41:02.493253+00:00",
    "last_update": "2026-08-18T23:43:16.788751+00:00",
    "members": 5,
-   "llm_title": "USA Financial…",
-   "one_liner": "USA Financial Formulas Invests $538 , 000 in…",
+   "llm_title": "Not Shell , Not…",
+   "one_liner": "Not Shell , Not Chevron : These Are The Only Top…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1914,10 +1935,10 @@
    "created_at": "2026-08-18T22:46:25.786502+00:00",
    "last_update": "2026-08-18T23:43:16.634390+00:00",
    "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "llm_title": "Tesla Stock Slips as…",
+   "one_liner": "Tesla Stock Slips as 312 - Times Valuation Faces…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c14df35decb6bd4bf",
@@ -1970,57 +1991,6 @@
    "llm_title": "Cory Doctorow :…",
    "one_liner": "Cory Doctorow :  Enshittification  explains why…",
    "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c1ed82e374bd390d6",
-   "title": "McDonald Faces Competition As Burger King Sales Rise",
-   "category": "POLICY",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 51,
-   "importance": 80,
-   "entity_keys": [],
-   "created_at": "2026-08-14T12:03:19.864296+00:00",
-   "last_update": "2026-08-14T23:44:06.102048+00:00",
-   "members": 50,
-   "llm_title": "미국 소비자 물가",
-   "one_liner": "미국의 소비자 물가가 예상과 다르게 떨어졌어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "cffbf83cd10b67760",
-   "title": "Too far , too fast : alarm as NDIS revamp moves closer",
-   "category": "GEO",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 43,
-   "importance": 80,
-   "entity_keys": [],
-   "created_at": "2026-08-14T12:03:19.865665+00:00",
-   "last_update": "2026-08-14T23:44:06.101789+00:00",
-   "members": 50,
-   "llm_title": "달러화 가치 하락",
-   "one_liner": "미국 달러화 가치가 떨어졌어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "cb4560c07ef5cf64c",
-   "title": "Ministry of Economy eliminated 2 million lei turnover condition from SME Eco - Tech programme",
-   "category": "POLICY",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 32,
-   "importance": 80,
-   "entity_keys": [],
-   "created_at": "2026-08-14T12:03:19.865437+00:00",
-   "last_update": "2026-08-14T23:44:06.094973+00:00",
-   "members": 46,
-   "llm_title": "정부 정책",
-   "one_liner": "각국 정부가 여러 정책을 발표했어요",
-   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -2121,6 +2091,25 @@
    "in_review": true
   },
   {
+   "id": "ec3f9f86b4e98dcec",
+   "title": "카카오 2026-2Q 실적 공시",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "official_event",
+   "seen_sources": 0,
+   "importance": 75,
+   "entity_keys": [
+    "KRX:035720"
+   ],
+   "created_at": "2026-08-19T01:25:44.361851+00:00",
+   "last_update": "2026-08-19T01:58:02.007732+00:00",
+   "members": 0,
+   "llm_title": "카카오 매출액 19420.8억원",
+   "one_liner": "카카오 매출액 19420.8억원으로 발표됐어요",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c64b64341f156ef6e",
    "title": "Home Depot , Inc . Q2 Income Advances",
    "category": "EARNINGS",
@@ -2153,10 +2142,10 @@
    "created_at": "2026-08-18T20:45:46.178458+00:00",
    "last_update": "2026-08-18T20:45:46.179832+00:00",
    "members": 2,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "llm_title": "Boeing contract…",
+   "one_liner": "Boeing contract offer  just not enough , some…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c90d0c668528ebeca",
@@ -2353,6 +2342,57 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
+   "in_review": true
+  },
+  {
+   "id": "c1ed82e374bd390d6",
+   "title": "McDonald Faces Competition As Burger King Sales Rise",
+   "category": "POLICY",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 51,
+   "importance": 75,
+   "entity_keys": [],
+   "created_at": "2026-08-14T12:03:19.864296+00:00",
+   "last_update": "2026-08-14T23:44:06.102048+00:00",
+   "members": 50,
+   "llm_title": "미국 소비자 물가",
+   "one_liner": "미국의 소비자 물가가 예상과 다르게 떨어졌어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "cffbf83cd10b67760",
+   "title": "Too far , too fast : alarm as NDIS revamp moves closer",
+   "category": "GEO",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 43,
+   "importance": 75,
+   "entity_keys": [],
+   "created_at": "2026-08-14T12:03:19.865665+00:00",
+   "last_update": "2026-08-14T23:44:06.101789+00:00",
+   "members": 50,
+   "llm_title": "달러화 가치 하락",
+   "one_liner": "미국 달러화 가치가 떨어졌어요",
+   "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "cb4560c07ef5cf64c",
+   "title": "Ministry of Economy eliminated 2 million lei turnover condition from SME Eco - Tech programme",
+   "category": "POLICY",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 32,
+   "importance": 75,
+   "entity_keys": [],
+   "created_at": "2026-08-14T12:03:19.865437+00:00",
+   "last_update": "2026-08-14T23:44:06.094973+00:00",
+   "members": 46,
+   "llm_title": "정부 정책",
+   "one_liner": "각국 정부가 여러 정책을 발표했어요",
+   "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
   },
   {
@@ -2896,6 +2936,25 @@
    "one_liner": "미국이 캐나다 제품에 50%의 관세를 부과했어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
+  },
+  {
+   "id": "c6b9ef7d1290c5627",
+   "title": "Costco Is a Simple Investment Now",
+   "category": "EARNINGS",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 70,
+   "entity_keys": [
+    "COST"
+   ],
+   "created_at": "2026-08-19T01:58:12.278203+00:00",
+   "last_update": "2026-08-19T01:58:12.278203+00:00",
+   "members": 2,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
   },
   {
    "id": "cd4458e7b8d8732c3",
@@ -5199,40 +5258,6 @@
    "in_review": true
   },
   {
-   "id": "c8e43dfa4b6d01c5e",
-   "title": "780 private healthcare facilities turn to solar in cost - cutting push",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 37,
-   "importance": 50,
-   "entity_keys": [],
-   "created_at": "2026-08-14T12:03:19.864517+00:00",
-   "last_update": "2026-08-14T23:44:06.102597+00:00",
-   "members": 50,
-   "llm_title": "Energy firms post…",
-   "one_liner": "Energy firms post billions in profits as…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cbdc53c9884cb51ea",
-   "title": "Analyzing Simon Property Group ( NYSE : SPG ) and Champion Real Estate Investment Trust ( OTCMKTS : CMPNF )",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 6,
-   "importance": 50,
-   "entity_keys": [],
-   "created_at": "2026-08-14T12:03:19.864599+00:00",
-   "last_update": "2026-08-14T23:44:06.101618+00:00",
-   "members": 50,
-   "llm_title": "Analyzing Simon…",
-   "one_liner": "Analyzing Simon Property Group ( NYSE : SPG )…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "e58252720d6b2373d",
    "title": "고려아연 2026-1Q 실적 공시",
    "category": "EARNINGS",
@@ -5648,6 +5673,40 @@
    "llm_title": "주식 시장",
    "one_liner": "미국과 유럽의 주식 시장에서 다양한 소식이 있어요.",
    "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "c8e43dfa4b6d01c5e",
+   "title": "780 private healthcare facilities turn to solar in cost - cutting push",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 37,
+   "importance": 45,
+   "entity_keys": [],
+   "created_at": "2026-08-14T12:03:19.864517+00:00",
+   "last_update": "2026-08-14T23:44:06.102597+00:00",
+   "members": 50,
+   "llm_title": "Energy firms post…",
+   "one_liner": "Energy firms post billions in profits as…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "cbdc53c9884cb51ea",
+   "title": "Analyzing Simon Property Group ( NYSE : SPG ) and Champion Real Estate Investment Trust ( OTCMKTS : CMPNF )",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 6,
+   "importance": 45,
+   "entity_keys": [],
+   "created_at": "2026-08-14T12:03:19.864599+00:00",
+   "last_update": "2026-08-14T23:44:06.101618+00:00",
+   "members": 50,
+   "llm_title": "Analyzing Simon…",
+   "one_liner": "Analyzing Simon Property Group ( NYSE : SPG )…",
+   "llm_model": "template",
    "in_review": true
   },
   {

@@ -70,8 +70,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-18T09:01:13.234686+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-19T01:59:11.156433+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -82,25 +82,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"일본 금리 인상 가능성\",\n\"one_liner\": \"일본 중앙은행이 금리를 올릴 수 있다는 전망이 나오고 있어요.\",\n\"why_now\": \"일본 금리가 오르면 전 세계 금융 시장에 영향을 줄 수 있어요.\",\n\"impact_line\": \"일본 엔화 가치가 오르면서 해외여행이나 직구가 비싸질 수 있어요.\",\n\"details\": [\n\"일본 국채 가격이 떨어지고 있어요.\",\n\"일본 중앙은행이 금리를 올릴 것이라는 전망이 늘고 있어요.\",\n\"일부에서는 모든 회의 때마다 금리를 올려야 한다고 주장해요.\",\n\"일부에서는 9월에 금리를 올리고 더 빠르게 올릴 가능성도 있다고 봐요.\"\n],\n\"visual_type\": \"usdkrw\",\n\"effects\": [\n\"일본 엔화 가치가 오를 수 있어요!\",\n\"일본 경제에 투자하는 것이 더 어려워질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"일본 중앙은행\",\n\"easy\": \"일본의 돈과 금융을 관리하는 기관이에요.\",\n\"example\": \"일본 중앙은행은 금리를 정해 경제에 영향을 줘요.\"\n},\n{\n\"term\": \"국채\",\n\"easy\": \"나라에서 돈을 빌리기 위해 발행하는 증서예요.\",\n\"example\": \"국채 가격이 떨어지면 금리가 오르는 것으로 볼 수 있어요.\"\n}\n],\n\"impact_line\": \"일본 엔화 가치가 오르면서 해외여행이나 직구가 비싸질 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Japanese bond sell -…",
-   "one_liner": "Japanese bond sell - off ignites as bets surge…",
-   "why_now": null,
+   "title": "일본 금리 인상 가능성",
+   "one_liner": "일본 중앙은행이 금리를 올릴 수 있다는 전망이 나오고 있어요.",
+   "why_now": "일본 금리가 오르면 전 세계 금융 시장에 영향을 줄 수 있어요.",
    "details": [
-    "Japanese bond sell - off ignites as bets surge on BOJ rate hike | The Asahi Shimbun : Breaking News , Japan News and Analysis",
-    "Bank of Japan should raise rates at every meeting , ex - currency chief says",
-    "Global Market | Bank of Japan could raise rates in September , eye faster hikes : Reports"
+    "일본 국채 가격이 떨어지고 있어요.",
+    "일본 중앙은행이 금리를 올릴 것이라는 전망이 늘고 있어요.",
+    "일부에서는 모든 회의 때마다 금리를 올려야 한다고 주장해요.",
+    "일부에서는 9월에 금리를 올리고 더 빠르게 올릴 가능성도 있다고 봐요."
    ],
-   "effects": [],
+   "effects": [
+    "일본 엔화 가치가 오를 수 있어요!",
+    "일본 경제에 투자하는 것이 더 어려워질 수 있어요!"
+   ],
    "visual_type": "usdkrw"
   },
   "fact_hash": "4638cbe5df0dde3ad721b10111a1326a36b55de4"
@@ -109,7 +111,28 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-18T09:01:13.234557+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리 인상",
+   "easy": "이자의 기준을 올리는 거예요.",
+   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "국채",
+   "easy": "정부가 돈을 빌리며 써준 '나라의 차용증'이에요.",
+   "example": "여기 붙는 이자가 시장 이자의 기준이 돼요."
+  }
+ ],
  "related": [
   {
    "id": "c71b0b5d782052f63",

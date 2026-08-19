@@ -171,8 +171,48 @@
    "at": "2026-08-18T11:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-19T02:01:30.065405+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Home Depot sales lifted by customers focusing on smaller projects , but sticks with previous outlook",
+    "Home Depot beats quarterly estimates on smaller project demand",
+    "Home Depot rides steady repair demand as housing market remains subdued",
+    "Home Depot Just Flashed a Housing Market Warning",
+    "Is Home Depot a Buy After Its Latest Report ?"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Home Depot sales…",
+   "one_liner": "Home Depot sales lifted by customers focusing on…",
+   "why_now": null,
+   "details": [
+    "Home Depot sales lifted by customers focusing on smaller projects , but sticks with previous outlook",
+    "Home Depot beats quarterly estimates on smaller project demand",
+    "Home Depot rides steady repair demand as housing market remains subdued"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "a6d2bf21376288492611c02afc6b2ce491128bd8"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T02:01:30.065348+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -204,8 +244,8 @@
    ]
   },
   {
-   "id": "cc0d626f989f19c1a",
-   "title": "Where Will Netflix Stock Be in 5 Years ?",
+   "id": "cb79900ede6a04772",
+   "title": "Berkshire Hathaway killed a 14 - quarter selling streak with $23 . 5B of stock buys $10B went into 1 company at a price you couldnt get",
    "category": "EARNINGS",
    "shared": []
   }

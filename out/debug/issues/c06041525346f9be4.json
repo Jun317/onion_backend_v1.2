@@ -866,8 +866,48 @@
    "at": "2026-08-18T22:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-19T02:02:55.137402+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Big four banks : Home loan applications plunge after May budget",
+    "Big four banks : Home loan applications plunge after May budget | The Border Mail",
+    "QuantumScape Falls 6 %, Enovix Sinks 14 %, Solid Power Drops 4 % as Yields at 19 - Year Highs Hit Speculative Growth",
+    "Bangkok Post - Thai bank lending picks up , bad loans edge down",
+    "Reserve Bank Of India Faces  Cash Paradox  Despite Digital Payment Growth"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Big four banks :…",
+   "one_liner": "Big four banks : Home loan applications plunge…",
+   "why_now": null,
+   "details": [
+    "Big four banks : Home loan applications plunge after May budget",
+    "Big four banks : Home loan applications plunge after May budget | The Border Mail",
+    "QuantumScape Falls 6 %, Enovix Sinks 14 %, Solid Power Drops 4 % as Yields at 19 - Year Highs Hit Speculative Growth"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "ec68d8c88ee7a7d98e704e88fdbf6f42ead0118c"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T02:02:55.137311+00:00"
+ },
  "glossary": [],
  "related": [
   {
