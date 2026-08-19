@@ -239,49 +239,51 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-19T07:12:41.421260+00:00",
+  "created_at": "2026-08-19T10:51:58.921421+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
    "headlines": [
-    "Cash expected to make up just 4 % of payments by 2035 as digital innovation grows",
+    "Inflation Rises 1 . 2 % In July",
+    "UK inflation rises 2 . 9 % in July on higher energy bills",
+    "Surging united kingdom energy prices push inflation to highest level since March",
     "Inflation outpaces wage growth for the fourth month in a row",
-    "Inflation Rises 1 . 2 % In July"
+    "Jump in energy bills drives inflation to 2 . 9 % - the highest rate for four months"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"물가 상승, 임금 상승 추월\",\n    \"one_liner\": \"물가가 임금보다 빠르게 올라 서민들의 살림살이가 더 어려워졌어요.\",\n    \"why_now\": \"물가가 계속 오르면 같은 돈으로 살 수 있는 물건이 줄어 가계 부담이 커져요.\",\n    \"impact_line\": \"장바구니 물가가 올라 생활비 부담이 커질 수 있어요.\",\n    \"details\": [\n        \"7월 물가가 1.2% 올랐어요.\",\n        \"물가 상승률이 임금 상승률을 앞선 것이 4개월째 이어지고 있어요.\",\n        \"2035년에는 결제 수단에서 현금이 차지하는 비중이 4%까지 줄어들 것으로 예상돼요.\"\n    ],\n    \"visual_type\": \"kr_cpi_yoy\",\n    \"effects\": [\n        \"실질 소득이 줄어 소비 여력이 감소할 수 있어요!\",\n        \"현금 없는 사회로의 전환이 가속화될 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"물가\",\n            \"easy\": \"물건이나 서비스의 가격 수준을 말해요.\",\n            \"example\": \"물가가 오르면 같은 돈으로 살 수 있는 물건이 줄어요.\"\n        },\n        {\n            \"term\": \"임금\",\n            \"easy\": \"일한 대가로 받는 돈을 말해요.\",\n            \"example\": \"임금이 오르면 소득이 늘어나 생활이 나아질 수 있어요.\"\n        }\n    ]\n}",
+  "raw_response": "{\n  \"title\": \"영국 물가 상승\",\n  \"one_liner\": \"영국의 물가 상승률이 7월에 2.9%로 올랐어요.\",\n  \"why_now\": \"물가가 오르면 같은 돈으로 살 수 있는 물건이 줄어 생활비 부담이 커지는 게 보통이에요.\",\n  \"impact_line\": \"장바구니 물가가 올라 생활비 부담이 커질 수 있어요.\",\n  \"details\": [\n    \"영국의 7월 물가 상승률이 2.9%를 기록했어요.\",\n    \"이는 4개월 만에 가장 높은 수준이에요.\",\n    \"특히 에너지 요금 인상이 물가 상승을 이끌었어요.\",\n    \"물가 상승률이 임금 상승률을 앞질렀어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"에너지 요금 상승으로 인해 생활비 부담이 더 커질 수 있어요!\",\n    \"물가 상승이 계속되면 영국 중앙은행이 금리를 올릴 가능성이 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"물가 상승률\",\n      \"easy\": \"지난달보다 물건 가격이 얼마나 올랐는지를 백분율로 나타낸 거예요.\",\n      \"example\": \"물가 상승률이 높으면 같은 돈으로 살 수 있는 물건이 줄어요.\"\n    },\n    {\n      \"term\": \"임금 상승률\",\n      \"easy\": \"지난달보다 월급이 얼마나 올랐는지를 백분율로 나타낸 거예요.\",\n      \"example\": \"임금 상승률이 물가 상승률보다 높으면 실질 소득이 늘어나는 거예요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "입력에 없는 숫자: [1.2]"
+     "입력에 없는 숫자: [2.9]"
     ]
    },
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [1.2]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
   "output": {
-   "title": "Cash expected to…",
-   "one_liner": "Cash expected to make up just 4 % of payments by…",
+   "title": "Inflation Rises 1 .…",
+   "one_liner": "Inflation Rises 1 . 2 % In July",
    "why_now": null,
    "details": [
-    "Cash expected to make up just 4 % of payments by 2035 as digital innovation grows",
-    "Inflation outpaces wage growth for the fourth month in a row",
-    "Inflation Rises 1 . 2 % In July"
+    "Inflation Rises 1 . 2 % In July",
+    "UK inflation rises 2 . 9 % in July on higher energy bills",
+    "Surging united kingdom energy prices push inflation to highest level since March"
    ],
    "effects": [],
    "visual_type": "us_cpi_yoy"
   },
-  "fact_hash": "a05c66f6e0b236161ca7c1af0edf13735ef94f0a"
+  "fact_hash": "68194862d45f1a9358f3dc2d937300298d9e43cd"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.2]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.2]\"]}]}",
-  "at": "2026-08-19T07:12:41.420937+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [2.9]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T10:51:58.921220+00:00"
  },
  "glossary": [],
  "related": [
