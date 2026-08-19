@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 4,
- "importance": 80,
+ "seen_sources": 5,
+ "importance": 85,
  "created_at": "2026-08-19T03:16:54.791771+00:00",
- "last_update": "2026-08-19T05:53:03.023224+00:00",
+ "last_update": "2026-08-19T07:59:47.799023+00:00",
  "members": [
+  {
+   "id": "b8b8d4655e4960c8e52bdd77bf4b366ade5d172f",
+   "source": "ft.lk",
+   "tier": "wire",
+   "url": "https://www.ft.lk/front-page/Four-private-bank-officials-remanded-over-alleged-1-b-import-payments-fraud/44-796138",
+   "title": "Four private bank officials remanded over alleged $ 1 b import payments fraud",
+   "published_at": "2026-08-19T07:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8773
+  },
   {
    "id": "831f727d56fb3f1300103f5c3c27cd648f47833d",
    "source": "siasat.com",
@@ -20,7 +30,7 @@
    "title": "Unseen , unheard : The Jeedimetla migrants building a pharma hub",
    "published_at": "2026-08-19T03:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8695
+   "sim_to_centroid": 0.871
   },
   {
    "id": "d2d8b20e54f02ece244fefb0535a53b6301a1c32",
@@ -30,7 +40,7 @@
    "title": "Data Center Projects Boost Port Of Los Angeles July",
    "published_at": "2026-08-19T02:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8645
+   "sim_to_centroid": 0.8642
   },
   {
    "id": "01d41367dd71d544b63e31ff992f8d5a25494626",
@@ -40,7 +50,7 @@
    "title": "CBP officers seize $67 million in illegal drugs at San Diego border ports , DHS says",
    "published_at": "2026-08-19T02:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9606
+   "sim_to_centroid": 0.9604
   },
   {
    "id": "b76f2ce07538826d306fb2e169a489f1d620e904",
@@ -50,7 +60,7 @@
    "title": "San Diego County Supervisors end gun range agreements with ICE and CBP",
    "published_at": "2026-08-19T02:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.956
+   "sim_to_centroid": 0.9522
   },
   {
    "id": "e344c06670f1f5170601f980ab0cba0f78dcfec8",
@@ -60,11 +70,18 @@
    "title": "ONGC commissions gas evacuation facilities in Golaghat dist",
    "published_at": "2026-08-18T20:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8622
+   "sim_to_centroid": 0.8626
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Four private bank officials remanded over alleged $ 1 b import payments fraud",
+   "source": "ft.lk",
+   "url": "https://www.ft.lk/front-page/Four-private-bank-officials-remanded-over-alleged-1-b-import-payments-fraud/44-796138",
+   "at": "2026-08-19T07:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Unseen , unheard : The Jeedimetla migrants building a pharma hub",
@@ -103,14 +120,16 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-19T04:57:56.861382+00:00",
+  "created_at": "2026-08-19T08:00:20.683182+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "Four private bank officials remanded over alleged $ 1 b import payments fraud",
     "Unseen , unheard : The Jeedimetla migrants building a pharma hub",
     "Data Center Projects Boost Port Of Los Angeles July",
-    "San Diego County Supervisors end gun range agreements with ICE and CBP"
+    "San Diego County Supervisors end gun range agreements with ICE and CBP",
+    "ONGC commissions gas evacuation facilities in Golaghat dist"
    ],
    "official_lines": []
   },
@@ -124,30 +143,24 @@
    }
   ],
   "output": {
-   "title": "Unseen , unheard :…",
-   "one_liner": "Unseen , unheard : The Jeedimetla migrants…",
+   "title": "Four private bank…",
+   "one_liner": "Four private bank officials remanded over…",
    "why_now": null,
    "details": [
+    "Four private bank officials remanded over alleged $ 1 b import payments fraud",
     "Unseen , unheard : The Jeedimetla migrants building a pharma hub",
-    "Data Center Projects Boost Port Of Los Angeles July",
-    "San Diego County Supervisors end gun range agreements with ICE and CBP"
+    "Data Center Projects Boost Port Of Los Angeles July"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "80216e90d72c87b06546a0636fc06cfa9de4670b"
+  "fact_hash": "fcbca18a07545c53e6259d86613458527ef9bb8c"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-19T04:57:56.861271+00:00"
+  "at": "2026-08-19T08:00:20.683112+00:00"
  },
- "glossary": [
-  {
-   "term": "bp",
-   "easy": "이자를 재는 아주 작은 단위예요. 1bp는 0.01%예요.",
-   "example": "25bp면 0.25%를 뜻해요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "c92542f0fffea30a9",

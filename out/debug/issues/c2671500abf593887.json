@@ -9,11 +9,31 @@
  "entity_keys": [
   "SEC"
  ],
- "seen_sources": 2,
- "importance": 110,
+ "seen_sources": 3,
+ "importance": 115,
  "created_at": "2026-08-19T03:16:54.787390+00:00",
- "last_update": "2026-08-19T03:16:54.794063+00:00",
+ "last_update": "2026-08-19T07:59:47.802759+00:00",
  "members": [
+  {
+   "id": "271da8591f6a87375e1b3a7f402fe3e4a79bc3d7",
+   "source": "mondaq.com",
+   "tier": "wire",
+   "url": "https://www.mondaq.com:443/unitedstates/securities/1832716/sec-semiannual-reporting-proposal-would-give-issuers-flexibility-but-quarterly-reporting-may-remain-the-market-standard",
+   "title": "SEC Semiannual Reporting Proposal Would Give Issuers Flexibility , But Quarterly Reporting May Remain The Market Standard",
+   "published_at": "2026-08-19T07:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8612
+  },
+  {
+   "id": "155c4124385fcc534cdc259aabf42c9301b43ec0",
+   "source": "mondaq.com",
+   "tier": "wire",
+   "url": "https://www.mondaq.com:443/unitedstates/securities/1832644/public-company-advisory-news-roundup-sec-announces-formation-of-specialized-unit-within-division-of-enforcement-to-combat-accounting-and-financial-reporting-fraud",
+   "title": "Public Company Advisory News Roundup : SEC Announces Formation Of Specialized Unit Within Division Of Enforcement To Combat Accounting And Financial Reporting Fraud",
+   "published_at": "2026-08-19T07:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8874
+  },
   {
    "id": "07dded052176ffefcdca0b1afb859165bc7d80bf",
    "source": "pymnts.com",
@@ -22,7 +42,7 @@
    "title": "PYMNTS | PointsKash Secures Capital Commitment After Crypto ATM Rollout",
    "published_at": "2026-08-19T02:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9552
+   "sim_to_centroid": 0.9462
   },
   {
    "id": "5f49a29e007fcaabd8c9debff30bdc6ceb53eb8e",
@@ -32,11 +52,25 @@
    "title": "SEC Proposes New Crypto Rules in Absence of CLARITY Act",
    "published_at": "2026-08-19T00:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9552
+   "sim_to_centroid": 0.9564
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "SEC Semiannual Reporting Proposal Would Give Issuers Flexibility , But Quarterly Reporting May Remain The Market Standard",
+   "source": "mondaq.com",
+   "url": "https://www.mondaq.com:443/unitedstates/securities/1832716/sec-semiannual-reporting-proposal-would-give-issuers-flexibility-but-quarterly-reporting-may-remain-the-market-standard",
+   "at": "2026-08-19T07:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Public Company Advisory News Roundup : SEC Announces Formation Of Specialized Unit Within Division Of Enforcement To Combat Accounting And Financial Reporting Fraud",
+   "source": "mondaq.com",
+   "url": "https://www.mondaq.com:443/unitedstates/securities/1832644/public-company-advisory-news-roundup-sec-announces-formation-of-specialized-unit-within-division-of-enforcement-to-combat-accounting-and-financial-reporting-fraud",
+   "at": "2026-08-19T07:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "PYMNTS | PointsKash Secures Capital Commitment After Crypto ATM Rollout",
@@ -53,44 +87,45 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-19T07:12:34.946491+00:00",
+  "model": "template",
+  "created_at": "2026-08-19T08:05:45.826021+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
+    "SEC Semiannual Reporting Proposal Would Give Issuers Flexibility , But Quarterly Reporting May Remain The Market Standard",
+    "Public Company Advisory News Roundup : SEC Announces Formation Of Specialized Unit Within Division Of Enforcement To Combat Accounting And Financial Reporting Fraud",
     "PYMNTS | PointsKash Secures Capital Commitment After Crypto ATM Rollout",
     "SEC Proposes New Crypto Rules in Absence of CLARITY Act"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"미국, 암호화폐 규제 강화\",\n\"one_liner\": \"미국 증권거래위원회가 암호화폐 관련 새로운 규제안을 제안했어요.\",\n\"why_now\": \"암호화폐 시장이 커지면서 투자자 보호와 시장 안정을 위한 규제가 필요하다는 목소리가 커졌어요.\",\n\"impact_line\": \"암호화폐 거래 시 더 엄격한 규제를 적용받을 수 있어요.\",\n\"details\": [\n\"미국 증권거래위원회(SEC)가 새로운 암호화폐 규제안을 제안했어요.\",\n\"이는 암호화폐 시장에 대한 명확한 법적 기준이 없는 상황에서 나왔어요.\",\n\"이번 규제안은 투자자 보호와 시장 투명성을 높이는 데 초점을 맞출 것으로 보여요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"암호화폐 기업들은 강화된 규제 준수를 위해 추가적인 비용이 발생할 수 있어요!\",\n\"새로운 규제는 암호화폐 시장의 불확실성을 줄여 장기적인 성장에 긍정적인 영향을 줄 수도 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"암호화폐\",\n\"easy\": \"블록체인 기술을 기반으로 만들어진 디지털 자산이에요. 비트코인, 이더리움 등이 대표적이에요.\",\n\"example\": \"암호화폐로 물건을 사거나 다른 사람에게 보낼 수 있어요.\"\n},\n{\n\"term\": \"증권거래위원회\",\n\"easy\": \"미국에서 주식이나 채권 같은 증권을 거래하는 시장을 관리하고 감독하는 기관이에요.\",\n\"example\": \"증권거래위원회는 투자자들이 안전하게 투자할 수 있도록 규칙을 만들어요.\"\n}\n]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "미국, 암호화폐 규제 강화",
-   "one_liner": "미국 증권거래위원회가 암호화폐 관련 새로운 규제안을 제안했어요.",
-   "why_now": "암호화폐 시장이 커지면서 투자자 보호와 시장 안정을 위한 규제가 필요하다는 목소리가 커졌어요.",
+   "title": "SEC Semiannual…",
+   "one_liner": "SEC Semiannual Reporting Proposal Would Give…",
+   "why_now": null,
    "details": [
-    "미국 증권거래위원회(SEC)가 새로운 암호화폐 규제안을 제안했어요.",
-    "이는 암호화폐 시장에 대한 명확한 법적 기준이 없는 상황에서 나왔어요.",
-    "이번 규제안은 투자자 보호와 시장 투명성을 높이는 데 초점을 맞출 것으로 보여요."
+    "SEC Semiannual Reporting Proposal Would Give Issuers Flexibility , But Quarterly Reporting May Remain The Market Standard",
+    "Public Company Advisory News Roundup : SEC Announces Formation Of Specialized Unit Within Division Of Enforcement To Combat Accounting And Financial Reporting Fraud",
+    "PYMNTS | PointsKash Secures Capital Commitment After Crypto ATM Rollout"
    ],
-   "effects": [
-    "암호화폐 기업들은 강화된 규제 준수를 위해 추가적인 비용이 발생할 수 있어요!",
-    "새로운 규제는 암호화폐 시장의 불확실성을 줄여 장기적인 성장에 긍정적인 영향을 줄 수도 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "295ab97f6ece25b473aed089c3c574dd6f5531b3"
+  "fact_hash": "ce8fa698f65b57ed4c49f8597fc10e412344a3e9"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-08-19T03:17:03.483319+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T08:05:45.825911+00:00"
  },
  "glossary": [],
  "related": [
