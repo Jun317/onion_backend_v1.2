@@ -11,10 +11,10 @@
   "KRX:005930",
   "KRX:034730"
  ],
- "seen_sources": 2,
- "importance": 90,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-08-19T04:57:30.057866+00:00",
- "last_update": "2026-08-19T04:57:30.067236+00:00",
+ "last_update": "2026-08-19T05:53:03.022039+00:00",
  "members": [
   {
    "id": "8e85ef91893d982a51f2e43888700bb9560748bd",
@@ -24,7 +24,17 @@
    "title": "SK Hynix , Samsung Electronics fall 7 % as Asian stocks decline",
    "published_at": "2026-08-19T03:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9673
+   "sim_to_centroid": 0.9671
+  },
+  {
+   "id": "4982c5aa5d3558212358d0baaa43c93526fa02db",
+   "source": "themarketsdaily.com",
+   "tier": "wire",
+   "url": "https://www.themarketsdaily.com/2026/08/18/reviewing-samsung-electronics-ssnlf-and-its-competitors.html",
+   "title": "Reviewing Samsung Electronics ( SSNLF ) and Its Competitors",
+   "published_at": "2026-08-18T09:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8768
   },
   {
    "id": "fb327a69c8065008ada5a0606bd1670305f68ad6",
@@ -34,7 +44,7 @@
    "title": "Why SK Hynix Stock Popped Today",
    "published_at": "2026-08-17T15:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9673
+   "sim_to_centroid": 0.9648
   }
  ],
  "anchors": [],
@@ -48,6 +58,13 @@
   },
   {
    "kind": "headline",
+   "title": "Reviewing Samsung Electronics ( SSNLF ) and Its Competitors",
+   "source": "themarketsdaily.com",
+   "url": "https://www.themarketsdaily.com/2026/08/18/reviewing-samsung-electronics-ssnlf-and-its-competitors.html",
+   "at": "2026-08-18T09:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Why SK Hynix Stock Popped Today",
    "source": "finance.yahoo.com",
    "url": "https://finance.yahoo.com/markets/stocks/articles/why-sk-hynix-stock-popped-144132041.html",
@@ -55,42 +72,45 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-19T04:57:32.249359+00:00",
+  "model": "template",
+  "created_at": "2026-08-19T05:59:42.735375+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "SK Hynix , Samsung Electronics fall 7 % as Asian stocks decline",
+    "Reviewing Samsung Electronics ( SSNLF ) and Its Competitors",
     "Why SK Hynix Stock Popped Today"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"아시아 증시 하락에 반도체주도 내려\",\n  \"one_liner\": \"아시아 증시가 전반적으로 하락하면서 SK하이닉스와 삼성전자 주가도 떨어졌어요.\",\n  \"why_now\": \"주요 기업들의 주가가 떨어지면 투자 심리가 위축되어 전체 시장에 영향을 줄 수 있어요.\",\n  \"impact_line\": \"반도체 관련 기업들의 주가 하락은 투자자들의 불안감을 키울 수 있어요.\",\n  \"details\": [\n    \"아시아 주요 증시가 하락세를 보였어요.\",\n    \"SK하이닉스 주가가 7% 하락했어요.\",\n    \"삼성전자 주가도 하락했어요.\"\n  ],\n  \"visual_type\": \"kospi_close\",\n  \"effects\": [\n    \"반도체 관련 기업들의 주가 하락은 투자자들의 불안감을 키울 수 있어요!\",\n    \"전반적인 시장 하락은 투자 심리를 위축시킬 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"SK하이닉스\",\n      \"easy\": \"한국의 대표적인 반도체 기업 중 하나예요.\",\n      \"example\": \"SK하이닉스 주가가 오르면 다른 반도체 관련 주식들도 함께 오르는 경우가 많아요.\"\n    },\n    {\n      \"term\": \"삼성전자\",\n      \"easy\": \"한국의 대표적인 전자제품 및 반도체 기업이에요.\",\n      \"example\": \"삼성전자 주가가 오르면 한국 증시 전체에 긍정적인 영향을 주기도 해요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "아시아 증시 하락에 반도체주도 내려",
-   "one_liner": "아시아 증시가 전반적으로 하락하면서 SK하이닉스와 삼성전자 주가도 떨어졌어요.",
-   "why_now": "주요 기업들의 주가가 떨어지면 투자 심리가 위축되어 전체 시장에 영향을 줄 수 있어요.",
+   "title": "SK Hynix , Samsung…",
+   "one_liner": "SK Hynix , Samsung Electronics fall 7 % as Asian…",
+   "why_now": null,
    "details": [
-    "아시아 주요 증시가 하락세를 보였어요.",
-    "SK하이닉스 주가가 7% 하락했어요.",
-    "삼성전자 주가도 하락했어요."
+    "SK Hynix , Samsung Electronics fall 7 % as Asian stocks decline",
+    "Reviewing Samsung Electronics ( SSNLF ) and Its Competitors",
+    "Why SK Hynix Stock Popped Today"
    ],
-   "effects": [
-    "반도체 관련 기업들의 주가 하락은 투자자들의 불안감을 키울 수 있어요!",
-    "전반적인 시장 하락은 투자 심리를 위축시킬 수 있어요!"
-   ],
-   "visual_type": "kospi_close"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "905deb9c0d3d660dce592402129a934b05ff6480"
+  "fact_hash": "b8c48afdc4d6bc5cae0f79067d496e3c56568cb4"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T05:59:42.735262+00:00"
+ },
  "glossary": [],
  "related": [
   {
