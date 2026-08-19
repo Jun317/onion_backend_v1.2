@@ -52,7 +52,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-19T03:17:59.355091+00:00",
+  "created_at": "2026-08-19T07:13:28.468032+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -62,12 +62,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"퀘벡 독립 투표 연기\", \"one_liner\": \"퀘벡 분리주의자가 트럼프 대통령 재임 기간에는 독립 투표를 하지 않겠다고 밝혔어요.\", \"why_now\": \"퀘벡의 독립 투표는 캐나다의 정치적 안정과 경제에 큰 영향을 줄 수 있어요.\", \"impact_line\": \"캐나다의 정치적 불확실성이 줄어들 수 있어요.\", \"details\": [\"퀘벡 분리주의자가 독립 투표 계획을 연기했어요.\", \"이 결정은 도널드 트럼프 미국 대통령의 재임 기간에 맞춰졌어요.\"], \"visual_type\": \"none\", \"effects\": [\"캐나다의 정치적 안정성이 유지될 것으로 예상돼요!\"], \"glossary\": [{\"term\": \"분리주의자\", \"easy\": \"어떤 지역이 기존 나라에서 떨어져 나와 따로 나라를 세우려는 사람을 말해요.\", \"example\": \"퀘벡 분리주의자는 퀘벡이 캐나다에서 독립하길 바라요.\"}]}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "one_liner 50자 초과(56)"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -85,8 +91,8 @@
   "fact_hash": "a46376738ceb91d77e3d568ef9862bda5ce32b2c"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-19T03:17:59.355026+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(56)\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-19T07:13:28.467969+00:00"
  },
  "glossary": [],
  "related": [

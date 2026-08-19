@@ -86,18 +86,26 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-19T03:19:22.733323+00:00",
+  "created_at": "2026-08-19T07:13:14.349425+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "With U . S . House up for grabs , Speaker Mike Johnson  bullish  as he stumps in Michigan",
     "Delek US ( NYSE : DK ) CEO Avigal Soreq Sells 80 , 000 Shares of Stock",
+    "Archer Aviation ( NYSE : ACHR ) Insider Eric Lentell Sells 52 , 762 Shares",
     "John Prann , Jr . Sells 40 , 000 Shares of CoreCivic ( NYSE : CXW ) Stock"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"주요 인사 주식 매도\",\n  \"one_liner\": \"미국 주요 기업의 임원들이 보유 주식을 매도했어요.\",\n  \"why_now\": \"기업 내부자가 주식을 팔면 해당 기업의 미래 전망에 대한 우려 신호로 해석될 수 있어요.\",\n  \"impact_line\": \"주가 하락 가능성에 투자자들의 관심이 쏠리고 있어요.\",\n  \"details\": [\n    \"미국 하원 의석 확보를 두고 마이크 존슨 하원의장이 유세 중이에요.\",\n    \"디렉 US의 CEO인 아비갈 소렉이 주식 8만 주를 매도했어요.\",\n    \"아처 에비에이션의 내부자인 에릭 렌텔이 주식 5만 2762주를 매도했어요.\",\n    \"코어시빅의 존 프란 주니어가 주식 4만 주를 매도했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"주요 인사들의 주식 매도가 이어지면서 해당 기업들의 주가 하락 가능성이 있어요!\",\n    \"이는 시장 전반의 투자 심리에도 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"CEO\",\n      \"easy\": \"회사의 최고 경영자를 뜻해요.\",\n      \"example\": \"CEO는 회사의 중요한 결정을 내리는 역할을 해요.\"\n    },\n    {\n      \"term\": \"주식\",\n      \"easy\": \"회사의 소유권을 나누어 놓은 조각이에요.\",\n      \"example\": \"주식을 사면 그 회사의 주인이 되는 거예요.\"\n    }\n  ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [2762.0]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -106,27 +114,34 @@
    }
   ],
   "output": {
-   "title": "Delek US ( NYSE : DK…",
-   "one_liner": "Delek US ( NYSE : DK ) CEO Avigal Soreq Sells 80…",
+   "title": "With U . S . House…",
+   "one_liner": "With U . S . House up for grabs , Speaker Mike…",
    "why_now": null,
    "details": [
+    "With U . S . House up for grabs , Speaker Mike Johnson  bullish  as he stumps in Michigan",
     "Delek US ( NYSE : DK ) CEO Avigal Soreq Sells 80 , 000 Shares of Stock",
-    "John Prann , Jr . Sells 40 , 000 Shares of CoreCivic ( NYSE : CXW ) Stock"
+    "Archer Aviation ( NYSE : ACHR ) Insider Eric Lentell Sells 52 , 762 Shares"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "a7133b349ba9da45f8ff60ddf3c09a0ea286a458"
+  "fact_hash": "d2eb6a306801462f07daa03f3c0d890d86f97980"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-19T03:19:22.733223+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [2762.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-19T07:13:14.349353+00:00"
  },
  "glossary": [],
  "related": [
   {
    "id": "ccc137270dbb9d742",
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c78ab0773636aa1d7",
+   "title": "IFP Advisors Inc Acquires 2 , 652 Shares of JPMorgan Chase & Co . $JPM",
    "category": "MARKET",
    "shared": []
   },
@@ -145,12 +160,6 @@
   {
    "id": "cd6e96f9df3790928",
    "title": "US economy cools in second quarter despite solid spending",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "cb34f19e1978fa138",
-   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "category": "MARKET",
    "shared": []
   }

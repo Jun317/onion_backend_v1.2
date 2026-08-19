@@ -120,22 +120,31 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-19T03:18:09.793495+00:00",
+  "created_at": "2026-08-19T07:12:51.667081+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
     "Japanese Market Sharply Lower",
-    "FHB market loses momentum as demand declines"
+    "Equity Market Downturn : N544bn Wiped Off Nigerian Exchange",
+    "FHB market loses momentum as demand declines",
+    "Japan Stock Market May Extend Tuesday Losses",
+    "Mobileye Global Sees Unusually High Options Volume ( NASDAQ : MBLY )"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"주식 시장 하락\", \"one_liner\": \"주식 시장이 전반적으로 약세를 보이며 투자자들의 손실이 늘었어요.\", \"why_now\": \"주식 시장이 하락하면 투자한 돈의 가치가 줄어들어 자산이 줄어드는 것처럼 느껴질 수 있어요.\", \"impact_line\": \"주식에 투자한 돈의 가치가 줄어들 수 있어요.\", \"details\": [\"일본 주식 시장이 크게 하락했어요.\", \"나이지리아 주식 시장에서도 5,440억 나이라의 시가총액이 사라졌어요.\", \"수요 감소로 인해 FHB 시장의 성장세가 둔화되었어요.\"], \"visual_type\": \"none\", \"effects\": [\"주식 시장의 하락세가 더 이어질 수 있다는 전망이 있어요!\", \"투자 심리가 위축되어 소비와 투자가 줄어들 수 있어요!\"], \"glossary\": [{\"term\": \"FHB\", \"easy\": \"FHB는 특정 금융 상품이나 시장을 가리키는 용어일 수 있어요. 문맥상 수요가 줄어 성장세가 둔화되었다고 이해할 수 있어요.\", \"example\": \"새로운 FHB 상품의 인기가 줄어 판매량이 감소했어요.\"}]}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [5440.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [5440.0]"
     ]
    }
   ],
@@ -145,16 +154,17 @@
    "why_now": null,
    "details": [
     "Japanese Market Sharply Lower",
+    "Equity Market Downturn : N544bn Wiped Off Nigerian Exchange",
     "FHB market loses momentum as demand declines"
    ],
    "effects": [],
    "visual_type": "wti"
   },
-  "fact_hash": "4f3261ac71357ad7b044b63df90c5026c1310732"
+  "fact_hash": "65afd22492226156394898297d1283b404f15843"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-19T03:18:09.793437+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [5440.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [5440.0]\"]}]}",
+  "at": "2026-08-19T07:12:51.667009+00:00"
  },
  "glossary": [],
  "related": [
