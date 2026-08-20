@@ -868,25 +868,31 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-19T08:05:56.418307+00:00",
+  "created_at": "2026-08-20T03:15:29.689198+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "Train passengers face potential 4 . 2 % fares hike",
-    "Shadow of price rise looms over Onam Pookkalam",
     "Wednesday announcement means train fares look set to rise four per cent",
-    "Retailers on the ropes as consumers all but close their wallets",
-    "Factor Musical Chairs : We Have Never Seen Such A Decoupling Between Price And Breadth"
+    "Shadow of price rise looms over Onam Pookkalam",
+    "Indonesia Central Bank Holds Rates Steady at 5 . 75 %, as Expected",
+    "CBSL sees inflation above 5 % target near term , risks tilted to upside"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"인도네시아 기준금리 동결\",\n\"one_liner\": \"인도네시아 중앙은행이 기준금리를 연 5.75%로 동결했어요.\",\n\"why_now\": \"기준금리가 그대로 유지되면 대출 이자나 예금 이자에 큰 변화가 없을 것으로 예상돼요.\",\n\"impact_line\": \"대출 이자 부담이 당분간 그대로 유지될 수 있어요.\",\n\"details\": [\n\"인도네시아 중앙은행이 기준금리를 연 5.75%로 유지했어요.\",\n\"이는 시장 예상과 같은 결정이었어요.\",\n\"인도네시아의 물가 상승률이 목표치를 웃돌 것으로 보여요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"물가 상승 압력이 지속되면 향후 금리가 오를 가능성도 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"기준금리\",\n\"easy\": \"한국은행이 정하는 나라의 기본 이자율이에요.\",\n\"example\": \"기준금리가 내리면 대출 이자도 보통 따라 내려요.\"\n},\n{\n\"term\": \"물가 상승률\",\n\"easy\": \"지난해보다 물건 가격이 얼마나 올랐는지 보여주는 지표예요.\",\n\"example\": \"물가 상승률이 높으면 장바구니 물가가 올라 부담이 커져요.\"\n}\n],\n\"impact_line\": \"대출 이자 부담이 당분간 그대로 유지될 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [5.75]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [5.75]"
     ]
    }
   ],
@@ -896,17 +902,17 @@
    "why_now": null,
    "details": [
     "Train passengers face potential 4 . 2 % fares hike",
-    "Shadow of price rise looms over Onam Pookkalam",
-    "Wednesday announcement means train fares look set to rise four per cent"
+    "Wednesday announcement means train fares look set to rise four per cent",
+    "Shadow of price rise looms over Onam Pookkalam"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "47ea0a42cc43defe872afd6155c78d599bd46019"
+  "fact_hash": "bc097f3b14bdc3f8be8341b5072cbd31ec6ad63b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-19T08:05:56.418235+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [5.75]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [5.75]\"]}]}",
+  "at": "2026-08-20T03:15:29.689035+00:00"
  },
  "glossary": [],
  "related": [

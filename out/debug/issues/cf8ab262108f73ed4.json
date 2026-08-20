@@ -867,42 +867,44 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-19T08:00:32.148718+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-20T03:15:23.554223+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "PM : Government money alone may not be enough to get rough sleepers off streets",
     "Wisconsin governor race : Candidates differ on data center guardrails",
-    "Tinubu meets Akpabio , Doguwa as 2027 campaigns begin",
-    "Fractured opposition battles Nigeria Tinubu as presidential campaigns begin",
-    "Bopage backs NPP but warns of gaps in governance and priorities",
-    "Mobile gold miners in eastern Congo complicate health worker efforts to contain Ebola"
+    "Our income is not a bottomless pit to keep raiding",
+    "Data expert issues brutal wake - up call to GOP :  Adiós Republican majority",
+    "Dear  Chippy : Why only 15 % of voters want you as PM"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"정부 지원금 부족\",\n\"one_liner\": \"정부의 돈만으로는 노숙인들을 거리에서 벗어나게 하기 어려울 수 있다는 분석이 나왔어요.\",\n\"why_now\": \"노숙인 지원은 사회적 약자를 돕는 중요한 문제로, 정부 지원의 실효성이 중요해요.\",\n\"impact_line\": \"노숙인 지원 정책의 효과가 기대보다 낮을 수 있어요.\",\n\"details\": [\n\"정부의 자금 지원만으로는 노숙인들이 거리에서 벗어나도록 돕기에 충분하지 않을 수 있다는 지적이 나왔어요.\",\n\"이 문제는 노숙인 지원 정책의 효과성에 대한 의문을 제기해요.\",\n\"정부의 재정 지원만으로는 근본적인 해결이 어렵다는 의견도 있어요.\",\n\"사회 전체의 관심과 지원이 필요하다는 점을 시사해요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"노숙인 지원 정책의 실효성이 떨어져, 거리 노숙인 문제가 지속될 수 있어요!\",\n\"정부 외에 민간 단체나 지역 사회의 추가적인 지원 방안 모색이 필요해질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"노숙인\",\n\"easy\": \"집이 없어서 거리나 시설 등에서 생활하는 사람들을 말해요.\",\n\"example\": \"정부와 시민단체가 노숙인들을 위한 쉼터 마련에 힘쓰고 있어요.\"\n}\n],\n\"impact_line\": \"노숙인 지원 정책의 효과가 기대보다 낮을 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Wisconsin governor…",
-   "one_liner": "Wisconsin governor race : Candidates differ on…",
-   "why_now": null,
+   "title": "정부 지원금 부족",
+   "one_liner": "정부의 돈만으로는 노숙인들을 거리에서 벗어나게 하기 어려울 수 있다는 분석이 나왔어요.",
+   "why_now": "노숙인 지원은 사회적 약자를 돕는 중요한 문제로, 정부 지원의 실효성이 중요해요.",
    "details": [
-    "Wisconsin governor race : Candidates differ on data center guardrails",
-    "Tinubu meets Akpabio , Doguwa as 2027 campaigns begin",
-    "Fractured opposition battles Nigeria Tinubu as presidential campaigns begin"
+    "정부의 자금 지원만으로는 노숙인들이 거리에서 벗어나도록 돕기에 충분하지 않을 수 있다는 지적이요.",
+    "이 문제는 노숙인 지원 정책의 효과성에 대한 의문을 제기해요.",
+    "정부의 재정 지원만으로는 근본적인 해결이 어렵다는 의견도 있어요.",
+    "사회 전체의 관심과 지원이 필요하다는 점을 시사해요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "노숙인 지원 정책의 실효성이 떨어져, 거리 노숙인 문제가 지속될 수 있어요!",
+    "정부 외에 민간 단체나 지역 사회의 추가적인 지원 방안 모색이 필요해질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "59a73619b5eda6f87e074d9cd1eb9738e0503dce"
+  "fact_hash": "5a40dfe54ee2323e62ee0e31a370cae9d4d33e45"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
