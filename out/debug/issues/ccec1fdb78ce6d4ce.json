@@ -615,56 +615,48 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-19T09:01:07.871624+00:00",
+  "model": "template",
+  "created_at": "2026-08-20T04:11:19.004920+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
    "headlines": [
     "ECB sees no grounds to block UniCredit - Commerzbank deal",
     "ECB policymaker Rehn says no clear signs of second - round effects just yet",
-    "ECB Finds Crypto Payment Acceptance Below 1 % in Euro Area",
     "AI market correction is coming , ECB blog predicts",
+    "ECB Finds Crypto Payment Acceptance Below 1 % in Euro Area",
     "European Central Bank warns AI bubble burst could trigger systemic fallout"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"유럽중앙은행, AI 시장 경고\",\n\"one_liner\": \"유럽중앙은행이 인공지능 시장의 거품 붕괴 가능성을 경고했어요.\",\n\"why_now\": \"인공지능 시장이 너무 빠르게 커지면 큰 문제가 생길 수 있다는 뜻이에요.\",\n\"impact_line\": \"인공지능 관련 기업들의 주가 변동성이 커질 수 있어요.\",\n\"details\": [\n\"유럽중앙은행은 인공지능 시장에 거품이 끼어있다고 분석했어요.\",\n\"이 거품이 터지면 금융 시스템 전체에 큰 충격을 줄 수 있다고 경고했어요.\",\n\"유럽중앙은행은 인공지능 시장의 조정이 올 것으로 예상하고 있어요.\",\n\"현재 유럽 지역에서 암호화폐를 결제 수단으로 쓰는 비율은 1% 미만이에요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"인공지능 관련 기술에 대한 투자가 위축될 수 있어요!\",\n\"새로운 인공지능 기술 개발 속도가 느려질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"인공지능\",\n\"easy\": \"사람처럼 생각하고 배우는 컴퓨터 프로그램이나 기계를 말해요.\",\n\"example\": \"인공지능 스피커에게 날씨를 물어볼 수 있어요.\"\n},\n{\n\"term\": \"거품\",\n\"easy\": \"자산 가격이 실제 가치보다 훨씬 높게 오르는 현상을 말해요.\",\n\"example\": \"부동산 거품이 꺼지면 집값이 크게 떨어질 수 있어요.\"\n},\n{\n\"term\": \"금융 시스템\",\n\"easy\": \"돈이 돌고 도는 은행, 증권사, 보험사 등 모든 기관과 시장을 말해요.\",\n\"example\": \"금융 시스템이 불안정하면 돈을 빌리거나 맡기기 어려워져요.\"\n}\n],\n\"impact_line\": \"인공지능 관련 기업들의 주가 변동성이 커질 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "유럽중앙은행, AI 시장 경고",
-   "one_liner": "유럽중앙은행이 인공지능 시장의 거품 붕괴 가능성을 경고했어요.",
-   "why_now": "인공지능 시장이 너무 빠르게 커지면 큰 문제가 생길 수 있다는 뜻이에요.",
+   "title": "ECB sees no grounds…",
+   "one_liner": "ECB sees no grounds to block UniCredit -…",
+   "why_now": null,
    "details": [
-    "유럽중앙은행은 인공지능 시장에 거품이 끼어있다고 분석했어요.",
-    "이 거품이 터지면 금융 시스템 전체에 큰 충격을 줄 수 있다고 경고했어요.",
-    "유럽중앙은행은 인공지능 시장의 조정이 올 것으로 예상하고 있어요.",
-    "현재 유럽 지역에서 암호화폐를 결제 수단으로 쓰는 비율은 1% 미만이에요."
+    "ECB sees no grounds to block UniCredit - Commerzbank deal",
+    "ECB policymaker Rehn says no clear signs of second - round effects just yet",
+    "AI market correction is coming , ECB blog predicts"
    ],
-   "effects": [
-    "인공지능 관련 기술에 대한 투자가 위축될 수 있어요!",
-    "새로운 인공지능 기술 개발 속도가 느려질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "kr_base_rate"
   },
-  "fact_hash": "03cb64baa28c81f34b526330bcdd20342b7b6fb8"
+  "fact_hash": "95d41c9e52803b234b0ffd39638cc6bd8f28100e"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-19T05:02:52.658194+00:00"
+  "at": "2026-08-20T04:11:19.004830+00:00"
  },
- "glossary": [
-  {
-   "term": "중앙은행",
-   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
-   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "cea83213c8906724e",
@@ -689,18 +681,18 @@
    ]
   },
   {
+   "id": "cc500b81ac305fccc",
+   "title": "Stocks mostly drop as Mideast hopes dim , interest rates rise",
+   "category": "RATE",
+   "shared": []
+  },
+  {
    "id": "c92542f0fffea30a9",
    "title": "Exclusive - US to tell partners they must pick sides in AI race with China",
    "category": "GEO",
    "shared": [
     "SEC"
    ]
-  },
-  {
-   "id": "cc500b81ac305fccc",
-   "title": "Stocks mostly drop as Mideast hopes dim , interest rates rise",
-   "category": "RATE",
-   "shared": []
   }
  ]
 }

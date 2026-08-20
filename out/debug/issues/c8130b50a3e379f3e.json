@@ -2,16 +2,26 @@
  "id": "c8130b50a3e379f3e",
  "title": "Dollar Holds Steady , Euro Loses Ground as Cuba Informal Market Closes",
  "category": "FX",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 2,
+ "importance": 70,
  "created_at": "2026-08-19T03:16:54.789122+00:00",
- "last_update": "2026-08-19T04:57:30.049175+00:00",
+ "last_update": "2026-08-20T04:04:55.955245+00:00",
  "members": [
+  {
+   "id": "b762e3b26b4181663fb90fcd49a4a004813465cf",
+   "source": "lankanewspapers.com",
+   "tier": "wire",
+   "url": "https://www.lankanewspapers.com/2026/08/20/mannar-basin-oil-and-gas-bid-signals-sri-lanka-s-push-for-energy-independence-and-dollar-savings",
+   "title": "Mannar Basin Oil and Gas Bid Signals Sri Lanka Push for Energy Independence and Dollar Savings",
+   "published_at": "2026-08-20T03:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8689
+  },
   {
    "id": "242c6a1fd090d4ce6e7f0797e4adadf9b37c60d2",
    "source": "cubaheadlines.com",
@@ -20,7 +30,7 @@
    "title": "Manuel Marrero Emphasizes Global Economic Integration Without Compromising Cuba Sovereignty",
    "published_at": "2026-08-19T02:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8654
+   "sim_to_centroid": 0.8699
   },
   {
    "id": "cab5e203f3435ef4bf37b84253136012629c8e84",
@@ -30,7 +40,7 @@
    "title": "Dollar Holds Steady , Euro Loses Ground as Cuba Informal Market Closes",
    "published_at": "2026-08-19T02:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9564
+   "sim_to_centroid": 0.9549
   },
   {
    "id": "206a92f66af0f3c560b3c0c80cb06c6613d84850",
@@ -40,11 +50,18 @@
    "title": "Retired Cubans in Holguín Struggle to Receive Pensions :  A Sea of Desperate Faces  at Banks",
    "published_at": "2026-08-19T02:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9548
+   "sim_to_centroid": 0.9521
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Mannar Basin Oil and Gas Bid Signals Sri Lanka Push for Energy Independence and Dollar Savings",
+   "source": "lankanewspapers.com",
+   "url": "https://www.lankanewspapers.com/2026/08/20/mannar-basin-oil-and-gas-bid-signals-sri-lanka-s-push-for-energy-independence-and-dollar-savings",
+   "at": "2026-08-20T03:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Dollar Holds Steady , Euro Loses Ground as Cuba Informal Market Closes",
@@ -67,8 +84,47 @@
    "at": "2026-08-19T02:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-20T04:05:04.598205+00:00",
+  "payload": {
+   "category": "FX",
+   "anchors": [],
+   "headlines": [
+    "Mannar Basin Oil and Gas Bid Signals Sri Lanka Push for Energy Independence and Dollar Savings",
+    "Manuel Marrero Emphasizes Global Economic Integration Without Compromising Cuba Sovereignty",
+    "Dollar Holds Steady , Euro Loses Ground as Cuba Informal Market Closes",
+    "Retired Cubans in Holguín Struggle to Receive Pensions :  A Sea of Desperate Faces  at Banks"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Mannar Basin Oil and…",
+   "one_liner": "Mannar Basin Oil and Gas Bid Signals Sri Lanka…",
+   "why_now": null,
+   "details": [
+    "Mannar Basin Oil and Gas Bid Signals Sri Lanka Push for Energy Independence and Dollar Savings",
+    "Manuel Marrero Emphasizes Global Economic Integration Without Compromising Cuba Sovereignty",
+    "Dollar Holds Steady , Euro Loses Ground as Cuba Informal Market Closes"
+   ],
+   "effects": [],
+   "visual_type": "usdkrw"
+  },
+  "fact_hash": "9d0fe7333366c3e7bba62f382d1063d0980ea6b5"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-20T04:05:04.597962+00:00"
+ },
  "glossary": [],
  "related": [
   {

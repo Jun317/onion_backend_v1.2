@@ -104,12 +104,13 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-18T07:11:53.160854+00:00",
+  "model": "template",
+  "created_at": "2026-08-20T04:11:29.347703+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Could Eli Lilly Be Worth More Than SpaceX by the End of 2026 ?",
     "Eli Lilly ( NYSE : LLY ) Builds Multi - Product GLP - 1 Platform As Revenue Surges 48 % And Global Approvals Mount",
     "Eli Lilly and Company ( NYSE : LLY ) Stock Rating Upgraded by Wall Street Zen",
     "Eli Lilly Stock Nears Buy Point After Earnings - Fueled Gains",
@@ -117,34 +118,32 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"일라이 릴리 매출 48% 급증\",\n    \"one_liner\": \"일라이 릴리의 매출이 48% 늘어났어요.\",\n    \"why_now\": \"새로운 약품 승인이 늘면서 회사의 성장을 이끌고 있어요.\",\n    \"impact_line\": \"새로운 약품 개발 소식에 따라 관련 주가가 움직일 수 있어요.\",\n    \"details\": [\n        \"일라이 릴리의 매출이 48% 증가했어요.\",\n        \"회사는 여러 약품을 개발하는 플랫폼을 구축하고 있어요.\",\n        \"전 세계적으로 약품 승인이 늘어나고 있어요.\",\n        \"회사의 주가가 상승세를 보이고 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"회사의 매출 증가는 앞으로도 이어질 수 있어요!\",\n        \"새로운 약품 개발 성공 시 주가 상승을 기대해 볼 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"GLP-1\",\n            \"easy\": \"혈당을 조절하고 식욕을 억제하는 데 도움을 주는 호르몬과 비슷한 역할을 하는 약물이에요.\",\n            \"example\": \"당뇨병 치료제나 비만 치료제로 사용될 수 있어요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "일라이 릴리 매출 48% 급증",
-   "one_liner": "일라이 릴리의 매출이 48% 늘어났어요.",
-   "why_now": "새로운 약품 승인이 늘면서 회사의 성장을 이끌고 있어요.",
+   "title": "Could Eli Lilly Be…",
+   "one_liner": "Could Eli Lilly Be Worth More Than SpaceX by the…",
+   "why_now": null,
    "details": [
-    "일라이 릴리의 매출이 48% 증가했어요.",
-    "회사는 여러 약품을 개발하는 플랫폼을 구축하고 있어요.",
-    "전 세계적으로 약품 승인이 늘어나고 있어요.",
-    "회사의 주가가 상승세를 보이고 있어요."
+    "Could Eli Lilly Be Worth More Than SpaceX by the End of 2026 ?",
+    "Eli Lilly ( NYSE : LLY ) Builds Multi - Product GLP - 1 Platform As Revenue Surges 48 % And Global Approvals Mount",
+    "Eli Lilly and Company ( NYSE : LLY ) Stock Rating Upgraded by Wall Street Zen"
    ],
-   "effects": [
-    "회사의 매출 증가는 앞으로도 이어질 수 있어요!",
-    "새로운 약품 개발 성공 시 주가 상승을 기대해 볼 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "6b66a848e41f6fa812062c101eb90beb83190c41"
+  "fact_hash": "6ee7488ca04d4d1f355cb54b200c62908450cffa"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-18T04:06:17.144573+00:00"
+  "at": "2026-08-20T04:11:29.347598+00:00"
  },
  "glossary": [],
  "related": [
