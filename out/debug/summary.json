@@ -1,9 +1,48 @@
 {
- "generated_at": "2026-08-20T19:07:48.863723+00:00",
+ "generated_at": "2026-08-20T19:51:40.891214+00:00",
  "run_history": [
   {
    "kind": "pipeline",
-   "at": "2026-08-20T19:07:48.863706+00:00",
+   "at": "2026-08-20T19:51:40.891192+00:00",
+   "ok": true,
+   "stats": {
+    "raw_loaded": 1672,
+    "inserted": 0,
+    "near_dups": 0,
+    "express": 0,
+    "embedded": 400,
+    "express_centroids": 0,
+    "assign": {
+     "joined": 0,
+     "held": 0,
+     "pooled": 15
+    },
+    "seeded": 0,
+    "promoted": 0,
+    "classified": 0,
+    "merged": 0,
+    "lifecycle": {
+     "stale": 0,
+     "archived": 0
+    },
+    "importance": 383,
+    "llm": {
+     "generated": 0,
+     "cached": 242,
+     "template": 0,
+     "deferred": 115,
+     "backoff": 0
+    },
+    "export": {
+     "issues": 130,
+     "removed": 1,
+     "thin_skipped": 70
+    }
+   }
+  },
+  {
+   "kind": "pipeline",
+   "at": "2026-08-20T19:07:49.918675+00:00",
    "ok": true,
    "stats": {
     "raw_loaded": 1735,
@@ -37,8 +76,15 @@
      "issues": 130,
      "removed": 0,
      "thin_skipped": 70
-    }
-   }
+    },
+    "export_debug": {
+     "issues": 404,
+     "removed": 0,
+     "reviews": 494
+    },
+    "pruned": 332
+   },
+   "error": ""
   },
   {
    "kind": "pipeline",
@@ -911,52 +957,6 @@
      "reviews": 480
     },
     "pruned": 241
-   },
-   "error": ""
-  },
-  {
-   "kind": "pipeline",
-   "at": "2026-08-19T21:47:13.240740+00:00",
-   "ok": true,
-   "stats": {
-    "raw_loaded": 1460,
-    "inserted": 0,
-    "near_dups": 0,
-    "express": 0,
-    "embedded": 400,
-    "express_centroids": 0,
-    "assign": {
-     "joined": 2,
-     "held": 0,
-     "pooled": 20
-    },
-    "seeded": 0,
-    "promoted": 0,
-    "classified": 0,
-    "merged": 0,
-    "lifecycle": {
-     "stale": 2,
-     "archived": 0
-    },
-    "importance": 383,
-    "llm": {
-     "generated": 0,
-     "cached": 238,
-     "template": 0,
-     "deferred": 112,
-     "backoff": 0
-    },
-    "export": {
-     "issues": 131,
-     "removed": 0,
-     "thin_skipped": 69
-    },
-    "export_debug": {
-     "issues": 429,
-     "removed": 0,
-     "reviews": 480
-    },
-    "pruned": 400
    },
    "error": ""
   }
