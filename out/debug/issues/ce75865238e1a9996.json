@@ -2,18 +2,28 @@
  "id": "ce75865238e1a9996",
  "title": "Nvidia Stock Wont Be Overvalued by 2028 : My Case for Buying NVDA Today",
  "category": "MARKET",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "NVDA"
  ],
- "seen_sources": 1,
- "importance": 85,
+ "seen_sources": 2,
+ "importance": 90,
  "created_at": "2026-08-19T17:46:59.090801+00:00",
- "last_update": "2026-08-19T17:46:59.090801+00:00",
+ "last_update": "2026-08-20T09:02:25.287664+00:00",
  "members": [
+  {
+   "id": "eac19aa4b2642be9f390ab380c70e5de68f192d6",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/08/20/nvidia-chip-filled-data-centers-need-more-power-th/?source=iedfolrf0000001",
+   "title": "Nvidia Chip - Filled Data Centers Need More Power Than Any Utility Can Promise . Here Who Actually Wins .",
+   "published_at": "2026-08-20T08:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8963
+  },
   {
    "id": "63c433ff2cae0fb150bcb405bdf85535a0600b77",
    "source": "finance.yahoo.com",
@@ -22,7 +32,7 @@
    "title": "Jensen Huang Just Signed AI Factory Deals Across Japan Biggest Manufacturers . What That Means for Nvidia Growth .",
    "published_at": "2026-08-19T17:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9605
+   "sim_to_centroid": 0.9603
   },
   {
    "id": "57167e7d1bcf2600198c00aa41c2e32164b2ee7e",
@@ -32,11 +42,18 @@
    "title": "Nvidia Stock Wont Be Overvalued by 2028 : My Case for Buying NVDA Today",
    "published_at": "2026-08-19T06:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9605
+   "sim_to_centroid": 0.9584
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Nvidia Chip - Filled Data Centers Need More Power Than Any Utility Can Promise . Here Who Actually Wins .",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/08/20/nvidia-chip-filled-data-centers-need-more-power-th/?source=iedfolrf0000001",
+   "at": "2026-08-20T08:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Jensen Huang Just Signed AI Factory Deals Across Japan Biggest Manufacturers . What That Means for Nvidia Growth .",
@@ -52,8 +69,46 @@
    "at": "2026-08-19T06:30:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-20T09:02:34.141609+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Nvidia Chip - Filled Data Centers Need More Power Than Any Utility Can Promise . Here Who Actually Wins .",
+    "Jensen Huang Just Signed AI Factory Deals Across Japan Biggest Manufacturers . What That Means for Nvidia Growth .",
+    "Nvidia Stock Wont Be Overvalued by 2028 : My Case for Buying NVDA Today"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Nvidia Chip - Filled…",
+   "one_liner": "Nvidia Chip - Filled Data Centers Need More…",
+   "why_now": null,
+   "details": [
+    "Nvidia Chip - Filled Data Centers Need More Power Than Any Utility Can Promise . Here Who Actually Wins .",
+    "Jensen Huang Just Signed AI Factory Deals Across Japan Biggest Manufacturers . What That Means for Nvidia Growth .",
+    "Nvidia Stock Wont Be Overvalued by 2028 : My Case for Buying NVDA Today"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "3a05436e0a54131aa08af75a483b3a91ff0b6139"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-20T09:02:34.141251+00:00"
+ },
  "glossary": [],
  "related": [
   {
