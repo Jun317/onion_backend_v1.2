@@ -1,0 +1,136 @@
+{
+ "id": "c419df2138556f8cb",
+ "title": "Federal debt ticks over $1 trillion for the first time",
+ "category": "FX",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "FED"
+ ],
+ "seen_sources": 2,
+ "importance": 100,
+ "created_at": "2026-08-20T04:59:07.648216+00:00",
+ "last_update": "2026-08-20T04:59:07.649281+00:00",
+ "members": [
+  {
+   "id": "a0d44b288dac0670c45a0ff1f9886d59fe85d15e",
+   "source": "ianslive.in",
+   "tier": "wire",
+   "url": "https://ianslive.in/trump-attacks-federal-reserve-over-ridiculous-rates--20260820053303",
+   "title": "Trump attacks Federal Reserve over  ridiculou rates",
+   "published_at": "2026-08-20T04:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9657
+  },
+  {
+   "id": "2ad66232bfaae0609374e813c442a825bed767f1",
+   "source": "perthnow.com.au",
+   "tier": "wire",
+   "url": "https://www.perthnow.com.au/news/business/federal-debt-ticks-over-1-trillion-for-the-first-time-c-22751980",
+   "title": "Federal debt ticks over $1 trillion for the first time",
+   "published_at": "2026-08-20T03:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9657
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Trump attacks Federal Reserve over  ridiculou rates",
+   "source": "ianslive.in",
+   "url": "https://ianslive.in/trump-attacks-federal-reserve-over-ridiculous-rates--20260820053303",
+   "at": "2026-08-20T04:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Federal debt ticks over $1 trillion for the first time",
+   "source": "perthnow.com.au",
+   "url": "https://www.perthnow.com.au/news/business/federal-debt-ticks-over-1-trillion-for-the-first-time-c-22751980",
+   "at": "2026-08-20T03:30:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-20T05:01:22.408876+00:00",
+  "payload": {
+   "category": "FX",
+   "anchors": [],
+   "headlines": [
+    "Trump attacks Federal Reserve over  ridiculou rates",
+    "Federal debt ticks over $1 trillion for the first time"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Trump attacks…",
+   "one_liner": "Trump attacks Federal Reserve over  ridiculou…",
+   "why_now": null,
+   "details": [
+    "Trump attacks Federal Reserve over  ridiculou rates",
+    "Federal debt ticks over $1 trillion for the first time"
+   ],
+   "effects": [],
+   "visual_type": "usdkrw"
+  },
+  "fact_hash": "d6278107963c998f1d1b0d3fdbea95b1477cad47"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-20T05:01:22.408742+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cea83213c8906724e",
+   "title": "Fed Holds Interest Rates Steady Amid Inflation From Iran Conflict",
+   "category": "RATE",
+   "shared": [
+    "FED"
+   ]
+  },
+  {
+   "id": "cb22ab4362dc7db3b",
+   "title": "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
+   "category": "COMMODITY",
+   "shared": [
+    "FED"
+   ]
+  },
+  {
+   "id": "c1731cf1ebf398959",
+   "title": "Home Depot CEO Ted Decker takes medical leave , two execs take over temporarily",
+   "category": "EARNINGS",
+   "shared": [
+    "FED"
+   ]
+  },
+  {
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "category": "MARKET",
+   "shared": [
+    "FED"
+   ]
+  },
+  {
+   "id": "cb62bf4a57b12a877",
+   "title": "Ossoff slams Trump on Iran war in Atlanta speech",
+   "category": "GEO",
+   "shared": [
+    "FED"
+   ]
+  }
+ ]
+}

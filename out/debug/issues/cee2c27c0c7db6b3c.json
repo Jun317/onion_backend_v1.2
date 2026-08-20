@@ -9,13 +9,34 @@
  "entity_keys": [
   "KRX:000660",
   "KRX:005930",
-  "KRX:034730"
+  "KRX:034730",
+  "META"
  ],
- "seen_sources": 5,
+ "seen_sources": 7,
  "importance": 105,
  "created_at": "2026-08-19T04:57:30.057866+00:00",
- "last_update": "2026-08-19T13:17:05.414548+00:00",
+ "last_update": "2026-08-20T04:59:07.637417+00:00",
  "members": [
+  {
+   "id": "1ea43d8c8df213476eda646f2b5947b624ec2472",
+   "source": "punchng.com",
+   "tier": "wire",
+   "url": "https://punchng.com/govt-meta-unveil-ai-academy-to-boost-digital-skills/",
+   "title": "AI Academy Nigeria : Govt , Meta Launch Initiative to Boost Sk",
+   "published_at": "2026-08-20T04:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8658
+  },
+  {
+   "id": "fab02a73eba4c609cf39da6b7e8e239363c19aa3",
+   "source": "cnbc.com",
+   "tier": "wire",
+   "url": "https://www.cnbc.com/2026/08/20/sk-hynixs-south-korean-shares-surge-stock-buyback-.html",
+   "title": "SK Hynix South Korean shares surge over 12 % on stock buyback",
+   "published_at": "2026-08-20T04:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9473
+  },
   {
    "id": "1ea2afc7dc8eabcf8ec26d0efce5bef144518d64",
    "source": "asia.nikkei.com",
@@ -24,7 +45,7 @@
    "title": "SK Hynix announces $28 . 6bn buyback plan to boost stock price",
    "published_at": "2026-08-19T11:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9352
+   "sim_to_centroid": 0.9422
   },
   {
    "id": "72c85332fd4f74c16ab78a773136736638aade5d",
@@ -34,7 +55,7 @@
    "title": "SK Hynix to buy back , cancel $29 billion worth of treasury shares",
    "published_at": "2026-08-19T08:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9395
+   "sim_to_centroid": 0.9429
   },
   {
    "id": "8e85ef91893d982a51f2e43888700bb9560748bd",
@@ -44,7 +65,7 @@
    "title": "SK Hynix , Samsung Electronics fall 7 % as Asian stocks decline",
    "published_at": "2026-08-19T03:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9618
+   "sim_to_centroid": 0.9553
   },
   {
    "id": "4982c5aa5d3558212358d0baaa43c93526fa02db",
@@ -54,7 +75,7 @@
    "title": "Reviewing Samsung Electronics ( SSNLF ) and Its Competitors",
    "published_at": "2026-08-18T09:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8744
+   "sim_to_centroid": 0.8765
   },
   {
    "id": "fb327a69c8065008ada5a0606bd1670305f68ad6",
@@ -64,11 +85,25 @@
    "title": "Why SK Hynix Stock Popped Today",
    "published_at": "2026-08-17T15:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9654
+   "sim_to_centroid": 0.9629
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "AI Academy Nigeria : Govt , Meta Launch Initiative to Boost Sk",
+   "source": "punchng.com",
+   "url": "https://punchng.com/govt-meta-unveil-ai-academy-to-boost-digital-skills/",
+   "at": "2026-08-20T04:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "SK Hynix South Korean shares surge over 12 % on stock buyback",
+   "source": "cnbc.com",
+   "url": "https://www.cnbc.com/2026/08/20/sk-hynixs-south-korean-shares-surge-stock-buyback-.html",
+   "at": "2026-08-20T04:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "SK Hynix announces $28 . 6bn buyback plan to boost stock price",
@@ -107,16 +142,16 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-20T01:58:27.346330+00:00",
+  "created_at": "2026-08-20T05:00:08.963094+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
-    "SK Hynix announces $28 . 6bn buyback plan to boost stock price",
-    "SK Hynix to buy back , cancel $29 billion worth of treasury shares",
+    "Why SK Hynix Stock Popped Today",
     "SK Hynix , Samsung Electronics fall 7 % as Asian stocks decline",
-    "Reviewing Samsung Electronics ( SSNLF ) and Its Competitors",
-    "Why SK Hynix Stock Popped Today"
+    "SK Hynix South Korean shares surge over 12 % on stock buyback",
+    "SK Hynix to buy back , cancel $29 billion worth of treasury shares",
+    "SK Hynix announces $28 . 6bn buyback plan to boost stock price"
    ],
    "official_lines": []
   },
@@ -130,22 +165,22 @@
    }
   ],
   "output": {
-   "title": "SK Hynix announces…",
-   "one_liner": "SK Hynix announces $28 . 6bn buyback plan to…",
+   "title": "Why SK Hynix Stock…",
+   "one_liner": "Why SK Hynix Stock Popped Today",
    "why_now": null,
    "details": [
-    "SK Hynix announces $28 . 6bn buyback plan to boost stock price",
-    "SK Hynix to buy back , cancel $29 billion worth of treasury shares",
-    "SK Hynix , Samsung Electronics fall 7 % as Asian stocks decline"
+    "Why SK Hynix Stock Popped Today",
+    "SK Hynix , Samsung Electronics fall 7 % as Asian stocks decline",
+    "SK Hynix South Korean shares surge over 12 % on stock buyback"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "e73167d016dc2c93694d8d988e9f5a7e5876bdb2"
+  "fact_hash": "731d66281e2fef966971b0f1793f98fe458c6737"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-20T01:58:27.346264+00:00"
+  "at": "2026-08-20T05:00:08.963023+00:00"
  },
  "glossary": [],
  "related": [
@@ -159,10 +194,20 @@
    ]
   },
   {
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "category": "EARNINGS",
+   "shared": [
+    "META"
+   ]
+  },
+  {
    "id": "ccc137270dbb9d742",
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "category": "MARKET",
-   "shared": []
+   "shared": [
+    "META"
+   ]
   },
   {
    "id": "c8f0b7cb0487a034d",
@@ -176,12 +221,6 @@
   {
    "id": "c4af375582362ae09",
    "title": "Why Intel Stock Is Falling Today | The Motley Fool",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c78ab0773636aa1d7",
-   "title": "IFP Advisors Inc Acquires 2 , 652 Shares of JPMorgan Chase & Co . $JPM",
    "category": "MARKET",
    "shared": []
   }
