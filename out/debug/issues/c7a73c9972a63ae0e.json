@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-20T03:18:00.926303+00:00",
+  "created_at": "2026-08-20T07:16:02.462926+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,8 +64,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"보잉, 계약 제안 부족\",\n\"one_liner\": \"보잉의 계약 제안이 충분하지 않다고 일부 직원들이 말했어요.\",\n\"why_now\": \"회사가 직원들에게 더 나은 조건을 제시해야 한다는 목소리가 나오고 있어요.\",\n\"impact_line\": \"회사의 생산성과 직원 만족도에 영향을 줄 수 있어요.\",\n\"details\": [\n\"일부 직원들은 보잉의 계약 제안이 충분하지 않다고 생각해요.\",\n\"이들은 더 나은 조건을 요구하고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"회사가 직원들의 요구를 수용하면 비용이 늘어날 수 있어요!\",\n\"만약 요구가 받아들여지지 않으면 직원들의 불만이 커질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"SPEEA\",\n\"easy\": \"항공우주 산업 노동자들의 노동조합이에요.\",\n\"example\": \"노동조합은 직원들의 임금 인상을 요구했어요.\"\n}\n],\n\"impact_line\": \"회사의 생산성과 직원 만족도에 영향을 줄 수 있어요.\"\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -87,8 +93,8 @@
   "fact_hash": "fa84475eaa6748aa066b552b8ed51dbe599a6b39"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-20T03:18:00.926232+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-20T07:16:02.462868+00:00"
  },
  "glossary": [],
  "related": [

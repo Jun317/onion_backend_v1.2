@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-20T03:15:40.020731+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-20T07:14:21.403439+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,26 +881,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"기업 실적 및 배당 전망\", \"one_liner\": \"기업들의 실적과 배당 전망이 나오고 있어요.\", \"why_now\": \"기업의 실적과 배당은 투자 결정에 중요한 영향을 미치기 때문이에요.\", \"impact_line\": \"투자자라면 기업의 실적과 배당 정보를 눈여겨볼 필요가 있어요.\", \"details\": [\"어떤 기업은 튼튼한 실적을 바탕으로 배당을 늘릴 것으로 보여요.\", \"배당을 꾸준히 늘려온 기업 중 배당 왕이 될 가능성이 있는 곳도 있어요.\", \"일부 기업은 2027년 말까지 비핵심 자산을 정리할 계획이에요.\", \"2026년 중반 예산의 성장 및 수익 목표가 비현실적이라는 분석도 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"기업의 실적이 좋으면 주가가 오르고 배당도 늘어날 수 있어요!\", \"실적이 부진하면 주가와 배당이 줄어들 수 있으니 주의해야 해요!\"], \"glossary\": [{\"term\": \"배당\", \"easy\": \"기업이 이익의 일부를 주주들에게 나눠주는 돈이에요.\", \"example\": \"배당을 많이 주는 회사는 주주들에게 인기가 많아요.\"}, {\"term\": \"비핵심 자산\", \"easy\": \"기업의 주된 사업과 직접적인 관련이 적은 자산을 말해요.\", \"example\": \"회사가 핵심 사업에 집중하기 위해 비핵심 자산을 팔기도 해요.\"}], \"impact_line\": \"투자자라면 기업의 실적과 배당 정보를 눈여겨볼 필요가 있어요.\"}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Automatic Data…",
-   "one_liner": "Automatic Data Processing ( ADP ) Dividend…",
-   "why_now": null,
+   "title": "기업 실적 및 배당 전망",
+   "one_liner": "기업들의 실적과 배당 전망이 나오고 있어요.",
+   "why_now": "기업의 실적과 배당은 투자 결정에 중요한 영향을 미치기 때문이에요.",
    "details": [
-    "Automatic Data Processing ( ADP ) Dividend Outlook : Strong Fundamentals , Modest Yield",
-    "This Dividend Stock Has a Realistic Shot at Becoming a Dividend King",
-    "Pan Jamaica targets end - 2027 exit from $5b - $6b non - core portfolio"
+    "어떤 기업은 튼튼한 실적을 바탕으로 배당을 늘릴 것으로 보여요.",
+    "배당을 꾸준히 늘려온 기업 중 배당 왕이 될 가능성이 있는 곳도 있어요.",
+    "일부 기업은 2027년 말까지 비핵심 자산을 정리할 계획이에요.",
+    "2026년 중반 예산의 성장 및 수익 목표가 비현실적이라는 분석도 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "기업의 실적이 좋으면 주가가 오르고 배당도 늘어날 수 있어요!",
+    "실적이 부진하면 주가와 배당이 줄어들 수 있으니 주의해야 해요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "9e3f8b4a49cc1104f29908c662ee49e2520a2226"
  },
@@ -929,14 +937,14 @@
    "shared": []
   },
   {
-   "id": "c78ab0773636aa1d7",
-   "title": "IFP Advisors Inc Acquires 2 , 652 Shares of JPMorgan Chase & Co . $JPM",
+   "id": "c473082d7f30acb2b",
+   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c369b45eb1511371e",
-   "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
+   "id": "cd6e96f9df3790928",
+   "title": "US economy cools in second quarter despite solid spending",
    "category": "MARKET",
    "shared": []
   }

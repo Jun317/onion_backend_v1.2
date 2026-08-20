@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-20T03:16:58.841674+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-20T07:15:14.166291+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -881,26 +881,35 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"주택 구매 vs 임대 분석 변화\", \"one_liner\": \"주택을 사거나 임대하는 것의 경제적 이득을 따져보는 계산이 달라지고 있어요.\", \"why_now\": \"집값과 월세가 계속 변동하면서, 어떤 선택이 더 유리한지 따져보는 것이 중요해졌어요.\", \"impact_line\": \"주거비 부담이 달라질 수 있어요.\", \"details\": [\"주택 구매와 임대 사이의 경제적 이득을 계산하는 방식이 바뀌고 있어요.\", \"일부 투자자들은 안정적인 수입을 주는 주식을 눈여겨보고 있어요.\", \"저평가된 주식 중에서는 꾸준한 수입을 기대할 수 있는 종목이 주목받고 있어요.\", \"은퇴 후 자금을 마련하는 규칙과 자산 운용사의 인출 지침을 비교하는 분석이 나오고 있어요.\", \"신흥국에서 물가 상승과 연동된 채권에 투자하는 사람들이 더 신중해지고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"주택 시장 상황에 따라 구매와 임대 중 더 유리한 선택이 달라질 수 있어요!\", \"안정적인 수입을 주는 주식이나 저평가된 주식에 대한 관심이 높아질 수 있어요!\"], \"glossary\": []}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Why the rent - vs -…",
-   "one_liner": "Why the rent - vs - buy math is starting to turn",
-   "why_now": null,
+   "title": "주택 구매 vs 임대 분석 변화",
+   "one_liner": "주택을 사거나 임대하는 것의 경제적 이득을 따져보는 계산이 달라지고 있어요.",
+   "why_now": "집값과 월세가 계속 변동하면서, 어떤 선택이 더 유리한지 따져보는 것이 중요해졌어요.",
    "details": [
-    "Why the rent - vs - buy math is starting to turn",
-    "1 Cash - Producing Stock to Target This Week and 2 Facing Challenges",
-    "4 Undervalued Stocks to Buy for Income"
+    "주택 구매와 임대 사이의 경제적 이득을 계산하는 방식이 바뀌고 있어요.",
+    "일부 투자자들은 안정적인 수입을 주는 주식을 눈여겨보고 있어요.",
+    "저평가된 주식 중에서는 꾸준한 수입을 기대할 수 있는 종목이 주목받고 있어요.",
+    "은퇴 후 자금을 마련하는 규칙과 자산 운용사의 인출 지침을 비교하는 분석이 나오고 있어요.",
+    "신흥국에서 물가 상승과 연동된 채권에 투자하는 사람들이 더 신중해지고 있어요."
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "주택 시장 상황에 따라 구매와 임대 중 더 유리한 선택이 달라질 수 있어요!",
+    "안정적인 수입을 주는 주식이나 저평가된 주식에 대한 관심이 높아질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "2f420b9a841a75002eb1231ba4e4e1127477f49a"
  },
@@ -908,7 +917,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-20T03:16:58.841610+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "채권",
+   "easy": "돈을 빌리면서 '언제까지 갚겠다'고 써주는 증서예요.",
+   "example": "정부나 기업이 돈을 모을 때 발행해요."
+  }
+ ],
  "related": [
   {
    "id": "cb22ab4362dc7db3b",

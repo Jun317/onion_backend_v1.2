@@ -833,42 +833,49 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-20T03:16:23.643345+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-20T07:14:09.053551+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "AppFolio ( NASDAQ : APPF ) Major Shareholder Sells $1 , 455 , 264 . 00 in Stock",
-    "Lia Dean Sells 2 , 193 Shares of Capital One Financial ( NYSE : COF ) Stock",
-    "Big Digital Energy , Inc . Common Stock ( NASDAQ : BGDE ) Major Shareholder Buys $104 , 828 . 00 in Stock",
-    "Mercury Systems ( NASDAQ : MRCY ) CEO Sells $388 , 783 . 20 in Stock",
-    "Michael Wittmann Sells 42 , 468 Shares of indie Semiconductor ( NASDAQ : INDI ) Stock"
+    "Alpex Solar Ltd ( NSE : ALPEXSOLAR ) ( Q1 2027 ) Earnings Call Highlights : Strong Margins and ...",
+    "Tempsens Instruments IPO opens today : GMP at 73 %. Check key details and should you subscribe ?",
+    "SOPHiA GENETICS ( NASDAQ : SOPH ) versus Information Analysis ( OTCMKTS : IAIC ) Head to Head Review",
+    "Q1 earnings deliver positive surprise ; has market priced in this optimism ?"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"기업 실적 발표\",\n  \"one_liner\": \"기업들의 1분기 실적이 예상보다 좋게 나왔어요.\",\n  \"why_now\": \"실적이 좋으면 해당 기업의 주가가 오르고 경제 전반에 긍정적인 영향을 줄 수 있어요.\",\n  \"impact_line\": \"주식 시장이 활기를 띨 수 있어요.\",\n  \"details\": [\n    \"기업들의 1분기 실적이 좋게 나왔어요.\",\n    \"시장의 예상보다 좋은 실적을 발표한 기업들이 있어요.\",\n    \"이러한 긍정적인 실적이 시장에 반영되었는지 주목하고 있어요.\"\n  ],\n  \"visual_type\": \"kospi_close\",\n  \"effects\": [\n    \"주가가 오르면 투자자들의 자산 가치가 늘어날 수 있어요!\",\n    \"기업들이 더 많은 이익을 내면 소비와 투자가 늘어날 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"IPO\",\n      \"easy\": \"기업이 처음으로 주식 시장에 나와 주식을 공개적으로 사고팔게 되는 것을 말해요.\",\n      \"example\": \"새로운 회사가 IPO를 통해 투자자들에게 주식을 팔았어요.\"\n    },\n    {\n      \"term\": \"GMP\",\n      \"easy\": \"비상장 주식의 현재 시장 가격을 뜻하는 말이에요.\",\n      \"example\": \"상장 전 비상장 주식의 GMP가 높게 형성되었어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "AppFolio ( NASDAQ :…",
-   "one_liner": "AppFolio ( NASDAQ : APPF ) Major Shareholder…",
-   "why_now": null,
+   "title": "기업 실적 발표",
+   "one_liner": "기업들의 1분기 실적이 예상보다 좋게 나왔어요.",
+   "why_now": "실적이 좋으면 해당 기업의 주가가 오르고 경제 전반에 긍정적인 영향을 줄 수 있어요.",
    "details": [
-    "AppFolio ( NASDAQ : APPF ) Major Shareholder Sells $1 , 455 , 264 . 00 in Stock",
-    "Lia Dean Sells 2 , 193 Shares of Capital One Financial ( NYSE : COF ) Stock",
-    "Big Digital Energy , Inc . Common Stock ( NASDAQ : BGDE ) Major Shareholder Buys $104 , 828 . 00 in Stock"
+    "기업들의 1분기 실적이 좋게 나왔어요.",
+    "시장의 예상보다 좋은 실적을 발표한 기업들이 있어요.",
+    "이러한 긍정적인 실적이 시장에 반영되었는지 주목하고 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "주가가 오르면 투자자들의 자산 가치가 늘어날 수 있어요!",
+    "기업들이 더 많은 이익을 내면 소비와 투자가 늘어날 것으로 예상돼요!"
+   ],
+   "visual_type": "kospi_close"
   },
-  "fact_hash": "8ef4ba13219c0f3bb679340dc34274bfb28165cd"
+  "fact_hash": "826ef19a2a350038557e6d04ac271d227d414dc6"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
@@ -895,14 +902,14 @@
    "shared": []
   },
   {
-   "id": "c78ab0773636aa1d7",
-   "title": "IFP Advisors Inc Acquires 2 , 652 Shares of JPMorgan Chase & Co . $JPM",
+   "id": "c473082d7f30acb2b",
+   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c369b45eb1511371e",
-   "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
+   "id": "cd6e96f9df3790928",
+   "title": "US economy cools in second quarter despite solid spending",
    "category": "MARKET",
    "shared": []
   }

@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-20T03:17:19.593070+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-20T07:15:24.011786+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,25 +881,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"온라인 서비스가 나빠지는 이유\",\n\"one_liner\": \"코리 닥터로우는 온라인 서비스가 점점 나빠지는 현상을 '엔쉬티피케이션'이라고 설명했어요.\",\n\"why_now\": \"우리가 자주 쓰는 온라인 서비스가 왜 점점 불편해지는지 이해하는 데 도움이 돼요.\",\n\"impact_line\": null,\n\"details\": [\n\"코리 닥터로우는 온라인 서비스가 점점 나빠지는 현상을 '엔쉬티피케이션'이라고 불렀어요.\",\n\"이 현상은 온라인 플랫폼이 처음에는 사용자에게 좋다가 점차 나빠지는 과정을 설명해요.\",\n\"플랫폼은 처음에는 사용자를 끌어들이기 위해 좋은 서비스를 제공해요.\",\n\"이후에는 더 많은 이익을 얻기 위해 사용자 경험을 희생시키는 방향으로 변해요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"온라인 서비스 이용이 점점 불편해질 수 있어요!\",\n\"플랫폼 기업들이 사용자보다 이익을 우선시하는 경향이 강해질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"엔쉬티피케이션\",\n\"easy\": \"온라인 서비스가 처음에는 좋다가 점점 나빠지는 현상을 말해요.\",\n\"example\": \"SNS가 광고만 많아지고 불편해지는 것도 엔쉬티피케이션의 예시예요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects 1~2문장 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Cory Doctorow :…",
-   "one_liner": "Cory Doctorow :  Enshittification  explains why…",
-   "why_now": null,
+   "title": "온라인 서비스가 나빠지는 이유",
+   "one_liner": "코리 닥터로우는 온라인 서비스가 점점 나빠지는 현상을 '엔쉬티피케이션'이라고 설명했어요.",
+   "why_now": "우리가 자주 쓰는 온라인 서비스가 왜 점점 불편해지는지 이해하는 데 도움이 돼요.",
    "details": [
-    "Cory Doctorow :  Enshittification  explains why everything is worse now | The Area News",
-    "Cory Doctorow :  Enshittification  explains why everything is worse now | South Coast Register",
-    "Cory Doctorow :  Enshittification  explains why everything is worse now | Southern Highland News"
+    "코리 닥터로우는 온라인 서비스가 점점 나빠지는 현상을 '엔쉬티피케이션'이라고 불렀어요.",
+    "이 현상은 온라인 플랫폼이 처음에는 사용자에게 좋다가 점차 나빠지는 과정을 설명해요.",
+    "플랫폼은 처음에는 사용자를 끌어들이기 위해 좋은 서비스를 제공해요.",
+    "이후에는 더 많은 이익을 얻기 위해 사용자 경험을 희생시키는 방향으로 변해요."
    ],
-   "effects": [],
+   "effects": [
+    "온라인 서비스 이용이 점점 불편해질 수 있어요!",
+    "플랫폼 기업들이 사용자보다 이익을 우선시하는 경향이 강해질 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "ddd042dea0c79a85fe4207acb3137b0a4abb3273"
