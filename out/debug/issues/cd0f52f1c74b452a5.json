@@ -88,25 +88,20 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-19T08:00:09.463570+00:00",
+  "created_at": "2026-08-20T01:59:29.255280+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
     "Why Exxon Mobil ( XOM ) Is Expanding Beyond Traditional Oil and Gas",
+    "Four more oil discoveries in Guyana likely to go  above and beyond what we thought were opportunities  - Exxon CEO",
+    "Disgraceful for VP Jagdeo , Min . Bharrat to allow citizens to rely on Exxon for updates on recovery of all investments - Christopher Ram",
     "USA Financial Formulas Purchases 4 , 478 Shares of ExxonMobil Corporation $XOM"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"엑손모빌, 석유 외 사업 확장\", \"one_liner\": \"엑손모빌이 기존 석유 사업 외에 다른 분야로 사업을 넓히고 있어요.\", \"why_now\": \"석유 가격 변동성이 커지면서 기업들이 새로운 수익원을 찾으려는 움직임이 늘고 있어요.\", \"impact_line\": \"석유 회사의 사업 다각화는 에너지 가격에 영향을 줄 수 있어요.\", \"details\": [\"엑손모빌이 전통적인 석유 및 가스 사업을 넘어서는 확장을 모색하고 있어요.\", \"미국 금융 회사인 USA Financial Formulas는 엑손모빌 주식 4,478주를 매입했어요.\"], \"visual_type\": \"none\", \"effects\": [\"엑손모빌의 사업 다각화는 미래 에너지 시장의 변화를 보여줄 수 있어요!\", \"새로운 사업 분야의 성과는 회사의 주가와 전반적인 에너지 산업에 영향을 줄 수 있어요!\"], \"glossary\": [{\"term\": \"엑손모빌\", \"easy\": \"미국의 대표적인 석유 회사 이름이에요.\", \"example\": \"엑손모빌의 실적 발표에 따라 국제 유가가 움직이기도 해요.\"}, {\"term\": \"석유 및 가스 사업\", \"easy\": \"원유를 캐내고 정제해서 연료나 화학 제품을 만드는 사업이에요.\", \"example\": \"석유 및 가스 사업은 국제 유가에 따라 수익이 크게 달라져요.\"}]}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "입력에 없는 숫자: [4478.0]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -120,16 +115,17 @@
    "why_now": null,
    "details": [
     "Why Exxon Mobil ( XOM ) Is Expanding Beyond Traditional Oil and Gas",
-    "USA Financial Formulas Purchases 4 , 478 Shares of ExxonMobil Corporation $XOM"
+    "Four more oil discoveries in Guyana likely to go  above and beyond what we thought were opportunities  - Exxon CEO",
+    "Disgraceful for VP Jagdeo , Min . Bharrat to allow citizens to rely on Exxon for updates on recovery of all investments - Christopher Ram"
    ],
    "effects": [],
    "visual_type": "wti"
   },
-  "fact_hash": "7175e335b968486f6629d3995dbb5c0a9d1b811b"
+  "fact_hash": "3350c40d488b321343b113ba401f44798a4ba9d4"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [4478.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-19T08:00:09.463183+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-20T01:59:29.255210+00:00"
  },
  "glossary": [],
  "related": [
