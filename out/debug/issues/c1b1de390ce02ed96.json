@@ -10,8 +10,18 @@
  "seen_sources": 2,
  "importance": 80,
  "created_at": "2026-08-19T03:16:54.791599+00:00",
- "last_update": "2026-08-19T20:50:38.815175+00:00",
+ "last_update": "2026-08-20T08:02:52.090629+00:00",
  "members": [
+  {
+   "id": "5a43d577b20e72feab806399fd4e7604806ee2b4",
+   "source": "mizonews.net",
+   "tier": "wire",
+   "url": "https://mizonews.net/politics/18039/",
+   "title": "Americans have only elected 3 Black governors . This year , 8 major party candidates are on the ballot",
+   "published_at": "2026-08-20T07:15:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.8894
+  },
   {
    "id": "c861801282471452b8f9582d6ebd687c9827acb8",
    "source": "wdio.com",
@@ -20,7 +30,7 @@
    "title": "Americans have elected only 3 Black governors . This year , 8 major party candidates are on the ballot",
    "published_at": "2026-08-19T20:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.8688
+   "sim_to_centroid": 0.8928
   },
   {
    "id": "7a3d27efa5cf7fcbbe9e7c3ca021f0929a1a23d9",
@@ -30,7 +40,7 @@
    "title": "US Rep Byron Donalds wins GOP nod for governor and former Rep . David Jolly the Democratic nomination",
    "published_at": "2026-08-19T02:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9981
+   "sim_to_centroid": 0.9941
   },
   {
    "id": "d65daf9fb434873917e535a07218554524619786",
@@ -40,7 +50,7 @@
    "title": "US Rep Byron Donalds wins GOP nod for governor and former Rep . David Jolly the Democratic nomination",
    "published_at": "2026-08-19T02:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9981
+   "sim_to_centroid": 0.9941
   },
   {
    "id": "e6a546d0fd65c69dd345e613bdff234c812f7be3",
@@ -50,11 +60,18 @@
    "title": "US Rep Byron Donalds wins GOP nod for Florida governor against Ex - Rep David Jolly for the Democrats",
    "published_at": "2026-08-19T02:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9766
+   "sim_to_centroid": 0.9731
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Americans have only elected 3 Black governors . This year , 8 major party candidates are on the ballot",
+   "source": "mizonews.net",
+   "url": "https://mizonews.net/politics/18039/",
+   "at": "2026-08-20T07:15:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Americans have elected only 3 Black governors . This year , 8 major party candidates are on the ballot",
@@ -86,7 +103,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-20T05:05:42.721714+00:00",
+  "created_at": "2026-08-20T08:09:23.751609+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -120,7 +137,7 @@
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-20T05:05:42.721652+00:00"
+  "at": "2026-08-20T08:09:23.751532+00:00"
  },
  "glossary": [],
  "related": [
@@ -137,6 +154,12 @@
    "shared": []
   },
   {
+   "id": "c78995e710f8b7506",
+   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
    "id": "c2efbf61ddb697589",
    "title": "Democratic attorneys general , governors sue feds over tariffs",
    "category": "POLICY",
@@ -145,12 +168,6 @@
   {
    "id": "c5c8d55ad4217ee1f",
    "title": "Federal government grounds Billy Bishop airport expansion",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
-   "id": "cc7c934c611b0fe50",
-   "title": "No U . S . estimate of consumer cost as Canada tariffs take effect",
    "category": "POLICY",
    "shared": []
   }
