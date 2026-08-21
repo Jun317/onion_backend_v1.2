@@ -10,11 +10,31 @@
   "CHINA",
   "IRAN"
  ],
- "seen_sources": 22,
+ "seen_sources": 23,
  "importance": 85,
  "created_at": "2026-08-20T04:59:07.648459+00:00",
- "last_update": "2026-08-20T23:46:32.085191+00:00",
+ "last_update": "2026-08-21T02:03:12.017726+00:00",
  "members": [
+  {
+   "id": "048887a831ae3b7b24d3101b76dd4a7a124d0fd3",
+   "source": "algemeiner.com",
+   "tier": "wire",
+   "url": "https://www.algemeiner.com/2026/08/20/trump-warns-economic-consequences-any-country-supports-iran/",
+   "title": "Trump Warns of Economic Consequences for Any Country That Supports Iran",
+   "published_at": "2026-08-20T23:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9476
+  },
+  {
+   "id": "01e9c9c2434c404bc66e133df58b3721eb8b0b6b",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/technology/ai/articles/china-closes-gap-ai-race-223610039.html",
+   "title": "China closes the gap in AI race with US",
+   "published_at": "2026-08-20T23:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8648
+  },
   {
    "id": "5d40368cbdd1ec673deec16e8adbd52135c20541",
    "source": "themarketsdaily.com",
@@ -340,6 +360,20 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Trump Warns of Economic Consequences for Any Country That Supports Iran",
+   "source": "algemeiner.com",
+   "url": "https://www.algemeiner.com/2026/08/20/trump-warns-economic-consequences-any-country-supports-iran/",
+   "at": "2026-08-20T23:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "China closes the gap in AI race with US",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/technology/ai/articles/china-closes-gap-ai-race-223610039.html",
+   "at": "2026-08-20T23:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Analyzing UTG ( OTCMKTS : UTGN ) & Ping An Insurance Co . of China ( OTCMKTS : PNGAY )",
    "source": "themarketsdaily.com",
    "url": "https://www.themarketsdaily.com/2026/08/20/analyzing-utg-otcmktsutgn-ping-an-insurance-co-of-china-otcmktspngay.html",
@@ -565,14 +599,16 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-20T09:02:44.784357+00:00",
+  "created_at": "2026-08-21T02:09:24.269309+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
    "headlines": [
-    "Trump has a new plan to crush Iran economy . But will he stay the course ?",
-    "Trump vows  tremendou economic costs on Iran partners",
-    "Trump threatens Iran with  economic D - Day"
+    "Trump threatens Iran with  economic D - Day",
+    "President Trump threats economic warfare in latest shift in strategy with Iran",
+    "Trump Launches Economic Pressure Campaign Against Iran",
+    "Trump pledges  economic warfare  on Iran , prompting Tehran derision",
+    "Trump announces  economic D - Day  for Iran as war nears 6 months"
    ],
    "official_lines": []
   },
@@ -586,22 +622,22 @@
    }
   ],
   "output": {
-   "title": "Trump has a new plan…",
-   "one_liner": "Trump has a new plan to crush Iran economy . But…",
+   "title": "Trump threatens Iran…",
+   "one_liner": "Trump threatens Iran with  economic D - Day",
    "why_now": null,
    "details": [
-    "Trump has a new plan to crush Iran economy . But will he stay the course ?",
-    "Trump vows  tremendou economic costs on Iran partners",
-    "Trump threatens Iran with  economic D - Day"
+    "Trump threatens Iran with  economic D - Day",
+    "President Trump threats economic warfare in latest shift in strategy with Iran",
+    "Trump Launches Economic Pressure Campaign Against Iran"
    ],
    "effects": [],
    "visual_type": "usdkrw"
   },
-  "fact_hash": "43b17aaae1f5b57707ee90460ddd6ea22f157476"
+  "fact_hash": "881082c7bdc36e9b1401b4bc63d97b8fa75b5dcf"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-20T09:02:44.784240+00:00"
+  "at": "2026-08-21T02:09:24.269247+00:00"
  },
  "glossary": [],
  "related": [
@@ -636,10 +672,11 @@
    "shared": []
   },
   {
-   "id": "cb22ab4362dc7db3b",
-   "title": "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
-   "category": "COMMODITY",
+   "id": "c92542f0fffea30a9",
+   "title": "Exclusive - US to tell partners they must pick sides in AI race with China",
+   "category": "GEO",
    "shared": [
+    "CHINA",
     "IRAN"
    ]
   }

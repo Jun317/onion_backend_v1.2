@@ -9,11 +9,21 @@
  "entity_keys": [
   "IMF"
  ],
- "seen_sources": 5,
+ "seen_sources": 6,
  "importance": 125,
  "created_at": "2026-08-17T13:57:52.716055+00:00",
- "last_update": "2026-08-20T23:46:32.075194+00:00",
+ "last_update": "2026-08-21T02:03:12.007690+00:00",
  "members": [
+  {
+   "id": "c417e2248e59a49594af47465a0478c2eb7d0387",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/economy/policy/articles/ai-productivity-gains-may-not-121420024.html",
+   "title": "AI productivity gains may not curb inflation , IMF Tenreyro warns",
+   "published_at": "2026-08-20T23:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8779
+  },
   {
    "id": "e1e8ef8cf21f50eec458cafb8642216992934a05",
    "source": "gdnonline.com",
@@ -22,7 +32,7 @@
    "title": "International Business : IMF welcomes Lebanon bank law changes as  major step",
    "published_at": "2026-08-20T23:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8732
+   "sim_to_centroid": 0.8772
   },
   {
    "id": "d71d2d763e7d7dfcb8866f31ac99311b60dad05b",
@@ -32,7 +42,7 @@
    "title": "IMF : AI is no cure for inflation – Shafaqna English | International Shia News & Fatwas",
    "published_at": "2026-08-20T13:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8642
+   "sim_to_centroid": 0.8798
   },
   {
    "id": "81bcff5098c9804803b99dc6403c3583e42a0a91",
@@ -42,7 +52,7 @@
    "title": "IMF welcomes Dr Brian Langrin appointment as Bank of Jamaica governor | Business",
    "published_at": "2026-08-19T07:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8812
+   "sim_to_centroid": 0.8863
   },
   {
    "id": "b1201f18e991e42559459149a23c0feb2c8c2879",
@@ -52,7 +62,7 @@
    "title": "IMF to visit Uganda in September for negotiations on new programme – Channel Africa",
    "published_at": "2026-08-17T13:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9811
+   "sim_to_centroid": 0.9758
   },
   {
    "id": "bd925e6b4c718e4b269a99ec4d10dcdb4528042c",
@@ -62,11 +72,18 @@
    "title": "IMF to visit Uganda next month for negotiations on new programme",
    "published_at": "2026-08-17T09:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9811
+   "sim_to_centroid": 0.9767
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "AI productivity gains may not curb inflation , IMF Tenreyro warns",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/economy/policy/articles/ai-productivity-gains-may-not-121420024.html",
+   "at": "2026-08-20T23:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "International Business : IMF welcomes Lebanon bank law changes as  major step",
@@ -105,14 +122,16 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-20T08:03:46.087780+00:00",
+  "created_at": "2026-08-21T02:03:46.269306+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
-    "IMF welcomes Dr Brian Langrin appointment as Bank of Jamaica governor | Business",
+    "IMF to visit Uganda next month for negotiations on new programme",
     "IMF to visit Uganda in September for negotiations on new programme – Channel Africa",
-    "IMF to visit Uganda next month for negotiations on new programme"
+    "IMF welcomes Dr Brian Langrin appointment as Bank of Jamaica governor | Business",
+    "IMF : AI is no cure for inflation – Shafaqna English | International Shia News & Fatwas",
+    "AI productivity gains may not curb inflation , IMF Tenreyro warns"
    ],
    "official_lines": []
   },
@@ -126,22 +145,22 @@
    }
   ],
   "output": {
-   "title": "IMF welcomes Dr…",
-   "one_liner": "IMF welcomes Dr Brian Langrin appointment as…",
+   "title": "IMF to visit Uganda…",
+   "one_liner": "IMF to visit Uganda next month for negotiations…",
    "why_now": null,
    "details": [
-    "IMF welcomes Dr Brian Langrin appointment as Bank of Jamaica governor | Business",
+    "IMF to visit Uganda next month for negotiations on new programme",
     "IMF to visit Uganda in September for negotiations on new programme – Channel Africa",
-    "IMF to visit Uganda next month for negotiations on new programme"
+    "IMF welcomes Dr Brian Langrin appointment as Bank of Jamaica governor | Business"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "966cd74986d4f594eedd42c79e4dbaec48b55b1c"
+  "fact_hash": "a11f45f54798f56882af251738aec40856287794"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-20T08:03:46.087709+00:00"
+  "at": "2026-08-21T02:03:46.269201+00:00"
  },
  "glossary": [],
  "related": [

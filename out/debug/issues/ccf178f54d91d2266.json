@@ -866,8 +866,54 @@
    "at": "2026-08-20T14:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-21T02:03:58.426418+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [],
+   "headlines": [
+    "Govt allows 1 mn tonnes of raw sugar imports to curb domestic price rise",
+    "HMRC writing to one million households about free payments",
+    "Households handed £111 boost ahead of Andy Burnham rule change on October 1",
+    "DWP confirms full list of state pensioners eligible for £300 Winter Fuel Payment under Andy Burnham",
+    "New Pension Credit claimants could receive three months of backdated payments"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"설탕 수입 허용\",\n  \"one_liner\": \"정부가 국내 설탕 가격 안정을 위해 100만 톤의 원당 수입을 허용했어요.\",\n  \"why_now\": \"설탕 가격이 오르면 과자, 음료 등 다양한 식품 가격에 영향을 줄 수 있어요.\",\n  \"impact_line\": \"설탕을 많이 쓰는 과자나 음료 가격이 안정될 수 있어요.\",\n  \"details\": [\n    \"정부가 국내 설탕 가격 상승을 막기 위해 조치를 취했어요.\",\n    \"100만 톤의 원당 수입이 허용될 예정이에요.\",\n    \"이는 국내 설탕 가격을 안정시키기 위한 결정이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"설탕 가격이 안정되면 관련 식품 제조업체의 원가 부담이 줄어들 수 있어요!\",\n    \"소비자들은 설탕이 들어간 제품을 지금보다 저렴하게 구매할 수 있을 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"원당\",\n      \"easy\": \"정제되지 않은 설탕 덩어리를 말해요.\",\n      \"example\": \"원당을 수입해서 국내에서 설탕으로 만들어 팔아요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [100.0]"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Govt allows 1 mn…",
+   "one_liner": "Govt allows 1 mn tonnes of raw sugar imports to…",
+   "why_now": null,
+   "details": [
+    "Govt allows 1 mn tonnes of raw sugar imports to curb domestic price rise",
+    "HMRC writing to one million households about free payments",
+    "Households handed £111 boost ahead of Andy Burnham rule change on October 1"
+   ],
+   "effects": [],
+   "visual_type": "kr_base_rate"
+  },
+  "fact_hash": "876d3377c43342c50ff07a4decb6bd68492a8194"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [100.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-21T02:03:58.426304+00:00"
+ },
  "glossary": [],
  "related": [
   {
