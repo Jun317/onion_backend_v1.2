@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-08-21T11:48:29.949715+00:00",
+ "generated_at": "2026-08-21T13:17:48.317850+00:00",
  "attribution": "News metadata via GDELT (gdeltproject.org) · Data: FRED, 한국은행 ECOS, DART, SEC EDGAR",
  "issues": [
   {
@@ -191,14 +191,42 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "sources": 10,
+   "sources": 42,
    "importance": 80,
-   "last_update": "2026-08-21T10:54:42.842027+00:00",
-   "event_at": "2026-08-21T08:45:00+00:00",
+   "last_update": "2026-08-21T13:17:47.818253+00:00",
+   "event_at": "2026-08-21T12:30:00+00:00",
    "has_visual": false,
    "headline_stat": null,
    "spark": null,
    "icon": "📈"
+  },
+  {
+   "id": "c8a1922fe87d06746",
+   "title": "코스피 상승",
+   "one_liner": "한국 증시 코스피가 6% 넘게 올랐어요.",
+   "why_now": "주식 시장이 오르면 투자자들의 자산 가치가 늘어나는 효과가 있어요.",
+   "impact_line": "주식에 투자했다면 자산이 늘어날 수 있어요.",
+   "raw_title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "sources": 8,
+   "importance": 80,
+   "last_update": "2026-08-21T13:17:47.805266+00:00",
+   "event_at": "2026-08-21T12:15:00+00:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    6299.66,
+    6345.53,
+    6579.04,
+    6813.34,
+    6977.94,
+    6869.83,
+    6471.17,
+    6852.58
+   ],
+   "icon": "🇰🇷"
   },
   {
    "id": "ca3daa964ba8a71f7",
@@ -218,34 +246,6 @@
    "headline_stat": null,
    "spark": null,
    "icon": "📈"
-  },
-  {
-   "id": "c8a1922fe87d06746",
-   "title": "코스피 상승",
-   "one_liner": "한국 증시 코스피가 6% 넘게 올랐어요.",
-   "why_now": "주식 시장이 오르면 투자자들의 자산 가치가 늘어나는 효과가 있어요.",
-   "impact_line": "주식에 투자했다면 자산이 늘어날 수 있어요.",
-   "raw_title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "sources": 7,
-   "importance": 80,
-   "last_update": "2026-08-20T13:18:27.265767+00:00",
-   "event_at": "2026-08-20T11:15:00+00:00",
-   "has_visual": true,
-   "headline_stat": null,
-   "spark": [
-    6299.66,
-    6345.53,
-    6579.04,
-    6813.34,
-    6977.94,
-    6869.83,
-    6471.17,
-    6852.58
-   ],
-   "icon": "🇰🇷"
   },
   {
    "id": "c8e7728ccae25e203",
@@ -2047,25 +2047,6 @@
    "icon": "🛢️"
   },
   {
-   "id": "c752ff9e03698b881",
-   "title": "온라인 서비스가 나빠지는 이유",
-   "one_liner": "코리 닥터로우는 온라인 서비스가 점점 나빠지는 현상을 '엔쉬티피케이션'이라고 설명했어요.",
-   "why_now": "우리가 자주 쓰는 온라인 서비스가 왜 점점 불편해지는지 이해하는 데 도움이 돼요.",
-   "impact_line": null,
-   "raw_title": "Cory Doctorow :  Enshittification  explains why everything is worse now | Southern Highland News",
-   "category": "GEO",
-   "status": "stale",
-   "origin": "cluster",
-   "sources": 44,
-   "importance": 70,
-   "last_update": "2026-08-17T13:12:43.158405+00:00",
-   "event_at": "2026-08-17T12:30:00+00:00",
-   "has_visual": false,
-   "headline_stat": null,
-   "spark": null,
-   "icon": "🌍"
-  },
-  {
    "id": "c02ea08d4dc90b65d",
    "title": "볼리비아 정부의 IMF 목표 초과",
    "one_liner": "볼리비아 정부가 IMF의 초과 목표를 달성했어요",
@@ -2102,6 +2083,25 @@
    "headline_stat": null,
    "spark": null,
    "icon": "📈"
+  },
+  {
+   "id": "c752ff9e03698b881",
+   "title": "온라인 서비스가 나빠지는 이유",
+   "one_liner": "코리 닥터로우는 온라인 서비스가 점점 나빠지는 현상을 '엔쉬티피케이션'이라고 설명했어요.",
+   "why_now": "우리가 자주 쓰는 온라인 서비스가 왜 점점 불편해지는지 이해하는 데 도움이 돼요.",
+   "impact_line": null,
+   "raw_title": "Cory Doctorow :  Enshittification  explains why everything is worse now | Southern Highland News",
+   "category": "GEO",
+   "status": "stale",
+   "origin": "cluster",
+   "sources": 44,
+   "importance": 65,
+   "last_update": "2026-08-17T13:12:43.158405+00:00",
+   "event_at": "2026-08-17T12:30:00+00:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🌍"
   },
   {
    "id": "c69e0f9360fce67e0",
@@ -2687,7 +2687,7 @@
     "title": "Trump threatens Iran…",
     "one_liner": "Trump threatens Iran with  economic D - Day",
     "icon": "🇨🇳",
-    "last_update": "2026-08-21T09:04:17.251007+00:00"
+    "last_update": "2026-08-21T13:17:47.818480+00:00"
    },
    "impact": [
     "전쟁이 격해지면 유가가 뛰고, 기름값과 물가가 따라 오를 수 있어요.",
@@ -3017,7 +3017,7 @@
     "title": "코스피 상승",
     "one_liner": "한국 증시 코스피가 6% 넘게 올랐어요.",
     "icon": "🇰🇷",
-    "last_update": "2026-08-20T13:18:27.265767+00:00"
+    "last_update": "2026-08-21T13:17:47.805266+00:00"
    },
    "impact": [
     "주가가 크게 오른 만큼, 작은 악재에도 시장이 출렁일 수 있어요.",
