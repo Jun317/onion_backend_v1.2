@@ -699,8 +699,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-21T05:54:36.707424+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-21T09:04:29.188100+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -716,25 +716,27 @@
     "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New Yor"
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"미국 국가 부채 4경 달러 돌파\",\n\"one_liner\": \"미국 국가 부채가 처음으로 4경 달러를 넘어섰어요.\",\n\"why_now\": \"국가 부채가 늘면 나라 살림이 어려워져 경제 전반에 부담이 될 수 있어요.\",\n\"impact_line\": \"미국 경제 상황은 한국 경제에도 영향을 줄 수 있어요.\",\n\"details\": [\n\"미국 국가 부채가 40조 달러를 넘어섰어요.\",\n\"이는 사상 처음 있는 일이에요.\",\n\"미국 연방준비제도(Fed)는 금리를 안정시키기 위해 노력하고 있어요.\",\n\"일부에서는 현재 금리가 너무 높다는 지적도 있어요.\"\n],\n\"visual_type\": \"usdkrw\",\n\"effects\": [\n\"미국 정부의 이자 부담이 늘어날 수 있어요!\",\n\"미국 경제에 대한 우려가 커지면 세계 경제에도 부정적인 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"연방준비제도(Fed)\",\n\"easy\": \"미국의 중앙은행으로, 나라 경제의 안정과 금융 시스템을 관리해요.\",\n\"example\": \"미국 연방준비제도가 금리를 올리면 한국 은행도 금리를 올릴 수 있어요.\"\n},\n{\n\"term\": \"국가 부채\",\n\"easy\": \"나라가 빚을 낸 돈으로, 정부가 돈이 부족할 때 사용해요.\",\n\"example\": \"국가 부채가 많으면 나라 살림이 어려워질 수 있어요.\"\n}\n],\n\"impact_line\": \"미국 경제 상황은 한국 경제에도 영향을 줄 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Three things to know…",
-   "one_liner": "Three things to know about the $40 trillion…",
-   "why_now": null,
+   "title": "미국 국가 부채 4경 달러 돌파",
+   "one_liner": "미국 국가 부채가 처음으로 4경 달러를 넘어섰어요.",
+   "why_now": "국가 부채가 늘면 나라 살림이 어려워져 경제 전반에 부담이 될 수 있어요.",
    "details": [
-    "Three things to know about the $40 trillion federal debt",
-    "3 things to know about the $40 trillion federal debt",
-    "Federal debt ticks over $1 trillion for the first time"
+    "미국 국가 부채가 40조 달러를 넘어섰어요.",
+    "이는 사상 처음 있는 일이에요.",
+    "미국 연방준비제도(Fed)는 금리를 안정시키기 위해 노력하고 있어요.",
+    "일부에서는 현재 금리가 너무 높다는 지적도 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "미국 정부의 이자 부담이 늘어날 수 있어요!",
+    "미국 경제에 대한 우려가 커지면 세계 경제에도 부정적인 영향을 줄 수 있어요!"
+   ],
    "visual_type": "usdkrw"
   },
   "fact_hash": "7b1643ce4cab6c9a996cb5b6780dd77d1380c104"
@@ -743,7 +745,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-21T05:54:36.707310+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "cea83213c8906724e",
