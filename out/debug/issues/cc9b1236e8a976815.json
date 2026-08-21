@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-21T03:29:51.614182+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-21T07:15:28.323217+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,25 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 증시 소폭 상승\",\n  \"one_liner\": \"미국 증시가 기술주와 산업주를 중심으로 소폭 올랐어요.\",\n  \"why_now\": \"주요 기업들의 실적이 좋게 나오면서 투자 심리가 살아나는 모습이에요.\",\n  \"impact_line\": \"주식 투자 수익률이 소폭 개선될 수 있어요.\",\n  \"details\": [\n    \"미국 증시가 상승세를 보였어요.\",\n    \"특히 기술주와 산업주가 상승을 이끌었어요.\",\n    \"모더나 주가는 긍정적인 임상 결과 발표로 크게 올랐어요.\",\n    \"타겟 주가도 상승 거래했어요.\"\n  ],\n  \"visual_type\": \"us_10y\",\n  \"effects\": [\n    \"투자자들의 관심이 높은 기술주와 산업주에 대한 투자가 늘어날 수 있어요!\",\n    \"긍정적인 임상 결과 발표는 관련 제약·바이오 기업의 주가 상승으로 이어질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"기술주\",\n      \"easy\": \"주로 정보통신 기술을 개발하거나 관련 서비스를 제공하는 회사의 주식을 말해요.\",\n      \"example\": \"새로운 스마트폰이 나오면 관련 기술주 주가가 오르기도 해요.\"\n    },\n    {\n      \"term\": \"산업주\",\n      \"easy\": \"제조업, 건설업 등 전통적인 산업 분야에서 사업을 하는 회사의 주식을 말해요.\",\n      \"example\": \"건설 경기가 좋아지면 관련 산업주 주가가 오를 수 있어요.\"\n    },\n    {\n      \"term\": \"임상 결과\",\n      \"easy\": \"새로운 약이나 치료법이 사람에게 안전하고 효과가 있는지 시험한 결과를 말해요.\",\n      \"example\": \"임상 결과가 좋으면 신약 개발에 성공할 가능성이 높아져요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "U . S . stocks edge…",
-   "one_liner": "U . S . stocks edge higher as tech and…",
-   "why_now": null,
+   "title": "미국 증시 소폭 상승",
+   "one_liner": "미국 증시가 기술주와 산업주를 중심으로 소폭 올랐어요.",
+   "why_now": "주요 기업들의 실적이 좋게 나오면서 투자 심리가 살아나는 모습이에요.",
    "details": [
-    "U . S . stocks edge higher as tech and industrials lead gains",
-    "IBD Live Q & A Summary , Stock Lists For Wednesday , Aug . 19 , 2026",
-    "Target ( TGT ) Stock Trades Up , Here Is Why"
+    "미국 증시가 상승세를 보였어요.",
+    "특히 기술주와 산업주가 상승을 이끌었어요.",
+    "모더나 주가는 긍정적인 임상 결과 발표로 크게 올랐어요.",
+    "타겟 주가도 상승 거래했어요."
    ],
-   "effects": [],
+   "effects": [
+    "투자자들의 관심이 높은 기술주와 산업주에 대한 투자가 늘어날 수 있어요!",
+    "긍정적인 임상 결과 발표는 관련 제약·바이오 기업의 주가 상승으로 이어질 수 있어요!"
+   ],
    "visual_type": "us_10y"
   },
   "fact_hash": "2c1cbe493502eb8f3ed3f2e5d2125bd99195a3c5"

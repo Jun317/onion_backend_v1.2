@@ -204,8 +204,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-21T03:30:43.971581+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-21T07:15:16.749000+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -218,26 +218,35 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"주가 50일 이동평균선 돌파\", \"one_liner\": \"일부 기업들의 주가가 50일 이동평균선을 넘거나 밑돌았어요.\", \"why_now\": \"주가가 50일 이동평균선을 넘으면 상승세, 밑돌면 하락세로 보는 경우가 많아요.\", \"impact_line\": \"투자자들의 매수·매도 결정에 영향을 줄 수 있어요.\", \"details\": [\"KALA BIO 주가가 50일 이동평균선 아래로 내려갔어요.\", \"알리바바 그룹 주가는 1% 올랐어요.\", \"SCI Engineered Materials 주가는 50일 이동평균선 위로 올라갔어요.\", \"Armor Minerals 주가는 50일 이동평균선 아래로 내려갔어요.\", \"GE Vernova의 인공지능 데이터센터 수주량이 크게 늘었어요.\"], \"visual_type\": \"none\", \"effects\": [\"주가가 50일 이동평균선을 넘으면 추가 상승을 기대하는 투자자들이 늘어날 수 있어요!\", \"주가가 50일 이동평균선 아래로 내려가면 매도하려는 움직임이 나타날 수 있어요!\"], \"glossary\": [{\"term\": \"50일 이동평균선\", \"easy\": \"최근 50일간의 주가를 평균 낸 선이에요.\", \"example\": \"주가가 이 선 위에 있으면 상승세, 아래에 있으면 하락세로 보기도 해요.\"}, {\"term\": \"인공지능 데이터센터\", \"easy\": \"인공지능을 위한 컴퓨터와 저장 장치가 모여 있는 곳이에요.\", \"example\": \"인공지능 데이터센터가 많아지면 관련 기술 수요가 늘어요.\"}], \"impact_line\": \"투자자들의 매수·매도 결정에 영향을 줄 수 있어요.\"}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects[1] 느낌표 종결 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "KALA BIO ( NASDAQ :…",
-   "one_liner": "KALA BIO ( NASDAQ : KALA ) Share Price Passes…",
-   "why_now": null,
+   "title": "주가 50일 이동평균선 돌파",
+   "one_liner": "일부 기업들의 주가가 50일 이동평균선을 넘거나 밑돌았어요.",
+   "why_now": "주가가 50일 이동평균선을 넘으면 상승세, 밑돌면 하락세로 보는 경우가 많아요.",
    "details": [
-    "KALA BIO ( NASDAQ : KALA ) Share Price Passes Below Fifty Day Moving Average – Time to Sell ?",
-    "Alibaba Group ( NYSE : BABA ) Shares Up 1 % – Time to Buy ?",
-    "SCI Engineered Materials ( OTCMKTS : SCIA ) Stock Passes Above Fifty Day Moving Average – Time to Sell ?"
+    "KALA BIO 주가가 50일 이동평균선 아래로 내려갔어요.",
+    "알리바바 그룹 주가는 1% 올랐어요.",
+    "SCI Engineered Materials 주가는 50일 이동평균선 위로 올라갔어요.",
+    "Armor Minerals 주가는 50일 이동평균선 아래로 내려갔어요.",
+    "GE Vernova의 인공지능 데이터센터 수주량이 크게 늘었어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "주가가 50일 이동평균선을 넘으면 추가 상승을 기대하는 투자자들이 늘어날 수 있어요!",
+    "주가가 50일 이동평균선 아래로 내려가면 매도하려는 움직임이 나타날 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "6fe377c05251ceba48a5879ac32feb9ccf0e55b6"
  },

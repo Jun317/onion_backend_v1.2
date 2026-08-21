@@ -104,8 +104,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-21T03:29:18.268107+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-21T07:15:09.644748+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -118,25 +118,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"오라클, 또 감원 계획\",\n\"one_liner\": \"미국 IT 기업 오라클이 8월에 또 직원을 줄이기로 했어요.\",\n\"why_now\": \"기업이 직원을 줄이면 실적이 나빠졌다는 신호일 수 있어요.\",\n\"impact_line\": \"IT 기업들의 채용이 줄어 취업이 어려워질 수 있어요.\",\n\"details\": [\n\"오라클이 8월에 추가로 직원을 줄일 계획이에요.\",\n\"이달 초에도 오라클은 감원을 진행했어요.\",\n\"이런 소식에 오라클 주가가 하락했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"IT 기업들의 실적이 나빠지면 관련 산업 전반에 어려움이 생길 수 있어요!\",\n\"다른 IT 기업들도 감원에 나설 가능성이 있어 취업 시장이 더 위축될 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"감원\",\n\"easy\": \"회사가 직원을 줄이는 것을 말해요.\",\n\"example\": \"회사가 어려워져서 감원을 하게 됐어요.\"\n}\n],\n\"impact_line\": \"IT 기업들의 채용이 줄어 취업이 어려워질 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "If Youd Invested $10…",
-   "one_liner": "If Youd Invested $10 , 000 in Oracle a Year Ago…",
-   "why_now": null,
+   "title": "오라클, 또 감원 계획",
+   "one_liner": "미국 IT 기업 오라클이 8월에 또 직원을 줄이기로 했어요.",
+   "why_now": "기업이 직원을 줄이면 실적이 나빠졌다는 신호일 수 있어요.",
    "details": [
-    "If Youd Invested $10 , 000 in Oracle a Year Ago , Here What It Would Be Worth Today",
-    "Why Oracle Stock Got Trounced Today",
-    "Oracle planning new round of layoffs in August 2026"
+    "오라클이 8월에 추가로 직원을 줄일 계획이에요.",
+    "이달 초에도 오라클은 감원을 진행했어요.",
+    "이런 소식에 오라클 주가가 하락했어요."
    ],
-   "effects": [],
+   "effects": [
+    "IT 기업들의 실적이 나빠지면 관련 산업 전반에 어려움이 생길 수 있어요!",
+    "다른 IT 기업들도 감원에 나설 가능성이 있어 취업 시장이 더 위축될 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "cbb2e53fef8a09e6c12070dc59f4fc6e788dd669"

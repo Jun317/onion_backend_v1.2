@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-21T03:28:36.775205+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-21T07:14:32.828900+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,25 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"우크라이나 드론 협력\",\n\"one_liner\": \"영국이 우크라이나와 드론 협력을 강화하기로 했어요.\",\n\"why_now\": \"이는 러시아와의 긴장을 높일 수 있지만, 우크라이나의 방어 능력을 키우는 데 중요해요.\",\n\"impact_line\": \"국제 정세 변화에 따른 안보 불안감이 커질 수 있어요.\",\n\"details\": [\n\"영국은 우크라이나에 드론을 지원하는 파트너십을 맺었어요.\",\n\"이 협력은 러시아의 반발을 살 수 있다는 위험을 감수하는 결정이에요.\",\n\"전문가들은 이 협력이 우크라이나의 국방력 강화에 기여할 것으로 보고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"러시아와의 긴장이 고조될 가능성이 있어요!\",\n\"우크라이나의 군사적 대응 능력이 향상될 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"드론\",\n\"easy\": \"카메라나 무기 등을 달고 원격으로 조종할 수 있는 무인 항공기예요.\",\n\"example\": \"드론 택배가 상용화되면 물건을 더 빨리 받을 수 있을 거예요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Im a conflict expert…",
-   "one_liner": "Im a conflict expert . Why the united kingdom -…",
-   "why_now": null,
+   "title": "우크라이나 드론 협력",
+   "one_liner": "영국이 우크라이나와 드론 협력을 강화하기로 했어요.",
+   "why_now": "이는 러시아와의 긴장을 높일 수 있지만, 우크라이나의 방어 능력을 키우는 데 중요해요.",
    "details": [
-    "Im a conflict expert . Why the united kingdom - Ukraine drone partnership is worth risking Putin wrath",
-    "San Diego County Supervisors end gun range agreements with ICE and CBP",
-    "August 19 , 2026 - David Pakman"
+    "영국은 우크라이나에 드론을 지원하는 파트너십을 맺었어요.",
+    "이 협력은 러시아의 반발을 살 수 있다는 위험을 감수하는 결정이에요.",
+    "전문가들은 이 협력이 우크라이나의 국방력 강화에 기여할 것으로 보고 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "러시아와의 긴장이 고조될 가능성이 있어요!",
+    "우크라이나의 군사적 대응 능력이 향상될 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "0df58aef2942e1c3a54dbdc9a8eb83c25d5c6384"
@@ -908,13 +909,7 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-21T03:28:36.775139+00:00"
  },
- "glossary": [
-  {
-   "term": "bp",
-   "easy": "이자를 재는 아주 작은 단위예요. 1bp는 0.01%예요.",
-   "example": "25bp면 0.25%를 뜻해요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "c92542f0fffea30a9",

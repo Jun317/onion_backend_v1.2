@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-21T03:28:47.180919+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-21T07:14:37.141792+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -881,26 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"주요 시장 동향\", \"one_liner\": \"주요 시장들이 전반적으로 약세를 보이고 있어요.\", \"why_now\": \"경제 전반의 흐름을 파악하는 데 도움이 되는 주요 시장들의 움직임을 알려드려요.\", \"impact_line\": \"주식 시장의 변동성이 커질 수 있어요.\", \"details\": [\"AI 관련 투자 열기가 식으면서 관련 시장이 주춤하고 있어요.\", \"미국 국채 시장은 유동성 지원 소식에 하락세를 멈췄어요.\", \"일본 증시는 큰 폭으로 떨어졌어요.\"], \"visual_type\": \"none\", \"effects\": [\"AI 관련 기업들의 실적 희비가 엇갈릴 수 있어요!\", \"미국 국채 시장의 안정은 다른 시장에도 긍정적인 영향을 줄 수 있어요!\"], \"glossary\": [{\"term\": \"AI\", \"easy\": \"인공지능을 뜻하는 말로, 컴퓨터가 사람처럼 생각하고 배울 수 있게 하는 기술이에요.\", \"example\": \"AI 기술 덕분에 스마트폰이 더 똑똑해졌어요.\"}, {\"term\": \"국채\", \"easy\": \"나라에서 돈을 빌리기 위해 발행하는 증서예요. 나라가 갚을 것을 약속해요.\", \"example\": \"국채 금리가 오르면 나라의 이자 부담이 늘어나요.\"}], \"impact_line\": \"주식 시장의 변동성이 커질 수 있어요.\"}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "FHB market loses…",
-   "one_liner": "FHB market loses momentum as demand declines",
-   "why_now": null,
+   "title": "주요 시장 동향",
+   "one_liner": "주요 시장들이 전반적으로 약세를 보이고 있어요.",
+   "why_now": "경제 전반의 흐름을 파악하는 데 도움이 되는 주요 시장들의 움직임을 알려드려요.",
    "details": [
-    "FHB market loses momentum as demand declines",
-    "AI Spending Just Revealed a $7 , 000 Gap Between Winners and Losers",
-    "Value Stocks Worth Watching – August 19th"
+    "AI 관련 투자 열기가 식으면서 관련 시장이 주춤하고 있어요.",
+    "미국 국채 시장은 유동성 지원 소식에 하락세를 멈췄어요.",
+    "일본 증시는 큰 폭으로 떨어졌어요."
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "AI 관련 기업들의 실적 희비가 엇갈릴 수 있어요!",
+    "미국 국채 시장의 안정은 다른 시장에도 긍정적인 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "a4cd84cf37fe18b4f4af7f2fe165277f4c2bc01d"
  },
@@ -908,7 +909,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-21T03:28:47.180841+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "국채",
+   "easy": "정부가 돈을 빌리며 써준 '나라의 차용증'이에요.",
+   "example": "여기 붙는 이자가 시장 이자의 기준이 돼요."
+  }
+ ],
  "related": [
   {
    "id": "cb22ab4362dc7db3b",
