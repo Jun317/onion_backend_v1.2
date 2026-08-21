@@ -866,8 +866,48 @@
    "at": "2026-08-20T22:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-21T03:31:46.611262+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Stock Market Today , Aug . 20 : Stocks Slide on Weak Retail Earnings , Rising Bond Yields",
+    "Wall Street dives as bond yields continue to surge",
+    "U . S . Bond Crisis Highlights Deeper Fiscal Rot",
+    "Stocks Supported by Lower Bond Yields",
+    "Dow slides as rising yields rattle Wall Street"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Stock Market Today ,…",
+   "one_liner": "Stock Market Today , Aug . 20 : Stocks Slide on…",
+   "why_now": null,
+   "details": [
+    "Stock Market Today , Aug . 20 : Stocks Slide on Weak Retail Earnings , Rising Bond Yields",
+    "Wall Street dives as bond yields continue to surge",
+    "U . S . Bond Crisis Highlights Deeper Fiscal Rot"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "194169e434905a2d215856dbace670d68fa19857"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-21T03:31:46.611202+00:00"
+ },
  "glossary": [],
  "related": [
   {

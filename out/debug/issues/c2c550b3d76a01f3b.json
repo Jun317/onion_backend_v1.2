@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 26,
- "importance": 65,
+ "importance": 60,
  "created_at": "2026-08-16T10:45:49.457442+00:00",
  "last_update": "2026-08-17T03:17:42.950421+00:00",
  "members": [
@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-20T07:17:47.116450+00:00",
+  "created_at": "2026-08-21T03:34:02.626064+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,8 +881,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"주목할 만한 주식들\", \"one_liner\": \"8월 16일에 주목할 만한 가치주, 중형주, 피트니스, 인프라 관련 주식들이 소개되었어요.\", \"why_now\": \"주식 시장은 다양한 분야의 기업들이 있어 투자자들의 관심을 끌어요.\", \"impact_line\": \"관심 있는 분야의 주식 정보를 얻을 수 있어요.\", \"details\": [\"가치주 목록이 소개되었어요.\", \"중형주 목록이 소개되었어요.\", \"피트니스 관련 주식 목록이 소개되었어요.\", \"인프라 관련 주식 목록이 소개되었어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [], \"impact_line\": null}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects 1~2문장 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +911,8 @@
   "fact_hash": "f53d720a89123a6f8d8b3d79ee124bcc74f8b03a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-20T07:17:47.116392+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-21T03:34:02.625990+00:00"
  },
  "glossary": [],
  "related": [

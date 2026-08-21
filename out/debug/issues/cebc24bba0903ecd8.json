@@ -186,8 +186,48 @@
    "at": "2026-08-20T21:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-21T03:30:43.971581+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "KALA BIO ( NASDAQ : KALA ) Share Price Passes Below Fifty Day Moving Average – Time to Sell ?",
+    "Alibaba Group ( NYSE : BABA ) Shares Up 1 % – Time to Buy ?",
+    "SCI Engineered Materials ( OTCMKTS : SCIA ) Stock Passes Above Fifty Day Moving Average – Time to Sell ?",
+    "Armor Minerals ( CVE : A ) Shares Cross Below 50 Day Moving Average – Should You Sell ?",
+    "GE Vernova AI Data Center Orders Just Doubled All of 2025 in 1 Half - Year . Is the Stock Still a Buy ?"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "KALA BIO ( NASDAQ :…",
+   "one_liner": "KALA BIO ( NASDAQ : KALA ) Share Price Passes…",
+   "why_now": null,
+   "details": [
+    "KALA BIO ( NASDAQ : KALA ) Share Price Passes Below Fifty Day Moving Average – Time to Sell ?",
+    "Alibaba Group ( NYSE : BABA ) Shares Up 1 % – Time to Buy ?",
+    "SCI Engineered Materials ( OTCMKTS : SCIA ) Stock Passes Above Fifty Day Moving Average – Time to Sell ?"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "6fe377c05251ceba48a5879ac32feb9ccf0e55b6"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-21T03:30:43.971444+00:00"
+ },
  "glossary": [],
  "related": [
   {

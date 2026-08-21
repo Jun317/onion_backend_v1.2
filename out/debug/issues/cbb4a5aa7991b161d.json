@@ -118,8 +118,48 @@
    "at": "2026-08-20T22:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-21T03:30:54.323976+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Colony Bankcorp ( NYSE : CBAN ) Insider Acquires 1 , 000 Shares",
+    "Gerhard Lombard Acquires 2 , 000 Shares of Crescent Capital BDC ( NASDAQ : CCAP ) Stock",
+    "Leadership Investment : Director Carande Acquires 2 , 101 Shares of United Community Banks",
+    "James Peter Flynn Acquires 20 , 000 Shares of Lument Finance Trust ( NYSE : LFT ) Stock",
+    "Jefferies Financial Group Forecasts Strong Price Appreciation for Estee Lauder Companies ( NYSE : EL ) Stock"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Colony Bankcorp (…",
+   "one_liner": "Colony Bankcorp ( NYSE : CBAN ) Insider Acquires…",
+   "why_now": null,
+   "details": [
+    "Colony Bankcorp ( NYSE : CBAN ) Insider Acquires 1 , 000 Shares",
+    "Gerhard Lombard Acquires 2 , 000 Shares of Crescent Capital BDC ( NASDAQ : CCAP ) Stock",
+    "Leadership Investment : Director Carande Acquires 2 , 101 Shares of United Community Banks"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "6b4836f7db3fd42258f618f5acab3c783813b052"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-21T03:30:54.323914+00:00"
+ },
  "glossary": [],
  "related": [
   {

@@ -868,21 +868,27 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-20T09:02:55.437240+00:00",
+  "created_at": "2026-08-21T03:29:41.265577+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
-    "Ghana Cedi Rallied 7 % in a Week , Street Rates Did Not",
-    "Households warned over 11 supermarket staples increasing most in price",
+    "Retail inflation may cross 6 pc in Oct - Nov before easing in Q4 FY27 : Report",
+    "RBI MPC Minutes : Rate Hikes Loom as Inflationary Pressures Build",
+    "Global Economy Briefing August 20 , 2026",
     "NESG Projects 15 . 5 % Inflation Average for H2 2026",
-    "Homeplus faces fresh funding needs on road to recovery",
-    "Ethiopia Birr Hits Record Low , US$500m Auction Called"
+    "Ghana Cedi Rallied 7 % in a Week , Street Rates Did Not"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"물가 상승 우려\",\n\"one_liner\": \"인도 물가가 10월과 11월에 6%를 넘을 수 있다는 보고가 나왔어요.\",\n\"why_now\": \"물가가 오르면 물건값이 비싸져서 장바구니 부담이 커지는 게 보통이에요.\",\n\"impact_line\": \"생활 물가가 오를 수 있어요.\",\n\"details\": [\n\"인도 물가가 10월과 11월에 6%를 넘을 수 있다고 해요.\",\n\"하지만 2027년 1분기에는 물가가 안정될 것으로 예상돼요.\",\n\"다른 보고서에서는 2026년 하반기 평균 물가 상승률을 15.5%로 예상하기도 했어요.\",\n\"인도 중앙은행은 물가 상승 압력이 커지자 금리를 더 올릴 수 있다는 분위기예요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"물가가 계속 오르면 소비 심리가 위축될 수 있어요!\",\n\"금리가 오르면 대출 이자가 늘어나 가계 부담이 커질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"물가 상승률\",\n\"easy\": \"지난해보다 물건값이 얼마나 올랐는지를 백분율로 나타낸 거예요.\",\n\"example\": \"올해 물가 상승률은 3%로 예상돼요.\"\n},\n{\n\"term\": \"금리\",\n\"easy\": \"돈을 빌리거나 맡길 때 적용되는 이자율이에요.\",\n\"example\": \"금리가 오르면 대출 이자도 보통 따라 올라요.\"\n}\n]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [15.5]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -891,22 +897,22 @@
    }
   ],
   "output": {
-   "title": "Ghana Cedi Rallied 7…",
-   "one_liner": "Ghana Cedi Rallied 7 % in a Week , Street Rates…",
+   "title": "Retail inflation may…",
+   "one_liner": "Retail inflation may cross 6 pc in Oct - Nov…",
    "why_now": null,
    "details": [
-    "Ghana Cedi Rallied 7 % in a Week , Street Rates Did Not",
-    "Households warned over 11 supermarket staples increasing most in price",
-    "NESG Projects 15 . 5 % Inflation Average for H2 2026"
+    "Retail inflation may cross 6 pc in Oct - Nov before easing in Q4 FY27 : Report",
+    "RBI MPC Minutes : Rate Hikes Loom as Inflationary Pressures Build",
+    "Global Economy Briefing August 20 , 2026"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "42d1921c8a82d7ea8a75bb4bd6071457aa27682d"
+  "fact_hash": "32f8835874167081b6dc9e857e0e415472c1367b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-20T09:02:55.437039+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [15.5]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-21T03:29:41.265484+00:00"
  },
  "glossary": [],
  "related": [

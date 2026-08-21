@@ -866,8 +866,48 @@
    "at": "2026-08-20T13:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-21T03:32:07.414444+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Morning Update : Trade clock keeps ticking",
+    "Jefferies favours two - wheeler stocks over four - wheeler stocks as earnings gap widens",
+    "Jim Cramer top 10 things to watch in the stock market Thursday",
+    "The Price of Gold Today , August 20 , 2026 and the Best Places to Buy",
+    "Our Approach to Drought and Wildfire Is Economically Backwards"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Morning Update :…",
+   "one_liner": "Morning Update : Trade clock keeps ticking",
+   "why_now": null,
+   "details": [
+    "Morning Update : Trade clock keeps ticking",
+    "Jefferies favours two - wheeler stocks over four - wheeler stocks as earnings gap widens",
+    "Jim Cramer top 10 things to watch in the stock market Thursday"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "ba7a8b7ad3b5229fdbc3b5feda4e98a801eb9142"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-21T03:32:07.414367+00:00"
+ },
  "glossary": [],
  "related": [
   {

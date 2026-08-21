@@ -135,8 +135,48 @@
    "at": "2026-08-20T22:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-21T03:29:28.708348+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Lumentum ( NASDAQ : LITE ) Stock Price Up 6 . 2 % – Here What Happened",
+    "Rivian Automotive ( NASDAQ : RIVN ) Stock Price Up 1 . 8 % – Here Why",
+    "Hut 8 ( NASDAQ : HUT ) Stock Price Up 8 % – Should You Buy ?",
+    "Why Hecla Mining Stock Is Soaring This Week",
+    "Why Is ScanSource ( SCSC ) Stock Rocketing Higher Today"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Lumentum ( NASDAQ :…",
+   "one_liner": "Lumentum ( NASDAQ : LITE ) Stock Price Up 6 . 2…",
+   "why_now": null,
+   "details": [
+    "Lumentum ( NASDAQ : LITE ) Stock Price Up 6 . 2 % – Here What Happened",
+    "Rivian Automotive ( NASDAQ : RIVN ) Stock Price Up 1 . 8 % – Here Why",
+    "Hut 8 ( NASDAQ : HUT ) Stock Price Up 8 % – Should You Buy ?"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "674e1799d5b36eb9a3925e84519eb40729193065"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-21T03:29:28.708243+00:00"
+ },
  "glossary": [],
  "related": [
   {

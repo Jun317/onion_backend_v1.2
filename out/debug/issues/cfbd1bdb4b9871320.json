@@ -50,8 +50,44 @@
    "at": "2026-08-20T22:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-21T03:31:57.055044+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Palomar ( NASDAQ : PLMR ) President Jon Christianson Sells 528 Shares",
+    "Palomar ( NASDAQ : PLMR ) CFO T Christopher Uchida Sells 791 Shares"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Palomar ( NASDAQ :…",
+   "one_liner": "Palomar ( NASDAQ : PLMR ) President Jon…",
+   "why_now": null,
+   "details": [
+    "Palomar ( NASDAQ : PLMR ) President Jon Christianson Sells 528 Shares",
+    "Palomar ( NASDAQ : PLMR ) CFO T Christopher Uchida Sells 791 Shares"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "4ba28ee400300bc7b9ab873d53fbb604ba90f138"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-21T03:31:57.054976+00:00"
+ },
  "glossary": [],
  "related": [
   {
