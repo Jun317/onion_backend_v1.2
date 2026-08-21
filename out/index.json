@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-08-21T14:59:25.399141+00:00",
+ "generated_at": "2026-08-21T15:54:46.274409+00:00",
  "attribution": "News metadata via GDELT (gdeltproject.org) · Data: FRED, 한국은행 ECOS, DART, SEC EDGAR",
  "issues": [
   {
@@ -13,10 +13,10 @@
    "category": "FX",
    "status": "active",
    "origin": "cluster",
-   "sources": 14,
+   "sources": 15,
    "importance": 125,
-   "last_update": "2026-08-21T04:59:40.990591+00:00",
-   "event_at": "2026-08-21T03:45:00+00:00",
+   "last_update": "2026-08-21T15:54:45.856640+00:00",
+   "event_at": "2026-08-21T15:00:00+00:00",
    "has_visual": true,
    "headline_stat": null,
    "spark": [
@@ -678,25 +678,6 @@
    "icon": "🇺🇸"
   },
   {
-   "id": "cbf33e8cda15e40a9",
-   "title": "금리 비교",
-   "one_liner": "여러 금리와 투자 상품을 비교했어요",
-   "why_now": "금리를 비교하면 좋은 투자 상품을 찾을 수 있어요",
-   "impact_line": "투자하기 전에 금리와 혜택을 비교할 수 있어요",
-   "raw_title": "Comparing Electric Power Development ( EPWDF ) and Its Rivals",
-   "category": "RATE",
-   "status": "stale",
-   "origin": "cluster",
-   "sources": 26,
-   "importance": 105,
-   "last_update": "2026-08-16T15:42:32.071518+00:00",
-   "event_at": "2026-08-16T15:00:00+00:00",
-   "has_visual": false,
-   "headline_stat": null,
-   "spark": null,
-   "icon": "🏦"
-  },
-  {
    "id": "c2efbf61ddb697589",
    "title": "미국 고용 감소",
    "one_liner": "미국에서 일하는 사람들이 예상보다 줄었어요",
@@ -887,6 +868,25 @@
    "icon": "🏦"
   },
   {
+   "id": "cbf33e8cda15e40a9",
+   "title": "금리 비교",
+   "one_liner": "여러 금리와 투자 상품을 비교했어요",
+   "why_now": "금리를 비교하면 좋은 투자 상품을 찾을 수 있어요",
+   "impact_line": "투자하기 전에 금리와 혜택을 비교할 수 있어요",
+   "raw_title": "Comparing Electric Power Development ( EPWDF ) and Its Rivals",
+   "category": "RATE",
+   "status": "stale",
+   "origin": "cluster",
+   "sources": 26,
+   "importance": 100,
+   "last_update": "2026-08-16T15:42:32.071518+00:00",
+   "event_at": "2026-08-16T15:00:00+00:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🏦"
+  },
+  {
    "id": "c340e7c5658dc5cc0",
    "title": "미국 금융 소식",
    "one_liner": "미국에서 여러 금융 관련 뉴스가 나왔어요",
@@ -903,34 +903,6 @@
    "has_visual": false,
    "headline_stat": null,
    "spark": null,
-   "icon": "🏦"
-  },
-  {
-   "id": "cbc556bb9223e0519",
-   "title": "미국 장기 국채 금리 상승",
-   "one_liner": "미국이 2001년 이후 가장 높은 금리로 30년 만기 국채를 발행했어요",
-   "why_now": "금리가 높아지면 투자자들이 더 높은 이자 수익을 기대할 수 있어요",
-   "impact_line": "미국 국채의 이자 비용이 더 높아질 수 있어요",
-   "raw_title": "US Sells 30 - Year Bonds at Highest Interest Rate Since 2001",
-   "category": "RATE",
-   "status": "stale",
-   "origin": "cluster",
-   "sources": 47,
-   "importance": 100,
-   "last_update": "2026-08-15T15:41:33.265625+00:00",
-   "event_at": "2026-08-15T15:00:00+00:00",
-   "has_visual": true,
-   "headline_stat": null,
-   "spark": [
-    4.26,
-    3.97,
-    4.3,
-    4.4,
-    4.45,
-    4.44,
-    4.75,
-    4.65
-   ],
    "icon": "🏦"
   },
   {
@@ -977,6 +949,34 @@
    "headline_stat": null,
    "spark": null,
    "icon": "⚔️"
+  },
+  {
+   "id": "cbc556bb9223e0519",
+   "title": "미국 장기 국채 금리 상승",
+   "one_liner": "미국이 2001년 이후 가장 높은 금리로 30년 만기 국채를 발행했어요",
+   "why_now": "금리가 높아지면 투자자들이 더 높은 이자 수익을 기대할 수 있어요",
+   "impact_line": "미국 국채의 이자 비용이 더 높아질 수 있어요",
+   "raw_title": "US Sells 30 - Year Bonds at Highest Interest Rate Since 2001",
+   "category": "RATE",
+   "status": "stale",
+   "origin": "cluster",
+   "sources": 47,
+   "importance": 95,
+   "last_update": "2026-08-15T15:41:33.265625+00:00",
+   "event_at": "2026-08-15T15:00:00+00:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    4.26,
+    3.97,
+    4.3,
+    4.4,
+    4.45,
+    4.44,
+    4.75,
+    4.65
+   ],
+   "icon": "🏦"
   },
   {
    "id": "ce42fe009c172ad34",
@@ -2028,25 +2028,6 @@
    "icon": "🛢️"
   },
   {
-   "id": "cf7d2459044b42f82",
-   "title": "물가 상승률 3% 기록",
-   "one_liner": "7월 물가 상승률이 3%로 올랐어요.",
-   "why_now": "물가가 오르면 같은 돈으로 살 수 있는 물건이 줄어 장바구니 부담이 커지는 게 보통이에요.",
-   "impact_line": "주유비와 생활 물가가 오를 수 있어요.",
-   "raw_title": "GOP Goofballs Blind to Economic Reality - American Renaissance",
-   "category": "COMMODITY",
-   "status": "stale",
-   "origin": "cluster",
-   "sources": 68,
-   "importance": 70,
-   "last_update": "2026-08-17T15:46:39.894095+00:00",
-   "event_at": "2026-08-17T14:00:00+00:00",
-   "has_visual": false,
-   "headline_stat": null,
-   "spark": null,
-   "icon": "🛢️"
-  },
-  {
    "id": "c02ea08d4dc90b65d",
    "title": "볼리비아 정부의 IMF 목표 초과",
    "one_liner": "볼리비아 정부가 IMF의 초과 목표를 달성했어요",
@@ -2083,6 +2064,25 @@
    "headline_stat": null,
    "spark": null,
    "icon": "📈"
+  },
+  {
+   "id": "cf7d2459044b42f82",
+   "title": "물가 상승률 3% 기록",
+   "one_liner": "7월 물가 상승률이 3%로 올랐어요.",
+   "why_now": "물가가 오르면 같은 돈으로 살 수 있는 물건이 줄어 장바구니 부담이 커지는 게 보통이에요.",
+   "impact_line": "주유비와 생활 물가가 오를 수 있어요.",
+   "raw_title": "GOP Goofballs Blind to Economic Reality - American Renaissance",
+   "category": "COMMODITY",
+   "status": "stale",
+   "origin": "cluster",
+   "sources": 68,
+   "importance": 65,
+   "last_update": "2026-08-17T15:46:39.894095+00:00",
+   "event_at": "2026-08-17T14:00:00+00:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🛢️"
   },
   {
    "id": "c752ff9e03698b881",
@@ -2683,11 +2683,11 @@
    "status_note": "2026년 2월부터 지켜보는 중",
    "visual": null,
    "latest_issue": {
-    "id": "c134edcbcce2a08b0",
-    "title": "Trump threatens Iran…",
-    "one_liner": "Trump threatens Iran with  economic D - Day",
+    "id": "c6a188307c6eae40a",
+    "title": "China Firmly Rejects US Demand To Back Its  Most Crushing Economic Operation  Against Iran",
+    "one_liner": "",
     "icon": "🇨🇳",
-    "last_update": "2026-08-21T13:17:47.818480+00:00"
+    "last_update": "2026-08-21T15:54:46.032731+00:00"
    },
    "impact": [
     "전쟁이 격해지면 유가가 뛰고, 기름값과 물가가 따라 오를 수 있어요.",
