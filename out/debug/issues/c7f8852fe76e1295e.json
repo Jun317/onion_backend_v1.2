@@ -1,0 +1,128 @@
+{
+ "id": "c7f8852fe76e1295e",
+ "title": "Jim Cramer Advises Ditching Stellantis ( STLA ) for General Motors ( GM )",
+ "category": "EARNINGS",
+ "status": "stale",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "GM"
+ ],
+ "seen_sources": 2,
+ "importance": 45,
+ "created_at": "2026-08-16T11:41:11.504393+00:00",
+ "last_update": "2026-08-16T11:41:11.505294+00:00",
+ "members": [
+  {
+   "id": "d68ceab86d5313cd3d4e933e96071242a53cae25",
+   "source": "tickerreport.com",
+   "tier": "wire",
+   "url": "https://www.tickerreport.com/banking-finance/13545575/one-wealth-advisors-llc-acquires-new-shares-in-general-motors-company-gm.html",
+   "title": "One Wealth Advisors LLC Acquires New Shares in General Motors Company $GM",
+   "published_at": "2026-08-16T11:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9584
+  },
+  {
+   "id": "a77cba04e685f3656c3b588e29fb6002febd5050",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-advises-ditching-stellantis-100432863.html",
+   "title": "Jim Cramer Advises Ditching Stellantis ( STLA ) for General Motors ( GM )",
+   "published_at": "2026-08-16T10:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9584
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "One Wealth Advisors LLC Acquires New Shares in General Motors Company $GM",
+   "source": "tickerreport.com",
+   "url": "https://www.tickerreport.com/banking-finance/13545575/one-wealth-advisors-llc-acquires-new-shares-in-general-motors-company-gm.html",
+   "at": "2026-08-16T11:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Jim Cramer Advises Ditching Stellantis ( STLA ) for General Motors ( GM )",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-advises-ditching-stellantis-100432863.html",
+   "at": "2026-08-16T10:30:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-22T07:52:25.272229+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "One Wealth Advisors LLC Acquires New Shares in General Motors Company $GM",
+    "Jim Cramer Advises Ditching Stellantis ( STLA ) for General Motors ( GM )"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "One Wealth Advisors…",
+   "one_liner": "One Wealth Advisors LLC Acquires New Shares in…",
+   "why_now": null,
+   "details": [
+    "One Wealth Advisors LLC Acquires New Shares in General Motors Company $GM",
+    "Jim Cramer Advises Ditching Stellantis ( STLA ) for General Motors ( GM )"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "9f12750afc780382f00ba396d16d61a5b9fed96e"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-22T07:52:25.272109+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c358a63b121c9f9dc",
+   "title": "Tesla Model Y RWD real world range tested , explained - Introduction",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "ce12823587b4e0a76",
+   "title": "Walmart Fastest - Growing Business Isnt Retail",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c473082d7f30acb2b",
+   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
+   "category": "MARKET",
+   "shared": [
+    "GM"
+   ]
+  },
+  {
+   "id": "c2512f781a025d326",
+   "title": "Cisco revenue rises 18 % as hyperscaler AI orders reach $9 . 3 billion",
+   "category": "EARNINGS",
+   "shared": []
+  }
+ ]
+}

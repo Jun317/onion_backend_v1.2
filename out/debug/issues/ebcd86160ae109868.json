@@ -1,0 +1,101 @@
+{
+ "id": "ebcd86160ae109868",
+ "title": "미국 CPI 2026-07 발표",
+ "category": "MACRO",
+ "status": "stale",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "US|MACRO|2026-07",
+ "entity_keys": [
+  "US"
+ ],
+ "seen_sources": 0,
+ "importance": 60,
+ "created_at": "2026-08-12T15:03:37.557440+00:00",
+ "last_update": "2026-08-12T15:25:54.413130+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "US",
+   "metric": "CPI(YoY%)",
+   "value": 3.30386,
+   "unit": "%",
+   "prev": null,
+   "period": "2026-07",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-08-12T15:03:37.557440+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "FRED CPIAUCSL 2026-07-01 신규 관측",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+   "at": "2026-08-12T15:03:37.557440+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-14T08:43:32.777823+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [
+    {
+     "entity": "US",
+     "metric": "CPI(YoY%)",
+     "value": 3.30386,
+     "unit": "%",
+     "prev": null,
+     "period": "2026-07",
+     "source": "FRED"
+    }
+   ],
+   "headlines": [
+    "미국 CPI 2026-07 발표"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미국 물가 상승률 둔화\",\n  \"one_liner\": \"미국의 물가 상승률이 3.3%로 낮아졌어요.\",\n  \"why_now\": \"물가 상승이 둔화되면 소비자의 구매력이 회복되어 경제에 긍정적인 영향을 줄 수 있어요.\",\n  \"impact_line\": \"생활 물가 부담이 조금이나마 줄어들 수 있어요.\",\n  \"details\": [\n    \"미국 소비자물가지수(CPI) 상승률이 3.3%로 발표됐어요.\",\n    \"이는 전년 동월 대비 수치예요.\",\n    \"이전 수치는 공개되지 않았어요.\"\n  ],\n  \"visual_type\": \"us_cpi_yoy\",\n  \"effects\": [\n    \"물가 상승이 둔화되면 금리 인하 기대감이 커져 주식 시장에 긍정적인 영향을 줄 수 있어요!\",\n    \"수입 물가 상승세가 꺾이면 국내 물가 안정에도 도움이 될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"CPI\",\n      \"easy\": \"소비자물가지수(Consumer Price Index)를 말하며, 소비자들이 자주 사는 상품과 서비스의 가격 변동을 나타내요.\",\n      \"example\": \"CPI가 오르면 장바구니 물가가 비싸졌다는 뜻이에요.\"\n    },\n    {\n      \"term\": \"YoY%\",\n      \"easy\": \"전년 동월 대비 상승률을 뜻해요. 작년 같은 달과 비교해서 얼마나 올랐는지 보여줘요.\",\n      \"example\": \"작년 7월보다 3.3% 올랐다는 의미예요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "미국 물가 상승률 둔화",
+   "one_liner": "미국의 물가 상승률이 3.3%로 낮아졌어요.",
+   "why_now": "물가 상승이 둔화되면 소비자의 구매력이 회복되어 경제에 긍정적인 영향을 줄 수 있어요.",
+   "details": [
+    "미국 소비자물가지수(CPI) 상승률이 3.3%로 발표됐어요.",
+    "이는 전년 동월 대비 수치예요.",
+    "이전 수치는 공개되지 않았어요."
+   ],
+   "effects": [
+    "물가 상승이 둔화되면 금리 인하 기대감이 커져 주식 시장에 긍정적인 영향을 줄 수 있어요!",
+    "수입 물가 상승세가 꺾이면 국내 물가 안정에도 도움이 될 수 있어요!"
+   ],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "674aff588f1ed6be77b862a26d178d6096814397"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-14T05:14:27.720000+00:00"
+ },
+ "glossary": [
+  {
+   "term": "소비자물가",
+   "easy": "우리가 사는 물건·서비스 값이 오른 정도예요.",
+   "example": "오르면 같은 돈으로 살 수 있는 게 줄어요."
+  },
+  {
+   "term": "CPI",
+   "easy": "물가가 얼마나 올랐는지 보여주는 대표 성적표예요.",
+   "example": "높으면 생활비 부담이 커진 거예요."
+  }
+ ],
+ "related": []
+}
