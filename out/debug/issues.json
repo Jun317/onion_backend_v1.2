@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-22T10:45:45.801813+00:00",
+ "generated_at": "2026-08-22T11:41:54.423260+00:00",
  "issues": [
   {
    "id": "ccec1fdb78ce6d4ce",
@@ -29,7 +29,7 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 23,
+   "seen_sources": 28,
    "importance": 150,
    "entity_keys": [
     "IRAN",
@@ -38,8 +38,8 @@
     "TAIWAN"
    ],
    "created_at": "2026-08-09T09:08:23.143075+00:00",
-   "last_update": "2026-08-22T04:55:58.984298+00:00",
-   "members": 43,
+   "last_update": "2026-08-22T11:41:52.825030+00:00",
+   "members": 50,
    "llm_title": "Taiwan headline news…",
    "one_liner": "Taiwan headline news - Focus Taiwan",
    "llm_model": "template",
@@ -165,14 +165,17 @@
    "category": "MACRO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 5,
+   "seen_sources": 8,
    "importance": 130,
    "entity_keys": [
-    "AAPL"
+    "AAPL",
+    "AMD",
+    "MSFT",
+    "NVDA"
    ],
    "created_at": "2026-08-20T15:54:17.092629+00:00",
-   "last_update": "2026-08-21T22:47:02.518802+00:00",
-   "members": 5,
+   "last_update": "2026-08-22T11:41:52.843945+00:00",
+   "members": 13,
    "llm_title": "Jefferies Just Said…",
    "one_liner": "Jefferies Just Said Sell Apple ( AAPL ). Here…",
    "llm_model": "template",
@@ -279,15 +282,15 @@
    "category": "POLICY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 7,
+   "seen_sources": 8,
    "importance": 120,
    "entity_keys": [
     "AMZN",
     "NFLX"
    ],
    "created_at": "2026-08-20T08:02:52.092181+00:00",
-   "last_update": "2026-08-21T22:47:02.525137+00:00",
-   "members": 7,
+   "last_update": "2026-08-22T11:41:52.821304+00:00",
+   "members": 8,
    "llm_title": "Amazon to expand…",
    "one_liner": "Amazon to expand drone delivery of light…",
    "llm_model": "template",
@@ -902,6 +905,25 @@
    "in_review": true
   },
   {
+   "id": "c654fe41e8f3b14e8",
+   "title": "Salesforce stock gets a boost as J . P . Morgan says AI fears are overblown",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 4,
+   "importance": 100,
+   "entity_keys": [
+    "CRM"
+   ],
+   "created_at": "2026-08-15T23:40:54.817971+00:00",
+   "last_update": "2026-08-22T11:41:52.828603+00:00",
+   "members": 7,
+   "llm_title": "Salesforce stock…",
+   "one_liner": "Salesforce stock gets a boost as J . P . Morgan…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c1d7b10a7cce18b93",
    "title": "Dont Assume Micron Will Share SanDisk Fate . Here Why .",
    "category": "MARKET",
@@ -1042,23 +1064,40 @@
    "in_review": false
   },
   {
-   "id": "c654fe41e8f3b14e8",
-   "title": "Salesforce stock gets a boost as J . P . Morgan says AI fears are overblown",
+   "id": "c47face215ed4f721",
+   "title": "Canada , US yet to reach tariff deal as deadline looms",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 5,
+   "importance": 95,
+   "entity_keys": [],
+   "created_at": "2026-08-22T04:01:41.954926+00:00",
+   "last_update": "2026-08-22T11:41:52.829899+00:00",
+   "members": 19,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
+   "id": "ca0e19c61ad5a0001",
+   "title": "Goldman Sachs doubles down on risky rates trading business",
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
    "seen_sources": 3,
    "importance": 95,
    "entity_keys": [
-    "CRM"
+    "GS"
    ],
-   "created_at": "2026-08-15T23:40:54.817971+00:00",
-   "last_update": "2026-08-22T01:55:34.138646+00:00",
-   "members": 6,
-   "llm_title": "Salesforce stock…",
-   "one_liner": "Salesforce stock gets a boost as J . P . Morgan…",
-   "llm_model": "template",
-   "in_review": true
+   "created_at": "2026-08-21T04:59:40.997930+00:00",
+   "last_update": "2026-08-22T11:41:52.805541+00:00",
+   "members": 3,
+   "llm_title": "골드만삭스, 은행주 투자 의견 제시",
+   "one_liner": "골드만삭스가 일부 은행 주식은 팔고 다른 은행 주식은 사라고 했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": false
   },
   {
    "id": "c5362ad0e7e5983bc",
@@ -1297,6 +1336,69 @@
    "in_review": true
   },
   {
+   "id": "c548c1e3238a3e011",
+   "title": "Wall Street week ahead : Nvidia earnings , Jackson Hole to test pillars of stock rally",
+   "category": "EARNINGS",
+   "status": "archived",
+   "origin": "cluster",
+   "seen_sources": 5,
+   "importance": 90,
+   "entity_keys": [
+    "AAPL",
+    "AMD",
+    "MSFT",
+    "NVDA"
+   ],
+   "created_at": "2026-08-21T17:51:55.829304+00:00",
+   "last_update": "2026-08-22T11:41:52.844015+00:00",
+   "members": 0,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": true
+  },
+  {
+   "id": "c02f2d27bf5ad855f",
+   "title": "LTC Properties ( NYSE : LTC ) Director David Gruber Acquires 500 Shares",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 10,
+   "importance": 90,
+   "entity_keys": [
+    "UBER"
+   ],
+   "created_at": "2026-08-15T11:41:02.492904+00:00",
+   "last_update": "2026-08-22T11:41:52.831571+00:00",
+   "members": 16,
+   "llm_title": "Uber Technologies ,…",
+   "one_liner": "Uber Technologies , Inc . $UBER Shares Acquired…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c504a11663a575ca6",
+   "title": "Walmart is cautious with expectations after slowest sales growth in 6 years",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 37,
+   "importance": 90,
+   "entity_keys": [
+    "CHINA",
+    "F",
+    "IRAN",
+    "WMT"
+   ],
+   "created_at": "2026-08-21T13:17:47.819584+00:00",
+   "last_update": "2026-08-22T11:41:52.816935+00:00",
+   "members": 50,
+   "llm_title": "Walmart is cautious…",
+   "one_liner": "Walmart is cautious with expectations after…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c7f1f589c40cfe40b",
    "title": "Boeing engineers , technical workers reject contract offer",
    "category": "GEO",
@@ -1349,68 +1451,6 @@
    "members": 5,
    "llm_title": "Outrage over Atiku…",
    "one_liner": "Outrage over Atiku plan to restore fuel subsidy…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c504a11663a575ca6",
-   "title": "Walmart is cautious with expectations after slowest sales growth in 6 years",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 36,
-   "importance": 90,
-   "entity_keys": [
-    "CHINA",
-    "F",
-    "IRAN",
-    "WMT"
-   ],
-   "created_at": "2026-08-21T13:17:47.819584+00:00",
-   "last_update": "2026-08-22T01:55:34.151224+00:00",
-   "members": 49,
-   "llm_title": "Walmart is cautious…",
-   "one_liner": "Walmart is cautious with expectations after…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c548c1e3238a3e011",
-   "title": "Wall Street week ahead : Nvidia earnings , Jackson Hole to test pillars of stock rally",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 5,
-   "importance": 90,
-   "entity_keys": [
-    "AMD",
-    "MSFT",
-    "NVDA"
-   ],
-   "created_at": "2026-08-21T17:51:55.829304+00:00",
-   "last_update": "2026-08-21T22:47:02.524151+00:00",
-   "members": 6,
-   "llm_title": "Six Days Before…",
-   "one_liner": "Six Days Before Nvidia Reports , a Billionaire…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c02f2d27bf5ad855f",
-   "title": "LTC Properties ( NYSE : LTC ) Director David Gruber Acquires 500 Shares",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 10,
-   "importance": 90,
-   "entity_keys": [
-    "UBER"
-   ],
-   "created_at": "2026-08-15T11:41:02.492904+00:00",
-   "last_update": "2026-08-21T22:47:02.521531+00:00",
-   "members": 14,
-   "llm_title": "Uber Technologies ,…",
-   "one_liner": "Uber Technologies , Inc . $UBER Shares Acquired…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1776,21 +1816,21 @@
    "in_review": true
   },
   {
-   "id": "c47face215ed4f721",
-   "title": "Canada , US yet to reach tariff deal as deadline looms",
-   "category": "POLICY",
+   "id": "c4550695bb998fe21",
+   "title": "Why Bitcoin Suddenly Exploded to $78K : The Treasury Just Blinked",
+   "category": "COMMODITY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 3,
+   "seen_sources": 31,
    "importance": 85,
    "entity_keys": [],
-   "created_at": "2026-08-22T04:01:41.954926+00:00",
-   "last_update": "2026-08-22T10:45:43.799387+00:00",
-   "members": 9,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "created_at": "2026-08-22T04:01:41.954661+00:00",
+   "last_update": "2026-08-22T11:41:52.833203+00:00",
+   "members": 50,
+   "llm_title": "Are Mortgage REITs…",
+   "one_liner": "Are Mortgage REITs Income Machines or Capital…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c8e23d4bd1d5d9fa9",
@@ -1798,31 +1838,14 @@
    "category": "GEO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 34,
+   "seen_sources": 54,
    "importance": 85,
    "entity_keys": [],
    "created_at": "2026-08-22T04:01:41.963071+00:00",
-   "last_update": "2026-08-22T10:45:43.797399+00:00",
-   "members": 38,
+   "last_update": "2026-08-22T11:41:52.832867+00:00",
+   "members": 50,
    "llm_title": "Opinion : Sullivan ,…",
    "one_liner": "Opinion : Sullivan , Trump and the price of…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c4550695bb998fe21",
-   "title": "Why Bitcoin Suddenly Exploded to $78K : The Treasury Just Blinked",
-   "category": "COMMODITY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 18,
-   "importance": 85,
-   "entity_keys": [],
-   "created_at": "2026-08-22T04:01:41.954661+00:00",
-   "last_update": "2026-08-22T10:45:43.797263+00:00",
-   "members": 39,
-   "llm_title": "Are Mortgage REITs…",
-   "one_liner": "Are Mortgage REITs Income Machines or Capital…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1832,12 +1855,12 @@
    "category": "COMMODITY",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 10,
+   "seen_sources": 14,
    "importance": 85,
    "entity_keys": [],
    "created_at": "2026-08-22T04:01:41.954383+00:00",
-   "last_update": "2026-08-22T10:45:43.792452+00:00",
-   "members": 12,
+   "last_update": "2026-08-22T11:41:52.821070+00:00",
+   "members": 17,
    "llm_title": "US , Canada Push to…",
    "one_liner": "US , Canada Push to Seal Trade Deal as Deadline…",
    "llm_model": "template",
@@ -1862,25 +1885,6 @@
    "llm_title": null,
    "one_liner": null,
    "llm_model": null,
-   "in_review": false
-  },
-  {
-   "id": "ca0e19c61ad5a0001",
-   "title": "Goldman Sachs doubles down on risky rates trading business",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 85,
-   "entity_keys": [
-    "GS"
-   ],
-   "created_at": "2026-08-21T04:59:40.997930+00:00",
-   "last_update": "2026-08-21T04:59:40.998800+00:00",
-   "members": 2,
-   "llm_title": "골드만삭스, 은행주 투자 의견 제시",
-   "one_liner": "골드만삭스가 일부 은행 주식은 팔고 다른 은행 주식은 사라고 했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
    "in_review": false
   },
   {
@@ -2049,6 +2053,23 @@
    "llm_title": "Inflation Cools to 2…",
    "one_liner": "Inflation Cools to 2 - Month Low , but the…",
    "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "cfe245d9723225190",
+   "title": "Trump says Canada trade deal moving forward , announces talks on Mexico pact",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 4,
+   "importance": 80,
+   "entity_keys": [],
+   "created_at": "2026-08-22T04:01:41.955282+00:00",
+   "last_update": "2026-08-22T11:41:52.826191+00:00",
+   "members": 4,
+   "llm_title": "트럼프, 멕시코와 새 무역 협상 발표",
+   "one_liner": "트럼프 대통령이 멕시코와 새로운 무역 협상을 시작한다고 발표했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -2444,23 +2465,6 @@
    "in_review": true
   },
   {
-   "id": "cfe245d9723225190",
-   "title": "Trump says Canada trade deal moving forward , announces talks on Mexico pact",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 75,
-   "entity_keys": [],
-   "created_at": "2026-08-22T04:01:41.955282+00:00",
-   "last_update": "2026-08-22T04:55:58.986586+00:00",
-   "members": 3,
-   "llm_title": "트럼프, 멕시코와 새 무역 협상 발표",
-   "one_liner": "트럼프 대통령이 멕시코와 새로운 무역 협상을 시작한다고 발표했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "c91a4d15aa8091c84",
    "title": "Nicole Crosby Plan – OB Rag",
    "category": "POLICY",
@@ -2544,23 +2548,6 @@
    "members": 50,
    "llm_title": "AI 주식 시장 전망",
    "one_liner": "AI 주식 시장의 과열 가능성에 대한 우려가 나오고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "cac0fbeef7fdbc649",
-   "title": "Stoke Therapeutics ( NASDAQ : STOK ) General Counsel Jonathan Allan Sells 2 , 861 Shares",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 45,
-   "importance": 75,
-   "entity_keys": [],
-   "created_at": "2026-08-19T03:16:54.792162+00:00",
-   "last_update": "2026-08-20T10:54:03.805690+00:00",
-   "members": 50,
-   "llm_title": "미국 증시 상승",
-   "one_liner": "미국 증시가 채권 금리 안정에 힘입어 상승했어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -2676,27 +2663,6 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
-  },
-  {
-   "id": "c4e782e864970accc",
-   "title": "Walmart set for in - line Q2 as investors eye tariff refund plans , 2H guidance",
-   "category": "EARNINGS",
-   "status": "archived",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 75,
-   "entity_keys": [
-    "FED",
-    "HD",
-    "WMT"
-   ],
-   "created_at": "2026-08-14T21:46:28.469695+00:00",
-   "last_update": "2026-08-15T11:41:02.666987+00:00",
-   "members": 0,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": true
   },
   {
    "id": "cadc3cc699b3037d2",
@@ -3245,6 +3211,23 @@
    "in_review": true
   },
   {
+   "id": "c9ab96d0816ee18ea",
+   "title": "Genesi Radical Lineup Transformation Could Spell Doom For Its Sedans",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 70,
+   "entity_keys": [],
+   "created_at": "2026-08-22T04:01:41.962848+00:00",
+   "last_update": "2026-08-22T11:41:52.814457+00:00",
+   "members": 4,
+   "llm_title": "Genesi Radical…",
+   "one_liner": "Genesi Radical Lineup Transformation Could Spell…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c1ec18e82b54ab6eb",
    "title": "India foreign exchange reserves up almost $50 billion since July",
    "category": "FX",
@@ -3260,23 +3243,6 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
-  },
-  {
-   "id": "c9ab96d0816ee18ea",
-   "title": "Genesi Radical Lineup Transformation Could Spell Doom For Its Sedans",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 3,
-   "importance": 70,
-   "entity_keys": [],
-   "created_at": "2026-08-22T04:01:41.962848+00:00",
-   "last_update": "2026-08-22T10:45:43.796870+00:00",
-   "members": 3,
-   "llm_title": "Genesi Radical…",
-   "one_liner": "Genesi Radical Lineup Transformation Could Spell…",
-   "llm_model": "template",
-   "in_review": true
   },
   {
    "id": "cd790f1a54b85f264",
@@ -3333,6 +3299,23 @@
    "llm_title": "General Motors…",
    "one_liner": "General Motors Mexico workers defend Bogdan…",
    "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "cac0fbeef7fdbc649",
+   "title": "Stoke Therapeutics ( NASDAQ : STOK ) General Counsel Jonathan Allan Sells 2 , 861 Shares",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 45,
+   "importance": 70,
+   "entity_keys": [],
+   "created_at": "2026-08-19T03:16:54.792162+00:00",
+   "last_update": "2026-08-20T10:54:03.805690+00:00",
+   "members": 50,
+   "llm_title": "미국 증시 상승",
+   "one_liner": "미국 증시가 채권 금리 안정에 힘입어 상승했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -3555,12 +3538,12 @@
    "category": "EARNINGS",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 13,
+   "seen_sources": 21,
    "importance": 65,
    "entity_keys": [],
    "created_at": "2026-08-22T04:01:41.962639+00:00",
-   "last_update": "2026-08-22T10:45:43.796988+00:00",
-   "members": 15,
+   "last_update": "2026-08-22T11:41:52.832525+00:00",
+   "members": 38,
    "llm_title": "Dynatrace Buys Arize…",
    "one_liner": "Dynatrace Buys Arize for $915M to Expand AI…",
    "llm_model": "template",
@@ -4387,23 +4370,6 @@
    "in_review": true
   },
   {
-   "id": "c90d0c668528ebeca",
-   "title": "VNET Group , Inc . – Unsponsored ADR ( NASDAQ : VNET ) Receives Average Recommendation of  Moderate Buy  from Brokerages",
-   "category": "MARKET",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 37,
-   "importance": 60,
-   "entity_keys": [],
-   "created_at": "2026-08-16T10:45:49.457193+00:00",
-   "last_update": "2026-08-17T10:53:51.137394+00:00",
-   "members": 50,
-   "llm_title": "VNET Group , Inc . –…",
-   "one_liner": "VNET Group , Inc . – Unsponsored ADR ( NASDAQ :…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "c69e0f9360fce67e0",
    "title": "Trump  golden age  economy pitch fizzles with US voters - Las Vegas Sun News",
    "category": "COMMODITY",
@@ -4882,6 +4848,23 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "c90d0c668528ebeca",
+   "title": "VNET Group , Inc . – Unsponsored ADR ( NASDAQ : VNET ) Receives Average Recommendation of  Moderate Buy  from Brokerages",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 37,
+   "importance": 55,
+   "entity_keys": [],
+   "created_at": "2026-08-16T10:45:49.457193+00:00",
+   "last_update": "2026-08-17T10:53:51.137394+00:00",
+   "members": 50,
+   "llm_title": "VNET Group , Inc . –…",
+   "one_liner": "VNET Group , Inc . – Unsponsored ADR ( NASDAQ :…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c1bbf3ea68cd91de8",
@@ -5660,25 +5643,6 @@
    "in_review": true
   },
   {
-   "id": "c7f8852fe76e1295e",
-   "title": "Jim Cramer Advises Ditching Stellantis ( STLA ) for General Motors ( GM )",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 50,
-   "entity_keys": [
-    "GM"
-   ],
-   "created_at": "2026-08-16T11:41:11.504393+00:00",
-   "last_update": "2026-08-16T11:41:11.505294+00:00",
-   "members": 2,
-   "llm_title": "One Wealth Advisors…",
-   "one_liner": "One Wealth Advisors LLC Acquires New Shares in…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "c9afc00dabd54ed05",
    "title": "Bill Ackman Just Disclosed 6 New Positions , and 4 of Them Are Financial Stocks . Here What He Betting On .",
    "category": "MARKET",
@@ -6178,6 +6142,25 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "c7f8852fe76e1295e",
+   "title": "Jim Cramer Advises Ditching Stellantis ( STLA ) for General Motors ( GM )",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 45,
+   "entity_keys": [
+    "GM"
+   ],
+   "created_at": "2026-08-16T11:41:11.504393+00:00",
+   "last_update": "2026-08-16T11:41:11.505294+00:00",
+   "members": 2,
+   "llm_title": "One Wealth Advisors…",
+   "one_liner": "One Wealth Advisors LLC Acquires New Shares in…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c053e34eaa338aff7",
@@ -7663,25 +7646,6 @@
    ],
    "created_at": "2026-08-16T14:45:14.311754+00:00",
    "last_update": "2026-08-16T14:45:14.582112+00:00",
-   "members": 0,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
-   "id": "c6bf83f8773e17cb9",
-   "title": "CapitalatWork S . A . Buys 482 , 296 Shares of Uber Technologies , Inc . $UBER",
-   "category": "MARKET",
-   "status": "archived",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 0,
-   "entity_keys": [
-    "UBER"
-   ],
-   "created_at": "2026-08-15T11:41:02.493133+00:00",
-   "last_update": "2026-08-15T11:41:02.667553+00:00",
    "members": 0,
    "llm_title": null,
    "one_liner": null,
