@@ -8,14 +8,45 @@
  "anchor_key": null,
  "entity_keys": [
   "CHINA",
+  "F",
   "IRAN",
   "WMT"
  ],
- "seen_sources": 33,
+ "seen_sources": 36,
  "importance": 90,
  "created_at": "2026-08-21T13:17:47.819584+00:00",
- "last_update": "2026-08-21T22:47:02.519229+00:00",
+ "last_update": "2026-08-22T01:55:34.151224+00:00",
  "members": [
+  {
+   "id": "27ea4aa0d531e43d2c3b2508f43a53beccb4db0f",
+   "source": "dailynews.com",
+   "tier": "wire",
+   "url": "https://www.dailynews.com/2026/08/21/housing-affordability-gauge/",
+   "title": "US housing affordability gauge worsens for first time since 2023",
+   "published_at": "2026-08-21T22:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8473
+  },
+  {
+   "id": "311aa06f3572084510c9dd0f28cd80dfce842b0d",
+   "source": "thetimes-tribune.com",
+   "tier": "wire",
+   "url": "https://www.thetimes-tribune.com/2026/08/21/housing-affordability-gauge/",
+   "title": "US housing affordability gauge worsens for first time since 2023",
+   "published_at": "2026-08-21T22:30:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.8473
+  },
+  {
+   "id": "baefaf776adc5b41cb886c918e16c8de34b95030",
+   "source": "coloradohometownweekly.com",
+   "tier": "wire",
+   "url": "https://www.coloradohometownweekly.com/2026/08/21/housing-affordability-gauge/",
+   "title": "US housing affordability gauge worsens for first time since 2023",
+   "published_at": "2026-08-21T22:30:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.8473
+  },
   {
    "id": "456e3bb1cf6442d6f0f1d6a1e9aa899c34e9f749",
    "source": "arynews.tv",
@@ -25,6 +56,26 @@
    "published_at": "2026-08-21T21:30:00+00:00",
    "is_dup": 0,
    "sim_to_centroid": 0.8218
+  },
+  {
+   "id": "2d9e064c653c5c0461c0907d3b1ed8723b3f1e4b",
+   "source": "pilotonline.com",
+   "tier": "wire",
+   "url": "https://www.pilotonline.com/2026/08/21/iran-economy-struggles/",
+   "title": "Iranian families struggle to afford basics as US ratchets up sanctions",
+   "published_at": "2026-08-21T21:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8181
+  },
+  {
+   "id": "f91b33304403e1f33062d66cf4e7e0f1f1d94242",
+   "source": "canberratimes.com.au",
+   "tier": "wire",
+   "url": "https://www.canberratimes.com.au/story/9333921/dr-peter-tulip-new-housing-supply-improves-affordability-for-all/",
+   "title": "Dr Peter Tulip : New housing supply improves affordability for all | The Canberra Times",
+   "published_at": "2026-08-21T21:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8038
   },
   {
    "id": "656516ee2b65654bd257abd37e8649f2aa3c62d0",
@@ -461,9 +512,44 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "US housing affordability gauge worsens for first time since 2023",
+   "source": "dailynews.com",
+   "url": "https://www.dailynews.com/2026/08/21/housing-affordability-gauge/",
+   "at": "2026-08-21T22:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US housing affordability gauge worsens for first time since 2023",
+   "source": "thetimes-tribune.com",
+   "url": "https://www.thetimes-tribune.com/2026/08/21/housing-affordability-gauge/",
+   "at": "2026-08-21T22:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US housing affordability gauge worsens for first time since 2023",
+   "source": "coloradohometownweekly.com",
+   "url": "https://www.coloradohometownweekly.com/2026/08/21/housing-affordability-gauge/",
+   "at": "2026-08-21T22:30:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Wall St indexes eye weekly losses ; bond yields and Iran in focus",
    "source": "arynews.tv",
    "url": "https://arynews.tv/wall-st-indexes-eye-weekly-losses-bond-yields-and-iran-in-focus",
+   "at": "2026-08-21T21:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Dr Peter Tulip : New housing supply improves affordability for all | The Canberra Times",
+   "source": "canberratimes.com.au",
+   "url": "https://www.canberratimes.com.au/story/9333921/dr-peter-tulip-new-housing-supply-improves-affordability-for-all/",
+   "at": "2026-08-21T21:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Iranian families struggle to afford basics as US ratchets up sanctions",
+   "source": "pilotonline.com",
+   "url": "https://www.pilotonline.com/2026/08/21/iran-economy-struggles/",
    "at": "2026-08-21T21:30:00+00:00"
   },
   {
@@ -768,8 +854,48 @@
    "at": "2026-08-20T22:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-22T01:59:25.490828+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Walmart is cautious with expectations after slowest sales growth in 6 years",
+    "Walmart says tap to pay coming to all stores by year end",
+    "Walmart says it will use billions in tariff refunds to keep prices low",
+    "Walmart promises price cuts after $2 . 9 billion tariff refund",
+    "Walmart Pledges to Cut Prices Following $2 . 9 Billion Tariff Refund"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Walmart is cautious…",
+   "one_liner": "Walmart is cautious with expectations after…",
+   "why_now": null,
+   "details": [
+    "Walmart is cautious with expectations after slowest sales growth in 6 years",
+    "Walmart says tap to pay coming to all stores by year end",
+    "Walmart says it will use billions in tariff refunds to keep prices low"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "2f02341cc11f682489c1b171c837d241d1d7f822"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-22T01:59:25.490747+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -777,7 +903,8 @@
    "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
    "category": "RATE",
    "shared": [
-    "CHINA"
+    "CHINA",
+    "F"
    ]
   },
   {
@@ -798,19 +925,19 @@
    ]
   },
   {
+   "id": "c669decc98f0b9158",
+   "title": "Affordability Pressures Keep Builder Confidence Low",
+   "category": "GEO",
+   "shared": [
+    "F"
+   ]
+  },
+  {
    "id": "ce12823587b4e0a76",
    "title": "Walmart Fastest - Growing Business Isnt Retail",
    "category": "EARNINGS",
    "shared": [
     "WMT"
-   ]
-  },
-  {
-   "id": "cb22ab4362dc7db3b",
-   "title": "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
-   "category": "COMMODITY",
-   "shared": [
-    "IRAN"
    ]
   }
  ]

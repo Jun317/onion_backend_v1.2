@@ -11,11 +11,21 @@
   "SEC",
   "TAIWAN"
  ],
- "seen_sources": 21,
+ "seen_sources": 22,
  "importance": 150,
  "created_at": "2026-08-09T09:08:23.143075+00:00",
- "last_update": "2026-08-21T23:44:42.527912+00:00",
+ "last_update": "2026-08-22T01:55:34.137541+00:00",
  "members": [
+  {
+   "id": "48082b78f2013138209e685a5f1a306594e68346",
+   "source": "arabnews.com",
+   "tier": "wire",
+   "url": "https://www.arabnews.com/node/2655468",
+   "title": "Flexibility , security : why Iceland belongs in the eurozone",
+   "published_at": "2026-08-22T00:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8502
+  },
   {
    "id": "44b4d05f01cf7c492cd5bc6e30b5aed295c034ed",
    "source": "aninews.in",
@@ -381,6 +391,13 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Flexibility , security : why Iceland belongs in the eurozone",
+   "source": "arabnews.com",
+   "url": "https://www.arabnews.com/node/2655468",
+   "at": "2026-08-22T00:45:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Centre rules out Ethanol link to sugar price rise ; enforces measures to curb hoarding and secure festive domestic stocks",
    "source": "aninews.in",
    "url": "https://aninews.in/news/business/centre-rules-out-ethanol-link-to-sugar-price-rise-enforces-measures-to-curb-hoarding-and-secure-festive-domestic-stocks20260821233609/",
@@ -634,7 +651,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-21T09:05:36.904372+00:00",
+  "created_at": "2026-08-22T01:55:58.972225+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -647,8 +664,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"대만 주변 중국 군사 활동 감지\",\n\"one_liner\": \"대만 국방부가 대만 주변에서 중국 군용기 2대와 군함 7척을 감지했다고 밝혔어요.\",\n\"why_now\": \"대만은 세계 경제에서 중요한 반도체 생산 기지여서 주변 군사 활동은 세계 경제에 영향을 줄 수 있어요.\",\n\"impact_line\": \"대만 해협의 긴장 고조는 국제 물류와 공급망에 영향을 줄 수 있어요.\",\n\"details\": [\n\"대만 국방부는 중국 군용기 2대가 대만 방공식별구역에 진입했다고 발표했어요.\",\n\"중국 군함 7척도 대만 주변 해역에서 활동하는 것을 감지했어요.\",\n\"대만은 세계 경제에서 중요한 반도체 생산 기지 역할을 하고 있어요.\",\n\"대만 해협은 주요 국제 무역로 중 하나예요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"대만 해협의 군사적 긴장이 고조되면 국제 해상 운송에 차질이 생길 수 있어요!\",\n\"이는 전 세계 반도체 공급망에 영향을 미쳐 관련 제품 가격 상승으로 이어질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"방공식별구역\",\n\"easy\": \"영공을 지키기 위해 설정한 구역으로, 외국 항공기는 진입 시 사전 통보해야 해요.\",\n\"example\": \"우리나라 방공식별구역에 외국 군용기가 들어오면 공군이 대응에 나서요.\"\n},\n{\n\"term\": \"공급망\",\n\"easy\": \"물건을 만들어서 소비자에게 전달되기까지의 모든 과정이에요.\",\n\"example\": \"부품 부족으로 자동차 공급망에 문제가 생겨 차를 사기 어려워졌어요.\"\n}\n],\n\"impact_line\": \"대만 해협의 긴장 고조는 국제 물류와 공급망에 영향을 줄 수 있어요.\"\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(57)"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -671,8 +694,8 @@
   "fact_hash": "79a5565c6208149d2a7c1afc42724097ab9b975d"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-21T09:05:36.904255+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(57)\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-22T01:55:58.972120+00:00"
  },
  "glossary": [],
  "related": [

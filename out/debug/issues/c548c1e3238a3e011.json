@@ -122,8 +122,48 @@
    "at": "2026-08-20T21:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-22T01:59:46.112754+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Six Days Before Nvidia Reports , a Billionaire Says AI Adds  Literally Zero",
+    "Wall Street week ahead : Nvidia earnings , Jackson Hole to test pillars of stock rally",
+    "Microsoft vs . Nvidia : Which AI Giant Is More Likely to Double Your Money ?",
+    "Space Exploration Technologies ( SPCX ) vs . NVIDIA Corporation ( NVDA ): SpaceX Beats on Revenue , But AI Spending Steals the Show",
+    "NVIDIA Corporation ( NVDA ) & Advanced Micro Devices ( AMD ): Nvidia Might Ship AI Chips With Less Memory . AMD Says It Not Worried"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Six Days Before…",
+   "one_liner": "Six Days Before Nvidia Reports , a Billionaire…",
+   "why_now": null,
+   "details": [
+    "Six Days Before Nvidia Reports , a Billionaire Says AI Adds  Literally Zero",
+    "Wall Street week ahead : Nvidia earnings , Jackson Hole to test pillars of stock rally",
+    "Microsoft vs . Nvidia : Which AI Giant Is More Likely to Double Your Money ?"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "1dfa98b3b434640c84e6d477b89b22dcf5e5a44e"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-22T01:59:46.112702+00:00"
+ },
  "glossary": [],
  "related": [
   {

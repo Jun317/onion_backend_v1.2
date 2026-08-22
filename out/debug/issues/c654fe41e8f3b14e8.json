@@ -12,8 +12,18 @@
  "seen_sources": 3,
  "importance": 95,
  "created_at": "2026-08-15T23:40:54.817971+00:00",
- "last_update": "2026-08-20T23:46:32.074710+00:00",
+ "last_update": "2026-08-22T01:55:34.138646+00:00",
  "members": [
+  {
+   "id": "7d09a357740e6e3a556de21b458c96be759afb26",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-vs-salesforce-technology-001239811.html",
+   "title": "Arista Networks vs . Salesforce : Which Technology Stock Is a Better Buy in 2026 ?",
+   "published_at": "2026-08-22T00:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9065
+  },
   {
    "id": "164f5e78018f9fcddd258ffac094cb6c604403d9",
    "source": "finance.yahoo.com",
@@ -22,7 +32,7 @@
    "title": "The Selling Goes Too Far : Jim Cramer Defends ServiceNow , Salesforce , and Other Software Giants Against Extinction Fears",
    "published_at": "2026-08-20T22:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9283
+   "sim_to_centroid": 0.9285
   },
   {
    "id": "b0b74f7b06f2fbdbe7073827d7d220299998ce55",
@@ -32,7 +42,7 @@
    "title": "Why Salesforce Stock Rallied Today",
    "published_at": "2026-08-20T08:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9189
+   "sim_to_centroid": 0.922
   },
   {
    "id": "ada9ce7c13bb2875b53204097039d151f4e3407b",
@@ -42,7 +52,7 @@
    "title": "Why Salesforce Stock Rallied Today | The Motley Fool",
    "published_at": "2026-08-18T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9187
+   "sim_to_centroid": 0.9216
   },
   {
    "id": "2770eee67b8f68c9579656fa1c43b774a1f0e944",
@@ -52,7 +62,7 @@
    "title": "Jim Cramer Was Worried About Potential Impact On Salesforce Inc . ( NYSE : CRM ) Dreamforce Conference",
    "published_at": "2026-08-15T23:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9598
+   "sim_to_centroid": 0.9559
   },
   {
    "id": "dfd91278f1c5b6bfc120a86933e21363838ed4c0",
@@ -62,11 +72,18 @@
    "title": "Salesforce stock gets a boost as J . P . Morgan says AI fears are overblown",
    "published_at": "2026-08-13T14:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9633
+   "sim_to_centroid": 0.9629
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Arista Networks vs . Salesforce : Which Technology Stock Is a Better Buy in 2026 ?",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-vs-salesforce-technology-001239811.html",
+   "at": "2026-08-22T00:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "The Selling Goes Too Far : Jim Cramer Defends ServiceNow , Salesforce , and Other Software Giants Against Extinction Fears",
@@ -105,16 +122,16 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-21T09:07:24.018349+00:00",
+  "created_at": "2026-08-22T01:57:52.697146+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Salesforce stock gets a boost as J . P . Morgan says AI fears are overblown",
+    "Jim Cramer Was Worried About Potential Impact On Salesforce Inc . ( NYSE : CRM ) Dreamforce Conference",
     "The Selling Goes Too Far : Jim Cramer Defends ServiceNow , Salesforce , and Other Software Giants Against Extinction Fears",
     "Why Salesforce Stock Rallied Today",
-    "Why Salesforce Stock Rallied Today | The Motley Fool",
-    "Jim Cramer Was Worried About Potential Impact On Salesforce Inc . ( NYSE : CRM ) Dreamforce Conference",
-    "Salesforce stock gets a boost as J . P . Morgan says AI fears are overblown"
+    "Why Salesforce Stock Rallied Today | The Motley Fool"
    ],
    "official_lines": []
   },
@@ -128,22 +145,22 @@
    }
   ],
   "output": {
-   "title": "The Selling Goes Too…",
-   "one_liner": "The Selling Goes Too Far : Jim Cramer Defends…",
+   "title": "Salesforce stock…",
+   "one_liner": "Salesforce stock gets a boost as J . P . Morgan…",
    "why_now": null,
    "details": [
-    "The Selling Goes Too Far : Jim Cramer Defends ServiceNow , Salesforce , and Other Software Giants Against Extinction Fears",
-    "Why Salesforce Stock Rallied Today",
-    "Why Salesforce Stock Rallied Today | The Motley Fool"
+    "Salesforce stock gets a boost as J . P . Morgan says AI fears are overblown",
+    "Jim Cramer Was Worried About Potential Impact On Salesforce Inc . ( NYSE : CRM ) Dreamforce Conference",
+    "The Selling Goes Too Far : Jim Cramer Defends ServiceNow , Salesforce , and Other Software Giants Against Extinction Fears"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "12586bd06a2ccc52d23f5c80190c97d4b519d04b"
+  "fact_hash": "42d2d2c2218bc57aa223342c9c1f673cac892d9e"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-21T09:07:24.018269+00:00"
+  "at": "2026-08-22T01:57:52.697080+00:00"
  },
  "glossary": [],
  "related": [
