@@ -68,38 +68,41 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-22T04:02:13.056795+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-22T07:07:55.491712+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
     "Trump says Canada trade deal moving forward , announces talks on Mexico pact",
-    "Trump says Canada trade deal moving forward , announces talks on new Mexico agreement"
+    "Trump says Canada trade deal moving forward , announces talks on new Mexico agreement",
+    "Trump begins deporting Venezuelans , Colombians , Cubans and other migrants to Liberia"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"트럼프, 멕시코와 새 무역 협상 발표\",\n  \"one_liner\": \"트럼프 대통령이 멕시코와 새로운 무역 협상을 시작한다고 발표했어요.\",\n  \"why_now\": \"무역 협상은 나라 간 물건을 사고파는 규칙을 바꾸므로 경제에 큰 영향을 줄 수 있어요.\",\n  \"impact_line\": \"새로운 무역 협상이 우리 물건 가격에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"트럼프 대통령은 캐나다와의 무역 협상이 잘 진행되고 있다고 말했어요.\",\n    \"멕시코와는 새로운 무역 협상을 시작할 것이라고 했어요.\",\n    \"트럼프 대통령은 베네수엘라, 콜롬비아, 쿠바 등에서 온 이민자들을 라이베리아로 추방하기 시작했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"새로운 무역 협정으로 인해 수출입 물품의 가격이 달라질 수 있어요!\",\n    \"이민자 추방 결정은 관련 국가들의 외교 관계에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"무역 협상\",\n      \"easy\": \"나라끼리 물건을 사고파는 규칙을 정하는 회의예요.\",\n      \"example\": \"새로운 무역 협상으로 자동차 가격이 달라질 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump says Canada…",
-   "one_liner": "Trump says Canada trade deal moving forward ,…",
-   "why_now": null,
+   "title": "트럼프, 멕시코와 새 무역 협상 발표",
+   "one_liner": "트럼프 대통령이 멕시코와 새로운 무역 협상을 시작한다고 발표했어요.",
+   "why_now": "무역 협상은 나라 간 물건을 사고파는 규칙을 바꾸므로 경제에 큰 영향을 줄 수 있어요.",
    "details": [
-    "Trump says Canada trade deal moving forward , announces talks on Mexico pact",
-    "Trump says Canada trade deal moving forward , announces talks on new Mexico agreement"
+    "트럼프 대통령은 캐나다와의 무역 협상이 잘 진행되고 있다고 말했어요.",
+    "멕시코와는 새로운 무역 협상을 시작할 것이라고 했어요.",
+    "트럼프 대통령은 베네수엘라, 콜롬비아, 쿠바 등에서 온 이민자들을 라이베리아로 추방하기 시작했어요."
    ],
-   "effects": [],
+   "effects": [
+    "새로운 무역 협정으로 인해 수출입 물품의 가격이 달라질 수 있어요!",
+    "이민자 추방 결정은 관련 국가들의 외교 관계에 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
-  "fact_hash": "56c3e6cb0dd234d23f967a55838072806bb01f46"
+  "fact_hash": "687686e437d2063672a5b17f2497c8b9f8b593ff"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

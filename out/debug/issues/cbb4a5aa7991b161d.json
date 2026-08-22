@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-22T03:13:09.758463+00:00",
+  "created_at": "2026-08-22T07:07:14.118471+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,12 +881,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 소고기 관세 인하\",\n  \"one_liner\": \"미국이 소고기 수입 관세를 낮추기로 했어요.\",\n  \"why_now\": \"소고기 관세가 낮아지면 수입 소고기 가격이 내려갈 수 있어요.\",\n  \"impact_line\": \"수입 소고기를 이용한 음식 가격이 내려갈 수 있어요.\",\n  \"details\": [\n    \"미국이 소고기 수입 관세를 일시적으로 중단하기로 했어요.\",\n    \"트럼프 전 대통령은 소고기 가격을 25% 낮추겠다고 했어요.\",\n    \"이번 조치는 30만 톤의 소고기에 적용될 예정이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"수입 소고기 가격이 내려갈 수 있어요!\",\n    \"국내 소고기 가격에도 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라에서 외국 물건을 들여올 때 붙이는 세금이에요.\",\n      \"example\": \"수입 과자에 관세가 붙으면 가격이 더 비싸져요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [30.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [30.0]"
     ]
    }
   ],
@@ -905,14 +911,20 @@
   "fact_hash": "479a03f0e952b52faf4c65bb3d8fb5c138639bd4"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-22T03:13:09.758388+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [30.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [30.0]\"]}]}",
+  "at": "2026-08-22T07:07:14.118405+00:00"
  },
  "glossary": [],
  "related": [
   {
    "id": "ccc137270dbb9d742",
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c2a962d377d8ef8fa",
+   "title": "Google ( GOOGL ) to buy up to $12 . 2 billion shares in US chip firm Marvell ( MRVL )",
    "category": "MARKET",
    "shared": []
   },
@@ -931,12 +943,6 @@
   {
    "id": "cd6e96f9df3790928",
    "title": "US economy cools in second quarter despite solid spending",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "cb34f19e1978fa138",
-   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "category": "MARKET",
    "shared": []
   }

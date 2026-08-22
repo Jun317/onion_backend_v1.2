@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-22T03:13:54.487001+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-22T07:07:33.929966+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -881,26 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"금리 인상 가능성 시사\",\n    \"one_liner\": \"기준금리를 올릴 수 있다는 분위기가 감돌고 있어요.\",\n    \"why_now\": \"물가가 계속 오르면 금리를 올려야 할 수 있다는 신호예요.\",\n    \"impact_line\": \"대출 이자 부담이 늘어날 수 있어요.\",\n    \"details\": [\n        \"금리를 올릴 수 있다는 분위기가 나타났어요.\",\n        \"물가가 예상보다 더 오르면 금리를 더 빨리 올릴 수 있다는 의견이 나왔어요.\",\n        \"식료품 가격을 안정시키려는 노력이 오래가기는 어려울 수 있어요.\",\n        \"소비재 주가가 약세를 보이고 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"금리가 오르면 돈을 빌리는 비용이 늘어날 수 있어요!\",\n        \"물가가 계속 오르면 장바구니 물가 부담이 커질 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"MPC\",\n            \"easy\": \"통화정책을 결정하는 회의체예요.\",\n            \"example\": \"MPC 회의 결과에 따라 금리가 결정돼요.\"\n        },\n        {\n            \"term\": \"hawkish tilt\",\n            \"easy\": \"금리를 올리려는 분위기를 뜻해요.\",\n            \"example\": \"금리를 올리려는 분위기가 나타나면 주가가 떨어질 수 있어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "MPC minutes signal…",
-   "one_liner": "MPC minutes signal hawkish tilt ; rate hikes may…",
-   "why_now": null,
+   "title": "금리 인상 가능성 시사",
+   "one_liner": "기준금리를 올릴 수 있다는 분위기가 감돌고 있어요.",
+   "why_now": "물가가 계속 오르면 금리를 올려야 할 수 있다는 신호예요.",
    "details": [
-    "MPC minutes signal hawkish tilt ; rate hikes may come sooner if inflation broadens",
-    "MPC minutes signal hawkish tilt ; rate hikes may come sooner if inflation broadens : Report",
-    "Nifty trades above 24 , 200 level ; consumer durables shares underpressure"
+    "금리를 올릴 수 있다는 분위기가 나타났어요.",
+    "물가가 예상보다 더 오르면 금리를 더 빨리 올릴 수 있다는 의견이 나왔어요.",
+    "식료품 가격을 안정시키려는 노력이 오래가기는 어려울 수 있어요.",
+    "소비재 주가가 약세를 보이고 있어요."
    ],
-   "effects": [],
-   "visual_type": "usdkrw"
+   "effects": [
+    "금리가 오르면 돈을 빌리는 비용이 늘어날 수 있어요!",
+    "물가가 계속 오르면 장바구니 물가 부담이 커질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "349b2fa0ab7f12c8f5166cc9ac85afd887a6c2dd"
  },
@@ -908,7 +910,23 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-22T03:13:54.486907+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "금리 인상",
+   "easy": "이자의 기준을 올리는 거예요.",
+   "example": "대출 이자가 늘고 물가를 누르는 효과가 있어요."
+  },
+  {
+   "term": "기준금리",
+   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
+   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
  "related": [
   {
    "id": "c419df2138556f8cb",
