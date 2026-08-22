@@ -871,42 +871,47 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-20T03:16:27.593451+00:00",
+  "model": "template",
+  "created_at": "2026-08-22T05:49:55.697039+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
-    "Walmart Earnings : The Biggest And Most Influential Retail Report Looms",
-    "Walmart Fastest - Growing Business Isnt Retail"
+    "Walmart Raises Outlook For Year After Successful Quarter",
+    "Walmart sees the slowest pace in US comparable sales in 6 years and offers cautious guidance",
+    "Walmart sees the slowest pace in US comparable sales in 6 years",
+    "Pressure builds in bond market as Walmart drags stock market lower",
+    "Walmart stock drops as sales growth slows , customers make  trade - off amid high fuel costs"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"월마트 실적 발표\",\n    \"one_liner\": \"월마트의 실적 발표가 예정되어 있으며, 가장 큰 영향을 줄 것으로 보여요.\",\n    \"why_now\": \"월마트는 미국 최대 소매업체로, 실적 발표는 소비 심리를 파악하는 데 중요해요.\",\n    \"impact_line\": \"월마트의 실적은 다른 기업들의 주가에도 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"월마트의 실적 발표가 곧 있을 예정이에요.\",\n        \"월마트의 실적은 시장에 큰 영향을 미칠 것으로 예상돼요.\",\n        \"월마트에서 가장 빠르게 성장하는 사업은 소매업이 아니에요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"월마트의 실적이 좋으면 소비가 살아난다는 신호로 해석될 수 있어요!\",\n        \"월마트의 실적이 예상보다 나쁘면 소비 심리 위축으로 이어질 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"소매업\",\n            \"easy\": \"소비자에게 직접 물건을 파는 사업을 말해요.\",\n            \"example\": \"동네 마트나 편의점에서 물건을 사는 것이 소매업이에요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "월마트 실적 발표",
-   "one_liner": "월마트의 실적 발표가 예정되어 있으며, 가장 큰 영향을 줄 것으로 보여요.",
-   "why_now": "월마트는 미국 최대 소매업체로, 실적 발표는 소비 심리를 파악하는 데 중요해요.",
+   "title": "Walmart Raises…",
+   "one_liner": "Walmart Raises Outlook For Year After Successful…",
+   "why_now": null,
    "details": [
-    "월마트의 실적 발표가 곧 있을 예정이에요.",
-    "월마트의 실적은 시장에 큰 영향을 미칠 것으로 예상돼요.",
-    "월마트에서 가장 빠르게 성장하는 사업은 소매업이 아니에요."
+    "Walmart Raises Outlook For Year After Successful Quarter",
+    "Walmart sees the slowest pace in US comparable sales in 6 years and offers cautious guidance",
+    "Walmart sees the slowest pace in US comparable sales in 6 years"
    ],
-   "effects": [
-    "월마트의 실적이 좋으면 소비가 살아난다는 신호로 해석될 수 있어요!",
-    "월마트의 실적이 예상보다 나쁘면 소비 심리 위축으로 이어질 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "a512d7275c8f76cee3b6c16006be7f2573742610"
+  "fact_hash": "baa5f3de96b098330071ab0b05078ace92e5645e"
  },
- "review": null,
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-22T05:49:55.696919+00:00"
+ },
  "glossary": [],
  "related": [
   {
