@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-21T08:03:54.247615+00:00",
+  "created_at": "2026-08-22T03:19:29.079757+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,14 +881,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"주요 인사 주식 매도\",\n  \"one_liner\": \"주요 기업 임원들이 보유 주식을 매도하고 있다는 소식이 나왔어요.\",\n  \"why_now\": \"기업 임원들의 주식 매도는 회사의 미래 전망에 대한 신호로 해석될 수 있어요.\",\n  \"impact_line\": \"주가 하락 가능성에 주의해야 할 수 있어요.\",\n  \"details\": [\n    \"오마다 헬스의 사장이 2억 2천만 달러 상당의 주식을 매도했어요.\",\n    \"패브리넷의 최고운영책임자가 7천 주를 360만 달러에 매도했어요.\",\n    \"워렌 버핏이 경고한 시장 움직임이 나타났다는 분석이 있어요.\",\n    \"빌 애크먼이 6개 신규 투자 포지션을 공개했는데, 그중 4개가 금융주였어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"주요 인사들의 주식 매도는 해당 기업의 주가에 하락 압력을 줄 수 있어요!\",\n    \"시장 전반에 대한 투자자들의 심리가 위축될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주식\",\n      \"easy\": \"회사의 소유권 일부를 나타내는 증권이에요.\",\n      \"example\": \"주식 투자를 통해 회사의 성장에 따른 이익을 얻을 수 있어요.\"\n    },\n    {\n      \"term\": \"매도\",\n      \"easy\": \"가지고 있는 주식이나 물건을 파는 것을 말해요.\",\n      \"example\": \"주가가 오르면 매도해서 이익을 얻을 수 있어요.\"\n    },\n    {\n      \"term\": \"포지션\",\n      \"easy\": \"투자자가 특정 자산에 대해 가지고 있는 투자 상태를 말해요.\",\n      \"example\": \"주식 포지션을 늘리거나 줄이는 결정을 할 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [360.0]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -911,8 +905,8 @@
   "fact_hash": "c0dacd876259a2365cbb4766f9f50de56ba814bf"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [360.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-21T08:03:54.247539+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-22T03:19:29.079685+00:00"
  },
  "glossary": [],
  "related": [
@@ -929,12 +923,6 @@
    "shared": []
   },
   {
-   "id": "c1d7b10a7cce18b93",
-   "title": "Dont Assume Micron Will Share SanDisk Fate . Here Why .",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
    "id": "c473082d7f30acb2b",
    "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
    "category": "MARKET",
@@ -943,6 +931,12 @@
   {
    "id": "cd6e96f9df3790928",
    "title": "US economy cools in second quarter despite solid spending",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cb34f19e1978fa138",
+   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "category": "MARKET",
    "shared": []
   }

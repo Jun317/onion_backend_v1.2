@@ -868,27 +868,21 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-21T07:16:22.888908+00:00",
+  "created_at": "2026-08-22T03:13:09.758463+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
-    "Colony Bankcorp ( NYSE : CBAN ) Insider Acquires 1 , 000 Shares",
-    "Gerhard Lombard Acquires 2 , 000 Shares of Crescent Capital BDC ( NASDAQ : CCAP ) Stock",
-    "Leadership Investment : Director Carande Acquires 2 , 101 Shares of United Community Banks",
-    "James Peter Flynn Acquires 20 , 000 Shares of Lument Finance Trust ( NYSE : LFT ) Stock",
-    "Jefferies Financial Group Forecasts Strong Price Appreciation for Estee Lauder Companies ( NYSE : EL ) Stock"
+    "Trump announces plan to lower beef prices , but some are already balking",
+    "U . S . To Pause Higher Tariffs On Ground Beef Imports | PowerTalk 1460 AM & 101 . 1 FM",
+    "U . S . To Pause Higher Tariffs On Ground Beef Imports | News Radio 1410 AM & 100 . 9 FM",
+    "U . S . To Pause Higher Tariffs On Ground Beef Imports | WJBO Newsradio 1150 AM & 98 . 7 FM",
+    "Trump lifts tariffs on 300K tons of ground beef , commits to 25 % price drop"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"주요 기업 임원, 자사 주식 매입\",\n  \"one_liner\": \"주요 기업들의 임원들이 자사 주식을 사들였어요.\",\n  \"why_now\": \"기업 임원들이 자사 주식을 사는 것은 회사 전망을 긍정적으로 본다는 신호로 해석될 수 있어요.\",\n  \"impact_line\": \"주가 상승 기대감에 투자자들의 관심이 쏠릴 수 있어요.\",\n  \"details\": [\n    \"콜로니 은행 임원이 1,000주를 매입했어요.\",\n    \"크레센트 캐피탈의 임원이 2,000주를 매입했어요.\",\n    \"유나이티드 커뮤니티 은행의 이사가 2,101주를 매입했어요.\",\n    \"루먼트 파이낸스 임원이 20,000주를 매입했어요.\",\n    \"제프리스 파이낸셜 그룹은 에스티 로더 주가 상승을 예상했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"임원들의 주식 매입은 해당 기업의 주가에 긍정적인 영향을 줄 수 있어요!\",\n    \"에스티 로더와 같이 주가 상승이 예상되는 기업에 투자자들의 관심이 모일 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주식\",\n      \"easy\": \"회사의 소유권을 나누어 놓은 증서예요. 주식을 사면 그 회사의 일부 주인이 되는 거예요.\",\n      \"example\": \"삼성전자 주식을 사서 회사의 성장에 따른 이익을 얻을 수 있어요.\"\n    },\n    {\n      \"term\": \"임원\",\n      \"easy\": \"회사의 중요한 결정을 내리고 회사를 이끌어가는 사람을 말해요.\",\n      \"example\": \"회사의 대표나 이사 등이 임원에 해당해요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [1000.0, 2101.0, 20000.0]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -897,22 +891,22 @@
    }
   ],
   "output": {
-   "title": "Colony Bankcorp (…",
-   "one_liner": "Colony Bankcorp ( NYSE : CBAN ) Insider Acquires…",
+   "title": "Trump announces plan…",
+   "one_liner": "Trump announces plan to lower beef prices , but…",
    "why_now": null,
    "details": [
-    "Colony Bankcorp ( NYSE : CBAN ) Insider Acquires 1 , 000 Shares",
-    "Gerhard Lombard Acquires 2 , 000 Shares of Crescent Capital BDC ( NASDAQ : CCAP ) Stock",
-    "Leadership Investment : Director Carande Acquires 2 , 101 Shares of United Community Banks"
+    "Trump announces plan to lower beef prices , but some are already balking",
+    "U . S . To Pause Higher Tariffs On Ground Beef Imports | PowerTalk 1460 AM & 101 . 1 FM",
+    "U . S . To Pause Higher Tariffs On Ground Beef Imports | News Radio 1410 AM & 100 . 9 FM"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "6b4836f7db3fd42258f618f5acab3c783813b052"
+  "fact_hash": "479a03f0e952b52faf4c65bb3d8fb5c138639bd4"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1000.0, 2101.0, 20000.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-21T07:16:22.888633+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-22T03:13:09.758388+00:00"
  },
  "glossary": [],
  "related": [
@@ -929,12 +923,6 @@
    "shared": []
   },
   {
-   "id": "c1d7b10a7cce18b93",
-   "title": "Dont Assume Micron Will Share SanDisk Fate . Here Why .",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
    "id": "c473082d7f30acb2b",
    "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
    "category": "MARKET",
@@ -943,6 +931,12 @@
   {
    "id": "cd6e96f9df3790928",
    "title": "US economy cools in second quarter despite solid spending",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "cb34f19e1978fa138",
+   "title": "Down 30 % on the Year , Is Tesla Stock a Buy On This Latest Dip ?",
    "category": "MARKET",
    "shared": []
   }
