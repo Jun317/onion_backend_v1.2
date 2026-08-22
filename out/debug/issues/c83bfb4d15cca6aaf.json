@@ -2,15 +2,15 @@
  "id": "c83bfb4d15cca6aaf",
  "title": "Fuel Subsidy : Atiku Blasts Tinubu Over Worsening Hardship",
  "category": "POLICY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 75,
+ "seen_sources": 3,
+ "importance": 85,
  "created_at": "2026-08-22T04:01:41.961822+00:00",
- "last_update": "2026-08-22T04:01:41.961822+00:00",
+ "last_update": "2026-08-22T04:55:58.988933+00:00",
  "members": [
   {
    "id": "e7fc20972c7f8c845b47da9768d2efa0deb066da",
@@ -20,7 +20,17 @@
    "title": "Fuel Subsidy : Atiku Blasts Tinubu Over Worsening Hardship",
    "published_at": "2026-08-22T03:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.956
+   "sim_to_centroid": 0.9529
+  },
+  {
+   "id": "900f321142fa70a5e6928f65b29e463aa5f7d4fb",
+   "source": "wsws.org",
+   "tier": "wire",
+   "url": "https://www.wsws.org/en/articles/2026/08/22/rtxj-a22.html",
+   "title": "After canceling strike vote , union officials ram through Michigan Medicine nurse contract",
+   "published_at": "2026-08-22T03:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8704
   },
   {
    "id": "2b01818ec262499ecb39b8252e92ed2199a1a257",
@@ -30,7 +40,17 @@
    "title": "Osun Election : APC , Accord Spent N100bn , Exceeding Limit",
    "published_at": "2026-08-22T03:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.956
+   "sim_to_centroid": 0.9517
+  },
+  {
+   "id": "b11a905dfb629532536f43aa5339e82a997645e8",
+   "source": "theconversation.com",
+   "tier": "wire",
+   "url": "https://theconversation.com/zambias-messy-but-decisive-election-government-shows-strength-democracy-shows-weakness-289953",
+   "title": "Zambia messy but decisive election : government shows strength ; democracy shows weakness",
+   "published_at": "2026-08-21T19:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8643
   }
  ],
  "anchors": [],
@@ -48,10 +68,63 @@
    "source": "punchng.com",
    "url": "https://punchng.com/osun-naira-rain-how-apc-accord-splashed-n100bn/",
    "at": "2026-08-22T03:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "After canceling strike vote , union officials ram through Michigan Medicine nurse contract",
+   "source": "wsws.org",
+   "url": "https://www.wsws.org/en/articles/2026/08/22/rtxj-a22.html",
+   "at": "2026-08-22T03:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Zambia messy but decisive election : government shows strength ; democracy shows weakness",
+   "source": "theconversation.com",
+   "url": "https://theconversation.com/zambias-messy-but-decisive-election-government-shows-strength-democracy-shows-weakness-289953",
+   "at": "2026-08-21T19:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-22T05:01:34.097591+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Fuel Subsidy : Atiku Blasts Tinubu Over Worsening Hardship",
+    "After canceling strike vote , union officials ram through Michigan Medicine nurse contract",
+    "Osun Election : APC , Accord Spent N100bn , Exceeding Limit",
+    "Zambia messy but decisive election : government shows strength ; democracy shows weakness"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Fuel Subsidy : Atiku…",
+   "one_liner": "Fuel Subsidy : Atiku Blasts Tinubu Over…",
+   "why_now": null,
+   "details": [
+    "Fuel Subsidy : Atiku Blasts Tinubu Over Worsening Hardship",
+    "After canceling strike vote , union officials ram through Michigan Medicine nurse contract",
+    "Osun Election : APC , Accord Spent N100bn , Exceeding Limit"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "c4e3dba1cc7c0a0fc523a47353f74549598696aa"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-22T05:01:34.097483+00:00"
+ },
  "glossary": [],
  "related": [
   {
