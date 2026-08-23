@@ -867,52 +867,48 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-22T07:07:00.489815+00:00",
+  "model": "template",
+  "created_at": "2026-08-23T07:53:25.339117+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
-    "LeBlanc says  more work to do  as Trump tariff deadline nears",
+    "No deal over a bad deal ? Canada is about to find out",
+    "Tariff talks that you assumed already collapsed collapse",
+    "Here How Many Shares of Target Youd Need for $10 , 000 in Yearly Dividends",
+    "Can This 6 . 3 % Yield Survive if Oil Crashes Again ?",
     "Canada tariffs : LeBlanc says  more work to do"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"캐나다 관세 관련 추가 논의 필요\",\n  \"one_liner\": \"캐나다 장관이 트럼프 대통령의 관세 부과 시한이 다가오자 추가 논의가 필요하다고 말했어요.\",\n  \"why_now\": \"미국이 특정 국가 상품에 관세를 매기면 해당 상품 가격이 오르거나 수입이 줄어들 수 있어요.\",\n  \"impact_line\": \"수입 물가 상승으로 장바구니 물가가 오를 수 있어요.\",\n  \"details\": [\n    \"캐나다 장관이 트럼프 대통령의 관세 부과 시한이 임박했다고 언급했어요.\",\n    \"그는 이 문제에 대해 더 많은 논의가 필요하다고 말했어요.\",\n    \"이 논의는 캐나다에 부과될 수 있는 관세와 관련이 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"캐나다에서 수입하는 물품의 가격이 오를 수 있어요!\",\n    \"관세 부과 시점에 따라 물가 변동성이 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 세금이에요.\",\n      \"example\": \"수입 과자에도 관세가 붙어 국내에서 살 때 더 비싸요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "캐나다 관세 관련 추가 논의 필요",
-   "one_liner": "캐나다 장관이 트럼프 대통령의 관세 부과 시한이 다가오자 추가 논의가 필요하다고 말했어요.",
-   "why_now": "미국이 특정 국가 상품에 관세를 매기면 해당 상품 가격이 오르거나 수입이 줄어들 수 있어요.",
+   "title": "No deal over a bad…",
+   "one_liner": "No deal over a bad deal ? Canada is about to…",
+   "why_now": null,
    "details": [
-    "캐나다 장관이 트럼프 대통령의 관세 부과 시한이 임박했다고 언급했어요.",
-    "그는 이 문제에 대해 더 많은 논의가 필요하다고 말했어요.",
-    "이 논의는 캐나다에 부과될 수 있는 관세와 관련이 있어요."
+    "No deal over a bad deal ? Canada is about to find out",
+    "Tariff talks that you assumed already collapsed collapse",
+    "Here How Many Shares of Target Youd Need for $10 , 000 in Yearly Dividends"
    ],
-   "effects": [
-    "캐나다에서 수입하는 물품의 가격이 오를 수 있어요!",
-    "관세 부과 시점에 따라 물가 변동성이 커질 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "c161787087bb615bb6560af0c9632136ee7bdf83"
+  "fact_hash": "ef8ba50b59ce282bc10cabeb2425de0b0c2e1259"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-22T04:01:50.912132+00:00"
+  "at": "2026-08-23T07:53:25.339022+00:00"
  },
- "glossary": [
-  {
-   "term": "관세",
-   "easy": "수입 물건에 매기는 세금이에요.",
-   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "c78995e710f8b7506",

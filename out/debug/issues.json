@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23T07:15:19.844378+00:00",
+ "generated_at": "2026-08-23T07:53:39.012718+00:00",
  "issues": [
   {
    "id": "ccec1fdb78ce6d4ce",
@@ -24,6 +24,27 @@
    "in_review": true
   },
   {
+   "id": "c78995e710f8b7506",
+   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 14,
+   "importance": 150,
+   "entity_keys": [
+    "AMZN",
+    "NFLX",
+    "SEC"
+   ],
+   "created_at": "2026-08-20T08:02:52.092181+00:00",
+   "last_update": "2026-08-23T07:53:06.256878+00:00",
+   "members": 15,
+   "llm_title": "Amazon to expand…",
+   "one_liner": "Amazon to expand drone delivery of light…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c419df2138556f8cb",
    "title": "Federal debt ticks over $1 trillion for the first time",
    "category": "FX",
@@ -43,27 +64,6 @@
    "members": 50,
    "llm_title": "Three things to know…",
    "one_liner": "Three things to know about the $40 trillion…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c78995e710f8b7506",
-   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 10,
-   "importance": 150,
-   "entity_keys": [
-    "AMZN",
-    "NFLX",
-    "SEC"
-   ],
-   "created_at": "2026-08-20T08:02:52.092181+00:00",
-   "last_update": "2026-08-23T07:08:53.418163+00:00",
-   "members": 11,
-   "llm_title": "Amazon to expand…",
-   "one_liner": "Amazon to expand drone delivery of light…",
    "llm_model": "template",
    "in_review": true
   },
@@ -875,10 +875,10 @@
    "created_at": "2026-08-21T04:59:40.997930+00:00",
    "last_update": "2026-08-22T20:44:54.113036+00:00",
    "members": 7,
-   "llm_title": "골드만삭스, 은행주 투자 의견 제시",
-   "one_liner": "골드만삭스가 일부 은행 주식은 팔고 다른 은행 주식은 사라고 했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": false
+   "llm_title": "Tortoise Investment…",
+   "one_liner": "Tortoise Investment Management LLC Purchases…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c654fe41e8f3b14e8",
@@ -959,27 +959,6 @@
    "in_review": true
   },
   {
-   "id": "c1731cf1ebf398959",
-   "title": "Home Depot CEO Ted Decker takes medical leave , two execs take over temporarily",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 29,
-   "importance": 100,
-   "entity_keys": [
-    "FED",
-    "HD",
-    "WMT"
-   ],
-   "created_at": "2026-08-14T18:12:23.184667+00:00",
-   "last_update": "2026-08-18T07:11:29.892313+00:00",
-   "members": 50,
-   "llm_title": "미국 증시, 주요 기업 실적 발표 주목",
-   "one_liner": "미국 증시가 주요 기업들의 실적 발표를 앞두고 주목하고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "e7dc95bcb919f5113",
    "title": "메타케어 2026-2Q 실적 공시",
    "category": "EARNINGS",
@@ -1030,9 +1009,9 @@
    "created_at": "2026-08-22T04:01:41.962289+00:00",
    "last_update": "2026-08-23T02:05:48.224215+00:00",
    "members": 50,
-   "llm_title": "캐나다 관세 관련 추가 논의 필요",
-   "one_liner": "캐나다 장관이 트럼프 대통령의 관세 부과 시한이 다가오자 추가 논의가 필요하다고 말했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
+   "llm_title": "No deal over a bad…",
+   "one_liner": "No deal over a bad deal ? Canada is about to…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -1129,6 +1108,27 @@
    "members": 44,
    "llm_title": "유가 상승 및 긴장 고조",
    "one_liner": "미국과 이란의 긴장이 고조되면서 국제 유가가 올랐어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "c1731cf1ebf398959",
+   "title": "Home Depot CEO Ted Decker takes medical leave , two execs take over temporarily",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 29,
+   "importance": 95,
+   "entity_keys": [
+    "FED",
+    "HD",
+    "WMT"
+   ],
+   "created_at": "2026-08-14T18:12:23.184667+00:00",
+   "last_update": "2026-08-18T07:11:29.892313+00:00",
+   "members": 50,
+   "llm_title": "미국 증시, 주요 기업 실적 발표 주목",
+   "one_liner": "미국 증시가 주요 기업들의 실적 발표를 앞두고 주목하고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -1526,45 +1526,6 @@
    "in_review": true
   },
   {
-   "id": "c78ab0773636aa1d7",
-   "title": "IFP Advisors Inc Acquires 2 , 652 Shares of JPMorgan Chase & Co . $JPM",
-   "category": "MARKET",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 5,
-   "importance": 90,
-   "entity_keys": [
-    "JPM"
-   ],
-   "created_at": "2026-08-16T09:48:08.959655+00:00",
-   "last_update": "2026-08-19T07:12:24.303713+00:00",
-   "members": 5,
-   "llm_title": "Sen . John Boozman…",
-   "one_liner": "Sen . John Boozman Unloads Shares of JPMorgan…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c369b45eb1511371e",
-   "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
-   "category": "MARKET",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 36,
-   "importance": 90,
-   "entity_keys": [
-    "IRAN",
-    "SEC"
-   ],
-   "created_at": "2026-08-16T14:45:14.312042+00:00",
-   "last_update": "2026-08-18T07:11:29.898885+00:00",
-   "members": 50,
-   "llm_title": "60 - day deadline…",
-   "one_liner": "60 - day deadline for Iran peace deal is…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "c4290744458a41e2b",
    "title": "Analyzing China Gas ( OTCMKTS : CGHLY ) and Chesapeake Utilities ( NYSE : CPK )",
    "category": "COMMODITY",
@@ -1786,9 +1747,9 @@
    "created_at": "2026-08-22T04:01:41.955282+00:00",
    "last_update": "2026-08-22T22:44:19.037228+00:00",
    "members": 50,
-   "llm_title": "트럼프, 멕시코와 새 무역 협상 발표",
-   "one_liner": "트럼프 대통령이 멕시코와 새로운 무역 협상을 시작한다고 발표했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
+   "llm_title": "Canada hits back…",
+   "one_liner": "Canada hits back with new tariffs after trade…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -2006,6 +1967,25 @@
    "in_review": true
   },
   {
+   "id": "c78ab0773636aa1d7",
+   "title": "IFP Advisors Inc Acquires 2 , 652 Shares of JPMorgan Chase & Co . $JPM",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 5,
+   "importance": 85,
+   "entity_keys": [
+    "JPM"
+   ],
+   "created_at": "2026-08-16T09:48:08.959655+00:00",
+   "last_update": "2026-08-19T07:12:24.303713+00:00",
+   "members": 5,
+   "llm_title": "Sen . John Boozman…",
+   "one_liner": "Sen . John Boozman Unloads Shares of JPMorgan…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c62eb04031e3314b7",
    "title": "Global Market | Bank of Japan could raise rates in September , eye faster hikes : Reports",
    "category": "FX",
@@ -2022,6 +2002,26 @@
    "llm_title": "일본 금리 인상 가능성",
    "one_liner": "일본 중앙은행이 금리를 올릴 수 있다는 전망이 나오고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "c369b45eb1511371e",
+   "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 36,
+   "importance": 85,
+   "entity_keys": [
+    "IRAN",
+    "SEC"
+   ],
+   "created_at": "2026-08-16T14:45:14.312042+00:00",
+   "last_update": "2026-08-18T07:11:29.898885+00:00",
+   "members": 50,
+   "llm_title": "60 - day deadline…",
+   "one_liner": "60 - day deadline for Iran peace deal is…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -3405,6 +3405,42 @@
    "llm_title": "Salesforce 주가 상승",
    "one_liner": "Salesforce 주가가 오늘 급등했어요",
    "llm_model": "llama-3.3-70b-versatile",
+   "in_review": true
+  },
+  {
+   "id": "cd46fc433c4892930",
+   "title": "Iran condemns US plans to announce new sanctions",
+   "category": "GEO",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 65,
+   "entity_keys": [
+    "IRAN"
+   ],
+   "created_at": "2026-08-23T07:53:06.261141+00:00",
+   "last_update": "2026-08-23T07:53:06.261141+00:00",
+   "members": 2,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
+   "id": "ccb815326af4f68f4",
+   "title": "Perseus Mining ( PMNXF ) Expected to Release Quarterly Earnings on Tuesday",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 7,
+   "importance": 65,
+   "entity_keys": [],
+   "created_at": "2026-08-23T07:08:53.421617+00:00",
+   "last_update": "2026-08-23T07:53:06.258252+00:00",
+   "members": 15,
+   "llm_title": "Perseus Mining (…",
+   "one_liner": "Perseus Mining ( PMNXF ) Expected to Release…",
+   "llm_model": "template",
    "in_review": true
   },
   {
@@ -5398,23 +5434,6 @@
    "llm_title": "아프리카 환율 시장 전망",
    "one_liner": "나이지리아 경제가 아프리카 환율 시장을 이끌어갈 잠재력이 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "ccb815326af4f68f4",
-   "title": "Perseus Mining ( PMNXF ) Expected to Release Quarterly Earnings on Tuesday",
-   "category": "EARNINGS",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 50,
-   "entity_keys": [],
-   "created_at": "2026-08-23T07:08:53.421617+00:00",
-   "last_update": "2026-08-23T07:08:53.456484+00:00",
-   "members": 2,
-   "llm_title": "Perseus Mining (…",
-   "one_liner": "Perseus Mining ( PMNXF ) Expected to Release…",
-   "llm_model": "template",
    "in_review": true
   },
   {

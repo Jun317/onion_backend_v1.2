@@ -138,49 +138,47 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-21T04:59:43.001123+00:00",
+  "model": "template",
+  "created_at": "2026-08-23T07:53:14.939098+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Tortoise Investment Management LLC Purchases Shares of 708 The Goldman Sachs Group , Inc . $GS",
+    "Indian banks near cyclical turn as core earnings growth set to rebound to 17 % YoY over FY26 - 29E : Goldman Sachs",
     "Sell YES Bank , PNB shares ; buy HDFC Bank , ICICI Bank stocks , says Goldman Sachs",
     "Goldman Sachs doubles down on risky rates trading business"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"골드만삭스, 은행주 투자 의견 제시\",\n\"one_liner\": \"골드만삭스가 일부 은행 주식은 팔고 다른 은행 주식은 사라고 했어요.\",\n\"why_now\": \"증권사들의 투자 의견은 시장의 관심이 쏠리며 주가에 영향을 줄 수 있어요.\",\n\"impact_line\": \"주식 투자 시 증권사의 의견을 참고할 수 있어요.\",\n\"details\": [\n\"골드만삭스는 YES 은행과 PNB 은행 주식은 팔라고 했어요.\",\n\"HDFC 은행과 ICICI 은행 주식은 사라고 했어요.\",\n\"골드만삭스는 위험한 금리 거래 사업을 두 배로 늘렸어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"특정 은행 주식의 매수세가 몰릴 수 있어요!\",\n\"금리 거래 사업 확대는 시장 변동성을 키울 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"YES Bank\",\n\"easy\": \"인도에 있는 은행 이름이에요.\",\n\"example\": \"YES 은행의 주가가 올랐다는 뉴스가 나왔어요.\"\n},\n{\n\"term\": \"PNB\",\n\"easy\": \"인도에 있는 은행 이름이에요.\",\n\"example\": \"PNB 은행의 실적이 좋지 않다는 분석이 있어요.\"\n},\n{\n\"term\": \"HDFC Bank\",\n\"easy\": \"인도에 있는 은행 이름이에요.\",\n\"example\": \"HDFC 은행의 주가가 상승세를 보이고 있어요.\"\n},\n{\n\"term\": \"ICICI Bank\",\n\"easy\": \"인도에 있는 은행 이름이에요.\",\n\"example\": \"ICICI 은행의 배당 소식이 있었어요.\"\n}\n]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "골드만삭스, 은행주 투자 의견 제시",
-   "one_liner": "골드만삭스가 일부 은행 주식은 팔고 다른 은행 주식은 사라고 했어요.",
-   "why_now": "증권사들의 투자 의견은 시장의 관심이 쏠리며 주가에 영향을 줄 수 있어요.",
+   "title": "Tortoise Investment…",
+   "one_liner": "Tortoise Investment Management LLC Purchases…",
+   "why_now": null,
    "details": [
-    "골드만삭스는 YES 은행과 PNB 은행 주식은 팔라고 했어요.",
-    "HDFC 은행과 ICICI 은행 주식은 사라고 했어요.",
-    "골드만삭스는 위험한 금리 거래 사업을 두 배로 늘렸어요."
+    "Tortoise Investment Management LLC Purchases Shares of 708 The Goldman Sachs Group , Inc . $GS",
+    "Indian banks near cyclical turn as core earnings growth set to rebound to 17 % YoY over FY26 - 29E : Goldman Sachs",
+    "Sell YES Bank , PNB shares ; buy HDFC Bank , ICICI Bank stocks , says Goldman Sachs"
    ],
-   "effects": [
-    "특정 은행 주식의 매수세가 몰릴 수 있어요!",
-    "금리 거래 사업 확대는 시장 변동성을 키울 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "us_10y"
   },
-  "fact_hash": "ef76abdbce34ed38ef86e1b0c0113870c4c7c815"
+  "fact_hash": "bb93319c207e425ad846a0c42f8463b9793eb901"
  },
- "review": null,
- "glossary": [
-  {
-   "term": "금리",
-   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
-   "example": "높을수록 이자를 더 내거나 더 받아요."
-  }
- ],
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-23T07:53:14.938776+00:00"
+ },
+ "glossary": [],
  "related": [
   {
    "id": "ccc137270dbb9d742",
