@@ -872,8 +872,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-23T05:52:17.007549+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-23T08:54:53.195735+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -886,25 +886,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"대만 주변 중국 군사 활동 감지\",\n\"one_liner\": \"대만 국방부가 대만 주변에서 중국 군용기 2대와 군함 7척을 감지했다고 밝혔어요.\",\n\"why_now\": \"대만은 세계 경제에서 중요한 역할을 하기에, 주변 군사 활동은 국제 무역에 영향을 줄 수 있어요.\",\n\"impact_line\": \"대만 해협의 긴장 고조는 국제 물류와 공급망에 불안감을 줄 수 있어요.\",\n\"details\": [\n\"대만 국방부는 중국 군용기 2대가 대만 방공식별구역에 진입했다고 밝혔어요.\",\n\"중국 군함 7척도 대만 주변 해역에서 활동하는 것을 감지했어요.\",\n\"대만은 세계 경제에서 중요한 반도체 생산 기지 역할을 하고 있어요.\",\n\"대만 해협은 주요 해상 운송로 중 하나예요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"대만 해협의 긴장 상황이 지속되면 국제 해상 운송에 차질이 생길 수 있어요!\",\n\"이는 전 세계적인 상품 가격 상승으로 이어질 가능성이 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"방공식별구역\",\n\"easy\": \"군용기가 비행할 때 주변 국가에 미리 알려야 하는 공역이에요.\",\n\"example\": \"우리나라 주변 방공식별구역에 외국 군용기가 들어오면 미리 통보해야 해요.\"\n},\n{\n\"term\": \"군함\",\n\"easy\": \"군사 작전에 사용되는 배를 말해요.\",\n\"example\": \"군함은 바다에서 나라를 지키는 중요한 역할을 해요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Taiwan headline news…",
-   "one_liner": "Taiwan headline news - Focus Taiwan",
-   "why_now": null,
+   "title": "대만 주변 중국 군사 활동 감지",
+   "one_liner": "대만 국방부가 대만 주변에서 중국 군용기 2대와 군함 7척을 감지했다고 밝혔어요.",
+   "why_now": "대만은 세계 경제에서 중요한 역할을 하기에, 주변 군사 활동은 국제 무역에 영향을 줄 수 있어요.",
    "details": [
-    "Taiwan headline news - Focus Taiwan",
-    "Taiwan headline news - Focus Taiwan",
-    "Taiwan headline news - Focus Taiwan"
+    "대만 국방부는 중국 군용기 2대가 대만 방공식별구역에 진입했다고 밝혔어요.",
+    "중국 군함 7척도 대만 주변 해역에서 활동하는 것을 감지했어요.",
+    "대만은 세계 경제에서 중요한 반도체 생산 기지 역할을 하고 있어요.",
+    "대만 해협은 주요 해상 운송로 중 하나예요."
    ],
-   "effects": [],
+   "effects": [
+    "대만 해협의 긴장 상황이 지속되면 국제 해상 운송에 차질이 생길 수 있어요!",
+    "이는 전 세계적인 상품 가격 상승으로 이어질 가능성이 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "79a5565c6208149d2a7c1afc42724097ab9b975d"
