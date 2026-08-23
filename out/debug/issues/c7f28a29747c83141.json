@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-23T03:29:27.232035+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-23T07:09:55.088192+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,25 +881,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국, 캐나다 관세 3일 유예\",\n  \"one_liner\": \"미국이 캐나다 수입품에 부과하려던 50% 관세를 3일간 잠시 멈추기로 했어요.\",\n  \"why_now\": \"갑자기 관세가 부과되면 물건값이 크게 올라 장바구니 부담이 커질 수 있어요.\",\n  \"impact_line\": \"캐나다에서 오는 물건값이 당분간 오르지 않을 수 있어요.\",\n  \"details\": [\n    \"도널드 트럼프 미국 대통령이 캐나다와의 무역 협상에서 이 같은 합의를 발표했어요.\",\n    \"캐나다에서 수입되는 물품에 50%의 높은 관세를 매기려 했어요.\",\n    \"이번 결정으로 관세 부과가 3일간 연기되었어요.\",\n    \"이는 캐나다와의 무역 협상이 계속 진행 중임을 보여줘요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"협상이 결렬되면 캐나다에서 수입되는 일부 물품의 가격이 오를 수 있어요!\",\n    \"소비자들은 당분간 가격 인상 부담을 덜 수 있을 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 세금이에요.\",\n      \"example\": \"수입 과자에 관세가 붙으면 과자값이 더 비싸져요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects[1] 느낌표 종결 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump says U . S .…",
-   "one_liner": "Trump says U . S . and Canada reached deal to…",
-   "why_now": null,
+   "title": "미국, 캐나다 관세 3일 유예",
+   "one_liner": "미국이 캐나다 수입품에 부과하려던 50% 관세를 3일간 잠시 멈추기로 했어요.",
+   "why_now": "갑자기 관세가 부과되면 물건값이 크게 올라 장바구니 부담이 커질 수 있어요.",
    "details": [
-    "Trump says U . S . and Canada reached deal to delay 50 % U . S . tariffs on Canadian imports",
-    "Trump says last - minute deal reached to delay 50 % US tariffs on Canadian imports",
-    "Trump Announces US - Canada Trade Deal , Pauses New 50 % Tariffs for Three Days"
+    "도널드 트럼프 미국 대통령이 캐나다와의 무역 협상에서 이 같은 합의를 발표했어요.",
+    "캐나다에서 수입되는 물품에 50%의 높은 관세를 매기려 했어요.",
+    "이번 결정으로 관세 부과가 3일간 연기되었어요.",
+    "이는 캐나다와의 무역 협상이 계속 진행 중임을 보여줘요."
    ],
-   "effects": [],
+   "effects": [
+    "협상이 결렬되면 캐나다에서 수입되는 일부 물품의 가격이 오를 수 있어요!",
+    "소비자들은 당분간 가격 인상 부담을 덜 수 있을 것으로 예상돼요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "176abbf243d1225e6b48f2d86e845827d698cd14"
@@ -908,8 +916,20 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-23T03:29:27.231980+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
+  {
+   "id": "c78995e710f8b7506",
+   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
+   "category": "POLICY",
+   "shared": []
+  },
   {
    "id": "ca2696857c59592ad",
    "title": "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground",
@@ -919,12 +939,6 @@
   {
    "id": "c961fd7c053e6e83b",
    "title": "IMF to visit Uganda next month for negotiations on new programme",
-   "category": "POLICY",
-   "shared": []
-  },
-  {
-   "id": "c78995e710f8b7506",
-   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
    "category": "POLICY",
    "shared": []
   },

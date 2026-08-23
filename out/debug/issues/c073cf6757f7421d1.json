@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-23T03:29:48.178105+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-23T07:10:02.068356+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -881,26 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"영국 물가 상승세 둔화 예상\",\n    \"one_liner\": \"영국의 6월 소비자 물가 상승률이 일시적으로 둔화될 것으로 예상돼요.\",\n    \"why_now\": \"물가 상승률이 낮아지면 가계의 소비 부담이 줄어들 수 있어요.\",\n    \"impact_line\": \"생활 물가 부담이 조금 가벼워질 수 있어요.\",\n    \"details\": [\n        \"영국의 6월 소비자 물가 상승률이 일시적으로 둔화될 것으로 보여요.\",\n        \"7월에는 에너지 가격 인상이 물가에 영향을 줄 수 있어요.\",\n        \"파운드화 가치가 유로화 대비 약세를 보일 수 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"물가 상승세가 둔화되면 영국 중앙은행이 금리를 내릴 가능성이 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"소비자 물가 상승률\",\n            \"easy\": \"우리가 자주 사는 물건이나 서비스의 가격이 얼마나 올랐는지를 나타내는 지표예요.\",\n            \"example\": \"소비자 물가 상승률이 높으면 장바구니 물가가 많이 오른 거예요.\"\n        },\n        {\n            \"term\": \"파운드화\",\n            \"easy\": \"영국에서 사용하는 돈의 단위예요.\",\n            \"example\": \"파운드화 가치가 떨어지면 영국 물건을 사기 어려워져요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "What impact will…",
-   "one_liner": "What impact will July energy price hike have on…",
-   "why_now": null,
+   "title": "영국 물가 상승세 둔화 예상",
+   "one_liner": "영국의 6월 소비자 물가 상승률이 일시적으로 둔화될 것으로 예상돼요.",
+   "why_now": "물가 상승률이 낮아지면 가계의 소비 부담이 줄어들 수 있어요.",
    "details": [
-    "What impact will July energy price hike have on united kingdom inflation figures ? | Harwich and Manningtree Standard",
-    "What impact will July energy price hike have on united kingdom inflation figures ? | Richmond and Twickenham Times",
-    "What impact will July energy price hike have on united kingdom inflation figures ? | Dumbarton and Vale of Leven Reporter"
+    "영국의 6월 소비자 물가 상승률이 일시적으로 둔화될 것으로 보여요.",
+    "7월에는 에너지 가격 인상이 물가에 영향을 줄 수 있어요.",
+    "파운드화 가치가 유로화 대비 약세를 보일 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "물가 상승세가 둔화되면 영국 중앙은행이 금리를 내릴 가능성이 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "dac7ca7ff94687d4ab5cfea00974eecb44fb5b1f"
  },
@@ -909,5 +909,12 @@
   "at": "2026-08-23T03:29:48.178001+00:00"
  },
  "glossary": [],
- "related": []
+ "related": [
+  {
+   "id": "c4fa3e54bf4ebb48a",
+   "title": "Inflation outpaces wage growth for the fourth month in a row",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
 }

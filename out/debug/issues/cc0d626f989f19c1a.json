@@ -804,8 +804,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-23T03:28:45.259951+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-23T07:09:12.415349+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -818,26 +818,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"빌 애크먼, 넷플릭스 등 신규 투자\",\n  \"one_liner\": \"억만장자 빌 애크먼이 넷플릭스와 비자 등 6개 종목에 새로 투자했어요.\",\n  \"why_now\": \"그가 투자한 종목은 시장의 큰 관심을 받으며 주가에 영향을 줄 수 있어요.\",\n  \"impact_line\": \"빌 애크먼의 투자 소식이 관련 기업 주가에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"빌 애크먼은 넷플릭스, 비자, 마스터카드 등 6개 종목에 새로 투자했어요.\",\n    \"이는 그의 투자 포트폴리오에서 몇 년 만에 가장 큰 변화예요.\",\n    \"그는 넷플릭스 주식에 투자한 이유를 밝혔어요.\",\n    \"솔라나는 금융 분야의 넷플릭스가 되려는 계획을 가지고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"빌 애크먼이 투자한 기업들의 주가가 오를 수 있어요!\",\n    \"그의 투자 결정이 다른 투자자들에게도 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"포트폴리오\",\n      \"easy\": \"여러 종목에 나누어 투자한 자산 목록이에요.\",\n      \"example\": \"주식, 채권, 부동산 등 다양한 자산으로 포트폴리오를 구성할 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "ChatGPT and…",
-   "one_liner": "ChatGPT and Billionaire Bill Ackman Agree on…",
-   "why_now": null,
+   "title": "빌 애크먼, 넷플릭스 등 신규 투자",
+   "one_liner": "억만장자 빌 애크먼이 넷플릭스와 비자 등 6개 종목에 새로 투자했어요.",
+   "why_now": "그가 투자한 종목은 시장의 큰 관심을 받으며 주가에 영향을 줄 수 있어요.",
    "details": [
-    "ChatGPT and Billionaire Bill Ackman Agree on Visa ( V )",
-    "Billionaire Bill Ackman Just Invested in Netflix Stock . Here Why Investors Should Care .",
-    "Where Will Netflix Stock Be in 5 Years ?"
+    "빌 애크먼은 넷플릭스, 비자, 마스터카드 등 6개 종목에 새로 투자했어요.",
+    "이는 그의 투자 포트폴리오에서 몇 년 만에 가장 큰 변화예요.",
+    "그는 넷플릭스 주식에 투자한 이유를 밝혔어요.",
+    "솔라나는 금융 분야의 넷플릭스가 되려는 계획을 가지고 있어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "빌 애크먼이 투자한 기업들의 주가가 오를 수 있어요!",
+    "그의 투자 결정이 다른 투자자들에게도 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "24ae7f695db6635d4cd10b8f49dfcf920e2719c2"
  },
@@ -864,6 +866,14 @@
    ]
   },
   {
+   "id": "c78995e710f8b7506",
+   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
+   "category": "POLICY",
+   "shared": [
+    "NFLX"
+   ]
+  },
+  {
    "id": "c03074aeed49bf60f",
    "title": "World Bank confirms plan to phase out China lending by 2031",
    "category": "RATE",
@@ -877,14 +887,6 @@
    "category": "RATE",
    "shared": [
     "V"
-   ]
-  },
-  {
-   "id": "c78995e710f8b7506",
-   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
-   "category": "POLICY",
-   "shared": [
-    "NFLX"
    ]
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23T05:58:43.344614+00:00",
+ "generated_at": "2026-08-23T07:15:19.844378+00:00",
  "issues": [
   {
    "id": "ccec1fdb78ce6d4ce",
@@ -29,7 +29,7 @@
    "category": "FX",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 33,
+   "seen_sources": 39,
    "importance": 150,
    "entity_keys": [
     "CHINA",
@@ -39,10 +39,31 @@
     "SEC"
    ],
    "created_at": "2026-08-20T04:59:07.648216+00:00",
-   "last_update": "2026-08-23T05:51:47.870909+00:00",
+   "last_update": "2026-08-23T07:08:53.419784+00:00",
    "members": 50,
    "llm_title": "Three things to know…",
    "one_liner": "Three things to know about the $40 trillion…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "c78995e710f8b7506",
+   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
+   "category": "POLICY",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 10,
+   "importance": 150,
+   "entity_keys": [
+    "AMZN",
+    "NFLX",
+    "SEC"
+   ],
+   "created_at": "2026-08-20T08:02:52.092181+00:00",
+   "last_update": "2026-08-23T07:08:53.418163+00:00",
+   "members": 11,
+   "llm_title": "Amazon to expand…",
+   "one_liner": "Amazon to expand drone delivery of light…",
    "llm_model": "template",
    "in_review": true
   },
@@ -259,45 +280,6 @@
    "llm_title": "일본 금리 유지",
    "one_liner": "일본 중앙은행이 금리를 그대로 유지했어요",
    "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "c01efb76fcd7102be",
-   "title": "Preview : ECB set to hold rates in July , hints of September hike expected : ING",
-   "category": "RATE",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 8,
-   "importance": 125,
-   "entity_keys": [
-    "ECB"
-   ],
-   "created_at": "2026-07-23T16:53:35.390542+00:00",
-   "last_update": "2026-07-24T06:45:00.079109+00:00",
-   "members": 22,
-   "llm_title": "유럽중앙은행 금리 유지",
-   "one_liner": "유럽중앙은행이 금리를 그대로 유지했어요",
-   "llm_model": "llama-3.3-70b-versatile",
-   "in_review": true
-  },
-  {
-   "id": "c78995e710f8b7506",
-   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
-   "category": "POLICY",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 9,
-   "importance": 120,
-   "entity_keys": [
-    "AMZN",
-    "NFLX"
-   ],
-   "created_at": "2026-08-20T08:02:52.092181+00:00",
-   "last_update": "2026-08-23T02:05:48.222504+00:00",
-   "members": 10,
-   "llm_title": "Amazon to expand…",
-   "one_liner": "Amazon to expand drone delivery of light…",
-   "llm_model": "template",
    "in_review": true
   },
   {
@@ -594,8 +576,8 @@
     "NVDA"
    ],
    "created_at": "2026-08-20T01:56:45.207999+00:00",
-   "last_update": "2026-08-23T05:51:47.859567+00:00",
-   "members": 33,
+   "last_update": "2026-08-23T07:08:53.417131+00:00",
+   "members": 34,
    "llm_title": "Google ( GOOGL ) to…",
    "one_liner": "Google ( GOOGL ) to buy up to $12 . 2 billion…",
    "llm_model": "template",
@@ -2114,9 +2096,9 @@
    "created_at": "2026-08-21T04:59:40.998186+00:00",
    "last_update": "2026-08-23T02:05:48.220619+00:00",
    "members": 4,
-   "llm_title": "Unifor , General…",
-   "one_liner": "Unifor , General Motors reach tentative agreements",
-   "llm_model": "template",
+   "llm_title": "제너럴모터스 실적 전망 상향",
+   "one_liner": "제너럴모터스가 트럭 수요 덕분에 전기차와 관세 부담을 이겨내고 실적 전망을 높였어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -2131,9 +2113,9 @@
    "created_at": "2026-08-22T04:01:41.962848+00:00",
    "last_update": "2026-08-22T17:42:33.732667+00:00",
    "members": 50,
-   "llm_title": "Stocks Center",
-   "one_liner": "Stocks Center",
-   "llm_model": "template",
+   "llm_title": "주식 시장 동향",
+   "one_liner": "주요 주식 시장에서 다양한 종목들의 동향이 주목받고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -2170,9 +2152,9 @@
    "created_at": "2026-08-11T21:11:00.097869+00:00",
    "last_update": "2026-08-20T19:07:48.296691+00:00",
    "members": 46,
-   "llm_title": "ChatGPT and…",
-   "one_liner": "ChatGPT and Billionaire Bill Ackman Agree on…",
-   "llm_model": "template",
+   "llm_title": "빌 애크먼, 넷플릭스 등 신규 투자",
+   "one_liner": "억만장자 빌 애크먼이 넷플릭스와 비자 등 6개 종목에 새로 투자했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -2259,9 +2241,9 @@
    "created_at": "2026-08-19T03:16:54.791248+00:00",
    "last_update": "2026-08-19T22:47:16.396036+00:00",
    "members": 50,
-   "llm_title": "Trump says U . S .…",
-   "one_liner": "Trump says U . S . and Canada reached deal to…",
-   "llm_model": "template",
+   "llm_title": "미국, 캐나다 관세 3일 유예",
+   "one_liner": "미국이 캐나다 수입품에 부과하려던 50% 관세를 3일간 잠시 멈추기로 했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -2276,9 +2258,9 @@
    "created_at": "2026-08-19T03:16:54.791420+00:00",
    "last_update": "2026-08-19T07:59:47.806934+00:00",
    "members": 48,
-   "llm_title": "Inside The DSA…",
-   "one_liner": "Inside The DSA Dilemma : Grow The Democratic…",
-   "llm_model": "template",
+   "llm_title": "미국 대통령, 한국과 협상",
+   "one_liner": "미국 대통령이 한국과의 협상에서 군사·무역 관계를 활용하고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -2293,33 +2275,8 @@
    "created_at": "2026-08-16T10:45:49.455283+00:00",
    "last_update": "2026-08-17T10:02:58.440783+00:00",
    "members": 50,
-   "llm_title": "What impact will…",
-   "one_liner": "What impact will July energy price hike have on…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "cad425da121baed31",
-   "title": "Nvidia $70 billion bet on OpenAI , Anthropic , and others could pay off big for shareholders",
-   "category": "MARKET",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 25,
-   "importance": 80,
-   "entity_keys": [
-    "AMD",
-    "AMZN",
-    "F",
-    "GS",
-    "INTC",
-    "MSFT",
-    "NVDA"
-   ],
-   "created_at": "2026-08-12T21:09:51.091981+00:00",
-   "last_update": "2026-08-17T05:56:01.223635+00:00",
-   "members": 49,
-   "llm_title": "엔비디아, AI 투자 새 엔진 가동",
-   "one_liner": "엔비디아가 엄청난 돈을 AI 사업에 투자할 새로운 방법을 찾았어요.",
+   "llm_title": "영국 물가 상승세 둔화 예상",
+   "one_liner": "영국의 6월 소비자 물가 상승률이 일시적으로 둔화될 것으로 예상돼요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -2619,6 +2576,31 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "cad425da121baed31",
+   "title": "Nvidia $70 billion bet on OpenAI , Anthropic , and others could pay off big for shareholders",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 25,
+   "importance": 75,
+   "entity_keys": [
+    "AMD",
+    "AMZN",
+    "F",
+    "GS",
+    "INTC",
+    "MSFT",
+    "NVDA"
+   ],
+   "created_at": "2026-08-12T21:09:51.091981+00:00",
+   "last_update": "2026-08-17T05:56:01.223635+00:00",
+   "members": 49,
+   "llm_title": "엔비디아, AI 투자 새 엔진 가동",
+   "one_liner": "엔비디아가 엄청난 돈을 AI 사업에 투자할 새로운 방법을 찾았어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
   },
   {
    "id": "c166b830deee78221",
@@ -4180,40 +4162,6 @@
    "in_review": true
   },
   {
-   "id": "cb58f83b24f1df47e",
-   "title": "Simon Harris says budget tax package must deliver for  working people",
-   "category": "POLICY",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 47,
-   "importance": 65,
-   "entity_keys": [],
-   "created_at": "2026-07-22T16:53:58.411120+00:00",
-   "last_update": "2026-07-24T06:45:00.090094+00:00",
-   "members": 50,
-   "llm_title": "정부, 민생 위한 예산 세제 개편 약속",
-   "one_liner": "정부가 국민들의 삶에 도움이 되는 예산과 세금 제도를 만들겠다고 약속했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c7df8eab6657a9a33",
-   "title": "Trump 50 % tariff threat : why now ?",
-   "category": "POLICY",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 43,
-   "importance": 65,
-   "entity_keys": [],
-   "created_at": "2026-07-22T16:53:58.409323+00:00",
-   "last_update": "2026-07-24T06:45:00.088032+00:00",
-   "members": 50,
-   "llm_title": "미국, 약값에 100% 관세 위협",
-   "one_liner": "미국 대통령이 해외에서 들여오는 약값에 100% 관세를 물리겠다고 했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "ceaf113e67e192d44",
    "title": "Less than half expected sockeye returning to B . C . Fraser River this year",
    "category": "COMMODITY",
@@ -4792,23 +4740,6 @@
    "members": 50,
    "llm_title": "VNET Group , Inc . –…",
    "one_liner": "VNET Group , Inc . – Unsponsored ADR ( NASDAQ :…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
-   "id": "c1bbf3ea68cd91de8",
-   "title": "Harley Lappin Sells 3 , 000 Shares of CoreCivic ( NYSE : CXW ) Stock",
-   "category": "MARKET",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 43,
-   "importance": 55,
-   "entity_keys": [],
-   "created_at": "2026-08-16T10:45:49.457322+00:00",
-   "last_update": "2026-08-17T05:56:01.227752+00:00",
-   "members": 50,
-   "llm_title": "22 , 398 Shares in…",
-   "one_liner": "22 , 398 Shares in TE Connectivity Ltd . $TEL…",
    "llm_model": "template",
    "in_review": true
   },
@@ -5470,6 +5401,23 @@
    "in_review": true
   },
   {
+   "id": "ccb815326af4f68f4",
+   "title": "Perseus Mining ( PMNXF ) Expected to Release Quarterly Earnings on Tuesday",
+   "category": "EARNINGS",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 50,
+   "entity_keys": [],
+   "created_at": "2026-08-23T07:08:53.421617+00:00",
+   "last_update": "2026-08-23T07:08:53.456484+00:00",
+   "members": 2,
+   "llm_title": "Perseus Mining (…",
+   "one_liner": "Perseus Mining ( PMNXF ) Expected to Release…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "c61e02450791be005",
    "title": "Barrick Mining shares fall despite Q2 revenue beat and strong gold production",
    "category": "EARNINGS",
@@ -5557,6 +5505,23 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
+  },
+  {
+   "id": "c1bbf3ea68cd91de8",
+   "title": "Harley Lappin Sells 3 , 000 Shares of CoreCivic ( NYSE : CXW ) Stock",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 43,
+   "importance": 50,
+   "entity_keys": [],
+   "created_at": "2026-08-16T10:45:49.457322+00:00",
+   "last_update": "2026-08-17T05:56:01.227752+00:00",
+   "members": 50,
+   "llm_title": "22 , 398 Shares in…",
+   "one_liner": "22 , 398 Shares in TE Connectivity Ltd . $TEL…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "c2c550b3d76a01f3b",
@@ -7420,23 +7385,6 @@
    "members": 50,
    "llm_title": "기업 실적 발표 예정",
    "one_liner": "여러 기업이 7월 25일에 1분기 실적을 발표할 예정이에요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "cf2203d26c85b706b",
-   "title": "This One Factor Keeps Me Buying Marvell Technology Now",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 33,
-   "importance": 35,
-   "entity_keys": [],
-   "created_at": "2026-07-22T16:53:58.408983+00:00",
-   "last_update": "2026-07-24T06:45:00.089973+00:00",
-   "members": 50,
-   "llm_title": "기업 실적 발표",
-   "one_liner": "기업들의 실적 발표가 이어지고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
