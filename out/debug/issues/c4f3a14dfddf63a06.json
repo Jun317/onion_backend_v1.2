@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-22T07:11:59.808610+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-23T04:59:13.788030+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,26 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"AI 시대 기업 경쟁 변화\",\n  \"one_liner\": \"AI가 기업들의 상품 진열 공간을 차지하며 경쟁 구도가 바뀌고 있어요.\",\n  \"why_now\": \"AI 기술이 발전하면서 기업들이 상품을 소비자에게 보여주는 방식이 달라지고 있어요.\",\n  \"impact_line\": \"AI 기술을 잘 활용하는 기업이 앞으로 더 성장할 수 있어요.\",\n  \"details\": [\n    \"AI가 기업들의 상품 진열 공간을 차지하고 있어요.\",\n    \"AI 알고리즘이 상품 진열에 영향을 미치고 있어요.\",\n    \"AI 시대에 어떤 기업이 성공할지에 대한 전문가들의 의견이 있어요.\",\n    \"AI 관련 일자리 증가로 여성들이 소외될 수 있다는 우려도 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"AI 기술을 잘 활용하는 기업은 더 많은 소비자에게 상품을 알릴 기회를 얻을 수 있어요!\",\n    \"AI 기술 발전 속도를 따라가지 못하는 기업은 어려움을 겪을 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AI\",\n      \"easy\": \"인공지능으로, 컴퓨터가 사람처럼 생각하고 배울 수 있는 기술이에요.\",\n      \"example\": \"AI 스피커는 사람의 말을 알아듣고 음악을 틀어줘요.\"\n    },\n    {\n      \"term\": \"알고리즘\",\n      \"easy\": \"어떤 문제를 해결하기 위해 정해진 절차나 규칙을 말해요.\",\n      \"example\": \"검색창에 단어를 치면 관련 정보를 찾아주는 것이 알고리즘이에요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "PYMNTS | Brands Are…",
-   "one_liner": "PYMNTS | Brands Are Losing Shelf Space to AI…",
-   "why_now": null,
+   "title": "AI 시대 기업 경쟁 변화",
+   "one_liner": "AI가 기업들의 상품 진열 공간을 차지하며 경쟁 구도가 바뀌고 있어요.",
+   "why_now": "AI 기술이 발전하면서 기업들이 상품을 소비자에게 보여주는 방식이 달라지고 있어요.",
    "details": [
-    "PYMNTS | Brands Are Losing Shelf Space to AI Algorithms",
-    "Interim Financial Report H1 2026 | The Manila Times",
-    "An MIT expert on which companies will succeed in the AI era"
+    "AI가 기업들의 상품 진열 공간을 차지하고 있어요.",
+    "AI 알고리즘이 상품 진열에 영향을 미치고 있어요.",
+    "AI 시대에 어떤 기업이 성공할지에 대한 전문가들의 의견이 있어요.",
+    "AI 관련 일자리 증가로 여성들이 소외될 수 있다는 우려도 있어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "AI 기술을 잘 활용하는 기업은 더 많은 소비자에게 상품을 알릴 기회를 얻을 수 있어요!",
+    "AI 기술 발전 속도를 따라가지 못하는 기업은 어려움을 겪을 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "dd41726cc01a6245db0158833fa7373d7853e23d"
  },

@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-22T07:52:04.390396+00:00",
+  "created_at": "2026-08-23T04:58:44.292645+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -881,8 +881,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"레딧 주가 15% 상승\", \"one_liner\": \"레딧 주가가 15% 올랐고 다음 주에 S&P 500 지수에 편입될 예정이에요.\", \"why_now\": \"주요 지수에 편입되면 해당 주식에 대한 관심이 높아져 주가 상승에 긍정적인 영향을 줄 수 있어요.\", \"impact_line\": \"레딧 주식에 투자한 사람들의 수익이 늘어날 수 있어요.\", \"details\": [\"레딧 주가가 15% 상승했어요.\", \"레딧은 다음 주에 S&P 500 지수에 편입될 예정이에요.\"], \"visual_type\": \"none\", \"effects\": [\"S&P 500 지수에 편입되면 해당 주식에 대한 투자 수요가 늘어날 수 있어요!\"], \"glossary\": [{\"term\": \"S&P 500\", \"easy\": \"미국에서 가장 큰 기업 500곳의 주가를 모아 보여주는 지수예요.\", \"example\": \"S&P 500 지수가 오르면 미국 주식 시장 전체가 좋다고 볼 수 있어요.\"}], \"impact_line\": \"레딧 주식에 투자한 사람들의 수익이 늘어날 수 있어요.\"}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +911,8 @@
   "fact_hash": "e5a50cb2a9ee994514c80a51d2734a90d1bdf0df"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-22T07:52:04.390265+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-23T04:58:44.292317+00:00"
  },
  "glossary": [],
  "related": [
