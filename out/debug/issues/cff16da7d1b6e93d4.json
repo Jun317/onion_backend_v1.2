@@ -866,8 +866,48 @@
    "at": "2026-08-22T14:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-23T03:28:34.703743+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Marvell Technology ( NASDAQ : MRVL ) Trading Up 5 . 8 % – Still a Buy ?",
+    "Cboe Global Markets Stock Outlook : Is Wall Street Bullish or Bearish ?",
+    "BMO Capital Markets Upgrades Marvell Technology ( NASDAQ : MRVL ) to Strong - Buy",
+    "Qnity Electronics Stock : Is Wall Street Bullish or Bearish ?",
+    "Memory stocks face headwinds as  smart money  walks out"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Marvell Technology (…",
+   "one_liner": "Marvell Technology ( NASDAQ : MRVL ) Trading Up…",
+   "why_now": null,
+   "details": [
+    "Marvell Technology ( NASDAQ : MRVL ) Trading Up 5 . 8 % – Still a Buy ?",
+    "Cboe Global Markets Stock Outlook : Is Wall Street Bullish or Bearish ?",
+    "BMO Capital Markets Upgrades Marvell Technology ( NASDAQ : MRVL ) to Strong - Buy"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "fb44bc55f3e2de8df3eeceb3a29e38b1732b803c"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-23T03:28:34.703659+00:00"
+ },
  "glossary": [],
  "related": [
   {

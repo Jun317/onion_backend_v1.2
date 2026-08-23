@@ -866,8 +866,48 @@
    "at": "2026-08-22T19:30:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-23T03:31:22.706202+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Pomerantz LLP Issues Important Reminder to GPGI , Inc . Investors – GPGI",
+    "Pomerantz LLP Issues Alert Regarding Shareholder Class Action Involving ...",
+    "Pomerantz LLP Informs Investors of Class Action Against Pentair plc – ...",
+    "Pomerantz LLP Issues Reminder to Investors in Cogent Communications ...",
+    "Elutia ( ELUT ) Q2 2026 Earnings Call Transcript"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Pomerantz LLP Issues…",
+   "one_liner": "Pomerantz LLP Issues Important Reminder to GPGI…",
+   "why_now": null,
+   "details": [
+    "Pomerantz LLP Issues Important Reminder to GPGI , Inc . Investors – GPGI",
+    "Pomerantz LLP Issues Alert Regarding Shareholder Class Action Involving ...",
+    "Pomerantz LLP Informs Investors of Class Action Against Pentair plc – ..."
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "74da11e7c40b020150733ee1def698b3326abfd4"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-23T03:31:22.706095+00:00"
+ },
  "glossary": [],
  "related": [
   {

@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-22T05:01:13.409678+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-23T03:27:40.826872+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,25 +881,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"미국 부채 문제 심각\",\n    \"one_liner\": \"미국의 국가 부채가 40조 달러까지 늘어나 통제 불능 상태가 되고 있어요.\",\n    \"why_now\": \"국가 부채가 너무 많으면 나라 경제가 어려워지고 국민들의 삶에도 영향을 줄 수 있어요.\",\n    \"impact_line\": \"미국 경제 상황이 어려워지면 한국 경제에도 좋지 않은 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"미국의 국가 부채가 40조 달러에 달했어요.\",\n        \"이는 통제 불능 상태로 심각한 문제로 지적되고 있어요.\",\n        \"미국과 캐나다 간 무역 협상의 주요 내용이 아직 불확실해요.\",\n        \"캐나다에 대한 미국의 관세 부과에 따른 소비자 물가 상승 예상치가 없어요.\",\n        \"트럼프 전 대통령이 제안한 50% 관세 부과 계획은 현재 보류 중이에요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"미국 경제가 불안정해지면 세계 경제에도 부정적인 영향을 줄 수 있어요!\",\n        \"미국 정부의 재정 건전성 악화는 장기적으로 금융 시장의 변동성을 키울 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"국가 부채\",\n            \"easy\": \"나라가 빚을 진 돈을 말해요. 정부가 돈이 부족할 때 돈을 빌려서 사용해요.\",\n            \"example\": \"국가 부채가 너무 많으면 나라 경제가 어려워질 수 있어요.\"\n        },\n        {\n            \"term\": \"관세\",\n            \"easy\": \"나라 밖에서 물건을 들여올 때 내는 세금이에요.\",\n            \"example\": \"관세가 오르면 수입품 가격이 비싸질 수 있어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Xinhua Commentary :…",
-   "one_liner": "Xinhua Commentary : U . S . debt monster spirals…",
-   "why_now": null,
+   "title": "미국 부채 문제 심각",
+   "one_liner": "미국의 국가 부채가 40조 달러까지 늘어나 통제 불능 상태가 되고 있어요.",
+   "why_now": "국가 부채가 너무 많으면 나라 경제가 어려워지고 국민들의 삶에도 영향을 줄 수 있어요.",
    "details": [
-    "Xinhua Commentary : U . S . debt monster spirals out of control",
-    "Key terms of US - Canada trade deal remain unclear",
-    "No U . S . estimate of consumer cost as Canada tariffs take effect"
+    "미국의 국가 부채가 40조 달러에 달했어요.",
+    "이는 통제 불능 상태로 심각한 문제로 지적되고 있어요.",
+    "미국과 캐나다 간 무역 협상의 주요 내용이 아직 불확실해요.",
+    "캐나다에 대한 미국의 관세 부과에 따른 소비자 물가 상승 예상치가 없어요.",
+    "트럼프 전 대통령이 제안한 50% 관세 부과 계획은 현재 보류 중이에요."
    ],
-   "effects": [],
+   "effects": [
+    "미국 경제가 불안정해지면 세계 경제에도 부정적인 영향을 줄 수 있어요!",
+    "미국 정부의 재정 건전성 악화는 장기적으로 금융 시장의 변동성을 키울 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "d26617168e6f0cc1e0e89ff7ca4da83347c5404a"
@@ -908,7 +911,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-22T05:01:13.409608+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "ca2696857c59592ad",
