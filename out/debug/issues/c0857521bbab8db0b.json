@@ -866,8 +866,48 @@
    "at": "2026-08-22T16:30:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-23T02:11:52.361983+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [],
+   "headlines": [
+    "ChineseToday | Grassroots official leads village on path to rural revitalization",
+    "Iconic fast - food fried chicken chain closes over 300 restaurants",
+    "Your days in politics are numbered , Kindiki tells Gachagua",
+    "Less waste , fewer floods , more energy",
+    "Silver City rivers of gold swell as bash hits town"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "ChineseToday |…",
+   "one_liner": "ChineseToday | Grassroots official leads village…",
+   "why_now": null,
+   "details": [
+    "ChineseToday | Grassroots official leads village on path to rural revitalization",
+    "Iconic fast - food fried chicken chain closes over 300 restaurants",
+    "Your days in politics are numbered , Kindiki tells Gachagua"
+   ],
+   "effects": [],
+   "visual_type": "wti"
+  },
+  "fact_hash": "86e99e50bc32f5e1f48d1e4136277ff412a5c87d"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-23T02:11:52.361905+00:00"
+ },
  "glossary": [],
  "related": [
   {

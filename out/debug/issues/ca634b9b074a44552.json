@@ -86,8 +86,47 @@
    "at": "2026-08-18T19:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-23T02:06:19.856386+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [],
+   "headlines": [
+    "Rayburn West Financial Services LLC Invests $5 . 14 Million in Bank of America Corporation $BAC",
+    "Timothy G . Youngquist 2020 Irrevocable Trust Purchases 14 , 210 Shares of Bank of America Corporation $BAC",
+    "ServiceNow investors must consider latest alert from Bank of America",
+    "Bank of America Says $5 , 000 Gold Is Within Reach"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Rayburn West…",
+   "one_liner": "Rayburn West Financial Services LLC Invests $5 .…",
+   "why_now": null,
+   "details": [
+    "Rayburn West Financial Services LLC Invests $5 . 14 Million in Bank of America Corporation $BAC",
+    "Timothy G . Youngquist 2020 Irrevocable Trust Purchases 14 , 210 Shares of Bank of America Corporation $BAC",
+    "ServiceNow investors must consider latest alert from Bank of America"
+   ],
+   "effects": [],
+   "visual_type": "kr_base_rate"
+  },
+  "fact_hash": "ab6dc8680ece0ba9099e1868b4ca109d54da68bb"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-23T02:06:19.856260+00:00"
+ },
  "glossary": [],
  "related": [
   {

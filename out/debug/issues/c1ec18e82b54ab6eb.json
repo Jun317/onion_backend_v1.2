@@ -866,8 +866,48 @@
    "at": "2026-08-22T17:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-23T02:12:02.772902+00:00",
+  "payload": {
+   "category": "FX",
+   "anchors": [],
+   "headlines": [
+    "RBI says forex inflows under swap facility reach $72 . 85 billion as FCNR ( B ) mobilisation tops $65 billion",
+    "Banks ride RBI swap wave to raise $12 billion via overseas debt",
+    "Analyzing Claros Mortgage Trust ( NYSE : CMTG ) & NexPoint Real Estate Finance ( NYSE : NREF )",
+    "Treasury Yields Have Surged . Is It Finally Time to Buy Bond ETFs ?",
+    "India foreign exchange reserves up almost $50 billion since July"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "RBI says forex…",
+   "one_liner": "RBI says forex inflows under swap facility reach…",
+   "why_now": null,
+   "details": [
+    "RBI says forex inflows under swap facility reach $72 . 85 billion as FCNR ( B ) mobilisation tops $65 billion",
+    "Banks ride RBI swap wave to raise $12 billion via overseas debt",
+    "Analyzing Claros Mortgage Trust ( NYSE : CMTG ) & NexPoint Real Estate Finance ( NYSE : NREF )"
+   ],
+   "effects": [],
+   "visual_type": "usdkrw"
+  },
+  "fact_hash": "d5bcd994818208de3afba7177fd3d3306cfc135d"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-23T02:12:02.772822+00:00"
+ },
  "glossary": [],
  "related": [
   {

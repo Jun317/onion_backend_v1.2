@@ -868,51 +868,45 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-22T07:06:51.752136+00:00",
+  "created_at": "2026-08-23T02:12:13.138002+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
-    "US , Canada Push to Seal Trade Deal as Deadline Nears",
-    "US set to impose 50 % tariffs on Canadian products",
-    "U . S . imposes 50 % tariffs on $20 billion worth of Canadian products",
-    "TSX gains more than 250 points as investors brush off U . S . trade risks",
-    "U . S . to impose 50 % tariffs on Canadian products as trade deal deadline passes ."
+    "US hits some Canadian goods with 50 % tariffs after trade talks fail",
+    "US imposes 50 % tariffs on $20B worth of Canadian products , Canada says it will retaliate",
+    "US hits Canadian goods with 50 % tariffs after trade talks fail",
+    "US - Canada trade talks collapse as 50 percent tariffs hit Canadian goods",
+    "US - Canada tariffs news : US imposes 50 % tariffs on $20 billion worth of Canadian products , and Canada says it will retaliate"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국, 캐나다 상품에 50% 관세 부과\",\n  \"one_liner\": \"미국이 캐나다 상품에 50%의 높은 관세를 부과하기로 했어요.\",\n  \"why_now\": \"높은 관세는 물건 가격을 올려 소비자의 부담을 늘릴 수 있어요.\",\n  \"impact_line\": \"캐나다에서 수입하는 물건 가격이 오를 수 있어요.\",\n  \"details\": [\n    \"미국이 캐나다 상품에 50%의 관세를 부과할 예정이에요.\",\n    \"이번 관세 부과는 약 200억 달러 규모의 캐나다 상품에 적용돼요.\",\n    \"미국과 캐나다 간의 무역 협상 시한이 다가오고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"캐나다에서 수입하는 물건들의 가격이 오를 수 있어요!\",\n    \"양국 간 무역 갈등이 심화될 수 있다는 우려가 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 세금이에요.\",\n      \"example\": \"관세가 오르면 수입 과자 가격이 비싸질 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [200.0]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [200.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
   "output": {
-   "title": "US , Canada Push to…",
-   "one_liner": "US , Canada Push to Seal Trade Deal as Deadline…",
+   "title": "US hits some…",
+   "one_liner": "US hits some Canadian goods with 50 % tariffs…",
    "why_now": null,
    "details": [
-    "US , Canada Push to Seal Trade Deal as Deadline Nears",
-    "US set to impose 50 % tariffs on Canadian products",
-    "U . S . imposes 50 % tariffs on $20 billion worth of Canadian products"
+    "US hits some Canadian goods with 50 % tariffs after trade talks fail",
+    "US imposes 50 % tariffs on $20B worth of Canadian products , Canada says it will retaliate",
+    "US hits Canadian goods with 50 % tariffs after trade talks fail"
    ],
    "effects": [],
    "visual_type": "wti"
   },
-  "fact_hash": "80ad7209a63c8657ece9b71fdf7c42f4885d93bf"
+  "fact_hash": "3569a3062fccd9e88a8106aa92c72e6383fcd4cd"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [200.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [200.0]\"]}]}",
-  "at": "2026-08-22T07:06:51.751989+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-23T02:12:13.137906+00:00"
  },
  "glossary": [],
  "related": [

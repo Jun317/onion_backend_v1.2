@@ -866,9 +866,53 @@
    "at": "2026-08-22T17:15:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-23T02:09:35.882595+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Canada and U . S . in full - on tariff war as trade talks collapse",
+    "U . S .- Canada trade talks collapse just before deadline for tariffs",
+    "Why the U . S .- Canada Trade Talks Fell Apart",
+    "No deal : U . S . tariffs to hit Canada after trade talks collapse",
+    "Canada to match US tariffs after trade talks collapse One News Page"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미국-캐나다 무역 갈등\",\n  \"one_liner\": \"미국과 캐나다의 무역 협상이 결렬되면서 서로에게 높은 관세를 부과하게 됐어요.\",\n  \"why_now\": \"나라 간 무역 관세가 오르면 물건값이 비싸져서 소비자들이 부담을 느낄 수 있어요.\",\n  \"impact_line\": \"캐나다에서 오는 물건값이 오를 수 있어요.\",\n  \"details\": [\n    \"미국과 캐나다의 무역 협상이 마감 시한을 앞두고 결렬됐어요.\",\n    \"이로 인해 양국은 서로에게 높은 관세를 부과하게 됐어요.\",\n    \"협상 결렬로 무역 갈등이 심화될 것으로 보여요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"캐나다에서 수입하는 물건의 가격이 오를 수 있어요!\",\n    \"양국 간 상품 거래가 줄어 경제에 부정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 세금이에요.\",\n      \"example\": \"수입 과자에 관세가 붙으면 과자값이 비싸져요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "미국-캐나다 무역 갈등",
+   "one_liner": "미국과 캐나다의 무역 협상이 결렬되면서 서로에게 높은 관세를 부과하게 됐어요.",
+   "why_now": "나라 간 무역 관세가 오르면 물건값이 비싸져서 소비자들이 부담을 느낄 수 있어요.",
+   "details": [
+    "미국과 캐나다의 무역 협상이 마감 시한을 앞두고 결렬됐어요.",
+    "이로 인해 양국은 서로에게 높은 관세를 부과하게 됐어요.",
+    "협상 결렬로 무역 갈등이 심화될 것으로 보여요."
+   ],
+   "effects": [
+    "캐나다에서 수입하는 물건의 가격이 오를 수 있어요!",
+    "양국 간 상품 거래가 줄어 경제에 부정적인 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "73913ba448c7f297a78b4220a8185edccbeef4cf"
+ },
  "review": null,
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "ca2696857c59592ad",
@@ -877,14 +921,14 @@
    "shared": []
   },
   {
-   "id": "c78995e710f8b7506",
-   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
+   "id": "c961fd7c053e6e83b",
+   "title": "IMF to visit Uganda next month for negotiations on new programme",
    "category": "POLICY",
    "shared": []
   },
   {
-   "id": "c961fd7c053e6e83b",
-   "title": "IMF to visit Uganda next month for negotiations on new programme",
+   "id": "c78995e710f8b7506",
+   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
    "category": "POLICY",
    "shared": []
   },
