@@ -49,7 +49,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-24T06:02:25.059489+00:00",
+  "created_at": "2026-08-24T10:12:50.946214+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [
@@ -77,8 +77,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"CJ제일제당 실적 발표\",\n    \"one_liner\": \"CJ제일제당이 2026년 1분기 매출 71111억원, 영업이익 2381억원을 기록했어요.\",\n    \"why_now\": \"기업의 실적은 회사의 현재 상황과 미래 전망을 보여주는 중요한 지표예요.\",\n    \"impact_line\": \"CJ제일제당 주가에 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"CJ제일제당의 2026년 1분기 매출은 71111억원이에요.\",\n        \"같은 기간 영업이익은 2381억원이에요.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"실적이 좋으면 회사의 가치가 올라 주가가 상승할 수 있어요!\",\n        \"반대로 실적이 예상보다 나쁘면 주가가 하락할 수 있어요.\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"매출액\",\n            \"easy\": \"회사가 상품이나 서비스를 팔아 벌어들인 돈이에요.\",\n            \"example\": \"이번 달 가게 매출이 얼마나 나왔는지 확인해 봐야겠어요.\"\n        },\n        {\n            \"term\": \"영업이익\",\n            \"easy\": \"회사가 본업으로 벌어들인 돈에서 비용을 뺀 금액이에요.\",\n            \"example\": \"영업이익이 늘면 회사가 돈을 더 잘 벌고 있다는 뜻이에요.\"\n        }\n    ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -100,8 +107,8 @@
   "fact_hash": "a43ab52a0def41a031c21fa4bc2bd72eb0f4f064"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-24T06:02:25.059417+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-24T10:12:50.946149+00:00"
  },
  "glossary": [
   {

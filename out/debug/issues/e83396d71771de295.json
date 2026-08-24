@@ -26,7 +26,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-24T06:02:04.324246+00:00",
+  "created_at": "2026-08-24T10:12:28.089009+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -35,8 +35,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"신한지주 실적 발표\",\n    \"one_liner\": \"신한지주가 2026년 2분기 실적을 발표했어요.\",\n    \"why_now\": \"회사의 성적표인 실적 발표는 앞으로의 주가 방향을 가늠하는 중요한 지표가 돼요.\",\n    \"impact_line\": \"신한지주 주가에 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"신한지주가 2026년 2분기 실적을 발표했습니다.\"\n    ],\n    \"visual_type\": \"earnings_quarterly\",\n    \"effects\": [\n        \"실적 발표 결과에 따라 신한지주 주가가 오르거나 내릴 수 있어요!\",\n        \"투자자들은 발표된 실적을 바탕으로 향후 투자 결정을 내릴 것으로 예상돼요!\"\n    ],\n    \"glossary\": []\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -57,8 +63,8 @@
   "fact_hash": "6624c0ceac728195ffb2476044d8264240919462"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-24T06:02:04.324163+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-24T10:12:28.088947+00:00"
  },
  "glossary": [],
  "related": [
