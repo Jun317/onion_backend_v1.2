@@ -873,8 +873,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-24T02:03:04.131343+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-24T05:07:40.462977+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -890,31 +890,27 @@
     "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New Yor"
    ]
   },
-  "raw_response": "{\"title\": \"미국 국가 부채 40조 달러 돌파\", \"one_liner\": \"미국의 국가 부채가 40조 달러를 넘어섰어요.\", \"why_now\": \"국가 부채가 늘어나면 이자 부담이 커져 경제에 부담이 될 수 있어요.\", \"impact_line\": \"미국 경제 상황이 우리 경제에도 영향을 줄 수 있어요.\", \"details\": [\"미국 국가 부채가 40조 달러를 넘어섰습니다.\", \"이는 미국 경제에 상당한 부담이 될 수 있습니다.\"], \"visual_type\": \"usdkrw\", \"effects\": [\"미국 정부의 이자 지급 부담이 늘어날 수 있습니다!\", \"이는 국제 금융 시장의 불안정으로 이어질 수 있습니다!\"], \"glossary\": [{\"term\": \"달러\", \"easy\": \"미국에서 사용하는 돈이에요.\", \"example\": \"달러는 세계에서 가장 많이 쓰이는 기축 통화 중 하나예요.\"}], \"impact_line\": \"미국 국가 부채 증가는 국제 금융 시장에 영향을 줄 수 있어요.\"}",
+  "raw_response": "{\n\"title\": \"미국 국가 부채 40조 달러 돌파\",\n\"one_liner\": \"미국 국가 부채가 처음으로 40조 달러를 넘어섰어요.\",\n\"why_now\": \"국가 부채가 늘면 미래에 세금이 오르거나 정부 지출이 줄어들 수 있어요.\",\n\"impact_line\": \"미국 경제 상황에 따라 환율 변동성이 커질 수 있어요.\",\n\"details\": [\n\"미국 국가 부채가 40조 달러를 넘어섰어요.\",\n\"이는 사상 처음 있는 일이에요.\",\n\"이 소식은 미국 경제의 건전성에 대한 우려를 키우고 있어요.\",\n\"연방준비제도(Fed)의 통화 정책에도 영향을 줄 수 있다는 분석이 나와요.\"\n],\n\"visual_type\": \"usdkrw\",\n\"effects\": [\n\"미국 경제 상황이 불안정해지면 달러 가치가 하락할 수 있어요!\",\n\"달러 가치가 하락하면 원화 가치가 상대적으로 올라 수입 물가가 안정될 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"연방준비제도(Fed)\",\n\"easy\": \"미국의 중앙은행 역할을 하는 곳이에요. 금리를 정하고 돈의 양을 조절해요.\",\n\"example\": \"연준이 금리를 올리면 대출 이자가 비싸지는 게 보통이에요.\"\n}\n],\n\"impact_line\": \"미국 경제 상황에 따라 환율 변동성이 커질 수 있어요.\"\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Three things to know…",
-   "one_liner": "Three things to know about the $40 trillion…",
-   "why_now": null,
+   "title": "미국 국가 부채 40조 달러 돌파",
+   "one_liner": "미국 국가 부채가 처음으로 40조 달러를 넘어섰어요.",
+   "why_now": "국가 부채가 늘면 미래에 세금이 오르거나 정부 지출이 줄어들 수 있어요.",
    "details": [
-    "Three things to know about the $40 trillion federal debt",
-    "3 things to know about the $40 trillion federal debt",
-    "Federal debt ticks over $1 trillion for the first time"
+    "미국 국가 부채가 40조 달러를 넘어섰어요.",
+    "이는 사상 처음 있는 일이에요.",
+    "이 소식은 미국 경제의 건전성에 대한 우려를 키우고 있어요.",
+    "연방준비제도(Fed)의 통화 정책에도 영향을 줄 수 있다는 분석이 나와요."
    ],
-   "effects": [],
+   "effects": [
+    "미국 경제 상황이 불안정해지면 달러 가치가 하락할 수 있어요!",
+    "달러 가치가 하락하면 원화 가치가 상대적으로 올라 수입 물가가 안정될 수 있어요!"
+   ],
    "visual_type": "usdkrw"
   },
   "fact_hash": "79d701aadcdfc6f22c4745117f03120d242ba82d"
