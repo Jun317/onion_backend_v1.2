@@ -69,8 +69,46 @@
    "at": "2026-08-23T13:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-24T02:05:09.880749+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Walmart Fell 9 %. Im Not Sure This Is Just a Walmart Problem",
+    "After Biggest One - Day Decline Since 2022 , Is Walmart Stock a Buy ?",
+    "Walmart isnt losing any retail war"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Walmart Fell 9 %. Im…",
+   "one_liner": "Walmart Fell 9 %. Im Not Sure This Is Just a…",
+   "why_now": null,
+   "details": [
+    "Walmart Fell 9 %. Im Not Sure This Is Just a Walmart Problem",
+    "After Biggest One - Day Decline Since 2022 , Is Walmart Stock a Buy ?",
+    "Walmart isnt losing any retail war"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "4abba174263906c7843bda9c87f6f1062893eb20"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-24T02:05:09.880690+00:00"
+ },
  "glossary": [],
  "related": [
   {

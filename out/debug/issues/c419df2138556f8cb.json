@@ -874,7 +874,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-23T08:54:41.258836+00:00",
+  "created_at": "2026-08-24T02:03:04.131343+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -890,8 +890,14 @@
     "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New Yor"
    ]
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"미국 국가 부채 40조 달러 돌파\", \"one_liner\": \"미국의 국가 부채가 40조 달러를 넘어섰어요.\", \"why_now\": \"국가 부채가 늘어나면 이자 부담이 커져 경제에 부담이 될 수 있어요.\", \"impact_line\": \"미국 경제 상황이 우리 경제에도 영향을 줄 수 있어요.\", \"details\": [\"미국 국가 부채가 40조 달러를 넘어섰습니다.\", \"이는 미국 경제에 상당한 부담이 될 수 있습니다.\"], \"visual_type\": \"usdkrw\", \"effects\": [\"미국 정부의 이자 지급 부담이 늘어날 수 있습니다!\", \"이는 국제 금융 시장의 불안정으로 이어질 수 있습니다!\"], \"glossary\": [{\"term\": \"달러\", \"easy\": \"미국에서 사용하는 돈이에요.\", \"example\": \"달러는 세계에서 가장 많이 쓰이는 기축 통화 중 하나예요.\"}], \"impact_line\": \"미국 국가 부채 증가는 국제 금융 시장에 영향을 줄 수 있어요.\"}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -914,8 +920,8 @@
   "fact_hash": "79d701aadcdfc6f22c4745117f03120d242ba82d"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-23T08:54:41.258720+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-24T02:03:04.131233+00:00"
  },
  "glossary": [],
  "related": [

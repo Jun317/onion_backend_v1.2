@@ -69,8 +69,44 @@
    "at": "2026-08-21T22:30:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-24T02:04:59.359131+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Boeing workers reject contract offer at crucial moment for company",
+    "Boeing engineers , technical workers reject contract offer"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Boeing workers…",
+   "one_liner": "Boeing workers reject contract offer at crucial…",
+   "why_now": null,
+   "details": [
+    "Boeing workers reject contract offer at crucial moment for company",
+    "Boeing engineers , technical workers reject contract offer"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "e455919467fe25d0eb1459850bca25b532af9aab"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-24T02:04:59.359071+00:00"
+ },
  "glossary": [],
  "related": [
   {

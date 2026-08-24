@@ -12,8 +12,18 @@
  "seen_sources": 2,
  "importance": 90,
  "created_at": "2026-08-23T23:41:25.018058+00:00",
- "last_update": "2026-08-23T23:41:25.018995+00:00",
+ "last_update": "2026-08-24T02:02:38.932554+00:00",
  "members": [
+  {
+   "id": "7480935b562eacb741e46a670d74a2cf0b98564f",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/08/23/eli-lilly-and-novo-nordisk-cant-treat-this-form-of/",
+   "title": "Eli Lilly and Novo Nordisk Cant Treat This Form of Obesity . Billionaire Stanley Druckenmiller Is Betting Rhythm Pharmaceuticals Can",
+   "published_at": "2026-08-24T01:00:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.9712
+  },
   {
    "id": "8e765009b69a57dfe543f244b759d8696505ee7a",
    "source": "finance.yahoo.com",
@@ -22,7 +32,7 @@
    "title": "Eli Lilly and Novo Nordisk Cant Treat This Form of Obesity . Billionaire Stanley Druckenmiller Is Betting Rhythm Pharmaceuticals Can",
    "published_at": "2026-08-23T23:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9645
+   "sim_to_centroid": 0.9712
   },
   {
    "id": "16fa28c18b3b9765b039fe7ca8ea820d4d37196d",
@@ -32,11 +42,18 @@
    "title": "Billionaire Ken Griffin Just Loaded Up on Eli Lilly Stock . Should You ?",
    "published_at": "2026-08-23T10:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9645
+   "sim_to_centroid": 0.9572
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Eli Lilly and Novo Nordisk Cant Treat This Form of Obesity . Billionaire Stanley Druckenmiller Is Betting Rhythm Pharmaceuticals Can",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/08/23/eli-lilly-and-novo-nordisk-cant-treat-this-form-of/",
+   "at": "2026-08-24T01:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Eli Lilly and Novo Nordisk Cant Treat This Form of Obesity . Billionaire Stanley Druckenmiller Is Betting Rhythm Pharmaceuticals Can",
@@ -52,8 +69,44 @@
    "at": "2026-08-23T10:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-24T02:06:33.895741+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Eli Lilly and Novo Nordisk Cant Treat This Form of Obesity . Billionaire Stanley Druckenmiller Is Betting Rhythm Pharmaceuticals Can",
+    "Billionaire Ken Griffin Just Loaded Up on Eli Lilly Stock . Should You ?"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Eli Lilly and Novo…",
+   "one_liner": "Eli Lilly and Novo Nordisk Cant Treat This Form…",
+   "why_now": null,
+   "details": [
+    "Eli Lilly and Novo Nordisk Cant Treat This Form of Obesity . Billionaire Stanley Druckenmiller Is Betting Rhythm Pharmaceuticals Can",
+    "Billionaire Ken Griffin Just Loaded Up on Eli Lilly Stock . Should You ?"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "70310cde3db6a2946c5920614e4c3a64dd03878b"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-24T02:06:33.895684+00:00"
+ },
  "glossary": [],
  "related": [
   {
