@@ -156,7 +156,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-24T05:08:02.672414+00:00",
+  "created_at": "2026-08-24T09:10:44.042766+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -169,14 +169,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"IMF, 우간다와 새 지원 협상\", \"one_liner\": \"IMF가 다음 달 우간다를 방문해 새로운 지원 프로그램에 대해 협상할 예정이에요.\", \"why_now\": \"IMF의 지원은 국가 경제 회복에 중요한 역할을 할 수 있어요.\", \"impact_line\": \"우간다 경제에 긍정적인 영향을 줄 수 있어요.\", \"details\": [\"IMF가 다음 달 우간다를 방문할 예정이에요.\", \"우간다와 새로운 지원 프로그램에 대해 협상할 계획이에요.\"], \"visual_type\": \"none\", \"effects\": [\"이번 협상이 우간다 경제 회복에 긍정적인 영향을 줄 수 있어요!\"], \"glossary\": [{\"term\": \"IMF\", \"easy\": \"나라의 경제를 돕는 국제기구예요.\", \"example\": \"IMF는 경제 위기 국가에 돈을 빌려주기도 해요.\"}], \"impact_line\": \"우간다 경제에 긍정적인 영향을 줄 수 있어요.\"}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -199,8 +193,8 @@
   "fact_hash": "e5bb186c6c5a9379f4df7bc4a2640736cc210b6b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-24T05:08:02.672296+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-24T09:10:44.042648+00:00"
  },
  "glossary": [],
  "related": [
