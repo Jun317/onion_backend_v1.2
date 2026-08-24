@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-24T03:30:30.206330+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-24T07:35:20.920365+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,25 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"주식 시장 상승세 전환\",\n  \"one_liner\": \"부동산, 은행, IT 관련 주식이 오르면서 주식 시장이 하락세를 멈추고 상승했어요.\",\n  \"why_now\": \"AI 기술 발전으로 자산 관리 방식이 바뀌고 은퇴 계획에도 영향을 줄 수 있기 때문이에요.\",\n  \"impact_line\": \"AI 관련 기술주에 대한 관심이 높아질 수 있어요.\",\n  \"details\": [\n    \"주식 시장이 하락세를 멈추고 상승세로 돌아섰어요.\",\n    \"부동산, 은행, IT 관련 주식이 시장 상승을 이끌었어요.\",\n    \"AI 기술이 자산 관리 방식에 변화를 가져올 것으로 보여요.\",\n    \"AI가 은퇴 계획 수립에도 영향을 미칠 수 있다는 전망이 나왔어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"AI 기술 발전이 금융 투자 방식에 변화를 가져올 수 있어요!\",\n    \"AI 기술 발전으로 인해 특정 산업 분야의 주가가 오를 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"AI\",\n      \"easy\": \"인공지능으로, 컴퓨터가 사람처럼 생각하고 배울 수 있는 기술이에요.\",\n      \"example\": \"AI 스피커는 음성 명령을 알아듣고 음악을 틀어줘요.\"\n    },\n    {\n      \"term\": \"IT\",\n      \"easy\": \"정보통신 기술을 뜻하며, 컴퓨터와 인터넷 관련 기술을 말해요.\",\n      \"example\": \"스마트폰은 대표적인 IT 기기 중 하나예요.\"\n    },\n    {\n      \"term\": \"MPC\",\n      \"easy\": \"통화정책위원회를 뜻하며, 금리를 결정하는 회의예요.\",\n      \"example\": \"MPC 회의 결과에 따라 대출 이자 등이 달라질 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "The AI Productivity…",
-   "one_liner": "The AI Productivity Gap Is About To Split Asset…",
-   "why_now": null,
+   "title": "주식 시장 상승세 전환",
+   "one_liner": "부동산, 은행, IT 관련 주식이 오르면서 주식 시장이 하락세를 멈추고 상승했어요.",
+   "why_now": "AI 기술 발전으로 자산 관리 방식이 바뀌고 은퇴 계획에도 영향을 줄 수 있기 때문이에요.",
    "details": [
-    "The AI Productivity Gap Is About To Split Asset Management",
-    "Sensex , Nifty End Losing Streak As Realty , Private Bank And IT Stocks Lead Market Rally",
-    "MPC hawkish , flags possible rate hike on higher inflation"
+    "주식 시장이 하락세를 멈추고 상승세로 돌아섰어요.",
+    "부동산, 은행, IT 관련 주식이 시장 상승을 이끌었어요.",
+    "AI 기술이 자산 관리 방식에 변화를 가져올 것으로 보여요.",
+    "AI가 은퇴 계획 수립에도 영향을 미칠 수 있다는 전망이 나왔어요."
    ],
-   "effects": [],
+   "effects": [
+    "AI 기술 발전이 금융 투자 방식에 변화를 가져올 수 있어요!",
+    "AI 기술 발전으로 인해 특정 산업 분야의 주가가 오를 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "c279e3830b90a98f07cea3902900b4d4eff22e48"

@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-24T03:29:48.618410+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-24T07:34:33.967553+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -881,26 +881,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"채권 시장의 힘\", \"one_liner\": \"채권 시장이 힘을 키우고 있으며, 이는 모두에게 중요해요.\", \"why_now\": \"채권 시장은 경제 상황을 보여주는 중요한 지표 중 하나예요.\", \"impact_line\": \"채권 시장의 움직임은 대출 이자나 투자 수익률에 영향을 줄 수 있어요.\", \"details\": [\"채권 시장이 힘을 키우고 있다는 분석이 나왔어요.\", \"이러한 변화는 경제 전반에 영향을 미칠 수 있어요.\", \"이번 주에는 소비 심리와 물가 상승률 관련 발표가 예정되어 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"채권 금리가 오르면 돈을 빌리는 비용이 늘어날 수 있어요!\", \"채권 금리가 내리면 기업의 투자나 개인의 대출이 늘어날 수 있어요!\"], \"glossary\": [{\"term\": \"채권\", \"easy\": \"나라나 회사가 돈을 빌리기 위해 발행하는 증서예요.\", \"example\": \"채권은 정해진 날짜에 원금을 돌려받고 이자를 받을 수 있어요.\"}, {\"term\": \"소비 심리\", \"easy\": \"사람들이 앞으로 경제 상황이 좋아질지 나빠질지를 어떻게 느끼는지 나타내는 거예요.\", \"example\": \"소비 심리가 좋으면 사람들이 돈을 더 쓰려고 해요.\"}, {\"term\": \"물가 상승률\", \"easy\": \"물건이나 서비스의 가격이 얼마나 오르는지를 나타내는 비율이에요.\", \"example\": \"물가 상승률이 높으면 같은 돈으로 살 수 있는 물건이 줄어들어요.\"}]}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Why the bond market…",
-   "one_liner": "Why the bond market is flexing its muscles , and…",
-   "why_now": null,
+   "title": "채권 시장의 힘",
+   "one_liner": "채권 시장이 힘을 키우고 있으며, 이는 모두에게 중요해요.",
+   "why_now": "채권 시장은 경제 상황을 보여주는 중요한 지표 중 하나예요.",
    "details": [
-    "Why the bond market is flexing its muscles , and why everyone needs to care",
-    "Why Bitcoin Suddenly Exploded to $78K : The Treasury Just Blinked",
-    "Financial Review : Ryerson ( RYZ ) & Its Competitors"
+    "채권 시장이 힘을 키우고 있다는 분석이 나왔어요.",
+    "이러한 변화는 경제 전반에 영향을 미칠 수 있어요.",
+    "이번 주에는 소비 심리와 물가 상승률 관련 발표가 예정되어 있어요."
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "채권 금리가 오르면 돈을 빌리는 비용이 늘어날 수 있어요!",
+    "채권 금리가 내리면 기업의 투자나 개인의 대출이 늘어날 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "b9b2249732a0a81b3a02da4a6e201ab7fc059d4c"
  },
@@ -908,7 +915,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-24T03:29:48.618347+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "채권",
+   "easy": "돈을 빌리면서 '언제까지 갚겠다'고 써주는 증서예요.",
+   "example": "정부나 기업이 돈을 모을 때 발행해요."
+  }
+ ],
  "related": [
   {
    "id": "cb22ab4362dc7db3b",

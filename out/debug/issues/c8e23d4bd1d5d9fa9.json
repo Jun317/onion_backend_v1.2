@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-24T03:29:59.026312+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-24T07:34:38.031356+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,25 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"미국의 외교 정책 논쟁\",\n\"one_liner\": \"미국이 외교 정책에서 어떤 길을 가야 할지 다양한 의견이 나오고 있어요.\",\n\"why_now\": \"나라의 외교 방향은 국제 사회에서의 역할과 국내 경제에 큰 영향을 미쳐요.\",\n\"impact_line\": \"국제 관계 변화는 물가나 환율에 영향을 줄 수 있어요.\",\n\"details\": [\n\"미국 외교 정책의 방향에 대한 다양한 의견이 나오고 있어요.\",\n\"정치적 충성도와 관련된 논쟁이 있어요.\",\n\"알래스카 천연자원 활용에 대한 진솔한 대화가 필요하다는 의견이 있어요.\",\n\"지역별 자립과 새로운 협력체의 부상에 대한 이야기도 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"미국의 외교 정책 변화는 국제 유가나 원자재 가격에 영향을 줄 수 있어요!\",\n\"새로운 국제 협력체는 무역 관계에 변화를 가져올 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"Pax Americana\",\n\"easy\": \"미국이 주도하는 세계 질서나 평화를 뜻하는 말이에요.\",\n\"example\": \"팍스 아메리카나 시대에는 미국이 세계 안보를 책임졌어요.\"\n},\n{\n\"term\": \"Mecca Pact\",\n\"easy\": \"사우디아라비아의 메카를 중심으로 형성된 지역 협력체를 의미할 수 있어요.\",\n\"example\": \"메카 팩트와 같은 지역 협력체는 해당 지역의 경제 발전에 기여할 수 있어요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Opinion : Sullivan ,…",
-   "one_liner": "Opinion : Sullivan , Trump and the price of…",
-   "why_now": null,
+   "title": "미국의 외교 정책 논쟁",
+   "one_liner": "미국이 외교 정책에서 어떤 길을 가야 할지 다양한 의견이 나오고 있어요.",
+   "why_now": "나라의 외교 방향은 국제 사회에서의 역할과 국내 경제에 큰 영향을 미쳐요.",
    "details": [
-    "Opinion : Sullivan , Trump and the price of political loyalty",
-    "Opinion : Let have a real talk about the use of Alaska natural resources",
-    "Best of BS Opinion : Asim Munir , power , and paranoia"
+    "미국 외교 정책의 방향에 대한 다양한 의견이 나오고 있어요.",
+    "정치적 충성도와 관련된 논쟁이 있어요.",
+    "알래스카 천연자원 활용에 대한 진솔한 대화가 필요하다는 의견이 있어요.",
+    "지역별 자립과 새로운 협력체의 부상에 대한 이야기도 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "미국의 외교 정책 변화는 국제 유가나 원자재 가격에 영향을 줄 수 있어요!",
+    "새로운 국제 협력체는 무역 관계에 변화를 가져올 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "b5a7ff4239c2e2e8b45b4a6670c194d84d48b610"

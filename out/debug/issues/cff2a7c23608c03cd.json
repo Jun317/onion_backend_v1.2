@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 3,
- "importance": 75,
+ "seen_sources": 4,
+ "importance": 80,
  "created_at": "2026-08-23T13:50:58.139218+00:00",
- "last_update": "2026-08-23T22:44:24.082928+00:00",
+ "last_update": "2026-08-24T07:34:15.253388+00:00",
  "members": [
+  {
+   "id": "fa0f58317430ad1312d525e52b7b937aff3797a9",
+   "source": "cpa.org.au",
+   "tier": "wire",
+   "url": "https://cpa.org.au/guardian/issue-2203/statement-from-the-communist-party-of-australia-delegation/",
+   "title": "Statement from the Communist Party of Australia delegation",
+   "published_at": "2026-08-24T05:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8545
+  },
   {
    "id": "c3efbdabedee6f676e6af6148790fc1d2e7d2d40",
    "source": "britainnews.net",
@@ -20,7 +30,7 @@
    "title": "Bihar CM Samrat Choudhary pays tribute to Pandit Rajkumar Shukla at state - level function",
    "published_at": "2026-08-23T22:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8545
+   "sim_to_centroid": 0.8617
   },
   {
    "id": "bf9c2fe7a34fed0067ed36d0f5b6afe54e4e1436",
@@ -30,7 +40,7 @@
    "title": "Power of democracy gave ordinary person like me chance to become CM : Fadnavis at youth event",
    "published_at": "2026-08-23T13:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9958
+   "sim_to_centroid": 0.9922
   },
   {
    "id": "f8a2805a5bb2d32fadf217249eb3b68b98606376",
@@ -40,7 +50,7 @@
    "title": "J & K has seen normalcy , peace & development since PM Modi took charge : MoS Jitendra Singh",
    "published_at": "2026-08-23T12:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.861
+   "sim_to_centroid": 0.8676
   },
   {
    "id": "ae1776b367c39a85b4b0f877f27b4af2e92c2d22",
@@ -50,11 +60,18 @@
    "title": "Power of democracy gave ordinary person like me chance to become CM : Fadnavis at youth event",
    "published_at": "2026-08-23T10:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9958
+   "sim_to_centroid": 0.9922
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Statement from the Communist Party of Australia delegation",
+   "source": "cpa.org.au",
+   "url": "https://cpa.org.au/guardian/issue-2203/statement-from-the-communist-party-of-australia-delegation/",
+   "at": "2026-08-24T05:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Bihar CM Samrat Choudhary pays tribute to Pandit Rajkumar Shukla at state - level function",
@@ -86,43 +103,51 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-24T03:30:40.634895+00:00",
+  "created_at": "2026-08-24T07:34:17.863603+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "Statement from the Communist Party of Australia delegation",
     "Bihar CM Samrat Choudhary pays tribute to Pandit Rajkumar Shukla at state - level function",
     "J & K has seen normalcy , peace & development since PM Modi took charge : MoS Jitendra Singh",
     "Power of democracy gave ordinary person like me chance to become CM : Fadnavis at youth event"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"정치인들, 민주주의와 발전 강조\", \"one_liner\": \"여러 정치인들이 민주주의의 힘과 발전을 강조하는 발언을 했어요.\", \"why_now\": \"정치인들의 발언은 현재 사회의 중요한 가치와 방향을 보여줘요.\", \"impact_line\": \"정치인들의 발언은 사회의 중요한 가치와 방향을 보여줘요.\", \"details\": [\"호주 공산당 대표단이 성명을 발표했어요.\", \"인도 비하르주 총리가 국가 행사에서 라지쿠마르 슈클라에게 경의를 표했어요.\", \"인도 잠무카슈미르주 장관은 모디 총리 취임 이후 정상화, 평화, 발전을 언급했어요.\", \"마하라슈트라주 총리는 청년 행사에서 자신 같은 평범한 사람도 총리가 될 수 있었던 것이 민주주의의 힘이라고 말했어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": []}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects 1~2문장 아님"
     ]
    }
   ],
   "output": {
-   "title": "Bihar CM Samrat…",
-   "one_liner": "Bihar CM Samrat Choudhary pays tribute to Pandit…",
+   "title": "Statement from the…",
+   "one_liner": "Statement from the Communist Party of Australia…",
    "why_now": null,
    "details": [
+    "Statement from the Communist Party of Australia delegation",
     "Bihar CM Samrat Choudhary pays tribute to Pandit Rajkumar Shukla at state - level function",
-    "J & K has seen normalcy , peace & development since PM Modi took charge : MoS Jitendra Singh",
-    "Power of democracy gave ordinary person like me chance to become CM : Fadnavis at youth event"
+    "J & K has seen normalcy , peace & development since PM Modi took charge : MoS Jitendra Singh"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "701b35012924340c741108fb917aa20a7558d880"
+  "fact_hash": "8eef34bf31fb177953daad5bcbd34e0afcd0c4e9"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-24T03:30:40.634769+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}]}",
+  "at": "2026-08-24T07:34:17.863472+00:00"
  },
  "glossary": [],
  "related": [
