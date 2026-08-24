@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-23T07:09:30.911404+00:00",
+  "created_at": "2026-08-24T03:31:22.112122+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,21 +64,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"Thermo Fisher Scientific 주가 변동\", \"one_liner\": \"두 곳의 자산운용사가 Thermo Fisher Scientific의 주식을 새로 사들였어요.\", \"why_now\": \"주요 투자사의 매수 소식은 해당 기업의 미래 전망을 긍정적으로 보는 신호일 수 있어요.\", \"impact_line\": \"Thermo Fisher Scientific의 주가가 오를 수 있어요.\", \"details\": [\"Empirical Asset Management LLC가 Thermo Fisher Scientific 주식을 새로 샀어요.\", \"TFR Capital LLC도 Thermo Fisher Scientific 주식을 새로 샀어요.\"], \"visual_type\": \"none\", \"effects\": [\"Thermo Fisher Scientific의 주가가 상승할 가능성이 있어요!\", \"이는 해당 기업의 성장 전망에 대한 긍정적인 신호로 해석될 수 있어요!\"], \"glossary\": [{\"term\": \"자산운용사\", \"easy\": \"고객의 돈을 모아 주식, 채권 등에 투자해 수익을 내는 회사예요.\", \"example\": \"자산운용사가 투자한 회사의 주가가 오르면 고객들도 돈을 벌게 돼요.\"}, {\"term\": \"주식\", \"easy\": \"회사의 소유권 일부를 나타내는 증서예요. 주식을 사면 회사의 주인이 되는 거예요.\", \"example\": \"주식을 사서 회사가 잘 되면 주식 가격이 올라 돈을 벌 수 있어요.\"}], \"impact_line\": \"Thermo Fisher Scientific의 주가가 오를 수 있어요.\"}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "title 22자 초과(30)",
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "title 22자 초과(30)",
-     "one_liner 50자 초과(51)",
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -96,8 +87,8 @@
   "fact_hash": "bed6f7ce024089501893aa60f915e3ce21c93c63"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(30)\", \"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(30)\", \"one_liner 50자 초과(51)\", \"details 3문장 미만\"]}]}",
-  "at": "2026-08-23T07:09:30.911326+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-24T03:31:22.112051+00:00"
  },
  "glossary": [],
  "related": [
