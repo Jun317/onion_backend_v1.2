@@ -104,53 +104,47 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-23T07:08:59.815132+00:00",
+  "model": "template",
+  "created_at": "2026-08-25T05:55:59.138042+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Evolve Private Wealth LLC Purchases Shares of 136 , 238 General Motors Company $GM",
     "Unifor , General Motors reach tentative agreements",
     "General Motors Mexico workers defend Bogdan Syrotiuk and support Will Lehman campaign",
     "General Motors Raises Guidance as Truck Demand Offsets EV and Tariff Pressures"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"제너럴모터스 실적 전망 상향\",\n  \"one_liner\": \"제너럴모터스가 트럭 수요 덕분에 전기차와 관세 부담을 이겨내고 실적 전망을 높였어요.\",\n  \"why_now\": \"기업의 실적 전망은 앞으로의 매출과 이익을 예상하는 중요한 지표예요.\",\n  \"impact_line\": \"자동차 회사들의 실적이 좋아지면 관련 부품 회사들도 함께 좋아질 수 있어요.\",\n  \"details\": [\n    \"제너럴모터스는 트럭 판매 호조로 실적 전망을 상향했어요.\",\n    \"전기차 판매 부진과 관세 부담에도 불구하고 실적이 개선되었어요.\",\n    \"이 소식은 제너럴모터스의 노동조합과도 관련이 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"트럭 수요가 계속 강세를 보이면 제너럴모터스의 수익성이 더 좋아질 수 있어요!\",\n    \"전기차 시장의 변화와 관세 정책이 제너럴모터스의 향후 실적에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"전기차\",\n      \"easy\": \"전기로만 움직이는 자동차를 말해요.\",\n      \"example\": \"전기차는 배출가스가 나오지 않아 친환경적이에요.\"\n    },\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라에서 물건을 사고팔 때 붙이는 세금이에요.\",\n      \"example\": \"수입 자동차에 관세가 붙으면 차값이 비싸질 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "제너럴모터스 실적 전망 상향",
-   "one_liner": "제너럴모터스가 트럭 수요 덕분에 전기차와 관세 부담을 이겨내고 실적 전망을 높였어요.",
-   "why_now": "기업의 실적 전망은 앞으로의 매출과 이익을 예상하는 중요한 지표예요.",
+   "title": "Evolve Private…",
+   "one_liner": "Evolve Private Wealth LLC Purchases Shares of…",
+   "why_now": null,
    "details": [
-    "제너럴모터스는 트럭 판매 호조로 실적 전망을 상향했어요.",
-    "전기차 판매 부진과 관세 부담에도 불구하고 실적이 개선되었어요.",
-    "이 소식은 제너럴모터스의 노동조합과도 관련이 있어요."
+    "Evolve Private Wealth LLC Purchases Shares of 136 , 238 General Motors Company $GM",
+    "Unifor , General Motors reach tentative agreements",
+    "General Motors Mexico workers defend Bogdan Syrotiuk and support Will Lehman campaign"
    ],
-   "effects": [
-    "트럭 수요가 계속 강세를 보이면 제너럴모터스의 수익성이 더 좋아질 수 있어요!",
-    "전기차 시장의 변화와 관세 정책이 제너럴모터스의 향후 실적에 영향을 줄 수 있어요!"
-   ],
-   "visual_type": "none"
+   "effects": [],
+   "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "8456e43fa69ccd11e09d9aae459fb526dce86d3c"
+  "fact_hash": "8b1030d633eb7084a2b648b1b8188d02a320966b"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-23T03:28:13.760482+00:00"
+  "at": "2026-08-25T05:55:59.137756+00:00"
  },
- "glossary": [
-  {
-   "term": "관세",
-   "easy": "수입 물건에 매기는 세금이에요.",
-   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
-  }
- ],
+ "glossary": [],
  "related": [
   {
    "id": "c358a63b121c9f9dc",

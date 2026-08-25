@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-24T10:15:59.771911+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-25T05:54:01.737625+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -881,25 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"버크셔해서웨이 실적 발표\", \"one_liner\": \"버크셔해서웨이가 예상보다 좋은 실적을 발표했어요.\", \"why_now\": \"회사의 실적은 경제 전반의 건강 상태를 보여주는 중요한 지표가 될 수 있어요.\", \"impact_line\": \"버크셔해서웨이의 실적은 투자자들에게 중요한 정보를 제공할 수 있어요.\", \"details\": [\"버크셔해서웨이의 실적이 시장 예상치를 웃돌았어요.\", \"그렉 아벨이 회사의 자금을 활용해 실적을 끌어올렸어요.\", \"이번 분기는 그렉 아벨이 최고 경영자로서 처음으로 주도한 실적 발표였어요.\"], \"visual_type\": \"earnings_quarterly\", \"effects\": [\"버크셔해서웨이의 주가가 상승할 것으로 예상돼요!\", \"회사의 투자 결정이 향후 실적에 긍정적인 영향을 줄 수 있어요!\"], \"glossary\": [{\"term\": \"실적\", \"easy\": \"회사가 일정 기간 동안 얼마나 돈을 벌고 썼는지 보여주는 결과예요.\", \"example\": \"이번 분기 실적이 좋아서 주가가 올랐어요.\"}, {\"term\": \"최고 경영자\", \"easy\": \"회사의 모든 경영 활동을 책임지고 이끄는 가장 높은 직책의 사람이에요.\", \"example\": \"새로운 최고 경영자가 회사를 혁신할 것으로 기대돼요.\"}]}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Berkshire climbs as…",
-   "one_liner": "Berkshire climbs as Abel deploys cash , earnings…",
-   "why_now": null,
+   "title": "버크셔해서웨이 실적 발표",
+   "one_liner": "버크셔해서웨이가 예상보다 좋은 실적을 발표했어요.",
+   "why_now": "회사의 실적은 경제 전반의 건강 상태를 보여주는 중요한 지표가 될 수 있어요.",
    "details": [
-    "Berkshire climbs as Abel deploys cash , earnings beat views",
-    "Four Takeaways From Footwear Earnings Season So Far",
-    "Greg Abel puts Berkshire cash to work in first big quarter"
+    "버크셔해서웨이의 실적이 시장 예상치를 웃돌았어요.",
+    "그렉 아벨이 회사의 자금을 활용해 실적을 끌어올렸어요.",
+    "이번 분기는 그렉 아벨이 최고 경영자로서 처음으로 주도한 실적 발표였어요."
    ],
-   "effects": [],
+   "effects": [
+    "버크셔해서웨이의 주가가 상승할 것으로 예상돼요!",
+    "회사의 투자 결정이 향후 실적에 긍정적인 영향을 줄 수 있어요!"
+   ],
    "visual_type": "earnings_quarterly"
   },
   "fact_hash": "8f3f66b77dd6ef1b5097ceef1c54e5413fe965e0"

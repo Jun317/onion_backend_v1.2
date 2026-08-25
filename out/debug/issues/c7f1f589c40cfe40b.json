@@ -104,44 +104,44 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-24T05:09:34.050869+00:00",
+  "model": "template",
+  "created_at": "2026-08-25T05:55:48.777004+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
+    "Boeing workers reject four - year deal , authorize potential strike",
     "Boeing workers reject contract offer at crucial moment for company",
     "Boeing engineers , technical workers reject contract offer"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"보잉 노동자, 계약 제안 거부\",\n  \"one_liner\": \"보잉의 노동자들이 회사의 중요한 시점에 계약 제안을 거부했어요.\",\n  \"why_now\": \"노동자들의 계약 거부는 회사의 생산과 운영에 차질을 줄 수 있어요.\",\n  \"impact_line\": \"보잉 제품의 생산이 늦어져 관련 산업에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"보잉의 노동자들이 계약 제안을 받아들이지 않았어요.\",\n    \"이 결정은 보잉에게 매우 중요한 시점에 나왔어요.\",\n    \"엔지니어와 기술직 노동자들도 계약 제안을 거부했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"회사의 생산 일정에 차질이 생겨 항공기 인도 등이 늦어질 수 있어요!\",\n    \"이로 인해 항공 산업 전반의 공급망에 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"계약 제안\",\n      \"easy\": \"회사와 노동자가 일하기로 약속하는 조건들을 담은 제안이에요.\",\n      \"example\": \"새로운 계약 제안에는 임금 인상과 복지 확대 내용이 담겨 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "보잉 노동자, 계약 제안 거부",
-   "one_liner": "보잉의 노동자들이 회사의 중요한 시점에 계약 제안을 거부했어요.",
-   "why_now": "노동자들의 계약 거부는 회사의 생산과 운영에 차질을 줄 수 있어요.",
+   "title": "Boeing workers…",
+   "one_liner": "Boeing workers reject four - year deal ,…",
+   "why_now": null,
    "details": [
-    "보잉의 노동자들이 계약 제안을 받아들이지 않았어요.",
-    "이 결정은 보잉에게 매우 중요한 시점에 나왔어요.",
-    "엔지니어와 기술직 노동자들도 계약 제안을 거부했어요."
+    "Boeing workers reject four - year deal , authorize potential strike",
+    "Boeing workers reject contract offer at crucial moment for company",
+    "Boeing engineers , technical workers reject contract offer"
    ],
-   "effects": [
-    "회사의 생산 일정에 차질이 생겨 항공기 인도 등이 늦어질 수 있어요!",
-    "이로 인해 항공 산업 전반의 공급망에 영향을 줄 수 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "e455919467fe25d0eb1459850bca25b532af9aab"
+  "fact_hash": "1d5f5235b85e9ce6d572aebfbb668a2e2f7241ee"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-24T02:04:59.359071+00:00"
+  "at": "2026-08-25T05:55:48.776933+00:00"
  },
  "glossary": [],
  "related": [

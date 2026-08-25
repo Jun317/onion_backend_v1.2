@@ -856,47 +856,46 @@
   }
  ],
  "llm": {
-  "model": "gemini-2.5-flash-lite",
-  "created_at": "2026-08-23T08:54:30.862992+00:00",
+  "model": "template",
+  "created_at": "2026-08-25T05:55:17.646065+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
-    "Amazon to expand drone delivery of light packages to 500 US cities",
-    "Amazon to expand drone deliveries | The Arkansas Democrat - Gazette - Arkansa Best News Source",
-    "Sumzzz Titanium Cutting Board is 41 % off at Amazon",
     "Amazon Stock Is Historically Cheap . Is This a Once - in - a - Decade Buying Opportunity ?",
-    "Amazon . com ( NASDAQ : AMZN ) Research Coverage Started at Rosenblatt Securities"
+    "Amazon to expand drone delivery of light packages to 500 US cities",
+    "Billionaire David Tepper Has 16 % of His $7 . 5 Billion Appaloosa Portfolio in Amazon Stock . Is It Still a Buy ?",
+    "Anthropic Revenue Run Rate Just Hit $65 Billion . SpaceX and Amazon May Be the Biggest Winners .",
+    "If Amazon Is a Top Growth Stock , Then Why Does It Trade at Just 21 . 3x Forward Earnings While the S & P 500 Trades at 20 . 4x ? This Is the Only Answer I Can Think Of ."
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"아마존, 드론 배송 확대\",\n  \"one_liner\": \"아마존이 미국 500개 도시로 드론 배송을 늘린다고 해요.\",\n  \"why_now\": \"드론 배송은 물건을 더 빠르고 저렴하게 받을 수 있게 해줄 수 있어요.\",\n  \"impact_line\": \"더 많은 지역에서 드론으로 물건을 받을 수 있게 될 수 있어요.\",\n  \"details\": [\n    \"아마존이 드론으로 가벼운 물건을 배송하는 서비스를 확대할 예정이에요.\",\n    \"이번 확대는 미국 내 500개 도시를 대상으로 해요.\",\n    \"이 서비스는 더 많은 고객에게 더 빠른 배송을 제공하기 위한 것이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"배송 속도가 빨라져 급하게 필요한 물건을 더 빨리 받을 수 있게 될 수 있어요!\",\n    \"배송 과정이 효율화되어 물류 비용이 줄어들면 상품 가격도 낮아질 가능성이 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"드론\",\n      \"easy\": \"사람이 타지 않고 하늘을 나는 비행체예요.\",\n      \"example\": \"드론으로 택배를 배달하는 기술이 개발되고 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
-    "errors": []
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
    }
   ],
   "output": {
-   "title": "아마존, 드론 배송 확대",
-   "one_liner": "아마존이 미국 500개 도시로 드론 배송을 늘린다고 해요.",
-   "why_now": "드론 배송은 물건을 더 빠르고 저렴하게 받을 수 있게 해줄 수 있어요.",
+   "title": "Amazon Stock Is…",
+   "one_liner": "Amazon Stock Is Historically Cheap . Is This a…",
+   "why_now": null,
    "details": [
-    "아마존이 드론으로 가벼운 물건을 배송하는 서비스를 확대할 예정이에요.",
-    "이번 확대는 미국 내 500개 도시를 대상으로 해요.",
-    "이 서비스는 더 많은 고객에게 더 빠른 배송을 제공하기 위한 것이에요."
+    "Amazon Stock Is Historically Cheap . Is This a Once - in - a - Decade Buying Opportunity ?",
+    "Amazon to expand drone delivery of light packages to 500 US cities",
+    "Billionaire David Tepper Has 16 % of His $7 . 5 Billion Appaloosa Portfolio in Amazon Stock . Is It Still a Buy ?"
    ],
-   "effects": [
-    "배송 속도가 빨라져 급하게 필요한 물건을 더 빨리 받을 수 있게 될 수 있어요!",
-    "배송 과정이 효율화되어 물류 비용이 줄어들면 상품 가격도 낮아질 가능성이 있어요!"
-   ],
+   "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "a7fe29ebfc6f46b5bc22b7f0b73f161209aa0806"
+  "fact_hash": "046786b1ae2c42b5d06de7f8d46088e1e97e313a"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-23T05:52:47.919069+00:00"
+  "at": "2026-08-25T05:55:17.645951+00:00"
  },
  "glossary": [],
  "related": [
