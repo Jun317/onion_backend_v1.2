@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-25T03:20:34.967180+00:00",
+  "created_at": "2026-08-25T07:16:59.480767+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,14 +64,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"Thermo Fisher Scientific 주가 변동\", \"one_liner\": \"두 자산운용사가 테슬라 주식을 새로 사들였어요.\", \"why_now\": \"기관 투자자의 매수세는 주가에 긍정적인 영향을 줄 수 있어요.\", \"impact_line\": \"주가에 긍정적인 영향을 줄 수 있어요.\", \"details\": [\"테슬라 주식에 대한 관심이 높아지고 있어요.\", \"두 자산운용사가 테슬라 주식을 새로 매수했어요.\"], \"visual_type\": \"none\", \"effects\": [\"주가 상승을 기대해 볼 수 있어요!\"], \"glossary\": [{\"term\": \"자산운용사\", \"easy\": \"고객의 돈을 모아 주식이나 채권 등에 투자해 주는 회사예요.\", \"example\": \"자산운용사가 우리 대신 투자를 해줘요.\"}], \"investing_advice\": null}\n\": \"주가에 긍정적인 영향을 줄 수 있어요.\"}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "JSON 파스 실패"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -93,8 +87,8 @@
   "fact_hash": "bed6f7ce024089501893aa60f915e3ce21c93c63"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"JSON 파스 실패\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-25T03:20:34.967108+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-25T07:16:59.480689+00:00"
  },
  "glossary": [],
  "related": [

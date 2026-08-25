@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-25T03:20:04.426796+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-25T07:16:38.913062+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,26 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"반도체 주식 하락세\",\n  \"one_liner\": \"메모리 반도체 주식들이 어려움을 겪고 있어요.\",\n  \"why_now\": \"큰손 투자자들이 빠져나가면서 반도체 주식의 앞날이 불투명해지고 있어요.\",\n  \"impact_line\": \"반도체 관련 주식 투자가 망설여질 수 있어요.\",\n  \"details\": [\n    \"메모리 반도체 주식들이 어려움에 직면했어요.\",\n    \"큰손 투자자들이 시장에서 빠져나가고 있어요.\",\n    \"이로 인해 반도체 주식의 전망이 불확실해지고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"반도체 기업들의 실적이 나빠질 수 있어요!\",\n    \"관련 산업의 투자 심리가 위축될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"스마트 머니\",\n      \"easy\": \"시장의 흐름을 잘 파악하고 큰돈을 움직이는 전문 투자자들을 말해요.\",\n      \"example\": \"스마트 머니가 특정 주식에서 빠져나가면 주가가 떨어지기도 해요.\"\n    },\n    {\n      \"term\": \"헤드윈드\",\n      \"easy\": \"앞으로 나아가는 것을 방해하는 부정적인 요인이나 상황을 뜻해요.\",\n      \"example\": \"새로운 정책이 헤드윈드로 작용해 사업에 어려움을 줄 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Marvell Technology (…",
-   "one_liner": "Marvell Technology ( NASDAQ : MRVL ) Trading Up…",
-   "why_now": null,
+   "title": "반도체 주식 하락세",
+   "one_liner": "메모리 반도체 주식들이 어려움을 겪고 있어요.",
+   "why_now": "큰손 투자자들이 빠져나가면서 반도체 주식의 앞날이 불투명해지고 있어요.",
    "details": [
-    "Marvell Technology ( NASDAQ : MRVL ) Trading Up 5 . 8 % – Still a Buy ?",
-    "Cboe Global Markets Stock Outlook : Is Wall Street Bullish or Bearish ?",
-    "BMO Capital Markets Upgrades Marvell Technology ( NASDAQ : MRVL ) to Strong - Buy"
+    "메모리 반도체 주식들이 어려움에 직면했어요.",
+    "큰손 투자자들이 시장에서 빠져나가고 있어요.",
+    "이로 인해 반도체 주식의 전망이 불확실해지고 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "반도체 기업들의 실적이 나빠질 수 있어요!",
+    "관련 산업의 투자 심리가 위축될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "fb44bc55f3e2de8df3eeceb3a29e38b1732b803c"
  },

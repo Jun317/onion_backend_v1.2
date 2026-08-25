@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-25T03:18:49.290351+00:00",
+  "created_at": "2026-08-25T07:15:44.118426+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -881,12 +881,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"쓰레기 줄이고 에너지 늘려요\", \"one_liner\": \"쓰레기를 줄이면 홍수를 막고 에너지를 더 많이 만들 수 있어요.\", \"why_now\": \"쓰레기를 줄이는 것은 환경 보호뿐만 아니라 에너지 생산에도 긍정적인 영향을 줄 수 있어요.\", \"impact_line\": \"쓰레기 배출량이 줄어들면 환경이 깨끗해지고 에너지 생산 효율이 높아질 수 있어요.\", \"details\": [], \"visual_type\": \"none\", \"effects\": [\"쓰레기 소각 과정에서 더 많은 에너지를 얻을 수 있어 에너지 생산량이 늘어날 수 있어요!\", \"쓰레기 양이 줄면 매립지 부족 문제도 완화될 것으로 예상돼요!\"], \"glossary\": [], \"impact_line\": \"쓰레기 배출량이 줄어들면 환경이 깨끗해지고 에너지 생산 효율이 높아질 수 있어요.\"}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "JSON 파스 실패"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -905,8 +911,8 @@
   "fact_hash": "86e99e50bc32f5e1f48d1e4136277ff412a5c87d"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-25T03:18:49.290228+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"JSON 파스 실패\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-25T07:15:44.118324+00:00"
  },
  "glossary": [],
  "related": [

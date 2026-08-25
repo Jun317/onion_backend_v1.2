@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-25T03:18:38.913597+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-25T07:15:39.690762+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,25 +881,35 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"캐나다, 미국 상품에 보복 관세 부과\",\n  \"one_liner\": \"캐나다가 미국과의 무역 협상이 결렬되자 미국 상품에 보복 관세를 부과하기로 했어요.\",\n  \"why_now\": \"나라 간의 무역 분쟁이 생기면 물건 가격이 오르고 경제 활동이 위축될 수 있어요.\",\n  \"impact_line\": \"미국에서 수입하는 물건의 가격이 오를 수 있어요.\",\n  \"details\": [\n    \"캐나다가 미국 상품에 보복 관세를 부과할 예정이에요.\",\n    \"이 조치는 9월 8일부터 시행될 것으로 보여요.\",\n    \"미국과의 무역 협상이 결렬되면서 이런 결정이 내려졌어요.\",\n    \"캐나다 측은 이번 협상이 불리한 거래였다고 보고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"미국에서 캐나다로 수출되는 상품의 가격이 올라갈 수 있어요!\",\n    \"양국 간의 무역량이 줄어들고 경제에 부정적인 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 세금이에요.\",\n      \"example\": \"수입 과자에도 관세가 붙어서 국내에서 살 때 더 비싸요.\"\n    },\n    {\n      \"term\": \"보복 관세\",\n      \"easy\": \"상대 나라가 먼저 관세를 매겼을 때, 이에 맞서 똑같이 관세를 매기는 것을 말해요.\",\n      \"example\": \"미국이 한국 자동차에 관세를 매기자, 한국도 미국산 농산물에 관세를 매겼어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details[0] 어요체 아님",
+     "details[1] 어요체 아님",
+     "details[2] 어요체 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Canada hits back…",
-   "one_liner": "Canada hits back with new tariffs after trade…",
-   "why_now": null,
+   "title": "캐나다, 미국 상품에 보복 관세 부과",
+   "one_liner": "캐나다가 미국과의 무역 협상이 결렬되자 미국 상품에 보복 관세를 부과하기로 했어요.",
+   "why_now": "나라 간의 무역 분쟁이 생기면 물건 가격이 오르고 경제 활동이 위축될 수 있어요.",
    "details": [
-    "Canada hits back with new tariffs after trade talks with US fail",
-    "Canada to impose retaliatory tariffs on US after Carney walks away from  bad deal",
-    "Canada is in a trade war with the U . S ., Carney says"
+    "캐나다가 미국 상품에 보복 관세를 부과할 예정이에요.",
+    "이 조치는 9월 8일부터 시행될 것으로 보여요.",
+    "미국과의 무역 협상이 결렬되면서 이런 결정이 내려졌어요.",
+    "캐나다 측은 이번 협상이 불리한 거래였다고 보고 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "미국에서 캐나다로 수출되는 상품의 가격이 올라갈 수 있어요!",
+    "양국 간의 무역량이 줄어들고 경제에 부정적인 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "a2ed9982f550c0ee9bc10a01f376f878536ea756"
@@ -908,7 +918,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-25T03:18:38.913452+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "c669decc98f0b9158",

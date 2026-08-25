@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-25T03:19:20.701004+00:00",
+  "created_at": "2026-08-25T07:16:04.551443+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,12 +881,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"미국 증시 반등\",\n\"one_liner\": \"미국 증시가 어제 하락 후 다시 오름세를 보이고 있어요.\",\n\"why_now\": \"주식 시장이 오르면 투자자들의 자산 가치가 올라가고 경제에 대한 기대감이 높아지는 경향이 있어요.\",\n\"impact_line\": \"주식에 투자하고 있다면 자산 가치가 오를 수 있어요.\",\n\"details\": [\n\"미국 증시가 어제 하락했다가 다시 상승세로 돌아섰어요.\",\n\"루멘텀 주가는 6.2% 올랐어요.\",\n\"스캔소스 주가도 크게 상승했어요.\",\n\"신약 개발 도구에 대한 기대감이 커지고 있어요.\"\n],\n\"visual_type\": \"us_10y\",\n\"effects\": [\n\"주식 시장이 활기를 띠면 소비와 투자가 늘어날 수 있어요!\",\n\"기업들의 자금 조달이 쉬워져 새로운 사업에 투자할 가능성이 높아져요!\"\n],\n\"glossary\": [\n{\n\"term\": \"주가\",\n\"easy\": \"회사가 발행한 주식의 가격이에요.\",\n\"example\": \"주가가 오르면 해당 회사의 가치가 높아졌다고 볼 수 있어요.\"\n}\n],\n\"impact_line\": \"주식에 투자하고 있다면 자산 가치가 오를 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "visual_type 'us_stock_market' 허용 목록 밖"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [6.2]"
     ]
    }
   ],
@@ -905,8 +912,8 @@
   "fact_hash": "bc679ac9ef2b5a7c17c0f1eb09fdc6ca5a9d0766"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-25T03:19:20.700925+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"visual_type 'us_stock_market' 허용 목록 밖\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [6.2]\"]}]}",
+  "at": "2026-08-25T07:16:04.551339+00:00"
  },
  "glossary": [],
  "related": [
