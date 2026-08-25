@@ -86,8 +86,44 @@
    "at": "2026-08-23T14:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-25T01:58:17.583375+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [],
+   "headlines": [
+    "U . S . Housing Affordability Gets More Difficult",
+    "Stein signs housing bill amid Ashe County affordability crisis"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "U . S . Housing…",
+   "one_liner": "U . S . Housing Affordability Gets More Difficult",
+   "why_now": null,
+   "details": [
+    "U . S . Housing Affordability Gets More Difficult",
+    "Stein signs housing bill amid Ashe County affordability crisis"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "5f9343eff536c387e9e5e91fd6aad38d18433cae"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-25T01:58:17.583288+00:00"
+ },
  "glossary": [],
  "related": [
   {

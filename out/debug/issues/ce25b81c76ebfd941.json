@@ -872,8 +872,48 @@
    "at": "2026-08-24T20:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-25T01:57:46.567163+00:00",
+  "payload": {
+   "category": "FX",
+   "anchors": [],
+   "headlines": [
+    "Treasury Secretary Scott Bessent to unveil new economic sanctions on Iran",
+    "Treasury Secretary Scott Bessent unveils new US economic sanctions on Iran",
+    "Treasury Secretary Scott Bessent unveils new U . S . economic sanctions on Iran",
+    "Bessent says new US sanctions aim to block all potential sources of revenue for Iran",
+    "Treasury Secretary Scott Bessent unveils new U . S . economic sanctions to isolate Iran"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Treasury Secretary…",
+   "one_liner": "Treasury Secretary Scott Bessent to unveil new…",
+   "why_now": null,
+   "details": [
+    "Treasury Secretary Scott Bessent to unveil new economic sanctions on Iran",
+    "Treasury Secretary Scott Bessent unveils new US economic sanctions on Iran",
+    "Treasury Secretary Scott Bessent unveils new U . S . economic sanctions on Iran"
+   ],
+   "effects": [],
+   "visual_type": "usdkrw"
+  },
+  "fact_hash": "ae653c6503930f36fa7986b4360409d4d71362ab"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-25T01:57:46.567076+00:00"
+ },
  "glossary": [],
  "related": [
   {

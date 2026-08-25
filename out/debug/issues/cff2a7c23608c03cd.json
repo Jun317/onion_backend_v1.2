@@ -868,51 +868,45 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-24T07:34:17.863603+00:00",
+  "created_at": "2026-08-25T02:03:07.501361+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
-    "Statement from the Communist Party of Australia delegation",
-    "Bihar CM Samrat Choudhary pays tribute to Pandit Rajkumar Shukla at state - level function",
-    "J & K has seen normalcy , peace & development since PM Modi took charge : MoS Jitendra Singh",
-    "Power of democracy gave ordinary person like me chance to become CM : Fadnavis at youth event"
+    "Power of democracy gave ordinary person like me chance to become CM : Fadnavis at youth event",
+    "BNP Government Six Months Amir Khosru Interview | 6 months too short to ease public woes : Khosru",
+    "Daily Voice : CIO turns increasingly constructive on IT , sees India entering healthier earnings cycle on price hikes",
+    "Remember 1971 ?: Pak cleric - politician reality check for  powerful  army chief Asim Munir",
+    "From Gift Nifty to crude oil prices , gold prices : 6 key things that changed for Indian stock market overnight"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"정치인들, 민주주의와 발전 강조\", \"one_liner\": \"여러 정치인들이 민주주의의 힘과 발전을 강조하는 발언을 했어요.\", \"why_now\": \"정치인들의 발언은 현재 사회의 중요한 가치와 방향을 보여줘요.\", \"impact_line\": \"정치인들의 발언은 사회의 중요한 가치와 방향을 보여줘요.\", \"details\": [\"호주 공산당 대표단이 성명을 발표했어요.\", \"인도 비하르주 총리가 국가 행사에서 라지쿠마르 슈클라에게 경의를 표했어요.\", \"인도 잠무카슈미르주 장관은 모디 총리 취임 이후 정상화, 평화, 발전을 언급했어요.\", \"마하라슈트라주 총리는 청년 행사에서 자신 같은 평범한 사람도 총리가 될 수 있었던 것이 민주주의의 힘이라고 말했어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": []}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "effects 1~2문장 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
   "output": {
-   "title": "Statement from the…",
-   "one_liner": "Statement from the Communist Party of Australia…",
+   "title": "Power of democracy…",
+   "one_liner": "Power of democracy gave ordinary person like me…",
    "why_now": null,
    "details": [
-    "Statement from the Communist Party of Australia delegation",
-    "Bihar CM Samrat Choudhary pays tribute to Pandit Rajkumar Shukla at state - level function",
-    "J & K has seen normalcy , peace & development since PM Modi took charge : MoS Jitendra Singh"
+    "Power of democracy gave ordinary person like me chance to become CM : Fadnavis at youth event",
+    "BNP Government Six Months Amir Khosru Interview | 6 months too short to ease public woes : Khosru",
+    "Daily Voice : CIO turns increasingly constructive on IT , sees India entering healthier earnings cycle on price hikes"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "8eef34bf31fb177953daad5bcbd34e0afcd0c4e9"
+  "fact_hash": "2f97452d3ead8d36573b727cc5bf368733b2963a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects 1~2문장 아님\"]}]}",
-  "at": "2026-08-24T07:34:17.863472+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-25T02:03:07.501294+00:00"
  },
  "glossary": [],
  "related": [

@@ -7,10 +7,10 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 80,
+ "seen_sources": 4,
+ "importance": 90,
  "created_at": "2026-08-24T23:42:44.280463+00:00",
- "last_update": "2026-08-24T23:42:44.282254+00:00",
+ "last_update": "2026-08-25T01:57:23.534339+00:00",
  "members": [
   {
    "id": "d3765e5af89419dd425e766cced22a22be248f39",
@@ -20,7 +20,27 @@
    "title": "Namibia : A National Pension Fund That Works for Namibia",
    "published_at": "2026-08-24T22:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9547
+   "sim_to_centroid": 0.9502
+  },
+  {
+   "id": "c68c089a0db8cd62776e4cf5c9915a7d072a0966",
+   "source": "independent.co.uk",
+   "tier": "wire",
+   "url": "https://www.independent.co.uk/news/world/americas/earth-scientists-people-new-york-american-b3038235.html",
+   "title": "The world inches toward catastrophic climate events :  Bigger shocks are on the way",
+   "published_at": "2026-08-24T22:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8592
+  },
+  {
+   "id": "6f23b0d37d55bc5031e2bcc74d46bd8a56f02fdb",
+   "source": "en.interfax.com.ua",
+   "tier": "wire",
+   "url": "https://en.interfax.com.ua/news/general/1195700.html",
+   "title": "NBU issues silver commemorative coin marking 35th anniversary of Ukraine independence",
+   "published_at": "2026-08-24T19:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.869
   },
   {
    "id": "a88b32fc5b1124401cdea87cd93f207bbe7707f5",
@@ -30,7 +50,7 @@
    "title": "Namibia 5MW green hydrogen facility charts path to global energy hub",
    "published_at": "2026-08-24T17:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9547
+   "sim_to_centroid": 0.9522
   }
  ],
  "anchors": [],
@@ -44,14 +64,67 @@
   },
   {
    "kind": "headline",
+   "title": "The world inches toward catastrophic climate events :  Bigger shocks are on the way",
+   "source": "independent.co.uk",
+   "url": "https://www.independent.co.uk/news/world/americas/earth-scientists-people-new-york-american-b3038235.html",
+   "at": "2026-08-24T22:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "NBU issues silver commemorative coin marking 35th anniversary of Ukraine independence",
+   "source": "en.interfax.com.ua",
+   "url": "https://en.interfax.com.ua/news/general/1195700.html",
+   "at": "2026-08-24T19:00:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Namibia 5MW green hydrogen facility charts path to global energy hub",
    "source": "tradearabia.com",
    "url": "https://tradearabia.com:443/News/466905/Namibia%E2%80%99s-5MW-green-hydrogen-facility-charts-path-to-global-energy-hub",
    "at": "2026-08-24T17:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-25T02:01:03.284889+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Namibia : A National Pension Fund That Works for Namibia",
+    "The world inches toward catastrophic climate events :  Bigger shocks are on the way",
+    "NBU issues silver commemorative coin marking 35th anniversary of Ukraine independence",
+    "Namibia 5MW green hydrogen facility charts path to global energy hub"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Namibia : A National…",
+   "one_liner": "Namibia : A National Pension Fund That Works for…",
+   "why_now": null,
+   "details": [
+    "Namibia : A National Pension Fund That Works for Namibia",
+    "The world inches toward catastrophic climate events :  Bigger shocks are on the way",
+    "NBU issues silver commemorative coin marking 35th anniversary of Ukraine independence"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "fefefec0716c755f3e3594e45c2d52dfc54c0184"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-25T02:01:03.284831+00:00"
+ },
  "glossary": [],
  "related": [
   {
