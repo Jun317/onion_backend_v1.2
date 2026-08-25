@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-24T09:16:15.421759+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-25T03:17:47.177122+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,25 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국, 캐나다 관세 부과 중단\",\n  \"one_liner\": \"미국이 캐나다에 대한 새로운 관세 부과를 잠정 중단했어요.\",\n  \"why_now\": \"미국과 캐나다가 무역 협상을 마무리하기 위해 노력하고 있기 때문이에요.\",\n  \"impact_line\": \"캐나다에서 수입하는 일부 물품의 가격이 안정될 수 있어요.\",\n  \"details\": [\n    \"미국이 캐나다에 대한 새로운 관세 부과를 잠정 중단한다고 발표했어요.\",\n    \"미국과 캐나다 양국은 무역 협상을 최종 마무리하기 위해 협력하고 있어요.\",\n    \"무역 협상에 대한 세부 내용이 조금씩 알려지고 있어요.\",\n    \"도널드 트럼프 전 대통령이 캐나다와의 무역 협상에서 강경한 태도를 보였다는 이야기도 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"무역 협상이 성공적으로 마무리되면 양국 간의 교역이 더 원활해질 수 있어요!\",\n    \"캐나다로부터 수입되는 일부 상품의 가격이 안정되거나 낮아질 가능성이 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 세금이에요.\",\n      \"example\": \"관세가 오르면 수입 물건 가격이 비싸져요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump pauses new…",
-   "one_liner": "Trump pauses new Canada tariffs , says US has…",
-   "why_now": null,
+   "title": "미국, 캐나다 관세 부과 중단",
+   "one_liner": "미국이 캐나다에 대한 새로운 관세 부과를 잠정 중단했어요.",
+   "why_now": "미국과 캐나다가 무역 협상을 마무리하기 위해 노력하고 있기 때문이에요.",
    "details": [
-    "Trump pauses new Canada tariffs , says US has reached deal",
-    "U . S . and Canada are working to finalize a trade deal",
-    "US , Canada resume talks to finalize trade deal as details emerge"
+    "미국이 캐나다에 대한 새로운 관세 부과를 잠정 중단한다고 발표했어요.",
+    "미국과 캐나다 양국은 무역 협상을 최종 마무리하기 위해 협력하고 있어요.",
+    "무역 협상에 대한 세부 내용이 조금씩 알려지고 있어요.",
+    "도널드 트럼프 전 대통령이 캐나다와의 무역 협상에서 강경한 태도를 보였다는 이야기도 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "무역 협상이 성공적으로 마무리되면 양국 간의 교역이 더 원활해질 수 있어요!",
+    "캐나다로부터 수입되는 일부 상품의 가격이 안정되거나 낮아질 가능성이 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "da36881c00efaebac6516e92e38a8170fdb4d87a"
@@ -908,7 +910,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-24T09:16:15.421682+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "c78995e710f8b7506",
