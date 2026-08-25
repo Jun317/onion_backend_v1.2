@@ -8,13 +8,26 @@
  "anchor_key": null,
  "entity_keys": [
   "KOSPI",
+  "KRX:000660",
+  "KRX:034730",
+  "MU",
   "NVDA"
  ],
- "seen_sources": 9,
+ "seen_sources": 12,
  "importance": 105,
  "created_at": "2026-08-18T04:57:31.930508+00:00",
- "last_update": "2026-08-25T05:53:59.540208+00:00",
+ "last_update": "2026-08-25T09:05:14.399882+00:00",
  "members": [
+  {
+   "id": "5ba1cf195bb5fbb4547869191c02eb1e35fe533a",
+   "source": "aninews.in",
+   "tier": "wire",
+   "url": "https://aninews.in/news/business/samsung-sk-hynix-stand-to-benefit-as-as-nvidia-ai-server-costs-surge20260825124107/",
+   "title": "Samsung , SK Hynix stand to benefit as as Nvidia AI server costs surge",
+   "published_at": "2026-08-25T08:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8621
+  },
   {
    "id": "df1e968550f4639864ec5a50ae96c7e9a4cb63ef",
    "source": "economictimes.indiatimes.com",
@@ -44,6 +57,36 @@
    "published_at": "2026-08-24T08:15:00+00:00",
    "is_dup": 0,
    "sim_to_centroid": 0.9168
+  },
+  {
+   "id": "ec4e915189d80548e9d2844de103932a55445cd4",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/08/23/micron-sandisk-and-sk-hynix-history-says-this-abou/",
+   "title": "Micron , Sandisk , and SK Hynix : History Says This About the Memory Trio Rally",
+   "published_at": "2026-08-24T01:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8424
+  },
+  {
+   "id": "2cab1c9ebf295a9dc7ba1e153a26a026ef6838ec",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/08/23/micron-vs-sandisk-which-ai-memory-stock-own/?source=iedfolrf0000001",
+   "title": "Micron vs . Sandisk : Which AI Memory Stock Should You Own ?",
+   "published_at": "2026-08-23T14:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8407
+  },
+  {
+   "id": "f6e5b052cde25100448e396ba5cd3a22df5b99f3",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/28-7-billion-reason-buy-150002570.html",
+   "title": "A $28 . 7 Billion Reason to Buy SK hynix Stock Now",
+   "published_at": "2026-08-22T21:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8699
   },
   {
    "id": "7fba13d3bf76f15b9e2344d784ff58038897445e",
@@ -160,6 +203,13 @@
  "timeline": [
   {
    "kind": "headline",
+   "title": "Samsung , SK Hynix stand to benefit as as Nvidia AI server costs surge",
+   "source": "aninews.in",
+   "url": "https://aninews.in/news/business/samsung-sk-hynix-stand-to-benefit-as-as-nvidia-ai-server-costs-surge20260825124107/",
+   "at": "2026-08-25T08:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Global Market : Kospi drops 2 % as chip stocks tumble ahead of Nvidia earnings",
    "source": "economictimes.indiatimes.com",
    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-kospi-drops-2-as-chip-stocks-tumble-ahead-of-nvidia-earnings/articleshow/133490877.cms",
@@ -178,6 +228,27 @@
    "source": "ibtimes.com.au",
    "url": "https://www.ibtimes.com.au/samsung-shareholder-plan-disappoints-kospi-index-plummets-1874464",
    "at": "2026-08-24T08:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Micron , Sandisk , and SK Hynix : History Says This About the Memory Trio Rally",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/08/23/micron-sandisk-and-sk-hynix-history-says-this-abou/",
+   "at": "2026-08-24T01:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Micron vs . Sandisk : Which AI Memory Stock Should You Own ?",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/08/23/micron-vs-sandisk-which-ai-memory-stock-own/?source=iedfolrf0000001",
+   "at": "2026-08-23T14:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "A $28 . 7 Billion Reason to Buy SK hynix Stock Now",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/28-7-billion-reason-buy-150002570.html",
+   "at": "2026-08-22T21:30:00+00:00"
   },
   {
    "kind": "headline",
@@ -259,7 +330,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-25T05:55:38.414079+00:00",
+  "created_at": "2026-08-25T09:05:43.914432+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -297,10 +368,19 @@
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-25T05:55:38.413973+00:00"
+  "at": "2026-08-25T09:05:43.914298+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c03074aeed49bf60f",
+   "title": "World Bank confirms plan to phase out China lending by 2031",
+   "category": "RATE",
+   "shared": [
+    "KRX:000660",
+    "KRX:034730"
+   ]
+  },
   {
    "id": "ce25b81c76ebfd941",
    "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
@@ -318,22 +398,17 @@
    ]
   },
   {
-   "id": "ccc137270dbb9d742",
-   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c8f0b7cb0487a034d",
-   "title": "Finance minister reviews Pakistan economic progress with IMF",
-   "category": "FX",
+   "id": "c669decc98f0b9158",
+   "title": "Affordability Pressures Keep Builder Confidence Low",
+   "category": "GEO",
    "shared": [
-    "NVDA"
+    "KRX:000660",
+    "KRX:034730"
    ]
   },
   {
-   "id": "c473082d7f30acb2b",
-   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "category": "MARKET",
    "shared": []
   }
