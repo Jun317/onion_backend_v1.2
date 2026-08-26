@@ -169,8 +169,48 @@
    "at": "2026-08-25T17:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-26T03:32:26.461168+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Astera Labs ( NASDAQ : ALAB ) Trading 1 . 8 % Higher – Here What Happened",
+    "Hut 8 ( NASDAQ : HUT ) Shares Up 7 . 5 % – Here Why",
+    "uniQure ( NASDAQ : QURE ) Stock Price Up 8 . 7 % – What Next ?",
+    "Redwire ( NYSE : RDW ) Stock Price Up 1 % – Here What Happened",
+    "Vistra ( NYSE : VST ) Trading Up 2 . 5 % – What Next ?"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Astera Labs ( NASDAQ…",
+   "one_liner": "Astera Labs ( NASDAQ : ALAB ) Trading 1 . 8 %…",
+   "why_now": null,
+   "details": [
+    "Astera Labs ( NASDAQ : ALAB ) Trading 1 . 8 % Higher – Here What Happened",
+    "Hut 8 ( NASDAQ : HUT ) Shares Up 7 . 5 % – Here Why",
+    "uniQure ( NASDAQ : QURE ) Stock Price Up 8 . 7 % – What Next ?"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "b698b58796a0b128bf7a7042045185c1c470c76c"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-26T03:32:26.461113+00:00"
+ },
  "glossary": [],
  "related": [
   {

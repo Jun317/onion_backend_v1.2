@@ -866,8 +866,48 @@
    "at": "2026-08-25T19:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-26T03:31:02.146328+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "NEW : Consumer Confidence Sinks To Lowest Level in Seven Months",
+    "Consumers  still pretty downbeat  as confidence slips again in August",
+    "Are Wall Street Analysts Predicting Westinghouse Air Brake Technologies Stock Will Climb or Sink ?",
+    "U . S . consumer confidence dips in August as future expectations sour - Xinhua",
+    "Crypto Market Today , Aug . 25 : Bitcoins Rebound Above $80 , 000 -- Has it Finally Bottomed ?"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "NEW : Consumer…",
+   "one_liner": "NEW : Consumer Confidence Sinks To Lowest Level…",
+   "why_now": null,
+   "details": [
+    "NEW : Consumer Confidence Sinks To Lowest Level in Seven Months",
+    "Consumers  still pretty downbeat  as confidence slips again in August",
+    "Are Wall Street Analysts Predicting Westinghouse Air Brake Technologies Stock Will Climb or Sink ?"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "f97c09ba94dc7dc4f795da4b455799e904106e0c"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-26T03:31:02.146218+00:00"
+ },
  "glossary": [],
  "related": [
   {

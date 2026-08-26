@@ -67,8 +67,44 @@
    "at": "2026-08-25T22:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-26T03:31:12.480365+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "United Airlines Announces 10 New Routes , including Luxembourg - Newark",
+    "United Airline largest expansion comes with new seating option for economy travelers"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "United Airlines…",
+   "one_liner": "United Airlines Announces 10 New Routes ,…",
+   "why_now": null,
+   "details": [
+    "United Airlines Announces 10 New Routes , including Luxembourg - Newark",
+    "United Airline largest expansion comes with new seating option for economy travelers"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "16e9d265af5bbad0c036626dd0bc3575fe96b3eb"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-26T03:31:12.480265+00:00"
+ },
  "glossary": [],
  "related": [
   {

@@ -139,7 +139,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-25T07:16:13.353321+00:00",
+  "created_at": "2026-08-26T03:35:01.842917+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -152,18 +152,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"셰브론 주가 상승\",\n  \"one_liner\": \"셰브론 주가가 1.2% 올랐어요.\",\n  \"why_now\": \"주가 상승은 기업의 가치가 높아졌다는 신호로, 투자자들의 관심을 끌어요.\",\n  \"impact_line\": \"셰브론 주식을 가진 사람들의 자산 가치가 늘어날 수 있어요.\",\n  \"details\": [\n    \"셰브론 주가가 1.2% 상승했어요.\",\n    \"여러 투자 회사들이 셰브론에 새로 투자했어요.\",\n    \"밀 캐피탈 매니지먼트 LLC는 453만 달러를 투자했어요.\",\n    \"타워크레스트 캐피탈 매니지먼트는 43만 1천 달러를 투자했어요.\",\n    \"PCM 앙코르 LLC는 250만 달러를 투자했어요.\",\n    \"USA 파이낸셜 포뮬러스는 53만 8천 달러를 투자했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"셰브론의 주가가 더 오르면 배당금 지급 여력도 커질 수 있어요!\",\n    \"주가 상승은 해당 기업의 미래 전망이 밝다는 신호로 해석될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"셰브론\",\n      \"easy\": \"미국을 대표하는 세계적인 에너지 기업 중 하나예요.\",\n      \"example\": \"셰브론은 석유와 천연가스를 탐사하고 생산하는 사업을 해요.\"\n    },\n    {\n      \"term\": \"LLC\",\n      \"easy\": \"유한책임회사라는 뜻으로, 주식회사와 비슷한 회사 형태 중 하나예요.\",\n      \"example\": \"LLC는 투자자들이 회사의 빚에 대해 개인 재산으로 책임지지 않아도 돼요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [1.2, 43.0, 250.0, 453.0]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [1.2, 43.0, 250.0, 453.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -182,8 +176,8 @@
   "fact_hash": "862feadb55b5911ef5474d231577766ba895a760"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.2, 43.0, 250.0, 453.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.2, 43.0, 250.0, 453.0]\"]}]}",
-  "at": "2026-08-25T07:16:13.353190+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-26T03:35:01.842815+00:00"
  },
  "glossary": [],
  "related": [
@@ -202,6 +196,12 @@
   {
    "id": "e7dc95bcb919f5113",
    "title": "메타케어 2026-2Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c2785216b6080f21e",
+   "title": "UWMC Investor Losses : UWM Holdings Hedging Strategy Issues and Corresponding 34 % Stock Drop Trigger Securities Class Action for Investors",
    "category": "EARNINGS",
    "shared": []
   },

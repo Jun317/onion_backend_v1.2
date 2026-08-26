@@ -7,10 +7,10 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 21,
+ "seen_sources": 22,
  "importance": 65,
  "created_at": "2026-08-25T22:51:26.334766+00:00",
- "last_update": "2026-08-26T02:04:07.289318+00:00",
+ "last_update": "2026-08-26T03:30:26.560905+00:00",
  "members": [
   {
    "id": "0a694ca15f0ebe3cd5feb99e6e66629ca85b7db6",
@@ -171,6 +171,16 @@
    "published_at": "2026-08-25T22:00:00+00:00",
    "is_dup": 0,
    "sim_to_centroid": 0.8581
+  },
+  {
+   "id": "fb141ec01b34cc520f6143666644716be1365257",
+   "source": "dailyrecord.co.uk",
+   "tier": "wire",
+   "url": "https://www.dailyrecord.co.uk/in-your-area/lanarkshire/plans-transform-former-lanarkshire-mining-37592219",
+   "title": "Plans to transform former Lanarkshire mining village will go on public display",
+   "published_at": "2026-08-25T20:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8506
   },
   {
    "id": "7803eeb534744b8518b6bd7cfbe3925c18d907b4",
@@ -369,6 +379,13 @@
   },
   {
    "kind": "headline",
+   "title": "Plans to transform former Lanarkshire mining village will go on public display",
+   "source": "dailyrecord.co.uk",
+   "url": "https://www.dailyrecord.co.uk/in-your-area/lanarkshire/plans-transform-former-lanarkshire-mining-37592219",
+   "at": "2026-08-25T20:00:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Nigeria , Ghana drive MTN Group cash flow with R9 . 3bn",
    "source": "thesun.ng",
    "url": "https://thesun.ng/nigeria-ghana-drive-mtn-group-cash-flow-with-r9-3bn/",
@@ -424,8 +441,48 @@
    "at": "2026-08-25T17:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-26T03:35:12.172327+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Ernst Russ AG publishes financial results for the first half of 2026 | Hellenic Shipping News Worldwide",
+    "ENGINE : East of Suez Fuel Availability Outlook | Hellenic Shipping News Worldwide",
+    "Germany looks to be stuck in an economic depression - Investment Watch Blog",
+    "Youth Unemployment : Adebutu Advocates Investment in Vocation",
+    "How Kajiado eco village is using technology to build rural resilience"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Ernst Russ AG…",
+   "one_liner": "Ernst Russ AG publishes financial results for…",
+   "why_now": null,
+   "details": [
+    "Ernst Russ AG publishes financial results for the first half of 2026 | Hellenic Shipping News Worldwide",
+    "ENGINE : East of Suez Fuel Availability Outlook | Hellenic Shipping News Worldwide",
+    "Germany looks to be stuck in an economic depression - Investment Watch Blog"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "f8b05d8589dbedfa515b603049c09985f1a86587"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-26T03:35:12.172269+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -443,6 +500,12 @@
   {
    "id": "e7dc95bcb919f5113",
    "title": "메타케어 2026-2Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c2785216b6080f21e",
+   "title": "UWMC Investor Losses : UWM Holdings Hedging Strategy Issues and Corresponding 34 % Stock Drop Trigger Securities Class Action for Investors",
    "category": "EARNINGS",
    "shared": []
   },

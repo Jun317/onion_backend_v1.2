@@ -105,11 +105,12 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-25T08:11:45.466303+00:00",
+  "created_at": "2026-08-26T03:31:24.379045+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Nevada Just Raised Tesla Las Vegas Robotaxi Cap From 10 Vehicles to 5 , 000",
     "Tesla Just Took a Blow to Its AI Chip Plans",
     "Gorham Tesla charger shutting down due to high power costs",
     "Tesla Stock in 2027 : Why I Think It Still Has Room to Run",
@@ -117,8 +118,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"테슬라, 미국 전기차 시장 점유율 확대\",\n    \"one_liner\": \"테슬라가 미국 전기차 시장에서 차지하는 비중이 59%로 늘었어요.\",\n    \"why_now\": \"테슬라의 시장 점유율은 전기차 시장의 성장과 경쟁 구도를 보여주는 중요한 지표예요.\",\n    \"impact_line\": \"테슬라의 전기차 점유율 변화는 관련 산업 전반에 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"테슬라의 미국 전기차 시장 점유율이 59%까지 올랐어요.\",\n        \"이는 2023년 이후 가장 높은 수치예요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"테슬라의 점유율 확대는 다른 전기차 업체들의 경쟁 심화를 가져올 수 있어요!\",\n        \"이는 전기차 충전 인프라 투자 확대에도 영향을 줄 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"전기차\",\n            \"easy\": \"전기로 움직이는 자동차를 말해요.\",\n            \"example\": \"전기차는 배출가스가 나오지 않아 친환경적이에요.\"\n        }\n    ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -127,22 +134,22 @@
    }
   ],
   "output": {
-   "title": "Tesla Just Took a…",
-   "one_liner": "Tesla Just Took a Blow to Its AI Chip Plans",
+   "title": "Nevada Just Raised…",
+   "one_liner": "Nevada Just Raised Tesla Las Vegas Robotaxi Cap…",
    "why_now": null,
    "details": [
+    "Nevada Just Raised Tesla Las Vegas Robotaxi Cap From 10 Vehicles to 5 , 000",
     "Tesla Just Took a Blow to Its AI Chip Plans",
-    "Gorham Tesla charger shutting down due to high power costs",
-    "Tesla Stock in 2027 : Why I Think It Still Has Room to Run"
+    "Gorham Tesla charger shutting down due to high power costs"
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "7a95dafaf1b98416c601e04e7037b2d8fb55f54f"
+  "fact_hash": "8485aebbe029b112a304fa232c170338bbfad636"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-25T08:11:45.466248+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-26T03:31:24.378949+00:00"
  },
  "glossary": [],
  "related": [
@@ -175,8 +182,8 @@
    "shared": []
   },
   {
-   "id": "cd71d798bc262d461",
-   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "id": "c2785216b6080f21e",
+   "title": "UWMC Investor Losses : UWM Holdings Hedging Strategy Issues and Corresponding 34 % Stock Drop Trigger Securities Class Action for Investors",
    "category": "EARNINGS",
    "shared": []
   }

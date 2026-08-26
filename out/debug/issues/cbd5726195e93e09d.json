@@ -135,8 +135,44 @@
    "at": "2026-08-25T17:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-26T03:33:38.875102+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Long - time Cochrane mayor opts not to seek re - election",
+    "Court told of ex - council chief  dismay  on audio recording over email copy"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Long - time Cochrane…",
+   "one_liner": "Long - time Cochrane mayor opts not to seek re -…",
+   "why_now": null,
+   "details": [
+    "Long - time Cochrane mayor opts not to seek re - election",
+    "Court told of ex - council chief  dismay  on audio recording over email copy"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "a388f0edea71677f3c307365add4e53f04b296c3"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-26T03:33:38.875046+00:00"
+ },
  "glossary": [],
  "related": [
   {

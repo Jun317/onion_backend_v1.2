@@ -135,8 +135,48 @@
    "at": "2026-08-25T22:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-26T03:33:49.232265+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Red Cat ( NASDAQ : RCAT ) Trading Up 1 . 9 % – What Next ?",
+    "Michael Saks Sells 706 Shares of RCM Technologies ( NASDAQ : RCMT ) Stock",
+    "Archer Aviation ( NYSE : ACHR ) Stock Price Down 1 . 9 % – Time to Sell ?",
+    "TechTarget ( NASDAQ : TTGT ) CFO Daniel Noreck Sells 5 , 633 Shares",
+    "FinancialContent - Semtech ( NASDAQ : SMTC ) Delivers Impressive Q2 , Inventory Levels Improve"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Red Cat ( NASDAQ :…",
+   "one_liner": "Red Cat ( NASDAQ : RCAT ) Trading Up 1 . 9 % –…",
+   "why_now": null,
+   "details": [
+    "Red Cat ( NASDAQ : RCAT ) Trading Up 1 . 9 % – What Next ?",
+    "Michael Saks Sells 706 Shares of RCM Technologies ( NASDAQ : RCMT ) Stock",
+    "Archer Aviation ( NYSE : ACHR ) Stock Price Down 1 . 9 % – Time to Sell ?"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "61f9a794cc4e10e144b2ad55c4a786c562d44c3a"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-26T03:33:49.232212+00:00"
+ },
  "glossary": [],
  "related": [
   {

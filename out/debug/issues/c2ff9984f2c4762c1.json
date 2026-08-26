@@ -104,8 +104,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-25T08:09:30.359920+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-26T03:30:31.008132+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -118,26 +118,35 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"모건스탠리, 부동산 투자 시점\",\n  \"one_liner\": \"모건스탠리가 지금이 상업용 부동산에 투자할 때라고 말했어요.\",\n  \"why_now\": \"부동산 시장은 경기에 큰 영향을 미치기 때문에 투자 시점을 잘 잡는 것이 중요해요.\",\n  \"impact_line\": \"부동산 시장의 변화는 집값과 임대료에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"모건스탠리는 지금이 상업용 부동산에 투자할 좋은 시기라고 분석했어요.\",\n    \"모건스탠리는 REC와 PFC의 합병이 비용 절감 효과는 적을 수 있다고 봤어요.\",\n    \"REC와 PFC의 합병으로 규모는 커지겠지만, 비용 절감 효과는 제한적일 수 있다고 해요.\",\n    \"모건스탠리는 REC와 PFC의 성장 전망치를 낮췄어요.\",\n    \"모건스탠리의 평가 이후 REC와 PFC 주가가 3%까지 하락했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"상업용 부동산 투자에 대한 긍정적 전망은 관련 시장의 거래량 증가로 이어질 수 있어요!\",\n    \"부동산 시장의 투자 심리 변화는 건설 경기에도 영향을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"상업용 부동산\",\n      \"easy\": \"건물이나 땅처럼 사업을 위해 사용하는 부동산을 말해요.\",\n      \"example\": \"상가 건물이나 사무실 건물이 상업용 부동산에 해당해요.\"\n    },\n    {\n      \"term\": \"합병\",\n      \"easy\": \"두 개 이상의 회사가 하나로 합쳐지는 것을 말해요.\",\n      \"example\": \"두 회사가 합병하면 더 큰 규모로 사업을 할 수 있어요.\"\n    },\n    {\n      \"term\": \"주가\",\n      \"easy\": \"회사의 가치를 나타내는 주식의 가격이에요.\",\n      \"example\": \"회사가 잘 되면 주가가 오르고, 못 되면 주가가 내릴 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [1.53]"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Now Is the Time to…",
-   "one_liner": "Now Is the Time to Buy in Commercial Real Estate…",
-   "why_now": null,
+   "title": "모건스탠리, 부동산 투자 시점",
+   "one_liner": "모건스탠리가 지금이 상업용 부동산에 투자할 때라고 말했어요.",
+   "why_now": "부동산 시장은 경기에 큰 영향을 미치기 때문에 투자 시점을 잘 잡는 것이 중요해요.",
    "details": [
-    "Now Is the Time to Buy in Commercial Real Estate : Morgan Stanley – Commercial Observer",
-    "PFC - REC merger may bring limited cost savings ; some revenue benefits possible : Morgan Stanley",
-    "PFC - REC merger may bring scale , but cost savings look limited ; Morgan Stanley cuts growth estimates"
+    "모건스탠리는 지금이 상업용 부동산에 투자할 좋은 시기라고 분석했어요.",
+    "모건스탠리는 REC와 PFC의 합병이 비용 절감 효과는 적을 수 있다고 봤어요.",
+    "REC와 PFC의 합병으로 규모는 커지겠지만, 비용 절감 효과는 제한적일 수 있다고 해요.",
+    "모건스탠리는 REC와 PFC의 성장 전망치를 낮췄어요.",
+    "모건스탠리의 평가 이후 REC와 PFC 주가가 3%까지 하락했어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "상업용 부동산 투자에 대한 긍정적 전망은 관련 시장의 거래량 증가로 이어질 수 있어요!",
+    "부동산 시장의 투자 심리 변화는 건설 경기에도 영향을 줄 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "d01922cee8495d796bfcaa9529a8cb892722f77b"
  },
