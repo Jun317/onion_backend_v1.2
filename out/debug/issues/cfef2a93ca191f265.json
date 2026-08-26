@@ -2,18 +2,28 @@
  "id": "cfef2a93ca191f265",
  "title": "What countries do business with Iran , and who buying its oil ?",
  "category": "COMMODITY",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "IRAN"
  ],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 2,
+ "importance": 70,
  "created_at": "2026-08-25T17:51:17.965721+00:00",
- "last_update": "2026-08-25T20:52:03.959366+00:00",
+ "last_update": "2026-08-26T08:05:41.314928+00:00",
  "members": [
+  {
+   "id": "e1af6c3cf2043beb2c87fc0b090884fbbce32dfd",
+   "source": "al-monitor.com",
+   "tier": "wire",
+   "url": "https://www.al-monitor.com/originals/2026/08/iraq-may-show-how-us-can-squeeze-irans-trade-partners",
+   "title": "Iraq may show how U . S . can squeeze Iran trade partners",
+   "published_at": "2026-08-26T06:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8665
+  },
   {
    "id": "d498c178a589cad0bd7177d244c194247899e62b",
    "source": "wtae.com",
@@ -22,7 +32,7 @@
    "title": "What countries do business with Iran , and who buying its oil ?",
    "published_at": "2026-08-25T20:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9985
   },
   {
    "id": "baa334ec7e1bdbee464592a76a3d60890931200f",
@@ -32,7 +42,7 @@
    "title": "What countries do business with Iran , and who buying its oil ?",
    "published_at": "2026-08-25T19:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9985
   },
   {
    "id": "b545f5b8959bb32e2bc062eec88e7fb0aa1a4aed",
@@ -42,7 +52,7 @@
    "title": "What countries do business with Iran , and who buying its oil ?",
    "published_at": "2026-08-25T17:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9985
   },
   {
    "id": "65baae20294399507755ca3ab9eaf25defc7fd52",
@@ -52,11 +62,18 @@
    "title": "What countries do business with Iran , and who buying its oil ?",
    "published_at": "2026-08-25T17:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.9985
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Iraq may show how U . S . can squeeze Iran trade partners",
+   "source": "al-monitor.com",
+   "url": "https://www.al-monitor.com/originals/2026/08/iraq-may-show-how-us-can-squeeze-irans-trade-partners",
+   "at": "2026-08-26T06:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "What countries do business with Iran , and who buying its oil ?",
@@ -86,8 +103,51 @@
    "at": "2026-08-25T17:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-26T08:05:45.079151+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [],
+   "headlines": [
+    "Iraq may show how U . S . can squeeze Iran trade partners",
+    "What countries do business with Iran , and who buying its oil ?"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"이란과 거래하는 국가\", \"one_liner\": \"미국이 이란과 거래하는 국가들을 압박할 수 있다는 분석이 나왔어요.\", \"why_now\": \"이란과 거래하는 국가들을 알면 국제 정세 변화를 이해하는 데 도움이 돼요.\", \"impact_line\": null, \"details\": [\"미국이 이란과 거래하는 국가들을 압박할 수 있다는 분석이 나왔어요.\", \"이란의 석유를 누가 사는지 주목하고 있어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"이란\", \"easy\": \"중동에 있는 나라 이름이에요.\", \"example\": \"이란은 석유가 많이 나는 나라로 알려져 있어요.\"}, {\"term\": \"석유\", \"easy\": \"땅속에서 나오는 검은색 기름으로, 자동차 연료 등으로 쓰여요.\", \"example\": \"석유 가격이 오르면 주유비가 비싸져요.\"}]}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Iraq may show how U…",
+   "one_liner": "Iraq may show how U . S . can squeeze Iran trade…",
+   "why_now": null,
+   "details": [
+    "Iraq may show how U . S . can squeeze Iran trade partners",
+    "What countries do business with Iran , and who buying its oil ?"
+   ],
+   "effects": [],
+   "visual_type": "wti"
+  },
+  "fact_hash": "745dfefeaec50d78fd3f8b1a4bd8ed6742764495"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}]}",
+  "at": "2026-08-26T08:05:45.078974+00:00"
+ },
  "glossary": [],
  "related": [
   {
