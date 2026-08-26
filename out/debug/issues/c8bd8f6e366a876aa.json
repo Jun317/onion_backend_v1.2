@@ -866,8 +866,50 @@
    "at": "2026-08-25T20:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-26T02:07:38.660618+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Canada strikes back at US with retaliatory tariffs as trade war escalates",
+    "Canada targets steel , fish and hundreds of other goods as Trump trade war escalates",
+    "🎥Trade war : Canada strikes back at US with retaliatory tariffs",
+    "Canada strikes back at US with retaliatory tariffs , hitting everyday purchases",
+    "Canada announces $20bn retaliatory tariffs as US trade war escalates"
+   ],
+   "official_lines": [
+    "Minutes of the Board&#39;s discount rate meetings on July 20 and July 29, 2026"
+   ]
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Canada strikes back…",
+   "one_liner": "Canada strikes back at US with retaliatory…",
+   "why_now": null,
+   "details": [
+    "Canada strikes back at US with retaliatory tariffs as trade war escalates",
+    "Canada targets steel , fish and hundreds of other goods as Trump trade war escalates",
+    "🎥Trade war : Canada strikes back at US with retaliatory tariffs"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "2fb6e0d14ed71339e0b93e11661645272eb1401f"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-26T02:07:38.660333+00:00"
+ },
  "glossary": [],
  "related": [
   {

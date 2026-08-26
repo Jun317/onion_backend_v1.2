@@ -86,8 +86,47 @@
    "at": "2026-08-25T19:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-26T02:06:03.903749+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "The federal government pledged a $7 . 5B tariff - relief package . Here what in it .",
+    "The federal government pledged a $7 . 5B tariff - relief package . Here what in it . - Medicine Hat NewsMedicine Hat News",
+    "The Story Behind Roger Federer Bet on On That Became a $300M Fortune",
+    "Feds officially announce counter - measures to latest Trump tariffs"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "The federal…",
+   "one_liner": "The federal government pledged a $7 . 5B tariff…",
+   "why_now": null,
+   "details": [
+    "The federal government pledged a $7 . 5B tariff - relief package . Here what in it .",
+    "The federal government pledged a $7 . 5B tariff - relief package . Here what in it . - Medicine Hat NewsMedicine Hat News",
+    "The Story Behind Roger Federer Bet on On That Became a $300M Fortune"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "43205b62991817350d5b751cf095718882d3c0f4"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-26T02:06:03.903665+00:00"
+ },
  "glossary": [],
  "related": [
   {

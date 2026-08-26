@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-25T08:06:33.998690+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-26T02:06:46.567635+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,25 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"캐나다-미국 무역 갈등\",\n\"one_liner\": \"캐나다 총리가 미국과의 무역 협상이 틀어지자 보복 관세를 약속했어요.\",\n\"why_now\": \"나라 간 무역 분쟁은 물건 가격을 올리거나 물건 수급에 영향을 줄 수 있어요.\",\n\"impact_line\": \"캐나다에서 수입하는 물건 가격이 오를 수 있어요.\",\n\"details\": [\n\"캐나다와 미국 간의 무역 관계가 틀어졌어요.\",\n\"캐나다 총리가 미국과의 협상 결렬에 대응해 보복 관세를 예고했어요.\",\n\"이로 인해 캐나다와 미국 간의 관계에 균열이 생겼어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"미국에서 수입하는 물건 가격이 오를 수 있어요!\",\n\"양국 간 교역량이 줄어들면 관련 산업의 어려움이 커질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"관세\",\n\"easy\": \"나라에서 물건을 사고팔 때 붙이는 세금이에요.\",\n\"example\": \"수입 과자에 관세가 붙으면 과자 가격이 비싸져요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Presidents of…",
-   "one_liner": "Presidents of Azerbaijan and Uzbekistan…",
-   "why_now": null,
+   "title": "캐나다-미국 무역 갈등",
+   "one_liner": "캐나다 총리가 미국과의 무역 협상이 틀어지자 보복 관세를 약속했어요.",
+   "why_now": "나라 간 무역 분쟁은 물건 가격을 올리거나 물건 수급에 영향을 줄 수 있어요.",
    "details": [
-    "Presidents of Azerbaijan and Uzbekistan delivered press statements",
-    "Challenges to be addressed at EDANA 25th Outlook - Innovation in Textiles",
-    "The Latest : Canada prime minister promises retaliatory tariffs as negotiations with the US falter"
+    "캐나다와 미국 간의 무역 관계가 틀어졌어요.",
+    "캐나다 총리가 미국과의 협상 결렬에 대응해 보복 관세를 예고했어요.",
+    "이로 인해 캐나다와 미국 간의 관계에 균열이 생겼어요."
    ],
-   "effects": [],
+   "effects": [
+    "미국에서 수입하는 물건 가격이 오를 수 있어요!",
+    "양국 간 교역량이 줄어들면 관련 산업의 어려움이 커질 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "de068f86aee418a0710e3646629978f4a524a267"
@@ -908,7 +909,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-25T08:06:33.998616+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "c78995e710f8b7506",

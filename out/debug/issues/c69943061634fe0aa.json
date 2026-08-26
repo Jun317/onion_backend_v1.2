@@ -86,8 +86,46 @@
    "at": "2026-08-22T20:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-26T02:07:28.030842+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Opinion | Trump Distinctly Artificial UnIntelligence",
+    "Intellia Therapeutics ( NASDAQ : NTLA ) Trading 8 . 3 % Higher – Still a Buy ?",
+    "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence ( AI ) Stocks"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Opinion | Trump…",
+   "one_liner": "Opinion | Trump Distinctly Artificial…",
+   "why_now": null,
+   "details": [
+    "Opinion | Trump Distinctly Artificial UnIntelligence",
+    "Intellia Therapeutics ( NASDAQ : NTLA ) Trading 8 . 3 % Higher – Still a Buy ?",
+    "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence ( AI ) Stocks"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "f47c91630977fd54bacc3d1f3c6506bea2b3f6dc"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-26T02:07:28.030781+00:00"
+ },
  "glossary": [],
  "related": [
   {

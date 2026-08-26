@@ -866,8 +866,48 @@
    "at": "2026-08-25T11:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-26T02:05:43.139680+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [],
+   "headlines": [
+    "Vision Media Ranks on Inc . 5000 2026 Fastest - Growing Private Companies List for 2nd Time",
+    "HSBC buys at least US$3 billion of India bonds after deposit boost",
+    "US sanctions , AI jitters and investors search for safer ground - ATV Today",
+    "Canada to announce retaliatory tariffs against the US",
+    "Bitcoin Rises Above $80 , 000 to Hit Three - Month High"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Vision Media Ranks…",
+   "one_liner": "Vision Media Ranks on Inc . 5000 2026 Fastest -…",
+   "why_now": null,
+   "details": [
+    "Vision Media Ranks on Inc . 5000 2026 Fastest - Growing Private Companies List for 2nd Time",
+    "HSBC buys at least US$3 billion of India bonds after deposit boost",
+    "US sanctions , AI jitters and investors search for safer ground - ATV Today"
+   ],
+   "effects": [],
+   "visual_type": "kr_base_rate"
+  },
+  "fact_hash": "b8ae800c6ab9cf94d78d7045b4360c12b3a6aec1"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-26T02:05:43.139554+00:00"
+ },
  "glossary": [],
  "related": [
   {

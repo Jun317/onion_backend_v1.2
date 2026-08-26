@@ -580,8 +580,48 @@
    "at": "2026-08-25T17:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-26T02:10:03.464169+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "There are gas lines , but no sign yet Iran will bow to US sanctions",
+    "There are gas lines in Iran , but no sign yet that its leaders will bow to US sanctions",
+    "U . S . stocks advance despite U . S .- imposed sanctions on Iran",
+    "Iran vows to resist widened US sanctions",
+    "Iranians queue for petrol after US announces new sanctions"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "There are gas lines…",
+   "one_liner": "There are gas lines , but no sign yet Iran will…",
+   "why_now": null,
+   "details": [
+    "There are gas lines , but no sign yet Iran will bow to US sanctions",
+    "There are gas lines in Iran , but no sign yet that its leaders will bow to US sanctions",
+    "U . S . stocks advance despite U . S .- imposed sanctions on Iran"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "5cb992e4485a95a3439f19208a8b2aa54f798586"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-26T02:10:03.464107+00:00"
+ },
  "glossary": [],
  "related": [
   {
