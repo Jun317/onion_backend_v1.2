@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-25T07:19:34.133531+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-26T05:01:48.598656+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,25 +881,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"대서양 잠수부들의 삶\",\n\"one_liner\": \"여성 잠수부들이 대서양에서 생계를 위해 일하지만, 그들의 노고는 거의 알려지지 않았어요.\",\n\"why_now\": \"우리가 먹는 해산물이 어떻게 식탁까지 오는지 알 수 있는 기회예요.\",\n\"impact_line\": \"해산물 가격에 영향을 줄 수 있는 중요한 노동 현장이에요.\",\n\"details\": [\n\"여성 잠수부들이 대서양에서 생계를 유지하기 위해 일하고 있어요.\",\n\"이들의 힘든 노동은 거의 알려지지 않고 있어요.\",\n\"이들의 작업은 해산물 공급망의 중요한 부분일 수 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"이들의 작업 환경 개선 요구가 커질 수 있어요!\",\n\"해산물 가격 변동에 영향을 줄 수 있어요!\"\n],\n\"glossary\": [],\n\"impact_line\": \"해산물 가격에 영향을 줄 수 있는 중요한 노동 현장이에요.\"\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Three Teens Work For…",
-   "one_liner": "Three Teens Work For Their Dream Pool , Then…",
-   "why_now": null,
+   "title": "대서양 잠수부들의 삶",
+   "one_liner": "여성 잠수부들이 대서양에서 생계를 위해 일하지만, 그들의 노고는 거의 알려지지 않았어요.",
+   "why_now": "우리가 먹는 해산물이 어떻게 식탁까지 오는지 알 수 있는 기회예요.",
    "details": [
-    "Three Teens Work For Their Dream Pool , Then Selfish Parents Hand Them A Reason For Revenge",
-    "It Relatively Easy To Keep A Job These Days . Finding One Is Another Story",
-    "When They Send the Very Best , Theyre Still the Worst -  Outstanding Refugee  Fraudster"
+    "여성 잠수부들이 대서양에서 생계를 유지하기 위해 일하고 있어요.",
+    "이들의 힘든 노동은 거의 알려지지 않고 있어요.",
+    "이들의 작업은 해산물 공급망의 중요한 부분일 수 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "이들의 작업 환경 개선 요구가 커질 수 있어요!",
+    "해산물 가격 변동에 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "00573fd02302b64a80133591112a899069147347"
@@ -923,6 +931,12 @@
    "shared": []
   },
   {
+   "id": "ccfed1fdc37fed6e8",
+   "title": "JPMorgan Claverhouse ( LON : JCH ) Stock Price Passes Above 50 - Day Moving Average – Here Why",
+   "category": "GEO",
+   "shared": []
+  },
+  {
    "id": "c92542f0fffea30a9",
    "title": "Exclusive - US to tell partners they must pick sides in AI race with China",
    "category": "GEO",
@@ -931,12 +945,6 @@
   {
    "id": "c7465c605cefc2941",
    "title": "Iran kicks As Trump Says Hormuz Will Become US Territory After War – Daily Trust",
-   "category": "GEO",
-   "shared": []
-  },
-  {
-   "id": "c1828202f22841d5a",
-   "title": "Walmart isnt losing any retail war",
    "category": "GEO",
    "shared": []
   }
