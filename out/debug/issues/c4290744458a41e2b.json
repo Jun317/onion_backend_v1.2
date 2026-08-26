@@ -854,7 +854,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-26T03:30:41.377429+00:00",
+  "created_at": "2026-08-26T07:16:02.753612+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -867,12 +867,22 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"중국 태양광 산업 둔화\", \"one_liner\": \"중국 태양광 산업이 여러 어려움으로 인해 속도가 느려지고 있어요.\", \"why_now\": \"중국은 세계 최대 태양광 제품 생산국으로, 이 산업의 변화는 전 세계 에너지 시장에 영향을 줄 수 있어요.\", \"impact_line\": \"태양광 패널 가격이 변동될 수 있어요.\", \"details\": [\"중국 태양광 산업이 여러 압박으로 인해 둔화되고 있어요.\", \"중국 정부는 경제 성장을 위해 외부 수요를 안정시키라고 촉구했어요.\"], \"visual_type\": \"none\", \"effects\": [\"중국 태양광 제품의 공급이 줄면, 전 세계적으로 태양광 패널 가격이 오를 수 있어요!\", \"중국의 친환경 에너지 전환 정책이 석유 수출국들의 영향력을 줄일 수 있다는 분석도 있어요.\"], \"glossary\": [{\"term\": \"태양광 산업\", \"easy\": \"햇빛을 이용해 전기를 만드는 산업이에요.\", \"example\": \"태양광 패널을 설치하면 전기 요금을 아낄 수 있어요.\"}]}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "why_now 55자 초과(59)",
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(59)",
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님"
     ]
    }
   ],
@@ -891,8 +901,8 @@
   "fact_hash": "bd1bd84a46295e41831127eb545973b1236eab8c"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-26T03:30:41.377122+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(59)\", \"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(59)\", \"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}]}",
+  "at": "2026-08-26T07:16:02.753471+00:00"
  },
  "glossary": [],
  "related": [
@@ -932,11 +942,10 @@
    ]
   },
   {
-   "id": "c419df2138556f8cb",
-   "title": "Federal debt ticks over $1 trillion for the first time",
+   "id": "ce25b81c76ebfd941",
+   "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
    "category": "FX",
    "shared": [
-    "CHINA",
     "SEC"
    ]
   }

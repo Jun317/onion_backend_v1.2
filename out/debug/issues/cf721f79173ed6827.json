@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-26T03:31:02.146328+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-26T07:16:29.638789+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,26 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 소비자 신뢰 하락\",\n  \"one_liner\": \"미국 소비자들의 경제에 대한 믿음이 7개월 만에 가장 낮아졌어요.\",\n  \"why_now\": \"소비자들의 믿음이 낮아지면 물건을 덜 사서 경제 성장에 부정적인 영향을 줄 수 있어요.\",\n  \"impact_line\": \"물건을 덜 사게 되면 기업들의 매출이 줄어들 수 있어요.\",\n  \"details\": [\n    \"8월 미국 소비자들의 경제 전망이 더 나빠졌어요.\",\n    \"소비자들의 경제에 대한 믿음이 다시 떨어졌어요.\",\n    \"이는 7개월 만에 가장 낮은 수준이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"소비자들이 지갑을 닫으면서 기업들의 매출이 줄어들 수 있어요!\",\n    \"경제 전반의 활동이 둔화될 가능성이 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"Consumer Confidence\",\n      \"easy\": \"소비자들이 앞으로 경제 상황이 좋아질지 나빠질지에 대해 얼마나 믿고 있는지 보여주는 지표예요.\",\n      \"example\": \"소비자 신뢰가 낮으면 사람들이 돈을 덜 쓰려고 해요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "NEW : Consumer…",
-   "one_liner": "NEW : Consumer Confidence Sinks To Lowest Level…",
-   "why_now": null,
+   "title": "미국 소비자 신뢰 하락",
+   "one_liner": "미국 소비자들의 경제에 대한 믿음이 7개월 만에 가장 낮아졌어요.",
+   "why_now": "소비자들의 믿음이 낮아지면 물건을 덜 사서 경제 성장에 부정적인 영향을 줄 수 있어요.",
    "details": [
-    "NEW : Consumer Confidence Sinks To Lowest Level in Seven Months",
-    "Consumers  still pretty downbeat  as confidence slips again in August",
-    "Are Wall Street Analysts Predicting Westinghouse Air Brake Technologies Stock Will Climb or Sink ?"
+    "8월 미국 소비자들의 경제 전망이 더 나빠졌어요.",
+    "소비자들의 경제에 대한 믿음이 다시 떨어졌어요.",
+    "이는 7개월 만에 가장 낮은 수준이에요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "소비자들이 지갑을 닫으면서 기업들의 매출이 줄어들 수 있어요!",
+    "경제 전반의 활동이 둔화될 가능성이 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "f97c09ba94dc7dc4f795da4b455799e904106e0c"
  },

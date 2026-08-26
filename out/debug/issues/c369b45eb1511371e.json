@@ -871,7 +871,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-26T03:32:16.104917+00:00",
+  "created_at": "2026-08-26T07:17:26.013666+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -884,12 +884,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"이란 평화 협상 시한 만료\",\n\"one_liner\": \"이란과의 평화 협상 시한이 곧 끝나가고 있어요.\",\n\"why_now\": \"협상이 결렬되면 국제 사회의 긴장이 높아질 수 있어요.\",\n\"impact_line\": \"국제 유가나 환율이 불안정해질 수 있어요.\",\n\"details\": [\n\"이란과의 평화 협상 시한이 곧 만료돼요.\",\n\"협상이 어떻게 진행되고 있는지 주목하고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"협상이 성공하면 국제 유가가 안정될 수 있어요!\",\n\"협상 결렬 시 국제 정세가 불안정해질 수 있어요!\"\n],\n\"glossary\": [],\n\"impact_line\": null\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -908,8 +915,8 @@
   "fact_hash": "7bef0cebfdca8ea17e1c0edf66f5d3113575a04e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-26T03:32:16.104851+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-26T07:17:26.013604+00:00"
  },
  "glossary": [],
  "related": [

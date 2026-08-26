@@ -106,11 +106,12 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-26T03:31:34.736698+00:00",
+  "created_at": "2026-08-26T07:15:57.891076+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
    "headlines": [
+    "Putnam County residents present resolution to county commission on proposed Google data center",
     "Berkshire Hathaway Bought $10 Billion of Alphabet Straight From the Company , Bypassing the Open Market",
     "Sundar Pichai Says Alphabet AI Products Now Reach Over 2 . 5 Billion Monthly Users Through AI Overviews . Here What That Scale Means for Ad Revenue Investors .",
     "Google TPU Volume Could Triple to 8 . 8 Million by 2027",
@@ -118,32 +119,38 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"구글 AI 제품 이용자 25억 명 돌파\",\n    \"one_liner\": \"구글의 AI 제품을 이용하는 사람이 월 25억 명을 넘었어요.\",\n    \"why_now\": \"AI 기술이 많은 사람에게 보급되면서 관련 광고 수익이 늘어날 것으로 예상돼요.\",\n    \"impact_line\": \"구글 광고를 보는 횟수가 늘어날 수 있어요.\",\n    \"details\": [\n        \"순다르 피차이 구글 최고경영자(CEO)는 AI 제품 이용자가 월 25억 명을 넘었다고 밝혔어요.\",\n        \"이는 AI 오버뷰 기능을 통해 제공되는 서비스 이용자 수를 합한 결과예요.\",\n        \"이러한 대규모 이용자 수는 광고 수익에 긍정적인 영향을 줄 것으로 기대돼요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"구글의 광고 수익이 늘어날 수 있어요!\",\n        \"AI 기술 발전이 더욱 가속화될 것으로 예상돼요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"AI 오버뷰\",\n            \"easy\": \"구글 검색 결과 상단에 AI가 요약해서 보여주는 정보예요.\",\n            \"example\": \"궁금한 내용을 검색하면 AI가 바로 답을 요약해서 보여줘요.\"\n        },\n        {\n            \"term\": \"광고 수익\",\n            \"easy\": \"광고를 보여주고 받는 돈이에요.\",\n            \"example\": \"유튜브에서 광고를 보고 건너뛰지 않으면 광고주가 돈을 내는 거예요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [25.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [25.0]"
     ]
    }
   ],
   "output": {
-   "title": "Berkshire Hathaway…",
-   "one_liner": "Berkshire Hathaway Bought $10 Billion of…",
+   "title": "Putnam County…",
+   "one_liner": "Putnam County residents present resolution to…",
    "why_now": null,
    "details": [
+    "Putnam County residents present resolution to county commission on proposed Google data center",
     "Berkshire Hathaway Bought $10 Billion of Alphabet Straight From the Company , Bypassing the Open Market",
-    "Sundar Pichai Says Alphabet AI Products Now Reach Over 2 . 5 Billion Monthly Users Through AI Overviews . Here What That Scale Means for Ad Revenue Investors .",
-    "Google TPU Volume Could Triple to 8 . 8 Million by 2027"
+    "Sundar Pichai Says Alphabet AI Products Now Reach Over 2 . 5 Billion Monthly Users Through AI Overviews . Here What That Scale Means for Ad Revenue Investors ."
    ],
    "effects": [],
    "visual_type": "earnings_quarterly"
   },
-  "fact_hash": "e2a726326b68e322170089c0b054c290dc9c2b3a"
+  "fact_hash": "f6cd1d4545c5a41675d454c9842ed8321f593065"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-26T03:31:34.736604+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [25.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [25.0]\"]}]}",
+  "at": "2026-08-26T07:15:57.890931+00:00"
  },
  "glossary": [],
  "related": [

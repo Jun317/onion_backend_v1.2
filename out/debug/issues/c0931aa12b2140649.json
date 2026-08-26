@@ -187,40 +187,43 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-26T03:33:59.552456+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-26T07:16:26.201365+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Asian Markets Track Wall Street Higher",
+    "Dollar moves in a narrow range ahead of inflation data",
     "Dollar Gains on Weak Stocks",
     "Here are the major earnings before the open Wednesday",
     "Wall Street ends higher as tech rebounds"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"아시아 증시 상승세\",\n  \"one_liner\": \"아시아 증시가 미국 증시의 상승세를 따라 올랐어요.\",\n  \"why_now\": \"미국 증시가 오르면 다른 나라 증시도 영향을 받는 경우가 많아요.\",\n  \"impact_line\": \"주식 투자 수익률이 좋아질 수 있어요.\",\n  \"details\": [\n    \"미국 증시가 기술주를 중심으로 상승 마감했어요.\",\n    \"아시아 증시도 이러한 흐름을 이어받아 올랐어요.\",\n    \"달러는 중요한 경제 지표 발표를 앞두고 큰 변동 없이 움직였어요.\"\n  ],\n  \"visual_type\": \"kospi_close\",\n  \"effects\": [\n    \"주식 시장에 돈이 몰리면서 투자 심리가 살아날 수 있어요!\",\n    \"달러 가치가 크게 오르내리지 않아 환율 변동성이 줄어들 수 있어요!\"\n  ],\n  \"glossary\": [],\n  \"impact_line\": \"주식 투자 수익률이 좋아질 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Dollar Gains on Weak…",
-   "one_liner": "Dollar Gains on Weak Stocks",
-   "why_now": null,
+   "title": "아시아 증시 상승세",
+   "one_liner": "아시아 증시가 미국 증시의 상승세를 따라 올랐어요.",
+   "why_now": "미국 증시가 오르면 다른 나라 증시도 영향을 받는 경우가 많아요.",
    "details": [
-    "Dollar Gains on Weak Stocks",
-    "Here are the major earnings before the open Wednesday",
-    "Wall Street ends higher as tech rebounds"
+    "미국 증시가 기술주를 중심으로 상승 마감했어요.",
+    "아시아 증시도 이러한 흐름을 이어받아 올랐어요.",
+    "달러는 중요한 경제 지표 발표를 앞두고 큰 변동 없이 움직였어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "주식 시장에 돈이 몰리면서 투자 심리가 살아날 수 있어요!",
+    "달러 가치가 크게 오르내리지 않아 환율 변동성이 줄어들 수 있어요!"
+   ],
+   "visual_type": "kospi_close"
   },
-  "fact_hash": "ba39cd32067bef5021acf97e4e5acaa0da7e588f"
+  "fact_hash": "edc6d64b8d48c469bb28a5395f44f5e1ba4b038a"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",

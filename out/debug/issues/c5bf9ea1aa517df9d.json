@@ -783,25 +783,31 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-26T03:32:26.461168+00:00",
+  "created_at": "2026-08-26T07:16:22.515752+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
     "Astera Labs ( NASDAQ : ALAB ) Trading 1 . 8 % Higher – Here What Happened",
-    "Hut 8 ( NASDAQ : HUT ) Shares Up 7 . 5 % – Here Why",
-    "uniQure ( NASDAQ : QURE ) Stock Price Up 8 . 7 % – What Next ?",
-    "Redwire ( NYSE : RDW ) Stock Price Up 1 % – Here What Happened",
-    "Vistra ( NYSE : VST ) Trading Up 2 . 5 % – What Next ?"
+    "Dollar Tree ( DLTR ) Q2 Earnings : What To Expect",
+    "Vistra ( NYSE : VST ) Trading Up 2 . 5 % – What Next ?",
+    "AU Bank , Chalet Hotels , Paradeep : Top stocks to trade Check key levels , target prices & stop loss",
+    "Best Buy ( BBY ) Q2 Earnings Report Preview : What To Look For"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"주요 기업 주가 변동\",\n\"one_liner\": \"주요 기업들의 주가가 오르내리고 있으며, 일부 기업은 실적 발표를 앞두고 있어요.\",\n\"why_now\": \"기업들의 주가 움직임과 실적 발표는 경제 상황과 투자 심리를 보여주는 중요한 지표예요.\",\n\"impact_line\": \"주가 변동은 투자 수익에 직접적인 영향을 줄 수 있어요.\",\n\"details\": [\n\"아스테라 랩스 주가가 1.8% 올랐어요.\",\n\"비스트 바이 주식은 실적 발표를 앞두고 있어요.\",\n\"달러 트리 주식도 실적 발표를 앞두고 있어요.\",\n\"비스트 바이와 달러 트리의 실적 발표가 예정되어 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"주요 기업들의 주가 상승은 투자 심리 개선을 나타낼 수 있어요!\",\n\"실적 발표 결과에 따라 해당 기업들의 주가가 더 크게 움직일 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"실적 발표\",\n\"easy\": \"기업이 일정 기간 동안의 경영 성과를 공개하는 것을 말해요.\",\n\"example\": \"실적 발표 후 주가가 크게 오르거나 내리는 경우가 많아요.\"\n}\n],\n\"impact_line\": \"주가 변동은 투자 수익에 직접적인 영향을 줄 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [1.8, 2.5]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [1.8]"
     ]
    }
   ],
@@ -811,17 +817,17 @@
    "why_now": null,
    "details": [
     "Astera Labs ( NASDAQ : ALAB ) Trading 1 . 8 % Higher – Here What Happened",
-    "Hut 8 ( NASDAQ : HUT ) Shares Up 7 . 5 % – Here Why",
-    "uniQure ( NASDAQ : QURE ) Stock Price Up 8 . 7 % – What Next ?"
+    "Dollar Tree ( DLTR ) Q2 Earnings : What To Expect",
+    "Vistra ( NYSE : VST ) Trading Up 2 . 5 % – What Next ?"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "b698b58796a0b128bf7a7042045185c1c470c76c"
+  "fact_hash": "e2a468f711a34f9e4cd8cefd140ab098caf8322b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-26T03:32:26.461113+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.8, 2.5]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.8]\"]}]}",
+  "at": "2026-08-26T07:16:22.515690+00:00"
  },
  "glossary": [],
  "related": [
