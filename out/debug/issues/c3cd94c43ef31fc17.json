@@ -873,8 +873,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-26T02:04:40.471785+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-26T05:56:10.391121+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -887,25 +887,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"미국, 중국 제재 강화 움직임\",\n\"one_liner\": \"미국이 이란 제재와 관련해 중국에 대한 압박을 강화할 것으로 보여요.\",\n\"why_now\": \"미국이 중국에 대한 제재를 강화하면 국제 유가와 원자재 가격에 영향을 줄 수 있어요.\",\n\"impact_line\": \"국제 유가와 원자재 가격 변동으로 장바구니 물가가 오를 수 있어요.\",\n\"details\": [\n\"미국이 이란 제재와 관련해 중국에 대한 제재를 강화할 가능성이 있어요.\",\n\"이는 중국의 대 이란 교역에 영향을 줄 수 있어요.\",\n\"중국은 미국의 제재 캠페인에 가장 큰 시험대가 될 수 있어요.\",\n\"중국 내에서는 인공지능(AI)의 영향으로 일자리를 잃을까 걱정하는 목소리도 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"중국의 대 이란 교역이 줄면 국제 유가 상승 압력이 커질 수 있어요!\",\n\"국제 유가 상승은 한국의 수입 물가 상승으로 이어질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"제재\",\n\"easy\": \"특정 국가나 단체의 잘못된 행동에 대해 국제 사회가 경제적, 외교적으로 압력을 가하는 것을 말해요.\",\n\"example\": \"미국이 북한의 핵실험에 대해 경제 제재를 가했어요.\"\n},\n{\n\"term\": \"이란 제재\",\n\"easy\": \"이란이 핵 개발을 중단하도록 미국 등 여러 나라가 이란과 거래하지 않거나 금융 거래를 막는 조치를 말해요.\",\n\"example\": \"이란 제재로 인해 국제 유가가 오르기도 해요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "A new kind of China…",
-   "one_liner": "A new kind of China Shock",
-   "why_now": null,
+   "title": "미국, 중국 제재 강화 움직임",
+   "one_liner": "미국이 이란 제재와 관련해 중국에 대한 압박을 강화할 것으로 보여요.",
+   "why_now": "미국이 중국에 대한 제재를 강화하면 국제 유가와 원자재 가격에 영향을 줄 수 있어요.",
    "details": [
-    "A new kind of China Shock",
-    "China builds new - crop US soybean purchases ahead of shipping season",
-    "Iran Sanctions Threat Puts Trump on Collision Course With China"
+    "미국이 이란 제재와 관련해 중국에 대한 제재를 강화할 가능성이 있어요.",
+    "이는 중국의 대 이란 교역에 영향을 줄 수 있어요.",
+    "중국은 미국의 제재 캠페인에 가장 큰 시험대가 될 수 있어요.",
+    "중국 내에서는 인공지능(AI)의 영향으로 일자리를 잃을까 걱정하는 목소리도 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "중국의 대 이란 교역이 줄면 국제 유가 상승 압력이 커질 수 있어요!",
+    "국제 유가 상승은 한국의 수입 물가 상승으로 이어질 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "c9729fac519f20cb59d26b7b6b81b50beab90fea"

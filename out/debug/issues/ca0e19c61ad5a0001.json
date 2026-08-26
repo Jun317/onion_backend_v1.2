@@ -872,8 +872,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-26T02:05:22.093611+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-26T05:56:35.281157+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -886,26 +886,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"이란, 석유 수출 중단 위협\",\n  \"one_liner\": \"이란이 미국의 경제 제재에 맞서 모든 석유 수출을 중단하겠다고 위협했어요.\",\n  \"why_now\": \"이란의 석유 수출 중단 위협은 국제 유가를 끌어올려 전 세계 경제에 영향을 줄 수 있어요.\",\n  \"impact_line\": \"국제 유가가 오르면 국내 주유비와 생필품 가격이 오를 수 있어요.\",\n  \"details\": [\n    \"이란이 미국의 경제 제재를 '경제 전쟁'으로 규정했어요.\",\n    \"이란은 미국의 제재에 대응해 모든 석유 수출을 멈추겠다고 밝혔어요.\",\n    \"이 소식에 국제 유가가 하락세를 보였어요.\",\n    \"전 세계 주식 시장도 미국의 구체적인 제재 내용을 기다리며 관망세를 보이고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"국제 유가가 오르면 에너지 수입 의존도가 높은 한국의 물가 상승 압력이 커질 수 있어요!\",\n    \"석유 수출 차질 우려가 커지면 관련 국가들의 경제 상황이 불안정해질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"석유 수출\",\n      \"easy\": \"나라에서 생산한 석유를 다른 나라에 파는 것을 말해요.\",\n      \"example\": \"우리나라는 석유를 수출하지 않고 대부분 수입해요.\"\n    },\n    {\n      \"term\": \"경제 제재\",\n      \"easy\": \"한 나라가 다른 나라의 잘못된 행동을 막기 위해 경제적으로 압박하는 것을 말해요.\",\n      \"example\": \"미국이 이란의 핵 개발을 막기 위해 경제 제재를 가하고 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "US vows  economic D…",
-   "one_liner": "US vows  economic D - Day  as Iran threatens to…",
-   "why_now": null,
+   "title": "이란, 석유 수출 중단 위협",
+   "one_liner": "이란이 미국의 경제 제재에 맞서 모든 석유 수출을 중단하겠다고 위협했어요.",
+   "why_now": "이란의 석유 수출 중단 위협은 국제 유가를 끌어올려 전 세계 경제에 영향을 줄 수 있어요.",
    "details": [
-    "US vows  economic D - Day  as Iran threatens to halt all oil exports",
-    "Not a single drop : Iran threatens to halt Gulf oil exports over US  economic war",
-    "US vows  economic D - Day  as Iran threatens oil exports"
+    "이란이 미국의 경제 제재를 '경제 전쟁'으로 규정했어요.",
+    "이란은 미국의 제재에 대응해 모든 석유 수출을 멈추겠다고 밝혔어요.",
+    "이 소식에 국제 유가가 하락세를 보였어요.",
+    "전 세계 주식 시장도 미국의 구체적인 제재 내용을 기다리며 관망세를 보이고 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "국제 유가가 오르면 에너지 수입 의존도가 높은 한국의 물가 상승 압력이 커질 수 있어요!",
+    "석유 수출 차질 우려가 커지면 관련 국가들의 경제 상황이 불안정해질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "ee7a955e000569b1e9cf0b2a0553951d9752ea90"
  },
