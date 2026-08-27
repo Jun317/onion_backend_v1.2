@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-26T09:08:58.242646+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-27T10:02:51.259410+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -881,26 +881,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"비트코인 3개월 만에 최고가\",\n  \"one_liner\": \"비트코인 가격이 8만 달러를 넘어서며 3개월 만에 가장 높은 수준을 기록했어요.\",\n  \"why_now\": \"비트코인 가격이 오르면 투자자들의 관심이 다시 높아지고 암호화폐 시장 전반에 영향을 줄 수 있어요.\",\n  \"impact_line\": \"암호화폐에 투자한 사람들의 자산 가치가 오를 수 있어요.\",\n  \"details\": [\n    \"비트코인 가격이 8만 달러를 돌파했어요.\",\n    \"이는 최근 3개월 내 최고 상승폭이에요.\",\n    \"안전 자산을 찾는 투자자들이 늘어난 영향으로 보여요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"다른 암호화폐 가격도 함께 오를 가능성이 있어요!\",\n    \"암호화폐 시장에 대한 투자자들의 관심이 다시 높아질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"비트코인\",\n      \"easy\": \"인터넷으로 거래되는 디지털 화폐의 한 종류예요.\",\n      \"example\": \"비트코인으로 물건을 사거나 팔 수 있어요.\"\n    },\n    {\n      \"term\": \"암호화폐\",\n      \"easy\": \"컴퓨터 기술로 암호를 만들어 안전하게 거래하는 디지털 자산이에요.\",\n      \"example\": \"비트코인, 이더리움 등이 암호화폐에 해당해요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Vision Media Ranks…",
-   "one_liner": "Vision Media Ranks on Inc . 5000 2026 Fastest -…",
-   "why_now": null,
+   "title": "비트코인 3개월 만에 최고가",
+   "one_liner": "비트코인 가격이 8만 달러를 넘어서며 3개월 만에 가장 높은 수준을 기록했어요.",
+   "why_now": "비트코인 가격이 오르면 투자자들의 관심이 다시 높아지고 암호화폐 시장 전반에 영향을 줄 수 있어요.",
    "details": [
-    "Vision Media Ranks on Inc . 5000 2026 Fastest - Growing Private Companies List for 2nd Time",
-    "HSBC buys at least US$3 billion of India bonds after deposit boost",
-    "US sanctions , AI jitters and investors search for safer ground - ATV Today"
+    "비트코인 가격이 8만 달러를 돌파했어요.",
+    "이는 최근 3개월 내 최고 상승폭이에요.",
+    "안전 자산을 찾는 투자자들이 늘어난 영향으로 보여요."
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "다른 암호화폐 가격도 함께 오를 가능성이 있어요!",
+    "암호화폐 시장에 대한 투자자들의 관심이 다시 높아질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "b8ae800c6ab9cf94d78d7045b4360c12b3a6aec1"
  },

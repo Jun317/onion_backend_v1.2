@@ -874,7 +874,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-26T09:08:26.563930+00:00",
+  "created_at": "2026-08-27T10:02:09.170815+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,12 +887,22 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"미국, 이란에 새 경제 제재 발표\",\n\"one_liner\": \"미국 재무장관이 이란의 모든 수입원을 차단하기 위한 새 경제 제재를 발표했어요.\",\n\"why_now\": \"이란에 대한 경제 제재는 국제 유가에 영향을 줄 수 있어 주목해야 해요.\",\n\"impact_line\": \"국제 유가가 오르면 국내 휘발유 가격도 오를 수 있어요.\",\n\"details\": [\n\"미국 재무장관이 이란에 대한 새로운 경제 제재를 발표했습니다.\",\n\"이번 제재는 이란의 모든 잠재적 수입원을 차단하는 것을 목표로 합니다.\",\n\"미국은 이란을 고립시키기 위해 이 제재를 발표했습니다.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"이란의 석유 수출이 줄면 국제 유가가 오를 수 있어요!\",\n\"국제 유가 상승은 항공료, 해상 운송료 등 물가 전반에 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"경제 제재\",\n\"easy\": \"특정 국가의 잘못된 행동을 막기 위해 경제적으로 압박하는 조치를 말해요.\",\n\"example\": \"미국이 북한에 대한 경제 제재를 발표했습니다.\"\n}\n],\n\"impact_line\": \"국제 유가가 오르면 국내 휘발유 가격도 오를 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details[0] 어요체 아님",
+     "details[1] 어요체 아님",
+     "details[2] 어요체 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details[0] 어요체 아님",
+     "details[1] 어요체 아님",
+     "details[2] 어요체 아님"
     ]
    }
   ],
@@ -911,8 +921,8 @@
   "fact_hash": "ae653c6503930f36fa7986b4360409d4d71362ab"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-26T09:08:26.563812+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\"]}]}",
+  "at": "2026-08-27T10:02:09.170683+00:00"
  },
  "glossary": [],
  "related": [
@@ -942,21 +952,21 @@
    ]
   },
   {
-   "id": "c78995e710f8b7506",
-   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
-   "category": "POLICY",
-   "shared": [
-    "IRAN",
-    "SEC"
-   ]
-  },
-  {
    "id": "c3cd94c43ef31fc17",
    "title": "South Korea , India eye Arctic route after China regular service launch",
    "category": "GEO",
    "shared": [
     "IRAN",
     "NVDA",
+    "SEC"
+   ]
+  },
+  {
+   "id": "c78995e710f8b7506",
+   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
+   "category": "POLICY",
+   "shared": [
+    "IRAN",
     "SEC"
    ]
   }

@@ -2,7 +2,7 @@
  "id": "c78995e710f8b7506",
  "title": "Amazon to expand drone delivery of light packages to 500 US cities",
  "category": "POLICY",
- "status": "active",
+ "status": "stale",
  "origin": "cluster",
  "frozen": 1,
  "anchor_key": null,
@@ -14,7 +14,7 @@
   "SEC"
  ],
  "seen_sources": 27,
- "importance": 140,
+ "importance": 135,
  "created_at": "2026-08-20T08:02:52.092181+00:00",
  "last_update": "2026-08-24T09:10:18.423502+00:00",
  "members": [
@@ -856,8 +856,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-26T09:08:16.023639+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-27T10:01:46.209274+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -870,25 +870,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"아마존, 드론 배달 확대\",\n  \"one_liner\": \"아마존이 미국 500개 도시에서 드론으로 가벼운 물건 배달을 시작해요.\",\n  \"why_now\": \"드론 배달은 더 빠르고 효율적인 물류 시스템을 만들 수 있어요.\",\n  \"impact_line\": \"물건을 더 빨리 받아볼 수 있게 될 수 있어요.\",\n  \"details\": [\n    \"아마존은 드론 배달 서비스를 미국 500개 도시로 넓힐 계획이에요.\",\n    \"이 서비스는 가벼운 상품 배달에 집중될 거예요.\",\n    \"일부에서는 아마존 주식이 저렴하다는 분석도 있어요.\",\n    \"다른 회사들의 실적도 아마존과 연관되어 주목받고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"배달 시간이 단축되어 소비자들이 더 편리함을 느낄 수 있어요!\",\n    \"물류 비용 절감으로 이어져 아마존의 수익성이 개선될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"드론\",\n      \"easy\": \"사람이 타지 않고 조종하는 비행체예요.\",\n      \"example\": \"드론으로 택배를 배달하는 시범 사업이 진행되고 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Amazon Stock Is…",
-   "one_liner": "Amazon Stock Is Historically Cheap . Is This a…",
-   "why_now": null,
+   "title": "아마존, 드론 배달 확대",
+   "one_liner": "아마존이 미국 500개 도시에서 드론으로 가벼운 물건 배달을 시작해요.",
+   "why_now": "드론 배달은 더 빠르고 효율적인 물류 시스템을 만들 수 있어요.",
    "details": [
-    "Amazon Stock Is Historically Cheap . Is This a Once - in - a - Decade Buying Opportunity ?",
-    "Amazon to expand drone delivery of light packages to 500 US cities",
-    "Billionaire David Tepper Has 16 % of His $7 . 5 Billion Appaloosa Portfolio in Amazon Stock . Is It Still a Buy ?"
+    "아마존은 드론 배달 서비스를 미국 500개 도시로 넓힐 계획이에요.",
+    "이 서비스는 가벼운 상품 배달에 집중될 거예요.",
+    "일부에서는 아마존 주식이 저렴하다는 분석도 있어요.",
+    "다른 회사들의 실적도 아마존과 연관되어 주목받고 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "배달 시간이 단축되어 소비자들이 더 편리함을 느낄 수 있어요!",
+    "물류 비용 절감으로 이어져 아마존의 수익성이 개선될 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "046786b1ae2c42b5d06de7f8d46088e1e97e313a"
@@ -933,8 +935,8 @@
    ]
   },
   {
-   "id": "c419df2138556f8cb",
-   "title": "Federal debt ticks over $1 trillion for the first time",
+   "id": "ce25b81c76ebfd941",
+   "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
    "category": "FX",
    "shared": [
     "IRAN",

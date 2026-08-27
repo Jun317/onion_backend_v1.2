@@ -770,7 +770,45 @@
    "at": "2026-08-22T11:00:00+00:00"
   }
  ],
- "llm": null,
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-27T10:02:40.404612+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Broadcom ( AVGO ) Massive New Debt Deal Points To Where AI Is Headed",
+    "D . E . Shaw Just Disclosed a $912 Million SpaceX Stake and a 58 % Broadcom Cut in the Same Quarter",
+    "Private Advisory Group LLC Makes New Investment in Broadcom Inc . $AVGO",
+    "Broadcom ( NASDAQ : AVGO ) Given  Sector Perform  Rating at Royal Bank Of Canada",
+    "A Leading Hedge Fund Just Placed Massive Bets on Broadcom and Intel Stocks . Should You Follow Suit ?"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"브로드컴 주식 관련 보도\",\n  \"one_liner\": \"브로드컴 주식에 대한 다양한 투자 소식이 나왔어요.\",\n  \"why_now\": \"브로드컴은 인공지능 분야에서 중요한 역할을 하는 기업으로 알려져 있어요.\",\n  \"impact_line\": null,\n  \"details\": [\n    \"한 헤지펀드가 브로드컴과 인텔 주식에 큰 투자를 했다는 보도가 나왔어요.\",\n    \"D.E. 쇼라는 자문 그룹은 스페이스X 주식을 보유하고 브로드컴 주식은 줄였다고 해요.\",\n    \"로열 캐나다 은행은 브로드컴 주식에 대해 '섹터 퍼폼' 등급을 부여했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"인공지능 관련 기업들의 주가 움직임에 영향을 줄 수 있어요!\",\n    \"투자자들의 관심이 브로드컴과 같은 기술 기업에 집중될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"헤지펀드\",\n      \"easy\": \"고액 자산가나 기관 투자자들의 돈을 모아 공격적으로 투자하는 펀드예요.\",\n      \"example\": \"헤지펀드는 일반 펀드보다 높은 수익을 추구하지만, 그만큼 위험도 커요.\"\n    },\n    {\n      \"term\": \"섹터 퍼폼\",\n      \"easy\": \"증권사에서 특정 기업의 주가 전망을 나타내는 등급 중 하나예요.\",\n      \"example\": \"섹터 퍼폼 등급은 해당 기업의 주가가 속한 산업 평균 수준의 성과를 낼 것으로 예상한다는 뜻이에요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "브로드컴 주식 관련 보도",
+   "one_liner": "브로드컴 주식에 대한 다양한 투자 소식이 나왔어요.",
+   "why_now": "브로드컴은 인공지능 분야에서 중요한 역할을 하는 기업으로 알려져 있어요.",
+   "details": [
+    "한 헤지펀드가 브로드컴과 인텔 주식에 큰 투자를 했다는 보도가 나왔어요.",
+    "D.E. 쇼라는 자문 그룹은 스페이스X 주식을 보유하고 브로드컴 주식은 줄였다고 해요.",
+    "로열 캐나다 은행은 브로드컴 주식에 대해 '섹터 퍼폼' 등급을 부여했어요."
+   ],
+   "effects": [
+    "인공지능 관련 기업들의 주가 움직임에 영향을 줄 수 있어요!",
+    "투자자들의 관심이 브로드컴과 같은 기술 기업에 집중될 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "7a6dcf3361b16a15d257ec8622fc72bef4f5ea76"
+ },
  "review": null,
  "glossary": [],
  "related": [
@@ -792,14 +830,6 @@
    ]
   },
   {
-   "id": "c78995e710f8b7506",
-   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
-   "category": "POLICY",
-   "shared": [
-    "SEC"
-   ]
-  },
-  {
    "id": "c3cd94c43ef31fc17",
    "title": "South Korea , India eye Arctic route after China regular service launch",
    "category": "GEO",
@@ -809,8 +839,16 @@
    ]
   },
   {
-   "id": "c419df2138556f8cb",
-   "title": "Federal debt ticks over $1 trillion for the first time",
+   "id": "c78995e710f8b7506",
+   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
+   "category": "POLICY",
+   "shared": [
+    "SEC"
+   ]
+  },
+  {
+   "id": "ce25b81c76ebfd941",
+   "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
    "category": "FX",
    "shared": [
     "SEC"

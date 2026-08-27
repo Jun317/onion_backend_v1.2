@@ -790,8 +790,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-26T09:09:51.273570+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-27T10:03:46.108872+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -804,26 +804,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"코스피 하락\",\n  \"one_liner\": \"한국 주식 시장인 코스피가 2% 하락했어요.\",\n  \"why_now\": \"반도체 관련 주식들이 큰 폭으로 떨어지면서 시장 전체에 영향을 미쳤어요.\",\n  \"impact_line\": \"주식 투자자들의 자산 가치가 줄어들 수 있어요.\",\n  \"details\": [\n    \"코스피 지수가 2% 하락했어요.\",\n    \"특히 반도체 관련 주식들의 하락세가 두드러졌어요.\",\n    \"이러한 하락은 주요 반도체 기업의 실적 발표를 앞두고 발생했어요.\",\n    \"아시아 증시 전반의 흐름과도 연관된 움직임이에요.\"\n  ],\n  \"visual_type\": \"kospi_close\",\n  \"effects\": [\n    \"반도체 기업들의 실적이 예상보다 좋지 않으면, 관련 투자 심리가 위축될 수 있어요!\",\n    \"다른 아시아 증시도 비슷한 흐름을 보일 수 있어 전반적인 투자 환경이 어려워질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"코스피\",\n      \"easy\": \"한국의 대표적인 주식 시장 지수예요. 코스피가 오르면 주식 시장 전체가 좋다고 보고, 내리면 나쁘다고 봐요.\",\n      \"example\": \"코스피가 5% 넘게 오르면서 투자자들의 얼굴에 웃음꽃이 피었어요.\"\n    },\n    {\n      \"term\": \"반도체\",\n      \"easy\": \"컴퓨터나 스마트폰 같은 전자 제품의 핵심 부품인 칩을 만드는 산업이에요.\",\n      \"example\": \"반도체 가격이 오르면 스마트폰이나 컴퓨터 가격도 오를 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Global Market :…",
-   "one_liner": "Global Market : Kospi drops 2 % as chip stocks…",
-   "why_now": null,
+   "title": "코스피 하락",
+   "one_liner": "한국 주식 시장인 코스피가 2% 하락했어요.",
+   "why_now": "반도체 관련 주식들이 큰 폭으로 떨어지면서 시장 전체에 영향을 미쳤어요.",
    "details": [
-    "Global Market : Kospi drops 2 % as chip stocks tumble ahead of Nvidia earnings",
-    "Stock market prediction tomorrow , 25 August : What will happen to Sensex , Nifty Bank , Nifty , KOSPI , Nikkei on Tuesday ?",
-    "World market report : Asian shares advance with Kospi up 6 %"
+    "코스피 지수가 2% 하락했어요.",
+    "특히 반도체 관련 주식들의 하락세가 두드러졌어요.",
+    "이러한 하락은 주요 반도체 기업의 실적 발표를 앞두고 발생했어요.",
+    "아시아 증시 전반의 흐름과도 연관된 움직임이에요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "반도체 기업들의 실적이 예상보다 좋지 않으면, 관련 투자 심리가 위축될 수 있어요!",
+    "다른 아시아 증시도 비슷한 흐름을 보일 수 있어 전반적인 투자 환경이 어려워질 수 있어요!"
+   ],
+   "visual_type": "kospi_close"
   },
   "fact_hash": "f96c96a477d4ba5fb27539a455e5393a231f30fd"
  },
@@ -831,7 +833,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-26T09:09:51.273504+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "코스피",
+   "easy": "한국 대표 기업들의 주가를 묶어 보여주는 값이에요.",
+   "example": "오르면 큰 기업 주가가 대체로 올랐다는 뜻이에요."
+  }
+ ],
  "related": [
   {
    "id": "c03074aeed49bf60f",

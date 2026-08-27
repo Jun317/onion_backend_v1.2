@@ -7,10 +7,10 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 80,
+ "seen_sources": 4,
+ "importance": 90,
  "created_at": "2026-08-26T23:47:27.364138+00:00",
- "last_update": "2026-08-26T23:47:27.365560+00:00",
+ "last_update": "2026-08-27T10:01:36.948550+00:00",
  "members": [
   {
    "id": "9f57e6cfdc5a1aba3220a06a48998a561c8197f8",
@@ -20,7 +20,27 @@
    "title": "Eastman Kodak Gets a united kingdom Distributor for its Rebranded Films",
    "published_at": "2026-08-26T20:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9598
+   "sim_to_centroid": 0.9573
+  },
+  {
+   "id": "3775ddbdcba5386f6bf72dfb0264234f34a2176d",
+   "source": "jowhar.com",
+   "tier": "wire",
+   "url": "https://jowhar.com/iceland-holds-tight-referendum-on-restarting-european-union-membership-talks/",
+   "title": "Iceland Holds Tight Referendum on Restarting European Union Membership Talks",
+   "published_at": "2026-08-26T20:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8766
+  },
+  {
+   "id": "38998ba1f9e11b143fe802f6c6d73b9feae489fb",
+   "source": "mining.com",
+   "tier": "wire",
+   "url": "https://www.mining.com/web/lynas-expands-global-footprint-eyes-new-rare-earths-supply-deals/",
+   "title": "Lynas expands global footprint , eyes new rare earths supply deals",
+   "published_at": "2026-08-26T20:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.871
   },
   {
    "id": "6ae52ab5fc2c3dd1486d3aee7f4295136e2c6df9",
@@ -30,7 +50,7 @@
    "title": "Loblaw is bringing back country of origin labels amid  Buy Canadian  push - National",
    "published_at": "2026-08-26T20:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9598
+   "sim_to_centroid": 0.9556
   }
  ],
  "anchors": [],
@@ -48,10 +68,63 @@
    "source": "globalnews.ca",
    "url": "https://globalnews.ca/news/12036392/loblaw-country-of-origin-buy-canadian/",
    "at": "2026-08-26T20:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Iceland Holds Tight Referendum on Restarting European Union Membership Talks",
+   "source": "jowhar.com",
+   "url": "https://jowhar.com/iceland-holds-tight-referendum-on-restarting-european-union-membership-talks/",
+   "at": "2026-08-26T20:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Lynas expands global footprint , eyes new rare earths supply deals",
+   "source": "mining.com",
+   "url": "https://www.mining.com/web/lynas-expands-global-footprint-eyes-new-rare-earths-supply-deals/",
+   "at": "2026-08-26T20:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-27T10:05:55.785710+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Eastman Kodak Gets a united kingdom Distributor for its Rebranded Films",
+    "Iceland Holds Tight Referendum on Restarting European Union Membership Talks",
+    "Lynas expands global footprint , eyes new rare earths supply deals",
+    "Loblaw is bringing back country of origin labels amid  Buy Canadian  push - National"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Eastman Kodak Gets a…",
+   "one_liner": "Eastman Kodak Gets a united kingdom Distributor…",
+   "why_now": null,
+   "details": [
+    "Eastman Kodak Gets a united kingdom Distributor for its Rebranded Films",
+    "Iceland Holds Tight Referendum on Restarting European Union Membership Talks",
+    "Lynas expands global footprint , eyes new rare earths supply deals"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "ad94ab9c9dff4764ce12842b7792da213bb1bed0"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-27T10:05:55.785659+00:00"
+ },
  "glossary": [],
  "related": [
   {

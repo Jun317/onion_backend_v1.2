@@ -7,10 +7,10 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 70,
+ "seen_sources": 5,
+ "importance": 85,
  "created_at": "2026-08-26T23:47:27.362538+00:00",
- "last_update": "2026-08-26T23:47:27.365370+00:00",
+ "last_update": "2026-08-27T10:01:36.949288+00:00",
  "members": [
   {
    "id": "8d20d4c6fa10c8a4d8963e4406c67771583b2c29",
@@ -20,7 +20,7 @@
    "title": "Truth Will Out - The Daily Reckoning",
    "published_at": "2026-08-26T20:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9593
+   "sim_to_centroid": 0.9537
   },
   {
    "id": "7021bd964a781e720269e00c8e96bd726b1556ea",
@@ -30,7 +30,37 @@
    "title": "Trump Trade War to Spike Cost of All - Important Household Staple",
    "published_at": "2026-08-26T20:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9593
+   "sim_to_centroid": 0.9539
+  },
+  {
+   "id": "df414ab11aade81193eafe2d39ac630a1889cf9f",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-bath-body-works-bbwi-192313688.html",
+   "title": "Why Are Bath and Body Works ( BBWI ) Shares Soaring Today",
+   "published_at": "2026-08-26T20:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8773
+  },
+  {
+   "id": "b538f33dcc9e65f347bf30a84041e9f308e1ae50",
+   "source": "redstate.com",
+   "tier": "wire",
+   "url": "https://redstate.com/bobhoge/2026/08/26/something-in-the-water-two-ma-public-officials-charged-with-massively-pillaging-covid-relief-funds-n2206102",
+   "title": "Something in the Water ? Two MA Public Officials Charged With Massively Pillaging COVID Relief Funds",
+   "published_at": "2026-08-26T20:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.873
+  },
+  {
+   "id": "b2db9b8250755a7bc6faf6beb55459c05a580d0c",
+   "source": "nakedcapitalism.com",
+   "tier": "wire",
+   "url": "https://www.nakedcapitalism.com/2026/08/south-carolina-darline-graham-lindsey-donald-trump-clyburn.html",
+   "title": "Someone Stupid Heads From South Carolina to DC",
+   "published_at": "2026-08-26T20:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8882
   }
  ],
  "anchors": [],
@@ -48,10 +78,71 @@
    "source": "thedailybeast.com",
    "url": "https://www.thedailybeast.com/trumps-trade-war-to-spike-cost-of-all-important-household-staple/",
    "at": "2026-08-26T20:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Why Are Bath and Body Works ( BBWI ) Shares Soaring Today",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-bath-body-works-bbwi-192313688.html",
+   "at": "2026-08-26T20:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Something in the Water ? Two MA Public Officials Charged With Massively Pillaging COVID Relief Funds",
+   "source": "redstate.com",
+   "url": "https://redstate.com/bobhoge/2026/08/26/something-in-the-water-two-ma-public-officials-charged-with-massively-pillaging-covid-relief-funds-n2206102",
+   "at": "2026-08-26T20:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Someone Stupid Heads From South Carolina to DC",
+   "source": "nakedcapitalism.com",
+   "url": "https://www.nakedcapitalism.com/2026/08/south-carolina-darline-graham-lindsey-donald-trump-clyburn.html",
+   "at": "2026-08-26T20:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-27T10:07:28.918494+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Truth Will Out - The Daily Reckoning",
+    "Trump Trade War to Spike Cost of All - Important Household Staple",
+    "Why Are Bath and Body Works ( BBWI ) Shares Soaring Today",
+    "Something in the Water ? Two MA Public Officials Charged With Massively Pillaging COVID Relief Funds",
+    "Someone Stupid Heads From South Carolina to DC"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Truth Will Out - The…",
+   "one_liner": "Truth Will Out - The Daily Reckoning",
+   "why_now": null,
+   "details": [
+    "Truth Will Out - The Daily Reckoning",
+    "Trump Trade War to Spike Cost of All - Important Household Staple",
+    "Why Are Bath and Body Works ( BBWI ) Shares Soaring Today"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "ca607c244e42b035697c5dd36b547c1668a03d01"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-27T10:07:28.918444+00:00"
+ },
  "glossary": [],
  "related": [
   {
@@ -67,12 +158,6 @@
    "shared": []
   },
   {
-   "id": "ccfed1fdc37fed6e8",
-   "title": "JPMorgan Claverhouse ( LON : JCH ) Stock Price Passes Above 50 - Day Moving Average – Here Why",
-   "category": "GEO",
-   "shared": []
-  },
-  {
    "id": "c92542f0fffea30a9",
    "title": "Exclusive - US to tell partners they must pick sides in AI race with China",
    "category": "GEO",
@@ -81,6 +166,12 @@
   {
    "id": "c7465c605cefc2941",
    "title": "Iran kicks As Trump Says Hormuz Will Become US Territory After War – Daily Trust",
+   "category": "GEO",
+   "shared": []
+  },
+  {
+   "id": "ccfed1fdc37fed6e8",
+   "title": "JPMorgan Claverhouse ( LON : JCH ) Stock Price Passes Above 50 - Day Moving Average – Here Why",
    "category": "GEO",
    "shared": []
   }

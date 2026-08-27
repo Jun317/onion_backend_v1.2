@@ -7,10 +7,10 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 80,
+ "seen_sources": 3,
+ "importance": 85,
  "created_at": "2026-08-26T23:47:27.363897+00:00",
- "last_update": "2026-08-26T23:47:27.365529+00:00",
+ "last_update": "2026-08-27T10:01:36.949698+00:00",
  "members": [
   {
    "id": "d6d1458f3dc11db3953e93ae1a47b426e800cbb4",
@@ -20,7 +20,17 @@
    "title": "Maine Lobstermen Association warns Canadian tariffs could devastate Maine fall lobster fishery",
    "published_at": "2026-08-26T20:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9624
+   "sim_to_centroid": 0.9611
+  },
+  {
+   "id": "517e141f73bec1923017c30f4a4bb13d75144144",
+   "source": "ocregister.com",
+   "tier": "wire",
+   "url": "https://www.ocregister.com/2026/08/26/california-lawmakers-oppose-insurance-fire-claims-limits/",
+   "title": "California lawmakers oppose insurance fire claims limits",
+   "published_at": "2026-08-26T20:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8651
   },
   {
    "id": "2a56fb68621038bd203d91586b2a8e43fc32fa00",
@@ -30,7 +40,7 @@
    "title": "Wood cluster CEO warns of tariff job losses , closings",
    "published_at": "2026-08-26T20:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9624
+   "sim_to_centroid": 0.9606
   }
  ],
  "anchors": [],
@@ -44,14 +54,59 @@
   },
   {
    "kind": "headline",
+   "title": "California lawmakers oppose insurance fire claims limits",
+   "source": "ocregister.com",
+   "url": "https://www.ocregister.com/2026/08/26/california-lawmakers-oppose-insurance-fire-claims-limits/",
+   "at": "2026-08-26T20:15:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Wood cluster CEO warns of tariff job losses , closings",
    "source": "shorelinebeacon.com",
    "url": "https://www.shorelinebeacon.com:443/news/local-news/wood-cluster-ceo-warns-of-tariff-job-losses-closings",
    "at": "2026-08-26T20:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-27T10:07:18.573424+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Maine Lobstermen Association warns Canadian tariffs could devastate Maine fall lobster fishery",
+    "California lawmakers oppose insurance fire claims limits",
+    "Wood cluster CEO warns of tariff job losses , closings"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Maine Lobstermen…",
+   "one_liner": "Maine Lobstermen Association warns Canadian…",
+   "why_now": null,
+   "details": [
+    "Maine Lobstermen Association warns Canadian tariffs could devastate Maine fall lobster fishery",
+    "California lawmakers oppose insurance fire claims limits",
+    "Wood cluster CEO warns of tariff job losses , closings"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "b1faff91363a7baa733c1bfa83491be58663bbe3"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-27T10:07:18.573372+00:00"
+ },
  "glossary": [],
  "related": [
   {

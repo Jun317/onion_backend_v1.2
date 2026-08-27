@@ -88,7 +88,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-26T09:09:08.895673+00:00",
+  "created_at": "2026-08-27T10:03:24.633759+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -100,12 +100,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"미국 은행 금값 전망\", \"one_liner\": \"미국 은행이 금값이 5천 달러까지 오를 수 있다고 전망했어요.\", \"why_now\": \"금값은 경제 불확실성이 커질 때 오르는 경향이 있어 주목할 만해요.\", \"impact_line\": \"금값 상승은 장바구니 물가에 영향을 줄 수 있어요.\", \"details\": [\"미국 은행은 금값이 5천 달러까지 오를 수 있다고 봤어요.\", \"이 은행은 최근 금값 전망을 내놓았어요.\"], \"visual_type\": \"none\", \"effects\": [\"금값이 오르면 금으로 만든 제품 가격이 오를 수 있어요!\", \"안전자산으로 여겨지는 금에 대한 관심이 높아질 수 있어요!\"], \"glossary\": [{\"term\": \"금값\", \"easy\": \"금의 시장 가격을 말해요.\", \"example\": \"금값이 오르면 금반지 가격도 오를 수 있어요.\"}], \"investments\": []}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -124,8 +131,8 @@
   "fact_hash": "ab6dc8680ece0ba9099e1868b4ca109d54da68bb"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-26T09:09:08.895579+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-27T10:03:24.633692+00:00"
  },
  "glossary": [],
  "related": [

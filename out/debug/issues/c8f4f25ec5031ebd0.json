@@ -866,13 +866,59 @@
    "at": "2026-08-26T10:30:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-27T10:03:56.444369+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [],
+   "headlines": [
+    "AP News in Brief at 6 : 04 a . m . EDT",
+    "South African miners accelerate shift to renewable power to cut Eskom reliance",
+    "Five types of home to see steepest energy bill rises in October",
+    "Applied Nutrition hikes outlook after revenues jump 50 %",
+    "Atiku fuel subsidy and Tinubu church rat"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "AP News in Brief at…",
+   "one_liner": "AP News in Brief at 6 : 04 a . m . EDT",
+   "why_now": null,
+   "details": [
+    "AP News in Brief at 6 : 04 a . m . EDT",
+    "South African miners accelerate shift to renewable power to cut Eskom reliance",
+    "Five types of home to see steepest energy bill rises in October"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "63cc7b131186b6bbf8f8a46b774b67d462d18666"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-27T10:03:56.444265+00:00"
+ },
  "glossary": [],
  "related": [
   {
    "id": "c36cc1170a4ab9574",
    "title": "US housing affordability gauge worsens for first time since 2023",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c4999c7a14c19859d",
+   "title": "Gold price retreats from three - month high as inflation US gauge runs warm",
    "category": "MACRO",
    "shared": []
   }

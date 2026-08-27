@@ -735,45 +735,50 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-26T08:05:45.079151+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-27T10:03:33.901749+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
-    "Iraq may show how U . S . can squeeze Iran trade partners",
+    "Could Korea get caught in the crossfire of new US sanctions targeting Iran ?",
+    "China economic lever that could derail US sanctions on Iran",
+    "Iran gas lines are growing ; leaders refuse to bow to US sanctions",
+    "Iran says new US sanctions wont derail economy , has plan for next 2 years",
     "What countries do business with Iran , and who buying its oil ?"
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"이란과 거래하는 국가\", \"one_liner\": \"미국이 이란과 거래하는 국가들을 압박할 수 있다는 분석이 나왔어요.\", \"why_now\": \"이란과 거래하는 국가들을 알면 국제 정세 변화를 이해하는 데 도움이 돼요.\", \"impact_line\": null, \"details\": [\"미국이 이란과 거래하는 국가들을 압박할 수 있다는 분석이 나왔어요.\", \"이란의 석유를 누가 사는지 주목하고 있어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"이란\", \"easy\": \"중동에 있는 나라 이름이에요.\", \"example\": \"이란은 석유가 많이 나는 나라로 알려져 있어요.\"}, {\"term\": \"석유\", \"easy\": \"땅속에서 나오는 검은색 기름으로, 자동차 연료 등으로 쓰여요.\", \"example\": \"석유 가격이 오르면 주유비가 비싸져요.\"}]}",
+  "raw_response": "{\n  \"title\": \"미국의 이란 제재와 한국\",\n  \"one_liner\": \"미국이 이란에 새로운 제재를 가하면서 한국 경제에 미칠 영향이 주목받고 있어요.\",\n  \"why_now\": \"이란에 대한 제재는 국제 유가에 영향을 미쳐 한국의 에너지 수입 비용을 올릴 수 있어요.\",\n  \"impact_line\": \"국제 유가 상승으로 생활 물가가 오를 수 있어요.\",\n  \"details\": [\n    \"미국이 이란에 새로운 제재를 가할 가능성이 있어요.\",\n    \"이란은 미국의 제재에도 경제를 유지할 계획을 가지고 있다고 해요.\",\n    \"중국이 미국의 이란 제재에 영향을 줄 수 있는 경제적 힘을 가지고 있어요.\",\n    \"이란의 가스 생산량이 늘고 있다는 소식도 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"국제 유가가 오르면 한국의 에너지 수입 비용이 늘어날 수 있어요!\",\n    \"이란과 거래하는 국가들이 미국의 제재 대상에 포함될 수 있어 국제 경제의 불확실성이 커질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"제재\",\n      \"easy\": \"나라 간의 외교적 갈등으로 상대방 나라가 경제적으로 어려움을 겪도록 하는 조치예요.\",\n      \"example\": \"미국이 특정 국가에 대해 무역을 금지하는 것이 제재의 한 예예요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
     "errors": [
-     "details 3문장 미만"
+     "why_now 55자 초과(58)"
     ]
    },
    {
     "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
+    "errors": []
    }
   ],
   "output": {
-   "title": "Iraq may show how U…",
-   "one_liner": "Iraq may show how U . S . can squeeze Iran trade…",
-   "why_now": null,
+   "title": "미국의 이란 제재와 한국",
+   "one_liner": "미국이 이란에 새로운 제재를 가하면서 한국 경제에 미칠 영향이 주목받고 있어요.",
+   "why_now": "이란에 대한 제재는 국제 유가에 영향을 미쳐 한국의 에너지 수입 비용을 올릴 수 있어요.",
    "details": [
-    "Iraq may show how U . S . can squeeze Iran trade partners",
-    "What countries do business with Iran , and who buying its oil ?"
+    "미국이 이란에 새로운 제재를 가할 가능성이 있어요.",
+    "이란은 미국의 제재에도 경제를 유지할 계획을 가지고 있다고 해요.",
+    "중국이 미국의 이란 제재에 영향을 줄 수 있는 경제적 힘을 가지고 있어요.",
+    "이란의 가스 생산량이 늘고 있다는 소식도 있어요."
    ],
-   "effects": [],
-   "visual_type": "wti"
+   "effects": [
+    "국제 유가가 오르면 한국의 에너지 수입 비용이 늘어날 수 있어요!",
+    "이란과 거래하는 국가들이 미국의 제재 대상에 포함될 수 있어 국제 경제의 불확실성이 커질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
-  "fact_hash": "745dfefeaec50d78fd3f8b1a4bd8ed6742764495"
+  "fact_hash": "ce63cb236a6531dbc8a18e4ca66cfdce2b314ab3"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}]}",
@@ -806,19 +811,19 @@
    ]
   },
   {
-   "id": "c78995e710f8b7506",
-   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
-   "category": "POLICY",
-   "shared": [
-    "IRAN"
-   ]
-  },
-  {
    "id": "c3cd94c43ef31fc17",
    "title": "South Korea , India eye Arctic route after China regular service launch",
    "category": "GEO",
    "shared": [
     "CHINA",
+    "IRAN"
+   ]
+  },
+  {
+   "id": "c78995e710f8b7506",
+   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
+   "category": "POLICY",
+   "shared": [
     "IRAN"
    ]
   }

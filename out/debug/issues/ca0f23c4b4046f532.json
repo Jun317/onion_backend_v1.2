@@ -173,44 +173,58 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-26T09:09:19.468780+00:00",
+  "created_at": "2026-08-27T10:02:28.194273+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
    "headlines": [
-    "The federal government pledged a $7 . 5B tariff - relief package . Here what in it .",
+    "Feds officially announce counter - measures to latest Trump tariffs",
     "The federal government pledged a $7 . 5B tariff - relief package . Here what in it . - Medicine Hat NewsMedicine Hat News",
-    "The Story Behind Roger Federer Bet on On That Became a $300M Fortune",
-    "Feds officially announce counter - measures to latest Trump tariffs"
+    "The federal government pledged a $7 . 5B tariff - relief package . Here what in it .",
+    "Gold , Silver Slip as Surprise US Inflation Boosts Dollar , Fed Rate Forecasts",
+    "Donald Trump eyes four more chances to reshape Fed ; seeks Cook removal over mortgage document"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국, 관세 대응책 발표\",\n  \"one_liner\": \"미국 정부가 새로운 관세에 대응하기 위한 대책을 발표했어요.\",\n  \"why_now\": \"정부가 관세로 인한 피해를 줄이기 위해 지원책을 내놓는 것은 경제에 큰 영향을 줄 수 있어요.\",\n  \"impact_line\": \"물가 상승 가능성에 대비해야 할 수 있어요.\",\n  \"details\": [\n    \"미국 정부가 최근 발표된 관세에 대응하는 정책을 공식적으로 발표했습니다.\",\n    \"정부는 총 75억 달러 규모의 관세 지원책을 약속했습니다.\",\n    \"이 지원책에는 금, 은 가격 하락과 같은 영향도 포함될 수 있습니다.\",\n    \"미국의 예상치 못한 물가 상승은 달러 가치를 높이고 금리 인상 전망을 강화했습니다.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"관세 지원책이 특정 산업이나 기업에 혜택을 줄 수 있어요!\",\n    \"물가 상승 압력이 지속될 경우, 소비자의 구매력이 약화될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 돈이에요.\",\n      \"example\": \"수입 과자에 관세가 붙으면 과자 가격이 오를 수 있어요.\"\n    },\n    {\n      \"term\": \"금리\",\n      \"easy\": \"돈을 빌리거나 맡길 때 적용되는 이자율이에요.\",\n      \"example\": \"금리가 오르면 대출 이자도 보통 함께 올라요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details[0] 어요체 아님",
+     "details[1] 어요체 아님",
+     "details[3] 어요체 아님",
+     "입력에 없는 숫자: [75.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details[0] 어요체 아님",
+     "details[1] 어요체 아님",
+     "details[2] 어요체 아님",
+     "details[3] 어요체 아님",
+     "입력에 없는 숫자: [75.0]"
     ]
    }
   ],
   "output": {
-   "title": "The federal…",
-   "one_liner": "The federal government pledged a $7 . 5B tariff…",
+   "title": "Feds officially…",
+   "one_liner": "Feds officially announce counter - measures to…",
    "why_now": null,
    "details": [
-    "The federal government pledged a $7 . 5B tariff - relief package . Here what in it .",
+    "Feds officially announce counter - measures to latest Trump tariffs",
     "The federal government pledged a $7 . 5B tariff - relief package . Here what in it . - Medicine Hat NewsMedicine Hat News",
-    "The Story Behind Roger Federer Bet on On That Became a $300M Fortune"
+    "The federal government pledged a $7 . 5B tariff - relief package . Here what in it ."
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "43205b62991817350d5b751cf095718882d3c0f4"
+  "fact_hash": "c7d60e4a1d120b2ea3407150c71429b186bf3c2c"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-26T09:09:19.468723+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[3] 어요체 아님\", \"입력에 없는 숫자: [75.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\", \"details[3] 어요체 아님\", \"입력에 없는 숫자: [75.0]\"]}]}",
+  "at": "2026-08-27T10:02:28.194202+00:00"
  },
  "glossary": [],
  "related": [
@@ -229,16 +243,16 @@
    "shared": []
   },
   {
-   "id": "c419df2138556f8cb",
-   "title": "Federal debt ticks over $1 trillion for the first time",
+   "id": "ce25b81c76ebfd941",
+   "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
    "category": "FX",
    "shared": [
     "FED"
    ]
   },
   {
-   "id": "ce25b81c76ebfd941",
-   "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
+   "id": "c419df2138556f8cb",
+   "title": "Federal debt ticks over $1 trillion for the first time",
    "category": "FX",
    "shared": [
     "FED"
