@@ -870,8 +870,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-28T05:34:07.319800+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-28T18:55:04.550893+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -884,25 +884,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"이란 대통령, 미국 중재안 지지\",\n  \"one_liner\": \"이란 대통령이 미국이 제시한 중재안이 전쟁을 멈추는 가장 좋은 길이라고 말했어요.\",\n  \"why_now\": \"이란 대통령의 발언은 중동 지역의 긴장이 완화될 수 있다는 신호로 해석될 수 있어요.\",\n  \"impact_line\": \"중동 지역의 불안이 줄면 국제 유가가 안정될 수 있어요.\",\n  \"details\": [\n    \"이란 대통령은 미국이 제시한 중재안이 전쟁을 멈추는 최선의 길이라고 밝혔어요.\",\n    \"이는 현재 교착 상태에 빠진 전쟁을 끝내기 위한 방안으로 언급되었어요.\",\n    \"이란 대통령의 이러한 발언은 중동 지역의 평화에 대한 기대를 높이고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"이란 대통령의 발언으로 중동 지역의 긴장 완화 기대감이 커질 수 있어요!\",\n    \"이는 국제 유가에 긍정적인 영향을 미쳐 유가 안정을 가져올 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"중재안\",\n      \"easy\": \"서로 다투는 두 당사자 사이에서 제3자가 나서서 해결책을 제시하는 것을 말해요.\",\n      \"example\": \"외교관이 양국 간의 평화 협상을 위한 중재안을 내놓았어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Iran president says…",
-   "one_liner": "Iran president says US memorandum is best path…",
-   "why_now": null,
+   "title": "이란 대통령, 미국 중재안 지지",
+   "one_liner": "이란 대통령이 미국이 제시한 중재안이 전쟁을 멈추는 가장 좋은 길이라고 말했어요.",
+   "why_now": "이란 대통령의 발언은 중동 지역의 긴장이 완화될 수 있다는 신호로 해석될 수 있어요.",
    "details": [
-    "Iran president says US memorandum is best path out of stalled war , and other Middle East news",
-    "Iran president says US memorandum is best path out of stalled war ,",
-    "US memorandum is best path out of stalled war , says Iranian President"
+    "이란 대통령은 미국이 제시한 중재안이 전쟁을 멈추는 최선의 길이라고 밝혔어요.",
+    "이는 현재 교착 상태에 빠진 전쟁을 끝내기 위한 방안으로 언급되었어요.",
+    "이란 대통령의 이러한 발언은 중동 지역의 평화에 대한 기대를 높이고 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "이란 대통령의 발언으로 중동 지역의 긴장 완화 기대감이 커질 수 있어요!",
+    "이는 국제 유가에 긍정적인 영향을 미쳐 유가 안정을 가져올 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "64c7b9639dc3e4931bef5aa85ec80027633a553c"
@@ -938,20 +939,20 @@
    ]
   },
   {
+   "id": "ce25b81c76ebfd941",
+   "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
+   "category": "FX",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
    "id": "c419df2138556f8cb",
    "title": "Federal debt ticks over $1 trillion for the first time",
    "category": "FX",
    "shared": [
     "IRAN",
     "KRX:000270"
-   ]
-  },
-  {
-   "id": "ce25b81c76ebfd941",
-   "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
-   "category": "FX",
-   "shared": [
-    "IRAN"
    ]
   }
  ]

@@ -136,8 +136,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-28T05:32:44.058260+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-28T18:53:42.457622+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -148,26 +148,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"금값·비트코인 상승\",\n    \"one_liner\": \"미국 채권 시장의 불안정으로 금값과 비트코인이 올랐어요.\",\n    \"why_now\": \"안전 자산으로 여겨지는 금과 비트코인이 최근 주목받고 있어요.\",\n    \"impact_line\": \"안전자산에 대한 관심이 높아지고 있어요.\",\n    \"details\": [\n        \"미국 채권 시장의 불안정은 금값과 비트코인 가격에 영향을 주었어요.\",\n        \"최근 금값은 3개월 만에 최고치를 기록했어요.\",\n        \"미국의 물가 지표가 예상보다 높게 나오면서 금값 상승세가 주춤했어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"안전 자산 선호 현상이 이어지면 금과 비트코인 가격이 더 오를 수 있어요!\",\n        \"반대로 물가 상승이 계속되면 금값은 다시 오를 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"채권 시장\",\n            \"easy\": \"나라나 회사가 돈을 빌리고 발행하는 증서인 채권이 거래되는 곳이에요.\",\n            \"example\": \"채권 시장이 불안정하면 금리나 자산 가격이 크게 흔들릴 수 있어요.\"\n        },\n        {\n            \"term\": \"비트코인\",\n            \"easy\": \"인터넷으로 거래되는 가상 화폐의 한 종류예요.\",\n            \"example\": \"비트코인 가격은 변동성이 커서 투자 시 주의가 필요해요.\"\n        },\n        {\n            \"term\": \"물가 지표\",\n            \"easy\": \"나라 안의 물건이나 서비스 가격이 얼마나 올랐는지 보여주는 통계예요.\",\n            \"example\": \"물가 지표가 높으면 사람들이 사는 데 돈이 더 많이 들어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Bitcoin Prices : How…",
-   "one_liner": "Bitcoin Prices : How Crypto Got An Unintended…",
-   "why_now": null,
+   "title": "금값·비트코인 상승",
+   "one_liner": "미국 채권 시장의 불안정으로 금값과 비트코인이 올랐어요.",
+   "why_now": "안전 자산으로 여겨지는 금과 비트코인이 최근 주목받고 있어요.",
    "details": [
-    "Bitcoin Prices : How Crypto Got An Unintended Boost From The U . S . Government",
-    "Why turmoil in the bond market is boosting gold and Bitcoin",
-    "Gold price retreats from three - month high as inflation US gauge runs warm"
+    "미국 채권 시장의 불안정은 금값과 비트코인 가격에 영향을 주었어요.",
+    "최근 금값은 3개월 만에 최고치를 기록했어요.",
+    "미국의 물가 지표가 예상보다 높게 나오면서 금값 상승세가 주춤했어요."
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "안전 자산 선호 현상이 이어지면 금과 비트코인 가격이 더 오를 수 있어요!",
+    "반대로 물가 상승이 계속되면 금값은 다시 오를 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "7eb7737ec396ed052be207052488e2a8cd1c666b"
  },
@@ -175,7 +176,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-08-28T05:32:44.058189+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "채권",
+   "easy": "돈을 빌리면서 '언제까지 갚겠다'고 써주는 증서예요.",
+   "example": "정부나 기업이 돈을 모을 때 발행해요."
+  }
+ ],
  "related": [
   {
    "id": "c36cc1170a4ab9574",
@@ -186,6 +193,12 @@
   {
    "id": "c8f4f25ec5031ebd0",
    "title": "Iceland Producer Price Inflation Eases In July",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "e97d4b796b4855660",
+   "title": "한국 소비자물가 2026-07 발표",
    "category": "MACRO",
    "shared": []
   }

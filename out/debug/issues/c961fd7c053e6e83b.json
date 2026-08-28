@@ -224,7 +224,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-28T05:31:41.736755+00:00",
+  "created_at": "2026-08-28T18:52:42.968845+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -237,12 +237,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"IMF, 우간다와 협상 예정\",\n\"one_liner\": \"IMF가 다음 달 우간다를 방문해 새로운 지원 프로그램에 대해 협상할 예정이에요.\",\n\"why_now\": \"IMF의 지원은 우간다의 경제 회복과 안정에 중요한 영향을 줄 수 있어요.\",\n\"impact_line\": \"우간다의 경제 상황 변화는 물가와 일자리 등에 영향을 줄 수 있어요.\",\n\"details\": [\n\"IMF는 다음 달 우간다를 방문할 예정이에요.\",\n\"새로운 지원 프로그램에 대한 협상이 진행될 거예요.\",\n\"IMF는 우간다의 경제 상황을 면밀히 주시하고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"새로운 지원 프로그램이 승인되면 우간다의 경제 성장에 긍정적인 영향을 줄 수 있어요!\",\n\"협상이 원활하게 진행되지 않으면 우간다 경제에 어려움이 지속될 수 있어요.\"\n],\n\"glossary\": [\n{\n\"term\": \"IMF\",\n\"easy\": \"국제통화기금으로, 세계 경제의 안정과 협력을 위해 만들어진 국제기구예요.\",\n\"example\": \"IMF는 경제 위기를 겪는 나라에 돈을 빌려주거나 경제 정책을 조언해요.\"\n}\n],\n\"impact_line\": \"우간다의 경제 상황 변화는 물가와 일자리 등에 영향을 줄 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "one_liner 50자 초과(53)",
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects[1] 느낌표 종결 아님"
     ]
    }
   ],
@@ -261,8 +268,8 @@
   "fact_hash": "9b8d3a8d17b333416e4459f14c1af695375d87dd"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-28T05:31:41.736646+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(53)\", \"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}]}",
+  "at": "2026-08-28T18:52:42.968739+00:00"
  },
  "glossary": [],
  "related": [
@@ -285,16 +292,14 @@
    "shared": []
   },
   {
-   "id": "c8f0b7cb0487a034d",
-   "title": "Finance minister reviews Pakistan economic progress with IMF",
-   "category": "FX",
-   "shared": [
-    "IMF"
-   ]
-  },
-  {
    "id": "cd022ee0b64224247",
    "title": "IICT , Netflix announce scholarships for 100 students across six creative programmes",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c2efbf61ddb697589",
+   "title": "Democratic attorneys general , governors sue feds over tariffs",
    "category": "POLICY",
    "shared": []
   }

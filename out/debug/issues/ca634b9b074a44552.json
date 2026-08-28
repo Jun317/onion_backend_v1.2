@@ -10,7 +10,7 @@
   "BAC"
  ],
  "seen_sources": 3,
- "importance": 115,
+ "importance": 110,
  "created_at": "2026-08-21T19:04:00.846783+00:00",
  "last_update": "2026-08-22T13:06:43.564690+00:00",
  "members": [
@@ -87,8 +87,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-28T05:31:52.115018+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-28T18:52:46.552215+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -100,26 +100,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 은행 금값 전망\",\n  \"one_liner\": \"미국 은행이 금값이 5천 달러까지 오를 수 있다고 내다봤어요.\",\n  \"why_now\": \"금값은 안전 자산으로 여겨져 경제 불확실성이 커질 때 주목받곤 해요.\",\n  \"impact_line\": \"금 관련 상품에 투자하면 수익이 늘어날 수 있어요.\",\n  \"details\": [\n    \"미국 은행은 금값이 5천 달러까지 오를 수 있다고 전망했어요.\",\n    \"이는 현재 금값보다 훨씬 높은 수준이에요.\",\n    \"이 은행은 여러 투자자들의 주목을 받고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"금값이 오르면 금을 보유한 사람들의 자산 가치가 높아질 수 있어요!\",\n    \"금값이 오르면 금으로 만든 제품의 가격도 함께 오를 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"안전 자산\",\n      \"easy\": \"경제 상황이 불안할 때 가치가 떨어질 위험이 적은 자산을 말해요.\",\n      \"example\": \"금이나 달러는 대표적인 안전 자산으로 꼽혀요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Rayburn West…",
-   "one_liner": "Rayburn West Financial Services LLC Invests $5 .…",
-   "why_now": null,
+   "title": "미국 은행 금값 전망",
+   "one_liner": "미국 은행이 금값이 5천 달러까지 오를 수 있다고 내다봤어요.",
+   "why_now": "금값은 안전 자산으로 여겨져 경제 불확실성이 커질 때 주목받곤 해요.",
    "details": [
-    "Rayburn West Financial Services LLC Invests $5 . 14 Million in Bank of America Corporation $BAC",
-    "Timothy G . Youngquist 2020 Irrevocable Trust Purchases 14 , 210 Shares of Bank of America Corporation $BAC",
-    "ServiceNow investors must consider latest alert from Bank of America"
+    "미국 은행은 금값이 5천 달러까지 오를 수 있다고 전망했어요.",
+    "이는 현재 금값보다 훨씬 높은 수준이에요.",
+    "이 은행은 여러 투자자들의 주목을 받고 있어요."
    ],
-   "effects": [],
-   "visual_type": "kr_base_rate"
+   "effects": [
+    "금값이 오르면 금을 보유한 사람들의 자산 가치가 높아질 수 있어요!",
+    "금값이 오르면 금으로 만든 제품의 가격도 함께 오를 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "ab6dc8680ece0ba9099e1868b4ca109d54da68bb"
  },

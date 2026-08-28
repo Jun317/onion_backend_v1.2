@@ -12,7 +12,7 @@
   "JPM"
  ],
  "seen_sources": 34,
- "importance": 105,
+ "importance": 100,
  "created_at": "2026-08-22T18:54:26.815900+00:00",
  "last_update": "2026-08-26T05:55:51.104844+00:00",
  "members": [
@@ -871,8 +871,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-28T05:32:12.924685+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-28T18:52:55.805962+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -885,25 +885,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"JP모건, 주식 매도 경고\",\n  \"one_liner\": \"JP모건이 주식 시장에 대한 경고를 내놓으며 매도를 준비하라고 했어요.\",\n  \"why_now\": \"주식 시장의 위험 신호가 늘어나면서 투자자들이 불안감을 느끼고 있어요.\",\n  \"impact_line\": \"주식 시장 변동성이 커져 투자 손실이 발생할 수 있어요.\",\n  \"details\": [\n    \"JP모건은 주식 시장에 대한 여러 경고 신호가 쌓이고 있다고 분석했어요.\",\n    \"특히, 주식 시장에 돈을 빌려 투자하는 '신용 거래' 규모가 역대 최고 수준이라고 지적했어요.\",\n    \"9월을 앞두고 시장 상황이 좋지 않을 수 있다는 점을 강조했어요.\",\n    \"JP모건은 투자자들에게 주식을 팔 준비를 하라고 조언했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"주식 시장의 불안감이 커지면서 투자 심리가 위축될 수 있어요!\",\n    \"주가 하락 가능성이 높아져 투자자들이 손실을 볼 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"신용 거래\",\n      \"easy\": \"증권사에서 돈을 빌려 주식에 투자하는 것을 말해요.\",\n      \"example\": \"신용 거래로 주식 투자를 하면 큰 수익을 얻을 수도 있지만, 손실도 커질 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "JPMorgan Chase CEO…",
-   "one_liner": "JPMorgan Chase CEO Jamie Dimon Dropped a 9 -…",
-   "why_now": null,
+   "title": "JP모건, 주식 매도 경고",
+   "one_liner": "JP모건이 주식 시장에 대한 경고를 내놓으며 매도를 준비하라고 했어요.",
+   "why_now": "주식 시장의 위험 신호가 늘어나면서 투자자들이 불안감을 느끼고 있어요.",
    "details": [
-    "JPMorgan Chase CEO Jamie Dimon Dropped a 9 - Word Warning :  Margin Debt Is the Highest It Has Ever Been . Should Investors Be Worried ?",
-    "JPMorgan Claverhouse ( LON : JCH ) Stock Price Passes Above 50 - Day Moving Average – Here Why",
-    "JPMorgan says be ready to sell stocks as technical warnings pile up heading into September"
+    "JP모건은 주식 시장에 대한 여러 경고 신호가 쌓이고 있다고 분석했어요.",
+    "특히, 주식 시장에 돈을 빌려 투자하는 '신용 거래' 규모가 역대 최고 수준이라고 지적했어요.",
+    "9월을 앞두고 시장 상황이 좋지 않을 수 있다는 점을 강조했어요.",
+    "JP모건은 투자자들에게 주식을 팔 준비를 하라고 조언했어요."
    ],
-   "effects": [],
+   "effects": [
+    "주식 시장의 불안감이 커지면서 투자 심리가 위축될 수 있어요!",
+    "주가 하락 가능성이 높아져 투자자들이 손실을 볼 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "ed8adfa56e55b22c1d98c55f8b66fab81a33d4ad"
@@ -948,11 +950,10 @@
    ]
   },
   {
-   "id": "c419df2138556f8cb",
-   "title": "Federal debt ticks over $1 trillion for the first time",
+   "id": "ce25b81c76ebfd941",
+   "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
    "category": "FX",
    "shared": [
-    "CHINA",
     "IRAN"
    ]
   }

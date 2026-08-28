@@ -14,7 +14,14 @@
  "event_at": "2026-08-18T08:00:00+00:00",
  "has_visual": true,
  "headline_stat": null,
- "spark": null,
+ "spark": [
+  1419.1,
+  1419.5,
+  1420.2,
+  1423.7,
+  1430.1,
+  1436.6
+ ],
  "icon": "🇯🇵",
  "details": [
   "일본 국채 가격이 떨어지고 있어요.",
@@ -27,7 +34,39 @@
   "일본 경제에 투자하는 것이 더 어려워질 수 있어요!"
  ],
  "model": "gemini-2.5-flash-lite",
- "visual": null,
+ "visual": {
+  "type": "usdkrw",
+  "chart": "line",
+  "title": "원/달러 환율 (최근 6개월)",
+  "unit": "원",
+  "source": "한국은행 ECOS",
+  "series": [
+   {
+    "t": "2025-10",
+    "v": 1419.1
+   },
+   {
+    "t": "2025-10",
+    "v": 1419.5
+   },
+   {
+    "t": "2025-10",
+    "v": 1420.2
+   },
+   {
+    "t": "2025-10",
+    "v": 1423.7
+   },
+   {
+    "t": "2025-10",
+    "v": 1430.1
+   },
+   {
+    "t": "2025-10",
+    "v": 1436.6
+   }
+  ]
+ },
  "anchors": [],
  "headlines": [
   {
@@ -104,14 +143,14 @@
  ],
  "related": [
   {
-   "id": "c419df2138556f8cb",
-   "title": "Federal debt ticks over $1 trillion for the first time",
+   "id": "ce25b81c76ebfd941",
+   "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
    "category": "FX",
    "shared": []
   },
   {
-   "id": "ce25b81c76ebfd941",
-   "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
+   "id": "c419df2138556f8cb",
+   "title": "Federal debt ticks over $1 trillion for the first time",
    "category": "FX",
    "shared": []
   },
@@ -124,18 +163,18 @@
    ]
   },
   {
-   "id": "c8f0b7cb0487a034d",
-   "title": "Finance minister reviews Pakistan economic progress with IMF",
-   "category": "FX",
-   "shared": []
-  },
-  {
    "id": "c5c8d55ad4217ee1f",
    "title": "Federal government grounds Billy Bishop airport expansion",
    "category": "POLICY",
    "shared": [
     "BOJ"
    ]
+  },
+  {
+   "id": "cf6faa92b292fbefd",
+   "title": "Nirmala Sitharaman meets Indonesian Vice Minister of Finance Juda Agung ; Discusses financial sector ties and local currency transactions",
+   "category": "FX",
+   "shared": []
   }
  ],
  "created_at": "2026-08-17T09:06:25.600793+00:00"
