@@ -2,13 +2,13 @@
  "id": "c8f4f25ec5031ebd0",
  "title": "Iceland Producer Price Inflation Eases In July",
  "category": "MACRO",
- "status": "active",
+ "status": "stale",
  "origin": "cluster",
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 31,
- "importance": 95,
+ "importance": 90,
  "created_at": "2026-08-26T11:52:24.541915+00:00",
  "last_update": "2026-08-26T13:29:59.561035+00:00",
  "members": [
@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-29T09:14:32.353137+00:00",
+  "created_at": "2026-08-29T14:37:18.246913+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -881,18 +881,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"재생 에너지 전환 가속\",\n\"one_liner\": \"남아프리카공화국 광산 회사들이 전기 공급 부족을 겪는 국영 기업 의존도를 줄이기 위해 재생 에너지로 전환을 서두르고 있어요.\",\n\"why_now\": \"전기 공급이 불안정하면 기업 운영에 차질이 생기고, 이는 곧 생산 비용 증가로 이어질 수 있어요.\",\n\"impact_line\": \"전기 요금이 오르면 기업의 생산 비용이 늘어날 수 있어요.\",\n\"details\": [\n\"남아프리카공화국 광산 회사들은 전력 부족 문제를 겪고 있어요.\",\n\"이들은 국영 전력 회사인 에스콤(Eskom)에 대한 의존도를 줄이려 해요.\",\n\"이를 위해 재생 에너지로의 전환을 서두르고 있어요.\",\n\"이는 에너지 공급의 안정성을 높이고 비용을 절감하기 위한 노력의 일환이에요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"재생 에너지 전환이 성공하면 안정적인 에너지 공급으로 기업 운영이 원활해질 수 있어요!\",\n\"에너지 비용 절감은 제품 가격 경쟁력 강화로 이어질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"재생 에너지\",\n\"easy\": \"태양광, 풍력처럼 계속해서 다시 사용할 수 있는 에너지를 말해요.\",\n\"example\": \"재생 에너지를 사용하면 환경 오염을 줄일 수 있어요.\"\n},\n{\n\"term\": \"국영 기업\",\n\"easy\": \"나라에서 운영하는 회사를 말해요.\",\n\"example\": \"국영 기업은 공공 서비스를 제공하는 경우가 많아요.\"\n}\n],\n\"impact_line\": \"전기 요금이 오르면 기업의 생산 비용이 늘어날 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "one_liner 50자 초과(53)"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 50자 초과(69)"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -911,8 +905,8 @@
   "fact_hash": "63cc7b131186b6bbf8f8a46b774b67d462d18666"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(53)\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(69)\"]}]}",
-  "at": "2026-08-29T09:14:32.353032+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-29T14:37:18.246855+00:00"
  },
  "glossary": [],
  "related": [
@@ -931,12 +925,6 @@
   {
    "id": "e97d4b796b4855660",
    "title": "한국 소비자물가 2026-07 발표",
-   "category": "MACRO",
-   "shared": []
-  },
-  {
-   "id": "cceb15b16363c0564",
-   "title": "Procter & Gamble Predicts Slower Growth Amid Rising Costs , ETRetail",
    "category": "MACRO",
    "shared": []
   }

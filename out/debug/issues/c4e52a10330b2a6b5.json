@@ -1,0 +1,134 @@
+{
+ "id": "c4e52a10330b2a6b5",
+ "title": "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks",
+ "category": "MARKET",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "NVDA"
+ ],
+ "seen_sources": 2,
+ "importance": 90,
+ "created_at": "2026-08-29T14:35:49.354009+00:00",
+ "last_update": "2026-08-29T14:35:49.355262+00:00",
+ "members": [
+  {
+   "id": "b6ab767f3cef6d4a59814bca4602c109ff8f5208",
+   "source": "trinidadtimes.com",
+   "tier": "wire",
+   "url": "http://www.trinidadtimes.com/news/279269599/nvidia-jumps-as-70-revenue-forecast-fuels-broader-chip-rally",
+   "title": "Nvidia jumps as 70 % revenue forecast fuels broader chip rally",
+   "published_at": "2026-08-29T13:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9665
+  },
+  {
+   "id": "93cfa5d329638c477f7bf7c634003ed020b06aaa",
+   "source": "sitkasentinel.com",
+   "tier": "wire",
+   "url": "http://www.sitkasentinel.com/stories/asian-shares-mostly-gain-after-upbeat-results-for-nvidia-and-others-lift-us-stocks,167003",
+   "title": "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks",
+   "published_at": "2026-08-28T17:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9664
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Nvidia jumps as 70 % revenue forecast fuels broader chip rally",
+   "source": "trinidadtimes.com",
+   "url": "http://www.trinidadtimes.com/news/279269599/nvidia-jumps-as-70-revenue-forecast-fuels-broader-chip-rally",
+   "at": "2026-08-29T13:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks",
+   "source": "sitkasentinel.com",
+   "url": "http://www.sitkasentinel.com/stories/asian-shares-mostly-gain-after-upbeat-results-for-nvidia-and-others-lift-us-stocks,167003",
+   "at": "2026-08-28T17:45:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-29T14:37:07.910689+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Nvidia jumps as 70 % revenue forecast fuels broader chip rally",
+    "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Nvidia jumps as 70 %…",
+   "one_liner": "Nvidia jumps as 70 % revenue forecast fuels…",
+   "why_now": null,
+   "details": [
+    "Nvidia jumps as 70 % revenue forecast fuels broader chip rally",
+    "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "73d9a08e75bb54b5da81fdddbf321b06ebf703bb"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-29T14:37:07.910338+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c8a1922fe87d06746",
+   "title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
+   "category": "MARKET",
+   "shared": [
+    "NVDA"
+   ]
+  },
+  {
+   "id": "c3cd94c43ef31fc17",
+   "title": "South Korea , India eye Arctic route after China regular service launch",
+   "category": "GEO",
+   "shared": [
+    "NVDA"
+   ]
+  },
+  {
+   "id": "ce25b81c76ebfd941",
+   "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
+   "category": "FX",
+   "shared": [
+    "NVDA"
+   ]
+  },
+  {
+   "id": "ccc137270dbb9d742",
+   "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "ca0e19c61ad5a0001",
+   "title": "Goldman Sachs doubles down on risky rates trading business",
+   "category": "MARKET",
+   "shared": [
+    "NVDA"
+   ]
+  }
+ ]
+}

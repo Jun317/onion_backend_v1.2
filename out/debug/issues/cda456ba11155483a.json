@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-29T09:15:29.387721+00:00",
+  "created_at": "2026-08-29T14:37:59.692433+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -64,19 +64,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"시티그룹 짐바브웨 관련 소식\", \"one_liner\": \"시티그룹이 짐바브웨와 관련해 논의하며 채무 협상에 긍정적인 영향을 줄 수 있다는 소식이에요.\", \"why_now\": \"채무 협상이 잘 되면 짐바브웨의 경제 정상화에 도움이 될 수 있어요.\", \"impact_line\": null, \"details\": [\"시티그룹이 짐바브웨와 관련해 논의하고 있어요.\", \"이 논의가 채무 협상을 강화할 수 있다는 전망이 나와요.\", \"경제 정상화로 가는 길을 열 수 있다는 분석도 있어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"채무 협상\", \"easy\": \"빚을 갚는 조건이나 방식을 다시 정하기 위해 벌이는 대화예요.\", \"example\": \"나라가 빚을 갚기 어려울 때 채무 협상을 하기도 해요.\"}, {\"term\": \"경제 정상화\", \"easy\": \"어려웠던 경제 상황이 다시 안정되고 좋아지는 것을 말해요.\", \"example\": \"경제 정상화가 되면 물가도 안정되고 일자리도 늘어날 수 있어요.\"}]}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 50자 초과(51)",
-     "effects 1~2문장 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -94,8 +87,8 @@
   "fact_hash": "faab96d620dc3c28a5892290bf9b20057d186c43"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(51)\", \"effects 1~2문장 아님\"]}]}",
-  "at": "2026-08-29T09:15:29.387650+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-29T14:37:59.692354+00:00"
  },
  "glossary": [],
  "related": [

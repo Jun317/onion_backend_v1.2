@@ -766,7 +766,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-29T09:15:47.306737+00:00",
+  "created_at": "2026-08-29T14:38:20.395262+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -779,18 +779,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국 경제 성장 둔화\",\n  \"one_liner\": \"미국 경제가 1.5% 성장하는 데 그쳤어요.\",\n  \"why_now\": \"경제 성장이 둔화하면 일자리나 소득 증가세가 약해질 수 있어요.\",\n  \"impact_line\": \"물가 상승 압력이 계속될 수 있어요.\",\n  \"details\": [\n    \"미국 경제가 1.5% 성장했어요.\",\n    \"이는 예상보다 낮은 성장률이에요.\",\n    \"하지만 소상공인들의 기대감은 높아졌어요.\",\n    \"물가 상승 압력은 여전한 상황이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"물가 상승 압력이 지속될 수 있어 금리 인하 기대감이 낮아질 수 있어요!\",\n    \"소비 심리가 위축될 수 있어 경제 회복이 더뎌질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"물가 상승 압력\",\n      \"easy\": \"물건 가격이 계속 오를 것 같은 분위기를 말해요.\",\n      \"example\": \"기름값이 오르면서 물가 상승 압력이 커지고 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [1.5]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [1.5]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -809,8 +803,8 @@
   "fact_hash": "823ebedb6bbb88ebe7b22c00beeaf5862cb9e2a1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.5]\"]}]}",
-  "at": "2026-08-29T09:15:47.306670+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-29T14:38:20.395206+00:00"
  },
  "glossary": [],
  "related": [
@@ -821,26 +815,14 @@
    "shared": []
   },
   {
-   "id": "c8f4f25ec5031ebd0",
-   "title": "Iceland Producer Price Inflation Eases In July",
-   "category": "MACRO",
-   "shared": []
-  },
-  {
    "id": "c4999c7a14c19859d",
    "title": "Gold price retreats from three - month high as inflation US gauge runs warm",
    "category": "MACRO",
    "shared": []
   },
   {
-   "id": "e97d4b796b4855660",
-   "title": "한국 소비자물가 2026-07 발표",
-   "category": "MACRO",
-   "shared": []
-  },
-  {
-   "id": "cceb15b16363c0564",
-   "title": "Procter & Gamble Predicts Slower Growth Amid Rising Costs , ETRetail",
+   "id": "c8f4f25ec5031ebd0",
+   "title": "Iceland Producer Price Inflation Eases In July",
    "category": "MACRO",
    "shared": []
   }
