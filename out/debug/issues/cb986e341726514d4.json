@@ -2,17 +2,17 @@
  "id": "cb986e341726514d4",
  "title": "Walmart Just Dropped 10 % in a Month . Is It Time to Sell ?",
  "category": "EARNINGS",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [
   "WMT"
  ],
- "seen_sources": 1,
- "importance": 70,
+ "seen_sources": 3,
+ "importance": 80,
  "created_at": "2026-08-28T18:52:05.941797+00:00",
- "last_update": "2026-08-28T18:52:05.941797+00:00",
+ "last_update": "2026-08-29T02:19:58.816570+00:00",
  "members": [
   {
    "id": "0583b3738961ec90ce480cd28e2fd1de2c56e238",
@@ -22,7 +22,27 @@
    "title": "Target ( TGT ) Grocery Bet Is Working . It Still Isnt Close to Walmart ( WMT )",
    "published_at": "2026-08-28T18:00:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.9594
+   "sim_to_centroid": 0.9659
+  },
+  {
+   "id": "275931b5e28db97dc67bee16dfc516260d9f7251",
+   "source": "bicycleretailer.com",
+   "tier": "wire",
+   "url": "https://www.bicycleretailer.com/industry-news/2026/08/28/florida-woman-suing-walmart-behalf-minor-injured-while-riding-ridstar-e",
+   "title": "Florida woman suing Walmart on behalf of minor injured while riding Ridstar e - bike",
+   "published_at": "2026-08-28T17:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8626
+  },
+  {
+   "id": "37e4f4212d77c3e888f5598acd58021e76aefd22",
+   "source": "insidermonkey.com",
+   "tier": "wire",
+   "url": "https://www.insidermonkey.com/blog/target-tgts-grocery-bet-is-working-it-still-isnt-close-to-walmart-wmt-1822193/",
+   "title": "Target ( TGT ) Grocery Bet Is Working . It Still Isnt Close to Walmart ( WMT )",
+   "published_at": "2026-08-28T17:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9659
   },
   {
    "id": "f5317ac932a2f2af4b66026cd6a55ef7e3c3b05b",
@@ -32,7 +52,7 @@
    "title": "Walmart Just Dropped 10 % in a Month . Is It Time to Sell ?",
    "published_at": "2026-08-27T20:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9594
+   "sim_to_centroid": 0.9497
   }
  ],
  "anchors": [],
@@ -46,14 +66,66 @@
   },
   {
    "kind": "headline",
+   "title": "Florida woman suing Walmart on behalf of minor injured while riding Ridstar e - bike",
+   "source": "bicycleretailer.com",
+   "url": "https://www.bicycleretailer.com/industry-news/2026/08/28/florida-woman-suing-walmart-behalf-minor-injured-while-riding-ridstar-e",
+   "at": "2026-08-28T17:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Target ( TGT ) Grocery Bet Is Working . It Still Isnt Close to Walmart ( WMT )",
+   "source": "insidermonkey.com",
+   "url": "https://www.insidermonkey.com/blog/target-tgts-grocery-bet-is-working-it-still-isnt-close-to-walmart-wmt-1822193/",
+   "at": "2026-08-28T17:45:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "Walmart Just Dropped 10 % in a Month . Is It Time to Sell ?",
    "source": "aol.com",
    "url": "https://www.aol.com/articles/walmart-just-dropped-10-month-192929000.html",
    "at": "2026-08-27T20:45:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-29T02:22:44.610047+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Florida woman suing Walmart on behalf of minor injured while riding Ridstar e - bike",
+    "Target ( TGT ) Grocery Bet Is Working . It Still Isnt Close to Walmart ( WMT )",
+    "Walmart Just Dropped 10 % in a Month . Is It Time to Sell ?"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Florida woman suing…",
+   "one_liner": "Florida woman suing Walmart on behalf of minor…",
+   "why_now": null,
+   "details": [
+    "Florida woman suing Walmart on behalf of minor injured while riding Ridstar e - bike",
+    "Target ( TGT ) Grocery Bet Is Working . It Still Isnt Close to Walmart ( WMT )",
+    "Walmart Just Dropped 10 % in a Month . Is It Time to Sell ?"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "0ed185cc441066cc64d782bb18d073aad1f8c464"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-29T02:22:44.609945+00:00"
+ },
  "glossary": [],
  "related": [
   {

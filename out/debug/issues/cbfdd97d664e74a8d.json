@@ -67,8 +67,46 @@
    "at": "2026-08-26T20:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-29T02:26:23.189450+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [],
+   "headlines": [
+    "Swiss Market Ends Notably Lower",
+    "Major European Markets Close Roughly Flat",
+    "Bucharest Stock Exchange closes lower on Wednesday ; turnover reaches RON 86 . 09 mln"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Swiss Market Ends…",
+   "one_liner": "Swiss Market Ends Notably Lower",
+   "why_now": null,
+   "details": [
+    "Swiss Market Ends Notably Lower",
+    "Major European Markets Close Roughly Flat",
+    "Bucharest Stock Exchange closes lower on Wednesday ; turnover reaches RON 86 . 09 mln"
+   ],
+   "effects": [],
+   "visual_type": "wti"
+  },
+  "fact_hash": "3aa1833658d356f1ad148b217ec6d4e1ba09590b"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-29T02:26:23.189389+00:00"
+ },
  "glossary": [],
  "related": [
   {
