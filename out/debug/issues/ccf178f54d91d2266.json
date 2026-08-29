@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-29T02:21:10.837847+00:00",
+  "created_at": "2026-08-29T09:14:37.506058+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -881,12 +881,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"설탕 수입 허용\",\n  \"one_liner\": \"정부가 국내 설탕 가격 안정을 위해 100만 톤의 원당 수입을 허용했어요.\",\n  \"why_now\": \"설탕 가격이 오르면 과자, 음료수 등 관련 제품 가격도 함께 오를 수 있어요.\",\n  \"impact_line\": \"설탕을 사용하는 과자나 음료수 가격이 안정될 수 있어요.\",\n  \"details\": [\n    \"정부가 국내 설탕 가격 상승을 막기 위해 원당 100만 톤 수입을 허가했습니다.\",\n    \"이번 조치는 국내 설탕 가격 안정을 목표로 합니다.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"설탕 가격이 안정되면 과자, 음료 등 관련 제품의 가격 인상 압력이 줄어들 수 있어요!\",\n    \"국내 설탕 제조업체들은 원가 부담 완화를 기대할 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"원당\",\n      \"easy\": \"정제되지 않은 설탕 덩어리를 말해요.\",\n      \"example\": \"원당을 수입해서 국내에서 설탕을 만들어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [100.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "입력에 없는 숫자: [100.0]"
     ]
    }
   ],
@@ -905,20 +912,14 @@
   "fact_hash": "876d3377c43342c50ff07a4decb6bd68492a8194"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-29T02:21:10.837730+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [100.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [100.0]\"]}]}",
+  "at": "2026-08-29T09:14:37.505972+00:00"
  },
  "glossary": [],
  "related": [
   {
    "id": "ccec1fdb78ce6d4ce",
    "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
-   "category": "RATE",
-   "shared": []
-  },
-  {
-   "id": "cea83213c8906724e",
-   "title": "Fed Holds Interest Rates Steady Amid Inflation From Iran Conflict",
    "category": "RATE",
    "shared": []
   },
@@ -937,6 +938,12 @@
   {
    "id": "ca634b9b074a44552",
    "title": "Bank of America Says $5 , 000 Gold Is Within Reach",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "eb1bdaa0b3cb70aec",
+   "title": "한국은행 기준금리 인상 (2.75%)",
    "category": "RATE",
    "shared": []
   }

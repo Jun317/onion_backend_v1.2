@@ -86,7 +86,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-29T02:22:02.747105+00:00",
+  "created_at": "2026-08-29T09:15:24.468202+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -98,12 +98,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"캐나다 식료품 원산지 표시 부활\",\n  \"one_liner\": \"캐나다의 대형 유통업체인 롭로가 '캐나다산 구매' 운동에 따라 상품의 원산지 표시를 다시 시작했어요.\",\n  \"why_now\": \"소비자들이 국산품을 더 쉽게 구매하도록 돕기 위한 움직임이에요.\",\n  \"impact_line\": \"캐나다산 제품을 더 쉽게 구분해서 구매할 수 있게 될 거예요.\",\n  \"details\": [\n    \"롭로가 캐나다산 제품 구매를 장려하기 위해 원산지 표시를 다시 도입했어요.\",\n    \"이 조치는 '캐나다산 구매' 운동에 대한 응답으로 이루어졌어요.\",\n    \"소비자들이 캐나다에서 생산된 상품을 더 쉽게 찾도록 돕기 위한 것이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"캐나다 농가와 제조업체들의 국내 판매가 늘어날 수 있어요!\",\n    \"소비자들은 캐나다산 제품을 선택하는 데 더 많은 정보를 얻게 될 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"원산지 표시\",\n      \"easy\": \"상품이 어느 나라에서 만들어졌는지 알려주는 표시예요.\",\n      \"example\": \"이 과자는 'Made in Korea'라고 표시되어 있어요.\"\n    },\n    {\n      \"term\": \"롭로\",\n      \"easy\": \"캐나다의 대형 식료품 유통업체 이름이에요.\",\n      \"example\": \"롭로에서 장을 보면 다양한 상품을 살 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 50자 초과(56)"
     ]
    }
   ],
@@ -122,8 +128,8 @@
   "fact_hash": "ad94ab9c9dff4764ce12842b7792da213bb1bed0"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-29T02:22:02.747034+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(56)\"]}]}",
+  "at": "2026-08-29T09:15:24.468134+00:00"
  },
  "glossary": [],
  "related": [

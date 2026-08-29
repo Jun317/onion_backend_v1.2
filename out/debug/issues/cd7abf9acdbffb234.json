@@ -341,7 +341,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-29T02:22:55.012615+00:00",
+  "created_at": "2026-08-29T09:16:10.281745+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -354,8 +354,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"주요국 증시 혼조세\",\n  \"one_liner\": \"주요국 증시가 혼조세를 보이며 등락이 엇갈렸어요.\",\n  \"why_now\": \"증시의 등락은 경제 상황과 투자 심리를 반영하며, 개인의 자산 가치에 영향을 줄 수 있어요.\",\n  \"impact_line\": \"주식 투자 수익률이 달라질 수 있어요.\",\n  \"details\": [\n    \"인도 증시인 니프티는 85포인트, 센섹스는 331포인트 상승했어요.\",\n    \"미국 주요 지수는 나스닥 지수 상승을 이끌었어요.\",\n    \"필리핀 증시인 PSEi는 금리 인상과 페소화 약세로 6,000선 아래로 떨어졌어요.\",\n    \"IT, 소비재, 자동차 관련 주식이 증시 하락에 영향을 주었어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"IT 관련 주식은 세계 기술주 상승 흐름을 따라 오를 수 있어요!\",\n    \"금리 인상과 통화 약세는 해당 국가의 경제에 부담을 줄 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"니프티\",\n      \"easy\": \"인도 증시의 주요 지수 중 하나예요.\",\n      \"example\": \"니프티 지수가 오르면 인도 주식 시장이 전반적으로 좋다고 볼 수 있어요.\"\n    },\n    {\n      \"term\": \"센섹스\",\n      \"easy\": \"인도 증시의 또 다른 주요 지수예요.\",\n      \"example\": \"센섹스 지수가 내리면 인도 주식 시장이 불안정하다고 볼 수 있어요.\"\n    },\n    {\n      \"term\": \"PSEi\",\n      \"easy\": \"필리핀 증시의 주요 지수예요.\",\n      \"example\": \"PSEi 지수가 떨어지면 필리핀 주식 시장의 전반적인 하락을 의미해요.\"\n    },\n    {\n      \"term\": \"페소화\",\n      \"easy\": \"필리핀의 통화 단위예요.\",\n      \"example\": \"페소화 가치가 떨어지면 필리핀에서 물건을 수입할 때 더 많은 돈이 들어요.\"\n    }\n  ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [6000.0]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -378,8 +384,8 @@
   "fact_hash": "3bd37b70d7e642f46ea22495a6453cd5aaa6e166"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-29T02:22:55.012551+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [6000.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-29T09:16:10.281673+00:00"
  },
  "glossary": [],
  "related": [
@@ -402,14 +408,14 @@
    "shared": []
   },
   {
-   "id": "c69943061634fe0aa",
-   "title": "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence ( AI ) Stocks",
+   "id": "c473082d7f30acb2b",
+   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c473082d7f30acb2b",
-   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
+   "id": "cd6e96f9df3790928",
+   "title": "US economy cools in second quarter despite solid spending",
    "category": "MARKET",
    "shared": []
   }
