@@ -874,7 +874,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-30T06:50:10.280450+00:00",
+  "created_at": "2026-08-30T13:02:43.597185+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,7 +887,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국, 이란에 새 경제 제재 발표\",\n  \"one_liner\": \"미국 재무장관이 이란의 모든 수입원을 차단하기 위한 새 경제 제재를 발표했어요.\",\n  \"why_now\": \"이란에 대한 경제 제재는 국제 유가에 영향을 줄 수 있어 주목받고 있어요.\",\n  \"impact_line\": \"국제 유가 상승으로 주유비나 배송비가 오를 수 있어요.\",\n  \"details\": [\n    \"미국 재무장관이 새로운 경제 제재를 발표했습니다.\",\n    \"이번 제재는 이란의 모든 수입원을 차단하는 것을 목표로 합니다.\",\n    \"이란을 고립시키기 위한 조치로 풀이됩니다.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"이란의 원유 수출이 줄면 국제 유가가 오를 수 있어요!\",\n    \"국제 유가 상승은 항공료, 해상 운송료 등 물류 비용을 높일 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"경제 제재\",\n      \"easy\": \"특정 국가의 경제 활동을 제한하거나 금지하는 조치예요.\",\n      \"example\": \"다른 나라와의 거래를 막아 경제적으로 압박하는 데 쓰여요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n\"title\": \"미국, 이란에 새 경제 제재 발표\",\n\"one_liner\": \"미국 재무장관이 이란의 모든 수입원을 차단하기 위한 새 경제 제재를 발표했어요.\",\n\"why_now\": \"국제 사회의 제재는 해당 국가의 경제에 큰 영향을 미칠 수 있어요.\",\n\"impact_line\": \"국제 유가에 영향을 줄 수 있어요.\",\n\"details\": [\n\"미국 재무장관이 이란에 대한 새로운 경제 제재를 발표했습니다.\",\n\"이번 제재는 이란의 모든 잠재적 수입원을 차단하는 것을 목표로 합니다.\",\n\"미국은 이란을 고립시키기 위해 이 제재를 발표했습니다.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"이란의 경제 활동이 위축될 수 있어요!\",\n\"국제 유가 상승으로 이어질 가능성이 있습니다!\"\n],\n\"glossary\": [\n{\n\"term\": \"경제 제재\",\n\"easy\": \"특정 국가의 잘못된 행동을 막기 위해 경제적으로 압박하는 조치예요.\",\n\"example\": \"다른 나라와 거래를 못 하게 하거나 돈을 못 쓰게 막는 식이에요.\"\n}\n],\n\"impact_line\": \"국제 유가에 영향을 줄 수 있어요.\"\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
@@ -898,9 +898,11 @@
     ]
    },
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details[0] 어요체 아님",
+     "details[1] 어요체 아님",
+     "details[2] 어요체 아님"
     ]
    }
   ],
@@ -919,8 +921,8 @@
   "fact_hash": "ae653c6503930f36fa7986b4360409d4d71362ab"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-30T06:50:10.280332+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\"]}]}",
+  "at": "2026-08-30T13:02:43.597052+00:00"
  },
  "glossary": [],
  "related": [
@@ -959,12 +961,12 @@
    ]
   },
   {
-   "id": "c3cd94c43ef31fc17",
-   "title": "South Korea , India eye Arctic route after China regular service launch",
-   "category": "GEO",
+   "id": "c419df2138556f8cb",
+   "title": "Federal debt ticks over $1 trillion for the first time",
+   "category": "FX",
    "shared": [
+    "FED",
     "IRAN",
-    "NVDA",
     "SEC"
    ]
   }
