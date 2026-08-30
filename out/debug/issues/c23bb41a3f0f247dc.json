@@ -764,8 +764,48 @@
    "at": "2026-08-26T15:30:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-08-30T00:29:51.996315+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Palantir Just Ripped 43 % in a Month . Is It Time to Sell ?",
+    "CrowdStrike Stock Faces a High Bar Ahead of Q2 Earnings . Here What Investors Should Watch .",
+    "Coinbase Just Rallied 14 % in a Month : Take Profits , or Buy More ?",
+    "Klarna Beat on Earnings and Guided Lower at Once . Which Number Should Decide the Stock ?",
+    "Are Wall Street Analysts Predicting IDEXX Laboratories Stock Will Climb or Sink ?"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Palantir Just Ripped…",
+   "one_liner": "Palantir Just Ripped 43 % in a Month . Is It…",
+   "why_now": null,
+   "details": [
+    "Palantir Just Ripped 43 % in a Month . Is It Time to Sell ?",
+    "CrowdStrike Stock Faces a High Bar Ahead of Q2 Earnings . Here What Investors Should Watch .",
+    "Coinbase Just Rallied 14 % in a Month : Take Profits , or Buy More ?"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "737ed4fa957fecab3663d2d244e51f2dbecb84ad"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-30T00:29:51.995986+00:00"
+ },
  "glossary": [],
  "related": [
   {

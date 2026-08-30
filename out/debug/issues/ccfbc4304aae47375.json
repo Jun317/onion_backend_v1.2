@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-26T07:20:19.517510+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-30T00:29:41.634807+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,25 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"미국 국가 부채 40조 달러 돌파\",\n\"one_liner\": \"미국 국가 부채가 사상 처음으로 40조 달러를 넘어섰어요.\",\n\"why_now\": \"국가 부채가 늘면 나라 살림이 어려워지고, 미래 세대가 부담해야 할 몫이 커질 수 있어요.\",\n\"impact_line\": \"미국 경제 상황에 따라 국내 물가나 환율에 영향을 줄 수 있어요.\",\n\"details\": [\n\"미국 국가 부채가 40조 달러를 돌파했어요.\",\n\"이는 역사상 처음 있는 일이에요.\",\n\"호주 정부의 부채도 1조 달러에 달했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"미국 정부의 재정 부담이 커져, 향후 세금 인상이나 정부 지출 축소로 이어질 수 있어요!\",\n\"미국 경제의 불확실성이 커지면서 세계 경제에도 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"국가 부채\",\n\"easy\": \"나라가 빚을 내서 운영하는 돈이에요. 세금으로 갚아야 해요.\",\n\"example\": \"나라 살림이 어려워지면 국가 부채가 늘어날 수 있어요.\"\n}\n],\n\"impact_line\": \"미국 경제 상황에 따라 국내 물가나 환율에 영향을 줄 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Australian government…",
-   "one_liner": "Australian government debt $1trn - milestone…",
-   "why_now": null,
+   "title": "미국 국가 부채 40조 달러 돌파",
+   "one_liner": "미국 국가 부채가 사상 처음으로 40조 달러를 넘어섰어요.",
+   "why_now": "국가 부채가 늘면 나라 살림이 어려워지고, 미래 세대가 부담해야 할 몫이 커질 수 있어요.",
    "details": [
-    "Australian government debt $1trn - milestone comes at risky time",
-    "2nd LD Writethru : U . S . national debt tops 40 trillion USD for first time in history",
-    "North Korean operatives infiltrate US companies"
+    "미국 국가 부채가 40조 달러를 돌파했어요.",
+    "이는 역사상 처음 있는 일이에요.",
+    "호주 정부의 부채도 1조 달러에 달했어요."
    ],
-   "effects": [],
+   "effects": [
+    "미국 정부의 재정 부담이 커져, 향후 세금 인상이나 정부 지출 축소로 이어질 수 있어요!",
+    "미국 경제의 불확실성이 커지면서 세계 경제에도 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "a37536eee1b84166da92bba5321720d458d855bf"

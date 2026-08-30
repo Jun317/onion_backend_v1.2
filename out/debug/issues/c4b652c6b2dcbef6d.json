@@ -105,7 +105,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-26T07:16:35.094047+00:00",
+  "created_at": "2026-08-30T00:30:33.349470+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -118,19 +118,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"테슬라, 미국 전기차 시장 점유율 확대\",\n    \"one_liner\": \"테슬라가 미국 전기차 시장에서 59%의 점유율을 기록하며 2023년 이후 최고치를 달성했어요.\",\n    \"why_now\": \"테슬라의 시장 점유율은 전기차 시장의 성장과 경쟁 구도를 보여주는 중요한 지표예요.\",\n    \"impact_line\": \"테슬라의 점유율 확대는 전기차 구매 시 선택지에 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"테슬라의 미국 전기차 시장 점유율은 59%예요.\",\n        \"이는 2023년 이후 가장 높은 수치예요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"테슬라의 시장 지배력이 강화되면서 다른 전기차 업체들의 경쟁이 더욱 치열해질 수 있어요!\",\n        \"이는 전기차 가격이나 신차 출시 등에 영향을 줄 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"전기차\",\n            \"easy\": \"전기로 움직이는 자동차를 말해요.\",\n            \"example\": \"전기차는 배출가스가 없어 친환경적이라고 해요.\"\n        },\n        {\n            \"term\": \"시장 점유율\",\n            \"easy\": \"전체 시장에서 특정 기업이나 제품이 차지하는 비율을 말해요.\",\n            \"example\": \"이 치킨집의 시장 점유율이 높아지면 인기가 많다는 뜻이에요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 50자 초과(52)",
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -149,8 +142,8 @@
   "fact_hash": "8485aebbe029b112a304fa232c170338bbfad636"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(52)\", \"details 3문장 미만\"]}]}",
-  "at": "2026-08-26T07:16:35.093948+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-30T00:30:33.349396+00:00"
  },
  "glossary": [],
  "related": [

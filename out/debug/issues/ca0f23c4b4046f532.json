@@ -9,11 +9,31 @@
  "entity_keys": [
   "FED"
  ],
- "seen_sources": 33,
- "importance": 130,
+ "seen_sources": 34,
+ "importance": 135,
  "created_at": "2026-08-25T22:51:26.333789+00:00",
- "last_update": "2026-08-28T18:52:05.935530+00:00",
+ "last_update": "2026-08-30T00:28:05.317431+00:00",
  "members": [
+  {
+   "id": "988a664096dd12b88af3a65fd3f632b33e0ebcd1",
+   "source": "mymotherlode.com",
+   "tier": "wire",
+   "url": "https://mymotherlode.com/news/national/11101901/warsh-raises-stakes-for-feds-next-meeting-and-other-takeaways-from-jackson-hole-conference.html",
+   "title": "Warsh raises stakes for Fed next meeting and other takeaways from Jackson Hole conference",
+   "published_at": "2026-08-29T22:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.917
+  },
+  {
+   "id": "7fcce3806da9f6bf597502c5d61365145d97721d",
+   "source": "mymotherlode.com",
+   "tier": "wire",
+   "url": "https://mymotherlode.com/news/national/11101908/america-in-focus-key-inflation-gauge-remains-high-feds-warsh-signals-rate-hikes-may-be-needed.html",
+   "title": "America In Focus : key inflation gauge remains high ; Fed Warsh signals rate hikes may be needed",
+   "published_at": "2026-08-29T22:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.937
+  },
   {
    "id": "8fb540f764001970da1104ea4aff8b9de8bc9ee4",
    "source": "finance.yahoo.com",
@@ -493,30 +513,24 @@
    "published_at": "2026-08-27T20:45:00+00:00",
    "is_dup": 1,
    "sim_to_centroid": 0.9181
-  },
-  {
-   "id": "e52197671b6aa07a36bf3dca52079b64776d34a6",
-   "source": "rttnews.com",
-   "tier": "wire",
-   "url": "https://www.rttnews.com/story.aspx?Id=3685718",
-   "title": "European Stocks Decline Amid Fed Rate Hike Bets , Geopolitical Tensions",
-   "published_at": "2026-08-27T20:45:00+00:00",
-   "is_dup": 0,
-   "sim_to_centroid": 0.8933
-  },
-  {
-   "id": "766c38317e9035bfa1528c64003b38a4c4a91647",
-   "source": "finance.yahoo.com",
-   "tier": "wire",
-   "url": "https://finance.yahoo.com/economy/policy/articles/us-rates-rise-soon-absent-150621599.html",
-   "title": "US rates need to rise soon absent evidence of ongoing drop in inflation , Fed Collins says",
-   "published_at": "2026-08-27T20:45:00+00:00",
-   "is_dup": 0,
-   "sim_to_centroid": 0.9246
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Warsh raises stakes for Fed next meeting and other takeaways from Jackson Hole conference",
+   "source": "mymotherlode.com",
+   "url": "https://mymotherlode.com/news/national/11101901/warsh-raises-stakes-for-feds-next-meeting-and-other-takeaways-from-jackson-hole-conference.html",
+   "at": "2026-08-29T22:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "America In Focus : key inflation gauge remains high ; Fed Warsh signals rate hikes may be needed",
+   "source": "mymotherlode.com",
+   "url": "https://mymotherlode.com/news/national/11101908/america-in-focus-key-inflation-gauge-remains-high-feds-warsh-signals-rate-hikes-may-be-needed.html",
+   "at": "2026-08-29T22:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Fed has  work to do  if price rises dont ease for Americans , Warsh says",
@@ -852,20 +866,6 @@
    "source": "wysu.org",
    "url": "https://wysu.org/npr-national-news/2026-08-27/the-stakes-are-high-as-kevin-warsh-is-set-to-give-his-first-major-speech-as-fed-chair",
    "at": "2026-08-27T20:45:00+00:00"
-  },
-  {
-   "kind": "headline",
-   "title": "European Stocks Decline Amid Fed Rate Hike Bets , Geopolitical Tensions",
-   "source": "rttnews.com",
-   "url": "https://www.rttnews.com/story.aspx?Id=3685718",
-   "at": "2026-08-27T20:45:00+00:00"
-  },
-  {
-   "kind": "headline",
-   "title": "US rates need to rise soon absent evidence of ongoing drop in inflation , Fed Collins says",
-   "source": "finance.yahoo.com",
-   "url": "https://finance.yahoo.com/economy/policy/articles/us-rates-rise-soon-absent-150621599.html",
-   "at": "2026-08-27T20:45:00+00:00"
   }
  ],
  "llm": {
@@ -946,14 +946,6 @@
    "shared": []
   },
   {
-   "id": "ce25b81c76ebfd941",
-   "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
-   "category": "FX",
-   "shared": [
-    "FED"
-   ]
-  },
-  {
    "id": "c419df2138556f8cb",
    "title": "Federal debt ticks over $1 trillion for the first time",
    "category": "FX",
@@ -966,6 +958,14 @@
    "title": "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground",
    "category": "POLICY",
    "shared": []
+  },
+  {
+   "id": "ce25b81c76ebfd941",
+   "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
+   "category": "FX",
+   "shared": [
+    "FED"
+   ]
   }
  ]
 }
