@@ -873,8 +873,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-31T05:49:17.615593+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-31T14:08:49.049977+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -887,7 +887,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"미국, 이란에 새 경제 제재 발표\",\n  \"one_liner\": \"미국 재무장관이 이란의 모든 수입원을 차단하기 위한 새 경제 제재를 발표했어요.\",\n  \"why_now\": \"이란에 대한 경제 제재는 국제 유가에 영향을 줄 수 있어 주목받고 있어요.\",\n  \"impact_line\": \"국제 유가 변동으로 주유비가 오를 수 있어요.\",\n  \"details\": [\n    \"미국 재무장관이 새로운 경제 제재를 발표했습니다.\",\n    \"이번 제재는 이란의 모든 수입원을 차단하는 것을 목표로 합니다.\",\n    \"이란을 국제 사회에서 고립시키기 위한 조치입니다.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"이란의 석유 수출이 줄어들면 국제 유가가 오를 수 있어요!\",\n    \"국제 유가 상승은 전 세계 물가 상승으로 이어질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"경제 제재\",\n      \"easy\": \"특정 국가의 경제 활동을 제한하거나 금지하는 조치예요.\",\n      \"example\": \"다른 나라의 잘못된 행동을 막기 위해 경제 제재를 하기도 해요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n\"title\": \"미국, 이란 경제 제재 강화\",\n\"one_liner\": \"미국 재무장관이 이란의 모든 수입원을 차단하기 위한 새 경제 제재를 발표했어요.\",\n\"why_now\": \"이란에 대한 경제 제재는 국제 유가에 영향을 줄 수 있어 주목받아요.\",\n\"impact_line\": \"국제 유가 변동으로 주유비가 오를 수 있어요.\",\n\"details\": [\n\"미국 재무장관이 새로운 경제 제재를 발표했어요.\",\n\"이번 제재는 이란의 모든 수입원을 차단하는 것을 목표로 해요.\",\n\"이란을 고립시키기 위한 조치로 풀이돼요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"이란의 석유 수출이 줄어들면 국제 유가가 오를 수 있어요!\",\n\"국제 유가 상승은 항공료, 해상 운송료 등 물류 비용을 높여 전반적인 물가 상승으로 이어질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"경제 제재\",\n\"easy\": \"특정 국가의 경제 활동을 제한하거나 금지하는 조치예요.\",\n\"example\": \"다른 나라와의 관계 개선을 위해 경제 제재를 푸는 경우가 있어요.\"\n}\n]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
@@ -898,23 +898,24 @@
     ]
    },
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Treasury Secretary…",
-   "one_liner": "Treasury Secretary Scott Bessent to unveil new…",
-   "why_now": null,
+   "title": "미국, 이란 경제 제재 강화",
+   "one_liner": "미국 재무장관이 이란의 모든 수입원을 차단하기 위한 새 경제 제재를 발표했어요.",
+   "why_now": "이란에 대한 경제 제재는 국제 유가에 영향을 줄 수 있어 주목받아요.",
    "details": [
-    "Treasury Secretary Scott Bessent to unveil new economic sanctions on Iran",
-    "Treasury Secretary Scott Bessent unveils new US economic sanctions on Iran",
-    "Treasury Secretary Scott Bessent unveils new U . S . economic sanctions on Iran"
+    "미국 재무장관이 새로운 경제 제재를 발표했어요.",
+    "이번 제재는 이란의 모든 수입원을 차단하는 것을 목표로 해요.",
+    "이란을 고립시키기 위한 조치로 풀이돼요."
    ],
-   "effects": [],
-   "visual_type": "usdkrw"
+   "effects": [
+    "이란의 석유 수출이 줄어들면 국제 유가가 오를 수 있어요!",
+    "국제 유가 상승은 항공료, 해상 운송료 등 물류 비용을 높여 전반적인 물가 상승으로 이어질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "ae653c6503930f36fa7986b4360409d4d71362ab"
  },

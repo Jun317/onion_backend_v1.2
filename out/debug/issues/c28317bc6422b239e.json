@@ -221,8 +221,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-31T05:51:03.137293+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-31T14:09:55.792943+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -235,26 +235,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"주요 기업 주가 동향\", \"one_liner\": \"주요 기업들의 주가가 오르내리며 투자자들의 관심이 쏠리고 있어요.\", \"why_now\": \"개별 기업의 주가 움직임은 해당 기업의 실적이나 산업 전망을 반영하는 경우가 많아요.\", \"impact_line\": \"관심 있는 기업의 주가 변동을 잘 살펴보는 것이 좋겠어요.\", \"details\": [\"반도체 기업인 TSMC와 ASML의 주가 흐름이 주목받고 있어요.\", \"기술주에 대한 우려 속에서 일부 자금이 특정 ETF로 옮겨가는 모습이에요.\", \"암호화폐 이더리움에 대한 투자자들의 관심이 이어지고 있어요.\", \"컴퓨터 칩 관련 기업인 리게티 컴퓨팅의 주가가 상승했어요.\"], \"visual_type\": \"none\", \"effects\": [\"개별 기업의 주가 상승은 해당 기업의 성장 가능성을 보여줄 수 있어요!\", \"반도체나 암호화폐 관련 기업의 주가 변동은 관련 산업의 동향을 파악하는 데 도움이 될 수 있어요!\"], \"glossary\": [{\"term\": \"ETF\", \"easy\": \"여러 종목을 모아놓은 펀드를 주식처럼 사고팔 수 있게 만든 상품이에요.\", \"example\": \"ETF에 투자하면 적은 돈으로도 여러 회사에 나누어 투자하는 효과를 볼 수 있어요.\"}, {\"term\": \"TSMC\", \"easy\": \"전 세계에서 가장 많은 반도체를 위탁 생산하는 대만 기업이에요.\", \"example\": \"스마트폰이나 컴퓨터에 들어가는 핵심 부품인 반도체를 만드는 회사예요.\"}, {\"term\": \"ASML\", \"easy\": \"반도체를 만드는 데 꼭 필요한 첨단 장비를 만드는 네덜란드 기업이에요.\", \"example\": \"이 회사의 장비 없이는 최신 반도체를 만들기 어려워요.\"}, {\"term\": \"이더리움\", \"easy\": \"비트코인 다음으로 유명한 암호화폐 중 하나예요.\", \"example\": \"블록체인 기술을 기반으로 하며, 다양한 서비스에 활용될 수 있어요.\"}], \"impact_line\": \"관심 있는 기업의 주가 변동을 잘 살펴보는 것이 좋겠어요.\"}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Vanguard VT vs .…",
-   "one_liner": "Vanguard VT vs . State Street SPGM : Which…",
-   "why_now": null,
+   "title": "주요 기업 주가 동향",
+   "one_liner": "주요 기업들의 주가가 오르내리며 투자자들의 관심이 쏠리고 있어요.",
+   "why_now": "개별 기업의 주가 움직임은 해당 기업의 실적이나 산업 전망을 반영하는 경우가 많아요.",
    "details": [
-    "Vanguard VT vs . State Street SPGM : Which Global Stock ETF Is the Better Buy ?",
-    "Nervous About Big Tech ? This Vanguard Value ETF Is Where the Money Is Rotating",
-    "TSMC vs . ASML : Which Semiconductor Giant Is the Better Stock Buy ?"
+    "반도체 기업인 TSMC와 ASML의 주가 흐름이 주목받고 있어요.",
+    "기술주에 대한 우려 속에서 일부 자금이 특정 ETF로 옮겨가는 모습이에요.",
+    "암호화폐 이더리움에 대한 투자자들의 관심이 이어지고 있어요.",
+    "컴퓨터 칩 관련 기업인 리게티 컴퓨팅의 주가가 상승했어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "개별 기업의 주가 상승은 해당 기업의 성장 가능성을 보여줄 수 있어요!",
+    "반도체나 암호화폐 관련 기업의 주가 변동은 관련 산업의 동향을 파악하는 데 도움이 될 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "d4c3510c44dacc0b78bfe511358277cbf3f24559"
  },

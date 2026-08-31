@@ -121,8 +121,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-08-31T05:51:23.853392+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-31T14:10:06.075337+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -135,26 +135,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"월마트 주가 하락\",\n  \"one_liner\": \"월마트 주가가 한 달 사이 10% 떨어졌어요.\",\n  \"why_now\": \"주가가 크게 떨어지면 투자자들의 관심이 쏠리며 매도 여부를 고민하게 돼요.\",\n  \"impact_line\": \"월마트 주가 하락은 관련 상품 가격에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"월마트 주가가 한 달 동안 10% 하락했어요.\",\n    \"일부 투자자들은 월마트 주식 매도를 고려하고 있어요.\",\n    \"경쟁사인 타겟의 식료품 사업이 좋은 성과를 내고 있어요.\",\n    \"월마트에서 발생한 사고로 인한 소송 소식도 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"월마트 주가가 더 하락할 경우, 관련 상품의 가격이 내려갈 수 있어요!\",\n    \"주가 하락은 투자자들의 손실로 이어질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주가\",\n      \"easy\": \"회사가 발행한 주식의 가격을 말해요.\",\n      \"example\": \"삼성전자 주가가 오르면 투자한 돈이 늘어나요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Van Hulzen Asset…",
-   "one_liner": "Van Hulzen Asset Management LLC Makes New…",
-   "why_now": null,
+   "title": "월마트 주가 하락",
+   "one_liner": "월마트 주가가 한 달 사이 10% 떨어졌어요.",
+   "why_now": "주가가 크게 떨어지면 투자자들의 관심이 쏠리며 매도 여부를 고민하게 돼요.",
    "details": [
-    "Van Hulzen Asset Management LLC Makes New Investment in Walmart Inc . $WMT",
-    "Legal & General Group Plc Makes New Investment in Walmart Inc . $WMT",
-    "Florida woman suing Walmart on behalf of minor injured while riding Ridstar e - bike"
+    "월마트 주가가 한 달 동안 10% 하락했어요.",
+    "일부 투자자들은 월마트 주식 매도를 고려하고 있어요.",
+    "경쟁사인 타겟의 식료품 사업이 좋은 성과를 내고 있어요.",
+    "월마트에서 발생한 사고로 인한 소송 소식도 있어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "월마트 주가가 더 하락할 경우, 관련 상품의 가격이 내려갈 수 있어요!",
+    "주가 하락은 투자자들의 손실로 이어질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "60bc6114411eb8310f7c5219340f0314acbb055e"
  },

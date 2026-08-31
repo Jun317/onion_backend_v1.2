@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-31T05:50:11.234261+00:00",
+  "created_at": "2026-08-31T14:09:17.632693+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,7 +64,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"애플 CEO 보수\",\n\"one_liner\": \"애플 CEO 팀 쿡의 연봉과 주식 보상이 공개되었어요.\",\n\"why_now\": \"회사의 최고 경영진 보수는 회사의 성과와 미래 전망을 엿볼 수 있는 지표가 돼요.\",\n\"impact_line\": \"애플 주가에 영향을 줄 수 있어요.\",\n\"details\": [\n\"팀 쿡은 연봉과 주식, 기타 보상을 합쳐 보수를 받았어요.\",\n\"이는 월스트리트의 어려운 달을 앞두고 발표되었어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"팀 쿡의 보수 규모는 애플의 경영 성과와 주주들의 기대치를 반영할 수 있어요!\",\n\"보수 관련 소식이 투자자들의 결정에 영향을 줄 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"CEO\",\n\"easy\": \"회사의 최고 경영 책임자를 말해요.\",\n\"example\": \"CEO는 회사의 중요한 결정을 내리는 역할을 해요.\"\n},\n{\n\"term\": \"연봉\",\n\"easy\": \"1년 동안 받는 월급을 말해요.\",\n\"example\": \"연봉이 오르면 가계 소득이 늘어날 수 있어요.\"\n},\n{\n\"term\": \"주식\",\n\"easy\": \"회사의 소유권 일부를 나타내는 증서예요.\",\n\"example\": \"주식 가격이 오르면 투자한 돈이 늘어날 수 있어요.\"\n}\n]\n}",
+  "raw_response": "{\n\"title\": \"애플 CEO 보수 공개\",\n\"one_liner\": \"애플 CEO 팀 쿡의 연봉과 주식 보상이 공개되었어요.\",\n\"why_now\": \"회사의 최고 경영진 보수는 회사의 성과와 미래 전망을 엿볼 수 있는 지표가 돼요.\",\n\"impact_line\": \"애플 주가에 영향을 줄 수 있어요.\",\n\"details\": [\n\"팀 쿡 CEO는 연봉과 주식 보상을 받았어요.\",\n\"이 보상은 월스트리트의 어려운 달을 앞두고 결정되었어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"팀 쿡 CEO의 보수 규모는 애플의 경영 성과와 주주들의 기대치를 반영할 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"CEO\",\n\"easy\": \"회사의 최고 경영 책임자를 말해요. 회사의 중요한 결정을 내리는 역할을 해요.\",\n\"example\": \"우리 회사 CEO는 신제품 개발을 총괄하고 있어요.\"\n}\n],\n\"impact_line\": \"애플 주가에 영향을 줄 수 있어요.\"\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
@@ -73,9 +73,9 @@
     ]
    },
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
    }
   ],
@@ -93,8 +93,8 @@
   "fact_hash": "7e83057900a24f3b090fdddcc4c289de4bb8c42b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-31T05:50:11.234160+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-08-31T14:09:17.632555+00:00"
  },
  "glossary": [],
  "related": [
