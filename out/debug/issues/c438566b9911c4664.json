@@ -9,11 +9,21 @@
  "entity_keys": [
   "AAPL"
  ],
- "seen_sources": 2,
- "importance": 85,
+ "seen_sources": 3,
+ "importance": 95,
  "created_at": "2026-08-29T14:35:49.354279+00:00",
- "last_update": "2026-08-29T14:35:49.355309+00:00",
+ "last_update": "2026-08-31T20:13:46.487806+00:00",
  "members": [
+  {
+   "id": "d85f364e6f150fa8559d0207ff59f02c5ced283b",
+   "source": "freshplaza.com",
+   "tier": "wire",
+   "url": "https://www.freshplaza.com/north-america/article/9867728/this-is-a-pivotal-year-for-the-future-of-the-apple/",
+   "title": "This is a pivotal year for the future of the apple",
+   "published_at": "2026-08-31T15:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8785
+  },
   {
    "id": "b944793a85172c2fb7de71929d612eb471e674fc",
    "source": "businesstoday.in",
@@ -22,7 +32,7 @@
    "title": "Tim Cook compensation : How much Apple CEO made from salary and stocks",
    "published_at": "2026-08-29T13:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9644
+   "sim_to_centroid": 0.9598
   },
   {
    "id": "9f8d53b4d49e628601cfe28e67a6620196195515",
@@ -32,11 +42,18 @@
    "title": "Apple Is Handing Its New CEO the Keys Right Before Wall Street Toughest Month",
    "published_at": "2026-08-28T17:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9645
+   "sim_to_centroid": 0.9664
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "This is a pivotal year for the future of the apple",
+   "source": "freshplaza.com",
+   "url": "https://www.freshplaza.com/north-america/article/9867728/this-is-a-pivotal-year-for-the-future-of-the-apple/",
+   "at": "2026-08-31T15:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Tim Cook compensation : How much Apple CEO made from salary and stocks",
@@ -54,47 +71,43 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-31T14:09:17.632693+00:00",
+  "created_at": "2026-08-31T20:14:07.277329+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "This is a pivotal year for the future of the apple",
     "Tim Cook compensation : How much Apple CEO made from salary and stocks",
     "Apple Is Handing Its New CEO the Keys Right Before Wall Street Toughest Month"
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"애플 CEO 보수 공개\",\n\"one_liner\": \"애플 CEO 팀 쿡의 연봉과 주식 보상이 공개되었어요.\",\n\"why_now\": \"회사의 최고 경영진 보수는 회사의 성과와 미래 전망을 엿볼 수 있는 지표가 돼요.\",\n\"impact_line\": \"애플 주가에 영향을 줄 수 있어요.\",\n\"details\": [\n\"팀 쿡 CEO는 연봉과 주식 보상을 받았어요.\",\n\"이 보상은 월스트리트의 어려운 달을 앞두고 결정되었어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"팀 쿡 CEO의 보수 규모는 애플의 경영 성과와 주주들의 기대치를 반영할 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"CEO\",\n\"easy\": \"회사의 최고 경영 책임자를 말해요. 회사의 중요한 결정을 내리는 역할을 해요.\",\n\"example\": \"우리 회사 CEO는 신제품 개발을 총괄하고 있어요.\"\n}\n],\n\"impact_line\": \"애플 주가에 영향을 줄 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
   "output": {
-   "title": "Tim Cook compensation…",
-   "one_liner": "Tim Cook compensation : How much Apple CEO made…",
+   "title": "This is a pivotal…",
+   "one_liner": "This is a pivotal year for the future of the apple",
    "why_now": null,
    "details": [
+    "This is a pivotal year for the future of the apple",
     "Tim Cook compensation : How much Apple CEO made from salary and stocks",
     "Apple Is Handing Its New CEO the Keys Right Before Wall Street Toughest Month"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "7e83057900a24f3b090fdddcc4c289de4bb8c42b"
+  "fact_hash": "11fe0963db487c004a5a48b906e1113ff7ac2bd7"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-08-31T14:09:17.632555+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-31T20:14:07.277217+00:00"
  },
  "glossary": [],
  "related": [
