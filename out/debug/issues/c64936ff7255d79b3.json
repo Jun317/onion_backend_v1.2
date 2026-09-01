@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-01T11:51:40.294685+00:00",
+  "created_at": "2026-09-01T16:48:55.286247+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -64,14 +64,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"중국 항공기 좌석 넓어짐\", \"one_liner\": \"중국 항공기 좌석이 더 넓어졌다는 평가가 나왔어요.\", \"why_now\": \"항공기 좌석이 넓어지면 장거리 비행 시 편안함이 커질 수 있어요.\", \"impact_line\": \"항공 여행 시 좌석 간격이 넓어져 편안함을 느낄 수 있어요.\", \"details\": [\"중국 항공기 좌석이 더 넓어졌다는 후기가 있어요.\", \"이 항공기는 시드니에서 상하이로 가는 노선이에요.\"], \"visual_type\": \"none\", \"effects\": [\"좌석 간격이 넓어지면 장시간 비행이 더 편안해질 수 있어요!\"], \"glossary\": [], \"impact_line\": \"항공 여행 시 좌석 간격이 넓어져 편안함을 느낄 수 있어요.\"}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -93,8 +87,8 @@
   "fact_hash": "05b84e1c28b49db94db51e2f5c7bf657f8defca5"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-01T11:51:40.294569+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-01T16:48:55.286135+00:00"
  },
  "glossary": [],
  "related": [
