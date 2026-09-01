@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-01T16:51:20.554602+00:00",
+  "created_at": "2026-09-01T20:04:24.530659+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,8 +881,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"정치권, 선거철 건강 악화 우려\", \"one_liner\": \"선거철이 다가오면서 정치권의 건강 악화 우려가 커지고 있어요.\", \"why_now\": \"선거철에는 정치인들의 스트레스와 피로가 늘어나 건강에 좋지 않은 영향을 줄 수 있어요.\", \"impact_line\": \"정치인들의 건강 문제로 정책 결정이 늦어질 수 있어요.\", \"details\": [\"선거철을 맞아 정치권의 건강 악화에 대한 우려가 제기되고 있어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [], \"impact_line\": \"정치인들의 건강 문제로 정책 결정이 늦어질 수 있어요.\"}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +912,8 @@
   "fact_hash": "c411308473305384e0b3997f6067668fae757a4f"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-01T16:51:20.554526+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-01T20:04:24.530571+00:00"
  },
  "glossary": [],
  "related": [
