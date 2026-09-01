@@ -854,7 +854,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-01T05:22:36.890579+00:00",
+  "created_at": "2026-09-01T11:50:07.240767+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -867,12 +867,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"중국 태양광 산업 둔화\", \"one_liner\": \"중국 태양광 산업이 여러 어려움으로 인해 성장세가 느려지고 있어요.\", \"why_now\": \"중국은 세계 최대 태양광 제품 생산국으로, 이 산업의 둔화는 전 세계 에너지 전환에 영향을 줄 수 있어요.\", \"impact_line\": \"친환경 에너지 제품 가격에 영향을 줄 수 있어요.\", \"details\": [\"중국 태양광 산업이 여러 압박을 받고 있어요.\", \"이로 인해 성장 속도가 더뎌지고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"중국 태양광 제품의 수출 가격이 변동될 수 있어요!\", \"전 세계적으로 친환경 에너지 전환 속도에 영향을 줄 수 있어요!\"], \"glossary\": [{\"term\": \"태양광 산업\", \"easy\": \"햇빛을 이용해 전기를 만드는 태양광 패널을 만들고 설치하는 산업이에요.\", \"example\": \"태양광 산업은 친환경 에너지 확대에 중요한 역할을 해요.\"}]}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "why_now 55자 초과(59)",
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(59)",
+     "details 3문장 미만"
     ]
    }
   ],
@@ -891,8 +899,8 @@
   "fact_hash": "bd1bd84a46295e41831127eb545973b1236eab8c"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-01T05:22:36.890464+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(59)\", \"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(59)\", \"details 3문장 미만\"]}]}",
+  "at": "2026-09-01T11:50:07.240658+00:00"
  },
  "glossary": [],
  "related": [

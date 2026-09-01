@@ -855,8 +855,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-09-01T05:23:18.249225+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-01T11:50:51.809505+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -869,26 +869,34 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"트럼프, 이란 경제 압박 선언\", \"one_liner\": \"트럼프 대통령이 이란에 대한 경제 압박을 시작하겠다고 밝혔어요.\", \"why_now\": \"이란과의 긴장이 고조되면서 경제 제재가 새로운 국면을 맞고 있어요.\", \"impact_line\": \"국제 유가 변동성이 커질 수 있어요.\", \"details\": [\"트럼프 대통령이 이란에 대한 경제 제재를 예고했어요.\", \"이는 이란과의 관계에서 새로운 전략 변화를 의미해요.\", \"이란은 이에 대해 비웃음으로 반응했어요.\", \"이 발표는 전쟁이 6개월에 가까워지는 시점에 나왔어요.\"], \"visual_type\": \"none\", \"effects\": [\"이란에 대한 경제 제재 강화로 국제 유가가 오를 수 있어요!\", \"중동 지역의 경제적 불안정성이 커질 수 있어요!\"], \"glossary\": [{\"term\": \"경제 압박\", \"easy\": \"상대방의 행동 변화를 유도하기 위해 경제 수단을 사용하는 것을 말해요.\", \"example\": \"정부가 무역 상대국의 부당한 조치에 대해 관세를 부과하는 것이 예시가 될 수 있어요.\"}, {\"term\": \"경제 제재\", \"easy\": \"특정 국가나 단체의 불법 행위에 대응하기 위해 무역이나 금융 거래를 금지하는 조치예요.\", \"example\": \"핵무기 개발을 막기 위해 특정 국가에 대한 금융 거래를 중단하는 것이 예시가 될 수 있어요.\"}], \"impact_line\": \"국제 유가 변동성이 커질 수 있어요.\"}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "JSON 파스 실패"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Trump threatens Iran…",
-   "one_liner": "Trump threatens Iran with  economic D - Day",
-   "why_now": null,
+   "title": "트럼프, 이란 경제 압박 선언",
+   "one_liner": "트럼프 대통령이 이란에 대한 경제 압박을 시작하겠다고 밝혔어요.",
+   "why_now": "이란과의 긴장이 고조되면서 경제 제재가 새로운 국면을 맞고 있어요.",
    "details": [
-    "Trump threatens Iran with  economic D - Day",
-    "President Trump threats economic warfare in latest shift in strategy with Iran",
-    "Trump Launches Economic Pressure Campaign Against Iran"
+    "트럼프 대통령이 이란에 대한 경제 제재를 예고했어요.",
+    "이는 이란과의 관계에서 새로운 전략 변화를 의미해요.",
+    "이란은 이에 대해 비웃음으로 반응했어요.",
+    "이 발표는 전쟁이 6개월에 가까워지는 시점에 나왔어요."
    ],
-   "effects": [],
-   "visual_type": "usdkrw"
+   "effects": [
+    "이란에 대한 경제 제재 강화로 국제 유가가 오를 수 있어요!",
+    "중동 지역의 경제적 불안정성이 커질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "881082c7bdc36e9b1401b4bc63d97b8fa75b5dcf"
  },
@@ -916,14 +924,6 @@
    ]
   },
   {
-   "id": "c8a1922fe87d06746",
-   "title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
-   "category": "MARKET",
-   "shared": [
-    "NVDA"
-   ]
-  },
-  {
    "id": "c78995e710f8b7506",
    "title": "Amazon to expand drone delivery of light packages to 500 US cities",
    "category": "POLICY",
@@ -937,6 +937,14 @@
    "category": "FX",
    "shared": [
     "CHINA",
+    "IRAN"
+   ]
+  },
+  {
+   "id": "ca2696857c59592ad",
+   "title": "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground",
+   "category": "POLICY",
+   "shared": [
     "IRAN"
    ]
   }

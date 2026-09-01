@@ -104,8 +104,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-09-01T05:21:59.472633+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-01T11:49:40.793895+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -118,26 +118,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"애플 주가 전망\", \"one_liner\": \"애플 CEO의 보상과 신제품 출시가 주가에 영향을 줄 수 있어요.\", \"why_now\": \"연말은 주식 시장이 불안정해지는 시기라 애플의 향후 실적이 중요해요.\", \"impact_line\": \"애플 관련 주식에 투자한다면 변동성을 주의해야 해요.\", \"details\": [\"애플 CEO의 연봉과 주식 보상 규모가 공개되었어요.\", \"애플은 새로운 메뉴를 출시하며 소비자 공략에 나서고 있어요.\", \"올해는 애플의 미래를 결정할 중요한 해가 될 수 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"애플 CEO의 보상 규모는 회사의 재정 건전성을 보여주는 지표가 될 수 있어요!\", \"신제품 출시는 소비자들의 구매를 유도해 매출 증대에 기여할 수 있어요!\"], \"glossary\": [{\"term\": \"CEO\", \"easy\": \"회사의 최고 경영자를 뜻해요. 회사의 중요한 결정을 내려요.\", \"example\": \"CEO가 회사의 미래 전략을 발표했어요.\"}, {\"term\": \"주식\", \"easy\": \"회사의 소유권 일부를 나타내는 증서예요. 사고팔 수 있어요.\", \"example\": \"주식 가격이 오르면 투자한 돈이 늘어나요.\"}, {\"term\": \"신제품 출시\", \"easy\": \"회사가 새롭게 만든 상품이나 서비스를 시장에 선보이는 거예요.\", \"example\": \"신제품 출시는 회사의 매출을 늘리는 데 도움이 될 수 있어요.\"}], \"impact_line\": \"애플 관련 주식에 투자한다면 변동성을 주의해야 해요.\"}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Applebee adds to O -…",
-   "one_liner": "Applebee adds to O - M - Cheese with new O - M -…",
-   "why_now": null,
+   "title": "애플 주가 전망",
+   "one_liner": "애플 CEO의 보상과 신제품 출시가 주가에 영향을 줄 수 있어요.",
+   "why_now": "연말은 주식 시장이 불안정해지는 시기라 애플의 향후 실적이 중요해요.",
    "details": [
-    "Applebee adds to O - M - Cheese with new O - M - Cheese - adilla Burger",
-    "This is a pivotal year for the future of the apple",
-    "The ABC of Canadian apples"
+    "애플 CEO의 연봉과 주식 보상 규모가 공개되었어요.",
+    "애플은 새로운 메뉴를 출시하며 소비자 공략에 나서고 있어요.",
+    "올해는 애플의 미래를 결정할 중요한 해가 될 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "애플 CEO의 보상 규모는 회사의 재정 건전성을 보여주는 지표가 될 수 있어요!",
+    "신제품 출시는 소비자들의 구매를 유도해 매출 증대에 기여할 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "63531d38bbf4aea1c6fa804b5095cb4e066066af"
  },

@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-09-01T05:23:39.008111+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-01T11:51:01.649873+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,25 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"미국-캐나다 무역 협상 결렬\",\n    \"one_liner\": \"미국과 캐나다의 무역 협상이 결렬되어 앞으로의 상황이 불확실해졌어요.\",\n    \"why_now\": \"무역 협상이 잘 안 되면 물건 가격이 오르거나 경제에 어려움이 생길 수 있어요.\",\n    \"impact_line\": \"수입 물건 가격이 오르거나 경제 활동이 위축될 수 있어요.\",\n    \"details\": [\n        \"미국과 캐나다 간의 무역 협상이 최근 결렬되었어요.\",\n        \"이번 협상 결렬은 미국 경제에 부정적인 영향을 줄 수 있어요.\",\n        \"협상 결렬로 인해 물가 상승이 우려되고 있어요.\",\n        \"캐나다 중앙은행은 민간 신용 증가에 대해 우려하고 있어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"미국에서 캐나다로 수출하는 물건의 가격 경쟁력이 약화될 수 있어요!\",\n        \"양국 간 무역량이 줄어들면 경제 성장세가 둔화될 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"무역 협상\",\n            \"easy\": \"나라와 나라 사이에 물건을 사고팔 때 지켜야 할 규칙을 정하는 대화예요.\",\n            \"example\": \"무역 협상이 잘 되면 물건 값이 싸지고 더 많은 물건을 살 수 있어요.\"\n        },\n        {\n            \"term\": \"민간 신용\",\n            \"easy\": \"은행이 아닌 다른 회사들이 개인이나 기업에게 돈을 빌려주는 것을 말해요.\",\n            \"example\": \"민간 신용이 너무 늘면 돈을 갚지 못하는 사람들이 많아질 수 있어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "How Trump Canada…",
-   "one_liner": "How Trump Canada tariffs could hurt the US…",
-   "why_now": null,
+   "title": "미국-캐나다 무역 협상 결렬",
+   "one_liner": "미국과 캐나다의 무역 협상이 결렬되어 앞으로의 상황이 불확실해졌어요.",
+   "why_now": "무역 협상이 잘 안 되면 물건 가격이 오르거나 경제에 어려움이 생길 수 있어요.",
    "details": [
-    "How Trump Canada tariffs could hurt the US economy and raise prices",
-    "Explainer : Why the latest round of Canada - U . S . trade talks collapsed ?",
-    "US - Canada trade talks collapse : What happens next ?"
+    "미국과 캐나다 간의 무역 협상이 최근 결렬되었어요.",
+    "이번 협상 결렬은 미국 경제에 부정적인 영향을 줄 수 있어요.",
+    "협상 결렬로 인해 물가 상승이 우려되고 있어요.",
+    "캐나다 중앙은행은 민간 신용 증가에 대해 우려하고 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "미국에서 캐나다로 수출하는 물건의 가격 경쟁력이 약화될 수 있어요!",
+    "양국 간 무역량이 줄어들면 경제 성장세가 둔화될 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "5fc3ddc064f4b18b4511c331614001138da50b44"
@@ -908,7 +910,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-09-01T05:23:39.008004+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  }
+ ],
  "related": [
   {
    "id": "ca0f23c4b4046f532",

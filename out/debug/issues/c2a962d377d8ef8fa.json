@@ -725,7 +725,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-01T05:23:28.678125+00:00",
+  "created_at": "2026-09-01T11:50:57.881401+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -738,12 +738,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"구글, 마벨 주식 매입\",\n  \"one_liner\": \"구글이 미국 반도체 회사 마벨의 주식을 최대 122억 달러어치 사기로 했어요.\",\n  \"why_now\": \"구글이 마벨의 반도체 칩을 구매하면서 주식까지 사들이는 것은 기술 협력을 강화하려는 움직임으로 보여요.\",\n  \"impact_line\": \"반도체 관련 기업들의 주가에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"구글은 마벨의 주식을 최대 122억 달러까지 매입할 예정이에요.\",\n    \"구글은 마벨 칩을 구매하는 대가로 마벨의 주식 워런트를 받기도 해요.\",\n    \"이 거래는 구글과 마벨 간의 기술 협력을 강화할 것으로 보여요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"반도체 관련 기업들의 주가 변동성이 커질 수 있어요!\",\n    \"기술 기업 간의 협력이 강화되면서 관련 시장의 경쟁 구도가 바뀔 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주식 워런트\",\n      \"easy\": \"미래에 정해진 가격으로 회사의 주식을 살 수 있는 권리예요.\",\n      \"example\": \"주식 워런트를 받으면 나중에 주가가 오르면 이익을 볼 수 있어요.\"\n    },\n    {\n      \"term\": \"반도체\",\n      \"easy\": \"전기가 통하는 성질을 이용해 정보를 처리하거나 저장하는 작은 부품이에요.\",\n      \"example\": \"스마트폰, 컴퓨터 등 우리 주변의 많은 전자기기에 반도체가 꼭 들어가요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "why_now 55자 초과(68)",
+     "입력에 없는 숫자: [122.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "why_now 55자 초과(57)",
+     "입력에 없는 숫자: [122.0]"
     ]
    }
   ],
@@ -762,11 +770,19 @@
   "fact_hash": "3f5260a2a01f0ccb75c4b3de2f541e531028dc6a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-01T05:23:28.678058+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(68)\", \"입력에 없는 숫자: [122.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(57)\", \"입력에 없는 숫자: [122.0]\"]}]}",
+  "at": "2026-09-01T11:50:57.881324+00:00"
  },
  "glossary": [],
  "related": [
+  {
+   "id": "c78995e710f8b7506",
+   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
+   "category": "POLICY",
+   "shared": [
+    "NFLX"
+   ]
+  },
   {
    "id": "c8a1922fe87d06746",
    "title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
@@ -774,14 +790,6 @@
    "shared": [
     "AAPL",
     "NVDA"
-   ]
-  },
-  {
-   "id": "c78995e710f8b7506",
-   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
-   "category": "POLICY",
-   "shared": [
-    "NFLX"
    ]
   },
   {
