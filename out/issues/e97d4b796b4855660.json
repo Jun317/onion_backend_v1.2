@@ -33,7 +33,19 @@
   "소비가 늘어나서 경제가 더 활기차질 수 있어요!"
  ],
  "model": "llama-3.3-70b-versatile",
- "visual": null,
+ "visual": {
+  "type": "kr_cpi_yoy",
+  "chart": "line",
+  "title": "한국 소비자물가 상승률 YoY (최근 3년)",
+  "unit": "%",
+  "source": "한국은행 ECOS",
+  "series": [
+   {
+    "t": "2026-07",
+    "v": 2.79
+   }
+  ]
+ },
  "anchors": [
   {
    "entity": "KR",
