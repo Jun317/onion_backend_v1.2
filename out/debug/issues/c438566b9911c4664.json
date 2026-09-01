@@ -105,7 +105,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-08-31T23:57:54.671291+00:00",
+  "created_at": "2026-09-01T05:21:59.472633+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -118,15 +118,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"애플 CEO 보상\", \"one_liner\": \"애플 CEO 팀 쿡의 연봉과 주식 보상이 공개되었어요.\", \"why_now\": \"회사의 최고 경영진 보상은 회사의 성과와 주주들의 관심사와 직결되는 중요한 사안이에요.\", \"impact_line\": \"애플 주가에 영향을 줄 수 있어요.\", \"details\": [\"팀 쿡의 연봉과 주식 보상 내역이 공개되었어요.\"], \"visual_type\": \"none\", \"effects\": [\"CEO 보상 규모는 회사의 경영 성과와 주주들의 기대치를 반영하는 지표가 될 수 있어요.\"], \"glossary\": [{\"term\": \"CEO\", \"easy\": \"회사의 최고 경영 책임자를 말해요. 회사의 중요한 결정을 내리는 역할을 해요.\", \"example\": \"삼성전자 CEO는 회사의 전반적인 경영을 책임져요.\"}, {\"term\": \"주식 보상\", \"easy\": \"회사가 직원에게 회사의 주식을 주는 방식의 보상이에요.\", \"example\": \"회사가 성과가 좋은 직원에게 주식 보상을 하기도 해요.\"}], \"impact_line\": \"애플 CEO의 보상 규모는 회사의 경영 성과와 주주들의 관심사를 보여주는 지표가 될 수 있어요.\"}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects[0] 느낌표 종결 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -149,8 +142,8 @@
   "fact_hash": "63531d38bbf4aea1c6fa804b5095cb4e066066af"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[0] 느낌표 종결 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-08-31T23:57:54.671173+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-01T05:21:59.472296+00:00"
  },
  "glossary": [],
  "related": [
