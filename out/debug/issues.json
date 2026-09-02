@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T01:15:22.207825+00:00",
+ "generated_at": "2026-09-02T06:04:58.225958+00:00",
  "issues": [
   {
    "id": "ccec1fdb78ce6d4ce",
@@ -22,6 +22,25 @@
    "one_liner": "유럽중앙은행이 인공지능 시장의 거품이 꺼질 수 있다고 경고했어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
+  },
+  {
+   "id": "efdd88017059060b5",
+   "title": "한국은행 기준금리 인상 (3.00%)",
+   "category": "RATE",
+   "status": "active",
+   "origin": "official_event",
+   "seen_sources": 0,
+   "importance": 140,
+   "entity_keys": [
+    "BOK"
+   ],
+   "created_at": "2026-09-02T03:57:11.990336+00:00",
+   "last_update": "2026-09-02T05:57:32.521929+00:00",
+   "members": 0,
+   "llm_title": "한국 기준금리 인상",
+   "one_liner": "한국은행이 기준금리를 0.25%p 올려 연 3.00%가 되었어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": false
   },
   {
    "id": "ca0f23c4b4046f532",
@@ -131,33 +150,6 @@
    "in_review": true
   },
   {
-   "id": "c8a1922fe87d06746",
-   "title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
-   "category": "MARKET",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 28,
-   "importance": 115,
-   "entity_keys": [
-    "AAPL",
-    "CRM",
-    "FED",
-    "KOSPI",
-    "KRX:000660",
-    "KRX:034730",
-    "MU",
-    "NVDA",
-    "TAIWAN"
-   ],
-   "created_at": "2026-08-18T04:57:31.930508+00:00",
-   "last_update": "2026-08-28T05:30:51.784221+00:00",
-   "members": 50,
-   "llm_title": "코스피 하락",
-   "one_liner": "한국 주식 시장인 코스피가 2% 하락했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "ccc137270dbb9d742",
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
    "category": "MARKET",
@@ -219,6 +211,33 @@
    "members": 13,
    "llm_title": "부동산 시장 회복세",
    "one_liner": "부동산 시장이 회복세를 보이며 19개 분야 중 8곳에서 높은 성장률을 기록했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
+   "id": "c8a1922fe87d06746",
+   "title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 28,
+   "importance": 110,
+   "entity_keys": [
+    "AAPL",
+    "CRM",
+    "FED",
+    "KOSPI",
+    "KRX:000660",
+    "KRX:034730",
+    "MU",
+    "NVDA",
+    "TAIWAN"
+   ],
+   "created_at": "2026-08-18T04:57:31.930508+00:00",
+   "last_update": "2026-08-28T05:30:51.784221+00:00",
+   "members": 50,
+   "llm_title": "코스피 하락",
+   "one_liner": "한국 주식 시장인 코스피가 2% 하락했어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -534,29 +553,6 @@
    "in_review": true
   },
   {
-   "id": "cf17f78864733c344",
-   "title": "Broadcom ( AVGO ) Massive New Debt Deal Points To Where AI Is Headed",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 27,
-   "importance": 100,
-   "entity_keys": [
-    "AVGO",
-    "ECB",
-    "INTC",
-    "SEC",
-    "TAIWAN"
-   ],
-   "created_at": "2026-08-23T15:43:06.292890+00:00",
-   "last_update": "2026-08-28T05:30:51.784766+00:00",
-   "members": 46,
-   "llm_title": "브로드컴 주식 관련 보도",
-   "one_liner": "브로드컴 주식에 대한 다양한 투자 소식이 나왔어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": false
-  },
-  {
    "id": "e7dc95bcb919f5113",
    "title": "메타케어 2026-2Q 실적 공시",
    "category": "EARNINGS",
@@ -613,6 +609,29 @@
    "one_liner": "미국이 이란에 새로운 제재를 가하면서 한국 경제에 미칠 영향이 주목받고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
+  },
+  {
+   "id": "cf17f78864733c344",
+   "title": "Broadcom ( AVGO ) Massive New Debt Deal Points To Where AI Is Headed",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "seen_sources": 27,
+   "importance": 95,
+   "entity_keys": [
+    "AVGO",
+    "ECB",
+    "INTC",
+    "SEC",
+    "TAIWAN"
+   ],
+   "created_at": "2026-08-23T15:43:06.292890+00:00",
+   "last_update": "2026-08-28T05:30:51.784766+00:00",
+   "members": 46,
+   "llm_title": "브로드컴 주식 관련 보도",
+   "one_liner": "브로드컴 주식에 대한 다양한 투자 소식이 나왔어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": false
   },
   {
    "id": "c2785216b6080f21e",
@@ -1092,27 +1111,6 @@
    "llm_title": "금값·비트코인 상승",
    "one_liner": "미국 채권 시장의 불안정으로 금값과 비트코인이 올랐어요.",
    "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "c88e8eac7409b58b3",
-   "title": "There are gas lines in Iran , but no sign yet that its leaders will bow to US sanctions",
-   "category": "GEO",
-   "status": "archived",
-   "origin": "cluster",
-   "seen_sources": 30,
-   "importance": 85,
-   "entity_keys": [
-    "CHINA",
-    "IRAN",
-    "JPM"
-   ],
-   "created_at": "2026-08-25T17:51:17.965098+00:00",
-   "last_update": "2026-08-26T05:01:45.844256+00:00",
-   "members": 0,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
    "in_review": true
   },
   {
@@ -2123,25 +2121,6 @@
    "in_review": true
   },
   {
-   "id": "c64936ff7255d79b3",
-   "title": "China Eastern Sydney to Shanghai flight review : seats are roomier | Blayney Chronicle",
-   "category": "FX",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 70,
-   "entity_keys": [
-    "CHINA"
-   ],
-   "created_at": "2026-09-01T05:21:46.558138+00:00",
-   "last_update": "2026-09-01T05:21:46.558916+00:00",
-   "members": 2,
-   "llm_title": "China Eastern Sydney…",
-   "one_liner": "China Eastern Sydney to Shanghai flight review :…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "cb986e341726514d4",
    "title": "Walmart Just Dropped 10 % in a Month . Is It Time to Sell ?",
    "category": "EARNINGS",
@@ -2313,42 +2292,23 @@
    "in_review": false
   },
   {
-   "id": "c869f57fa7b2500ee",
-   "title": "At G20 Summit , Bessent Vows To Intensify Economic  Pressure  On Iran",
-   "category": "GEO",
-   "status": "candidate",
+   "id": "c64936ff7255d79b3",
+   "title": "China Eastern Sydney to Shanghai flight review : seats are roomier | Blayney Chronicle",
+   "category": "FX",
+   "status": "active",
    "origin": "cluster",
-   "seen_sources": 1,
+   "seen_sources": 2,
    "importance": 65,
    "entity_keys": [
-    "IRAN"
+    "CHINA"
    ],
-   "created_at": "2026-08-31T23:57:20.234696+00:00",
-   "last_update": "2026-09-01T05:21:46.557104+00:00",
-   "members": 4,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
-   "id": "c9efbf653a9004062",
-   "title": "UAE intercepts Iranian drone over territorial waters",
-   "category": "GEO",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 65,
-   "entity_keys": [
-    "IRAN"
-   ],
-   "created_at": "2026-08-31T23:57:20.234591+00:00",
-   "last_update": "2026-09-01T05:21:46.555131+00:00",
-   "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "created_at": "2026-09-01T05:21:46.558138+00:00",
+   "last_update": "2026-09-01T05:21:46.558916+00:00",
+   "members": 2,
+   "llm_title": "China Eastern Sydney…",
+   "one_liner": "China Eastern Sydney to Shanghai flight review :…",
+   "llm_model": "template",
+   "in_review": true
   },
   {
    "id": "cda456ba11155483a",
@@ -2978,6 +2938,44 @@
    "one_liner": "제이피모건의 분석가가 몇몇 주가가 오를 것으로 예상했어요",
    "llm_model": "llama-3.3-70b-versatile",
    "in_review": true
+  },
+  {
+   "id": "c869f57fa7b2500ee",
+   "title": "At G20 Summit , Bessent Vows To Intensify Economic  Pressure  On Iran",
+   "category": "GEO",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 60,
+   "entity_keys": [
+    "IRAN"
+   ],
+   "created_at": "2026-08-31T23:57:20.234696+00:00",
+   "last_update": "2026-09-01T05:21:46.557104+00:00",
+   "members": 4,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
+   "id": "c9efbf653a9004062",
+   "title": "UAE intercepts Iranian drone over territorial waters",
+   "category": "GEO",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 60,
+   "entity_keys": [
+    "IRAN"
+   ],
+   "created_at": "2026-08-31T23:57:20.234591+00:00",
+   "last_update": "2026-09-01T05:21:46.555131+00:00",
+   "members": 3,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
   },
   {
    "id": "cbee7ee5e1830eb94",
@@ -4314,23 +4312,6 @@
    "in_review": false
   },
   {
-   "id": "cbfdd97d664e74a8d",
-   "title": "Bucharest Stock Exchange closes lower on Wednesday ; turnover reaches RON 86 . 09 mln",
-   "category": "COMMODITY",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 50,
-   "entity_keys": [],
-   "created_at": "2026-08-26T23:47:27.363171+00:00",
-   "last_update": "2026-08-28T05:30:51.785308+00:00",
-   "members": 3,
-   "llm_title": "유럽 증시 하락",
-   "one_liner": "유럽 주요 증시가 약세를 보이며 장을 마감했어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
    "id": "c22e39e80d42d4b58",
    "title": "Trump says the US doesnt need Canada . America economy says otherwise .",
    "category": "POLICY",
@@ -5257,21 +5238,21 @@
    "in_review": true
   },
   {
-   "id": "c68f8fac5e90efc2c",
-   "title": "Why Urban Outfitters Stock Rallied Today",
+   "id": "cbfdd97d664e74a8d",
+   "title": "Bucharest Stock Exchange closes lower on Wednesday ; turnover reaches RON 86 . 09 mln",
    "category": "COMMODITY",
-   "status": "candidate",
+   "status": "stale",
    "origin": "cluster",
-   "seen_sources": 1,
+   "seen_sources": 2,
    "importance": 45,
    "entity_keys": [],
-   "created_at": "2026-08-26T23:47:27.360672+00:00",
-   "last_update": "2026-08-28T05:30:51.775047+00:00",
+   "created_at": "2026-08-26T23:47:27.363171+00:00",
+   "last_update": "2026-08-28T05:30:51.785308+00:00",
    "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
+   "llm_title": "유럽 증시 하락",
+   "one_liner": "유럽 주요 증시가 약세를 보이며 장을 마감했어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
   },
   {
    "id": "cc1d3b6f7ab287218",
@@ -5837,6 +5818,23 @@
    "one_liner": "미국 제약사 릴리가 개발 중인 신약 후보가 미국 식품의약국(FDA)의 주목을 받았어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
+  },
+  {
+   "id": "c68f8fac5e90efc2c",
+   "title": "Why Urban Outfitters Stock Rallied Today",
+   "category": "COMMODITY",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 40,
+   "entity_keys": [],
+   "created_at": "2026-08-26T23:47:27.360672+00:00",
+   "last_update": "2026-08-28T05:30:51.775047+00:00",
+   "members": 3,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
   },
   {
    "id": "c2422ede726c3a6f0",

@@ -1,0 +1,197 @@
+{
+ "id": "efdd88017059060b5",
+ "title": "한국 기준금리 인상",
+ "one_liner": "한국은행이 기준금리를 0.25%p 올려 연 3.00%가 되었어요.",
+ "why_now": "금리가 오르면 대출 이자 부담이 커지고, 예금 이자는 늘어나는 게 보통이에요.",
+ "impact_line": "대출 이자 부담이 늘어날 수 있어요.",
+ "raw_title": "한국은행 기준금리 인상 (3.00%)",
+ "category": "RATE",
+ "status": "active",
+ "origin": "official_event",
+ "sources": 0,
+ "importance": 140,
+ "last_update": "2026-09-02T05:57:32.521929+00:00",
+ "event_at": "2026-09-02T03:57:11.990336+00:00",
+ "has_visual": true,
+ "headline_stat": {
+  "label": "한국은행 기준금리",
+  "value": "3",
+  "unit": "%",
+  "delta_text": "+0.25%p",
+  "direction": "up",
+  "prev_text": "직전 2.75%"
+ },
+ "spark": [
+  2.5,
+  2.5,
+  2.5,
+  2.5,
+  2.5,
+  2.5,
+  2.75,
+  3.0
+ ],
+ "icon": "🏦",
+ "details": [
+  "한국은행이 기준금리를 0.25%p 올렸어요.",
+  "새 기준금리는 연 3.00%예요.",
+  "직전 기준금리는 연 2.75%였어요."
+ ],
+ "effects": [
+  "은행 예금 이자도 따라 올라, 목돈을 예금에 두면 이자 수익이 늘어날 수 있어요!",
+  "돈 빌리기가 어려워져 소비와 투자가 위축될 것으로 예상돼요!"
+ ],
+ "model": "gemini-2.5-flash-lite",
+ "visual": {
+  "type": "kr_base_rate",
+  "chart": "step",
+  "title": "한국은행 기준금리 (최근 3년)",
+  "unit": "%",
+  "source": "한국은행 ECOS",
+  "series": [
+   {
+    "t": "2025-07",
+    "v": 2.5
+   },
+   {
+    "t": "2025-08",
+    "v": 2.5
+   },
+   {
+    "t": "2025-09",
+    "v": 2.5
+   },
+   {
+    "t": "2025-10",
+    "v": 2.5
+   },
+   {
+    "t": "2025-11",
+    "v": 2.5
+   },
+   {
+    "t": "2025-12",
+    "v": 2.5
+   },
+   {
+    "t": "2026-01",
+    "v": 2.5
+   },
+   {
+    "t": "2026-02",
+    "v": 2.5
+   },
+   {
+    "t": "2026-03",
+    "v": 2.5
+   },
+   {
+    "t": "2026-04",
+    "v": 2.5
+   },
+   {
+    "t": "2026-05",
+    "v": 2.5
+   },
+   {
+    "t": "2026-06",
+    "v": 2.5
+   },
+   {
+    "t": "2026-07",
+    "v": 2.75
+   },
+   {
+    "t": "2026-08",
+    "v": 3.0
+   }
+  ]
+ },
+ "anchors": [
+  {
+   "entity": "한국은행",
+   "metric": "기준금리",
+   "value": 3.0,
+   "unit": "%",
+   "prev": 2.75,
+   "period": "2026-08",
+   "source": "ECOS"
+  },
+  {
+   "entity": "한국은행",
+   "metric": "변동폭",
+   "value": 0.25,
+   "unit": "%p",
+   "prev": null,
+   "period": "2026-08",
+   "source": "ECOS"
+  }
+ ],
+ "headlines": [],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "한국은행 기준금리 3.00% (2026-08)",
+   "source": "ECOS",
+   "url": "https://ecos.bok.or.kr",
+   "at": "2026-09-02T03:57:11.990336+00:00"
+  }
+ ],
+ "glossary": [
+  {
+   "term": "기준금리",
+   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
+   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
+  },
+  {
+   "term": "한국은행",
+   "easy": "우리나라 돈을 관리하는 중앙은행이에요.",
+   "example": "한국 기준금리를 여기서 정해요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  },
+  {
+   "term": "%p",
+   "easy": "퍼센트 포인트의 줄임말로, 두 비율의 차이를 나타낼 때 써요.",
+   "example": "금리가 2%에서 3%로 오르면 1%p 올랐다고 말해요."
+  }
+ ],
+ "related": [
+  {
+   "id": "ccec1fdb78ce6d4ce",
+   "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "ca634b9b074a44552",
+   "title": "Bank of America Says $5 , 000 Gold Is Within Reach",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "eb1bdaa0b3cb70aec",
+   "title": "한국은행 기준금리 인상 (2.75%)",
+   "category": "RATE",
+   "shared": [
+    "BOK"
+   ]
+  },
+  {
+   "id": "cbb250b2cbd6e1f99",
+   "title": "HSBC buys at least US$3 billion of India bonds after deposit boost",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "ccf178f54d91d2266",
+   "title": "Burnham given £325 , 000 worth of donations in months before becoming PM",
+   "category": "RATE",
+   "shared": []
+  }
+ ],
+ "created_at": "2026-09-02T03:57:11.990336+00:00"
+}

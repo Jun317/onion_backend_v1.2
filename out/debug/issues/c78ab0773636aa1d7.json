@@ -105,7 +105,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-02T01:09:40.439625+00:00",
+  "created_at": "2026-09-02T05:59:20.860169+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -118,7 +118,7 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"JP모건, S&P500 목표치 상향\",\n  \"one_liner\": \"JP모건이 S&P500 지수 목표치를 8,000으로 높였어요.\",\n  \"why_now\": \"기업들의 이익이 늘고 인공지능(AI) 관련 성장이 예상되면서 주식 시장 전망이 밝아졌기 때문이에요.\",\n  \"impact_line\": \"주식 시장이 전반적으로 오를 가능성이 있어요.\",\n  \"details\": [\n    \"JP모건은 S&P500 지수의 연말 목표치를 8,000으로 올렸어요.\",\n    \"이는 기존 목표치보다 높은 수준이에요.\",\n    \"기업들의 이익 증가와 AI 산업의 성장이 긍정적인 전망의 근거가 되었어요.\",\n    \"JP모건은 영국 중소형주 펀드 운용도 하고 있어요.\"\n  ],\n  \"visual_type\": \"us_10y\",\n  \"effects\": [\n    \"주식 시장 전반의 상승 기대감이 커질 수 있어요!\",\n    \"AI 관련 기술 기업들의 주가가 더 오를 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"S&P500\",\n      \"easy\": \"미국 증시에 상장된 대표적인 500개 기업의 주가를 모아 만든 지수예요.\",\n      \"example\": \"S&P500 지수가 오르면 미국 주식 시장 전체가 좋다고 봐요.\"\n    },\n    {\n      \"term\": \"AI\",\n      \"easy\": \"인공지능을 뜻하는 말로, 컴퓨터가 사람처럼 생각하고 학습하는 기술이에요.\",\n      \"example\": \"AI 기술이 발전하면 우리 생활이 더 편리해질 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "{\n  \"title\": \"JP모건, S&P500 목표치 상향\",\n  \"one_liner\": \"JP모건이 S&P500 지수 목표치를 8,000까지 높였어요.\",\n  \"why_now\": \"기업들의 이익이 늘고 인공지능(AI) 관련 성장이 예상보다 좋아 전망이 밝아졌기 때문이에요.\",\n  \"impact_line\": \"주식 시장 전반에 긍정적인 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"JP모건은 S&P500 지수 목표치를 8,000으로 올렸어요.\",\n    \"기업들의 이익 증가가 전망을 밝게 하고 있어요.\",\n    \"인공지능(AI) 관련 성장도 긍정적인 요인으로 작용하고 있어요.\"\n  ],\n  \"visual_type\": \"us_10y\",\n  \"effects\": [\n    \"주식 시장의 전반적인 상승 기대감을 높일 수 있어요!\",\n    \"기업들의 실적 개선이 이어지면 투자 심리가 더욱 좋아질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"S&P500\",\n      \"easy\": \"미국에 상장된 500개 주요 기업의 주가를 모아 만든 지수예요.\",\n      \"example\": \"S&P500 지수가 오르면 미국 주식 시장 전체가 좋다고 볼 수 있어요.\"\n    },\n    {\n      \"term\": \"AI\",\n      \"easy\": \"인공지능을 뜻하는 말로, 컴퓨터가 사람처럼 생각하고 학습하는 기술이에요.\",\n      \"example\": \"AI 기술이 발전하면 우리 생활이 더 편리해질 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
     "model": "gemini-2.5-flash-lite",
@@ -149,16 +149,10 @@
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [8000.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-02T01:09:40.439506+00:00"
+  "at": "2026-09-02T05:59:20.860073+00:00"
  },
  "glossary": [],
  "related": [
-  {
-   "id": "c8a1922fe87d06746",
-   "title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
-   "category": "MARKET",
-   "shared": []
-  },
   {
    "id": "ccc137270dbb9d742",
    "title": "Strong iPhone sales propel Apple fiscal Q3 results past Wall Street expectations",
@@ -168,6 +162,12 @@
   {
    "id": "c66488c3f927577c2",
    "title": "Stock Market Week Ahead : Chips , Cybersecurity And Jobs",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c8a1922fe87d06746",
+   "title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
    "category": "MARKET",
    "shared": []
   },

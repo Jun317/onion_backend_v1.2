@@ -1,8 +1,43 @@
 {
  "schema_version": 3,
- "generated_at": "2026-09-02T01:15:21.003137+00:00",
+ "generated_at": "2026-09-02T06:04:44.678053+00:00",
  "attribution": "News metadata via GDELT (gdeltproject.org) · Data: FRED, 한국은행 ECOS, DART, SEC EDGAR",
  "issues": [
+  {
+   "id": "efdd88017059060b5",
+   "title": "한국 기준금리 인상",
+   "one_liner": "한국은행이 기준금리를 0.25%p 올려 연 3.00%가 되었어요.",
+   "why_now": "금리가 오르면 대출 이자 부담이 커지고, 예금 이자는 늘어나는 게 보통이에요.",
+   "impact_line": "대출 이자 부담이 늘어날 수 있어요.",
+   "raw_title": "한국은행 기준금리 인상 (3.00%)",
+   "category": "RATE",
+   "status": "active",
+   "origin": "official_event",
+   "sources": 0,
+   "importance": 140,
+   "last_update": "2026-09-02T05:57:32.521929+00:00",
+   "event_at": "2026-09-02T03:57:11.990336+00:00",
+   "has_visual": true,
+   "headline_stat": {
+    "label": "한국은행 기준금리",
+    "value": "3",
+    "unit": "%",
+    "delta_text": "+0.25%p",
+    "direction": "up",
+    "prev_text": "직전 2.75%"
+   },
+   "spark": [
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.5,
+    2.75,
+    3.0
+   ],
+   "icon": "🏦"
+  },
   {
    "id": "ca0f23c4b4046f532",
    "title": "미국 금리 인상 가능성 시사",
@@ -296,34 +331,6 @@
    "icon": "⚔️"
   },
   {
-   "id": "c8a1922fe87d06746",
-   "title": "코스피 하락",
-   "one_liner": "한국 주식 시장인 코스피가 2% 하락했어요.",
-   "why_now": "반도체 관련 주식들이 큰 폭으로 떨어지면서 시장 전체에 영향을 미쳤어요.",
-   "impact_line": "주식 투자자들의 자산 가치가 줄어들 수 있어요.",
-   "raw_title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
-   "category": "MARKET",
-   "status": "stale",
-   "origin": "cluster",
-   "sources": 28,
-   "importance": 115,
-   "last_update": "2026-08-28T05:30:51.784221+00:00",
-   "event_at": "2026-08-27T20:45:00+00:00",
-   "has_visual": true,
-   "headline_stat": null,
-   "spark": [
-    6852.58,
-    6912.95,
-    6696.96,
-    6742.74,
-    6808.21,
-    6912.37,
-    6788.88,
-    6820.02
-   ],
-   "icon": "🇺🇸"
-  },
-  {
    "id": "ccc137270dbb9d742",
    "title": "아마존·애플 주가 반대 행보",
    "one_liner": "아마존 주가가 올랐고 애플 주가는 떨어졌어요",
@@ -340,6 +347,34 @@
    "has_visual": false,
    "headline_stat": null,
    "spark": null,
+   "icon": "🇺🇸"
+  },
+  {
+   "id": "c8a1922fe87d06746",
+   "title": "코스피 하락",
+   "one_liner": "한국 주식 시장인 코스피가 2% 하락했어요.",
+   "why_now": "반도체 관련 주식들이 큰 폭으로 떨어지면서 시장 전체에 영향을 미쳤어요.",
+   "impact_line": "주식 투자자들의 자산 가치가 줄어들 수 있어요.",
+   "raw_title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
+   "category": "MARKET",
+   "status": "stale",
+   "origin": "cluster",
+   "sources": 28,
+   "importance": 110,
+   "last_update": "2026-08-28T05:30:51.784221+00:00",
+   "event_at": "2026-08-27T20:45:00+00:00",
+   "has_visual": true,
+   "headline_stat": null,
+   "spark": [
+    6912.95,
+    6696.96,
+    6742.74,
+    6808.21,
+    6912.37,
+    6788.88,
+    6820.02,
+    6835.8
+   ],
    "icon": "🇺🇸"
   },
   {
@@ -486,8 +521,8 @@
     2.5,
     2.5,
     2.5,
-    2.5,
-    2.75
+    2.75,
+    3.0
    ],
    "icon": "🏦"
   },
@@ -568,25 +603,6 @@
    "icon": "🇨🇳"
   },
   {
-   "id": "cf17f78864733c344",
-   "title": "브로드컴 주식 관련 보도",
-   "one_liner": "브로드컴 주식에 대한 다양한 투자 소식이 나왔어요.",
-   "why_now": "브로드컴은 인공지능 분야에서 중요한 역할을 하는 기업으로 알려져 있어요.",
-   "impact_line": null,
-   "raw_title": "Broadcom ( AVGO ) Massive New Debt Deal Points To Where AI Is Headed",
-   "category": "EARNINGS",
-   "status": "stale",
-   "origin": "cluster",
-   "sources": 27,
-   "importance": 100,
-   "last_update": "2026-08-28T05:30:51.784766+00:00",
-   "event_at": "2026-08-27T20:45:00+00:00",
-   "has_visual": false,
-   "headline_stat": null,
-   "spark": null,
-   "icon": "🇪🇺"
-  },
-  {
    "id": "e7dc95bcb919f5113",
    "title": "메타랩스·메타케어 실적 발표",
    "one_liner": "메타랩스와 메타케어가 2026년 1분기 실적을 발표했어요.",
@@ -630,6 +646,25 @@
    "headline_stat": null,
    "spark": null,
    "icon": "🇨🇳"
+  },
+  {
+   "id": "cf17f78864733c344",
+   "title": "브로드컴 주식 관련 보도",
+   "one_liner": "브로드컴 주식에 대한 다양한 투자 소식이 나왔어요.",
+   "why_now": "브로드컴은 인공지능 분야에서 중요한 역할을 하는 기업으로 알려져 있어요.",
+   "impact_line": null,
+   "raw_title": "Broadcom ( AVGO ) Massive New Debt Deal Points To Where AI Is Headed",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "sources": 27,
+   "importance": 95,
+   "last_update": "2026-08-28T05:30:51.784766+00:00",
+   "event_at": "2026-08-27T20:45:00+00:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🇪🇺"
   },
   {
    "id": "c961fd7c053e6e83b",
@@ -750,7 +785,7 @@
     4.45,
     4.44,
     4.75,
-    4.73
+    4.75
    ],
    "icon": "🏦"
   },
@@ -1338,14 +1373,14 @@
    "has_visual": true,
    "headline_stat": null,
    "spark": [
-    6852.58,
     6912.95,
     6696.96,
     6742.74,
     6808.21,
     6912.37,
     6788.88,
-    6820.02
+    6820.02,
+    6835.8
    ],
    "icon": "📈"
   },
@@ -1798,7 +1833,7 @@
     4.45,
     4.44,
     4.75,
-    4.73
+    4.75
    ],
    "icon": "📈"
   },
@@ -2557,7 +2592,7 @@
     4.45,
     4.44,
     4.75,
-    4.73
+    4.75
    ],
    "icon": "📈"
   },
@@ -3426,6 +3461,10 @@
      {
       "t": "2026-08-31",
       "v": 6820.02
+     },
+     {
+      "t": "2026-09-01",
+      "v": 6835.8
      }
     ]
    },

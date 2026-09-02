@@ -1,0 +1,156 @@
+{
+ "id": "efdd88017059060b5",
+ "title": "한국은행 기준금리 인상 (3.00%)",
+ "category": "RATE",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "한국은행|RATE|2026-08",
+ "entity_keys": [
+  "BOK"
+ ],
+ "seen_sources": 0,
+ "importance": 140,
+ "created_at": "2026-09-02T03:57:11.990336+00:00",
+ "last_update": "2026-09-02T05:57:32.521929+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "한국은행",
+   "metric": "기준금리",
+   "value": 3.0,
+   "unit": "%",
+   "prev": 2.75,
+   "period": "2026-08",
+   "source": "ECOS",
+   "trust": "official",
+   "observed_at": "2026-09-02T03:57:11.990336+00:00"
+  },
+  {
+   "entity": "한국은행",
+   "metric": "변동폭",
+   "value": 0.25,
+   "unit": "%p",
+   "prev": null,
+   "period": "2026-08",
+   "source": "ECOS",
+   "trust": "official",
+   "observed_at": "2026-09-02T03:57:11.990336+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "한국은행 기준금리 3.00% (2026-08)",
+   "source": "ECOS",
+   "url": "https://ecos.bok.or.kr",
+   "at": "2026-09-02T03:57:11.990336+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-02T05:57:47.017934+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [
+    {
+     "entity": "한국은행",
+     "metric": "기준금리",
+     "value": 3.0,
+     "unit": "%",
+     "prev": 2.75,
+     "period": "2026-08",
+     "source": "ECOS"
+    },
+    {
+     "entity": "한국은행",
+     "metric": "변동폭",
+     "value": 0.25,
+     "unit": "%p",
+     "prev": null,
+     "period": "2026-08",
+     "source": "ECOS"
+    }
+   ],
+   "headlines": [
+    "한국은행 기준금리 인상 (3.00%)"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"한국 기준금리 인상\",\n  \"one_liner\": \"한국은행이 기준금리를 0.25%p 올려 연 3.00%가 되었어요.\",\n  \"why_now\": \"금리가 오르면 대출 이자 부담이 커지고, 예금 이자는 늘어나는 게 보통이에요.\",\n  \"impact_line\": \"대출 이자 부담이 늘어날 수 있어요.\",\n  \"details\": [\n    \"한국은행이 기준금리를 0.25%p 올렸어요.\",\n    \"새 기준금리는 연 3.00%예요.\",\n    \"직전 기준금리는 연 2.75%였어요.\"\n  ],\n  \"visual_type\": \"kr_base_rate\",\n  \"effects\": [\n    \"은행 예금 이자도 따라 올라, 목돈을 예금에 두면 이자 수익이 늘어날 수 있어요!\",\n    \"돈 빌리기가 어려워져 소비와 투자가 위축될 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"기준금리\",\n      \"easy\": \"한국은행이 정하는 나라의 기본 이자율이에요.\",\n      \"example\": \"기준금리가 오르면 대출 이자도 보통 따라 올라요.\"\n    },\n    {\n      \"term\": \"%p\",\n      \"easy\": \"퍼센트 포인트의 줄임말로, 두 비율의 차이를 나타낼 때 써요.\",\n      \"example\": \"금리가 2%에서 3%로 오르면 1%p 올랐다고 말해요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "한국 기준금리 인상",
+   "one_liner": "한국은행이 기준금리를 0.25%p 올려 연 3.00%가 되었어요.",
+   "why_now": "금리가 오르면 대출 이자 부담이 커지고, 예금 이자는 늘어나는 게 보통이에요.",
+   "details": [
+    "한국은행이 기준금리를 0.25%p 올렸어요.",
+    "새 기준금리는 연 3.00%예요.",
+    "직전 기준금리는 연 2.75%였어요."
+   ],
+   "effects": [
+    "은행 예금 이자도 따라 올라, 목돈을 예금에 두면 이자 수익이 늘어날 수 있어요!",
+    "돈 빌리기가 어려워져 소비와 투자가 위축될 것으로 예상돼요!"
+   ],
+   "visual_type": "kr_base_rate"
+  },
+  "fact_hash": "b6ed82fb354581b648bf2827fab0d0f772a4cec3"
+ },
+ "review": null,
+ "glossary": [
+  {
+   "term": "기준금리",
+   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
+   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
+  },
+  {
+   "term": "한국은행",
+   "easy": "우리나라 돈을 관리하는 중앙은행이에요.",
+   "example": "한국 기준금리를 여기서 정해요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
+ "related": [
+  {
+   "id": "ccec1fdb78ce6d4ce",
+   "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "ca634b9b074a44552",
+   "title": "Bank of America Says $5 , 000 Gold Is Within Reach",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "eb1bdaa0b3cb70aec",
+   "title": "한국은행 기준금리 인상 (2.75%)",
+   "category": "RATE",
+   "shared": [
+    "BOK"
+   ]
+  },
+  {
+   "id": "cbb250b2cbd6e1f99",
+   "title": "HSBC buys at least US$3 billion of India bonds after deposit boost",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "ccf178f54d91d2266",
+   "title": "Burnham given £325 , 000 worth of donations in months before becoming PM",
+   "category": "RATE",
+   "shared": []
+  }
+ ]
+}
