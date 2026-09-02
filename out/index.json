@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-09-02T11:37:11.704530+00:00",
+ "generated_at": "2026-09-02T16:52:48.136972+00:00",
  "attribution": "News metadata via GDELT (gdeltproject.org) · Data: FRED, 한국은행 ECOS, DART, SEC EDGAR",
  "issues": [
   {
@@ -86,10 +86,10 @@
    "category": "GEO",
    "status": "active",
    "origin": "cluster",
-   "sources": 12,
+   "sources": 17,
    "importance": 110,
-   "last_update": "2026-09-02T11:30:42.481917+00:00",
-   "event_at": "2026-09-02T08:45:00+00:00",
+   "last_update": "2026-09-02T16:45:22.739517+00:00",
+   "event_at": "2026-09-02T13:15:00+00:00",
    "has_visual": false,
    "headline_stat": null,
    "spark": null,
@@ -105,10 +105,10 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "sources": 15,
+   "sources": 16,
    "importance": 110,
-   "last_update": "2026-09-02T11:30:42.479789+00:00",
-   "event_at": "2026-09-02T08:45:00+00:00",
+   "last_update": "2026-09-02T16:45:22.736679+00:00",
+   "event_at": "2026-09-02T13:15:00+00:00",
    "has_visual": false,
    "headline_stat": null,
    "spark": null,
@@ -124,10 +124,10 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "sources": 6,
+   "sources": 7,
    "importance": 105,
-   "last_update": "2026-09-01T20:00:11.902874+00:00",
-   "event_at": "2026-09-01T19:15:00+00:00",
+   "last_update": "2026-09-02T16:45:22.737813+00:00",
+   "event_at": "2026-09-02T13:15:00+00:00",
    "has_visual": false,
    "headline_stat": null,
    "spark": null,
@@ -328,12 +328,12 @@
    "has_visual": true,
    "headline_stat": null,
    "spark": [
-    1420.2,
     1423.7,
     1430.1,
     1436.6,
     1436.1,
-    1432.5
+    1432.5,
+    1434.3
    ],
    "icon": "🇨🇳"
   },
@@ -518,41 +518,6 @@
    "icon": "⚔️"
   },
   {
-   "id": "eb1bdaa0b3cb70aec",
-   "title": "한국 기준금리 인상",
-   "one_liner": "한국은행이 기준금리를 올려 연 2.75%가 됐어요",
-   "why_now": "금리가 오르면 대출 이자가 늘어나 가계 부담이 커지는 게 보통이에요",
-   "impact_line": "변동금리 대출의 이자 부담이 무거워질 수 있어요",
-   "raw_title": "한국은행 기준금리 인상 (2.75%)",
-   "category": "RATE",
-   "status": "stale",
-   "origin": "official_event",
-   "sources": 0,
-   "importance": 110,
-   "last_update": "2026-08-03T12:39:52.792567+00:00",
-   "event_at": "2026-08-03T11:32:57.816558+00:00",
-   "has_visual": true,
-   "headline_stat": {
-    "label": "한국은행 기준금리",
-    "value": "2.75",
-    "unit": "%",
-    "delta_text": "+0.25%p",
-    "direction": "up",
-    "prev_text": "직전 2.5%"
-   },
-   "spark": [
-    2.5,
-    2.5,
-    2.5,
-    2.5,
-    2.5,
-    2.5,
-    2.75,
-    3.0
-   ],
-   "icon": "🏦"
-  },
-  {
    "id": "ca0e19c61ad5a0001",
    "title": "이란, 석유 수출 중단 위협",
    "one_liner": "이란이 미국의 경제 제재에 맞서 모든 석유 수출을 중단하겠다고 위협했어요.",
@@ -653,25 +618,6 @@
    },
    "spark": null,
    "icon": "🧾"
-  },
-  {
-   "id": "cfef2a93ca191f265",
-   "title": "미국의 이란 제재와 한국",
-   "one_liner": "미국이 이란에 새로운 제재를 가하면서 한국 경제에 미칠 영향이 주목받고 있어요.",
-   "why_now": "이란에 대한 제재는 국제 유가에 영향을 미쳐 한국의 에너지 수입 비용을 올릴 수 있어요.",
-   "impact_line": "국제 유가 상승으로 생활 물가가 오를 수 있어요.",
-   "raw_title": "What countries do business with Iran , and who buying its oil ?",
-   "category": "COMMODITY",
-   "status": "stale",
-   "origin": "cluster",
-   "sources": 30,
-   "importance": 95,
-   "last_update": "2026-08-29T14:35:49.347938+00:00",
-   "event_at": "2026-08-29T13:45:00+00:00",
-   "has_visual": false,
-   "headline_stat": null,
-   "spark": null,
-   "icon": "🇨🇳"
   },
   {
    "id": "cf17f78864733c344",
@@ -911,6 +857,25 @@
    "icon": "🇪🇺"
   },
   {
+   "id": "cfef2a93ca191f265",
+   "title": "미국의 이란 제재와 한국",
+   "one_liner": "미국이 이란에 새로운 제재를 가하면서 한국 경제에 미칠 영향이 주목받고 있어요.",
+   "why_now": "이란에 대한 제재는 국제 유가에 영향을 미쳐 한국의 에너지 수입 비용을 올릴 수 있어요.",
+   "impact_line": "국제 유가 상승으로 생활 물가가 오를 수 있어요.",
+   "raw_title": "What countries do business with Iran , and who buying its oil ?",
+   "category": "COMMODITY",
+   "status": "stale",
+   "origin": "cluster",
+   "sources": 30,
+   "importance": 90,
+   "last_update": "2026-08-29T14:35:49.347938+00:00",
+   "event_at": "2026-08-29T13:45:00+00:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🇨🇳"
+  },
+  {
    "id": "c358a63b121c9f9dc",
    "title": "테슬라 주가 하락",
    "one_liner": "테슬라 주가가 하락세를 보이고 있어요.",
@@ -1070,25 +1035,6 @@
    "icon": "🌡️"
   },
   {
-   "id": "c4999c7a14c19859d",
-   "title": "금값·비트코인 상승",
-   "one_liner": "미국 채권 시장의 불안정으로 금값과 비트코인이 올랐어요.",
-   "why_now": "안전 자산으로 여겨지는 금과 비트코인이 최근 주목받고 있어요.",
-   "impact_line": "안전자산에 대한 관심이 높아지고 있어요.",
-   "raw_title": "Gold price retreats from three - month high as inflation US gauge runs warm",
-   "category": "MACRO",
-   "status": "stale",
-   "origin": "cluster",
-   "sources": 4,
-   "importance": 85,
-   "last_update": "2026-08-29T14:35:49.345290+00:00",
-   "event_at": "2026-08-29T13:45:00+00:00",
-   "has_visual": false,
-   "headline_stat": null,
-   "spark": null,
-   "icon": "🌡️"
-  },
-  {
    "id": "cb62bf4a57b12a877",
    "title": "유가 상승 및 긴장 고조",
    "one_liner": "미국과 이란의 긴장이 고조되면서 국제 유가가 올랐어요.",
@@ -1191,6 +1137,25 @@
     83.9
    ],
    "icon": "🛢️"
+  },
+  {
+   "id": "c4999c7a14c19859d",
+   "title": "금값·비트코인 상승",
+   "one_liner": "미국 채권 시장의 불안정으로 금값과 비트코인이 올랐어요.",
+   "why_now": "안전 자산으로 여겨지는 금과 비트코인이 최근 주목받고 있어요.",
+   "impact_line": "안전자산에 대한 관심이 높아지고 있어요.",
+   "raw_title": "Gold price retreats from three - month high as inflation US gauge runs warm",
+   "category": "MACRO",
+   "status": "stale",
+   "origin": "cluster",
+   "sources": 4,
+   "importance": 80,
+   "last_update": "2026-08-29T14:35:49.345290+00:00",
+   "event_at": "2026-08-29T13:45:00+00:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🌡️"
   },
   {
    "id": "cd022ee0b64224247",
@@ -1383,34 +1348,6 @@
    "icon": "🇨🇳"
   },
   {
-   "id": "c4e52a10330b2a6b5",
-   "title": "반도체 주가 상승",
-   "one_liner": "엔비디아의 높은 매출 전망에 힘입어 아시아 증시가 전반적으로 올랐어요.",
-   "why_now": "주요 기업의 실적이 좋으면 다른 기업들의 주가도 함께 오르는 경우가 많아요.",
-   "impact_line": "반도체 관련 주식에 투자한 사람들의 자산이 늘어날 수 있어요.",
-   "raw_title": "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks",
-   "category": "MARKET",
-   "status": "stale",
-   "origin": "cluster",
-   "sources": 2,
-   "importance": 75,
-   "last_update": "2026-08-29T14:35:49.355262+00:00",
-   "event_at": "2026-08-29T13:45:00+00:00",
-   "has_visual": true,
-   "headline_stat": null,
-   "spark": [
-    6912.95,
-    6696.96,
-    6742.74,
-    6808.21,
-    6912.37,
-    6788.88,
-    6820.02,
-    6835.8
-   ],
-   "icon": "📈"
-  },
-  {
    "id": "c0a04640126c0f111",
    "title": "미국 물가 상승 우려",
    "one_liner": "미국의 무역 정책으로 인해 생활 필수품 가격이 오를 수 있다는 분석이 나왔어요.",
@@ -1560,12 +1497,12 @@
    "has_visual": true,
    "headline_stat": null,
    "spark": [
-    1420.2,
     1423.7,
     1430.1,
     1436.6,
     1436.1,
-    1432.5
+    1432.5,
+    1434.3
    ],
    "icon": "🇯🇵"
   },
@@ -1978,23 +1915,32 @@
    "icon": "🌡️"
   },
   {
-   "id": "cb986e341726514d4",
-   "title": "월마트 주가 하락",
-   "one_liner": "월마트 주가가 한 달 사이 10% 떨어졌어요.",
-   "why_now": "주가가 크게 떨어지면 투자자들의 관심이 쏠리며 매도 여부를 고민하게 돼요.",
-   "impact_line": "월마트 주가 하락은 관련 상품 가격에 영향을 줄 수 있어요.",
-   "raw_title": "Walmart Just Dropped 10 % in a Month . Is It Time to Sell ?",
-   "category": "EARNINGS",
+   "id": "c4e52a10330b2a6b5",
+   "title": "반도체 주가 상승",
+   "one_liner": "엔비디아의 높은 매출 전망에 힘입어 아시아 증시가 전반적으로 올랐어요.",
+   "why_now": "주요 기업의 실적이 좋으면 다른 기업들의 주가도 함께 오르는 경우가 많아요.",
+   "impact_line": "반도체 관련 주식에 투자한 사람들의 자산이 늘어날 수 있어요.",
+   "raw_title": "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks",
+   "category": "MARKET",
    "status": "stale",
    "origin": "cluster",
-   "sources": 4,
+   "sources": 2,
    "importance": 70,
-   "last_update": "2026-08-29T14:35:49.349641+00:00",
+   "last_update": "2026-08-29T14:35:49.355262+00:00",
    "event_at": "2026-08-29T13:45:00+00:00",
-   "has_visual": false,
+   "has_visual": true,
    "headline_stat": null,
-   "spark": null,
-   "icon": "🧾"
+   "spark": [
+    6912.95,
+    6696.96,
+    6742.74,
+    6808.21,
+    6912.37,
+    6788.88,
+    6820.02,
+    6835.8
+   ],
+   "icon": "📈"
   },
   {
    "id": "c7f1f589c40cfe40b",
@@ -2099,6 +2045,25 @@
    "headline_stat": null,
    "spark": null,
    "icon": "🌍"
+  },
+  {
+   "id": "cb986e341726514d4",
+   "title": "월마트 주가 하락",
+   "one_liner": "월마트 주가가 한 달 사이 10% 떨어졌어요.",
+   "why_now": "주가가 크게 떨어지면 투자자들의 관심이 쏠리며 매도 여부를 고민하게 돼요.",
+   "impact_line": "월마트 주가 하락은 관련 상품 가격에 영향을 줄 수 있어요.",
+   "raw_title": "Walmart Just Dropped 10 % in a Month . Is It Time to Sell ?",
+   "category": "EARNINGS",
+   "status": "stale",
+   "origin": "cluster",
+   "sources": 4,
+   "importance": 65,
+   "last_update": "2026-08-29T14:35:49.349641+00:00",
+   "event_at": "2026-08-29T13:45:00+00:00",
+   "has_visual": false,
+   "headline_stat": null,
+   "spark": null,
+   "icon": "🧾"
   },
   {
    "id": "c7274a7f525ba3831",
@@ -3222,7 +3187,7 @@
     "title": "중동 긴장 고조에 국제 유가 상승",
     "one_liner": "이란과 관련된 중동 지역의 긴장이 다시 높아지면서 국제 유가가 올랐어요.",
     "icon": "⚔️",
-    "last_update": "2026-09-02T11:30:42.481917+00:00"
+    "last_update": "2026-09-02T16:45:22.739517+00:00"
    },
    "impact": [
     "전쟁이 격해지면 유가가 뛰고, 기름값과 물가가 따라 오를 수 있어요.",

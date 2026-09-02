@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-02T11:32:34.384484+00:00",
+  "created_at": "2026-09-02T16:47:33.369084+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -64,15 +64,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"중국 항공편 좌석 넓어짐\", \"one_liner\": \"중국 항공편의 좌석이 이전보다 넓어졌다는 후기가 있어요.\", \"why_now\": \"항공편 좌석이 넓어지면 장거리 비행 시 더 편안하게 이동할 수 있어요.\", \"impact_line\": \"항공 여행 시 쾌적함이 개선될 수 있어요.\", \"details\": [\"중국 항공편의 좌석이 더 넓다는 후기가 나왔어요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [], \"impact_line\": null}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -94,8 +87,8 @@
   "fact_hash": "05b84e1c28b49db94db51e2f5c7bf657f8defca5"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-02T11:32:34.384370+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-02T16:47:33.368985+00:00"
  },
  "glossary": [],
  "related": [
