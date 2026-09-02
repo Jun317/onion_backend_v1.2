@@ -138,8 +138,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-09-02T05:59:51.832381+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-02T11:32:14.843252+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -152,26 +152,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"세일즈포스 주가 상승\",\n    \"one_liner\": \"세일즈포스 주가가 오늘 올랐어요.\",\n    \"why_now\": \"인공지능 때문에 회사가 어려워질 것이라는 걱정이 과했다는 분석이 나왔어요.\",\n    \"impact_line\": \"세일즈포스 주가에 대한 긍정적인 전망이 나왔어요.\",\n    \"details\": [\n        \"JP모건은 인공지능에 대한 세일즈포스의 걱정이 과하다고 분석했어요.\",\n        \"일부 전문가들은 세일즈포스와 같은 소프트웨어 기업이 사라질까 걱정했어요.\",\n        \"하지만 오늘 세일즈포스 주가가 반등했어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"세일즈포스 주가가 오르면서 투자자들의 불안감이 줄어들 수 있어요!\",\n        \"인공지능 기술 발전과 함께 성장할 수 있다는 기대감이 커질 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"세일즈포스\",\n            \"easy\": \"고객 관계 관리를 돕는 소프트웨어를 만드는 회사예요.\",\n            \"example\": \"세일즈포스 덕분에 고객 정보를 체계적으로 관리할 수 있어요.\"\n        },\n        {\n            \"term\": \"JP모건\",\n            \"easy\": \"미국의 유명한 투자 은행이에요.\",\n            \"example\": \"JP모건은 세계 경제 동향을 분석하고 투자 정보를 제공해요.\"\n        },\n        {\n            \"term\": \"인공지능\",\n            \"easy\": \"컴퓨터가 사람처럼 생각하고 학습하는 기술이에요.\",\n            \"example\": \"인공지능 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Salesforce stock…",
-   "one_liner": "Salesforce stock gets a boost as J . P . Morgan…",
-   "why_now": null,
+   "title": "세일즈포스 주가 상승",
+   "one_liner": "세일즈포스 주가가 오늘 올랐어요.",
+   "why_now": "인공지능 때문에 회사가 어려워질 것이라는 걱정이 과했다는 분석이 나왔어요.",
    "details": [
-    "Salesforce stock gets a boost as J . P . Morgan says AI fears are overblown",
-    "Jim Cramer Was Worried About Potential Impact On Salesforce Inc . ( NYSE : CRM ) Dreamforce Conference",
-    "The Selling Goes Too Far : Jim Cramer Defends ServiceNow , Salesforce , and Other Software Giants Against Extinction Fears"
+    "JP모건은 인공지능에 대한 세일즈포스의 걱정이 과하다고 분석했어요.",
+    "일부 전문가들은 세일즈포스와 같은 소프트웨어 기업이 사라질까 걱정했어요.",
+    "하지만 오늘 세일즈포스 주가가 반등했어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "세일즈포스 주가가 오르면서 투자자들의 불안감이 줄어들 수 있어요!",
+    "인공지능 기술 발전과 함께 성장할 수 있다는 기대감이 커질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "42d2d2c2218bc57aa223342c9c1f673cac892d9e"
  },
