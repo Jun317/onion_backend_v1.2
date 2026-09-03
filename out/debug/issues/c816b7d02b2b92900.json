@@ -171,7 +171,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-03T05:58:11.265028+00:00",
+  "created_at": "2026-09-03T11:28:33.649089+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
@@ -184,12 +184,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"주요 은행들, 달러 스테이블 코인 출시 준비\",\n  \"one_liner\": \"세계 주요 은행들이 2027년에 달러 스테이블 코인을 출시하기 위해 힘을 합치고 있어요.\",\n  \"why_now\": \"새로운 디지털 화폐가 나오면 돈을 주고받는 방식이 더 편리해질 수 있어요.\",\n  \"impact_line\": \"새로운 디지털 화폐가 나오면 금융 거래가 더 빨라질 수 있어요.\",\n  \"details\": [\n    \"골드만삭스, 뱅크 오브 아메리카 등 21개 금융 기관이 참여했어요.\",\n    \"이들은 2027년에 달러 스테이블 코인을 선보일 계획이에요.\",\n    \"이 스테이블 코인은 미국 달러와 가치가 연동될 예정이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"기존 금융 시스템과 새로운 디지털 자산 간의 연결이 강화될 수 있어요!\",\n    \"디지털 자산 시장의 성장과 혁신을 촉진할 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"스테이블 코인\",\n      \"easy\": \"가격 변동이 적도록 설계된 암호화폐예요.\",\n      \"example\": \"달러 스테이블 코인은 1달러의 가치를 유지하도록 만들어져요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "title 22자 초과(24)"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "title 22자 초과(24)"
     ]
    }
   ],
@@ -208,8 +214,8 @@
   "fact_hash": "923a2a8b2c49bdfd58d51cbabfbbdde305c89c3e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-03T05:58:11.264696+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(24)\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(24)\"]}]}",
+  "at": "2026-09-03T11:28:33.648959+00:00"
  },
  "glossary": [],
  "related": [
