@@ -725,7 +725,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-03T01:16:33.115330+00:00",
+  "created_at": "2026-09-03T05:59:23.890939+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -738,14 +738,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"구글, 반도체 기업 지분 인수\",\n  \"one_liner\": \"구글이 미국 반도체 기업 마벨의 지분을 최대 122억 달러까지 인수하기로 했어요.\",\n  \"why_now\": \"인공지능(AI) 기술 발전으로 반도체 수요가 늘면서 관련 기업들의 움직임이 활발해지고 있어요.\",\n  \"impact_line\": \"AI 관련 기술 경쟁이 치열해지면서 관련 기업들의 주가 변동성이 커질 수 있어요.\",\n  \"details\": [\n    \"구글은 마벨의 반도체 칩을 구매하는 대가로 마벨의 주식 워런트를 받기로 했어요.\",\n    \"구글은 마벨의 주식을 최대 122억 달러 규모로 인수할 계획이에요.\",\n    \"마벨은 미국에 본사를 둔 반도체 기업이에요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"AI 기술 발전에 필요한 반도체 공급망 경쟁이 더욱 치열해질 수 있어요!\",\n    \"관련 기술을 가진 기업들의 주가 상승 가능성이 점쳐져요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주식 워런트\",\n      \"easy\": \"미래에 정해진 가격으로 회사의 주식을 살 수 있는 권리예요.\",\n      \"example\": \"주식 워런트를 행사하면 시세보다 싸게 주식을 살 수 있어요.\"\n    },\n    {\n      \"term\": \"반도체\",\n      \"easy\": \"전기를 통하게 하거나 통하지 않게 조절하는 성질을 가진 물질로, 컴퓨터나 스마트폰 등에 꼭 필요해요.\",\n      \"example\": \"반도체 기술이 발전하면 더 빠르고 좋은 전자기기를 만들 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [122.0]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -768,8 +762,8 @@
   "fact_hash": "3f5260a2a01f0ccb75c4b3de2f541e531028dc6a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [122.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-03T01:16:33.115260+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-03T05:59:23.890863+00:00"
  },
  "glossary": [],
  "related": [
@@ -788,15 +782,6 @@
    "shared": []
   },
   {
-   "id": "c8a1922fe87d06746",
-   "title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
-   "category": "MARKET",
-   "shared": [
-    "AAPL",
-    "NVDA"
-   ]
-  },
-  {
    "id": "c3cd94c43ef31fc17",
    "title": "South Korea , India eye Arctic route after China regular service launch",
    "category": "GEO",
@@ -811,6 +796,14 @@
    "shared": [
     "META",
     "NVDA"
+   ]
+  },
+  {
+   "id": "c669decc98f0b9158",
+   "title": "Affordability Pressures Keep Builder Confidence Low",
+   "category": "GEO",
+   "shared": [
+    "META"
    ]
   }
  ]
