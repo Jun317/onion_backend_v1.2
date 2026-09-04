@@ -783,7 +783,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-03T22:41:56.840257+00:00",
+  "created_at": "2026-09-04T22:31:03.623549+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -796,14 +796,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"주요 기업 주가 및 실적 발표 주목\",\n\"one_liner\": \"주요 기업들의 주가 상승과 실적 발표를 앞두고 시장의 관심이 쏠리고 있어요.\",\n\"why_now\": \"기업의 실적은 주가에 직접적인 영향을 미치기 때문에 투자자들의 이목이 집중되고 있어요.\",\n\"impact_line\": \"관심 기업의 주가 변동에 따라 투자 수익이 달라질 수 있어요.\",\n\"details\": [\n\"아스테라 랩스 주가가 1.8% 상승했어요.\",\n\"달러 트리의 2분기 실적 발표를 앞두고 있어요.\",\n\"비스트 바이의 2분기 실적 발표도 주목받고 있어요.\",\n\"AU 은행, 샬레 호텔, 파라딥 관련 주식 거래에 대한 분석이 나왔어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"기업 실적이 좋으면 주가가 오를 수 있어요!\",\n\"실적이 예상보다 나쁘면 주가가 하락할 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"실적\",\n\"easy\": \"기업이 일정 기간 동안 벌어들인 돈과 쓴 돈을 계산한 결과예요.\",\n\"example\": \"이번 분기 실적이 좋아서 주가가 올랐어요.\"\n},\n{\n\"term\": \"주가\",\n\"easy\": \"회사의 주식이 시장에서 거래되는 가격이에요.\",\n\"example\": \"실적 발표 후 주가가 크게 올랐어요.\"\n}\n],\n\"impact_line\": \"관심 기업의 주가 변동에 따라 투자 수익이 달라질 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [1.8]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -826,8 +820,8 @@
   "fact_hash": "e2a468f711a34f9e4cd8cefd140ab098caf8322b"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1.8]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-03T22:41:56.840188+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-04T22:31:03.623475+00:00"
  },
  "glossary": [],
  "related": [
@@ -844,6 +838,12 @@
    "shared": []
   },
   {
+   "id": "c438566b9911c4664",
+   "title": "Apple Is Handing Its New CEO the Keys Right Before Wall Street Toughest Month",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
    "id": "c8a1922fe87d06746",
    "title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
    "category": "MARKET",
@@ -852,12 +852,6 @@
   {
    "id": "ca0e19c61ad5a0001",
    "title": "Goldman Sachs doubles down on risky rates trading business",
-   "category": "MARKET",
-   "shared": []
-  },
-  {
-   "id": "c473082d7f30acb2b",
-   "title": "WIX Shareholder Alert : Wix . com Ltd . Securities Class Action Lawsuit - Investors Should Contact The Gross Law Firm",
    "category": "MARKET",
    "shared": []
   }

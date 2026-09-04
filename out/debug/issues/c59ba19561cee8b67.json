@@ -1,0 +1,112 @@
+{
+ "id": "c59ba19561cee8b67",
+ "title": "National diesel prices hit record high",
+ "category": "COMMODITY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 70,
+ "created_at": "2026-09-04T22:27:00.502046+00:00",
+ "last_update": "2026-09-04T22:27:00.506545+00:00",
+ "members": [
+  {
+   "id": "3bce70c27756565d66730f0bee37fbdc33ae42b0",
+   "source": "lasvegassun.com",
+   "tier": "wire",
+   "url": "https://lasvegassun.com/news/2026/sep/04/us-diesel-prices-hit-a-record-high-pushing-up-tran/",
+   "title": "US diesel prices hit a record high , pushing up transportation costs for a long list of goods - Las Vegas Sun News",
+   "published_at": "2026-09-04T21:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9704
+  },
+  {
+   "id": "ac72a849ea10b45fdd2071c7b910c9b0193a584e",
+   "source": "wftv.com",
+   "tier": "wire",
+   "url": "https://www.wftv.com/news/local/national-diesel-price-reaches-an-all-time-high/SRVUJPFNK5EKXLGT5R63P56PXI/",
+   "title": "National diesel prices hit record high",
+   "published_at": "2026-09-04T21:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9704
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "US diesel prices hit a record high , pushing up transportation costs for a long list of goods - Las Vegas Sun News",
+   "source": "lasvegassun.com",
+   "url": "https://lasvegassun.com/news/2026/sep/04/us-diesel-prices-hit-a-record-high-pushing-up-tran/",
+   "at": "2026-09-04T21:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "National diesel prices hit record high",
+   "source": "wftv.com",
+   "url": "https://www.wftv.com/news/local/national-diesel-price-reaches-an-all-time-high/SRVUJPFNK5EKXLGT5R63P56PXI/",
+   "at": "2026-09-04T21:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-04T22:28:48.827513+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [],
+   "headlines": [
+    "US diesel prices hit a record high , pushing up transportation costs for a long list of goods - Las Vegas Sun News",
+    "National diesel prices hit record high"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US diesel prices hit…",
+   "one_liner": "US diesel prices hit a record high , pushing up…",
+   "why_now": null,
+   "details": [
+    "US diesel prices hit a record high , pushing up transportation costs for a long list of goods - Las Vegas Sun News",
+    "National diesel prices hit record high"
+   ],
+   "effects": [],
+   "visual_type": "wti"
+  },
+  "fact_hash": "872f0f902ad1261b3925c7b678e8612be29c26d4"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-04T22:28:48.827456+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cbeeeaf816557ffe2",
+   "title": "S & P 500 gains after three - day skid as oil prices halt advance",
+   "category": "COMMODITY",
+   "shared": []
+  },
+  {
+   "id": "cb22ab4362dc7db3b",
+   "title": "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
+   "category": "COMMODITY",
+   "shared": []
+  },
+  {
+   "id": "c4290744458a41e2b",
+   "title": "Analyzing China Gas ( OTCMKTS : CGHLY ) and Chesapeake Utilities ( NYSE : CPK )",
+   "category": "COMMODITY",
+   "shared": []
+  }
+ ]
+}

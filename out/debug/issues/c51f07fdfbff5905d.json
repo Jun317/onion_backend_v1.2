@@ -1,0 +1,130 @@
+{
+ "id": "c51f07fdfbff5905d",
+ "title": "Trump Calls For Interest Rate Cut | Talk Radio 98 . 3 WLAC",
+ "category": "RATE",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 110,
+ "created_at": "2026-09-04T22:27:00.500622+00:00",
+ "last_update": "2026-09-04T22:27:00.506487+00:00",
+ "members": [
+  {
+   "id": "546dca7fdd2be9bd1d4b71e1d6fcfe0f83383442",
+   "source": "aol.com",
+   "tier": "wire",
+   "url": "https://www.aol.com/articles/cares-fico-score-94-suze-020411000.html",
+   "title": "Who Cares About a FICO Score When You Are 94 ?: Suze Orman Blunt Advice to a Family Drowning in Debt",
+   "published_at": "2026-09-04T21:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9584
+  },
+  {
+   "id": "efc2b0ad5885cdb8c5a78b410f542cdc02cb14f9",
+   "source": "wlac.iheart.com",
+   "tier": "wire",
+   "url": "https://wlac.iheart.com/content/2026-09-04-trump-calls-for-interest-rate-cut/",
+   "title": "Trump Calls For Interest Rate Cut | Talk Radio 98 . 3 WLAC",
+   "published_at": "2026-09-04T21:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9584
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Who Cares About a FICO Score When You Are 94 ?: Suze Orman Blunt Advice to a Family Drowning in Debt",
+   "source": "aol.com",
+   "url": "https://www.aol.com/articles/cares-fico-score-94-suze-020411000.html",
+   "at": "2026-09-04T21:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Trump Calls For Interest Rate Cut | Talk Radio 98 . 3 WLAC",
+   "source": "wlac.iheart.com",
+   "url": "https://wlac.iheart.com/content/2026-09-04-trump-calls-for-interest-rate-cut/",
+   "at": "2026-09-04T21:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-04T22:27:03.486294+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [],
+   "headlines": [
+    "Who Cares About a FICO Score When You Are 94 ?: Suze Orman Blunt Advice to a Family Drowning in Debt",
+    "Trump Calls For Interest Rate Cut | Talk Radio 98 . 3 WLAC"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"미국 금리 인하 요구\", \"one_liner\": \"트럼프 전 대통령이 미국에 금리 인하를 요구했어요.\", \"why_now\": \"금리가 내리면 기업의 돈 빌리는 비용이 줄어 경제 활동이 활발해질 수 있어요.\", \"impact_line\": \"대출 이자 부담이 줄어들 수 있어요.\", \"details\": [\"트럼프 전 대통령이 금리 인하를 주장했어요.\"], \"visual_type\": \"us_policy_rate\", \"effects\": [\"미국 중앙은행이 금리를 내리면 전 세계 금융 시장에 영향을 줄 수 있어요!\"], \"glossary\": [{\"term\": \"금리\", \"easy\": \"돈을 빌리거나 맡길 때 내거나 받는 이자 비율이에요.\", \"example\": \"금리가 오르면 대출 이자도 보통 오르고, 예금 이자도 올라요.\"}]}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Who Cares About a…",
+   "one_liner": "Who Cares About a FICO Score When You Are 94 ?:…",
+   "why_now": null,
+   "details": [
+    "Who Cares About a FICO Score When You Are 94 ?: Suze Orman Blunt Advice to a Family Drowning in Debt",
+    "Trump Calls For Interest Rate Cut | Talk Radio 98 . 3 WLAC"
+   ],
+   "effects": [],
+   "visual_type": "kr_base_rate"
+  },
+  "fact_hash": "ab0843b717a618d27c07c8de491ea4e8b42324fb"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-09-04T22:27:03.485767+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "ccec1fdb78ce6d4ce",
+   "title": "ECB sees no grounds to block UniCredit - Commerzbank deal",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "efdd88017059060b5",
+   "title": "한국은행 기준금리 인상 (3.00%)",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "ca634b9b074a44552",
+   "title": "Bank of America Says $5 , 000 Gold Is Within Reach",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "cbb250b2cbd6e1f99",
+   "title": "HSBC buys at least US$3 billion of India bonds after deposit boost",
+   "category": "RATE",
+   "shared": []
+  },
+  {
+   "id": "ccf178f54d91d2266",
+   "title": "Burnham given £325 , 000 worth of donations in months before becoming PM",
+   "category": "RATE",
+   "shared": []
+  }
+ ]
+}
