@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-09-04T16:33:49.539206+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-04T19:46:27.176779+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,25 +881,27 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"미국, 캐나다 상품에 관세 부과\",\n\"one_liner\": \"미국이 캐나다 상품에 관세를 부과하며 무역 갈등이 심화되고 있어요.\",\n\"why_now\": \"미국과 캐나다는 가까운 동맹국인데, 무역 갈등이 커지면 양국 경제에 부정적인 영향을 줄 수 있어요.\",\n\"impact_line\": \"캐나다에서 수입하는 상품 가격이 오를 수 있어요.\",\n\"details\": [\n\"미국이 캐나다 상품에 대한 관세 부과를 확대하고 있어요.\",\n\"이로 인해 미국과 캐나다 간의 무역 긴장이 고조되고 있어요.\",\n\"양국 간의 무역 협상이 결렬되면서 상황이 악화되었어요.\",\n\"이러한 무역 갈등은 양국의 경제에 영향을 미칠 수 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"캐나다에서 수입하는 물건들의 가격이 오를 수 있어요!\",\n\"미국 내 특정 지역 경제에 타격을 줄 수 있다는 우려가 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"관세\",\n\"easy\": \"나라 간 물건을 주고받을 때 붙는 세금이에요.\",\n\"example\": \"해외에서 옷을 사면 관세를 내야 해서 더 비싸게 느껴질 수 있어요.\"\n}\n],\n\"impact_line\": \"캐나다에서 수입하는 상품 가격이 오를 수 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "How Trump tariffs…",
-   "one_liner": "How Trump tariffs are hitting Canadian goods",
-   "why_now": null,
+   "title": "미국, 캐나다 상품에 관세 부과",
+   "one_liner": "미국이 캐나다 상품에 관세를 부과하며 무역 갈등이 심화되고 있어요.",
+   "why_now": "미국과 캐나다는 가까운 동맹국인데, 무역 갈등이 커지면 양국 경제에 부정적인 영향을 줄 수 있어요.",
    "details": [
-    "How Trump tariffs are hitting Canadian goods",
-    "What to know about Trump tariffs on Canadian goods and rising tensions between once close allies",
-    "US , Canada trade war escalates as talks collapse , new tariffs hit"
+    "미국이 캐나다 상품에 대한 관세 부과를 확대하고 있어요.",
+    "이로 인해 미국과 캐나다 간의 무역 긴장이 고조되고 있어요.",
+    "양국 간의 무역 협상이 결렬되면서 상황이 악화되었어요.",
+    "이러한 무역 갈등은 양국의 경제에 영향을 미칠 수 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "캐나다에서 수입하는 물건들의 가격이 오를 수 있어요!",
+    "미국 내 특정 지역 경제에 타격을 줄 수 있다는 우려가 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "418533fd09f7f1433ea5be07826aea0dfaa55a6d"
@@ -908,7 +910,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-09-04T16:33:49.539122+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "관세",
+   "easy": "수입 물건에 매기는 세금이에요.",
+   "example": "오르면 그 물건 값이 비싸지기 쉬워요."
+  }
+ ],
  "related": [
   {
    "id": "ca0f23c4b4046f532",
