@@ -1,0 +1,132 @@
+{
+ "id": "cbfdd97d664e74a8d",
+ "title": "Bucharest Stock Exchange closes lower on Wednesday ; turnover reaches RON 86 . 09 mln",
+ "category": "COMMODITY",
+ "status": "stale",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 40,
+ "created_at": "2026-08-26T23:47:27.363171+00:00",
+ "last_update": "2026-08-28T05:30:51.785308+00:00",
+ "members": [
+  {
+   "id": "c6895d9524f7bbeb6a08719a6a850b5c64179fee",
+   "source": "rttnews.com",
+   "tier": "wire",
+   "url": "https://www.rttnews.com/story.aspx?Id=3685721",
+   "title": "Swiss Market Ends Notably Lower",
+   "published_at": "2026-08-27T20:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9069
+  },
+  {
+   "id": "6603ab2e307aa2f9729878c0d60c37fb3e84de97",
+   "source": "rttnews.com",
+   "tier": "wire",
+   "url": "https://www.rttnews.com/story.aspx?Id=3684937",
+   "title": "Major European Markets Close Roughly Flat",
+   "published_at": "2026-08-26T20:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9569
+  },
+  {
+   "id": "8e6019eed2a79d1e8dffe00e002bb9c1e1ef25ea",
+   "source": "stiripesurse.ro",
+   "tier": "wire",
+   "url": "https://www.stiripesurse.ro/bucharest-stock-exchange-closes-lower-on-wednesday-turnover-reaches-ron-8609-mln_3915303",
+   "title": "Bucharest Stock Exchange closes lower on Wednesday ; turnover reaches RON 86 . 09 mln",
+   "published_at": "2026-08-26T20:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9489
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Swiss Market Ends Notably Lower",
+   "source": "rttnews.com",
+   "url": "https://www.rttnews.com/story.aspx?Id=3685721",
+   "at": "2026-08-27T20:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Major European Markets Close Roughly Flat",
+   "source": "rttnews.com",
+   "url": "https://www.rttnews.com/story.aspx?Id=3684937",
+   "at": "2026-08-26T20:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Bucharest Stock Exchange closes lower on Wednesday ; turnover reaches RON 86 . 09 mln",
+   "source": "stiripesurse.ro",
+   "url": "https://www.stiripesurse.ro/bucharest-stock-exchange-closes-lower-on-wednesday-turnover-reaches-ron-8609-mln_3915303",
+   "at": "2026-08-26T20:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-30T00:28:17.290521+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [],
+   "headlines": [
+    "Swiss Market Ends Notably Lower",
+    "Major European Markets Close Roughly Flat",
+    "Bucharest Stock Exchange closes lower on Wednesday ; turnover reaches RON 86 . 09 mln"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"유럽 증시 하락\", \"one_liner\": \"유럽 주요 증시가 약세를 보이며 장을 마감했어요.\", \"why_now\": \"글로벌 경제 상황에 대한 우려가 커지면서 투자 심리가 위축된 것으로 보여요.\", \"impact_line\": \"주식 시장의 변동성이 커져 투자에 주의가 필요할 수 있어요.\", \"details\": [\"스위스 증시는 눈에 띄게 하락했어요.\", \"부쿠레슈티 증권거래소는 거래액 8천6백만 루마니아 레우를 기록하며 하락 마감했어요.\", \"다른 유럽 주요 증시는 큰 변동 없이 비슷한 수준에서 마감했어요.\"], \"visual_type\": \"none\", \"effects\": [\"투자자들의 불안 심리가 커지면서 주식 시장의 하락세가 이어질 수 있어요!\", \"기업들의 자금 조달이 어려워지면서 투자와 성장이 위축될 가능성이 있어요!\"], \"glossary\": [{\"term\": \"루마니아 레우\", \"easy\": \"루마니아의 공식 화폐 단위예요.\", \"example\": \"루마니아에서 물건을 살 때 루마니아 레우를 사용해요.\"}], \"impact_line\": null}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects[1] 느낌표 종결 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "유럽 증시 하락",
+   "one_liner": "유럽 주요 증시가 약세를 보이며 장을 마감했어요.",
+   "why_now": "글로벌 경제 상황에 대한 우려가 커지면서 투자 심리가 위축된 것으로 보여요.",
+   "details": [
+    "스위스 증시는 눈에 띄게 하락했어요.",
+    "부쿠레슈티 증권거래소는 거래액 8천6백만 루마니아 레우를 기록하며 하락 마감했어요.",
+    "다른 유럽 주요 증시는 큰 변동 없이 비슷한 수준에서 마감했어요."
+   ],
+   "effects": [
+    "투자자들의 불안 심리가 커지면서 주식 시장의 하락세가 이어질 수 있어요!",
+    "기업들의 자금 조달이 어려워지면서 투자와 성장이 위축될 가능성이 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "3aa1833658d356f1ad148b217ec6d4e1ba09590b"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-29T02:26:23.189389+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cb22ab4362dc7db3b",
+   "title": "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
+   "category": "COMMODITY",
+   "shared": []
+  },
+  {
+   "id": "cbeeeaf816557ffe2",
+   "title": "S & P 500 gains after three - day skid as oil prices halt advance",
+   "category": "COMMODITY",
+   "shared": []
+  }
+ ]
+}

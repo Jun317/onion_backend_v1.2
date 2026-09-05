@@ -1,0 +1,128 @@
+{
+ "id": "cf0bbd1f16a588d60",
+ "title": "Pfizer Earnings : Strong Growth for Newer Drugs Counters Covid Declines",
+ "category": "EARNINGS",
+ "status": "stale",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "PFE"
+ ],
+ "seen_sources": 2,
+ "importance": 45,
+ "created_at": "2026-08-07T03:26:37.920831+00:00",
+ "last_update": "2026-08-07T03:26:37.921940+00:00",
+ "members": [
+  {
+   "id": "73a8ec3c6f64552f4d71eafb80280912da5a0320",
+   "source": "edaily.co.kr",
+   "tier": "wire",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=05047926645545024&mediaCodeNo=257",
+   "title": "D & D Pharmatech tumbles 18 % after Pfizer halts ORALINK candidate [ K - bio pulse ]",
+   "published_at": "2026-08-07T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9619
+  },
+  {
+   "id": "8ca350b2065d4b729c4aaaec294dd08a8daeec1a",
+   "source": "morningstar.com",
+   "tier": "wire",
+   "url": "https://www.morningstar.com/stocks/pfizer-earnings-strong-growth-newer-drugs-counters-covid-declines",
+   "title": "Pfizer Earnings : Strong Growth for Newer Drugs Counters Covid Declines",
+   "published_at": "2026-08-04T20:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9618
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "D & D Pharmatech tumbles 18 % after Pfizer halts ORALINK candidate [ K - bio pulse ]",
+   "source": "edaily.co.kr",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=05047926645545024&mediaCodeNo=257",
+   "at": "2026-08-07T00:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Pfizer Earnings : Strong Growth for Newer Drugs Counters Covid Declines",
+   "source": "morningstar.com",
+   "url": "https://www.morningstar.com/stocks/pfizer-earnings-strong-growth-newer-drugs-counters-covid-declines",
+   "at": "2026-08-04T20:45:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-07T07:51:36.254336+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "D & D Pharmatech tumbles 18 % after Pfizer halts ORALINK candidate [ K - bio pulse ]",
+    "Pfizer Earnings : Strong Growth for Newer Drugs Counters Covid Declines"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n\"title\": \"D&D 파마텍 주가 급락\",\n\"one_liner\": \"D&D 파마텍의 신약 후보 물질 개발이 중단되면서 주가가 18% 급락했어요.\",\n\"why_now\": \"신약 개발은 성공 가능성이 낮아 실패할 경우 큰 타격을 입는 경우가 많아요.\",\n\"impact_line\": \"신약 개발 기업의 주가 변동성이 커질 수 있어요.\",\n\"details\": [\n\"화이자가 D&D 파마텍의 ORALINK 후보 물질 개발을 중단한다고 발표했어요.\",\n\"이 소식으로 D&D 파마텍의 주가는 18% 하락했어요.\",\n\"화이자는 다른 신약들의 성장으로 코로나 관련 매출 감소를 상쇄했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"신약 개발 중단은 해당 기업의 미래 수익 전망을 어둡게 할 수 있어요!\",\n\"화이자는 다른 성장 동력으로 실적을 방어할 것으로 예상돼요!\"\n],\n\"glossary\": [\n{\n\"term\": \"후보 물질\",\n\"easy\": \"신약으로 개발하기 위해 연구 중인 성분을 말해요.\",\n\"example\": \"이 후보 물질이 성공하면 새로운 약이 될 수 있어요.\"\n},\n{\n\"term\": \"신약\",\n\"easy\": \"새롭게 개발된 치료 효과가 있는 약을 말해요.\",\n\"example\": \"신약 개발에는 많은 시간과 돈이 들어요.\"\n}\n]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "D&D 파마텍 주가 급락",
+   "one_liner": "D&D 파마텍의 신약 후보 물질 개발이 중단되면서 주가가 18% 급락했어요.",
+   "why_now": "신약 개발은 성공 가능성이 낮아 실패할 경우 큰 타격을 입는 경우가 많아요.",
+   "details": [
+    "화이자가 D&D 파마텍의 ORALINK 후보 물질 개발을 중단한다고 발표했어요.",
+    "이 소식으로 D&D 파마텍의 주가는 18% 하락했어요.",
+    "화이자는 다른 신약들의 성장으로 코로나 관련 매출 감소를 상쇄했어요."
+   ],
+   "effects": [
+    "신약 개발 중단은 해당 기업의 미래 수익 전망을 어둡게 할 수 있어요!",
+    "화이자는 다른 성장 동력으로 실적을 방어할 것으로 예상돼요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "454f76da0820c6a7a59e4337cf79de3a5f6fcde6"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-07T03:27:43.527047+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "e7dc95bcb919f5113",
+   "title": "메타케어 2026-2Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "cf17f78864733c344",
+   "title": "Broadcom ( AVGO ) Massive New Debt Deal Points To Where AI Is Headed",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c358a63b121c9f9dc",
+   "title": "Tesla Model Y RWD real world range tested , explained - Introduction",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "ce12823587b4e0a76",
+   "title": "Walmart Fastest - Growing Business Isnt Retail",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "category": "EARNINGS",
+   "shared": []
+  }
+ ]
+}

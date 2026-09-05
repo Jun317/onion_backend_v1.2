@@ -1,0 +1,135 @@
+{
+ "id": "c4e52a10330b2a6b5",
+ "title": "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks",
+ "category": "MARKET",
+ "status": "stale",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "NVDA"
+ ],
+ "seen_sources": 2,
+ "importance": 60,
+ "created_at": "2026-08-29T14:35:49.354009+00:00",
+ "last_update": "2026-08-29T14:35:49.355262+00:00",
+ "members": [
+  {
+   "id": "b6ab767f3cef6d4a59814bca4602c109ff8f5208",
+   "source": "trinidadtimes.com",
+   "tier": "wire",
+   "url": "http://www.trinidadtimes.com/news/279269599/nvidia-jumps-as-70-revenue-forecast-fuels-broader-chip-rally",
+   "title": "Nvidia jumps as 70 % revenue forecast fuels broader chip rally",
+   "published_at": "2026-08-29T13:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9665
+  },
+  {
+   "id": "93cfa5d329638c477f7bf7c634003ed020b06aaa",
+   "source": "sitkasentinel.com",
+   "tier": "wire",
+   "url": "http://www.sitkasentinel.com/stories/asian-shares-mostly-gain-after-upbeat-results-for-nvidia-and-others-lift-us-stocks,167003",
+   "title": "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks",
+   "published_at": "2026-08-28T17:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9664
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Nvidia jumps as 70 % revenue forecast fuels broader chip rally",
+   "source": "trinidadtimes.com",
+   "url": "http://www.trinidadtimes.com/news/279269599/nvidia-jumps-as-70-revenue-forecast-fuels-broader-chip-rally",
+   "at": "2026-08-29T13:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks",
+   "source": "sitkasentinel.com",
+   "url": "http://www.sitkasentinel.com/stories/asian-shares-mostly-gain-after-upbeat-results-for-nvidia-and-others-lift-us-stocks,167003",
+   "at": "2026-08-28T17:45:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-01T11:50:28.526471+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Nvidia jumps as 70 % revenue forecast fuels broader chip rally",
+    "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"반도체 주가 상승\",\n  \"one_liner\": \"엔비디아의 높은 매출 전망에 힘입어 아시아 증시가 전반적으로 올랐어요.\",\n  \"why_now\": \"주요 기업의 실적이 좋으면 다른 기업들의 주가도 함께 오르는 경우가 많아요.\",\n  \"impact_line\": \"반도체 관련 주식에 투자한 사람들의 자산이 늘어날 수 있어요.\",\n  \"details\": [\n    \"엔비디아가 70%의 매출 증가를 예상하며 주가가 크게 올랐어요.\",\n    \"이 소식은 다른 반도체 기업들의 주가 상승을 이끌었어요.\",\n    \"미국 증시가 좋은 실적 발표로 상승 마감한 영향도 있었어요.\",\n    \"이에 따라 아시아 증시도 대부분 상승세를 보였어요.\"\n  ],\n  \"visual_type\": \"kospi_close\",\n  \"effects\": [\n    \"반도체 기업들의 투자와 생산이 늘어날 수 있어요!\",\n    \"관련 부품을 만드는 다른 기업들의 실적도 좋아질 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"매출\",\n      \"easy\": \"기업이 상품이나 서비스를 팔아서 벌어들인 돈이에요.\",\n      \"example\": \"이번 분기 매출이 지난 분기보다 20% 늘었어요.\"\n    },\n    {\n      \"term\": \"주가\",\n      \"easy\": \"회사가 발행한 주식의 가격이에요.\",\n      \"example\": \"좋은 실적 발표에 주가가 크게 올랐어요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "반도체 주가 상승",
+   "one_liner": "엔비디아의 높은 매출 전망에 힘입어 아시아 증시가 전반적으로 올랐어요.",
+   "why_now": "주요 기업의 실적이 좋으면 다른 기업들의 주가도 함께 오르는 경우가 많아요.",
+   "details": [
+    "엔비디아가 70%의 매출 증가를 예상하며 주가가 크게 올랐어요.",
+    "이 소식은 다른 반도체 기업들의 주가 상승을 이끌었어요.",
+    "미국 증시가 좋은 실적 발표로 상승 마감한 영향도 있었어요.",
+    "이에 따라 아시아 증시도 대부분 상승세를 보였어요."
+   ],
+   "effects": [
+    "반도체 기업들의 투자와 생산이 늘어날 수 있어요!",
+    "관련 부품을 만드는 다른 기업들의 실적도 좋아질 것으로 예상돼요!"
+   ],
+   "visual_type": "kospi_close"
+  },
+  "fact_hash": "73d9a08e75bb54b5da81fdddbf321b06ebf703bb"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-01T05:22:57.560708+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c66488c3f927577c2",
+   "title": "Stock Market Week Ahead : Chips , Cybersecurity And Jobs",
+   "category": "MARKET",
+   "shared": []
+  },
+  {
+   "id": "c3cd94c43ef31fc17",
+   "title": "South Korea , India eye Arctic route after China regular service launch",
+   "category": "GEO",
+   "shared": [
+    "NVDA"
+   ]
+  },
+  {
+   "id": "ce25b81c76ebfd941",
+   "title": "Iran rial currency hits new record low as US prepares to announce more sanctions",
+   "category": "FX",
+   "shared": [
+    "NVDA"
+   ]
+  },
+  {
+   "id": "c69943061634fe0aa",
+   "title": "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence ( AI ) Stocks",
+   "category": "MARKET",
+   "shared": [
+    "NVDA"
+   ]
+  },
+  {
+   "id": "c438566b9911c4664",
+   "title": "Apple Is Handing Its New CEO the Keys Right Before Wall Street Toughest Month",
+   "category": "MARKET",
+   "shared": []
+  }
+ ]
+}

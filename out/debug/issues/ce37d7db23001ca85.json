@@ -1,0 +1,156 @@
+{
+ "id": "ce37d7db23001ca85",
+ "title": "Hiring burst of 162 , 000 jobs in August puts the focus squarely back on inflation in the US",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 3,
+ "importance": 95,
+ "created_at": "2026-09-04T22:27:00.500506+00:00",
+ "last_update": "2026-09-05T13:56:25.330022+00:00",
+ "members": [
+  {
+   "id": "160980352a4273c7652739b614341742a1289bdc",
+   "source": "channelnewsasia.com",
+   "tier": "wire",
+   "url": "https://www.channelnewsasia.com/watch/united-states-adds-162000-jobs-in-august-displaying-economic-resilience-6364206",
+   "title": "United States adds 162 , 000 jobs in August , displaying economic resilience",
+   "published_at": "2026-09-05T11:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9445
+  },
+  {
+   "id": "3d2ecd263ba02b3285e28dc7466aacca94bb6245",
+   "source": "theweekender.com",
+   "tier": "wire",
+   "url": "https://theweekender.com/business/44269/hiring-burst-of-162000-jobs-in-august-puts-the-focus-squarely-back-on-inflation-in-the-us",
+   "title": "Hiring burst of 162 , 000 jobs in August puts the focus squarely back on inflation in the US",
+   "published_at": "2026-09-04T21:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9808
+  },
+  {
+   "id": "4697a17cd4e18a3fdb43beaae6fbbd4b9de349fd",
+   "source": "freepressjournal.in",
+   "tier": "wire",
+   "url": "https://www.freepressjournal.in/world/us-job-market-rebounds-with-162000-new-jobs-in-august-unemployment-holds-at-41",
+   "title": "US Job Market Rebounds With 162 , 000 New Jobs In August ; Unemployment Holds At 4 . 1 %",
+   "published_at": "2026-09-04T21:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9805
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "United States adds 162 , 000 jobs in August , displaying economic resilience",
+   "source": "channelnewsasia.com",
+   "url": "https://www.channelnewsasia.com/watch/united-states-adds-162000-jobs-in-august-displaying-economic-resilience-6364206",
+   "at": "2026-09-05T11:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Hiring burst of 162 , 000 jobs in August puts the focus squarely back on inflation in the US",
+   "source": "theweekender.com",
+   "url": "https://theweekender.com/business/44269/hiring-burst-of-162000-jobs-in-august-puts-the-focus-squarely-back-on-inflation-in-the-us",
+   "at": "2026-09-04T21:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "US Job Market Rebounds With 162 , 000 New Jobs In August ; Unemployment Holds At 4 . 1 %",
+   "source": "freepressjournal.in",
+   "url": "https://www.freepressjournal.in/world/us-job-market-rebounds-with-162000-new-jobs-in-august-unemployment-holds-at-41",
+   "at": "2026-09-04T21:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-05T19:09:13.412561+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [],
+   "headlines": [
+    "United States adds 162 , 000 jobs in August , displaying economic resilience",
+    "Hiring burst of 162 , 000 jobs in August puts the focus squarely back on inflation in the US",
+    "US Job Market Rebounds With 162 , 000 New Jobs In August ; Unemployment Holds At 4 . 1 %"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미국 일자리 증가\",\n  \"one_liner\": \"미국에서 지난 8월 일자리가 16만 2천 개 늘었어요.\",\n  \"why_now\": \"일자리가 늘면 사람들이 돈을 더 쓰게 되어 물가가 오를 수 있어요.\",\n  \"impact_line\": \"물가가 오르면 장바구니 물가 부담이 커질 수 있어요.\",\n  \"details\": [\n    \"미국에서 지난 8월 일자리가 16만 2천 개 늘었습니다.\",\n    \"실업률은 4.1%로 이전과 동일했습니다.\",\n    \"이는 예상보다 좋은 고용 시장의 회복세를 보여줍니다.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"일자리 증가는 소비 증가로 이어져 물가 상승 압력을 높일 수 있어요!\",\n    \"물가 상승이 예상되면 미국 중앙은행이 금리를 올릴 가능성이 있습니다!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"실업률\",\n      \"easy\": \"일할 능력이 있고 일자리를 구하고 있지만, 일자리를 갖지 못한 사람의 비율이에요.\",\n      \"example\": \"실업률이 낮으면 경제가 좋다고 볼 수 있어요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details[0] 어요체 아님",
+     "details[1] 어요체 아님",
+     "details[2] 어요체 아님",
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [4.1, 16.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details[0] 어요체 아님",
+     "details[1] 어요체 아님",
+     "details[2] 어요체 아님",
+     "입력에 없는 숫자: [4.1, 16.0]"
+    ]
+   }
+  ],
+  "output": {
+   "title": "United States adds…",
+   "one_liner": "United States adds 162 , 000 jobs in August ,…",
+   "why_now": null,
+   "details": [
+    "United States adds 162 , 000 jobs in August , displaying economic resilience",
+    "Hiring burst of 162 , 000 jobs in August puts the focus squarely back on inflation in the US",
+    "US Job Market Rebounds With 162 , 000 New Jobs In August ; Unemployment Holds At 4 . 1 %"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "559aec03b6d8c116148c5947ba933d5dff09e407"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [4.1, 16.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details[0] 어요체 아님\", \"details[1] 어요체 아님\", \"details[2] 어요체 아님\", \"입력에 없는 숫자: [4.1, 16.0]\"]}]}",
+  "at": "2026-09-05T19:09:13.412382+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c36cc1170a4ab9574",
+   "title": "US housing affordability gauge worsens for first time since 2023",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "e3acae8e772f54753",
+   "title": "한국 소비자물가 2026-08 발표",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c512e6750dd223bbb",
+   "title": "Fewer Americans are working or looking for a job . Experts cant agree on why – Greeley Tribune",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c68019f5d5a4fed6f",
+   "title": "August inflation data takes center stage in the week ahead",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "ce2a9cd5841df119e",
+   "title": "Fewer Americans are working or looking for a job . Experts cant agree on why – The Mercury News",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}

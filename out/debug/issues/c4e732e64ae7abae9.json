@@ -1,0 +1,124 @@
+{
+ "id": "c4e732e64ae7abae9",
+ "title": "Shares are mostly higher in Asia , with Kospi up 4 %, while oil prices gain",
+ "category": "COMMODITY",
+ "status": "stale",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "KOSPI"
+ ],
+ "seen_sources": 2,
+ "importance": 40,
+ "created_at": "2026-08-13T08:49:07.460991+00:00",
+ "last_update": "2026-08-13T08:49:07.461897+00:00",
+ "members": [
+  {
+   "id": "07250c15ef89d95e927bffd8710ba2970f9e45aa",
+   "source": "seekingalpha.com",
+   "tier": "wire",
+   "url": "https://seekingalpha.com/news/4632067-asia-stock-markets-diverge-following-wall-street-rally-kospi-outperforms",
+   "title": "Asian stock markets diverge following Wall Street rally ; KOSPI outperfo",
+   "published_at": "2026-08-13T07:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9623
+  },
+  {
+   "id": "0b08b68c226e0863e49ce5df45460d258470fbe5",
+   "source": "stcatharinesstandard.ca",
+   "tier": "wire",
+   "url": "https://www.stcatharinesstandard.ca/business/shares-are-mostly-higher-in-asia-with-kospi-up-4-while-oil-prices-gain/article_7a6e8db8-86ff-5d91-a0e5-14fc0aad3bca.html",
+   "title": "Shares are mostly higher in Asia , with Kospi up 4 %, while oil prices gain",
+   "published_at": "2026-08-12T07:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9623
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Asian stock markets diverge following Wall Street rally ; KOSPI outperfo",
+   "source": "seekingalpha.com",
+   "url": "https://seekingalpha.com/news/4632067-asia-stock-markets-diverge-following-wall-street-rally-kospi-outperforms",
+   "at": "2026-08-13T07:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Shares are mostly higher in Asia , with Kospi up 4 %, while oil prices gain",
+   "source": "stcatharinesstandard.ca",
+   "url": "https://www.stcatharinesstandard.ca/business/shares-are-mostly-higher-in-asia-with-kospi-up-4-while-oil-prices-gain/article_7a6e8db8-86ff-5d91-a0e5-14fc0aad3bca.html",
+   "at": "2026-08-12T07:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-08-14T05:18:58.847803+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [],
+   "headlines": [
+    "Asian stock markets diverge following Wall Street rally ; KOSPI outperfo",
+    "Shares are mostly higher in Asia , with Kospi up 4 %, while oil prices gain"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"아시아 증시 혼조세\",\n  \"one_liner\": \"아시아 증시가 혼조세를 보이며 엇갈린 흐름을 나타냈어요.\",\n  \"why_now\": \"미국 증시가 오른 뒤 아시아 증시가 이에 영향을 받아 움직이는 경우가 많아요.\",\n  \"impact_line\": \"주식 투자 수익률이 달라질 수 있어요.\",\n  \"details\": [\n    \"한국 증시인 코스피는 4% 이상 상승하며 좋은 흐름을 보였어요.\",\n    \"다른 아시아 증시는 대부분 올랐지만, 상승폭은 달랐어요.\",\n    \"국제 유가도 함께 오르는 모습을 보였어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"국제 유가 상승은 운송비나 관련 제품 가격에 영향을 줄 수 있어요!\",\n    \"증시 흐름에 따라 투자자들의 자산 가치가 달라질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"코스피\",\n      \"easy\": \"한국의 대표적인 주가지수예요.\",\n      \"example\": \"코스피가 오르면 한국 주식 시장 전체가 활기를 띠는 것으로 봐요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "아시아 증시 혼조세",
+   "one_liner": "아시아 증시가 혼조세를 보이며 엇갈린 흐름을 나타냈어요.",
+   "why_now": "미국 증시가 오른 뒤 아시아 증시가 이에 영향을 받아 움직이는 경우가 많아요.",
+   "details": [
+    "한국 증시인 코스피는 4% 이상 상승하며 좋은 흐름을 보였어요.",
+    "다른 아시아 증시는 대부분 올랐지만, 상승폭은 달랐어요.",
+    "국제 유가도 함께 오르는 모습을 보였어요."
+   ],
+   "effects": [
+    "국제 유가 상승은 운송비나 관련 제품 가격에 영향을 줄 수 있어요!",
+    "증시 흐름에 따라 투자자들의 자산 가치가 달라질 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "6cfcdcdddce55f2418d25d388971f3caec4d465f"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-08-14T00:13:05.905657+00:00"
+ },
+ "glossary": [
+  {
+   "term": "코스피",
+   "easy": "한국 대표 기업들의 주가를 묶어 보여주는 값이에요.",
+   "example": "오르면 큰 기업 주가가 대체로 올랐다는 뜻이에요."
+  }
+ ],
+ "related": [
+  {
+   "id": "c8a1922fe87d06746",
+   "title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
+   "category": "MARKET",
+   "shared": [
+    "KOSPI"
+   ]
+  },
+  {
+   "id": "cb22ab4362dc7db3b",
+   "title": "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
+   "category": "COMMODITY",
+   "shared": []
+  },
+  {
+   "id": "cbeeeaf816557ffe2",
+   "title": "S & P 500 gains after three - day skid as oil prices halt advance",
+   "category": "COMMODITY",
+   "shared": []
+  }
+ ]
+}
