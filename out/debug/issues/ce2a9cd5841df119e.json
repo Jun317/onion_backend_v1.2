@@ -69,7 +69,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-05T10:47:50.488416+00:00",
+  "created_at": "2026-09-05T13:57:44.859297+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -79,18 +79,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"미국 경제활동 참가율 하락\",\n\"one_liner\": \"미국에서 일하거나 일자리를 찾는 사람이 줄고 있어요.\",\n\"why_now\": \"경제활동 참가율은 나라 경제의 활력을 보여주는 중요한 지표예요.\",\n\"impact_line\": \"고용 시장 상황을 파악하는 데 도움이 될 수 있어요.\",\n\"details\": [\n\"미국에서 일하거나 일자리를 찾는 사람의 수가 줄었어요.\",\n\"이 현상의 정확한 원인에 대해서는 전문가들의 의견이 엇갈리고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"일자리 구하기가 더 어려워질 수 있어요!\",\n\"경제 성장 둔화로 이어질 가능성도 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"경제활동 참가율\",\n\"easy\": \"일할 수 있는 나이의 사람들 중 일하고 있거나 일자리를 적극적으로 찾는 사람의 비율이에요.\",\n\"example\": \"경제활동 참가율이 높으면 경제가 활발하다는 뜻이에요.\"\n}\n],\n\"impact_line\": \"일자리 구하기가 더 어려워질 수 있어요.\"\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -108,8 +102,8 @@
   "fact_hash": "7fa51ad0a32992b28655ae02c0c35715284c0a5d"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-09-05T10:47:50.488355+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-05T13:57:44.858978+00:00"
  },
  "glossary": [],
  "related": [
@@ -132,14 +126,14 @@
    "shared": []
   },
   {
-   "id": "c68019f5d5a4fed6f",
-   "title": "August inflation data takes center stage in the week ahead",
+   "id": "ce37d7db23001ca85",
+   "title": "Hiring burst of 162 , 000 jobs in August puts the focus squarely back on inflation in the US",
    "category": "MACRO",
    "shared": []
   },
   {
-   "id": "ce37d7db23001ca85",
-   "title": "Hiring burst of 162 , 000 jobs in August puts the focus squarely back on inflation in the US",
+   "id": "c68019f5d5a4fed6f",
+   "title": "August inflation data takes center stage in the week ahead",
    "category": "MACRO",
    "shared": []
   }

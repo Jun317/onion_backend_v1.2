@@ -88,7 +88,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-05T10:47:19.206153+00:00",
+  "created_at": "2026-09-05T13:56:52.096218+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -99,18 +99,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"테슬라 주가 변동\",\n  \"one_liner\": \"테슬라 주가가 355달러를 기록하며 앞으로의 방향에 대한 투자자들의 의견이 엇갈리고 있어요.\",\n  \"why_now\": \"주가 흐름은 회사의 현재와 미래 가치를 보여주기 때문에 투자자들의 관심이 높아요.\",\n  \"impact_line\": \"테슬라 주가 변동은 관련 기업들의 주가에도 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"테슬라 주가가 355달러까지 올랐어요.\",\n    \"투자자들은 앞으로의 주가 흐름에 대해 다양한 의견을 보이고 있어요.\",\n    \"전기차와 로봇 관련 사업을 하는 다른 회사들도 테슬라의 움직임을 주목하고 있어요.\",\n    \"일부에서는 트럼프 전 대통령의 정책이 에너지 저장 관련 주식에 긍정적인 영향을 줄 수 있다고 보고 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"테슬라의 주가 상승은 전기차 시장의 성장 가능성을 보여줄 수 있어요!\",\n    \"에너지 저장 관련 기업들의 주가도 함께 움직일 가능성이 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"EVs\",\n      \"easy\": \"전기 자동차를 뜻하는 영어 약자예요.\",\n      \"example\": \"전기 자동차(EVs)는 친환경 교통수단으로 주목받고 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "one_liner 50자 초과(52)"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "one_liner 50자 초과(51)"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -129,8 +123,8 @@
   "fact_hash": "2e721bd6c02ff1ccabef3a25fd4592217fcdc1ea"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(52)\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(51)\"]}]}",
-  "at": "2026-09-05T10:47:19.206041+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-05T13:56:52.096131+00:00"
  },
  "glossary": [],
  "related": [

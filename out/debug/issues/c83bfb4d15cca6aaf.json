@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-09-05T10:52:34.784684+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-05T14:02:19.749877+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,25 +881,26 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"정부, 해양 자원 개발 논의\",\n    \"one_liner\": \"국회의원들이 해양 자원을 개발해 새로운 성장 동력을 만들 정책을 논의했어요.\",\n    \"why_now\": \"새로운 성장 동력을 찾으면 경제가 활력을 되찾고 일자리가 늘어날 수 있어요.\",\n    \"impact_line\": \"새로운 산업이 생겨나면 관련 일자리가 늘어날 수 있어요.\",\n    \"details\": [\n        \"국회의원들이 해양 자원 개발에 대한 논의를 시작했어요.\",\n        \"새로운 성장 동력을 만들기 위한 정책들을 검토하고 있어요.\",\n        \"해양 자원 개발은 미래 경제 성장에 중요한 역할을 할 것으로 보여요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"해양 자원 개발이 활발해지면 관련 산업이 성장할 수 있어요!\",\n        \"새로운 성장 동력이 생기면 경제 전반에 긍정적인 영향을 줄 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"성장 동력\",\n            \"easy\": \"경제의 힘을 키워주는 새로운 분야나 기술을 말해요.\",\n            \"example\": \"새로운 성장 동력을 찾기 위해 정부는 신산업 육성에 힘쓰고 있어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Outrage over Atiku…",
-   "one_liner": "Outrage over Atiku plan to restore fuel subsidy…",
-   "why_now": null,
+   "title": "정부, 해양 자원 개발 논의",
+   "one_liner": "국회의원들이 해양 자원을 개발해 새로운 성장 동력을 만들 정책을 논의했어요.",
+   "why_now": "새로운 성장 동력을 찾으면 경제가 활력을 되찾고 일자리가 늘어날 수 있어요.",
    "details": [
-    "Outrage over Atiku plan to restore fuel subsidy - The Nation Newspaper",
-    "Fuel Subsidy : Atiku Blasts Tinubu Over Worsening Hardship",
-    "Legislators debate policies to unlock marine resources , form new growth poles"
+    "국회의원들이 해양 자원 개발에 대한 논의를 시작했어요.",
+    "새로운 성장 동력을 만들기 위한 정책들을 검토하고 있어요.",
+    "해양 자원 개발은 미래 경제 성장에 중요한 역할을 할 것으로 보여요."
    ],
-   "effects": [],
+   "effects": [
+    "해양 자원 개발이 활발해지면 관련 산업이 성장할 수 있어요!",
+    "새로운 성장 동력이 생기면 경제 전반에 긍정적인 영향을 줄 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "dc7cc47146cab4b679d110cb340e403fdda12599"
