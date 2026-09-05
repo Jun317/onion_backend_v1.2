@@ -7,11 +7,31 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 65,
+ "seen_sources": 3,
+ "importance": 70,
  "created_at": "2026-09-04T22:27:00.502969+00:00",
- "last_update": "2026-09-05T01:07:33.817971+00:00",
+ "last_update": "2026-09-05T05:53:56.794180+00:00",
  "members": [
+  {
+   "id": "c1889d44f5f92b9efde9c16f03179664f911792e",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-circle-microstrategy-stocks-surge-210600203.html",
+   "title": "Coinbase , Circle , MicroStrategy stocks surge on crypto rebound",
+   "published_at": "2026-09-05T03:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9049
+  },
+  {
+   "id": "b40ff286b21471f286ffbb59bb698b2d63ea2bdd",
+   "source": "constructiondive.com",
+   "tier": "wire",
+   "url": "https://www.constructiondive.com/?page=2&_sp=0051184e-ece7-40a3-a203-db5d14b668e7",
+   "title": "Construction News and Trends | Construction Dive",
+   "published_at": "2026-09-05T03:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8897
+  },
   {
    "id": "a91a363bcade2e9f1d6641fbbbc7ca9c6734dafd",
    "source": "freerepublic.com",
@@ -20,7 +40,7 @@
    "title": "Latest Articles",
    "published_at": "2026-09-04T23:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 0.8892
+   "sim_to_centroid": 0.8984
   },
   {
    "id": "4d9a82b209979bf851334d5df73963729c59c6f8",
@@ -30,7 +50,7 @@
    "title": "Auto finance in Q2 reflects boom in hybrid sales",
    "published_at": "2026-09-04T21:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8674
+   "sim_to_centroid": 0.8685
   },
   {
    "id": "fc8451b8d7dc17eea7bff3c5c76b91eea0bec232",
@@ -40,7 +60,7 @@
    "title": "Stocks making big moves this week : SAIC , Reddit , Fortrea , GitLab , and G - III",
    "published_at": "2026-09-04T21:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.958
+   "sim_to_centroid": 0.9545
   },
   {
    "id": "53878fdee854fac5814f68e3cee27936653fa859",
@@ -50,11 +70,25 @@
    "title": "Mortgage Applications Rebound Modestly as ARM Share Hits Five - Week High",
    "published_at": "2026-09-04T21:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9605
+   "sim_to_centroid": 0.956
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Coinbase , Circle , MicroStrategy stocks surge on crypto rebound",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-circle-microstrategy-stocks-surge-210600203.html",
+   "at": "2026-09-05T03:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Construction News and Trends | Construction Dive",
+   "source": "constructiondive.com",
+   "url": "https://www.constructiondive.com/?page=2&_sp=0051184e-ece7-40a3-a203-db5d14b668e7",
+   "at": "2026-09-05T03:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Latest Articles",
@@ -86,11 +120,14 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-04T22:29:19.989471+00:00",
+  "created_at": "2026-09-05T05:58:01.525484+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
    "headlines": [
+    "Coinbase , Circle , MicroStrategy stocks surge on crypto rebound",
+    "Construction News and Trends | Construction Dive",
+    "Auto finance in Q2 reflects boom in hybrid sales",
     "Stocks making big moves this week : SAIC , Reddit , Fortrea , GitLab , and G - III",
     "Mortgage Applications Rebound Modestly as ARM Share Hits Five - Week High"
    ],
@@ -106,21 +143,22 @@
    }
   ],
   "output": {
-   "title": "Stocks making big…",
-   "one_liner": "Stocks making big moves this week : SAIC ,…",
+   "title": "Coinbase , Circle ,…",
+   "one_liner": "Coinbase , Circle , MicroStrategy stocks surge…",
    "why_now": null,
    "details": [
-    "Stocks making big moves this week : SAIC , Reddit , Fortrea , GitLab , and G - III",
-    "Mortgage Applications Rebound Modestly as ARM Share Hits Five - Week High"
+    "Coinbase , Circle , MicroStrategy stocks surge on crypto rebound",
+    "Construction News and Trends | Construction Dive",
+    "Auto finance in Q2 reflects boom in hybrid sales"
    ],
    "effects": [],
    "visual_type": "us_10y"
   },
-  "fact_hash": "78b4935de71755de8c36f0feef1f1bf4c28ff64e"
+  "fact_hash": "b848b89f8f15925d3abc17c141a0596f26ca06ef"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-04T22:29:19.989418+00:00"
+  "at": "2026-09-05T05:58:01.525418+00:00"
  },
  "glossary": [],
  "related": [

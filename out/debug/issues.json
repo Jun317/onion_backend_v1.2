@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-05T01:15:06.041225+00:00",
+ "generated_at": "2026-09-05T06:00:51.025444+00:00",
  "issues": [
   {
    "id": "ccec1fdb78ce6d4ce",
@@ -27,19 +27,19 @@
    "id": "ce5dad9f48c5d50aa",
    "title": "US Fed Waller says August inflation data will determine stance on September rate hike",
    "category": "RATE",
-   "status": "candidate",
+   "status": "active",
    "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 135,
+   "seen_sources": 2,
+   "importance": 140,
    "entity_keys": [
     "FED"
    ],
    "created_at": "2026-09-04T19:43:46.399486+00:00",
-   "last_update": "2026-09-04T22:27:00.490346+00:00",
-   "members": 4,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
+   "last_update": "2026-09-05T05:53:56.797756+00:00",
+   "members": 5,
+   "llm_title": "미국 금리 인상 가능성",
+   "one_liner": "미국 연준 위원이 8월 물가 지표를 보고 9월 금리 인상 여부를 결정하겠다고 밝혔어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": false
   },
   {
@@ -106,12 +106,12 @@
    "category": "RATE",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 12,
+   "seen_sources": 26,
    "importance": 125,
    "entity_keys": [],
    "created_at": "2026-09-04T22:27:00.500622+00:00",
-   "last_update": "2026-09-05T01:07:33.818825+00:00",
-   "members": 12,
+   "last_update": "2026-09-05T05:53:56.793728+00:00",
+   "members": 29,
    "llm_title": "Who Cares About a…",
    "one_liner": "Who Cares About a FICO Score When You Are 94 ?:…",
    "llm_model": "template",
@@ -207,13 +207,33 @@
    "in_review": true
   },
   {
+   "id": "c2fd4f2e6b1d6cfd1",
+   "title": "Pezeshkian Son Says Iranians Will Survive Without Enriching Uranium",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 33,
+   "importance": 110,
+   "entity_keys": [
+    "IRAN",
+    "KRX:000270"
+   ],
+   "created_at": "2026-08-31T23:57:20.234273+00:00",
+   "last_update": "2026-09-05T05:53:56.793871+00:00",
+   "members": 50,
+   "llm_title": "중동 긴장 고조에 국제 유가 상승",
+   "one_liner": "이란과 관련된 중동 지역의 긴장이 다시 높아지면서 국제 유가가 올랐어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": true
+  },
+  {
    "id": "e3acae8e772f54753",
    "title": "한국 소비자물가 2026-08 발표",
    "category": "MACRO",
    "status": "active",
    "origin": "official_event",
    "seen_sources": 1,
-   "importance": 115,
+   "importance": 110,
    "entity_keys": [
     "V"
    ],
@@ -224,26 +244,6 @@
    "one_liner": "8월 한국 소비자물가가 전달보다 소폭 올랐어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": false
-  },
-  {
-   "id": "c2fd4f2e6b1d6cfd1",
-   "title": "Pezeshkian Son Says Iranians Will Survive Without Enriching Uranium",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 31,
-   "importance": 110,
-   "entity_keys": [
-    "IRAN",
-    "KRX:000270"
-   ],
-   "created_at": "2026-08-31T23:57:20.234273+00:00",
-   "last_update": "2026-09-05T01:07:33.817498+00:00",
-   "members": 50,
-   "llm_title": "중동 긴장 고조에 국제 유가 상승",
-   "one_liner": "이란과 관련된 중동 지역의 긴장이 다시 높아지면서 국제 유가가 올랐어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
   },
   {
    "id": "c3cd94c43ef31fc17",
@@ -384,15 +384,15 @@
    "category": "MACRO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 7,
+   "seen_sources": 13,
    "importance": 105,
    "entity_keys": [],
    "created_at": "2026-09-04T22:27:00.499625+00:00",
-   "last_update": "2026-09-05T01:07:33.818707+00:00",
-   "members": 7,
-   "llm_title": "Unexpected hiring…",
-   "one_liner": "Unexpected hiring surge drives down unemployment…",
-   "llm_model": "template",
+   "last_update": "2026-09-05T05:53:56.794323+00:00",
+   "members": 14,
+   "llm_title": "미국 일자리 증가",
+   "one_liner": "미국에서 예상보다 많은 일자리가 늘어나 실업률이 낮아졌어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -900,25 +900,6 @@
    "in_review": true
   },
   {
-   "id": "cff4fa260d50eca7f",
-   "title": "American first revamped Boeing 777 with suites set to fly",
-   "category": "FX",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 90,
-   "entity_keys": [
-    "BA"
-   ],
-   "created_at": "2026-09-03T01:14:01.027575+00:00",
-   "last_update": "2026-09-03T01:14:01.030107+00:00",
-   "members": 2,
-   "llm_title": "미국 항공사 좌석 업그레이드",
-   "one_liner": "미국 항공사가 더 넓고 편안한 좌석을 제공하기 위해 비행기를 새로 꾸몄어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": false
-  },
-  {
    "id": "cf17f78864733c344",
    "title": "Broadcom ( AVGO ) Massive New Debt Deal Points To Where AI Is Headed",
    "category": "EARNINGS",
@@ -1122,14 +1103,33 @@
    "category": "GEO",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 5,
+   "seen_sources": 6,
    "importance": 85,
    "entity_keys": [],
    "created_at": "2026-09-04T22:27:00.503717+00:00",
-   "last_update": "2026-09-05T01:07:33.818046+00:00",
-   "members": 5,
+   "last_update": "2026-09-05T05:53:56.792179+00:00",
+   "members": 6,
    "llm_title": "Andrew Tate indicted…",
    "one_liner": "Andrew Tate indicted in Romania for trafficking…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "cd0421ee1cea469eb",
+   "title": "China Xi to bring large CEO delegation on US visit , sources say",
+   "category": "GEO",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 6,
+   "importance": 85,
+   "entity_keys": [
+    "CHINA"
+   ],
+   "created_at": "2026-09-04T19:43:46.399764+00:00",
+   "last_update": "2026-09-05T05:53:56.790687+00:00",
+   "members": 6,
+   "llm_title": "China Xi to bring…",
+   "one_liner": "China Xi to bring large CEO delegation on US…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1151,25 +1151,6 @@
    "in_review": true
   },
   {
-   "id": "cd0421ee1cea469eb",
-   "title": "China Xi to bring large CEO delegation on US visit , sources say",
-   "category": "GEO",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 5,
-   "importance": 85,
-   "entity_keys": [
-    "CHINA"
-   ],
-   "created_at": "2026-09-04T19:43:46.399764+00:00",
-   "last_update": "2026-09-04T22:27:00.488400+00:00",
-   "members": 5,
-   "llm_title": "China Xi to bring…",
-   "one_liner": "China Xi to bring large CEO delegation on US…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "cab49755e8962f23b",
    "title": "Strathaven Balloon Festival 2026 was a soaraway success",
    "category": "GEO",
@@ -1185,6 +1166,25 @@
    "one_liner": "나라마다 경제 성장 전망이 다르게 나오고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
+  },
+  {
+   "id": "cff4fa260d50eca7f",
+   "title": "American first revamped Boeing 777 with suites set to fly",
+   "category": "FX",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 2,
+   "importance": 85,
+   "entity_keys": [
+    "BA"
+   ],
+   "created_at": "2026-09-03T01:14:01.027575+00:00",
+   "last_update": "2026-09-03T01:14:01.030107+00:00",
+   "members": 2,
+   "llm_title": "미국 항공사 좌석 업그레이드",
+   "one_liner": "미국 항공사가 더 넓고 편안한 좌석을 제공하기 위해 비행기를 새로 꾸몄어요.",
+   "llm_model": "gemini-2.5-flash-lite",
+   "in_review": false
   },
   {
    "id": "c6600cb76466f7094",
@@ -1325,12 +1325,12 @@
    "category": "MARKET",
    "status": "active",
    "origin": "cluster",
-   "seen_sources": 5,
+   "seen_sources": 7,
    "importance": 80,
    "entity_keys": [],
    "created_at": "2026-09-04T22:27:00.501269+00:00",
-   "last_update": "2026-09-05T01:07:33.817362+00:00",
-   "members": 6,
+   "last_update": "2026-09-05T05:53:56.791872+00:00",
+   "members": 8,
    "llm_title": "The Jobs Report…",
    "one_liner": "The Jobs Report Surprised To The Upside . Stocks…",
    "llm_model": "template",
@@ -1571,8 +1571,8 @@
    "created_at": "2026-09-04T22:27:00.503637+00:00",
    "last_update": "2026-09-05T01:07:33.817211+00:00",
    "members": 5,
-   "llm_title": "SoundHound Business…",
-   "one_liner": "SoundHound Business Is Booming . Can the $7…",
+   "llm_title": "Is Southern Company…",
+   "one_liner": "Is Southern Company Stock Underperforming the…",
    "llm_model": "template",
    "in_review": true
   },
@@ -1609,23 +1609,6 @@
    "members": 50,
    "llm_title": "AI, 일자리 위협하나",
    "one_liner": "AI 기술 발전으로 일자리가 줄어들 수 있다는 우려가 나오고 있어요.",
-   "llm_model": "gemini-2.5-flash-lite",
-   "in_review": true
-  },
-  {
-   "id": "cec8ef696004d1465",
-   "title": "DiamondRock Hospitality ( NYSE : DRH ) versus Sotherly Hotels ( NASDAQ : SOHOO ) Financial Analysis",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 31,
-   "importance": 75,
-   "entity_keys": [],
-   "created_at": "2026-09-02T19:55:01.284965+00:00",
-   "last_update": "2026-09-03T01:14:01.026229+00:00",
-   "members": 50,
-   "llm_title": "주요 기업 주가 변동",
-   "one_liner": "여러 기업들의 주가가 크게 변동하고 있어요.",
    "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
@@ -2229,6 +2212,23 @@
    "in_review": true
   },
   {
+   "id": "c8de09503ccbb3a92",
+   "title": "Stocks making big moves this week : SAIC , Reddit , Fortrea , GitLab , and G - III",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 3,
+   "importance": 70,
+   "entity_keys": [],
+   "created_at": "2026-09-04T22:27:00.502969+00:00",
+   "last_update": "2026-09-05T05:53:56.794180+00:00",
+   "members": 6,
+   "llm_title": "Coinbase , Circle ,…",
+   "one_liner": "Coinbase , Circle , MicroStrategy stocks surge…",
+   "llm_model": "template",
+   "in_review": true
+  },
+  {
    "id": "cc7fdb23dad28cc48",
    "title": "Taurus Shani Horoscope Today , 5th September 2026 : Saturn Says Wait , but the Moon Sees an Opening",
    "category": "GEO",
@@ -2277,6 +2277,23 @@
    "llm_title": "US diesel prices hit…",
    "one_liner": "US diesel prices hit a record high , pushing up…",
    "llm_model": "template",
+   "in_review": true
+  },
+  {
+   "id": "cec8ef696004d1465",
+   "title": "DiamondRock Hospitality ( NYSE : DRH ) versus Sotherly Hotels ( NASDAQ : SOHOO ) Financial Analysis",
+   "category": "MARKET",
+   "status": "active",
+   "origin": "cluster",
+   "seen_sources": 31,
+   "importance": 70,
+   "entity_keys": [],
+   "created_at": "2026-09-02T19:55:01.284965+00:00",
+   "last_update": "2026-09-03T01:14:01.026229+00:00",
+   "members": 50,
+   "llm_title": "주요 기업 주가 변동",
+   "one_liner": "여러 기업들의 주가가 크게 변동하고 있어요.",
+   "llm_model": "gemini-2.5-flash-lite",
    "in_review": true
   },
   {
@@ -2462,23 +2479,6 @@
    "one_liner": null,
    "llm_model": null,
    "in_review": false
-  },
-  {
-   "id": "c8de09503ccbb3a92",
-   "title": "Stocks making big moves this week : SAIC , Reddit , Fortrea , GitLab , and G - III",
-   "category": "MARKET",
-   "status": "active",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 65,
-   "entity_keys": [],
-   "created_at": "2026-09-04T22:27:00.502969+00:00",
-   "last_update": "2026-09-05T01:07:33.817971+00:00",
-   "members": 4,
-   "llm_title": "Stocks making big…",
-   "one_liner": "Stocks making big moves this week : SAIC ,…",
-   "llm_model": "template",
-   "in_review": true
   },
   {
    "id": "c09474bd6d1e7046c",
@@ -3675,25 +3675,6 @@
    "in_review": true
   },
   {
-   "id": "c64936ff7255d79b3",
-   "title": "China Eastern Sydney to Shanghai flight review : seats are roomier | Blayney Chronicle",
-   "category": "FX",
-   "status": "stale",
-   "origin": "cluster",
-   "seen_sources": 2,
-   "importance": 55,
-   "entity_keys": [
-    "CHINA"
-   ],
-   "created_at": "2026-09-01T05:21:46.558138+00:00",
-   "last_update": "2026-09-01T05:21:46.558916+00:00",
-   "members": 2,
-   "llm_title": "China Eastern Sydney…",
-   "one_liner": "China Eastern Sydney to Shanghai flight review :…",
-   "llm_model": "template",
-   "in_review": true
-  },
-  {
    "id": "cb986e341726514d4",
    "title": "Walmart Just Dropped 10 % in a Month . Is It Time to Sell ?",
    "category": "EARNINGS",
@@ -4466,59 +4447,23 @@
    "in_review": true
   },
   {
-   "id": "c38d4b6d119d38236",
-   "title": "Akhilesh Yadav : BJP poor performance in by - polls marks beginning of change",
-   "category": "GEO",
+   "id": "c64936ff7255d79b3",
+   "title": "China Eastern Sydney to Shanghai flight review : seats are roomier | Blayney Chronicle",
+   "category": "FX",
    "status": "stale",
    "origin": "cluster",
-   "seen_sources": 46,
-   "importance": 55,
-   "entity_keys": [],
-   "created_at": "2026-08-04T10:05:33.923878+00:00",
-   "last_update": "2026-08-06T03:47:30.476357+00:00",
-   "members": 50,
-   "llm_title": "미국 경제 우려",
-   "one_liner": "미국 경제가 안정적이지 않다는 우려가 나오고 있어요.",
-   "llm_model": "llama-3.3-70b-versatile",
+   "seen_sources": 2,
+   "importance": 50,
+   "entity_keys": [
+    "CHINA"
+   ],
+   "created_at": "2026-09-01T05:21:46.558138+00:00",
+   "last_update": "2026-09-01T05:21:46.558916+00:00",
+   "members": 2,
+   "llm_title": "China Eastern Sydney…",
+   "one_liner": "China Eastern Sydney to Shanghai flight review :…",
+   "llm_model": "template",
    "in_review": true
-  },
-  {
-   "id": "c869f57fa7b2500ee",
-   "title": "At G20 Summit , Bessent Vows To Intensify Economic  Pressure  On Iran",
-   "category": "GEO",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 50,
-   "entity_keys": [
-    "IRAN"
-   ],
-   "created_at": "2026-08-31T23:57:20.234696+00:00",
-   "last_update": "2026-09-01T05:21:46.557104+00:00",
-   "members": 4,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
-  },
-  {
-   "id": "c9efbf653a9004062",
-   "title": "UAE intercepts Iranian drone over territorial waters",
-   "category": "GEO",
-   "status": "candidate",
-   "origin": "cluster",
-   "seen_sources": 1,
-   "importance": 50,
-   "entity_keys": [
-    "IRAN"
-   ],
-   "created_at": "2026-08-31T23:57:20.234591+00:00",
-   "last_update": "2026-09-01T05:21:46.555131+00:00",
-   "members": 3,
-   "llm_title": null,
-   "one_liner": null,
-   "llm_model": null,
-   "in_review": false
   },
   {
    "id": "c1519330fb1a29b51",
@@ -5336,6 +5281,44 @@
    "entity_keys": [],
    "created_at": "2026-09-04T22:27:00.502444+00:00",
    "last_update": "2026-09-05T01:07:33.813397+00:00",
+   "members": 3,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
+   "id": "c869f57fa7b2500ee",
+   "title": "At G20 Summit , Bessent Vows To Intensify Economic  Pressure  On Iran",
+   "category": "GEO",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 45,
+   "entity_keys": [
+    "IRAN"
+   ],
+   "created_at": "2026-08-31T23:57:20.234696+00:00",
+   "last_update": "2026-09-01T05:21:46.557104+00:00",
+   "members": 4,
+   "llm_title": null,
+   "one_liner": null,
+   "llm_model": null,
+   "in_review": false
+  },
+  {
+   "id": "c9efbf653a9004062",
+   "title": "UAE intercepts Iranian drone over territorial waters",
+   "category": "GEO",
+   "status": "candidate",
+   "origin": "cluster",
+   "seen_sources": 1,
+   "importance": 45,
+   "entity_keys": [
+    "IRAN"
+   ],
+   "created_at": "2026-08-31T23:57:20.234591+00:00",
+   "last_update": "2026-09-01T05:21:46.555131+00:00",
    "members": 3,
    "llm_title": null,
    "one_liner": null,
