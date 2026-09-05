@@ -101,8 +101,48 @@
    "at": "2026-09-04T21:00:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-05T16:55:06.664279+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Torrid ( NYSE : CURV ) Issues Earnings Results",
+    "Head to Head Comparison : Alliance Entertainment ( NASDAQ : AENT ) versus Genuine Parts ( NYSE : GPC )",
+    "Reviewing Core Natural Resources ( NYSE : CNR ) & Gulfport Energy ( NYSE : GPOR )",
+    "Head to Head Comparison : Lifeward ( NASDAQ : LFWD ) and Femasys ( NASDAQ : FEMY )",
+    "Wealthfront ( WLTH ) and Its Rivals Financial Review"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Torrid ( NYSE : CURV…",
+   "one_liner": "Torrid ( NYSE : CURV ) Issues Earnings Results",
+   "why_now": null,
+   "details": [
+    "Torrid ( NYSE : CURV ) Issues Earnings Results",
+    "Head to Head Comparison : Alliance Entertainment ( NASDAQ : AENT ) versus Genuine Parts ( NYSE : GPC )",
+    "Reviewing Core Natural Resources ( NYSE : CNR ) & Gulfport Energy ( NYSE : GPOR )"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "5d05fa0b4757b53c85255414553e5d047c5af152"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-05T16:55:06.664174+00:00"
+ },
  "glossary": [],
  "related": [
   {
