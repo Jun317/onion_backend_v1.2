@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-04T19:46:37.506021+00:00",
+  "created_at": "2026-09-05T01:10:47.092227+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -64,8 +64,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"어도비 주가 하락\", \"one_liner\": \"어도비 주가가 인공지능 기술 도입에도 불구하고 하락했어요.\", \"why_now\": \"인공지능 기술은 기업의 미래 성장성을 보여주는 중요한 지표 중 하나예요.\", \"impact_line\": \"어도비 관련 투자나 사업에 영향을 줄 수 있어요.\", \"details\": [\"어도비가 인공지능 기술을 적극적으로 도입하고 있어요.\", \"하지만 이러한 노력에도 불구하고 주가가 하락하는 모습을 보이고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"어도비의 사업 경쟁력이 약화될 수 있다는 우려가 나오고 있어요!\", \"주가 하락으로 인해 투자자들의 불안감이 커질 수 있어요!\"], \"glossary\": [{\"term\": \"어도비\", \"easy\": \"컴퓨터 프로그램을 만드는 회사 이름이에요.\", \"example\": \"어도비 포토샵은 사진 편집 프로그램으로 유명해요.\"}, {\"term\": \"인공지능\", \"easy\": \"사람처럼 생각하고 배우는 컴퓨터 기술이에요.\", \"example\": \"인공지능 스피커는 사람의 말을 알아듣고 대답해줘요.\"}, {\"term\": \"주가\", \"easy\": \"회사가 발행한 주식의 가격을 말해요.\", \"example\": \"회사가 잘 되면 주가가 오르고, 못 되면 주가가 내려가요.\"}], \"impact_line\": \"어도비 관련 투자나 사업에 영향을 줄 수 있어요.\"}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -87,8 +93,8 @@
   "fact_hash": "6a6c98bea010129d917dba4e657e5abd2f518a64"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-04T19:46:37.505939+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-05T01:10:47.092166+00:00"
  },
  "glossary": [],
  "related": [
@@ -101,12 +107,6 @@
   {
    "id": "cb22ab4362dc7db3b",
    "title": "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
-   "category": "COMMODITY",
-   "shared": []
-  },
-  {
-   "id": "c4290744458a41e2b",
-   "title": "Analyzing China Gas ( OTCMKTS : CGHLY ) and Chesapeake Utilities ( NYSE : CPK )",
    "category": "COMMODITY",
    "shared": []
   }
