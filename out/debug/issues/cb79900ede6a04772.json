@@ -757,8 +757,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-09-05T16:54:45.541353+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-05T21:23:51.037401+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -771,26 +771,33 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"버크셔, 구글 지분 늘려\",\n    \"one_liner\": \"워렌 버핏이 이끄는 버크셔 해서웨이가 구글(알파벳) 주식을 대폭 늘렸어요.\",\n    \"why_now\": \"버크셔 해서웨이의 투자 결정은 시장에 큰 영향을 미치기 때문에 주목받고 있어요.\",\n    \"impact_line\": \"구글 주가에 긍정적인 영향을 줄 수 있어요.\",\n    \"details\": [\n        \"버크셔 해서웨이는 구글 주식을 83% 늘려 약 1억 6백만 주를 보유하게 됐어요.\",\n        \"이는 워렌 버핏이 최고경영자 자리에서 물러난 이후 나온 결정이에요.\",\n        \"버크셔 해서웨이는 구글 외에도 주택 건설 관련 기업들의 지분도 늘렸어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"구글의 주가가 상승할 가능성이 있어요!\",\n        \"다른 투자자들도 구글에 대한 투자를 늘릴 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"버크셔 해서웨이\",\n            \"easy\": \"워렌 버핏이 이끄는 미국의 대형 투자 지주 회사예요.\",\n            \"example\": \"버크셔 해서웨이가 특정 회사 주식을 많이 사면 그 회사 주가가 오르기도 해요.\"\n        },\n        {\n            \"term\": \"알파벳\",\n            \"easy\": \"구글의 모회사 이름이에요. 인터넷 검색, 광고, 클라우드 등 다양한 사업을 하고 있어요.\",\n            \"example\": \"알파벳의 주가가 오르면 구글 서비스 이용자들도 기분이 좋아질 수 있어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "one_liner 50자 초과(58)"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Why Google is making…",
-   "one_liner": "Why Google is making headlines in Berkshire…",
-   "why_now": null,
+   "title": "버크셔, 구글 지분 늘려",
+   "one_liner": "워렌 버핏이 이끄는 버크셔 해서웨이가 구글(알파벳) 주식을 대폭 늘렸어요.",
+   "why_now": "버크셔 해서웨이의 투자 결정은 시장에 큰 영향을 미치기 때문에 주목받고 있어요.",
    "details": [
-    "Why Google is making headlines in Berkshire biggest quarter of stock - buying following Warren Buffett exit as CEO",
-    "Berkshire Hathaway Turns Buyer As Buffett Backs Alphabet",
-    "Berkshire boosts Alphabet stake by 83 % to nearly 106 million shares"
+    "버크셔 해서웨이는 구글 주식을 83% 늘려 약 1억 6백만 주를 보유하게 됐어요.",
+    "이는 워렌 버핏이 최고경영자 자리에서 물러난 이후 나온 결정이에요.",
+    "버크셔 해서웨이는 구글 외에도 주택 건설 관련 기업들의 지분도 늘렸어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "구글의 주가가 상승할 가능성이 있어요!",
+    "다른 투자자들도 구글에 대한 투자를 늘릴 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "0b12bc4607c82677254ddbac21656ba0caa851a6"
  },
