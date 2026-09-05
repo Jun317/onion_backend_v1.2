@@ -51,8 +51,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-09-05T05:55:15.714047+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-05T10:48:02.588644+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -62,25 +62,28 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"미국 고용·물가 발표 대기\",\n\"one_liner\": \"미국에서 곧 발표될 고용과 물가 지표에 시장이 주목하고 있어요.\",\n\"why_now\": \"고용과 물가 지표는 미국 경제의 건강 상태를 보여주는 중요한 지표예요.\",\n\"impact_line\": \"주가나 금리에 영향을 줄 수 있어 지켜볼 필요가 있어요.\",\n\"details\": [\n\"미국에서 곧 고용 관련 발표가 있을 예정이에요.\",\n\"또한 다음 주에는 물가 관련 발표도 예정되어 있어요.\",\n\"이 지표들은 미국 경제의 흐름을 파악하는 데 중요해요.\",\n\"발표 결과에 따라 시장의 움직임이 달라질 수 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"미국 고용이 늘어나면 경기가 좋다는 신호로 해석될 수 있어요!\",\n\"물가가 예상보다 높게 나오면 금리가 오를 수 있다는 우려가 커질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"고용 데이터\",\n\"easy\": \"나라의 일자리 상황을 보여주는 통계 지표예요.\",\n\"example\": \"실업률이 낮으면 경기가 좋다는 신호로 볼 수 있어요.\"\n},\n{\n\"term\": \"물가 지표\",\n\"easy\": \"상품이나 서비스 가격이 얼마나 변했는지 보여주는 통계예요.\",\n\"example\": \"물가가 오르면 같은 돈으로 살 수 있는 물건이 줄어들어요.\"\n}\n],\n\"impact_line\": \"주가나 금리에 영향을 줄 수 있어 지켜볼 필요가 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Shares inch higher…",
-   "one_liner": "Shares inch higher ahead of US jobs data",
-   "why_now": null,
+   "title": "미국 고용·물가 발표 대기",
+   "one_liner": "미국에서 곧 발표될 고용과 물가 지표에 시장이 주목하고 있어요.",
+   "why_now": "고용과 물가 지표는 미국 경제의 건강 상태를 보여주는 중요한 지표예요.",
    "details": [
-    "Shares inch higher ahead of US jobs data",
-    "August inflation data takes center stage in the week ahead"
+    "미국에서 곧 고용 관련 발표가 있을 예정이에요.",
+    "또한 다음 주에는 물가 관련 발표도 예정되어 있어요.",
+    "이 지표들은 미국 경제의 흐름을 파악하는 데 중요해요.",
+    "발표 결과에 따라 시장의 움직임이 달라질 수 있어요."
    ],
-   "effects": [],
-   "visual_type": "us_cpi_yoy"
+   "effects": [
+    "미국 고용이 늘어나면 경기가 좋다는 신호로 해석될 수 있어요!",
+    "물가가 예상보다 높게 나오면 금리가 오를 수 있다는 우려가 커질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "b757729082435b33f4039278f03a1ee0ef4704cf"
  },

@@ -120,7 +120,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-05T05:55:57.163000+00:00",
+  "created_at": "2026-09-05T10:48:23.884800+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -133,12 +133,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"유럽 의회, 아르메니아 상품 관세 폐지 지지\",\n  \"one_liner\": \"유럽 의회 위원회가 아르메니아 상품에 대한 관세를 없애는 것을 지지했어요.\",\n  \"why_now\": \"관세가 없어지면 아르메니아에서 수입하는 물건들의 가격이 내려갈 수 있어요.\",\n  \"impact_line\": \"아르메니아에서 수입하는 물건들의 가격이 내려갈 수 있어요.\",\n  \"details\": [\n    \"유럽 의회 위원회가 아르메니아 상품에 대한 관세 폐지를 지지했습니다.\",\n    \"이는 다양한 상품에 적용될 예정입니다.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"아르메니아에서 수입하는 상품들의 가격이 내려갈 수 있어요!\",\n    \"이는 아르메니아 수출 기업들에게도 좋은 소식이 될 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"관세\",\n      \"easy\": \"나라 밖에서 물건을 들여올 때 내야 하는 세금이에요.\",\n      \"example\": \"수입 과자에도 관세가 붙어서 가격이 올라가요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "title 22자 초과(24)",
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "title 22자 초과(24)",
+     "details 3문장 미만"
     ]
    }
   ],
@@ -157,8 +165,8 @@
   "fact_hash": "04690254dc708dd188dc0deb3abd543b91bd49ba"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-05T05:55:57.162944+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(24)\", \"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"title 22자 초과(24)\", \"details 3문장 미만\"]}]}",
+  "at": "2026-09-05T10:48:23.884745+00:00"
  },
  "glossary": [],
  "related": [

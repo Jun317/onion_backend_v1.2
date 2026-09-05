@@ -7,10 +7,10 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 26,
+ "seen_sources": 27,
  "importance": 125,
  "created_at": "2026-09-04T22:27:00.500622+00:00",
- "last_update": "2026-09-05T05:53:56.793728+00:00",
+ "last_update": "2026-09-05T10:46:57.635012+00:00",
  "members": [
   {
    "id": "bcb6a7171be4b3e004fe3d629784c848363fd091",
@@ -301,6 +301,16 @@
    "published_at": "2026-09-04T12:45:00+00:00",
    "is_dup": 0,
    "sim_to_centroid": 0.8586
+  },
+  {
+   "id": "ef475da3e90ddc9d39d86f9168d5e45fdf16ee28",
+   "source": "wral.com",
+   "tier": "wire",
+   "url": "https://www.wral.com/news/ap/0d2c9-gloria-steinem-lived-to-see-a-powerful-backlash-against-her-vision-of-feminism/",
+   "title": "Gloria Steinem lived to see a powerful backlash against her vision of feminism",
+   "published_at": "2026-09-04T08:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8266
   }
  ],
  "anchors": [],
@@ -507,11 +517,18 @@
    "source": "theguardian.com",
    "url": "https://www.theguardian.com/commentisfree/2026/sep/04/andy-burnham-more-leftwing-keir-starmer",
    "at": "2026-09-04T12:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Gloria Steinem lived to see a powerful backlash against her vision of feminism",
+   "source": "wral.com",
+   "url": "https://www.wral.com/news/ap/0d2c9-gloria-steinem-lived-to-see-a-powerful-backlash-against-her-vision-of-feminism/",
+   "at": "2026-09-04T08:00:00+00:00"
   }
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-05T05:54:12.018192+00:00",
+  "created_at": "2026-09-05T10:47:12.279570+00:00",
   "payload": {
    "category": "RATE",
    "anchors": [],
@@ -524,12 +541,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 금리 인하 요구\",\n  \"one_liner\": \"트럼프 전 대통령이 미국의 금리 인하를 요구했어요.\",\n  \"why_now\": \"금리가 내리면 기업의 돈 빌리는 비용이 줄어 경제 활동에 도움이 될 수 있어요.\",\n  \"impact_line\": \"대출 이자 부담이 줄어들 수 있어요.\",\n  \"details\": [\n    \"트럼프 전 대통령이 금리 인하를 촉구했어요.\",\n    \"그는 연준이 금리를 내려야 한다고 주장했어요.\"\n  ],\n  \"visual_type\": \"us_policy_rate\",\n  \"effects\": [\n    \"금리가 내려가면 기업들이 돈을 빌려 투자하기가 더 쉬워질 수 있어요!\",\n    \"가계의 대출 이자 부담도 줄어들 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"금리\",\n      \"easy\": \"돈을 빌리거나 맡길 때 내거나 받는 이자의 비율이에요.\",\n      \"example\": \"은행에 돈을 맡기면 금리만큼 이자를 받을 수 있어요.\"\n    },\n    {\n      \"term\": \"연준\",\n      \"easy\": \"미국의 중앙은행으로, 나라 경제의 기준금리를 정해요.\",\n      \"example\": \"연준이 금리를 올리면 시중의 대출 이자도 보통 올라가요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -548,8 +571,8 @@
   "fact_hash": "f6554637af6c752cce884f42f312acf22901cd74"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-05T05:54:12.017410+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-09-05T10:47:12.279405+00:00"
  },
  "glossary": [],
  "related": [

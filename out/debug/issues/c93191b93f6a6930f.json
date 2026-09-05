@@ -69,7 +69,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-05T05:56:17.892053+00:00",
+  "created_at": "2026-09-05T10:48:33.208647+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -80,12 +80,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"두바이, 2026년 기회 도시\", \"one_liner\": \"두바이가 2026년에 일자리와 사업, 새로운 시작을 위한 기회의 도시가 될 전망이에요.\", \"why_now\": \"두바이는 외국인 투자 유치와 경제 성장을 위해 다양한 정책을 펼치고 있어요.\", \"impact_line\": \"새로운 일자리와 사업 기회가 늘어날 수 있어요.\", \"details\": [\"두바이는 2026년에 일자리와 사업, 새로운 시작을 위한 기회의 도시가 될 것이라고 해요.\", \"이 도시는 외국인 투자 유치와 경제 성장을 목표로 하고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"두바이의 경제 활동이 활발해지면서 관련 산업의 성장이 예상돼요!\"], \"glossary\": []}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "effects[1] 느낌표 종결 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -104,8 +110,8 @@
   "fact_hash": "8ff27d5dd42d4840444306b9a3d9ed1a9cb0651a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-05T05:56:17.891991+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-09-05T10:48:33.208584+00:00"
  },
  "glossary": [],
  "related": [
