@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-06T04:54:55.953189+00:00",
+  "created_at": "2026-09-06T09:34:33.643897+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -64,12 +64,19 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"어도비 CEO 교체\",\n    \"one_liner\": \"어도비가 최고경영자 교체 소식에 주가가 하락했어요.\",\n    \"why_now\": \"회사의 최고 경영자가 바뀌면 앞으로의 경영 방향에 대한 우려로 주가가 흔들릴 수 있어요.\",\n    \"impact_line\": \"어도비 관련 상품이나 서비스 이용에 영향이 있을 수 있어요.\",\n    \"details\": [\n        \"어도비의 최고경영자가 갑자기 바뀌는 소식이 전해졌어요.\",\n        \"이와 함께 주요 임원 한 명도 회사를 떠나는 것으로 알려졌어요.\",\n        \"이러한 변화로 인해 어도비의 주가가 하락했어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"어도비의 미래 성장 전략에 대한 불확실성이 커질 수 있어요!\",\n        \"새로운 경영진의 리더십에 따라 회사의 실적이 달라질 수 있어요.\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"최고경영자\",\n            \"easy\": \"회사의 가장 높은 자리에 있는 사람으로, 회사의 모든 것을 책임져요.\",\n            \"example\": \"최고경영자가 바뀌면 회사의 정책도 바뀔 수 있어요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "effects[1] 느낌표 종결 아님"
     ]
    }
   ],
@@ -87,8 +94,8 @@
   "fact_hash": "a905e15467bd289b3857c1007663b77f75a2da95"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-06T04:54:55.953126+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"effects[1] 느낌표 종결 아님\"]}]}",
+  "at": "2026-09-06T09:34:33.643830+00:00"
  },
  "glossary": [],
  "related": [

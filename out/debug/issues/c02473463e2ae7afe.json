@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 7,
+ "seen_sources": 8,
  "importance": 85,
  "created_at": "2026-09-04T22:27:00.503717+00:00",
- "last_update": "2026-09-05T13:56:25.337688+00:00",
+ "last_update": "2026-09-06T09:32:43.667698+00:00",
  "members": [
+  {
+   "id": "2a0562bd2967e2fdb335bfd1dd508d08725534ab",
+   "source": "nottinghampost.com",
+   "tier": "wire",
+   "url": "https://www.nottinghampost.com/news/uk-world-news/andy-burnham-vat-cut-could-11144522",
+   "title": "Andy Burnham VAT cut could slash costs for motorists with driveways",
+   "published_at": "2026-09-06T08:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.875
+  },
   {
    "id": "c4b444786a17e0a901203237d12c4c73beab1d7a",
    "source": "theshillongtimes.com",
@@ -20,7 +30,7 @@
    "title": "Drugs , arms seized in Assam , Manipur during joint operations",
    "published_at": "2026-09-05T11:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8914
+   "sim_to_centroid": 0.8884
   },
   {
    "id": "d1550fede74e96a7815694975c1a05738f6305c4",
@@ -30,7 +40,7 @@
    "title": "The migrant crime wave that shames the British state",
    "published_at": "2026-09-05T03:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8881
+   "sim_to_centroid": 0.893
   },
   {
    "id": "da281b1d93ffff8018d9531169aefab9c28c02b1",
@@ -40,7 +50,7 @@
    "title": "Strike begins at Sibanye - Stillwater mine in Montana",
    "published_at": "2026-09-04T23:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8889
+   "sim_to_centroid": 0.8896
   },
   {
    "id": "af188c1a668a7bcf849cba5b080267639d376d1b",
@@ -50,7 +60,7 @@
    "title": "Andrew Tate indicted in Romania for trafficking minors , money laundering",
    "published_at": "2026-09-04T21:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9442
+   "sim_to_centroid": 0.9408
   },
   {
    "id": "5800078c13923d8761d11db1e0a19126362108d0",
@@ -60,7 +70,7 @@
    "title": "Over €11m worth of cigarettes seized at Dublin Port",
    "published_at": "2026-09-04T21:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9462
+   "sim_to_centroid": 0.9439
   },
   {
    "id": "5930b61d36fc3a6d741f5346175d578154e776be",
@@ -70,7 +80,7 @@
    "title": "Fully compliant after Kenya orders it to exit Magadi mine : Tata Chemicals",
    "published_at": "2026-09-04T21:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8681
+   "sim_to_centroid": 0.8687
   },
   {
    "id": "8537f91dced56cba158f4b5fe1ef3af4641643a6",
@@ -80,11 +90,18 @@
    "title": "European Parliament Committee supported the abolition of duties on a wide range of goods from Armenia",
    "published_at": "2026-09-04T18:45:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8731
+   "sim_to_centroid": 0.8754
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Andy Burnham VAT cut could slash costs for motorists with driveways",
+   "source": "nottinghampost.com",
+   "url": "https://www.nottinghampost.com/news/uk-world-news/andy-burnham-vat-cut-could-11144522",
+   "at": "2026-09-06T08:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Drugs , arms seized in Assam , Manipur during joint operations",
@@ -137,25 +154,32 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-06T04:53:42.252918+00:00",
+  "created_at": "2026-09-06T09:33:51.259981+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
     "Over €11m worth of cigarettes seized at Dublin Port",
     "Andrew Tate indicted in Romania for trafficking minors , money laundering",
-    "Drugs , arms seized in Assam , Manipur during joint operations",
+    "The migrant crime wave that shames the British state",
     "Strike begins at Sibanye - Stillwater mine in Montana",
-    "The migrant crime wave that shames the British state"
+    "Drugs , arms seized in Assam , Manipur during joint operations"
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"다양한 사건 사고 발생\",\n\"one_liner\": \"아일랜드 항구에서 담배가 압수되고, 루마니아에서는 인신매매 혐의로 앤드류 테이트가 기소되는 등 여러 사건이 발생했어요.\",\n\"why_now\": \"국경을 넘나드는 범죄와 노동 현장의 갈등 등 다양한 사회 문제가 발생하고 있어요.\",\n\"impact_line\": \"국제적인 범죄와 노동 분쟁 소식이 들려오고 있어요.\",\n\"details\": [\n\"아일랜드 더블린 항구에서 1100만 유로 상당의 담배가 압수되었어요.\",\n\"루마니아에서 앤드류 테이트가 미성년자 인신매매 및 돈세탁 혐의로 기소되었어요.\",\n\"영국에서는 이주민 범죄 문제에 대한 비판이 나왔어요.\",\n\"미국 몬태나주에서 광산 노동자들이 파업을 시작했어요.\",\n\"인도 아삼과 마니푸르 지역에서 합동 작전을 통해 마약과 무기가 압수되었어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"국경을 넘나드는 범죄 단속이 강화될 수 있어요!\",\n\"노동 현장의 갈등이 확산될 가능성이 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"인신매매\",\n\"easy\": \"사람을 사고파는 범죄 행위를 말해요.\",\n\"example\": \"인신매매는 심각한 인권 침해 범죄입니다.\"\n},\n{\n\"term\": \"돈세탁\",\n\"easy\": \"불법적으로 번 돈의 출처를 숨기고 합법적인 돈처럼 보이게 하는 행위를 말해요.\",\n\"example\": \"돈세탁은 범죄 수익을 감추기 위한 수법입니다.\"\n}\n],\n\"impact_line\": \"국제적인 범죄와 노동 분쟁 소식이 들려오고 있어요.\"\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "입력에 없는 숫자: [1100.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 50자 초과(66)",
+     "입력에 없는 숫자: [1100.0]"
     ]
    }
   ],
@@ -166,16 +190,16 @@
    "details": [
     "Over €11m worth of cigarettes seized at Dublin Port",
     "Andrew Tate indicted in Romania for trafficking minors , money laundering",
-    "Drugs , arms seized in Assam , Manipur during joint operations"
+    "The migrant crime wave that shames the British state"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "1ef90992e201aa9a5f53cb58558519be199230bd"
+  "fact_hash": "cdb56eb8957b23eda1e204615bf03d0abebab056"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-06T04:53:42.252853+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [1100.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(66)\", \"입력에 없는 숫자: [1100.0]\"]}]}",
+  "at": "2026-09-06T09:33:51.259923+00:00"
  },
  "glossary": [],
  "related": [
