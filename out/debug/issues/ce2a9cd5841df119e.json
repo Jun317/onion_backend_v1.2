@@ -69,7 +69,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-06T09:33:55.694777+00:00",
+  "created_at": "2026-09-06T13:46:50.586533+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -79,18 +79,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"미국 일자리 참여율 하락\",\n\"one_liner\": \"미국에서 일하거나 일자리를 찾는 사람이 줄고 있어요.\",\n\"why_now\": \"일하는 사람이 줄면 경제 성장에도 영향을 줄 수 있어요.\",\n\"impact_line\": \"경제 활동이 둔화될 수 있다는 우려가 나와요.\",\n\"details\": [\n\"미국에서 일하거나 일자리를 찾는 사람의 수가 줄어들고 있어요.\",\n\"이 현상의 정확한 원인에 대해서는 전문가들의 의견이 엇갈리고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"생산 활동이 줄어 경제 성장이 둔화될 수 있어요!\",\n\"소비 심리가 위축될 가능성도 있어요!\"\n],\n\"glossary\": [],\n\"impact_line\": null\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -108,8 +102,8 @@
   "fact_hash": "7fa51ad0a32992b28655ae02c0c35715284c0a5d"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-09-06T09:33:55.694457+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-06T13:46:50.586469+00:00"
  },
  "glossary": [],
  "related": [
