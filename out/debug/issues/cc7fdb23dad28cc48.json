@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 3,
- "importance": 75,
+ "importance": 70,
  "created_at": "2026-09-04T22:27:00.502697+00:00",
  "last_update": "2026-09-06T13:45:15.774635+00:00",
  "members": [
@@ -86,7 +86,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-07T10:32:46.679501+00:00",
+  "created_at": "2026-09-07T16:37:26.219621+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -98,15 +98,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"9월 6일 뉴저지 해변 날씨\",\n\"one_liner\": \"9월 6일 뉴저지 해변의 날씨와 파도 정보를 알려드려요.\",\n\"why_now\": \"해변 날씨는 야외 활동 계획에 직접적인 영향을 줄 수 있어요.\",\n\"impact_line\": \"해변 방문 계획이 있다면 날씨를 미리 확인하는 것이 좋겠어요.\",\n\"details\": [\n\"9월 6일 뉴저지 해변의 날씨 예보입니다.\",\n\"파도 높이 정보도 함께 제공됩니다.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [],\n\"glossary\": [],\n\"impact_line\": null\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만",
-     "effects 1~2문장 아님"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -129,8 +122,8 @@
   "fact_hash": "51443a366a5e461edf931c8085eca34a2978cbfb"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-07T10:32:46.679432+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-07T16:37:26.219546+00:00"
  },
  "glossary": [],
  "related": [
