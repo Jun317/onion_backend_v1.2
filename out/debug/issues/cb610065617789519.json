@@ -425,8 +425,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-09-07T04:59:07.262524+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-07T10:32:17.268752+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -439,26 +439,29 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"주목해야 할 주식들\",\n\"one_liner\": \"여러 유망한 주식들이 투자자들의 관심을 받고 있어요.\",\n\"why_now\": \"지금 주목받는 주식들은 앞으로 성장 가능성이 높다고 평가받고 있어요.\",\n\"impact_line\": \"관심 있는 주식의 동향을 잘 살펴보는 것이 좋겠어요.\",\n\"details\": [\n\"소리 인식 기술 회사인 사운드하운드의 사업이 크게 성장하고 있어요.\",\n\"9월 4일에는 스트리밍 관련 주식들을 눈여겨볼 만해요.\",\n\"9월 6일에는 태양광 관련 주식들이 주목받고 있어요.\",\n\"퀀텀스케이프라는 회사의 주식도 자세히 살펴볼 필요가 있어요.\",\n\"리즈올브 AI 주식은 이번 주에 큰 폭으로 하락했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"성장 가능성이 높은 주식에 투자하면 높은 수익을 기대할 수 있어요!\",\n\"반대로, 급락한 주식은 투자 위험이 커질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"스트리밍\",\n\"easy\": \"인터넷으로 영상이나 음악을 실시간으로 보는 서비스예요.\",\n\"example\": \"넷플릭스로 영화를 보는 것도 스트리밍 서비스예요.\"\n},\n{\n\"term\": \"태양광\",\n\"easy\": \"태양의 빛 에너지를 전기로 바꾸는 기술이에요.\",\n\"example\": \"태양광 패널로 집에서 쓸 전기를 만들 수 있어요.\"\n},\n{\n\"term\": \"AI\",\n\"easy\": \"인공지능을 뜻하며, 컴퓨터가 사람처럼 생각하고 배우는 기술이에요.\",\n\"example\": \"AI 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n}\n],\n\"impact_line\": \"관심 있는 주식의 동향을 잘 살펴보는 것이 좋겠어요.\"\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "SoundHound Business…",
-   "one_liner": "SoundHound Business Is Booming . Can the $7…",
-   "why_now": null,
+   "title": "주목해야 할 주식들",
+   "one_liner": "여러 유망한 주식들이 투자자들의 관심을 받고 있어요.",
+   "why_now": "지금 주목받는 주식들은 앞으로 성장 가능성이 높다고 평가받고 있어요.",
    "details": [
-    "SoundHound Business Is Booming . Can the $7 Stock Double by September 2027 ?",
-    "Streaming Stocks To Add to Your Watchlist – September 4th",
-    "Promising Solar Stocks To Follow Now – September 6th"
+    "소리 인식 기술 회사인 사운드하운드의 사업이 크게 성장하고 있어요.",
+    "9월 4일에는 스트리밍 관련 주식들을 눈여겨볼 만해요.",
+    "9월 6일에는 태양광 관련 주식들이 주목받고 있어요.",
+    "퀀텀스케이프라는 회사의 주식도 자세히 살펴볼 필요가 있어요.",
+    "리즈올브 AI 주식은 이번 주에 큰 폭으로 하락했어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "성장 가능성이 높은 주식에 투자하면 높은 수익을 기대할 수 있어요!",
+    "반대로, 급락한 주식은 투자 위험이 커질 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "0f495ba92e3598d1088b8922bcfbbcf68d5bffa5"
  },

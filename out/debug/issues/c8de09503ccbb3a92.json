@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-09-07T04:59:17.764483+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-07T10:32:22.487882+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,26 +881,35 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"주요 기업 주가 움직임\",\n  \"one_liner\": \"이번 주에는 SAIC, Reddit 등 여러 기업의 주가가 크게 올랐어요.\",\n  \"why_now\": \"주가 움직임은 기업의 현재 상황과 미래 전망을 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"관심 있는 기업의 주가 변동을 살펴보는 것이 좋아요.\",\n  \"details\": [\n    \"SAIC, Reddit, Fortrea, GitLab, G-III 등 여러 기업의 주가가 이번 주에 크게 움직였어요.\",\n    \"특히 GitLab의 주가는 8월에 35%나 올랐고, 이미 더 높은 상승세를 보였어요.\",\n    \"일부 전문가들은 지금 당장 1만 달러를 투자할 만한 성장주를 추천하고 있어요.\",\n    \"로켓 랩에 1만 달러를 투자했을 때 5년 뒤 가치가 얼마나 될지 예측하는 분석도 나왔어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"주가 상승은 해당 기업의 성장 가능성을 보여주며 투자자들의 관심을 끌 수 있어요!\",\n    \"주가 하락은 기업의 어려움을 나타낼 수 있어 주의 깊게 살펴볼 필요가 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주가\",\n      \"easy\": \"회사가 발행한 주식의 가격이에요. 기업의 가치나 인기를 반영해요.\",\n      \"example\": \"삼성전자 주가가 많이 올라서 기분이 좋아요.\"\n    },\n    {\n      \"term\": \"성장주\",\n      \"easy\": \"매출이나 이익이 빠르게 늘어날 것으로 기대되는 기업의 주식이에요.\",\n      \"example\": \"성장주에 투자하면 높은 수익을 얻을 수도 있지만, 위험도 따를 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "3 Incredible High -…",
-   "one_liner": "3 Incredible High - Growth Stocks to Buy With…",
-   "why_now": null,
+   "title": "주요 기업 주가 움직임",
+   "one_liner": "이번 주에는 SAIC, Reddit 등 여러 기업의 주가가 크게 올랐어요.",
+   "why_now": "주가 움직임은 기업의 현재 상황과 미래 전망을 보여주는 중요한 지표예요.",
    "details": [
-    "3 Incredible High - Growth Stocks to Buy With $10 , 000 Right Now",
-    "Prediction : Here What a $10 , 000 Investment in Rocket Lab Will Be Worth in 5 Years",
-    "Stocks making big moves this week : SAIC , Reddit , Fortrea , GitLab , and G - III"
+    "SAIC, Reddit, Fortrea, GitLab, G-III 등 여러 기업의 주가가 이번요.",
+    "특히 GitLab의 주가는 8월에 35%나 올랐고, 이미 더 높은 상승세를 보였어요.",
+    "일부 전문가들은 지금 당장 1만 달러를 투자할 만한 성장주를 추천하고 있어요.",
+    "로켓 랩에 1만 달러를 투자했을 때 5년 뒤 가치가 얼마나 될지 예측하는 분석도 나왔어요."
    ],
-   "effects": [],
-   "visual_type": "us_10y"
+   "effects": [
+    "주가 상승은 해당 기업의 성장 가능성을 보여주며 투자자들의 관심을 끌 수 있어요!",
+    "주가 하락은 기업의 어려움을 나타낼 수 있어 주의 깊게 살펴볼 필요가 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "618c59e7876cc9dbb0a51c164d766c18250a4942"
  },
