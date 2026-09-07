@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-07T00:11:33.806777+00:00",
+  "created_at": "2026-09-07T23:42:00.673961+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -881,14 +881,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"주요 인사 주식 거래\",\n  \"one_liner\": \"주요 인사들이 주식을 사고팔았다는 소식이 나왔어요.\",\n  \"why_now\": \"유명 투자자들이나 기업 임원들의 주식 거래는 시장의 흐름을 엿볼 수 있는 단서가 될 수 있어요.\",\n  \"impact_line\": \"주요 인사들의 거래 소식이 투자 결정에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"워렌 버핏이 경고했던 주식 시장 움직임이 있었어요.\",\n    \"빌 애크먼은 6개의 새로운 주식 포지션을 공개했는데, 그중 4개가 금융주였어요.\",\n    \"오마다 헬스의 사장이 22만 달러 넘는 주식을 팔았어요.\",\n    \"패브리넷의 최고운영책임자가 360만 달러 상당의 주식을 팔았어요.\",\n    \"아메리칸 헬스케어 REIT와 알렉산드리아 리얼 에스테이트 에퀴티스에 대한 검토가 있었어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"주요 인사들의 매도 소식은 해당 기업의 주가에 하락 압력을 줄 수 있어요!\",\n    \"새로운 투자 포지션 공개는 관련 종목의 주가 상승을 기대하게 할 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"주식 포지션\",\n      \"easy\": \"특정 주식을 얼마나 가지고 있는지, 혹은 얼마나 팔지(공매도) 계획인지 나타내는 말이에요.\",\n      \"example\": \"그는 삼성전자 주식 포지션을 늘렸다고 발표했어요.\"\n    },\n    {\n      \"term\": \"금융주\",\n      \"easy\": \"은행, 증권사, 보험사 등 돈을 다루는 일을 하는 회사의 주식을 말해요.\",\n      \"example\": \"금리가 오르면 금융주의 실적이 좋아지는 경우가 많아요.\"\n    },\n    {\n      \"term\": \"REIT\",\n      \"easy\": \"부동산 투자 회사로, 여러 사람에게서 돈을 모아 부동산에 투자하고 수익을 나눠주는 회사예요.\",\n      \"example\": \"리츠 주식에 투자하면 직접 부동산을 사지 않아도 임대 수익을 얻을 수 있어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [22.0, 360.0]"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -911,20 +905,20 @@
   "fact_hash": "c0dacd876259a2365cbb4766f9f50de56ba814bf"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [22.0, 360.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-07T00:11:33.806723+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-07T23:42:00.673873+00:00"
  },
  "glossary": [],
  "related": [
   {
-   "id": "c66488c3f927577c2",
-   "title": "Stock Market Week Ahead : Chips , Cybersecurity And Jobs",
+   "id": "c69943061634fe0aa",
+   "title": "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence ( AI ) Stocks",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c69943061634fe0aa",
-   "title": "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence ( AI ) Stocks",
+   "id": "c66488c3f927577c2",
+   "title": "Stock Market Week Ahead : Chips , Cybersecurity And Jobs",
    "category": "MARKET",
    "shared": []
   },
