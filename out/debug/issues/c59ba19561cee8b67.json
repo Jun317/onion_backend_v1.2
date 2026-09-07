@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 60,
+ "seen_sources": 3,
+ "importance": 75,
  "created_at": "2026-09-04T22:27:00.502046+00:00",
- "last_update": "2026-09-04T22:27:00.506545+00:00",
+ "last_update": "2026-09-07T20:41:07.371896+00:00",
  "members": [
+  {
+   "id": "42c59955d9a1d03acfbcd27b916c47e5db800c37",
+   "source": "dailytidings.com",
+   "tier": "wire",
+   "url": "https://www.dailytidings.com/oregon-diesel-prices-climb-above-6-25-as-national-average-hits-record-high/",
+   "title": "Oregon Diesel Prices Climb Above $6 . 25 as National Average Hits Record High",
+   "published_at": "2026-09-07T17:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9406
+  },
   {
    "id": "3bce70c27756565d66730f0bee37fbdc33ae42b0",
    "source": "lasvegassun.com",
@@ -20,7 +30,7 @@
    "title": "US diesel prices hit a record high , pushing up transportation costs for a long list of goods - Las Vegas Sun News",
    "published_at": "2026-09-04T21:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9704
+   "sim_to_centroid": 0.9685
   },
   {
    "id": "ac72a849ea10b45fdd2071c7b910c9b0193a584e",
@@ -30,11 +40,18 @@
    "title": "National diesel prices hit record high",
    "published_at": "2026-09-04T21:00:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9704
+   "sim_to_centroid": 0.9709
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Oregon Diesel Prices Climb Above $6 . 25 as National Average Hits Record High",
+   "source": "dailytidings.com",
+   "url": "https://www.dailytidings.com/oregon-diesel-prices-climb-above-6-25-as-national-average-hits-record-high/",
+   "at": "2026-09-07T17:00:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "US diesel prices hit a record high , pushing up transportation costs for a long list of goods - Las Vegas Sun News",
@@ -52,11 +69,12 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-07T16:39:30.261157+00:00",
+  "created_at": "2026-09-07T20:42:53.501232+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
+    "Oregon Diesel Prices Climb Above $6 . 25 as National Average Hits Record High",
     "US diesel prices hit a record high , pushing up transportation costs for a long list of goods - Las Vegas Sun News",
     "National diesel prices hit record high"
    ],
@@ -72,21 +90,22 @@
    }
   ],
   "output": {
-   "title": "US diesel prices hit…",
-   "one_liner": "US diesel prices hit a record high , pushing up…",
+   "title": "Oregon Diesel Prices…",
+   "one_liner": "Oregon Diesel Prices Climb Above $6 . 25 as…",
    "why_now": null,
    "details": [
+    "Oregon Diesel Prices Climb Above $6 . 25 as National Average Hits Record High",
     "US diesel prices hit a record high , pushing up transportation costs for a long list of goods - Las Vegas Sun News",
     "National diesel prices hit record high"
    ],
    "effects": [],
    "visual_type": "wti"
   },
-  "fact_hash": "872f0f902ad1261b3925c7b678e8612be29c26d4"
+  "fact_hash": "0a30af4cfc4502264bfb4c5f4715a7fa3cc2112a"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-07T16:39:30.261092+00:00"
+  "at": "2026-09-07T20:42:53.500958+00:00"
  },
  "glossary": [],
  "related": [
