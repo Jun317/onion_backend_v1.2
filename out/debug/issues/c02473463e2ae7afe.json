@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 41,
- "importance": 85,
+ "importance": 80,
  "created_at": "2026-09-04T22:27:00.503717+00:00",
  "last_update": "2026-09-07T00:05:11.785377+00:00",
  "members": [
@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-07T20:41:51.926756+00:00",
+  "created_at": "2026-09-08T04:54:37.361806+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,8 +881,15 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\"title\": \"BRICS, 단순한 대화 모임 이상\", \"one_liner\": \"BRICS가 단순한 대화 모임을 넘어섰다는 분석이 나왔어요.\", \"why_now\": \"BRICS는 신흥 경제국들의 모임으로, 국제 사회에서 영향력을 키우고 있어요.\", \"impact_line\": null, \"details\": [\"BRICS가 단순한 대화 모임이 아니라는 분석이 나왔어요.\", \"BRICS는 신흥 경제국들의 모임이에요.\"], \"visual_type\": \"none\", \"effects\": [], \"glossary\": [{\"term\": \"BRICS\", \"easy\": \"브라질, 러시아, 인도, 중국, 남아프리카공화국의 앞글자를 딴 신흥 경제국 모임이에요.\", \"example\": \"BRICS 국가들의 경제 협력이 강화되고 있어요.\"}]}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -905,8 +912,8 @@
   "fact_hash": "046947f6db172e6f3d49cda916e3af7e7a561f5e"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-07T20:41:51.926645+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-08T04:54:37.361746+00:00"
  },
  "glossary": [],
  "related": [

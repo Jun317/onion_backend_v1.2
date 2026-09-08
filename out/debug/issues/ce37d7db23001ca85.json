@@ -69,7 +69,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-07T20:42:02.295486+00:00",
+  "created_at": "2026-09-08T04:53:56.514790+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -80,8 +80,14 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n  \"title\": \"미국 일자리 증가\",\n  \"one_liner\": \"미국에서 지난 8월 일자리가 16만 2천 개 늘었어요.\",\n  \"why_now\": \"일자리가 늘면 사람들이 돈을 더 쓰게 돼 물가가 오를 수 있다는 우려가 커져요.\",\n  \"impact_line\": \"물가가 오르면 금리가 오를 수 있어 대출 이자가 늘 수 있어요.\",\n  \"details\": [\n    \"미국에서 지난 8월 일자리가 16만 2천 개 늘었어요.\",\n    \"실업률은 4.1%로 이전과 같았어요.\",\n    \"이는 예상보다 많은 일자리 증가예요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"일자리 증가로 소비가 늘면 물가가 오를 수 있어요!\",\n    \"물가 상승이 계속되면 미국 중앙은행이 금리를 올릴 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"실업률\",\n      \"easy\": \"일할 능력이 있고 일자리를 구하고 있지만 일자리를 얻지 못한 사람의 비율이에요.\",\n      \"example\": \"실업률이 낮으면 경제가 좋다고 볼 수 있어요.\"\n    }\n  ]\n}",
   "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [4.1, 16.0]"
+    ]
+   },
    {
     "model": "",
     "errors": [
@@ -104,8 +110,8 @@
   "fact_hash": "559aec03b6d8c116148c5947ba933d5dff09e407"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-07T20:42:02.295417+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [4.1, 16.0]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-08T04:53:56.514685+00:00"
  },
  "glossary": [],
  "related": [
@@ -130,12 +136,6 @@
   {
    "id": "c68019f5d5a4fed6f",
    "title": "August inflation data takes center stage in the week ahead",
-   "category": "MACRO",
-   "shared": []
-  },
-  {
-   "id": "ce2a9cd5841df119e",
-   "title": "Fewer Americans are working or looking for a job . Experts cant agree on why – The Mercury News",
    "category": "MACRO",
    "shared": []
   }
