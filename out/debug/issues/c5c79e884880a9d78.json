@@ -1,0 +1,134 @@
+{
+ "id": "c5c79e884880a9d78",
+ "title": "Tariffs , Iran War driving up cost of wastewater plant , but end in sight",
+ "category": "POLICY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "IRAN"
+ ],
+ "seen_sources": 2,
+ "importance": 80,
+ "created_at": "2026-09-08T21:57:30.977450+00:00",
+ "last_update": "2026-09-08T21:57:30.981206+00:00",
+ "members": [
+  {
+   "id": "171bf3146cee3924c7c0a8d2f2f03f31056d3af3",
+   "source": "wbur.org",
+   "tier": "wire",
+   "url": "https://www.wbur.org/hereandnow/2026/09/08/iran-gas-economy",
+   "title": "How Iran economy is suffering during war with U . S . and Israel",
+   "published_at": "2026-09-08T19:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9678
+  },
+  {
+   "id": "1cc6a78b46947d3a4200964cd78e2733983c5ce0",
+   "source": "yahoo.com",
+   "tier": "wire",
+   "url": "https://www.yahoo.com/news/us/articles/tariffs-iran-war-driving-cost-185151605.html",
+   "title": "Tariffs , Iran War driving up cost of wastewater plant , but end in sight",
+   "published_at": "2026-09-08T19:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9678
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "How Iran economy is suffering during war with U . S . and Israel",
+   "source": "wbur.org",
+   "url": "https://www.wbur.org/hereandnow/2026/09/08/iran-gas-economy",
+   "at": "2026-09-08T19:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Tariffs , Iran War driving up cost of wastewater plant , but end in sight",
+   "source": "yahoo.com",
+   "url": "https://www.yahoo.com/news/us/articles/tariffs-iran-war-driving-cost-185151605.html",
+   "at": "2026-09-08T19:30:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-08T21:58:59.357874+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "How Iran economy is suffering during war with U . S . and Israel",
+    "Tariffs , Iran War driving up cost of wastewater plant , but end in sight"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "How Iran economy is…",
+   "one_liner": "How Iran economy is suffering during war with U…",
+   "why_now": null,
+   "details": [
+    "How Iran economy is suffering during war with U . S . and Israel",
+    "Tariffs , Iran War driving up cost of wastewater plant , but end in sight"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "7a7a2523f08e390d72ad784fc12ffeeb3779af16"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-08T21:58:59.357773+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c78995e710f8b7506",
+   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
+   "category": "POLICY",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "c419df2138556f8cb",
+   "title": "Federal debt ticks over $1 trillion for the first time",
+   "category": "FX",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "ca2696857c59592ad",
+   "title": "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground",
+   "category": "POLICY",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "c2fd4f2e6b1d6cfd1",
+   "title": "Pezeshkian Son Says Iranians Will Survive Without Enriching Uranium",
+   "category": "GEO",
+   "shared": [
+    "IRAN"
+   ]
+  },
+  {
+   "id": "ca0f23c4b4046f532",
+   "title": "Feds officially announce counter - measures to latest Trump tariffs",
+   "category": "POLICY",
+   "shared": []
+  }
+ ]
+}
