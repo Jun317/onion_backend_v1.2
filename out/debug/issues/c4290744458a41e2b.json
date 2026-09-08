@@ -854,7 +854,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-08T09:52:54.147853+00:00",
+  "created_at": "2026-09-08T14:41:16.012371+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
@@ -867,22 +867,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"중국 태양광 산업 둔화\", \"one_liner\": \"중국 태양광 산업이 여러 어려움으로 인해 속도가 느려지고 있어요.\", \"why_now\": \"중국은 세계 최대 태양광 제품 생산국으로, 이 산업의 변화는 전 세계 에너지 시장에 영향을 줄 수 있어요.\", \"impact_line\": \"태양광 패널 가격 변동으로 전기 요금에 영향을 줄 수 있어요.\", \"details\": [\"중국 태양광 산업이 여러 압박으로 인해 둔화하고 있어요.\", \"중국 정부는 외부 수요를 안정시키기 위해 노력하고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"중국 태양광 제품 생산이 줄면 전 세계 태양광 패널 가격이 오를 수 있어요!\", \"이는 신재생 에너지 전환 속도에 영향을 줄 수 있어요.\"], \"glossary\": [{\"term\": \"태양광 산업\", \"easy\": \"햇빛을 이용해 전기를 만드는 산업이에요.\", \"example\": \"태양광 패널 가격이 오르면 전기 요금도 오를 수 있어요.\"}], \"impact_line\": \"태양광 패널 가격 변동으로 전기 요금에 영향을 줄 수 있어요.\"}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "why_now 55자 초과(59)",
-     "details 3문장 미만",
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "why_now 55자 초과(59)",
-     "details 3문장 미만",
-     "effects[1] 느낌표 종결 아님"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -901,8 +891,8 @@
   "fact_hash": "bd1bd84a46295e41831127eb545973b1236eab8c"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(59)\", \"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"why_now 55자 초과(59)\", \"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}]}",
-  "at": "2026-09-08T09:52:54.147569+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-08T14:41:16.011988+00:00"
  },
  "glossary": [],
  "related": [

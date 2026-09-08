@@ -88,7 +88,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-08T09:53:58.366212+00:00",
+  "created_at": "2026-09-08T14:42:07.901208+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -99,19 +99,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"테슬라 주가 변동\", \"one_liner\": \"테슬라 주가가 355달러를 기록하며 앞으로의 전망에 대한 투자자들의 의견이 갈리고 있어요.\", \"why_now\": \"주가 변동은 회사의 미래 가치와 투자 심리를 보여주는 중요한 지표예요.\", \"impact_line\": \"테슬라 주가 변동은 관련 기업들의 주가에도 영향을 줄 수 있어요.\", \"details\": [\"테슬라 주가가 355달러까지 올랐어요.\", \"투자자들은 앞으로의 주가 흐름에 대해 엇갈린 전망을 내놓고 있어요.\"], \"visual_type\": \"none\", \"effects\": [\"테슬라의 주가 흐름은 전기차 시장 전반의 투자 심리에 영향을 줄 수 있어요!\", \"일부에서는 트럼프 전 대통령의 정책이 에너지 저장 관련 주식에 긍정적인 영향을 줄 수 있다고 보고 있어요!\"], \"glossary\": [{\"term\": \"EVs\", \"easy\": \"전기 자동차를 뜻하는 말이에요.\", \"example\": \"전기 자동차는 배출가스가 나오지 않아 친환경적이에요.\"}, {\"term\": \"Tesla\", \"easy\": \"미국의 전기 자동차 및 청정에너지 기업이에요.\", \"example\": \"테슬라는 전기 자동차뿐만 아니라 에너지 저장 장치도 만들어요.\"}], \"impact_line\": \"테슬라 주가 변동은 관련 기업들의 주가에도 영향을 줄 수 있어요.\"}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "details 3문장 미만",
-     "effects[1] 느낌표 종결 아님"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -130,8 +123,8 @@
   "fact_hash": "2e721bd6c02ff1ccabef3a25fd4592217fcdc1ea"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
-  "at": "2026-09-08T09:53:58.366149+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-08T14:42:07.901147+00:00"
  },
  "glossary": [],
  "related": [

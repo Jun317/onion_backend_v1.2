@@ -2,7 +2,7 @@
  "id": "cf552714d53bed8f4",
  "title": "Why Broadcom Stock Dropped Today",
  "category": "MARKET",
- "status": "active",
+ "status": "stale",
  "origin": "cluster",
  "frozen": 1,
  "anchor_key": null,
@@ -10,7 +10,7 @@
   "AVGO"
  ],
  "seen_sources": 2,
- "importance": 80,
+ "importance": 75,
  "created_at": "2026-09-05T13:56:25.346860+00:00",
  "last_update": "2026-09-05T13:56:25.350607+00:00",
  "members": [
@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-08T09:53:36.639499+00:00",
+  "created_at": "2026-09-08T14:42:18.518403+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,18 +64,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n    \"title\": \"브로드컴 주가 하락\",\n    \"one_liner\": \"브로드컴 주가가 하락했어요.\",\n    \"why_now\": \"AI 관련 사업 전망에 대한 우려가 주가에 영향을 미친 것으로 보여요.\",\n    \"impact_line\": null,\n    \"details\": [\n        \"브로드컴 주가가 하락한 이유에 대한 분석이 나왔어요.\",\n        \"AI 관련 사업 전망에 대한 우려가 제기되었어요.\",\n        \"이러한 우려가 290억 달러 규모의 추가적인 영향으로 분석되었어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [\n        \"AI 관련 사업의 성장세 둔화 우려가 커질 수 있어요!\",\n        \"기술주 전반의 투자 심리에 영향을 줄 수 있어요!\"\n    ],\n    \"glossary\": [\n        {\n            \"term\": \"AI\",\n            \"easy\": \"인공지능을 뜻하는 말로, 컴퓨터가 사람처럼 생각하고 배울 수 있게 하는 기술이에요.\",\n            \"example\": \"요즘 AI 스피커나 AI 번역기처럼 우리 생활에 많이 쓰이고 있어요.\"\n        },\n        {\n            \"term\": \"브로드컴\",\n            \"easy\": \"반도체와 통신 장비를 만드는 미국의 큰 회사 이름이에요.\",\n            \"example\": \"브로드컴은 스마트폰이나 컴퓨터에 들어가는 중요한 부품을 만들어요.\"\n        }\n    ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [290.0]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [290.0]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -93,8 +87,8 @@
   "fact_hash": "3adcbe2ae062c4da42822a79ae38bcb158d70c00"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [290.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [290.0]\"]}]}",
-  "at": "2026-09-08T09:53:36.639440+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-08T14:42:18.518288+00:00"
  },
  "glossary": [],
  "related": [
