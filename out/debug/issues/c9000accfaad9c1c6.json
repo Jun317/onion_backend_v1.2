@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 10,
- "importance": 65,
+ "seen_sources": 11,
+ "importance": 75,
  "created_at": "2026-09-04T22:27:00.502444+00:00",
- "last_update": "2026-09-07T23:37:20.209598+00:00",
+ "last_update": "2026-09-08T09:52:13.305208+00:00",
  "members": [
+  {
+   "id": "5ecb7b5c254a8c7783b72c1c11ebdef9f634d0e8",
+   "source": "기획재정부",
+   "tier": "official",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079279",
+   "title": "국제 신용평가사 무디스(Moody's) 면담 결과",
+   "published_at": "2026-09-08T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8585
+  },
   {
    "id": "6cb4df86157a8fc7e6f1b2215ee58b5c3265a06e",
    "source": "kiplinger.com",
@@ -266,6 +276,13 @@
  "anchors": [],
  "timeline": [
   {
+   "kind": "official",
+   "title": "국제 신용평가사 무디스(Moody's) 면담 결과",
+   "source": "기획재정부",
+   "url": "http://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId=MOSFBBS_000000000028&menuNo=4010100&searchNttId=MOSF_000000000079279",
+   "at": "2026-09-08T00:00:00+00:00"
+  },
+  {
    "kind": "headline",
    "title": "You Need a Shopping List For Stocks . Well Help You Make It .",
    "source": "kiplinger.com",
@@ -442,8 +459,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-09-08T04:56:00.666158+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-08T09:54:02.362334+00:00",
   "payload": {
    "category": "EARNINGS",
    "anchors": [],
@@ -456,26 +473,29 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"기업 실적 비교 분석\",\n\"one_liner\": \"여러 기업의 실적을 비교 분석하는 기사가 나왔어요.\",\n\"why_now\": \"기업 실적은 회사의 현재와 미래 가치를 보여주는 중요한 지표예요.\",\n\"impact_line\": \"투자 결정에 참고할 만한 정보가 될 수 있어요.\",\n\"details\": [\n\"하트코어 엔터프라이즈와 페이저듀티의 실적을 비교했어요.\",\n\"에너자이저와 맥브라이드의 실적을 비평적으로 검토했어요.\",\n\"메이서리치와 CTO 리얼티 그로스의 실적을 검토했어요.\",\n\"코어 내추럴 리소스와 걸프포트 에너지의 실적을 검토했어요.\",\n\"스타 그룹과 코어 내추럴 리소스의 실적을 검토했어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"기업 실적 발표는 주가에 영향을 줄 수 있어요!\",\n\"투자자들은 이런 분석을 통해 투자 결정을 내릴 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"NASDAQ\",\n\"easy\": \"미국 나스닥 시장에 상장된 기업들의 주식을 거래하는 곳이에요.\",\n\"example\": \"나스닥 시장에는 기술주가 많이 상장되어 있어요.\"\n},\n{\n\"term\": \"NYSE\",\n\"easy\": \"미국 뉴욕 증권거래소에 상장된 기업들의 주식을 거래하는 곳이에요.\",\n\"example\": \"뉴욕 증권거래소는 세계에서 가장 큰 증권거래소 중 하나예요.\"\n},\n{\n\"term\": \"OTCMKTS\",\n\"easy\": \"미국 장외주식시장에서 거래되는 주식들을 말해요.\",\n\"example\": \"장외주식시장은 일반 증권거래소보다 규제가 덜할 수 있어요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
-    "errors": [
-     "전 프로바이더 응답 실패"
-    ]
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Financial Survey :…",
-   "one_liner": "Financial Survey : HeartCore Enterprises (…",
-   "why_now": null,
+   "title": "기업 실적 비교 분석",
+   "one_liner": "여러 기업의 실적을 비교 분석하는 기사가 나왔어요.",
+   "why_now": "기업 실적은 회사의 현재와 미래 가치를 보여주는 중요한 지표예요.",
    "details": [
-    "Financial Survey : HeartCore Enterprises ( NASDAQ : HTCR ) vs . PagerDuty ( NYSE : PD )",
-    "Critical Review : Energizer ( NYSE : ENR ) vs . McBride ( OTCMKTS : MCBRF )",
-    "Reviewing Macerich ( NYSE : MAC ) and CTO Realty Growth ( NYSE : CTO )"
+    "하트코어 엔터프라이즈와 페이저듀티의 실적을 비교했어요.",
+    "에너자이저와 맥브라이드의 실적을 비평적으로 검토했어요.",
+    "메이서리치와 CTO 리얼티 그로스의 실적을 검토했어요.",
+    "코어 내추럴 리소스와 걸프포트 에너지의 실적을 검토했어요.",
+    "스타 그룹과 코어 내추럴 리소스의 실적을 검토했어요."
    ],
-   "effects": [],
-   "visual_type": "earnings_quarterly"
+   "effects": [
+    "기업 실적 발표는 주가에 영향을 줄 수 있어요!",
+    "투자자들은 이런 분석을 통해 투자 결정을 내릴 수 있어요!"
+   ],
+   "visual_type": "none"
   },
   "fact_hash": "db7d2f6d61b626d285a6786cef29bb3fc43f88c7"
  },
