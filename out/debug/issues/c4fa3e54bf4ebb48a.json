@@ -868,7 +868,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-09T11:37:51.028106+00:00",
+  "created_at": "2026-09-09T16:50:09.127298+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -881,20 +881,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n  \"title\": \"영국 물가 상승\",\n  \"one_liner\": \"영국의 물가가 7월에 2.9% 올랐어요.\",\n  \"why_now\": \"물가가 오르면 우리가 사는 물건들의 가격이 올라 생활비 부담이 커져요.\",\n  \"impact_line\": \"장바구니 물가가 더 오를 수 있어요.\",\n  \"details\": [\n    \"영국의 7월 물가 상승률은 2.9%를 기록했어요.\",\n    \"이전 달인 6월에는 물가가 1.2% 올랐었어요.\",\n    \"특히 집에서 쓰는 에너지 요금이 크게 올라 물가 상승을 이끌었어요.\",\n    \"이는 3월 이후 가장 높은 물가 상승률이에요.\"\n  ],\n  \"visual_type\": \"uk_cpi_yoy\",\n  \"effects\": [\n    \"에너지 요금 상승으로 인해 식료품 등 다른 물건들의 가격도 함께 오를 수 있어요!\",\n    \"물가 상승이 계속되면 영국 중앙은행이 금리를 올릴 가능성이 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"물가 상승률\",\n      \"easy\": \"지난해 같은 기간에 비해 물건들의 평균 가격이 얼마나 올랐는지를 보여주는 수치예요.\",\n      \"example\": \"작년보다 물가 상승률이 2% 올랐다면, 평균적으로 물건 가격이 2% 비싸졌다는 뜻이에요.\"\n    },\n    {\n      \"term\": \"에너지 요금\",\n      \"easy\": \"집에서 전기, 가스 등을 사용하는 데 드는 비용이에요.\",\n      \"example\": \"겨울철 난방비가 많이 나와서 에너지 요금이 크게 나왔어요.\"\n    }\n  ]\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "visual_type 'uk_cpi_yoy' 허용 목록 밖",
-     "입력에 없는 숫자: [1.2, 2.9]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "visual_type 'uk_cpi_yoy' 허용 목록 밖",
-     "입력에 없는 숫자: [1.2, 2.9]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -913,14 +905,20 @@
   "fact_hash": "44acbc5f46e3baec504dd6681805611fc40dfa5a"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"visual_type 'uk_cpi_yoy' 허용 목록 밖\", \"입력에 없는 숫자: [1.2, 2.9]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"visual_type 'uk_cpi_yoy' 허용 목록 밖\", \"입력에 없는 숫자: [1.2, 2.9]\"]}]}",
-  "at": "2026-09-09T11:37:51.027570+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-09T16:50:09.126800+00:00"
  },
  "glossary": [],
  "related": [
   {
    "id": "c36cc1170a4ab9574",
    "title": "US housing affordability gauge worsens for first time since 2023",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c3d804522aaa77d09",
+   "title": "Paternity leave : six weeks at 90 per cent pay adds £2 . 68bn",
    "category": "MACRO",
    "shared": []
   },
@@ -933,18 +931,6 @@
   {
    "id": "e3acae8e772f54753",
    "title": "한국 소비자물가 2026-08 발표",
-   "category": "MACRO",
-   "shared": []
-  },
-  {
-   "id": "ce37d7db23001ca85",
-   "title": "Hiring burst of 162 , 000 jobs in August puts the focus squarely back on inflation in the US",
-   "category": "MACRO",
-   "shared": []
-  },
-  {
-   "id": "c68019f5d5a4fed6f",
-   "title": "August inflation data takes center stage in the week ahead",
    "category": "MACRO",
    "shared": []
   }

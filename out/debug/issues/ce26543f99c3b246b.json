@@ -1,0 +1,124 @@
+{
+ "id": "ce26543f99c3b246b",
+ "title": "In the news today : Trump escalates tariffs , Manitoba lab strike ends , Quebec debates",
+ "category": "POLICY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 80,
+ "created_at": "2026-09-09T16:47:44.749489+00:00",
+ "last_update": "2026-09-09T16:47:44.767982+00:00",
+ "members": [
+  {
+   "id": "06bd925c2c01c156a0afb4e61a900427b8f76d83",
+   "source": "247wallst.com",
+   "tier": "wire",
+   "url": "https://247wallst.com/investing/2026/09/09/gold-doubled-gold-miner-profits-tripled-guess-which-one-wall-street-is-sleeping-on/",
+   "title": "Gold Doubled . Gold - Miner Profits Tripled - Guess Which One Wall Street Is Sleeping On",
+   "published_at": "2026-09-09T15:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9577
+  },
+  {
+   "id": "9a1d5ad2a9b04e94c430583c8f73294a47f59ec0",
+   "source": "wellandtribune.ca",
+   "tier": "wire",
+   "url": "https://www.wellandtribune.ca/business/in-the-news-today-trump-escalates-tariffs-manitoba-lab-strike-ends-quebec-debates/article_1e5aaf9b-dd5f-5c8d-93c8-34957e80db30.html",
+   "title": "In the news today : Trump escalates tariffs , Manitoba lab strike ends , Quebec debates",
+   "published_at": "2026-09-09T11:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9578
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Gold Doubled . Gold - Miner Profits Tripled - Guess Which One Wall Street Is Sleeping On",
+   "source": "247wallst.com",
+   "url": "https://247wallst.com/investing/2026/09/09/gold-doubled-gold-miner-profits-tripled-guess-which-one-wall-street-is-sleeping-on/",
+   "at": "2026-09-09T15:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "In the news today : Trump escalates tariffs , Manitoba lab strike ends , Quebec debates",
+   "source": "wellandtribune.ca",
+   "url": "https://www.wellandtribune.ca/business/in-the-news-today-trump-escalates-tariffs-manitoba-lab-strike-ends-quebec-debates/article_1e5aaf9b-dd5f-5c8d-93c8-34957e80db30.html",
+   "at": "2026-09-09T11:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-09T16:49:27.691636+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Gold Doubled . Gold - Miner Profits Tripled - Guess Which One Wall Street Is Sleeping On",
+    "In the news today : Trump escalates tariffs , Manitoba lab strike ends , Quebec debates"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Gold Doubled . Gold…",
+   "one_liner": "Gold Doubled . Gold - Miner Profits Tripled -…",
+   "why_now": null,
+   "details": [
+    "Gold Doubled . Gold - Miner Profits Tripled - Guess Which One Wall Street Is Sleeping On",
+    "In the news today : Trump escalates tariffs , Manitoba lab strike ends , Quebec debates"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "1b518883334357857f34f26b061b2916e5cef510"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-09T16:49:27.691480+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c78995e710f8b7506",
+   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "ca2696857c59592ad",
+   "title": "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "ca0f23c4b4046f532",
+   "title": "Feds officially announce counter - measures to latest Trump tariffs",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c2efbf61ddb697589",
+   "title": "Democratic attorneys general , governors sue feds over tariffs",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c5c79e884880a9d78",
+   "title": "Tariffs , Iran War driving up cost of wastewater plant , but end in sight",
+   "category": "POLICY",
+   "shared": []
+  }
+ ]
+}
