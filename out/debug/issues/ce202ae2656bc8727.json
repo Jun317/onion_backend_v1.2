@@ -7,11 +7,31 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 70,
+ "seen_sources": 3,
+ "importance": 75,
  "created_at": "2026-09-09T16:47:44.741819+00:00",
- "last_update": "2026-09-09T16:47:44.767671+00:00",
+ "last_update": "2026-09-09T19:53:18.329288+00:00",
  "members": [
+  {
+   "id": "83c733bd7253d95c448220fa5cd956a866d547fd",
+   "source": "rttnews.com",
+   "tier": "wire",
+   "url": "https://www.rttnews.com/story.aspx?Id=3689686",
+   "title": "European Stocks Tumble As Middle East Tensions Lift Oil",
+   "published_at": "2026-09-09T18:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9219
+  },
+  {
+   "id": "b60b892ecb3a848f1fffb94b12eaa50554da0835",
+   "source": "rttnews.com",
+   "tier": "wire",
+   "url": "https://www.rttnews.com/story.aspx?Id=3689688",
+   "title": "Swiss Stocks Slide As Crude Surges On Middle East Tensions",
+   "published_at": "2026-09-09T18:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9146
+  },
   {
    "id": "af0cb25a4c3c11ce47ab47f1ac0b09b12e260e59",
    "source": "rediff.com",
@@ -20,7 +40,7 @@
    "title": "Sensex Plunges to 3 - Month Low as West Asia Tensions Fuel Oil Price Surge",
    "published_at": "2026-09-09T15:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9714
+   "sim_to_centroid": 0.9691
   },
   {
    "id": "faad27053e8b90d2b6b17a7e0d2782a1ed009637",
@@ -30,11 +50,25 @@
    "title": "Asian shares close mixed lower as oil price surges",
    "published_at": "2026-09-09T11:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9715
+   "sim_to_centroid": 0.9675
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "European Stocks Tumble As Middle East Tensions Lift Oil",
+   "source": "rttnews.com",
+   "url": "https://www.rttnews.com/story.aspx?Id=3689686",
+   "at": "2026-09-09T18:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Swiss Stocks Slide As Crude Surges On Middle East Tensions",
+   "source": "rttnews.com",
+   "url": "https://www.rttnews.com/story.aspx?Id=3689688",
+   "at": "2026-09-09T18:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Sensex Plunges to 3 - Month Low as West Asia Tensions Fuel Oil Price Surge",
@@ -52,11 +86,13 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-09T16:52:03.065027+00:00",
+  "created_at": "2026-09-09T19:57:40.479606+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
+    "European Stocks Tumble As Middle East Tensions Lift Oil",
+    "Swiss Stocks Slide As Crude Surges On Middle East Tensions",
     "Sensex Plunges to 3 - Month Low as West Asia Tensions Fuel Oil Price Surge",
     "Asian shares close mixed lower as oil price surges"
    ],
@@ -72,21 +108,22 @@
    }
   ],
   "output": {
-   "title": "Sensex Plunges to 3…",
-   "one_liner": "Sensex Plunges to 3 - Month Low as West Asia…",
+   "title": "European Stocks…",
+   "one_liner": "European Stocks Tumble As Middle East Tensions…",
    "why_now": null,
    "details": [
-    "Sensex Plunges to 3 - Month Low as West Asia Tensions Fuel Oil Price Surge",
-    "Asian shares close mixed lower as oil price surges"
+    "European Stocks Tumble As Middle East Tensions Lift Oil",
+    "Swiss Stocks Slide As Crude Surges On Middle East Tensions",
+    "Sensex Plunges to 3 - Month Low as West Asia Tensions Fuel Oil Price Surge"
    ],
    "effects": [],
    "visual_type": "wti"
   },
-  "fact_hash": "5a0d6c92a4f208f09394b562f343460ce46da886"
+  "fact_hash": "dfa6ddfb75ea3e9b24d7a64bc3bd7dffda9ab5dc"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-09T16:52:03.064971+00:00"
+  "at": "2026-09-09T19:57:40.479544+00:00"
  },
  "glossary": [],
  "related": [
@@ -103,14 +140,20 @@
    "shared": []
   },
   {
-   "id": "c59ba19561cee8b67",
-   "title": "National diesel prices hit record high",
+   "id": "c34dc7ee6073443c1",
+   "title": "Surging crude oil prices : Rupee breaches 95 / dollar mark - The HinduBusinessLine",
    "category": "COMMODITY",
    "shared": []
   },
   {
-   "id": "c4290744458a41e2b",
-   "title": "Analyzing China Gas ( OTCMKTS : CGHLY ) and Chesapeake Utilities ( NYSE : CPK )",
+   "id": "c515f1ed55e400a86",
+   "title": "U . S . business optimism drops in August - Xinhua",
+   "category": "COMMODITY",
+   "shared": []
+  },
+  {
+   "id": "c59ba19561cee8b67",
+   "title": "National diesel prices hit record high",
    "category": "COMMODITY",
    "shared": []
   }

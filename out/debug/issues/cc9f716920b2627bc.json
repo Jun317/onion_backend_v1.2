@@ -7,11 +7,21 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 70,
+ "seen_sources": 3,
+ "importance": 75,
  "created_at": "2026-09-09T16:47:44.750708+00:00",
- "last_update": "2026-09-09T16:47:44.768019+00:00",
+ "last_update": "2026-09-09T19:53:18.318501+00:00",
  "members": [
+  {
+   "id": "b2f1d08e80d96569e89814a009a1568505d96131",
+   "source": "jpost.com",
+   "tier": "wire",
+   "url": "http://www.jpost.com/business-and-innovation/banking-and-finance/article-908111",
+   "title": "Without visiting a branch : Deferred checks can be deposited via app",
+   "published_at": "2026-09-09T15:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8753
+  },
   {
    "id": "6648eb7e397eb2533aef974c33542776881f3bd3",
    "source": "africa.com",
@@ -20,7 +30,7 @@
    "title": "Payments Are Becoming The Operating System Of Banking",
    "published_at": "2026-09-09T15:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9587
+   "sim_to_centroid": 0.9602
   },
   {
    "id": "7569a5ffb3513a7533599e9ce2decebc0d40e8a3",
@@ -30,7 +40,7 @@
    "title": "TerraPay Connects its Wallet Interoperability Network , Xend to Alipay+ , Strengthening Global Payments Interoperability",
    "published_at": "2026-09-09T11:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9587
+   "sim_to_centroid": 0.9544
   }
  ],
  "anchors": [],
@@ -44,6 +54,13 @@
   },
   {
    "kind": "headline",
+   "title": "Without visiting a branch : Deferred checks can be deposited via app",
+   "source": "jpost.com",
+   "url": "http://www.jpost.com/business-and-innovation/banking-and-finance/article-908111",
+   "at": "2026-09-09T15:30:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "TerraPay Connects its Wallet Interoperability Network , Xend to Alipay+ , Strengthening Global Payments Interoperability",
    "source": "trinidadtimes.com",
    "url": "http://www.trinidadtimes.com/news/279295914/terrapay-connects-its-wallet-interoperability-network-xend-to-alipay-strengthening-global-payments-interoperability",
@@ -52,11 +69,12 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-09T16:51:11.316330+00:00",
+  "created_at": "2026-09-09T19:58:02.162501+00:00",
   "payload": {
    "category": "FX",
    "anchors": [],
    "headlines": [
+    "Without visiting a branch : Deferred checks can be deposited via app",
     "Payments Are Becoming The Operating System Of Banking",
     "TerraPay Connects its Wallet Interoperability Network , Xend to Alipay+ , Strengthening Global Payments Interoperability"
    ],
@@ -72,21 +90,22 @@
    }
   ],
   "output": {
-   "title": "Payments Are…",
-   "one_liner": "Payments Are Becoming The Operating System Of…",
+   "title": "Without visiting a…",
+   "one_liner": "Without visiting a branch : Deferred checks can…",
    "why_now": null,
    "details": [
+    "Without visiting a branch : Deferred checks can be deposited via app",
     "Payments Are Becoming The Operating System Of Banking",
     "TerraPay Connects its Wallet Interoperability Network , Xend to Alipay+ , Strengthening Global Payments Interoperability"
    ],
    "effects": [],
    "visual_type": "usdkrw"
   },
-  "fact_hash": "154b5bb3e854b00d7235c637f7b344da5fa5d568"
+  "fact_hash": "12332364df8b17713f056ea5c3c6a404a8d7a521"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-09T16:51:11.316216+00:00"
+  "at": "2026-09-09T19:58:02.162437+00:00"
  },
  "glossary": [],
  "related": [

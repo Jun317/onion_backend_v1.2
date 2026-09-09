@@ -2,16 +2,46 @@
  "id": "c40b83c17798d96e6",
  "title": "Critical Analysis : Perma - Fix Environmental Services ( NASDAQ : PESI ) versus GFL Environmental ( NYSE : GFL )",
  "category": "MARKET",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 60,
+ "seen_sources": 2,
+ "importance": 65,
  "created_at": "2026-09-09T16:47:44.742478+00:00",
- "last_update": "2026-09-09T16:47:44.742478+00:00",
+ "last_update": "2026-09-09T19:53:18.349226+00:00",
  "members": [
+  {
+   "id": "6a679b648941b518b7dc6c50c10bc07eda5bebc5",
+   "source": "themarketsdaily.com",
+   "tier": "wire",
+   "url": "https://www.themarketsdaily.com/2026/09/09/gaia-nasdaqgaia-vs-take-two-interactive-software-nasdaqttwo-head-to-head-review.html",
+   "title": "Gaia ( NASDAQ : GAIA ) vs . Take - Two Interactive Software ( NASDAQ : TTWO ) Head - To - Head Review",
+   "published_at": "2026-09-09T18:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8984
+  },
+  {
+   "id": "9cc67b788a67d6bd91af2f99115d41cb58a8c3b0",
+   "source": "themarketsdaily.com",
+   "tier": "wire",
+   "url": "https://www.themarketsdaily.com/2026/09/09/western-alliance-bancorporation-nysewal-and-first-bancorp-inc-me-nasdaqfnlc-head-to-head-survey.html",
+   "title": "Western Alliance Bancorporation ( NYSE : WAL ) and First Bancorp , Inc ( ME ) ( NASDAQ : FNLC ) Head - To - Head Survey",
+   "published_at": "2026-09-09T18:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8959
+  },
+  {
+   "id": "22b54845ad57b0d5f90666c2a80a3824bc4466e1",
+   "source": "smn-news.com",
+   "tier": "wire",
+   "url": "https://www.smn-news.com/index.php/st-maarten-st-martin-news/51638-initial-btp-report-suggested-gebe-customers-were-being-overcharged-wescot-williams.html",
+   "title": "St . Martin News Network - Initial BTP report suggested GEBE customers were being overcharged Wescot - Williams .",
+   "published_at": "2026-09-09T18:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8776
+  },
   {
    "id": "832b8f749a3f31dc069f681f50d6a2c8fd06c9de",
    "source": "themarketsdaily.com",
@@ -20,7 +50,7 @@
    "title": "Critical Contrast : Gladstone Land ( NASDAQ : LAND ) & Extra Space Storage ( NYSE : EXR )",
    "published_at": "2026-09-09T15:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9671
+   "sim_to_centroid": 0.9594
   },
   {
    "id": "98ff17967a2e8f2c972f2868e4c754b4bd70f7cf",
@@ -30,11 +60,32 @@
    "title": "Critical Analysis : Perma - Fix Environmental Services ( NASDAQ : PESI ) versus GFL Environmental ( NYSE : GFL )",
    "published_at": "2026-09-09T11:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9671
+   "sim_to_centroid": 0.9632
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Gaia ( NASDAQ : GAIA ) vs . Take - Two Interactive Software ( NASDAQ : TTWO ) Head - To - Head Review",
+   "source": "themarketsdaily.com",
+   "url": "https://www.themarketsdaily.com/2026/09/09/gaia-nasdaqgaia-vs-take-two-interactive-software-nasdaqttwo-head-to-head-review.html",
+   "at": "2026-09-09T18:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Western Alliance Bancorporation ( NYSE : WAL ) and First Bancorp , Inc ( ME ) ( NASDAQ : FNLC ) Head - To - Head Survey",
+   "source": "themarketsdaily.com",
+   "url": "https://www.themarketsdaily.com/2026/09/09/western-alliance-bancorporation-nysewal-and-first-bancorp-inc-me-nasdaqfnlc-head-to-head-survey.html",
+   "at": "2026-09-09T18:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "St . Martin News Network - Initial BTP report suggested GEBE customers were being overcharged Wescot - Williams .",
+   "source": "smn-news.com",
+   "url": "https://www.smn-news.com/index.php/st-maarten-st-martin-news/51638-initial-btp-report-suggested-gebe-customers-were-being-overcharged-wescot-williams.html",
+   "at": "2026-09-09T18:45:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Critical Contrast : Gladstone Land ( NASDAQ : LAND ) & Extra Space Storage ( NYSE : EXR )",
@@ -50,19 +101,59 @@
    "at": "2026-09-09T11:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-09T20:00:17.243889+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Gaia ( NASDAQ : GAIA ) vs . Take - Two Interactive Software ( NASDAQ : TTWO ) Head - To - Head Review",
+    "Western Alliance Bancorporation ( NYSE : WAL ) and First Bancorp , Inc ( ME ) ( NASDAQ : FNLC ) Head - To - Head Survey",
+    "St . Martin News Network - Initial BTP report suggested GEBE customers were being overcharged Wescot - Williams .",
+    "Critical Contrast : Gladstone Land ( NASDAQ : LAND ) & Extra Space Storage ( NYSE : EXR )",
+    "Critical Analysis : Perma - Fix Environmental Services ( NASDAQ : PESI ) versus GFL Environmental ( NYSE : GFL )"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Gaia ( NASDAQ : GAIA…",
+   "one_liner": "Gaia ( NASDAQ : GAIA ) vs . Take - Two…",
+   "why_now": null,
+   "details": [
+    "Gaia ( NASDAQ : GAIA ) vs . Take - Two Interactive Software ( NASDAQ : TTWO ) Head - To - Head Review",
+    "Western Alliance Bancorporation ( NYSE : WAL ) and First Bancorp , Inc ( ME ) ( NASDAQ : FNLC ) Head - To - Head Survey",
+    "St . Martin News Network - Initial BTP report suggested GEBE customers were being overcharged Wescot - Williams ."
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "779a6d284ee1351c99cafbda146cae45b553e62c"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-09T20:00:17.243830+00:00"
+ },
  "glossary": [],
  "related": [
   {
-   "id": "c438566b9911c4664",
-   "title": "Apple Is Handing Its New CEO the Keys Right Before Wall Street Toughest Month",
+   "id": "c69943061634fe0aa",
+   "title": "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence ( AI ) Stocks",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c69943061634fe0aa",
-   "title": "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence ( AI ) Stocks",
+   "id": "c438566b9911c4664",
+   "title": "Apple Is Handing Its New CEO the Keys Right Before Wall Street Toughest Month",
    "category": "MARKET",
    "shared": []
   },

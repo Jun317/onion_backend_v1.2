@@ -2,16 +2,26 @@
  "id": "c5a253d4aea5a916e",
  "title": "Scores injured in Houthi attacks on Saudi Arabia 4 cities",
  "category": "GEO",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 65,
+ "seen_sources": 3,
+ "importance": 75,
  "created_at": "2026-09-09T16:47:44.750068+00:00",
- "last_update": "2026-09-09T16:47:44.750068+00:00",
+ "last_update": "2026-09-09T19:53:18.348817+00:00",
  "members": [
+  {
+   "id": "5f21118359a9197a22621db93a814b8861263476",
+   "source": "naharnet.com",
+   "tier": "wire",
+   "url": "https://www.naharnet.com/stories/en/322367-death-toll-in-yemen-prison-airstrike-rises-to-23",
+   "title": "Death toll in Yemen prison airstrike rises to 23",
+   "published_at": "2026-09-09T15:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8905
+  },
   {
    "id": "9ebad972483e2d1457e86e2cbe19ab0a9304de21",
    "source": "oklahomacitysun.com",
@@ -20,7 +30,7 @@
    "title": "Scores injured in Houthi attacks on Saudi Arabia 4 cities",
    "published_at": "2026-09-09T11:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.998
   },
   {
    "id": "922869a9b04fc4e0e8636f4c27c7f3c41d1b3fcf",
@@ -30,11 +40,28 @@
    "title": "Scores injured in Houthi attacks on Saudi Arabia 4 cities",
    "published_at": "2026-09-09T11:15:00+00:00",
    "is_dup": 1,
-   "sim_to_centroid": 1.0
+   "sim_to_centroid": 0.998
+  },
+  {
+   "id": "ae8a87202f3a9b4a39a313132a6858f6310f1eda",
+   "source": "myanmarnews.net",
+   "tier": "wire",
+   "url": "http://www.myanmarnews.net/news/279294396/houthis-attack-4-saudi-cities-set-oil-sites-ablaze",
+   "title": "Houthis attack 4 Saudi cities , set oil sites ablaze",
+   "published_at": "2026-09-09T11:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9437
   }
  ],
  "anchors": [],
  "timeline": [
+  {
+   "kind": "headline",
+   "title": "Death toll in Yemen prison airstrike rises to 23",
+   "source": "naharnet.com",
+   "url": "https://www.naharnet.com/stories/en/322367-death-toll-in-yemen-prison-airstrike-rises-to-23",
+   "at": "2026-09-09T15:30:00+00:00"
+  },
   {
    "kind": "headline",
    "title": "Scores injured in Houthi attacks on Saudi Arabia 4 cities",
@@ -48,10 +75,55 @@
    "source": "trinidadtimes.com",
    "url": "http://www.trinidadtimes.com/news/279294396/scores-injured-in-houthi-attacks-on-saudi-arabia-s-4-cities",
    "at": "2026-09-09T11:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Houthis attack 4 Saudi cities , set oil sites ablaze",
+   "source": "myanmarnews.net",
+   "url": "http://www.myanmarnews.net/news/279294396/houthis-attack-4-saudi-cities-set-oil-sites-ablaze",
+   "at": "2026-09-09T11:15:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-09T19:57:19.754082+00:00",
+  "payload": {
+   "category": "GEO",
+   "anchors": [],
+   "headlines": [
+    "Death toll in Yemen prison airstrike rises to 23",
+    "Scores injured in Houthi attacks on Saudi Arabia 4 cities",
+    "Houthis attack 4 Saudi cities , set oil sites ablaze"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Death toll in Yemen…",
+   "one_liner": "Death toll in Yemen prison airstrike rises to 23",
+   "why_now": null,
+   "details": [
+    "Death toll in Yemen prison airstrike rises to 23",
+    "Scores injured in Houthi attacks on Saudi Arabia 4 cities",
+    "Houthis attack 4 Saudi cities , set oil sites ablaze"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "f7db175b6e8aaa3502cf4eb0fcd1a82679d501e5"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-09T19:57:19.753982+00:00"
+ },
  "glossary": [],
  "related": [
   {

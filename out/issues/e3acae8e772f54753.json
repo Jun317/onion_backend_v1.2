@@ -33,7 +33,19 @@
   "가계의 실질 구매력이 떨어질 수 있어요!"
  ],
  "model": "gemini-2.5-flash-lite",
- "visual": null,
+ "visual": {
+  "type": "kr_cpi_yoy",
+  "chart": "line",
+  "title": "한국 소비자물가 상승률 YoY (최근 3년)",
+  "unit": "%",
+  "source": "한국은행 ECOS",
+  "series": [
+   {
+    "t": "2026-08",
+    "v": 3.09
+   }
+  ]
+ },
  "anchors": [
   {
    "entity": "KR",
@@ -92,6 +104,12 @@
   {
    "id": "c3d804522aaa77d09",
    "title": "Paternity leave : six weeks at 90 per cent pay adds £2 . 68bn",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c9679a9d2ff4fd275",
+   "title": "ZTE Global Summit & User Congress 2026 Opens in Kuala Lumpur , Advancing from Connectivity to Digital Value Creation – LiveNews . co . nz",
    "category": "MACRO",
    "shared": []
   },

@@ -14,7 +14,14 @@
  "event_at": "2026-08-23T06:15:00+00:00",
  "has_visual": true,
  "headline_stat": null,
- "spark": null,
+ "spark": [
+  1434.3,
+  1433.0,
+  1423.2,
+  1427.4,
+  1429.0,
+  1437.7
+ ],
  "icon": "🇨🇳",
  "details": [
   "미국 국가 부채가 40조 달러를 넘어섰어요.",
@@ -27,7 +34,39 @@
   "달러 가치가 하락하면 원화 가치가 상대적으로 올라 수입 물가가 안정될 수 있어요!"
  ],
  "model": "gemini-2.5-flash-lite",
- "visual": null,
+ "visual": {
+  "type": "usdkrw",
+  "chart": "line",
+  "title": "원/달러 환율 (최근 6개월)",
+  "unit": "원",
+  "source": "한국은행 ECOS",
+  "series": [
+   {
+    "t": "2025-10",
+    "v": 1434.3
+   },
+   {
+    "t": "2025-10",
+    "v": 1433.0
+   },
+   {
+    "t": "2025-10",
+    "v": 1423.2
+   },
+   {
+    "t": "2025-11",
+    "v": 1427.4
+   },
+   {
+    "t": "2025-11",
+    "v": 1429.0
+   },
+   {
+    "t": "2025-11",
+    "v": 1437.7
+   }
+  ]
+ },
  "anchors": [],
  "headlines": [
   {
@@ -347,8 +386,8 @@
    ]
   },
   {
-   "id": "c78995e710f8b7506",
-   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
+   "id": "c5c79e884880a9d78",
+   "title": "Tariffs , Iran War driving up cost of wastewater plant , but end in sight",
    "category": "POLICY",
    "shared": [
     "IRAN",
@@ -356,12 +395,11 @@
    ]
   },
   {
-   "id": "ca2696857c59592ad",
-   "title": "Nokia ( NOK ) AI Network Bet Gets A Taiwan Proving Ground",
+   "id": "c78995e710f8b7506",
+   "title": "Amazon to expand drone delivery of light packages to 500 US cities",
    "category": "POLICY",
    "shared": [
     "IRAN",
-    "KRX:000270",
     "SEC"
    ]
   }

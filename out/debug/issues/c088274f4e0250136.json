@@ -7,10 +7,10 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 70,
+ "seen_sources": 3,
+ "importance": 75,
  "created_at": "2026-09-09T16:47:44.746216+00:00",
- "last_update": "2026-09-09T16:47:44.767846+00:00",
+ "last_update": "2026-09-09T19:53:18.320592+00:00",
  "members": [
   {
    "id": "0ea3c019a325b518479d654a663a5509978025a8",
@@ -20,7 +20,17 @@
    "title": "Sugar imports remain viable despite fall in domestic prices : ISMA",
    "published_at": "2026-09-09T15:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9561
+   "sim_to_centroid": 0.9565
+  },
+  {
+   "id": "c920cb4eb07e500ca3781a8e7b13aa1e19280004",
+   "source": "rfdtv.com",
+   "tier": "wire",
+   "url": "https://www.rfdtv.com/lean-beef-imports-help-fill-ground-beef-supply-gap",
+   "title": "Lean Beef Imports Help Fill Ground - Beef Supply Gap",
+   "published_at": "2026-09-09T15:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8669
   },
   {
    "id": "1e1cbd3dcf72ebcdd0342b6493e79cd7c4432f5e",
@@ -30,7 +40,7 @@
    "title": "EU firms remain bullish on ASEAN : survey",
    "published_at": "2026-09-09T11:15:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9561
+   "sim_to_centroid": 0.9527
   }
  ],
  "anchors": [],
@@ -44,6 +54,13 @@
   },
   {
    "kind": "headline",
+   "title": "Lean Beef Imports Help Fill Ground - Beef Supply Gap",
+   "source": "rfdtv.com",
+   "url": "https://www.rfdtv.com/lean-beef-imports-help-fill-ground-beef-supply-gap",
+   "at": "2026-09-09T15:30:00+00:00"
+  },
+  {
+   "kind": "headline",
    "title": "EU firms remain bullish on ASEAN : survey",
    "source": "cambodiantimes.com",
    "url": "http://www.cambodiantimes.com/news/279295716/eu-firms-remain-bullish-on-asean-survey",
@@ -52,12 +69,13 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-09T16:51:42.348547+00:00",
+  "created_at": "2026-09-09T19:57:51.816236+00:00",
   "payload": {
    "category": "COMMODITY",
    "anchors": [],
    "headlines": [
     "Sugar imports remain viable despite fall in domestic prices : ISMA",
+    "Lean Beef Imports Help Fill Ground - Beef Supply Gap",
     "EU firms remain bullish on ASEAN : survey"
    ],
    "official_lines": []
@@ -77,16 +95,17 @@
    "why_now": null,
    "details": [
     "Sugar imports remain viable despite fall in domestic prices : ISMA",
+    "Lean Beef Imports Help Fill Ground - Beef Supply Gap",
     "EU firms remain bullish on ASEAN : survey"
    ],
    "effects": [],
    "visual_type": "wti"
   },
-  "fact_hash": "7aab672dc91bc9e103171f215ad1bbd00fb04cda"
+  "fact_hash": "b05eb7b7b647d6852273e74920c327ff097d316c"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-09T16:51:42.348497+00:00"
+  "at": "2026-09-09T19:57:51.816175+00:00"
  },
  "glossary": [],
  "related": [
@@ -103,14 +122,20 @@
    "shared": []
   },
   {
-   "id": "c59ba19561cee8b67",
-   "title": "National diesel prices hit record high",
+   "id": "c34dc7ee6073443c1",
+   "title": "Surging crude oil prices : Rupee breaches 95 / dollar mark - The HinduBusinessLine",
    "category": "COMMODITY",
    "shared": []
   },
   {
-   "id": "c4290744458a41e2b",
-   "title": "Analyzing China Gas ( OTCMKTS : CGHLY ) and Chesapeake Utilities ( NYSE : CPK )",
+   "id": "c515f1ed55e400a86",
+   "title": "U . S . business optimism drops in August - Xinhua",
+   "category": "COMMODITY",
+   "shared": []
+  },
+  {
+   "id": "c59ba19561cee8b67",
+   "title": "National diesel prices hit record high",
    "category": "COMMODITY",
    "shared": []
   }
