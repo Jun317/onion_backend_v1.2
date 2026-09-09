@@ -118,8 +118,47 @@
    "at": "2026-09-09T15:30:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-09T22:40:47.637610+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "US Stocks Look Undervalued Given AI Potential , HSBC Sels Says",
+    "Nifty closes below 23 , 500 , Sensex falls over 1 % as Brent crude crosses USD 100 per barrel",
+    "GameStop Earnings Just Changed the Bull Case . We See 100 % Upside",
+    "Dow considers exit from $20 billion Saudi Aramco chemicals venture Sadara"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US Stocks Look…",
+   "one_liner": "US Stocks Look Undervalued Given AI Potential ,…",
+   "why_now": null,
+   "details": [
+    "US Stocks Look Undervalued Given AI Potential , HSBC Sels Says",
+    "Nifty closes below 23 , 500 , Sensex falls over 1 % as Brent crude crosses USD 100 per barrel",
+    "GameStop Earnings Just Changed the Bull Case . We See 100 % Upside"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "16e0300021cfb321e33132200f5ed0e1b2f90380"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-09T22:40:47.637482+00:00"
+ },
  "glossary": [],
  "related": [
   {
