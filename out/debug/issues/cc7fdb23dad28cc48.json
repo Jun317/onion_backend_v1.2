@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-09-09T06:08:19.075796+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-09T11:36:51.731929+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
@@ -881,25 +881,32 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"나이지리아 환율 변동\",\n\"one_liner\": \"나이지리아의 화폐인 나이라가 미국 달러 대비 강세를 보이고 있어요.\",\n\"why_now\": \"환율이 바뀌면 해외 물건 가격이나 해외여행 경비에 영향을 줄 수 있어요.\",\n\"impact_line\": \"해외 직구가 조금 더 비싸질 수 있어요.\",\n\"details\": [\n\"나이지리아 나이라의 미국 달러 대비 환율이 올랐어요.\",\n\"이는 나이라가 미국 달러보다 더 가치 있어졌다는 뜻이에요.\",\n\"환율 변동은 9월 8일에 기록된 내용이에요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"나이라 가치가 오르면 나이지리아에서 미국으로 물건을 수출하는 것이 더 비싸질 수 있어요!\",\n\"반대로 미국에서 나이지리아로 물건을 수입하는 것은 더 저렴해질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"환율\",\n\"easy\": \"다른 나라의 돈과 바꿀 때 적용되는 비율이에요.\",\n\"example\": \"오늘 1달러는 1300원이에요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Cancer Horoscope…",
-   "one_liner": "Cancer Horoscope Today , September 05 , 2026 :…",
-   "why_now": null,
+   "title": "나이지리아 환율 변동",
+   "one_liner": "나이지리아의 화폐인 나이라가 미국 달러 대비 강세를 보이고 있어요.",
+   "why_now": "환율이 바뀌면 해외 물건 가격이나 해외여행 경비에 영향을 줄 수 있어요.",
    "details": [
-    "Cancer Horoscope Today , September 05 , 2026 : Guard your money , mood , and peace today",
-    "Taurus Shani Horoscope Today , 5th September 2026 : Saturn Says Wait , but the Moon Sees an Opening",
-    "September Editor Notes : 25th Anniversary Issue"
+    "나이지리아 나이라의 미국 달러 대비 환율이 올랐어요.",
+    "이는 나이라가 미국 달러보다 더 가치 있어졌다는 뜻이에요.",
+    "환율 변동은 9월 8일에 기록된 내용이에요."
    ],
-   "effects": [],
+   "effects": [
+    "나이라 가치가 오르면 나이지리아에서 미국으로 물건을 수출하는 것이 더 비싸질 수 있어요!",
+    "반대로 미국에서 나이지리아로 물건을 수입하는 것은 더 저렴해질 수 있어요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "ae9356bc1420ca428fd6fb5dc41a59f881cce80b"
@@ -908,7 +915,13 @@
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
   "at": "2026-09-09T06:08:19.075674+00:00"
  },
- "glossary": [],
+ "glossary": [
+  {
+   "term": "환율",
+   "easy": "우리 돈과 외국 돈을 바꾸는 비율이에요.",
+   "example": "오르면 외국 돈이 그만큼 비싸진 거예요."
+  }
+ ],
  "related": [
   {
    "id": "c3cd94c43ef31fc17",

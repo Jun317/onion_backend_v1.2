@@ -54,7 +54,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-09T06:09:21.378207+00:00",
+  "created_at": "2026-09-09T11:37:34.418176+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -64,12 +64,20 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n    \"title\": \"브로드컴 주가 하락\",\n    \"one_liner\": \"브로드컴 주가가 하락했어요.\",\n    \"why_now\": \"AI 관련 사업 전망에 대한 우려가 주가에 영향을 미친 것으로 보여요.\",\n    \"impact_line\": null,\n    \"details\": [\n        \"브로드컴 주가가 하락한 이유에 대한 분석이 나왔어요.\",\n        \"AI 관련 사업 규모는 3500억 달러로 예상되지만, 290억 달러의 부가적인 내용이 있다는 점이 언급됐어요.\"\n    ],\n    \"visual_type\": \"none\",\n    \"effects\": [],\n    \"glossary\": [\n        {\n            \"term\": \"AI\",\n            \"easy\": \"인공지능을 뜻하는 말로, 컴퓨터가 사람처럼 생각하고 학습하는 기술이에요.\",\n            \"example\": \"AI 스피커는 사람의 말을 알아듣고 대답해줘요.\"\n        }\n    ]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님",
+     "입력에 없는 숫자: [290.0, 3500.0]"
     ]
    }
   ],
@@ -87,8 +95,8 @@
   "fact_hash": "3adcbe2ae062c4da42822a79ae38bcb158d70c00"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-09T06:09:21.378123+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\", \"입력에 없는 숫자: [290.0, 3500.0]\"]}]}",
+  "at": "2026-09-09T11:37:34.418116+00:00"
  },
  "glossary": [],
  "related": [
