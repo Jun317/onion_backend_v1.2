@@ -1,0 +1,149 @@
+{
+ "id": "ce2a9cd5841df119e",
+ "title": "Fewer Americans are working or looking for a job . Experts cant agree on why – The Mercury News",
+ "category": "MACRO",
+ "status": "stale",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 60,
+ "created_at": "2026-09-04T22:27:00.503224+00:00",
+ "last_update": "2026-09-05T01:07:33.816502+00:00",
+ "members": [
+  {
+   "id": "27ab2b35cf58edf788a7b584e9ac77c8f158ecd1",
+   "source": "mercurynews.com",
+   "tier": "wire",
+   "url": "https://www.mercurynews.com/2026/09/04/americans-job-hunt/",
+   "title": "Fewer Americans are working or looking for a job . Experts cant agree on why – The Mercury News",
+   "published_at": "2026-09-04T21:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9947
+  },
+  {
+   "id": "7ef94ea4a08a0b019b15a46d1191c30bcea58ffe",
+   "source": "bostonherald.com",
+   "tier": "wire",
+   "url": "https://www.bostonherald.com/2026/09/04/americans-job-hunt/",
+   "title": "Fewer Americans are working or looking for a job . Experts cant agree on why – Boston Herald",
+   "published_at": "2026-09-04T21:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9952
+  },
+  {
+   "id": "75d7638d6d12d13f73c377a8cc9fed7ed3b5f2c1",
+   "source": "broomfieldenterprise.com",
+   "tier": "wire",
+   "url": "https://www.broomfieldenterprise.com/2026/09/04/americans-job-hunt/",
+   "title": "Fewer Americans are working or looking for a job . Experts cant agree on why – Broomfield Enterprise",
+   "published_at": "2026-09-04T21:15:00+00:00",
+   "is_dup": 1,
+   "sim_to_centroid": 0.9866
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Fewer Americans are working or looking for a job . Experts cant agree on why – The Mercury News",
+   "source": "mercurynews.com",
+   "url": "https://www.mercurynews.com/2026/09/04/americans-job-hunt/",
+   "at": "2026-09-04T21:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Fewer Americans are working or looking for a job . Experts cant agree on why – Boston Herald",
+   "source": "bostonherald.com",
+   "url": "https://www.bostonherald.com/2026/09/04/americans-job-hunt/",
+   "at": "2026-09-04T21:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Fewer Americans are working or looking for a job . Experts cant agree on why – Broomfield Enterprise",
+   "source": "broomfieldenterprise.com",
+   "url": "https://www.broomfieldenterprise.com/2026/09/04/americans-job-hunt/",
+   "at": "2026-09-04T21:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-07T10:32:27.106574+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [],
+   "headlines": [
+    "Fewer Americans are working or looking for a job . Experts cant agree on why – The Mercury News",
+    "Fewer Americans are working or looking for a job . Experts cant agree on why – Boston Herald"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n\"title\": \"미국 일자리 참여율 하락\",\n\"one_liner\": \"미국에서 일하거나 일자리를 찾는 사람이 줄고 있어요.\",\n\"why_now\": \"일하는 사람이 줄면 경제 활동이 위축될 수 있다는 우려가 있어요.\",\n\"impact_line\": \"경제 전반의 활력이 떨어질 수 있어요.\",\n\"details\": [\n\"미국에서 일하는 사람의 비율이 줄었어요.\",\n\"일자리를 적극적으로 찾는 사람의 비율도 감소했어요.\",\n\"이러한 현상의 정확한 원인에 대해서는 전문가들의 의견이 엇갈리고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"생산과 소비가 줄어 경제 성장세가 둔화될 수 있어요!\",\n\"정부의 세수 감소로 이어질 수 있어요!\"\n],\n\"glossary\": [],\n\"impact_line\": null\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "미국 일자리 참여율 하락",
+   "one_liner": "미국에서 일하거나 일자리를 찾는 사람이 줄고 있어요.",
+   "why_now": "일하는 사람이 줄면 경제 활동이 위축될 수 있다는 우려가 있어요.",
+   "details": [
+    "미국에서 일하는 사람의 비율이 줄었어요.",
+    "일자리를 적극적으로 찾는 사람의 비율도 감소했어요.",
+    "이러한 현상의 정확한 원인에 대해서는 전문가들의 의견이 엇갈리고 있어요."
+   ],
+   "effects": [
+    "생산과 소비가 줄어 경제 성장세가 둔화될 수 있어요!",
+    "정부의 세수 감소로 이어질 수 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "7fa51ad0a32992b28655ae02c0c35715284c0a5d"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-07T04:59:28.293658+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c36cc1170a4ab9574",
+   "title": "US housing affordability gauge worsens for first time since 2023",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c1307e7ee8e7644d2",
+   "title": "Social Security COLA Forecast 2027 : New Prediction Shows 3 . 5 % Increase for Retirees",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c10235a132e4ba1bb",
+   "title": "When inflation slows , prices do not go back",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "ed06ead369d59a9ca",
+   "title": "미국 CPI 2026-08 발표",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c3d804522aaa77d09",
+   "title": "Paternity leave : six weeks at 90 per cent pay adds £2 . 68bn",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}

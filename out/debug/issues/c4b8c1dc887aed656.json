@@ -1,0 +1,106 @@
+{
+ "id": "c4b8c1dc887aed656",
+ "title": "Crack spread – what is it ? What does it say about oil market ?",
+ "category": "COMMODITY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 70,
+ "created_at": "2026-09-13T06:20:34.273426+00:00",
+ "last_update": "2026-09-13T06:20:34.275694+00:00",
+ "members": [
+  {
+   "id": "0b622f604226570ce1c955117325d70a177e39aa",
+   "source": "finance.yahoo.com",
+   "tier": "wire",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/rlusd-actually-regulated-ripple-trust-210104289.html",
+   "title": "Is RLUSD Actually Regulated ? What Ripple Trust Charter Means Versus Tether and USDC",
+   "published_at": "2026-09-12T21:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9564
+  },
+  {
+   "id": "6aee412a52f5298dbb2eef7b200b9ee18c1afc2f",
+   "source": "thehindubusinessline.com",
+   "tier": "wire",
+   "url": "https://www.thehindubusinessline.com/portfolio/personal-finance/crack-spread-what-is-it-what-does-it-say-about-oil-market/article71456511.ece",
+   "title": "Crack spread – what is it ? What does it say about oil market ?",
+   "published_at": "2026-09-12T17:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9563
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Is RLUSD Actually Regulated ? What Ripple Trust Charter Means Versus Tether and USDC",
+   "source": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/rlusd-actually-regulated-ripple-trust-210104289.html",
+   "at": "2026-09-12T21:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Crack spread – what is it ? What does it say about oil market ?",
+   "source": "thehindubusinessline.com",
+   "url": "https://www.thehindubusinessline.com/portfolio/personal-finance/crack-spread-what-is-it-what-does-it-say-about-oil-market/article71456511.ece",
+   "at": "2026-09-12T17:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-13T06:26:04.442366+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [],
+   "headlines": [
+    "Is RLUSD Actually Regulated ? What Ripple Trust Charter Means Versus Tether and USDC",
+    "Crack spread – what is it ? What does it say about oil market ?"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Is RLUSD Actually…",
+   "one_liner": "Is RLUSD Actually Regulated ? What Ripple Trust…",
+   "why_now": null,
+   "details": [
+    "Is RLUSD Actually Regulated ? What Ripple Trust Charter Means Versus Tether and USDC",
+    "Crack spread – what is it ? What does it say about oil market ?"
+   ],
+   "effects": [],
+   "visual_type": "wti"
+  },
+  "fact_hash": "19fc5f29298f30cbd5fd4904f5959092b3d74d86"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-13T06:26:04.442325+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "cb22ab4362dc7db3b",
+   "title": "Gold Prices Slide as Treasury Yields Surge , Fed Minutes in Focus",
+   "category": "COMMODITY",
+   "shared": []
+  },
+  {
+   "id": "c4290744458a41e2b",
+   "title": "Analyzing China Gas ( OTCMKTS : CGHLY ) and Chesapeake Utilities ( NYSE : CPK )",
+   "category": "COMMODITY",
+   "shared": []
+  }
+ ]
+}

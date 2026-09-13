@@ -1,0 +1,124 @@
+{
+ "id": "ed06ead369d59a9ca",
+ "title": "미국 CPI 2026-08 발표",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "US|MACRO|2026-08",
+ "entity_keys": [
+  "US"
+ ],
+ "seen_sources": 0,
+ "importance": 90,
+ "created_at": "2026-09-11T14:56:15.591573+00:00",
+ "last_update": "2026-09-13T06:20:23.909489+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "US",
+   "metric": "CPI(YoY%)",
+   "value": 3.35302,
+   "unit": "%",
+   "prev": null,
+   "period": "2026-08",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-09-11T14:56:15.591573+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "FRED CPIAUCSL 2026-08-01 신규 관측",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+   "at": "2026-09-11T14:56:15.591573+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-13T06:22:07.831323+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [
+    {
+     "entity": "US",
+     "metric": "CPI(YoY%)",
+     "value": 3.35302,
+     "unit": "%",
+     "prev": null,
+     "period": "2026-08",
+     "source": "FRED"
+    }
+   ],
+   "headlines": [
+    "미국 CPI 2026-08 발표"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US CPI(YoY%) 3.35302%",
+   "one_liner": "US CPI(YoY%) 3.35302%로 발표됐어요",
+   "why_now": null,
+   "details": [
+    "US CPI(YoY%): 3.35302%"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "fd8a4408a55ec3ecb338daa37e406d01b406e847"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-13T06:22:07.831270+00:00"
+ },
+ "glossary": [
+  {
+   "term": "CPI",
+   "easy": "물가가 얼마나 올랐는지 보여주는 대표 성적표예요.",
+   "example": "높으면 생활비 부담이 커진 거예요."
+  }
+ ],
+ "related": [
+  {
+   "id": "c36cc1170a4ab9574",
+   "title": "US housing affordability gauge worsens for first time since 2023",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c1307e7ee8e7644d2",
+   "title": "Social Security COLA Forecast 2027 : New Prediction Shows 3 . 5 % Increase for Retirees",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c10235a132e4ba1bb",
+   "title": "When inflation slows , prices do not go back",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c3d804522aaa77d09",
+   "title": "Paternity leave : six weeks at 90 per cent pay adds £2 . 68bn",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "e3acae8e772f54753",
+   "title": "한국 소비자물가 2026-08 발표",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}

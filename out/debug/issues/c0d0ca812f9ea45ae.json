@@ -1,0 +1,124 @@
+{
+ "id": "c0d0ca812f9ea45ae",
+ "title": "Brokers Issue Forecasts for PMVP Q3 Earnings",
+ "category": "EARNINGS",
+ "status": "stale",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 35,
+ "created_at": "2026-09-09T16:47:44.745802+00:00",
+ "last_update": "2026-09-09T16:47:44.767822+00:00",
+ "members": [
+  {
+   "id": "e489cc39f42bfce25ac8ade02a091e3258d0a60b",
+   "source": "rigzone.com",
+   "tier": "wire",
+   "url": "https://www.rigzone.com/news/hsbc_analysts_significantly_raise_oil_price_forecasts-09-sep-2026-184572-article/",
+   "title": "HSBC Analysts Significantly Raise Oil Price Forecasts",
+   "published_at": "2026-09-09T15:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9623
+  },
+  {
+   "id": "ea38fe9588ef8066e750456f0903d3fc14e1cf44",
+   "source": "themarketsdaily.com",
+   "tier": "wire",
+   "url": "https://www.themarketsdaily.com/2026/09/09/brokers-issue-forecasts-for-pmvp-q3-earnings.html",
+   "title": "Brokers Issue Forecasts for PMVP Q3 Earnings",
+   "published_at": "2026-09-09T11:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9623
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "HSBC Analysts Significantly Raise Oil Price Forecasts",
+   "source": "rigzone.com",
+   "url": "https://www.rigzone.com/news/hsbc_analysts_significantly_raise_oil_price_forecasts-09-sep-2026-184572-article/",
+   "at": "2026-09-09T15:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Brokers Issue Forecasts for PMVP Q3 Earnings",
+   "source": "themarketsdaily.com",
+   "url": "https://www.themarketsdaily.com/2026/09/09/brokers-issue-forecasts-for-pmvp-q3-earnings.html",
+   "at": "2026-09-09T11:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-09T22:44:36.013765+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "HSBC Analysts Significantly Raise Oil Price Forecasts",
+    "Brokers Issue Forecasts for PMVP Q3 Earnings"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "HSBC Analysts…",
+   "one_liner": "HSBC Analysts Significantly Raise Oil Price…",
+   "why_now": null,
+   "details": [
+    "HSBC Analysts Significantly Raise Oil Price Forecasts",
+    "Brokers Issue Forecasts for PMVP Q3 Earnings"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "36b26fc80d9eef6eefb18ff48daa41927c0a7cc9"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-09T22:44:36.013657+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "e7dc95bcb919f5113",
+   "title": "메타케어 2026-2Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "cf17f78864733c344",
+   "title": "Broadcom ( AVGO ) Massive New Debt Deal Points To Where AI Is Headed",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c358a63b121c9f9dc",
+   "title": "Tesla Model Y RWD real world range tested , explained - Introduction",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "ce12823587b4e0a76",
+   "title": "Walmart Fastest - Growing Business Isnt Retail",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "category": "EARNINGS",
+   "shared": []
+  }
+ ]
+}
