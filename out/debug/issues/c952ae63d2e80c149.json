@@ -7,10 +7,10 @@
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 2,
- "importance": 70,
+ "seen_sources": 3,
+ "importance": 75,
  "created_at": "2026-09-14T01:16:06.415971+00:00",
- "last_update": "2026-09-14T06:29:44.210093+00:00",
+ "last_update": "2026-09-14T14:16:50.665032+00:00",
  "members": [
   {
    "id": "3762c6805c8cde7c708c30298ed6e0a6cf98afa5",
@@ -20,7 +20,7 @@
    "title": "BRICS calls for immediate restoration of WTO dispute settlement mechanism",
    "published_at": "2026-09-12T23:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9483
+   "sim_to_centroid": 0.946
   },
   {
    "id": "3753464e9de54d8dc2e638c8a8562c52de0a909f",
@@ -30,7 +30,7 @@
    "title": "BRICS Summit unanimously adopts  New Delhi Declaration , stresses need to engage in conflict prevention",
    "published_at": "2026-09-12T23:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9613
+   "sim_to_centroid": 0.9587
   },
   {
    "id": "62d9c20bda1f6c05f73a301fe218fd72e3e16f1a",
@@ -40,7 +40,7 @@
    "title": "Now Putin has come to India ... many things will change : Russia News Chief Ekaterina Nadolskaya praises India - Russia ties at BRICS Summit",
    "published_at": "2026-09-12T23:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8833
+   "sim_to_centroid": 0.8846
   },
   {
    "id": "c87b1d702af5a712e33314b8ac44aaf44bf03fdc",
@@ -50,7 +50,7 @@
    "title": "BRICS New Delhi Declaration calls for stronger people - to - people ties , women - led development , youth cooperation",
    "published_at": "2026-09-12T23:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9039
+   "sim_to_centroid": 0.9055
   },
   {
    "id": "a55954b9a0a848976b9c1d7a7c9889690de53135",
@@ -60,7 +60,17 @@
    "title": "International Conference on Climate Change , Sustainability & Renewable Energy",
    "published_at": "2026-09-12T23:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.8693
+   "sim_to_centroid": 0.8704
+  },
+  {
+   "id": "bfb89da4be31beff8cb6a2eedfb9feca9982437e",
+   "source": "lankaweb.com",
+   "tier": "wire",
+   "url": "https://www.lankaweb.com/news/items/2026/09/12/ethnic-discrimination-against-sinhalas-by-npp-regime-could-devastate-the-economy-and-the-nation/",
+   "title": "LankaWeb – Ethnic Discrimination Against Sinhalas by NPP Regime Could Devastate the Economy and the Nation",
+   "published_at": "2026-09-12T23:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8622
   }
  ],
  "anchors": [],
@@ -99,19 +109,26 @@
    "source": "canadianminingjournal.com",
    "url": "https://www.canadianminingjournal.com/event/international-conference-on-climate-change-sustainability-renewable-energy/",
    "at": "2026-09-12T23:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "LankaWeb – Ethnic Discrimination Against Sinhalas by NPP Regime Could Devastate the Economy and the Nation",
+   "source": "lankaweb.com",
+   "url": "https://www.lankaweb.com/news/items/2026/09/12/ethnic-discrimination-against-sinhalas-by-npp-regime-could-devastate-the-economy-and-the-nation/",
+   "at": "2026-09-12T23:30:00+00:00"
   }
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-14T06:32:15.343679+00:00",
+  "created_at": "2026-09-14T14:20:56.016988+00:00",
   "payload": {
    "category": "GEO",
    "anchors": [],
    "headlines": [
-    "BRICS calls for immediate restoration of WTO dispute settlement mechanism",
     "BRICS Summit unanimously adopts  New Delhi Declaration , stresses need to engage in conflict prevention",
-    "Now Putin has come to India ... many things will change : Russia News Chief Ekaterina Nadolskaya praises India - Russia ties at BRICS Summit",
+    "BRICS calls for immediate restoration of WTO dispute settlement mechanism",
     "BRICS New Delhi Declaration calls for stronger people - to - people ties , women - led development , youth cooperation",
+    "Now Putin has come to India ... many things will change : Russia News Chief Ekaterina Nadolskaya praises India - Russia ties at BRICS Summit",
     "International Conference on Climate Change , Sustainability & Renewable Energy"
    ],
    "official_lines": []
@@ -126,22 +143,22 @@
    }
   ],
   "output": {
-   "title": "BRICS calls for…",
-   "one_liner": "BRICS calls for immediate restoration of WTO…",
+   "title": "BRICS Summit…",
+   "one_liner": "BRICS Summit unanimously adopts  New Delhi…",
    "why_now": null,
    "details": [
-    "BRICS calls for immediate restoration of WTO dispute settlement mechanism",
     "BRICS Summit unanimously adopts  New Delhi Declaration , stresses need to engage in conflict prevention",
-    "Now Putin has come to India ... many things will change : Russia News Chief Ekaterina Nadolskaya praises India - Russia ties at BRICS Summit"
+    "BRICS calls for immediate restoration of WTO dispute settlement mechanism",
+    "BRICS New Delhi Declaration calls for stronger people - to - people ties , women - led development , youth cooperation"
    ],
    "effects": [],
    "visual_type": "none"
   },
-  "fact_hash": "11d4e180499eb8d48f9cccbae4fd12e05667300a"
+  "fact_hash": "ebca1202c91bc3c4cd4fd92a242607cf942f84f2"
  },
  "review": {
   "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-14T06:32:15.343566+00:00"
+  "at": "2026-09-14T14:20:56.016701+00:00"
  },
  "glossary": [],
  "related": [
