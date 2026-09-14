@@ -2,16 +2,36 @@
  "id": "c81c6069c944130a4",
  "title": "Predicting the Value of a $10 , 000 Bet on SpaceX by 2030",
  "category": "MARKET",
- "status": "candidate",
+ "status": "active",
  "origin": "cluster",
- "frozen": 0,
+ "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
- "seen_sources": 1,
- "importance": 60,
+ "seen_sources": 3,
+ "importance": 70,
  "created_at": "2026-09-14T01:16:06.416745+00:00",
- "last_update": "2026-09-14T01:16:06.416745+00:00",
+ "last_update": "2026-09-14T06:29:44.210013+00:00",
  "members": [
+  {
+   "id": "d111ecdb9b67582d4d1d07aefff21b159cc96aa9",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/09/12/is-toast-stock-a-buy-after-record-9500-restaurant/",
+   "title": "Is Toast Stock a Buy After a Record 9 , 500 - Restaurant Quarter ?",
+   "published_at": "2026-09-12T23:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8913
+  },
+  {
+   "id": "7fa4776cdb4d22c3807224253d72eba322756928",
+   "source": "dailypress.com",
+   "tier": "wire",
+   "url": "https://www.dailypress.com/2026/09/12/diesel-6-gallon-virginia/",
+   "title": "Diesel tops $6 a gallon in Virginia , as inflation ticks up",
+   "published_at": "2026-09-12T23:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8718
+  },
   {
    "id": "01370684234dd298153cd3210a99ee638fce3ea4",
    "source": "fool.com",
@@ -20,7 +40,7 @@
    "title": "Predicting the Value of a $10 , 000 Bet on SpaceX by 2030",
    "published_at": "2026-09-12T23:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9564
+   "sim_to_centroid": 0.9526
   },
   {
    "id": "c7e0d5a3a1ccb395b852407d3819405fda5ccf9e",
@@ -30,7 +50,17 @@
    "title": "3 Reasons I Think Cathie Wood Is Buying Robinhood Stock Again",
    "published_at": "2026-09-12T23:30:00+00:00",
    "is_dup": 0,
-   "sim_to_centroid": 0.9563
+   "sim_to_centroid": 0.948
+  },
+  {
+   "id": "9e35147d2e9022dc6d71a27ab9db662a8fa9b2b9",
+   "source": "dailymail.com",
+   "tier": "wire",
+   "url": "https://www.dailymail.com/tvshowbiz/article-16126685/BBC-Breakfast-Naga-Munchetty-18-000-six-months-hustles.html",
+   "title": "Who needs BBC Breakfast ? Naga Munchetty rakes in £18 , 000 in six months with side hustles",
+   "published_at": "2026-09-12T23:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.8694
   }
  ],
  "anchors": [],
@@ -48,10 +78,71 @@
    "source": "fool.com",
    "url": "https://www.fool.com/investing/2026/09/12/3-reasons-i-think-cathie-wood-is-buying-robinhood-stock-again/",
    "at": "2026-09-12T23:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Is Toast Stock a Buy After a Record 9 , 500 - Restaurant Quarter ?",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/09/12/is-toast-stock-a-buy-after-record-9500-restaurant/",
+   "at": "2026-09-12T23:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Diesel tops $6 a gallon in Virginia , as inflation ticks up",
+   "source": "dailypress.com",
+   "url": "https://www.dailypress.com/2026/09/12/diesel-6-gallon-virginia/",
+   "at": "2026-09-12T23:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Who needs BBC Breakfast ? Naga Munchetty rakes in £18 , 000 in six months with side hustles",
+   "source": "dailymail.com",
+   "url": "https://www.dailymail.com/tvshowbiz/article-16126685/BBC-Breakfast-Naga-Munchetty-18-000-six-months-hustles.html",
+   "at": "2026-09-12T23:30:00+00:00"
   }
  ],
- "llm": null,
- "review": null,
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-14T06:32:25.834163+00:00",
+  "payload": {
+   "category": "MARKET",
+   "anchors": [],
+   "headlines": [
+    "Is Toast Stock a Buy After a Record 9 , 500 - Restaurant Quarter ?",
+    "Diesel tops $6 a gallon in Virginia , as inflation ticks up",
+    "Predicting the Value of a $10 , 000 Bet on SpaceX by 2030",
+    "3 Reasons I Think Cathie Wood Is Buying Robinhood Stock Again",
+    "Who needs BBC Breakfast ? Naga Munchetty rakes in £18 , 000 in six months with side hustles"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Is Toast Stock a Buy…",
+   "one_liner": "Is Toast Stock a Buy After a Record 9 , 500 -…",
+   "why_now": null,
+   "details": [
+    "Is Toast Stock a Buy After a Record 9 , 500 - Restaurant Quarter ?",
+    "Diesel tops $6 a gallon in Virginia , as inflation ticks up",
+    "Predicting the Value of a $10 , 000 Bet on SpaceX by 2030"
+   ],
+   "effects": [],
+   "visual_type": "us_10y"
+  },
+  "fact_hash": "24376e0e1a3d9789d1aaa9cc7f88a09d23fbe184"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-14T06:32:25.834066+00:00"
+ },
  "glossary": [],
  "related": [
   {
