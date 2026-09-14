@@ -2,13 +2,13 @@
  "id": "c9679a9d2ff4fd275",
  "title": "ZTE Global Summit & User Congress 2026 Opens in Kuala Lumpur , Advancing from Connectivity to Digital Value Creation – LiveNews . co . nz",
  "category": "MACRO",
- "status": "active",
+ "status": "stale",
  "origin": "cluster",
  "frozen": 1,
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 3,
- "importance": 95,
+ "importance": 75,
  "created_at": "2026-09-09T16:47:44.749113+00:00",
  "last_update": "2026-09-09T19:53:18.348772+00:00",
  "members": [
@@ -86,7 +86,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-09T19:54:13.304091+00:00",
+  "created_at": "2026-09-14T01:18:13.467991+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -97,14 +97,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\"title\": \"국제 경제 행사 열려\", \"one_liner\": \"말레이시아 쿠알라룸푸르에서 ZTE 글로벌 서밋이 열렸어요.\", \"why_now\": \"이런 행사는 새로운 기술과 경제 흐름을 파악하는 데 도움이 돼요.\", \"impact_line\": \"새로운 기술 소식을 접할 기회가 될 수 있어요.\", \"details\": [\"ZTE 글로벌 서밋 및 사용자 대회 2026이 쿠알라룸푸르에서 시작되었어요.\", \"이번 행사는 연결성을 넘어 디지털 가치 창출을 목표로 해요.\"], \"visual_type\": \"none\", \"effects\": [\"새로운 기술 동향을 파악하는 데 도움이 될 수 있어요!\"], \"glossary\": [{\"term\": \"ZTE\", \"easy\": \"중국의 통신 장비 및 스마트폰 제조 회사예요.\", \"example\": \"ZTE는 스마트폰과 통신망 장비를 만들어요.\"}, {\"term\": \"디지털 가치 창출\", \"easy\": \"컴퓨터와 인터넷을 활용해 새로운 경제적 이익을 만드는 것을 말해요.\", \"example\": \"온라인 강의 플랫폼을 만들어 수익을 얻는 것도 디지털 가치 창출이에요.\"}], \"impact_line\": \"새로운 기술 동향에 대한 정보를 얻을 수 있어요.\"}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -127,14 +121,26 @@
   "fact_hash": "d89a46651963559a7df3f203c60c3e5f87d21040"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-09T19:54:13.303707+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-14T01:18:13.467659+00:00"
  },
  "glossary": [],
  "related": [
   {
    "id": "c36cc1170a4ab9574",
    "title": "US housing affordability gauge worsens for first time since 2023",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "ed06ead369d59a9ca",
+   "title": "미국 CPI 2026-08 발표",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "e3acae8e772f54753",
+   "title": "한국 소비자물가 2026-08 발표",
    "category": "MACRO",
    "shared": []
   },
@@ -147,12 +153,6 @@
   {
    "id": "c512e6750dd223bbb",
    "title": "Fewer Americans are working or looking for a job . Experts cant agree on why – Greeley Tribune",
-   "category": "MACRO",
-   "shared": []
-  },
-  {
-   "id": "e3acae8e772f54753",
-   "title": "한국 소비자물가 2026-08 발표",
    "category": "MACRO",
    "shared": []
   }
