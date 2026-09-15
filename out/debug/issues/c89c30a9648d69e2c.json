@@ -52,7 +52,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-14T14:25:06.287639+00:00",
+  "created_at": "2026-09-15T01:36:28.374992+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -62,12 +62,18 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"인도 지속가능성 포럼 출범\",\n\"one_liner\": \"인도에서 지속가능성을 위한 포럼이 새로 시작되었어요.\",\n\"why_now\": \"환경 보호와 사회적 책임을 다하는 기업 활동이 중요해지고 있어요.\",\n\"impact_line\": null,\n\"details\": [\n\"인도 푸네에서 지속가능성 포럼이 열렸어요.\",\n\"이 포럼은 환경 보호와 사회적 책임을 다하는 기업 활동을 논의해요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"기업들이 환경 보호와 사회적 책임을 더 중요하게 생각하게 될 수 있어요!\",\n\"지속가능한 발전을 위한 새로운 아이디어와 협력이 나올 것으로 예상돼요!\"\n],\n\"glossary\": [\n{\n\"term\": \"지속가능성\",\n\"easy\": \"환경을 보호하고 사회적 책임을 다하며 미래 세대도 살아갈 수 있도록 하는 것을 말해요.\",\n\"example\": \"쓰레기를 줄이고 재활용하는 것은 지속가능한 생활 방식이에요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
     ]
    }
   ],
@@ -85,8 +91,8 @@
   "fact_hash": "b8fc076a38419e91455eb972efbd36c416f160a3"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-14T14:25:06.287579+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-09-15T01:36:28.374601+00:00"
  },
  "glossary": [],
  "related": [
