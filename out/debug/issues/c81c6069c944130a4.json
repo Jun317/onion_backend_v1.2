@@ -8,7 +8,7 @@
  "anchor_key": null,
  "entity_keys": [],
  "seen_sources": 7,
- "importance": 80,
+ "importance": 75,
  "created_at": "2026-09-14T01:16:06.416745+00:00",
  "last_update": "2026-09-14T19:30:32.423289+00:00",
  "members": [
@@ -188,7 +188,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-15T18:21:46.888825+00:00",
+  "created_at": "2026-09-15T21:35:17.443536+00:00",
   "payload": {
    "category": "MARKET",
    "anchors": [],
@@ -201,14 +201,8 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"휘발유값 6달러 돌파\",\n\"one_liner\": \"미국 버지니아주에서 휘발유값이 갤런당 6달러를 넘었어요.\",\n\"why_now\": \"물가 상승으로 인해 기름값이 오르면 장바구니 물가도 함께 오르는 게 보통이에요.\",\n\"impact_line\": \"주유비 부담이 커질 수 있어요.\",\n\"details\": [\n\"미국 버지니아주에서 휘발유값이 갤런당 6달러를 넘어섰어요.\",\n\"이는 물가 상승의 한 지표로 볼 수 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"기름값이 오르면 운송비가 늘어나 상품 가격이 전반적으로 오를 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"갤런\",\n\"easy\": \"미국에서 액체 부피를 잴 때 쓰는 단위로, 약 3.78리터예요.\",\n\"example\": \"우유 1갤런을 샀는데 생각보다 양이 많았어요.\"\n}\n],\n\"title\": \"휘발유값 6달러 돌파\",\n\"one_liner\": \"미국 버지니아주에서 휘발유값이 갤런당 6달러를 넘었어요.\",\n\"why_now\": \"물가 상승으로 인해 기름값이 오르면 장바구니 물가도 함께 오르는 게 보통이에요.\",\n\"impact_line\": \"주유비 부담이 커질 수 있어요.\",\n\"details\": [\n\"미국 버지니아주에서 휘발유값이 갤런당 6달러를 넘어섰어요.\",\n\"이는 물가 상승의 한 지표로 볼 수 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"기름값이 오르면 운송비가 늘어나 상품 가격이 전반적으로 오를 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"갤런\",\n\"easy\": \"미국에서 액체 부피를 잴 때 쓰는 단위로, 약 3.78리터예요.\",\n\"example\": \"우유 1갤런을 샀는데 생각보다 양이 많았어요.\"\n}\n]\n}",
+  "raw_response": "",
   "attempts": [
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "details 3문장 미만"
-    ]
-   },
    {
     "model": "",
     "errors": [
@@ -231,8 +225,8 @@
   "fact_hash": "cb72d386b10b5ba919ded81fd877533bbe83e0d1"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
-  "at": "2026-09-15T18:21:46.888750+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-15T21:35:17.443291+00:00"
  },
  "glossary": [],
  "related": [
@@ -255,14 +249,14 @@
    "shared": []
   },
   {
-   "id": "c69943061634fe0aa",
-   "title": "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence ( AI ) Stocks",
+   "id": "c369b45eb1511371e",
+   "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
    "category": "MARKET",
    "shared": []
   },
   {
-   "id": "c369b45eb1511371e",
-   "title": "Iran Demands Access To Qatar In Dispute Over Downed Pilots",
+   "id": "c69943061634fe0aa",
+   "title": "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence ( AI ) Stocks",
    "category": "MARKET",
    "shared": []
   }
