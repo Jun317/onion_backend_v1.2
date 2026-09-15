@@ -290,7 +290,7 @@
  ],
  "llm": {
   "model": "template",
-  "created_at": "2026-09-15T07:55:31.690936+00:00",
+  "created_at": "2026-09-15T13:44:17.426350+00:00",
   "payload": {
    "category": "MACRO",
    "anchors": [],
@@ -303,18 +303,12 @@
    ],
    "official_lines": []
   },
-  "raw_response": "{\n\"title\": \"미국 주택담보대출 금리 최고치\",\n\"one_liner\": \"미국의 주택담보대출 금리가 6.71%까지 올랐어요.\",\n\"why_now\": \"집을 사거나 이사할 때 필요한 대출 이자가 크게 늘어날 수 있어요.\",\n\"impact_line\": \"집 구매 부담이 커져 주택 시장이 위축될 수 있어요.\",\n\"details\": [\n\"미국의 주택담보대출 금리가 6.71%까지 올랐어요.\",\n\"이는 올해 최고치예요.\",\n\"이전 최고치는 6.68%였어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"집을 사려는 사람들의 이자 부담이 커질 수 있어요!\",\n\"주택 거래량이 줄어 부동산 시장이 어려워질 수 있어요!\"\n],\n\"glossary\": [\n{\n\"term\": \"주택담보대출\",\n\"easy\": \"집을 담보로 돈을 빌리는 대출이에요.\",\n\"example\": \"주택담보대출 금리가 오르면 매달 갚아야 할 이자가 늘어나요.\"\n}\n],\n\"question_for_me\": null\n}",
+  "raw_response": "",
   "attempts": [
    {
-    "model": "gemini-2.5-flash-lite",
+    "model": "",
     "errors": [
-     "입력에 없는 숫자: [6.71]"
-    ]
-   },
-   {
-    "model": "gemini-2.5-flash-lite",
-    "errors": [
-     "입력에 없는 숫자: [6.68, 6.71]"
+     "전 프로바이더 응답 실패"
     ]
    }
   ],
@@ -333,8 +327,8 @@
   "fact_hash": "168f40edc6799e0e534d1c952ddd3167688f4db2"
  },
  "review": {
-  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [6.71]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [6.68, 6.71]\"]}]}",
-  "at": "2026-09-15T07:55:31.690871+00:00"
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-15T13:44:17.426284+00:00"
  },
  "glossary": [],
  "related": [
