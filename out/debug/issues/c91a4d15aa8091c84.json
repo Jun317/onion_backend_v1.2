@@ -867,8 +867,8 @@
   }
  ],
  "llm": {
-  "model": "template",
-  "created_at": "2026-09-16T06:15:30.146965+00:00",
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-09-16T11:55:42.048302+00:00",
   "payload": {
    "category": "POLICY",
    "anchors": [],
@@ -881,25 +881,32 @@
    ],
    "official_lines": []
   },
-  "raw_response": "",
+  "raw_response": "{\n\"title\": \"빅테크 기업 상장 경쟁\",\n\"one_liner\": \"새로운 빅테크 기업들의 상장이 경쟁적으로 이루어질 수 있어요.\",\n\"why_now\": \"새로운 기업들이 많이 상장하면 투자할 곳이 늘어나고 시장이 활기를 띨 수 있어요.\",\n\"impact_line\": \"새로운 기업들의 주식에 투자할 기회가 생길 수 있어요.\",\n\"details\": [\n\"스페이스X의 기업 공개 기록을 깰 만한 기업이 등장할 수 있어요.\",\n\"빅테크 기업들의 상장이 주목받고 있어요.\",\n\"새로운 기업들의 상장 소식이 연이어 들리고 있어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"새로운 기업들의 상장이 성공하면 관련 기술 분야의 발전이 가속화될 수 있어요!\",\n\"투자자들의 관심이 쏠리면서 시장이 더욱 활발해질 것으로 예상돼요!\"\n],\n\"glossary\": [\n{\n\"term\": \"빅테크 기업\",\n\"easy\": \"인터넷, 소프트웨어, 인공지능 등 첨단 기술 분야를 선도하는 큰 규모의 기업들을 말해요.\",\n\"example\": \"구글, 아마존, 페이스북 같은 회사들이 빅테크 기업에 해당해요.\"\n},\n{\n\"term\": \"기업 공개 (IPO)\",\n\"easy\": \"회사가 처음으로 주식을 일반 투자자들에게 팔아 돈을 마련하는 것을 말해요.\",\n\"example\": \"기업 공개를 하면 누구나 그 회사의 주식을 살 수 있게 돼요.\"\n}\n]\n}",
   "attempts": [
    {
-    "model": "",
+    "model": "gemini-2.5-flash-lite",
     "errors": [
-     "전 프로바이더 응답 실패"
+     "details 3문장 미만"
     ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
    }
   ],
   "output": {
-   "title": "Reviewing Big Tree…",
-   "one_liner": "Reviewing Big Tree Cloud ( NASDAQ : DSY ) &…",
-   "why_now": null,
+   "title": "빅테크 기업 상장 경쟁",
+   "one_liner": "새로운 빅테크 기업들의 상장이 경쟁적으로 이루어질 수 있어요.",
+   "why_now": "새로운 기업들이 많이 상장하면 투자할 곳이 늘어나고 시장이 활기를 띨 수 있어요.",
    "details": [
-    "Reviewing Big Tree Cloud ( NASDAQ : DSY ) & Medifast ( NYSE : MED )",
-    "Chris Van Hollen : Im  Kicking the Tire on 2028 Presidential Run",
-    "Reviewing Dollarama ( OTCMKTS : DLMAF ) & NextMart ( OTCMKTS : NXMR )"
+    "스페이스X의 기업 공개 기록을 깰 만한 기업이 등장할 수 있어요.",
+    "빅테크 기업들의 상장이 주목받고 있어요.",
+    "새로운 기업들의 상장 소식이 연이어 들리고 있어요."
    ],
-   "effects": [],
+   "effects": [
+    "새로운 기업들의 상장이 성공하면 관련 기술 분야의 발전이 가속화될 수 있어요!",
+    "투자자들의 관심이 쏠리면서 시장이 더욱 활발해질 것으로 예상돼요!"
+   ],
    "visual_type": "none"
   },
   "fact_hash": "e826ee4b3de94520a8f670648810ce3f80f1c78f"
