@@ -1,0 +1,136 @@
+{
+ "id": "c0d75e4ccc0ec8a37",
+ "title": "Marc Benioff $25 Billion Bet Against the  SaaSpocalypse  Earlier This Year Is Now Paying Off for Salesforce Investors , and It Not Too Late to Join",
+ "category": "EARNINGS",
+ "status": "stale",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "CRM"
+ ],
+ "seen_sources": 2,
+ "importance": 45,
+ "created_at": "2026-09-04T16:30:55.731740+00:00",
+ "last_update": "2026-09-04T16:30:55.735047+00:00",
+ "members": [
+  {
+   "id": "442040c34836e8bfbd1d477b1eea973a5c94a781",
+   "source": "fool.com",
+   "tier": "wire",
+   "url": "https://www.fool.com/investing/2026/09/04/marc-benioffs-billion-bet-saaspocalypse-salesforce/?source=iedfolrf0000001",
+   "title": "Marc Benioff $25 Billion Bet Against the  SaaSpocalypse  Earlier This Year Is Now Paying Off for Salesforce Investors , and It Not Too Late to Join",
+   "published_at": "2026-09-04T12:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.96
+  },
+  {
+   "id": "cc4108745342e595cefe3926b61f9a1cad9a0095",
+   "source": "dailypolitical.com",
+   "tier": "wire",
+   "url": "https://www.dailypolitical.com/2026/09/04/salesforce-inc-nysecrm-plans-quarterly-dividend-of-0-44.html",
+   "title": "Salesforce Inc . ( NYSE : CRM ) Plans Quarterly Dividend of $0 . 44",
+   "published_at": "2026-09-04T12:45:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.96
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Marc Benioff $25 Billion Bet Against the  SaaSpocalypse  Earlier This Year Is Now Paying Off for Salesforce Investors , and It Not Too Late to Join",
+   "source": "fool.com",
+   "url": "https://www.fool.com/investing/2026/09/04/marc-benioffs-billion-bet-saaspocalypse-salesforce/?source=iedfolrf0000001",
+   "at": "2026-09-04T12:45:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Salesforce Inc . ( NYSE : CRM ) Plans Quarterly Dividend of $0 . 44",
+   "source": "dailypolitical.com",
+   "url": "https://www.dailypolitical.com/2026/09/04/salesforce-inc-nysecrm-plans-quarterly-dividend-of-0-44.html",
+   "at": "2026-09-04T12:45:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-16T00:37:59.383257+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "Marc Benioff $25 Billion Bet Against the  SaaSpocalypse  Earlier This Year Is Now Paying Off for Salesforce Investors , and It Not Too Late to Join",
+    "Salesforce Inc . ( NYSE : CRM ) Plans Quarterly Dividend of $0 . 44"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"세일즈포스, 주주에게 배당금 지급\",\n  \"one_liner\": \"세일즈포스가 주주들에게 배당금을 지급할 계획이라고 밝혔어요.\",\n  \"why_now\": \"기업이 배당금을 지급하면 주주들이 직접적인 수익을 얻을 수 있어 투자 매력이 높아져요.\",\n  \"impact_line\": \"세일즈포스 주식을 가진 사람들은 배당금을 받을 수 있어요.\",\n  \"details\": [\n    \"세일즈포스가 주당 0.44달러의 분기 배당금을 지급할 예정이에요.\",\n    \"이는 투자자들에게 긍정적인 신호로 해석될 수 있어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"배당금 지급은 회사의 재무 건전성을 보여주며, 주가 상승으로 이어질 수 있어요!\",\n    \"배당금 지급으로 인해 회사의 현금 유출이 발생할 수 있어요.\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"배당금\",\n      \"easy\": \"회사가 벌어들인 이익의 일부를 주주들에게 나누어 주는 돈이에요.\",\n      \"example\": \"주식 투자를 하면 회사가 잘 될 때 배당금을 받을 수 있어요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [0.44]"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Marc Benioff $25…",
+   "one_liner": "Marc Benioff $25 Billion Bet Against the…",
+   "why_now": null,
+   "details": [
+    "Marc Benioff $25 Billion Bet Against the  SaaSpocalypse  Earlier This Year Is Now Paying Off for Salesforce Investors , and It Not Too Late to Join",
+    "Salesforce Inc . ( NYSE : CRM ) Plans Quarterly Dividend of $0 . 44"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "cbccdc7ef7f0ed2208c24a4cdb7e9458cfc1d6a6"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [0.44]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-16T00:37:59.383122+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c8a1922fe87d06746",
+   "title": "Nikkei , KOSPI to US stocks : Global equity heatmap before the opening bell of the Indian stock market on Tuesday Aug 18",
+   "category": "MARKET",
+   "shared": [
+    "CRM"
+   ]
+  },
+  {
+   "id": "cf17f78864733c344",
+   "title": "Broadcom ( AVGO ) Massive New Debt Deal Points To Where AI Is Headed",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "c358a63b121c9f9dc",
+   "title": "Tesla Model Y RWD real world range tested , explained - Introduction",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "ce12823587b4e0a76",
+   "title": "Walmart Fastest - Growing Business Isnt Retail",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "cd71d798bc262d461",
+   "title": "Bolt Metals Corp .: Bolt Metals to Rebrand as 26 Metals Inc . and Adopt the Ticker IRON , Highlighting Its Focus on Flagship Florália Iron Project in Brazil Iron Quadrangle",
+   "category": "EARNINGS",
+   "shared": []
+  }
+ ]
+}
