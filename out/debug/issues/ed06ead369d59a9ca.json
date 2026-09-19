@@ -1,0 +1,131 @@
+{
+ "id": "ed06ead369d59a9ca",
+ "title": "미국 CPI 2026-08 발표",
+ "category": "MACRO",
+ "status": "stale",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "US|MACRO|2026-08",
+ "entity_keys": [
+  "US"
+ ],
+ "seen_sources": 0,
+ "importance": 65,
+ "created_at": "2026-09-11T14:56:15.591573+00:00",
+ "last_update": "2026-09-14T01:15:50.281717+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "US",
+   "metric": "CPI(YoY%)",
+   "value": 3.35302,
+   "unit": "%",
+   "prev": null,
+   "period": "2026-08",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-09-11T14:56:15.591573+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "FRED CPIAUCSL 2026-08-01 신규 관측",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+   "at": "2026-09-11T14:56:15.591573+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-09-19T20:53:39.999063+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [
+    {
+     "entity": "US",
+     "metric": "CPI(YoY%)",
+     "value": 3.35302,
+     "unit": "%",
+     "prev": null,
+     "period": "2026-08",
+     "source": "FRED"
+    }
+   ],
+   "headlines": [
+    "미국 CPI 2026-08 발표"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미국 물가 상승률 둔화\",\n  \"one_liner\": \"미국의 물가 상승률이 3.35%로 낮아졌어요.\",\n  \"why_now\": \"물가 상승률이 낮아지면 소비자들이 상품을 살 때 부담이 줄어들 수 있어요.\",\n  \"impact_line\": \"생활 물가 부담이 조금 가벼워질 수 있어요.\",\n  \"details\": [\n    \"미국의 소비자 물가 상승률이 3.35%를 기록했어요.\",\n    \"이는 지난 8월의 수치예요.\"\n  ],\n  \"visual_type\": \"us_cpi_yoy\",\n  \"effects\": [\n    \"물가 상승 압력이 줄어들면, 중앙은행이 금리를 내릴 가능성이 높아질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"CPI(YoY%)\",\n      \"easy\": \"소비자 물가 상승률을 말해요. 1년 전과 비교해서 얼마나 올랐는지 보여줘요.\",\n      \"example\": \"지난달보다 장바구니 물가가 3% 올랐어요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "입력에 없는 숫자: [3.35]"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US CPI(YoY%) 3.35302%",
+   "one_liner": "US CPI(YoY%) 3.35302%로 발표됐어요",
+   "why_now": null,
+   "details": [
+    "US CPI(YoY%): 3.35302%"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "fd8a4408a55ec3ecb338daa37e406d01b406e847"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"입력에 없는 숫자: [3.35]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-09-19T20:53:39.999007+00:00"
+ },
+ "glossary": [
+  {
+   "term": "CPI",
+   "easy": "물가가 얼마나 올랐는지 보여주는 대표 성적표예요.",
+   "example": "높으면 생활비 부담이 커진 거예요."
+  }
+ ],
+ "related": [
+  {
+   "id": "c36cc1170a4ab9574",
+   "title": "US housing affordability gauge worsens for first time since 2023",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "e3acae8e772f54753",
+   "title": "한국 소비자물가 2026-08 발표",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c3d804522aaa77d09",
+   "title": "Paternity leave : six weeks at 90 per cent pay adds £2 . 68bn",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c512e6750dd223bbb",
+   "title": "Fewer Americans are working or looking for a job . Experts cant agree on why – Greeley Tribune",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c8f4f25ec5031ebd0",
+   "title": "Iceland Producer Price Inflation Eases In July",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}
