@@ -1,0 +1,106 @@
+{
+ "id": "ecabd23b6c6ee6016",
+ "title": "한국 소비자물가 2026-09 발표",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "KR|MACRO|2026-09",
+ "entity_keys": [
+  "V"
+ ],
+ "seen_sources": 0,
+ "importance": 115,
+ "created_at": "2026-10-03T23:41:37.871467+00:00",
+ "last_update": "2026-10-11T06:02:15.421529+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "KR",
+   "metric": "소비자물가지수",
+   "value": 120.43,
+   "unit": "",
+   "prev": 120.05,
+   "period": "2026-09",
+   "source": "ECOS",
+   "trust": "official",
+   "observed_at": "2026-10-03T23:41:37.871467+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "ECOS 소비자물가 202609 신규 관측",
+   "source": "ECOS",
+   "url": "https://ecos.bok.or.kr",
+   "at": "2026-10-03T23:41:37.871467+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-10-11T06:02:39.826891+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [
+    {
+     "entity": "KR",
+     "metric": "소비자물가지수",
+     "value": 120.43,
+     "unit": "",
+     "prev": 120.05,
+     "period": "2026-09",
+     "source": "ECOS"
+    }
+   ],
+   "headlines": [
+    "한국 소비자물가 2026-09 발표"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"한국 소비자물가 소폭 상승\",\n  \"one_liner\": \"지난달 한국의 소비자물가지수가 120.43으로 올랐어요.\",\n  \"why_now\": \"물가가 오르면 같은 돈으로 살 수 있는 물건이 줄어 생활비 부담이 커지는 게 보통이에요.\",\n  \"impact_line\": \"장바구니 물가가 오를 수 있어요.\",\n  \"details\": [\n    \"한국의 소비자물가지수가 120.43으로 집계됐어요.\",\n    \"이전 달 소비자물가지수는 120.05였어요.\",\n    \"물가 상승률은 0.3% 정도예요.\"\n  ],\n  \"visual_type\": \"kr_cpi_yoy\",\n  \"effects\": [\n    \"물가가 계속 오르면 가계의 실질 구매력이 떨어질 수 있어요!\",\n    \"물가 안정을 위해 정부나 중앙은행이 금리를 올리는 등의 정책을 쓸 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"소비자물가지수\",\n      \"easy\": \"우리 생활과 밀접한 물건들의 가격 변화를 보여주는 지표예요.\",\n      \"example\": \"채소값, 기름값 등 생활 물가가 오르면 소비자물가지수도 올라요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [0.3]"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "KR 소비자물가지수 120.43",
+   "one_liner": "KR 소비자물가지수가 120.05에서 120.43로 바뀌었어요",
+   "why_now": null,
+   "details": [
+    "KR 소비자물가지수: 120.43 (직전 120.05)"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "65582b6bdab1da03b65da5a8061692d0a9b566dc"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [0.3]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-10-11T06:02:39.826609+00:00"
+ },
+ "glossary": [
+  {
+   "term": "소비자물가",
+   "easy": "우리가 사는 물건·서비스 값이 오른 정도예요.",
+   "example": "오르면 같은 돈으로 살 수 있는 게 줄어요."
+  }
+ ],
+ "related": [
+  {
+   "id": "ed06ead369d59a9ca",
+   "title": "미국 CPI 2026-08 발표",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}
