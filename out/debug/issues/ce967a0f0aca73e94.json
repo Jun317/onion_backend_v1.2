@@ -1,0 +1,134 @@
+{
+ "id": "ce967a0f0aca73e94",
+ "title": "Social Security Administration Tells Californians to Check Office Status Before Visiting",
+ "category": "POLICY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "SEC"
+ ],
+ "seen_sources": 2,
+ "importance": 110,
+ "created_at": "2026-10-17T19:37:13.095443+00:00",
+ "last_update": "2026-10-17T19:37:13.120927+00:00",
+ "members": [
+  {
+   "id": "5470fecdb7692c3db3610d7443f4b11653a301df",
+   "source": "miamitimesonline.com",
+   "tier": "wire",
+   "url": "https://www.miamitimesonline.com/business/social-security-recipients-to-get-3-6-cost-of-living-boost-an-average-of-75/article_41256b1f-0604-440f-92ad-382d2a8b5eea.html",
+   "title": "Social Security recipients to get 3 . 6 % cost of living boost , an average of $75 per month",
+   "published_at": "2026-10-16T18:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9573
+  },
+  {
+   "id": "b127b5355cf68276311e9d90e828b023d57c814f",
+   "source": "newsroomamerica.com",
+   "tier": "wire",
+   "url": "https://newsroomamerica.com/a/S7UJxHIzofvriPRKP3F4lc38Szv/the_agency_says_the_operational_status_of_local_offices_card_centers_and_hearing_offices_in_california_has_changed_and_points_the_public_to_online_services.html",
+   "title": "Social Security Administration Tells Californians to Check Office Status Before Visiting",
+   "published_at": "2026-10-16T18:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9573
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Social Security Administration Tells Californians to Check Office Status Before Visiting",
+   "source": "newsroomamerica.com",
+   "url": "https://newsroomamerica.com/a/S7UJxHIzofvriPRKP3F4lc38Szv/the_agency_says_the_operational_status_of_local_offices_card_centers_and_hearing_offices_in_california_has_changed_and_points_the_public_to_online_services.html",
+   "at": "2026-10-16T18:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Social Security recipients to get 3 . 6 % cost of living boost , an average of $75 per month",
+   "source": "miamitimesonline.com",
+   "url": "https://www.miamitimesonline.com/business/social-security-recipients-to-get-3-6-cost-of-living-boost-an-average-of-75/article_41256b1f-0604-440f-92ad-382d2a8b5eea.html",
+   "at": "2026-10-16T18:30:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-10-17T19:37:36.608635+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Social Security recipients to get 3 . 6 % cost of living boost , an average of $75 per month",
+    "Social Security Administration Tells Californians to Check Office Status Before Visiting"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"사회보장 연금 3.6% 인상\",\n  \"one_liner\": \"사회보장 연금 수급자들의 연금이 월평균 75달러씩 오를 예정이에요.\",\n  \"why_now\": \"물가 상승으로 인한 생활비 부담을 덜어주기 위해 연금액을 조정하는 거예요.\",\n  \"impact_line\": \"연금 수급자들의 월 생활비 부담이 조금 줄어들 수 있어요.\",\n  \"details\": [\n    \"사회보장 연금 수급자들의 연금이 3.6% 인상돼요.\",\n    \"이는 월평균 75달러의 추가 지급을 의미해요.\",\n    \"사회보장국은 방문 전 사무실 운영 상태를 확인하라고 안내했어요.\"\n  ],\n  \"visual_type\": \"none\",\n  \"effects\": [\n    \"연금 수급자들의 실질 구매력이 향상될 수 있어요!\",\n    \"물가 상승률을 반영한 연금 조정으로 생활 안정을 도울 것으로 예상돼요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"사회보장 연금\",\n      \"easy\": \"국가가 국민의 노후, 장애, 실업 등에 대비해 지급하는 돈이에요.\",\n      \"example\": \"할머니께서 매달 받으시는 사회보장 연금 덕분에 생활이 편안해요.\"\n    },\n    {\n      \"term\": \"물가 상승률\",\n      \"easy\": \"물건이나 서비스 가격이 전반적으로 오르는 정도를 말해요.\",\n      \"example\": \"올해 물가 상승률이 높아져서 장바구니 물가가 많이 올랐어요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "입력에 없는 숫자: [3.6]"
+    ]
+   },
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Social Security…",
+   "one_liner": "Social Security recipients to get 3 . 6 % cost…",
+   "why_now": null,
+   "details": [
+    "Social Security recipients to get 3 . 6 % cost of living boost , an average of $75 per month",
+    "Social Security Administration Tells Californians to Check Office Status Before Visiting"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "d3ae00f57d28d42171adff0ef00ef7ec7d0b507c"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"입력에 없는 숫자: [3.6]\"]}, {\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-10-17T19:37:36.608295+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c1bee4ce658773c85",
+   "title": "Bank of America Says Meta Could Beat Revenue Forecasts as AI Boosts Ads , Despite $10 Billion Legal Charge",
+   "category": "EARNINGS",
+   "shared": [
+    "SEC"
+   ]
+  },
+  {
+   "id": "ca334267f63157b10",
+   "title": "Bangkok Post - Your daily horoscope for Oct 17",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c6d5b68a1704ea8f9",
+   "title": "Credit River mayor and City Council candidate questionnaire",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c1c50444a7a29ede1",
+   "title": "Jaishankar to host Rubio in Mumbai on Oct 20 for key India - US talks",
+   "category": "POLICY",
+   "shared": []
+  },
+  {
+   "id": "c41289eeee14555fb",
+   "title": "DuPage County colleges enrolled 80 , 781 undergraduates in fall 2024",
+   "category": "POLICY",
+   "shared": []
+  }
+ ]
+}

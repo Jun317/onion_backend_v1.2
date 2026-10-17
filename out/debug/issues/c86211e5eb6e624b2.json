@@ -1,0 +1,133 @@
+{
+ "id": "c86211e5eb6e624b2",
+ "title": "India per capita GDP estimated below Bangladesh in 2026 : IMF",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [
+  "IMF"
+ ],
+ "seen_sources": 2,
+ "importance": 120,
+ "created_at": "2026-10-17T19:37:13.093173+00:00",
+ "last_update": "2026-10-17T19:37:13.120641+00:00",
+ "members": [
+  {
+   "id": "6d9c49df1e995743084e598bfb3a84fcb79e45c6",
+   "source": "mpamag.com",
+   "tier": "wire",
+   "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/treasury-dismisses-imf-debt-alarm-as-us-yields-hold-above-5/593909",
+   "title": "Treasury dismisses IMF debt alarm as US yields hold above 5 %",
+   "published_at": "2026-10-16T21:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9593
+  },
+  {
+   "id": "146e3352f1341a2c0d63a2b8be52d9288f92fefc",
+   "source": "scroll.in",
+   "tier": "wire",
+   "url": "https://scroll.in/latest/1096462/indias-per-capita-gdp-estimated-below-bangladesh-in-2026-imf",
+   "title": "India per capita GDP estimated below Bangladesh in 2026 : IMF",
+   "published_at": "2026-10-16T18:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9593
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Treasury dismisses IMF debt alarm as US yields hold above 5 %",
+   "source": "mpamag.com",
+   "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/treasury-dismisses-imf-debt-alarm-as-us-yields-hold-above-5/593909",
+   "at": "2026-10-16T21:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "India per capita GDP estimated below Bangladesh in 2026 : IMF",
+   "source": "scroll.in",
+   "url": "https://scroll.in/latest/1096462/indias-per-capita-gdp-estimated-below-bangladesh-in-2026-imf",
+   "at": "2026-10-16T18:30:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-10-17T19:37:20.698354+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [],
+   "headlines": [
+    "Treasury dismisses IMF debt alarm as US yields hold above 5 %",
+    "India per capita GDP estimated below Bangladesh in 2026 : IMF"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\"title\": \"미국 국채 금리 5% 상회\", \"one_liner\": \"미국 국채 금리가 5%를 넘어서고 있어요.\", \"why_now\": \"국채 금리는 나라의 빚에 대한 이자율로, 경제 상황을 보여주는 중요한 지표예요.\", \"impact_line\": \"대출 이자나 주택 구매 비용이 오를 수 있어요.\", \"details\": [\"미국 국채 금리가 5% 이상을 유지하고 있어요.\", \"국제통화기금(IMF)은 이러한 상황에 대해 우려를 표했어요.\", \"하지만 미국 재무부는 IMF의 경고를 일축했어요.\"], \"visual_type\": \"none\", \"effects\": [\"미국 국채 금리가 오르면 전 세계 금융 시장에 영향을 줄 수 있어요!\", \"한국의 대출 금리도 함께 오를 가능성이 있어요!\"], \"glossary\": [{\"term\": \"국채 금리\", \"easy\": \"나라가 돈을 빌릴 때 지불하는 이자율이에요.\", \"example\": \"국채 금리가 오르면 나라의 이자 부담이 늘어나요.\"}, {\"term\": \"미국 재무부\", \"easy\": \"미국 정부에서 돈을 관리하고 경제 정책을 담당하는 부서예요.\", \"example\": \"미국 재무부는 국채를 발행해 나라 살림에 필요한 돈을 마련해요.\"}, {\"term\": \"국제통화기금(IMF)\", \"easy\": \"나라들이 돈을 빌려주거나 경제 위기를 돕는 국제기구예요.\", \"example\": \"IMF는 경제가 어려운 나라에 돈을 빌려주고 정책 조언을 하기도 해요.\"}], \"market_sentiment\": \"negative\"}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "title 22자 초과(24)",
+     "one_liner 50자 초과(55)",
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "미국 국채 금리 5% 상회",
+   "one_liner": "미국 국채 금리가 5%를 넘어서고 있어요.",
+   "why_now": "국채 금리는 나라의 빚에 대한 이자율로, 경제 상황을 보여주는 중요한 지표예요.",
+   "details": [
+    "미국 국채 금리가 5% 이상을 유지하고 있어요.",
+    "국제통화기금(IMF)은 이러한 상황에 대해 우려를 표했어요.",
+    "하지만 미국 재무부는 IMF의 경고를 일축했어요."
+   ],
+   "effects": [
+    "미국 국채 금리가 오르면 전 세계 금융 시장에 영향을 줄 수 있어요!",
+    "한국의 대출 금리도 함께 오를 가능성이 있어요!"
+   ],
+   "visual_type": "none"
+  },
+  "fact_hash": "f5d321dbd174cdd3b3e0ed6c03ff619c34ab3bc8"
+ },
+ "review": null,
+ "glossary": [
+  {
+   "term": "국채 금리",
+   "easy": "정부가 빌린 돈에 붙는 이자의 비율이에요.",
+   "example": "시장 전체 이자의 대표 잣대예요."
+  }
+ ],
+ "related": [
+  {
+   "id": "ecabd23b6c6ee6016",
+   "title": "한국 소비자물가 2026-09 발표",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "cbf66110ffec6be2e",
+   "title": "RivCo Jobless Rate Sinks in September",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c525c3aa6aa200ba8",
+   "title": "Coca - Cola ( KO ): Is Zero Sugar Creating New Demand or Shifting Existing Sales ?",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "e57ab9b464cbfb0a3",
+   "title": "미국 CPI 2026-09 발표",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}

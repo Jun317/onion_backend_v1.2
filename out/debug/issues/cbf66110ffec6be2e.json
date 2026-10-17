@@ -1,0 +1,118 @@
+{
+ "id": "cbf66110ffec6be2e",
+ "title": "RivCo Jobless Rate Sinks in September",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 90,
+ "created_at": "2026-10-17T19:37:13.102312+00:00",
+ "last_update": "2026-10-17T19:37:13.121733+00:00",
+ "members": [
+  {
+   "id": "a7fbaa77adbf83f254073e22a3cc6d56de63293e",
+   "source": "gazette.com",
+   "tier": "wire",
+   "url": "https://gazette.com/2026/10/16/colorado-adds-2400-jobs-in-september-but-unemployment-rate-inches-up-5/",
+   "title": "Colorado adds jobs in September , but unemployment rate rises",
+   "published_at": "2026-10-17T04:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9723
+  },
+  {
+   "id": "3f27aeb06a559cdb294535ab730c8130c329c4dc",
+   "source": "mynewsla.com",
+   "tier": "wire",
+   "url": "https://mynewsla.com/business/2026/10/16/riverside-countys-jobless-rate-sinks-in-september/",
+   "title": "RivCo Jobless Rate Sinks in September",
+   "published_at": "2026-10-16T21:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9723
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Colorado adds jobs in September , but unemployment rate rises",
+   "source": "gazette.com",
+   "url": "https://gazette.com/2026/10/16/colorado-adds-2400-jobs-in-september-but-unemployment-rate-inches-up-5/",
+   "at": "2026-10-17T04:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "RivCo Jobless Rate Sinks in September",
+   "source": "mynewsla.com",
+   "url": "https://mynewsla.com/business/2026/10/16/riverside-countys-jobless-rate-sinks-in-september/",
+   "at": "2026-10-16T21:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-10-17T19:38:19.493375+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [],
+   "headlines": [
+    "Colorado adds jobs in September , but unemployment rate rises",
+    "RivCo Jobless Rate Sinks in September"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Colorado adds jobs…",
+   "one_liner": "Colorado adds jobs in September , but…",
+   "why_now": null,
+   "details": [
+    "Colorado adds jobs in September , but unemployment rate rises",
+    "RivCo Jobless Rate Sinks in September"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "413996b00cb7a54c5cc0c8d9e273b4c88ed2f71e"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-10-17T19:38:19.493316+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c86211e5eb6e624b2",
+   "title": "India per capita GDP estimated below Bangladesh in 2026 : IMF",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "ecabd23b6c6ee6016",
+   "title": "한국 소비자물가 2026-09 발표",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c525c3aa6aa200ba8",
+   "title": "Coca - Cola ( KO ): Is Zero Sugar Creating New Demand or Shifting Existing Sales ?",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "e57ab9b464cbfb0a3",
+   "title": "미국 CPI 2026-09 발표",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}

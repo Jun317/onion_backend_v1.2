@@ -1,0 +1,130 @@
+{
+ "id": "ecd9d92bec90d6c79",
+ "title": "미 연준 기준금리 변동 (3.88%)",
+ "category": "RATE",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "Fed|RATE|2026-09",
+ "entity_keys": [
+  "FED"
+ ],
+ "seen_sources": 0,
+ "importance": 150,
+ "created_at": "2026-09-18T22:25:36.268309+00:00",
+ "last_update": "2026-10-17T19:36:59.897321+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "Fed",
+   "metric": "기준금리",
+   "value": 3.88,
+   "unit": "%",
+   "prev": 3.63,
+   "period": "2026-09",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-09-18T22:25:36.268309+00:00"
+  },
+  {
+   "entity": "Fed",
+   "metric": "변동폭",
+   "value": 25.0,
+   "unit": "bp",
+   "prev": null,
+   "period": "2026-09",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-09-18T22:25:36.268309+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "FRED DFF 2026-09-17 = 3.88",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/DFF",
+   "at": "2026-09-18T22:25:36.268309+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-10-17T19:37:15.210645+00:00",
+  "payload": {
+   "category": "RATE",
+   "anchors": [
+    {
+     "entity": "Fed",
+     "metric": "기준금리",
+     "value": 3.88,
+     "unit": "%",
+     "prev": 3.63,
+     "period": "2026-09",
+     "source": "FRED"
+    },
+    {
+     "entity": "Fed",
+     "metric": "변동폭",
+     "value": 25.0,
+     "unit": "bp",
+     "prev": null,
+     "period": "2026-09",
+     "source": "FRED"
+    }
+   ],
+   "headlines": [
+    "미 연준 기준금리 변동 (3.88%)"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미국 기준금리 인상\",\n  \"one_liner\": \"미국 중앙은행이 기준금리를 0.25%p 올려 연 3.88%가 됐어요.\",\n  \"why_now\": \"금리가 오르면 돈을 빌리는 비용이 커져 경제 활동이 위축될 수 있어요.\",\n  \"impact_line\": \"대출 이자 부담이 늘어날 수 있어요.\",\n  \"details\": [\n    \"미국 중앙은행이 기준금리를 0.25%p 인상했어요.\",\n    \"새로운 기준금리는 연 3.88%예요.\",\n    \"이전 기준금리는 연 3.63%였어요.\"\n  ],\n  \"visual_type\": \"us_policy_rate\",\n  \"effects\": [\n    \"은행 대출 금리가 오르고, 기업의 투자 비용이 늘어날 수 있어요!\",\n    \"달러 가치가 오르면 해외여행이나 직구 비용이 비싸질 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"기준금리\",\n      \"easy\": \"중앙은행이 정하는 나라의 기본 이자율이에요.\",\n      \"example\": \"기준금리가 오르면 대출 이자도 보통 따라 올라요.\"\n    },\n    {\n      \"term\": \"bp\",\n      \"easy\": \"기준금리나 국채 금리 같은 금융 시장의 변화 정도를 나타내는 단위예요. 1bp는 0.01%를 뜻해요.\",\n      \"example\": \"금리가 1bp 오르면 0.01%p 오르는 거예요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "미국 기준금리 인상",
+   "one_liner": "미국 중앙은행이 기준금리를 0.25%p 올려 연 3.88%가 됐어요.",
+   "why_now": "금리가 오르면 돈을 빌리는 비용이 커져 경제 활동이 위축될 수 있어요.",
+   "details": [
+    "미국 중앙은행이 기준금리를 0.25%p 인상했어요.",
+    "새로운 기준금리는 연 3.88%예요.",
+    "이전 기준금리는 연 3.63%였어요."
+   ],
+   "effects": [
+    "은행 대출 금리가 오르고, 기업의 투자 비용이 늘어날 수 있어요!",
+    "달러 가치가 오르면 해외여행이나 직구 비용이 비싸질 수 있어요!"
+   ],
+   "visual_type": "us_policy_rate"
+  },
+  "fact_hash": "5a5fe0c84445fdca69bcc8d82f7bbd6bf1c22051"
+ },
+ "review": null,
+ "glossary": [
+  {
+   "term": "기준금리",
+   "easy": "나라 전체 이자의 '기준점'이 되는 값이에요.",
+   "example": "이게 오르면 내 대출 이자도 대체로 같이 올라요."
+  },
+  {
+   "term": "중앙은행",
+   "easy": "나라의 돈을 관리하고 이자율을 정하는 특별한 은행이에요.",
+   "example": "우리나라는 한국은행, 미국은 연준이 여기예요."
+  },
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
+ "related": [
+  {
+   "id": "c3009119f887a68be",
+   "title": "Voluntary Provident Fund : Should you invest beyond EPF ? Interest rates , tax rules and the ₹2 . 5 lakh limit explained",
+   "category": "RATE",
+   "shared": []
+  }
+ ]
+}
