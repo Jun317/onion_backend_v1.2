@@ -1,0 +1,93 @@
+{
+ "id": "ccd3ddb30f58a31bd",
+ "title": "Wall Street closes lower on AI trade concerns",
+ "category": "COMMODITY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 70,
+ "created_at": "2026-10-24T12:48:02.605322+00:00",
+ "last_update": "2026-10-24T12:48:02.611140+00:00",
+ "members": [
+  {
+   "id": "09b6d9c6b738853a7f5b1d5cb0042b3af0a59f5f",
+   "source": "krcgtv.com",
+   "tier": "wire",
+   "url": "https://krcgtv.com/news/nation-world/wall-street-loses-ground-under-pressure-from-rising-oil-prices",
+   "title": "Wall Street loses ground under pressure from rising oil prices",
+   "published_at": "2026-10-23T23:30:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.969
+  },
+  {
+   "id": "6b1bb6b6b68ae5889be21fffc09de3044242a05d",
+   "source": "straitstimes.com",
+   "tier": "wire",
+   "url": "https://www.straitstimes.com/business/companies-markets/wall-street-closes-lower-to-end-rocky-week",
+   "title": "Wall Street closes lower on AI trade concerns",
+   "published_at": "2026-10-23T23:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.969
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Wall Street loses ground under pressure from rising oil prices",
+   "source": "krcgtv.com",
+   "url": "https://krcgtv.com/news/nation-world/wall-street-loses-ground-under-pressure-from-rising-oil-prices",
+   "at": "2026-10-23T23:30:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Wall Street closes lower on AI trade concerns",
+   "source": "straitstimes.com",
+   "url": "https://www.straitstimes.com/business/companies-markets/wall-street-closes-lower-to-end-rocky-week",
+   "at": "2026-10-23T23:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-10-24T12:50:00.766842+00:00",
+  "payload": {
+   "category": "COMMODITY",
+   "anchors": [],
+   "headlines": [
+    "Wall Street loses ground under pressure from rising oil prices",
+    "Wall Street closes lower on AI trade concerns"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Wall Street loses…",
+   "one_liner": "Wall Street loses ground under pressure from…",
+   "why_now": null,
+   "details": [
+    "Wall Street loses ground under pressure from rising oil prices",
+    "Wall Street closes lower on AI trade concerns"
+   ],
+   "effects": [],
+   "visual_type": "wti"
+  },
+  "fact_hash": "500933013130152656147f8438e431250186a0ab"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-10-24T12:50:00.766733+00:00"
+ },
+ "glossary": [],
+ "related": []
+}

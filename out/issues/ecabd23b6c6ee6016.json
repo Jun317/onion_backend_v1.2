@@ -1,0 +1,97 @@
+{
+ "id": "ecabd23b6c6ee6016",
+ "title": "한국 소비자물가 소폭 상승",
+ "one_liner": "한국의 소비자물가가 120.43으로 소폭 올랐어요.",
+ "why_now": "물가가 오르면 우리가 사는 데 필요한 물건들의 가격이 올라 부담이 커질 수 있어요.",
+ "impact_line": "장바구니 물가가 조금 더 오를 수 있어요.",
+ "raw_title": "한국 소비자물가 2026-09 발표",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "official_event",
+ "sources": 0,
+ "importance": 115,
+ "last_update": "2026-10-24T12:47:52.181831+00:00",
+ "event_at": "2026-10-03T23:41:37.871467+00:00",
+ "has_visual": true,
+ "headline_stat": {
+  "label": "KR 소비자물가지수",
+  "value": "120.43",
+  "unit": "",
+  "delta_text": "+0.38",
+  "direction": "up",
+  "prev_text": "직전 120.05"
+ },
+ "spark": null,
+ "icon": "🌡️",
+ "details": [
+  "한국의 소비자물가지수가 120.43으로 집계됐어요.",
+  "지난달 소비자물가지수는 120.05였어요.",
+  "이번 달 소비자물가지수는 지난달보다 올랐어요."
+ ],
+ "effects": [
+  "물가가 계속 오르면 실질 소득이 줄어들어 가계의 구매력이 약해질 수 있어요!",
+  "물가 상승이 계속되면 중앙은행이 금리를 올릴 가능성이 있어 대출 이자 부담이 커질 수 있어요!"
+ ],
+ "model": "gemini-2.5-flash-lite",
+ "visual": {
+  "type": "kr_cpi_yoy",
+  "chart": "line",
+  "title": "한국 소비자물가 상승률 YoY (최근 3년)",
+  "unit": "%",
+  "source": "한국은행 ECOS",
+  "series": [
+   {
+    "t": "2026-09",
+    "v": 2.88
+   }
+  ]
+ },
+ "anchors": [
+  {
+   "entity": "KR",
+   "metric": "소비자물가지수",
+   "value": 120.43,
+   "unit": "",
+   "prev": 120.05,
+   "period": "2026-09",
+   "source": "ECOS"
+  }
+ ],
+ "headlines": [],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "ECOS 소비자물가 202609 신규 관측",
+   "source": "ECOS",
+   "url": "https://ecos.bok.or.kr",
+   "at": "2026-10-03T23:41:37.871467+00:00"
+  }
+ ],
+ "glossary": [
+  {
+   "term": "소비자물가",
+   "easy": "우리가 사는 물건·서비스 값이 오른 정도예요.",
+   "example": "오르면 같은 돈으로 살 수 있는 게 줄어요."
+  },
+  {
+   "term": "소비자물가지수",
+   "easy": "우리 생활과 밀접한 물건들의 가격 변화를 나타내는 지수예요.",
+   "example": "채소값, 기름값 등 생활 물가가 오르면 소비자물가지수도 올라요."
+  }
+ ],
+ "related": [
+  {
+   "id": "c33f6a71977f95ef4",
+   "title": "Inflation at the cinema : Movie runtimes are getting longer",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "e57ab9b464cbfb0a3",
+   "title": "미국 CPI 2026-09 발표",
+   "category": "MACRO",
+   "shared": []
+  }
+ ],
+ "created_at": "2026-10-03T23:41:37.871467+00:00"
+}

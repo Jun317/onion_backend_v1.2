@@ -1,0 +1,106 @@
+{
+ "id": "e57ab9b464cbfb0a3",
+ "title": "미국 CPI 2026-09 발표",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "US|MACRO|2026-09",
+ "entity_keys": [
+  "US"
+ ],
+ "seen_sources": 0,
+ "importance": 90,
+ "created_at": "2026-10-14T14:57:36.478050+00:00",
+ "last_update": "2026-10-24T12:47:52.182079+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "US",
+   "metric": "CPI(YoY%)",
+   "value": 3.71725,
+   "unit": "%",
+   "prev": null,
+   "period": "2026-09",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-10-14T14:57:36.478050+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "FRED CPIAUCSL 2026-09-01 신규 관측",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+   "at": "2026-10-14T14:57:36.478050+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-10-24T12:48:38.726756+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [
+    {
+     "entity": "US",
+     "metric": "CPI(YoY%)",
+     "value": 3.71725,
+     "unit": "%",
+     "prev": null,
+     "period": "2026-09",
+     "source": "FRED"
+    }
+   ],
+   "headlines": [
+    "미국 CPI 2026-09 발표"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "US CPI(YoY%) 3.71725%",
+   "one_liner": "US CPI(YoY%) 3.71725%로 발표됐어요",
+   "why_now": null,
+   "details": [
+    "US CPI(YoY%): 3.71725%"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "25944093da7930ed4f6e48942497b9eb28f9f5bb"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-10-24T12:48:38.726655+00:00"
+ },
+ "glossary": [
+  {
+   "term": "CPI",
+   "easy": "물가가 얼마나 올랐는지 보여주는 대표 성적표예요.",
+   "example": "높으면 생활비 부담이 커진 거예요."
+  }
+ ],
+ "related": [
+  {
+   "id": "ecabd23b6c6ee6016",
+   "title": "한국 소비자물가 2026-09 발표",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "c33f6a71977f95ef4",
+   "title": "Inflation at the cinema : Movie runtimes are getting longer",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}
