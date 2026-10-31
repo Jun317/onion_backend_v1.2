@@ -1,0 +1,99 @@
+{
+ "id": "e57ab9b464cbfb0a3",
+ "title": "미국 CPI 2026-09 발표",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "US|MACRO|2026-09",
+ "entity_keys": [
+  "US"
+ ],
+ "seen_sources": 0,
+ "importance": 90,
+ "created_at": "2026-10-14T14:57:36.478050+00:00",
+ "last_update": "2026-10-31T18:40:02.544995+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "US",
+   "metric": "CPI(YoY%)",
+   "value": 3.71725,
+   "unit": "%",
+   "prev": null,
+   "period": "2026-09",
+   "source": "FRED",
+   "trust": "official",
+   "observed_at": "2026-10-14T14:57:36.478050+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "FRED CPIAUCSL 2026-09-01 신규 관측",
+   "source": "FRED",
+   "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+   "at": "2026-10-14T14:57:36.478050+00:00"
+  }
+ ],
+ "llm": {
+  "model": "gemini-2.5-flash-lite",
+  "created_at": "2026-10-31T18:40:30.762737+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [
+    {
+     "entity": "US",
+     "metric": "CPI(YoY%)",
+     "value": 3.71725,
+     "unit": "%",
+     "prev": null,
+     "period": "2026-09",
+     "source": "FRED"
+    }
+   ],
+   "headlines": [
+    "미국 CPI 2026-09 발표"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"미국 물가 상승률 발표\",\n  \"one_liner\": \"미국 소비자 물가가 3.7% 올랐어요.\",\n  \"why_now\": \"물가 상승률은 금리 결정에 큰 영향을 미쳐요. 금리가 오르면 대출 이자가 늘어날 수 있어요.\",\n  \"impact_line\": \"금리가 오르면 대출 이자 부담이 커질 수 있어요.\",\n  \"details\": [\n    \"미국의 소비자 물가 상승률이 3.7%로 발표됐어요.\",\n    \"이 수치는 작년 같은 기간 대비 상승률이에요.\",\n    \"이전 수치는 공개되지 않았어요.\"\n  ],\n  \"visual_type\": \"us_cpi_yoy\",\n  \"effects\": [\n    \"물가 상승률이 예상보다 높으면, 금리가 오를 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"CPI\",\n      \"easy\": \"소비자들이 많이 사는 물건과 서비스의 가격이 얼마나 올랐는지 보여주는 지표예요.\",\n      \"example\": \"CPI가 오르면 장바구니 물가가 비싸지는 것을 의미해요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": []
+   }
+  ],
+  "output": {
+   "title": "미국 물가 상승률 발표",
+   "one_liner": "미국 소비자 물가가 3.7% 올랐어요.",
+   "why_now": "물가 상승률은 금리 결정에 큰 영향을 미쳐요. 금리가 오르면 대출 이자가 늘어날 수 있어요.",
+   "details": [
+    "미국의 소비자 물가 상승률이 3.7%로 발표됐어요.",
+    "이 수치는 작년 같은 기간 대비 상승률이에요.",
+    "이전 수치는 공개되지 않았어요."
+   ],
+   "effects": [
+    "물가 상승률이 예상보다 높으면, 금리가 오를 수 있어요!"
+   ],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "25944093da7930ed4f6e48942497b9eb28f9f5bb"
+ },
+ "review": null,
+ "glossary": [
+  {
+   "term": "금리",
+   "easy": "돈을 빌리거나 맡길 때 붙는 이자의 비율이에요.",
+   "example": "높을수록 이자를 더 내거나 더 받아요."
+  }
+ ],
+ "related": [
+  {
+   "id": "ecabd23b6c6ee6016",
+   "title": "한국 소비자물가 2026-09 발표",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}
