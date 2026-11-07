@@ -1,0 +1,106 @@
+{
+ "id": "ceb2abec3865d05c5",
+ "title": "Trump Appoints Stephen Miller as White House Chief of Staff",
+ "category": "POLICY",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 80,
+ "created_at": "2026-11-07T15:47:28.038094+00:00",
+ "last_update": "2026-11-07T15:47:28.040040+00:00",
+ "members": [
+  {
+   "id": "be08d7830d1b0108aecd72b1bfe5e4b16fa88e58",
+   "source": "thewrap.com",
+   "tier": "wire",
+   "url": "https://www.thewrap.com/media-platforms/politics/trump-replaces-susie-wiles-stephen-miller-chief-of-staff/",
+   "title": "Trump Replaces Susie Wiles With Stephen Miller as White House Chief of Staff",
+   "published_at": "2026-11-07T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9882
+  },
+  {
+   "id": "ddd095fead4888af7ef29e67f3b841c88c0f622a",
+   "source": "bgnes.com",
+   "tier": "wire",
+   "url": "http://www.bgnes.com/politics/trump-appoints-stephen-miller-as-white-house-chief-of-staff",
+   "title": "Trump Appoints Stephen Miller as White House Chief of Staff",
+   "published_at": "2026-11-07T00:00:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9882
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Trump Appoints Stephen Miller as White House Chief of Staff",
+   "source": "bgnes.com",
+   "url": "http://www.bgnes.com/politics/trump-appoints-stephen-miller-as-white-house-chief-of-staff",
+   "at": "2026-11-07T00:00:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "Trump Replaces Susie Wiles With Stephen Miller as White House Chief of Staff",
+   "source": "thewrap.com",
+   "url": "https://www.thewrap.com/media-platforms/politics/trump-replaces-susie-wiles-stephen-miller-chief-of-staff/",
+   "at": "2026-11-07T00:00:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-11-07T15:48:18.291232+00:00",
+  "payload": {
+   "category": "POLICY",
+   "anchors": [],
+   "headlines": [
+    "Trump Replaces Susie Wiles With Stephen Miller as White House Chief of Staff",
+    "Trump Appoints Stephen Miller as White House Chief of Staff"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n\"title\": \"트럼프 비서실장 교체\",\n\"one_liner\": \"트럼프 전 대통령이 백악관 비서실장을 교체했어요.\",\n\"why_now\": \"백악관 비서실장은 대통령의 일정을 관리하고 참모들을 지휘하는 중요한 자리예요.\",\n\"impact_line\": \"트럼프 전 대통령의 정책 방향에 변화가 생길 수 있어요.\",\n\"details\": [\n\"트럼프 전 대통령이 신임 비서실장으로 스티븐 밀러를 임명했어요.\",\n\"이전 비서실장이었던 수지 와일스는 교체되었어요.\"\n],\n\"visual_type\": \"none\",\n\"effects\": [\n\"새 비서실장은 트럼프 전 대통령의 정책 추진에 영향을 줄 수 있어요!\",\n\"새로운 비서실장의 임명으로 백악관의 운영 방식에 변화가 예상돼요!\"\n],\n\"glossary\": [\n{\n\"term\": \"백악관 비서실장\",\n\"easy\": \"대통령의 일정을 관리하고 참모들을 지휘하는 비서실의 최고 책임자예요.\",\n\"example\": \"백악관 비서실장은 대통령의 최측근으로 꼽혀요.\"\n}\n]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Trump Replaces Susie…",
+   "one_liner": "Trump Replaces Susie Wiles With Stephen Miller…",
+   "why_now": null,
+   "details": [
+    "Trump Replaces Susie Wiles With Stephen Miller as White House Chief of Staff",
+    "Trump Appoints Stephen Miller as White House Chief of Staff"
+   ],
+   "effects": [],
+   "visual_type": "none"
+  },
+  "fact_hash": "7b74b7446525fd873859fa300fc4b5ccca33f815"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\"]}]}",
+  "at": "2026-11-07T15:48:18.291176+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "c86e68a88f2876be3",
+   "title": "CBSE Class 10 Social Science Pre - Board Sample Paper 2026 - 27 with Solutions",
+   "category": "POLICY",
+   "shared": []
+  }
+ ]
+}
