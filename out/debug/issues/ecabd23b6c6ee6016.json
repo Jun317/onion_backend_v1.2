@@ -1,0 +1,128 @@
+{
+ "id": "ecabd23b6c6ee6016",
+ "title": "한국 소비자물가 2026-09 발표",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "KR|MACRO|2026-09",
+ "entity_keys": [
+  "V"
+ ],
+ "seen_sources": 0,
+ "importance": 115,
+ "created_at": "2026-10-03T23:41:37.871467+00:00",
+ "last_update": "2026-11-14T06:46:08.182781+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "KR",
+   "metric": "소비자물가지수",
+   "value": 120.73,
+   "unit": "",
+   "prev": 120.43,
+   "period": "2026-10",
+   "source": "ECOS",
+   "trust": "official",
+   "observed_at": "2026-11-04T02:09:04.993723+00:00"
+  },
+  {
+   "entity": "KR",
+   "metric": "소비자물가지수",
+   "value": 120.43,
+   "unit": "",
+   "prev": 120.05,
+   "period": "2026-09",
+   "source": "ECOS",
+   "trust": "official",
+   "observed_at": "2026-10-03T23:41:37.871467+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "ECOS 소비자물가 202610 신규 관측",
+   "source": "ECOS",
+   "url": "https://ecos.bok.or.kr",
+   "at": "2026-11-04T02:09:04.993723+00:00"
+  },
+  {
+   "kind": "official",
+   "title": "ECOS 소비자물가 202609 신규 관측",
+   "source": "ECOS",
+   "url": "https://ecos.bok.or.kr",
+   "at": "2026-10-03T23:41:37.871467+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-11-14T06:46:20.364745+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [
+    {
+     "entity": "KR",
+     "metric": "소비자물가지수",
+     "value": 120.73,
+     "unit": "",
+     "prev": 120.43,
+     "period": "2026-10",
+     "source": "ECOS"
+    },
+    {
+     "entity": "KR",
+     "metric": "소비자물가지수",
+     "value": 120.43,
+     "unit": "",
+     "prev": 120.05,
+     "period": "2026-09",
+     "source": "ECOS"
+    }
+   ],
+   "headlines": [
+    "한국 소비자물가 2026-09 발표"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "KR 소비자물가지수 120.73",
+   "one_liner": "KR 소비자물가지수가 120.43에서 120.73로 바뀌었어요",
+   "why_now": null,
+   "details": [
+    "KR 소비자물가지수: 120.73 (직전 120.43)",
+    "KR 소비자물가지수: 120.43 (직전 120.05)"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "a11591ce8df2f61e8ce80c150f9dbeae4b481c0d"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-11-14T06:46:20.364608+00:00"
+ },
+ "glossary": [
+  {
+   "term": "소비자물가",
+   "easy": "우리가 사는 물건·서비스 값이 오른 정도예요.",
+   "example": "오르면 같은 돈으로 살 수 있는 게 줄어요."
+  }
+ ],
+ "related": [
+  {
+   "id": "e57ab9b464cbfb0a3",
+   "title": "미국 CPI 2026-09 발표",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}
