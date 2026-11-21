@@ -1,0 +1,104 @@
+{
+ "id": "e539619d6ec3c4fe2",
+ "title": "KB금융 2026-3Q 실적 공시",
+ "category": "EARNINGS",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "KB금융|EARNINGS|2026-3Q",
+ "entity_keys": [
+  "KRX:105560"
+ ],
+ "seen_sources": 0,
+ "importance": 75,
+ "created_at": "2026-11-16T10:48:16.363350+00:00",
+ "last_update": "2026-11-21T11:27:10.023581+00:00",
+ "members": [],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "KB금융 분기보고서 (2026.09)",
+   "source": "DART",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002225",
+   "at": "2026-11-16T10:48:16.363350+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-11-21T11:28:10.588115+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [],
+   "headlines": [
+    "KB금융 2026-3Q 실적 공시"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n\"title\": \"KB금융 실적 공시\",\n\"one_liner\": \"KB금융이 2026년 3분기 실적을 발표했어요.\",\n\"why_now\": \"기업의 실적 발표는 회사의 현재 성과와 미래 전망을 보여주는 중요한 지표예요.\",\n\"impact_line\": null,\n\"details\": [\n\"KB금융은 2026년 3분기 실적을 공시했어요.\"\n],\n\"visual_type\": \"earnings_quarterly\",\n\"effects\": [],\n\"glossary\": [],\n\"impact_line\": null\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects 1~2문장 아님"
+    ]
+   }
+  ],
+  "output": {
+   "title": "KB금융 2026-3Q 실적 공시",
+   "one_liner": "KB금융 2026-3Q 실적 공시",
+   "why_now": null,
+   "details": [
+    "KB금융 2026-3Q 실적 공시"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "113b5f3eb1a53d5095bd6bcf187bb9d0987fd581"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects 1~2문장 아님\"]}]}",
+  "at": "2026-11-21T11:28:10.588067+00:00"
+ },
+ "glossary": [],
+ "related": [
+  {
+   "id": "e70d939c9f402843b",
+   "title": "신한은행 2026-2Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "edf774b1337720d05",
+   "title": "메타넷디지털 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "e71bfc6a5e31b7b91",
+   "title": "HLB글로벌 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "e240ed385b78e8cac",
+   "title": "SK증권제12호스팩 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "e6f1836eb55eb5245",
+   "title": "삼성SDI 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  }
+ ]
+}

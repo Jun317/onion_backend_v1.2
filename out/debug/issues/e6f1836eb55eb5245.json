@@ -1,0 +1,154 @@
+{
+ "id": "e6f1836eb55eb5245",
+ "title": "삼성SDI 2026-3Q 실적 공시",
+ "category": "EARNINGS",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "삼성SDI|EARNINGS|2026-3Q",
+ "entity_keys": [
+  "KRX:006400"
+ ],
+ "seen_sources": 0,
+ "importance": 75,
+ "created_at": "2026-11-16T10:48:12.671045+00:00",
+ "last_update": "2026-11-21T11:27:10.023722+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "삼성SDI",
+   "metric": "매출액",
+   "value": 35763.5,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-11-16T10:48:12.671045+00:00"
+  },
+  {
+   "entity": "삼성SDI",
+   "metric": "영업이익",
+   "value": -1555.8,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-11-16T10:48:12.671045+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "삼성SDI 분기보고서 (2026.09)",
+   "source": "DART",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002248",
+   "at": "2026-11-16T10:48:12.671045+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-11-21T11:27:58.612576+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [
+    {
+     "entity": "삼성SDI",
+     "metric": "매출액",
+     "value": 35763.5,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "삼성SDI",
+     "metric": "영업이익",
+     "value": -1555.8,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    }
+   ],
+   "headlines": [
+    "삼성SDI 2026-3Q 실적 공시"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"삼성SDI 1분기 실적\",\n  \"one_liner\": \"삼성SDI의 1분기 매출액은 3조 5763억 원, 영업이익은 1555억 원 손실이었어요.\",\n  \"why_now\": \"기업의 실적은 앞으로의 성장 가능성을 보여주는 중요한 지표가 될 수 있어요.\",\n  \"impact_line\": \"삼성SDI 주가에 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"삼성SDI의 2026년 1분기 매출액은 35763.5억 원이에요.\",\n    \"삼성SDI의 2026년 1분기 영업이익은 1555.8억 원 손실이에요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"매출은 늘었지만 이익이 줄어, 앞으로 수익성을 개선할 수 있을지 주목해야 할 것으로 보여요!\",\n    \"투자자들은 삼성SDI의 향후 실적 전망을 보며 주가 움직임을 예상할 수 있어요.\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"매출액\",\n      \"easy\": \"기업이 물건을 팔거나 서비스를 제공해서 벌어들인 돈이에요.\",\n      \"example\": \"이번 달 가게 매출액이 지난달보다 늘었어요.\"\n    },\n    {\n      \"term\": \"영업이익\",\n      \"easy\": \"기업이 주된 사업을 해서 얻은 이익이에요. 매출에서 비용을 뺀 금액이에요.\",\n      \"example\": \"영업이익이 늘면 회사가 사업을 잘하고 있다는 뜻이에요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 50자 초과(57)",
+     "입력에 없는 숫자: [1555.0, 5763.0]"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "details 3문장 미만",
+     "effects[1] 느낌표 종결 아님",
+     "입력에 없는 숫자: [1555.0, 5763.0]"
+    ]
+   }
+  ],
+  "output": {
+   "title": "삼성SDI 매출액 35763.5억원",
+   "one_liner": "삼성SDI 매출액 35763.5억원으로 발표됐어요",
+   "why_now": null,
+   "details": [
+    "삼성SDI 매출액: 35763.5억원",
+    "삼성SDI 영업이익: -1555.8억원"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "2eb3158de0ba88525abf47b69f7bbc5aa3093e32"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(57)\", \"입력에 없는 숫자: [1555.0, 5763.0]\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"details 3문장 미만\", \"effects[1] 느낌표 종결 아님\", \"입력에 없는 숫자: [1555.0, 5763.0]\"]}]}",
+  "at": "2026-11-21T11:27:58.612524+00:00"
+ },
+ "glossary": [
+  {
+   "term": "영업이익",
+   "easy": "기업이 본업으로 벌어들인 이익이에요.",
+   "example": "장사를 잘했는지 보는 핵심 숫자예요."
+  }
+ ],
+ "related": [
+  {
+   "id": "e70d939c9f402843b",
+   "title": "신한은행 2026-2Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "edf774b1337720d05",
+   "title": "메타넷디지털 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "e71bfc6a5e31b7b91",
+   "title": "HLB글로벌 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "e240ed385b78e8cac",
+   "title": "SK증권제12호스팩 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "e539619d6ec3c4fe2",
+   "title": "KB금융 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  }
+ ]
+}

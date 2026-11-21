@@ -1,0 +1,145 @@
+{
+ "id": "edf12ece6870f95a3",
+ "title": "HMM 2026-3Q 실적 공시",
+ "category": "EARNINGS",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "HMM|EARNINGS|2026-3Q",
+ "entity_keys": [
+  "KRX:011200"
+ ],
+ "seen_sources": 0,
+ "importance": 75,
+ "created_at": "2026-11-12T07:33:58.029015+00:00",
+ "last_update": "2026-11-21T11:27:10.020366+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "HMM",
+   "metric": "매출액",
+   "value": 27187.3,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-11-12T07:33:58.029015+00:00"
+  },
+  {
+   "entity": "HMM",
+   "metric": "영업이익",
+   "value": 2690.9,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-11-12T07:33:58.029015+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "HMM 분기보고서 (2026.09)",
+   "source": "DART",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000381",
+   "at": "2026-11-12T07:33:58.029015+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-11-21T11:29:11.165169+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [
+    {
+     "entity": "HMM",
+     "metric": "매출액",
+     "value": 27187.3,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "HMM",
+     "metric": "영업이익",
+     "value": 2690.9,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    }
+   ],
+   "headlines": [
+    "HMM 2026-3Q 실적 공시"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "HMM 매출액 27187.3억원",
+   "one_liner": "HMM 매출액 27187.3억원으로 발표됐어요",
+   "why_now": null,
+   "details": [
+    "HMM 매출액: 27187.3억원",
+    "HMM 영업이익: 2690.9억원"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "45834486c62b1dcca6dbbab7d6857c8d25179462"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-11-21T11:29:11.165069+00:00"
+ },
+ "glossary": [
+  {
+   "term": "영업이익",
+   "easy": "기업이 본업으로 벌어들인 이익이에요.",
+   "example": "장사를 잘했는지 보는 핵심 숫자예요."
+  }
+ ],
+ "related": [
+  {
+   "id": "e70d939c9f402843b",
+   "title": "신한은행 2026-2Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "edf774b1337720d05",
+   "title": "메타넷디지털 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "e71bfc6a5e31b7b91",
+   "title": "HLB글로벌 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "e240ed385b78e8cac",
+   "title": "SK증권제12호스팩 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "e6f1836eb55eb5245",
+   "title": "삼성SDI 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  }
+ ]
+}

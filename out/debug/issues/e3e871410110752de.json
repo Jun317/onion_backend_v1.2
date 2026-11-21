@@ -1,0 +1,152 @@
+{
+ "id": "e3e871410110752de",
+ "title": "카카오페이 2026-3Q 실적 공시",
+ "category": "EARNINGS",
+ "status": "active",
+ "origin": "official_event",
+ "frozen": 1,
+ "anchor_key": "카카오페이|EARNINGS|2026-3Q",
+ "entity_keys": [
+  "KRX:035720"
+ ],
+ "seen_sources": 0,
+ "importance": 75,
+ "created_at": "2026-11-12T16:40:24.679731+00:00",
+ "last_update": "2026-11-21T11:27:10.021608+00:00",
+ "members": [],
+ "anchors": [
+  {
+   "entity": "카카오페이",
+   "metric": "매출액",
+   "value": 3002.9,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-11-12T16:40:24.679731+00:00"
+  },
+  {
+   "entity": "카카오페이",
+   "metric": "영업이익",
+   "value": 322.4,
+   "unit": "억원",
+   "prev": null,
+   "period": "2026-1Q",
+   "source": "DART",
+   "trust": "official",
+   "observed_at": "2026-11-12T16:40:24.679731+00:00"
+  }
+ ],
+ "timeline": [
+  {
+   "kind": "official",
+   "title": "카카오페이 분기보고서 (2026.09)",
+   "source": "DART",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000607",
+   "at": "2026-11-12T16:40:24.679731+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-11-21T11:28:55.642789+00:00",
+  "payload": {
+   "category": "EARNINGS",
+   "anchors": [
+    {
+     "entity": "카카오페이",
+     "metric": "매출액",
+     "value": 3002.9,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    },
+    {
+     "entity": "카카오페이",
+     "metric": "영업이익",
+     "value": 322.4,
+     "unit": "억원",
+     "prev": null,
+     "period": "2026-1Q",
+     "source": "DART"
+    }
+   ],
+   "headlines": [
+    "카카오페이 2026-3Q 실적 공시"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "{\n  \"title\": \"카카오페이 실적 발표\",\n  \"one_liner\": \"카카오페이가 2026년 1분기에 매출 3002.9억원, 영업이익 322.4억원을 기록했어요.\",\n  \"why_now\": \"기업의 실적은 앞으로의 성장 가능성을 보여주는 중요한 지표예요.\",\n  \"impact_line\": \"카카오페이의 실적 발표는 관련 서비스 이용자들에게 영향을 줄 수 있어요.\",\n  \"details\": [\n    \"카카오페이의 2026년 1분기 매출액은 3002.9억원이에요.\",\n    \"카카오페이의 2026년 1분기 영업이익은 322.4억원이에요.\",\n    \"이번 실적은 2026년 1분기 기준이에요.\"\n  ],\n  \"visual_type\": \"earnings_quarterly\",\n  \"effects\": [\n    \"카카오페이의 실적이 좋으면 관련 서비스의 이용이 더 활발해질 수 있어요!\",\n    \"실적이 예상보다 좋지 않으면 관련 서비스의 이용이 줄어들 수 있어요!\"\n  ],\n  \"glossary\": [\n    {\n      \"term\": \"매출액\",\n      \"easy\": \"기업이 물건을 팔거나 서비스를 제공해서 벌어들인 돈이에요.\",\n      \"example\": \"이번 달 빵집 매출액은 1000만원이었어요.\"\n    },\n    {\n      \"term\": \"영업이익\",\n      \"easy\": \"기업이 물건을 팔거나 서비스를 제공해서 번 돈에서, 물건을 만들거나 서비스를 제공하는 데 든 돈을 뺀 거예요.\",\n      \"example\": \"영업이익이 늘면 회사가 더 많은 돈을 벌었다는 뜻이에요.\"\n    }\n  ]\n}",
+  "attempts": [
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 50자 초과(51)",
+     "effects[1] 느낌표 종결 아님"
+    ]
+   },
+   {
+    "model": "gemini-2.5-flash-lite",
+    "errors": [
+     "one_liner 50자 초과(51)"
+    ]
+   }
+  ],
+  "output": {
+   "title": "카카오페이 매출액 3002.9억원",
+   "one_liner": "카카오페이 매출액 3002.9억원으로 발표됐어요",
+   "why_now": null,
+   "details": [
+    "카카오페이 매출액: 3002.9억원",
+    "카카오페이 영업이익: 322.4억원"
+   ],
+   "effects": [],
+   "visual_type": "earnings_quarterly"
+  },
+  "fact_hash": "b33e2834f78a35f30f69c29b3795892e7752222a"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(51)\", \"effects[1] 느낌표 종결 아님\"]}, {\"model\": \"gemini-2.5-flash-lite\", \"errors\": [\"one_liner 50자 초과(51)\"]}]}",
+  "at": "2026-11-21T11:28:55.642739+00:00"
+ },
+ "glossary": [
+  {
+   "term": "영업이익",
+   "easy": "기업이 본업으로 벌어들인 이익이에요.",
+   "example": "장사를 잘했는지 보는 핵심 숫자예요."
+  }
+ ],
+ "related": [
+  {
+   "id": "e70d939c9f402843b",
+   "title": "신한은행 2026-2Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "edf774b1337720d05",
+   "title": "메타넷디지털 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "e71bfc6a5e31b7b91",
+   "title": "HLB글로벌 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "e240ed385b78e8cac",
+   "title": "SK증권제12호스팩 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  },
+  {
+   "id": "e6f1836eb55eb5245",
+   "title": "삼성SDI 2026-3Q 실적 공시",
+   "category": "EARNINGS",
+   "shared": []
+  }
+ ]
+}
