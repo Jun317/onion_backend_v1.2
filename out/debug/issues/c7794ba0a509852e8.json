@@ -1,0 +1,112 @@
+{
+ "id": "c7794ba0a509852e8",
+ "title": "Mortgage rate eases but remains high - The Vindicator",
+ "category": "MACRO",
+ "status": "active",
+ "origin": "cluster",
+ "frozen": 1,
+ "anchor_key": null,
+ "entity_keys": [],
+ "seen_sources": 2,
+ "importance": 90,
+ "created_at": "2026-11-28T17:00:26.664501+00:00",
+ "last_update": "2026-11-28T17:00:26.665352+00:00",
+ "members": [
+  {
+   "id": "45919cefffdca153f8d94676b91d92bf4556a637",
+   "source": "vindy.com",
+   "tier": "wire",
+   "url": "https://www.vindy.com/news/national-news/2026/11/mortgage-rate-eases-but-remains-high/",
+   "title": "Mortgage rate eases but remains high - The Vindicator",
+   "published_at": "2026-11-28T09:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9553
+  },
+  {
+   "id": "27b6752f003d246f4358ae169f0909e0749353ad",
+   "source": "prokerala.com",
+   "tier": "wire",
+   "url": "https://www.prokerala.com/news/articles/a1842121.html",
+   "title": "India growth resilience stands out as GDP exceeds 7 pc in most quarters",
+   "published_at": "2026-11-28T09:15:00+00:00",
+   "is_dup": 0,
+   "sim_to_centroid": 0.9553
+  }
+ ],
+ "anchors": [],
+ "timeline": [
+  {
+   "kind": "headline",
+   "title": "Mortgage rate eases but remains high - The Vindicator",
+   "source": "vindy.com",
+   "url": "https://www.vindy.com/news/national-news/2026/11/mortgage-rate-eases-but-remains-high/",
+   "at": "2026-11-28T09:15:00+00:00"
+  },
+  {
+   "kind": "headline",
+   "title": "India growth resilience stands out as GDP exceeds 7 pc in most quarters",
+   "source": "prokerala.com",
+   "url": "https://www.prokerala.com/news/articles/a1842121.html",
+   "at": "2026-11-28T09:15:00+00:00"
+  }
+ ],
+ "llm": {
+  "model": "template",
+  "created_at": "2026-11-28T17:00:49.539533+00:00",
+  "payload": {
+   "category": "MACRO",
+   "anchors": [],
+   "headlines": [
+    "Mortgage rate eases but remains high - The Vindicator",
+    "India growth resilience stands out as GDP exceeds 7 pc in most quarters"
+   ],
+   "official_lines": []
+  },
+  "raw_response": "",
+  "attempts": [
+   {
+    "model": "",
+    "errors": [
+     "전 프로바이더 응답 실패"
+    ]
+   }
+  ],
+  "output": {
+   "title": "Mortgage rate eases…",
+   "one_liner": "Mortgage rate eases but remains high - The…",
+   "why_now": null,
+   "details": [
+    "Mortgage rate eases but remains high - The Vindicator",
+    "India growth resilience stands out as GDP exceeds 7 pc in most quarters"
+   ],
+   "effects": [],
+   "visual_type": "us_cpi_yoy"
+  },
+  "fact_hash": "2d71462d7cf0b9f6a137f53c889667610aac8028"
+ },
+ "review": {
+  "reason": "{\"summary\": \"LLM 검증 실패 → 템플릿 폴백\", \"attempts\": [{\"model\": \"\", \"errors\": [\"전 프로바이더 응답 실패\"]}]}",
+  "at": "2026-11-28T17:00:49.539403+00:00"
+ },
+ "glossary": [
+  {
+   "term": "GDP",
+   "easy": "한 나라가 일정 기간 벌어들인 값의 총합이에요.",
+   "example": "경제 규모가 얼마나 큰지 보여줘요."
+  }
+ ],
+ "related": [
+  {
+   "id": "ecabd23b6c6ee6016",
+   "title": "한국 소비자물가 2026-09 발표",
+   "category": "MACRO",
+   "shared": []
+  },
+  {
+   "id": "e57ab9b464cbfb0a3",
+   "title": "미국 CPI 2026-09 발표",
+   "category": "MACRO",
+   "shared": []
+  }
+ ]
+}
